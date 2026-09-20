@@ -1009,69 +1009,69 @@
             {
               "key": "A",
               "text": "the impact of technological advances",
-              "text_cn": "科技与自动化飞速进步对传统劳动就业产生的巨大冲击",
+              "text_cn": "技术进步的影响",
               "is_correct": true,
-              "trap_type": "★ 标准正确例证题论点提炼",
+              "trap_type": "★ 标准正确同义概括",
               "analysis": {
-                "practice_status": "笑话直接服务于自动化取代人力的论点，精准锁定正选。",
-                "option_nature": "★ 标准正确例证题论点提炼",
+                "practice_status": "笑话直接服务于自动化机器替代劳动力的论点，体现技术进步的影响，锁定正选。",
+                "option_nature": "★ 标准正确同义概括",
                 "source_sentence": "relates a joke from cotton country about just how much a modern textile mill has been automated... which are more rapidly than ever replacing labor with machines...",
                 "source_translation": "讲述了一个关于现代纺织厂自动化程度到底有多高的笑话……它们以前所未有的速度正在用机器替代人工……",
-                "locator_comparison": "根据例证题解题铁律：例子本身不重要，例子所服务的观点才重要。笑话的引出句明确指出这是为了说明 'just how much a modern textile mill has been automated'（现代纺织厂的自动化程度有多高）；后文进一步阐发论点：'advances in ... technology revolution, which are more rapidly than ever replacing labor with machines'（信息科技革命的飞速进步以前所未有的速度用机器替代了劳动力）。选项 A 的 'the impact of technological advances'（技术进步的冲击）完美统摄了自动化机器对传统制造业人力的残酷挤压与颠覆，例证对位无懈可击。",
+                "locator_comparison": "笑话说明现代纺织厂自动化程度之高，后文紧接着指出信息科技革命正在以极快速度用机器替代劳动力。选项A“the impact of technological advances”（技术进步的影响）准确概括了这一论点，锁定正选。",
                 "writing_perspective": "作者以极富黑色幽默的寓言故事开篇破题，把冷冰冰的技术替代直观具象化，为全篇论证'平庸时代彻底终结'奠定了震撼人心的立论基调，A项精准提炼了作者的设题意图。",
                 "theme_validation": "技术进步与劳动力替代是全文讨论的基石，A项完美契合。",
-                "verdict": "复盘判断：A项深得例证题论点提炼精髓，毫无争议的正选。"
+                "verdict": "复盘判断：笑话旨在说明技术进步对用工和生产方式带来的冲击，正确。"
               }
             },
             {
               "key": "B",
               "text": "the alleviation of job pressure",
-              "text_cn": "自动化极大缓解了现代工人在车间面临的工作压力",
+              "text_cn": "工作压力的缓解",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 严重颠倒悲剧色彩）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "工人都要失业了，狗是防人碰机器，非缓解工作压力，荒谬颠倒，排除。",
-                "option_nature": "干扰项（反向干扰 / 严重颠倒悲剧色彩）",
+                "practice_status": "笑话讽刺人唯一的任务是喂狗且狗防止人碰机器，体现机器对工人的替代，并非缓解工作压力，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "The man is there to feed the dog, and the dog is there to keep the man away from the machines.",
                 "source_translation": "人负责喂狗，而狗负责让人离机器远点。",
-                "locator_comparison": "笑话中狗的作用是让人远离精密机器（keep the man away from the machines），极尽讽刺地表明在高度自动化流水线上，人工操作甚至成了添乱的累赘。这折射出工人丧失工作岗位的深重危机。B 选项竟然美化为 'alleviation of job pressure'（缓解了工作压力）。把工人被边缘化、随时被机器淘汰的生存绝境，粉饰为工作变得轻松惬意，严重颠倒了黑色幽默背后的残酷现实。",
+                "locator_comparison": "笑话表明在高度自动化流水线上，人工操作甚至成了累赘，折射出工人面临被替代的危机，绝非工作压力得到缓解（alleviation of job pressure），排除。",
                 "writing_perspective": "作者通篇在警告技术正在吞噬工作（eating jobs），B项与全篇凝重警示的立意彻底背道而驰。",
                 "theme_validation": "技术进步引发就业焦虑而非减压福利，B项与主旨格格不入，排除。",
-                "verdict": "复盘判断：B项把失业生存危机歪曲为减压减负，坚决排除。"
+                "verdict": "复盘判断：自动化造成岗位减少而非缓解压力，反向干扰，排除。"
               }
             },
             {
               "key": "C",
               "text": "the shrinkage of textile mills",
-              "text_cn": "传统纺织工厂在经济衰退期面临的规模急剧萎缩",
+              "text_cn": "纺织厂的萎缩",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 混淆工厂产能与用工替代）",
+              "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "笑话讽刺的是用工人数少和全自动化，非工厂厂房面积或产业萎缩，偷换概念，排除。",
-                "option_nature": "干扰项（偷换概念 / 混淆工厂产能与用工替代）",
+                "practice_status": "笑话讽刺的是用工人数减少和高度自动化，并非工厂规模萎缩，偷换概念，排除。",
+                "option_nature": "干扰项（偷换概念 / 偏离主干）",
                 "source_sentence": "about just how much a modern textile mill has been automated",
                 "source_translation": "关于现代纺织厂的自动化程度有多高",
-                "locator_comparison": "原文指出的是工厂内部生产流程被'automated'（高度自动化），机器效率大幅提升、所需人工极度减少。这说明纺织业生产力突飞猛进，绝不等于整个纺织行业或工厂物理规模的'shrinkage'（萎缩倒闭）。C项把'机器换人'的生产模式革新，偷换成了行业凋零萎缩，混淆了生产方式与产业规模。",
+                "locator_comparison": "原文指出纺织厂内部生产流程被高度自动化，机器效率大幅提升、所需人工极度减少，并不等同于工厂物理规模或行业的萎缩（shrinkage），偷换概念，排除。",
                 "writing_perspective": "作者后文明确指出工厂还在高效运转，只是不需要普通工人了，C项违背事实逻辑。",
                 "theme_validation": "制造业依然强大但就业不再，C项缺乏事实支撑，排除。",
-                "verdict": "复盘判断：C项混淆自动化转型与行业萎缩，排除。"
+                "verdict": "复盘判断：自动化程度高不等于工厂物理规模萎缩，排除。"
               }
             },
             {
               "key": "D",
               "text": "the decline of middle-class incomes",
-              "text_cn": "美国广大中产阶级家庭实际收入水平的连年下滑",
+              "text_cn": "中产阶级收入的下降",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 错位引用后文宏观现象）",
+              "trap_type": "干扰项（张冠李戴 / 错位引用）",
               "analysis": {
-                "practice_status": "中产收入下滑是后文并列分析的宏观结果，非笑话本身直接说明的现象，以偏概全，排除。",
-                "option_nature": "干扰项（张冠李戴 / 错位引用后文宏观现象）",
+                "practice_status": "中产收入下降是后文提及的技术进步宏观社会后果，并非开篇笑话直接说明的现象，排除。",
+                "option_nature": "干扰项（张冠李戴 / 错位引用）",
                 "source_sentence": "the reason we have such stubbornly high unemployment and declining middle-class incomes today is... advances in... technology revolution",
                 "source_translation": "我们今天面临顽固的高失业率和中产阶级收入下滑的原因在于……技术革命的进步",
-                "locator_comparison": "第1段后半部分确实提到了'declining middle-class incomes'（中产阶级收入下降），但这属于技术进步、大衰退与全球化共同导致的宏观社会经济后果之一。而第一句话中的棉花厂笑话，其直接修饰语和指向对象明确是'how much a modern textile mill has been automated'（纺织厂的自动化程度）。D项直接越过直接论点，抓取后文宏观社会结果，属于典型的因果倒置与修辞对象错位。",
+                "locator_comparison": "中产阶级收入下降（declining middle-class incomes）是后文分析的技术变革宏观后果之一，开篇笑话直接针对的是纺织厂自动化这一具体论点，张冠李戴，排除。",
                 "writing_perspective": "作者行文是由微观笑话直击技术冲击，再展开到中产收入，D项打乱了段落递进节奏。",
                 "theme_validation": "技术颠覆是因，收入下降是果，题目问笑话说明什么，首选直接论点，排除。",
-                "verdict": "复盘判断：D项错位借用后文次生结果，排除。"
+                "verdict": "复盘判断：笑话直接针对自动化现象，非中产收入下降，排除。"
               }
             }
           ],
@@ -1096,69 +1096,69 @@
             {
               "key": "A",
               "text": "work on cheap software",
-              "text_cn": "精通并熟练使用各种廉价的开源软件",
+              "text_cn": "使用廉价软件工作",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 错把替代威胁当核心竞争力）",
+              "trap_type": "干扰项（偷换概念 / 混淆竞争威胁与成功条件）",
               "analysis": {
-                "practice_status": "cheap software是雇主可轻易获取的替代工具，员工用它无法脱颖而出，偷换概念，排除。",
-                "option_nature": "干扰项（偷换概念 / 错把替代威胁当核心竞争力）",
+                "practice_status": "cheap software是雇主用来替代普通员工的工具，并非员工脱颖而出的途径，排除。",
+                "option_nature": "干扰项（偷换概念 / 混淆竞争威胁与成功条件）",
                 "source_sentence": "It can’t when so many more employers have so much more access to so much more above average cheap foreign labor, cheap robotics, cheap software...",
                 "source_translation": "当越来越多的雇主能够以越来越低廉的成本获得大量中等偏上的廉价外国劳动力、廉价机器人、廉价软件时，平庸便无法再维系了……",
-                "locator_comparison": "原文提到 'cheap software'（廉价软件）时，是将其与廉价外国劳工、廉价机器人并列，作为雇主用来淘汰取代普通员工的'竞争威胁'。如果员工只会使用烂大街的廉价软件，自己就会沦为被替代的对象。A项声称要'work on cheap software'，把夺走员工饭碗的外部技术威胁，错当成了员工个人脱颖而出的核心法宝，概念完全混淆。",
+                "locator_comparison": "原文提到'cheap software'（廉价软件）时，是将其作为雇主用来替代普通员工的外部竞争威胁，并非员工脱颖而出、取得成功的法宝，偷换概念，排除。",
                 "writing_perspective": "作者强调员工必须具备不可替代的特长，而使用廉价软件恰恰是最容易被机器自动化的平庸行为，A项逻辑自相矛盾。",
                 "theme_validation": "平庸终结意味着拒绝廉价同质化，A项与全段立意南辕北辙，排除。",
-                "verdict": "复盘判断：A项错把替代威胁当成核心优势，排除。"
+                "verdict": "复盘判断：廉价软件是外部替代威胁非成功条件，排除。"
               }
             },
             {
               "key": "B",
               "text": "ask for a moderate salary",
-              "text_cn": "主动接受并甘于索取微薄适度的中等薪水",
+              "text_cn": "索要适度的薪水",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 严重背离段落核心主旨）",
+              "trap_type": "干扰项（反向干扰 / 违背文意）",
               "analysis": {
-                "practice_status": "段首明确宣告being average won't earn you what it used to，要求中等薪水会被淘汰，排除。",
-                "option_nature": "干扰项（反向干扰 / 严重背离段落核心主旨）",
+                "practice_status": "段首明确宣告平庸时代已经结束，甘于中等薪水无法适应时代要求，排除。",
+                "option_nature": "干扰项（反向干扰 / 违背文意）",
                 "source_sentence": "Being average just won’t earn you what it used to.",
                 "source_translation": "保持平庸绝不会再像过去那样为你赢得应有的回报。",
-                "locator_comparison": "第3段开宗明义宣告：'average is officially over. Being average just won’t earn you what it used to'（平庸时代正式终结，平庸再也无法赚得过去的体面收入）。在这个时代，甘于平庸只会导致薪资被廉价劳工和机器人无限拉低。B 选项建议员工'ask for a moderate salary'（索取中等薪水），实际上就是建议员工自甘平庸、妥协苟活，与作者鼓励大家追求卓越的激情倡议完全对立。",
+                "locator_comparison": "第3段指出平庸时代正式终结（average is officially over），平庸再也无法赚得过去的体面收入。选项建议索要适度薪水与作者鼓励追求卓越的倡议相反，排除。",
                 "writing_perspective": "作者通篇呼吁超越平庸（above average），B项却劝人接受平庸，彻底瓦解了作者的励志主张。",
                 "theme_validation": "对抗自动化必须靠独特创新，自降薪水根本争不过不要钱的算法，B项反向颠倒，排除。",
-                "verdict": "复盘判断：B项甘于平庸的主张与全文思想针锋相对，排除。"
+                "verdict": "复盘判断：平庸时代已终结，甘于平庸不合文意，排除。"
               }
             },
             {
               "key": "C",
               "text": "adopt an average lifestyle",
-              "text_cn": "继续沿袭并安心维持传统的中等生活方式",
+              "text_cn": "采取普通的生活方式",
               "is_correct": false,
-              "trap_type": "干扰项（时态与历史代际错乱 / 否定核心论点）",
+              "trap_type": "干扰项（反向干扰 / 混淆过去与现在）",
               "analysis": {
-                "practice_status": "过去才可能earn an average lifestyle，现在平庸时代彻底结束，属于淘汰的过去式，排除。",
-                "option_nature": "干扰项（时态与历史代际错乱 / 否定核心论点）",
+                "practice_status": "获得中等生活方式属于过去，现在平庸时代已经结束，选项将已被打破的旧模式当成了建议，排除。",
+                "option_nature": "干扰项（反向干扰 / 混淆过去与现在）",
                 "source_sentence": "In the past, workers with average skills... could earn an average lifestyle. But, today, average is officially over.",
                 "source_translation": "在过去，拥有普通技能、从事普通工作的工人能够过上普通体面的生活。但是，今天，平庸正式宣告终结。",
-                "locator_comparison": "第2段提到'earn an average lifestyle'（获得中等体面的生活方式）是属于'In the past'（在过去那个没有全球化和AI竞争的封闭时代）。而第3段用巨型转折词 'But, today, average is officially over' 彻底宣告了这种生活方式的神话破灭。C 选项建议员工继续'adopt an average lifestyle'，不仅混淆了过去与现在的时代界限，更是直接把作者明确宣告死亡的旧观念当成了未来的成功指南，荒谬至极。",
+                "locator_comparison": "获得中等体面的生活方式属于过去未受全球化和科技冲击的时代，如今平庸时代已经终结，选项将已过时的生活方式当成未来的成功指南，排除。",
                 "writing_perspective": "作者正是要打破大众这种安于现状的岁月静好幻想，C项倒退回过去的温水煮青蛙思维，不可接受。",
                 "theme_validation": "时代翻篇是全文核心，C项开历史倒车，排除。",
-                "verdict": "复盘判断：C项错把历史淘汰的生活方式当成功指南，排除。"
+                "verdict": "复盘判断：平庸生活方式属于过去，与文意相反，排除。"
               }
             },
             {
               "key": "D",
               "text": "contribute something unique",
-              "text_cn": "在工作中持续贡献出某种不可替代的独特价值",
+              "text_cn": "贡献独特的价值",
               "is_correct": true,
-              "trap_type": "★ 标准正确结论句原词重现",
+              "trap_type": "★ 标准正确同义替换",
               "analysis": {
-                "practice_status": "unique value contribution原词同义转换为contribute something unique，锁定正选。",
-                "option_nature": "★ 标准正确结论句原词重现",
+                "practice_status": "对应原文everyone needs to find their extra—their unique value contribution，锁定正选。",
+                "option_nature": "★ 标准正确同义替换",
                 "source_sentence": "Therefore, everyone needs to find their extra—their unique value contribution that makes them stand out in whatever is their field of employment.",
                 "source_translation": "因此，每个人都需要找到属于自己的额外优势——即那种能够让他们在自身所处的任何就业领域中脱颖而出的独特价值贡献。",
-                "locator_comparison": "定位句以总结连词 'Therefore'（因此）开门见山给出全段核心结论：'everyone needs to find their extra—their unique value contribution that makes them stand out'。选项 D 将名词短语 'unique value contribution' 纯正转换为动宾结构：'contribute something unique'（贡献独特之物/奉献独特价值）。词义完全对等，高度提炼了作者为职场人士开出的唯一生存处方。",
+                "locator_comparison": "定位句明确给出结论：'everyone needs to find their extra—their unique value contribution that makes them stand out'。选项D'contribute something unique'同义替换精准，锁定正选。",
                 "writing_perspective": "作者层层推进：先破除平庸神话，再列举廉价自动化威胁，最终顺理成章推导出个人立身之本唯有'独特性'，D项逻辑收束无比强劲有力。",
                 "theme_validation": "提供差异化独特价值是战胜机器自动化的唯一法门，D项完美契合主旨。",
-                "verdict": "复盘判断：D项与结论句毫厘不差，正选无疑。"
+                "verdict": "复盘判断：unique value contribution对应contribute something unique，正确。"
               }
             }
           ],
@@ -1183,69 +1183,69 @@
             {
               "key": "A",
               "text": "gains of technology have been erased",
-              "text_cn": "过去数十年来取得的技术进步成果已被全盘抹去",
+              "text_cn": "技术进步的成果已被抹去",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 歪曲被抹去的客体）",
+              "trap_type": "干扰项（偷换概念 / 篡改客体）",
               "analysis": {
-                "practice_status": "抹去的是过去70年的就业增幅，非技术成果，偷换宾语，排除。",
-                "option_nature": "干扰项（偷换概念 / 歪曲被抹去的客体）",
+                "practice_status": "抹去的是过去70年制造业增加的就业岗位，而非技术本身的成果，偷换概念，排除。",
+                "option_nature": "干扰项（偷换概念 / 篡改客体）",
                 "source_sentence": "factories shed workers so fast that they erased almost all the gains of the previous 70 years; roughly one out of every three manufacturing jobs... disappeared.",
                 "source_translation": "工厂裁员速度如此之快，以至于几乎抹去了此前70年的所有增长；大约三分之一的制造业岗位消失了。",
-                "locator_comparison": "原文指出工厂裁员之猛烈，使得它们 'erased almost all the gains of the previous 70 years'（抹去了此前70年积累的增长成果），破折号后立即解释这指的是制造业岗位的大灭绝（one out of three manufacturing jobs disappeared）。抹去的是【就业岗位增长】。A项使用 'gains of technology'（技术的成果），把就业岗位的抹去偷换成了科学技术成果被抹去，完全违背了科技突飞猛进的基本常理与原文陈述。",
+                "locator_comparison": "原文指出工厂裁员之猛烈抹去了此前70年积累的就业增长（one out of three manufacturing jobs disappeared），抹去的是就业岗位增长，并非技术进步成果被抹去，排除。",
                 "writing_perspective": "科技非但没有被抹去，反而正在加速爆发（acceleration），正是技术的疯狂进步抹杀了就业，A项因果黑白颠倒。",
                 "theme_validation": "技术猛进导致岗位消失，A项概念严重倒错，排除。",
-                "verdict": "复盘判断：A项偷换核心宾语，坚决排除。"
+                "verdict": "复盘判断：抹去的是就业增长非技术成果，排除。"
               }
             },
             {
               "key": "B",
               "text": "job opportunities are disappearing at a high speed",
-              "text_cn": "传统制造业的工作机会正在以惊人的极高速度飞速消失",
+              "text_cn": "工作机会正以极快速度消失",
               "is_correct": true,
-              "trap_type": "★ 标准正确数据引用意图提炼",
+              "trap_type": "★ 标准正确同义概括",
               "analysis": {
-                "practice_status": "shed workers so fast与jobs disappeared的完美抽象概括，锁定正选。",
-                "option_nature": "★ 标准正确数据引用意图提炼",
+                "practice_status": "对应原文shed workers so fast和one out of three manufacturing jobs disappeared，锁定正选。",
+                "option_nature": "★ 标准正确同义概括",
                 "source_sentence": "factories shed workers so fast that they erased almost all the gains... roughly one out of every three manufacturing jobs—about 6 million in total—disappeared.",
                 "source_translation": "工厂裁员的速度如此之快，抹去了过去70年的增幅；大约三分之一的制造业工作岗位——总共约600万个——彻底消失了。",
-                "locator_comparison": "引文前一句是论点：'new technology has been eating jobs... there’s been an acceleration'（新技术正在加速吞噬工作）。引文数据则提供震撼弹：工厂裁员 'so fast'（如此之快）；短短十年内三分之一的制造业工作岗位、多达600万个就业机会彻底 'disappeared'（凭空蒸发消失）。选项 B 将 'shed workers so fast' 与 'jobs disappeared' 极其精准地归纳为：'job opportunities are disappearing at a high speed'（就业机会正以极高速度消亡）。主谓宾严密对应，论据论点高度统一。",
+                "locator_comparison": "原文引文指出工厂裁员'so fast'，短短十年内三分之一的制造业工作岗位彻底消失（disappeared）。选项B'job opportunities are disappearing at a high speed'概括精准，锁定正选。",
                 "writing_perspective": "作者引入戴维森的震撼统计，用'十年抹平七十年'的触目惊心现实，为前文'新技术加速吞噬就业'提供了无可辩驳的坚实实证论据，B项完全匹配这一论证功能。",
                 "theme_validation": "就业蒸发速度空前是全文警示的核心，B项准确传达主旨。",
-                "verdict": "复盘判断：B项数据提炼准确工整，正选无疑。"
+                "verdict": "复盘判断：shed workers fast与jobs disappeared对应快速消失，正确。"
               }
             },
             {
               "key": "C",
               "text": "factories are making much less money than before",
-              "text_cn": "全美工厂的实际盈利能力与过去相比大幅缩水",
+              "text_cn": "工厂赚的钱比以前少得多",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 错把失业当企业亏损）",
+              "trap_type": "干扰项（无中生有 / 主观臆断）",
               "analysis": {
-                "practice_status": "工厂裁员应用自动化往往利润暴涨，且文中未提利润缩水，无中生有，排除。",
-                "option_nature": "干扰项（无中生有 / 错把失业当企业亏损）",
+                "practice_status": "引文强调的是制造业用工急剧减少，并未提及工厂利润大幅缩水，无中生有，排除。",
+                "option_nature": "干扰项（无中生有 / 主观臆断）",
                 "source_sentence": "factories shed workers so fast... one out of every three manufacturing jobs... disappeared.",
                 "source_translation": "工厂裁员如此迅速……三分之一的制造业岗位消失了。",
-                "locator_comparison": "原文引文通篇都在聚焦于'工人岗位数量的剧减'（shed workers / jobs disappeared）。在商业实践中，工厂通过机器人替代工人，大幅削减了人工成本，其生产效率和利润往往大幅上升。原文压根没有提及工厂赚的钱在减少（making much less money）。C项无中生有地将劳动力就业的萎缩，臆测为工厂利润的亏损，违背商业常识。",
+                "locator_comparison": "原文聚焦于工人岗位数量的急剧缩减，工厂通过机器替代人工降低成本并不等于工厂盈利能力缩水，文中并未提及工厂利润减少，排除。",
                 "writing_perspective": "作者讨论的是技术对劳动阶层的无情碾压，而非资本家的盈利困境，C项跑题。",
                 "theme_validation": "资方获利而劳方受难是现代不平等的根源，C项颠倒是非，排除。",
-                "verdict": "复盘判断：C项凭空捏造工厂亏损细节，排除。"
+                "verdict": "复盘判断：裁员不等于利润缩水，文中未提及，排除。"
               }
             },
             {
               "key": "D",
               "text": "new jobs and services have been offered",
-              "text_cn": "市场上已经涌现出了大量全新的高薪工作与服务业门类",
+              "text_cn": "已经提供了新的工作和服务",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 错置段落行文逻辑）",
+              "trap_type": "干扰项（时态与位置错位）",
               "analysis": {
-                "practice_status": "第5段才说将有新工作，且第4段引文全在讲旧岗位毁灭，时间层次错位，排除。",
-                "option_nature": "干扰项（张冠李戴 / 错置段落行文逻辑）",
+                "practice_status": "第5段才谈到未来可能会创造新产品与新服务，第4段引文着重阐述过去传统岗位的急剧消失，排除。",
+                "option_nature": "干扰项（时态与位置错位）",
                 "source_sentence": "roughly one out of every three manufacturing jobs—about 6 million in total—disappeared.",
                 "source_translation": "大约每三个制造业工作岗位中就有一个——总计约600万个——消失了。",
-                "locator_comparison": "原文第5段首句虽然提到未来总会有变革带来新产品与新服务（new jobs, new products, new services），但在第4段的引文中，作者全篇都在控诉过去十年中传统制造业岗位遭到毁灭性削减的惨状（6 million jobs disappeared）。D 选项把第5段对未来的抽象预言，错置为第4段引文所解释的事实，属于明显的移花接木与行文时态倒错。",
+                "locator_comparison": "第5段首句提到未来可能会带来新产品与新服务，但在第4段引文中，作者全在阐述过去十年中传统制造业岗位遭到削减的事实，选项时态与位置错位，排除。",
                 "writing_perspective": "第4段引文的功能是承接前句的'eating jobs'（摧毁工作），若是讲提供新工作，论证逻辑便前后矛盾，D项割裂了段落语篇结构。",
                 "theme_validation": "旧工作的高速毁灭是当前最大痛点，D项脱离引文核心，排除。",
-                "verdict": "复盘判断：D项时态与段落行文错位，排除。"
+                "verdict": "复盘判断：第4段全在讲旧岗位消失，新工作在第5段，排除。"
               }
             }
           ],
@@ -1270,69 +1270,69 @@
             {
               "key": "A",
               "text": "to accelerate the I.T. revolution",
-              "text_cn": "进一步不遗余力地加速信息技术（I.T.）革命的升级换代",
+              "text_cn": "加速信息技术革命",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒病因与对策）",
+              "trap_type": "干扰项（因果颠倒 / 错把病因当对策）",
               "analysis": {
-                "practice_status": "技术革命正在摧毁工作，再加速会导致更多人失业，反向颠倒，排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒病因与对策）",
+                "practice_status": "信息技术革命是导致机器替代人工的诱因，加速IT革命不能直接解决失业问题，排除。",
+                "option_nature": "干扰项（因果颠倒 / 错把病因当对策）",
                 "source_sentence": "advances in both globalization and the information technology revolution, which are more rapidly than ever replacing labor with machines...",
                 "source_translation": "全球化和信息技术革命的进步，以前所未有的速度正在用机器替代劳动力……",
-                "locator_comparison": "第1段开篇明确指出，正是信息技术革命（I.T. revolution）的高速推进导致了机器大面积替代人工，造成了顽固的高失业率。也就是说，IT革命是导致失业的'病因'。A项建议通过'加速IT革命'来解决失业问题，无异于饮鸩止渴、火上浇油。严重颠倒了病因与解药的关系。",
+                "locator_comparison": "第1段明确指出正是信息技术革命推进了机器替代人工，造成了高失业率。IT革命是诱发失业的因素之一，选项建议加速IT革命属于错把病因当对策，排除。",
                 "writing_perspective": "作者通篇在反思技术狂飙对普通劳动者的冲击，呼吁通过教育筑起防线，绝非号召无节制加速机器迭代，A项违背作者初衷。",
                 "theme_validation": "以人为本的教育托底是对抗冷酷技术的救赎，A项本末倒置，排除。",
-                "verdict": "复盘判断：A项错把技术病因当治病良药，坚决排除。"
+                "verdict": "复盘判断：IT革命是机器替代人工的原因，加速它不能减失业，排除。"
               }
             },
             {
               "key": "B",
               "text": "to ensure more education for people",
-              "text_cn": "从制度上切实确保广大民众能够接受更多、更好的深造教育",
+              "text_cn": "确保人们接受更多教育",
               "is_correct": true,
-              "trap_type": "★ 标准正确最高级同义对等转述",
+              "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "nothing more important than ensure access to post-high school education直击正选，锁定B。",
-                "option_nature": "★ 标准正确最高级同义对等转述",
+                "practice_status": "对应原文nothing would be more important than... ensures that every American has access to post-high school education，锁定正选。",
+                "option_nature": "★ 标准正确同义改写",
                 "source_sentence": "nothing would be more important than passing some kind of G.I. Bill for the 21st century that ensures that every American has access to post-high school education.",
                 "source_translation": "没有什么比通过某种形式的21世纪《军人安置法案》更重要的了，以确保每个美国人都能获得高中以上的深造教育。",
-                "locator_comparison": "题干问的是最重要的事情（the most important is），定位句中使用了极度强烈的最高级双重否定：'nothing would be more important than ...'（没有什么比……更重要）。句末明确交代了这项最重要事情的根本目标：'ensures that every American has access to post-high school education'（确保每个美国人都能接受高中以上的深造教育）。选项 B 将其精准提炼为：'to ensure more education for people'（确保人们获得更多教育）。动宾完全契合，最高级逻辑严丝合缝。",
+                "locator_comparison": "定位句使用最高级双重否定指出最重要的事情是：'nothing would be more important than... ensures that every American has access to post-high school education'。选项B将其精准提炼为'to ensure more education for people'，锁定正选。",
                 "writing_perspective": "作者在全篇末尾提出建设性终极方案：既然机器能做平庸的工作，人类唯有通过更高层次的高等教育（above average）才能掌握机器无法替代的技能，B项统领全文思想归宿。",
                 "theme_validation": "教育普及与技能重塑是全篇对抗自动化的唯一点睛之笔，正选无疑。",
-                "verdict": "复盘判断：B项最高级句型同义对位完美，毫无争议的正选。"
+                "verdict": "复盘判断：access to education精准对应ensure more education，正确。"
               }
             },
             {
               "key": "C",
               "text": "to advance economic globalization",
-              "text_cn": "在全球范围内进一步大力推进深度经济全球化进程",
+              "text_cn": "推进经济全球化",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 错把冲击来源当解决方案）",
+              "trap_type": "干扰项（反向干扰 / 错把冲击当对策）",
               "analysis": {
-                "practice_status": "全球化使得廉价劳动力涌入冲击国内就业，是冲击来源非解决对策，排除。",
-                "option_nature": "干扰项（反向干扰 / 错把冲击来源当解决方案）",
+                "practice_status": "全球化对普通劳动力提出了更高要求，也是就业冲击来源之一，并非降低失业的良方，排除。",
+                "option_nature": "干扰项（反向干扰 / 错把冲击当对策）",
                 "source_sentence": "the reason we have such stubbornly high unemployment... is also because of the advances in both globalization and the information technology revolution...",
                 "source_translation": "我们面临如此顽固的高失业率……也是因为全球化和信息技术革命的推进……",
-                "locator_comparison": "与 A 选项如出一辙，全球化（globalization）在第1段中被明确界定为导致国内制造业空心化、廉价外国劳动力冲击本土饭碗的核心推手之一。第5段更指出随着全球化的每一次推进，对工人的要求就更高。C项宣称要通过'推进经济全球化'来解决失业，同样是错把带来失业挑战的外部冲击当成了救助对策，因果逻辑倒错。",
+                "locator_comparison": "全球化在文中被界定为促成廉价劳动力竞争、对本国就业带来挑战的外部推手之一，并非解决失业的良药，因果逻辑倒错，排除。",
                 "writing_perspective": "作者承认全球化是不可阻挡的历史进程，但重点强调国内必须靠教育自强，绝非把赌注押在进一步全球化上，C项偏离论题。",
                 "theme_validation": "对策落在教育投资而非继续放任外包，C项跑题，排除。",
-                "verdict": "复盘判断：C项混淆挑战成因与应对良策，排除。"
+                "verdict": "复盘判断：全球化是冲击背景非解决对策，排除。"
               }
             },
             {
               "key": "D",
               "text": "to pass more bills in the 21st century",
-              "text_cn": "在21世纪的国会中督促通过更多繁复的法律议案",
+              "text_cn": "在21世纪通过更多法案",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 错把立法工具当核心目标）",
+              "trap_type": "干扰项（偷换概念 / 错把立法形式当核心目的）",
               "analysis": {
-                "practice_status": "法案只是确保全民教育的立法工具，核心是教育而非立法数量，形式化理解，排除。",
-                "option_nature": "干扰项（偷换概念 / 错把立法工具当核心目标）",
+                "practice_status": "法案只是确保全民教育的政策工具，核心在于教育而非单纯追求法案数量，排除。",
+                "option_nature": "干扰项（偷换概念 / 错把立法形式当核心目的）",
                 "source_sentence": "nothing would be more important than passing some kind of G.I. Bill for the 21st century that ensures that every American has access to post-high school education.",
                 "source_translation": "没有什么比通过某种21世纪的军人法案以确保每个美国人都能获得高中后教育更重要的了。",
-                "locator_comparison": "原文提到的 'passing some kind of G.I. Bill for the 21st century' 是借用二战后美国通过《退伍军人法案》全额资助军人上大学这一伟大的历史先例，作为实现'全民高等教育'的政策工具。其核心目的与本质完全落实在定语从句 'ensures education'（确保全民深造）上。D 选项无脑抽离了教育这一核心内核，表面化地改写为要'通过更多法案'（pass more bills），把立法的手段当成了目的，舍本逐末。",
+                "locator_comparison": "原文提到通过21世纪的退伍军人法案是为了实现全民高等教育的政策工具，其核心在于确保深造教育，并非追求通过更多法案的形式本身，排除。",
                 "writing_perspective": "作者呼吁的是一场教育维度的举国体制投资，D项窄化为国会刷法案KPI，流于政治形式主义，严重违背文意。",
                 "theme_validation": "教育是根本，法案是载体，D项偷换本质，排除。",
-                "verdict": "复盘判断：D项舍本逐末，错把立法工具当核心目的，排除。"
+                "verdict": "复盘判断：通过法案是手段非目的，排除。"
               }
             }
           ],
@@ -1357,69 +1357,69 @@
             {
               "key": "A",
               "text": "New Law Takes Effect",
-              "text_cn": "国家全新法律正式生效落地",
+              "text_cn": "新法律生效",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 错把未来建议当既成法律）",
+              "trap_type": "干扰项（无中生有 / 错把建议当事实）",
               "analysis": {
-                "practice_status": "法案只是末段呼吁借鉴历史的建议，从未生效，以偏概全，排除。",
-                "option_nature": "干扰项（无中生有 / 错把未来建议当既成法律）",
+                "practice_status": "法案只是作者建议借鉴历史经验的提议，并未成为已经生效的法律，排除。",
+                "option_nature": "干扰项（无中生有 / 错把建议当事实）",
                 "source_sentence": "nothing would be more important than passing some kind of G.I. Bill for the 21st century...",
                 "source_translation": "没有什么比通过某种形式的21世纪军人法案更重要的了……",
-                "locator_comparison": "原文第5段仅仅是作者向社会呼吁，希望立法机构能像当年通过军人法案那样设立政策（passing some kind of G.I. Bill），这只是一项前瞻性的政策倡议与设想。全美根本没有出台任何一部已经'Takes Effect'（正式生效实施）的新法。A项把作者个人的未竟倡议，虚构为重大法律生效的新闻头条，完全脱离文章事实。",
+                "locator_comparison": "法案只是末段呼吁借鉴历史经验的政策建议，现实中并未出台更未生效落地，无中生有，排除。",
                 "writing_perspective": "本文是一篇深刻剖析经济就业结构转型的长篇深度专栏社论，绝非一条普通的立法快讯，A项文体与内容双重错位。",
                 "theme_validation": "全文讨论时代转型而非具体法案生效，排除。",
-                "verdict": "复盘判断：A项无中生有且文体错位，排除。"
+                "verdict": "复盘判断：新法生效非既成事实，排除。"
               }
             },
             {
               "key": "B",
               "text": "Technology Goes Cheap",
-              "text_cn": "现代技术日益变得廉价平民化",
+              "text_cn": "技术变得廉价",
               "is_correct": false,
-              "trap_type": "干扰项（以偏概全 / 错抓第三段次要修饰细节）",
+              "trap_type": "干扰项（以偏概全 / 局部细节干扰）",
               "analysis": {
-                "practice_status": "cheap software只是雇主武器的细节修饰，非全文论述核心，以偏概全，排除。",
-                "option_nature": "干扰项（以偏概全 / 错抓第三段次要修饰细节）",
+                "practice_status": "cheap software只是第3段提及的局部细节，无法概括全篇关于平庸时代终结与教育应对的主旨，排除。",
+                "option_nature": "干扰项（以偏概全 / 局部细节干扰）",
                 "source_sentence": "employers have so much more access to so much more above average cheap foreign labor, cheap robotics, cheap software...",
                 "source_translation": "雇主越来越容易获得远高于平均水平的廉价外国劳工、廉价机器人和廉价软件……",
-                "locator_comparison": "'Technology Goes Cheap'（技术变得廉价）仅仅借用了第3段中列举雇主拥有'cheap robotics, cheap software'的局部修饰词。作者提及技术廉价，是为了说明普通工人的工作为什么保不住，其核心立论的重心在于【劳动者的命运与平庸时代的瓦解】，绝不是为了专门去科普为什么科技产品变便宜了。B项抓取从属论据当标题，严重以偏概全。",
+                "locator_comparison": "廉价软件只是第3段分析雇主武器时提及的局部论据，无法统摄全文关于平庸时代终结和大力提倡教育的主旨，以偏概全，排除。",
                 "writing_perspective": "作者通篇在为劳动阶层的前途命运焦虑奔走，而非探讨科技产业的降本曲线，B项偏离作者人文关怀视角。",
                 "theme_validation": "核心是劳动力市场的颠覆，B项跑题，排除。",
-                "verdict": "复盘判断：B项以微观次要论据替代全局主题，排除。"
+                "verdict": "复盘判断：局部细节，无法统领全篇，排除。"
               }
             },
             {
               "key": "C",
               "text": "Average Is Over",
-              "text_cn": "平庸时代正式宣告终结（Average Is Over）",
+              "text_cn": "平庸时代已经终结",
               "is_correct": true,
-              "trap_type": "★ 标准正确全文主旨灵魂标题",
+              "trap_type": "★ 标准正确全文主旨标题",
               "analysis": {
-                "practice_status": "全文最震撼、重复两次的核心文眼，精准统率全篇灵魂，锁定正选。",
-                "option_nature": "★ 标准正确全文主旨灵魂标题",
+                "practice_status": "反复出现的核心论点“average is officially over”，精准概括全文对劳动者不能再甘于平庸的核心主旨，锁定正选。",
+                "option_nature": "★ 标准正确全文主旨标题",
                 "source_sentence": "In the past, workers with average skills... could earn an average lifestyle. But, today, average is officially over. Being average just won’t earn you what it used to... In a world where average is officially over...",
                 "source_translation": "在过去，拥有普通技能的工人能够过上普通生活。但是，今天，平庸正式宣告终结。保持平庸再也不能为你赚得过去的体面生活了……在一个平庸正式宣告终结的世界里……",
-                "locator_comparison": "通览全篇，'Average is over'（平庸已死/平庸时代终结）是作者倾注全部心血反复提炼的核心警世恒言。第3段以独句成段的高规格斩钉截铁定调：'today, average is officially over'，指出普通技能再也换不来普通体面生活；第5段再次以 'In a world where average is officially over' 作为全社会自救的前提框架。无论是一人一狗对普通人力的淘汰、对独特价值贡献（extra/unique）的呼唤，还是对超越平庸的高等教育的渴求，全篇5个段落无一不是围绕着'Average Is Over'展开的深度推演。选项 C 极其震撼、简练、传神地抓住了全篇最高灵魂文眼，是完美的满分标题。",
+                "locator_comparison": "全文核心论点为第3段开宗明义的'Average is officially over'，贯穿了技术替代普通劳动、每个人必须寻找独特价值以及全社会通过教育重塑竞争力的主旨，锁定正选。",
                 "writing_perspective": "作者深谙畅销政论专栏的传播精髓，用一句短促有力的口号式断言击碎公众幻想，C项完美复现了这一思想锋芒与警世价值。",
                 "theme_validation": "时代巨变的核心概括，全文论述的真正母题，正选无疑。",
-                "verdict": "复盘判断：C项统摄全局、直击文眼，正选无疑。"
+                "verdict": "复盘判断：Average Is Over为全文核心文眼，正确。"
               }
             },
             {
               "key": "D",
               "text": "Recession Is Bad",
-              "text_cn": "经济大衰退带来的危害极其糟糕",
+              "text_cn": "经济衰退是糟糕的",
               "is_correct": false,
-              "trap_type": "干扰项（以偏概全 / 浮于表面的肤浅常识）",
+              "trap_type": "干扰项（以偏概全 / 过于宽泛）",
               "analysis": {
-                "practice_status": "大衰退只是第1段提及的诱因之一，且重点是科技与平庸，口号化肤浅，排除。",
-                "option_nature": "干扰项（以偏概全 / 浮于表面的肤浅常识）",
+                "practice_status": "经济衰退只是背景之一，文章重心在于技术替代人力与平庸时代的终结，排除。",
+                "option_nature": "干扰项（以偏概全 / 过于宽泛）",
                 "source_sentence": "is largely because of the big drop in demand because of the Great Recession, but it is also because of the advances in both globalization...",
                 "source_translation": "很大程度上是因为大衰退导致的严重需求下滑，但也是因为全球化和技术革命的推进……",
-                "locator_comparison": "第1段后半句提到大衰退（Great Recession），只是作为高失业率的宏观短期背景诱因之一，作者紧接着用 'but it is also because of' 强调真正的深层结构性动因是技术革命与全球化，后文更完全转向了平庸能力的终结与终身教育。D 选项的 'Recession Is Bad'（经济衰退很糟糕）不仅把大衰退这一局部背景当作主题，其表述更是流于一句毫无营养的幼儿园式废话常识，完全失去了文章对技术颠覆与教育重构的深刻洞察。",
+                "locator_comparison": "大衰退只是第1段提及的背景诱因之一，文章核心在于科技替代与平庸时代的终结，选项过于肤浅和泛化，排除。",
                 "writing_perspective": "作者要探讨的是穿越周期的深远时代变革，衰退只是表象，D项极度肤浅化，排除。",
                 "theme_validation": "与平庸时代的终结毫无呼应，排除。",
-                "verdict": "复盘判断：D项以局部背景替代主旨，言语贫乏，坚决排除。"
+                "verdict": "复盘判断：衰退只是背景，非文章核心，排除。"
               }
             }
           ],
@@ -3004,69 +3004,69 @@
             {
               "key": "A",
               "text": "stay in a foreign country temporarily",
-              "text_cn": "仅在异国他乡进行短暂短期的临时居留与工作",
+              "text_cn": "在外国临时居留",
               "is_correct": true,
-              "trap_type": "★ 标准正确隐喻定义同义改写",
+              "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "had no intention to stay and go home精准对位stay temporarily，锁定正选。",
-                "option_nature": "★ 标准正确隐喻定义同义改写",
+                "practice_status": "对应原文had no intention to stay permanently，赚了钱就回老家，即临时居留，锁定正选。",
+                "option_nature": "★ 标准正确同义改写",
                 "source_sentence": "came those who had no intention to stay, and who would make some money and then go home... birds of passage.",
                 "source_translation": "随之而来的是那些毫无留居意图的人，他们赚了些钱就会回老家……候鸟。",
-                "locator_comparison": "定位句给出了'候鸟'（birds of passage）无比清晰的原版定义：'had no intention to stay, and who would make some money and then go home'（根本无意长期停留居留，赚了钱就返回祖国老家）。后文举例说明有四分之一的意大利移民最终永远回到了意大利。选项 A 将 'no intention to stay ... make money and then go home' 提炼为规范的书面语：'stay in a foreign country temporarily'（在外国临时停留居留）。完全契合候鸟随季节迁徙、暂住即飞的本质特征。",
+                "locator_comparison": "原文明确指出早期候鸟移民'had no intention of staying, and more than a third of them go home'，强调其临时性居留。选项A'stay in a foreign country temporarily'精准对位，锁定正选。",
                 "writing_perspective": "作者在首段通过还原一个世纪前的历史常态，意在破除当下美国对移民只有'永久定居'或'彻底驱逐'的僵化二元对立，A项作为文章立论基石的准确定义，至关重要。",
                 "theme_validation": "流动性与临时性是候鸟概念的灵魂，A项毫厘不差。",
-                "verdict": "复盘判断：A项概念提炼精准典雅，正选无疑。"
+                "verdict": "复盘判断：无意长留且多数回国对应临时居留，正确。"
               }
             },
             {
               "key": "B",
               "text": "leave their home countries for good",
-              "text_cn": "为了追寻梦想而永远彻底告别离开自己的祖国",
+              "text_cn": "永远离开自己的祖国",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 严重颠倒居留意图）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "候鸟是赚了钱就回老家，选项说for good永远离开，完全相反，排除。",
-                "option_nature": "干扰项（反向干扰 / 严重颠倒居留意图）",
+                "practice_status": "for good意为永久，而候鸟移民是临时居留、最终要回国，与文意相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "who had no intention to stay, and who would make some money and then go home... eventually returned to Italy for good.",
                 "source_translation": "他们无意留下，赚点钱就会回家……最终永远返回了意大利。",
-                "locator_comparison": "原文指出候鸟们是 'had no intention to stay'（没有留在美国的意图），他们是 'returned to Italy for good'（永远返回了意大利！for good意为永久地）。而 B 选项竟然指鹿为马，宣称他们是 'leave their home countries for good'（永远离开自己的祖国）。把永远回老家，反向颠倒成了永远抛弃祖国。属于典型的反向颠倒考点词性陷阱。",
+                "locator_comparison": "候鸟移民的特点是赚了钱就回老家，选项声称'for good'（永远离开），与文意完全相反，排除。",
                 "writing_perspective": "如果他们永远离开祖国，那就是传统意义上的定居型移民（settlers），候鸟的迁徙隐喻便不攻自破，B项违背基本文意。",
                 "theme_validation": "候鸟的核心是心系故土、随时回流，B项概念颠倒，排除。",
-                "verdict": "复盘判断：B项把永久回国反向颠倒为背井离乡，坚决排除。"
+                "verdict": "复盘判断：for good与候鸟往返特质相反，排除。"
               }
             },
             {
               "key": "C",
               "text": "immigrate across the Atlantic",
-              "text_cn": "历经千难万险专门跨越大西洋前往美洲大陆移民",
+              "text_cn": "横渡大西洋移民",
               "is_correct": false,
-              "trap_type": "干扰项（以偏概全 / 错把地理背景当概念本质）",
+              "trap_type": "干扰项（以偏概全 / 局部历史背景）",
               "analysis": {
-                "practice_status": "跨大西洋只是百年前那批候鸟的地理路径，非候鸟概念的本质属性，抓枝节，排除。",
-                "option_nature": "干扰项（以偏概全 / 错把地理背景当概念本质）",
+                "practice_status": "跨越大西洋只是早期历史案例的地理特征，并非候鸟移民的本质定义，排除。",
+                "option_nature": "干扰项（以偏概全 / 局部历史背景）",
                 "source_sentence": "A century ago, the immigrants from across the Atlantic included settlers and sojourners.",
                 "source_translation": "一个世纪前，横跨大西洋而来的移民既包括定居者，也包括寄居者。",
-                "locator_comparison": "原文首句虽然提到了 'from across the Atlantic'（跨越大西洋而来），但这仅仅是交代一个世纪前欧洲人赴美淘金的历史地理路径。到了第三段，作者明确指出今天的候鸟包括全球各地的各种现代人才，流动方向绝不仅限于横跨大西洋。C项将历史特定的地理细节，硬塞为'候鸟'的普遍定义，以偏概全、舍本逐末。",
+                "locator_comparison": "跨越大西洋只是百年前那批早期欧洲移民的地理路径，并非候鸟移民这一概念的本质属性，抓次要枝节，排除。",
                 "writing_perspective": "作者旨在提炼超越时代和地域的人口流动规律，C项把视野狭隘局限于大西洋航线，违背作者广义引申的初衷。",
                 "theme_validation": "候鸟的本质是流动性而非某条航线，C项跑题，排除。",
-                "verdict": "复盘判断：C项以局部历史航线替代普遍流动本质，排除。"
+                "verdict": "复盘判断：地理路径非概念本质，排除。"
               }
             },
             {
               "key": "D",
               "text": "find permanent jobs overseas",
-              "text_cn": "一心渴望在海外发达国家谋得一份终身永久的固定工作",
+              "text_cn": "在海外寻找永久工作",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 严重颠倒工作性质）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "原文明确说只想赚点钱就走，无意永久居留，与permanent完全对立，排除。",
-                "option_nature": "干扰项（反向干扰 / 严重颠倒工作性质）",
+                "practice_status": "候鸟移民是顺应机会临时打工，并无意寻找永久固定工作，与permanent相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "who had no intention to stay, and who would make some money and then go home.",
                 "source_translation": "他们无意留下，只想赚了钱就返回故乡。",
-                "locator_comparison": "原文明确指明定居型移民才是 'looking to make a permanent home'（寻求建立永久家园），而候鸟型寄居者恰恰与之形成对照：'no intention to stay, and who would make some money and then go home'（无意留下，打零工赚了钱就走）。D 选项使用 'permanent jobs'（永久固定的工作），将候鸟随波逐流的打工流动性，彻底篡改为安家落户的终身职业追求。与事实背道而驰。",
+                "locator_comparison": "原文明确指出候鸟移民无意长期居留，其工作具有流动性与周期性，与'permanent jobs'（永久固定工作）直接对立，排除。",
                 "writing_perspective": "候鸟随机会而迁徙（come and go as opportunity calls），终身永久岗位直接扼杀了候鸟的迁徙自由，D项在行文逻辑上立不住脚。",
                 "theme_validation": "临时性是候鸟特征，永久性是定居者特征，D项张冠李戴，排除。",
-                "verdict": "复盘判断：D项反向颠倒工作性质与居留意图，排除。"
+                "verdict": "复盘判断：临时流动与永久工作相反，排除。"
               }
             }
           ],
@@ -3091,69 +3091,69 @@
             {
               "key": "A",
               "text": "needs new immigrant categories",
-              "text_cn": "迫切亟需划分并增设更加繁复精细的全新移民类别",
+              "text_cn": "需要新的移民类别",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 严重颠倒原文否定论断）",
+              "trap_type": "干扰项（反向干扰 / 否定原文论断）",
               "analysis": {
-                "practice_status": "原文明确说We don't need more categories，直接打脸，反向排除。",
-                "option_nature": "干扰项（反向干扰 / 严重颠倒原文否定论断）",
+                "practice_status": "原文明确指出We don't need more categories，直接矛盾，排除。",
+                "option_nature": "干扰项（反向干扰 / 否定原文论断）",
                 "source_sentence": "We don’t need more categories, but we need to change the way we think about categories.",
                 "source_translation": "我们不需要更多的类别，而是需要改变我们思考类别的方式。",
-                "locator_comparison": "定位句中作者斩钉截铁写道：'We don't need more categories'（我们根本不需要增设更多的分类！）。作者呼吁的是改变思维模式、跳出非黑即白的死板分类。A项宣称美国移民系统'needs new immigrant categories'（需要全新的移民类别），直接把作者白纸黑字明确否定的做法当作自己的建议，反向颠倒到了极点。",
+                "locator_comparison": "原文在第2段白纸黑字写道：'We don’t need more categories'。选项A声称需要新的移民类别，直接否定了原文明确论断，反向排除。",
                 "writing_perspective": "作者批判正是因为死板机械的标签分类导致了制度瘫痪，增设类别只会加剧混乱，A项彻底违背作者立论逻辑。",
                 "theme_validation": "超越机械类别是本段思想精髓，A项开历史倒车，排除。",
-                "verdict": "复盘判断：A项与原文明确否定句针锋相对，坚决排除。"
+                "verdict": "复盘判断：原文明确说不需要更多类别，直接相反，排除。"
               }
             },
             {
               "key": "B",
               "text": "has loosened control over immigrants",
-              "text_cn": "在实践中已经大幅放松了对非法跨国移民的入境管控",
+              "text_cn": "放松了对移民的管控",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 严重背离立法现实）",
+              "trap_type": "干扰项（反向干扰 / 违背原文事实）",
               "analysis": {
-                "practice_status": "原文说今天我们对移民更加严苛死板（much more rigid），管控更僵死，排除。",
-                "option_nature": "干扰项（反向干扰 / 严重背离立法现实）",
+                "practice_status": "原文指出如今对移民的管控更加僵化，并未放松管控，排除。",
+                "option_nature": "干扰项（反向干扰 / 违背原文事实）",
                 "source_sentence": "Today, we are much more rigid about immigrants. We divide newcomers into two categories: legal or illegal, good or bad.",
                 "source_translation": "今天，我们对待移民要僵化刻板得多。我们把新来者生硬地分为两类：合法或非法，好人或坏人。",
-                "locator_comparison": "第2段开篇第一句便严厉指出：'Today, we are much more rigid about immigrants'（如今我们对移民的管理要僵死、严苛得多）。非黑即白的铁幕将人们简单粗暴地打成非法分子并予以驱逐（brand them as aliens to be kicked out）。这说明管控不仅没有放松，反而走向了极端的教条僵化。B 选项声称系统'has loosened control'（放松了管控），与原文严厉批判的僵化收紧事实彻底对立。",
+                "locator_comparison": "原文指出今天的移民政策更加严苛死板（much more rigid），对流动限制更死，并非放松了管控，排除。",
                 "writing_perspective": "正是因为管控过度僵化一刀切才导致人道与经济危机，若早已放松，作者就无需呼吁宽容了，B项逻辑不攻自破。",
                 "theme_validation": "僵化而非宽松是整篇批判的靶子，排除。",
-                "verdict": "复盘判断：B项与原文严苛僵化的现实黑白颠倒，排除。"
+                "verdict": "复盘判断：管理更僵化非放松管控，排除。"
               }
             },
             {
               "key": "C",
               "text": "should be adapted to meet challenges",
-              "text_cn": "应当主动进行改革调整以积极应对全球化带来的全新挑战",
+              "text_cn": "应进行调整以应对挑战",
               "is_correct": true,
-              "trap_type": "★ 标准正确深层政策推断",
+              "trap_type": "★ 标准正确合理推断",
               "analysis": {
-                "practice_status": "broken system需改变思维以solve challenges，规范概括adapted to meet challenges，锁定正选。",
-                "option_nature": "★ 标准正确深层政策推断",
+                "practice_status": "对应原文指出移民体系已经破损，需要转变思维来解决当今挑战，锁定正选。",
+                "option_nature": "★ 标准正确合理推断",
                 "source_sentence": "That framework has contributed mightily to our broken immigration system and the long political paralysis over how to fix it... We need to look beyond strict definitions... begin to solve our immigration challenges.",
                 "source_translation": "这种框架极大地导致了我们崩溃破产的移民体系……我们需要跳出严格的界定……才能开始解决我们的移民挑战。",
-                "locator_comparison": "原文指出美国现有移民制度已经完全崩溃（broken immigration system），并在政治上陷入长期瘫痪（political paralysis）；作者紧接着给出破局药方：必须改变思维（change the way we think）、跳出严格合法非法的教条（look beyond strict definitions）、容纳灰色地带的现代候鸟，从而 'begin to solve our immigration challenges'（开始化解应对移民挑战）。选项 C 将整套破局逻辑工整凝练地抽象为：'should be adapted to meet challenges'（移民制度应当做出适应性调整变革以应对挑战）。论证完整、语义高度吻合。",
+                "locator_comparison": "原文指出目前的移民体系已经破损（broken system），需要改变传统陈旧的思维方式来应对挑战。选项C'should be adapted to meet challenges'概括精准，锁定正选。",
                 "writing_perspective": "作者在第二段吹响了制度反思的号角：面对全球化资本与劳动力的大流动，陈旧僵化的法律体制必须与时俱进、顺应现实，C项完美契合社论的核心诉求。",
                 "theme_validation": "制度革新以包容流动人群是全文最核心的政论观点，C项正选无疑。",
-                "verdict": "复盘判断：C项深谙制度变革精髓，正选无疑。"
+                "verdict": "复盘判断：破损体系需要改革以应对挑战，正确。"
               }
             },
             {
               "key": "D",
               "text": "has been fixed via political means",
-              "text_cn": "已经通过国会两党的政治手段得到了圆满妥善的解决",
+              "text_cn": "已通过政治手段得到解决",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒政治僵局事实）",
+              "trap_type": "干扰项（反向干扰 / 违背原文事实）",
               "analysis": {
-                "practice_status": "原文明确痛陈处于long political paralysis（长期政治瘫痪），根本未解决，排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒政治僵局事实）",
+                "practice_status": "原文指出移民问题陷入了长期的政治僵局，并未得到解决，排除。",
+                "option_nature": "干扰项（反向干扰 / 违背原文事实）",
                 "source_sentence": "and the long political paralysis over how to fix it.",
                 "source_translation": "以及在如何修复它的问题上陷入的长期政治瘫痪。",
-                "locator_comparison": "原文明确指出，在如何修补移民体系的问题上面临着 'long political paralysis'（长期的政治瘫痪与死锁局面）。两党陷入文化战无法自拔，根本没有任何解决方案出台。而 D 选项使用完成时态 'has been fixed'（已经得到修复解决），把无解的长期政治瘫痪，荒谬地粉饰为已经圆满解决。完全违背原文陈述的基本事实。",
+                "locator_comparison": "原文明确痛陈移民政策陷入了长期的政治瘫痪与僵局（long political paralysis），根本未得到妥善解决，与文意相反，排除。",
                 "writing_perspective": "若问题早已政治解决，文章全文的呼吁与建言就毫无现实价值，D项在行文逻辑上极其荒唐。",
                 "theme_validation": "体系破产与政治瘫痪是全篇讨论的出发点，D项颠倒黑白，排除。",
-                "verdict": "复盘判断：D项把政治瘫痪粉饰为已经解决，坚决排除。"
+                "verdict": "复盘判断：政治瘫痪非问题已解决，排除。"
               }
             }
           ],
@@ -3178,69 +3178,69 @@
             {
               "key": "A",
               "text": "financial incentives",
-              "text_cn": "移入国政府提供的优厚财政补贴与税收激励",
+              "text_cn": "经济激励 / 财政补贴",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 歪曲候鸟独立自主性）",
+              "trap_type": "干扰项（偷换概念 / 无中生有）",
               "analysis": {
-                "practice_status": "新候鸟是全球化经济的高素质/勤劳参与者，靠机遇赚钱，非索要财政补贴，排除。",
-                "option_nature": "干扰项（偷换概念 / 歪曲候鸟独立自主性）",
+                "practice_status": "新候鸟移民依靠自身勤劳和机遇赚钱，并非向移入国索取财政补贴，排除。",
+                "option_nature": "干扰项（偷换概念 / 无中生有）",
                 "source_sentence": "They are energetic participants in a global economy driven by the flow of work, money and ideas. They prefer to come and go as opportunity calls them.",
                 "source_translation": "他们是由工作、资金和思想流动所驱动的全球经济中的充满活力的参与者。他们更喜欢随着机会的召唤而来来去去。",
-                "locator_comparison": "原文将当今的新候鸟描绘为涵盖物理学家、工程师、企业家、小提琴家到农场采摘工等极具活力的人群（energetic participants），他们靠自己的专业技能和勤劳双手追逐商业机会。通篇从未提及他们渴望移入国提供'financial incentives'（财政激励/政府补助）。A项把依靠市场自食其力的全球化弄潮儿，矮化为贪图政府福利救济的群体，概念严重偷换。",
+                "locator_comparison": "新候鸟移民凭借个人技能和勤勉参与全球经济，顺应机遇赚取报酬，并非向政府索要经济特惠或财政补贴，偷换概念，排除。",
                 "writing_perspective": "作者强调他们为全球经济创造流动价值，而非成为财政负担，A项偏离作者褒奖的基调。",
                 "theme_validation": "流动自由而非福利收买，是候鸟群体的核心诉求，排除。",
-                "verdict": "复盘判断：A项无中生有强加财政补贴诉求，排除。"
+                "verdict": "复盘判断：靠机遇赚钱非索要财政补贴，排除。"
               }
             },
             {
               "key": "B",
               "text": "a global recognition",
-              "text_cn": "在全球范围内获得至高无上的学术与专业公认",
+              "text_cn": "全球认可",
               "is_correct": false,
-              "trap_type": "干扰项（以偏概全 / 拔高局部少数精英特征）",
+              "trap_type": "干扰项（以偏概全 / 拔高群体特征）",
               "analysis": {
-                "practice_status": "人群包括农工、护工和采摘工，普通人居多，追求全球知名度荒谬以偏概全，排除。",
-                "option_nature": "干扰项（以偏概全 / 拔高局部少数精英特征）",
+                "practice_status": "群体涵盖农工、护工和各行业劳动者，追求全球知名度属于脱离实际的以偏概全，排除。",
+                "option_nature": "干扰项（以偏概全 / 拔高群体特征）",
                 "source_sentence": "Crop pickers, violinists, construction workers, entrepreneurs, engineers, home health-care aides and physicists are among today’s birds of passage.",
                 "source_translation": "农作物采摘工、小提琴手、建筑工人、企业家、工程师、家庭护工和物理学家都属于今天的候鸟。",
-                "locator_comparison": "原文列举的新候鸟职业光谱极其宽广：既有物理学家（physicists），也有普通的农场采摘工（Crop pickers）、建筑工人（construction workers）和家庭护理护工（home health-care aides）。绝大多数普通劳动者只是为了跨国打工养家糊口。B项宣称他们追求'a global recognition'（全球声誉与公认），错把少数顶尖学者的可能诉求，强加给涵盖体力劳动者的全员大众，属于典型的以偏概全与荒谬拔高。",
+                "locator_comparison": "新候鸟群体涵盖普通农工、护工以及各类技术人员，绝大多数是普通打工者，宣称追求全球认可脱离实际，排除。",
                 "writing_perspective": "作者意在展现候鸟现象的普适性与平民化，B项走向了精英主义的狭隘误区，脱离实际。",
                 "theme_validation": "普遍诉求在于流动就业，非名扬四海，排除。",
-                "verdict": "复盘判断：B项以极少数精英特征以偏概全，排除。"
+                "verdict": "复盘判断：普通务工群体追求全球知名度不合文意，排除。"
               }
             },
             {
               "key": "C",
               "text": "the freedom to stay and leave\nᆇี൫ज@JOEE ༯໶\n\n04",
-              "text_cn": "能够顺应全球化机遇自由来去、自由居留与离开的权利",
+              "text_cn": "居留与离开的自由",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义动宾语义提炼",
+              "trap_type": "★ 标准正确同义提炼",
               "analysis": {
-                "practice_status": "come and go as opportunity calls精准改写为the freedom to stay and leave，锁定正选。",
-                "option_nature": "★ 标准正确同义动宾语义提炼",
+                "practice_status": "对应原文come and go as opportunity calls，具有根据机遇自由来去的灵活性，锁定正选。",
+                "option_nature": "★ 标准正确同义提炼",
                 "source_sentence": "They prefer to come and go as opportunity calls them. They can manage to have a job in one place and a family in another.",
                 "source_translation": "他们更愿意在机遇召唤之时自由来去。他们能够在某一地拥有工作，而在另一地安顿家庭。",
-                "locator_comparison": "定位句中清晰揭示了候鸟人群内心最渴望的核心偏好：'They prefer to come and go as opportunity calls them'（他们更喜欢在机遇召唤之时自由地来来往往）。后文更进一步点出：能够在一地工作而在另一地安家。选项 C 的 'the freedom to stay and leave'（自由居留与离开的自由/来去自由）将 'prefer to come and go' 进行了极其典雅、精准的政治哲学权利语言转换。他们不要终身绑定，只要来去自如。语义完全等价。",
+                "locator_comparison": "原文指出今天的候鸟移民希望根据机遇来去自由：'come and go as opportunity calls'。选项C'the freedom to stay and leave'准确提炼了这一核心诉求，锁定正选。",
                 "writing_perspective": "作者在第三段生动刻画了现代跨国流动人口的生活方式：全球化为他们提供了跨国两栖生存的可能，他们最痛恨的就是被死板法律焊死在一个地方，C项精准切中其精神诉求。",
                 "theme_validation": "自由流动是新时代候鸟的唯一标签，C项完美支撑全文立论。",
-                "verdict": "复盘判断：C项同义转换兼顾文义与思想，正选无疑。"
+                "verdict": "复盘判断：自由来去对应freedom to stay and leave，正确。"
               }
             },
             {
               "key": "D",
               "text": "opportunities to get regular jobs",
-              "text_cn": "在大型跨国企业中谋求一份终身受保障的固定体制内工作",
+              "text_cn": "获得固定工作的机会",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 严重颠倒灵活性与固定性）",
+              "trap_type": "干扰项（反向干扰 / 违背灵活性特质）",
               "analysis": {
-                "practice_status": "候鸟随机会来去，非固定工作，与第26题D项同属反向陷阱，排除。",
-                "option_nature": "干扰项（反向干扰 / 严重颠倒灵活性与固定性）",
+                "practice_status": "候鸟移民追求跨国流动的灵活性，并非追求长期的固定工作，排除。",
+                "option_nature": "干扰项（反向干扰 / 违背灵活性特质）",
                 "source_sentence": "They prefer to come and go as opportunity calls them.",
                 "source_translation": "他们喜欢在机会召唤之时来去自如。",
-                "locator_comparison": "与第26题的干扰逻辑如出一辙：候鸟的核心特征是灵活性、两栖性与阶段性（productive for a while without committing forever）。他们偏爱的是'come and go'（来去自由），随项目和季节流动。D 选项使用 'regular jobs'（固定/常态工作），把追求弹性流动的新人类，再次套上了传统工业时代朝九晚五终身铁饭碗的陈旧枷锁。彻底背叛了'候鸟'的灵动内涵。",
+                "locator_comparison": "候鸟移民的特质在于顺应各地的流动机遇，而非追求一份长期的固定体制内工作，与文意不符，排除。",
                 "writing_perspective": "如果他们渴望固定长久工作，就无需跨国来回穿梭了，D项自相矛盾。",
                 "theme_validation": "灵活用工 vs 固定编制，候鸟追求的是前者，排除。",
-                "verdict": "复盘判断：D项反向颠倒工作方式与流动本性，排除。"
+                "verdict": "复盘判断：流动灵活与固定工作性质相悖，排除。"
               }
             }
           ],
@@ -3265,69 +3265,69 @@
             {
               "key": "A",
               "text": "as faithful partners",
-              "text_cn": "将其视作必须对美国忠贞不二的坚实商业合伙人",
+              "text_cn": "视作忠诚的伙伴",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 强加单一忠诚排他性）",
+              "trap_type": "干扰项（偷换概念 / 强加传统排他观念）",
               "analysis": {
-                "practice_status": "原文说属于两个国家，无需永远居留，忠贞不二属传统排他定居思维，排除。",
-                "option_nature": "干扰项（偷换概念 / 强加单一忠诚排他性）",
+                "practice_status": "作者指出候鸟移民游走于两个国家之间，无需强加单一排他性的忠诚要求，排除。",
+                "option_nature": "干扰项（偷换概念 / 强加传统排他观念）",
                 "source_sentence": "without committing themselves to staying forever... that they can belong to two nations honorably.",
                 "source_translation": "无需承诺永远留下……他们可以体面光荣地同时属于两个国家。",
-                "locator_comparison": "原文在第4段末尾明确强调，我们要让他们感受到'they can belong to two nations honorably'（他们可以毫无愧疚、光荣体面地同时属于两个国家）。这是对跨国两栖身份的包容，打破了传统民族国家对单一绝对忠诚的强制要求。A项使用 'faithful partners'（忠贞的伙伴），带有强烈的情感依附与排他性忠诚暗示，违背了跨越国界的两栖多重归属精神。",
+                "locator_comparison": "作者指出候鸟移民游走于两国之间（belong to two nations），传统的单一排他性忠诚已不适应当今跨国流动现实，排除。",
                 "writing_perspective": "作者呼吁放下狭隘的排他性国家主义心魔，A项仍带有传统国家意识形态审查的色彩，与作者开放包容的立论冲突。",
                 "theme_validation": "双重归属 vs 单一忠诚，A项倒退回旧逻辑，排除。",
-                "verdict": "复盘判断：A项强加排他性忠诚要求，排除。"
+                "verdict": "复盘判断：排他忠诚不符合跨国游走特质，排除。"
               }
             },
             {
               "key": "B",
               "text": "with legal tolerance",
-              "text_cn": "在现行法律框架与制度监管中给予充分的包容与宽容度",
+              "text_cn": "给予法律上的宽容",
               "is_correct": true,
-              "trap_type": "★ 标准正确深层法律哲学归纳",
+              "trap_type": "★ 标准正确深层主旨概括",
               "analysis": {
-                "practice_status": "straddle laws with ease与belong to two nations的政策投射：with legal tolerance，锁定正选。",
-                "option_nature": "★ 标准正确深层法律哲学归纳",
+                "practice_status": "对应原文呼吁打破非黑即白的死板法律划分，对跨国流动的候鸟移民给予制度上的宽容，锁定正选。",
+                "option_nature": "★ 标准正确深层主旨概括",
                 "source_sentence": "With or without permission, they straddle laws, jurisdictions and identities with ease. We need them to imagine the United States as a place where they can be productive for a while without committing themselves to staying forever.",
                 "source_translation": "无论是否获得许可，他们都轻松游走跨越于法律、管辖权和身份认同之间。我们需要他们将美国视为一个可以在一段时间内富有成效地工作而无需承诺永远留下的地方。",
-                "locator_comparison": "定位句中指出，这些候鸟人群'With or without permission, they straddle laws'（无论有没有官方签证许可，他们都从容游走跨越于现行法律条文之间），在前文作者更明确称其为'those living and thriving in the gray areas'（在灰色地带中生存繁荣的人）。作者呼吁打破非黑即白的文化战，让他们合法体面地工作一阵子。选项 B 将这一主张升华总结为：'with legal tolerance'（以法律宽容度/法律上的包容态度对待他们）。既呼应了灰色地带游走的事实，又精准体现了制度层面放宽刚性门槛的宽容导向。论断精辟绝伦。",
+                "locator_comparison": "原文指出新候鸟移民轻松游走于法律边界之间，呼吁政策制定者打破传统僵化壁垒，给予理解与法律宽容。选项B'with legal tolerance'准确概括了作者的建言，锁定正选。",
                 "writing_perspective": "作者在第四段直击美国移民法治的核心痛点：法律太僵，逼良为娼；与其把他们逼成非法黑户，不如以法律宽容赋予其弹性身份，B项完全体现了作者务实理性的制度智慧。",
                 "theme_validation": "法律宽容是化解移民僵局的唯一桥梁，B项契合全篇最高落脚点。",
-                "verdict": "复盘判断：B项法律哲学提炼极为深刻，正选无疑。"
+                "verdict": "复盘判断：作者呼吁打破僵化管控、宽容流动，正确。"
               }
             },
             {
               "key": "C",
               "text": "with economic favors",
-              "text_cn": "在入境通关时给予其超常的单边经济特惠优待",
+              "text_cn": "给予经济上的优惠",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 把制度宽容错解为经济特惠）",
+              "trap_type": "干扰项（偷换概念 / 偏离制度包容主旨）",
               "analysis": {
-                "practice_status": "作者呼吁的是法律和身份上的包容，非发放单边经济特权特惠，偷换范畴，排除。",
-                "option_nature": "干扰项（偷换概念 / 把制度宽容错解为经济特惠）",
+                "practice_status": "作者呼吁的是法律和身份上的包容理解，并非给予特殊的经济特权或优惠，排除。",
+                "option_nature": "干扰项（偷换概念 / 偏离制度包容主旨）",
                 "source_sentence": "We need them to imagine the United States as a place where they can be productive for a while...",
                 "source_translation": "我们需要他们把美国看作这样一个地方：他们可以在这里高产工作一段时间……",
-                "locator_comparison": "原文自始至终在讨论'法律身份与制度定义'层面（laws, jurisdictions, identities, gray areas, middle ground）。作者要求的是法律制度别去无理驱逐他们，给予他们合法居留与工作的中间道路。通篇从未提及在经济或税收上给予他们特殊的'economic favors'（经济优惠/超国民待遇）。C项把法律层面的解绑包容，偷换成了经济特权与财政让利，范畴严重偏离。",
+                "locator_comparison": "作者呼吁的是法律制度对双重归属与流动性的包容，并非发放特殊的单边经济优惠或特权，偷换范畴，排除。",
                 "writing_perspective": "新候鸟本身就有极强生产力，他们要的是不被打扰的合法性，而非政府施舍，C项曲解了其尊严需求。",
                 "theme_validation": "制度平权而非经济特权，C项跑题，排除。",
-                "verdict": "复盘判断：C项偷换法律身份包容为经济特殊待遇，排除。"
+                "verdict": "复盘判断：制度包容非经济优惠，排除。"
               }
             },
             {
               "key": "D",
               "text": "as mighty rivals",
-              "text_cn": "将其全方位视作可能威胁本土就业的强悍竞争对手",
+              "text_cn": "视作强劲的对手",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 错把排外敌意当作者建言）",
+              "trap_type": "干扰项（反向干扰 / 违背作者立场）",
               "analysis": {
-                "practice_status": "原文呼吁包容与共赢，选项说视作强大对手，走向反面，排除。",
-                "option_nature": "干扰项（反向干扰 / 错把排外敌意当作者建言）",
+                "practice_status": "作者主张包容与共赢，反对将移民视作对本土的威胁或强大对手，排除。",
+                "option_nature": "干扰项（反向干扰 / 违背作者立场）",
                 "source_sentence": "We need them to feel that home can be both here and there and that they can belong to two nations honorably.",
                 "source_translation": "我们需要让他们感到家园既可以在这里也可以在那里，他们可以光荣体面地属于两个国家。",
-                "locator_comparison": "原文充满了对新候鸟的热情呼唤：'We need them ... belong to two nations honorably'（我们需要他们贡献产出、我们需要他们有归属感）。而 D 选项使用 'mighty rivals'（强大的竞争对手/潜在敌人），把作者极力争取的宝贵全球化人力资源，恶意妖魔化为抢夺饭碗、威胁国家安全的死敌。与作者全篇反对妖魔化移民、倡导合作共赢的宏大胸怀背道而驰。",
+                "locator_comparison": "作者全篇呼吁制度包容与合作共赢，反对将移民妖魔化为抢夺本土饭碗的强大对手，与作者立场相反，排除。",
                 "writing_perspective": "把移民当对手正是当前破败移民政策的根本错误，D项倒戈把作者批判的错误观念当成了建言，逻辑全无。",
                 "theme_validation": "合作共生而非零和博弈，D项与主旨对立，排除。",
-                "verdict": "复盘判断：D项倒退为狭隘的敌对对抗思维，坚决排除。"
+                "verdict": "复盘判断：作者主张包容共赢非对抗，排除。"
               }
             }
           ],
@@ -3352,69 +3352,69 @@
             {
               "key": "A",
               "text": "Come and Go: Big Mistake",
-              "text_cn": "跨国自由来去：一个不可挽回的历史大错",
+              "text_cn": "来去自由：一个大错",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 严重颠倒作者价值判断）",
+              "trap_type": "干扰项（反向干扰 / 违背作者价值判断）",
               "analysis": {
-                "practice_status": "自由来去正是作者全力肯定并呼吁制度保障的候鸟生活方式，怎会是错误，颠倒是非，排除。",
-                "option_nature": "干扰项（反向干扰 / 严重颠倒作者价值判断）",
+                "practice_status": "自由来去是作者肯定并呼吁制度保障的流动方式，并非错误，排除。",
+                "option_nature": "干扰项（反向干扰 / 违背作者价值判断）",
                 "source_sentence": "They prefer to come and go as opportunity calls them... Looking beyond the culture war logic... means opening up the middle ground...",
                 "source_translation": "他们更愿意随着机会的召唤而来去自如……超越文化战逻辑……意味着开辟中间地带……",
-                "locator_comparison": "'Come and Go'（自由来去/自由流动）是作者全篇浓墨重彩歌颂、并呼吁现行制度全力予以宽容和制度接纳的新时代生活常态（prefer to come and go）。A项竟然扣上 'Big Mistake'（大错特错）的帽子，宣称自由流动是大错误。直接把作者倡导的理想生活方式，颠倒定性成了十恶不赦的重大错误，全篇立论彻底被反向摧毁。",
+                "locator_comparison": "自由来去正是作者全面肯定并呼吁制度予以适应的生活方式，选项将其视为错误，颠倒了作者的价值取向，排除。",
                 "writing_perspective": "作者通篇在为'来去自由'的合法化奔走呼号，A项站在反动排外立场上痛斥其为大错，行文荒唐。",
                 "theme_validation": "肯定流动性是全文最高立意，A项彻底唱反调，排除。",
-                "verdict": "复盘判断：A项与作者肯定自由流动的立场黑白颠倒，排除。"
+                "verdict": "复盘判断：作者支持来去自由，非视为错误，排除。"
               }
             },
             {
               "key": "B",
               "text": "Living and Thriving: Great Risk",
-              "text_cn": "灰色地带生存与繁荣：一场潜伏的巨大国家安全风险",
+              "text_cn": "生存与繁荣：巨大的风险",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 妖魔化灰色生存状态）",
+              "trap_type": "干扰项（反向干扰 / 扭曲文意）",
               "analysis": {
-                "practice_status": "生存繁荣是新候鸟的生命力展现，作者肯定他们，非视为巨大风险，排除。",
-                "option_nature": "干扰项（反向干扰 / 妖魔化灰色生存状态）",
+                "practice_status": "生存繁荣体现了候鸟移民的活力，作者持肯定态度，并非将其视为风险，排除。",
+                "option_nature": "干扰项（反向干扰 / 扭曲文意）",
                 "source_sentence": "To start, we can recognize the new birds of passage, those living and thriving in the gray areas. We might then begin to solve our immigration challenges.",
                 "source_translation": "首先，我们可以承认新的候鸟——那些在灰色地带中生活和繁荣的人。然后我们或许可以开始解决我们的移民挑战。",
-                "locator_comparison": "原文第2段提到 'living and thriving in the gray areas'（在灰色地带生存与繁荣）时，作者明确指出这是解决美国移民危机的'破局关键'（We might then begin to solve our immigration challenges），表达的是对他们强大生存韧性与经济活力的由衷赞许。而 B 选项使用带有恐怖恐吓色彩的定性 'Great Risk'（巨大的系统性风险），直接把破局希望妖魔化成了国家威胁。与作者对新候鸟的温情与制度拥抱完全对立。",
+                "locator_comparison": "生存繁荣展现了候鸟移民顺应全球化的生命力，作者对其持积极肯定态度，并非将其定性为巨大风险，排除。",
                 "writing_perspective": "作者呼吁走出文化战的恐吓叙事，B项重蹈了右翼保守派渲染移民威胁的陈腐论调，违背作者初衷。",
                 "theme_validation": "正视并包容灰色地带是改革正途，非渲染风险，排除。",
-                "verdict": "复盘判断：B项把破局希望歪曲为国家风险，坚决排除。"
+                "verdict": "复盘判断：作者赞赏其生存力非强调风险，排除。"
               }
             },
             {
               "key": "C",
               "text": "With or Without: Great Risk",
-              "text_cn": "拥有或缺乏合法签证许可：不可承受的高危代价",
+              "text_cn": "有无许可：巨大的风险",
               "is_correct": false,
-              "trap_type": "干扰项（以局部修饰替代主旨 / 强加恐慌色彩）",
+              "trap_type": "干扰项（以偏概全 / 偏离主旨）",
               "analysis": {
-                "practice_status": "原文说无论有没有许可他们都轻松游走，并不觉得风险大，以偏概全偏离主干，排除。",
-                "option_nature": "干扰项（以局部修饰替代主旨 / 强加恐慌色彩）",
+                "practice_status": "原文提到无论有无许可他们都能灵活游走，并非强调风险巨大，排除。",
+                "option_nature": "干扰项（以偏概全 / 偏离主旨）",
                 "source_sentence": "With or without permission, they straddle laws, jurisdictions and identities with ease.",
                 "source_translation": "无论是否获得许可，他们都能轻松自如地游走于法律、管辖权和身份之间。",
-                "locator_comparison": "'With or without permission' 仅仅是第4段开头一句让步状语的局部几个词，紧接着作者说的是他们 'straddle laws ... with ease'（轻松自如地游走穿梭）。作者强调的是他们在跨国穿梭中的从容自如（with ease），根本没有声称这是一场高危冒险（Great Risk）。C项断章取义截取几个让步词，生拼硬凑出一个毫无逻辑支撑的'巨大风险'标题，纯属东拼西凑的劣质干扰项。",
+                "locator_comparison": "原文提到无论是否有合法许可他们都能自如游走，并未强调其风险巨大，且无法涵盖全文的核心批判主旨，排除。",
                 "writing_perspective": "作者要探讨的是国家体制层面的思维转换，而非微观个体过海关的侥幸心理，C项偏离了主旨的宏大格局。",
                 "theme_validation": "全文旨在解构合法非法的死板分类，非讨论签证风险，排除。",
-                "verdict": "复盘判断：C项拼凑让步短语且逻辑荒谬，排除。"
+                "verdict": "复盘判断：偏离全文主旨，排除。"
               }
             },
             {
               "key": "D",
               "text": "Legal or Illegal: Big Mistake",
-              "text_cn": "非黑即白的“合法还是非法”管理思维：一个铸成大错的执念",
+              "text_cn": "合法还是非法：一个大错",
               "is_correct": true,
-              "trap_type": "★ 标准正确全文批判主旨标题",
+              "trap_type": "★ 标准正确全文主旨批判标题",
               "analysis": {
-                "practice_status": "精准击中第2段与第5段通篇痛斥的思维大错，主旨文眼无可挑剔，锁定正选。",
-                "option_nature": "★ 标准正确全文批判主旨标题",
+                "practice_status": "直击全文批判的死板二元对立思维，指出用“非黑即白”的合法/非法标签管理现代移民是一个重大错误，锁定正选。",
+                "option_nature": "★ 标准正确全文主旨批判标题",
                 "source_sentence": "We divide newcomers into two categories: legal or illegal, good or bad... That framework has contributed mightily to our broken immigration system and the long political paralysis... We need to look beyond strict definitions of legal and illegal.",
                 "source_translation": "我们把新移民生硬地分成两类：合法或非法，好人或坏人……这种框架极大地导致了我们崩溃的移民体系和长期的政治瘫痪……我们需要跳出合法与非法的严格界定。",
-                "locator_comparison": "通读全篇，作者立论的核心靶子自始至终就是美国社会将移民死板、教条、非黑即白地二元割裂为 'legal or illegal'（合法还是非法）。第2段明确痛陈：正是这种非合法即非法的死板思维框架（That framework）导致了体系的全面崩溃与政治瘫痪（broken system / political paralysis）；第5段再次大声疾呼：必须跳出这种非对即错的文化战死胡同（beyond the culture war logic of right or wrong），寻找包容灰色地带候鸟的中间道路。选项 D 的 'Legal or Illegal: Big Mistake'（合法还是非法：大错特错！）用高度对称、锋利醒目的语言，一针见血指明了全文所痛击的制度与观念死穴。精准绝伦。",
+                "locator_comparison": "全文通篇批判美国现行移民政策将移民死板划分为非黑即白的合法或非法，指出这种思维方式本身铸成大错。选项D精准抓住这一文眼，锁定正选。",
                 "writing_perspective": "作者以警世的姿态抨击僵化的官僚法制思维，呼吁用'第三条道路'拯救移民体系，D项完美凝结了全篇社论的思想火花与批判锋芒。",
                 "theme_validation": "破除'合法与非法'的虚妄对立是贯穿通篇所有论据的唯一主线，正选无疑。",
-                "verdict": "复盘判断：D项直取全篇批判文眼，毫无争议的正选。"
+                "verdict": "复盘判断：批判非黑即白的划分思维，契合全文主旨，正确。"
               }
             }
           ],
@@ -4865,69 +4865,69 @@
             {
               "key": "A",
               "text": "predetermine the accuracy of our judgment",
-              "text_cn": "预先决定我们最终判断的准确度",
+              "text_cn": "预先决定我们判断的准确性",
               "is_correct": false,
-              "trap_type": "干扰项（机械决定论 / 因果倒置与绝对化）",
+              "trap_type": "干扰项（过度推断 / 绝对化）",
               "analysis": {
-                "practice_status": "时间长短不等于结果准确度，且原文说毫秒级反应也很有效，机械决定论，排除。",
-                "option_nature": "干扰项（机械决定论 / 因果倒置与绝对化）",
+                "practice_status": "决策时间长短并不直接决定判断的准确性，且原文指出瞬时判断也很有效，排除。",
+                "option_nature": "干扰项（过度推断 / 绝对化）",
                 "source_sentence": "To accurately tell whether someone is sociable, studies show, we need at least a minute, preferably five.",
                 "source_translation": "研究显示，要准确判断某人是否容易相处，我们至少需要一分钟，最好是五分钟。",
-                "locator_comparison": "选项A声称决定所需的时间会“预先决定（predetermine）判断的准确度”。原文第2段虽指出准确评估是否好相处需要至少一到五分钟，但这只是说明不同复杂度的认知任务需要合理的时间预算，绝没有提出“耗时越长结果越准、时间预先锁定准确率”的机械公式。事实上，首句就肯定了数毫秒的防御决策极其有效。A项将评估所需时间歪曲为预先决定准确率的决定性因素，犯了绝对化与因果倒置的逻辑硬伤。",
+                "locator_comparison": "决策时间长短并不决定判断是否准确，原文指出毫秒级反应在特定情境下同样高度精准，绝对化因果不成立，排除。",
                 "writing_perspective": "作者旨在阐述生物演化赋予大脑在不同情境下的弹性反应机制，而非论证用时对准确度的单向机械因果律，A项偏离作者立意。",
                 "theme_validation": "全文倡导在特定场景下停顿反省，并非鼓吹时间决定论，与主旨不符。",
-                "verdict": "复盘判断：A项用机械决定论偷换情境时间需求，坚决排除。"
+                "verdict": "复盘判断：时间长短不决定准确度，排除。"
               }
             },
             {
               "key": "B",
               "text": "prove the complexity of our brain reaction",
-              "text_cn": "证明我们大脑神经生理反应的极端复杂性",
+              "text_cn": "证明我们大脑反应的复杂性",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 移花接木修饰对象）",
+              "trap_type": "干扰项（偷换概念 / 篡改修饰对象）",
               "analysis": {
-                "practice_status": "文中 complex 修饰的是性格维度而非大脑反应，偷换修饰对象，排除。",
-                "option_nature": "干扰项（偷换概念 / 移花接木修饰对象）",
+                "practice_status": "文中complex修饰的是性格维度而非大脑反应，偷换概念，排除。",
+                "option_nature": "干扰项（偷换概念 / 篡改修饰对象）",
                 "source_sentence": "It takes a while to judge complex aspects of personality, like neuroticism or open-mindedness.",
                 "source_translation": "评判像神经质或开放性等复杂的性格层面需要相当长的时间。",
-                "locator_comparison": "选项B声称做决定的时间“证明了大脑反应的复杂性（prove the complexity of our brain reaction）”。回文定位，第2段末句确实出现了“complex”，但原句清晰写道是“complex aspects of personality”（性格的复杂层面）。原文说的是被评估对象的性格极其复杂，因此需要时间观察，而B项却偷梁换柱，将修饰语挪到了“brain reaction（大脑反应）”上，妄图证明大脑神经生理的复杂性。这种典型的偷换主语和修饰对象的移花接木手段，是考研命题极具辨识度的设错手法。",
+                "locator_comparison": "文中'complex'修饰的是人际交往与性格特征的多维复杂性，并非大脑神经反应本身，偷换修饰对象，排除。",
                 "writing_perspective": "作者在第2段核心对比的是时间刻度（毫秒 vs 分钟），无意借此展开脑科学复杂生理机制的学术论证。",
                 "theme_validation": "偏离“情境紧迫度决定反应耗时”的段落主线，排除。",
-                "verdict": "复盘判断：B项偷换修饰宾语，把性格复杂篡改为大脑反应复杂，排除。"
+                "verdict": "复盘判断：修饰性格非大脑反应，排除。"
               }
             },
             {
               "key": "C",
               "text": "depend on the importance of the assessment",
-              "text_cn": "取决于该项评估本身的重要程度",
+              "text_cn": "取决于评估的重要性",
               "is_correct": false,
-              "trap_type": "干扰项（混淆核心概念 / 混淆“紧迫性”与“重要性”）",
+              "trap_type": "干扰项（偷换概念 / 混淆重要性与紧迫性）",
               "analysis": {
-                "practice_status": "生死危险攸关重大却只需几毫秒，社交评估不致命却需数分钟，重要性与时间并不正相关，强干扰排除。",
-                "option_nature": "干扰项（混淆核心概念 / 混淆“紧迫性”与“重要性”）",
+                "practice_status": "生死关头至关重要却只需数毫秒，耗时主要取决于情境是否紧急而非单纯重要性，排除。",
+                "option_nature": "干扰项（偷换概念 / 混淆重要性与紧迫性）",
                 "source_sentence": "Snap decisions can be important defense mechanisms; if we are judging whether someone is dangerous, our brains and bodies are hard-wired to react very quickly, within milliseconds.",
                 "source_translation": "快速决策是重要的防御机制；如果判断某人是否有危险，我们的大脑和身体在数毫秒内就会极速反应。",
-                "locator_comparison": "选项C提出决策时间“取决于评估的重要性（depend on the importance of the assessment）”，这是极具杀伤力的常识陷阱。原文对比极其鲜明：判断某人是否具有致命危险（生死攸关，重要性登峰造极），大脑仅用“数毫秒（milliseconds）”即完成决断；而判断一个人是否容易相处（普通社交，重要性远逊于生死），反而需要“一到五分钟”。如果按C项“取决于重要性”，生死攸关的大事岂不是应该耗时最长？原文恰恰相反。决定决策耗时差异的不是抽象的“重要性（importance）”，而是生死关头的“紧迫程度（urgency）”。C项概念混淆，严重违背文本事实。",
+                "locator_comparison": "面临生死威胁至关重要却只需毫秒级判断，而社交性格评估虽不致命却需数分钟，耗时与紧迫性相关而非重要性，排除。",
                 "writing_perspective": "作者基于进化生物学视角，指出危机应对以极速响应为先，C项用世俗观念的重要性代替了生物演化的紧迫性。",
                 "theme_validation": "重要性悖论直接推翻了C项，是命题人精心编织的逻辑陷阱，坚决排除。",
-                "verdict": "复盘判断：C项偷换紧迫性为重要性，与原文毫秒 vs 分钟的事实逻辑彻底相悖，排除。"
+                "verdict": "复盘判断：取决于情境紧迫度而非重要性，排除。"
               }
             },
             {
               "key": "D",
               "text": "vary according to the urgency of the situation",
-              "text_cn": "根据面临情境的紧迫程度而发生变化",
+              "text_cn": "根据情境的紧迫程度而有所不同",
               "is_correct": true,
-              "trap_type": "★ 标准正确细节概括题",
+              "trap_type": "★ 标准正确细节推断概括",
               "analysis": {
-                "practice_status": "毫秒级应对危险，分钟级应对性格，紧急度不同耗时不同，高度概括，锁定正选。",
-                "option_nature": "★ 标准正确细节概括题",
+                "practice_status": "面对危险需瞬时毫秒级反应，而评估复杂性格则需数分钟，耗时随情境紧迫度而变，锁定正选。",
+                "option_nature": "★ 标准正确细节推断概括",
                 "source_sentence": "if we are judging whether someone is dangerous, our brains and bodies are hard-wired to react very quickly, within milliseconds. But we need more time to assess other factors... To accurately tell whether someone is sociable... at least a minute...",
                 "source_translation": "如果判断某人是否有危险，我们的大脑和身体在数毫秒内就会极速反应。但评估其他因素我们需要更多时间……要准确判断是否好相处……至少一到五分钟……",
-                "locator_comparison": "题干聚焦决策所需时间（The time needed in making decisions）。第2段首句明确指出快速直觉是防御机制，紧接着展开结构分明的对比：面对危险（生死攸关的紧迫情境），大脑在几毫秒内（within milliseconds）极速做出决断；而面对社交友善度或复杂性格等非生死紧迫情境，则需要数分钟乃至更长的时间来进行从容评估。耗时从“毫秒”跨越到“分钟”，其背后的根本支配变量正是情境的紧迫与危机程度。选项D的“vary according to the urgency of the situation”（根据情境的紧迫程度而变化）对原文对比逻辑做出了最高水平的哲学概括，同义替换无懈可击。",
+                "locator_comparison": "原文对比了面对致命威胁时大脑在几毫秒内的瞬时决策，与评估他人性格时需要数分钟的观察，表明决策时间随面临情境的紧迫程度而异，锁定正选。",
                 "writing_perspective": "作者通过层次鲜明的耗时对比，向读者阐明人类决策机制的弹性适应特征，D项完美捕捉并升华了作者的论证脉络。",
                 "theme_validation": "紧扣危险防御与日常认知的不同情境需求，完全吻合第2段核心观点。",
-                "verdict": "复盘判断：D项同义概括极其凝练深刻，考研标杆级正选。"
+                "verdict": "复盘判断：紧迫度不同耗时不同，高度概括，正确。"
               }
             }
           ],
@@ -4952,69 +4952,69 @@
             {
               "key": "A",
               "text": "can be associative",
-              "text_cn": "可以是具有无意识联想性的",
+              "text_cn": "可以是具有联想性的",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义词性转换推断",
+              "trap_type": "★ 标准正确同义转换",
               "analysis": {
-                "practice_status": "文中 associate ... and carry those impulses，词性转换直接对应 associative，锁定正选。",
-                "option_nature": "★ 标准正确同义词性转换推断",
+                "practice_status": "对应原文associate... and carry those impulses，词性转换得出can be associative，锁定正选。",
+                "option_nature": "★ 标准正确同义转换",
                 "source_sentence": "We unconsciously associate fast food with speed and impatience and carry those impulses into whatever else we’re doing.",
                 "source_translation": "我们无意识地将快餐与速度和急躁联系在一起，并把这些冲动带到了我们正在做的任何其他事情当中。",
-                "locator_comparison": "根据第3段定位句，多伦多大学心理实验揭示：仅仅看到快餐标志数毫秒，受试者的阅读速度就异常加快了20%，即使阅读与进食毫无关系。作者给出的深层科学解释是：“We unconsciously associate fast food with speed and impatience and carry those impulses into whatever else we're doing”（我们潜意识里将快餐与速度和急躁建立了联想，并将这种冲动辐射迁移到了所做的其他事情中）。选项A的“can be associative”（具有联想性的）精准实现了动词“associate”到形容词“associative”的词性同义转换，准确提炼了快速直觉决策在不同领域间引发隐秘心理联想的本质特征。",
+                "locator_comparison": "原文指出看到快餐标志会无意识地在大脑中产生联想并激发冲动（associate... carry those impulses）。动词associate词性转换为形容词associative，锁定正选。",
                 "writing_perspective": "作者引用快餐实验意在把讨论从人际交往拓展至消费心理学领域，证明快节奏刺激具有跨情境的隐形联想穿透力，A项直切实验机理。",
                 "theme_validation": "潜意识心理联想正是第3段作者阐释冲动决策泛化的核心论据，与主旨高度嵌合。",
-                "verdict": "复盘判断：A项词性转换对位极其工整，直击心理机制本质。"
+                "verdict": "复盘判断：associate词性转化为associative，正确。"
               }
             },
             {
               "key": "B",
               "text": "are not unconscious",
-              "text_cn": "并非是无意识状态下发生的",
+              "text_cn": "并非无意识的",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 否定原文字面事实）",
+              "trap_type": "干扰项（反向干扰 / 否定字面事实）",
               "analysis": {
-                "practice_status": "文中明明白白写着 unconsciously，选项硬加 not 彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 否定原文字面事实）",
+                "practice_status": "原文明确写着unconsciously，选项硬加not直接反向，排除。",
+                "option_nature": "干扰项（反向干扰 / 否定字面事实）",
                 "source_sentence": "We unconsciously associate fast food with speed and impatience",
                 "source_translation": "我们无意识地将快餐与速度和急躁联系在一起",
-                "locator_comparison": "选项B断言快速决策“不是无意识的（are not unconscious）”。然而原文第3段白纸黑字写道：“We unconsciously associate fast food with speed and impatience”（我们无意识地将快餐与速度联想起来）。B选项公然添加否定词“not”，与原文中的副词“unconsciously”形成绝对的事实正反颠倒。这种粗暴的反向篡改是考研阅读中最不容错看的送分式排错靶子。",
+                "locator_comparison": "原文明确使用'unconsciously'阐明该反应发生在无意识状态下，选项B硬加'not'与原文明确事实相反，排除。",
                 "writing_perspective": "作者通篇强调快节奏符号操控人心的隐秘性就在于其“潜意识自动化”，B项抽离了这一核心属性，完全违背原文立论基础。",
                 "theme_validation": "与文章强调的潜意识直觉驱动机制直接对立，坚决排除。",
-                "verdict": "复盘判断：B项公然正反颠倒，与原文字面事实针锋相对，排除。"
+                "verdict": "复盘判断：原文为unconsciously，选项加not彻底反向，排除。"
               }
             },
             {
               "key": "C",
               "text": "can be dangerous",
-              "text_cn": "可能是极其危险甚至致命的",
+              "text_cn": "可能是危险的",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 跨段拼凑夸大其词）",
+              "trap_type": "干扰项（张冠李戴 / 细节混淆）",
               "analysis": {
-                "practice_status": "dangerous 出现在第2段判断危险，第3段讲看快餐让人急躁，张冠李戴，排除。",
-                "option_nature": "干扰项（张冠李戴 / 跨段拼凑夸大其词）",
+                "practice_status": "判断危险出现在前文评估防御，本段讲快餐标志引发急躁与冲动，并非危险，排除。",
+                "option_nature": "干扰项（张冠李戴 / 细节混淆）",
                 "source_sentence": "if we are judging whether someone is dangerous... (Paragraph 2)",
                 "source_translation": "如果我们是在判断某人是否具有危险性……（第2段）",
-                "locator_comparison": "选项C宣称快餐标志反应表明快速决策“可能是危险的（can be dangerous）”。回文通查，“dangerous”一词仅出现在第2段第1句，用于解释远古人类在野外判断捕食者或敌人是否危险的防御直觉。而第3段讨论快餐标志时，仅指出它让人阅读加快、听音乐觉得太长（speed and impatience），这属于浮躁心境或冲动行为，绝没有危言耸听地将其定性为“dangerous（危险）”。C项属于跨段抓取热词、恶意夸大事实的典型张冠李戴陷阱。",
+                "locator_comparison": "判断危险出现在第2段涉及生存威胁的情境，第3段快餐标志引发的是急躁与消费冲动，并未表明快餐标志本身具有危险性，排除。",
                 "writing_perspective": "作者在第3段展现的是现代商业符号对专注力和耐心的侵蚀，而非面临生死存亡的危险，C项过度曲解语境。",
                 "theme_validation": "把生活浮躁过度解读为生死危险，严重偏离段落主旨，排除。",
-                "verdict": "复盘判断：C项跨段拼凑第2段词汇，恶意夸大其词，排除。"
+                "verdict": "复盘判断：危险属于生存评估情境，张冠李戴，排除。"
               }
             },
             {
               "key": "D",
               "text": "are not impulsive",
-              "text_cn": "并不具备冲动性和急躁特征",
+              "text_cn": "不是冲动的",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 恶意否定原文明确断言）",
+              "trap_type": "干扰项（反向干扰 / 否定原文结论）",
               "analysis": {
-                "practice_status": "文中明确说 carry those impulses，D选项加 not 否定冲动，直接反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 恶意否定原文明确断言）",
+                "practice_status": "原文明确指出会带来冲动，选项加not与文意相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 否定原文结论）",
                 "source_sentence": "and carry those impulses into whatever else we’re doing.",
                 "source_translation": "并把这些冲动带到了我们正在做的任何其他事情当中。",
-                "locator_comparison": "选项D宣称快速决策“不是冲动性的（are not impulsive）”。原文第3段明确写明：受试者不仅阅读变快，而且“carry those impulses into whatever else we're doing”（把这些冲动带入到了所做的其他事情中）。原文原词清晰指认其为“impulses（冲动）”，D选项却反向捏造为“not impulsive”。这与B选项同属一脉相承的“加not颠倒黑白”型拙劣干扰项。",
+                "locator_comparison": "原文明确写道人们会带有那些冲动（carry those impulses），选项D声称并非冲动，直接违背原文断言，排除。",
                 "writing_perspective": "快餐标志引发的核心心理症候正是急躁冲动，D项彻底否定了实验所证实的心理现象。",
                 "theme_validation": "与作者批判现代快节奏催生冲动行为的立意彻底背离，排除。",
-                "verdict": "复盘判断：D项反向篡改原文字面事实，坚决排除。"
+                "verdict": "复盘判断：原文指出带有冲动，选项相反，排除。"
               }
             }
           ],
@@ -5039,69 +5039,69 @@
             {
               "key": "A",
               "text": "trust our first impression",
-              "text_cn": "无条件相信我们的第一直觉印象",
+              "text_cn": "相信我们的第一印象",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 彻底颠覆全文主旨立场）",
+              "trap_type": "干扰项（反向干扰 / 违背文意）",
               "analysis": {
-                "practice_status": "第一印象充满偏见和冲动，作者教我们抑制第一印象，A完全唱反调，排除。",
-                "option_nature": "干扰项（反向干扰 / 彻底颠覆全文主旨立场）",
+                "practice_status": "第一印象容易受到无意识偏见和冲动的影响，作者建议审慎思考而非盲信第一印象，排除。",
+                "option_nature": "干扰项（反向干扰 / 违背文意）",
                 "source_sentence": "if we take a moment and think about how we are likely to react, we can reduce or even eliminate the negative effects of our quick, hard-wired responses.",
                 "source_translation": "如果我们停下来想一想自己可能作何反应，就能减少甚至消除我们快速本能反应的消极影响。",
-                "locator_comparison": "选项A建议人们“相信我们的第一印象（trust our first impression）”。然而全文的立论核心正是批判第一印象的不可靠：第一印象常常诱发过度反应（overreactions）、让人被销售的假笑所欺骗、甚至让女性筛选官产生招聘偏见。作者通篇都在开方抓药以“减少甚至消除消极影响（reduce or eliminate negative effects）”，手段是“暂停与反思（pause, take a moment and think）”。A项教人盲从第一印象，正好站在了作者主旨的对立极，属于极其荒谬的反向干扰。",
+                "locator_comparison": "瞬时决断的第一印象往往充满偏见和盲目冲动，作者教导人们要克制瞬时冲动，而非无条件盲信第一印象，排除。",
                 "writing_perspective": "作者撰写本文的警世目的就是打破对直觉第一印象的迷信，A项与作者的核心倡议彻底决裂。",
                 "theme_validation": "与全篇“对抗直觉冲动、倡导深思熟虑”的论证方向水火不容，排除。",
-                "verdict": "复盘判断：A项与作者全篇反思主旨唱反调，直接排除。"
+                "verdict": "复盘判断：作者主张克制第一印象冲动，选项相反，排除。"
               }
             },
             {
               "key": "B",
               "text": "think before we act",
-              "text_cn": "在付诸行动之前做到三思而后行",
+              "text_cn": "三思而后行",
               "is_correct": true,
-              "trap_type": "★ 标准正确谚语级同义转述",
+              "trap_type": "★ 标准正确同义替换",
               "analysis": {
-                "practice_status": "take a moment before buying / take a moment and think，完美对应 think before we act，锁定正选。",
-                "option_nature": "★ 标准正确谚语级同义转述",
+                "practice_status": "对应原文take a moment and think以及take a moment before buying，锁定正选。",
+                "option_nature": "★ 标准正确同义替换",
                 "source_sentence": "we can take a moment before buying... if we take a moment and think about how we are likely to react... mute our hard-wired reactions by pausing...",
                 "source_translation": "我们可以在购买前停顿思考……如果我们能稍作停顿想一想自己可能作何反应……通过暂停来抑制我们的本能反应……",
-                "locator_comparison": "题干询问如何逆转快速决策的消极影响（To reverse negative influences）。第4段首句承上启下指出“Yet we can reverse such influences”，紧接着给出具体操作法则：“we can take a moment before buying”（在掏钱购买之前稍作停顿反思）。这与第1段总论句“take a moment and think about how we are likely to react”（停顿片刻想一想自己会作何反应）以及第6段“mute our hard-wired reactions by pausing”（通过暂停来抑制本能反应）构成了完美的闭环互文。在行动之前先停顿片刻、理性思考，在英语中正是千锤百炼的名言成语“think before we act”（三思而后行）。选项B做出了极具文化底蕴且完全对位的同义替换。",
+                "locator_comparison": "原文在提出逆转负面影响的建议时明确指出：'take a moment and think'（停下来想一想）以及在消费前停顿片刻。选项B'think before we act'（三思而后行）准确转述，锁定正选。",
                 "writing_perspective": "作者通过消费防套路与招聘防偏见的案例，提炼出人类对抗本能冲动的根本武器是“理性反省的停顿”，B项传神地凝结了这一行动纲领。",
                 "theme_validation": "“三思后行”正是对抗冲动快决策的根本落脚点，完全契合主旨。",
-                "verdict": "复盘判断：B项同义转述精妙传神，当之无愧的标准正选。"
+                "verdict": "复盘判断：take a moment and think即think before we act，正确。"
               }
             },
             {
               "key": "C",
               "text": "do as people usually do",
-              "text_cn": "照着普通大众常人的惯例做法去做",
+              "text_cn": "照着常人的做法去做",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 违背批判性思维常理）",
+              "trap_type": "干扰项（无中生有 / 偏离建议）",
               "analysis": {
-                "practice_status": "常人习惯正是冲动随大流，随大流就掉坑里了，无中生有，排除。",
-                "option_nature": "干扰项（无中生有 / 违背批判性思维常理）",
+                "practice_status": "常人习惯往往容易冲动随大流，作者并未建议盲目模仿他人做法，排除。",
+                "option_nature": "干扰项（无中生有 / 偏离建议）",
                 "source_sentence": "Scientists have found that although we are prone to snap overreactions...",
                 "source_translation": "科学家发现，尽管我们天生容易产生轻率的过度反应……",
-                "locator_comparison": "选项C主张“像人们通常做的那样去做（do as people usually do）”。然而原文开篇即指出普通大众的常态是“prone to snap overreactions”（天生容易快速过度反应），第3段指出常人看到快餐标志就会不由自主变急躁。大众平时的惯性反应恰恰是负面影响的滋生温床！如果“照大众通常的做法去做”，只能进一步加剧盲从与被操纵。C项无中生有且背离反省批判的逻辑常识。",
+                "locator_comparison": "普通大众在日常生活中往往容易受瞬时冲动支配，随大流正是导致负面影响的根源之一，作者并未提出该建议，排除。",
                 "writing_perspective": "作者呼吁的是超越平庸大众的本能盲区，绝非盲从平庸惯性，C项与议论文的批判精神相悖。",
                 "theme_validation": "随波逐流无法实现“reverse（逆转）”，与文本主旨逻辑断裂，排除。",
-                "verdict": "复盘判断：C项凭空臆断且违背逻辑常识，坚决排除。"
+                "verdict": "复盘判断：文中未建议照常人做法，无中生有，排除。"
               }
             },
             {
               "key": "D",
               "text": "ask for expert advice",
-              "text_cn": "在每次决策前都去寻求专家的专业指导",
+              "text_cn": "寻求专家建议",
               "is_correct": false,
-              "trap_type": "干扰项（拼凑后文细节 / 脱离情境答非所问）",
+              "trap_type": "干扰项（答非所问 / 局部细节干扰）",
               "analysis": {
-                "practice_status": "专家是第5段举的例子，日常买东西不可能每次请教专家，答非所问，排除。",
-                "option_nature": "干扰项（拼凑后文细节 / 脱离情境答非所问）",
+                "practice_status": "专家只是后文列举的研究者，日常购物决策不可能事事请教专家，排除。",
+                "option_nature": "干扰项（答非所问 / 局部细节干扰）",
                 "source_sentence": "John Gottman, the marriage expert, explains... (Paragraph 5)",
                 "source_translation": "婚姻专家约翰·戈特曼解释说……（第5段）",
-                "locator_comparison": "选项D建议“寻求专家意见（ask for expert advice）”。虽然第5段提到了“marriage expert”（婚姻专家约翰·戈特曼），但那是作者用来解释直觉决策科学原理的权威论据。第4段讨论逆转冲动购买房产等日常行为时，作者给出的对策是自我停顿（take a moment）或聘请外部筛选员，根本没有倡导日常生活决策都要去“咨询专家”。日常购物如果每次都找专家咨询，在现实中既不可行也非文章所指。D项跨段拼接词汇，答非所问。",
+                "locator_comparison": "第5段提及专家只是为了证明长期研究的可靠性，作者给普通大众开出的日常逆转建议是自我暂停思考，而非事事请教专家，排除。",
                 "writing_perspective": "作者强调个体内心自省机制的建立，而非对外盲目依附专家权威，D项曲解了作者的赋能思路。",
                 "theme_validation": "生硬拼接后文专家名词，答非所问，排除。",
-                "verdict": "复盘判断：D项生搬硬套后文论据词汇，偏离本段对策，排除。"
+                "verdict": "复盘判断：日常反思决策非请教专家，排除。"
               }
             }
           ],
@@ -5126,69 +5126,69 @@
             {
               "key": "A",
               "text": "critical assessment",
-              "text_cn": "高度严谨的批判性评估思维",
+              "text_cn": "批判性评估",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 偷换论证属性）",
+              "trap_type": "干扰项（无中生有 / 偏离重点）",
               "analysis": {
-                "practice_status": "文中强调长期观察累积信息，非批判性评估，概念无中生有，排除。",
-                "option_nature": "干扰项（无中生有 / 偷换论证属性）",
+                "practice_status": "戈特曼强调的是长期观察积累的充分信息，并非批判性评估，排除。",
+                "option_nature": "干扰项（无中生有 / 偏离重点）",
                 "source_sentence": "only after we ground such snap reactions in “thick sliced” long-term study.",
                 "source_translation": "只有在我们将这种快速直觉反应建立在“厚切片”式的长期深入研究基础之上后。",
-                "locator_comparison": "选项A提出可靠直觉建立在“批判性评估（critical assessment）”之上。原文定位句明确指出基石是“'thick sliced' long-term study”（厚切片式的长期研究），第6段紧接着以两天（two days）的细致观察为例进行阐发。核心强调的是“时间长、信息数据积累厚重”，并非认识论层面的“批判性思维或评估（critical assessment）”。A项用大而化之的哲学学术名词偷换了实证经验的充分积累，属于无中生有的虚假概念。",
+                "locator_comparison": "戈特曼的研究重点在于通过长期观察累积海量信息，并未强调批判性评估（critical assessment），偷换概念，排除。",
                 "writing_perspective": "戈特曼所代表的心理实证主义强调数据维度的丰沛度，并非主观逻辑批判，A项偏离论述基点。",
                 "theme_validation": "与信息丰厚度的支撑主线无关，排除。",
-                "verdict": "复盘判断：A项无中生有高大上学术概念，排除。"
+                "verdict": "复盘判断：强调信息累积非批判性评估，排除。"
               }
             },
             {
               "key": "B",
               "text": "“thin sliced” study",
-              "text_cn": "“薄切片”式的瞬时观察研究",
+              "text_cn": "“薄切片”研究",
               "is_correct": false,
-              "trap_type": "干扰项（本末倒置 / 颠倒比喻依托关系）",
+              "trap_type": "干扰项（以偏概全 / 颠倒比喻关系）",
               "analysis": {
-                "practice_status": "薄切片是被支撑的表象行为，厚切片才是地基，本末倒置，原词逆向干扰，排除。",
-                "option_nature": "干扰项（本末倒置 / 颠倒比喻依托关系）",
+                "practice_status": "薄切片是瞬时表象，厚切片（长期观察）才是可靠反应的基石，颠倒依托关系，排除。",
+                "option_nature": "干扰项（以偏概全 / 颠倒比喻关系）",
                 "source_sentence": "we quickly “thin slice” information reliably only after we ground such snap reactions in “thick sliced” long-term study.",
                 "source_translation": "只有在我们将这种快速直觉反应建立在“厚切片”式的长期深入研究基础之上后，我们才能迅速且可靠地对信息进行“薄切片”式的敏锐洞察。",
-                "locator_comparison": "选项B宣称建立在“'thin sliced' study”之上。这是极具考研特色的原词颠倒陷阱！定位句清晰指出：“we quickly 'thin slice' information reliably only after we ground such snap reactions in 'thick sliced' long-term study”（只有当我们把这种快速直觉扎根于“厚切片”长期研究之中时，我们才能可靠地进行“薄切片”提取）。“thin slice”（薄切片提取）是上层的直觉表现形式，而“thick sliced”（厚切片积累）才是底层地基（ground in）。B项本末倒置，把上层产物当成了底层基础，犯了颠倒支撑关系的严重逻辑错误。",
+                "locator_comparison": "戈特曼强调的是长期深厚的实证积累（thick sliced）作为底层支撑，薄切片只是表层表现，选项颠倒了依托关系，排除。",
                 "writing_perspective": "作者借该比喻旨在击碎“仅凭吉光片羽的薄切片就能成事”的侥幸幻想，B项恰好掉入了作者意图批判的思维盲区。",
                 "theme_validation": "颠倒厚薄切片的支撑因果逻辑，坚决排除。",
-                "verdict": "复盘判断：B项逻辑本末倒置，原词反向干扰，排除。"
+                "verdict": "复盘判断：薄切片为表象，厚切片为基石，颠倒关系，排除。"
               }
             },
             {
               "key": "C",
               "text": "adequate information",
-              "text_cn": "全面翔实、充分充足的信息积累",
+              "text_cn": "充分的信息",
               "is_correct": true,
-              "trap_type": "★ 标准正确比喻实质深层提炼",
+              "trap_type": "★ 标准正确比喻实质提炼",
               "analysis": {
-                "practice_status": "thick sliced long-term study = 充分充足的信息，抽象概括精妙，锁定正选。",
-                "option_nature": "★ 标准正确比喻实质深层提炼",
+                "practice_status": "戈特曼指出可靠的瞬时判断建立在多年积累的深厚研究（thick sliced）之上，即充分的信息，锁定正选。",
+                "option_nature": "★ 标准正确比喻实质提炼",
                 "source_sentence": "only after we ground such snap reactions in “thick sliced” long-term study. When Dr. Gottman really wants to assess... invites them... for a much longer evaluation: two days, not two seconds.",
                 "source_translation": "只有在我们将这种快速反应建立在“厚切片”式的长期研究基础之上后。当戈特曼博士真想评估时……邀请他们……进行更长期的评估：两天，而不是两秒。",
-                "locator_comparison": "定位句中，戈特曼指出可靠直觉决策的先决基石是“'thick sliced' long-term study”（厚切片式的长期研究）。第6段作者紧接着对这一生动比喻做出了解密：戈特曼评估夫妻能否白头偕老，绝不靠2秒钟的灵光一现，而是邀请夫妻到度假村进行长达两天（two days, not two seconds）的全天候深入观察与互动数据收集。两天的海量事实与多维度追踪，构成了极为厚重、完备且充实的数据储备。因此，“thick sliced”与“long-term”在语义本质上就是指掌握了“adequate information”（充分全面的信息）。选项C穿透了隐喻表象，直接切中事物实质，转换精当绝伦。",
+                "locator_comparison": "戈特曼指出看似瞬间的直觉反应其实建立在长达数年、深厚翔实的观察数据（thick slice of information）基础之上。选项C'adequate information'（充分的信息）准确提炼，锁定正选。",
                 "writing_perspective": "作者揭示直觉高手的秘密：敏锐直觉从来不是凭空而降的神迹，而是海量充分信息经年累月沉淀后的潜意识喷发，C项完美提炼了这一认知科学真相。",
                 "theme_validation": "充分信息作为直觉基石完全契合全文逻辑主旨，毫无破绽。",
-                "verdict": "复盘判断：C项直击比喻深层内涵，极高水准的同义替换正选。"
+                "verdict": "复盘判断：长期深厚研究对应充分信息，正确。"
               }
             },
             {
               "key": "D",
               "text": "sensible explanation",
-              "text_cn": "事后合乎情理的合理化解释",
+              "text_cn": "合理的解释",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 偏离实证数据本质）",
+              "trap_type": "干扰项（偷换概念 / 偏离实证数据）",
               "analysis": {
-                "practice_status": "需要的是事前客观信息积累，非事后说辞解释，偷换概念，排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离实证数据本质）",
+                "practice_status": "需要的是事前充分的信息数据，而非事后的言辞解释，排除。",
+                "option_nature": "干扰项（偷换概念 / 偏离实证数据）",
                 "source_sentence": "only after we ground such snap reactions in “thick sliced” long-term study.",
                 "source_translation": "只有在我们将这种快速直觉反应建立在“厚切片”式的长期深入研究基础之上后。",
-                "locator_comparison": "选项D声称可靠反应基于“合理解释（sensible explanation）”。原文戈特曼探讨的是直觉提取在客观事实层面能否做到“reliably（可靠精准）”。确保其可靠的是事前的实证观察与数据积累（study / evaluation），绝非事后对决策做出的言辞粉饰或“sensible explanation（合理化解释）”。D项将客观实证研究篡改为合情合理的话语阐释，严重偷换了科学实证的本质属性。",
+                "locator_comparison": "研究强调的是事前充足的客观数据累积，并非事后的说辞或合理解释（sensible explanation），偷换概念，排除。",
                 "writing_perspective": "科学验证靠实据说话而非主观狡辩解释，D项偏离心理学实证研究的严肃性。",
                 "theme_validation": "偷换概念，与信息积累的主旨无关，排除。",
-                "verdict": "复盘判断：D项用主观解释偷换客观信息，排除。"
+                "verdict": "复盘判断：事前数据积累非事后说辞，排除。"
               }
             }
           ],
@@ -5213,69 +5213,69 @@
             {
               "key": "A",
               "text": "tolerant",
-              "text_cn": "宽容容忍、听之任之的态度",
+              "text_cn": "宽容的",
               "is_correct": false,
-              "trap_type": "干扰项（情感色彩偏离 / 消极放任与主动逆转冲突）",
+              "trap_type": "干扰项（感情色彩偏离）",
               "analysis": {
-                "practice_status": "作者呼吁主动战斗逆转趋势，绝非消极容忍，排除。",
-                "option_nature": "干扰项（情感色彩偏离 / 消极放任与主动逆转冲突）",
+                "practice_status": "作者呼吁积极应对高速生活带来的冲击，绝非消极容忍，排除。",
+                "option_nature": "干扰项（感情色彩偏离）",
                 "source_sentence": "We still have the imaginative capacity to rise above temptation and reverse the high-speed trend.",
                 "source_translation": "我们仍然拥有超越诱惑、扭转快节奏趋势的非凡想象力与自制力。",
-                "locator_comparison": "选项A表示“宽容容忍的（tolerant）”。纵观全文，作者深刻剖析了现代快节奏和快餐符号给人类理性带来的偏见与损害，并在末段明确吹响反抗号角：“rise above temptation and reverse the high-speed trend”（超越诱惑并逆转快节奏趋势）。作者倡导的是积极主动的自我觉醒与反抗扭转，绝非无可奈何地“容忍纵容或任由其泛滥（tolerant）”。A项将具有战斗性的反思姿态歪曲为消极妥协，感情色彩严重偏离。",
+                "locator_comparison": "作者呼吁人们主动放慢脚步、克制冲动以逆转高速节奏的负面影响，绝非听之任之的消极容忍态度，排除。",
                 "writing_perspective": "作者通篇立足于改善人类决策品质，tolerant暗示放任堕落，完全违背作者的启蒙意图。",
                 "theme_validation": "与文章强调的主动干预和逆转逻辑彻底相悖，排除。",
-                "verdict": "复盘判断：A项感情色彩严重偏离，把主动反抗误判为消极容忍，排除。"
+                "verdict": "复盘判断：积极呼吁应对非消极容忍，排除。"
               }
             },
             {
               "key": "B",
               "text": "optimistic",
-              "text_cn": "充满信心、积极坚定的乐观态度",
+              "text_cn": "乐观的",
               "is_correct": true,
-              "trap_type": "★ 标准正确态度基调抓取",
+              "trap_type": "★ 标准正确作者态度判断",
               "analysis": {
-                "practice_status": "still have the capacity / rise above，语气坚定积极，充满乐观必胜信念，锁定正选。",
-                "option_nature": "★ 标准正确态度基调抓取",
+                "practice_status": "作者使用still have the capacity以及rise above，语气坚定积极，体现出乐观态度，锁定正选。",
+                "option_nature": "★ 标准正确作者态度判断",
                 "source_sentence": "Although technology might change the way we react, it hasn’t changed our nature. We still have the imaginative capacity to rise above temptation and reverse the high-speed trend.",
                 "source_translation": "尽管科技可能会改变我们的反应方式，但它并未改变我们的人性本能。我们仍然拥有超越诱惑、扭转快节奏趋势的非凡想象力与自制力。",
-                "locator_comparison": "定位至文章收官总结句。作者在承认科技带来巨大冲击后，笔锋一转，用充满坚定信念的强语气宣告：“it hasn't changed our nature. We still have the imaginative capacity to rise above temptation and reverse the high-speed trend”（科技未曾改变人性。我们依然拥有超越诱惑、扭转快节奏趋势的非凡心智与能力）。文中的“still have the capacity”（依然拥有能力）和“rise above”（超越战胜）洋溢着对人类自省自制潜能的无限信赖与昂扬豪情，明确表达出作者对战胜浮躁趋势持有极为坚定而充满希望的“乐观（optimistic）”态度。选项B无懈可击。",
+                "locator_comparison": "末段作者以坚定的语气指出人类依然有能力超脱冲动（we still have the capacity to rise above...），充满信心与正向力量，态度属于标准的'optimistic'，锁定正选。",
                 "writing_perspective": "作者在全书结语处完成主旨的华彩升华，给人以力量与希望，B项极度契合这一政论抒情的高潮基调。",
                 "theme_validation": "与全文呼唤人性理智复归的乐观主题完美共振，正确无误。",
-                "verdict": "复盘判断：B项精准锁定转折句昂扬语气，毫无争议的标准答案。"
+                "verdict": "复盘判断：still have capacity语气积极肯定，锁定乐观，正确。"
               }
             },
             {
               "key": "C",
               "text": "uncertain",
-              "text_cn": "态度游移、悬而未决的不确定状态",
+              "text_cn": "不确定的",
               "is_correct": false,
-              "trap_type": "干扰项（语气强度失准 / 强加不确定性）",
+              "trap_type": "干扰项（语气强度不符）",
               "analysis": {
-                "practice_status": "作者用了肯定句式 hasn't changed / still have，绝无摇摆不确定，排除。",
-                "option_nature": "干扰项（语气强度失准 / 强加不确定性）",
+                "practice_status": "作者表态坚定肯定，并未表现出摇摆不定的态度，排除。",
+                "option_nature": "干扰项（语气强度不符）",
                 "source_sentence": "it hasn’t changed our nature. We still have the imaginative capacity...",
                 "source_translation": "它并未改变我们的人性本能。我们仍然拥有非凡的心智能力……",
-                "locator_comparison": "选项C认为态度是“不确定的（uncertain）”。考研阅读中，若作者态度明确且使用了确定无疑的陈述句（hasn't changed, still have），断无“不确定（uncertain）”的可能。作者没有任何犹豫或含糊其辞的保留限定词，而是斩钉截铁地肯定人类的能力。C项无视原文明朗坚决的论断，强加虚假的怀疑摇摆，纯属臆断干扰项。",
+                "locator_comparison": "作者使用肯定断言句强调人类的能力未变，毫无犹豫或悬而未决的迹象，排除。",
                 "writing_perspective": "社论性杂文的立论要求旗帜鲜明，作者在篇末亮剑，绝非模棱两可，C项误读文体风格。",
                 "theme_validation": "与尾段肯定有力的宣告事实直接违背，排除。",
-                "verdict": "复盘判断：C项强加游移摇摆色彩，与原文肯定语气相悖，排除。"
+                "verdict": "复盘判断：态度明确肯定，非不确定，排除。"
               }
             },
             {
               "key": "D",
               "text": "doubtful",
-              "text_cn": "心存疑虑、悲观怀疑的态度",
+              "text_cn": "怀疑的",
               "is_correct": false,
-              "trap_type": "干扰项（感情色彩彻底颠倒 / 悲观怀疑与肯定信念对立）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "怀疑人类逆转不了，与 still have capacity 完全相反，色彩颠倒，排除。",
-                "option_nature": "干扰项（感情色彩彻底颠倒 / 悲观怀疑与肯定信念对立）",
+                "practice_status": "怀疑人类无法改变与作者坚信我们依然有能力相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "We still have the imaginative capacity to rise above temptation and reverse the high-speed trend.",
                 "source_translation": "我们仍然拥有超越诱惑、扭转快节奏趋势的非凡想象力与自制力。",
-                "locator_comparison": "选项D认为作者“怀疑的（doubtful）”。怀疑意味着认为前景渺茫、人类无法摆脱快节奏诱惑。然而原文作者明确宣告“We still have the capacity to reverse”（我们依然具备扭转的能力），直接驳斥了怀疑论与失败主义论调。D选项将作者对人类心智力量的高度自信反向理解为悲观怀疑，属于正反情感彻底颠倒的典型设错。",
+                "locator_comparison": "怀疑人类无法逆转趋势与作者在文末展现的坚定信心截然相反，情感极性颠倒，排除。",
                 "writing_perspective": "作者如果在结尾散播怀疑论调，整篇文章的建言和心理干预方案就全盘瓦解，D项不合常理。",
                 "theme_validation": "与文末昂扬振奋的正面结论背道而驰，坚决排除。",
-                "verdict": "复盘判断：D项感情色彩正反颠倒，与原意彻底相左，排除。"
+                "verdict": "复盘判断：作者坚信人类有能力，怀疑与文意相反，排除。"
               }
             }
           ],
@@ -6793,69 +6793,69 @@
             {
               "key": "A",
               "text": "women take the lead",
-              "text_cn": "女性在高管层中处于全面带头主导地位",
+              "text_cn": "女性处于主导地位",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 睁眼说瞎话式事实全盘颠倒）",
+              "trap_type": "干扰项（反向干扰 / 违背原文事实）",
               "analysis": {
-                "practice_status": "男性占压倒性多数且女性仅占14%，A指鹿为马彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 睁眼说瞎话式事实全盘颠倒）",
+                "practice_status": "男性占压倒性多数且女性高管仅占极小比例，选项与事实相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 违背原文事实）",
                 "source_sentence": "Europe’s top corporate-governance positions remain overwhelmingly male. Indeed, women hold only 14 per cent...",
                 "source_translation": "欧洲企业治理的最高管理层职位绝大多数仍然由男性把持。事实上，女性仅占据了14%的席位……",
-                "locator_comparison": "选项A宣称在欧洲企业中“女性处于带头主导地位（women take the lead）”。然而原文第1段从首句“Europe is not a gender-equality heaven”（欧洲并非性别平等天堂）便展开严厉控诉，指出欧洲最高治理职位“remain overwhelmingly male”（绝大多数被男性占据），女性在董事会仅占可怜的14%。现实是男性对权力中枢实行铁板一块的压倒性垄断。A项将男性绝对主导的残酷现实指鹿为马篡改为女性当家做主，犯了彻底颠倒事实的低级硬伤。",
+                "locator_comparison": "原文明确指出欧洲企业高管层男性占压倒性多数（overwhelmingly male），女性仅占约14%，选项声称女性主导与事实完全颠倒，排除。",
                 "writing_perspective": "全文立论的根本痛点就是女性晋升天花板与权力旁落，A项彻底抽空了后文立法讨论的背景基础。",
                 "theme_validation": "与全篇呼吁打破男性董事垄断的主旨水火不容，排除。",
-                "verdict": "复盘判断：A项与原文字面事实全盘颠倒，直接秒杀排除。"
+                "verdict": "复盘判断：高管绝大多数为男性，选项相反，排除。"
               }
             },
             {
               "key": "B",
               "text": "men have the final say",
-              "text_cn": "男性在重大管理决策中拥有绝对拍板话语权",
+              "text_cn": "男性拥有最终话语权",
               "is_correct": true,
-              "trap_type": "★ 标准正确地道口语化同义转换",
+              "trap_type": "★ 标准正确同义转换",
               "analysis": {
-                "practice_status": "overwhelmingly male 且女性仅占14%，大权完全由男人掌控，同义转换极其地道，锁定正选。",
-                "option_nature": "★ 标准正确地道口语化同义转换",
+                "practice_status": "对应原文高管层overwhelmingly male且大权由男性主导，即men have the final say，锁定正选。",
+                "option_nature": "★ 标准正确同义转换",
                 "source_sentence": "the corporate workplace will never be completely family-friendly until women are part of senior management decisions, and Europe’s top corporate-governance positions remain overwhelmingly male. Indeed, women hold only 14 per cent of positions on European corporate boards.",
                 "source_translation": "除非女性参与高层管理决策，否则企业工作场所永远无法家庭友好，而欧洲最高企业治理职位绝大多数由男性掌控。事实上女性仅占欧洲企业董事会席位的14%。",
-                "locator_comparison": "第1段定位句指出：企业能否家庭友好的关键在于女性是否参与“senior management decisions”（高级管理层决策），然而残酷现实是欧洲最高公司治理岗位“remain overwhelmingly male”（压倒性地由男性把持），且女性董事席位仅占14%。决策层被男性绝对垄断，意味着任何重大战略方向与人事决策完全由男性一方独断专行。选项B的“men have the final say”（男性拥有最终拍板决定权）以地道形象的英语表达，精准同义概括了男性对高层决策权（management decisions）的全面垄断，转换极高明且完全忠实于原文事实。",
+                "locator_comparison": "原文指出欧洲职场高层由男性牢牢掌控（overwhelmingly male）。选项B'men have the final say'（男性拥有最终话语权）构成准确同义改写，锁定正选。",
                 "writing_perspective": "作者开门见山揭露欧洲商界男性垄断决策中枢的严酷现实，为后文欧盟委员会强推配额法案提供了无可辩驳的现实正当性，B项直击矛头所向。",
                 "theme_validation": "男性一手遮天正是全文推动性别配额立法的根本动因，与主旨严丝合缝。",
-                "verdict": "复盘判断：B项地道转换切中要害，毫无争议的标准正选。"
+                "verdict": "复盘判断：男性占绝对统治地位对应最终话语权，正确。"
               }
             },
             {
               "key": "C",
               "text": "corporate governance is overwhelmed",
-              "text_cn": "公司治理体系不堪重负而陷入瘫痪",
+              "text_cn": "公司治理不堪重负",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 截取原词词性篡改拼凑）",
+              "trap_type": "干扰项（偷换概念 / 词性截取篡改）",
               "analysis": {
-                "practice_status": "overwhelmingly 修饰的是 male，不是治理体系被 overwhelm，原词截取曲解，排除。",
-                "option_nature": "干扰项（偷换概念 / 截取原词词性篡改拼凑）",
+                "practice_status": "overwhelmingly修饰的是male，并非公司治理被压垮，偷换修饰对象，排除。",
+                "option_nature": "干扰项（偷换概念 / 词性截取篡改）",
                 "source_sentence": "and Europe’s top corporate-governance positions remain overwhelmingly male.",
                 "source_translation": "而欧洲企业治理的最高管理层职位绝大多数仍然由男性把持。",
-                "locator_comparison": "选项C声称“公司治理不堪重负（corporate governance is overwhelmed）”。回文检索，原文确实出现了“corporate-governance”和“overwhelmingly”，但原句的结构是：“corporate-governance positions remain overwhelmingly male”（公司治理职位绝大多数被男性占据）。副词“overwhelmingly”在此表示数量上的“压倒性、绝大多数”，修饰的是形容词“male”；而C选项断章取义截取词根，把“压倒性多数男性”恶意曲解为“公司治理本身被压垮/不堪重负（overwhelmed）”。这种生搬硬套原词、彻底颠覆原意的文字游戏是考研命题极具欺骗性的陷阱。",
+                "locator_comparison": "原文中'overwhelmingly'是修饰形容词'male'，说明高管绝大多数为男性，并非公司治理体制不堪重负（overwhelmed），偷换语法结构，排除。",
                 "writing_perspective": "作者批判的是治理层的人员性别结构失衡，而非公司治理流程本身的承载力崩溃，C项答非所问。",
                 "theme_validation": "偏离性别平等讨论重心，纯属语言拼凑障眼法，排除。",
-                "verdict": "复盘判断：C项截取原词曲解词性与含义，坚决排除。"
+                "verdict": "复盘判断：修饰男性多数非治理体系瘫痪，排除。"
               }
             },
             {
               "key": "D",
               "text": "senior management is family-friendly",
-              "text_cn": "高级管理层在制度上已实现家庭友好",
+              "text_cn": "高管层注重家庭友好",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 抹杀双重否定构成事实反转）",
+              "trap_type": "干扰项（反向干扰 / 忽略否定条件）",
               "analysis": {
-                "practice_status": "原文说 never be family-friendly until... 抹去否定词构成事实颠倒，排除。",
-                "option_nature": "干扰项（反向矛盾 / 抹杀双重否定构成事实反转）",
+                "practice_status": "原文指出高管层直到配额实施前都不会是家庭友好的，抹去否定条件构成反向干扰，排除。",
+                "option_nature": "干扰项（反向干扰 / 忽略否定条件）",
                 "source_sentence": "the corporate workplace will never be completely family-friendly until women are part of senior management decisions",
                 "source_translation": "除非女性成为高层管理决策的一份子，否则企业工作场所绝不可能完全实现家庭友好",
-                "locator_comparison": "选项D声称“高管层对家庭十分友好（senior management is family-friendly）”。原文定位句明确使用“never... until...”（除非……否则决不……）的条件否定句式：“will never be completely family-friendly until women are part of senior management decisions”（除非女性参与高层决策，否则绝不可能家庭友好）。既然当前高管层女性仅占14%、并未真正参与决策，那么结论只能是“绝非家庭友好”。D选项公然抹去了原文的关键否定词“never”，反向编造成已经实现家庭友好，犯了非黑即白的事实篡改错误。",
+                "locator_comparison": "原文明确指出高层管理'will never be family-friendly until...'（在配额打破垄断之前绝不会是家庭友好的），选项抹去否定条件，事实颠倒，排除。",
                 "writing_perspective": "正因为高管层缺乏女性视角才导致职场极不家庭友好，D项把作者严厉批判的痛点美化为既成事实，荒谬绝伦。",
                 "theme_validation": "与作者揭露的职场排斥女性生育家庭的冷酷现实截然相反，排除。",
-                "verdict": "复盘判断：D项抹去否定词颠倒事实，排除。"
+                "verdict": "复盘判断：原文有never否定，选项说已实现，反向干扰，排除。"
               }
             }
           ],
@@ -6880,69 +6880,69 @@
             {
               "key": "A",
               "text": "a reflection of gender balance",
-              "text_cn": "欧洲职场性别实现基本平衡的客观反映",
+              "text_cn": "性别平衡的反映",
               "is_correct": false,
-              "trap_type": "干扰项（因果倒置 / 混淆制度诉求与现实惨状）",
+              "trap_type": "干扰项（因果颠倒 / 违背现状）",
               "analysis": {
-                "practice_status": "立法是为了纠正严重失衡的现状，并非平衡的反映，因果颠倒，排除。",
-                "option_nature": "干扰项（因果倒置 / 混淆制度诉求与现实惨状）",
+                "practice_status": "立法是为了纠正严重失衡的职场现状，而非性别平衡的反映，排除。",
+                "option_nature": "干扰项（因果颠倒 / 违背现状）",
                 "source_sentence": "considering legislation to compel corporate boards to maintain a certain proportion of women... born of frustration.",
                 "source_translation": "正在考虑立法强制董事会保持一定女性比例……诞生于挫败感。",
-                "locator_comparison": "选项A声称立法是“性别平衡的反映（a reflection of gender balance）”。逻辑完全颠倒：正是因为现实中董事会性别极度失衡（男性占86%，女性仅占14%），且企业自律彻底失败，欧盟才被迫动用国家立法机器进行纠偏。立法是试图去打破失衡的强力干预工具，绝不是现实已经达到性别平衡后的“客观反映（reflection）”。A项颠倒因果与现状，把问题本身当成了结果。",
+                "locator_comparison": "欧盟推动立法是因为现实中性别严重失衡，立法是纠正手段而非性别平衡的体现，因果颠倒，排除。",
                 "writing_perspective": "作者浓墨重彩描写立法的出台背景正是为了反衬现实失衡之严重，A项粉饰太平，彻底背离作者立意。",
                 "theme_validation": "与欧盟立法所面对的失衡现状水火不容，排除。",
-                "verdict": "复盘判断：A项因果倒置，混淆干预手段与现实惨状，排除。"
+                "verdict": "复盘判断：立法为纠偏手段非平衡反映，排除。"
               }
             },
             {
               "key": "B",
               "text": "a response to Reding’s call",
-              "text_cn": "对雷丁副主席自愿号召的积极正面回应",
+              "text_cn": "对雷丁呼吁的回应",
               "is_correct": false,
-              "trap_type": "干扰项（偷换逻辑 / 混淆自愿惨败与立法升级）",
+              "trap_type": "干扰项（偷换逻辑 / 混淆自愿呼吁与强制立法）",
               "analysis": {
-                "practice_status": "自愿号召仅24家公司响应以惨败告终，立法是惨败后的强制升级，非积极回应，排除。",
-                "option_nature": "干扰项（偷换逻辑 / 混淆自愿惨败与立法升级）",
+                "practice_status": "自愿呼吁仅少数企业响应以失败告终，立法是自愿失败后的强制升级，并非对呼吁的积极响应，排除。",
+                "option_nature": "干扰项（偷换逻辑 / 混淆自愿呼吁与强制立法）",
                 "source_sentence": "Last year, European Commission Vice President Viviane Reding issued a call to voluntary action... But her appeal was considered a failure: only 24 companies took it up.",
                 "source_translation": "去年雷丁副主席发出了自愿行动呼吁……但她的呼吁被视为彻底失败：仅24家公司响应。",
-                "locator_comparison": "选项B声称立法是“对雷丁号召的回应（a response to Reding's call）”。梳理时间线与因果链：雷丁去年号召的是“自愿行动（voluntary action）”，结果遭遇全欧企业的普遍漠视，仅有24家签约，被官方定性为“considered a failure（彻底失败）”。正因为自愿号召惨遭滑铁卢、软倡议彻底失灵，欧盟才在极度沮丧中转向硬性立法（compel / mandate）。立法是自愿倡议失败后的惩罚性替代手段，绝非商界对雷丁自愿号召的良性回应。B项因果关系偷换得极为隐蔽。",
+                "locator_comparison": "雷丁最初倡议企业自愿签署配额，但在一年内仅有24家企业响应，以失败告终。欧盟拟出台的立法是自愿倡议破产后的强制升级，并非对呼吁的积极配合，排除。",
                 "writing_perspective": "作者旨在证明道德自律无法撬动资本顽固偏见，必须诉诸法律铁拳，B项粉饰了这一残酷博弈过程。",
                 "theme_validation": "违背原文明确记录的自愿呼吁惨败事实，排除。",
-                "verdict": "复盘判断：B项偷换因果与阶段，曲解立法动因，排除。"
+                "verdict": "复盘判断：立法源于自愿倡议失败，非积极回应，排除。"
               }
             },
             {
               "key": "C",
               "text": "a reluctant choice",
-              "text_cn": "在自律破产后万般无奈之下做出的被迫选择",
+              "text_cn": "无可奈何的选择",
               "is_correct": true,
-              "trap_type": "★ 标准正确情感动因深层提炼",
+              "trap_type": "★ 标准正确情感动因概括",
               "analysis": {
-                "practice_status": "born of frustration 加上自愿呼吁失败，被迫立法规管，reluctant choice 精准对应，锁定正选。",
-                "option_nature": "★ 标准正确情感动因深层提炼",
+                "practice_status": "对应原文立法源于挫败感（born of frustration），在自律失败后被迫采取法律强制，锁定正选。",
+                "option_nature": "★ 标准正确情感动因概括",
                 "source_sentence": "This proposed mandate was born of frustration... appeal was considered a failure: only 24 companies took it up. (Paragraph 2) ... I understand Reding’s reluctance—and her frustration... fairer world must be temporarily ordered. (Paragraph 5)",
                 "source_translation": "这一拟议中的强制指令是在挫败与无奈中诞生的……呼吁被视为彻底失败：仅24家响应。（第2段）……我理解雷丁的勉强与她的挫败……更公平的世界暂时必须通过命令来构建。（第5段）",
-                "locator_comparison": "原文定位句一针见血揭示立法的心理与政治动机：“This proposed mandate was born of frustration”（这项强制指令诞生于挫败感与无可奈何）。下文随即给出令人心酸的背景：此前寄希望于企业自愿参与40%的配额，结果全欧仅24家响应，自愿路线彻底破产。软招走不通，政界才不得不动用行政命令硬手段。第5段更再次呼应：“I understand Reding's reluctance—and her frustration”（我理解雷丁的勉强与挫败）。选项C的“a reluctant choice”（无奈的选择）与原文中的“frustration”和“reluctance”构成了天衣无缝的情感与逻辑同义替换，极其精准地刻画了欧盟政界在现实碰壁后的妥协与被迫。",
+                "locator_comparison": "定位句明确指出该项立法提议是'born of frustration'（源于深深的挫败感）。在商界自律彻底落空之后，欧盟不得不动用强制立法。选项C'a reluctant choice'（勉强的/无可奈何的选择）概括准确，锁定正选。",
                 "writing_perspective": "作者后文明确指出自己和雷丁都不喜欢配额（违背自由择优），但面对顽固现实别无选择，C项精准把握住了这一贯穿全篇的核心论辩张力。",
                 "theme_validation": "“无奈被迫”是理解欧盟为何违背择优传统强推配额的钥匙，与全篇主旨百分之百吻合。",
-                "verdict": "复盘判断：C项直击立法出台的核心情感与政治动因，无可挑剔的正选。"
+                "verdict": "复盘判断：born of frustration对应reluctant choice，正确。"
               }
             },
             {
               "key": "D",
               "text": "a voluntary action\nᆇี൫ज@JOEE ༯໶\n\n07",
-              "text_cn": "一项企业自觉自愿推进的倡议行动",
+              "text_cn": "自愿行动",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 将法律强制与道德自愿对调）",
+              "trap_type": "干扰项（偷换概念 / 混淆强制立法与自愿倡议）",
               "analysis": {
-                "practice_status": "立法是 legislation / compel / mandate，与 voluntary 彻底矛盾，排除。",
-                "option_nature": "干扰项（偷换概念 / 将法律强制与道德自愿对调）",
+                "practice_status": "欧盟意图出台的是法律强制措施，与voluntary（自愿）相矛盾，排除。",
+                "option_nature": "干扰项（偷换概念 / 混淆强制立法与自愿倡议）",
                 "source_sentence": "legislation to compel corporate boards... This proposed mandate was born of frustration.",
                 "source_translation": "立法强制企业董事会……这一拟议的强制指令诞生于挫败感。",
-                "locator_comparison": "选项D宣称拟议中的立法是“自愿行动（a voluntary action）”。这是典型的指鹿为马。原文明确将该行动定性为“legislation（立法）”、“compel corporate boards（强制董事会）”以及“proposed mandate（拟议的强制指令）”。强制命令（compel / mandate）具有法定的国家强制力约束，与道德层面的“voluntary（自愿）”在法律属性上绝对对立。D项把立法的硬性强制恶意颠倒为自愿行动，错得离谱。",
+                "locator_comparison": "拟推行的立法具有法律强制约束力（mandate/legislation），与'voluntary action'（自愿行动）直接矛盾，排除。",
                 "writing_perspective": "作者全篇在对比软性自愿的无能与硬性立法的必要，D项彻底模糊了这两种不同治理工具的界限。",
                 "theme_validation": "与“强制配额”的法制核心属性背道而驰，坚决排除。",
-                "verdict": "复盘判断：D项偷换核心法律属性，黑白颠倒，排除。"
+                "verdict": "复盘判断：立法强制性与自愿相悖，排除。"
               }
             }
           ],
@@ -6967,69 +6967,69 @@
             {
               "key": "A",
               "text": "get top business positions",
-              "text_cn": "成功打破壁垒并获得顶尖商业高管职位",
+              "text_cn": "获得商业高管职位",
               "is_correct": true,
-              "trap_type": "★ 标准正确同位语细节同义替换",
+              "trap_type": "★ 标准正确同义替换",
               "analysis": {
-                "practice_status": "placing women in top business positions 原词同义改写，锁定正选。",
-                "option_nature": "★ 标准正确同位语细节同义替换",
+                "practice_status": "对应原文placing women in top business positions，直接同义改写，锁定正选。",
+                "option_nature": "★ 标准正确同义替换",
                 "source_sentence": "they “open the way to equality and they break through the glass ceiling,” according to Reding, a result seen in France and other countries with legally binding provisions on placing women in top business positions.",
                 "source_translation": "配额“为平等开辟道路并打破玻璃天花板”，这一成效已经在法国和其他对女性在商业高管职位任职制定了法律约束性条款的国家得到了验证。",
-                "locator_comparison": "题干定位至第4段雷丁的原话。雷丁阐明配额的核心功效在于促成实质行动：“open the way to equality and they break through the glass ceiling”（开辟平等道路，打破玻璃天花板）；后文紧接着以同位语补充说明该结论在法国等国的实证成效：“with legally binding provisions on placing women in top business positions”（通过法律约束性条款在顶尖商业职位上任用女性）。选项A的“get top business positions”（获得顶尖商业职位）直接对应原句中的“placing women in top business positions”，是原句同位语事实细节的精准同义改写，无可争议。",
+                "locator_comparison": "雷丁主张配额的核心目的在于让更多合格女性进入顶尖管理层（placing women in top business positions）。选项A'get top business positions'完全同义对位，锁定正选。",
                 "writing_perspective": "雷丁之所以违背个人好恶转而支持配额，唯一打动她的就是配额能以无可辩驳的铁腕将女性输送至董事会核心席位，A项直击雷丁的论辩基点。",
                 "theme_validation": "让女性进入高管层正是全文讨论配额立法争论的终极目标，完全吻合。",
-                "verdict": "复盘判断：A项与原文同位语细节完全吻合，标准官方答案。"
+                "verdict": "复盘判断：placing in top positions精准对应，正确。"
               }
             },
             {
               "key": "B",
               "text": "see through the glass ceiling",
-              "text_cn": "看透阻碍职场晋升的无形玻璃天花板",
+              "text_cn": "看透玻璃天花板",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 篡改核心动词导致语意变异）",
+              "trap_type": "干扰项（偷换概念 / 篡改动词）",
               "analysis": {
-                "practice_status": "原文是 break through（打破），选项偷换成 see through（看透），动词篡改，排除。",
-                "option_nature": "干扰项（偷换概念 / 篡改核心动词导致语意变异）",
+                "practice_status": "原文是break through（打破玻璃天花板），选项偷换为see through（看透），动词变异，排除。",
+                "option_nature": "干扰项（偷换概念 / 篡改动词）",
                 "source_sentence": "they “open the way to equality and they break through the glass ceiling,”",
                 "source_translation": "它们“开辟通往平等的道路，并且打破玻璃天花板”",
-                "locator_comparison": "选项B宣称配额帮助女性“看透玻璃天花板（see through the glass ceiling）”。比对原文，雷丁使用的是极其具有战斗力和实质摧毁性的动词短语：“break through the glass ceiling”（打破、冲破玻璃天花板）。而B选项居心叵测地将核心动词偷换为“see through”（看透、看穿）。玻璃天花板本来就是透明无形的职场壁垒，女性早已深知其存在，光是“看穿”对打破不公毫无作用，关键在于“将其彻底粉碎（break through）”。B项通过偷换动词，将实质破除变成了认知旁观，是考研命题极典型的“微调动词设错”手法。",
+                "locator_comparison": "原文倡导的是通过配额彻底打破阻碍晋升的玻璃天花板（break the glass ceiling），选项将其篡改为看透（see through），偷换关键动词，排除。",
                 "writing_perspective": "雷丁强调的是配额作为法律武器的破坏力与重塑力，而非温和的观察，B项严重削弱了原文的抗争力度。",
                 "theme_validation": "背离配额作为硬性工具打破阶层固化的主旨，排除。",
-                "verdict": "复盘判断：B项恶意篡改核心动词，把打破壁垒偷换为看穿壁垒，排除。"
+                "verdict": "复盘判断：break through被偷换为see through，排除。"
               }
             },
             {
               "key": "C",
               "text": "balance work and family",
-              "text_cn": "有效兼顾并平衡繁重工作与家庭生活",
+              "text_cn": "平衡工作与家庭",
               "is_correct": false,
-              "trap_type": "干扰项（答非所问 / 跨段拼接宏观议题）",
+              "trap_type": "干扰项（答非所问 / 移花接木）",
               "analysis": {
-                "practice_status": "balance work and family 是第3段提出的社会议题，非雷丁说的配额功效，跨段拼凑排除。",
-                "option_nature": "干扰项（答非所问 / 跨段拼接宏观议题）",
+                "practice_status": "平衡工作与家庭是第3段探讨的宏观议题，并非雷丁所论述的配额直接功效，排除。",
+                "option_nature": "干扰项（答非所问 / 移花接木）",
                 "source_sentence": "Do we need quotas to ensure that women can continue to climb the corporate ladder fairly as they balance work and family? (Paragraph 3)",
                 "source_translation": "我们需要配额来确保女性在平衡工作与家庭的同时公平地攀登企业阶梯吗？（第3段）",
-                "locator_comparison": "选项C声称配额帮助女性“平衡工作与家庭（balance work and family）”。回文通查，“balance work and family”仅出现在第3段作者提出的设问中，用于引出全社会的普遍关切。在第4段雷丁阐述配额功效时，雷丁从未吹嘘配额能奇迹般解决托育、照料等家庭平衡难题；她强调的实效仅仅是硬性打破天花板、输送女性进入高管职位（top business positions）。C项把第3段的宏观提问强加给第4段雷丁的观点，答非所问。",
+                "locator_comparison": "兼顾工作与家庭是第3段分析的社会普遍挑战，雷丁配额措施的直接目标是提高女性在高管中的比例，跨段拼凑答非所问，排除。",
                 "writing_perspective": "配额只能解决权力分配，无法代替全套家庭福利政策（作者在第7段批判的正是这一点），C项混淆了治理维度。",
                 "theme_validation": "张冠李戴跨段拼凑概念，答非所问，排除。",
-                "verdict": "复盘判断：C项跨段拼凑第3段词汇，强加因果，排除。"
+                "verdict": "复盘判断：非雷丁论述的直接目标，排除。"
               }
             },
             {
               "key": "D",
               "text": "anticipate legal results",
-              "text_cn": "在法律诉讼中提前预见合规判决结果",
+              "text_cn": "预见法律结果",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 截取原词凭空捏造）",
+              "trap_type": "干扰项（偷换概念 / 无中生有）",
               "analysis": {
-                "practice_status": "legally binding 是说配额条款有法律约束力，非女性预见法律结果，生造拼凑，排除。",
-                "option_nature": "干扰项（无中生有 / 截取原词凭空捏造）",
+                "practice_status": "文中提到配额具有法律约束力，并非帮助女性预见判决结果，排除。",
+                "option_nature": "干扰项（偷换概念 / 无中生有）",
                 "source_sentence": "with legally binding provisions on placing women in top business positions.",
                 "source_translation": "在对女性在商业高管职位任职制定了法律约束性条款的国家。",
-                "locator_comparison": "选项D宣称配额帮助女性“预期法律结果（anticipate legal results）”。原文第4段末句确实出现了“legally”，但完整表达是“legally binding provisions”（具有法律约束力的条款），指的是法国推行配额是动用了法律强制手段。整段话根本没有出现任何字眼表示配额能帮助女性去“anticipate（预期/预见）”什么法律结果。D项纯属截取“legal”一词后主观凭空捏造的干扰项。",
+                "locator_comparison": "原文提到法律约束力（legally binding）是配额政策的属性，并非让女性能够提前预见法律诉讼结果，拼凑生造，排除。",
                 "writing_perspective": "雷丁是在总结已经取得的制度成果，无意讨论法律结果的预测机制，完全脱离语境。",
                 "theme_validation": "无中生有，与文章主旨毫无瓜葛，排除。",
-                "verdict": "复盘判断：D项无中生有胡乱编造，坚决排除。"
+                "verdict": "复盘判断：约束力属性被生造为预见法律结果，排除。"
               }
             }
           ],
@@ -7054,69 +7054,69 @@
             {
               "key": "A",
               "text": "skepticism",
-              "text_cn": "心存疑虑、持保留意见的怀疑态度",
+              "text_cn": "怀疑",
               "is_correct": false,
-              "trap_type": "干扰项（断章取义 / 误把让步先抑当最终立场）",
+              "trap_type": "干扰项（断章取义 / 误把先抑当最终立场）",
               "analysis": {
-                "practice_status": "作者在转折词 But 之后明确表态支持配额命令，先抑后扬，A停留在先抑假象上，排除。",
-                "option_nature": "干扰项（断章取义 / 误把让步先抑当最终立场）",
+                "practice_status": "作者在转折词But后明确表态支持配额命令，先抑后扬，A项停留在先抑的让步假象上，排除。",
+                "option_nature": "干扰项（断章取义 / 误把先抑当最终立场）",
                 "source_sentence": "I don’t like quotas either... But, when one considers the obstacles to achieving the meritocratic ideal, it does look as if a fairer world must be temporarily ordered.",
                 "source_translation": "我个人同样不喜欢配额……但是，当人们考虑到实现唯贤治理理想的阻碍时，看来一个更公平的世界暂时必须通过命令来构建。",
-                "locator_comparison": "选项A表示“怀疑态度（skepticism）”。作者在第5段前半部分确实坦言自己也不喜欢配额（run counter to my belief in meritocracy），但这只是典型的议论文让步写法（欲扬先抑）。考研阅读铁律：让步不重要，转折之后才是作者真态度！在强转折词“But”之后，作者使用了极其肯定的强调句式：“it does look as if a fairer world must be temporarily ordered”（确实看来一个更加公平的世界暂时必须通过命令来构建）。紧接着第6段痛批商界40年逃避提拔女性。这表明作者彻底认同了配额立法的现实必要性。A项断章取义抓住让步句的片言只语，忽略了转折后的核心支持立场。",
+                "locator_comparison": "作者开篇承认对配额有所顾虑只是让步先抑，转折词'But'之后坚定表明必须强制推行公平，选项仅停留在让步阶段，排除。",
                 "writing_perspective": "作者以理性的退让展现思辨的周密，随后以更强大的现实逻辑反戈一击力挺配额，A项误把论证手段当成最终结论。",
                 "theme_validation": "与作者在后文痛陈软压力无效、支持制度介入的主旨矛盾，排除。",
-                "verdict": "复盘判断：A项断章取义抓住前半句让步假象，排除。"
+                "verdict": "复盘判断：让步非最终立场，转折后明确支持，排除。"
               }
             },
             {
               "key": "B",
               "text": "objectiveness",
-              "text_cn": "不偏不倚、两不相帮的客观中立态度",
+              "text_cn": "客观",
               "is_correct": false,
-              "trap_type": "干扰项（模糊立场 / 将旗帜鲜明的倾向性误判为中立）",
+              "trap_type": "干扰项（立场模糊 / 忽略鲜明态度）",
               "analysis": {
-                "practice_status": "作者立场极鲜明，支持 temporarily ordered，绝非两不相帮的纯客观，排除。",
-                "option_nature": "干扰项（模糊立场 / 将旗帜鲜明的倾向性误判为中立）",
+                "practice_status": "作者立场明确，鲜明支持必须暂时通过行政命令强制推行公平，绝非中立观望，排除。",
+                "option_nature": "干扰项（立场模糊 / 忽略鲜明态度）",
                 "source_sentence": "it does look as if a fairer world must be temporarily ordered.",
                 "source_translation": "看来一个更加公平的世界暂时必须通过强制命令来加以构建。",
-                "locator_comparison": "选项B表示“客观中立的（objectiveness）”。在考研态度题中，若作者以第一人称（I understand, I believe）发表主观社论，并使用了带有明显价值偏向的强调句型（it does look as if... must be ordered）公开站队，就绝非不偏不倚的“客观中立”。B选项是考研命题中用来诱骗不敢确信作者立场的考生的典型万金油干扰项。",
+                "locator_comparison": "作者在第5段末和第6段表态明确，支持采取暂时性强制命令推动公平，具有强烈的价值倾向，并非纯客观中立，排除。",
                 "writing_perspective": "作者作为深度介入社会议题的政论家，笔锋带有强烈的现实批判性与制度主张，绝非冷眼旁观的学术记录者。",
                 "theme_validation": "掩盖了作者强烈的制度干预倾向，排除。",
-                "verdict": "复盘判断：B项把鲜明的立场支持误判为中立，排除。"
+                "verdict": "复盘判断：倾向鲜明支持，非纯客观，排除。"
               }
             },
             {
               "key": "C",
               "text": "indifference",
-              "text_cn": "漠不关心、事不关己的冷漠态度",
+              "text_cn": "漠不关心",
               "is_correct": false,
-              "trap_type": "干扰项（无稽之谈 / 考研态度题常规秒杀送分项）",
+              "trap_type": "干扰项（常理不符）",
               "analysis": {
-                "practice_status": "议论文作者怎么可能冷漠无所谓，态度题经典送分秒杀排除项。",
-                "option_nature": "干扰项（无稽之谈 / 考研态度题常规秒杀送分项）",
+                "practice_status": "议论文作者就核心议题发表鲜明观点，绝非漠不关心，排除。",
+                "option_nature": "干扰项（常理不符）",
                 "source_sentence": "I understand Reding’s reluctance—and her frustration...",
                 "source_translation": "我非常理解雷丁的勉强——以及她的沮丧……",
-                "locator_comparison": "选项C表示“冷漠漠不关心的（indifference）”。考研英语阅读选文均为严肃深刻的社会、经济或文化议论文，作者既然耗费巨大心血专文论述，对所探讨的核心焦点绝不可能持有“indifference（冷漠无动于衷）”的态度。该词在历年考研态度题中几乎100%作为陪绑送分项出现。更何况作者用“I understand her reluctance and frustration”展现了极其深厚的情感共鸣，与冷漠水火不容。",
+                "locator_comparison": "议论文作者就关切议题发表深度见解，绝不可能采取事不关己的冷漠态度，排除。",
                 "writing_perspective": "作者通篇充满对社会公正的关切与呼吁，C项纯属荒唐送分项。",
                 "theme_validation": "违背一切议论文写作常理，直接秒杀排除。",
-                "verdict": "复盘判断：C项考研态度题送分秒杀项，坚决排除。"
+                "verdict": "复盘判断：作者态度鲜明，绝非漠不关心，排除。"
               }
             },
             {
               "key": "D",
               "text": "approval",
-              "text_cn": "深表理解、予以支持认可的赞同态度",
+              "text_cn": "赞同 / 认可",
               "is_correct": true,
-              "trap_type": "★ 标准正确转折处真实态度判定",
+              "trap_type": "★ 标准正确转折处真实态度判断",
               "analysis": {
-                "practice_status": "But 之后 it does look as if a fairer world must be temporarily ordered，明确支持，锁定正选。",
-                "option_nature": "★ 标准正确转折处真实态度判定",
+                "practice_status": "作者在转折词But之后指出必须暂时强制构建更公平的世界，表明对雷丁呼吁的赞同支持，锁定正选。",
+                "option_nature": "★ 标准正确转折处真实态度判断",
                 "source_sentence": "I understand Reding’s reluctance—and her frustration... But, when one considers the obstacles to achieving the meritocratic ideal, it does look as if a fairer world must be temporarily ordered.",
                 "source_translation": "我理解雷丁的勉强与挫败……但是，当人们考虑到实现唯贤理想的重重阻碍时，看来一个更加公平的世界暂时必须通过命令来构建。",
-                "locator_comparison": "作者在第5段完成全篇最关键的情感与立场转折。首先以同理心承认自己理念上追求任人唯贤，对配额同样有所排斥；紧接着峰回路转，用转折连词“But”和强调谓语“it does look as if”给出了不可动摇的现实决断：“a fairer world must be temporarily ordered”（一个更公平的世界暂时必须通过行政命令强制构建）。第6段作者更进一步揭批欧美商界长达40年来对软性呼吁阳奉阴违、逃避选拔女性。这一系列论述表明：作者虽然深知配额在理念上的瑕疵，但在严酷现实面前，坚定地站在了支持雷丁通过配额立法强制推行公平的一边。选项D的“approval”（赞同/认可）精准概括了作者转折后的真切态度。",
+                "locator_comparison": "作者在第5段转折后明确指出：'it does look as if a fairer world must be temporarily ordered'（一个更公平的世界暂时必须通过强制命令构建），有力印证了其对雷丁立法的赞同态度，锁定正选。",
                 "writing_perspective": "作者展现出高超的辩证思维：把配额定性为“权宜之计（temporarily ordered）”，既坚守了终极公正理想，又赋予了当下雷丁立法以最强有力的现实合法性，D项完美捕捉了这一深邃立场。",
                 "theme_validation": "支持制度性立法打破职场不公是全文最核心的主旋律，正确无疑。",
-                "verdict": "复盘判断：D项准确把握转折词后的真实立场，标准正选。"
+                "verdict": "复盘判断：转折后确认必须强制推行，赞同立场鲜明，正确。"
               }
             }
           ],
@@ -7141,69 +7141,69 @@
             {
               "key": "A",
               "text": "more social justice",
-              "text_cn": "整个宏观社会层面更加广泛的社会公平正义",
+              "text_cn": "更多的社会正义",
               "is_correct": false,
-              "trap_type": "干扰项（以大代小 / 用宽泛抽象结果偷换精准制度动因）",
+              "trap_type": "干扰项（以大代小 / 概念泛化）",
               "analysis": {
-                "practice_status": "social justice 是结果而非具体制度原因，且脱离 appropriate public policies 精准替换，排除。",
-                "option_nature": "干扰项（以大代小 / 用宽泛抽象结果偷换精准制度动因）",
+                "practice_status": "社会正义是远期宏观愿景，而作者强调的具体现实制度动因是公共政策，偷换概念，排除。",
+                "option_nature": "干扰项（以大代小 / 概念泛化）",
                 "source_sentence": "living in a more just society.",
                 "source_translation": "生活在一个更加公正的社会里。",
-                "locator_comparison": "选项A提出是由于缺乏“更多的社会正义（more social justice）”。回文检索，定位句末尾虽然提到了“living in a more just society”（生活在一个更公正的社会），但那只是如果公共政策到位后带来的远期社会愿景。定位句的条件从句明确指出了决定性动因：“If appropriate public policies were in place...”（如果有适当的公共政策到位……）。社会正义（social justice）是抽象宏观的价值理念，而作者强调的现实病根与解决方案是具体的“公共政策（public policies）”。A项用大而无当的宏观抽象词汇偷换了具象精准的政策制度归因，偏离定位句核心题眼。",
+                "locator_comparison": "定位句末尾的'living in a more just society'只是长远愿景，引发这一现象的直接制度诱因是缺乏恰当的公共政策，以抽象愿景偷换具体制度原因，排除。",
                 "writing_perspective": "作者在篇末旨在开出切实可行的制度解药，呼吁公共福利政策落地，而非泛泛空谈社会正义，A项流于空泛。",
                 "theme_validation": "缺乏精准靶向性，脱离原句虚拟语气的条件主干，排除。",
-                "verdict": "复盘判断：A项用宏观抽象结果偷换核心政策根源，排除。"
+                "verdict": "复盘判断：抽象愿景非具体制度根因，排除。"
               }
             },
             {
               "key": "B",
               "text": "massive media attention",
-              "text_cn": "大众主流媒体普遍且广泛的聚焦关注",
+              "text_cn": "大量媒体关注",
               "is_correct": false,
-              "trap_type": "干扰项（倒因为果 / 同义反复混淆因果逻辑）",
+              "trap_type": "干扰项（倒因为果 / 同义反复）",
               "analysis": {
-                "practice_status": "become headlines 本身就是媒体关注，媒体关注是现象而非原因，倒因为果，排除。",
-                "option_nature": "干扰项（倒因为果 / 同义反复混淆因果逻辑）",
+                "practice_status": "成为头条（become headlines）本身就是媒体大量关注的现象，而非原因，倒因为果，排除。",
+                "option_nature": "干扰项（倒因为果 / 同义反复）",
                 "source_sentence": "When women do break through to the summit of corporate power—as, for example, Sheryl Sandberg recently did at Facebook— they attract massive attention precisely because they remain the exception to the rule.",
                 "source_translation": "当女性确实冲破阻碍登上权力巅峰时——比如桑德伯格在脸书所做到的那样——她们吸引了海量关注，恰恰因为她们依然只是打破常规的极少数例外。",
-                "locator_comparison": "选项B宣称是由于缺乏“大众媒体的关注（massive media attention）”。逻辑完全错乱：第6段末句指出桑德伯格打破天花板登顶时“attract massive attention”（吸引了海量关注），题干所问的“become headlines”（成为头条新闻）本身就是“attract massive attention”的同义转述。媒体过度聚焦是现象本身，绝非导致这一现象的“原因”。B选项倒因为果、同义反复，且与事实（桑德伯格早已获得海量媒体关注）背道而驰，犯了严重的因果混淆错误。",
+                "locator_comparison": "女性晋升高管成为头条新闻本身就是吸引大量媒体关注的现象体现，而非原因本身，倒因为果，排除。",
                 "writing_perspective": "作者在深层次剖析媒体造神与轰动背后的制度悲哀，而不是抱怨媒体缺少宣传曝光，B项误入歧途。",
                 "theme_validation": "将表面轰动现象当成深层社会病因，彻底颠倒因果，排除。",
-                "verdict": "复盘判断：B项倒因为果、同义反复，坚决排除。"
+                "verdict": "复盘判断：媒体关注是现象非原因，倒因为果，排除。"
               }
             },
             {
               "key": "C",
               "text": "suitable public policies",
-              "text_cn": "真正能够惠及全员的恰当适宜的公共制度政策",
+              "text_cn": "适宜的公共政策",
               "is_correct": true,
-              "trap_type": "★ 标准正确全文主旨与虚拟语气反推",
+              "trap_type": "★ 标准正确虚拟语气反推",
               "analysis": {
-                "practice_status": "appropriate public policies were in place 虚拟语气反向推论，精准替换 suitable，锁定正选。",
-                "option_nature": "★ 标准正确全文主旨与虚拟语气反推",
+                "practice_status": "定位句指出如果有适当公共政策到位女性晋升就不会再是轰动新闻，反推成为头条是由于缺乏适当政策，锁定正选。",
+                "option_nature": "★ 标准正确虚拟语气反推",
                 "source_sentence": "If appropriate public policies were in place to help all women—whether CEOs or their children’s caregivers—and all families, Sandberg would be no more newsworthy than any other highly capable person living in a more just society.",
                 "source_translation": "如果有适当的公共政策出台来帮助所有女性（无论是企业CEO还是她们孩子的照料者）以及所有家庭，那么桑德伯格就不会比生活在一个更公正社会里的任何其他高素质人才更具新闻轰动价值。",
-                "locator_comparison": "题干询问女性晋升高管成为头条新闻（become headlines）的深层根因。定位到文章全篇收尾升华句（第7段）：作者运用精妙的虚拟语气提出假设：“If appropriate public policies were in place... Sandberg would be no more newsworthy”（如果有适当的公共政策到位，桑德伯格就不会再具有轰动新闻价值了）。虚拟语气反向成真：桑德伯格如今之所以成为媒体竞相报道的头条新闻，恰恰是因为现实中严重缺乏到位且适当的公共政策！选项C中的“suitable public policies”（适当的公共政策）与原文的“appropriate public policies”构成毫无缝隙的同义替换。一针见血，极其精准。",
+                "locator_comparison": "收尾升华句运用虚拟语气：'If appropriate public policies were in place... Sandberg would be no more newsworthy'。反推可知如今成为头条正是因为缺乏适宜的公共政策（suitable public policies），锁定正选。",
                 "writing_perspective": "作者在全篇结尾完成了思想维度的伟大升华：不仅要关注金字塔尖的女性CEO，更要通过全面的公共托育与社会政策保障所有普通女性与家庭，当优秀女性司空见惯时新闻头条自会消退，C项直击全篇终极灵魂。",
                 "theme_validation": "呼应尾段总结，凝结全文关于制度治理与公共政策的核心诉求，正选无疑。",
-                "verdict": "复盘判断：C项虚拟语气反推同义替换极其严密，无可挑剔的主旨题典范。"
+                "verdict": "复盘判断：虚拟语气反推，appropriate对应suitable，正确。"
               }
             },
             {
               "key": "D",
               "text": "greater “soft pressure”\nᆇี൫ज@JOEE ༯໶",
-              "text_cn": "外界对企业施加的更加强有力的社会“软压力”",
+              "text_cn": "更大的“软压力”",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 逆向开出已被作者否决的破产药方）",
+              "trap_type": "干扰项（张冠李戴 / 违背作者立场）",
               "analysis": {
-                "practice_status": "文中明确说无论多大的 soft pressure 欧美企业都在逃避提拔女性，软压力已被证明无效，排除。",
-                "option_nature": "干扰项（张冠李戴 / 逆向开出已被作者否决的破产药方）",
+                "practice_status": "原文明确指出企业一直在逃避选拔女性，无论外界施加多大软压力，软压力已被证明无效，排除。",
+                "option_nature": "干扰项（张冠李戴 / 违背作者立场）",
                 "source_sentence": "corporations in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions— no matter how much “soft pressure” is put upon them.",
                 "source_translation": "欧美企业正在逃避唯贤选拔女性担任高管——无论外界对它们施加了多大的“软压力”。",
-                "locator_comparison": "选项D宣称是由于缺乏“更有力的软压力（greater 'soft pressure'）”。回文检索，第6段首句明确指出：“corporations... are evading the meritocratic hiring... no matter how much 'soft pressure' is put upon them”（企业都在逃避唯贤选拔女性，无论外界施加了多少软压力）。作者在此已经白纸黑字宣告：“软施压（道德劝说、社会舆论）已经被长达40年的实践证明彻底破产失效”！既然软压力已被证明毫无用处，作者绝不可能自相矛盾地认为问题出在“缺乏软压力”。D项不仅张冠李戴，而且与作者对软压力的全盘否定立场背道而驰。",
+                "locator_comparison": "原文第6段已明确指明企业逃避唯贤选拔女性，无论外界施加了多少软压力（no matter how much 'soft pressure' is put upon them），软施压已被证明无效，作者不可能认为问题出在缺乏软压力，排除。",
                 "writing_perspective": "作者行文逻辑正是从软压力的破产引申到必须依靠法律硬配额与公共政策，D项开出倒退的历史药方，极其荒谬。",
                 "theme_validation": "违背作者对“软施压失效”的明确论断，排除。",
-                "verdict": "复盘判断：D项违背作者关于软压力无效的既定结论，坚决排除。"
+                "verdict": "复盘判断：软压力已被证明无效，非缺乏软压力，排除。"
               }
             }
           ],

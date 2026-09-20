@@ -27,7 +27,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2011,
-    "version": "6969cd8c9fa7",
+    "version": "7347b6b33cb3",
     "texts": [
       {
         "id": 1,
@@ -53,7 +53,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2012,
-    "version": "a63faf13f9d2",
+    "version": "5cc6604f6705",
     "texts": [
       {
         "id": 1,
@@ -79,7 +79,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2013,
-    "version": "e20ae7e108e8",
+    "version": "d226f0d948c2",
     "texts": [
       {
         "id": 1,
@@ -105,7 +105,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2014,
-    "version": "2998df835bbf",
+    "version": "8b19c27375a0",
     "texts": [
       {
         "id": 1,
@@ -131,7 +131,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2015,
-    "version": "c32ba4c77cf9",
+    "version": "2ffa62c77a71",
     "texts": [
       {
         "id": 1,
@@ -157,7 +157,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2016,
-    "version": "b71ba9462aea",
+    "version": "d382ced01574",
     "texts": [
       {
         "id": 1,
@@ -183,7 +183,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2017,
-    "version": "896ad8c26bd7",
+    "version": "eaea2df9078b",
     "texts": [
       {
         "id": 1,
@@ -209,7 +209,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2018,
-    "version": "eb6793fd1f4f",
+    "version": "b342142ab2a1",
     "texts": [
       {
         "id": 1,
@@ -235,7 +235,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2019,
-    "version": "6a83e194f79f",
+    "version": "d59007e1185d",
     "texts": [
       {
         "id": 1,
@@ -365,7 +365,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2024,
-    "version": "cad7b0873dd6",
+    "version": "4a3c18a5aa72",
     "texts": [
       {
         "id": 1,
@@ -391,7 +391,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2025,
-    "version": "dd149c8d5469",
+    "version": "48d16b56587a",
     "texts": [
       {
         "id": 1,
@@ -417,7 +417,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2026,
-    "version": "dc3d064e0d10",
+    "version": "39a0d20432b2",
     "texts": [
       {
         "id": 1,

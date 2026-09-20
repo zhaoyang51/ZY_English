@@ -3502,7 +3502,7 @@
             {
               "key": "A",
               "text": "wind energy has replaced fossil fuels",
-              "text_cn": "wind energy has replaced fossil fuels",
+              "text_cn": "风能已经取代了化石燃料",
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
@@ -7369,7 +7369,7 @@
             {
               "key": "D",
               "text": "approaches to getting more done in less time",
-              "text_cn": "approaches to getting more done in less time",
+              "text_cn": "在更短时间内完成更多事情的方法",
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {

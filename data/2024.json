@@ -4665,7 +4665,7 @@
             {
               "key": "B",
               "text": "They operate exclusively outside of the United States territory",
-              "text_cn": "它们完全在美国领土之外开展运营",
+              "text_cn": "它们仅在美国境外运营",
               "is_correct": false,
               "trap_type": "【无中生有】地域事实捏造",
               "analysis": {
@@ -4804,7 +4804,7 @@
             {
               "key": "C",
               "text": "compel tech giants to simplify terms-of-service jargon",
-              "text_cn": "强迫科技巨头简化服务协议中的法律行话",
+              "text_cn": "迫使科技巨头简化服务条款中的行话",
               "is_correct": false,
               "trap_type": "【无中生有】混淆现实与愿景",
               "analysis": {
@@ -4859,7 +4859,7 @@
             {
               "key": "B",
               "text": "Encouraging consumers to abandon all digital fitness wearables",
-              "text_cn": "鼓励消费者彻底弃用所有数字健身穿戴设备",
+              "text_cn": "鼓励消费者放弃所有数字健身可穿戴设备",
               "is_correct": false,
               "trap_type": "【因噎废食】绝对极端",
               "analysis": {

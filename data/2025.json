@@ -2221,7 +2221,7 @@
             {
               "key": "B",
               "text": "struggled to secure public trust in its initial years",
-              "text_cn": "在创立初期难以赢得广大民众的信任",
+              "text_cn": "在最初几年难以获得公众信任",
               "is_correct": false,
               "trap_type": "【无中生有】主观臆断",
               "analysis": {
@@ -2360,7 +2360,7 @@
             {
               "key": "C",
               "text": "short-term hospital targets should be completely scrapped",
-              "text_cn": "医院各项短期考核指标应当被全盘彻底废除",
+              "text_cn": "医院各项短期指标应当被彻底废除",
               "is_correct": false,
               "trap_type": "【绝对化】极端推论",
               "analysis": {
@@ -2371,7 +2371,7 @@
             {
               "key": "D",
               "text": "community clinics lack competent medical professionals",
-              "text_cn": "基层社区门诊极度缺乏能够胜任的专业医护人才",
+              "text_cn": "社区诊所缺乏有能力的医疗专业人员",
               "is_correct": false,
               "trap_type": "【偷换概念】移花接木",
               "analysis": {
@@ -5178,7 +5178,7 @@
             {
               "key": "A",
               "text": "protest against municipal construction regulations",
-              "text_cn": "抗议市政施工管理法规的死板教条",
+              "text_cn": "抗议市政建设规章",
               "is_correct": false,
               "trap_type": "【过度引申】政治化臆断",
               "analysis": {
@@ -5405,7 +5405,7 @@
             {
               "key": "D",
               "text": "Native American settlements avoided coastal topography",
-              "text_cn": "美洲原住民的定居点在选址上普遍刻意避开沿海地理地形",
+              "text_cn": "美洲原住民定居点避开了沿海地形",
               "is_correct": false,
               "trap_type": "【无中生有】无端猜测",
               "analysis": {

@@ -1241,69 +1241,69 @@
             {
               "key": "A",
               "text": "offered greater relaxation than the workplace",
-              "text_cn": "相比于工作场所而言能够为人们提供更大的放松身心空间",
+              "text_cn": "比工作场所提供更多的放松",
               "is_correct": true,
-              "trap_type": "★ 标准正确反向逻辑推断与同义改写",
+              "trap_type": "★ 标准正确反向逻辑推断",
               "analysis": {
-                "practice_status": "新研究与大多数调查相反且发现人在家压力更大，反推过去调查认为家里更放松，锁定正选。",
-                "option_nature": "★ 标准正确反向逻辑推断与同义改写",
+                "practice_status": "新研究发现人在家压力更大，这与过去的调查结果相反，反推过去调查认为家里比工作场所更放松，锁定正选。",
+                "option_nature": "★ 标准正确反向逻辑推断",
                 "source_sentence": "A new study suggests that contrary to most surveys, people are actually more stressed at home than at work... at what is supposed to be a place of refuge.",
                 "source_translation": "一项新研究表明，与大多数调查相反，人们在家里实际上比在工作中压力更大……在理应是避风港的地方反而更高。",
-                "locator_comparison": "题干问的是以往绝大多数调查（most previous surveys）对家庭的传统发现。定位句以强对比让步切入：“contrary to most surveys, people are actually more stressed at home than at work”（与大多数调查相反，人们在家里实际上比在工作中压力更大）。逻辑反推关系极其严密：既然新研究揭示人在家里压力比工作更大是“与过去调查相反”，那么毫无疑问，过去大多数调查的定论必然是“人在家里比在工作中压力更小、更轻松惬意”；后半句更以同位语进一步佐证家庭传统上被普遍公认为“a place of refuge（避难所、避风港）”。选项A中的“offered greater relaxation than the workplace”（提供比工作场所更大的放松）对上述反向逻辑做出了天衣无缝的同义改写，精准捕捉考点题眼。",
+                "locator_comparison": "第1段指出新研究发现人在家里的皮质醇压力水平高于工作场所，而这一发现与绝大多数以往的调查（most surveys）完全相反。反向推断可知，以往调查普遍认为家比工作场所更能让人放松，锁定正选。",
                 "writing_perspective": "作者开篇运用经典的“破立结合”论证手法，先立出大众深信不疑的传统经验假象作为反衬靶子，A项准确提炼出被新研究颠覆的传统基调。",
                 "theme_validation": "颠覆家庭是放松避风港的传统迷思是全篇讨论的逻辑起点，与主旨深度嵌合。",
-                "verdict": "复盘判断：A项反向逻辑推导极度严密，无可挑剔的标准正选。"
+                "verdict": "复盘判断：新发现颠覆旧调查，反推过去认为家里更放松，正确。"
               }
             },
             {
               "key": "B",
               "text": "was an ideal place for stress measurement",
-              "text_cn": "是科学家们开展人体压力生理指标测量测试的理想实验场所",
+              "text_cn": "是测量压力的理想场所",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 混淆实验测试手段与调查结论）",
+              "trap_type": "干扰项（偷换概念 / 混淆手段与结论）",
               "analysis": {
-                "practice_status": "科学家测皮质醇只是新实验的研究手段，非过去调查的结论，偷换概念，排除。",
-                "option_nature": "干扰项（偷换概念 / 混淆实验测试手段与调查结论）",
+                "practice_status": "测量皮质醇是新研究的实验手段，并非以往调查的结论，偷换概念，排除。",
+                "option_nature": "干扰项（偷换概念 / 混淆手段与结论）",
                 "source_sentence": "Researchers measured people’s cortisol, which is a stress marker, while they were at work and while they were at home",
                 "source_translation": "研究人员在人们上班和在家时测量了其皮质醇（一种压力标志物）",
-                "locator_comparison": "选项B宣称家庭“是压力测量的理想场所（ideal place for stress measurement）”。回文检索，第1段第二句确实提到研究者分别在人们上班和在家时测试了皮质醇（cortisol）。但这只是该项最新科学研究采用的“实验测量手段”，研究者选择在家测试是为了获取对照数据，绝非证明家庭是所谓的“理想测试场所”。更重要的是，题干问的是以往调查的观点，B选项把当前实验的方法细节强加为过去的调查结论，答非所问。",
+                "locator_comparison": "科学家测量唾液皮质醇只是新实验的研究测试手段，并非以往调查得出的结论，偷换概念，排除。",
                 "writing_perspective": "作者提及皮质醇测试是为了以客观生物学指标打破主观问卷调查的偏差，B项将测量手段异化为地点评估，离题万里。",
                 "theme_validation": "与文章讨论家庭生活真实心理状态的主线脱节，排除。",
-                "verdict": "复盘判断：B项偷换概念，将实验手段当成调查结论，排除。"
+                "verdict": "复盘判断：实验手段被偷换为以往调查结论，排除。"
               }
             },
             {
               "key": "C",
               "text": "generated more stress than the workplace",
-              "text_cn": "相比于工作场所而言更容易对人们产生更剧烈的心理压力",
+              "text_cn": "比工作场所产生更多压力",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 误把最新发现当历史传统调查）",
+              "trap_type": "干扰项（张冠李戴 / 混淆新旧研究）",
               "analysis": {
-                "practice_status": "在家压力更大是新研究的惊人发现，正是对以往调查的否定，张冠李戴，排除。",
-                "option_nature": "干扰项（张冠李戴 / 误把最新发现当历史传统调查）",
+                "practice_status": "在家压力更大是新研究的发现，并非以往调查的结论，张冠李戴，排除。",
+                "option_nature": "干扰项（张冠李戴 / 混淆新旧研究）",
                 "source_sentence": "A new study suggests that contrary to most surveys, people are actually more stressed at home than at work.",
                 "source_translation": "一项新研究表明，与大多数调查相反，人们在家里实际上比在工作中压力更大。",
-                "locator_comparison": "选项C声称家庭“产生比工作场所更大的压力（generated more stress than the workplace）”。这是极具欺骗性的主体偷换陷阱！“在家里压力比工作中更大”确实是原文白纸黑字的明确表述，但这是“A new study（最新研究）”的颠覆性结论！题干明确锁定提问的是“most previous surveys（绝大多数先前的历史调查）”。先前的调查恰恰认为工作压力大、家里没压力，新研究才是相反。C选项将最新颠覆性发现张冠李戴强加给历史传统调查，把批判靶子与最新结论彻底混淆，犯了考研常考的“主体颠倒”设错大忌。",
+                "locator_comparison": "人在家比在工作场所承受更大压力是达马斯克最新实验的颠覆性发现，正好否定了以往的传统调查，张冠李戴，排除。",
                 "writing_perspective": "作者特意强调新旧观点的剧烈冲突，C项抹杀了新旧反差，彻底瓦解了全文立论基础。",
                 "theme_validation": "与段首contrary to明确揭示的对比逻辑针锋相对，坚决排除。",
-                "verdict": "复盘判断：C项张冠李戴，误把最新发现当历史观点，排除。"
+                "verdict": "复盘判断：新研究结论错配给旧调查，排除。"
               }
             },
             {
               "key": "D",
               "text": "was an unrealistic place for relaxation",
-              "text_cn": "被公认为是一个极不切实际、虚幻漂渺的放松休养场所",
+              "text_cn": "是一个不切实际的放松场所",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 扭曲避难所传统认知属性）",
+              "trap_type": "干扰项（反向干扰 / 扭曲传统认知）",
               "analysis": {
-                "practice_status": "过去调查一直把家当避风港 refuge，并非认为是 unrealistic，与原文反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 扭曲避难所传统认知属性）",
+                "practice_status": "以往调查一直将家视为避风港，并未认为是不切实际的，与文意相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 扭曲传统认知）",
                 "source_sentence": "found it higher at what is supposed to be a place of refuge.",
                 "source_translation": "发现在理应被视作避难所的地方（皮质醇）反而更高。",
-                "locator_comparison": "选项D宣称家庭“是一个不切实际的放松场所（unrealistic place for relaxation）”。原文明确指出，在公众与传统调查的观念中，家是“supposed to be a place of refuge（理应被视作避风港/避难所）”。在过去人们的心目中，家作为放松场所是极其天经地义、理所应当的，绝非认为其“不切实际（unrealistic）”。D选项凭空添加贬义否定词，扭曲了传统调查对家庭的美好寄托，与事实大相径庭。",
+                "locator_comparison": "以往调查普遍将家庭视为躲避职场压力的避难所（refuge），并未认为家是不切实际的放松场所，与文意相反，排除。",
                 "writing_perspective": "作者正是借助“理应是避难所”与“实际压力更大”的巨大落差来制造论辩张力，D项消解了这种反差。",
                 "theme_validation": "捏造虚假评价，与文章传统认知背景冲突，排除。",
-                "verdict": "复盘判断：D项凭空捏造否定修饰词，排除。"
+                "verdict": "复盘判断：传统视家为避风港，选项相反，排除。"
               }
             }
           ],
@@ -1328,69 +1328,69 @@
             {
               "key": "A",
               "text": "Working mothers.",
-              "text_cn": "在外兼顾全职打拼的职场妈妈们",
+              "text_cn": "职场母亲",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 原文揭示的最受压迫高压群体）",
+              "trap_type": "干扰项（反向干扰 / 忽视对比）",
               "analysis": {
-                "practice_status": "女性在职场感觉更好且家里要做家务压力大，妈妈们在家最不快乐，排除。",
-                "option_nature": "干扰项（反向矛盾 / 原文揭示的最受压迫高压群体）",
+                "practice_status": "女性在职场感觉更好，且母亲回家要做大量家务，在家压力更大，排除。",
+                "option_nature": "干扰项（反向干扰 / 忽视对比）",
                 "source_sentence": "In fact women even say they feel better at work, she notes. “It is men, not women, who report being happier at home than at work.”",
                 "source_translation": "事实上女性甚至表示在工作中感觉更好。在家里比在工作中更快乐的是男人而不是女人。",
-                "locator_comparison": "选项A指向“职场妈妈们（Working mothers）”。回文比对第2段与第3段：达马斯克明确强调女性在工作中反而感觉更好（feel better at work），在家里比在工作更快乐的是男人绝非女人（men, not women）；第3段更揭露职场女性回家还要赶着做家务（playing catch-up with household tasks），身心俱疲，是家里压力最大的受压迫群体。选项A选出了全篇在家里最不快乐、压力最大的人群，完全站在了正确答案的相反极端，荒谬至极。",
+                "locator_comparison": "文中明确指出女性在工作时的情绪好于在家，且职场妈妈回家后还要忙于补做家务，母亲在家感受到的压力极大，排除。",
                 "writing_perspective": "职场母亲的双重角色困境是作者重点鸣不平的对象，A项违背作者同情弱者的基本立场。",
                 "theme_validation": "与全篇揭示职业女性在家庭承担无尽压力的核心论述严重对立，排除。",
-                "verdict": "复盘判断：A项与原文事实彻底反向，直接秒杀排除。"
+                "verdict": "复盘判断：母亲在家要做家务压力大，非最快乐群体，排除。"
               }
             },
             {
               "key": "B",
               "text": "Childless husbands.",
-              "text_cn": "尚未生育子女的无孩已婚丈夫们",
+              "text_cn": "无子女的丈夫",
               "is_correct": true,
-              "trap_type": "★ 标准正确双重变量交叉推导正选",
+              "trap_type": "★ 标准正确多重条件推导",
               "analysis": {
-                "practice_status": "men + more so for nonparents 交叉取交集，精准锁定 Childless husbands，锁定正选。",
-                "option_nature": "★ 标准正确双重变量交叉推导正选",
+                "practice_status": "男性在家的压力明显低于职场，且对于非父母而言更为显著，交叉得出无子女的丈夫在家最快乐，锁定正选。",
+                "option_nature": "★ 标准正确多重条件推导",
                 "source_sentence": "“It is men, not women, who report being happier at home than at work.” Another surprise is that the findings hold true for both those with children and without, but more so for nonparents.",
                 "source_translation": "“报告在家里比在工作中更快乐的是男人，而不是女人。”另一个令人意外的发现是，无论是育有子女还是没有子女的人，这一结果都成立，但对没有孩子的人来说更是如此。",
-                "locator_comparison": "题干精准询问在达马斯克的研究中“谁在家里最快乐（happiest at home）”。拆解原文第2段的两个决定性变量：变量一（性别维度）：达马斯克使用强强调句断言：“It is men, not women, who report being happier at home than at work”（报告在家里比在工作中更快乐的，是男人而不是女人！），直接排除所有女性群体，锁定男性（men / husbands）；变量二（育儿维度）：“hold true for both those with children and without, but more so for nonparents”（这一结论对有无子女者都适用，但对没有子女的非父母群体而言程度更深、更为明显！）。两组科学变量交叉取交集（男性 ∩ 无子女），直接精准对应选项B：“Childless husbands”（没有孩子的丈夫们）。逻辑推导严谨如数学定理，无可挑剔！",
+                "locator_comparison": "文中指出在家里压力较低的是男性（It is men, not women），且对于没有孩子的非父母群体而言尤其如此（even more so for nonparents）。两个维度交叉，精准锁定无子女的丈夫（Childless husbands），锁定正选。",
                 "writing_perspective": "作者引入达马斯克的定量数据，揭示男性下班得以享受纯粹休闲、而无子女又免除育儿烦恼的双重红利，B项是该数据推演的必然终点。",
                 "theme_validation": "精准契合段落中关于性别与育儿压力的双重分析框架，正选无疑。",
-                "verdict": "复盘判断：B项双重变量交叉对位严丝合缝，标准正选。"
+                "verdict": "复盘判断：男性加无子女交叉推导，精准锁定Childless husbands，正确。"
               }
             },
             {
               "key": "C",
               "text": "Working fathers.",
-              "text_cn": "家中育有子女的在职已婚父亲们",
+              "text_cn": "在职父亲",
               "is_correct": false,
-              "trap_type": "干扰项（比较级失准 / 忽视更甚修饰限定）",
+              "trap_type": "干扰项（程度较弱 / 忽略限定）",
               "analysis": {
-                "practice_status": "虽然是男性，但文中说 more so for nonparents，有孩子的父亲快乐程度弱于无子女者，排除。",
-                "option_nature": "干扰项（比较级失准 / 忽视更甚修饰限定）",
+                "practice_status": "虽然男性在家感觉好，但有子女的父亲在家的快乐程度弱于无子女者，排除。",
+                "option_nature": "干扰项（程度较弱 / 忽略限定）",
                 "source_sentence": "hold true for both those with children and without, but more so for nonparents.",
                 "source_translation": "对有子女和无子女的人都成立，但对没有孩子的人来说尤为明显。",
-                "locator_comparison": "选项C指向“工作的父亲们（Working fathers）”。父亲们确实符合男性这一快乐特征，但请务必注意原文紧随其后的程度副词比较级：“but more so for nonparents”（但对于没有孩子的人来说更是如此！）。“more so”表明没有孩子的无后顾之忧群体其快乐程度和反差强度要显著超越（more so）承担繁重育儿看护责任的在职父亲们。题干问的是最高级“happiest”，在比较优势上，C项“父亲”显然逊色于B项“无子女丈夫”。忽视“more so”核心比较级是考生极易失足的深水陷阱。",
+                "locator_comparison": "虽然父亲属于男性，但文中明确限定对于没有子女的群体而言快乐程度更甚（more so for nonparents），有子女的父亲弱于无子女者，排除。",
                 "writing_perspective": "育儿负担即便是对男性而言也是不小的压力来源，作者强调无子女者最逍遥，C项混淆了比较梯次。",
                 "theme_validation": "比较级不满足最高级要求，排除。",
-                "verdict": "复盘判断：C项在育儿比较维度上败给无子女群体，排除。"
+                "verdict": "复盘判断：无子女者快乐程度更甚，父亲弱于无子女者，排除。"
               }
             },
             {
               "key": "D",
               "text": "Childless wives.",
-              "text_cn": "尚未生育子女的无孩全职妻子们",
+              "text_cn": "无子女的妻子",
               "is_correct": false,
-              "trap_type": "干扰项（偷换性别主体 / 忽视核心强调句限定）",
+              "trap_type": "干扰项（偷换性别 / 忽略核心断言）",
               "analysis": {
-                "practice_status": "性别维度已被 It is men, not women 明确排除，女性在职场比在家感觉更好，排除。",
-                "option_nature": "干扰项（偷换性别主体 / 忽视核心强调句限定）",
+                "practice_status": "文中明确指出“It is men, not women”，女性在职场感觉更好，排除。",
+                "option_nature": "干扰项（偷换性别 / 忽略核心断言）",
                 "source_sentence": "“It is men, not women, who report being happier at home than at work.”",
                 "source_translation": "“报告在家里比在工作中更快乐的是男人，而不是女人。”",
-                "locator_comparison": "选项D指向“没有孩子的妻子们（Childless wives）”。虽然D项满足了“nonparents（无子女）”这一特征，但直接在第一道性别大关上被原文无情枪毙：“It is men, not women, who report being happier at home”（在家更快乐的是男人，而不是女人！）。原文明确指出女性即便没有孩子，在家里也比在职场更容易受到家务无序的困扰。D选项偷换性别主体，将男性的快乐错误安插在妻子头上，属于典型的半对半错、偷换核心定语的混淆设错。",
+                "locator_comparison": "性别维度已被定位句明确排除：'It is men, not women, who find being at home less stressful'。女性在家压力大于职场，排除。",
                 "writing_perspective": "女性对家庭环境的繁杂与缺乏回报更敏感，即便是无孩女性在家也难以像男性那样彻底甩手放松，D项不符心理学事实。",
                 "theme_validation": "违背段首“men not women”的铁定断言，排除。",
-                "verdict": "复盘判断：D项性别主体完全搞反，坚决排除。"
+                "verdict": "复盘判断：明确指出是男性非女性，偷换性别，排除。"
               }
             }
           ],
@@ -1415,69 +1415,69 @@
             {
               "key": "A",
               "text": "their home is also a place for kicking back",
-              "text_cn": "她们的家庭生活同样演变为了一个休闲放松的温馨场所",
+              "text_cn": "她们的家也是一个放松的地方",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 误把男性下班待遇强加给职业女性）",
+              "trap_type": "干扰项（张冠李戴 / 误配主体）",
               "analysis": {
-                "practice_status": "文中说男人 end of workday is time to kick back，女性回家忙补家务，张冠李戴，排除。",
-                "option_nature": "干扰项（张冠李戴 / 误把男性下班待遇强加给职业女性）",
+                "practice_status": "文中提到下班后放松是男性的待遇，女性回家还要忙于家务，张冠李戴，排除。",
+                "option_nature": "干扰项（张冠李戴 / 误配主体）",
                 "source_sentence": "For many men, the end of the workday is a time to kick back. ... And for women who work outside the home, they often are playing catch-up-with- household tasks.",
                 "source_translation": "对许多男人来说，下班时间是放松的时刻。而对在外工作的女性来说，她们常常忙于补做家务。",
-                "locator_comparison": "选项A宣称职业女性的“家也是一个放松的地方（a place for kicking back）”。回文细致比对，第3段确实出现了“kick back（放松踢掉鞋子休闲）”，但原句的陈述主语是男性：“For many men, the end of the workday is a time to kick back”（对很多男人来说，下班是放松休闲时间）；而紧接着笔锋一转，描述职业女性的悲惨现实却是：“playing catch-up with household tasks”（回家后还要马不停蹄赶做家务），根本没有丝毫放松的闲暇。A项张冠李戴，将男性的惬意偷梁换柱安在女性身上，犯了彻底背离原文字面事实的荒谬错误。",
+                "locator_comparison": "原文指出下班后放松休闲（a place for kicking back）主要是男性的特权，职场女性回家后必须忙于繁琐家务，张冠李戴，排除。",
                 "writing_perspective": "作者正是为了痛陈男女在家庭劳动上的极度不公，A项粉饰太平，违背作者强烈的同情与批判倾向。",
                 "theme_validation": "与职业女性在家压力山大的主旨直接对立，排除。",
-                "verdict": "复盘判断：A项张冠李戴男性的休闲状态，坚决排除。"
+                "verdict": "复盘判断：休闲放松是男性待遇，女性忙于家务，排除。"
               }
             },
             {
               "key": "B",
               "text": "they are both bread winners and housewives",
-              "text_cn": "她们在现实中兼具着养家糊口者与家庭主妇的双重繁重身份",
+              "text_cn": "她们既是养家糊口者又是家庭主妇",
               "is_correct": true,
-              "trap_type": "★ 标准正确社会学角色内涵深层提炼",
+              "trap_type": "★ 标准正确角色内涵提炼",
               "analysis": {
-                "practice_status": "work outside the home (bread winner) + catch up with household tasks (housewife)，直接对应，锁定正选。",
-                "option_nature": "★ 标准正确社会学角色内涵深层提炼",
+                "practice_status": "对应原文在外工作且回家还要补做大量家务，兼具双重角色，锁定正选。",
+                "option_nature": "★ 标准正确角色内涵提炼",
                 "source_sentence": "And for women who work outside the home, they often are playing catch-up-with- household tasks. With the blurring of roles...",
                 "source_translation": "对于在外工作的女性，她们常常在忙着补做家务。随着角色界限的模糊……",
-                "locator_comparison": "题干精准聚焦职业女性“角色的模糊（blurring of roles）”这一社会学概念的本质内涵。定位句前文对女性的角色分裂做出了极其精辟的剖析：“women who work outside the home（在外工作的女性）”承担着与男性同等的职场谋生责任，在社会分工上属于赚钱养家的经济支柱（bread winners）；然而回到家中，她们却丝毫无法卸下重担，必须继续充当“playing catch-up with household tasks（拼命补做家务活）”的无偿保姆角色，即传统家庭主妇（housewives）。白天是职场干将，夜晚是主妇老妈，职场与家庭双重角色彻底交织重叠。选项B的“they are both bread winners and housewives”（她们既是养家糊口者又是家庭主妇）以高度凝练的社会学术语，极尽传神地概括了双重角色的交织模糊。逻辑同义替换无可挑剔！",
+                "locator_comparison": "职场女性角色模糊是指她们一方面要在外全职打拼挣钱养家（work outside the home / bread winners），另一方面下班回家还要承担繁重的家庭主妇家务（playing catch-up with housework / housewives）。选项B提炼准确，锁定正选。",
                 "writing_perspective": "作者在此深刻剖析了现代职业女性“双重轮班制（Second Shift）”的系统性困境，B项准确抓住了女性主义社会学批判的灵魂题眼。",
                 "theme_validation": "解释了为何女性在家压力比在职场更大的深层社会结构原因，完全契合主旨。",
-                "verdict": "复盘判断：B项同义归纳精妙深刻，完美诠释角色模糊，标准正选。"
+                "verdict": "复盘判断：外打拼加内做家务即养家者与主妇双重身份，正确。"
               }
             },
             {
               "key": "C",
               "text": "there is often much housework left behind",
-              "text_cn": "在日常生活中有太多的繁琐家务事常常被抛在脑后无人理睬",
+              "text_cn": "常有许多家务被遗留不管",
               "is_correct": false,
-              "trap_type": "干扰项（曲解词义 / 望文生义歪曲短语含义）",
+              "trap_type": "干扰项（曲解词义 / 望文生义）",
               "analysis": {
-                "practice_status": "playing catch-up 意思是赶做家务，而不是把家务留着不管，曲解词义，排除。",
-                "option_nature": "干扰项（曲解词义 / 望文生义歪曲短语含义）",
+                "practice_status": "playing catch-up是指赶着做家务，而非家务丢着不管，曲解词义，排除。",
+                "option_nature": "干扰项（曲解词义 / 望文生义）",
                 "source_sentence": "they often are playing catch-up-with- household tasks.",
                 "source_translation": "她们常常在忙着补做家务。",
-                "locator_comparison": "选项C声称“常常留下很多家务事（much housework left behind）”。比对原文短语：原文是“playing catch-up with household tasks”。动词短语“play catch-up”是英语常用习语，意为“拼命追赶进度、亡羊补牢地加班加点赶着完成被延误的事项”。原句是说女性一下班回到家就得火急火燎地赶着做饭、洗衣、打扫家务。而C选项却望文生义，将其曲解为“家务活被落下了、没人做（left behind）”，把女性主动赶做家务歪曲为家务被荒废搁置，属于典型的因词义误读导致的常识设错。",
+                "locator_comparison": "原文中的“playing catch-up”指职场女性下班后忙于追赶、抓紧补做堆积的家务，并非家务被遗留下来没人做（left behind），曲解词义，排除。",
                 "writing_perspective": "女性正是因为承担了过多家庭责任才精疲力竭，C项暗示女性撒手不管留下家务，颠倒了事实。",
                 "theme_validation": "脱离角色模糊的社会学定义，排除。",
-                "verdict": "复盘判断：C项望文生义曲解短语，排除。"
+                "verdict": "复盘判断：赶做家务被误解为留着不管，曲解词义，排除。"
               }
             },
             {
               "key": "D",
               "text": "it is difficult for them to leave their office",
-              "text_cn": "工作体制导致她们在主观上极其难以走出办公室脱身回家",
+              "text_cn": "她们很难离开办公室",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 移花接木家庭主妇的比喻）",
+              "trap_type": "干扰项（张冠李戴 / 移花接木）",
               "analysis": {
-                "practice_status": "never get to leave the office 是指家庭主妇在家像一直在办公室，主语是stay-at-home women，张冠李戴，排除。",
-                "option_nature": "干扰项（张冠李戴 / 移花接木家庭主妇的比喻）",
+                "practice_status": "never leave the office是形容全职家庭主妇的比喻，并非职场女性无法离开办公室，排除。",
+                "option_nature": "干扰项（张冠李戴 / 移花接木）",
                 "source_sentence": "For women who stay home, they never get to leave the office.",
                 "source_translation": "对于留守在家的全职女性来说，她们永远无法离开办公室。",
-                "locator_comparison": "选项D宣称“她们很难离开办公室（difficult to leave their office）”。回文定位第3段第二句：“For women who stay home, they never get to leave the office”（对于全职在家的全职太太/留守女性来说，她们永远无法走出办公室）。原文作者使用的是一个极为精妙的讽刺比喻：全职主妇把家当成了办公室，因而24小时都在办公，根本无法离开。该句的陈述主体是“women who stay home（全职家庭主妇）”，绝非题干所问的“women who work outside the home（在外打拼的职业女性）”！D项将主妇的隐喻张冠李戴挪给职场女性，偷换了陈述对象，且按字面死扣，犯了双重错误。",
+                "locator_comparison": "原文中“never get to leave the office”是比喻全职主妇在家里整天面对家务如同永远离不开办公室，主语是全职主妇而非职场女性，张冠李戴，排除。",
                 "writing_perspective": "作者在此分两类女性分别论述，D项混淆分类界限，主次不分。",
                 "theme_validation": "张冠李戴，背离角色模糊的论证逻辑，排除。",
-                "verdict": "复盘判断：D项移花接木全职主妇的描写，张冠李戴排除。"
+                "verdict": "复盘判断：全职主妇比喻错配给职场女性，排除。"
               }
             }
           ],
@@ -1502,69 +1502,69 @@
             {
               "key": "A",
               "text": "skills",
-              "text_cn": "职业生涯中不断精进的专业技能",
+              "text_cn": "技能",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 混淆职场产出属性）",
+              "trap_type": "干扰项（偷换概念 / 混淆职场产出）",
               "analysis": {
-                "practice_status": "puts in labor, draws out moola，付出劳动换来的是金钱收入而非技能，偷换概念，排除。",
-                "option_nature": "干扰项（偷换概念 / 混淆职场产出属性）",
+                "practice_status": "付出劳动换来的是金钱报酬而非技能，偷换概念，排除。",
+                "option_nature": "干扰项（偷换概念 / 混淆职场产出）",
                 "source_sentence": "The bargain is very pure: Employee puts in hours of physical or mental labor and employee draws out life-sustaining moola.",
                 "source_translation": "契约非常纯粹：雇员投入体力或脑力劳动工时，雇员取出维持生计的moola。",
-                "locator_comparison": "选项A认为该词表示“技能（skills）”。比对上下文的对偶逻辑：前文指出职场交易非常纯粹直接（The bargain is very pure），雇员“投入（puts in）”的是“hours of physical or mental labor（体力或脑力劳动的工时）”，作为等价交换，雇员“取出/提取（draws out）”的必须是对等的劳动报酬回报。前一句更是明示其目的为“making money, ... draw an income（挣钱、获取收入）”。技能是雇员在劳动中投入自身的能力资本，绝非像取款一样“取出维持生计（life-sustaining）”的交易对价。A项偷换职场契约的交易标的，逻辑不通。",
+                "locator_comparison": "原文句式为“puts in labor, draws out moola”，对应付出劳动换来维持生计的报酬，并非指在工作中积累技能，偷换概念，排除。",
                 "writing_perspective": "作者强调职场金钱关系的冰冷与纯粹，以反衬家庭缺乏金钱报酬的困境，A项用职业技能美化了纯粹的金钱契约。",
                 "theme_validation": "与前文making money / draw an income的同义语义场脱节，排除。",
-                "verdict": "复盘判断：A项偷换交易标的，排除。"
+                "verdict": "复盘判断：劳动换取报酬非技能，偷换概念，排除。"
               }
             },
             {
               "key": "B",
               "text": "energy",
-              "text_cn": "充沛饱满的充盈体力与精神活力",
+              "text_cn": "精力 / 能量",
               "is_correct": false,
-              "trap_type": "干扰项（常理颠倒 / 混淆生理消耗与劳动回报）",
+              "trap_type": "干扰项（常理颠倒 / 混淆付出与回报）",
               "analysis": {
-                "practice_status": "劳动消耗精力活力，不可能 draws out 活力，且修饰词是 life-sustaining，排除。",
-                "option_nature": "干扰项（常理颠倒 / 混淆生理消耗与劳动回报）",
+                "practice_status": "劳动消耗精力，无法通过劳动直接取出精力，排除。",
+                "option_nature": "干扰项（常理颠倒 / 混淆付出与回报）",
                 "source_sentence": "Employee puts in hours of physical or mental labor and employee draws out life-sustaining moola.",
                 "source_translation": "雇员投入体力和脑力劳动的工时，雇员取出维持生计的moola。",
-                "locator_comparison": "选项B认为该词表示“活力精力（energy）”。从基本的生理与经济常识来看：雇员投入漫长繁重的体力或脑力工时（puts in hours of physical or mental labor），其结果必然是精力被极大消耗、感到身心俱疲，怎么可能从工作中反向“draws out（提取出）”充沛的活力精力？职场不是充电桩。前文白纸黑字写明劳动是为了“in order to draw an income（获取收入）”。B选项不仅与原句平行上下文相悖，更颠倒了劳动消耗体力的基本生理常理。",
+                "locator_comparison": "劳动本身消耗大量体力和精力，不可能从工作场所直接取出（draws out）精力，且修饰词为维持生计，排除。",
                 "writing_perspective": "如果工作能提取活力，后文就不会说女性精疲力竭了，B项违反常识与行文逻辑。",
                 "theme_validation": "违背职场体力消耗的普遍事实，排除。",
-                "verdict": "复盘判断：B项违反基本生活常理，排除。"
+                "verdict": "复盘判断：付出劳动消耗精力，非取出精力，排除。"
               }
             },
             {
               "key": "C",
               "text": "earnings",
-              "text_cn": "通过劳动获取的薪酬收益与金钱收入",
+              "text_cn": "收入",
               "is_correct": true,
-              "trap_type": "★ 标准正确平行结构与近义词场精准对应",
+              "trap_type": "★ 标准正确同义对应",
               "analysis": {
-                "practice_status": "make money / draw an income 完美对应 draws out moola，即 earnings，锁定正选。",
-                "option_nature": "★ 标准正确平行结构与近义词场精准对应",
+                "practice_status": "对应原文puts in labor, draws out moola，付出劳动换取报酬，即earnings（收入），锁定正选。",
+                "option_nature": "★ 标准正确同义对应",
                 "source_sentence": "At work, people pretty much know what they’re supposed to be doing: working, making money, doing the tasks they have to do in order to draw an income. The bargain is very pure: Employee puts in hours of physical or mental labor and employee draws out life-sustaining moola.",
                 "source_translation": "在工作中人们非常清楚自己该做什么：工作、挣钱、做那些为了获取收入必须做的事。交易很纯粹：雇员投入劳动工时，雇员取出维持生计的moola。",
-                "locator_comparison": "本题考查利用句子间极其工整的平行呼应结构破解口语俚语生词的能力。前一句清晰罗列职场的底层目标：“working, making money, doing the tasks... in order to draw an income”（工作、挣钱、做任务以便获取收入）。后一句用“The bargain is very pure（这一交易非常纯粹直接）”引出破折号对前句的精辟复述：“Employee puts in hours of labor and employee draws out life-sustaining moola”（雇员投入工时劳力，雇员取出维持生计的moola）。请对比两句的绝对镜像对应：前句的“draw an income（获取收入）”直接对应后句的“draws out life-sustaining moola”！在英语俚语中，“moola（或写为 moolah）”正是极富生活气息的“money / cash（钞票、银子）”。选项C的“earnings（收入、薪酬所得）”是对“making money / draw an income / moola”最学术规范、毫无争议的精准同义转述。标准正选！",
+                "locator_comparison": "原文探讨职场的清晰激励机制：员工投入劳动，获取维持生活的钱（life-sustaining moola）。俚语“moola”即金钱、收入。选项C'earnings'（收入/报酬）准确吻合，锁定正选。",
                 "writing_perspective": "作者特意使用接地气的俚语“moola”，以形象揭示职场就是为了“挣口嚼谷的钞票”，为下文揭示家庭劳动没有真金白银回报奠定反衬基础，C项深谙此道。",
                 "theme_validation": "紧扣金钱激励与劳动回报的主题主线，完全吻合。",
-                "verdict": "复盘判断：C项平行结构对位精准，语义场同义无懈可击，标准正选。"
+                "verdict": "复盘判断：moola指金钱报酬，对应earnings，正确。"
               }
             },
             {
               "key": "D",
               "text": "nutrition",
-              "text_cn": "一日三餐不可或缺的丰富生理营养",
+              "text_cn": "营养",
               "is_correct": false,
-              "trap_type": "干扰项（望文生义 / 机械理解修饰词导致常识偏离）",
+              "trap_type": "干扰项（望文生义 / 表面字面误导）",
               "analysis": {
-                "practice_status": "life-sustaining 喻指维持温饱生计，并非去公司直接取营养，望文生义，排除。",
-                "option_nature": "干扰项（望文生义 / 机械理解修饰词导致常识偏离）",
+                "practice_status": "life-sustaining喻指维持生计温饱，并非从公司直接领取营养，望文生义，排除。",
+                "option_nature": "干扰项（望文生义 / 表面字面误导）",
                 "source_sentence": "and employee draws out life-sustaining moola.",
                 "source_translation": "雇员取出维持生计的moola。",
-                "locator_comparison": "选项D认为该词表示“营养（nutrition）”。很多考生易被前置修饰词“life-sustaining（维持生命的）”所迷惑，望文生义联想到“维持生命的是营养食物”。然而，职场交易（The bargain）是经济契约，雇主给雇员发的是薪水工资（income / money），而不是直接发放面包鸡蛋或维生素营养液！“life-sustaining moola”在修辞上是指“维持一家老小温饱生计的口粮钱/真金白银”。D选项受修饰语字面诱导，脱离了劳资货币结算的经济本质，属于典型的望文生义类低级干扰项。",
+                "locator_comparison": "“life-sustaining”在这里是形容金钱收入能够维持人们的温饱生计，并非字面上指去公司直接获取生理营养素，字面误解，排除。",
                 "writing_perspective": "作者是在讨论经济回报机制，而非生物学营养摄入，D项偏离议题十万八千里。",
                 "theme_validation": "与前文货币收入的上下文语境脱节，排除。",
-                "verdict": "复盘判断：D项望文生义曲解修饰词，排除。"
+                "verdict": "复盘判断：维持生计被字面理解为生理营养，排除。"
               }
             }
           ],
@@ -1589,69 +1589,69 @@
             {
               "key": "A",
               "text": "family labor is often adequately rewarded",
-              "text_cn": "家庭内部付出的辛勤劳动往往能够得到充分足额的物质回报",
+              "text_cn": "家庭劳动往往能得到充分回报",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 与原文白纸黑字事实彻底相反）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "文中明确说 inadequate rewards for most of them，A彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 与原文白纸黑字事实彻底相反）",
+                "practice_status": "文中明确指出家务劳动缺乏足够回报，选项与事实相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "There are a lot of tasks to be done; there are inadequate rewards for most of them.",
                 "source_translation": "有大量的任务要做；对其中绝大多数任务而言，回报都是极其不充分的。",
-                "locator_comparison": "选项A宣称家庭劳动“往往得到充分的回报（often adequately rewarded）”。原文定位句明确痛陈：“There are a lot of tasks to be done; there are inadequate rewards for most of them. Your home colleagues... have no clear rewards”（有无数家务要做，但绝大多数根本没有充分的回报inadequate rewards，家庭同事没有任何明确回报）。原文使用的是带有强烈否定前缀的形容词“inadequate（不充分的、匮乏的）”，选项A公然抹去否定前缀篡改为肯定形式“adequately”，犯了考研阅读中最赤裸裸的正反颠倒硬伤错误。",
+                "locator_comparison": "第5段末句明确指出家务劳动往往伴随着微薄或不足的回报（inadequate rewards for most of them）。选项A宣称得到充分足额回报，与字面事实完全相反，排除。",
                 "writing_perspective": "正是因为家务劳动缺乏即时正向激励才导致家庭关系紧张，A项粉饰了这一制度性缺陷，彻底违背作者立意。",
                 "theme_validation": "与下文阐述家庭同事难以激励的痛点针锋相对，排除。",
-                "verdict": "复盘判断：A项反向篡改事实，抹去否定前缀颠倒黑白，排除。"
+                "verdict": "复盘判断：原文为inadequate rewards，选项相反，排除。"
               }
             },
             {
               "key": "B",
               "text": "home is hardly a cozier working environment",
-              "text_cn": "家庭生活在客观上几乎不可能算得上是一个更温馨舒适的工作环境",
+              "text_cn": "家庭几乎不算更舒适的工作环境",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 生搬硬套舒适度伪命题）",
+              "trap_type": "干扰项（无中生有 / 偏离对比维度）",
               "analysis": {
-                "practice_status": "文中核心对比的是分工和激励机制，并没有比较谁环境更 cozy，无中生有，排除。",
-                "option_nature": "干扰项（无中生有 / 生搬硬套舒适度伪命题）",
+                "practice_status": "文中对比的是劳动分工和激励机制，并未比较物理环境是否舒适，排除。",
+                "option_nature": "干扰项（无中生有 / 偏离对比维度）",
                 "source_sentence": "On the home front, however, people have no such clarity. Rare is the household in which the division of labor is so clinically and methodically laid out.",
                 "source_translation": "然而在家庭后方，人们没有这种清晰度。极少有家庭的分工能够如此精确有条不紊。",
-                "locator_comparison": "选项B提出“家几乎不是一个更舒适的工作环境（hardly a cozier working environment）”。通读第5段，作者详细对比了职场与家庭在“制度清晰度（clarity）”、“劳动分工（division of labor）”、“激励机制（rewards）”以及“人事解雇权（cannot fire family）”等深层管理机制上的本质差异。全段自始至终未曾出现过“cozy（舒适温馨的）”一词，作者根本无意探讨物理环境或氛围上的舒适度高低。B项凭空捏造无中生有的形容词，偏离了制度机制层面的对比重心。",
+                "locator_comparison": "作者核心对比的是职场与家庭在激励回报和分工清晰度上的差异，通篇未对比两者哪一个在物理上更温馨舒适（cozier），无中生有，排除。",
                 "writing_perspective": "作者是在严肃探讨家庭劳动的组织行为学困境，而非抱怨家庭装修环境不舒服，B项格局狭隘庸俗。",
                 "theme_validation": "无中生有，偏离组织分工与回报机制的主线，排除。",
-                "verdict": "复盘判断：B项凭空捏造舒适度概念，排除。"
+                "verdict": "复盘判断：未对比环境舒适度，无中生有，排除。"
               }
             },
             {
               "key": "C",
               "text": "household tasks are generally more motivating",
-              "text_cn": "家庭内部各项琐碎事务通常更能极大地激发每个人的内驱力",
+              "text_cn": "家务通常更能激发动力",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 与文末明确结论直接抵触）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "文中说 much harder to motivate，C说 more motivating 彻底颠倒黑白，排除。",
-                "option_nature": "干扰项（反向矛盾 / 与文末明确结论直接抵触）",
+                "practice_status": "文中明确指出家务劳动更难调动积极性，选项与文意相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "Not only are the tasks apparently infinite, the co-workers are much harder to motivate. (Paragraph 6)",
                 "source_translation": "不仅任务看似无穷无尽，家里的“同事”更要难激励得多。（第6段）",
-                "locator_comparison": "选项C宣称家务劳动“通常更能激励人（more motivating）”。比对第5段与第6段结论：第5段指出家人干家务没有回报，“they need to be talked into it... threatened with removal of electronic devices（需要好说歹说劝他们，甚至威胁没收电子设备才能推动）”；第6段更直截了当总结：“the co-workers are much harder to motivate”（家里的同事要难调动得多！）。家里干活是极难激励驱动的苦差事，C选项公然颠倒黑白，将极难激励（harder to motivate）美化为“更能激励人（more motivating）”，完全是与原文结论针锋相反的低级干扰项。",
+                "locator_comparison": "原文明确指出在家里从事家务要困难得多地去调动积极性（much harder to motivate）。选项C宣称更能激发动力，与原文结论针锋相对，排除。",
                 "writing_perspective": "缺乏激励机制正是导致家务无人愿做、全压在女性身上的根源，C项彻底颠覆了文章核心论点。",
                 "theme_validation": "与全篇关于家务劳动动力匮乏的论证直接相悖，排除。",
-                "verdict": "复盘判断：C项反向颠倒事实，排除。"
+                "verdict": "复盘判断：原文为harder to motivate，选项相反，排除。"
               }
             },
             {
               "key": "D",
               "text": "division of labor at home is seldom clear-cut",
-              "text_cn": "家庭生活内部的人员劳动分工极少能够做到界限清晰分明",
+              "text_cn": "家庭分工很少明确具体",
               "is_correct": true,
-              "trap_type": "★ 标准正确倒装句语法破译与同义改写",
+              "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "Rare is the household in which division of labor is clinically laid out 完美对应 seldom clear-cut，锁定正选。",
-                "option_nature": "★ 标准正确倒装句语法破译与同义改写",
+                "practice_status": "对应原文Rare is the household in which the division of labor is clinically laid out，即seldom clear-cut，锁定正选。",
+                "option_nature": "★ 标准正确同义改写",
                 "source_sentence": "On the home front, however, people have no such clarity. Rare is the household in which the division of labor is so clinically and methodically laid out.",
                 "source_translation": "然而，在家庭后方，人们完全没有这种清晰度。极少有哪个家庭的家务劳动分工能够像职场那样精确清晰、有条不紊地规划妥当。",
-                "locator_comparison": "题干精准询问第5段中家庭后方（home front）与职场的本质区别。定位句首句以转折连词“however”奠定基调：“people have no such clarity”（在家庭中人们根本没有职场那种分工清晰度）；紧接着用高难度否定倒装句展开论述：“Rare is the household in which the division of labor is so clinically and methodically laid out”（极少有哪个家庭能够把家务劳动分工划分得如此精准科学、有条不紊！）。形容词“Rare（罕见、极少）”前置作表语，其客观语义完全等价于否定频率副词“seldom（很少、罕见）”；而“so clinically and methodically laid out（如此精确条理地规划）”经过否定后，在语义上精准映射为“seldom clear-cut（很少是清晰分明的）”。选项D的“division of labor at home is seldom clear-cut”对定位句倒装句结构与核心词义做出了最高水准的同义转化。正选无疑！",
+                "locator_comparison": "定位句使用倒装句强调：“Rare is the household in which the division of labor is clinically laid out”（极少有家庭能够将劳动分工清晰明确地划定界限）。选项D将Rare替换为seldom，clinically laid out替换为clear-cut，同义改写无懈可击，锁定正选。",
                 "writing_perspective": "作者通过组织行为学视角指出家庭相比职场的致命硬伤：缺乏像企业流水线那样责权利清晰的契约分工，导致家庭成为充满扯皮与推诿的高压沼泽，D项直击全段最深邃的思想精髓。",
                 "theme_validation": "“分工模糊与缺乏清晰度”是第5段统领全局的核心论点，完美嵌合。",
-                "verdict": "复盘判断：D项精准破译倒装句否定逻辑，同义改写精辟传神，标准正选。"
+                "verdict": "复盘判断：Rare is clinically laid out同义改写为seldom clear-cut，正确。"
               }
             }
           ],
@@ -2994,69 +2994,69 @@
             {
               "key": "A",
               "text": "reduced their dropout rates",
-              "text_cn": "显著降低了这一贫困弱势群体在大学中的辍学率",
+              "text_cn": "降低了他们的辍学率",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 事实正反彻底颠倒）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "文中明确说 their dropout rates are higher，而且 watching many of them fail，彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 事实正反彻底颠倒）",
+                "practice_status": "文中明确指出第一代大学生的辍学率更高，选项与事实颠倒，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "Their grades are lower and their dropout rates are higher. ... watching many of them fail",
                 "source_translation": "他们的成绩更低，辍学率更高。……眼睁睁看着他们当中许多人失败。",
-                "locator_comparison": "选项A宣称招收更多学生“降低了他们的辍学率（reduced their dropout rates）”。原文第1段第二句白纸黑字写明：“Their grades are lower and their dropout rates are higher”（他们的成绩更低，辍学率更高！）；下文更进一步指出“watching many of them fail（眼看着他们许多人失败辍学）”。现实中辍学率一直居高不下、令人痛心，A选项公然颠倒黑白，将其歪曲为降低了辍学率（reduced），与原文事实针锋相对，犯了低级反向错误。",
+                "locator_comparison": "原文第1段明确指出招收更多第一代大学生后，他们的辍学率反而更高（their dropout rates are higher）。选项A声称降低了辍学率，直接反向，排除。",
                 "writing_perspective": "高辍学率正是作者下文痛陈高等教育背叛初心、必须进行干预的危机源头，A项粉饰太平彻底违背立论前提。",
                 "theme_validation": "与全篇关于第一代大学生深陷学业失败泥潭的主旨水火不容，排除。",
-                "verdict": "复盘判断：A项与原文字面事实全盘颠倒，坚决排除。"
+                "verdict": "复盘判断：辍学率更高，选项说降低，反向干扰，排除。"
               }
             },
             {
               "key": "B",
               "text": "narrowed the achievement gap",
-              "text_cn": "切实弥合并缩小了基于不同社会阶层的学业成就差距",
+              "text_cn": "缩小了学业差距",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 抹去 rather than 否定结构造成颠倒）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "文中明确说是 reproduce and widen, rather than close，缩小差距彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 抹去 rather than 否定结构造成颠倒）",
+                "practice_status": "文中明确指出大学并没有缩小差距，反而扩大了差距，选项相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "higher education has “continued to reproduce and widen, rather than close” an achievement gap based on social class",
                 "source_translation": "高等教育“继续复制并扩大，而不是缩小”基于社会阶层的成就差距",
-                "locator_comparison": "选项B宣称该举措“缩小了成就差距（narrowed the achievement gap）”。比对定位句主干：“higher education has continued to reproduce and widen, rather than close an achievement gap based on social class”（高等教育一直在继续复制并拉大、而不是缩小基于社会阶层的成就差距！）。原句用强排他性短语“rather than close（而不是缩小）”白纸黑字明确排除了缩小差距（close/narrow）。选项B公然把作者痛心疾首否定的对象立为结论，颠倒黑白，属于考研英语中典型的正反颠倒陷阱。",
+                "locator_comparison": "第1段明确指出高等教育并没有弥合阶层学业差距，而是再生产并拉大了差距（reproduce and widen, rather than close）。选项B声称缩小差距，与事实截然相反，排除。",
                 "writing_perspective": "作者直言这是“depressing beginning（令人沮丧的开篇）”，B项将令人沮丧的差距扩大粉饰为差距缩小，荒谬绝伦。",
                 "theme_validation": "与第1段核心词“a paradox（悖论）”的批判逻辑彻底冲突，排除。",
-                "verdict": "复盘判断：B项抹杀否定排除结构，事实彻底颠倒，排除。"
+                "verdict": "复盘判断：原文为widen rather than close，选项相反，排除。"
               }
             },
             {
               "key": "C",
               "text": "missed its original purpose",
-              "text_cn": "彻底背离并错失了高校最初设立该项政策的良好初衷",
+              "text_cn": "未能实现最初的目的",
               "is_correct": true,
-              "trap_type": "★ 标准正确悖论实质深层哲学提炼",
+              "trap_type": "★ 标准正确核心矛盾推断",
               "analysis": {
-                "practice_status": "招收本意是助其经济晋升缩小差距，结果却扩大差距造就悖论，即 missed its original purpose，锁定正选。",
-                "option_nature": "★ 标准正确悖论实质深层哲学提炼",
+                "practice_status": "招收第一代大学生的本意是促进阶层流动，结果却造成辍学率更高、差距扩大，即未能达到最初目的，锁定正选。",
+                "option_nature": "★ 标准正确核心矛盾推断",
                 "source_sentence": "But since such students are most likely to advance economically if they succeed in higher education, colleges and universities have pushed for decades to recruit more of them. This has created “a paradox” in that recruiting first-generation students, but then watching many of them fail, means that higher education has “continued to reproduce and widen, rather than close” an achievement gap...",
                 "source_translation": "但由于这类学生如果能成功最可能实现经济跃升，大学数十年来一直推动招收更多此类学生。这造成了一个“悖论”：招收了第一代学生，却眼看着许多人失败，意味着高等教育在继续扩大而不是缩小差距……",
-                "locator_comparison": "题干围绕高校招收更多第一代学生（Recruiting more first-generation students）的实际后果提问。梳理第1段严密的因果演变：高校几十年来不遗余力扩招第一代学生的最初良好初衷（original purpose）是：由于高等教育是阶层跃升的关键跳板，希望借此帮助贫困子弟实现经济跨越（advance economically），从而缩小阶层鸿沟；然而事与愿违，残酷的现实造就了一个莫大的讽刺与悖论（created a paradox）：高校只管招人却不管培养，眼睁睁看着他们大面积挂科辍学（watching many of them fail），导致阶层成就差距被进一步残酷拉大（widen rather than close）。这一南辕北辙的荒唐结局，在本质上直接意味着该项扩招政策“彻底背离并错失了其原本的政策目的与美好初心”。选项C中的“missed its original purpose”（错失了最初的目的）高度提炼了“paradox”的逻辑内核，同义概括力透纸背！",
+                "locator_comparison": "招收第一代大学生的初衷是为了促进社会流动、缩小贫富教育差距，然而现实结果却是辍学率上升、学业差距进一步拉大，造成了初衷的落空。选项C'missed its original purpose'精准提炼，锁定正选。",
                 "writing_perspective": "作者以沉痛的笔调揭露好心办坏事的体制性冷漠，C项精准切中了作者对高等教育形式主义扩招的深刻反思。",
                 "theme_validation": "“初衷与现实背离”正是促使后文必须开出心理微干预处方的根本诱因，完全吻合。",
-                "verdict": "复盘判断：C项深刻揭示悖论背后的制度失灵，同义转换极其精湛，标准正选。"
+                "verdict": "复盘判断：招收政策导致差距拉大即未实现初衷，正确。"
               }
             },
             {
               "key": "D",
               "text": "depressed college students",
-              "text_cn": "使全体在校普通大学生群体陷入了普遍的情绪抑郁",
+              "text_cn": "使大学生感到抑郁",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 移花接木修饰主语）",
+              "trap_type": "干扰项（偷换概念 / 篡改修饰对象）",
               "analysis": {
-                "practice_status": "depressing 修饰的是 beginning of a paper 令人沮丧的开篇，非让学生得抑郁症，偷换概念，排除。",
-                "option_nature": "干扰项（偷换概念 / 移花接木修饰主语）",
+                "practice_status": "depressing修饰的是论文以令人沮丧的数据开篇，并非导致学生患上抑郁，排除。",
+                "option_nature": "干扰项（偷换概念 / 篡改修饰对象）",
                 "source_sentence": "according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
                 "source_translation": "根据即将在《心理科学》杂志上发表的一篇论文令人沮丧的开头。",
-                "locator_comparison": "选项D宣称该举措“使大学生感到抑郁沮丧（depressed college students）”。回文检索，定位句末尾确实出现了“depressing”，但原句清晰写道是：“according to the depressing beginning of a paper...”（根据一篇学术论文那令人沮丧的开篇开头）。修饰词“depressing（令人感到沮丧压抑的）”修饰的对象是论文的“开篇陈述（beginning of a paper）”，指的是这个残酷的扩招悖论现状让读者和学者读来感到极其沉重压抑；而D选项断章取义截取词根，把“论文现状令人沮丧”，恶意篡改为“扩招举措让大学生们患上了抑郁症（depressed students）”。偷换宾语与主谓结构，属于考研命题极典型的主客观倒置与强行拼合陷阱。",
+                "locator_comparison": "原文中“depressing”是修饰学术研究论文的开篇引言让人感到压抑沮丧（the depressing beginning of a paper），并非指政策导致全体大学生患上抑郁症，偷换修饰对象，排除。",
                 "writing_perspective": "学者是在做宏观教育社会学研究，而非诊断大学生的临床抑郁症，D项偏离语境千里。",
                 "theme_validation": "张冠李戴原词，偷换概念，排除。",
-                "verdict": "复盘判断：D项偷换被修饰成分，生搬硬套设错，排除。"
+                "verdict": "复盘判断：修饰论文开篇非导致学生抑郁，排除。"
               }
             }
           ],
@@ -3081,69 +3081,69 @@
             {
               "key": "A",
               "text": "their findings appeal to students",
-              "text_cn": "其实验研究的新颖发现在广大学生中极具吸引力",
+              "text_cn": "他们的发现吸引学生",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 捏造不存在的学生主观评价）",
+              "trap_type": "干扰项（无中生有 / 主观臆断）",
               "analysis": {
-                "practice_status": "文中只说研究提出了解决方案，完全没提发现对学生有吸引力，无中生有，排除。",
-                "option_nature": "干扰项（无中生有 / 捏造不存在的学生主观评价）",
+                "practice_status": "文中只提及研究提出了解决方案，并未提及该发现吸引了学生，无中生有，排除。",
+                "option_nature": "干扰项（无中生有 / 主观臆断）",
                 "source_sentence": "as it outlines a potential solution to this problem",
                 "source_translation": "因为它勾勒出了解决该问题的一个潜在方案",
-                "locator_comparison": "选项A宣称学者乐观是因为“他们的发现对学生有吸引力（findings appeal to students）”。回文检索第2段，作者用“as（因为）”引导了学者乐观的明确因果链条：“as it outlines a potential solution to this problem... can close 63 percent of the achievement gap”（因为它勾勒出解决该问题的潜在方案，能弥合63%的差距）。学者乐观的根源纯粹在于该方案在统计学上具备极高的干预实效。整段话自始至终没有提及任何关于学生主观上是否觉得这一研究发现“有吸引力（appeal to）”的字眼。A项凭空捏造虚假因果，完全脱离文本依据。",
+                "locator_comparison": "第2段作者乐观的原因是找到了缩小差距的潜在解决方案，通篇并未提及研究成果对广大学生具有吸引力，无中生有，排除。",
                 "writing_perspective": "学术论文的乐观情绪源于科研假设被实证数据所证实，而非追求迎合大众流量，A项庸俗化了科研价值。",
                 "theme_validation": "与提供实质性解决方案的主线脱节，排除。",
-                "verdict": "复盘判断：A项无中生有凭空捏造，排除。"
+                "verdict": "复盘判断：未提研究对学生有吸引力，排除。"
               }
             },
             {
               "key": "B",
               "text": "the recruiting rate has increased",
-              "text_cn": "全国各大高校对弱势学生的实际招录比例显著攀升",
+              "text_cn": "招录比例已经上升",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 跨段拼凑前段历史背景）",
+              "trap_type": "干扰项（张冠李戴 / 错置背景）",
               "analysis": {
-                "practice_status": "招录率增加是第1段讲了数十年的老政策背景，且造成了悖论，非本段乐观原因，排除。",
-                "option_nature": "干扰项（张冠李戴 / 跨段拼凑前段历史背景）",
+                "practice_status": "招录率增加是第1段阐述的既往政策背景，并非作者对新研究感到乐观的原因，排除。",
+                "option_nature": "干扰项（张冠李戴 / 错置背景）",
                 "source_sentence": "colleges and universities have pushed for decades to recruit more of them. (Paragraph 1)",
                 "source_translation": "大学数十年来一直在推动招收更多此类学生。（第1段）",
-                "locator_comparison": "选项B声称是因为“招录率有所提高（recruiting rate has increased）”。回文定位，扩招弱势学生（push to recruit more）是第1段交代的高校过去几十年的历史背景，而且第1段明确指出这种单纯追求招录率的扩招政策最终酿成了“扩大阶层差距的悲剧悖论”。既然招录率上升反而是悲剧的诱因，学者怎么可能以此为由感到乐观？B项不仅跨段张冠李戴前段陈旧背景，而且在逻辑因果上彻底颠倒混乱，严重违背文本事实。",
+                "locator_comparison": "高校招收第一代学生的比例上升是数十年前已开始推行的政策背景，且已带来了差距扩大的悖论，并非作者本段表达乐观的原因，排除。",
                 "writing_perspective": "学者正是对传统招录政策的破产感到沮丧，转而寻求学业帮扶新路径，B项本末倒置。",
                 "theme_validation": "违背第1段对传统扩招路线的批判定论，排除。",
-                "verdict": "复盘判断：B项跨段抓取反面背景，因果逻辑混乱，排除。"
+                "verdict": "复盘判断：既往背景细节非乐观原因，排除。"
               }
             },
             {
               "key": "C",
               "text": "the problem is solvable",
-              "text_cn": "这一看似棘手的阶层学业差距难题事实上是完全可解的",
+              "text_cn": "问题是可以解决的",
               "is_correct": true,
-              "trap_type": "★ 标准正确近义词性转换推导",
+              "trap_type": "★ 标准正确同义转换",
               "analysis": {
-                "practice_status": "outlines a potential solution to this problem，词性转化对应 the problem is solvable，锁定正选。",
-                "option_nature": "★ 标准正确近义词性转换推导",
+                "practice_status": "对应原文outlines a potential solution to this problem，有潜在解决方案即问题可解，锁定正选。",
+                "option_nature": "★ 标准正确同义转换",
                 "source_sentence": "But the article is actually quite optimistic, as it outlines a potential solution to this problem, suggesting that an approach (which involves a one-hour, next-to-no-cost program) can close 63 percent of the achievement gap...",
                 "source_translation": "但这篇文章实际上相当乐观，因为它勾勒出了解决该问题的一个潜在方案，表明有一种方法可以缩小63%的成就差距……",
-                "locator_comparison": "题干针对第2段学者感到乐观的原因（optimistic because...）提问。定位句中由原因状语从句“as（因为）”直接揭晓答案：“as it outlines a potential solution to this problem, suggesting that an approach... can close 63 percent of the achievement gap”（因为它勾勒出了解决该问题的一个潜在解决方案，表明一种微干预方法就能弥合高达63%的学业差距！）。在英语语义体系中，“outlines a solution to this problem（勾勒出解决这一问题的方案）”在逻辑本质上完全等价于名词到形容词的同义转化：“the problem is solvable（这一问题是可解的、可以被攻克的）”。面对数十年来困扰全美教育界、看似顽固不化的阶层学业差距，学者发现只要找准切入点，花一个小时就能大幅解决，因此产生了极大的学术乐观信念。选项C精准抓取题眼，转换高明严谨，标准正选！",
+                "locator_comparison": "定位句明确阐述两位学者表达乐观的根本原因：他们的研究提出了一项切实可行的干预方案（outlines a potential solution to this problem）。有方案解决即表明该问题是可以攻克的（solvable），锁定正选。",
                 "writing_perspective": "作者在此实现从第1段悲观到第2段乐观的华丽转折，为全篇树立科技改变命运的希望灯塔，C项完美契合这一核心主旋律。",
                 "theme_validation": "问题可解是后文详细展开实验设计与干预机制的唯一逻辑起点，毫无争议。",
-                "verdict": "复盘判断：C项词性转换对位极其工整，直击段落因果核心，标准正选。"
+                "verdict": "复盘判断：potential solution词性转换对应solvable，正确。"
               }
             },
             {
               "key": "D",
               "text": "their approach is costless",
-              "text_cn": "其实验推行的干预方案在财务上是毫无任何经济成本的",
+              "text_cn": "他们的方法毫无成本",
               "is_correct": false,
-              "trap_type": "干扰项（绝对化过度推断 / 篡改限制修饰词）",
+              "trap_type": "干扰项（过度绝对化 / 篡改限定）",
               "analysis": {
-                "practice_status": "文中是 next-to-no-cost（几乎零成本），非绝对 costless，绝对化篡改，排除。",
-                "option_nature": "干扰项（绝对化过度推断 / 篡改限制修饰词）",
+                "practice_status": "原文指出几乎零成本，并非绝对毫无成本，排除。",
+                "option_nature": "干扰项（过度绝对化 / 篡改限定）",
                 "source_sentence": "which involves a one-hour, next-to-no-cost program",
                 "source_translation": "该方法涉及一个时长一小时、几乎零成本的项目",
-                "locator_comparison": "选项D宣称是因为“他们的做法是毫无成本的（approach is costless）”。比对原文细微修辞：原文使用的是复合形容词“next-to-no-cost”。在英语中，“next to no...”表示“几乎没有、微乎其微（almost none）”，强调的是成本极低、性价比极其惊人，但绝不等于绝对意义上的完全免费或零成本（costless）。更重要的是，即便成本低廉，学者乐观的根本原因也在于该方案能够“有效解决问题（solves the problem / closes gap）”，而不是单纯因为“不要钱”。D项不仅在词义上犯了绝对化篡改的毛病，更偷换了乐观的核心因果支点，属于典型的次要细节绝对化设错。",
+                "locator_comparison": "原文指出干预措施是“next-to-no-cost”（几乎没有任何成本），选项将其绝对化为毫无成本（costless），篡改了程度限定，排除。",
                 "writing_perspective": "如果一个方案毫无效果，即便完全免费也毫无乐观可言，D项颠倒了效能与成本的主次关系。",
                 "theme_validation": "忽视关键限制词，夸大其词，排除。",
-                "verdict": "复盘判断：D项将“几乎零成本”绝对化篡改为“无成本”，排除。"
+                "verdict": "复盘判断：next-to-no-cost非绝对零成本，排除。"
               }
             }
           ],
@@ -3168,69 +3168,69 @@
             {
               "key": "A",
               "text": "are from single-parent families",
-              "text_cn": "普遍来自离异或丧偶的贫困单亲家庭",
+              "text_cn": "来自单亲家庭",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 臆造家庭婚姻结构概念）",
+              "trap_type": "干扰项（无中生有 / 臆造概念）",
               "analysis": {
-                "practice_status": "文中定义第一代学生是父母没大学文凭，完全没说是单亲家庭，无中生有，排除。",
-                "option_nature": "干扰项（无中生有 / 臆造家庭婚姻结构概念）",
+                "practice_status": "第一代大学生的定义是父母未接受过大学教育，并未提及单亲家庭，无中生有，排除。",
+                "option_nature": "干扰项（无中生有 / 臆造概念）",
                 "source_sentence": "First generation was defined as not having a parent with a four-year college degree.",
                 "source_translation": "第一代被定义为父母均没有四年制大学学位。",
-                "locator_comparison": "选项A宣称绝大多数第一代学生“来自单亲家庭（single-parent families）”。回文检索，第3段明确给出了本项研究所采用的学术定义：“First generation was defined as not having a parent with a four-year college degree”（第一代的定义是父母均未取得四年制大学学位）。这纯粹是基于父母“受教育水平（education level）”所做出的划分，根本没有提及父母的婚姻状况或家庭结构。父母双全但都没上过大学，依然属于第一代大学生。A项凭空捏造单亲家庭概念，完全脱离文本依据，属于考研命题极常见的无中生有设错。",
+                "locator_comparison": "文章对第一代大学生的界定是父母双方均未取得四年制大学文凭，通篇未提及家庭是否单亲或离异，属于凭空捏造，排除。",
                 "writing_perspective": "作者在分析代际教育资本的匮乏，而非探讨离异单亲等家庭伦理问题，A项离题万里。",
                 "theme_validation": "与文章纯粹关注阶层与教育资本的主题脱节，排除。",
-                "verdict": "复盘判断：A项凭空捏造单亲家庭概念，排除。"
+                "verdict": "复盘判断：未提单亲家庭，无中生有，排除。"
               }
             },
             {
               "key": "B",
               "text": "study at private universities",
-              "text_cn": "全部集中就读于学费昂贵的高端私立大学",
+              "text_cn": "在私立大学就读",
               "is_correct": false,
-              "trap_type": "干扰项（以偏概全 / 混淆实验样本抽取地与全国宏观群体分布）",
+              "trap_type": "干扰项（以偏概全 / 样本与总体混淆）",
               "analysis": {
-                "practice_status": "文中是说本次研究的147名样本取自一所私立大学，不代表绝大多数第一代学生都在私立读书，偷换主体范围，排除。",
-                "option_nature": "干扰项（以偏概全 / 混淆实验样本抽取地与全国宏观群体分布）",
+                "practice_status": "实验样本来自一所私立大学，并不代表大多数第一代大学生都在私立大学就读，排除。",
+                "option_nature": "干扰项（以偏概全 / 样本与总体混淆）",
                 "source_sentence": "based on a study involving 147 students (who completed the project) at an unnamed private university.",
                 "source_translation": "基于在一所未具名私立大学涉及147名（完成该项目的）学生的研究。",
-                "locator_comparison": "选项B宣称第一代学生“在私立大学就读（study at private universities）”。回文比对：原文提到“private university”是在交代该项实证研究的样本来源——“involving 147 students... at an unnamed private university”（在一所匿名的私立大学对147名学生开展了研究）。这仅仅是研究人员挑选的一个具体实验测试地点与样本框，绝不能由此以偏概全地推导出全美“大多数第一代大学生都在私立大学就读”！事实上常识亦表明多数底层学子分布在公立院校。B选项将局部实验抽样地点强加为整个宏观群体的分布特征，犯了严重的以偏概全错误。",
+                "locator_comparison": "第3段指明本次实验选取的147名学生来自一所私立大学，这只是实验样本抽取的特定地点，不能外推为全美绝大多数第一代学生都在私立大学读书，以偏概全，排除。",
                 "writing_perspective": "作者交代实验地点是为了保证科研报告的严谨实证性，B项过度外推导致事实失真。",
                 "theme_validation": "以局部样本框代替宏观群体属性，排除。",
-                "verdict": "复盘判断：B项混淆实验样本地点与宏观群体属性，排除。"
+                "verdict": "复盘判断：实验地点不能代表总体分布，排除。"
               }
             },
             {
               "key": "C",
               "text": "are in need of financial support",
-              "text_cn": "在客观经济状况上极度需要来自外界的资助与扶持",
+              "text_cn": "需要经济资助",
               "is_correct": true,
-              "trap_type": "★ 标准正确同位语事实细节精准转化",
+              "trap_type": "★ 标准正确事实细节同义转换",
               "analysis": {
-                "practice_status": "59.1% recipients of Pell Grants for financial need，直接对应 in need of financial support，锁定正选。",
-                "option_nature": "★ 标准正确同位语事实细节精准转化",
+                "practice_status": "59.1%的学生获得基于经济困难的佩尔助学金，对应in need of financial support，锁定正选。",
+                "option_nature": "★ 标准正确事实细节同义转换",
                 "source_sentence": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need, while this was true only for 8.6 percent of the students...",
                 "source_translation": "大多数第一代学生（59.1%）是佩尔助学金的获得者，该助学金是一项针对有经济困难本科生的联邦资助，而这一比例在……学生中仅为8.6%。",
-                "locator_comparison": "题干针对第3段实证数据揭示的第一代大学生特征提问。定位句明确给出关键数据与同位语解释：“Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need”（绝大多数第一代大学生——占比高达59.1%——是佩尔助学金的获得者，该助学金是一项专门针对有经济困难本科生的联邦资助）。数据“59.1%”无可辩驳地印证了题干中的“Most（大多数）”，而同位语“undergraduates with financial need（有经济困难/资金需求的本科生）”直接在词义上天衣无缝地映射到选项C：“are in need of financial support”（需要经济/财政支持）。事实对位严丝合缝，同义转化极其自然流畅！",
+                "locator_comparison": "定位句通过数据明确交代多数第一代大学生的经济特征：59.1%的学生是基于经济困难的佩尔助学金获得者（Pell Grants for financial need）。选项C'are in need of financial support'直接对位，锁定正选。",
                 "writing_perspective": "作者在此引入佩尔助学金的数据，旨在用铁证向读者展示第一代大学生的双重劣势：他们不仅缺乏家庭文化资本，更面临着捉襟见肘的经济赤贫，C项准确切中了这一社会经济实况。",
                 "theme_validation": "贫困阶层背景是理解第一代学生为何在大学举步维艰的物质根源，与全篇主旨紧密嵌合。",
-                "verdict": "复盘判断：C项同位语事实细节对位精准，毫无争议的标准答案。"
+                "verdict": "复盘判断：Pell Grants for financial need对应in need of financial support，正确。"
               }
             },
             {
               "key": "D",
               "text": "have failed their college",
-              "text_cn": "在进入大学初期均以学业彻底挂科不及格告终",
+              "text_cn": "大学学业失败",
               "is_correct": false,
-              "trap_type": "干扰项（绝对化夸大 / 跨段拼接否定事实）",
+              "trap_type": "干扰项（绝对化夸大 / 忽视限定）",
               "analysis": {
-                "practice_status": "P3参与实验的147人明确写着 who completed the project，且挂科只是第1段整体趋势，并非全部不及格，排除。",
-                "option_nature": "干扰项（绝对化夸大 / 跨段拼接否定事实）",
+                "practice_status": "参与实验的学生明确注明已完成项目，并非全部失败不及格，绝对化错误，排除。",
+                "option_nature": "干扰项（绝对化夸大 / 忽视限定）",
                 "source_sentence": "involving 147 students (who completed the project)...",
                 "source_translation": "涉及147名（完成了该项目的）学生……",
-                "locator_comparison": "选项D声称大多数第一代学生“大学不及格/挂科失败（have failed their college）”。拆解分析：第1段虽然提到第一代学生整体存在“grades are lower / watching many of them fail”的负面统计倾向，但这只是一种宏观群体的相对比例，绝非断言“绝大多数人都大学挂科不及格”。更关键的是，第3段明确记载参与这项实证项目的147名学生是“who completed the project（完整完成了学业干预项目的学生）”，他们通过微干预成功留了下来，并未挂科失败。D选项滥用完成时态，将宏观学术风险绝对化扩大为个体全部挂科不及格，错得离谱。",
+                "locator_comparison": "第3段明确说明参与实验的学生均顺利完成了实验项目（who completed the project），选项声称学业失败与样本事实不符，排除。",
                 "writing_perspective": "作者撰文就是为了打破“第一代大学生注定失败”的宿命论，D项散播悲观绝对化论调，与文章主旨背道而驰。",
                 "theme_validation": "绝对化歪曲实验事实，排除。",
-                "verdict": "复盘判断：D项以偏概全绝对化，与第3段实验样本事实相悖，排除。"
+                "verdict": "复盘判断：样本均完成项目，全盘失败与事实不符，排除。"
               }
             }
           ],
@@ -3255,69 +3255,69 @@
             {
               "key": "A",
               "text": "may lack opportunities to apply for research projects",
-              "text_cn": "普遍严重缺乏主动向校方申请科研项目的机会",
+              "text_cn": "可能缺乏申请科研项目的机会",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 凭空捏造学术科研概念）",
+              "trap_type": "干扰项（无中生有 / 凭空捏造）",
               "analysis": {
-                "practice_status": "文中说缺乏的是处理大学问题的日常实用常识，非申请科研项目，无中生有，排除。",
-                "option_nature": "干扰项（无中生有 / 凭空捏造学术科研概念）",
+                "practice_status": "文中指出缺乏的是应对大学日常问题的实用常识，并非科研项目机会，无中生有，排除。",
+                "option_nature": "干扰项（无中生有 / 凭空捏造）",
                 "source_sentence": "lacking not in potential but in practical knowledge about how to deal with the issues that face most college students.",
                 "source_translation": "最缺乏的不是潜能，而是在如何应对大多数大学生面临的问题方面的实用知识。",
-                "locator_comparison": "选项A提出第一代学生“缺乏申请研究项目的机会（lack opportunities to apply for research projects）”。回文通查，定位句探讨的是学生在大学日常生存中面临的普遍性普遍议题（issues that face most college students，如第5段具体列举的融入中产阶层文化、学习游戏规则、利用大学资源等）。原文自始至终没有任何字眼提到学生缺乏“申请研究项目/科研课题（apply for research projects）”的机会。A项凭空捏造高大上的科研课题概念，完全脱离了本科生日常学业与生活适应的语境，纯属主观臆断设错。",
+                "locator_comparison": "作者指出第一代学生所欠缺的是如何应对大学环境挑战的实用性常识（practical knowledge），并未提及申请科研项目的机会，无中生有，排除。",
                 "writing_perspective": "作者探讨的是基础学业与心理适应层面的生存常识，而非拔高到学术前沿课题申请，A项严重脱离实际。",
                 "theme_validation": "与实用生活常识的主题脱节，排除。",
-                "verdict": "复盘判断：A项凭空捏造科研项目概念，排除。"
+                "verdict": "复盘判断：缺乏日常应对经验非科研机会，排除。"
               }
             },
             {
               "key": "B",
               "text": "are inexperienced in handling their issues at college",
-              "text_cn": "在从容应对和处理大学期间面临的各类问题上严重缺乏经验",
+              "text_cn": "缺乏处理大学问题的经验",
               "is_correct": true,
-              "trap_type": "★ 标准正确形容词与动词词组深层同义转述",
+              "trap_type": "★ 标准正确同义转述",
               "analysis": {
-                "practice_status": "lacking practical knowledge about how to deal with issues 完美同义改写为 inexperienced in handling issues，锁定正选。",
-                "option_nature": "★ 标准正确形容词与动词词组深层同义转述",
+                "practice_status": "对应原文lacking practical knowledge about how to deal with issues at college，锁定正选。",
+                "option_nature": "★ 标准正确同义转述",
                 "source_sentence": "first-generation students may be most lacking not in potential but in practical knowledge about how to deal with the issues that face most college students.",
                 "source_translation": "第一代大学生最缺乏的不是潜能，而是在如何应对大多数大学生面临的问题方面的实用知识。",
-                "locator_comparison": "题干精准聚焦作者对第一代大学生真实缺陷（lacking...）的核心判断。定位句采用考研最经典的“not... but...”强调结构亮出真相：“first-generation students may be most lacking not in potential but in practical knowledge about how to deal with the issues that face most college students”（第一代学生最缺乏的绝非潜能，而是在如何应对大多数大学生所面临问题方面的实用常识！）。请精细比对同义转换：短语“lacking in practical knowledge about how to deal with（缺乏如何应对的实用知识）”在语义本质上精准等同于“are inexperienced in handling（在处理……上缺乏经验）”；而宾语“the issues that face most college students”直接工整映射为“their issues at college”。没有经验、缺乏应对常识，一语道破了贫困底层学子面对精英大学体制时的无所适从。选项B同义转述精妙绝伦，正选无疑！",
+                "locator_comparison": "定位句指出第一代学生'lacking practical knowledge about how to deal with issues at college'。选项B将lacking practical knowledge about dealing with issues同义转述为inexperienced in handling issues，极为契合，锁定正选。",
                 "writing_perspective": "作者特别澄清第一代学生并不比别人笨（not in potential），病根仅仅在于信息差与经验差，因此微干预才能四两拨千斤，B项完美呼应这一立论核心。",
                 "theme_validation": "“缺乏经验而非缺乏天赋”是全篇最核心的认知突破口，与主旨100%契合。",
-                "verdict": "复盘判断：B项同义转述极其精炼准确，标准正选。"
+                "verdict": "复盘判断：lacking knowledge about dealing with issues对应inexperienced in handling issues，正确。"
               }
             },
             {
               "key": "C",
               "text": "can have a potential influence on other students",
-              "text_cn": "能够对身边的其他中产阶层同学产生潜在深远影响",
+              "text_cn": "可能对其他学生产生潜在影响",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 截取原词移花接木）",
+              "trap_type": "干扰项（偷换概念 / 篡改修饰对象）",
               "analysis": {
-                "practice_status": "文中 potential 修饰的是学生自身的智力潜能 not lacking in potential，偷换主谓宾，排除。",
-                "option_nature": "干扰项（偷换概念 / 截取原词移花接木）",
+                "practice_status": "potential修饰的是学生自身的潜能，并非影响他人，排除。",
+                "option_nature": "干扰项（偷换概念 / 篡改修饰对象）",
                 "source_sentence": "most lacking not in potential but in practical knowledge",
                 "source_translation": "最缺乏的不是潜能，而是实用知识",
-                "locator_comparison": "选项C宣称第一代学生“能对其他学生产生潜在影响（potential influence on other students）”。回文检索，原句确实出现了“potential”，但原句表达的是：“not in potential but in practical knowledge”（缺乏的不是潜能，而是实用知识）。这里的“potential”是名词，指的是第一代学生“自身的智力潜能与学业发展潜力”；而C选项断章取义截取原词，别有用心地将其篡改为形容词“potential influence（潜在的影响力）”，并强行拼接上对“其他学生（other students）”的作用。属于典型的截取词根、彻底篡改主谓宾搭配的障眼法陷阱。",
+                "locator_comparison": "原文中“not lacking in potential”是指第一代学生自身绝不缺乏智力发展潜能，并非指对其他同学产生潜在影响，偷换修饰对象，排除。",
                 "writing_perspective": "作者在分析第一代学生自身需要被帮扶的弱势处境，而非把他们塑造成影响别人的楷模，C项语境错位。",
                 "theme_validation": "张冠李戴原词，偏离学生自身困境的探讨，排除。",
-                "verdict": "复盘判断：C项偷换词性与搭配，移花接木设错，排除。"
+                "verdict": "复盘判断：自身潜能被偷换为影响他人，排除。"
               }
             },
             {
               "key": "D",
               "text": "are actually indifferent to the achievement gap",
-              "text_cn": "对自身与其他阶层同学之间的巨大差距事实上漠不关心",
+              "text_cn": "实际上对学业差距漠不关心",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 恶意否定学生的拼搏挣扎事实）",
+              "trap_type": "干扰项（反向干扰 / 违背原文事实）",
               "analysis": {
-                "practice_status": "文中第5段说他们苦苦挣扎 struggle 并 lack insight，绝非漠不关心，反向矛盾，排除。",
-                "option_nature": "干扰项（反向矛盾 / 恶意否定学生的拼搏挣扎事实）",
+                "practice_status": "第一代大学生苦苦挣扎适应大学环境，并非漠不关心，与文意相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 违背原文事实）",
                 "source_sentence": "Many first-generation students “struggle to navigate the middle-class culture... and do not understand how students ‘like them’ can improve.” (Paragraph 5)",
                 "source_translation": "许多第一代学生“苦苦挣扎以适应中产阶级文化……不明白像他们这样的学生如何能提升自己”。（第5段）",
-                "locator_comparison": "选项D声称第一代学生“对成就差距漠不关心（indifferent to achievement gap）”。比对第4段与第5段：原文明确指出第一代学生在大学里“struggle to navigate, learn the rules, and take advantage of resources”（为了融入中产文化、摸索规则、提升自我而苦苦挣扎拼搏）；他们之所以落后，是因为不知道像他们这样的人如何提升（do not understand how to improve），心里极度渴望变好却苦于无门。D选项竟然污蔑他们“漠不关心（indifferent）”，把充满渴望的苦苦挣扎歪曲为麻木不仁的消极躺平，犯了严重扭曲事实的恶性设错。",
+                "locator_comparison": "文章指出第一代学生因缺乏常识而在大学苦苦挣扎（struggle to navigate），选项声称其对学业差距漠不关心，与文意相反，排除。",
                 "writing_perspective": "作者通篇充满对底层学子渴望改变命运却撞墙碰壁的深切悲悯，D项将悲剧归咎于学生漠不关心，极其荒谬。",
                 "theme_validation": "与全篇展现学生苦苦挣扎求索的事实彻底背离，排除。",
-                "verdict": "复盘判断：D项反向诬陷学生漠不关心，排除。"
+                "verdict": "复盘判断：苦苦挣扎适应与漠不关心相反，排除。"
               }
             }
           ],
@@ -3342,69 +3342,69 @@
             {
               "key": "A",
               "text": "universities often reject the culture of the middle-class",
-              "text_cn": "现代主流高等院校普遍公开排斥并拒绝中产阶层文化",
+              "text_cn": "大学往往拒绝中产阶级文化",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 事实全盘颠倒）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "大学本身就是中产阶层文化的温床，学生是 struggle to navigate it，A完全搞反，排除。",
-                "option_nature": "干扰项（反向矛盾 / 事实全盘颠倒）",
+                "practice_status": "大学本身充满中产阶级文化，学生是努力去适应它，选项颠倒事实，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "Many first-generation students “struggle to navigate the middle-class culture of higher education... ”",
                 "source_translation": "许多第一代学生“难以驾驭高等教育的中产阶层文化……”",
-                "locator_comparison": "选项A宣称大学“拒绝中产阶级文化（reject the culture of the middle-class）”。事实完全相反！原文明确指出，大学校园本身就是由中产阶层文化所绝对主导的场所（the middle-class culture of higher education），第一代底层学生所面临的巨大鸿沟恰恰正是因为他们“struggle to navigate（难以适应和驾驭这种中产阶层文化）”。大学不仅不排斥中产文化，反而将其作为默认的游戏规则。A选项声称大学拒绝中产文化，属于彻底颠倒黑白的荒谬干扰项。",
+                "locator_comparison": "第6段指出大学本身就是深深浸润在中产阶层文化中的机构，学生面临的困难正是如何融入这种文化，选项声称大学拒绝该文化，彻底搞反，排除。",
                 "writing_perspective": "社会学家指出大学是中产文化的复制机器，底层学子因文化资本缺失而受挫，A项完全违背社会学基本常识。",
                 "theme_validation": "与文章揭示大学中产壁垒的主旨截然相反，排除。",
-                "verdict": "复盘判断：A项颠倒大学文化属性，排除。"
+                "verdict": "复盘判断：大学充斥中产文化非拒绝该文化，排除。"
               }
             },
             {
               "key": "B",
               "text": "students are usually to blame for their lack of resources",
-              "text_cn": "弱势学生自身因缺乏学习资源而应当承担主要过错指责",
+              "text_cn": "学生通常因缺乏资源而受到指责",
               "is_correct": false,
-              "trap_type": "干扰项（因果倒置 / 颠倒加害者与受害者责任）",
+              "trap_type": "干扰项（因果倒置 / 违背作者立场）",
               "analysis": {
-                "practice_status": "高校避而不谈阶层才是病根，学生是受害者，归咎学生彻底违背作者立论，排除。",
-                "option_nature": "干扰项（因果倒置 / 颠倒加害者与受害者责任）",
+                "practice_status": "高校避而不谈阶层才是病根，责任在学校而非归咎于学生，排除。",
+                "option_nature": "干扰项（因果倒置 / 违背作者立场）",
                 "source_sentence": "colleges don’t talk about the class advantages and disadvantages... many first-generation students lack insight about why they are struggling",
                 "source_translation": "大学不谈阶层优势和劣势……导致许多第一代学生不知道自己为什么在挣扎",
-                "locator_comparison": "选项B宣称“学生通常因缺乏资源而应受责备（students are usually to blame）”。因果逻辑完全颠倒！原文明确将学生挣扎痛苦的制度根源归咎于高校的体制性漠视：“becomes more of a problem when colleges don’t talk about... colleges seldom acknowledge...”（当大学避而不谈阶层差异、极少承认阶层影响时，问题加剧了）。学生在信息闭塞的校园里沦为了制度性牺牲品，作者深表同情；而B选项竟然倒打一耙，主张责备惩罚学生（to blame），完全站在了作者批判体制立场的对立面，大错特错。",
+                "locator_comparison": "作者明确指出问题根源在于高等院校自身的回避态度，第一代学生是受害者，归咎于学生自身违背了作者立论立场，排除。",
                 "writing_perspective": "作者撰文正是为了打破将学业落后简单归咎于“个人不努力”的陈旧道德偏见，B项反向迎合被作者批判的错误偏见。",
                 "theme_validation": "违背全篇反思体制教育盲区的主旋律，排除。",
-                "verdict": "复盘判断：B项颠倒因果责任，倒打一耙，坚决排除。"
+                "verdict": "复盘判断：制度回避是病根，不应归咎学生，排除。"
               }
             },
             {
               "key": "C",
               "text": "social class greatly helps enrich educational experiences",
-              "text_cn": "不同的社会阶层背景极大地促进并丰富了大学生的教育体验",
+              "text_cn": "社会阶层极大丰富了教育体验",
               "is_correct": false,
-              "trap_type": "干扰项（扭曲性质 / 将阶层鸿沟壁垒粉饰为美化词汇）",
+              "trap_type": "干扰项（美化现实 / 违背文意）",
               "analysis": {
-                "practice_status": "社会阶层在这里带来的是鸿沟与学业苦苦挣扎，enrich 属于盲目美化残酷现实，排除。",
-                "option_nature": "干扰项（扭曲性质 / 将阶层鸿沟壁垒粉饰为美化词汇）",
+                "practice_status": "阶层差异在这里带来的是学业障碍与挣扎，并非丰富教育体验，排除。",
+                "option_nature": "干扰项（美化现实 / 违背文意）",
                 "source_sentence": "seldom acknowledge how social class can affect students’ educational experience",
                 "source_translation": "极少承认社会阶层如何影响学生的教育经历",
-                "locator_comparison": "选项C宣称社会阶层“极大地帮助丰富了受教育经历（greatly helps enrich educational experiences）”。回文检索，原文确实提到了“social class can affect students' educational experience”（社会阶层会影响学生的教育经历）。但是，在全文沉痛的批判语境中，这种“affect（影响）”是指阶层壁垒如何无情地压制底层学子、剥夺他们的资源、让他们陷入苦苦挣扎的绝境！C选项居心叵测地将残酷的负面阶层壁垒，粉饰成了充满多元化美化色彩的“enrich（丰富滋养）”，严重歪曲了文本揭露教育不平等的严肃现实主义基调。",
+                "locator_comparison": "在文章语境中，阶层差异是导致学生融入困难和辍学率居高不下的现实阻碍，丰富教育体验属于脱离文意的美化，排除。",
                 "writing_perspective": "作者在控诉阶层固化在大学的再生产，C项用廉价多元化辞藻粉饰社会阶层断裂，荒谬绝伦。",
                 "theme_validation": "与全篇揭示阶层带来学业差距的主旨彻底冲突，排除。",
-                "verdict": "复盘判断：C项恶意美化负面阶层壁垒，偷换感情色彩，排除。"
+                "verdict": "复盘判断：阶层差异带来学业阻碍非丰富体验，排除。"
               }
             },
             {
               "key": "D",
               "text": "colleges are partly responsible for the problem in question",
-              "text_cn": "各大高等院校对于当前所讨论的学生学业困境负有不可推卸的部分责任",
+              "text_cn": "大学对所讨论的问题负有部分责任",
               "is_correct": true,
-              "trap_type": "★ 标准正确反向制度归因宏观推断",
+              "trap_type": "★ 标准正确深层归因推断",
               "analysis": {
-                "practice_status": "colleges don't talk about class + seldom acknowledge 造成学生挣扎，证明大学负有责任，锁定正选。",
-                "option_nature": "★ 标准正确反向制度归因宏观推断",
+                "practice_status": "末段指出大学避谈社会阶层且很少承认阶层差异，导致学生苦苦挣扎，表明高校负有部分责任，锁定正选。",
+                "option_nature": "★ 标准正确深层归因推断",
                 "source_sentence": "And this becomes more of a problem when colleges don’t talk about the class advantages and disadvantages of different groups of students. “Because US colleges and universities seldom acknowledge how social class can affect students’ educational experience, many first-generation students lack insight about why they are struggling and do not understand how students ‘like them’ can improve.”",
                 "source_translation": "而当大学对不同学生群体的阶层优劣势避而不谈时，问题更加严重。“因为美国大学极少承认社会阶层会影响学生的受教育经历，导致许多第一代学生不知道自己为什么在挣扎，也不明白‘像他们这样的学生’如何能提高。”",
-                "locator_comparison": "题干要求基于尾段做出深层推断。细细咀嚼最后一段两处极为严厉的批评归因：其一，“this becomes more of a problem when colleges don’t talk about the class advantages and disadvantages...”（当大学对阶层优劣势闭口不谈时，问题变得更加严重）；其二，“Because US colleges and universities seldom acknowledge how social class can affect students’ educational experience...”（正是因为美国大学极少承认阶层影响，才导致底层学子陷入不知为何挣扎的盲区）。两处“colleges don't talk”和“seldom acknowledge”，直接将第一代大学生深陷泥潭的制度病根锚定在高校自身的不作为与鸵鸟政策上。既然是大学的讳疾忌医加剧了学生的困境，必然顺理成章地推导得出选项D的严密结论：“colleges are partly responsible for the problem in question”（高等院校对所涉及的问题负有部分不可推卸的责任）。措辞“partly responsible”客观克制，与前文逻辑天衣无缝，宏观归纳力透纸背！",
+                "locator_comparison": "末段指出大学长期对阶层问题避而不谈，很少正视第一代学生的特殊困境，从而加剧了这一问题。反向推断可知高校对当前问题负有不可推卸的责任（partly responsible），锁定正选。",
                 "writing_perspective": "作者在篇末升华主旨：解决教育鸿沟不仅需要一小时微干预，更需要大学打破中产特权阶层的集体沉默，主动承担起消除阶层盲区的制度责任，D项直击全篇最高潮。",
                 "theme_validation": "对高校制度责任的反思是整篇论文能够开出有效药方的大前提，完全契合主旨。",
-                "verdict": "复盘判断：D项反向制度推导深刻严谨，措辞客观中肯，无可挑剔的标准正选。"
+                "verdict": "复盘判断：学校回避正视阶层差异说明负有责任，正确。"
               }
             }
           ],
@@ -4790,69 +4790,69 @@
             {
               "key": "A",
               "text": "less strategic",
-              "text_cn": "在战略规划层面的战略性与严密性显著降低",
+              "text_cn": "不够战略性",
               "is_correct": false,
-              "trap_type": "干扰项（曲解事实 / 混淆词汇扩充与战略弱化）",
+              "trap_type": "干扰项（曲解文意 / 混淆对比）",
               "analysis": {
-                "practice_status": "文中说过去有战略目标，现在增加了情感词汇，并非战略性降低，曲解对比，排除。",
-                "option_nature": "干扰项（曲解事实 / 混淆词汇扩充与战略弱化）",
+                "practice_status": "文中指出现在增加了情感词汇，并非过去的战略规划性降低，排除。",
+                "option_nature": "干扰项（曲解文意 / 混淆对比）",
                 "source_sentence": "There were goals, there were strategies, there were objectives, but we didn’t talk about energy; we didn’t talk about passion.",
                 "source_translation": "那时有目标，有战略，有指标，但我们不谈能量，不谈激情。",
-                "locator_comparison": "选项A宣称办公室语言变得“战略性更低（less strategic）”。比对第1段末句：科恩回顾1990年代时指出“There were goals, there were strategies, there were objectives...”（那时有目标、有战略、有指标）。作者在此只是说明20年前的职场语言是纯粹理性的指标术语堆砌；而如今是新增了“journey, mission, passion”等感性词汇。企业引入右脑感性词汇是为了给战略披上激情的外衣，绝不意味着企业放弃了战略谋划或其语言变得“战略性更低（less strategic）”。A选项将“语言维度的感性化扩充”曲解为“战略属性的退化降低”，属于典型的无中生有与过度推断。",
+                "locator_comparison": "原文指出过去的语言注重战略性，而如今增加了更多感性情绪词汇，并未表明现有语言缺乏战略性，曲解对比，排除。",
                 "writing_perspective": "作者在分析语言修辞风格的代际演进，而非评价企业战略管理水平的高下，A项偏离论述主题。",
                 "theme_validation": "与全篇关于企业更巧妙地用感性词汇包装企业目标的逻辑脱节，排除。",
-                "verdict": "复盘判断：A项过度引申曲解对比，排除。"
+                "verdict": "复盘判断：增加情感词非战略性降低，排除。"
               }
             },
             {
               "key": "B",
               "text": "less energetic",
-              "text_cn": "在员工干劲与能量调动上显得日渐精力不足",
+              "text_cn": "缺乏活力",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 否定原文字面事实）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "文中说现在大谈 energy 和 passion，B说 less energetic 彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 否定原文字面事实）",
+                "practice_status": "文中提到职场语言充斥着energy和passion，选项说缺乏活力与事实相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "but we didn’t talk about energy; we didn’t talk about passion.",
                 "source_translation": "但我们那时不谈能量，不谈激情（暗示如今大谈特谈能量与激情）。",
-                "locator_comparison": "选项B宣称办公室语言变得“精力不足/活力更低（less energetic）”。逻辑完全颠倒：原文通过对比1990年代（didn't talk about energy）与当下，明确强调当今的美企职场恰恰是在无休止地大谈特谈“energy（能量）”与“passion（激情）”，旨在把员工打造成不知疲倦的奋斗永动机。B选项公然加上否定修饰词“less”，将充满高能量感性包装的现代职场黑话反向篡改为“精力更少”，犯了黑白颠倒的低级硬伤错误。",
+                "locator_comparison": "原文明确指出今天的职场语言大量充斥着“energy”（精力）和“passion”（激情），选项声称缺乏活力与事实相反，排除。",
                 "writing_perspective": "如果办公室语言死气沉沉，管理者就不会用它来对抗员工的倦怠，B项彻底背离作者立意。",
                 "theme_validation": "与文章强调职场充斥“激情与能量”词汇的事实针锋相对，排除。",
-                "verdict": "复盘判断：B项正反彻底颠倒，坚决排除。"
+                "verdict": "复盘判断：充斥激情活力，选项说缺乏活力，相反排除。"
               }
             },
             {
               "key": "C",
               "text": "more objective",
-              "text_cn": "在日常事务沟通中变得更加理性客观与公允",
+              "text_cn": "更加客观",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 将感性右脑逆向颠倒为理性客观）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "原文说变得 much more emotional and right-brained，more objective 彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 将感性右脑逆向颠倒为理性客观）",
+                "practice_status": "职场语言变得更加感性右脑化，更加客观直接反向，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "the lingua franca of corporate America has gotten much more emotional and much more right-brained",
                 "source_translation": "美企职场通用语变得更加富有情绪色彩，更加偏向右脑思维",
-                "locator_comparison": "选项C宣称办公室语言变得“更加客观（more objective）”。回文检索，定位句明确指出语言特征是：“much more emotional and much more right-brained”（更加情绪化、更加偏向右脑感性思维）。右脑主管情绪、象征、情感体验，而左脑主管逻辑、理性与客观。选项C提出的“more objective（更加客观）”与定位句中的“emotional（情绪化）”和“right-brained（右脑化）”在认识论维度上属于完全水火不容的反义词。C项颠倒黑白，直接秒杀排除。",
+                "locator_comparison": "定位句明确指出职场语言变得“much more emotional and right-brained”（更加感性并倾向右脑思维），选项声称更加客观理性与原文事实完全颠倒，排除。",
                 "writing_perspective": "作者通篇在批判职场黑话如何用主观情感幻象取代冰冷客观现实，C项与全篇批判锋芒完全相左。",
                 "theme_validation": "与原文字面核心定语性质彻底对立，排除。",
-                "verdict": "复盘判断：C项性质颠倒黑白，排除。"
+                "verdict": "复盘判断：原文为more emotional，客观直接反向，排除。"
               }
             },
             {
               "key": "D",
               "text": "more emotional",
-              "text_cn": "在修辞风格与情感诉求上变得更加富有情绪色彩",
+              "text_cn": "更加富有情感色彩",
               "is_correct": true,
-              "trap_type": "★ 标准正确原词直接映射正选",
+              "trap_type": "★ 标准正确原词映射",
               "analysis": {
-                "practice_status": "much more emotional 原词直接命中，锁定正选。",
-                "option_nature": "★ 标准正确原词直接映射正选",
+                "practice_status": "原文much more emotional and right-brained直接对应，锁定正选。",
+                "option_nature": "★ 标准正确原词映射",
                 "source_sentence": "Even in traditional offices, “the lingua franca of corporate America has gotten much more emotional and much more right-brained than it was 20 years ago,” said Harvard Business School professor Nancy Koehn.",
                 "source_translation": "哈佛商学院教授南希·科恩指出，即便在传统办公室里，“美企职场的通用语言也比20年前更加富有情绪色彩，更加偏向右脑思维。”",
-                "locator_comparison": "题干针对科恩教授对当今办公室用语（office language）的演变定性提问。定位到第1段首句引语：“the lingua franca of corporate America [即 office language] has gotten much more emotional and much more right-brained than it was 20 years ago”（美企通用职场语言比20年前要情绪化得多、右脑思维得多）。选项D的“more emotional”（更加情绪化/富有情感色彩）直接以原词一字不差地精准映射了定位句核心表语，毫无争议的标准官方正选！",
+                "locator_comparison": "定位句指出：“it has become much more emotional and right-brained”（语言已经变得更加情绪化、更偏向右脑思维）。选项D'more emotional'原词对应，锁定正选。",
                 "writing_perspective": "作者借哈佛学者之口开门见山立论：现代资本主义通过将管理语言感性化来重构对员工的心灵控制，D项直击全文立论基石。",
                 "theme_validation": "“职场语言情感化”是通篇探讨用激情绑架员工加班的逻辑总纲，完美契合主旨。",
-                "verdict": "复盘判断：D项原词精准命中，毫无争议的标准答案。"
+                "verdict": "复盘判断：much more emotional原词命中，正确。"
               }
             }
           ],
@@ -4877,69 +4877,69 @@
             {
               "key": "A",
               "text": "sports culture",
-              "text_cn": "深受美国商业社会推崇的传统竞技体育文化",
+              "text_cn": "体育文化",
               "is_correct": true,
-              "trap_type": "★ 标准正确文化源头深层归纳",
+              "trap_type": "★ 标准正确同义概括",
               "analysis": {
-                "practice_status": "Let's not forget sports + coach and team，直接对应 sports culture，锁定正选。",
-                "option_nature": "★ 标准正确文化源头深层归纳",
+                "practice_status": "对应原文提及的体育背景以及将管理层比作教练和团队，锁定正选。",
+                "option_nature": "★ 标准正确同义概括",
                 "source_sentence": "Koehn pointed out that this new era of corporate vocabulary is very “team”-oriented— and not by coincidence. “Let’s not forget sports—in male-dominated corporate America, it’s still a big deal. It’s not explicitly conscious; it’s the idea that I’m a coach, and you’re my team...",
                 "source_translation": "科恩指出这一新时代企业词汇高度“团队”导向且绝非偶然。“别忘了体育运动——在美企商界它仍是一件大事。这种思想是：我是教练，你们是我的球队……”。",
-                "locator_comparison": "题干精准询问“团队导向（team-oriented）”的企业词汇与什么密切相关。定位第2段，科恩在破折号后用核心因果提示语揭晓答案：“and not by coincidence. Let’s not forget sports—in male-dominated corporate America, it’s still a big deal”（这绝非巧合，别忘了体育运动——在美企中它依然是一件大事）；紧接着展开体育文化的内核：“I'm a coach, and you're my team, and we're in this together... they want to win”（我是教练，你们是球队，我们休戚与共，渴望赢球）。这一整套教练、球队、拼搏获胜的思维范式，完完全全是从“体育文化（sports culture）”中成体系移植到商业管理中的。选项A的“sports culture”抓取精准，概念提炼极度优雅自然，标准正选！",
+                "locator_comparison": "原文以“Let’s not forget sports”（别忘了体育）开篇，阐述CEO把自己视为教练、把员工视为队员的现象。选项A'sports culture'（体育文化）概括准确，锁定正选。",
                 "writing_perspective": "作者借此揭示美企如何利用体育迷狂心理对员工进行情感动员与服从训练，A项准确锁定了该修辞策略的文化源泉。",
                 "theme_validation": "体育隐喻是全段用来解释为何人人把工作当打比赛的核心论据，完美契合主旨。",
-                "verdict": "复盘判断：A项因果对位精准，文化概念概括精炼，标准正选。"
+                "verdict": "复盘判断：体育比喻与教练队员对应sports culture，正确。"
               }
             },
             {
               "key": "B",
               "text": "gender difference",
-              "text_cn": "职场两性之间自古以来根深蒂固的性别差异",
+              "text_cn": "性别差异",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 混淆背景定语与核心关联对象）",
+              "trap_type": "干扰项（偷换概念 / 混淆背景与核心）",
               "analysis": {
-                "practice_status": "male-dominated 只是交代体育盛行的背景，非团队词汇的文化源头，移花接木，排除。",
-                "option_nature": "干扰项（偷换概念 / 混淆背景定语与核心关联对象）",
+                "practice_status": "男性主导只是交代体育词汇盛行的背景，并非团队词汇的核心来源，排除。",
+                "option_nature": "干扰项（偷换概念 / 混淆背景与核心）",
                 "source_sentence": "in male-dominated corporate America, it’s still a big deal.",
                 "source_translation": "在男性主导的美国商界，体育依然是一件大事。",
-                "locator_comparison": "选项B宣称与“性别差异（gender difference）”密切相关。回文检索，原句确实出现了“male-dominated corporate America（男性主导的美国商界）”。但在这个偏正短语中，男性主导仅仅是解释为什么“体育在商界备受推崇（it's still a big deal）”的辅助背景定语。团队导向词汇（如coach, team, win）的直接文化滋养源泉是“sports（体育运动）”本身，而不是抽象的生理或社会“性别差异（gender difference）”。B项移花接木，用背景性定语偷换核心关联实体，属于典型的断章取义设错。",
+                "locator_comparison": "男性主导（male-dominated）只是作为体育运动盛行的文化背景被提及，并非以团队为导向的企业词汇的直接来源，偷换概念，排除。",
                 "writing_perspective": "作者探讨的是文化隐喻在管理中的渗透，而非开展女权主义性别差异研究，B项偏离论证重心。",
                 "theme_validation": "与后文展开的球队教练隐喻脱节，排除。",
-                "verdict": "复盘判断：B项偷换修饰成分，移花接木设错，排除。"
+                "verdict": "复盘判断：背景词汇非文化直接来源，排除。"
               }
             },
             {
               "key": "C",
               "text": "historical incidents",
-              "text_cn": "美国工业发展史上曾爆发的一系列历史重大事件",
+              "text_cn": "历史事件",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 凭空捏造宏观历史概念）",
+              "trap_type": "干扰项（无中生有 / 凭空捏造）",
               "analysis": {
-                "practice_status": "文中完全没有提到任何具体的历史大事件，凭空捏造，排除。",
-                "option_nature": "干扰项（无中生有 / 凭空捏造宏观历史概念）",
+                "practice_status": "文中未提及任何具体的历史重大事件，无中生有，排除。",
+                "option_nature": "干扰项（无中生有 / 凭空捏造）",
                 "source_sentence": "It’s not explicitly conscious; it’s the idea that I’m a coach, and you’re my team",
                 "source_translation": "这并非明确意识到的；它的思想是我是教练，你们是我的球队",
-                "locator_comparison": "选项C声称与“历史事件（historical incidents）”密切相关。通读第2段，作者集中论述的是现代企业高管如何借用当代体育赛事的潜意识心理模型（coach, team, want to win）来组织员工。全段自始至终未曾列举过任何具体的“历史重大事件（historical incidents）”。C选项纯属凭空捏造的高大上虚假概念，完全脱离文本客观事实。",
+                "locator_comparison": "通篇并未探讨美国历史上的重大历史事件对词汇的影响，属于无中生有，排除。",
                 "writing_perspective": "作者在分析日常商业修辞心理学，而非撰写商业断代编年史，C项离题万里。",
                 "theme_validation": "无中生有，与体育文化主线脱节，排除。",
-                "verdict": "复盘判断：C项无中生有胡乱编造，排除。"
+                "verdict": "复盘判断：未提及历史事件，无中生有，排除。"
               }
             },
             {
               "key": "D",
               "text": "athletic executives",
-              "text_cn": "本身具备专业运动员背景的企业高管队伍",
+              "text_cn": "有运动员背景的高管",
               "is_correct": false,
-              "trap_type": "干扰项（曲解隐喻 / 将心理角色投射误解为生理真实身份）",
+              "trap_type": "干扰项（曲解比喻 / 混淆隐喻与实际身份）",
               "analysis": {
-                "practice_status": "文中是说多数CEO把自己想象成教练 think of themselves as coaches，非真正运动员，偷换概念，排除。",
-                "option_nature": "干扰项（曲解隐喻 / 将心理角色投射误解为生理真实身份）",
+                "practice_status": "高管把自己想象成教练，并非自身具备专业运动员背景，排除。",
+                "option_nature": "干扰项（曲解比喻 / 混淆隐喻与实际身份）",
                 "source_sentence": "There are lots and lots of CEOs in very different companies, but most think of themselves as coaches and this is their team",
                 "source_translation": "在形形色色的不同公司里有无数CEO，但绝大多数自视为教练，这是他们的球队",
-                "locator_comparison": "选项D宣称与“具备体育运动特长的高管（athletic executives）”相关。细读定位句的比喻修辞：“most think of themselves as coaches and this is their team”（绝大多数CEO将自己‘视作/想象成’教练，把公司当球队）。原文中的“coach”是CEO们在心理层面的“隐喻角色投射（metaphorical projection）”，这些CEO大多是西装革履的传统商人，绝非指他们本人真是在赛场上挥汗如雨的“专业运动员或体魄健硕的高管（athletic executives）”。D选项望文生义，将心理学上的角色隐喻生硬降格为生理上的职业运动员身份，犯了极具欺骗性的常识性曲解错误。",
+                "locator_comparison": "原文指出大多数CEO在心理上把自己想象成带队打比赛的教练（think of themselves as coaches），并非他们自身具备专业运动员从业背景，曲解比喻，排除。",
                 "writing_perspective": "作者在剖析企业修辞术的欺骗性与拟态性，D项按字面死扣把修辞当事实，极其死板可笑。",
                 "theme_validation": "曲解隐喻，违背企业管理语言心理学的立意，排除。",
-                "verdict": "复盘判断：D项望文生义曲解隐喻，排除。"
+                "verdict": "复盘判断：心理隐喻非真实运动员背景，排除。"
               }
             }
           ],
@@ -4964,69 +4964,69 @@
             {
               "key": "A",
               "text": "revive historical terms",
-              "text_cn": "在当代语境中全面复兴并传承传统历史术语",
+              "text_cn": "复兴历史词汇",
               "is_correct": false,
-              "trap_type": "干扰项（手段与目的颠倒 / 庸俗化曲解引词动机）",
+              "trap_type": "干扰项（偷换目的 / 混淆手段与动机）",
               "analysis": {
-                "practice_status": "借用宗教和非营利组织词汇是为了企业利益服务，非做学术复兴历史词汇，手段当目的，排除。",
-                "option_nature": "干扰项（手段与目的颠倒 / 庸俗化曲解引词动机）",
+                "practice_status": "借用宗教和非营利组织词汇是为了企业管理需要，并非出于复兴历史词汇的目的，排除。",
+                "option_nature": "干扰项（偷换目的 / 混淆手段与动机）",
                 "source_sentence": "You have the importation of terminology that historically used to be associated with non-profit organizations and religious organizations",
                 "source_translation": "企业引进了历史上曾与非营利组织和宗教组织相关的术语",
-                "locator_comparison": "选项A宣称引入术语是为了“复兴历史术语（revive historical terms）”。回文比对：原文提到这些词汇“historically used to be associated with...（在历史上曾与……相关）”，只是在追溯vision/passion等词汇的渊源来自古代宗教与慈善组织。资本家引入这些词汇纯粹是为了将其作为精神操纵工具，给员工洗脑以使其甘心效忠加班，绝非怀有崇高的学术情怀去“抢救并复兴历史古老词汇（revive）”。A项颠倒黑白，把资本追逐利润的精神洗脑包装成了文化复古传承，完全脱离商业现实。",
+                "locator_comparison": "企业从宗教和非营利组织中借用词汇是出于内部管理与情感动员的实用目的，并非做学术传承复兴历史词汇，排除。",
                 "writing_perspective": "作者在犀利解剖资本主义如何巧取豪夺宗教神圣光环为己所用，A项粉饰了资本的功利本性。",
                 "theme_validation": "与增强员工效忠的主题南辕北辙，排除。",
-                "verdict": "复盘判断：A项混淆词汇历史渊源与现实商业目的，排除。"
+                "verdict": "复盘判断：借用词汇为实用目的非复兴词汇，排除。"
               }
             },
             {
               "key": "B",
               "text": "promote company image",
-              "text_cn": "借此在公众媒体面前大力宣传塑造公司良好形象",
+              "text_cn": "提升公司形象",
               "is_correct": false,
-              "trap_type": "干扰项（偷换受众与目标 / 混淆内部企业文化与外部公关）",
+              "trap_type": "干扰项（偷换对象 / 混淆内外部受众）",
               "analysis": {
-                "practice_status": "办公室黑话是面向内部员工进行情感动员，非对外公关宣传形象，偷换受众，排除。",
-                "option_nature": "干扰项（偷换受众与目标 / 混淆内部企业文化与外部公关）",
+                "practice_status": "企业黑话主要用于对内激励员工，并非用于对外宣传公司形象，排除。",
+                "option_nature": "干扰项（偷换对象 / 混淆内外部受众）",
                 "source_sentence": "These terms are also intended to infuse work with meaning—and, as Rakesh Khurana... points out, increase allegiance to the firm.",
                 "source_translation": "这些词汇还旨在为工作注入意义——并且增加对公司的效忠度。",
-                "locator_comparison": "选项B声称是为了“宣传公司形象（promote company image）”。通读全段，库拉纳探讨的是“办公室内部日常语言（lingua franca of corporate America / office speak）”对“员工内心认同感”的重塑：通过赋予工作以神圣意义，来换取员工对公司的忠诚度（increase allegiance to the firm）。这是极具针对性的“对内员工文化控制”，而不是面向外部消费市场或社会公众进行的“品牌公关形象宣传（promote company image）”。B项偷换修辞受众与商业目标，属于典型的答非所问。",
+                "locator_comparison": "引用的职场套话主要面向企业内部员工发挥情感凝聚作用，并非对外开展公关活动以提升公司形象，排除。",
                 "writing_perspective": "作者在研究雇主与雇员之间的内部权力契约，而非企业的市场公关部工作汇报，B项偏离论辩轨道。",
                 "theme_validation": "偏离对内管理与忠诚度绑架的主线，排除。",
-                "verdict": "复盘判断：B项偷换受众，将对内员工规训篡改对外公关宣传，排除。"
+                "verdict": "复盘判断：对内情感动员非对外公关宣传，排除。"
               }
             },
             {
               "key": "C",
               "text": "foster corporate cooperation",
-              "text_cn": "积极促进并深化各大不同企业实体间的跨界合作",
+              "text_cn": "促进企业间合作",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 混淆公司内部管理与企业外部合作）",
+              "trap_type": "干扰项（张冠李戴 / 混淆内外合作）",
               "analysis": {
-                "practice_status": "语境是让员工对自己所属的一家公司忠诚，非企业与企业之间的合作，张冠李戴，排除。",
-                "option_nature": "干扰项（张冠李戴 / 混淆公司内部管理与企业外部合作）",
+                "practice_status": "语境在于提高员工对自身公司的忠诚度，并非促进不同企业之间的跨界合作，排除。",
+                "option_nature": "干扰项（张冠李戴 / 混淆内外合作）",
                 "source_sentence": "increase allegiance to the firm.",
                 "source_translation": "增加对公司的忠诚效忠度。",
-                "locator_comparison": "选项C提出是为了“促进企业合作（foster corporate cooperation）”。比对原文宾语：“increase allegiance to the firm（增加对该企业的效忠）”。句中的“the firm”是单数特指，指的是员工对自己所效力的那一家具体雇主公司的依附与忠诚。C选项望文生义地编造出“corporate cooperation（企业之间的外部合作）”，把员工对单一雇主的纵向忠诚依附，横向曲解为跨公司之间的商业战略同盟与协作。主客体关系完全张冠李戴。",
+                "locator_comparison": "语境核心在于增强员工对本企业的效忠，并非促进不同商业公司之间的跨界合作，张冠李戴，排除。",
                 "writing_perspective": "作者分析的是公司如何防止员工跳槽怠工、增强内部凝聚力，而非探讨反垄断或商业联盟，C项脱离实际。",
                 "theme_validation": "与增强内部员工忠诚的主旨背道而驰，排除。",
-                "verdict": "复盘判断：C项张冠李戴，将内部效忠曲解为外部企业合作，排除。"
+                "verdict": "复盘判断：对本企业效忠非企业间合作，排除。"
               }
             },
             {
               "key": "D",
               "text": "strengthen employee loyalty",
-              "text_cn": "极大地强化并深化普通员工对所在公司的效忠忠诚度",
+              "text_cn": "加强员工忠诚度",
               "is_correct": true,
-              "trap_type": "★ 标准正确同位因果直接同义替换",
+              "trap_type": "★ 标准正确同义替换",
               "analysis": {
-                "practice_status": "increase allegiance to the firm 完美同义替换为 strengthen employee loyalty，锁定正选。",
-                "option_nature": "★ 标准正确同位因果直接同义替换",
+                "practice_status": "对应原文increase allegiance to the firm，精准改写为strengthen employee loyalty，锁定正选。",
+                "option_nature": "★ 标准正确同义替换",
                 "source_sentence": "These terms are also intended to infuse work with meaning—and, as Rakesh Khurana, another professor, points out, increase allegiance to the firm.",
                 "source_translation": "这些术语还旨在给工作注入意义——而且，正如另一位教授拉凯什·库拉纳所指出的，增加对公司的效忠度。",
-                "locator_comparison": "题干精准询问库拉纳教授眼中引入宗教与非营利术语（importation of terminology）的核心目的。定位句明确写明：“These terms are also intended to infuse work with meaning—and, as Rakesh Khurana... points out, increase allegiance to the firm”（这些术语还旨在给工作注入意义——并且正如库拉纳教授所指出的，增加对公司的效忠）。在英语词汇学中，动词短语“strengthen employee loyalty（增强员工忠诚度）”是“increase allegiance to the firm”最经典地道的教科书式同义改写：“increase”完美对应“strengthen”，“allegiance（效忠、忠诚）”完美映射“loyalty”，“to the firm（对公司）”完美补充“employee（员工的）”。字字珠玑，毫无破绽的标准正选！",
+                "locator_comparison": "定位句指明借用词汇的终极目的在于：“increase allegiance to the firm”（增强员工对公司的忠诚度）。选项D'strengthen employee loyalty'完美对位，锁定正选。",
                 "writing_perspective": "库拉纳一针见血地戳穿资本家的隐秘算盘：用精神情怀代替真金白银加薪，用“愿景与价值观”捆绑员工忠诚，D项直击这一思想控制本质。",
                 "theme_validation": "员工忠诚度与后文甘愿加班奉献的论述环环相扣，与主旨高度嵌合。",
-                "verdict": "复盘判断：D项同义替换入木三分，直接锁定转折题眼，标准正选。"
+                "verdict": "复盘判断：increase allegiance对应strengthen loyalty，正确。"
               }
             }
           ],
@@ -5051,69 +5051,69 @@
             {
               "key": "A",
               "text": "voices for working women",
-              "text_cn": "旨在为在职场中苦苦打拼的广大职业女性群体发声呼吁",
+              "text_cn": "为职场女性发声",
               "is_correct": true,
-              "trap_type": "★ 标准正确书籍创作背景与主旨深层推断",
+              "trap_type": "★ 标准正确主旨背景推断",
               "analysis": {
-                "practice_status": "针对 mommy wars 和 women can't have it all 争论而写的书，正是为职场女性发声，锁定正选。",
-                "option_nature": "★ 标准正确书籍创作背景与主旨深层推断",
+                "practice_status": "针对“职场妈妈争论”和女性无法兼顾一切的社会争议而创作，旨在为职场女性发声，锁定正选。",
+                "option_nature": "★ 标准正确主旨背景推断",
                 "source_sentence": "The “mommy wars” of the 1990s are still going on today, prompting arguments about why women still can’t have it all and books like Sheryl Sandberg’s Lean In, whose title has become a buzzword in its own right.",
                 "source_translation": "1990年代的“妈妈之战”如今仍在继续，引发了关于女性为何依然无法兼顾一切的争论，并催生了像桑德伯格的《向前一步》这样的书。",
-                "locator_comparison": "题干围绕第4段提及的知名商业著作《向前一步》（Lean In）展开推断。理清定位句的因果逻辑链条：“The 'mommy wars'（妈妈之战，即全职母亲与职场女性之间的观念冲突）引发了激烈的社会争论——关于女性为何在职场晋升与家庭平衡中始终无法兼顾一切（why women still can't have it all）；正是在这种社会争论的激烈催化下，诞生了像桑德伯格的《向前一步》这样的代表著作”。桑德伯格写此书正是为了介入女性在职场面临的天花板困境，呼吁女性勇敢坐在决策桌前、为职业女性争取平权与发展空间。选项A中的“voices for working women”（为职业女性发声呼吁）以极其精辟传神的社会学概括，深刻揭示了该书在全段女性职场困境论辩中的立论初衷。推导完全忠实于文本语境，标准正选！",
+                "locator_comparison": "文章指出《向前一步》是针对职场妈妈争议以及女性无法兼顾事业家庭的现实困境而撰写的著作，其核心目的在于为职场女性群体发声呼吁。选项A推断准确，锁定正选。",
                 "writing_perspective": "作者引入《向前一步》旨在展现现代职场围绕“工作与生活平衡”的宏大交锋，A项准确切中了女性主义职场赋能的核心议题。",
                 "theme_validation": "与全段探讨职业女性如何在加班与家庭之间挣扎拉扯的语境完全互文呼应，正选无疑。",
-                "verdict": "复盘判断：A项深谙引证背景，同义概括深刻准确，标准正选。"
+                "verdict": "复盘判断：针对职场妈妈困境即为职场女性发声，正确。"
               }
             },
             {
               "key": "B",
               "text": "appeals to passionate workaholics",
-              "text_cn": "狂热吸引并号召那些充满激情的重度工作狂群体",
+              "text_cn": "吸引充满激情的工作狂",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 混淆书籍主旨与后文企业黑话洗脑）",
+              "trap_type": "干扰项（张冠李戴 / 混淆不同对象）",
               "analysis": {
-                "practice_status": "后文说如果用 passion 会诱导人当工作狂，但这与 Lean In 本身主旨无关，移花接木，排除。",
-                "option_nature": "干扰项（张冠李戴 / 混淆书籍主旨与后文企业黑话洗脑）",
+                "practice_status": "充满激情被企业利用是后文分析的职场隐患，并非《向前一步》这本书的主旨，排除。",
+                "option_nature": "干扰项（张冠李戴 / 混淆不同对象）",
                 "source_sentence": "But if your work is your “passion,” you’ll be more likely to devote yourself to it, even if that means going home for dinner and then working long after the kids are in bed.",
                 "source_translation": "但如果你的工作是你的“激情”，你就更有可能全心投入，即便这意味着回家吃完饭后还要在孩子睡下后长时间工作。",
-                "locator_comparison": "选项B宣称《向前一步》“吸引充满激情的工作狂（appeals to passionate workaholics）”。回文检索：第4段末句确实提到了“passion”以及下班回家等孩子睡了还要继续熬夜工作的“隐形工作狂”现象。但请紧盯段落逻辑转折词“But（但是）”！作者明确指出：用“passion”等神圣词汇诱骗员工变成夜半加班的工作狂，是企业管理黑话对员工的“精神PUA套路”；而《向前一步》是前文探讨女性无法兼顾一切、设立职场家庭界限时引用的书。B选项张冠李戴，将后文作者严厉批判的企业管理黑话洗脑后果，恶意嫁接给前文的平权著作《向前一步》，颠倒了作者引证的褒贬立场。",
+                "locator_comparison": "后文提到激情一词常被企业用来绑架员工成为工作狂，但这与《向前一步》的书籍宗旨无关，移花接木，排除。",
                 "writing_perspective": "作者是在揭露企业黑话如何消解女性维权努力，B项把维权抗争书曲解为工作狂洗脑教材，完全南辕北辙。",
                 "theme_validation": "混淆转折前后的立论方向，排除。",
-                "verdict": "复盘判断：B项移花接木后文批判事实，张冠李戴排除。"
+                "verdict": "复盘判断：企业黑话弊端非书籍创作宗旨，排除。"
               }
             },
             {
               "key": "C",
               "text": "triggers debates among mommies",
-              "text_cn": "在全职妈妈群体中首次挑起了关于育儿观念的激烈争论",
+              "text_cn": "引发妈妈群体间的争论",
               "is_correct": false,
-              "trap_type": "干扰项（因果倒置 / 混淆诱发背景与书籍产物）",
+              "trap_type": "干扰项（因果倒置 / 混淆背景与产物）",
               "analysis": {
-                "practice_status": "争论是 1990s 的 mommy wars 早就有了，prompting arguments 催生了书，因果倒置，排除。",
-                "option_nature": "干扰项（因果倒置 / 混淆诱发背景与书籍产物）",
+                "practice_status": "妈妈群体间的争论是促成该书出版的社会背景，而非该书出版后引发的产物，排除。",
+                "option_nature": "干扰项（因果倒置 / 混淆背景与产物）",
                 "source_sentence": "The “mommy wars” of the 1990s are still going on today, prompting arguments... and books like Sheryl Sandberg’s Lean In",
                 "source_translation": "始于1990年代的“妈妈之战”在今天仍在继续，引发了争辩……以及诸如桑德伯格的《向前一步》等书籍。",
-                "locator_comparison": "选项C宣称该书“在妈妈群体中挑起了争端（triggers debates among mommies）”。因果逻辑完全颠倒：原文明确写道是“The 'mommy wars' of the 1990s... prompting arguments... and books like Lean In”（始于1990年代的妈妈之战引发了争辩，并催生了诸如《向前一步》等书籍）。是长久存在的社会争论“催生了（prompting）”这本书，而不是这本书反过来去“挑起/引发了（triggers）”争论！C选项倒因为果，将诱发书籍诞生的历史背景篡改为书籍带来的后果，犯了典型的因果颠倒错误。",
+                "locator_comparison": "1990年代早已爆发的“职场妈妈大争辩”是催生该书出版的社会背景，并非该书出版后首次挑起的争端，因果倒置，排除。",
                 "writing_perspective": "作者交代《向前一步》是历史论辩的结晶与产物，C项颠倒历史时序与动因关系。",
                 "theme_validation": "因果逻辑颠倒，违背原文明确语法结构，排除。",
-                "verdict": "复盘判断：C项因果倒置，时序混乱，坚决排除。"
+                "verdict": "复盘判断：既有争论是背景非书籍引发的后果，排除。"
               }
             },
             {
               "key": "D",
               "text": "praises motivated employees",
-              "text_cn": "在企业内部公开表彰那些积极进取的模范员工",
+              "text_cn": "表彰有积极性的员工",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 拼凑首句企业词汇的功用）",
+              "trap_type": "干扰项（张冠李戴 / 偏离书籍内容）",
               "analysis": {
-                "practice_status": "文中提 keep employees motivated 是企业用语的功效，非书的内容，答非所问，排除。",
-                "option_nature": "干扰项（张冠李戴 / 拼凑首句企业词汇的功用）",
+                "practice_status": "调动员工积极性是企业用语的功效，并非该书的核心内容，答非所问，排除。",
+                "option_nature": "干扰项（张冠李戴 / 偏离书籍内容）",
                 "source_sentence": "This new focus on personal fulfillment can help keep employees motivated amid increasingly loud debates... (Paragraph 4)",
                 "source_translation": "这种对个人实现的新关注有助于在日益激烈的争论中保持员工的积极性……（第4段）",
-                "locator_comparison": "选项D宣称该书“表彰积极进取的员工（praises motivated employees）”。回文定位第4段首句：“This new focus on personal fulfillment can help keep employees motivated...”（对个人价值实现的新关注有助于保持员工的积极性）。这是作者在解释企业管理者为什么热衷于使用激情等黑话——为了给员工打鸡血维持动力（keep motivated）。这纯粹是企业管理层使用的驭人工具，根本不是桑德伯格在《向前一步》这本书里所探讨的内容。D项跨越句子把管理者的意图胡乱拼凑给书籍，答非所问。",
+                "locator_comparison": "调动员工积极性（keep employees motivated）是首段分析企业管理词汇作用时的论点，并非该书探讨的内容，答非所问，排除。",
                 "writing_perspective": "作者在对比企业黑话与平权运动的张力，D项生搬硬套原词，偏离题干设问对象。",
                 "theme_validation": "张冠李戴段首概念，排除。",
-                "verdict": "复盘判断：D项拼凑段首词汇，答非所问，排除。"
+                "verdict": "复盘判断：企业用语功能非书籍内容，排除。"
               }
             }
           ],
@@ -5138,69 +5138,69 @@
             {
               "key": "A",
               "text": "Linguists believe it to be nonsense.",
-              "text_cn": "语言学家们一致将这种职场套话判定为毫无价值的无稽之谈",
+              "text_cn": "语言学家认为这是废话",
               "is_correct": false,
-              "trap_type": "干扰项（偷换主语 / 移花接木引语中的心理描写对象）",
+              "trap_type": "干扰项（偷换主语 / 移花接木）",
               "analysis": {
-                "practice_status": "think it's nonsense 是语言学家描述普通人的双重心理，非语言学家自己的结论，偷换主语，排除。",
-                "option_nature": "干扰项（偷换主语 / 移花接木引语中的心理描写对象）",
+                "practice_status": "觉得办公室用语是废话是普通员工的直觉心理，并非语言学家的学术观点，排除。",
+                "option_nature": "干扰项（偷换主语 / 移花接木）",
                 "source_sentence": "As a linguist once said, “You can get people to think it’s nonsense at the same time that you buy into it.”",
                 "source_translation": "正如一位语言学家曾说：“你可以让人们一边觉得这是无稽之谈，一边却又买单信以为真。”",
-                "locator_comparison": "选项A宣称“语言学家认为这是无稽之谈（Linguists believe it to be nonsense）”。请细读定位句中语言学家的原话：“As a linguist once said, 'You can get people to think it’s nonsense at the same time that you buy into it'”（正如语言学家所说：你可以让人们一边觉得它是无稽之谈，一边却又接受买单）。语言学家是在客观精妙地揭示“大众（people）”面对这种语言时的自相矛盾双重心理——口头上觉得荒唐可笑（think it's nonsense），行动上却言听计从。语言学家本人是在做精辟的社会语言学剖析，绝非语言学家自己主观认定其是毫无价值的胡话。A项偷换主谓宾，把语言学家所引述的大众主观感受强加为语言学家本人的学术定论，犯了典型的引语主语偷换错误。",
+                "locator_comparison": "原文中“think it’s nonsense”是语言学家用来描述普通员工对套话的直觉感受，并非语言学家自身的学术论断，偷换主语，排除。",
                 "writing_perspective": "学者把办公室黑话视为威力巨大的社会意识形态工具，绝非简单贬斥为胡言乱语，A项矮化了语言学家的洞见。",
                 "theme_validation": "与文末阐述其能定义人生的深层社会功能相悖，排除。",
-                "verdict": "复盘判断：A项偷换引语陈述主语，排除。"
+                "verdict": "复盘判断：普通人感受被偷换为语言学家观点，排除。"
               }
             },
             {
               "key": "B",
               "text": "Regular people mock it but accept it.",
-              "text_cn": "普通打工大众虽然口头上嘲弄它，但在实际中却全盘接纳了它",
+              "text_cn": "普通人嘲笑它却又接受它",
               "is_correct": true,
-              "trap_type": "★ 标准正确转折并列同义替换",
+              "trap_type": "★ 标准正确转折同义转述",
               "analysis": {
-                "practice_status": "makes fun of it + willingly absorb it / buy into it，精准对应 mock it but accept it，锁定正选。",
-                "option_nature": "★ 标准正确转折并列同义替换",
+                "practice_status": "对应原文makes fun of it同时willingly absorb it，准确体现嘲讽又接受的双重态度，锁定正选。",
+                "option_nature": "★ 标准正确转折同义转述",
                 "source_sentence": "Everyone makes fun of it, but managers love it, companies depend on it, and regular people willingly absorb it. As a linguist once said, “You can get people to think it’s nonsense at the same time that you buy into it.”",
                 "source_translation": "每个人都在嘲弄取笑它，但管理者热爱它，公司依赖它，普通人自愿吸收接纳它。正如语言学家所说：“你可以让人们一边觉得它是无稽之谈，一边却又买单接受。”",
-                "locator_comparison": "题干要求判定关于办公室黑话（office speak）的正确断言。定位到文章全篇最核心的讽刺收官段（第5段首句）：“Everyone makes fun of it, but... regular people willingly absorb it”（每个人都在嘲笑取笑它，但是普通人自愿、全盘地吸收接纳了它）；紧接着引述名言作为双重印证：“think it’s nonsense at the same time that you buy into it”（一边觉得是无稽之谈，一边却全盘买单接受）。选项B中的“mock it（嘲讽嘲弄它）”完美对应了“makes fun of it / think it’s nonsense”；转折连词“but”完美呼应原文的“at the same time / but”；而“accept it（接纳接受它）”精准同义改写了“willingly absorb it / buy into it”。两个小分句对位严丝合缝，极其深刻地揭露了现代普通打工人在资本管理话语面前“嘴上戏谑讽刺、身体却诚实跪服”的双重矛盾心境。绝对的标准正选！",
+                "locator_comparison": "定位句生动描绘普通大众的双重矛盾心理：“People make fun of it, but they willingly absorb it”（人们一方面嘲笑这些黑话，另一方面却又心甘情愿地吸收接纳它）。选项B概括精准，锁定正选。",
                 "writing_perspective": "作者在全篇结尾完成最锋利的批判升华：普通人明知是套路却无法抗拒被其定义，B项精准凝结了这一全书灵魂论点。",
                 "theme_validation": "“嘲讽但又被其驯服接纳”是全文揭示的办公室语言终极悖论，正选无疑。",
-                "verdict": "复盘判断：B项同义转述入木三分，双重矛盾心理对位极其精准，标准正选。"
+                "verdict": "复盘判断：make fun of对应mock，absorb对应accept，正确。"
               }
             },
             {
               "key": "C",
               "text": "Companies find it to be fundamental.",
-              "text_cn": "各大企业组织在生产实践中发现这种语言是绝对不可动摇的根基",
+              "text_cn": "公司发现这是根本性的",
               "is_correct": false,
-              "trap_type": "干扰项（偷换修饰词 / 截取原词移花接木）",
+              "trap_type": "干扰项（偷换修饰对象）",
               "analysis": {
-                "practice_status": "文中 fundamental 是修饰职场冷酷本质 fundamentally indifferent，偷换修饰对象，排除。",
-                "option_nature": "干扰项（偷换修饰词 / 截取原词移花接木）",
+                "practice_status": "文中fundamental修饰的是企业对员工的冷酷本质，并非指办公室语言本身是根基，排除。",
+                "option_nature": "干扰项（偷换修饰对象）",
                 "source_sentence": "In a workplace that’s fundamentally indifferent to your life and its meaning...",
                 "source_translation": "在一个从根本上对你的生活及其意义漠不关心的职场中……",
-                "locator_comparison": "选项C宣称企业发现它是“根本性的（fundamental）”。回文检索，原句确实出现了“fundamental”的副词形式，但原句的真实主干是：“In a workplace that’s fundamentally indifferent to your life and its meaning”（在一个从根本上fundamentally对你的生命及其意义漠不关心、冷酷无情的职场中……）。原文是说职场的剥削本质从根本上（fundamentally）对你的个人生活冷漠至极；而C选项断章取义抓取原词，把修饰“冷酷漠然”的副词，恶意篡改为形容词去修饰“办公室黑话是公司的根本（Companies find it to be fundamental）”。生搬硬套原词，彻底颠倒了批判语境。",
+                "locator_comparison": "原文中“fundamental”修饰的是企业组织在本质上的冷漠无情（fundamentally indifferent），并非指办公室语言是企业运作的根基，偷换概念，排除。",
                 "writing_perspective": "作者痛斥职场的冷酷本质，黑话只是遮羞布，C项把遮羞布当成了企业根基，大错特错。",
                 "theme_validation": "移花接木原词，严重歪曲文本批判性语境，排除。",
-                "verdict": "复盘判断：C项截取原词偷换修饰对象，排除。"
+                "verdict": "复盘判断：修饰企业本质非修饰语言本身，排除。"
               }
             },
             {
               "key": "D",
               "text": "Managers admire it but avoid it.",
-              "text_cn": "企业各级管理人员虽然内心极度钦佩它但在实践中却刻意回避它",
+              "text_cn": "管理人员欣赏它却回避它",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 事实正反彻底颠倒）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "文中明确说 managers love it，而且自视为教练天天用，avoid 彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 事实正反彻底颠倒）",
+                "practice_status": "文中明确指出经理们极其喜欢并频繁使用它，选项说回避与事实相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "Everyone makes fun of it, but managers love it, companies depend on it",
                 "source_translation": "每个人都在嘲讽它，但管理者热爱它，公司依赖它",
-                "locator_comparison": "选项D宣称管理者“回避它（avoid it）”。事实完全相反！原文定位句明确宣告：“managers love it, companies depend on it”（管理者深爱它，公司对它极度依赖！）。第2段更指出CEO们天天把自己当成教练到处向员工兜售“team”概念，第4段指出管理者用“passion”哄骗员工熬夜加班。管理者不仅绝不回避，反而是这些套话黑话的最狂热拥趸和头号推手。D选项公然谎称管理者“avoid it（回避避免它）”，与原文事实针锋相对，属于不折不扣的反向颠倒干扰项。",
+                "locator_comparison": "原文明确指出管理者非常喜爱这些词汇（managers love it），并在日常工作中频繁使用，选项声称刻意回避它与事实完全相反，排除。",
                 "writing_perspective": "黑话本就是管理层的驭人神器，管理者怎么可能回避？D项严重违背商业逻辑与文本事实。",
                 "theme_validation": "与文章强调管理者深爱黑话的事实彻底背离，排除。",
-                "verdict": "复盘判断：D项反向篡改事实，坚决排除。"
+                "verdict": "复盘判断：管理者热爱使用，选项说回避，相反排除。"
               }
             }
           ],
@@ -6605,69 +6605,69 @@
             {
               "key": "A",
               "text": "The prospect of a thriving job market.",
-              "text_cn": "全美劳动力就业市场一片欣欣向荣的蓬勃发展前景",
+              "text_cn": "繁荣的就业市场前景",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 误把前段公认的好消息当被忽视细节）",
+              "trap_type": "干扰项（张冠李戴 / 公开好消息非被忽视细节）",
               "analysis": {
-                "practice_status": "蓬勃前景是第1段大家都在谈论的好消息，非被忽视的部分，答非所问，排除。",
-                "option_nature": "干扰项（张冠李戴 / 误把前段公认的好消息当被忽视细节）",
+                "practice_status": "就业前景向好是第1段公开谈论的好消息，并非被忽视的部分，排除。",
+                "option_nature": "干扰项（张冠李戴 / 公开好消息非被忽视细节）",
                 "source_sentence": "Many people talked of the 288,000 new jobs... along with the drop in the unemployment rate to 6.1 percent, as good news. (Paragraph 1)",
                 "source_translation": "许多人把新增28.8万岗位和失业率降至6.1%视为好消息。（第1段）",
-                "locator_comparison": "选项A提出被忽视的是“繁荣就业市场的前景（prospect of a thriving job market）”。回文定位：第1段开篇即指出，新增28.8万工作岗位、失业率降至6.1%这一欣欣向荣的前景，是“Many people talked of... as good news（许多人奔走相告谈论的大好消息）”。大众和主流媒体早已对就业复苏的前景进行了铺天盖地的报道与赞美，这属于全社会“人尽皆知”的宏观焦点，根本不是题干所问的被严重忽视（neglected/overlooked）的死角。A项答非所问，混淆了人人谈论的热点与被忽视的角落。",
+                "locator_comparison": "就业市场的繁荣向好是第1段全社会都在谈论的公开好消息，并非题干所问被忽视的细节，答非所问，排除。",
                 "writing_perspective": "作者正是为了打破主流舆论对单一繁荣数据的盲从，引出隐秘角落，A项完全搞反了作者的论证焦点。",
                 "theme_validation": "与段落核心转折词“However”引出的全新盲区脱节，排除。",
-                "verdict": "复盘判断：A项误把众所周知的好消息当被忽视盲区，排除。"
+                "verdict": "复盘判断：已知好消息非被忽视细节，排除。"
               }
             },
             {
               "key": "B",
               "text": "The increase of voluntary part-time jobs.",
-              "text_cn": "主动报告选择从事自愿兼职工作的劳动者人数急剧增加",
+              "text_cn": "自愿兼职工作的增加",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义词转换细节正选",
+              "trap_type": "★ 标准正确细节同义替换",
               "analysis": {
-                "practice_status": "big jump in voluntarily working part-time 完美同义替换为 increase of voluntary part-time jobs，锁定正选。",
-                "option_nature": "★ 标准正确同义词转换细节正选",
+                "practice_status": "对应原文big jump in voluntarily working part-time，同义改写，锁定正选。",
+                "option_nature": "★ 标准正确细节同义替换",
                 "source_sentence": "However, there is another important part of the jobs picture that was largely overlooked. There was a big jump in the number of people who report voluntarily working part-time.",
                 "source_translation": "然而，就业图景中另一个很大程度上被忽视的重要部分是：报告自愿兼职的人数出现了大幅激增。",
-                "locator_comparison": "题干精准询问就业图景中哪一部分被忽视了（Which part of the jobs picture was neglected?）。定位到第2段前两句，两词对位犹如严丝合缝：“largely overlooked”直接等价于题干的“neglected（被忽视的）”；而指示代词指引的核心被忽视内容赫然在目：“There was a big jump in the number of people who report voluntarily working part-time”（报告自愿从事兼职的人数出现了一次大幅激增/跳跃）。在英语词汇学中，“a big jump”完美同义替换为选项B中的“The increase”；而副词短语“voluntarily working part-time”精准转化为名词短语“voluntary part-time jobs”。从词义到语法结构天衣无缝，绝对的标准官方正选！",
+                "locator_comparison": "定位句明确指出被媒体和公众忽视的就业关键盲区：“a big jump in people who, when asked, say they want to work part-time”（自愿选择兼职人数的大幅激增）。选项B同义转述准确，锁定正选。",
                 "writing_perspective": "作者以敏锐的经济学洞察力捕捉到自愿兼职人数暴增83万的反常信号，以此作为解构全美就业质量的突破口，B项直击全篇文眼。",
                 "theme_validation": "“自愿兼职激增”是连接后文论述奥巴马医改制度效应的唯一核心支点，正选无疑。",
-                "verdict": "复盘判断：B项同义替换分毫不差，精准击中定位句题眼，标准正选。"
+                "verdict": "复盘判断：jump in voluntarily working part-time对应increase of voluntary part-time jobs，正确。"
               }
             },
             {
               "key": "C",
               "text": "The possibility of full employment.",
-              "text_cn": "国民经济在可预见的未来重返充分就业的潜在可能性",
+              "text_cn": "充分就业的可能性",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 移花接木前段未决议题）",
+              "trap_type": "干扰项（张冠李戴 / 移花接木）",
               "analysis": {
-                "practice_status": "充分就业在第1段明确说 we still have a long way to go，且非被忽视的盲区，排除。",
-                "option_nature": "干扰项（张冠李戴 / 移花接木前段未决议题）",
+                "practice_status": "充分就业在前文已明确表示仍有很长的路要走，并非被忽视的盲区，排除。",
+                "option_nature": "干扰项（张冠李戴 / 移花接木）",
                 "source_sentence": "We still have a long way to go to get back to full employment... (Paragraph 1)",
                 "source_translation": "我们在重返充分就业的道路上还有很长的路要走……（第1段）",
-                "locator_comparison": "选项C声称被忽视的是“充分就业的可能性（possibility of full employment）”。回文检索，“full employment”出现在第1段最后一句：“We still have a long way to go to get back to full employment”（要想恢复充分就业，我们还有很长的路要走）。这是作者对经济宏观复苏进程所持的审慎评价，绝非第2段转折后由“However... largely overlooked”所引出的那个具体的被遗忘数据盲区。C项跨段拼凑前段词汇，答非所问。",
+                "locator_comparison": "充分就业在第1段已明确指出离此目标还有很长的路要走（still have a long way to go），属于已知讨论，并非被忽视的盲区，排除。",
                 "writing_perspective": "作者在分析具体的劳动力兼职结构变化，而非空谈宏观经济学充分就业理论，C项偏离论证主线。",
                 "theme_validation": "跨段拼凑原词，与被忽视的具体自愿兼职数据脱节，排除。",
-                "verdict": "复盘判断：C项跨段抓取非核心论点，答非所问，排除。"
+                "verdict": "复盘判断：充分就业为已知议题非被忽视盲区，排除。"
               }
             },
             {
               "key": "D",
               "text": "The acceleration of job creation.",
-              "text_cn": "全社会各行业在创造新增就业岗位步伐上的全面提速",
+              "text_cn": "创造就业岗位的加速",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 误把前段公开事实当被忽视死角）",
+              "trap_type": "干扰项（张冠李戴 / 混淆已知事实）",
               "analysis": {
-                "practice_status": "创造就业加快是第1段末句 moving forward at a faster pace，大家都在谈论，排除。",
-                "option_nature": "干扰项（张冠李戴 / 误把前段公开事实当被忽视死角）",
+                "practice_status": "创造就业加速是第1段已阐明的事实，并非被大家遗忘的细节，排除。",
+                "option_nature": "干扰项（张冠李戴 / 混淆已知事实）",
                 "source_sentence": "moving forward at a faster pace. (Paragraph 1)",
                 "source_translation": "正在以更快的步伐向前推进。（第1段）",
-                "locator_comparison": "选项D宣称被忽视的是“加速创造就业（acceleration of job creation）”。比对第1段与第2段：第1段首尾一直在强调就业增加提速（288,000 new jobs... creating jobs at a decent pace... moving forward at a faster pace），这同样是人人皆知的正面官方统计数据，属于第一段的主流共识。第2段由强转折词“However”开启，明确将矛头转向主流舆论盲区。D选项混淆段落层级，把第1段大谈特谈的公开利好，颠倒为第2段被忽视的盲区，犯了典型的层级混淆设错。",
+                "locator_comparison": "新增岗位步伐加快是第1段末句明确交代的大众熟知的好消息，并非被忽视的角落，张冠李戴，排除。",
                 "writing_perspective": "主流舆论只盯着新增岗位提速，作者却独具慧眼指出兼职结构的异动，D项落入作者意图反思的俗套。",
                 "theme_validation": "与第2段揭示的被忽视盲区直接矛盾，排除。",
-                "verdict": "复盘判断：D项混淆段落论据层级，排除。"
+                "verdict": "复盘判断：创造岗位加快是熟知事实，排除。"
               }
             }
           ],
@@ -6692,69 +6692,69 @@
             {
               "key": "A",
               "text": "prefer part-time jobs to full-time jobs",
-              "text_cn": "在个人偏好上相比全职工作而言更加青睐兼职工作",
+              "text_cn": "比起全职更喜欢兼职",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 事实正反彻底颠倒）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "文中明确说 actually want full-time jobs，喜欢兼职彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 事实正反彻底颠倒）",
+                "practice_status": "文中明确指出许多人实际上想要全职工作，选项相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "Many people who work part-time jobs actually want full-time jobs.",
                 "source_translation": "许多从事兼职工作的人实际上渴望全职工作。",
-                "locator_comparison": "选项A宣称兼职者“比起全职更喜欢兼职（prefer part-time to full-time）”。原文定位句第一句就斩钉截铁地宣告：“Many people who work part-time jobs actually want full-time jobs”（许多从事兼职的人实际上骨子里想要的是全职工作！）。他们做兼职纯属被迫无奈（involuntary），因为找不到全职工作才不得不妥协干兼职。A选项公然颠倒是非，将迫于生计的无奈妥协美化为自主偏好兼职（prefer），与原文字面事实彻底唱反调，属于最赤裸裸的反向干扰项。",
+                "locator_comparison": "原文明确指出非自愿兼职者实际上迫切希望获得全职工作（actually want full-time jobs）。选项声称更偏爱兼职工作与事实相反，排除。",
                 "writing_perspective": "作者特别区分“被动非自愿兼职”的悲惨境遇，A项抹杀了劳动者的生存苦难，完全违背作者意图。",
                 "theme_validation": "与下文阐述这些人难以维持生计的事实严重对立，排除。",
-                "verdict": "复盘判断：A项与原文字面事实针锋相对，排除。"
+                "verdict": "复盘判断：实际想要全职，偏爱兼职与事实相反，排除。"
               }
             },
             {
               "key": "B",
               "text": "feel that is enough to make ends meet",
-              "text_cn": "内心感到兼职微薄收入已足够维持个人收支平衡",
+              "text_cn": "觉得足以维持生计",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 否定原文明确的生计艰难事实）",
+              "trap_type": "干扰项（反向干扰 / 否定字面事实）",
               "analysis": {
-                "practice_status": "文中明确说 having a very hard time making ends meet，觉得足够维持生计彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 否定原文明确的生计艰难事实）",
+                "practice_status": "文中明确指出兼职人员难以维持收支平衡，选项完全相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 否定字面事实）",
                 "source_sentence": "it means that many people will be having a very hard time making ends meet.",
                 "source_translation": "这意味着许多人将在维持收支平衡上面临极其艰难的处境。",
-                "locator_comparison": "选项B宣称兼职者“觉得这足以维持收支平衡（enough to make ends meet）”。定位句末尾清晰写道：“it means that many people will be having a very hard time making ends meet”（这意味着许多人将极难维持基本的收支平衡！）。短语“have a hard time making ends meet（很难糊口维持平衡）”明确表达了兼职收入微薄入不敷出的残酷现实。B选项竟然公然删去“hard time”，反向断言他们觉得“足以维持收支平衡（enough）”，犯了考研阅读典型的抹杀否定硬伤设错。",
+                "locator_comparison": "第3段明确指出兼职人员面临入不敷出的生活困境（having a very hard time making ends meet）。选项B宣称觉得足够维持生计，彻底相反，排除。",
                 "writing_perspective": "非自愿兼职是劳动力市场疲软的痛点，B项粉饰太平，违背经济学常识与文本事实。",
                 "theme_validation": "与非自愿兼职体现劳动力市场脆弱的论点直接相悖，排除。",
-                "verdict": "复盘判断：B项反向篡改原文字面事实，坚决排除。"
+                "verdict": "复盘判断：难以维持生计与觉得足够相反，排除。"
               }
             },
             {
               "key": "C",
               "text": "cannot get their hands on full-time jobs",
-              "text_cn": "在当前就业市场中根本无法谋求并找到全职工作",
+              "text_cn": "无法找到全职工作",
               "is_correct": true,
-              "trap_type": "★ 标准正确地道成语级同义替换",
+              "trap_type": "★ 标准正确地道同义改写",
               "analysis": {
-                "practice_status": "actually want full-time + this is all they can get 对应 cannot get hands on full-time，锁定正选。",
-                "option_nature": "★ 标准正确地道成语级同义替换",
+                "practice_status": "对应原文actually want full-time + this is all they can get，即找不到全职工作，锁定正选。",
+                "option_nature": "★ 标准正确地道同义改写",
                 "source_sentence": "Many people who work part-time jobs actually want full-time jobs. They take part-time work because this is all they can get.",
                 "source_translation": "许多做兼职的人实际上想要全职工作。他们接受兼职是因为这是他们唯一能得到的。",
-                "locator_comparison": "题干针对第3段许多人之所以从事兼职（work part-time）的深层因果机制提问。定位句给出最直接有力的解释因果主干：“Many people who work part-time jobs actually want full-time jobs. They take part-time work because this is all they can get”（许多兼职者其实想找全职，他们做兼职是因为他们唯一能找得到的就只有兼职了！）。原句的“this is all they can get（这是唯一能得到的）”加“actually want full-time（内心其实想要全职）”，以无可辩驳的逻辑排他性证明：他们在劳动力市场上根本无法谋求并触及全职岗位。选项C使用极其生动地道的英语习语：“cannot get their hands on full-time jobs”（染指不到/无法获得全职工作），其中“get one's hands on”精准表达了“获得、弄到手”的语意，与原句的“all they can get”形成了大师级的精妙同义对位！绝对标准正选！",
+                "locator_comparison": "定位句指明许多人做兼职的被迫原因：'they actually want full-time jobs... but this is all they can get'（他们想要全职，但这已经是他们能找到的唯一工作）。选项C同义改写精准，锁定正选。",
                 "writing_perspective": "作者旨在用非自愿兼职者的无奈之举，向读者揭示失业率下降假象背后依然存在大批劳工找不到全职饭碗的严峻现实，C项直击要害。",
                 "theme_validation": "非自愿兼职的本质就是全职岗位不可得，完全吻合段落主旨。",
-                "verdict": "复盘判断：C项地道习语对位极其精当，因果推导无可挑剔，标准正选。"
+                "verdict": "复盘判断：想要全职却得不到即无法找到全职，正确。"
               }
             },
             {
               "key": "D",
               "text": "haven’t seen the weakness of the market",
-              "text_cn": "在求职过程中尚未看清劳动力市场的普遍疲软",
+              "text_cn": "尚未看清市场的疲软",
               "is_correct": false,
-              "trap_type": "干扰项（偷换主谓宾 / 强加劳动者认知盲区）",
+              "trap_type": "干扰项（偷换主谓宾 / 强加认知盲区）",
               "analysis": {
-                "practice_status": "非自愿兼职激增是市场疲软的证据，不是劳动者没看到疲软，偷换主谓宾，排除。",
-                "option_nature": "干扰项（偷换主谓宾 / 强加劳动者认知盲区）",
+                "practice_status": "兼职增多是劳动力市场疲软的客观表现，并非劳动者自身没看到疲软，排除。",
+                "option_nature": "干扰项（偷换主谓宾 / 强加认知盲区）",
                 "source_sentence": "An increase in involuntary part-time work is evidence of weakness in the labor market",
                 "source_translation": "非自愿兼职工作的增加是劳动力市场疲软的证据",
-                "locator_comparison": "选项D宣称兼职者“没有看到市场的疲软（haven’t seen the weakness of the market）”。比对原句：“An increase in involuntary part-time work is evidence of weakness in the labor market”（非自愿兼职人数的增加是劳动力市场疲软的客观证据）。在原文中，“疲软（weakness）”是宏观经济学家通过兼职人数上升这一客观数据所解读出来的市场现状；而兼职劳动者自己每天四处碰壁、找不到全职，是这种疲软最直接的切肤受害者。D选项主谓颠倒，把客观经济学指标歪曲为劳动者主观上“没看清市场疲软”，生拉硬扯无中生有，逻辑极其荒谬。",
+                "locator_comparison": "非自愿兼职高企是宏观劳动力市场疲软的客观证据，并非求职者个人在认知上没看清市场，偷换主谓宾，排除。",
                 "writing_perspective": "劳动者正是被市场疲软逼得走投无路才兼职，D项倒打一耙指责劳动者盲目，脱离语境。",
                 "theme_validation": "偷换主干概念，与劳动者求职动机脱节，排除。",
-                "verdict": "复盘判断：D项偷换主谓宾，生搬硬套市场疲软概念，排除。"
+                "verdict": "复盘判断：兼职多为市场疲软证据非求职者盲区，排除。"
               }
             }
           ],
@@ -6779,69 +6779,69 @@
             {
               "key": "A",
               "text": "shows a general tendency of decline",
-              "text_cn": "在整体发展态势与宏观方向上呈现出明确的下降趋势",
+              "text_cn": "呈现整体下降趋势",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义词场高水准对位正选",
+              "trap_type": "★ 标准正确同义转换",
               "analysis": {
-                "practice_status": "the general direction has been down 完美同义改写为 general tendency of decline，锁定正选。",
-                "option_nature": "★ 标准正确同义词场高水准对位正选",
+                "practice_status": "对应原文the general direction has been down，同义转述，锁定正选。",
+                "option_nature": "★ 标准正确同义转换",
                 "source_sentence": "There was an increase in involuntary part-time in June, but the general direction has been down. Involuntary part-time employment is still far higher than before the recession, but it is down by 640,000 (7.9 percent) from its year ago level.",
                 "source_translation": "虽然6月有所增加，但总体方向一直是在下降的。虽然仍高于衰退前，但比一年前水平下降了64万人（7.9%）。",
-                "locator_comparison": "题干围绕第4段美国非自愿兼职（Involuntary part-time employment in the US）的发展态势提问。定位至第4段核心转折结论句：“There was an increase in involuntary part-time in June, but the general direction has been down”（虽然6月份单月有所回升，但总体的方向一直是在下降的）；后文以具体翔实的数据进一步确凿印证：“it is down by 640,000 (7.9 percent) from its year ago level”（比一年前下降了64万人，降幅达7.9%）。请对比同义转换：原文的“the general direction（总体方向）”精准转换为选项A中的“a general tendency（总体趋势）”；而“has been down（一直在下降）”与“down by 7.9%”精准转换为名词“decline（下降）”。“general tendency of decline”是对“general direction has been down”无懈可击的满分学术同义提炼，标准官方正选！",
+                "locator_comparison": "定位句明确指出全美非自愿兼职人数的宏观演进态势：“the general direction has been down”（总体趋势一直是向下的）。选项A'shows a general tendency of decline'构成精准同义转述，锁定正选。",
                 "writing_perspective": "作者客观测定就业数据，在指出短期波动的同时肯定长期复苏大方向，A项精准提炼了这一平衡客观的统计结论。",
                 "theme_validation": "与全段论述非自愿兼职总体逐步好转的主旨严丝合缝，正选无疑。",
-                "verdict": "复盘判断：A项同义词场对位极其工整准确，标准正选。"
+                "verdict": "复盘判断：general direction has been down对应general tendency of decline，正确。"
               }
             },
             {
               "key": "B",
               "text": "is harder to acquire than one year ago",
-              "text_cn": "在劳动力市场中相比一年前变得更加难以谋求获取",
+              "text_cn": "比一年前更难获得",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 误把被迫妥协当作竞争获取）",
+              "trap_type": "干扰项（偷换概念 / 歪曲被迫性）",
               "analysis": {
-                "practice_status": "非自愿兼职是找全职无果的被迫产物，不是去主动获取兼职，曲解属性，排除。",
-                "option_nature": "干扰项（偷换概念 / 误把被迫妥协当作竞争获取）",
+                "practice_status": "非自愿兼职是被迫无奈的妥协，并非需要竞争获取的工作，曲解文意，排除。",
+                "option_nature": "干扰项（偷换概念 / 歪曲被迫性）",
                 "source_sentence": "Involuntary part-time employment is still far higher than before the recession, but it is down by 640,000 (7.9 percent) from its year ago level.",
                 "source_translation": "非自愿兼职仍远高于衰退前，但比一年前下降了64万人（7.9%）。",
-                "locator_comparison": "选项B宣称非自愿兼职“比一年前更难获得（harder to acquire than one year ago）”。比对分析：原文提到非自愿兼职比一年前减少了64万人（down by 640,000），这是因为经济好转，更多人找到了全职工作，因而不再被迫做兼职！非自愿兼职本来就是找不到全职工作时无可奈何的下下策，根本不是求职者趋之若鹜、争相去抢夺获取（acquire）的目标。B选项竟然声称它变得“更难获取（harder to acquire）”，把求职者摆脱困境、找到全职导致兼职人数下降的良性现实，荒谬曲解为兼职岗位变抢手难求，犯了严重的常识与逻辑曲解错误。",
+                "locator_comparison": "非自愿兼职是求职全职无果时的被迫妥协，并非求职者主动追求且竞争加剧的工作，曲解性质，排除。",
                 "writing_perspective": "作者在分析宏观劳动供给质量改善，B项将其歪曲为零工岗位竞争加剧，完全脱离文意。",
                 "theme_validation": "曲解非自愿兼职人数下降的经济含义，排除。",
-                "verdict": "复盘判断：B项偷换获取概念，曲解经济现实，排除。"
+                "verdict": "复盘判断：被迫妥协非竞争获取，排除。"
               }
             },
             {
               "key": "C",
               "text": "satisfies the real need of the jobless",
-              "text_cn": "在最大程度上有效满足了广大失业群体的真实内心诉求",
+              "text_cn": "满足了失业者的真实需求",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 美化非自愿被迫妥协的悲惨困境）",
+              "trap_type": "干扰项（反向干扰 / 美化困境）",
               "analysis": {
-                "practice_status": "非自愿兼职是无奈之举且难以维持生计，satisfies real need 彻底颠倒黑白，排除。",
-                "option_nature": "干扰项（反向矛盾 / 美化非自愿被迫妥协的悲惨困境）",
+                "practice_status": "非自愿兼职者难以维持生计，并非满足了真实诉求，与文意相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 美化困境）",
                 "source_sentence": "An increase in involuntary part-time work is evidence of weakness in the labor market and it means that many people will be having a very hard time making ends meet. (Paragraph 3)",
                 "source_translation": "非自愿兼职增加是劳动力疲软的证据，意味着许多人极难维持收支平衡。（第3段）",
-                "locator_comparison": "选项C宣称非自愿兼职“满足了失业者的真实需求（satisfies the real need of the jobless）”。事实完全相反！上文第3段刚刚明确界定：非自愿兼职者内心的真正诉求是“actually want full-time jobs（实际上想要全职工作）”，而且他们做兼职根本挣不够钱，生活极其拮据（hard time making ends meet）。这根本无法满足失业者的真实诉求，而是一种退而求其次的痛苦妥协。C选项公然颠倒黑白，将迫于生计的非自愿兼职粉饰为“满足了真实需求”，违背文本基本事实。",
+                "locator_comparison": "非自愿兼职人员迫切想要全职且生活艰难，兼职只是权宜之计，选项声称满足了真实诉求，与文意矛盾，排除。",
                 "writing_perspective": "非自愿兼职是失业者的饮鸩止渴而非理想彼岸，C项粉饰痛苦，彻底背离作者立意。",
                 "theme_validation": "与文章强调非自愿兼职充满无奈的主旨水火不容，排除。",
-                "verdict": "复盘判断：C项反向颠倒事实，美化痛苦，排除。"
+                "verdict": "复盘判断：兼职无法维持生计，满足真实需求相反，排除。"
               }
             },
             {
               "key": "D",
               "text": "is lower than before the recession",
-              "text_cn": "在现有统计规模上已经彻底低于金融危机经济衰退前",
+              "text_cn": "低于经济衰退前的水平",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 否定原文字面明确的事实判断）",
+              "trap_type": "干扰项（反向干扰 / 违背原文事实）",
               "analysis": {
-                "practice_status": "文中明确说 is still far higher than before the recession，D说 lower 直接反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 否定原文字面明确的事实判断）",
+                "practice_status": "文中明确指出目前仍远高于衰退前水平，选项相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 违背原文事实）",
                 "source_sentence": "Involuntary part-time employment is still far higher than before the recession",
                 "source_translation": "非自愿兼职就业人数仍旧远远高于经济衰退前的水平",
-                "locator_comparison": "选项D宣称非自愿兼职“低于经济衰退前（lower than before the recession）”。比对原文定位句第二句的前半句：“Involuntary part-time employment is still far higher than before the recession”（非自愿兼职就业人数依然远远高于经济衰退前的水平！）。原文白纸黑字写明是“still far higher（依然远远高于）”，选项D却公然反向篡改为“lower than（低于）”，犯了非黑即白的正反彻底颠倒低级硬伤错误。",
+                "locator_comparison": "原文第4段明确指出非自愿兼职人数目前依然远高于金融危机衰退前的水平（is still far higher than before the recession）。选项D声称低于衰退前，直接相反，排除。",
                 "writing_perspective": "作者指出虽然下降但依然远高于衰退前，旨在提醒读者不可过早盲目乐观，D项直接捏造虚假繁荣。",
                 "theme_validation": "与原文明确的事实比较级彻底冲突，排除。",
-                "verdict": "复盘判断：D项与原文字面事实完全相反，直接秒杀排除。"
+                "verdict": "复盘判断：原文为still far higher，选项相反，排除。"
               }
             }
           ],
@@ -6866,69 +6866,69 @@
             {
               "key": "A",
               "text": "it is no longer easy for part-timers to get insurance",
-              "text_cn": "兼职打工人员在市场上获取医疗保险变得不再那么容易",
+              "text_cn": "兼职者获取医保不再容易",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 事实正反彻底颠倒）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
-                "practice_status": "医改让1200万人可通过交易所或补助买医保，兼职买保险更容易了，A彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 事实正反彻底颠倒）",
+                "practice_status": "医改让兼职者可以自行或通过补助购买医保，兼职买医保更容易了，选项相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 语义相反）",
                 "source_sentence": "Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges.",
                 "source_translation": "奥巴马医改让超过1200万人能够通过医疗补助或医保交易所获得保险。",
-                "locator_comparison": "选项A宣称奥巴马医改后兼职者“买保险不再容易（no longer easy for part-timers to get insurance）”。事实完全相反！第6段交代在医改前，买医保的唯一途径是拥有一份提供全额医保的全职工作（through a job that provided health insurance），导致兼职者根本无法获得医保；而第7段明确指出，医改让超过1200万人可以通过政府补助（Medicaid）或交易所直接购买医保，兼职人员买医保变得前所未有的容易和普及。A选项颠倒黑白，把医改带来的重大利好歪曲为买保险变难，严重违背文本事实。",
+                "locator_comparison": "奥巴马医改使得兼职打工人员即使没有全职雇主资助也能通过交易平台或补助购买医保，选项声称买医保变得不再容易与事实颠倒，排除。",
                 "writing_perspective": "正是因为兼职者也能轻松买到医保，才促成了第2段自愿兼职人数暴增83万的现象，A项彻底推翻全文核心逻辑链条。",
                 "theme_validation": "与奥巴马医改实现医保普惠脱钩的主旨水火不容，排除。",
-                "verdict": "复盘判断：A项反向颠倒事实，排除。"
+                "verdict": "复盘判断：兼职获取医保变容易，选项相反，排除。"
               }
             },
             {
               "key": "B",
               "text": "full-time employment is still essential for insurance",
-              "text_cn": "全职就业依然是普通劳动者获取医疗保险必不可少的基石",
+              "text_cn": "全职工作对医保依然必不可少",
               "is_correct": false,
-              "trap_type": "干扰项（反向矛盾 / 否定末句绝对核心定论）",
+              "trap_type": "干扰项（反向干扰 / 否定核心结论）",
               "analysis": {
-                "practice_status": "文中末句明确说 no longer a link between employment and insurance，still essential 彻底反向，排除。",
-                "option_nature": "干扰项（反向矛盾 / 否定末句绝对核心定论）",
+                "practice_status": "末句明确指出就业与医保之间不再挂钩，选项直接相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 否定核心结论）",
                 "source_sentence": "With Obamacare there is no longer a link between employment and insurance.",
                 "source_translation": "有了奥巴马医改，就业与保险之间不再存在联系。",
-                "locator_comparison": "选项B宣称全职就业对于获得医保“依然是必不可少的（still essential for insurance）”。请对比全文收官压轴句：“With Obamacare there is no longer a link between employment and insurance”（有了奥巴马医改，就业与医疗保险之间不再存在任何纽带联系！）。原句白纸黑字写明“no longer a link（不再有必然纽带）”，B选项却公然声称全职就业“still essential（依然至关重要不可或缺）”，直接抽作者的耳光。属于非黑即白、正反彻底颠倒的典型设错。",
+                "locator_comparison": "文章末段末句宣告医改带来的根本变革在于：“there will no longer be a link between employment and health insurance”（就业与医保之间不再有必然联系）。选项B声称全职就业依然必不可少，直接相反，排除。",
                 "writing_perspective": "作者论证的全部价值就在于证明医保与全职工作的彻底解绑，B项完全倒退回医改前的旧时代。",
                 "theme_validation": "与“解绑就业与保险”的核心制度破局彻底对立，坚决排除。",
-                "verdict": "复盘判断：B项与原文字面结论绝对对立，排除。"
+                "verdict": "复盘判断：医保与就业解绑，选项相反，排除。"
               }
             },
             {
               "key": "C",
               "text": "it is still challenging to get insurance for family members",
-              "text_cn": "想要为身患重病的家庭成员购买保险在现实中依然极具挑战",
+              "text_cn": "为家庭成员获取医保依然困难",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 忽略医改覆盖全家的制度成效）",
+              "trap_type": "干扰项（无中生有 / 违背事实）",
               "analysis": {
-                "practice_status": "文中明确说让1200万人可以 cover themselves and their families，仍然困难无原文依据，排除。",
-                "option_nature": "干扰项（无中生有 / 忽略医改覆盖全家的制度成效）",
+                "practice_status": "文中明确指出医改使得千万人能够为自己和家人投保，选项声称依然困难缺乏依据，排除。",
+                "option_nature": "干扰项（无中生有 / 违背事实）",
                 "source_sentence": "These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families.",
                 "source_translation": "这些人以前可能觉得必须找一份提供保险的全职工作来覆盖他们自己和家人。",
-                "locator_comparison": "选项C声称“为家庭成员买保险仍然具有挑战性（still challenging to get insurance for family members）”。回文检索，第6段和第7段确实提到了为重病家庭成员参保（family members with serious health conditions / cover themselves and their families）。但作者明确指出，过去之所以必须全职正是为了给家人买保险；而奥巴马医改通过Medicaid和交易所让1200万人轻松实现了全家参保，有效化解了这一家庭危机。原文并未声称现在依然极具挑战。C项无视医改对家庭医保的有效覆盖，生造困难，与论证逻辑不符。",
+                "locator_comparison": "文中明确提到医改使1200万人能够为自己及其家庭成员提供医疗保障（cover themselves and their families），选项声称依然极具挑战无事实依据，排除。",
                 "writing_perspective": "作者旨在展现医改如何解放了原本被家庭医保绑架的劳动者，C项削弱了制度改革成效。",
                 "theme_validation": "与医改解放家庭负担的逻辑脱节，排除。",
-                "verdict": "复盘判断：C项忽视医改对家庭的覆盖实效，排除。"
+                "verdict": "复盘判断：医改惠及家庭成员，声称困难无依据，排除。"
               }
             },
             {
               "key": "D",
               "text": "employment is no longer a precondition to get insurance",
-              "text_cn": "拥有一份正式工作不再是劳动者个人获取医疗保险的先决条件",
+              "text_cn": "就业不再是获取医保的先决条件",
               "is_correct": true,
-              "trap_type": "★ 标准正确法律制度实质深层提炼正选",
+              "trap_type": "★ 标准正确制度实质提炼",
               "analysis": {
-                "practice_status": "no longer a link between employment and insurance 完美对应 no longer a precondition，锁定正选。",
-                "option_nature": "★ 标准正确法律制度实质深层提炼正选",
+                "practice_status": "对应原文no longer a link between employment and health insurance，等价于不再是先决条件，锁定正选。",
+                "option_nature": "★ 标准正确制度实质提炼",
                 "source_sentence": "With Obamacare there is no longer a link between employment and insurance. ... one of the main purposes was to allow people to get insurance outside of employment.",
                 "source_translation": "有了奥巴马医改，就业与保险之间不再存在联系。……主要目的之一就是允许人们在就业之外获得保险。",
-                "locator_comparison": "题干围绕奥巴马医改（Obamacare）带来的制度变革提问。定位到第7段末尾的核心结论句：“With Obamacare there is no longer a link between employment and insurance”（在奥巴马医改实施后，就业与保险之间不再存在联系）；并与第6段法案主旨呼应：“allow people to get insurance outside of employment”（允许人们在工作之外获取医保）。在英语法学与政治学中，取消两者的必然纽带（no longer a link），其法律与政策实质就是：是否拥有一份正式工作，不再是公民获得医疗保障的强制性门槛与前置条件。选项D的“employment is no longer a precondition to get insurance”（就业不再是获得保险的先决条件）用专业政治学术语“precondition（先决条件）”对“a link”做出了极高水准的深层抽象概括，词意完全契合，标准官方正选！",
+                "locator_comparison": "定位句收官断言：随着平价医疗法案落地，就业与医疗保险之间不再挂钩（no longer be a link between employment and health insurance）。选项D提炼为就业不再是先决条件（no longer a precondition），锁定正选。",
                 "writing_perspective": "作者在全篇结尾完成因果闭环：正是因为医保脱钩，人们才敢大胆选择自愿兼职，追求工作生活平衡，D项直击全篇终极结论。",
                 "theme_validation": "“就业与医保脱钩”是解释通篇自愿兼职暴增的根本制度支柱，正选无疑。",
-                "verdict": "复盘判断：D项深刻提炼制度脱钩实质，同义转述入木三分，标准正选。"
+                "verdict": "复盘判断：就业与医保脱钩对应不再是先决条件，正确。"
               }
             }
           ],
@@ -6953,69 +6953,69 @@
             {
               "key": "A",
               "text": "employment in the US",
-              "text_cn": "全美宏观劳动力市场的整体就业图景与兼职结构演进",
+              "text_cn": "美国的就业情况",
               "is_correct": true,
-              "trap_type": "★ 标准正确全文主旨最高统摄正选",
+              "trap_type": "★ 标准正确全文主旨概括",
               "analysis": {
-                "practice_status": "jobs picture 贯穿全文，讨论全职兼职及医改对就业的重塑，宏观统摄全文，锁定正选。",
-                "option_nature": "★ 标准正确全文主旨最高统摄正选",
+                "practice_status": "全文围绕美国就业市场的图景（jobs picture）展开，全面分析全职、自愿兼职、非自愿兼职及医改对就业的影响，锁定正选。",
+                "option_nature": "★ 标准正确全文主旨概括",
                 "source_sentence": "288,000 new jobs the Labor Department reported... unemployment rate... (Paragraph 1) ...another important part of the jobs picture... voluntarily working part-time... (Paragraph 2) ...involuntary part-time employment... (Paragraph 4) ...With Obamacare there is no longer a link between employment and insurance. (Paragraph 7)",
                 "source_translation": "劳工部报告新增28.8万个岗位……失业率……就业图景的另一个重要部分……自愿兼职……非自愿兼职……有了奥巴马医改，就业与保险不再有联系。",
-                "locator_comparison": "本题考查为全篇经济学评论提炼最高宏观主旨。纵观全篇文章脉络结构：第1段从劳工部公布的全美宏观就业数据（新增28.8万岗位、失业率降至6.1%）切入，奠定“the economy is creating jobs”的总体基调；第2段明确提出文章核心线索——“another important part of the jobs picture（就业图景中另一个被忽视的重要部分）”，即自愿兼职的暴增；第3-5段深入剖析劳动力市场中自愿兼职与非自愿兼职的严谨分类、统计标准及其折射的劳动力供需质量；第6-7段进一步上升到制度层面，揭示奥巴马医改如何通过打破医保枷锁，深刻重塑了全美劳工的就业形态选择（link between employment and insurance）。整篇文章自始至终围绕的核心词就是“就业（jobs / employment）”。选项A的“employment in the US”（美国的就业状况）言简意赅、高屋建瓴地统摄了从宏观数据到微观结构、从兼职分类到政策重构的全部内容，是全篇无可争议的最高主旨概括！",
+                "locator_comparison": "文章开宗明义从美国宏观就业图景（jobs picture）切入，贯穿分析了全职就业、非自愿兼职的下降走势、自愿兼职激增的新动向以及医改对未来就业形态的深刻重塑。选项A'employment in the US'统摄全篇，锁定正选。",
                 "writing_perspective": "作者撰写这篇经济专栏的宏伟立意就是带领读者穿透失业率的单一表面数字，全面审视全美就业市场的深层结构质变，A项完美体现了全书的视野格局。",
                 "theme_validation": "作为全文主旨题，涵盖各段落关于就业市场的核心讨论，正选无疑。",
-                "verdict": "复盘判断：A项宏观统摄力极强，完全契合主旨脉络，标准正选。"
+                "verdict": "复盘判断：jobs picture贯穿全文，美国就业情况高度契合，正确。"
               }
             },
             {
               "key": "B",
               "text": "part-timer classification",
-              "text_cn": "美国联邦劳工部针对兼职就业群体的调查分类标准",
+              "text_cn": "兼职人员的分类",
               "is_correct": false,
-              "trap_type": "干扰项（以偏概全 / 误把局部段落统计细节当全文主旨）",
+              "trap_type": "干扰项（以偏概全 / 局部统计细节）",
               "analysis": {
-                "practice_status": "兼职分类只是第5段调查问卷的方法论技术细节，以偏概全，排除。",
-                "option_nature": "干扰项（以偏概全 / 误把局部段落统计细节当全文主旨）",
+                "practice_status": "兼职分类只是第5段调查问卷的方法论细节，无法统摄全文主旨，排除。",
+                "option_nature": "干扰项（以偏概全 / 局部统计细节）",
                 "source_sentence": "The survey used by the Labor Department asks people if they worked less than 35 hours... (Paragraph 5)",
                 "source_translation": "劳工部使用的调查询问人们在参考周工作是否少于35小时……（第5段）",
-                "locator_comparison": "选项B声称全文主要讨论“兼职分类（part-timer classification）”。回文检索，兼职分类仅仅出现在第5段，作者在此详细解释劳工部问卷如何通过“工作是否少于35小时”以及“是否由于别无选择”来区分自愿兼职与非自愿兼职。这纯粹是作者为了保证后文论证客观严谨而插入的一段“统计学调查方法论技术说明”。整篇文章探讨的重心涵盖了宏观就业复苏、奥巴马医改的重大制度冲击等广阔社会图景。B选项以偏概全，把第5段的一处局部技术方法误当作全篇核心主旨，犯了典型的以偏概全错误。",
+                "locator_comparison": "兼职人员的具体调查分类只是第5段阐释劳工统计局统计口径的方法细节，无法涵盖全篇关于就业整体形势的论述，排除。",
                 "writing_perspective": "统计分类只是论据工具，而非作者撰文的思考终点，B项一叶障目不见泰山。",
                 "theme_validation": "局限于调查技术，无法统摄全文宏观经济讨论，排除。",
-                "verdict": "复盘判断：B项以偏概全，以局部调查方法代替全文主旨，排除。"
+                "verdict": "复盘判断：局部统计口径细节，以偏概全，排除。"
               }
             },
             {
               "key": "C",
               "text": "insurance through Medicaid",
-              "text_cn": "低收入阶层通过政府医疗救助计划购买医保的途径",
+              "text_cn": "通过医疗补助获取保险",
               "is_correct": false,
-              "trap_type": "干扰项（以偏概全 / 抓取收官段局部政策细节）",
+              "trap_type": "干扰项（以偏概全 / 局部政策细节）",
               "analysis": {
-                "practice_status": "通过 Medicaid 买保险只是第7段阐释奥巴马医改落实的一个支撑论据，排除。",
-                "option_nature": "干扰项（以偏概全 / 抓取收官段局部政策细节）",
+                "practice_status": "医疗补助只是阐述医改脱钩就业时的一个支持论据，以偏概全，排除。",
+                "option_nature": "干扰项（以偏概全 / 局部政策细节）",
                 "source_sentence": "allowed more than 12 million people to either get insurance through Medicaid or the exchanges. (Paragraph 7)",
                 "source_translation": "让超过1200万人能够通过医疗救助或交易所购买保险。（第7段）",
-                "locator_comparison": "选项C提出主要讨论“通过医疗救助购买保险（insurance through Medicaid）”。回文比对：Medicaid仅仅出现在第7段第一句，是作者解释奥巴马医改让1200万人获益时提及的具体参保渠道之一（通过Medicaid或交易所）。文章自始至终没有展开探讨Medicaid的具体申请流程、报销比例或行政运作机制。作者提及医改渠道是为了论证为什么自愿兼职会暴增。C选项断章取义截取文末的一个政策专有名词，严重窄化了文章主题，属于低级以偏概全干扰项。",
+                "locator_comparison": "Medicaid只是第7段阐述医改如何让低收入劳动者获得保险的局部支撑论据，无法统领全篇宏观就业讨论，排除。",
                 "writing_perspective": "作者探讨的是医改对劳动力市场的溢出效应，而非撰写医疗医保政策白皮书，C项偏离论证主题。",
                 "theme_validation": "片面抓取尾段局部词汇，脱离全篇就业大主旨，排除。",
-                "verdict": "复盘判断：C项以局部医疗词汇代替宏观经济主旨，排除。"
+                "verdict": "复盘判断：局部医保政策细节，排除。"
               }
             },
             {
               "key": "D",
               "text": "Obamacare’s trouble",
-              "text_cn": "奥巴马医改法案在推行实施过程中面临的重重体制困境",
+              "text_cn": "奥巴马医改的麻烦",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 恶意强加负面危机色彩）",
+              "trap_type": "干扰项（无中生有 / 强加负面色彩）",
               "analysis": {
-                "practice_status": "文中将医改解绑就业促成自愿兼职视为重大积极突破，根本没谈医改的麻烦，反向捏造，排除。",
-                "option_nature": "干扰项（无中生有 / 恶意强加负面危机色彩）",
+                "practice_status": "文中将医改解绑就业视为积极突破，并未谈论医改的麻烦与困境，排除。",
+                "option_nature": "干扰项（无中生有 / 强加负面色彩）",
                 "source_sentence": "one of the main purposes was to allow people to get insurance outside of employment. ... With Obamacare there is no longer a link between employment and insurance.",
                 "source_translation": "主要目的之一是允许在就业外获得保险。……有了奥巴马医改，就业与保险不再有联系。",
-                "locator_comparison": "选项D宣称文章讨论“奥巴马医改的麻烦（Obamacare’s trouble）”。通读第6段与第7段，作者在提及奥巴马医改时，洋溢着极度赞赏与肯定的正面态度：作者称赞该法案成功达成了最初的立法意图（one of the main purposes），让1200万普通民众摆脱了全职工作的捆绑，实现了医保与就业的彻底解绑，从而让更多人可以自由选择自愿兼职、享受生活。全篇对奥巴马医改自始至终没有提及任何所谓的“麻烦（trouble）”或危机。D选项受西方媒体负面政治新闻套路诱导，无中生有强加负面贬义评价，完全背离文本事实。",
+                "locator_comparison": "作者在文中将医改切断就业与医保捆绑、促进人们追求自愿兼职视为重大积极突破，通篇未谈论医改本身的困境，无中生有，排除。",
                 "writing_perspective": "作者把医改打破就业枷锁视作制度进步与自愿兼职增加的动因，D项彻底歪曲了作者的论辩倾向。",
                 "theme_validation": "与文章对医改解放劳工选择权的正面论述针锋相对，排除。",
-                "verdict": "复盘判断：D项凭空捏造负面麻烦概念，排除。"
+                "verdict": "复盘判断：作者视医改为积极突破非麻烦，排除。"
               }
             }
           ],

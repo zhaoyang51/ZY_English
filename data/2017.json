@@ -3419,7 +3419,7 @@
             {
               "key": "B",
               "text": "verbal expressions are unnecessary for emotional exchange",
-              "text_cn": "verbal expressions are unnecessary for emotional exchange",
+              "text_cn": "言语表达对于情感交流是不必要的",
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
@@ -5126,7 +5126,7 @@
               "text": "ease freshmen’s financial burdens",
               "text_cn": "减轻新生经济负担",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
                 "practice_status": "省钱是第4段探讨的财务影响，第3段纯粹探讨心理与学术准备，段落错位，排除",
                 "option_nature": "干扰项（跨段张冠李戴/段落信息错位）",
@@ -7012,7 +7012,7 @@
             {
               "key": "D",
               "text": "exhausted unprecedented management efforts",
-              "text_cn": "exhausted unprecedented management efforts",
+              "text_cn": "耗尽了前所未有的管理精力",
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
@@ -7360,7 +7360,7 @@
             {
               "key": "D",
               "text": "keep away from",
-              "text_cn": "keep away from",
+              "text_cn": "避开",
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {

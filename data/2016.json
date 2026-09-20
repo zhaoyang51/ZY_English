@@ -5352,7 +5352,7 @@
             {
               "key": "D",
               "text": "How to Read Extensively",
-              "text_cn": "How to Read Extensively",
+              "text_cn": "如何广泛阅读",
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
@@ -6646,7 +6646,7 @@
             {
               "key": "B",
               "text": "having a family with children",
-              "text_cn": "having a family with children",
+              "text_cn": "组建有子女的家庭",
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
@@ -7028,7 +7028,7 @@
             {
               "key": "D",
               "text": "He thinks his job as a technician quite challenging.",
-              "text_cn": "He thinks his job as a technician quite challenging.",
+              "text_cn": "他认为自己作为技术员的工作很有挑战性",
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {

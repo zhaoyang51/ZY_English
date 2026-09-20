@@ -1392,7 +1392,7 @@
               "text": "become more stable",
               "text_cn": "经营局面变得更加稳定",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 彻底背离事实）",
+              "trap_type": "干扰项（反向干扰 / 与事实相反）",
               "analysis": {
                 "practice_status": "原文三大迹象全是动荡恶化，A项与原文事实截然相反，秒杀排除。",
                 "option_nature": "干扰项（反向干扰 / 彻底背离事实）",
@@ -3282,9 +3282,9 @@
             {
               "key": "A",
               "text": "neglected the sign of crisis",
-              "text_cn": "彻底忽视了危机的警示信号",
+              "text_cn": "忽视了危机的迹象",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 严重背离文意）",
+              "trap_type": "干扰项（反向干扰 / 与文意相反）",
               "analysis": {
                 "practice_status": "报纸都在亲手记录自己的毁灭了，说明非常清醒痛苦，怎会忽视，排除。",
                 "option_nature": "干扰项（反向干扰 / 严重背离文意）",
@@ -3473,7 +3473,7 @@
             {
               "key": "B",
               "text": "have more balanced newsrooms",
-              "text_cn": "拥有结构更加平衡健全的新闻采编团队",
+              "text_cn": "拥有更平衡的采编室",
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 偷换概念）",
               "analysis": {
@@ -3594,9 +3594,9 @@
             {
               "key": "D",
               "text": "Readers have lost their interest in car and film reviews.",
-              "text_cn": "读者已彻底丧失对汽车和电影评论专栏的阅读兴趣",
+              "text_cn": "读者对汽车和电影评论失去了兴趣",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 歪曲采编调整根源）",
+              "trap_type": "干扰项（偷换概念 / 因果混淆）",
               "analysis": {
                 "practice_status": "裁掉影评车评是因其缺乏特色同质化严重，非读者不爱看，偷换主客观，排除。",
                 "option_nature": "干扰项（偷换概念 / 歪曲采编调整根源）",
@@ -3647,9 +3647,9 @@
             {
               "key": "B",
               "text": "American Newspapers: Gone with the Wind",
-              "text_cn": "美国报业：随风而逝的彻底覆灭",
+              "text_cn": "美国报业：随风而逝",
               "is_correct": false,
-              "trap_type": "干扰项（极端悲观 / 与文章事实截然相反）",
+              "trap_type": "干扰项（以偏概全 / 与文意相反）",
               "analysis": {
                 "practice_status": "引用名著书名过分悲观，报纸已经成功存活并盈利，与事实相反，排除。",
                 "option_nature": "干扰项（极端悲观 / 与文章事实截然相反）",
@@ -5289,9 +5289,9 @@
             {
               "key": "A",
               "text": "prosperity and growth",
-              "text_cn": "对繁荣与经济增长的狂热追求",
+              "text_cn": "繁荣与增长",
               "is_correct": false,
-              "trap_type": "干扰项（让步假定干扰 / 颠倒转折逻辑）",
+              "trap_type": "干扰项（曲解转折逻辑）",
               "analysis": {
                 "practice_status": "首段让步提到常规假想是繁荣增长，但转折词but明确说住宅风格恰恰相反，排除。",
                 "option_nature": "干扰项（让步假定干扰 / 颠倒转折逻辑）",
@@ -5323,9 +5323,9 @@
             {
               "key": "C",
               "text": "restraint and confidence",
-              "text_cn": "自律克制与对未来的坚定自信",
+              "text_cn": "克制与信心",
               "is_correct": true,
-              "trap_type": "★ 标准正确原文词对重现",
+              "trap_type": "正确项（同义替换）",
               "analysis": {
                 "practice_status": "restraint与confidence完美双核对位定位句，毫无悬念的正选。",
                 "option_nature": "★ 标准正确原文词对重现",
@@ -7329,9 +7329,9 @@
             {
               "key": "A",
               "text": "it has more or less lost faith in markets",
-              "text_cn": "欧盟多多少少已经对自由市场机制彻底丧失了信心",
+              "text_cn": "它或多或少对市场失去了信心",
               "is_correct": false,
-              "trap_type": "干扰项（主谓颠倒 / 颠倒市场信任关系）",
+              "trap_type": "干扰项（主谓颠倒）",
               "analysis": {
                 "practice_status": "原文是市场对欧元区经济体失去信心，主谓关系彻底搞反，排除。",
                 "option_nature": "干扰项（主谓颠倒 / 颠倒市场信任关系）",
@@ -7380,9 +7380,9 @@
             {
               "key": "D",
               "text": "it intends to deny the possibility of devaluation",
-              "text_cn": "欧盟当局企图彻底否认货币贬值的可能性",
+              "text_cn": "它意图否认货币贬值的可能性",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 歪曲客观制度属性为自主意图）",
+              "trap_type": "干扰项（偷换概念 / 混淆主客观）",
               "analysis": {
                 "practice_status": "单一货币剥夺了贬值机制是客观制度限制，非主观否认，曲解概念，排除。",
                 "option_nature": "干扰项（偷换概念 / 歪曲客观制度属性为自主意图）",
@@ -7467,9 +7467,9 @@
             {
               "key": "D",
               "text": "disagree on the steps towards disintegration",
-              "text_cn": "就欧元区走向分崩离析的具体步骤存在严重分歧",
+              "text_cn": "在走向解体的步骤上存在分歧",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 严重篡改谈判目标）",
+              "trap_type": "干扰项（反向干扰 / 颠倒谈判目的）",
               "analysis": {
                 "practice_status": "双方都是在全力阻止解体，争论的是救助步骤而非解体步骤，恶性歪曲，排除。",
                 "option_nature": "干扰项（反向干扰 / 严重篡改谈判目标）",
@@ -7520,9 +7520,9 @@
             {
               "key": "B",
               "text": "stricter regulations be imposed",
-              "text_cn": "推行并实施更加严格的财经规章纪律",
+              "text_cn": "实施更严格的规章",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义抽象概括",
+              "trap_type": "正确项（同义概括）",
               "analysis": {
                 "practice_status": "stricter rules backed by sanctions完美对应stricter regulations be imposed，锁定正选。",
                 "option_nature": "★ 标准正确同义抽象概括",
@@ -7554,9 +7554,9 @@
             {
               "key": "D",
               "text": "voting rights of the EU members be guaranteed",
-              "text_cn": "坚决确保所有欧盟成员国的法定投票权不受侵犯",
+              "text_cn": "确保欧盟成员国的投票权",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 严重颠倒惩罚手段）",
+              "trap_type": "干扰项（反向干扰 / 语义相反）",
               "analysis": {
                 "practice_status": "德国威胁暂停不服从国家的投票权，选项说保障投票权与事实相反，排除。",
                 "option_nature": "干扰项（反向干扰 / 严重颠倒惩罚手段）",
