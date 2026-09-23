@@ -3131,7 +3131,7 @@
             },
             {
               "key": "D",
-              "text": "a female tends to be more talkative at home than her spouse ᆇี൫ज@JOEE ༯໶  04",
+              "text": "a female tends to be more talkative at home than her spouse ᆇี൫ज໶  04",
               "text_cn": "女性在家里往往比她的配偶更愿意说话",
               "is_correct": false,
               "trap_type": "符合原文事实（非目标选项）",
@@ -5235,7 +5235,7 @@
             },
             {
               "key": "B",
-              "text": "negative ᆇี൫ज@JOEE ༯໶  06",
+              "text": "negative ᆇี൫ज໶  06",
               "text_cn": "负面批判的 / 质疑反对的",
               "is_correct": true,
               "trap_type": "★ 基于篇末贬义修辞词群的标准正选",
@@ -6638,7 +6638,7 @@
           "options": [
             {
               "key": "A",
-              "text": "both literate and illiterate people can serve on juries ᆇี൫ज@JOEE ༯໶  07",
+              "text": "both literate and illiterate people can serve on juries ᆇี൫ज໶  07",
               "text_cn": "识字者和文盲都可以担任陪审员",
               "is_correct": false,
               "trap_type": "干扰项（公然违背原文条件限定）",
@@ -7037,7 +7037,7 @@
             },
             {
               "key": "D",
-              "text": "its tradition and development ᆇี൫ज@JOEE ༯໶",
+              "text": "its tradition and development ᆇี൫ज໶",
               "text_cn": "它的崇高传统与历史制度演进",
               "is_correct": true,
               "trap_type": "★ 完美统领全文思想源头与历史发展周期的最佳正选",

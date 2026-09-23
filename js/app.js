@@ -908,7 +908,7 @@
                 <span style="font-size:0.8em;background:rgba(37,99,235,0.08);color:var(--primary);font-weight:700;padding:2px 8px;border-radius:4px">${prov}</span>
               </div>
             </div>
-            <div class="vocab-book-def">${item.def || '考研语境核心词汇'}</div>
+            <div class="vocab-book-def">${item.def || (window.KAOYAN_VOCAB_DICT && window.KAOYAN_VOCAB_DICT[item.word.toLowerCase().trim()] && window.KAOYAN_VOCAB_DICT[item.word.toLowerCase().trim()].def) || '真题重点考查词汇'}</div>
             ${sentHtml ? `<div class="vocab-book-sentence"><strong>真题原句：</strong>${sentHtml}</div>` : ''}
             <div class="vocab-book-actions">
               <button class="toolbar-btn btn-speak-word" data-word="${item.word}" style="padding:3px 10px;font-size:0.82em" title="发音朗读">🔊 朗读</button>
@@ -1430,13 +1430,81 @@
     if (modal) modal.classList.add('show');
   }
 
+  function getWordInfo(word) {
+    if (!word) return null;
+    const dict = window.KAOYAN_VOCAB_DICT || {};
+    const wClean = word.toLowerCase().trim().replace(/’/g, "'");
+    const baseClean = wClean.replace(/'s$/, '').replace(/^[“"']|[”"']$/g, '');
+
+    // 1. Direct match
+    if (dict[baseClean]) return { ...dict[baseClean] };
+    if (dict[wClean]) return { ...dict[wClean] };
+
+    // 2. Normalization: strip punctuation
+    const stripped = baseClean.replace(/[^a-zA-Z]/g, '');
+    if (stripped && dict[stripped]) return { ...dict[stripped] };
+
+    // 3. Morphological lemmatization candidates
+    const candidates = [];
+    if (baseClean.endsWith('ies') && baseClean.length > 4) candidates.push(baseClean.slice(0, -3) + 'y');
+    if (baseClean.endsWith('ves') && baseClean.length > 4) {
+      candidates.push(baseClean.slice(0, -3) + 'f');
+      candidates.push(baseClean.slice(0, -3) + 'fe');
+    }
+    if (baseClean.endsWith('es') && baseClean.length > 3) {
+      candidates.push(baseClean.slice(0, -2));
+      candidates.push(baseClean.slice(0, -1));
+    }
+    if (baseClean.endsWith('s') && baseClean.length > 2) candidates.push(baseClean.slice(0, -1));
+
+    if (baseClean.endsWith('ied') && baseClean.length > 4) candidates.push(baseClean.slice(0, -3) + 'y');
+    if (baseClean.endsWith('ed') && baseClean.length > 3) {
+      candidates.push(baseClean.slice(0, -2));
+      candidates.push(baseClean.slice(0, -1));
+      if (baseClean.length > 4 && baseClean[baseClean.length - 3] === baseClean[baseClean.length - 4]) {
+        candidates.push(baseClean.slice(0, -3));
+      }
+    }
+
+    if (baseClean.endsWith('ing') && baseClean.length > 4) {
+      candidates.push(baseClean.slice(0, -3));
+      candidates.push(baseClean.slice(0, -3) + 'e');
+      if (baseClean.length > 5 && baseClean[baseClean.length - 4] === baseClean[baseClean.length - 5]) {
+        candidates.push(baseClean.slice(0, -4));
+      }
+    }
+
+    if (baseClean.endsWith('ly') && baseClean.length > 3) {
+      candidates.push(baseClean.slice(0, -2));
+      if (baseClean.endsWith('ily') && baseClean.length > 4) candidates.push(baseClean.slice(0, -3) + 'y');
+      if (baseClean.endsWith('ally') && baseClean.length > 5) candidates.push(baseClean.slice(0, -4));
+    }
+
+    if (baseClean.endsWith('er') && baseClean.length > 3) {
+      candidates.push(baseClean.slice(0, -2));
+      candidates.push(baseClean.slice(0, -1));
+      if (baseClean.endsWith('ier') && baseClean.length > 4) candidates.push(baseClean.slice(0, -3) + 'y');
+    }
+
+    if (baseClean.endsWith('est') && baseClean.length > 4) {
+      candidates.push(baseClean.slice(0, -3));
+      candidates.push(baseClean.slice(0, -2));
+      if (baseClean.endsWith('iest') && baseClean.length > 5) candidates.push(baseClean.slice(0, -4) + 'y');
+    }
+
+    for (const c of candidates) {
+      if (dict[c]) return { ...dict[c] };
+    }
+
+    return null;
+  }
+
   function showVocabPopup(word, clientX, clientY, sentenceContext) {
     const popup = document.getElementById('vocabPopup');
     if (!popup) return;
 
     const wClean = word.toLowerCase().trim();
     const baseClean = wClean.replace(/['’]s$/, '').replace(/^[“"']|[”"']$/g, '');
-    const dict = window.KAOYAN_VOCAB_DICT || {};
 
     let customDef = null;
     let customPos = '';
@@ -1453,14 +1521,11 @@
       }
     }
 
-    const info = dict[baseClean] ||
-                 dict[baseClean.replace(/s$|ed$|ing$/, '')] ||
-                 dict[baseClean.replace(/es$/, '')] ||
-                 dict[baseClean.replace(/d$/, '')] ||
-                 dict[baseClean.replace(/ies$/, 'y')] || {
-      pos: customPos || "n./v.",
-      def: customDef || "考研语境核心词汇",
-      full: "语境常考释义与核心搭配"
+    const wordInfo = getWordInfo(word);
+    const info = wordInfo ? { ...wordInfo } : {
+      pos: customPos || "词汇",
+      def: customDef || `${word}（真题重点考查词汇）`,
+      full: "真题语境重点词汇"
     };
 
     if (customDef) {

@@ -3116,7 +3116,7 @@
             },
             {
               "key": "C",
-              "text": "White is preferred by babies.\nᆇี൫ज@JOEE ༯໶\n\n04",
+              "text": "White is preferred by babies.\nᆇี൫ज໶\n\n04",
               "text_cn": "白色更受婴儿偏爱",
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 混淆主客观）",
@@ -5408,7 +5408,7 @@
           "options": [
             {
               "key": "A",
-              "text": "critical\nᆇี൫ज@JOEE ༯໶\n\n06",
+              "text": "critical\nᆇี൫ज໶\n\n06",
               "text_cn": "批判的",
               "is_correct": false,
               "trap_type": "干扰项（混淆主体 / 误把他人观点当作者态度）",
@@ -7345,7 +7345,7 @@
             },
             {
               "key": "D",
-              "text": "destructive\nᆇี൫ज@JOEE ༯໶",
+              "text": "destructive\nᆇี൫ज໶",
               "text_cn": "破坏性的 / 毁灭性的",
               "is_correct": false,
               "trap_type": "干扰项（过度推断 / 极端化）",

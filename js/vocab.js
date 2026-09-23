@@ -808,8 +808,9 @@
       let cleanDef = meaning;
 
       // Check window.KAOYAN_VOCAB_DICT
-      if (window.KAOYAN_VOCAB_DICT && window.KAOYAN_VOCAB_DICT[word]) {
-        const dObj = window.KAOYAN_VOCAB_DICT[word];
+      const wLow = (word || '').toLowerCase().trim();
+      const dObj = window.KAOYAN_VOCAB_DICT ? (window.KAOYAN_VOCAB_DICT[word] || window.KAOYAN_VOCAB_DICT[wLow]) : null;
+      if (dObj) {
         if (dObj.pos) {
           posText = POS_MAP[dObj.pos] || dObj.pos;
         }

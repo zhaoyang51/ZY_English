@@ -3489,7 +3489,7 @@
             },
             {
               "key": "C",
-              "text": "are less dependent on advertising \nᆇี൫ज@JOEE ༯໶\n\n04",
+              "text": "are less dependent on advertising \nᆇี൫ज໶\n\n04",
               "text_cn": "对商业广告的依赖程度显著较低",
               "is_correct": true,
               "trap_type": "★ 标准正确同义数据提炼",
@@ -5670,7 +5670,7 @@
             },
             {
               "key": "C",
-              "text": "Details were sacrificed for the overall effect.\nᆇี൫ज@JOEE ༯໶\n\n06",
+              "text": "Details were sacrificed for the overall effect.\nᆇี൫ज໶\n\n06",
               "text_cn": "为了保证整体视觉震撼力而大幅牺牲了局部细节",
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 严重抹杀设计品质）",
@@ -5901,9 +5901,9 @@
           "chunk_translation": "欧洲联盟能渡过难关吗？ / 这个问题在不久前听起来还会显得很不可思议 / 如今就连这一项目最坚定的支持者也在谈论欧洲大陆面临着债务的“百慕大三角” / 人口下降以及经济增长放缓",
           "vocabulary": [
             {
-              "word": "even its supporters begin to feel concerned \nᆇี൫ज@JOEE ༯໶\n\n07",
+              "word": "even its supporters begin to feel concerned \nᆇี൫ज໶\n\n07",
               "pos": "",
-              "definition": "【🎯解题正解】 even its supporters begin to feel concerned \nᆇี൫ज@JOEE ༯໶\n\n07"
+              "definition": "【🎯解题正解】 even its supporters begin to feel concerned \nᆇี൫ज໶\n\n07"
             },
             {
               "word": "make it",
@@ -6686,9 +6686,9 @@
           "chunk_translation": "现在就断言欧盟失败还为时过早 / 它依然是全球最大的贸易集团 / 在最佳状态下 / 欧洲一体化项目极为自由开放： / 它围绕一个由27个贫富国家组成的单一市场建立 / 其内部边界对商品、 / 资本和劳动力的开放程度远超任何具有可比性的贸易区域 / 这是一次雄心勃勃的尝试，旨在抚平全球化最锋利的棱角 / 并使资本主义更具温情与良善",
           "vocabulary": [
             {
-              "word": "hopeful\nᆇี൫ज@JOEE ༯໶",
+              "word": "hopeful\nᆇี൫ज໶",
               "pos": "",
-              "definition": "【🎯解题正解】 hopeful\nᆇี൫ज@JOEE ༯໶"
+              "definition": "【🎯解题正解】 hopeful\nᆇี൫ज໶"
             },
             {
               "word": "pessimistic",
@@ -7345,7 +7345,7 @@
             },
             {
               "key": "B",
-              "text": "even its supporters begin to feel concerned \nᆇี൫ज@JOEE ༯໶\n\n07",
+              "text": "even its supporters begin to feel concerned \nᆇี൫ज໶\n\n07",
               "text_cn": "就连它最坚定的支持者也开始感到深切忧虑",
               "is_correct": true,
               "trap_type": "★ 标准正确同义生动转抽象",
@@ -7727,7 +7727,7 @@
             },
             {
               "key": "D",
-              "text": "hopeful\nᆇี൫ज@JOEE ༯໶",
+              "text": "hopeful\nᆇี൫ज໶",
               "text_cn": "充满希望与审慎期待的",
               "is_correct": true,
               "trap_type": "★ 标准正确全局态度概括",
