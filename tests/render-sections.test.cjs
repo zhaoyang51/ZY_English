@@ -132,6 +132,8 @@ test('ClozeRenderer immediately grades upon option selection (both correct and w
   assert.ok(reviewHtml.includes('review-key'));
   assert.ok(reviewHtml.includes('正解: [B]'));
   assert.ok(!reviewHtml.includes('✖ 错误 正解'));
+  assert.ok(!reviewHtml.includes('cloze-opt-btn dimmed'), 'Review mode options should not be dimmed');
+  assert.ok(reviewHtml.includes('cloze-opt-btn review-opt'), 'Review mode options should have review-opt class');
 });
 
 test('Cloze and Part B bilingual Chinese translation toggle and data coverage (2010-2026)', () => {

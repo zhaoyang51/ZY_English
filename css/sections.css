@@ -147,8 +147,19 @@
 }
 
 .cloze-opt-btn.dimmed {
-  opacity: 0.55;
-  border-style: dashed;
+  opacity: 0.85;
+  border-style: solid;
+}
+
+/* Review Mode & Neutral Options: Solid, fully opaque, authentic clear black text */
+body.mode-review .cloze-opt-btn,
+body.mode-review .cloze-opt-btn.dimmed,
+.cloze-opt-btn.review-opt {
+  opacity: 1 !important;
+  border-style: solid !important;
+  color: var(--ink, #0f172a) !important;
+  background: var(--card-bg, #f8fafc);
+  border-color: var(--border, #cbd5e1);
 }
 
 .cloze-opt-letter {
@@ -158,7 +169,8 @@
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.06);
+  background: rgba(0, 0, 0, 0.08);
+  color: var(--ink, #0f172a);
   font-weight: 700;
   font-size: 0.85em;
   flex-shrink: 0;
@@ -844,14 +856,15 @@
 }
 
 .cloze-opt-en {
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.35;
+  color: var(--ink, #0f172a);
 }
 
 .cloze-opt-cn {
-  font-size: 0.82em;
-  color: var(--muted, #64748b);
-  font-weight: 400;
+  font-size: 0.84em;
+  color: #334155;
+  font-weight: 500;
   line-height: 1.3;
 }
 
@@ -865,6 +878,71 @@
 
 .cloze-opt-btn.wrong .cloze-opt-cn {
   color: #991b1b;
+}
+
+/* Explicit high-contrast Black Text in Review Mode */
+body.mode-review .cloze-opt-btn:not(.correct):not(.wrong) .cloze-opt-en,
+.cloze-opt-btn.review-opt .cloze-opt-en {
+  color: var(--ink, #0f172a) !important;
+  font-weight: 600;
+}
+
+body.mode-review .cloze-opt-btn:not(.correct):not(.wrong) .cloze-opt-cn,
+.cloze-opt-btn.review-opt .cloze-opt-cn {
+  color: #334155 !important;
+  font-weight: 500;
+}
+
+body.mode-review .cloze-opt-btn:not(.correct):not(.wrong) .cloze-opt-letter,
+.cloze-opt-btn.review-opt .cloze-opt-letter {
+  color: var(--ink, #0f172a) !important;
+  background: rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Parchment Theme (Warm Eye-care) - Deep Crisp Warm Black */
+body.theme-parchment .cloze-opt-btn {
+  background: #faf6f0;
+  border-color: #dcd0bf;
+  color: #1a1612 !important;
+}
+
+body.theme-parchment .cloze-opt-btn:not(.correct):not(.wrong) .cloze-opt-en,
+body.theme-parchment .cloze-opt-en {
+  color: #1a1612 !important;
+}
+
+body.theme-parchment .cloze-opt-btn:not(.correct):not(.wrong) .cloze-opt-cn,
+body.theme-parchment .cloze-opt-cn {
+  color: #3d342a !important;
+}
+
+body.theme-parchment .cloze-opt-btn:not(.correct):not(.wrong) .cloze-opt-letter,
+body.theme-parchment .cloze-opt-letter {
+  color: #1a1612 !important;
+  background: rgba(44, 37, 30, 0.1) !important;
+}
+
+/* Dark Theme - Crisp Off-White */
+body.theme-dark .cloze-opt-btn {
+  background: #1e293b;
+  border-color: #475569;
+  color: #f8fafc !important;
+}
+
+body.theme-dark .cloze-opt-btn:not(.correct):not(.wrong) .cloze-opt-en,
+body.theme-dark .cloze-opt-en {
+  color: #f8fafc !important;
+}
+
+body.theme-dark .cloze-opt-btn:not(.correct):not(.wrong) .cloze-opt-cn,
+body.theme-dark .cloze-opt-cn {
+  color: #cbd5e1 !important;
+}
+
+body.theme-dark .cloze-opt-btn:not(.correct):not(.wrong) .cloze-opt-letter,
+body.theme-dark .cloze-opt-letter {
+  color: #f8fafc !important;
+  background: rgba(255, 255, 255, 0.15) !important;
 }
 
 /* Part B Bilingual */

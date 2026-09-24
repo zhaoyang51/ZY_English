@@ -270,7 +270,7 @@
               optCls = 'wrong';
               flagHtml = '<span class="cloze-opt-flag wrong">✖ 选错项</span>';
             } else {
-              optCls = 'dimmed';
+              optCls = isReview ? 'review-opt' : 'dimmed';
             }
           } else if (isPicked) {
             optCls = 'selected';
