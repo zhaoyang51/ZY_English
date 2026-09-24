@@ -5087,9 +5087,10 @@
           "C": "whereas",
           "D": "until"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] because，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "对比并列连词",
+        "analysis": "考查分句间的强烈对比。句中对比了两种截然不同的人格特质：有些人通过与他人交往获得充沛能量，‘而另一些人（whereas some of us...）’哪怕是在做喜欢的事也会感到心力交瘁。whereas 引导并列分句表示两相对比。A项 because 表因果，B项 unless 表除非，D项 until 表时间截止，均无法形成人群性格特征的对比对仗。",
+        "context_clue": "Some of us feel energised by spending lots of time with others, ... some of us may feel drained"
       },
       {
         "qid": 2,
@@ -5099,9 +5100,10 @@
           "C": "link",
           "D": "gap"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] link，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "名词语境推断与全文核心平衡主旨",
+        "analysis": "考查文章主旨与段落承接。既然有人需要社交而有人容易耗竭，因此在社交生活中‘寻找平衡是至关重要的’（finding a balance in your social life is key）。第3段进一步呼应‘社交过多也会疲劳’，全文紧扣在适度与过量之间寻找 balance。A项 contrast（对比）、C项 link（联系）、D项 gap（差距）均脱离了社交适度平衡的核心论点。",
+        "context_clue": "finding a ... in your social life is key ... too much time on your own ... too much of a social life"
       },
       {
         "qid": 3,
@@ -5111,9 +5113,10 @@
           "C": "judging",
           "D": "teaching"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] pleasing，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "动名词短语作状语与社交见人",
+        "analysis": "考查动词短语。Spending too much time on your own, not seeing others... 指独处时间太长、‘不见其他人/不与他人往来’。see 在日常英语中常指与朋友会面相见（seeing friends/others）。B项 pleasing（取悦讨好）、C项 judging（评判他人）、D项 teaching（教育他人）均脱离了人际物理接触与社交会面的基本生活场景。",
+        "context_clue": "Spending too much time on your own, not ... others, can make you feel lonely"
       },
       {
         "qid": 4,
@@ -5124,8 +5127,9 @@
           "D": "disconnected"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] disconnected，符合文章前后文语义推进与句式结构。"
+        "category": "形容词并列修饰与与世隔绝感",
+        "analysis": "考查形容词在 and 并列结构中的语义呼应。and 前为 lonely（孤独的），孤独相伴随的是‘与周围人群/社会的脱节感与疏离感’（disconnected）。A项 misguided（被误导的）、B项 surprised（感到惊讶的）、C项 spoiled（被宠坏的/变质的）均非独处离群产生的心理孤立状态。",
+        "context_clue": "can make you feel lonely and ... . Loneliness is known to impact on your mental health"
       },
       {
         "qid": 5,
@@ -5136,8 +5140,9 @@
           "D": "go against"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] contribute to，符合文章前后文语义推进与句式结构。"
+        "category": "动词短语辨析与负面后果导致",
+        "analysis": "考查动词短语。contribute to a low mood 意为‘导致/加剧低落情绪’。众所周知，孤独会冲击心理健康并诱发不良情绪。B项 rely on（依赖）、C项 interfere with（干扰干涉）、D项 go against（违背对抗）均无法表达孤独对低落情绪起到的促生因果作用。",
+        "context_clue": "Loneliness is known to impact on your mental health and ... a low mood."
       },
       {
         "qid": 6,
@@ -5147,9 +5152,10 @@
           "C": "for example",
           "D": "on average"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] on average，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "举例说明逻辑插入短语",
+        "analysis": "考查逻辑插入语。前句指出任何人随时都可能感到孤独，本句通过居家办公作为具体特例进行印证：‘比方说/例如（for example），如果你居家远程办公，情况尤为如此’。A项 in fact（事实上）、B项 of course（当然）、D项 on average（平均而言）均不符合引入典型现实特例的举例语境。",
+        "context_clue": "This might be especially true if, ... , you are working from home"
       },
       {
         "qid": 7,
@@ -5159,9 +5165,10 @@
           "C": "breaking in",
           "D": "looking down"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] breaking in，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动词短语辨析与社交机会错失",
+        "analysis": "考查动词短语。missing out on the usual social conversations 意为‘错过了办公室日常社交交谈的机会’。miss out on 是英语高频短语，指错失良机或错过生活体验。A项 cutting back（削减缩减）、C项 breaking in（破门而入/打断）、D项 looking down（蔑视）均非表达居家办公无法参与面对面办公室闲聊的遗憾状态。",
+        "context_clue": "working from home and you are ... on the usual social conversations that happen in an office"
       },
       {
         "qid": 8,
@@ -5172,8 +5179,9 @@
           "D": "interrupt"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] trigger，符合文章前后文语义推进与句式结构。"
+        "category": "动宾搭配与孤独诱发",
+        "analysis": "考查动宾搭配。如退休、换工作或生子等人生重大转变，也可能‘诱发/触发一段时期的孤独感’（trigger periods of loneliness）。trigger 意为‘触发/引发’。A项 shorten（缩短）、C项 follow（追随）、D项 interrupt（打断）均不能体现重大人生变故作为导火索触发心理危机的因果机制。",
+        "context_clue": "Other life changes can ... periods of loneliness too, such as retirement, changing jobs"
       },
       {
         "qid": 9,
@@ -5183,9 +5191,10 @@
           "C": "provide",
           "D": "regain"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] assess，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "动宾搭配与社交生活重建找回",
+        "analysis": "考查动宾搭配与上下文情境。在经历了孤独困境后，存在诸多方法来‘重新找回/重建社交生活’（regain a social life）。regain 意为‘重新获得/恢复’，针对因人生变故而丢失的社交圈。A项 assess（评估）、B项 interpret（诠释）、C项 provide（提供）均不及 regain 能生动展现走出孤立、重振社交活力的积极作为。",
+        "context_clue": "It's important to recognise these feelings of loneliness. There are ways to ... a social life"
       },
       {
         "qid": 10,
@@ -5195,9 +5204,10 @@
           "C": "on time",
           "D": "by chance"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] on time，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "时间状语短语与初始畏难情绪",
+        "analysis": "考查时间状语短语。重塑社交生活虽有方法，但刚开始尝试时‘起初可能会让人感到压力山大/无所适从’（can feel overwhelming at first）。后句立即紧承‘It's a great idea to start by...’（从头开始的最佳途径是……），start 与 at first 形成前后呼应。B项 in turn（反过来）、C项 on time（准时）、D项 by chance（偶然碰巧）均无初始阶段的语意暗示。",
+        "context_clue": "feel overwhelming ... . It's a great idea to start by thinking about hobbies"
       },
       {
         "qid": 11,
@@ -5207,9 +5217,10 @@
           "C": "kind-hearted",
           "D": "like-minded"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] strong-willed，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "复合形容词修饰志趣相投的社群",
+        "analysis": "考查形容词在兴趣社群中的修饰。围绕自己热爱的兴趣爱好去寻找社团，能够结识‘志趣相投的人’（meet like-minded people）。like-minded 意为‘志同道合的/兴趣想法一致的’。A项 far-sighted（有远见的）、B项 strong-willed（意志坚强的）、C项 kind-hearted（心地善良的）均非基于相同爱好（hobbies）所聚集人群的核心共性标签。",
+        "context_clue": "activities related to those where you will be able to meet ... people (hobbies you enjoy)"
       },
       {
         "qid": 12,
@@ -5219,9 +5230,10 @@
           "C": "watch",
           "D": "describe"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] describe，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "动宾搭配与运动初次尝试",
+        "analysis": "考查动宾搭配与后置时间状语。try a new sport for the first time 意为‘第一次尝试一项全新运动’。try a sport 表达去尝试、参与运动项目。B项 promote（推广）、C项 watch（观看欣赏）、D项 describe（描述）均无法与亲自参与社团活动相吻合。",
+        "context_clue": "for those who want to ... a new sport for the first time"
       },
       {
         "qid": 13,
@@ -5231,9 +5243,10 @@
           "C": "accept",
           "D": "revise"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] test，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动宾搭配与行业灵感交流",
+        "analysis": "考查动宾搭配。相同职业的人聚会碰头是为了‘交流/分享行业想法与见解’（meet up and share ideas）。share ideas 为固定标准表达。A项 test（测试试验）、C项 accept（接受）、D项 revise（修订校对）均脱离了社交联谊活动中思想碰撞的基本功能。",
+        "context_clue": "networking events for those in the same profession to meet up and ... ideas"
       },
       {
         "qid": 14,
@@ -5243,9 +5256,10 @@
           "C": "also",
           "D": "only"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] thus，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "逻辑递进副词与另一面可能性",
+        "analysis": "考查篇章顺承逻辑。前段强调不要太孤僻，本段用 On the other hand 转折引入另一个极端：‘同样/也完全有可能社交过度’（it's also possible to have too much of a social life）。also 表达在硬币的另一面同样存在这种可能性。A项 already（已经）、B项 thus（因此）、D项 only（仅仅）均破坏了双向辩证平衡的逻辑。",
+        "context_clue": "On the other hand, it's ... possible to have too much of a social life."
       },
       {
         "qid": 15,
@@ -5256,8 +5270,9 @@
           "D": "boundary"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] space，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与日程时间空档",
+        "analysis": "考查日程表语境名词。如果你总在忙碌，日程表上从来没有任何留给歇息的‘空当/空余时间’（never any space in your calendar for downtime）。space 在此指日程安排上的空白间隔时间。A项 list（清单）、B项 order（秩序）、D项 boundary（边界）均非日程表中表示闲暇空档的地道用词。",
+        "context_clue": "never any ... in your calendar for downtime, you could suffer social burnout"
       },
       {
         "qid": 16,
@@ -5267,9 +5282,10 @@
           "C": "injustice",
           "D": "dilemma"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] dilemma，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "名词并列与社交疲劳耗竭",
+        "analysis": "考查并列名词与同义呼应。句式为‘suffer social burnout or social fatigue’，social fatigue（社交疲劳）与 social burnout（社交耗竭）构成紧密的同义近义并列。后文的‘low energy’直接印证了疲惫感。B项 criticism（批评）、C项 injustice（不公）、D项 dilemma（进退两难）均非过度社交带来的生理与情绪疲惫表征。",
+        "context_clue": "suffer social burnout or social ... . We all have our own social limit ... low energy"
       },
       {
         "qid": 17,
@@ -5279,9 +5295,10 @@
           "C": "signs",
           "D": "scores"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] sources，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "名词语境辨析与健康不良体征",
+        "analysis": "考查名词辨析。情绪低落、缺乏精力、易怒和失眠，这些都可能是社交健康受损的‘迹象/表征’（signs of poor social health）。A项 sources（来源）、B项 standards（标准）、D项 scores（得分）中，只有 signs 能够充当各种身体异常反应的概括总括词。",
+        "context_clue": "Low mood, low energy, irritability and trouble sleeping could all be ... of poor social health"
       },
       {
         "qid": 18,
@@ -5292,8 +5309,9 @@
           "D": "mark out"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] mark out，符合文章前后文语义推进与句式结构。"
+        "category": "动词短语辨析与日程时间预留",
+        "analysis": "考查动词短语。mark out some time in your diary 意为‘在日程本上专门勾画出/划出一段预留时间’。mark out 意为‘划分出/标示出’。A项 take over（接管）、B项 wipe off（抹去擦除）、C项 add up（加总合计）均无法表达在日常规划中给个人独处专门划拨时间的动作。",
+        "context_clue": "Make sure you ... some time in your diary when you're ... for socialising"
       },
       {
         "qid": 19,
@@ -5304,8 +5322,9 @@
           "D": "regretful"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] unavailable，符合文章前后文语义推进与句式结构。"
+        "category": "形容词在社交空档中的修饰",
+        "analysis": "考查形容词在留白时间中的修饰。预留一段你‘不参与社交活动的时间’（when you're unavailable for socialising）。unavailable 意为‘不方便接待的/不出席参与的’，表示对外界社交打扰亮起红灯。A项 ungrateful（忘恩负义的）、C项 responsible（负责的）、D项 regretful（后悔的）均不符合描述个人闭关独处的时间状态。",
+        "context_clue": "some time in your diary when you're ... for socialising and use this time to relax"
       },
       {
         "qid": 20,
@@ -5315,9 +5334,10 @@
           "C": "return",
           "D": "rest"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] return，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "动词在身心恢复中的并列搭配",
+        "analysis": "考查动词在排比结构中的语义一致性。句式为‘use this time to relax, rest and recover’，relax（放松）、rest（休息）与 recover（康复恢复）构成生理与心理修复的三部曲黄金并列。A项 react（做出反应）、B项 repeat（重复）、C项 return（返回归来）均无法与休养生息的积极恢复语境和谐相融。",
+        "context_clue": "use this time to relax, ... and recover."
       }
     ]
   },

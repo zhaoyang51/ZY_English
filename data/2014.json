@@ -7837,8 +7837,9 @@
           "D": "ensured"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] concluded，符合文章前后文语义推进与句式结构。"
+        "category": "动宾搭配与科学研究结论",
+        "analysis": "考查动宾搭配。studies have concluded that... 为学术研究类文章经典句型，意为‘大量研究得出结论……’。A项 denied（否认）、C项 doubted（怀疑）均与后文展示的实证事实相反；D项 ensured（确保，后接从句需表达保障使之发生）不符合客观研究发现的语境。",
+        "context_clue": "A number of studies have ... that normal-weight people are in fact at higher risk"
       },
       {
         "qid": 2,
@@ -7849,8 +7850,9 @@
           "D": "troublesome"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] protective，符合文章前后文语义推进与句式结构。"
+        "category": "形容词语境辨析与反常识结论",
+        "analysis": "考查形容词在特定健康语境中的修饰。前文提出核心论点‘消瘦并不总是好的’，本句进一步指出存在某些超重实际上‘具有保护性/有益’的健康状况（being overweight is actually protective）。B项 dangerous、D项 troublesome 均属于传统常识视角的负面词，与文意相反；C项 sufficient（充分的）无法修饰超重状态。",
+        "context_clue": "Thinner isn't always better ... actually ... heavier women are less likely to develop"
       },
       {
         "qid": 3,
@@ -7861,8 +7863,9 @@
           "D": "Therefore"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] Likewise，符合文章前后文语义推进与句式结构。"
+        "category": "句间类比逻辑副词",
+        "analysis": "考查分句间的语义衔接。前句举出较重女性不易骨质疏松的例子，本句紧接着在老年人群体中列举类似情况，前后两个例证呈类比平行关系，故选 Likewise（同样地）。A项 Instead 表替代对立；B项 However 表转折；D项 Therefore 表因果，均不符合顺承类比关系。",
+        "context_clue": "For example, heavier women ... , ... , among the elderly, being somewhat overweight"
       },
       {
         "qid": 4,
@@ -7873,8 +7876,9 @@
           "D": "example"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] indicator，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与信号指标",
+        "analysis": "考查名词辨析。对于老年人而言，稍微有些微胖往往是身体良好的‘风向标/指标标志’（an indicator of good health）。B项 objective（目标）、C项 origin（起源）、D项 example（例子）均无法准确表达生理状态反映健康状况的‘指标’含义。",
+        "context_clue": "being somewhat overweight is often an ... of good health"
       },
       {
         "qid": 5,
@@ -7885,8 +7889,9 @@
           "D": "concern"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] concern，符合文章前后文语义推进与句式结构。"
+        "category": "名词固定倒装句式与关切焦点",
+        "analysis": "考查结构‘Of even greater concern is the fact that...’（更为令人担忧/关注的是……这一事实）。concern 在此表示令人关切或担忧的问题。A项 impact（影响）、B项 relevance（关联性）、C项 assistance（帮助）均不符合此类引发深入讨论的固定引言结构。",
+        "context_clue": "Of even greater ... is the fact that obesity turns out to be very difficult to define"
       },
       {
         "qid": 6,
@@ -7897,8 +7902,9 @@
           "D": "in respects of"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] in terms of，符合文章前后文语义推进与句式结构。"
+        "category": "介词短语辨析与界定标准",
+        "analysis": "考查介词短语。肥胖通常‘根据/通过身体质量指数（BMI）来界定’，in terms of 意为‘根据/在……方面/依据……’。B项 in case of（万一/如果发生）、C项 in favor of（支持/赞成）、D项 in respects of（语法错误，正确为 in respect of）均无法表达衡量标准的维度。",
+        "context_clue": "often defined ... body mass index, or BMI"
       },
       {
         "qid": 7,
@@ -7909,8 +7915,9 @@
           "D": "modifies"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] equals，符合文章前后文语义推进与句式结构。"
+        "category": "动词与数学公式计算对应",
+        "analysis": "考查数学公式动词。BMI 的计算公式为体重除以身高的平方，此处 BMI 作为指标，其数值‘等于’该除法商，equals 意为‘等于’。A项 measures（测量）、B项 determines（决定）、D项 modifies（修改）均不能用作数学等式‘A 等于 B 除以 C’的谓语动词。",
+        "context_clue": "BMI ... body mass divided by the square of height"
       },
       {
         "qid": 8,
@@ -7921,8 +7928,9 @@
           "D": "in part"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] in turn，符合文章前后文语义推进与句式结构。"
+        "category": "插入语逻辑短语辨析",
+        "analysis": "考查逻辑连接短语。前文按照 BMI 分数值界定了正常、超重和肥胖，接着指出肥胖‘进而/反过来’（in turn）又可以进一步细分为中度、重度和极重度肥胖。A项 in essence（本质上）、B项 in contrast（对比之下）、D项 in part（部分地）均不如 in turn 表现层级细分的逻辑流。",
+        "context_clue": "over 30 is considered obese. Obesity, ... , can be divided into"
       },
       {
         "qid": 9,
@@ -7933,8 +7941,9 @@
           "D": "straightforward"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] straightforward，符合文章前后文语义推进与句式结构。"
+        "category": "形容词在让步转折从句中的修饰",
+        "analysis": "考查形容词在 While 从句中的含义。While such numerical standards seem straightforward, they are not. 句意为‘虽然此类数字标准看似直截了当/简单明了，但其实不然’。straightforward 意为‘直观明了的’，与后文揭示的复杂性形成鲜明对比。A项 complicated（复杂的，填入与 they are not 逻辑相撞）、B项 conservative（保守的）、C项 variable（多变的）均不合逻辑。",
+        "context_clue": "While such numerical standards seem ... , they are not."
       },
       {
         "qid": 10,
@@ -7945,8 +7954,9 @@
           "D": "unless"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] while，符合文章前后文语义推进与句式结构。"
+        "category": "对比并列连词",
+        "analysis": "考查对比连词。前后两部分构成平行对比：一些高 BMI 的人实际上身体非常健硕，‘而’（while）另一些低 BMI 的人身体状况却很差。while 连接并列分句表示对比强烈的两类人群。A项 so 表因果，C项 since 表原因，D项 unless 表否定条件，均无法构成人群对比。",
+        "context_clue": "extremely fit, ... others with a low BMI may be in poor"
       },
       {
         "qid": 11,
@@ -7957,8 +7967,9 @@
           "D": "taste"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] shape，符合文章前后文语义推进与句式结构。"
+        "category": "名词与健康体能固定短语搭配",
+        "analysis": "考查固定习语搭配。in poor shape 意为‘身体健康状况不佳/体能差’，与前半句的 extremely fit 构成精准反义对仗。B项 in spirit（精神上）、C项 in balance（平衡）、D项 in taste（有品位）均脱离了身体素质与体型的健康语境。",
+        "context_clue": "extremely fit, while others ... may be in poor ..."
       },
       {
         "qid": 12,
@@ -7969,8 +7980,9 @@
           "D": "stay"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] qualify，符合文章前后文语义推进与句式结构。"
+        "category": "动词与职业/生理标准分类搭配",
+        "analysis": "考查动词用法。qualify as... 意为‘符合……标准/达到……资格/被算作……’。许多专业橄榄球运动员体脂率极低，但由于肌肉发达导致体重极大，因此在数值指标上‘被划定为肥胖’。A项 start、C项 retire（退休）、D项 stay（保持）均无法与 as obese 搭配表达‘被划定为’。",
+        "context_clue": "many collegiate and professional football players ... as obese, though their percentage body fat is low"
       },
       {
         "qid": 13,
@@ -7981,8 +7993,9 @@
           "D": "constant"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] normal，符合文章前后文语义推进与句式结构。"
+        "category": "形容词语境对比反差",
+        "analysis": "考查反义对比。前句说运动员‘体脂低但属于肥胖 BMI’；本句用 Conversely（相反）引出‘骨架小的人体脂率很高，但 BMI 却是正常的（normal BMI）’。A项 strange（奇怪的）、B项 changeable（多变的）、D项 constant（恒定的）均无法与 high body fat 构成医学上的伪正常悖论对比。",
+        "context_clue": "Conversely, someone with a small frame may have high body fat but a ... BMI"
       },
       {
         "qid": 14,
@@ -7993,8 +8006,9 @@
           "D": "tendency"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] tendency，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与社会心理",
+        "analysis": "考查名词固定搭配与社会心理。have a tendency to do sth 意为‘有……的倾向’。当今社会‘存在一种将肥胖贴上耻辱标签的倾向’。A项 option（选择）、B项 reason（理由）、C项 opportunity（机会）均不能准确刻画全社会带有偏见的集体心态倾斜。",
+        "context_clue": "we have a(n) ... to label obesity as a disgrace"
       },
       {
         "qid": 15,
@@ -8005,8 +8019,9 @@
           "D": "monitored"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] pictured，符合文章前后文语义推进与句式结构。"
+        "category": "动词被动语态与媒体报道形式",
+        "analysis": "考查动宾搭配。媒体在报道中对超重人群进行视觉呈现，选 pictured（被展示/被拍摄肖像）。由于带有偏见，他们在媒体报道中‘被展示时面部往往被打上马赛克或遮挡’。A项 employed（被雇佣）、C项 imitated（被模仿）、D项 monitored（被监控）均与 media with their faces covered 的视觉报道情境脱节。",
+        "context_clue": "The overweight are sometimes ... in the media with their faces covered"
       },
       {
         "qid": 16,
@@ -8017,8 +8032,9 @@
           "D": "associated"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] associated，符合文章前后文语义推进与句式结构。"
+        "category": "过去分词短语作后置定语与固定搭配",
+        "analysis": "考查固定短语搭配。stereotypes associated with obesity 意为‘与肥胖相关的刻板印象’。be associated with 意为‘与……相关联’。A项 compared（与……相比）、B项 combined（与……结合）、C项 settled（被解决）均不能与偏见刻板印象构成自然的关联定语。",
+        "context_clue": "Stereotypes ... with obesity include laziness, lack of will power"
       },
       {
         "qid": 17,
@@ -8029,8 +8045,9 @@
           "D": "Only"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] Even，符合文章前后文语义推进与句式结构。"
+        "category": "副词递进强调与极端群体举例",
+        "analysis": "考查副词递进修饰。上文提到老师、雇主和医护人员对肥胖者存在偏见，本句进一步递进强调：‘甚至（Even）非常年幼的孩子也往往瞧不起超重者’，通过极端未成年人案例突显偏见的无孔不入。B项 Still（仍然）、C项 Yet（然而）、D项 Only（只有）均无法表达这种突破底线的递进程度。",
+        "context_clue": "Teachers, employers ... biases ... ... very young children tend to look down on"
       },
       {
         "qid": 18,
@@ -8041,8 +8058,9 @@
           "D": "grounded"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] grounded，符合文章前后文语义推进与句式结构。"
+        "category": "过去分词短语作后置定语与根基渊源",
+        "analysis": "考查固定短语搭配。grounded in health concerns 意为‘根植于/基于对健康的担忧’。be grounded in... 意为‘以……为依据/基础’。A项 despised（被鄙视）、B项 corrected（被纠正）、C项 ignored（被忽视）在语义上均与后半句由担忧促成的多项健康倡议行动相矛盾。",
+        "context_clue": "Negative attitudes ... , ... in health concerns, have stimulated a number of anti-obesity policies"
       },
       {
         "qid": 19,
@@ -8053,8 +8071,9 @@
           "D": "studies"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] policies，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与公共卫生行动",
+        "analysis": "考查名词在组织行动层面的含义。后文具体列举医院‘禁止含糖饮料’（banned sugary drinks）和企业设立减重方案，说明对肥胖的负面态度催生了一系列‘反肥胖政策/举措’（anti-obesity policies）。A项 discussions（讨论）、B项 businesses（商业交易）、D项 studies（学术研究）均不如 policies 能涵盖医院规章与国家倡议的行政实践属性。",
+        "context_clue": "hospital system has banned sugary drinks ... instituted weight loss and fitness initiatives"
       },
       {
         "qid": 20,
@@ -8065,8 +8084,9 @@
           "D": "without"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] against，符合文章前后文语义推进与句式结构。"
+        "category": "介词与运动抵御目标搭配",
+        "analysis": "考查介词搭配。campaign against sth 意为‘反对/抗击……的社会运动’。米歇尔·奥巴马发起了一场轰轰烈烈的‘抗击儿童肥胖的运动’（campaign against childhood obesity）。A项 for（支持，逻辑截然相反）、C项 with（带有）、D项 without（没有）均无法与反击健康威胁的 campaign 形成有效搭配。",
+        "context_clue": "launched a high-visibility campaign ... childhood obesity, even claiming that it represents"
       }
     ]
   },

@@ -7282,9 +7282,10 @@
           "C": "instructive",
           "D": "tricky"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] pleasant，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "形容词语境辨析与教育难题",
+        "analysis": "考查形容词语义与转折逻辑。前句指出每位家长都想成为好父母，但转折连词 But 提示：界定什么是好父母无疑是极其‘棘手的/难把握的’（very tricky），因为每个孩子对相同教养方式的反应截然不同。A项 tedious（乏味冗长的）、B项 pleasant（令人愉快的）、C项 instructive（有教育意义的）均无法表达下文因个体差异所造成的界定难度。",
+        "context_clue": "But defining what it means to be a good parent is undoubtedly very ... , particularly since children respond differently"
       },
       {
         "qid": 2,
@@ -7294,9 +7295,10 @@
           "C": "at once",
           "D": "by accident"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] by accident，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "举例说明逻辑插入短语",
+        "analysis": "考查插入语用法。前句提出沉稳听话的孩子适应某种教养方式，随后用 for example（例如）引出对比：‘比方说，年纪更小的弟弟妹妹（可能就适应完全不同的方式）’。A项 in addition（此外）、C项 at once（立刻）、D项 by accident（偶然）均非用于举例对比。",
+        "context_clue": "than, ... , a younger sibling"
       },
       {
         "qid": 3,
@@ -7307,8 +7309,9 @@
           "D": "Eventually"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] Fortunately，符合文章前后文语义推进与句式结构。"
+        "category": "篇章转折推进副词",
+        "analysis": "考查副词逻辑。上一段讲定义好父母很棘手，本段转折指出：‘幸运的是（Fortunately），有一种父母类型更容易描述——那便是富有耐心的父母’。Fortunately 引出转机和积极解决路径。B项 Occasionally（偶尔）、C项 Accordingly（因此）、D项 Eventually（最终）均不符合从困境引出幸好有解的文气。",
+        "context_clue": "... , there's another sort of parent that's a bit easier to describe: a patient parent."
       },
       {
         "qid": 4,
@@ -7319,8 +7322,9 @@
           "D": "train"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] describe，符合文章前后文语义推进与句式结构。"
+        "category": "动词与前文定义形成互证呼应",
+        "analysis": "考查动词语义与前文呼应。第一段说‘defining... is tricky’，本段承接说有另一种父母更容易‘描绘/定义’（easier to describe）。A项 amuse（逗乐）、B项 assist（协助）、D项 train（训练）均脱离了定义阐述教养类型的语言学范畴。",
+        "context_clue": "defining what it means ... another sort of parent that's a bit easier to ... "
       },
       {
         "qid": 5,
@@ -7330,9 +7334,10 @@
           "C": "unless",
           "D": "once"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] because，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "让步状语从句连词",
+        "analysis": "考查让步连词。Still, while every parent would like to be patient, this is no easy task. 句意为‘然而，尽管（while）每位父母都渴望保持耐心，但这也绝非易事’。while 引导让步状语从句表示‘虽然/尽管’。B项 because 表原因，C项 unless 表除非，D项 once 表一旦，均破坏了愿望与难度之间的让步转折。",
+        "context_clue": "Still, ... every parent would like to be patient, this is no easy task."
       },
       {
         "qid": 6,
@@ -7342,9 +7347,10 @@
           "C": "choice",
           "D": "access"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] choice，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "名词语境辨析与艰巨任务",
+        "analysis": "考查名词固定表达。this is no easy task 意为‘这绝非易事/绝非一项简单的任务’。A项 answer（答案）、C项 choice（选择）、D项 access（通道/进入权）中，只有 task 能与 easy 形成评述某件事履行难度的经典搭配。",
+        "context_clue": "every parent would like to be patient, this is no easy ... "
       },
       {
         "qid": 7,
@@ -7355,8 +7361,9 @@
           "D": "critical"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] tolerant，符合文章前后文语义推进与句式结构。"
+        "category": "形容词并列修饰与冷静包容",
+        "analysis": "考查形容词在 and 并列结构中的语义一致性。and 后是 composed（镇定自若的），与 composed 语意色彩最相称的是 tolerant（宽容容忍的），二者共同描绘心平气和、包容沉稳的教养风格。B项 formal（刻板正式的）、C项 rigid（僵化死板的）、D项 critical（批评挑剔的）均带有负面或冷漠色彩，与 patient 精神完全背离。",
+        "context_clue": "maintain a ... and composed style with their kids"
       },
       {
         "qid": 8,
@@ -7366,9 +7373,10 @@
           "C": "push",
           "D": "send"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] send，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "动宾短语与突破容忍极限",
+        "analysis": "考查动词固定搭配。push sb too far 为地道成语，意为‘把某人逼得太甚/逼到忍无可忍的极限’。孩子偶尔调皮捣蛋把父母逼得突破了忍耐底线。A项 move、B项 drag、D项 send 均无法与 you just a little too far 构成‘挑战容忍极限’的标准用法。",
+        "context_clue": "You're only human, and sometimes your kids can ... you just a little too far."
       },
       {
         "qid": 9,
@@ -7378,9 +7386,10 @@
           "C": "suspicious",
           "D": "inevitable"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] illogical，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "形容词作名词与必然发生的破防时刻",
+        "analysis": "考查名词化形容词表达。And then the inevitable happens: You lose your patience... 意为‘紧接着，那不可避免的一幕发生了：你终于失去了耐心，对孩子大发雷霆’。inevitable 意为‘不可避免的事情’。A项 mysterious（神秘的）、B项 illogical（不合逻辑的）、C项 suspicious（可疑的）均脱离了在极限压迫下破防发火的必然人性反应。",
+        "context_clue": "kids can push you just a little too far. And then the ... happens: You lose your patience"
       },
       {
         "qid": 10,
@@ -7390,9 +7399,10 @@
           "C": "harsh",
           "D": "vague"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] boring，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "形容词在言语伤害中的修饰",
+        "analysis": "考查形容词语义。发火时父母可能对孩子大吼，或者说出某些‘过于刺耳严苛的话语’（a bit too harsh），伤害感情且无济于事。harsh 意为‘严酷刻薄/刺耳难听的’。A项 boring（无聊的）、B项 naive（幼稚的）、D项 vague（模糊的）均无法解释下文造成的严重心理阴影与后悔。",
+        "context_clue": "scream at your kids or say something that was a bit too ... and does nobody any good"
       },
       {
         "qid": 11,
@@ -7402,9 +7412,10 @@
           "C": "set aside",
           "D": "cover up"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] cover up，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "动词短语搭配与时光倒流",
+        "analysis": "考查固定成语搭配。turn back the clock 意为‘使时光倒流/回到过去’。事后父母深感懊悔，‘恨不得时光倒流，一切重新来过’。B项 take apart（拆开）、C项 set aside（留出/搁置）、D项 cover up（掩盖事实）均不能与 the clock 搭配表达悔恨时渴望光阴倒流的心情。",
+        "context_clue": "You wish that you could ... the clock and start over. We've all been there."
       },
       {
         "qid": 12,
@@ -7415,8 +7426,9 @@
           "D": "Otherwise"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] However，符合文章前后文语义推进与句式结构。"
+        "category": "篇章转折逻辑副词",
+        "analysis": "考查段首转折。上一段讲这种发脾气虽然司空见惯（We've all been there），但本段严肃指出：‘然而（However），虽然很常见，但必须牢记疲劳时脱口而出的话可能让人后悔长久’。A项 Overall（大体上）、B项 Instead（相反）、D项 Otherwise（否则）均破坏了从同情理解转入严肃警示的转折逻辑。",
+        "context_clue": "We've all been there. ... , even though it's common, it's important to keep in mind"
       },
       {
         "qid": 13,
@@ -7426,9 +7438,10 @@
           "C": "believe",
           "D": "regret"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] miss，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "动词语境辨析与言辞悔恨",
+        "analysis": "考查动词语义与前文呼应。你在疲倦时刻脱口而出的话，可能会让你‘在很长一段时间内都深感悔恨自责’（may regret for a long time）。A项 like（喜欢）、B项 miss（想念）、C项 believe（相信）在此完全与伤害孩子的愧疚情境相悖。",
+        "context_clue": "say something to your child that you may ... for a long time"
       },
       {
         "qid": 14,
@@ -7438,9 +7451,10 @@
           "C": "justify",
           "D": "reflect"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] raise，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动宾搭配与自尊心伤害",
+        "analysis": "考查动宾搭配与并列逻辑。句式为‘not only do damage to... but also affect your child's self-esteem’，暴怒言语不仅破坏亲子关系，更会‘负面损害/严重影响孩子的自尊心’。affect 在此指产生不良影响。A项 raise（提升）、C项 justify（证明合理）、D项 reflect（反映）均无法与 do damage 构成同向的危害并列。",
+        "context_clue": "not only do damage to your relationship ... but also ... your child's self-esteem"
       },
       {
         "qid": 15,
@@ -7451,8 +7465,9 @@
           "D": "cool"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] cool，符合文章前后文语义推进与句式结构。"
+        "category": "动词短语成语搭配与情绪失控",
+        "analysis": "考查固定习语搭配。lose one's cool 意为‘失去冷静/沉不住气/发脾气’。前文已有 lose your patience，此处用 lose your cool 构成同义替换。A项 lose your time、B项 lose your bond、C项 lose your race 均非指代情绪失控的标准成语。",
+        "context_clue": "consistently lose your ... with your kids ... modeling a lack of emotional control"
       },
       {
         "qid": 16,
@@ -7463,8 +7478,9 @@
           "D": "context"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] importance，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与榜样示范价值",
+        "analysis": "考查名词辨析。后文指出这是‘帮助孩子终生受益的技能’，因此全社会越来越意识到为年轻一代树立包容与耐心榜样的‘重要性’（the importance of modeling tolerance and patience）。A项 nature（本质）、B项 secret（秘密）、D项 context（背景语境）均脱离了对核心价值意识的强调。",
+        "context_clue": "increasingly aware of the ... of modeling tolerance ... will help them all throughout life"
       },
       {
         "qid": 17,
@@ -7474,9 +7490,10 @@
           "C": "confused",
           "D": "confronted"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] defeated，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "过去分词短语作状语与压力迎面袭来",
+        "analysis": "考查固定短语搭配。when confronted by stress 意为‘当面临/遭遇压力之时’。be confronted by 意为‘面临/面对’。A项 cheated（被欺骗）、B项 defeated（被击败）、C项 confused（被困惑）均非表达置身于压力情境的标准学术心理用词。",
+        "context_clue": "maintain emotional control when ... by stress is one of the most important of all life's skills"
       },
       {
         "qid": 18,
@@ -7486,9 +7503,10 @@
           "C": "strange",
           "D": "wrong"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] wrong，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "形容词语境呼应与绝对耐心的艰难",
+        "analysis": "考查形容词与前文 no easy task 形成呼应。句意为‘在任何时刻都对孩子保持绝对耐心是极其困难的’（incredibly hard to maintain patience at all times）。后文顺势建议采取更务实的目标（A more practical goal）。A项 terrible（可怕的）、C项 strange（奇怪的）、D项 wrong（错误的）均未能准确对应达成这一目标的艰巨度。",
+        "context_clue": "Certainly, it's incredibly ... to maintain patience at all times ... A more practical goal is"
       },
       {
         "qid": 19,
@@ -7499,8 +7517,9 @@
           "D": "surprising"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] trying，符合文章前后文语义推进与句式结构。"
+        "category": "形容词在棘手考验处境中的修饰",
+        "analysis": "考查形容词特殊语义。trying 在作形容词时意为‘令人厌烦的/难熬的/极考验人耐心的’，trying situations 指令人抓狂、考验耐心的家庭突发情境。B项 changing（变化的）、C项 exciting（令人激动的）、D项 surprising（令人惊讶的）均未能体现出对父母耐性的极端考验。",
+        "context_clue": "as tolerant and composed as you can when faced with ... situations involving your children"
       },
       {
         "qid": 20,
@@ -7510,9 +7529,10 @@
           "C": "withdraw",
           "D": "escape"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] withdraw，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动词与介词短语搭配及摆脱走出身心压力",
+        "analysis": "考查动词短语搭配。emerge from stressful moments 意为‘从充满压力的时刻中安然脱身/走出阴霾’。emerge from 表示走出困境。A项 hide from（躲避）、C项 withdraw from（撤离退避）、D项 escape from（仓皇逃脱）均不符合经过自我调整后身心更加健康的积极成长意象。",
+        "context_clue": "benefit and ... from stressful moments feeling better physically and emotionally"
       }
     ]
   },

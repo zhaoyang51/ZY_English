@@ -7248,9 +7248,10 @@
           "C": "ticket",
           "D": "record"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] ticket，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "名词语境推断与现代生活场景",
+        "analysis": "考查名词在地铁场景中的实际意义。首段描述现代人极其抗拒与身边的陌生人交流甚至对视，所有人都紧紧抓着手机，‘哪怕在地铁里根本没有手机信号’（even without a signal on a subway）。A项 signal 完美契合地铁弱网断网环境。B项 permit（许可证）、C项 ticket（车票，坐地铁不可能没车票）、D项 record（记录）在句意上均荒谬离题。",
+        "context_clue": "cling to their phones, even without a ... on a subway"
       },
       {
         "qid": 2,
@@ -7261,8 +7262,9 @@
           "D": "much"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] much，符合文章前后文语义推进与句式结构。"
+        "category": "代词在篇章主旨中的语义辨析",
+        "analysis": "考查代词语义。句意为‘我们逃避与他人互动是一个可悲的现实，因为与身旁的陌生人交谈其实是大有收获的（there's much to be gained）’。A项 nothing（毫无收获）与 B项 little（几乎毫无收获）与全文强调与陌生人交谈具有极大心理价值的主旨背道而驰；C项 another 词性不符。",
+        "context_clue": "It's a sad reality ... because there's ... to be gained from talking to the stranger"
       },
       {
         "qid": 3,
@@ -7272,9 +7274,10 @@
           "C": "guided",
           "D": "brought"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] guided，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "过去分词短语作状语与习惯表达",
+        "analysis": "考查形象动词的修饰用法。plugged into your phone 意为‘沉浸/插在手机里’，形象地描绘低头族戴着耳机、眼睛死盯着屏幕与外界隔绝的状态。A项 beaten（被打败）、C项 guided（被引导）、D项 brought（被带来）均无法描绘沉迷电子设备的典型生活神态。",
+        "context_clue": "you wouldn't know it, ... into your phone ... hide behind our screens"
       },
       {
         "qid": 4,
@@ -7285,8 +7288,9 @@
           "D": "sign"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] message，符合文章前后文语义推进与句式结构。"
+        "category": "动宾搭配与社交信号",
+        "analysis": "考查固定动宾短语。send the message 意为‘传达出……的信息/信号’。后文双引号中的‘请不要靠近我’（Please don't approach me）就是低头玩手机所释放出的社交信号。B项 code（代码/准则）、C项 notice（通知）、D项 sign（迹象/标牌）均不如 message 能接同位语从句表达具体的沟通信息意图。",
+        "context_clue": "sends the ... : 'Please don't approach me.'"
       },
       {
         "qid": 5,
@@ -7297,8 +7301,9 @@
           "D": "from"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] behind，符合文章前后文语义推进与句式结构。"
+        "category": "空间介词比喻用法",
+        "analysis": "考查空间隐喻介词。hide behind our screens 意为‘躲在手机屏幕背后’，屏幕在此被比作逃避现实社交接触的屏障。A项 under（在……下方）、B项 beyond（在……那一头/超越）、D项 from（从……离开）均无法生动勾勒以手机屏幕作为心理掩体隐匿自我的姿态。",
+        "context_clue": "hide ... our screens ... Phones become our security blanket"
       },
       {
         "qid": 6,
@@ -7308,9 +7313,10 @@
           "C": "misadjusted",
           "D": "mismatched"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] misapplied，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动词前缀与社交误解辨析",
+        "analysis": "考查动词被动语态。后文指出被视作‘古怪’（weird），说明我们害怕自己纯真友善的社交举动被对方‘误解/歪曲理解’（misinterpreted as 'weird'）。A项 misapplied（被误用）、C项 misadjusted（未调好的）、D项 mismatched（不相配的）均不能指对人际社交意图的误读。",
+        "context_clue": "fear rejection, or that our innocent social advances will be ... as 'weird'"
       },
       {
         "qid": 7,
@@ -7320,9 +7326,10 @@
           "C": "replaced",
           "D": "delayed"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] fired，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "动词在社交焦虑中的被动表达",
+        "analysis": "考查动词语义。在与陌生人沟通的恐惧中，核心心理包括害怕被拒绝、被视为怪人以及‘害怕被他人评头论足/审判挑剔’（fear we'll be judged）。B项 fired（被解雇，坐地铁不会导致被解雇）、C项 replaced（被替换）、D项 delayed（被耽误）均脱离了社交心理焦虑的范畴。",
+        "context_clue": "We fear rejection ... We fear we'll be ... . We fear we'll be disruptive."
       },
       {
         "qid": 8,
@@ -7333,8 +7340,9 @@
           "D": "unfamiliar"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] unfamiliar，符合文章前后文语义推进与句式结构。"
+        "category": "形容词语境推断与陌生人定义",
+        "analysis": "考查形容词对陌生人属性的描述。前文探讨陌生人，本句明确指出‘陌生人对我们而言天然是陌生的/不熟悉的’（inherently unfamiliar to us）。A项 unreasonable（不讲理的）、B项 ungrateful（忘恩负义的）、C项 unconventional（非传统的）均含有主观道德评价色彩，并非陌生人的本质属性。",
+        "context_clue": "Strangers are inherently ... to us, so we are more likely to feel ... compared with our friends"
       },
       {
         "qid": 9,
@@ -7344,9 +7352,10 @@
           "C": "anxious",
           "D": "angry"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] confident，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "形容词情感色彩辨析",
+        "analysis": "考查因果逻辑与情感形容词。既然陌生人令人生疏，那么相比于熟人和朋友，我们在与陌生人交流时自然更可能感到‘焦虑不安’（anxious）。后句立即紧承‘To avoid this uneasiness’（为了避免这种不安），uneasiness 与 anxious 形成词汇互证复现。A项 comfortable（舒适的）、B项 confident（自信的）、D项 angry（愤怒的）均与后文的 uneasiness 矛盾。",
+        "context_clue": "more likely to feel ... ... To avoid this uneasiness"
       },
       {
         "qid": 10,
@@ -7356,9 +7365,10 @@
           "C": "take",
           "D": "point"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] point，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动词短语搭配与求助回避行为",
+        "analysis": "考查固定短语搭配。turn to sth 意为‘求助于/转向……’。为了回避社交带来的不安感，我们纷纷‘转而沉浸于手机之中’。A项 attend to（处理/照料）、C项 take to（喜欢上/养成习惯）、D项 point to（指向）均不能准确表达在不安时刻寻求心理庇护的习惯性行为。",
+        "context_clue": "To avoid this uneasiness, we ... to our phones. 'Phones become our security blanket'"
       },
       {
         "qid": 11,
@@ -7369,8 +7379,9 @@
           "D": "boring"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] dangerous，符合文章前后文语义推进与句式结构。"
+        "category": "形容词在感知恐惧中的修饰",
+        "analysis": "考查形容词在比喻语境中的修饰。手机就像安全毯，‘保护我们免受外界被我们视作更具危险性/威胁性的事物’（perceive is going to be more dangerous）。B项 mysterious（神秘的）、C项 violent（暴力的）、D项 boring（无聊的）均不如 dangerous 能呼应前文贯穿的 fear、anxious 和 uneasiness。",
+        "context_clue": "protect us from what we perceive is going to be more ... (fear, rejection, weird)"
       },
       {
         "qid": 12,
@@ -7380,9 +7391,10 @@
           "C": "hurt",
           "D": "decay"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] bend，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "动词习语与痛苦感知",
+        "analysis": "考查动词语义与固定表达。前文用‘撕下创口贴’（rip off the band-aid）作比喻，承接的句子表示‘其实并没有那么痛苦/伤人’（it doesn't hurt so bad）。A项 bend（弯曲）、B项 resist（抵抗）、D项 decay（衰退）均无法与撕创口贴的比喻相连表达肉体或心理上的痛感。",
+        "context_clue": "once we rip off the band-aid ... it doesn't ... so bad"
       },
       {
         "qid": 13,
@@ -7392,9 +7404,10 @@
           "C": "conversation",
           "D": "negotiation"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] debate，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "动宾核心搭配与破冰社交",
+        "analysis": "考查动宾搭配。行为科学家要求通勤乘客做一件难以想象的事情：‘主动与人攀谈/开启一段谈话’（Start a conversation）。A项 lecture（发表演讲）、B项 debate（发起辩论）、D项 negotiation（开启谈判）均为正式严肃交流形式，完全背离了地铁上陌生人之间随意的日常破冰交谈。",
+        "context_clue": "Start a ... . They had Chicago train commuters talk to their fellow"
       },
       {
         "qid": 14,
@@ -7405,8 +7418,9 @@
           "D": "passengers"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] passengers，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与列车乘客角色",
+        "analysis": "考查名词在列车环境中的角色。实验对象是芝加哥的火车通勤者（Chicago train commuters），他们被要求与身边的‘同车乘客’（fellow passengers）交谈。A项 trainees（实习生）、B项 employees（雇员）、C项 researchers（研究员）均非火车上普通同路人的正确身份名词。",
+        "context_clue": "train commuters talk to their fellow ... in the same train station"
       },
       {
         "qid": 15,
@@ -7417,8 +7431,9 @@
           "D": "design"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] predict，符合文章前后文语义推进与句式结构。"
+        "category": "动词语境辨析与心理实验预期",
+        "analysis": "考查动词语义。在实验前，研究者让其他通勤者‘预估/预测’（predict）自己与陌生人交谈后的感受，结果人们事先普遍预期单独坐着更舒服。A项 reveal（揭示）、B项 choose（选择）、D项 design（设计）均不能表达对未来情绪体验的事先预判。",
+        "context_clue": "asked other people ... to ... how they would feel after talking"
       },
       {
         "qid": 16,
@@ -7429,8 +7444,9 @@
           "D": "ride"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] ride，符合文章前后文语义推进与句式结构。"
+        "category": "名词在交通工具旅程中的代指",
+        "analysis": "考查名词在列车出行中的含义。通勤者事先预测如果自己一个人坐，‘这段乘车旅程’（their ride）会更加惬意愉快。A项 voyage（长途航海）、B项 flight（飞机航班）、C项 walk（步行）均与坐火车的交通方式不符，乘火车的一段路途标准称谓即 ride。",
+        "context_clue": "commuters thought their ... would be more pleasant if they sat on their own"
       },
       {
         "qid": 17,
@@ -7441,8 +7457,9 @@
           "D": "put up"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] went through，符合文章前后文语义推进与句式结构。"
+        "category": "动词短语辨析与实验完成",
+        "analysis": "考查动词短语。go through with sth 意为‘把……做到底/完成（尤指原本心存疑虑的事）’。尽管参与者原先不抱积极期望，但在他们‘真正完成了这项实验后’（after they went through with the experiment），没有任何人感到尴尬。B项 did away with（废除）、C项 caught up with（赶上）、D项 put up with（忍受）均无法搭配实验的执行完成。",
+        "context_clue": "after they ... with the experiment, 'not a single person reported having been embarrassed.'"
       },
       {
         "qid": 18,
@@ -7452,9 +7469,10 @@
           "C": "In particular",
           "D": "In consequence"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] In particular，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "篇章逻辑连接短语与事实反转",
+        "analysis": "考查逻辑连接词。上一段指出原以为会尴尬，结果无人感到尴尬；本句紧接着指出实际真相：‘事实上，据报告这些充满交谈的通勤过程比没有交谈的更令人愉悦’，选 In fact（事实上）。A项 In turn（反过来/轮流）、C项 In particular（尤其）、D项 In consequence（因此）均不如 In fact 能强有力地引出颠覆预期的真实实验结果。",
+        "context_clue": "Though the participants didn't expect ... , ... , these commutes were reportedly more enjoyable"
       },
       {
         "qid": 19,
@@ -7464,9 +7482,10 @@
           "C": "if",
           "D": "since"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] whereas，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "原因状语从句连词",
+        "analysis": "考查原因状语从句。交谈让人感到愉悦是完全合情合理的，‘因为（since）人类靠社交联系而生机勃勃地繁衍发展’。since 引导原因状语从句阐明生物进化与社会心理根源。A项 unless 表除非，B项 whereas 表对比转折，C项 if 表条件假设，均无法解释合乎常理的原因。",
+        "context_clue": "which makes absolute sense, ... human beings thrive off of social connections"
       },
       {
         "qid": 20,
@@ -7477,8 +7496,9 @@
           "D": "rare"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] simple，符合文章前后文语义推进与句式结构。"
+        "category": "形容词在总结陈词中的用法",
+        "analysis": "考查习惯口语表达。It's that simple 为英语总结名句，意为‘事情其实就这么简单’。后文冒号给出精辟总结：与陌生人交谈能让你感到自己与世界彼此相连。A项 funny（滑稽好笑的）、C项 logical（合乎逻辑的）、D项 rare（罕见的）均破坏了文章最后大道至简的干练总结语力。",
+        "context_clue": "It's that ... : Talking to strangers can make you feel connected."
       }
     ]
   },

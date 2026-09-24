@@ -101,9 +101,9 @@ test('ClozeRenderer immediately grades upon option selection (both correct and w
   assert.ok(initialHtml.includes('未作答'));
   assert.ok(initialHtml.includes('cloze-dashboard'));
 
-  // 2. Select Question 1 with correct answer ('B') and Question 2 with wrong answer ('A')
-  // For 2012, Q1 answer is 'B', Q2 answer is 'B'
-  context.localStorage.setItem('kaoyan_cloze_2012', JSON.stringify({ 1: 'B', 2: 'A' }));
+  // 2. Select Question 1 with correct answer ('A') and Question 2 with wrong answer ('A')
+  // For 2012, Q1 verified answer is 'A' (served), Q2 answer is 'B' (common)
+  context.localStorage.setItem('kaoyan_cloze_2012', JSON.stringify({ 1: 'A', 2: 'A' }));
   context.window.ClozeRenderer.render(data.use_of_english, 2012, 'practice');
 
   const gradedHtml = document.getElementById('workspaceContent').innerHTML;

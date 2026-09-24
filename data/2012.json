@@ -7562,9 +7562,10 @@
           "C": "rebelled",
           "D": "betrayed"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] performed，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "动词语境与介词搭配",
+        "analysis": "考查动词与介词 in 及历史事件的搭配。句意为‘对于那些在二战中服役的男女军人以及被他们解放的人民而言’。serve in World War II 为历史军事语境标准搭配，意为‘服役于二战’。B项 performed 虽有‘履行/执行’之意，但接 duties 时需为及物动词，不与 in the war 直接搭配；C项 rebelled（叛乱/造反）和 D项 betrayed（背叛）与解放民众的崇高语境完全相反。",
+        "context_clue": "men and women who ... in World War II and the people they liberated"
       },
       {
         "qid": 2,
@@ -7575,8 +7576,9 @@
           "D": "normal"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] common，符合文章前后文语义推进与句式结构。"
+        "category": "形容词语境辨析与人物形象",
+        "analysis": "考查形容词对人物身份的修饰。后文的同位语解释提到‘the poor farm kid torn away from his home’（远离家乡的贫苦农家孩子）以及‘average guy’，说明 G.I. 代表的是‘普通人’变成英雄。common man 意为‘普通人/草根大众’，与英雄形成平民英雄主义的鲜明张力。A项 actual（真实的）、C项 special（特殊的）、D项 normal（正常的，侧重无精神/生理异常）均无法贴合平民草根的社会阶层定位。",
+        "context_clue": "poor farm kid ... average guy"
       },
       {
         "qid": 3,
@@ -7586,9 +7588,10 @@
           "C": "removed",
           "D": "bore"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] loaded，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "动宾核心搭配",
+        "analysis": "考查动词过去式与 burden 的固定搭配。bear the burden 为英语经典搭配，意为‘承担重担/负重前行’，此处过去式 bore 完美充当 who 从句的谓语。A项 loaded（装载）若表示负重常用被动 be loaded with，不主动接 burdens；B项 eased（减轻）、C项 removed（消除）与下文‘睡在冰冷散兵坑里、饱受饥寒’所表现出的艰苦磨难完全相悖。",
+        "context_clue": "all the burdens of battle, who slept in cold foxholes"
       },
       {
         "qid": 4,
@@ -7599,8 +7602,9 @@
           "D": "properties"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] necessities，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与短语搭配",
+        "analysis": "考查名词固定搭配。necessities of food and shelter 意为‘食物与住所等基本生活必需品’，go without necessities 表示‘缺乏起码的生活保障’。B项 facilities（设施/设备，如卫生设施）、C项 commodities（商业商品）、D项 properties（财产/属性）均不能与‘食物和遮风挡雨之所’这种战地生存维系物相搭配。",
+        "context_clue": "food and shelter ... slept in cold foxholes"
       },
       {
         "qid": 5,
@@ -7611,8 +7615,9 @@
           "D": "hence"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] but，符合文章前后文语义推进与句式结构。"
+        "category": "并列转折连词",
+        "analysis": "考查固定句式关联词。句子结构为‘This was not a volunteer soldier, not someone well paid, but an average guy’，典型的‘not... not... but...’（不是……也不是……而是……）结构，通过双重否定引出真实身份‘一个普通人’。A项 and 表顺承；B项 nor 引导倒装；D项 hence 表因果，均不符合并列对比句式。",
+        "context_clue": "not a volunteer soldier, not someone well paid, ... an average guy"
       },
       {
         "qid": 6,
@@ -7622,9 +7627,10 @@
           "C": "from",
           "D": "against"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] into，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "介词与固定短语搭配",
+        "analysis": "考查固定短语搭配。be up against sth/sb 为常用习语，意为‘面临/抗击强大的对手或艰险困境’。此处指一个普通美国士兵挺身抗击几百年来最训练有素、装备最精良、最凶残的法西斯敌人。A项 for、B项 into、C项 from 均无法与 up 搭配表示‘迎战强敌’之意。",
+        "context_clue": "up ... the fiercest, most brutal enemies"
       },
       {
         "qid": 7,
@@ -7634,9 +7640,10 @@
           "C": "symbolizing",
           "D": "claiming"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] symbolizing，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "现在分词短语作后置定语",
+        "analysis": "考查现在分词作定语修饰 abbreviation。句意为‘G.I. 只是一个军事缩写，意为‘政府军发品’（Government Issue）’。meaning 在此用作现在分词，引导同位修饰说明该缩写的含义。A项 implying（暗示）、C项 symbolizing（象征，多指宏大抽象象征）、D项 claiming（宣称/自称）均不符合解释字面含义的语境。",
+        "context_clue": "military abbreviation ... Government Issue"
       },
       {
         "qid": 8,
@@ -7647,8 +7654,9 @@
           "D": "passed down"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] handed out，符合文章前后文语义推进与句式结构。"
+        "category": "过去分词后置定语与动词短语辨析",
+        "analysis": "考查动词短语作后置定语。articles handed out to soldiers 指‘分发/发放给士兵的所有物品’。hand out 意为‘分发/配发’，与军用品供应完美吻合。B项 turned over（翻转/移交）、C项 brought back（带回）、D项 passed down（代代相传）均不符合军队后勤向官兵统一发放物资的实际情形。",
+        "context_clue": "Government Issue ... on all of the articles ... to soldiers"
       },
       {
         "qid": 9,
@@ -7658,9 +7666,10 @@
           "C": "made",
           "D": "managed"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] managed，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "动词习语搭配",
+        "analysis": "考查常用成语搭配。make it to 为英语极常用短语，意为‘成功达到/晋升至’，who never made it to the top 意为‘从未晋升到顶层的普通大众’。A项 pushed、B项 got（需接 to the top 且口语化但常接副词）、D项 managed（需接 to do）在此句式中均不构成表示‘飞黄腾达/登顶成功’的标准短语 make it to the top。",
+        "context_clue": "common name ... a working class name ... never ... to the top"
       },
       {
         "qid": 10,
@@ -7671,8 +7680,9 @@
           "D": "neither"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] never，符合文章前后文语义推进与句式结构。"
+        "category": "篇章逻辑与常识推断",
+        "analysis": "考查篇章语义推进与副词辨析。前句指出 Joe 是最平凡的工人阶层名字，从未登顶，本句紧承其逻辑举例说明：‘美国历史上从未有过名叫 Joe 的总统、副总统或国务卿’（写作时历史事实），故选表示全盘否定的 never。A项 ever（曾经，用于肯定句语义与前文矛盾）；C项 either、D项 neither 为两者之间的辨析，不能修饰整个句子的谓语时态。",
+        "context_clue": "a guy who never made it to the top ... has ... had a president"
       },
       {
         "qid": 11,
@@ -7683,8 +7693,9 @@
           "D": "distinguished"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] distinguished，符合文章前后文语义推进与句式结构。"
+        "category": "形容词语境修饰",
+        "analysis": "考查形容词对 career 的修饰。后文讲述 G.I. Joe 在抗击德军、日军的战争中表现卓越，并被好莱坞拍成著名电影，可见他的生涯是‘战功卓著的/杰出的’（distinguished career）。A项 disguised（伪装的）、B项 disturbed（心神不安的）、C项 disputed（有争议的）皆含有消极或偏狭色彩，与作者推崇士兵历史贡献的主旨不符。",
+        "context_clue": "fighting German, Japanese ... movie The Story of G.I. Joe"
       },
       {
         "qid": 12,
@@ -7694,9 +7705,10 @@
           "C": "collection",
           "D": "colony"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] community，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "名词语境辨析",
+        "analysis": "考查名词语义。电影中的 G.I. Joe 并不是某一个具体活人，而是‘美国个性与人格特质的集合体’（a collection of American personalities）。A项 company（公司/陪伴）、B项 community（社区/团体）、D项 colony（殖民地/群体生物）均不能表达抽象人物特质‘汇集融为一体’的集合概念。",
+        "context_clue": "appears as a character, or a ... of American personalities"
       },
       {
         "qid": 13,
@@ -7707,8 +7719,9 @@
           "D": "questioned"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] interviewed，符合文章前后文语义推进与句式结构。"
+        "category": "动词语境辨析与定语从句",
+        "analysis": "考查动词与定语从句先行词的逻辑关系。Ernie Pyle 是著名的‘war correspondent’（战地记者），记者的核心工作即采访一线士兵，因此定语从句指‘Pyle 曾采访过的士兵’（soldiers Pyle interviewed）。A项 employed（雇佣）、B项 appointed（任命）、D项 questioned（审问/质疑）均脱离了战地记者的职业行为。",
+        "context_clue": "war correspondent Ernie Pyle ... soldiers Pyle ..."
       },
       {
         "qid": 14,
@@ -7718,9 +7731,10 @@
           "C": "political",
           "D": "ethical"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] ethical，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "形容词语境推断与主旨呼应",
+        "analysis": "考查形容词在对比语境中的修饰。后文明确指出 Pyle 报道‘泥土、冰雪和泥泞中的普通士兵，而不是推进了多少英里或占领了哪座城镇’，说明他关注的是战争中平凡人的苦乐与生存状态，即‘战争的人性面’（human side of the war）。B项 military（军事的）、C项 political（政治的）、D项 ethical（伦理的）均未抓住关注普通战士微观体验的核心对比。",
+        "context_clue": "dirt-snow-and-mud soldiers, not how many miles ... towns captured"
       },
       {
         "qid": 15,
@@ -7730,9 +7744,10 @@
           "C": "patrolled",
           "D": "gained"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] commuted，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "动词与战局度量单位搭配",
+        "analysis": "考查动词被动语态与领土推进搭配。gain miles 意为‘推进/争夺下多少英里的战线阵地’，miles were gained 为军事经典表述。A项 ruined（毁坏）、B项 commuted（通勤/减刑）、C项 patrolled（巡逻）均无法与 miles 构成描述战局进展与领土夺取的正规搭配。",
+        "context_clue": "how many miles were ... or what towns were captured"
       },
       {
         "qid": 16,
@@ -7743,8 +7758,9 @@
           "D": "contradicted"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] paralleled，符合文章前后文语义推进与句式结构。"
+        "category": "动宾语境逻辑对应",
+        "analysis": "考查动词语义。Pyle 的文字报道与著名画家 Bill Mauldin 描绘底层步兵的漫画在风格、视角上异曲同工，即‘与……相呼应/平行类似’（paralleled）。B项 counteracted（抵消/对抗）、C项 duplicated（机械复制）、D项 contradicted（相互矛盾）均无法表达两人作品精神内核的一致性。",
+        "context_clue": "Both men ... the dirt and exhaustion of war"
       },
       {
         "qid": 17,
@@ -7754,9 +7770,10 @@
           "C": "avoided",
           "D": "admired"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] avoided，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动宾核心搭配与态度倾向",
+        "analysis": "考查动词语义。承接上文，两位创作者在作品中都‘突显并强调’战争带给士兵的泥泞肮脏与筋疲力尽，故选 emphasized。A项 neglected（忽视）、C项 avoided（回避）与前文‘专写泥雪中的士兵’直接冲突；D项 admired（敬佩/赞赏）无法将战争的‘dirt and exhaustion’作为敬佩对象。",
+        "context_clue": "Pyle was famous for covering ... writing about the dirt-snow-and-mud"
       },
       {
         "qid": 18,
@@ -7766,9 +7783,10 @@
           "C": "fragments",
           "D": "advances"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] illusions，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "名词语境辨析与同位语列举",
+        "analysis": "考查名词对后文具体事物的概括。后文冒号详细列举：‘coffee, tobacco, whiskey, shelter, sleep’（咖啡、烟草、威士忌、掩蔽所、睡眠），这些是士兵在残酷前线中能享受到的文明世界‘点滴碎屑/微末残余’，故 fragments（碎片/残余）最为贴切传神。A项 stages（阶段）、B项 illusions（幻觉）、D项 advances（进步）均无法贴合列举的生活实物。",
+        "context_clue": "coffee, tobacco, whiskey, shelter, sleep"
       },
       {
         "qid": 19,
@@ -7779,8 +7797,9 @@
           "D": "Beyond"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] To，符合文章前后文语义推进与句式结构。"
+        "category": "介词用法与视角转换",
+        "analysis": "考查介词表达‘在……看来/对……而言’。句意为‘对于埃及、法国以及其他十几个国家的民众而言，G.I. Joe 就是任何一个美国士兵’。To sb/country 意为‘对……而言’，表明被解放国人民眼中的视角。A项 With（随着/用）、C项 Among（在……之中）、D项 Beyond（超越/在……之外）均无法引出此种评判视角。",
+        "context_clue": "... Egypt, France ... G.I. Joe was any American soldier"
       },
       {
         "qid": 20,
@@ -7791,8 +7810,9 @@
           "D": "at that point"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] at that point，符合文章前后文语义推进与句式结构。"
+        "category": "时间介词短语与语境限定",
+        "analysis": "考查时间状语短语。后半句指出在当时特定的历史节点（盟军解放欧非各国的二战时期），美国士兵成了当地人民生命中最重要的人。at that point 意为‘在那个历史节点/在当时’，精准限制了历史背景。A项 on the contrary（相反）、B项 by this means（通过这种手段）、C项 from the outset（从一开始）均与句末的最高级评述脱节。",
+        "context_clue": "and the people they liberated ... the most important person in their lives"
       }
     ]
   },

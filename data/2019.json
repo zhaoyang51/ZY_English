@@ -8461,9 +8461,10 @@
           "C": "Otherwise",
           "D": "However"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] Otherwise，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "句间转折逻辑副词",
+        "analysis": "考查篇章转折。前句指出经常称重是掌握体重波动的极佳方法，本句立刻指出‘然而，如果称得太频繁，这种习惯反而弊大于利’。前后构成强烈的转折对比，故选 However。A项 Besides 表补充递进，B项 Therefore 表因果，C项 Otherwise 表相反假设，均破坏了首段的转折论述。",
+        "context_clue": "a wonderful way ... ... , when done too often, this habit can sometimes hurt"
       },
       {
         "qid": 2,
@@ -8474,8 +8475,9 @@
           "D": "reduces"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] helps，符合文章前后文语义推进与句式结构。"
+        "category": "动宾习语与利弊权衡",
+        "analysis": "考查动词语义与固定对仗。hurt more than it helps 为英语经典谚语表达，意为‘弊大于利/害多于益’，hurt 与 helps 构成精妙的利弊反义对称。B项 cares（关心）、C项 warns（警告）、D项 reduces（减少）均无法构成表达利害得失的经典对偶结构。",
+        "context_clue": "this habit can sometimes hurt more than it ..."
       },
       {
         "qid": 3,
@@ -8486,8 +8488,9 @@
           "D": "formally"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] solely，符合文章前后文语义推进与句式结构。"
+        "category": "副词在极端偏颇行为中的修饰",
+        "analysis": "考查副词修饰。作者以亲身经历说明：每天称重使自己的注意力从整体健康转移到了‘唯独/仅仅盯着体重秤上的数字’（focusing solely on the scale）。solely 意为‘仅仅/唯一地’，突出了片面狭隘的关注。A项 initially（最初）、C项 occasionally（偶尔）、D项 formally（正式地）均无法体现导致健身目标走偏的偏执状态。",
+        "context_clue": "shift my focus from being generally healthy ... to focusing ... on the scale"
       },
       {
         "qid": 4,
@@ -8497,9 +8500,10 @@
           "C": "explaining",
           "D": "accepting"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] accepting，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动名词短语与体重数字压制",
+        "analysis": "考查动名词搭配。作者明明增加了健康的肌肉量，却一门心思想着‘压低/降低秤上的数字’（lowering the number on the scale）。lowering 意为‘降低/减少’。A项 recording（记录）、C项 explaining（解释）、D项 accepting（接受）均不能解释为何作者会因看到数字上升而错误地更改训练计划。",
+        "context_clue": "gained weight in the form of muscle mass, but thinking only of ... the number on the scale, I altered"
       },
       {
         "qid": 5,
@@ -8509,9 +8513,10 @@
           "C": "review",
           "D": "reach"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] modify，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "动宾搭配与目标达成",
+        "analysis": "考查动宾搭配。reach one's goals 意为‘达成/实现自己的目标’，与前文 fitness goals 完美呼应。A项 modify（修改）、B项 set（树立）、C项 review（审视）在表达通过正确的日常训练来‘实现目标’时均不及 reach 地道契合。",
+        "context_clue": "conflicted with how I needed to train to ... my goals"
       },
       {
         "qid": 6,
@@ -8521,9 +8526,10 @@
           "C": "distribution",
           "D": "prediction"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] distribution，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "名词语境辨析与真实成果呈现",
+        "analysis": "考查名词辨析。每天称重无法‘准确描绘/反映自己在健身房所付出的努力与进展’（accurate depiction of the hard work and progress）。depiction 意为‘描绘/描写/如实呈现’。A项 definition（定义）、C项 distribution（分配/分布）、D项 prediction（预测）均无法指代对已付出汗水与成果的如实反映。",
+        "context_clue": "did not provide an accurate ... of the hard work and progress I was making"
       },
       {
         "qid": 7,
@@ -8533,9 +8539,10 @@
           "C": "aside from",
           "D": "along with"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] along with，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "介词短语辨析与原因连接",
+        "analysis": "考查原因介词短语。在调整训练计划后，身体需要约三到四周才能观察到‘由于（due to）调整训练所引起的’显著体重变化。due to 意为‘由于/因为’。B项 regardless of（不管）、C项 aside from（除……之外）、D项 along with（连同）均无法准确连接体重变化与训练调整之间的因果关系。",
+        "context_clue": "notice significant changes in your weight ... altering your training program"
       },
       {
         "qid": 8,
@@ -8545,9 +8552,10 @@
           "C": "precise",
           "D": "immediate"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] rigid，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "形容词在变化见效速度中的修饰",
+        "analysis": "考查形容词语义与对比。前句讲体重数字的变化极其缓慢（需要3-4周），本句对比指出：‘最直接/最快能被觉察的改变（The most immediate changes）是体现在技能水平、力量提升和腰围减少上’。A项 orderly（井井有条的）、B项 rigid（死板生硬的）、C项 precise（精确的）均脱离了变化见效快慢的维度。",
+        "context_clue": "takes about three weeks ... to notice ... The most ... changes will be observed in skill level, strength"
       },
       {
         "qid": 9,
@@ -8557,9 +8565,10 @@
           "C": "reasons",
           "D": "methods"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] claims，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "名词与原因概括固定搭配",
+        "analysis": "考查固定介词短语。For these reasons 意为‘基于上述这些原因’，作者对前文提到的种种弊端进行全面总结。A项 claims（主张）、B项 judgments（判断）、D项 methods（方法）均不能与 For these 构成总结因果归纳的惯用过渡短语。",
+        "context_clue": "For these ... , I stopped weighing myself every day"
       },
       {
         "qid": 10,
@@ -8569,9 +8578,10 @@
           "C": "again",
           "D": "indeed"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] again，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "副词作状语与替代行为",
+        "analysis": "考查副词辨析。作者停止了每天称重，‘取而代之的是（switched to ... instead）’转向了半月称重一次的节奏。instead 放于句末表示替代之前的做法。B项 though（虽然）、C项 again（再次）、D项 indeed（确实）均无法表达用半月一次替代每日一次的行为转变。",
+        "context_clue": "stopped weighing myself every day and switched to a bimonthly weighing schedule ... "
       },
       {
         "qid": 11,
@@ -8581,9 +8591,10 @@
           "C": "conceal",
           "D": "report"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] overlook，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "动宾搭配与体征数据追踪",
+        "analysis": "考查动词语义。既然减重不是核心目标，对我而言每周‘追踪/记录（track）’体重就不那么重要了。track 意为‘跟踪/监控数据走势’。B项 overlook（忽视）、C项 conceal（隐瞒）、D项 report（汇报）均非个人管理身体指标的精准动词。",
+        "context_clue": "less important for me to ... my weight each week"
       },
       {
         "qid": 12,
@@ -8594,8 +8605,9 @@
           "D": "account for"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] account for，符合文章前后文语义推进与句式结构。"
+        "category": "动词短语辨析与原因说明",
+        "analysis": "考查动词短语。每隔一周称重一次使我能够观察并‘合理解释/找出原因（account for）’任何显著的体重波动。account for 意为‘对……做出合理解释’。A项 depend on（依赖）、B项 approve of（赞同）、C项 hold onto（紧抓不放）均不符合分析身体数据变化原因的语境。",
+        "context_clue": "allows me to observe and ... any significant weight changes"
       },
       {
         "qid": 13,
@@ -8605,9 +8617,10 @@
           "C": "confirm",
           "D": "prepare"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] share，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动宾搭配与计划调整",
+        "analysis": "考查动词语义。称重数据能告诉我是否需要对我的训练计划进行‘适度调整/微调’（adjust my training program）。A项 share（分享）、C项 confirm（确认）、D项 prepare（准备）中，只有 adjust 能够直接针对健身方案的动态优化。",
+        "context_clue": "tells me whether I need to ... my training program"
       },
       {
         "qid": 14,
@@ -8617,9 +8630,10 @@
           "C": "rules",
           "D": "tests"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] rules，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "名词语境辨析与测试数据结果",
+        "analysis": "考查名词辨析。我利用每半月一次的称重‘结果/数据’（bimonthly weigh-in results）来获取营养摄入方面的信息。results 意为‘（测试或称重得出的）结果/读数’。B项 features（特征）、C项 rules（规则）、D项 tests（测试）在此不及 weigh-in results 地道精准。",
+        "context_clue": "use my bimonthly weigh-in ... to get information about my nutrition"
       },
       {
         "qid": 15,
@@ -8629,9 +8643,10 @@
           "C": "hungry",
           "D": "sick"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] anxious，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "形容词在饮食营养消耗中的感知",
+        "analysis": "考查健康常识与饮食信号。如果训练强度不变，但我却总是感到‘饥饿（hungry）’且体重在不断下降，这说明能量赤字过大。A项 bored（无聊）、B项 anxious（焦虑）、D项 sick（生病）均不如 hungry 能直接且必然地与下文‘需要增加每日卡路里摄入’（increase daily caloric intake）紧密互证。",
+        "context_clue": "constantly ... and dropping weight ... increase my daily caloric intake"
       },
       {
         "qid": 16,
@@ -8642,8 +8657,9 @@
           "D": "sign"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] sign，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与身体信号",
+        "analysis": "考查名词辨析。经常感到饥饿和掉秤是身体发出的‘信号/迹象’（this is a sign that...），提醒你需要多吃东西。A项 principle（原则）、B项 secret（秘密）、C项 belief（信念）均无法用来指代身体代谢给出的生理指示信号。",
+        "context_clue": "this is a ... that I need to increase my daily caloric intake"
       },
       {
         "qid": 17,
@@ -8653,9 +8669,10 @@
           "C": "decision",
           "D": "wish"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] request，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "名词指代与前文决断",
+        "analysis": "考查名词对上文动作的概括。前文讲作者毅然放弃每天称重，这一‘决定’（The decision to stop weighing...）给作者的整体健康带来了神奇效果。A项 request（请求）、B项 necessity（必然性）、D项 wish（愿望）均不及 decision 能精准指代前文‘I stopped... and switched to...’这一明确的个人决断。",
+        "context_clue": "The ... to stop weighing myself every day has done wonders"
       },
       {
         "qid": 18,
@@ -8665,9 +8682,10 @@
           "C": "restricting",
           "D": "consuming"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] surprising，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "形容词修饰令人沮丧的经历",
+        "analysis": "考查形容词感情色彩。每日晨间称重往往因水重波动带来心理负担，让人感到‘令人失望沮丧的’（a disappointing morning weigh-in）。A项 disappointing 与前文 burden（负担）完美呼应。B项 surprising（令人惊讶的）、C项 restricting（限制性的）、D项 consuming（消耗性的）均未准确切中每天早上看到数字没达标时的挫败心理。",
+        "context_clue": "no longer carry the burden of a ... morning weigh-in"
       },
       {
         "qid": 19,
@@ -8677,9 +8695,10 @@
           "C": "until",
           "D": "because"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] until，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "原因状语从句连词",
+        "analysis": "考查因果连词。作者在实现具体健身目标上获得了更大成功，‘因为（because）我是根据那些目标训练，而不是根据秤上的冰冷数字训练’。because 引导原因状语从句揭示获得成功的根本原因。A项 if、B项 unless、C项 until 均不符合句间逻辑。",
+        "context_clue": "greater success in achieving my specific fitness goals, ... I'm training according to those goals"
       },
       {
         "qid": 20,
@@ -8689,9 +8708,10 @@
           "C": "puzzling",
           "D": "triumphing"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] triumphing，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "动词与介词短语搭配及过分执迷",
+        "analysis": "考查动词短语。obsess over/about sth 意为‘过分痴迷/过分纠结于……’。尾句劝诫读者：与其‘对体重秤上的数字过分神经紧绷与执迷’（Rather than obsessing over the scale），不如把焦点转移到外表气色、身心感受和充沛精力上来。B项 dominating（支配）、C项 puzzling（困惑）、D项 triumphing（战胜）均无法与 over 搭配表达对体重的病态纠结。",
+        "context_clue": "Rather than ... over the scale, turn your focus to how you look, feel"
       }
     ]
   },

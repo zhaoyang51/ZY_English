@@ -7421,8 +7421,9 @@
           "D": "Otherwise"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] However，符合文章前后文语义推进与句式结构。"
+        "category": "句间转折逻辑连词",
+        "analysis": "考查篇章转折。前句指出电子货币优势明显，人们原以为会迅速迈入无现金社会；本句紧接着指出真正的无现金社会恐怕并非指日可待。前后呈现强烈的预期与现实转折，故选 However。A项 Moreover 表递进，C项 Therefore 表因果，D项 Otherwise 表相反假设，均不符合语境。",
+        "context_clue": "might think that we would move quickly ... is probably not around the corner"
       },
       {
         "qid": 2,
@@ -7433,8 +7434,9 @@
           "D": "around"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] around，符合文章前后文语义推进与句式结构。"
+        "category": "固定短语辨析",
+        "analysis": "考查短语搭配。be around 意为‘存在/流行’，predictions have been around for two decades 指此类预言在过去二十年间早就屡见不鲜、一直存在。A项 be off（离开/停止）、B项 be back（回归）、C项 be over（结束）均不符合叙述预言长期存在却未实现的语境。",
+        "context_clue": "for two decades but have not yet come to fruition"
       },
       {
         "qid": 3,
@@ -7445,8 +7447,9 @@
           "D": "role"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] concept，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与主旨关联",
+        "analysis": "考查名词搭配。电子支付手段将彻底‘颠覆货币本身的概念’（revolutionize the very concept of money itself）。A项 power（权力/力量）、C项 history（历史）、D项 role（角色）均没有 concept 能体现对货币形态与定义的本质性革命冲击。",
+        "context_clue": "revolutionize the very ... of money itself"
       },
       {
         "qid": 4,
@@ -7457,8 +7460,9 @@
           "D": "reward"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] reverse，符合文章前后文语义推进与句式结构。"
+        "category": "动宾逻辑关系与代词指代",
+        "analysis": "考查动词语义。前文《商业周刊》在1975年做出大胆激进的预言，而若干年后该杂志不得不‘推翻/逆转自己的预言观点’（reverse itself）。A项 reverse 符合预期落空后的自我否定。B项 resist（抵制）、C项 resume（恢复/重新开始）、D项 reward（奖励）在逻辑上均无法接 itself 表达观点逆转。",
+        "context_clue": "predicted in 1975 ... only to ... itself several years later"
       },
       {
         "qid": 5,
@@ -7469,8 +7473,9 @@
           "D": "steady"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] slow，符合文章前后文语义推进与句式结构。"
+        "category": "形容词语境辨析与提问主旨",
+        "analysis": "考查形容词在段落设问中的作用。承接上文‘预言二十年尚未成真’，作者设问：为什么迈向无现金社会的步伐如此‘迟缓/姗姗来迟’（so slow in coming）？A项 silent（无声的）、B项 sudden（突然的）、D项 steady（稳定的）均无法承接上文对迟迟未普及的疑问。",
+        "context_clue": "not yet come to fruition ... Why has ... been so ... in coming?"
       },
       {
         "qid": 6,
@@ -7481,8 +7486,9 @@
           "D": "on"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] against，符合文章前后文语义推进与句式结构。"
+        "category": "动词与介词固定搭配",
+        "analysis": "考查短语搭配。work against sth 意为‘阻碍/不利于……’。虽然电子支付效率更高，但若干现实因素‘阻碍了纸币系统的消亡’。A项 work for（致力于/有利于）、C项 work with（与……合作）、D项 work on（从事于）均无法表达对纸币消失构成的反向阻力。",
+        "context_clue": "Although electronic means ... more efficient, several factors work ... the disappearance"
       },
       {
         "qid": 7,
@@ -7493,8 +7499,9 @@
           "D": "productive"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] expensive，符合文章前后文语义推进与句式结构。"
+        "category": "形容词语境因果推断",
+        "analysis": "考查形容词语义。后文列举构建计算机、读卡器和通信网络所需的大量资金投入，说明建立全套电子货币硬件体系是‘极其昂贵的’（very expensive）。B项 imaginative（富有想象力的）、C项 sensitive（敏感的）、D项 productive（高产的）均脱离了基础设施建设的高昂成本事实。",
+        "context_clue": "set up the computer, card reader, and telecommunications networks"
       },
       {
         "qid": 8,
@@ -7505,8 +7512,9 @@
           "D": "dominant"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] dominant，符合文章前后文语义推进与句式结构。"
+        "category": "形容词修饰形式与地位",
+        "analysis": "考查形容词修饰。要让电子货币成为‘主流/占统治地位的支付形式’（the dominant form of payment），需要全面铺设网络。A项 similar（相似的）、B项 original（最初的）、C项 temporary（暂时的）均不符合描述成为全社会普遍核心支付方式的 dominant。",
+        "context_clue": "networks necessary to make electronic money the ... form of payment"
       },
       {
         "qid": 9,
@@ -7517,8 +7525,9 @@
           "D": "print"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] provide，符合文章前后文语义推进与句式结构。"
+        "category": "动宾搭配与纸质支票属性",
+        "analysis": "考查动词与 receipts（收据/凭据）的搭配。纸质支票具备能‘提供收据凭证’（provide receipts）的优势。A项 collect（收集）、B项 copy（复印）、D项 print（打印）均不如 provide 在表达凭据功能的属性上地道精确。",
+        "context_clue": "paper checks have the advantage that they ... receipts"
       },
       {
         "qid": 10,
@@ -7529,8 +7538,9 @@
           "D": "pass down"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] give up，符合文章前后文语义推进与句式结构。"
+        "category": "动词短语辨析",
+        "analysis": "考查动词短语。由于纸质收据非常重要，许多消费者‘不愿放弃’（unwilling to give up）这一安全保障。B项 take over（接管）、C项 bring back（带回）、D项 pass down（传给后代）均无法表达割舍现有安全凭据的心理状态。",
+        "context_clue": "advantage that they provide receipts, something that many consumers are unwilling to ..."
       },
       {
         "qid": 11,
@@ -7541,8 +7551,9 @@
           "D": "when"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] before，符合文章前后文语义推进与句式结构。"
+        "category": "时间状语连词与时间差表达",
+        "analysis": "考查时间从句连词。句型‘it takes several days before...’意为‘在……之前需要好几天’，指支票开出后到真正被兑现存在时间差（float/在途时间）。B项 after、C项 since、D项 when 均无法形成‘延迟发生前经过一段时间’的典型 before 句型结构。",
+        "context_clue": "gives consumers several days of 'float' – it takes several days ... a check is cashed"
       },
       {
         "qid": 12,
@@ -7553,8 +7564,9 @@
           "D": "released"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] withdrawn，符合文章前后文语义推进与句式结构。"
+        "category": "动词与银行账户扣款搭配",
+        "analysis": "考查银行业务专有名词。funds are withdrawn from the issuer's account 意为‘资金从出票人账户中被扣除/支取’。withdraw from 是资金从银行账户转出或提取的标准表达。A项 kept（保留）、B项 borrowed（借入）、D项 released（释放/公开发行）均非扣减账户存款的标准用词。",
+        "context_clue": "funds are ... from the issuer's account, which means that the writer ... can earn interest"
       },
       {
         "qid": 13,
@@ -7565,8 +7577,9 @@
           "D": "Though"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] Because，符合文章前后文语义推进与句式结构。"
+        "category": "原因状语从句连词",
+        "analysis": "考查因果从句连词。前后两分句为直接因果关系：‘因为电子支付是实时的，所以它们彻底消除了消费者的资金在途时间’，选 Because。A项 Unless 表否定条件，C项 Until 表时间终止点，D项 Though 表让步转折，均不合逻辑。",
+        "context_clue": "... electronic payments are immediate, they eliminate the float for the consumer"
       },
       {
         "qid": 14,
@@ -7577,8 +7590,9 @@
           "D": "raise"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] raise，符合文章前后文语义推进与句式结构。"
+        "category": "动宾搭配与担忧引发",
+        "analysis": "考查动宾搭配。raise concerns 为高频固定搭配，意为‘引起/引发……方面的担忧’。A项 hide（隐瞒）、B项 express（表达，主语多为人而非支付手段）、C项 ease（缓解/减轻，与后文黑客入侵危险矛盾）均不合文意。",
+        "context_clue": "may ... security and privacy concerns ... unauthorized hacker"
       },
       {
         "qid": 15,
@@ -7589,8 +7603,9 @@
           "D": "displayed"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] stored，符合文章前后文语义推进与句式结构。"
+        "category": "过去分词后置定语与数据库信息存储",
+        "analysis": "考查过去分词修饰 information。黑客侵入数据库篡改‘存储在那里的信息’（information stored there）。A项 analyzed（被分析的）、B项 shared（被共享的）、D项 displayed（被展示的）均不能准确对应数据库对信息的核心功能——存储（store）。",
+        "context_clue": "access a computer database and to alter information ... there"
       },
       {
         "qid": 16,
@@ -7601,8 +7616,9 @@
           "D": "uncommon"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] uncommon，符合文章前后文语义推进与句式结构。"
+        "category": "双重否定与发生频率",
+        "analysis": "考查形容词在双重否定中的用法。not an uncommon occurrence 即‘双重否定表肯定’，意为‘并不是少见的事情，即屡见不鲜/常有发生’。A项 unsafe（不安全的，not unsafe 变成安全了，逻辑错误）；B项 unnatural（非自然的）；C项 unclear（不清楚的）均不符合双重否定修饰发生频率的成语结构。",
+        "context_clue": "The fact that this is not an ... occurrence means that dishonest persons might be able to..."
       },
       {
         "qid": 17,
@@ -7613,8 +7629,9 @@
           "D": "return"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] steal，符合文章前后文语义推进与句式结构。"
+        "category": "动词与犯罪行为语境辨析",
+        "analysis": "考查动词语义。不法分子侵入电子支付系统中的银行账户，目的是从他人账户中‘窃取资金’（steal from someone else's accounts）。B项 choose（选择）、C项 benefit（需作及物或与 from 搭配但主体是犯罪获益而非直接行窃）、D项 return（归还）均非黑客盗窃行为。",
+        "context_clue": "dishonest persons might be able to access bank accounts ... and ... from someone else's"
       },
       {
         "qid": 18,
@@ -7625,8 +7642,9 @@
           "D": "justification"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] prevention，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与安全防护",
+        "analysis": "考查名词语义。针对黑客入侵和金融欺诈，‘预防/防范此类欺诈绝非易事’（The prevention of this type of fraud is no easy task）。A项 consideration（考虑）、C项 manipulation（操纵/摆布）、D项 justification（证明正当）均非网络安全防护领域的对应行为。",
+        "context_clue": "The ... of this type of fraud is no easy task ... security issues"
       },
       {
         "qid": 19,
@@ -7637,8 +7655,9 @@
           "D": "cope with"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] cope with，符合文章前后文语义推进与句式结构。"
+        "category": "动词短语辨析与问题应对",
+        "analysis": "考查短语搭配。计算机科学正在开辟全新领域以‘应对/处理安全隐患’（cope with security issues）。A项 call for（要求/呼吁）、B项 fight against（与……对抗，后多接具体敌人/疾病）、C项 adapt to（适应……变化）均不如 cope with 在技术应对问题方案中严谨标准。",
+        "context_clue": "a new field of computer science is developing to ... security issues"
       },
       {
         "qid": 20,
@@ -7649,8 +7668,9 @@
           "D": "path"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] trail，符合文章前后文语义推进与句式结构。"
+        "category": "名词比喻搭配与数字足迹",
+        "analysis": "考查名词固定术语。electronic trail（或 digital trail）指用户在数字系统中留下的‘电子轨迹/痕迹’，其包含大量个人信息。A项 chunk（大块）、B项 chip（芯片）、D项 path（小径/物理路径）均不是形容数据轨迹的标准专业术语。",
+        "context_clue": "leaves an electronic ... that contains a large amount of personal data"
       }
     ]
   },

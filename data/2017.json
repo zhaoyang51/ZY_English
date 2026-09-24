@@ -7610,9 +7610,10 @@
           "C": "warning",
           "D": "ensuring"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] boasting，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "动宾语境推断与态度倾向",
+        "analysis": "考查动词语义与语境感情色彩。学者、作家和活动家们并非盲目自夸或盲目担保，而是在‘警告/敲响警钟说技术正在取代人类劳动力’（warning that technology is replacing human workers）。A项 boasting（吹嘘自诩）、B项 denying（否认）、D项 ensuring（确保担保）均违背了后文对大规模失业与废土危机严峻讨论的警示基调。",
+        "context_clue": "academics, writers, and activists once again ... that technology is replacing human workers"
       },
       {
         "qid": 2,
@@ -7622,9 +7623,10 @@
           "C": "unreliability",
           "D": "uncertainty"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] instability，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "名词语境辨析与贫富分化",
+        "analysis": "考查名词语义。后文冒号提供详细解释：‘少数富人将拥有所有资本，而底层大众将在贫困废土中挣扎’，这是典型的‘贫富不均/极度不平等’（inequality）。B项 instability（不稳定）、C项 unreliability（不可靠）、D项 uncertainty（不确定性）均不如 inequality 能精准扣紧资本集中与大众赤贫的阶层两极分化。",
+        "context_clue": "defined by ... : A few wealthy people will own all the capital, and the masses will struggle"
       },
       {
         "qid": 3,
@@ -7634,9 +7636,10 @@
           "C": "resolution",
           "D": "prediction"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] resolution，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "名词在论述观点中的使用",
+        "analysis": "考查名词辨析。前文提出一种对未来的构想，本段提出‘另一种不同但并不相互排斥的预言/预测’（A different ... prediction holds that...）。A项 policy（政策）、B项 guideline（指导方针）、C项 resolution（决议）均为政府或组织的正式行动决策，无法用来指代对遥远未来的哲学猜想与预测。",
+        "context_clue": "People have speculated ... Some imagine ... A different and not mutually exclusive ... holds that"
       },
       {
         "qid": 4,
@@ -7646,9 +7649,10 @@
           "C": "balanced",
           "D": "measured"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] measured，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "过去分词短语作后置定语与特征界定",
+        "analysis": "考查固定搭配。one characterized by purposelessness 意为‘一个以虚无与缺乏目标为特征的废土世界’。be characterized by 意为‘以……为特征’。B项 divided（被划分）、C项 balanced（被平衡）、D项 measured（被衡量）均不能准确连接实体事物与其本质属性。",
+        "context_clue": "a wasteland of a different sort, one ... by purposelessness"
       },
       {
         "qid": 5,
@@ -7658,9 +7662,10 @@
           "C": "glory",
           "D": "freedom"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] wisdom，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "名词与生活价值固定搭配",
+        "analysis": "考查固定短语搭配。give lives meaning 意为‘赋予生命意义/价值’。缺少了工作赋予他们生活的目标与意义，人们会变得懒散和抑郁。A项 wisdom（智慧）、C项 glory（荣耀）、D项 freedom（自由）在此句式中均非解决虚无（purposelessness）的核心对应词汇，缺乏目标即缺乏‘meaning’。",
+        "context_clue": "purposelessness: Without jobs to give their lives ... , people will simply become lazy and depressed"
       },
       {
         "qid": 6,
@@ -7670,9 +7675,10 @@
           "C": "Thus",
           "D": "Nevertheless"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] Nevertheless，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "逻辑连接副词与现实佐证",
+        "analysis": "考查段间篇章衔接。前句提出失业会导致抑郁的理论假设，本句立刻引入当今现实民调予以证实：‘确实/事实上（Indeed），当今的失业人群过得并不好’，选 Indeed 加强肯定现实佐证。A项 Instead 表替代、C项 Thus 表因果推论、D项 Nevertheless 表转折，均无法起到引出强有力佐证的作用。",
+        "context_clue": "people will simply become lazy and depressed. ... , today's unemployed don't seem to be having a great time."
       },
       {
         "qid": 7,
@@ -7682,9 +7688,10 @@
           "C": "working",
           "D": "educated"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] urban，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "现在分词形容词与群体对比",
+        "analysis": "考查形容词在人群对比中的修饰。长期失业人群的抑郁症发病率，是‘在职/有工作美国人’（working Americans）的两倍。失业（unemployed）与在职（working）构成严密清晰的人群对比。A项 rich（富有的）、B项 urban（城市里的）、D项 educated（受过良好教育的）均打乱了基于就业状况分类的对比基线。",
+        "context_clue": "Americans who have been unemployed for at least a year ... double the rate for ... Americans"
       },
       {
         "qid": 8,
@@ -7694,9 +7701,10 @@
           "C": "compensation",
           "D": "substitute"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] compensation，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "名词在因果解释中的作用",
+        "analysis": "考查主表结构一致性。表语为‘is a shortage of well-paid jobs’（好工作短缺），因此主语是某种现象背后的‘解释/原因’（the explanation for...）。A项 explanation（解释/原因）与 is... 构成完整解释句式。B项 requirement（要求）、C项 compensation（补偿）、D项 substitute（替代品）均无法与‘高死亡率、精神问题和成瘾’的诱因相匹配。",
+        "context_clue": "the ... for rising rates of mortality ... is a shortage of well-paid jobs"
       },
       {
         "qid": 9,
@@ -7706,9 +7714,10 @@
           "C": "alongside",
           "D": "among"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] under，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "介词表示群体范围",
+        "analysis": "考查介词表达群体分布。在‘低学历的中年人群中’（among poorly-educated, middle-aged people），死亡率与成瘾率攀升。among 表示‘在……群体之中’。A项 under、B项 beyond、C项 alongside 均无法表示统计现象在一类社会人群当中的分布。",
+        "context_clue": "mental-health problems, and addiction ... poorly-educated, middle-aged people"
       },
       {
         "qid": 10,
@@ -7718,9 +7727,10 @@
           "C": "worry about",
           "D": "set aside"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] set aside，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "动词短语辨析与情绪关切",
+        "analysis": "考查动词短语。正因上述严酷现实，许多人开始‘担忧/忧虑未来没有工作时的痛苦与枯燥’（worry about the agonizing dullness of a jobless future）。A项 leave behind（遗弃/抛在脑后）、B项 make up（编造/弥补）、D项 set aside（把……搁置一旁）均不能准确体现人们对未来的深层焦虑情绪。",
+        "context_clue": "Perhaps this is why many ... the agonizing dullness of a jobless future"
       },
       {
         "qid": 11,
@@ -7731,8 +7741,9 @@
           "D": "economically"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] necessarily，符合文章前后文语义推进与句式结构。"
+        "category": "副词修饰逻辑推论必然性",
+        "analysis": "考查固定学术句型。it doesn't necessarily follow that... 意为‘并不必然得出……的结论’。作者转折指出：尽管当下的失业者很痛苦，但这并不意味着未来一个无需工作的社会就一定充满不安。A项 statistically（从统计学上）、B项 occasionally（偶尔）、D项 economically（经济上）均不能与 follow that 构成否定推论必然性的标准句式。",
+        "context_clue": "But it doesn't ... follow from findings like these that a world without work would be filled with unease"
       },
       {
         "qid": 12,
@@ -7742,9 +7753,10 @@
           "C": "benefits",
           "D": "principles"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] chances，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "名词语境辨析与失业弊端",
+        "analysis": "考查名词辨析。现有的悲观想象建立在如今这个以就业为纲的社会中失业所带来的‘弊端/负面影响’（downsides of being unemployed）之上。A项 chances（机会）、C项 benefits（益处）、D项 principles（原则）中，只有 downsides 能准确代指前文反复罗列的贫困、抑郁与成瘾等负面后果。",
+        "context_clue": "based on the ... of being unemployed in a society built on the concept of employment"
       },
       {
         "qid": 13,
@@ -7754,9 +7766,10 @@
           "C": "face",
           "D": "course"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] height，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "介词短语搭配与缺乏状态",
+        "analysis": "考查固定短语搭配。in the absence of sth 意为‘在缺乏/没有……的情况下’。句意为‘如果工作不复存在/在没有工作的情况下，一个以其他目标为导向建立的社会完全能够产生全然不同的劳动与闲暇形态’。B项 in the height of（在……的高峰期）、C项 in the face of（面对）、D项 in the course of（在……的过程中）均不符合假设工作消失的前提条件。",
+        "context_clue": "In the ... of work, a society designed with other ends in mind could ... different circumstances"
       },
       {
         "qid": 14,
@@ -7767,8 +7780,9 @@
           "D": "yield"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] yield，符合文章前后文语义推进与句式结构。"
+        "category": "动宾搭配与成果产生",
+        "analysis": "考查动词语义。重新设计的社会可以‘产生/促成’全然不同的境况，yield 意为‘产生/产出/促成’。A项 disturb（打扰/扰乱）、B项 restore（恢复）、C项 exclude（排除）在此均不构成促生全新社会境遇的动宾搭配。",
+        "context_clue": "society designed with other ends in mind could ... strikingly different circumstances"
       },
       {
         "qid": 15,
@@ -7779,8 +7793,9 @@
           "D": "hardship"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] virtue，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与道德价值夸大",
+        "analysis": "考查名词语义与后文引语支持。后文学者 Danaher 尖锐指出：‘许多工作无聊、屈辱、不健康且浪费人类潜能’，说明当今人们对工作的‘价值/美德’（virtue of work）有些吹嘘夸大了（overblown）。A项 model（模式）、B项 practice（实践）、D项 hardship（艰难困苦）均不如 virtue 能与 overblown（过度吹捧）形成讽刺性反思。",
+        "context_clue": "the ... of work may be a bit overblown. 'Many jobs are boring, degrading, unhealthy'"
       },
       {
         "qid": 16,
@@ -7790,9 +7805,10 @@
           "C": "mysterious",
           "D": "scarce"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] lengthy，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "形容词语境推断与闲暇稀缺性",
+        "analysis": "考查形容词在因果从句中的修饰。如今大多数劳动者的闲暇时间相对‘稀缺/珍贵匮乏’（relatively scarce），因此人们用有限的自由时间去弥补工作带来的消耗。A项 tricky（棘手的）、B项 lengthy（冗长的）、C项 mysterious（神秘的）均违背了打工人闲暇时间有限的基本社会常识。",
+        "context_clue": "leisure time is relatively ... for most workers, people use their free time to counterbalance"
       },
       {
         "qid": 17,
@@ -7803,8 +7819,9 @@
           "D": "threats"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] demands，符合文章前后文语义推进与句式结构。"
+        "category": "名词在工作负荷中的专业搭配",
+        "analysis": "考查名词搭配。the demands of one's job 指‘工作在智力与情感层面对人的索求/高负荷要求’（intellectual and emotional demands）。B项 standards（标准）、C项 qualities（品质）、D项 threats（威胁）均非描述打工人心智被工作高强度耗竭的标准搭配。",
+        "context_clue": "counterbalance the intellectual and emotional ... of their jobs"
       },
       {
         "qid": 18,
@@ -7814,9 +7831,10 @@
           "C": "confused",
           "D": "starved"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] confused，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "形容词在下班状态中的真实体验",
+        "analysis": "考查生活体验形容词。Danaher 坦言：‘当我在辛苦劳作一天回到家时，我常常感到身心疲惫（feel tired）’。A项 ignored（被忽视）、C项 confused（困惑）、D项 starved（挨饿）中，只有 tired 能最自然直接承接‘a hard day's work’之后的生理与心理耗竭状态。",
+        "context_clue": "When I come home from a hard day's work, I often feel ... "
       },
       {
         "qid": 19,
@@ -7827,8 +7845,9 @@
           "D": "into"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] into，符合文章前后文语义推进与句式结构。"
+        "category": "动词与介词短语搭配与全身心投入",
+        "analysis": "考查固定习语搭配。throw oneself into sth 意为‘全身心投身于/扑在……之上’。在无需打工的世界里，他完全可以带着高度的热情‘投身于某项爱好或充满激情的探索项目’。A项 off、B项 against、C项 behind 均无法与 throw oneself 构成投身热爱的积极表达。",
+        "context_clue": "throw himself ... a hobby or a passion project with the intensity"
       },
       {
         "qid": 20,
@@ -7839,8 +7858,9 @@
           "D": "interpersonal"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] professional，符合文章前后文语义推进与句式结构。"
+        "category": "形容词与职业工作语境呼应",
+        "analysis": "考查修饰语与主旨呼应。那种巨大的热情和专注度，通常只有在对待‘职业/职场事务’（professional matters）时才会保留展现。作者由此说明人完全可以把投身工作的专注转移到热爱的事业上。A项 technological（技术的）、C项 educational（教育的）、D项 interpersonal（人际的）均未能对标职业本职工作（work/jobs）的核心概念。",
+        "context_clue": "with the intensity usually reserved for ... matters (jobs/careers)"
       }
     ]
   },

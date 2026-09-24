@@ -7991,8 +7991,9 @@
           "D": "pleasant"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] normal，符合文章前后文语义推进与句式结构。"
+        "category": "形容词语境修饰与破折号同位释义",
+        "analysis": "考查破折号的同位语解释。破折号后明确给出解释：‘a job like any other’（就像其他任何工作一样普通），说明对哈兰·科本而言，写作并不是神秘不可攀的高峰，而是一份‘平凡寻常的/普通的工作’（a normal job）。A项 difficult（困难的）、C项 steady（稳定的）、D项 pleasant（令人愉快的）均脱离了‘与其他任何工种一模一样’的平实质朴属性。",
+        "context_clue": "writing is a ... job—a job like any other."
       },
       {
         "qid": 2,
@@ -8002,9 +8003,10 @@
           "C": "confused",
           "D": "confronted"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] confronted，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动词与介词固定搭配及类比",
+        "analysis": "考查固定短语搭配。compare sth with sth 意为‘把……与……相比较/打比方’。科本将写作与‘修水管’（plumbing）作比，指出水管工绝不会早上醒来说‘今天我不想摆弄水管’。A项 combined（结合）、C项 confused（混淆）、D项 confronted（面临）均无法构成生动的工种职业类比。",
+        "context_clue": "He has ... it with plumbing, pointing out that a plumber doesn't wake up and say"
       },
       {
         "qid": 3,
@@ -8014,9 +8016,10 @@
           "C": "Once",
           "D": "Unless"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] If，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "让步状语从句连词",
+        "analysis": "考查让步从句连词。句意为‘尽管（Though）像当今大多数写作者一样，你得做一份日常工作来支付账单，但找时间写作并非绝无可能’。从句承接现实困难，主句指出‘并非不可能’，呈现让步转折。A项 If 表条件（主句 it's not easy 与后文 But it's not impossible 语气割裂）；C项 Once 表一旦；D项 Unless 表除非。",
+        "context_clue": "... , like most writers these days, you're holding down a job to pay the bills, it's not easy"
       },
       {
         "qid": 4,
@@ -8026,9 +8029,10 @@
           "C": "wrong",
           "D": "easy"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] wrong，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "形容词在双重转折中的修饰",
+        "analysis": "考查前后语义转折对仗。后一句明确指出‘But it's not impossible’（但这也并非不可能），前一句顺理成章应为‘it's not easy to find the time to write’（找时间写作确实不容易）。not easy 与 not impossible 构成精妙递进对仗。A项 enough、B项 strange、C项 wrong 均无法与 not impossible 形成转折呼应。",
+        "context_clue": "it's not ... to find the time to write. But it's not impossible."
       },
       {
         "qid": 5,
@@ -8038,9 +8042,10 @@
           "C": "Remember",
           "D": "Suppose"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] Suppose，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "动词祈使句与事实提醒",
+        "analysis": "考查祈使句动词。作者鼓励有志写作者：‘请记住（Remember that...），绝大多数畅销书作家在起步写作时，也都在从事其他谋生工作’。Remember that... 常用作论辩中引出先例鼓励读者的祈使表达。A项 Accept（接受）、B项 Explain（解释）、D项 Suppose（假设，后文是客观史实而非虚拟假设）均不符合语气。",
+        "context_clue": "... that most bestselling authors began writing when they were doing other things to earn a living"
       },
       {
         "qid": 6,
@@ -8050,9 +8055,10 @@
           "C": "well-informed",
           "D": "well-chosen"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] well-advised，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "复合形容词修饰作家知名度",
+        "analysis": "考查作家声望修饰。句意为‘即便在今天，即便是那些相当有名气的作家（fairly well-known writers），也往往需要做其他工作来补贴写作收入’。even 递进修饰知名作家，突显写作谋生的普遍艰难。B项 well-advised（明智审慎的）、C项 well-informed（消息灵通的）、D项 well-chosen（精选的）均非形容文坛成名作家的标准用词。",
+        "context_clue": "even writers who are fairly ... often have to do other work to supplement their writing income"
       },
       {
         "qid": 7,
@@ -8062,9 +8068,10 @@
           "C": "supplement",
           "D": "calculate"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] donate，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "动宾核心搭配与收入补充",
+        "analysis": "考查商业财务动词。supplement one's income 意为‘补贴/补充某人的收入’，是英语中描述兼职副业增加收入的标准搭配。A项 donate（捐赠，逻辑完全颠倒）、B项 generate（产生，宾语多为 revenue 且兼职工作补贴的是写作收入）、D项 calculate（计算）均非补贴家用的地道搭配。",
+        "context_clue": "do other work to ... their writing income"
       },
       {
         "qid": 8,
@@ -8075,8 +8082,9 @@
           "D": "condition"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] question，符合文章前后文语义推进与句式结构。"
+        "category": "名词固定习语搭配",
+        "analysis": "考查固定短语搭配。a question of sth 意为‘……的问题/取决于……’。句意为‘正如哈兰·科本所言，这实质上是一个时间优先级的问题（a question of priorities）’。A项 cause（原因）、B项 purpose（目的）、D项 condition（条件）在此均不构成表示‘归根结底是……的问题’的标准成语 a question of。",
+        "context_clue": "it's a ... of priorities. To make writing a priority, you'll have to"
       },
       {
         "qid": 9,
@@ -8087,8 +8095,9 @@
           "D": "explore"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] sacrifice，符合文章前后文语义推进与句式结构。"
+        "category": "动宾搭配与时间精力割舍",
+        "analysis": "考查动宾搭配与后文列举。后文具体列举‘少看电视、少听音乐、削减运动、减少社交’，这些都是为了写作而必须‘牺牲/割舍’（sacrifice）的日常活动与爱好。A项 highlight（强调）、C项 continue（继续）、D项 explore（探索）均与后文全篇强调‘spending less time’的削减割爱动作完全相反。",
+        "context_clue": "you'll have to ... some of your day-to-day activities ... spending less time watching television"
       },
       {
         "qid": 10,
@@ -8098,9 +8107,10 @@
           "C": "memories",
           "D": "skills"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] skills，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "名词语境辨析与业余爱好",
+        "analysis": "考查名词语义与后文列举。Depending on your interests and your lifestyle，后文提到的‘看电视、听音乐、做运动’均属于个人的‘业余爱好与兴趣’（interests）。A项 relations（人际关系）、C项 memories（记忆）、D项 skills（技能）均无法统领音乐、电视与体育等个人休闲兴趣。",
+        "context_clue": "Depending on your ... and your lifestyle ... watching television or listening to music ... sport"
       },
       {
         "qid": 11,
@@ -8110,9 +8120,10 @@
           "C": "while",
           "D": "before"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] until，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "时间伴随状语从句连词",
+        "analysis": "考查同时进行的时间状语连词。尽管有些人能够‘边听音乐边写作’（write while they listen to music），但多数人需要减少听音乐。while 引导伴随时间状语从句表示两件事同时进行。A项 until（直到）、B项 because（因为）、D项 before（在……之前）均不能表达边听音乐边运笔的伴随行为。",
+        "context_clue": "spending less time ... listening to music, though some people can write ... they listen to music"
       },
       {
         "qid": 12,
@@ -8122,9 +8133,10 @@
           "C": "hang on to",
           "D": "cut down on"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] hang on to，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "动词短语辨析与数量削减",
+        "analysis": "考查动词短语。前文有 spending less time，此处同样讲削减，cut down on the amount of exercise 意为‘削减/减少运动量’。A项 put up with（忍受）、B项 make up for（弥补）、C项 hang on to（紧抓不放）均无法表达压缩日常锻炼时间来腾出写作时间的含义。",
+        "context_clue": "You might have to ... the amount of exercise or sport you do."
       },
       {
         "qid": 13,
@@ -8135,8 +8147,9 @@
           "D": "emotional"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] occasional，符合文章前后文语义推进与句式结构。"
+        "category": "形容词语境反义对仗与频率修饰",
+        "analysis": "考查与后文 daily 的反义对仗。句式为‘make social media an occasional activity rather than a daily ...’，occasional（偶尔为之的）与 daily（每日的）构成极严密整齐的反义并列。A项 intelligent（明智的）、C项 intensive（密集的）、D项 emotional（情绪化的）均无法与 daily 形成频率维度的鲜明对比。",
+        "context_clue": "make social media an ... activity rather than a daily, time-consuming"
       },
       {
         "qid": 14,
@@ -8147,8 +8160,9 @@
           "D": "plan"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] habit，符合文章前后文语义推进与句式结构。"
+        "category": "名词语境辨析与时间吞噬习惯",
+        "analysis": "考查名词修饰。刷社交媒体不应成为一种每天耗时费力的‘不良生活习惯’（time-consuming habit）。B项 test（考验）、C项 decision（决定）、D项 plan（计划）均无法与 daily, time-consuming 搭配表达沉迷社交媒体的下意识成瘾行为。",
+        "context_clue": "rather than a daily, time-consuming ... "
       },
       {
         "qid": 15,
@@ -8158,9 +8172,10 @@
           "C": "rapid",
           "D": "funny"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] funny，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "形容词修饰学习曲线与艰难磨砺",
+        "analysis": "考查固定习语搭配。a tough learning curve 意为‘一段艰难坎坷的学习与适应过程’。后句‘it won't always make you popular’（这不一定总能让你受周围人欢迎，因为减少了陪朋友家人的时间）印证了其艰难性。B项 gentle（温和的）、C项 rapid（快速的）、D项 funny（滑稽好笑的）均无法表达牺牲人际社交带来的苦涩滋味。",
+        "context_clue": "It's a ... learning curve and it won't always make you popular."
       },
       {
         "qid": 16,
@@ -8170,9 +8185,10 @@
           "C": "in response to",
           "D": "in addition to"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] in response to，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "介词短语辨析与除外补充",
+        "analysis": "考查介词短语。在削减了种种娱乐之后，唯独有一件事你必须留出时间，那就是‘在写作之外’（in addition to your writing）的阅读。in addition to 意为‘除……之外（还）’。A项 in place of（代替）、B项 in charge of（掌管）、C项 in response to（响应/回应）均不合逻辑。",
+        "context_clue": "try to keep at least some time for, ... your writing—and that's reading"
       },
       {
         "qid": 17,
@@ -8182,9 +8198,10 @@
           "C": "invisible",
           "D": "instant"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] innovative，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "形容词语境同位解释与不可或缺",
+        "analysis": "考查破折号后同位语解释。后文破折号解释说：‘something you can't do without’（你绝不能缺少的东西），与不可或缺完全等价。indispensable 意为‘必不可少的/不可或缺的’。B项 innovative（创新的）、C项 invisible（无形的）、D项 instant（瞬间即时的）均无法与 can't do without 形成词义无缝等价解释。",
+        "context_clue": "the one ... supporter—something you can't do without"
       },
       {
         "qid": 18,
@@ -8194,9 +8211,10 @@
           "C": "quieter",
           "D": "quicker"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] duller，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "形容词比较级修饰时间流速",
+        "analysis": "考查生活规律感知。俗话说‘时光飞逝’，句意为‘年龄越大，时间似乎流逝得越快’（The older you get, the quicker it seems to go）。A项 duller（越枯燥）、B项 harder（越艰难）、D项 slower（越慢）均不符合人类年长时感叹光阴如白驹过隙的普遍心理体验。",
+        "context_clue": "Time is finite. The older you get, the ... it seems to go."
       },
       {
         "qid": 19,
@@ -8207,8 +8225,9 @@
           "D": "gratefully"
         },
         "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] productively，符合文章前后文语义推进与句式结构。"
+        "category": "副词修饰高效利用有限时间",
+        "analysis": "考查副词并列修饰。前后用 and 连接 carefully，句意为‘我们需要尽可能审慎且富有成效地/高效地（productively）利用时间’。后文解释‘把最多时间花在真正想做的事情上’就是高效的最佳注脚。A项 peacefully（和平地）、B项 generously（慷慨地）、D项 gratefully（感激地）均脱离了时间运筹与效率规划的主题。",
+        "context_clue": "use it as carefully and as ... as we can, that means prioritising our activities"
       },
       {
         "qid": 20,
@@ -8219,8 +8238,9 @@
           "D": "above all"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] above all，符合文章前后文语义推进与句式结构。"
+        "category": "总结强调逻辑介词短语",
+        "analysis": "考查文章收尾强调。如果你是一个作家，合理规划时间意味着——‘首要且最重要的一条就是投身写作’（above all writing）。above all 意为‘最重要的是/首要的是’，与首段‘writing is a priority’形成首尾绝妙呼应。A项 at most（至多）、B项 in turn（进而）、C项 on average（平均而言）均缺乏作为收束主旨的强调语力。",
+        "context_clue": "If you're a writer, that means— ... writing. (writing is a priority)"
       }
     ]
   },

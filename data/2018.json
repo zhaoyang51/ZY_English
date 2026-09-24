@@ -7618,8 +7618,9 @@
           "D": "ignore"
         },
         "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] resolve，符合文章前后文语义推进与句式结构。"
+        "category": "动宾核心搭配与心理学动机",
+        "analysis": "考查动宾搭配。resolve uncertainty 意为‘消除/化解不确定性’。人类有一种与生俱来的消除未知与不确定性的强烈心理需求，这促使人们哪怕预知痛苦也要一探究竟。A项 protect（保护）、C项 discuss（讨论）、D项 ignore（忽视，与全文强烈探知欲望截然相反）均不符合心理动机解释。",
+        "context_clue": "humans have an inherent need to ... uncertainty ... the need to know is so strong"
       },
       {
         "qid": 2,
@@ -7630,8 +7631,9 @@
           "D": "seek"
         },
         "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] seek，符合文章前后文语义推进与句式结构。"
+        "category": "动词与不定式搭配及求知探索",
+        "analysis": "考查动词语义与搭配。seek to do sth 意为‘力图/试图做某事’。研究表明人们对求知的渴望如此强烈，以至于他们会‘设法去满足自己的好奇心’（people will seek to satisfy their curiosity）。A项 refuse（拒绝）、B项 wait（等待）、C项 regret（后悔）均与前句‘强烈渴求’在逻辑上断裂或相悖。",
+        "context_clue": "the need to know is so strong that people will ... to satisfy their curiosity"
       },
       {
         "qid": 3,
@@ -7642,8 +7644,9 @@
           "D": "rise"
         },
         "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] hurt，符合文章前后文语义推进与句式结构。"
+        "category": "动词语境反义线索与痛苦后果",
+        "analysis": "考查首段第一句的语义回扣。首句提出人们为什么看‘obviously be painful’（显然会带来痛苦）的评论，本句用 even when it is clear the answer will hurt 予以精准回扣呼应，hurt 意为‘造成痛苦/伤害’。B项 last（持续）、C项 mislead（误导）、D项 rise（上升）均脱离了‘痛苦、电击、不悦’等负面刺激的核心线索。",
+        "context_clue": "obviously be painful ... even when it is clear the answer will ..."
       },
       {
         "qid": 4,
@@ -7653,9 +7656,10 @@
           "C": "treat",
           "D": "expose"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] treat，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "动词固定搭配与受试者实验暴露",
+        "analysis": "考查固定短语搭配。expose oneself to sth 意为‘使自己暴露于……之中/亲身接触……’。在实验中测试学生们为了满足好奇心而‘让自己暴露于不快刺激物面前’的意愿。A项 alert（提醒）、B项 tie（捆绑）、C项 treat（款待/治疗）在此句式中均不构成标准学术心理学实验表达。",
+        "context_clue": "tested students' willingness to ... themselves to unpleasant stimuli"
       },
       {
         "qid": 5,
@@ -7665,9 +7669,10 @@
           "C": "trial",
           "D": "concept"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] review，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "名词在实验心理学中的特定含义",
+        "analysis": "考查实验科学词汇。For one trial 意为‘在其中一次试验/单次测试中’，trial 在心理学与行为科学实验中特指单次测试或单个试验环节。A项 message（信息）、B项 review（审查/复习）、D项 concept（概念）均无法与实验中的单次操作测试相对应。",
+        "context_clue": "In a series of four experiments ... For one ... , each participant was shown"
       },
       {
         "qid": 6,
@@ -7677,9 +7682,10 @@
           "C": "interrupt",
           "D": "deliver"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] remove，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "动宾搭配与电击释放",
+        "analysis": "考查动宾搭配。deliver an electric shock 意为‘释放电击/施加电击’，是物理与生理实验中释放电刺激的标准动词。A项 remove（移除）、B项 weaken（削弱）、C项 interrupt（中断）均无法表达圆珠笔被按下时机关触发释放电击的动作。",
+        "context_clue": "Half of the pens would ... an electric shock when clicked."
       },
       {
         "qid": 7,
@@ -7689,9 +7695,10 @@
           "C": "Though",
           "D": "Unless"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] Unless，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "时间状语连词省略结构",
+        "analysis": "考查状语从句连词。When left alone in the room 是 When they were left alone 的分词省略结构，意为‘当被独自留在房间里时’。B项 If 表条件假设，但此处是描述实验既成发生的程序流程；C项 Though 表让步；D项 Unless 表除非，均不合逻辑。",
+        "context_clue": "... left alone in the room, the students who did not know ... clicked more pens"
       },
       {
         "qid": 8,
@@ -7701,9 +7708,10 @@
           "C": "disappear",
           "D": "change"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] disappear，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动词在宾语从句中的用法",
+        "analysis": "考查宾语从句动词。那些事先被告知哪几支笔带电的学生清楚‘会发生什么’（knew what would happen），而不知情者出于好奇乱按一通。happen 意为‘发生’。A项 continue（继续）、C项 disappear（消失）、D项 change（改变）均未扣住对未知电击结果的预知。",
+        "context_clue": "did not know which ones would shock them ... knew what would ..."
       },
       {
         "qid": 9,
@@ -7713,9 +7721,10 @@
           "C": "such as",
           "D": "owing to"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] regardless of，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "举例说明短语搭配",
+        "analysis": "考查举例词辨析。后文列举‘指甲划过黑板的声音、恶心昆虫的照片’等其他令人不快的刺激物，such as 意为‘例如/诸如’，用于同位举例。A项 rather than（而不是）、B项 regardless of（不管不顾）、D项 owing to（由于）均非用于举例列举。",
+        "context_clue": "reproduced this effect with other stimuli, ... the sound of fingernails on a chalkboard"
       },
       {
         "qid": 10,
@@ -7725,9 +7734,10 @@
           "C": "forget",
           "D": "disagree"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] disagree，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "动词与求知探索内驱力",
+        "analysis": "考查动词语义。The drive to discover 意为‘求索与发现未知的内驱力’，与全文反复探讨的 curiosity 和 need to know 形成完美同义互证。B项 forgive（原谅）、C项 forget（忘记）、D项 disagree（不同意）均与好奇心探索风马牛不相及。",
+        "context_clue": "The drive to ... is deeply rooted in humans ... curiosity ... need to know"
       },
       {
         "qid": 11,
@@ -7737,9 +7747,10 @@
           "C": "schooling",
           "D": "food"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] pay，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "名词语境辨析与人类基本生理生存需求",
+        "analysis": "考查名词在基本生存需求中的排比。学者指出求知欲与人类对‘食物或遮蔽所’（food or shelter）的基本生存驱动力一样深植于基因之中。food 和 shelter 是人类生理层级中最基本的生活必需品黄金搭档。A项 pay（薪酬）、B项 marriage（婚姻）、C项 schooling（上学）均属后天社会化需求，非原始生存本能。",
+        "context_clue": "much the same as the basic drives for ... or shelter"
       },
       {
         "qid": 12,
@@ -7749,9 +7760,10 @@
           "C": "learn from",
           "D": "begin with"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] learn from，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "动词短语辨析与积极科学成果催生",
+        "analysis": "考查动词短语。Curiosity 通常被视为有益的本能，因为它能够‘催生/带来新的科学进步’（lead to new scientific advances）。lead to 意为‘导致/促进’。B项 rest on（依赖）、C项 learn from（向……学习）、D项 begin with（以……开始）均无法表达好奇心驱动科学发现的因果作用。",
+        "context_clue": "good instinct – it can ... new scientific advances, for instance"
       },
       {
         "qid": 13,
@@ -7761,9 +7773,10 @@
           "C": "inquiry",
           "D": "diligence"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] persistence，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "名词语境替换与探究行为",
+        "analysis": "考查名词对求知行为的学术概括。转折词 but 提示下文：然而有时这种‘探索与好奇求知行为’（such inquiry）也会适得其反（backfire）。inquiry 意为‘探究/探问’，是 curiosity 行为的外化称谓。A项 withdrawal（撤退）、B项 persistence（坚持）、D项 diligence（勤勉）均非好奇心探知的替代名词。",
+        "context_clue": "Curiosity ... but sometimes such ... can backfire"
       },
       {
         "qid": 14,
@@ -7773,9 +7786,10 @@
           "C": "self-evident",
           "D": "self-deceptive"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] self-reliant，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "复合形容词与自残自毁行为",
+        "analysis": "考查形容词在总结论断中的修饰。好奇心不仅带来探索，还能驱使人做出‘自我伤害/自残自毁的事情’（do self-destructive things，如被电击、听刺耳指甲声、看恶评）。A项 self-reliant（自力更生的）、C项 self-evident（显而易见的）、D项 self-deceptive（自欺欺人的）均脱离了自找苦吃的核心特征。",
+        "context_clue": "painful ... electric shock ... drive you to do ... things"
       },
       {
         "qid": 15,
@@ -7785,9 +7799,10 @@
           "C": "replace",
           "D": "trace"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] trace，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动词语境推断与不良冲动克制",
+        "analysis": "考查动词语义。最后一段峰回路转指出：不健康的好奇心其实是可以‘被抵制/被克制的’（possible to resist）。后文详细介绍如何通过前瞻思考来抑制冲动。A项 define（定义）、C项 replace（替代）、D项 trace（追踪）均未能切中克制不良冲动的主题。",
+        "context_clue": "Unhealthy curiosity is possible to ... , however. ... less likely to choose to see"
       },
       {
         "qid": 16,
@@ -7797,9 +7812,10 @@
           "C": "design",
           "D": "conceal"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] design，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "动词语境辨析与结果预先推测",
+        "analysis": "考查动词语义。在第四组实验中，受试者被引导去‘预判/预测’（predict）自己看了恶心图片后会有何种感受。A项 overlook（忽视）、C项 design（设计）、D项 conceal（隐瞒）均非针对未来心理感受的前瞻思考行为。",
+        "context_clue": "encouraged to ... how they would feel after viewing ... ahead of time"
       },
       {
         "qid": 17,
@@ -7809,9 +7825,10 @@
           "C": "choose",
           "D": "pretend"
         },
-        "answer": "B",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] promise，符合文章前后文语义推进与句式结构。"
+        "answer": "C",
+        "category": "动词语境选择与意愿减退",
+        "analysis": "考查动词搭配。提前预想不快感受的受试者，随后‘选择去看这种图片的可能性大大降低’（less likely to choose to see such an image）。A项 remember（记得）、B项 promise（承诺）、D项 pretend（假装）均不符合受试者主动行使自主选择权的实验场景。",
+        "context_clue": "less likely to ... to see such an image"
       },
       {
         "qid": 18,
@@ -7821,9 +7838,10 @@
           "C": "duty",
           "D": "outcome"
         },
-        "answer": "A",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] relief，符合文章前后文语义推进与句式结构。"
+        "answer": "D",
+        "category": "名词语境辨析与行为后果",
+        "analysis": "考查名词辨析。提前设想放任好奇心到底会带来何种‘后果/结果’（the outcome of following through on one's curiosity）。outcome 意为‘结果/结局’。A项 relief（宽慰）、B项 plan（计划）、C项 duty（责任）中，只有 outcome 能直接呼应前文的 predict how they would feel。",
+        "context_clue": "imagining the ... of following through on one's curiosity ahead of time"
       },
       {
         "qid": 19,
@@ -7833,9 +7851,10 @@
           "C": "where",
           "D": "how"
         },
-        "answer": "D",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] how，符合文章前后文语义推进与句式结构。"
+        "answer": "B",
+        "category": "宾语从句引导词与是否判断",
+        "analysis": "考查宾语从句连词。determine whether it is worth the endeavor 意为‘有助于判断这番探索是否值得付出努力’。whether... or not 引导间接疑问表示‘是否’。A项 why（为何）、C项 where（在哪里）、D项 how（如何）均不符合衡量是否值得（worth）的二元判定。",
+        "context_clue": "help determine ... it is worth the endeavor"
       },
       {
         "qid": 20,
@@ -7845,9 +7864,10 @@
           "C": "strategies",
           "D": "limitations"
         },
-        "answer": "C",
-        "category": "词义辨析与篇章逻辑",
-        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] strategies，符合文章前后文语义推进与句式结构。"
+        "answer": "A",
+        "category": "名词语境复现与长远后果考量",
+        "analysis": "考查名词在收尾结论中的重要意义。学者总结道：‘思考长远后果（long-term consequences）是减少好奇心负面影响的关键’。consequences 意为‘后果’，是对前文 outcome 与 backfire 的高级理论升华。B项 investments（投资）、C项 strategies（策略）、D项 limitations（限制）均脱离了预估行为后果的语境。",
+        "context_clue": "Thinking about long-term ... is key to reducing the possible negative effects"
       }
     ]
   },
