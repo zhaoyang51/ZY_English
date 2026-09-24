@@ -207,4 +207,41 @@ test('Cloze and Part B bilingual Chinese translation toggle and data coverage (2
   assert.ok(wsHtml.includes('matching-opt-cn'), 'matching-opt-cn must be rendered');
 });
 
+test('Part B items for all 17 years (2010-2026) have authentic question titles and full interactive elements', () => {
+  const { context, document } = setupDOM();
+
+  for (let yr = 2010; yr <= 2026; yr++) {
+    const data = JSON.parse(read(`data/${yr}.json`));
+    const pb = data.part_b;
+    assert.ok(pb, `Year ${yr} must have part_b`);
+    assert.equal(pb.items.length, 5, `Year ${yr} must have 5 items (41-45)`);
+
+    pb.items.forEach(it => {
+      assert.ok(it.title && it.title.length > 3, `Year ${yr} item ${it.qid} must have non-empty title`);
+      assert.ok(!it.title.includes('【第 41 题】 (选择对应小标题)'), `Year ${yr} item ${it.qid} must not have placeholder title`);
+      assert.ok(it.title_cn && it.title_cn.length > 2, `Year ${yr} item ${it.qid} must have non-empty title_cn`);
+    });
+
+    // Render in practice mode
+    context.window.MatchingRenderer.render(pb, yr, 'practice');
+    const paperHtml = document.getElementById('examPaper').innerHTML;
+    const wsHtml = document.getElementById('workspaceContent').innerHTML;
+
+    if (pb.subtype === 'heading_matching') {
+      // Must contain interactive heading slots
+      assert.ok(paperHtml.includes('partb-heading-slot'), `Year ${yr} heading matching must have partb-heading-slot`);
+    } else {
+      // Multiple matching / true false must contain questions panel with authentic items
+      assert.ok(paperHtml.includes('partb-questions-panel'), `Year ${yr} must have partb-questions-panel`);
+      assert.ok(paperHtml.includes('partb-exam-item-row'), `Year ${yr} must have partb-exam-item-row`);
+    }
+
+    // Verify workspace displays authentic item titles
+    pb.items.forEach(it => {
+      assert.ok(wsHtml.includes(it.title.substring(0, 15)), `Workspace must render item title for ${yr} ${it.qid}`);
+    });
+  }
+});
+
+
 

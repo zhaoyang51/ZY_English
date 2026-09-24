@@ -8056,33 +8056,33 @@
     "items": [
       {
         "qid": 41,
-        "title": "【第 41 题】 (选择对应小标题)",
-        "locate_para": 1,
-        "title_cn": "【第 41 题】对应小标题 (段落 3 策略)"
+        "title": "[Para 4] You may decide it's best to hold off on voicing your opinion. Maybe the timing isn't right...",
+        "title_cn": "第 4 段小标题 (决定是否暂时等待)",
+        "locate_para": 3
       },
       {
         "qid": 42,
-        "title": "【第 42 题】 (选择对应小标题)",
-        "locate_para": 2,
-        "title_cn": "【第 42 题】对应小标题 (段落 5 策略)"
+        "title": "[Para 6] Before you share your thoughts, think about what the powerful person cares about...",
+        "title_cn": "第 6 段小标题 (明确共同的目标)",
+        "locate_para": 5
       },
       {
         "qid": 43,
-        "title": "【第 43 题】 (选择对应小标题)",
-        "locate_para": 3,
-        "title_cn": "【第 43 题】对应小标题 (段落 7 策略)"
+        "title": "[Para 8] This step may sound overly deferential, but it's a smart way to give the powerful person...",
+        "title_cn": "第 8 段小标题 (征求表达异议的许可)",
+        "locate_para": 7
       },
       {
         "qid": 44,
-        "title": "【第 44 题】 (选择对应小标题)",
-        "locate_para": 4,
-        "title_cn": "【第 44 题】对应小标题 (段落 9 策略)"
+        "title": "[Para 10] You might feel your heart racing or your face turning red, but do your best to remain...",
+        "title_cn": "第 10 段小标题 (保持镇定冷静)",
+        "locate_para": 9
       },
       {
         "qid": 45,
-        "title": "【第 45 题】 (选择对应小标题)",
-        "locate_para": 5,
-        "title_cn": "【第 45 题】对应小标题 (段落 11 策略)"
+        "title": "[Para 12] Emphasize that you're only offering your opinion, not gospel truth...",
+        "title_cn": "第 12 段小标题 (保持谦逊客观)",
+        "locate_para": 11
       }
     ],
     "options": {

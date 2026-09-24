@@ -8106,33 +8106,33 @@
     "items": [
       {
         "qid": 41,
-        "title": "【第 41 题】 (选择对应小标题)",
-        "locate_para": 1,
-        "title_cn": "【第 41 题】对应小标题 (段落 5 原则)"
+        "title": "[Para 6] Suppose you are in a room with someone you don't know and something gets your attention...",
+        "title_cn": "第 6 段小标题 (想说就直说)",
+        "locate_para": 5
       },
       {
         "qid": 42,
-        "title": "【第 42 题】 (选择对应小标题)",
-        "locate_para": 2,
-        "title_cn": "【第 42 题】对应小标题 (段落 8-10 原则)"
+        "title": "[Para 9] It is a problem all of us face; you have limited time with the person and don't know what to ask...",
+        "title_cn": "第 9 段小标题 (跳过无关紧要的闲聊)",
+        "locate_para": 8
       },
       {
         "qid": 43,
-        "title": "【第 43 题】 (选择对应小标题)",
-        "locate_para": 3,
-        "title_cn": "【第 43 题】对应小标题 (段落 12 原则)"
+        "title": "[Para 13] When you meet a person for the first time, make an effort to find common ground...",
+        "title_cn": "第 13 段小标题 (寻找‘我也一样’的共鸣)",
+        "locate_para": 12
       },
       {
         "qid": 44,
-        "title": "【第 44 题】 (选择对应小标题)",
-        "locate_para": 4,
-        "title_cn": "【第 44 题】对应小标题 (段落 14-15 原则)"
+        "title": "[Para 15] Imagine you are pouring your heart out to someone and they are just nodding along without listening...",
+        "title_cn": "第 15 段小标题 (全心投入倾听)",
+        "locate_para": 14
       },
       {
         "qid": 45,
-        "title": "【第 45 题】 (选择对应小标题)",
-        "locate_para": 5,
-        "title_cn": "【第 45 题】对应小标题 (段落 17-18 原则)"
+        "title": "[Para 18] You all came into a conversation where you first met the person, remember their name and details...",
+        "title_cn": "第 18 段小标题 (记住姓名、地点与细节)",
+        "locate_para": 17
       }
     ],
     "options": {

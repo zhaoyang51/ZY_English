@@ -47,25 +47,90 @@
       const examPaper = document.getElementById('examPaper');
       if (!examPaper) return;
 
+      const leftScroll = document.getElementById('leftScroll');
+      const prevScrollTop = leftScroll ? leftScroll.scrollTop : 0;
+
       const fs = window.ReaderModule?.settings?.fontSize || 17.5;
       const lh = window.ReaderModule?.settings?.lineHeight || 1.85;
       const showTrans = this.getShowTrans();
 
       let parasHtml = '';
       (data.paragraphs || []).forEach((p, idx) => {
-        parasHtml += `
-          <div class="exam-para" id="partb-para-${p.pid !== undefined ? p.pid : idx}" data-pid="${idx}">
-            <span class="para-badge">[Para ${idx + 1}]</span>
-            <span class="para-text" style="font-size:${fs}px;line-height:${lh}">${p.text || p}</span>
-            ${showTrans && p.translation ? `
-              <div class="partb-para-trans">
-                <span class="partb-trans-badge">译文</span>
-                <span class="partb-trans-text">${p.translation}</span>
+        const pText = (typeof p === 'string' ? p : p.text) || '';
+        const mBlank = pText.match(/^\(?\s*(4[1-5])\s*\)?\s*[_—]+/);
+
+        if (mBlank) {
+          const blankQid = Number(mBlank[1]);
+          const userPick = userSelections[blankQid];
+          const matchedOptText = userPick && data.options ? data.options[userPick] : '';
+          const matchedOptCn = userPick && data.options_cn ? data.options_cn[userPick] : '';
+          const isActive = activeItemQid === blankQid;
+
+          parasHtml += `
+            <div class="partb-heading-slot ${userPick ? 'matched' : ''} ${isActive ? 'active' : ''}" data-qid="${blankQid}" id="heading-slot-${blankQid}" title="点击在右侧工作台配对第 ${blankQid} 题小标题">
+              <div class="partb-heading-slot-header">
+                <span class="partb-heading-tag">【第 ${blankQid} 题小标题】</span>
+                <span class="partb-heading-status">${userPick ? `已选 [ ${userPick} ]` : '👉 待选择 (点击定位此题)'}</span>
               </div>
-            ` : ''}
+              <div class="partb-heading-content">
+                ${userPick ? `<strong>[ ${userPick} ]</strong> ${matchedOptText}` : '待在右侧工作台选择对应小标题 (A-G)'}
+              </div>
+              ${showTrans && userPick && matchedOptCn ? `
+                <div class="partb-heading-trans">💡 译：${matchedOptCn}</div>
+              ` : ''}
+            </div>
+          `;
+        } else {
+          parasHtml += `
+            <div class="exam-para" id="partb-para-${p.pid !== undefined ? p.pid : idx}" data-pid="${idx}">
+              <span class="para-badge">[Para ${idx + 1}]</span>
+              <span class="para-text" style="font-size:${fs}px;line-height:${lh}">${pText}</span>
+              ${showTrans && p.translation ? `
+                <div class="partb-para-trans">
+                  <span class="partb-trans-badge">译文</span>
+                  <span class="partb-trans-text">${p.translation}</span>
+                </div>
+              ` : ''}
+            </div>
+          `;
+        }
+      });
+
+      // Questions Section below article for Multiple Matching & True False
+      let questionsSectionHtml = '';
+      if (data.subtype !== 'heading_matching') {
+        const isTrueFalse = data.subtype === 'true_false';
+        const sectionTitle = isTrueFalse ? '📋 正误判断题目列表 (Questions 41-45)' : '📋 人名/待匹配项目列表 (Questions 41-45 · 待配对项)';
+        questionsSectionHtml = `
+          <div class="partb-questions-panel">
+            <h3 style="font-size:1.15em;font-weight:700;margin:28px 0 14px;color:var(--ink);display:flex;align-items:center;gap:8px">
+              <span>${sectionTitle}</span>
+              <span style="font-size:0.75em;color:var(--muted);font-weight:normal">（点击题目快速联动右侧工作台）</span>
+            </h3>
+            <div class="partb-exam-items-list">
+              ${(data.items || []).map(item => {
+                const qid = item.qid;
+                const pick = userSelections[qid];
+                const isActive = activeItemQid === qid;
+                const optText = pick && data.options ? data.options[pick] : '';
+                return `
+                  <div class="partb-exam-item-row ${isActive ? 'active' : ''} ${pick ? 'matched' : ''}" data-qid="${qid}" id="exam-item-row-${qid}" title="点击在右侧工作台配对第 ${qid} 题">
+                    <span class="partb-exam-item-qid">${qid}.</span>
+                    <div class="partb-exam-item-body">
+                      <div class="partb-exam-item-en">${item.title || item.stem || ''}</div>
+                      ${showTrans && item.title_cn ? `<div class="partb-exam-item-cn">💡 ${item.title_cn}</div>` : ''}
+                      ${pick ? `<div class="partb-exam-item-picked">➔ 已选 [ <strong>${pick}</strong> ]: ${optText}</div>` : ''}
+                    </div>
+                    <div class="partb-exam-item-match">
+                      ${pick ? `<span class="partb-matched-badge">[ ${pick} ]</span>` : `<span class="partb-unmatched-badge">待配对</span>`}
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
           </div>
         `;
-      });
+      }
 
       examPaper.innerHTML = `
         <div class="reader-toolbar">
@@ -90,10 +155,15 @@
 
         <div class="exam-article-section">
           ${parasHtml}
+          ${questionsSectionHtml}
         </div>
       `;
 
-      // Bind toggle translation button in left panel
+      if (leftScroll && prevScrollTop) {
+        leftScroll.scrollTop = prevScrollTop;
+      }
+
+      // Bind events in left panel
       const toggleBtn = examPaper.querySelector('#btnTogglePartBTrans');
       if (toggleBtn) {
         toggleBtn.addEventListener('click', () => {
@@ -102,11 +172,42 @@
           this.renderRightPanel(data, year, this.currentMode);
         });
       }
+
+      // Clicking heading slot in left panel activates item on right
+      examPaper.querySelectorAll('.partb-heading-slot').forEach(el => {
+        el.addEventListener('click', () => {
+          const qid = Number(el.getAttribute('data-qid'));
+          activeItemQid = qid;
+          this.renderLeftPanel(data, year);
+          this.renderRightPanel(data, year, this.currentMode);
+          const targetCard = document.getElementById(`matching-item-${qid}`);
+          if (targetCard) {
+            targetCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        });
+      });
+
+      // Clicking question row in left panel activates item on right
+      examPaper.querySelectorAll('.partb-exam-item-row').forEach(el => {
+        el.addEventListener('click', () => {
+          const qid = Number(el.getAttribute('data-qid'));
+          activeItemQid = qid;
+          this.renderLeftPanel(data, year);
+          this.renderRightPanel(data, year, this.currentMode);
+          const targetCard = document.getElementById(`matching-item-${qid}`);
+          if (targetCard) {
+            targetCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        });
+      });
     },
 
     renderRightPanel: function(data, year, mode) {
       const container = document.getElementById('workspaceContent');
       if (!container) return;
+
+      const rightScroll = document.getElementById('rightScroll');
+      const prevScrollTop = rightScroll ? rightScroll.scrollTop : 0;
 
       const isSubmitted = localStorage.getItem(`kaoyan_partb_submitted_${year}`) === 'true' || mode === 'review';
       const answers = data.answers || {};
@@ -119,6 +220,8 @@
         const currentChoice = userSelections[qid] || '';
         const isCorrect = answers[qid] ? (currentChoice === answers[qid]) : null;
         const isCurrentActive = activeItemQid === qid;
+        const assignedOptText = currentChoice && data.options ? data.options[currentChoice] : '';
+        const assignedOptCn = currentChoice && data.options_cn ? data.options_cn[currentChoice] : '';
 
         let badgeHtml = '';
         if (isSubmitted) {
@@ -139,8 +242,8 @@
           <div class="matching-item-card ${isCurrentActive ? 'active' : ''}" id="matching-item-${qid}" data-qid="${qid}">
             <div class="matching-item-header">
               <div class="matching-item-title">
-                <span style="color:var(--accent);font-weight:800;margin-right:6px">${qid}.</span>
-                <span>${item.title || item.stem || ''}</span>
+                <span class="partb-item-num">${qid}.</span>
+                <span class="partb-item-text">${item.title || item.stem || ''}</span>
                 ${showTrans && item.title_cn ? `
                   <div class="matching-item-cn">💡 ${item.title_cn}</div>
                 ` : ''}
@@ -148,13 +251,20 @@
               ${badgeHtml}
             </div>
 
+            ${currentChoice ? `
+              <div class="matching-item-selected-preview">
+                <div class="matching-preview-en"><span class="matching-preview-tag">[ ${currentChoice} ]</span> ${assignedOptText}</div>
+                ${showTrans && assignedOptCn ? `<div class="matching-preview-cn">💡 译：${assignedOptCn}</div>` : ''}
+              </div>
+            ` : ''}
+
             <!-- Quick dropdown selector -->
-            <div style="display:flex;align-items:center;gap:8px;margin-top:8px">
+            <div style="display:flex;align-items:center;gap:8px;margin-top:10px">
               <span style="font-size:0.82em;color:var(--muted)">匹配选项:</span>
-              <select class="select-control partb-item-select" data-qid="${qid}" style="font-size:0.85em;padding:3px 8px;flex:1">
+              <select class="select-control partb-item-select" data-qid="${qid}" style="font-size:0.85em;padding:4px 8px;flex:1">
                 <option value="">-- 点击选择 A-G --</option>
                 ${Object.keys(data.options || {}).sort().map(key => `
-                  <option value="${key}" ${currentChoice === key ? 'selected' : ''}>[${key}] ${(data.options[key] || '').substring(0, 45)}...</option>
+                  <option value="${key}" ${currentChoice === key ? 'selected' : ''}>[${key}] ${(data.options[key] || '').substring(0, 50)}...</option>
                 `).join('')}
               </select>
             </div>
@@ -233,7 +343,7 @@
           </div>
 
           <div style="font-size:0.88em;color:var(--muted);line-height:1.5">
-            💡 <strong>解题指引：</strong>点击左侧待配对题卡，再点击右侧选项即可快速配对；或直接在下拉框选择。
+            💡 <strong>解题指引：</strong>点击待配对题卡，再点击右侧选项即可快速配对；或直接在题卡下拉框选择。
           </div>
 
           <!-- Left column: 41-45 items -->
@@ -263,6 +373,10 @@
         </div>
       `;
 
+      if (rightScroll && prevScrollTop) {
+        rightScroll.scrollTop = prevScrollTop;
+      }
+
       // Bind events
       this.bindEvents(data, year);
     },
@@ -274,8 +388,9 @@
           if (e.target.tagName.toLowerCase() === 'select') return;
           const qid = Number(el.getAttribute('data-qid'));
           activeItemQid = qid;
+          this.renderLeftPanel(data, year);
           this.renderRightPanel(data, year, this.currentMode);
-          // Highlight relevant paragraph in left panel if known
+          // Highlight relevant paragraph or item in left panel
           const item = (data.items || []).find(it => it.qid === qid);
           if (item && item.locate_para !== undefined) {
             const pEl = document.getElementById(`partb-para-${item.locate_para}`);
@@ -283,6 +398,11 @@
               document.querySelectorAll('.exam-para').forEach(p => p.classList.remove('highlight-focus'));
               pEl.classList.add('highlight-focus');
               pEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+          } else {
+            const slotEl = document.getElementById(`heading-slot-${qid}`) || document.getElementById(`exam-item-row-${qid}`);
+            if (slotEl) {
+              slotEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
             }
           }
         });
@@ -303,6 +423,7 @@
             delete userSelections[qid];
           }
           localStorage.setItem(`kaoyan_partb_${year}`, JSON.stringify(userSelections));
+          this.renderLeftPanel(data, year);
           this.renderRightPanel(data, year, this.currentMode);
         });
       });
@@ -322,6 +443,7 @@
             userSelections[activeItemQid] = opt;
           }
           localStorage.setItem(`kaoyan_partb_${year}`, JSON.stringify(userSelections));
+          this.renderLeftPanel(data, year);
           this.renderRightPanel(data, year, this.currentMode);
         });
       });
@@ -336,6 +458,7 @@
           } else {
             localStorage.setItem(`kaoyan_partb_submitted_${year}`, 'true');
           }
+          this.renderLeftPanel(data, year);
           this.renderRightPanel(data, year, this.currentMode);
         });
       }
@@ -347,6 +470,7 @@
             userSelections = {};
             localStorage.removeItem(`kaoyan_partb_${year}`);
             localStorage.removeItem(`kaoyan_partb_submitted_${year}`);
+            this.renderLeftPanel(data, year);
             this.renderRightPanel(data, year, this.currentMode);
           }
         });

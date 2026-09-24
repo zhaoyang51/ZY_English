@@ -7732,33 +7732,33 @@
     "items": [
       {
         "qid": 41,
-        "title": "【第 41 题】 (选择对应小标题)",
-        "locate_para": 1,
-        "title_cn": "【第 41 题】对应小标题 (段落 3 沟通准则)"
+        "title": "[Para 4] If you have a bone to pick with someone in your workplace, you may want to address it directly...",
+        "title_cn": "第 4 段小标题 (多花时间与同事交流)",
+        "locate_para": 3
       },
       {
         "qid": 42,
-        "title": "【第 42 题】 (选择对应小标题)",
-        "locate_para": 2,
-        "title_cn": "【第 42 题】对应小标题 (段落 5 倾听准则)"
+        "title": "[Para 6] Just as important as being honest about yourself is being receptive to what others have to say...",
+        "title_cn": "第 6 段小标题 (放慢节奏用心倾听)",
+        "locate_para": 5
       },
       {
         "qid": 43,
-        "title": "【第 43 题】 (选择对应小标题)",
-        "locate_para": 3,
-        "title_cn": "【第 43 题】对应小标题 (段落 7 社交准则)"
+        "title": "[Para 8] It's common to have a 'cubicle mate' or special confidant in a workplace, but adapt to diverse styles...",
+        "title_cn": "第 8 段小标题 (量身定制社交互动)",
+        "locate_para": 7
       },
       {
         "qid": 44,
-        "title": "【第 44 题】 (选择对应小标题)",
-        "locate_para": 4,
-        "title_cn": "【第 44 题】对应小标题 (段落 9 赞美准则)"
+        "title": "[Para 10] Positive feedback is important for anyone to hear. And you don't have to wait for annual reviews...",
+        "title_cn": "第 10 段小标题 (换位思考设身处地)",
+        "locate_para": 9
       },
       {
         "qid": 45,
-        "title": "【第 45 题】 (选择对应小标题)",
-        "locate_para": 5,
-        "title_cn": "【第 45 题】对应小标题 (段落 11 共情准则)"
+        "title": "[Para 12] This one may be a bit more difficult to pull off, but it can go a long way: be pleasant always...",
+        "title_cn": "第 12 段小标题 (始终展现和善面容)",
+        "locate_para": 11
       }
     ],
     "options": {

@@ -7704,33 +7704,33 @@
     "items": [
       {
         "qid": 41,
-        "title": "【第 41 题】 (选择对应小标题)",
-        "locate_para": 1,
-        "title_cn": "【第 41 题】对应小标题 (段落 4 核心)"
+        "title": "[Para 5] Fear is both useful and harmful. This normal human reaction is used...",
+        "title_cn": "第 5 段小标题 (多数恐惧并非真实存在)",
+        "locate_para": 4
       },
       {
         "qid": 42,
-        "title": "【第 42 题】 (选择对应小标题)",
-        "locate_para": 2,
-        "title_cn": "【第 42 题】对应小标题 (段落 6 核心)"
+        "title": "[Para 7] If you are surrounded by problems and cannot stop thinking about them...",
+        "title_cn": "第 7 段小标题 (专注于当下时刻)",
+        "locate_para": 6
       },
       {
         "qid": 43,
-        "title": "【第 43 题】 (选择对应小标题)",
-        "locate_para": 3,
-        "title_cn": "【第 43 题】对应小标题 (段落 8 核心)"
+        "title": "[Para 9] Sometimes it is easy to feel bad because you are going through tough times...",
+        "title_cn": "第 9 段小标题 (有许多值得感恩的事)",
+        "locate_para": 8
       },
       {
         "qid": 44,
-        "title": "【第 44 题】 (选择对应小标题)",
-        "locate_para": 4,
-        "title_cn": "【第 44 题】对应小标题 (段落 10 核心)"
+        "title": "[Para 11] No matter how isolated you might feel and how serious the situation is...",
+        "title_cn": "第 11 段小标题 (你并不孤单)",
+        "locate_para": 10
       },
       {
         "qid": 45,
-        "title": "【第 45 题】 (选择对应小标题)",
-        "locate_para": 5,
-        "title_cn": "【第 45 题】对应小标题 (段落 12 核心)"
+        "title": "[Para 13] Today many people find it difficult to trust their own opinion and often rely on others...",
+        "title_cn": "第 13 段小标题 (开辟属于你自己的独特道路)",
+        "locate_para": 12
       }
     ],
     "options": {

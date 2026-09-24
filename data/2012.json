@@ -7984,28 +7984,28 @@
     "items": [
       {
         "qid": 41,
-        "title": "【第 41 题】 (选择对应小标题)",
+        "title": "Petrarch",
         "title_cn": "弗朗切斯科·彼特拉克 (Petrarch)"
       },
       {
         "qid": 42,
-        "title": "【第 42 题】 (选择对应小标题)",
+        "title": "Niccolò Machiavelli",
         "title_cn": "尼科洛·马基雅维利 (Niccolò Machiavelli)"
       },
       {
         "qid": 43,
-        "title": "【第 43 题】 (选择对应小标题)",
+        "title": "Samuel Smiles",
         "title_cn": "萨缪尔·斯迈尔斯 (Samuel Smiles)"
       },
       {
         "qid": 44,
-        "title": "【第 44 题】 (选择对应小标题)",
+        "title": "Thomas Carlyle",
         "title_cn": "托马斯·卡莱尔 (Thomas Carlyle)"
       },
       {
         "qid": 45,
-        "title": "【第 45 题】 (选择对应小标题)",
-        "title_cn": "马克思与恩格斯 (Marx and Engels)"
+        "title": "Marx and Engels",
+        "title_cn": "卡尔·马克思与弗里德里希·恩格斯 (Marx and Engels)"
       }
     ],
     "options": {

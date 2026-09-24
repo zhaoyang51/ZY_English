@@ -517,6 +517,170 @@
   flex-shrink: 0;
 }
 
+/* Part B Interactive Heading Slots (Left Exam Paper) */
+.partb-heading-slot {
+  background: var(--card-bg, #f8fafc);
+  border: 1.5px dashed var(--accent, #7c3aed);
+  border-radius: var(--radius-md, 8px);
+  padding: 10px 14px;
+  margin: 14px 0 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+.partb-heading-slot:hover {
+  border-color: var(--accent, #7c3aed);
+  background: var(--surface, #ffffff);
+  box-shadow: var(--shadow-sm);
+}
+.partb-heading-slot.active {
+  border-style: solid;
+  border-color: var(--accent, #7c3aed);
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
+  background: rgba(124, 58, 237, 0.04);
+}
+.partb-heading-slot.matched {
+  border-style: solid;
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.04);
+}
+.partb-heading-slot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.84em;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.partb-heading-tag {
+  color: var(--accent, #7c3aed);
+}
+.partb-heading-status {
+  font-size: 0.82em;
+  color: var(--muted, #64748b);
+}
+.partb-heading-content {
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: var(--ink, #0f172a);
+}
+.partb-heading-trans {
+  font-size: 0.84em;
+  color: #0284c7;
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px dashed var(--border, #e2e8f0);
+}
+
+/* Part B Questions Section (Below Article for Multiple Matching / True False) */
+.partb-questions-panel {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 2px dashed var(--border, #cbd5e1);
+}
+.partb-exam-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.partb-exam-item-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 14px;
+  background: var(--surface, #ffffff);
+  border: 1.5px solid var(--border, #e2e8f0);
+  border-radius: var(--radius-md, 8px);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.partb-exam-item-row:hover {
+  border-color: var(--accent, #7c3aed);
+  background: rgba(124, 58, 237, 0.02);
+}
+.partb-exam-item-row.active {
+  border-color: var(--accent, #7c3aed);
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.18);
+  background: rgba(124, 58, 237, 0.04);
+}
+.partb-exam-item-row.matched {
+  border-color: #86efac;
+}
+.partb-exam-item-qid {
+  font-weight: 800;
+  font-size: 1.05em;
+  color: var(--accent, #7c3aed);
+  flex-shrink: 0;
+}
+.partb-exam-item-body {
+  flex: 1;
+}
+.partb-exam-item-en {
+  font-weight: 700;
+  font-size: 0.95em;
+  color: var(--ink, #0f172a);
+  line-height: 1.45;
+}
+.partb-exam-item-cn {
+  font-size: 0.84em;
+  color: #0284c7;
+  margin-top: 3px;
+}
+.partb-exam-item-picked {
+  font-size: 0.82em;
+  color: #15803d;
+  background: #dcfce7;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.partb-exam-item-match {
+  flex-shrink: 0;
+}
+.partb-matched-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 8px;
+  background: var(--accent, #7c3aed);
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 0.82em;
+  font-weight: 700;
+}
+.partb-unmatched-badge {
+  display: inline-flex;
+  padding: 2px 8px;
+  border: 1px dashed var(--border, #cbd5e1);
+  color: var(--muted, #64748b);
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+/* Part B Item Card Selected Preview in Right Workspace */
+.matching-item-selected-preview {
+  background: var(--card-bg, #f8fafc);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin-top: 8px;
+}
+.matching-preview-en {
+  font-size: 0.88em;
+  color: var(--ink, #0f172a);
+  line-height: 1.45;
+}
+.matching-preview-tag {
+  color: var(--accent, #7c3aed);
+  font-weight: 800;
+}
+.matching-preview-cn {
+  font-size: 0.82em;
+  color: #0284c7;
+  margin-top: 4px;
+}
+
 /* ============================================================
    3. Section III: Translation (英译汉)
    ============================================================ */

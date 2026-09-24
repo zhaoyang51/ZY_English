@@ -7712,33 +7712,33 @@
     "items": [
       {
         "qid": 41,
-        "title": "【第 41 题】 (选择对应小标题)",
-        "locate_para": 1,
-        "title_cn": "【第 41 题】对应小标题 (段落 3 建议)"
+        "title": "[Para 4] What does a child do when he's sad? He cries. When he's angry? He screams...",
+        "title_cn": "第 4 段小标题 (宣泄情感与求助)",
+        "locate_para": 3
       },
       {
         "qid": 42,
-        "title": "【第 42 题】 (选择对应小标题)",
-        "locate_para": 2,
-        "title_cn": "【第 42 题】对应小标题 (段落 5 建议)"
+        "title": "[Para 6] A couple of Christmases ago, my youngest stepdaughter, who was nine years old at the time...",
+        "title_cn": "第 6 段小标题 (容易得到满足)",
+        "locate_para": 5
       },
       {
         "qid": 43,
-        "title": "【第 43 题】 (选择对应小标题)",
-        "locate_para": 3,
-        "title_cn": "【第 43 题】对应小标题 (段落 7 建议)"
+        "title": "[Para 8] Have you ever noticed how much children laugh? If we adults could lighten up...",
+        "title_cn": "第 8 段小标题 (保持孩子般的傻气/童真)",
+        "locate_para": 7
       },
       {
         "qid": 44,
-        "title": "【第 44 题】 (选择对应小标题)",
-        "locate_para": 4,
-        "title_cn": "【第 44 题】对应小标题 (段落 9 建议)"
+        "title": "[Para 10] The problem with being a grownup is that there's an awful lot of serious stuff to deal with...",
+        "title_cn": "第 10 段小标题 (享受乐趣/找寻快乐)",
+        "locate_para": 9
       },
       {
         "qid": 45,
-        "title": "【第 45 题】 (选择对应小标题)",
-        "locate_para": 5,
-        "title_cn": "【第 45 题】对应小标题 (段落 11 建议)"
+        "title": "[Para 12] Having said all of the above, it's important to add that we shouldn't walk through life oblivious...",
+        "title_cn": "第 12 段小标题 (留心感知周围事物)",
+        "locate_para": 11
       }
     ],
     "options": {

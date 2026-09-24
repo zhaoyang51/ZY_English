@@ -6135,33 +6135,33 @@
     "items": [
       {
         "qid": 41,
-        "title": "【第 41 题】 (选择对应小标题)",
-        "locate_para": 1,
-        "title_cn": "【第 41 题】对应小标题 (段落 4 准则)"
+        "title": "[Para 5] Great ideas don't stand alone. In other words, you can't mention a new idea without connecting...",
+        "title_cn": "第 5 段小标题 (化身推销员，阐述商业价值)",
+        "locate_para": 4
       },
       {
         "qid": 42,
-        "title": "【第 42 题】 (选择对应小标题)",
-        "locate_para": 2,
-        "title_cn": "【第 42 题】对应小标题 (段落 6 准则)"
+        "title": "[Para 7] Sometimes it makes sense to go to your boss first. But other times...",
+        "title_cn": "第 7 段小标题 (善用跨部门多重沟通渠道)",
+        "locate_para": 6
       },
       {
         "qid": 43,
-        "title": "【第 43 题】 (选择对应小标题)",
-        "locate_para": 3,
-        "title_cn": "【第 43 题】对应小标题 (段落 8 准则)"
+        "title": "[Para 9] One of the biggest barriers to gaining buy-in occurs when the owner appears rigid...",
+        "title_cn": "第 9 段小标题 (保持谦虚包容的态度)",
+        "locate_para": 8
       },
       {
         "qid": 44,
-        "title": "【第 44 题】 (选择对应小标题)",
-        "locate_para": 4,
-        "title_cn": "【第 44 题】对应小标题 (段落 10 准则)"
+        "title": "[Para 11] New ideas are the grandchildren of old ones. In other words, don't trash existing systems...",
+        "title_cn": "第 11 段小标题 (尊重组织过往积累的经验)",
+        "locate_para": 10
       },
       {
         "qid": 45,
-        "title": "【第 45 题】 (选择对应小标题)",
-        "locate_para": 5,
-        "title_cn": "【第 45 题】对应小标题 (段落 12 准则)"
+        "title": "[Para 13] When pitching a new idea, it's important to use the language of an invitation...",
+        "title_cn": "第 13 段小标题 (始终保持积极向上的基调)",
+        "locate_para": 12
       }
     ],
     "options": {

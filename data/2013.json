@@ -7862,33 +7862,33 @@
     "items": [
       {
         "qid": 41,
-        "title": "【第 41 题】 (选择对应小标题)",
-        "locate_para": 1,
-        "title_cn": "【第 41 题】对应小标题 (段落 2 原则)"
+        "title": "[Para 3] Impulsive spending isn't an option, so plan your week's menu in advance...",
+        "title_cn": "第 3 段小标题 (提前规划菜单)",
+        "locate_para": 2
       },
       {
         "qid": 42,
-        "title": "【第 42 题】 (选择对应小标题)",
-        "locate_para": 2,
-        "title_cn": "【第 42 题】对应小标题 (段落 4 原则)"
+        "title": "[Para 5] This is where supermarkets and their anonymity come in handy...",
+        "title_cn": "第 5 段小标题 (利用超市匿名性)",
+        "locate_para": 4
       },
       {
         "qid": 43,
-        "title": "【第 43 题】 (选择对应小标题)",
-        "locate_para": 3,
-        "title_cn": "【第 43 题】对应小标题 (段落 6 原则)"
+        "title": "[Para 7] You may proudly claim to only have frozen peas in the freezer...",
+        "title_cn": "第 7 段小标题 (物尽其用不浪费)",
+        "locate_para": 6
       },
       {
         "qid": 44,
-        "title": "【第 44 题】 (选择对应小标题)",
-        "locate_para": 4,
-        "title_cn": "【第 44 题】对应小标题 (段落 8 原则)"
+        "title": "[Para 9] Everyone says this, but it really is a top tip for frugal eaters. Shop at butchers, delis...",
+        "title_cn": "第 9 段小标题 (与店主建立友好关系)",
+        "locate_para": 8
       },
       {
         "qid": 45,
-        "title": "【第 45 题】 (选择对应小标题)",
-        "locate_para": 5,
-        "title_cn": "【第 45 题】对应小标题 (段落 10 原则)"
+        "title": "[Para 11] You won't be eating out a lot, but save your pennies and once every few months treat yourself...",
+        "title_cn": "第 11 段小标题 (偶尔犒劳一下自己)",
+        "locate_para": 10
       }
     ],
     "options": {

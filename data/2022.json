@@ -8439,33 +8439,33 @@
     "items": [
       {
         "qid": 41,
-        "title": "【第 41 题】 (选择对应小标题)",
-        "locate_para": 1,
-        "title_cn": "【第 41 题】对应小标题 (段落 3 建议)"
+        "title": "[Para 4] Don't try to go back to what you were doing before your break. If you used to run five miles...",
+        "title_cn": "第 4 段小标题 (从低难度开始，循序渐进)",
+        "locate_para": 3
       },
       {
         "qid": 42,
-        "title": "【第 42 题】 (选择对应小标题)",
-        "locate_para": 2,
-        "title_cn": "【第 42 题】对应小标题 (段落 5 建议)"
+        "title": "[Para 6] If you're breathing too hard to talk in complete sentences, back off the intensity...",
+        "title_cn": "第 6 段小标题 (倾听身体给出的信号)",
+        "locate_para": 5
       },
       {
         "qid": 43,
-        "title": "【第 43 题】 (选择对应小标题)",
-        "locate_para": 3,
-        "title_cn": "【第 43 题】对应小标题 (段落 7 建议)"
+        "title": "[Para 8] Consistency is the key to getting stronger and building endurance...",
+        "title_cn": "第 8 段小标题 (将其培养成生活习惯)",
+        "locate_para": 7
       },
       {
         "qid": 44,
-        "title": "【第 44 题】 (选择对应小标题)",
-        "locate_para": 4,
-        "title_cn": "【第 44 题】对应小标题 (段落 9 建议)"
+        "title": "[Para 10] Even if you can't yet do a favorite activity, you can practice the basic movement...",
+        "title_cn": "第 10 段小标题 (从基础动作模拟开始)",
+        "locate_para": 9
       },
       {
         "qid": 45,
-        "title": "【第 45 题】 (选择对应小标题)",
-        "locate_para": 5,
-        "title_cn": "【第 45 题】对应小标题 (段落 11 建议)"
+        "title": "[Para 12] Exercising with others 'can keep you accountable and make it more enjoyable.'...",
+        "title_cn": "第 12 段小标题 (不要独自一人锻炼)",
+        "locate_para": 11
       }
     ],
     "options": {
