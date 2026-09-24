@@ -90,3 +90,40 @@ test('Renderer modules can render all years 2010 to 2026 without errors', () => 
     assert.ok(document.getElementById('workspaceContent').innerHTML.includes('trans-textarea'));
   }
 });
+
+test('ClozeRenderer immediately grades upon option selection (both correct and wrong)', () => {
+  const { context, document } = setupDOM();
+  const data = JSON.parse(read('data/2012.json'));
+  
+  // 1. Initial render without answers: all unpicked
+  context.window.ClozeRenderer.render(data.use_of_english, 2012, 'practice');
+  const initialHtml = document.getElementById('workspaceContent').innerHTML;
+  assert.ok(initialHtml.includes('未作答'));
+  assert.ok(initialHtml.includes('cloze-dashboard'));
+
+  // 2. Select Question 1 with correct answer ('B') and Question 2 with wrong answer ('A')
+  // For 2012, Q1 answer is 'B', Q2 answer is 'B'
+  context.localStorage.setItem('kaoyan_cloze_2012', JSON.stringify({ 1: 'B', 2: 'A' }));
+  context.window.ClozeRenderer.render(data.use_of_english, 2012, 'practice');
+
+  const gradedHtml = document.getElementById('workspaceContent').innerHTML;
+  const leftHtml = document.getElementById('examPaper').innerHTML;
+
+  // Question 1: correct
+  assert.ok(gradedHtml.includes('回答正确 (+0.5分)'));
+  assert.ok(leftHtml.includes('cloze-blank filled correct'));
+
+  // Question 2: wrong
+  assert.ok(gradedHtml.includes('回答错误 (正解: [B])'));
+  assert.ok(gradedHtml.includes('cloze-opt-flag wrong'));
+  assert.ok(leftHtml.includes('cloze-blank filled wrong'));
+
+  // Analysis shown directly for graded questions
+  assert.ok(gradedHtml.includes('cloze-analysis-box'));
+
+  // Dashboard stats
+  assert.ok(gradedHtml.includes('答对</span>\n              <span class="cloze-stat-val">1 题'));
+  assert.ok(gradedHtml.includes('答错</span>\n              <span class="cloze-stat-val">1 题'));
+  assert.ok(gradedHtml.includes('0.5 <small'));
+});
+

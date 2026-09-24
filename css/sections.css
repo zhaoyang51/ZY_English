@@ -144,6 +144,11 @@
   border-color: var(--danger, #dc2626) !important;
 }
 
+.cloze-opt-btn.dimmed {
+  opacity: 0.55;
+  border-style: dashed;
+}
+
 .cloze-opt-letter {
   display: inline-flex;
   align-items: center;
@@ -163,6 +168,200 @@
   background: rgba(255, 255, 255, 0.25);
   color: #ffffff;
 }
+
+.cloze-opt-flag {
+  font-size: 0.78em;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-left: auto;
+}
+.cloze-opt-flag.correct {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+.cloze-opt-flag.wrong {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+/* Cloze Instant Feedback Badges & Controls */
+.cloze-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.82em;
+  font-weight: 700;
+}
+.cloze-status-badge.correct {
+  background: var(--success-bg, #dcfce7);
+  color: var(--success, #16a34a);
+  border: 1px solid var(--success, #16a34a);
+}
+.cloze-status-badge.wrong {
+  background: var(--danger-bg, #fee2e2);
+  color: var(--danger, #dc2626);
+  border: 1px solid var(--danger, #dc2626);
+}
+.cloze-status-badge.unpicked {
+  background: var(--card-bg, #f1f5f9);
+  color: var(--muted, #64748b);
+  border: 1px solid var(--border, #cbd5e1);
+}
+
+.cloze-retry-btn {
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #cbd5e1);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.78em;
+  font-weight: 600;
+  color: var(--muted, #64748b);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.cloze-retry-btn:hover {
+  background: var(--accent-light, #eff6ff);
+  color: var(--accent, #2563eb);
+  border-color: var(--accent, #2563eb);
+}
+
+/* Cloze Analysis Box */
+.cloze-analysis-box {
+  background: var(--card-bg, #f8fafc);
+  border: 1px solid var(--border, #e2e8f0);
+  border-left: 3.5px solid var(--accent, #0284c7);
+  border-radius: var(--radius-sm, 6px);
+  padding: 10px 12px;
+  margin-top: 10px;
+}
+.cloze-analysis-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88em;
+  color: var(--ink, #0f172a);
+}
+
+/* In-text blanks enhanced states */
+.cloze-blank.filled.wrong .blank-word.wrong-text {
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+.cloze-blank .blank-correct-hint {
+  font-size: 0.82em;
+  font-weight: 700;
+  color: var(--success, #16a34a);
+  margin-left: 3px;
+  padding: 0 4px;
+  background: rgba(22, 163, 74, 0.12);
+  border-radius: 3px;
+}
+.cloze-blank .blank-check {
+  color: var(--success, #16a34a);
+  font-size: 0.85em;
+  margin-left: 2px;
+}
+.cloze-blank .blank-cross {
+  color: var(--danger, #dc2626);
+  font-size: 0.85em;
+  margin-left: 2px;
+}
+
+/* Cloze Real-time Dashboard */
+.cloze-dashboard {
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: var(--radius-md, 10px);
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow-sm);
+}
+.cloze-dashboard-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.cloze-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.cloze-stat-label {
+  font-size: 0.78em;
+  color: var(--muted, #64748b);
+  font-weight: 600;
+}
+.cloze-stat-val {
+  font-size: 1.15em;
+  font-weight: 800;
+  color: var(--ink, #0f172a);
+}
+.cloze-stat-item.correct .cloze-stat-val { color: var(--success, #16a34a); }
+.cloze-stat-item.wrong .cloze-stat-val { color: var(--danger, #dc2626); }
+.cloze-stat-item.score .cloze-stat-val.highlight { color: #0284c7; }
+
+.cloze-progress-track {
+  width: 100%;
+  height: 6px;
+  background: var(--card-bg, #e2e8f0);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.cloze-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #0284c7, var(--success, #16a34a));
+  transition: width 0.3s ease;
+}
+
+.cloze-mini-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border, #e2e8f0);
+}
+.cloze-nav-chip {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-size: 0.8em;
+  font-weight: 700;
+  border: 1px solid var(--border, #cbd5e1);
+  background: var(--card-bg, #f8fafc);
+  color: var(--muted, #64748b);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+.cloze-nav-chip:hover {
+  border-color: var(--accent, #2563eb);
+  transform: scale(1.08);
+}
+.cloze-nav-chip.active {
+  box-shadow: 0 0 0 2px var(--accent, #2563eb);
+}
+.cloze-nav-chip.correct {
+  background: var(--success, #16a34a);
+  color: #fff;
+  border-color: var(--success, #16a34a);
+}
+.cloze-nav-chip.wrong {
+  background: var(--danger, #dc2626);
+  color: #fff;
+  border-color: var(--danger, #dc2626);
+}
+
 
 /* ============================================================
    2. Section II Part B: Matching (新题型信息匹配 / 小标题)
