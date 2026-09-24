@@ -274,7 +274,7 @@
     const saved = window.StorageModule.loadProgress();
     if (saved) {
       if (saved.year) AppState.year = Number(saved.year);
-      if (saved.textId) AppState.textId = Number(saved.textId);
+      if (saved.textId) AppState.textId = isNaN(Number(saved.textId)) ? saved.textId : Number(saved.textId);
       if (saved.mode === 'practice' || saved.mode === 'review' || saved.mode === 'vocab') AppState.mode = saved.mode;
       if (saved.practiceSubmode === 'mock' || saved.practiceSubmode === 'step') AppState.practiceSubmode = saved.practiceSubmode;
       if (typeof saved.stepIndex === 'number') AppState.savedStepIndex = saved.stepIndex;
@@ -331,13 +331,39 @@
     if (!textSelect || !yItem) return;
 
     textSelect.innerHTML = '';
+
+    // 1. Section I Use of English (完形填空)
+    const optCloze = document.createElement('option');
+    optCloze.value = 'use_of_english';
+    optCloze.textContent = '🧩 完形填空 (1-20题 · 10分)';
+    if (String(AppState.textId) === 'use_of_english') optCloze.selected = true;
+    textSelect.appendChild(optCloze);
+
+    // 2. Section II Part A Reading Comprehension (传统阅读 Text 1-4)
+    const grpReading = document.createElement('optgroup');
+    grpReading.label = '📖 传统阅读理解 (Text 1-4 · 40分)';
     yItem.texts.forEach(t => {
       const opt = document.createElement('option');
       opt.value = t.id;
       opt.textContent = `Text ${t.id} (${t.q_range}题)`;
-      if (t.id === AppState.textId) opt.selected = true;
-      textSelect.appendChild(opt);
+      if (String(t.id) === String(AppState.textId)) opt.selected = true;
+      grpReading.appendChild(opt);
     });
+    textSelect.appendChild(grpReading);
+
+    // 3. Section II Part B Matching (新题型)
+    const optPartB = document.createElement('option');
+    optPartB.value = 'part_b';
+    optPartB.textContent = '🧩 新题型 (41-45题 · 10分)';
+    if (String(AppState.textId) === 'part_b') optPartB.selected = true;
+    textSelect.appendChild(optPartB);
+
+    // 4. Section III Translation (英译汉)
+    const optTrans = document.createElement('option');
+    optTrans.value = 'translation';
+    optTrans.textContent = '✍️ 英译汉 (46题 · 15分)';
+    if (String(AppState.textId) === 'translation') optTrans.selected = true;
+    textSelect.appendChild(optTrans);
   }
 
   async function loadCurrentText() {
@@ -360,14 +386,35 @@
     document.getElementById('examPaper').textContent = '';
     document.getElementById('workspaceContent').textContent = '';
     status.hidden = false;
-    status.textContent = `正在加载 ${year} 年阅读资料…`;
+    status.textContent = `正在加载 ${year} 年资料…`;
+
+    let isSpecialSection = false;
     try {
       // Keep switching between already loaded texts synchronous; only new years wait.
       const yData = window.DataLoader.peek(year) || await window.DataLoader.loadYear(year);
       if (sequence !== textLoadSequence) return;
-      const text = yData.texts.find(t => t.text_id === textId);
-      if (!text) throw new Error('未找到该篇阅读资料');
-      AppState.textData = text;
+
+      if (textId === 'use_of_english') {
+        const clozeData = yData.use_of_english;
+        if (!clozeData) throw new Error('该年份尚未配置完形填空数据');
+        AppState.textData = clozeData;
+        isSpecialSection = true;
+      } else if (textId === 'part_b') {
+        const partbData = yData.part_b;
+        if (!partbData) throw new Error('该年份尚未配置新题型数据');
+        AppState.textData = partbData;
+        isSpecialSection = true;
+      } else if (textId === 'translation') {
+        const transData = yData.translation;
+        if (!transData) throw new Error('该年份尚未配置翻译数据');
+        AppState.textData = transData;
+        isSpecialSection = true;
+      } else {
+        const text = yData.texts.find(t => String(t.text_id) === String(textId));
+        if (!text) throw new Error('未找到该篇阅读资料');
+        AppState.textData = text;
+      }
+
       status.hidden = true;
       layout.inert = false;
       vocab.inert = false;
@@ -383,6 +430,20 @@
       retry.textContent = '重新加载';
       retry.onclick = () => loadCurrentText();
       status.appendChild(retry);
+      return;
+    }
+
+    // Special section rendering delegation
+    if (isSpecialSection) {
+      if (textId === 'use_of_english' && window.ClozeRenderer) {
+        window.ClozeRenderer.render(AppState.textData, year, AppState.mode);
+      } else if (textId === 'part_b' && window.MatchingRenderer) {
+        window.MatchingRenderer.render(AppState.textData, year, AppState.mode);
+      } else if (textId === 'translation' && window.TranslationRenderer) {
+        window.TranslationRenderer.render(AppState.textData, year, AppState.mode);
+      }
+      updateUIControls();
+      saveState();
       return;
     }
 
@@ -598,7 +659,28 @@
 
     const isMock = AppState.mode === 'practice' && AppState.practiceSubmode === 'mock';
     const isVocab = AppState.mode === 'vocab';
+    const isSpecial = typeof AppState.textId === 'string' && ['use_of_english', 'part_b', 'translation'].includes(AppState.textId);
     const unavailable = !AppState.textData;
+
+    if (isSpecial) {
+      if (prevBtn) prevBtn.disabled = true;
+      if (nextBtn) nextBtn.disabled = true;
+      if (floatPrevBtn) floatPrevBtn.disabled = true;
+      if (floatNextBtn) floatNextBtn.disabled = true;
+      if (floatingNavBar) floatingNavBar.style.display = 'none';
+      if (toggleAllBtn) toggleAllBtn.style.display = 'none';
+      if (submodeContainer) submodeContainer.style.display = 'none';
+      const labelMap = {
+        'use_of_english': '完形填空 (1-20题)',
+        'part_b': '新题型 (41-45题)',
+        'translation': '英译汉 (46题)'
+      };
+      const secLabel = labelMap[AppState.textId] || '专项试卷';
+      if (progressText) progressText.textContent = secLabel;
+      if (floatProgressText) floatProgressText.textContent = secLabel;
+      return;
+    }
+
     for (const id of ['resetBtn', 'toggleAllBtn', 'jumpSelect', 'btnExpCurrentAnki', 'btnExpNotesMd']) {
       const control = document.getElementById(id);
       if (control) control.disabled = unavailable;
@@ -1729,7 +1811,8 @@
     });
 
     document.getElementById('textSelect').addEventListener('change', e => {
-      AppState.textId = Number(e.target.value);
+      const val = e.target.value;
+      AppState.textId = isNaN(Number(val)) ? val : Number(val);
       AppState.savedStepIndex = 0;
       loadCurrentText();
     });

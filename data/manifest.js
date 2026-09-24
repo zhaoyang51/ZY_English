@@ -1,7 +1,7 @@
 window.KAOYAN_MANIFEST = [
   {
     "year": 2010,
-    "version": "13b88c9b6f3e",
+    "version": "c39b89eee7db",
     "texts": [
       {
         "id": 1,
@@ -27,7 +27,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2011,
-    "version": "7ad4a6886613",
+    "version": "c1319b69d8c5",
     "texts": [
       {
         "id": 1,
