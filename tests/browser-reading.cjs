@@ -226,6 +226,31 @@ async function run() {
   assert.deepEqual(await evaluate('Object.keys(window.KAOYAN_PURE_DATA)'), ['2010']);
   await select('#yearSelect', '2026');
   assert.ok(await evaluate('document.querySelector("#examPaper").textContent.length > 100'));
+
+  // Seamless switching between Special Sections and Traditional Reading Comprehension
+  await select('#textSelect', 'use_of_english');
+  assert.ok(await evaluate('document.querySelector("#examPaper").textContent.includes("Section I")'));
+  assert.equal(await evaluate('document.querySelector("#textSelect").value'), 'use_of_english');
+
+  await select('#textSelect', 'part_b');
+  assert.ok(await evaluate('document.querySelector("#examPaper").textContent.includes("Part B")'));
+  assert.equal(await evaluate('document.querySelector("#textSelect").value'), 'part_b');
+
+  await select('#textSelect', 'translation');
+  assert.ok(await evaluate('document.querySelector("#examPaper").textContent.includes("Section III")'));
+  assert.equal(await evaluate('document.querySelector("#textSelect").value'), 'translation');
+
+  // Jump back to Reading Comprehension Text 1
+  await select('#textSelect', '1');
+  assert.ok(await evaluate('document.querySelector("#examPaper").textContent.includes("Text 1")'));
+  assert.equal(await evaluate('document.querySelector("#textSelect").value'), '1');
+  assert.ok(await evaluate('document.querySelector("#workspaceContent").children.length > 0'));
+
+  // Jump to Text 3
+  await select('#textSelect', '3');
+  assert.ok(await evaluate('document.querySelector("#examPaper").textContent.includes("Text 3")'));
+  assert.equal(await evaluate('document.querySelector("#textSelect").value'), '3');
+
   assert.deepEqual(errors, []);
   console.log('Lazy loading PASS: initial-year only, failure/retry, shared cache, stale responses, vocabulary context, restored progress, tablet layouts and local-file use.');
   console.log('Browser PASS: reading-only sections 1-5, source context, direct answers, static headings, full view, copying, filtering, downloaded notes, themes, mobile, practice and vocabulary.');

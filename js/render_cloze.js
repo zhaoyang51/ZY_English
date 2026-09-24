@@ -9,6 +9,22 @@
   window.ClozeRenderer = {
     currentMode: 'practice',
 
+    getShowTrans: function() {
+      if (window.ReaderModule?.settings?.showTrans !== undefined) {
+        return window.ReaderModule.settings.showTrans;
+      }
+      return localStorage.getItem('kaoyan_cloze_show_trans') === 'true';
+    },
+
+    setShowTrans: function(val) {
+      if (window.ReaderModule?.settings) {
+        window.ReaderModule.settings.showTrans = val;
+        window.StorageModule?.saveSettings(window.ReaderModule.settings);
+      }
+      localStorage.setItem('kaoyan_cloze_show_trans', String(val));
+      localStorage.setItem('kaoyan_partb_show_trans', String(val));
+    },
+
     render: function(clozeData, year, mode) {
       if (!clozeData) return;
       this.currentMode = mode || 'practice';
@@ -34,6 +50,7 @@
       const fs = window.ReaderModule?.settings?.fontSize || 17.5;
       const lh = window.ReaderModule?.settings?.lineHeight || 1.85;
       const isReview = (mode === 'review');
+      const showTrans = this.getShowTrans();
 
       let parasHtml = '';
       (data.paragraphs || []).forEach((p, idx) => {
@@ -79,6 +96,12 @@
           <div class="exam-para" id="cloze-para-${idx}">
             <span class="para-badge">[Para ${idx + 1}]</span>
             <span class="para-text" style="font-size:${fs}px;line-height:${lh}">${text}</span>
+            ${showTrans && p.translation ? `
+              <div class="cloze-para-trans">
+                <span class="cloze-trans-badge">译文</span>
+                <span class="cloze-trans-text">${p.translation}</span>
+              </div>
+            ` : ''}
           </div>
         `;
       });
@@ -89,7 +112,8 @@
             <span style="font-size:0.82em;font-weight:700;color:var(--muted)">题型:</span>
             <span class="badge" style="background:#0284c7;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.82em">Section I 完形填空 (10分)</span>
           </div>
-          <div class="toolbar-group" style="margin-left:auto">
+          <div class="toolbar-group" style="margin-left:auto;display:flex;align-items:center;gap:8px">
+            <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnToggleClozeTrans" title="切换全文与选项中文对照">🌐 中文对照</button>
             <span style="font-size:0.82em;color:var(--muted)">20 题 · 每题 0.5 分 · 即做即改</span>
           </div>
         </div>
@@ -116,6 +140,16 @@
           this.highlightBlank(qid, data, year, true);
         });
       });
+
+      // Bind toggle translation button in left panel toolbar
+      const toggleBtn = examPaper.querySelector('#btnToggleClozeTrans');
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => {
+          this.setShowTrans(!this.getShowTrans());
+          this.renderLeftPanel(data, year, mode);
+          this.renderRightPanel(data, year, mode);
+        });
+      }
     },
 
     renderRightPanel: function(data, year, mode) {
@@ -124,6 +158,7 @@
 
       const prevScrollTop = container.scrollTop;
       const isReview = (mode === 'review');
+      const showTrans = this.getShowTrans();
       const questions = data.questions || [];
       const totalQuestions = questions.length || 20;
 
@@ -220,6 +255,7 @@
         let optionsHtml = '';
         ['A', 'B', 'C', 'D'].forEach(opt => {
           const optText = q.options ? q.options[opt] : '';
+          const optCn = q.options_cn ? q.options_cn[opt] : '';
           const isPicked = (currentChoice === opt);
           const isTarget = (opt === q.answer);
 
@@ -243,7 +279,10 @@
           optionsHtml += `
             <button class="cloze-opt-btn ${optCls}" data-qid="${qid}" data-opt="${opt}">
               <span class="cloze-opt-letter">${opt}</span>
-              <span style="flex:1;text-align:left">${optText}</span>
+              <div class="cloze-opt-content">
+                <span class="cloze-opt-en">${optText}</span>
+                ${(showTrans || isGraded) && optCn ? `<span class="cloze-opt-cn">${optCn}</span>` : ''}
+              </div>
               ${flagHtml}
             </button>
           `;
@@ -320,7 +359,10 @@
         <div class="cloze-workspace">
           <div class="cloze-card-header" style="border-bottom:1px solid var(--border);padding-bottom:10px">
             <span style="font-size:1.05em;font-weight:700">🧩 完形填空即时批改工作台 (1-20 题)</span>
-            <span class="badge" style="background:#0284c7;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.8em">每题 0.5 分 · 满分 10 分</span>
+            <div style="display:flex;align-items:center;gap:8px">
+              <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnToggleClozeTransRight" style="font-size:0.8em;padding:2px 8px" title="切换全文与选项中文对照">🌐 中文对照</button>
+              <span class="badge" style="background:#0284c7;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.8em">每题 0.5 分 · 满分 10 分</span>
+            </div>
           </div>
 
           ${dashboardHtml}
@@ -395,6 +437,16 @@
             this.renderRightPanel(data, year, mode);
             this.highlightBlank(1, data, year, true);
           }
+        });
+      }
+
+      // 5. Toggle translation button from right panel header
+      const toggleBtnRight = document.getElementById('btnToggleClozeTransRight');
+      if (toggleBtnRight) {
+        toggleBtnRight.addEventListener('click', () => {
+          this.setShowTrans(!this.getShowTrans());
+          this.renderLeftPanel(data, year, mode);
+          this.renderRightPanel(data, year, mode);
         });
       }
     },

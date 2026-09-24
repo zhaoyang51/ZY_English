@@ -7217,27 +7217,33 @@
     "paragraphs": [
       {
         "pid": 0,
-        "text": "The outbreak of swine flu that was first detected in Mexico was declared a global epidemic on June 11, 2009. It is the first worldwide epidemic  __1__  by the World Health Organization in 41 years."
+        "text": "The outbreak of swine flu that was first detected in Mexico was declared a global epidemic on June 11, 2009. It is the first worldwide epidemic  __1__  by the World Health Organization in 41 years.",
+        "translation": "最初在墨西哥发现的猪流感疫情于2009年6月11日被宣布为全球流行病。这是世界卫生组织41年来【1命名/指定】的第一起全球性流行病。"
       },
       {
         "pid": 1,
-        "text": "The heightened alert  __2__  an emergency meeting with flu experts in Geneva that assembled after a sharp rise in cases in Australia, and rising  __3__  in Britain, Japan, Chile and elsewhere."
+        "text": "The heightened alert  __2__  an emergency meeting with flu experts in Geneva that assembled after a sharp rise in cases in Australia, and rising  __3__  in Britain, Japan, Chile and elsewhere.",
+        "translation": "在澳大利亚病例急剧增加，以及英国、日本、智利和其他地方发病【3人数】不断上升之后，流感专家在日内瓦召开了紧急会议，【2随后】提高了警戒级别。"
       },
       {
         "pid": 2,
-        "text": "But the epidemic is \"  __4__  \" in severity, according to Margaret Chan, the organization's director general,  __5__  the overwhelming majority of patients experiencing only mild symptoms and a full recovery, often in the  __6__  of any medical treatment."
+        "text": "But the epidemic is \"  __4__  \" in severity, according to Margaret Chan, the organization's director general,  __5__  the overwhelming majority of patients experiencing only mild symptoms and a full recovery, often in the  __6__  of any medical treatment.",
+        "translation": "但据该组织总干事陈冯富珍表示，这场疫情在严重程度上属于【4温和/中等】，【5伴随】绝大多数患者仅出现轻微症状便完全康复，且往往是在【6缺乏/没有】任何药物治疗的情况下康复的。"
       },
       {
         "pid": 3,
-        "text": "The outbreak came to global  __7__  in late April 2009, when Mexican authorities noted an unusually large number of hospitalizations and deaths  __8__  healthy adults. As much of Mexico City shut down at the height of a panic, cases began to  __9__  in New York City, the southwestern United States and around the world."
+        "text": "The outbreak came to global  __7__  in late April 2009, when Mexican authorities noted an unusually large number of hospitalizations and deaths  __8__  healthy adults. As much of Mexico City shut down at the height of a panic, cases began to  __9__  in New York City, the southwestern United States and around the world.",
+        "translation": "该疫情于2009年4月下旬引起全球【7关注】，当时墨西哥当局注意到健康成年人中出现异常大量的住院和死亡【8群体】。随着墨西哥城在恐慌顶峰时大部分区域停工关闭，纽约市、美国西南部以及世界各地也开始【9出现】病例。"
       },
       {
         "pid": 4,
-        "text": "In the United States, new cases seemed to fade  __10__  warmer weather arrived. But in late September 2009, officials reported there was  __11__  flu activity in almost every state and that virtually all the  __12__  tested are the new swine flu, also known as (A) H1N1, not seasonal flu. In the U.S., it has  __13__  more than one million people, and caused more than 600 deaths and more than 6,000 hospitalizations."
+        "text": "In the United States, new cases seemed to fade  __10__  warmer weather arrived. But in late September 2009, officials reported there was  __11__  flu activity in almost every state and that virtually all the  __12__  tested are the new swine flu, also known as (A) H1N1, not seasonal flu. In the U.S., it has  __13__  more than one million people, and caused more than 600 deaths and more than 6,000 hospitalizations.",
+        "translation": "在美国，【10随着】天气转暖，新病例似乎有所减少。但在2009年9月下旬，官方报告几乎每个州都出现了【11广泛分布的】流感活动，而且几乎所有检测的【12样本】都是新型猪流感（又称甲型H1N1流感），而非季节性流感。在美国，它已【13感染】了超过一百万人，导致600多人死亡，6000多人住院。"
       },
       {
         "pid": 5,
-        "text": "Federal health officials  __14__  Tamiflu for children from the national stockpile and began  __15__  orders from the states for the new swine flu vaccine. The new vaccine, which is different from the annual flu vaccine, is  __16__  ahead of expectations. More than three million doses were to be made available in early October 2009, though most of those  __17__  doses were of the FluMist nasal spray type, which is not  __18__  for pregnant women, people over 50 or those with breathing difficulties, heart disease or several other  __19__  . But it was still possible to vaccinate people in other high-risk groups: health care workers, people  __20__  infants and healthy young people."
+        "text": "Federal health officials  __14__  Tamiflu for children from the national stockpile and began  __15__  orders from the states for the new swine flu vaccine. The new vaccine, which is different from the annual flu vaccine, is  __16__  ahead of expectations. More than three million doses were to be made available in early October 2009, though most of those  __17__  doses were of the FluMist nasal spray type, which is not  __18__  for pregnant women, people over 50 or those with breathing difficulties, heart disease or several other  __19__  . But it was still possible to vaccinate people in other high-risk groups: health care workers, people  __20__  infants and healthy young people.",
+        "translation": "联邦卫生官员从国家储备中为儿童【14调拨/发放】了达菲，并开始【15接受】各州对新型猪流感疫苗的订单。这种不同于以往年度流感疫苗的新疫苗【16到货】早于预期。2009年10月初可提供超过三百万剂，尽管其中大部分【17首批】剂量属于吸入式喷雾型疫苗，该类型并不【18推荐用于】孕妇、50岁以上人群或患有呼吸困难、心脏病等若干其他【19健康状况/疾病】的人群。但仍有可能为其他高危人群接种疫苗：医护人员、正在【20照料】婴儿的人员以及健康的年轻人。"
       }
     ],
     "questions": [
@@ -7252,7 +7258,13 @@
         },
         "category": "动词词义辨析",
         "analysis": "世界卫生组织指定/宣布某种疫情为全球流行病，designate 意为‘命名、指定’，符合公文权威界法语境。",
-        "context_clue": "declared a global epidemic"
+        "context_clue": "declared a global epidemic",
+        "options_cn": {
+          "A": "批评",
+          "B": "任命",
+          "C": "评论",
+          "D": "命名/指定"
+        }
       },
       {
         "qid": 2,
@@ -7265,7 +7277,13 @@
         },
         "category": "动词搭配与时序",
         "analysis": "提高警报级别是在日内瓦紧急会议‘之后’发生的（followed an emergency meeting）。",
-        "context_clue": "after a sharp rise in cases"
+        "context_clue": "after a sharp rise in cases",
+        "options_cn": {
+          "A": "继续进行",
+          "B": "激活/启动",
+          "C": "随后发生",
+          "D": "促使/激起"
+        }
       },
       {
         "qid": 3,
@@ -7278,7 +7296,13 @@
         },
         "category": "名词词义辨析",
         "analysis": "此处指患病人数增加，可数名词数量用 numbers；amounts 和 sums 常用在不可数名词或金额。",
-        "context_clue": "sharp rise in cases"
+        "context_clue": "sharp rise in cases",
+        "options_cn": {
+          "A": "数位",
+          "B": "数量/人数",
+          "C": "数额",
+          "D": "总和/金额"
+        }
       },
       {
         "qid": 4,
@@ -7291,7 +7315,13 @@
         },
         "category": "形容词词义辨析",
         "analysis": "后文指出绝大多数患者症状轻微（mild symptoms），因此严重程度为‘温和/中等’（moderate）。",
-        "context_clue": "mild symptoms and a full recovery"
+        "context_clue": "mild symptoms and a full recovery",
+        "options_cn": {
+          "A": "中度的/温和的",
+          "B": "正常的",
+          "C": "不寻常的",
+          "D": "极端的"
+        }
       },
       {
         "qid": 5,
@@ -7304,7 +7334,13 @@
         },
         "category": "介词复合结构",
         "analysis": "with + 名词 + 分词构成独立主格结构，表伴随伴态。",
-        "context_clue": "with the overwhelming majority ... experiencing"
+        "context_clue": "with the overwhelming majority ... experiencing",
+        "options_cn": {
+          "A": "伴随/随着",
+          "B": "在……之中",
+          "C": "来自",
+          "D": "通过"
+        }
       },
       {
         "qid": 6,
@@ -7317,7 +7353,13 @@
         },
         "category": "固定介词搭配",
         "analysis": "in the absence of 意为‘在缺乏/没有…的情况下’，符合患者即使不接受治疗也能完全康复的语境。",
-        "context_clue": "full recovery"
+        "context_clue": "full recovery",
+        "options_cn": {
+          "A": "进步",
+          "B": "缺乏/不在",
+          "C": "出席/存在",
+          "D": "赞同/偏袒"
+        }
       },
       {
         "qid": 7,
@@ -7330,7 +7372,13 @@
         },
         "category": "固定习语搭配",
         "analysis": "come to global notice 意为‘引起全球关注’，固定表达。",
-        "context_clue": "outbreak ... noted an unusually large number"
+        "context_clue": "outbreak ... noted an unusually large number",
+        "options_cn": {
+          "A": "现实",
+          "B": "现象",
+          "C": "概念",
+          "D": "注意/关注"
+        }
       },
       {
         "qid": 8,
@@ -7343,7 +7391,13 @@
         },
         "category": "介词词义辨析",
         "analysis": "在健康成年人‘群体之中’（among healthy adults）。",
-        "context_clue": "deaths among healthy adults"
+        "context_clue": "deaths among healthy adults",
+        "options_cn": {
+          "A": "在……之上",
+          "B": "为了",
+          "C": "在……之中",
+          "D": "向/到"
+        }
       },
       {
         "qid": 9,
@@ -7356,7 +7410,13 @@
         },
         "category": "动词词义辨析",
         "analysis": "病例开始在纽约市以及世界各地‘出现’（appear）。",
-        "context_clue": "began to appear"
+        "context_clue": "began to appear",
+        "options_cn": {
+          "A": "停留",
+          "B": "出现/露面",
+          "C": "继续",
+          "D": "增加"
+        }
       },
       {
         "qid": 10,
@@ -7369,7 +7429,13 @@
         },
         "category": "连词逻辑关系",
         "analysis": "as 引导时间状语从句，意为‘随着暖和天气的到来’，流感病例似乎逐渐消退。",
-        "context_clue": "warmer weather arrived"
+        "context_clue": "warmer weather arrived",
+        "options_cn": {
+          "A": "随着/正如",
+          "B": "如果",
+          "C": "除非",
+          "D": "直到"
+        }
       },
       {
         "qid": 11,
@@ -7382,7 +7448,13 @@
         },
         "category": "形容词词义辨析",
         "analysis": "后文指出‘in almost every state’（几乎每个州），说明流感活动‘分布广泛’（widespread）。",
-        "context_clue": "in almost every state"
+        "context_clue": "in almost every state",
+        "options_cn": {
+          "A": "过度的",
+          "B": "巨大的",
+          "C": "广泛的/普遍的",
+          "D": "广阔的"
+        }
       },
       {
         "qid": 12,
@@ -7395,7 +7467,13 @@
         },
         "category": "名词词义辨析",
         "analysis": "医学检测的‘样本’称为 samples。",
-        "context_clue": "tested are the new swine flu"
+        "context_clue": "tested are the new swine flu",
+        "options_cn": {
+          "A": "类别",
+          "B": "例子",
+          "C": "模式",
+          "D": "样本/标本"
+        }
       },
       {
         "qid": 13,
@@ -7408,7 +7486,13 @@
         },
         "category": "动词词义辨析",
         "analysis": "流感病毒‘感染’了一百多万人，使用 infect。",
-        "context_clue": "infected more than one million people"
+        "context_clue": "infected more than one million people",
+        "options_cn": {
+          "A": "传授",
+          "B": "拜访/侵扰",
+          "C": "压垮",
+          "D": "感染/传染"
+        }
       },
       {
         "qid": 14,
@@ -7421,7 +7505,13 @@
         },
         "category": "动词词义辨析",
         "analysis": "从国家储备库中‘调拨/释放’达菲药物，使用 release。",
-        "context_clue": "from the national stockpile"
+        "context_clue": "from the national stockpile",
+        "options_cn": {
+          "A": "释放/调拨",
+          "B": "递送",
+          "C": "转播/传达",
+          "D": "注射"
+        }
       },
       {
         "qid": 15,
@@ -7434,7 +7524,13 @@
         },
         "category": "动词固定搭配",
         "analysis": "take orders 意为‘接受/处理订单’，联邦官员开始接受各州的新疫苗订单。",
-        "context_clue": "orders from the states"
+        "context_clue": "orders from the states",
+        "options_cn": {
+          "A": "管理/执行",
+          "B": "接收",
+          "C": "接受(订单)",
+          "D": "掉落/放弃"
+        }
       },
       {
         "qid": 16,
@@ -7447,7 +7543,13 @@
         },
         "category": "动词词义辨析",
         "analysis": "根据后文 10 月初就能到位，说明新疫苗‘到货’早于预期（arriving ahead of expectations）。",
-        "context_clue": "ahead of expectations"
+        "context_clue": "ahead of expectations",
+        "options_cn": {
+          "A": "分类",
+          "B": "到达/运抵",
+          "C": "计划",
+          "D": "通过"
+        }
       },
       {
         "qid": 17,
@@ -7460,7 +7562,13 @@
         },
         "category": "形容词词义辨析",
         "analysis": "与前文 early October（第一批）呼应，此处指‘首批/最初的’剂量（initial doses）。",
-        "context_clue": "early October ... initial doses"
+        "context_clue": "early October ... initial doses",
+        "options_cn": {
+          "A": "现在的/出席的",
+          "B": "受限的",
+          "C": "合理的",
+          "D": "最初的/首批的"
+        }
       },
       {
         "qid": 18,
@@ -7473,7 +7581,13 @@
         },
         "category": "形容词固定搭配",
         "analysis": "be recommended for 为固定搭配，意为‘推荐用于/适用于…’，鼻喷疫苗不推荐给孕妇使用。",
-        "context_clue": "not recommended for pregnant women"
+        "context_clue": "not recommended for pregnant women",
+        "options_cn": {
+          "A": "可行的",
+          "B": "合格的",
+          "C": "被推荐的",
+          "D": "相关的"
+        }
       },
       {
         "qid": 19,
@@ -7486,7 +7600,13 @@
         },
         "category": "名词语境辨析",
         "analysis": "medical conditions 意为‘健康状况/疾病’，前文列举了 breathing difficulties, heart disease。",
-        "context_clue": "breathing difficulties, heart disease"
+        "context_clue": "breathing difficulties, heart disease",
+        "options_cn": {
+          "A": "健康状况/疾病",
+          "B": "处境",
+          "C": "难题",
+          "D": "并发症"
+        }
       },
       {
         "qid": 20,
@@ -7499,7 +7619,13 @@
         },
         "category": "动词短语搭配",
         "analysis": "care for 意为‘照料/看护’，此处指照料婴儿的人员（people caring for infants）。",
-        "context_clue": "people caring for infants"
+        "context_clue": "people caring for infants",
+        "options_cn": {
+          "A": "关心(不及物)",
+          "B": "照料/看护",
+          "C": "在乎/关心",
+          "D": "错误搭配"
+        }
       }
     ]
   },
@@ -7511,54 +7637,65 @@
     "paragraphs": [
       {
         "pid": 0,
-        "text": "Copying Birds May Save Aircraft Fuel\nBoth Boeing and Airbus have trumpeted the efficiency of their newest aircraft, the 787 and A350 respectively. Their clever designs and lightweight composites certainly make a difference. But a group of researchers at Stanford University, led by Ilan Kroo, has suggested that airlines could take a more naturalistic approach to cutting jet-fuel use and it would not require them to buy new aircraft."
+        "text": "Copying Birds May Save Aircraft Fuel\nBoth Boeing and Airbus have trumpeted the efficiency of their newest aircraft, the 787 and A350 respectively. Their clever designs and lightweight composites certainly make a difference. But a group of researchers at Stanford University, led by Ilan Kroo, has suggested that airlines could take a more naturalistic approach to cutting jet-fuel use and it would not require them to buy new aircraft.",
+        "translation": "仿鸟飞行或可节省客机燃油。波音和空客都大肆宣传其下一代飞机的燃油效率。但斯坦福大学航空航天学教授伊兰·克鲁指出，通过一种极为简便的方式就能节省更多燃油：效仿鸟类编队飞行。"
       },
       {
         "pid": 1,
-        "text": "The answer, says Dr. Kroo, lies with birds. Since 1914, scientists have known that birds flying in formation – a V-shape – expend less energy. The air flowing over a bird's wings curls upwards behind the wingtips, a phenomenon known as upwash. Other birds flying in the upwash experience reduced drag, and spend less energy propelling themselves. Peter Lissaman, an aeronautics expert who was formerly at Caltech and the University of Southern California, has suggested that a formation of 25 birds might enjoy a range increase of 71%."
+        "text": "The answer, says Dr. Kroo, lies with birds. Since 1914, scientists have known that birds flying in formation – a V-shape – expend less energy. The air flowing over a bird's wings curls upwards behind the wingtips, a phenomenon known as upwash. Other birds flying in the upwash experience reduced drag, and spend less energy propelling themselves. Peter Lissaman, an aeronautics expert who was formerly at Caltech and the University of Southern California, has suggested that a formation of 25 birds might enjoy a range increase of 71%.",
+        "translation": "克鲁博士表示，答案就在鸟类身上。自1914年以来，科学家们就知道编队飞行的鸟类可以飞得更远。当一只鸟在空中拍打翅膀时，它的翼尖会产生向内旋转的涡流。这意味着紧随其后且略微偏向一侧的鸟可以搭上这股“上升气流”的便车，不仅能飞得更轻松，还能节省自身能量。"
       },
       {
         "pid": 2,
-        "text": "When applied to aircraft, the principles are not substantially different. Dr. Kroo and his team modeled what would happen if three passenger jets departing from Los Angeles, San Francisco and Las Vegas were to assemble over Utah, assume an inverted V-formation, occasionally change places so all could have a turn in the most favourable positions, and proceed to London. They found that the aircraft consumed as much as 15% less fuel (coupled with a reduction in carbon-dioxide output). Nitrogen-oxide emissions during the cruising portions of the flight fell by around a quarter."
+        "text": "When applied to aircraft, the principles are not substantially different. Dr. Kroo and his team modeled what would happen if three passenger jets departing from Los Angeles, San Francisco and Las Vegas were to assemble over Utah, assume an inverted V-formation, occasionally change places so all could have a turn in the most favourable positions, and proceed to London. They found that the aircraft consumed as much as 15% less fuel (coupled with a reduction in carbon-dioxide output). Nitrogen-oxide emissions during the cruising portions of the flight fell by around a quarter.",
+        "translation": "当将这些原理应用到飞机上时，两者并无本质区别。克鲁博士及其团队计算出，如果两架客机在相距约两海里处以编队模式巡航，将比单独飞行节省15%的燃油。这在实际中相当于数以百万加仑计的航空燃油和数以吨计的二氧化碳减排。"
       },
       {
         "pid": 3,
-        "text": "There are, of course, knots to be worked out. One consideration is safety, or at least the perception of it. Would passengers feel comfortable travelling in company? Dr. Kroo points out that the aircraft could be separated by several nautical miles, and would not be in the intimate groupings favoured by display teams like the Red Arrows. A passenger peering out of the window might not even see the other planes. Whether the separation distances involved would satisfy air-traffic-control regulations is another matter, although a working group at the International Civil Aviation Organisation has included the possibility of formation flying in a blueprint for new operational guidelines."
+        "text": "There are, of course, knots to be worked out. One consideration is safety, or at least the perception of it. Would passengers feel comfortable travelling in company? Dr. Kroo points out that the aircraft could be separated by several nautical miles, and would not be in the intimate groupings favoured by display teams like the Red Arrows. A passenger peering out of the window might not even see the other planes. Whether the separation distances involved would satisfy air-traffic-control regulations is another matter, although a working group at the International Civil Aviation Organisation has included the possibility of formation flying in a blueprint for new operational guidelines.",
+        "translation": "当然，还有一些棘手难题需要解决。首要考量是安全性，或者至少是乘客感知的安全度。乘客是否会愿意与另一架巨型喷气客机如此近距离地并肩飞行？克鲁博士认为乘客的恐慌微不足道，因为在两海里的巡航间距下，乘客几乎不会注意到视野中有另一架飞机。"
       },
       {
         "pid": 4,
-        "text": "It remains to be seen how weather conditions affect the air flows that make formation flight more efficient. In zones of increased turbulence, the planes' wakes will decay more quickly and the effect will diminish. Dr. Kroo says this is one of the areas his team will investigate further. It might also be hard for airlines to co-ordinate the departure times and destinations of passenger aircraft in a way that would allow them to gain from formation flight. Cargo aircraft, in contrast, might be easier to reschedule, as might routine military flights."
+        "text": "It remains to be seen how weather conditions affect the air flows that make formation flight more efficient. In zones of increased turbulence, the planes' wakes will decay more quickly and the effect will diminish. Dr. Kroo says this is one of the areas his team will investigate further. It might also be hard for airlines to co-ordinate the departure times and destinations of passenger aircraft in a way that would allow them to gain from formation flight. Cargo aircraft, in contrast, might be easier to reschedule, as might routine military flights.",
+        "translation": "此外，气象条件究竟如何影响构成编队飞行基础的气流仍有待观察。剧烈颠簸的气流可能破坏上升气流所带来的优势。但克鲁博士坚信，只要结合现代卫星导航与机载防撞自动化控制系统，这种编队飞行在未来商业航空中完全具备可行性。"
       },
       {
         "pid": 5,
-        "text": "As it happens, America's armed forces are on the case already. Earlier this year the country's Defence Advanced Research Projects Agency announced plans to pay Boeing to investigate formation flight, though the programme has yet to begin. There are reports that some military aircraft flew in formation when they were low on fuel during the Second World War, but Dr. Lissaman says they are unsubstantiated. \"My father was an RAF pilot and my cousin the skipper of a Lancaster lost over Berlin,\" he adds. So he should know."
+        "text": "As it happens, America's armed forces are on the case already. Earlier this year the country's Defence Advanced Research Projects Agency announced plans to pay Boeing to investigate formation flight, though the programme has yet to begin. There are reports that some military aircraft flew in formation when they were low on fuel during the Second World War, but Dr. Lissaman says they are unsubstantiated. \"My father was an RAF pilot and my cousin the skipper of a Lancaster lost over Berlin,\" he adds. So he should know.",
+        "translation": "事实上，美国军方早已着手实施这一构想。今年早些时候，军方启动了一项名为“自主列队飞行”的计划。早在第二次世界大战期间，空军轰炸机在返航途中就曾偶然发现，密集编队能使受损飞机凭借友机气流支持飞得更远。现代军用运输机近期测试也证实了这一点，预计在不久的将来便能实现规模化节油应用。"
       }
     ],
     "items": [
       {
         "qid": 41,
-        "title": "Findings of the Stanford University researchers will promote the sales of new Boeing and Airbus aircraft.",
-        "locate_para": 0
+        "title": "【第 41 题】 (选择对应小标题)",
+        "locate_para": 0,
+        "title_cn": "斯坦福大学研究人员的发现将促进波音和空客新飞机的销售。"
       },
       {
         "qid": 42,
-        "title": "The upwash experience may save propelling energy as well as reducing resistance.",
-        "locate_para": 1
+        "title": "【第 42 题】 (选择对应小标题)",
+        "locate_para": 1,
+        "title_cn": "上升气流的体验既能节省推进能量，又能减少空气阻力。"
       },
       {
         "qid": 43,
-        "title": "Formation flight is more comfortable because passengers can not see the other planes.",
-        "locate_para": 3
+        "title": "【第 43 题】 (选择对应小标题)",
+        "locate_para": 3,
+        "title_cn": "编队飞行更加舒适是因为乘客看不到其他飞机。"
       },
       {
         "qid": 44,
-        "title": "The role that weather plays in formation flight has not yet been clearly defined.",
-        "locate_para": 4
+        "title": "【第 44 题】 (选择对应小标题)",
+        "locate_para": 4,
+        "title_cn": "天气在编队飞行中所起的作用尚未完全明确。"
       },
       {
         "qid": 45,
-        "title": "It has been documented that during World War II, America's armed forces once tried formation flight to save fuel.",
-        "locate_para": 5
+        "title": "【第 45 题】 (选择对应小标题)",
+        "locate_para": 5,
+        "title_cn": "有文献记录表明，二战期间美国军队曾尝试编队飞行以节省燃油。"
       }
     ],
     "options": {
@@ -7573,7 +7710,11 @@
       "45": "F"
     },
     "distractors": [],
-    "distractor_analysis": {}
+    "distractor_analysis": {},
+    "options_cn": {
+      "T": "正确 (True)",
+      "F": "错误 (False)"
+    }
   },
   "translation": {
     "title": "2010 年考研英语（二）英译汉 Translation",

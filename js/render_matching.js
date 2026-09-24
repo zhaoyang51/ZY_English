@@ -7,11 +7,30 @@
   let userSelections = {}; // { 41: 'E', 42: 'D', ... }
 
   window.MatchingRenderer = {
+    currentMode: 'practice',
+
+    getShowTrans: function() {
+      if (window.ReaderModule?.settings?.showTrans !== undefined) {
+        return window.ReaderModule.settings.showTrans;
+      }
+      return localStorage.getItem('kaoyan_partb_show_trans') === 'true';
+    },
+
+    setShowTrans: function(val) {
+      if (window.ReaderModule?.settings) {
+        window.ReaderModule.settings.showTrans = val;
+        window.StorageModule?.saveSettings(window.ReaderModule.settings);
+      }
+      localStorage.setItem('kaoyan_cloze_show_trans', String(val));
+      localStorage.setItem('kaoyan_partb_show_trans', String(val));
+    },
+
     render: function(partBData, year, mode) {
       if (!partBData) return;
+      this.currentMode = mode || 'practice';
       this.initUserState(partBData, year);
       this.renderLeftPanel(partBData, year);
-      this.renderRightPanel(partBData, year, mode);
+      this.renderRightPanel(partBData, year, this.currentMode);
     },
 
     initUserState: function(data, year) {
@@ -30,6 +49,7 @@
 
       const fs = window.ReaderModule?.settings?.fontSize || 17.5;
       const lh = window.ReaderModule?.settings?.lineHeight || 1.85;
+      const showTrans = this.getShowTrans();
 
       let parasHtml = '';
       (data.paragraphs || []).forEach((p, idx) => {
@@ -37,6 +57,12 @@
           <div class="exam-para" id="partb-para-${p.pid !== undefined ? p.pid : idx}" data-pid="${idx}">
             <span class="para-badge">[Para ${idx + 1}]</span>
             <span class="para-text" style="font-size:${fs}px;line-height:${lh}">${p.text || p}</span>
+            ${showTrans && p.translation ? `
+              <div class="partb-para-trans">
+                <span class="partb-trans-badge">译文</span>
+                <span class="partb-trans-text">${p.translation}</span>
+              </div>
+            ` : ''}
           </div>
         `;
       });
@@ -47,7 +73,8 @@
             <span style="font-size:0.82em;font-weight:700;color:var(--muted)">题型:</span>
             <span class="badge" style="background:#7c3aed;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.82em">Section II Part B 新题型 (10分)</span>
           </div>
-          <div class="toolbar-group" style="margin-left:auto">
+          <div class="toolbar-group" style="margin-left:auto;display:flex;align-items:center;gap:8px">
+            <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnTogglePartBTrans" title="切换全文与选项中文对照">🌐 中文对照</button>
             <span style="font-size:0.82em;color:var(--muted)">模式: ${data.subtype === 'heading_matching' ? '段落小标题匹配' : (data.subtype === 'true_false' ? '正误判断' : '多项信息匹配 (7选5)')}</span>
           </div>
         </div>
@@ -65,6 +92,16 @@
           ${parasHtml}
         </div>
       `;
+
+      // Bind toggle translation button in left panel
+      const toggleBtn = examPaper.querySelector('#btnTogglePartBTrans');
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => {
+          this.setShowTrans(!this.getShowTrans());
+          this.renderLeftPanel(data, year);
+          this.renderRightPanel(data, year, this.currentMode);
+        });
+      }
     },
 
     renderRightPanel: function(data, year, mode) {
@@ -73,6 +110,7 @@
 
       const isSubmitted = localStorage.getItem(`kaoyan_partb_submitted_${year}`) === 'true' || mode === 'review';
       const answers = data.answers || {};
+      const showTrans = this.getShowTrans();
 
       // 1. Items List (41-45)
       let itemsHtml = '';
@@ -102,7 +140,10 @@
             <div class="matching-item-header">
               <div class="matching-item-title">
                 <span style="color:var(--accent);font-weight:800;margin-right:6px">${qid}.</span>
-                ${item.title || item.stem || ''}
+                <span>${item.title || item.stem || ''}</span>
+                ${showTrans && item.title_cn ? `
+                  <div class="matching-item-cn">💡 ${item.title_cn}</div>
+                ` : ''}
               </div>
               ${badgeHtml}
             </div>
@@ -125,6 +166,7 @@
       let optionsHtml = '';
       Object.keys(data.options || {}).sort().forEach(key => {
         const optText = data.options[key];
+        const optCn = data.options_cn ? data.options_cn[key] : '';
         const assignedQid = Object.keys(userSelections).find(q => userSelections[q] === key);
         const isAssigned = !!assignedQid;
         const isAssignedToActive = isAssigned && (Number(assignedQid) === Number(activeItemQid));
@@ -134,6 +176,9 @@
             <span class="matching-opt-tag">${key}</span>
             <div style="flex:1">
               <div style="color:var(--ink)">${optText}</div>
+              ${showTrans && optCn ? `
+                <div class="matching-opt-cn">译：${optCn}</div>
+              ` : ''}
               ${isAssigned ? `<div style="font-size:0.78em;color:var(--accent);margin-top:4px">📌 当前已分配给第 <strong>${assignedQid}</strong> 题</div>` : ''}
             </div>
           </div>
@@ -181,7 +226,10 @@
         <div class="matching-container">
           <div class="cloze-card-header" style="border-bottom:1px solid var(--border);padding-bottom:10px">
             <span style="font-size:1.05em;font-weight:700">🧩 新题型匹配工作台 (41-45 题)</span>
-            <span class="badge" style="background:#7c3aed;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.8em">每题 2 分 · 满分 10 分</span>
+            <div style="display:flex;align-items:center;gap:8px">
+              <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnTogglePartBTransRight" style="font-size:0.8em;padding:2px 8px" title="切换全文与选项中文对照">🌐 中文对照</button>
+              <span class="badge" style="background:#7c3aed;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.8em">每题 2 分 · 满分 10 分</span>
+            </div>
           </div>
 
           <div style="font-size:0.88em;color:var(--muted);line-height:1.5">
@@ -226,7 +274,7 @@
           if (e.target.tagName.toLowerCase() === 'select') return;
           const qid = Number(el.getAttribute('data-qid'));
           activeItemQid = qid;
-          this.renderRightPanel(data, year);
+          this.renderRightPanel(data, year, this.currentMode);
           // Highlight relevant paragraph in left panel if known
           const item = (data.items || []).find(it => it.qid === qid);
           if (item && item.locate_para !== undefined) {
@@ -255,7 +303,7 @@
             delete userSelections[qid];
           }
           localStorage.setItem(`kaoyan_partb_${year}`, JSON.stringify(userSelections));
-          this.renderRightPanel(data, year);
+          this.renderRightPanel(data, year, this.currentMode);
         });
       });
 
@@ -274,7 +322,7 @@
             userSelections[activeItemQid] = opt;
           }
           localStorage.setItem(`kaoyan_partb_${year}`, JSON.stringify(userSelections));
-          this.renderRightPanel(data, year);
+          this.renderRightPanel(data, year, this.currentMode);
         });
       });
 
@@ -288,7 +336,7 @@
           } else {
             localStorage.setItem(`kaoyan_partb_submitted_${year}`, 'true');
           }
-          this.renderRightPanel(data, year);
+          this.renderRightPanel(data, year, this.currentMode);
         });
       }
 
@@ -299,8 +347,18 @@
             userSelections = {};
             localStorage.removeItem(`kaoyan_partb_${year}`);
             localStorage.removeItem(`kaoyan_partb_submitted_${year}`);
-            this.renderRightPanel(data, year);
+            this.renderRightPanel(data, year, this.currentMode);
           }
+        });
+      }
+
+      // 5. Toggle translation button from right panel header
+      const toggleBtnRight = document.getElementById('btnTogglePartBTransRight');
+      if (toggleBtnRight) {
+        toggleBtnRight.addEventListener('click', () => {
+          this.setShowTrans(!this.getShowTrans());
+          this.renderLeftPanel(data, year);
+          this.renderRightPanel(data, year, this.currentMode);
         });
       }
     }

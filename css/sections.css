@@ -636,3 +636,124 @@
   color: var(--accent, #2563eb);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
 }
+
+/* ============================================================
+   5. Bilingual Comparison (中文对照功能)
+   ============================================================ */
+.cloze-para-trans {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: rgba(2, 132, 199, 0.06);
+  border-left: 3.5px solid #0284c7;
+  border-radius: 0 var(--radius-sm, 6px) var(--radius-sm, 6px) 0;
+  font-size: 0.94em;
+  line-height: 1.75;
+  color: var(--ink, #1e293b);
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  animation: fadeIn 0.25s ease;
+}
+
+.cloze-trans-badge {
+  background: #0284c7;
+  color: #ffffff;
+  font-size: 0.75em;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 3px;
+  letter-spacing: 0.5px;
+}
+
+.cloze-trans-text {
+  flex: 1;
+}
+
+.cloze-opt-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 2px;
+  text-align: left;
+}
+
+.cloze-opt-en {
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.cloze-opt-cn {
+  font-size: 0.82em;
+  color: var(--muted, #64748b);
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.cloze-opt-btn.selected .cloze-opt-cn {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.cloze-opt-btn.correct .cloze-opt-cn {
+  color: #166534;
+}
+
+.cloze-opt-btn.wrong .cloze-opt-cn {
+  color: #991b1b;
+}
+
+/* Part B Bilingual */
+.partb-para-trans {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: rgba(124, 58, 237, 0.06);
+  border-left: 3.5px solid #7c3aed;
+  border-radius: 0 var(--radius-sm, 6px) var(--radius-sm, 6px) 0;
+  font-size: 0.94em;
+  line-height: 1.75;
+  color: var(--ink, #1e293b);
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  animation: fadeIn 0.25s ease;
+}
+
+.partb-trans-badge {
+  background: #7c3aed;
+  color: #ffffff;
+  font-size: 0.75em;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 3px;
+  letter-spacing: 0.5px;
+}
+
+.partb-trans-text {
+  flex: 1;
+}
+
+.matching-item-cn {
+  font-size: 0.86em;
+  color: var(--muted, #64748b);
+  font-weight: 400;
+  margin-top: 4px;
+  line-height: 1.45;
+  background: rgba(0, 0, 0, 0.025);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.matching-opt-cn {
+  font-size: 0.85em;
+  color: var(--muted, #64748b);
+  margin-top: 4px;
+  line-height: 1.45;
+  background: rgba(124, 58, 237, 0.04);
+  border-left: 2px solid rgba(124, 58, 237, 0.4);
+  padding: 3px 8px;
+  border-radius: 0 4px 4px 0;
+}
+

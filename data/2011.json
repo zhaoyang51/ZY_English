@@ -7930,39 +7930,48 @@
     "paragraphs": [
       {
         "pid": 0,
-        "text": "The Internet affords anonymity to its users, a blessing to privacy and freedom of speech. But that very anonymity is also behind the explosion of cyber-crime that has  __1__  across the Web."
+        "text": "The Internet affords anonymity to its users, a blessing to privacy and freedom of speech. But that very anonymity is also behind the explosion of cyber-crime that has  __1__  across the Web.",
+        "translation": "互联网真的会让我们变蠢吗？【1既然】互联网已普及数十载，我们或许该看看认知神经科学家发现了什么结论。"
       },
       {
         "pid": 1,
-        "text": "Can privacy be preserved  __2__  bringing safety and security to a world that seems increasingly  __3__  ?"
+        "text": "Can privacy be preserved  __2__  bringing safety and security to a world that seems increasingly  __3__  ?",
+        "translation": "在【2浅层/表层】意义上，人们的心智生活可能会略微改善。因为互联网的本质，它倾向于促使人们去扫描和略读，而不是【3深入/细致地】阅读。"
       },
       {
         "pid": 2,
-        "text": "Last month, Howard Schmidt, the nation's cyber-czar, offered the federal government a  __4__  to make the Web a safer place – a \"voluntary trusted identity\" system that would be the high-tech  __5__  of a physical key, a fingerprint and a photo ID card, all rolled  __6__  one. The system might use a smart identity card, or a digital credential  __7__  to a specific computer, and would authenticate users at a range of online services."
+        "text": "Last month, Howard Schmidt, the nation's cyber-czar, offered the federal government a  __4__  to make the Web a safer place – a \"voluntary trusted identity\" system that would be the high-tech  __5__  of a physical key, a fingerprint and a photo ID card, all rolled  __6__  one. The system might use a smart identity card, or a digital credential  __7__  to a specific computer, and would authenticate users at a range of online services.",
+        "translation": "然而，我们大脑的思考能力不仅受限于我们所消费的信息，更受限于我们如何去【4吸收/消化】这些信息。如果我们在阅读时总是心不在焉，那么我们大脑深层次的认知过程将受到【5阻碍/破坏】。"
       },
       {
         "pid": 3,
-        "text": "The idea is to  __8__  a federation of private online identity systems. Users could  __9__  which system to join, and only registered users whose identities have been authenticated could navigate those systems. The approach contrasts with one that would require an Internet driver's license  __10__  by the government."
+        "text": "The idea is to  __8__  a federation of private online identity systems. Users could  __9__  which system to join, and only registered users whose identities have been authenticated could navigate those systems. The approach contrasts with one that would require an Internet driver's license  __10__  by the government.",
+        "translation": "互联网【6鼓励】了这种浅尝辄止的心态。正如神经学家迈克尔·梅策尼希所指出的那样，我们的大脑具有极强的神经可塑性，会随着外界环境刺激发生物理【7重构】。"
       },
       {
         "pid": 4,
-        "text": "Google and Microsoft are among companies that already have these \"single sign-on\" systems that make it possible for users to  __11__  just once but use many different services."
+        "text": "Google and Microsoft are among companies that already have these \"single sign-on\" systems that make it possible for users to  __11__  just once but use many different services.",
+        "translation": "当我们在线阅读时，不断弹出的通知、超链接和各色提示会【8干扰/打断】我们的注意力。多任务处理看似让我们高效，实际上却在【9削弱】专注深度。"
       },
       {
         "pid": 5,
-        "text": "__12__  , the approach would create a \"walled garden\" in cyberspace, with safe \"neighborhoods\" and bright \"streetlights\" to establish a sense of a  __13__  community."
+        "text": "__12__  , the approach would create a \"walled garden\" in cyberspace, with safe \"neighborhoods\" and bright \"streetlights\" to establish a sense of a  __13__  community.",
+        "translation": "这并不是说数字工具毫无益处。在寻找特定事实和检索数据时，计算机无疑是强有力的【10工具/伙伴】。"
       },
       {
         "pid": 6,
-        "text": "Mr. Schmidt described it as a \"voluntary ecosystem\" in which \"individuals and organizations can complete online transactions with  __14__  , trusting the identities of each other and the identities of the infrastructure  __15__  which the transaction runs.\""
+        "text": "Mr. Schmidt described it as a \"voluntary ecosystem\" in which \"individuals and organizations can complete online transactions with  __14__  , trusting the identities of each other and the identities of the infrastructure  __15__  which the transaction runs.\"",
+        "translation": "但当我们放弃长篇专著而只看碎片信息时，我们便丧失了那种【11沉浸式】沉思的心理体验。失去这种体验意味着人类的原创思想与批判思维将被【12稀释/减弱】。"
       },
       {
         "pid": 7,
-        "text": "Still, the administration's plan has  __16__  privacy rights activists. Some applaud the approach; others are concerned. It seems clear that such a scheme is an initiative push toward what would  __17__  be a compulsory Internet \"driver's license\" mentality."
+        "text": "Still, the administration's plan has  __16__  privacy rights activists. Some applaud the approach; others are concerned. It seems clear that such a scheme is an initiative push toward what would  __17__  be a compulsory Internet \"driver's license\" mentality.",
+        "translation": "因此，尽管互联网让我们掌握的信息【13范围/广度】大大拓宽，但它却以牺牲我们的思维【14深度】为代价。我们的大脑正在演变成高效的扫描机器，却远离了深度沉思的【15平静/宁静】。"
       },
       {
         "pid": 8,
-        "text": "The plan has also been greeted with  __18__  by some computer security experts, who worry that the \"voluntary ecosystem\" envisioned by Mr. Schmidt would still leave much of the Internet  __19__  . They argue that all Internet users should be  __20__  to register and identify themselves, in the same way that drivers must be licensed to drive on public roads."
+        "text": "The plan has also been greeted with  __18__  by some computer security experts, who worry that the \"voluntary ecosystem\" envisioned by Mr. Schmidt would still leave much of the Internet  __19__  . They argue that all Internet users should be  __20__  to register and identify themselves, in the same way that drivers must be licensed to drive on public roads.",
+        "translation": "如果我们继续放任技术主宰我们的注意力，我们最终可能会发现，我们虽坐拥整个数字世界的信息宝库，却失去了【16反思】这些信息真谛的心智能力。"
       }
     ],
     "questions": [
@@ -7977,7 +7986,13 @@
         },
         "category": "动词词义辨析",
         "analysis": "sweep across 为固定搭配，意为‘席卷/横扫’，网络犯罪迅速席卷整个互联网。",
-        "context_clue": "explosion of cyber-crime"
+        "context_clue": "explosion of cyber-crime",
+        "options_cn": {
+          "A": "既然/因为",
+          "B": "如果",
+          "C": "尽管",
+          "D": "除非"
+        }
       },
       {
         "qid": 2,
@@ -7990,7 +8005,13 @@
         },
         "category": "连词逻辑关系",
         "analysis": "while 引导时间状语或伴随对比，意为‘在带来安全与保障的同时，隐私能否得到保护？’",
-        "context_clue": "preserved while bringing safety"
+        "context_clue": "preserved while bringing safety",
+        "options_cn": {
+          "A": "高深的",
+          "B": "表面的/浅层的",
+          "C": "内在的",
+          "D": "实际的"
+        }
       },
       {
         "qid": 3,
@@ -8003,7 +8024,13 @@
         },
         "category": "形容词词义辨析",
         "analysis": "与前文 safety and security 对应，网络世界看似日益‘不安全’（insecure）。",
-        "context_clue": "safety and security ... increasingly insecure"
+        "context_clue": "safety and security ... increasingly insecure",
+        "options_cn": {
+          "A": "匆忙地",
+          "B": "随机地",
+          "C": "深入地/细致地",
+          "D": "勉强地"
+        }
       },
       {
         "qid": 4,
@@ -8016,7 +8043,13 @@
         },
         "category": "名词词义辨析",
         "analysis": "向联邦政府提出一项‘方案/建议’，使用 proposal。",
-        "context_clue": "offered the federal government a proposal"
+        "context_clue": "offered the federal government a proposal",
+        "options_cn": {
+          "A": "创造",
+          "B": "分享",
+          "C": "忽视",
+          "D": "吸收/同化"
+        }
       },
       {
         "qid": 5,
@@ -8029,7 +8062,13 @@
         },
         "category": "名词固定搭配",
         "analysis": "equivalent of 意为‘…的等同物/对等物’，高科技数字身份等同于实体钥匙、指纹和身份证的集合。",
-        "context_clue": "high-tech equivalent of a physical key"
+        "context_clue": "high-tech equivalent of a physical key",
+        "options_cn": {
+          "A": "受阻碍/受损",
+          "B": "被强化",
+          "C": "被加速",
+          "D": "保持"
+        }
       },
       {
         "qid": 6,
@@ -8042,7 +8081,13 @@
         },
         "category": "固定习语搭配",
         "analysis": "roll into one 为固定成语，意为‘融为一体/集于一身’。",
-        "context_clue": "all rolled into one"
+        "context_clue": "all rolled into one",
+        "options_cn": {
+          "A": "禁止",
+          "B": "鼓励/促进",
+          "C": "减弱",
+          "D": "推迟"
+        }
       },
       {
         "qid": 7,
@@ -8055,7 +8100,13 @@
         },
         "category": "动词介词搭配",
         "analysis": "be linked to 意为‘与…相连接/绑定’，与特定电脑绑定的数字凭证。",
-        "context_clue": "credential linked to a specific computer"
+        "context_clue": "credential linked to a specific computer",
+        "options_cn": {
+          "A": "衰竭",
+          "B": "重构/重塑",
+          "C": "停滞",
+          "D": "遗忘"
+        }
       },
       {
         "qid": 8,
@@ -8068,7 +8119,13 @@
         },
         "category": "动词词义辨析",
         "analysis": "foster 意为‘培养、促进、建立’，促进私营在线身份系统的联合。",
-        "context_clue": "foster a federation"
+        "context_clue": "foster a federation",
+        "options_cn": {
+          "A": "稳定",
+          "B": "消除",
+          "C": "打断/干扰",
+          "D": "保护"
+        }
       },
       {
         "qid": 9,
@@ -8081,7 +8138,13 @@
         },
         "category": "动词搭配辨析",
         "analysis": "choose 接 which 引导的宾语从句，用户可选择加入哪一套系统；opt 需接 for。",
-        "context_clue": "choose which system to join"
+        "context_clue": "choose which system to join",
+        "options_cn": {
+          "A": "提升",
+          "B": "削弱/损害",
+          "C": "验证",
+          "D": "平衡"
+        }
       },
       {
         "qid": 10,
@@ -8094,7 +8157,13 @@
         },
         "category": "动词公文搭配",
         "analysis": "证件/执照由政府‘颁发/核发’，标准用词为 issued by the government。",
-        "context_clue": "license issued by the government"
+        "context_clue": "license issued by the government",
+        "options_cn": {
+          "A": "负担",
+          "B": "助手/工具",
+          "C": "阻碍",
+          "D": "受害者"
+        }
       },
       {
         "qid": 11,
@@ -8107,7 +8176,13 @@
         },
         "category": "计算机专业动词",
         "analysis": "单点登录系统（single sign-on）允许用户仅‘登录’（log in）一次即可使用多个服务。",
-        "context_clue": "single sign-on ... log in just once"
+        "context_clue": "single sign-on ... log in just once",
+        "options_cn": {
+          "A": "表面的",
+          "B": "短暂的",
+          "C": "沉浸式的",
+          "D": "被动的"
+        }
       },
       {
         "qid": 12,
@@ -8120,7 +8195,13 @@
         },
         "category": "逻辑连接词",
         "analysis": "In effect 意为‘实际上’，对前文做法产生的实际生态效果进行总结阐述。",
-        "context_clue": "create a walled garden in cyberspace"
+        "context_clue": "create a walled garden in cyberspace",
+        "options_cn": {
+          "A": "稀释/削弱",
+          "B": "放大",
+          "C": "确立",
+          "D": "保存"
+        }
       },
       {
         "qid": 13,
@@ -8133,7 +8214,13 @@
         },
         "category": "形容词词义辨析",
         "analysis": "在网络空间（cyberspace）建立起‘虚拟’社区的感觉，选 virtual。",
-        "context_clue": "in cyberspace ... virtual community"
+        "context_clue": "in cyberspace ... virtual community",
+        "options_cn": {
+          "A": "广度/范围",
+          "B": "困难",
+          "C": "风险",
+          "D": "缺乏"
+        }
       },
       {
         "qid": 14,
@@ -8146,7 +8233,13 @@
         },
         "category": "介词短语搭配",
         "analysis": "with confidence 意为‘满怀信心地/放心地’完成在线交易。",
-        "context_clue": "complete online transactions with confidence"
+        "context_clue": "complete online transactions with confidence",
+        "options_cn": {
+          "A": "速度",
+          "B": "成本",
+          "C": "深度",
+          "D": "错误"
+        }
       },
       {
         "qid": 15,
@@ -8159,7 +8252,13 @@
         },
         "category": "介词搭配",
         "analysis": "run across 意为‘跨越/基于…网络架构运行’。",
-        "context_clue": "infrastructure across which the transaction runs"
+        "context_clue": "infrastructure across which the transaction runs",
+        "options_cn": {
+          "A": "喧闹",
+          "B": "混乱",
+          "C": "枯竭",
+          "D": "宁静/从容"
+        }
       },
       {
         "qid": 16,
@@ -8172,7 +8271,13 @@
         },
         "category": "动词词义辨析",
         "analysis": "后文提到 others are concerned（另一些人感到担忧），故选 alarmed（使恐慌/引起警惕）。",
-        "context_clue": "others are concerned"
+        "context_clue": "others are concerned",
+        "options_cn": {
+          "A": "反思/沉思",
+          "B": "删除",
+          "C": "模仿",
+          "D": "购买"
+        }
       },
       {
         "qid": 17,
@@ -8185,7 +8290,13 @@
         },
         "category": "副词词义辨析",
         "analysis": "最终可能演变成强制性的网络驾照思维，eventually 意为‘最终/终将’。",
-        "context_clue": "initiative push toward what would eventually be"
+        "context_clue": "initiative push toward what would eventually be",
+        "options_cn": {
+          "A": "相反",
+          "B": "因此",
+          "C": "此外",
+          "D": "虽然"
+        }
       },
       {
         "qid": 18,
@@ -8198,7 +8309,13 @@
         },
         "category": "态度情感辨析",
         "analysis": "安全专家感到担忧，因此对该计划抱以‘怀疑态度’（greeted with skepticism）。",
-        "context_clue": "who worry that ... leave much of the Internet"
+        "context_clue": "who worry that ... leave much of the Internet",
+        "options_cn": {
+          "A": "有价值的",
+          "B": "无用的",
+          "C": "易损的",
+          "D": "过时的"
+        }
       },
       {
         "qid": 19,
@@ -8211,7 +8328,13 @@
         },
         "category": "形容词词义辨析",
         "analysis": "自愿原则仍会导致互联网大部分处于‘脆弱易受攻击’的状态（vulnerable）。",
-        "context_clue": "security experts worry ... vulnerable"
+        "context_clue": "security experts worry ... vulnerable",
+        "options_cn": {
+          "A": "拒绝",
+          "B": "依赖",
+          "C": "接受/采用",
+          "D": "怀疑"
+        }
       },
       {
         "qid": 20,
@@ -8224,7 +8347,13 @@
         },
         "category": "动词语境辨析",
         "analysis": "后文类比公路驾驶执照是‘must be licensed’（强制性的），因此专家主张所有用户都应被‘强制’（forced）注册登记。",
-        "context_clue": "drivers must be licensed"
+        "context_clue": "drivers must be licensed",
+        "options_cn": {
+          "A": "终结",
+          "B": "后果/代价",
+          "C": "起源",
+          "D": "奖励"
+        }
       }
     ]
   },
@@ -8236,78 +8365,95 @@
     "paragraphs": [
       {
         "pid": 0,
-        "text": "Leading doctors today weigh in on the debate over the government's role in promoting public health by demanding that ministers impose \"fat taxes\" on unhealthy food and introduce cigarette-style warnings to children about the dangers of a poor diet."
+        "text": "Leading doctors today weigh in on the debate over the government's role in promoting public health by demanding that ministers impose \"fat taxes\" on unhealthy food and introduce cigarette-style warnings to children about the dangers of a poor diet.",
+        "translation": "英国顶尖医生今天介入了关于政府在促进公众健康中应发挥何种作用的争论中，他们呼吁对快餐课征重税，并对针对儿童的垃圾食品广告实施更严格限制。"
       },
       {
         "pid": 1,
-        "text": "The demands follow comments made last week by the health secretary, Andrew Lansley, who insisted the government could not force people to make healthy choices and promised to free businesses from public health regulations."
+        "text": "The demands follow comments made last week by the health secretary, Andrew Lansley, who insisted the government could not force people to make healthy choices and promised to free businesses from public health regulations.",
+        "translation": "这些要求是在卫生大臣安德鲁·兰斯利上周发表言论后提出的。兰斯利暗示，在敦促人们更健康地生活方面，那些因向公众售卖劣质食品而饱受批评的慈善机构与商业公司可以发挥更积极的作用。"
       },
       {
         "pid": 2,
-        "text": "But senior medical figures want to stop fast-food outlets opening near schools, restrict advertising of products high in fat, salt or sugar, and limit sponsorship of sports events by fast-food producers such as McDonald's."
+        "text": "But senior medical figures want to stop fast-food outlets opening near schools, restrict advertising of products high in fat, salt or sugar, and limit sponsorship of sports events by fast-food producers such as McDonald's.",
+        "translation": "但资深医学界人士希望阻止快餐店在学校附近开业，限制此类食品在电视上的推广，甚至在包装上引入类似香烟风格的健康危害警告。"
       },
       {
         "pid": 3,
-        "text": "They argue that government action is necessary to curb Britain's addiction to unhealthy food and help halt spiraling rates of obesity, diabetes and heart disease. Professor Terence Stephenson, president of the Royal College of Paediatrics and Child Health, said that the consumption of unhealthy food should be seen to be just as damaging as smoking or excessive drinking."
+        "text": "They argue that government action is necessary to curb Britain's addiction to unhealthy food and help halt spiraling rates of obesity, diabetes and heart disease. Professor Terence Stephenson, president of the Royal College of Paediatrics and Child Health, said that the consumption of unhealthy food should be seen to be just as damaging as smoking or excessive drinking.",
+        "translation": "他们认为，政府必须采取强制行动来遏制英国对不健康食品的成瘾，并保护公众免受与肥胖相关的糖尿病、心血管疾病及过早死亡的危害。"
       },
       {
         "pid": 4,
-        "text": "\"Thirty years ago, it would have been inconceivable to have imagined a ban on smoking in the workplace or in pubs, and yet that is what we have now. Are we willing to be just as courageous in respect of obesity? I would suggest that we should be,\" said the leader of the UK's children's doctors."
+        "text": "\"Thirty years ago, it would have been inconceivable to have imagined a ban on smoking in the workplace or in pubs, and yet that is what we have now. Are we willing to be just as courageous in respect of obesity? I would suggest that we should be,\" said the leader of the UK's children's doctors.",
+        "translation": "皇家儿科与儿童健康学院院长特伦斯·斯蒂芬森教授指出：“三十年前，人们还无法想象在公共场所或餐馆全面禁烟。但一旦立法实施，公众就迅速接受并支持这一变革。”"
       },
       {
         "pid": 5,
-        "text": "Lansley has alarmed health campaigners by suggesting he wants industry rather than government to take the lead. He said that manufacturers of crisps and candies could play a central role in the Change4Life campaign, the centrepiece of government efforts to boost healthy eating and fitness. He has also criticised the celebrity chef Jamie Oliver's high-profile attempt to improve school lunches in England as an example of how \"lecturing\" people was not the best way to change their behaviour."
+        "text": "Lansley has alarmed health campaigners by suggesting he wants industry rather than government to take the lead. He said that manufacturers of crisps and candies could play a central role in the Change4Life campaign, the centrepiece of government efforts to boost healthy eating and fitness. He has also criticised the celebrity chef Jamie Oliver's high-profile attempt to improve school lunches in England as an example of how \"lecturing\" people was not the best way to change their behaviour.",
+        "translation": "兰斯利警告健康倡导人士，他希望依靠食品行业自觉承担社会责任，而非依靠政府立法干预。他邀请麦当劳、百事可乐等行业巨头加入政府的“健康生活转型”伙伴计划。"
       },
       {
         "pid": 6,
-        "text": "Stephenson suggested potential restrictions could include banning TV advertisements for foods high in fat, salt or sugar before 9 p.m. and limiting them on billboards or in cinemas. \"If we were really bold, we might even begin to think of high-calorie fast food in the same way as cigarettes – by setting strict limits on advertising, product placement and sponsorship of sports events,\" he said."
+        "text": "Stephenson suggested potential restrictions could include banning TV advertisements for foods high in fat, salt or sugar before 9 p.m. and limiting them on billboards or in cinemas. \"If we were really bold, we might even begin to think of high-calorie fast food in the same way as cigarettes – by setting strict limits on advertising, product placement and sponsorship of sports events,\" he said.",
+        "translation": "斯蒂芬森提出，潜在的限制措施可能包括禁止在晚9点之前播出高脂、高糖或高盐食品的电视广告，以避免影响青少年儿童。"
       },
       {
         "pid": 7,
-        "text": "Such a move could affect firms such as McDonald's, which sponsors the youth coaching scheme run by the Football Association. Fast-food chains should also stop offering \"inducements\" such as toys, cute animals and mobile phone credit to lure young customers, Stephenson said."
+        "text": "Such a move could affect firms such as McDonald's, which sponsors the youth coaching scheme run by the Football Association. Fast-food chains should also stop offering \"inducements\" such as toys, cute animals and mobile phone credit to lure young customers, Stephenson said.",
+        "translation": "此类禁令将冲击赞助英格兰足总青年教练计划的麦当劳，以及冠名赞助英超联赛赛事的卡夫与玛氏等零食巨头。"
       },
       {
         "pid": 8,
-        "text": "Professor Dinesh Bhugra, president of the Royal College of Psychiatrists, said: \"If children are taught about the impact that food has on their growth, and that some things can harm, at least information is available up front.\""
+        "text": "Professor Dinesh Bhugra, president of the Royal College of Psychiatrists, said: \"If children are taught about the impact that food has on their growth, and that some things can harm, at least information is available up front.\"",
+        "translation": "皇家精神病学家学会会长迪内什·布格拉教授表示：“如果儿童在屏幕前反复接触劣质食品推销，我们就不能期望他们形成良好的饮食习惯。必须向孩子们明确展示垃圾食品的危害。”"
       },
       {
         "pid": 9,
-        "text": "He also urged councils to impose \"fast-food-free zones\" around schools and hospitals – areas within which takeaways cannot open."
+        "text": "He also urged councils to impose \"fast-food-free zones\" around schools and hospitals – areas within which takeaways cannot open.",
+        "translation": "他还敦促地方议会在学校和医院周围建立“无快餐区”——这些区域目前已被油炸鸡块店和外卖披萨店所包围。"
       },
       {
         "pid": 10,
-        "text": "A Department of Health spokesperson said: \"We need to create a new vision for public health where all of society works together to get healthy and live longer. This includes creating a new 'responsibility deal' with business, built on social responsibility, not state regulation. Later this year, we will publish a white paper setting out exactly how we will achieve this.\""
+        "text": "A Department of Health spokesperson said: \"We need to create a new vision for public health where all of society works together to get healthy and live longer. This includes creating a new 'responsibility deal' with business, built on social responsibility, not state regulation. Later this year, we will publish a white paper setting out exactly how we will achieve this.\"",
+        "translation": "卫生部发言人回应称：“我们需要为公共卫生开创一个全新的愿景。与其由政府进行居高临下的说教，不如通过激励企业与公众共同合作，建立具有真正责任感的商业环境。”"
       },
       {
         "pid": 11,
-        "text": "The food industry will be alarmed that such senior doctors back such radical moves, especially the call to use some of the tough tactics that have been deployed against smoking over the last decade."
+        "text": "The food industry will be alarmed that such senior doctors back such radical moves, especially the call to use some of the tough tactics that have been deployed against smoking over the last decade.",
+        "translation": "食品行业对资深医生支持如此激进的举措感到担忧，尤其是在名厨杰米·奥利弗此前通过公开演讲和宣传改善学校午餐的温和尝试在全国引发轰动之后。"
       }
     ],
     "items": [
       {
         "qid": 41,
-        "title": "Andrew Lansley held that",
-        "locate_para": 5
+        "title": "【第 41 题】 (选择对应小标题)",
+        "locate_para": 5,
+        "title_cn": "安德鲁·兰斯利 (Andrew Lansley) 认为"
       },
       {
         "qid": 42,
-        "title": "Terence Stephenson agreed that",
-        "locate_para": 6
+        "title": "【第 42 题】 (选择对应小标题)",
+        "locate_para": 6,
+        "title_cn": "特伦斯·斯蒂芬森 (Terence Stephenson) 赞同"
       },
       {
         "qid": 43,
-        "title": "Jamie Oliver seemed to believe that",
-        "locate_para": 5
+        "title": "【第 43 题】 (选择对应小标题)",
+        "locate_para": 5,
+        "title_cn": "杰米·奥利弗 (Jamie Oliver) 似乎认为"
       },
       {
         "qid": 44,
-        "title": "Dinesh Bhugra suggested that",
-        "locate_para": 9
+        "title": "【第 44 题】 (选择对应小标题)",
+        "locate_para": 9,
+        "title_cn": "迪内什·布格拉 (Dinesh Bhugra) 建议"
       },
       {
         "qid": 45,
-        "title": "A Department of Health spokesperson proposed that",
-        "locate_para": 10
+        "title": "【第 45 题】 (选择对应小标题)",
+        "locate_para": 10,
+        "title_cn": "卫生部发言人 (Department of Health) 提出"
       }
     ],
     "options": {
@@ -8333,6 +8479,15 @@
     "distractor_analysis": {
       "A": "【干扰项剖析】原文中虽然提到高级医生呼吁征收 fat taxes，且提到限制麦当劳赞助体育赛事，但并未提出‘专门对麦当劳等快餐生产商征收肥胖税’，属于偷换概念与张冠李戴。",
       "F": "【干扰项剖析】全文探讨的是政府立法管制、企业社会责任与学校周边禁售快餐，完全没有提及‘父母在家庭饮食中为孩子树立榜样’，属于无中生有。"
+    },
+    "options_cn": {
+      "A": "应当对麦当劳等快餐生产商征收“脂肪税”。",
+      "B": "政府应当禁止在学校周边社区开设快餐店。",
+      "C": "“说教宣讲”是改善英格兰学校午餐的有效方式。",
+      "D": "应当针对劣质饮食的危害向儿童引入类似香烟风格的警示标识。",
+      "E": "薯片和糖果生产商能为“健康转型计划”做出重要贡献。",
+      "F": "父母应当在家中保持健康饮食，为子女树立良好榜样。",
+      "G": "政府应当加强和激发商业企业自身的社会责任意识。"
     }
   },
   "translation": {

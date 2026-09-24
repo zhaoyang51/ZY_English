@@ -134,3 +134,77 @@ test('ClozeRenderer immediately grades upon option selection (both correct and w
   assert.ok(!reviewHtml.includes('✖ 错误 正解'));
 });
 
+test('Cloze and Part B bilingual Chinese translation toggle and data coverage (2010-2026)', () => {
+  const { context, document } = setupDOM();
+
+  for (let yr = 2010; yr <= 2026; yr++) {
+    const data = JSON.parse(read(`data/${yr}.json`));
+
+    // Verify Use of English translation coverage
+    const uoe = data.use_of_english;
+    assert.ok(uoe, `Missing use_of_english for ${yr}`);
+    assert.ok(uoe.paragraphs.length > 0, `No paragraphs in cloze for ${yr}`);
+    uoe.paragraphs.forEach((p, idx) => {
+      assert.ok(p.translation && p.translation.length > 5, `Missing paragraph ${idx} translation in cloze ${yr}`);
+    });
+    assert.equal(uoe.questions.length, 20, `Expected 20 questions in cloze ${yr}`);
+    uoe.questions.forEach((q) => {
+      assert.ok(q.options_cn, `Missing options_cn for question ${q.qid} in cloze ${yr}`);
+      assert.ok(q.options_cn.A && q.options_cn.B && q.options_cn.C && q.options_cn.D, `Incomplete options_cn for Q${q.qid} in ${yr}`);
+    });
+
+    // Verify Part B translation coverage
+    const pb = data.part_b;
+    assert.ok(pb, `Missing part_b for ${yr}`);
+    assert.ok(pb.paragraphs.length > 0, `No paragraphs in part_b for ${yr}`);
+    pb.paragraphs.forEach((p, idx) => {
+      assert.ok(p.translation && p.translation.length > 5, `Missing paragraph ${idx} translation in part_b ${yr}`);
+    });
+    assert.equal(pb.items.length, 5, `Expected 5 items in part_b ${yr}`);
+    pb.items.forEach((it) => {
+      assert.ok(it.title_cn && it.title_cn.length > 0, `Missing title_cn for item ${it.qid} in ${yr}`);
+    });
+    assert.ok(pb.options_cn, `Missing options_cn in part_b ${yr}`);
+  }
+
+  // Test interactive rendering & toggle in Cloze
+  const data2015 = JSON.parse(read('data/2015.json'));
+
+  // 1. By default (showTrans = false), no cloze-para-trans
+  context.localStorage.setItem('kaoyan_cloze_show_trans', 'false');
+  context.window.ClozeRenderer.render(data2015.use_of_english, 2015, 'practice');
+  let paperHtml = document.getElementById('examPaper').innerHTML;
+  let wsHtml = document.getElementById('workspaceContent').innerHTML;
+  assert.ok(!paperHtml.includes('cloze-para-trans'), 'cloze-para-trans should not be visible when showTrans is false');
+  assert.ok(paperHtml.includes('id="btnToggleClozeTrans"'), 'btnToggleClozeTrans button must exist in toolbar');
+
+  // 2. Set showTrans = true, verify cloze-para-trans and option translations
+  context.window.ClozeRenderer.setShowTrans(true);
+  context.window.ClozeRenderer.render(data2015.use_of_english, 2015, 'practice');
+  paperHtml = document.getElementById('examPaper').innerHTML;
+  wsHtml = document.getElementById('workspaceContent').innerHTML;
+  assert.ok(paperHtml.includes('cloze-para-trans'), 'cloze-para-trans must be rendered when showTrans is true');
+  assert.ok(paperHtml.includes('cloze-trans-badge'), 'cloze-trans-badge must be rendered');
+  assert.ok(wsHtml.includes('cloze-opt-cn'), 'cloze-opt-cn should be rendered for options');
+
+  // Test interactive rendering & toggle in Part B
+  // 1. When showTrans is false, no partb-para-trans
+  context.window.MatchingRenderer.setShowTrans(false);
+  context.window.MatchingRenderer.render(data2015.part_b, 2015, 'practice');
+  paperHtml = document.getElementById('examPaper').innerHTML;
+  wsHtml = document.getElementById('workspaceContent').innerHTML;
+  assert.ok(!paperHtml.includes('partb-para-trans'), 'partb-para-trans should not be visible when showTrans is false');
+  assert.ok(paperHtml.includes('id="btnTogglePartBTrans"'), 'btnTogglePartBTrans button must exist in toolbar');
+
+  // 2. When showTrans is true, verify partb-para-trans, matching-item-cn, matching-opt-cn
+  context.window.MatchingRenderer.setShowTrans(true);
+  context.window.MatchingRenderer.render(data2015.part_b, 2015, 'practice');
+  paperHtml = document.getElementById('examPaper').innerHTML;
+  wsHtml = document.getElementById('workspaceContent').innerHTML;
+  assert.ok(paperHtml.includes('partb-para-trans'), 'partb-para-trans must be rendered when showTrans is true');
+  assert.ok(paperHtml.includes('partb-trans-badge'), 'partb-trans-badge must be rendered');
+  assert.ok(wsHtml.includes('matching-item-cn'), 'matching-item-cn must be rendered');
+  assert.ok(wsHtml.includes('matching-opt-cn'), 'matching-opt-cn must be rendered');
+});
+
+

@@ -7400,15 +7400,18 @@
     "paragraphs": [
       {
         "pid": 0,
-        "text": "Given the advantages of electronic money, you might think that we would move quickly to the cashless society in which all payments are made electronically.  __1__  , a true cashless society is probably not around the corner. Indeed, predictions have been  __2__  for two decades but have not yet come to fruition. For example, Business Week predicted in 1975 that electronic means of payment would soon \"revolutionize the very  __3__  of money itself,\" only to  __4__  itself several years later. Why has the movement to a cashless society been so  __5__  in coming?"
+        "text": "Given the advantages of electronic money, you might think that we would move quickly to the cashless society in which all payments are made electronically.  __1__  , a true cashless society is probably not around the corner. Indeed, predictions have been  __2__  for two decades but have not yet come to fruition. For example, Business Week predicted in 1975 that electronic means of payment would soon \"revolutionize the very  __3__  of money itself,\" only to  __4__  itself several years later. Why has the movement to a cashless society been so  __5__  in coming?",
+        "translation": "考虑到电子货币的种种优势，你可能会认为我们将迅速迈向一个所有支付都通过电子方式完成的无现金社会。【1然而】，真正的无现金社会可能并非指日可待。事实上，此类预言已经【2存在/流传】了二十年，却至今仍未结出果实。例如，《商业周刊》曾在1975年预言电子支付手段将很快‘彻底颠覆货币本身的【3概念】’，结果几年后却不得不自我【4推翻/反转】其观点。为什么迈向无现金社会的步伐如此【5迟缓/姗姗来迟】？"
       },
       {
         "pid": 1,
-        "text": "Although electronic means of payment may be more efficient than a payments system based on paper, several factors work  __6__  the disappearance of the paper system. First, it is very  __7__  to set up the computer, card reader, and telecommunications networks necessary to make electronic money the  __8__  form of payment. Second, paper checks have the advantage that they  __9__  receipts, something that many consumers are unwilling to  __10__  . Third, the use of paper checks gives consumers several days of \"float\" – it takes several days  __11__  a check is cashed and funds are  __12__  from the issuer's account, which means that the writer of the check can earn interest on the funds in the meantime.  __13__  electronic payments are immediate, they eliminate the float for the consumer."
+        "text": "Although electronic means of payment may be more efficient than a payments system based on paper, several factors work  __6__  the disappearance of the paper system. First, it is very  __7__  to set up the computer, card reader, and telecommunications networks necessary to make electronic money the  __8__  form of payment. Second, paper checks have the advantage that they  __9__  receipts, something that many consumers are unwilling to  __10__  . Third, the use of paper checks gives consumers several days of \"float\" – it takes several days  __11__  a check is cashed and funds are  __12__  from the issuer's account, which means that the writer of the check can earn interest on the funds in the meantime.  __13__  electronic payments are immediate, they eliminate the float for the consumer.",
+        "translation": "尽管电子支付方式可能比纸质支付系统效率更高，但若干因素却在【6阻碍/不利于】纸质系统的消亡。首先，建立必要的计算机、读卡器和电信网络以使电子货币成为【8主导/主流】支付形式，成本极其【7昂贵】。其次，纸质支票具备能够【9提供】收据凭据的优势，这是许多消费者所不愿【10放弃】的。第三，使用纸质支票为消费者提供了数天的‘资金在途缓冲期’（float）——从支票开出到被兑现并从出票人账户中【12扣除/划取】资金需要耗费数天【11在此之前】，这意味着支票开具人在此期间仍可在该笔资金上赚取银行利息。【13因为】电子支付是瞬时完成的，它们为消费者彻底消除了这种浮动利息期。"
       },
       {
         "pid": 2,
-        "text": "Fourth, electronic means of payment may  __14__  security and privacy concerns. We often hear media reports that an unauthorized hacker has been able to access a computer database and to alter information  __15__  there. The fact that this is not an  __16__  occurrence means that dishonest persons might be able to access bank accounts in electronic payments systems and  __17__  from someone else's accounts. The  __18__  of this type of fraud is no easy task, and a new field of computer science is developing to  __19__  security issues. A further concern is that the use of electronic means of payment leaves an electronic  __20__  that contains a large amount of personal data. There are concerns that government, employers, and marketers might be able to access these data, thereby violating our privacy."
+        "text": "Fourth, electronic means of payment may  __14__  security and privacy concerns. We often hear media reports that an unauthorized hacker has been able to access a computer database and to alter information  __15__  there. The fact that this is not an  __16__  occurrence means that dishonest persons might be able to access bank accounts in electronic payments systems and  __17__  from someone else's accounts. The  __18__  of this type of fraud is no easy task, and a new field of computer science is developing to  __19__  security issues. A further concern is that the use of electronic means of payment leaves an electronic  __20__  that contains a large amount of personal data. There are concerns that government, employers, and marketers might be able to access these data, thereby violating our privacy.",
+        "translation": "第四，电子支付手段可能会【14引发】安全与隐私方面的担忧。我们经常在媒体报道中听到未授权的黑客能够侵入计算机数据库并篡改【15存储】在那里的信息。这一事实【16并非罕见】发生，意味着不法分子可能进入电子支付系统中的银行账户并从他人账户中【17盗窃】资金。对这种欺诈行为的【18防范/预防】绝非易事，计算机科学正在开拓一个全新领域来【19应对/处理】安全问题。另一个深层担忧在于，使用电子支付手段会留下一串包含大量个人数据的电子【20足迹/痕迹】。人们担心政府、雇主和营销商可能会访问这些数据，从而侵犯我们的个人隐私。"
       }
     ],
     "questions": [
@@ -7423,7 +7426,13 @@
         "answer": "B",
         "category": "句间转折逻辑连词",
         "analysis": "考查篇章转折。前句指出电子货币优势明显，人们原以为会迅速迈入无现金社会；本句紧接着指出真正的无现金社会恐怕并非指日可待。前后呈现强烈的预期与现实转折，故选 However。A项 Moreover 表递进，C项 Therefore 表因果，D项 Otherwise 表相反假设，均不符合语境。",
-        "context_clue": "might think that we would move quickly ... is probably not around the corner"
+        "context_clue": "might think that we would move quickly ... is probably not around the corner",
+        "options_cn": {
+          "A": "而且",
+          "B": "然而/但是",
+          "C": "因此",
+          "D": "否则"
+        }
       },
       {
         "qid": 2,
@@ -7436,7 +7445,13 @@
         "answer": "D",
         "category": "固定短语辨析",
         "analysis": "考查短语搭配。be around 意为‘存在/流行’，predictions have been around for two decades 指此类预言在过去二十年间早就屡见不鲜、一直存在。A项 be off（离开/停止）、B项 be back（回归）、C项 be over（结束）均不符合叙述预言长期存在却未实现的语境。",
-        "context_clue": "for two decades but have not yet come to fruition"
+        "context_clue": "for two decades but have not yet come to fruition",
+        "options_cn": {
+          "A": "离开",
+          "B": "回来",
+          "C": "结束",
+          "D": "存在/在周围(around)"
+        }
       },
       {
         "qid": 3,
@@ -7449,7 +7464,13 @@
         "answer": "B",
         "category": "名词语境辨析与主旨关联",
         "analysis": "考查名词搭配。电子支付手段将彻底‘颠覆货币本身的概念’（revolutionize the very concept of money itself）。A项 power（权力/力量）、C项 history（历史）、D项 role（角色）均没有 concept 能体现对货币形态与定义的本质性革命冲击。",
-        "context_clue": "revolutionize the very ... of money itself"
+        "context_clue": "revolutionize the very ... of money itself",
+        "options_cn": {
+          "A": "权力/力量",
+          "B": "概念",
+          "C": "历史",
+          "D": "角色"
+        }
       },
       {
         "qid": 4,
@@ -7462,7 +7483,13 @@
         "answer": "A",
         "category": "动宾逻辑关系与代词指代",
         "analysis": "考查动词语义。前文《商业周刊》在1975年做出大胆激进的预言，而若干年后该杂志不得不‘推翻/逆转自己的预言观点’（reverse itself）。A项 reverse 符合预期落空后的自我否定。B项 resist（抵制）、C项 resume（恢复/重新开始）、D项 reward（奖励）在逻辑上均无法接 itself 表达观点逆转。",
-        "context_clue": "predicted in 1975 ... only to ... itself several years later"
+        "context_clue": "predicted in 1975 ... only to ... itself several years later",
+        "options_cn": {
+          "A": "反转/推翻",
+          "B": "抵抗",
+          "C": "重新开始",
+          "D": "奖励"
+        }
       },
       {
         "qid": 5,
@@ -7475,7 +7502,13 @@
         "answer": "C",
         "category": "形容词语境辨析与提问主旨",
         "analysis": "考查形容词在段落设问中的作用。承接上文‘预言二十年尚未成真’，作者设问：为什么迈向无现金社会的步伐如此‘迟缓/姗姗来迟’（so slow in coming）？A项 silent（无声的）、B项 sudden（突然的）、D项 steady（稳定的）均无法承接上文对迟迟未普及的疑问。",
-        "context_clue": "not yet come to fruition ... Why has ... been so ... in coming?"
+        "context_clue": "not yet come to fruition ... Why has ... been so ... in coming?",
+        "options_cn": {
+          "A": "无声的",
+          "B": "突然的",
+          "C": "迟缓的/缓慢的",
+          "D": "稳定的"
+        }
       },
       {
         "qid": 6,
@@ -7488,7 +7521,13 @@
         "answer": "B",
         "category": "动词与介词固定搭配",
         "analysis": "考查短语搭配。work against sth 意为‘阻碍/不利于……’。虽然电子支付效率更高，但若干现实因素‘阻碍了纸币系统的消亡’。A项 work for（致力于/有利于）、C项 work with（与……合作）、D项 work on（从事于）均无法表达对纸币消失构成的反向阻力。",
-        "context_clue": "Although electronic means ... more efficient, several factors work ... the disappearance"
+        "context_clue": "Although electronic means ... more efficient, several factors work ... the disappearance",
+        "options_cn": {
+          "A": "有利于",
+          "B": "阻碍/反对(against)",
+          "C": "与……一起",
+          "D": "在……之上"
+        }
       },
       {
         "qid": 7,
@@ -7501,7 +7540,13 @@
         "answer": "A",
         "category": "形容词语境因果推断",
         "analysis": "考查形容词语义。后文列举构建计算机、读卡器和通信网络所需的大量资金投入，说明建立全套电子货币硬件体系是‘极其昂贵的’（very expensive）。B项 imaginative（富有想象力的）、C项 sensitive（敏感的）、D项 productive（高产的）均脱离了基础设施建设的高昂成本事实。",
-        "context_clue": "set up the computer, card reader, and telecommunications networks"
+        "context_clue": "set up the computer, card reader, and telecommunications networks",
+        "options_cn": {
+          "A": "昂贵的",
+          "B": "富于想象的",
+          "C": "敏感的",
+          "D": "高产的"
+        }
       },
       {
         "qid": 8,
@@ -7514,7 +7559,13 @@
         "answer": "D",
         "category": "形容词修饰形式与地位",
         "analysis": "考查形容词修饰。要让电子货币成为‘主流/占统治地位的支付形式’（the dominant form of payment），需要全面铺设网络。A项 similar（相似的）、B项 original（最初的）、C项 temporary（暂时的）均不符合描述成为全社会普遍核心支付方式的 dominant。",
-        "context_clue": "networks necessary to make electronic money the ... form of payment"
+        "context_clue": "networks necessary to make electronic money the ... form of payment",
+        "options_cn": {
+          "A": "相似的",
+          "B": "最初的",
+          "C": "暂时的",
+          "D": "主导的/主流的"
+        }
       },
       {
         "qid": 9,
@@ -7527,7 +7578,13 @@
         "answer": "C",
         "category": "动宾搭配与纸质支票属性",
         "analysis": "考查动词与 receipts（收据/凭据）的搭配。纸质支票具备能‘提供收据凭证’（provide receipts）的优势。A项 collect（收集）、B项 copy（复印）、D项 print（打印）均不如 provide 在表达凭据功能的属性上地道精确。",
-        "context_clue": "paper checks have the advantage that they ... receipts"
+        "context_clue": "paper checks have the advantage that they ... receipts",
+        "options_cn": {
+          "A": "收集",
+          "B": "复印",
+          "C": "提供",
+          "D": "打印"
+        }
       },
       {
         "qid": 10,
@@ -7540,7 +7597,13 @@
         "answer": "A",
         "category": "动词短语辨析",
         "analysis": "考查动词短语。由于纸质收据非常重要，许多消费者‘不愿放弃’（unwilling to give up）这一安全保障。B项 take over（接管）、C项 bring back（带回）、D项 pass down（传给后代）均无法表达割舍现有安全凭据的心理状态。",
-        "context_clue": "advantage that they provide receipts, something that many consumers are unwilling to ..."
+        "context_clue": "advantage that they provide receipts, something that many consumers are unwilling to ...",
+        "options_cn": {
+          "A": "放弃/舍弃",
+          "B": "接管",
+          "C": "带回",
+          "D": "传给后代"
+        }
       },
       {
         "qid": 11,
@@ -7553,7 +7616,13 @@
         "answer": "A",
         "category": "时间状语连词与时间差表达",
         "analysis": "考查时间从句连词。句型‘it takes several days before...’意为‘在……之前需要好几天’，指支票开出后到真正被兑现存在时间差（float/在途时间）。B项 after、C项 since、D项 when 均无法形成‘延迟发生前经过一段时间’的典型 before 句型结构。",
-        "context_clue": "gives consumers several days of 'float' – it takes several days ... a check is cashed"
+        "context_clue": "gives consumers several days of 'float' – it takes several days ... a check is cashed",
+        "options_cn": {
+          "A": "在……之前(before)",
+          "B": "在……之后",
+          "C": "自从",
+          "D": "当……时"
+        }
       },
       {
         "qid": 12,
@@ -7566,7 +7635,13 @@
         "answer": "C",
         "category": "动词与银行账户扣款搭配",
         "analysis": "考查银行业务专有名词。funds are withdrawn from the issuer's account 意为‘资金从出票人账户中被扣除/支取’。withdraw from 是资金从银行账户转出或提取的标准表达。A项 kept（保留）、B项 borrowed（借入）、D项 released（释放/公开发行）均非扣减账户存款的标准用词。",
-        "context_clue": "funds are ... from the issuer's account, which means that the writer ... can earn interest"
+        "context_clue": "funds are ... from the issuer's account, which means that the writer ... can earn interest",
+        "options_cn": {
+          "A": "保留",
+          "B": "借入",
+          "C": "提取/扣减(withdrawn)",
+          "D": "释放/发行"
+        }
       },
       {
         "qid": 13,
@@ -7579,7 +7654,13 @@
         "answer": "B",
         "category": "原因状语从句连词",
         "analysis": "考查因果从句连词。前后两分句为直接因果关系：‘因为电子支付是实时的，所以它们彻底消除了消费者的资金在途时间’，选 Because。A项 Unless 表否定条件，C项 Until 表时间终止点，D项 Though 表让步转折，均不合逻辑。",
-        "context_clue": "... electronic payments are immediate, they eliminate the float for the consumer"
+        "context_clue": "... electronic payments are immediate, they eliminate the float for the consumer",
+        "options_cn": {
+          "A": "除非",
+          "B": "因为/由于",
+          "C": "直到",
+          "D": "尽管"
+        }
       },
       {
         "qid": 14,
@@ -7592,7 +7673,13 @@
         "answer": "D",
         "category": "动宾搭配与担忧引发",
         "analysis": "考查动宾搭配。raise concerns 为高频固定搭配，意为‘引起/引发……方面的担忧’。A项 hide（隐瞒）、B项 express（表达，主语多为人而非支付手段）、C项 ease（缓解/减轻，与后文黑客入侵危险矛盾）均不合文意。",
-        "context_clue": "may ... security and privacy concerns ... unauthorized hacker"
+        "context_clue": "may ... security and privacy concerns ... unauthorized hacker",
+        "options_cn": {
+          "A": "隐藏",
+          "B": "表达",
+          "C": "缓解",
+          "D": "引发/激起(raise)"
+        }
       },
       {
         "qid": 15,
@@ -7605,7 +7692,13 @@
         "answer": "C",
         "category": "过去分词后置定语与数据库信息存储",
         "analysis": "考查过去分词修饰 information。黑客侵入数据库篡改‘存储在那里的信息’（information stored there）。A项 analyzed（被分析的）、B项 shared（被共享的）、D项 displayed（被展示的）均不能准确对应数据库对信息的核心功能——存储（store）。",
-        "context_clue": "access a computer database and to alter information ... there"
+        "context_clue": "access a computer database and to alter information ... there",
+        "options_cn": {
+          "A": "分析过的",
+          "B": "共享的",
+          "C": "存储的",
+          "D": "展示的"
+        }
       },
       {
         "qid": 16,
@@ -7618,7 +7711,13 @@
         "answer": "D",
         "category": "双重否定与发生频率",
         "analysis": "考查形容词在双重否定中的用法。not an uncommon occurrence 即‘双重否定表肯定’，意为‘并不是少见的事情，即屡见不鲜/常有发生’。A项 unsafe（不安全的，not unsafe 变成安全了，逻辑错误）；B项 unnatural（非自然的）；C项 unclear（不清楚的）均不符合双重否定修饰发生频率的成语结构。",
-        "context_clue": "The fact that this is not an ... occurrence means that dishonest persons might be able to..."
+        "context_clue": "The fact that this is not an ... occurrence means that dishonest persons might be able to...",
+        "options_cn": {
+          "A": "不安全的",
+          "B": "不自然的",
+          "C": "不明确的",
+          "D": "不寻常的/少见的"
+        }
       },
       {
         "qid": 17,
@@ -7631,7 +7730,13 @@
         "answer": "A",
         "category": "动词与犯罪行为语境辨析",
         "analysis": "考查动词语义。不法分子侵入电子支付系统中的银行账户，目的是从他人账户中‘窃取资金’（steal from someone else's accounts）。B项 choose（选择）、C项 benefit（需作及物或与 from 搭配但主体是犯罪获益而非直接行窃）、D项 return（归还）均非黑客盗窃行为。",
-        "context_clue": "dishonest persons might be able to access bank accounts ... and ... from someone else's"
+        "context_clue": "dishonest persons might be able to access bank accounts ... and ... from someone else's",
+        "options_cn": {
+          "A": "行窃/盗取",
+          "B": "选择",
+          "C": "获利",
+          "D": "归还"
+        }
       },
       {
         "qid": 18,
@@ -7644,7 +7749,13 @@
         "answer": "B",
         "category": "名词语境辨析与安全防护",
         "analysis": "考查名词语义。针对黑客入侵和金融欺诈，‘预防/防范此类欺诈绝非易事’（The prevention of this type of fraud is no easy task）。A项 consideration（考虑）、C项 manipulation（操纵/摆布）、D项 justification（证明正当）均非网络安全防护领域的对应行为。",
-        "context_clue": "The ... of this type of fraud is no easy task ... security issues"
+        "context_clue": "The ... of this type of fraud is no easy task ... security issues",
+        "options_cn": {
+          "A": "考虑",
+          "B": "预防/防范",
+          "C": "操纵",
+          "D": "辩护/证明正当"
+        }
       },
       {
         "qid": 19,
@@ -7657,7 +7768,13 @@
         "answer": "D",
         "category": "动词短语辨析与问题应对",
         "analysis": "考查短语搭配。计算机科学正在开辟全新领域以‘应对/处理安全隐患’（cope with security issues）。A项 call for（要求/呼吁）、B项 fight against（与……对抗，后多接具体敌人/疾病）、C项 adapt to（适应……变化）均不如 cope with 在技术应对问题方案中严谨标准。",
-        "context_clue": "a new field of computer science is developing to ... security issues"
+        "context_clue": "a new field of computer science is developing to ... security issues",
+        "options_cn": {
+          "A": "呼吁/要求",
+          "B": "对抗",
+          "C": "适应",
+          "D": "应对/处理(cope with)"
+        }
       },
       {
         "qid": 20,
@@ -7670,7 +7787,13 @@
         "answer": "C",
         "category": "名词比喻搭配与数字足迹",
         "analysis": "考查名词固定术语。electronic trail（或 digital trail）指用户在数字系统中留下的‘电子轨迹/痕迹’，其包含大量个人信息。A项 chunk（大块）、B项 chip（芯片）、D项 path（小径/物理路径）均不是形容数据轨迹的标准专业术语。",
-        "context_clue": "leaves an electronic ... that contains a large amount of personal data"
+        "context_clue": "leaves an electronic ... that contains a large amount of personal data",
+        "options_cn": {
+          "A": "厚块",
+          "B": "芯片",
+          "C": "足迹/痕迹(trail)",
+          "D": "小径"
+        }
       }
     ]
   },
@@ -7682,74 +7805,90 @@
     "paragraphs": [
       {
         "pid": 0,
-        "text": "The hugely popular blog the Skint Foodie chronicles how Tony balances his love of good food with living on benefits. After bills, Tony has £60 a week to spend, £40 of which goes on food, but 10 years ago he was earning £130,000 a year working in corporate communications and eating at London's best restaurants at least twice a week. Then his marriage failed, his career burned out and his drinking became serious. \"The community mental health team saved my life. And I felt like that again, to a certain degree, when people responded to the blog so well. It gave me the validation and confidence that I'd lost. But it's still a day-by-day thing.\" Now he's living in a council flat and fielding offers from literary agents. He's feeling positive, but he'll carry on blogging – not about eating as cheaply as you can – \"there are so many people in a much worse state, with barely any money to spend on food\" – but eating well on a budget. Here's his advice for economical foodies."
+        "text": "The hugely popular blog the Skint Foodie chronicles how Tony balances his love of good food with living on benefits. After bills, Tony has £60 a week to spend, £40 of which goes on food, but 10 years ago he was earning £130,000 a year working in corporate communications and eating at London's best restaurants at least twice a week. Then his marriage failed, his career burned out and his drinking became serious. \"The community mental health team saved my life. And I felt like that again, to a certain degree, when people responded to the blog so well. It gave me the validation and confidence that I'd lost. But it's still a day-by-day thing.\" Now he's living in a council flat and fielding offers from literary agents. He's feeling positive, but he'll carry on blogging – not about eating as cheaply as you can – \"there are so many people in a much worse state, with barely any money to spend on food\" – but eating well on a budget. Here's his advice for economical foodies.",
+        "translation": "备受追捧的博客“贫穷美食家”记录了托尼在钱包捉襟见肘的情况下，如何平衡对美食的热爱与严苛的预算。以下是他在不失口福的前提下节约伙食开销的五个黄金法则："
       },
       {
         "pid": 1,
-        "text": "(41)______"
+        "text": "(41)______",
+        "translation": "【第41题】(41)______"
       },
       {
         "pid": 2,
-        "text": "Impulsive spending isn't an option, so plan your week's menu in advance, making shopping lists for your ingredients in their exact quantities. I have an Excel template for a week of breakfast, lunch and dinner. Stop laughing: it's not just cost effective but helps you balance your diet. It's also a good idea to shop daily instead of weekly, because, being human, you'll sometimes change your mind about what you fancy."
+        "text": "Impulsive spending isn't an option, so plan your week's menu in advance, making shopping lists for your ingredients in their exact quantities. I have an Excel template for a week of breakfast, lunch and dinner. Stop laughing: it's not just cost effective but helps you balance your diet. It's also a good idea to shop daily instead of weekly, because, being human, you'll sometimes change your mind about what you fancy.",
+        "translation": "冲动消费绝不可取，因此请务必提前规划好一整周的饮食菜单，列出精确的购物清单，并坚定不移地照单执行。预先规划能避免你站在货架前不知所措，从而杜绝买入多余食材。"
       },
       {
         "pid": 3,
-        "text": "(42)______"
+        "text": "(42)______",
+        "translation": "【第42题】(42)______"
       },
       {
         "pid": 4,
-        "text": "This is where supermarkets and their anonymity come in handy. With them, there's not the same embarrassment as when buying one carrot in a little greengrocer. And if you plan properly, you'll know that you only need, say, 350g of shin of beef and six rashers of bacon, not whatever weight is pre-packed in the supermarket chiller."
+        "text": "This is where supermarkets and their anonymity come in handy. With them, there's not the same embarrassment as when buying one carrot in a little greengrocer. And if you plan properly, you'll know that you only need, say, 350g of shin of beef and six rashers of bacon, not whatever weight is pre-packed in the supermarket chiller.",
+        "translation": "这正是大型超市及其匿名性发挥优势的地方。在大型超市里，你不会遭遇街头小贩热情推销所带来的社交压力，尽可以只拿取你清单上所需的东西，其余花哨促销一概不予理会。"
       },
       {
         "pid": 5,
-        "text": "(43)______"
+        "text": "(43)______",
+        "translation": "【第43题】(43)______"
       },
       {
         "pid": 6,
-        "text": "You may proudly claim to only have frozen peas in the freezer – that's not good enough. Mine is filled with leftovers, bread, stock, meat and fish. Planning ahead should eliminate wastage, but if you have surplus vegetables you'll do a vegetable soup, and all fruits threatening to \"go off\" will be cooked or juiced."
+        "text": "You may proudly claim to only have frozen peas in the freezer – that's not good enough. Mine is filled with leftovers, bread, stock, meat and fish. Planning ahead should eliminate wastage, but if you have surplus vegetables you'll do a vegetable soup, and all fruits threatening to \"go off\" will be cooked or juiced.",
+        "translation": "你或许会洋洋自得地宣称冰箱冷冻室里只放了一包冷冻豌豆——这远远不够。冷冻室是节俭生活最强大的武器：剩下的炖肉、高汤、面包片甚至香草都可以分装冷冻，杜绝一切腐烂浪费。"
       },
       {
         "pid": 7,
-        "text": "(44)______"
+        "text": "(44)______",
+        "translation": "【第44题】(44)______"
       },
       {
         "pid": 8,
-        "text": "Everyone says this, but it really is a top tip for frugal eaters. Shop at butchers, delis and fish-sellers regularly, even for small things, and be super friendly. Soon you'll feel comfortable asking if they've any knuckles of ham for soups and stews, or beef bones, chicken carcasses and fish heads for stock which, more often than not, they'll let you have for free."
+        "text": "Everyone says this, but it really is a top tip for frugal eaters. Shop at butchers, delis and fish-sellers regularly, even for small things, and be super friendly. Soon you'll feel comfortable asking if they've any knuckles of ham for soups and stews, or beef bones, chicken carcasses and fish heads for stock which, more often than not, they'll let you have for free.",
+        "translation": "每个人都在这样建议，但这确实是省钱吃货的绝招：多光顾肉铺、熟食店和菜市场。与店主搞好关系，他们不仅会为你切最划算的肉块，还会向你传授鲜为人知但便宜又美味的烹饪偏门秘籍。"
       },
       {
         "pid": 9,
-        "text": "(45)______"
+        "text": "(45)______",
+        "translation": "【第45题】(45)______"
       },
       {
         "pid": 10,
-        "text": "You won't be eating out a lot, but save your pennies and once every few months treat yourself to a set lunch at a good restaurant – £1.75 a week for three months gives you £21 – more than enough for a three-course lunch at Michelin-starred Arbutus. It's £16.95 there – or £12.99 for a large pizza from Domino's: I know which I'd rather eat."
+        "text": "You won't be eating out a lot, but save your pennies and once every few months treat yourself to a set lunch at a good restaurant – £1.75 a week for three months gives you £21 – more than enough for a three-course lunch at Michelin-starred Arbutus. It's £16.95 there – or £12.99 for a large pizza from Domino's: I know which I'd rather eat.",
+        "translation": "你确实不会经常下馆子，但省下平日积攒的零钱，每隔几个月犒劳自己一顿真正精致的美餐。这不仅能重燃你对美食的热爱，更能让你在平淡朴素的日常节制中始终保有期盼与慰藉。"
       }
     ],
     "items": [
       {
         "qid": 41,
-        "title": "第 41 题小标题 (选择最佳段落小标题)",
-        "locate_para": 1
+        "title": "【第 41 题】 (选择对应小标题)",
+        "locate_para": 1,
+        "title_cn": "【第 41 题】对应小标题 (段落 2 原则)"
       },
       {
         "qid": 42,
-        "title": "第 42 题小标题 (选择最佳段落小标题)",
-        "locate_para": 2
+        "title": "【第 42 题】 (选择对应小标题)",
+        "locate_para": 2,
+        "title_cn": "【第 42 题】对应小标题 (段落 4 原则)"
       },
       {
         "qid": 43,
-        "title": "第 43 题小标题 (选择最佳段落小标题)",
-        "locate_para": 3
+        "title": "【第 43 题】 (选择对应小标题)",
+        "locate_para": 3,
+        "title_cn": "【第 43 题】对应小标题 (段落 6 原则)"
       },
       {
         "qid": 44,
-        "title": "第 44 题小标题 (选择最佳段落小标题)",
-        "locate_para": 4
+        "title": "【第 44 题】 (选择对应小标题)",
+        "locate_para": 4,
+        "title_cn": "【第 44 题】对应小标题 (段落 8 原则)"
       },
       {
         "qid": 45,
-        "title": "第 45 题小标题 (选择最佳段落小标题)",
-        "locate_para": 5
+        "title": "【第 45 题】 (选择对应小标题)",
+        "locate_para": 5,
+        "title_cn": "【第 45 题】对应小标题 (段落 10 原则)"
       }
     ],
     "options": {
@@ -7775,6 +7914,15 @@
     "distractor_analysis": {
       "A": "【干扰项剖析】[A] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。",
       "B": "【干扰项剖析】[B] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。"
+    },
+    "options_cn": {
+      "A": "像平民一样生活 (Live like a peasant)",
+      "B": "均衡你的膳食结构 (Balance your diet)",
+      "C": "店主是你的好朋友 (Shopkeepers are your friends)",
+      "D": "别忘了犒赏自己 (Remember to treat yourself)",
+      "E": "坚守所需，不贪多余 (Stick to what you need)",
+      "F": "凡事预则立，规划至上 (Planning is everything)",
+      "G": "物尽其用，丰衣足食 (Waste not, want not)"
     }
   },
   "translation": {

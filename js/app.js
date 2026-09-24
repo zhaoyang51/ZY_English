@@ -364,6 +364,8 @@
     optTrans.textContent = '✍️ 英译汉 (46题 · 15分)';
     if (String(AppState.textId) === 'translation') optTrans.selected = true;
     textSelect.appendChild(optTrans);
+
+    textSelect.value = String(AppState.textId);
   }
 
   async function loadCurrentText() {
@@ -374,6 +376,7 @@
     AppState.textData = null;
     AppState.steps = [];
     AppState.stepIndex = 0;
+    updateTextDropdown();
     updateJumpDropdown();
     updateUIControls();
     const status = document.getElementById('dataLoadStatus');
@@ -660,6 +663,8 @@
     const isMock = AppState.mode === 'practice' && AppState.practiceSubmode === 'mock';
     const isVocab = AppState.mode === 'vocab';
     const isSpecial = typeof AppState.textId === 'string' && ['use_of_english', 'part_b', 'translation'].includes(AppState.textId);
+    const submodeContainer = document.getElementById('submodeContainer');
+    const unavailable = !AppState.textData;
     const practiceBtn = document.getElementById('practiceModeBtn');
     const reviewBtn = document.getElementById('reviewModeBtn');
     const vocabBtn = document.getElementById('vocabModeBtn');
@@ -684,6 +689,10 @@
       if (progressText) progressText.textContent = secLabel;
       if (floatProgressText) floatProgressText.textContent = secLabel;
       return;
+    }
+
+    if (submodeContainer) {
+      submodeContainer.style.display = (AppState.mode === 'practice') ? 'inline-flex' : 'none';
     }
 
     for (const id of ['resetBtn', 'toggleAllBtn', 'jumpSelect', 'btnExpCurrentAnki', 'btnExpNotesMd']) {
