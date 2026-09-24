@@ -168,8 +168,18 @@
       });
 
       // 2. Real-time Dashboard
+      let reviewBannerHtml = '';
+      if (isReview) {
+        reviewBannerHtml = `
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;padding:8px 12px;background:rgba(124, 58, 237, 0.08);border:1px solid rgba(124, 58, 237, 0.22);border-radius:6px;font-size:0.88em;color:#7c3aed;font-weight:600">
+            <span>📖 复盘精读模式：20 题全量答案、语境线索与长难句考点解析已全部展示</span>
+          </div>
+        `;
+      }
+
       const dashboardHtml = `
         <div class="cloze-dashboard">
+          ${reviewBannerHtml}
           <div class="cloze-dashboard-stats">
             <div class="cloze-stat-item">
               <span class="cloze-stat-label">已作答</span>
@@ -244,12 +254,12 @@
         let retryBtn = '';
         if (isGraded) {
           if (isReview) {
-            statusBadge = `<span class="cloze-status-badge correct">正解 [${q.answer}]</span>`;
+            statusBadge = `<span class="cloze-status-badge review-key">🎯 正解: [${q.answer}]</span>`;
           } else if (isCorrect) {
             statusBadge = '<span class="cloze-status-badge correct">✔ 回答正确 (+0.5分)</span>';
             retryBtn = `<button class="cloze-retry-btn" data-qid="${qid}" title="清除作答，重新选择">↺ 重做</button>`;
           } else {
-            statusBadge = `<span class="cloze-status-badge wrong">✖ 回答错误 (正解: [${q.answer}])</span>`;
+            statusBadge = `<span class="cloze-status-badge wrong">✖ 错选 [${currentChoice}] · 正解: [${q.answer}]</span>`;
             retryBtn = `<button class="cloze-retry-btn" data-qid="${qid}" title="清除作答，重新选择">↺ 重做</button>`;
           }
         } else {

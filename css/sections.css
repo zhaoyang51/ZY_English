@@ -133,15 +133,17 @@
 }
 
 .cloze-opt-btn.correct {
-  background: var(--success, #16a34a) !important;
-  color: #ffffff !important;
-  border-color: var(--success, #16a34a) !important;
+  background: #dcfce7 !important;
+  color: #15803d !important;
+  border-color: #86efac !important;
+  font-weight: 600;
 }
 
 .cloze-opt-btn.wrong {
-  background: var(--danger, #dc2626) !important;
-  color: #ffffff !important;
-  border-color: var(--danger, #dc2626) !important;
+  background: #fee2e2 !important;
+  color: #b91c1c !important;
+  border-color: #fca5a5 !important;
+  font-weight: 600;
 }
 
 .cloze-opt-btn.dimmed {
@@ -162,11 +164,19 @@
   flex-shrink: 0;
 }
 
-.cloze-opt-btn.selected .cloze-opt-letter,
-.cloze-opt-btn.correct .cloze-opt-letter,
-.cloze-opt-btn.wrong .cloze-opt-letter {
+.cloze-opt-btn.selected .cloze-opt-letter {
   background: rgba(255, 255, 255, 0.25);
   color: #ffffff;
+}
+
+.cloze-opt-btn.correct .cloze-opt-letter {
+  background: #bbf7d0;
+  color: #15803d;
+}
+
+.cloze-opt-btn.wrong .cloze-opt-letter {
+  background: #fecaca;
+  color: #b91c1c;
 }
 
 .cloze-opt-flag {
@@ -177,12 +187,12 @@
   margin-left: auto;
 }
 .cloze-opt-flag.correct {
-  background: rgba(255, 255, 255, 0.25);
-  color: #ffffff;
+  background: #bbf7d0;
+  color: #15803d;
 }
 .cloze-opt-flag.wrong {
-  background: rgba(255, 255, 255, 0.25);
-  color: #ffffff;
+  background: #fecaca;
+  color: #b91c1c;
 }
 
 /* Cloze Instant Feedback Badges & Controls */
@@ -190,20 +200,25 @@
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  padding: 2px 8px;
-  border-radius: 4px;
+  padding: 3px 10px;
+  border-radius: 6px;
   font-size: 0.82em;
   font-weight: 700;
 }
 .cloze-status-badge.correct {
-  background: var(--success-bg, #dcfce7);
-  color: var(--success, #16a34a);
-  border: 1px solid var(--success, #16a34a);
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #86efac;
 }
 .cloze-status-badge.wrong {
-  background: var(--danger-bg, #fee2e2);
-  color: var(--danger, #dc2626);
-  border: 1px solid var(--danger, #dc2626);
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+}
+.cloze-status-badge.review-key {
+  background: rgba(124, 58, 237, 0.1);
+  color: #7c3aed;
+  border: 1px solid rgba(124, 58, 237, 0.28);
 }
 .cloze-status-badge.unpicked {
   background: var(--card-bg, #f1f5f9);
@@ -352,14 +367,14 @@
   box-shadow: 0 0 0 2px var(--accent, #2563eb);
 }
 .cloze-nav-chip.correct {
-  background: var(--success, #16a34a);
-  color: #fff;
-  border-color: var(--success, #16a34a);
+  background: #dcfce7;
+  color: #15803d;
+  border-color: #86efac;
 }
 .cloze-nav-chip.wrong {
-  background: var(--danger, #dc2626);
-  color: #fff;
-  border-color: var(--danger, #dc2626);
+  background: #fee2e2;
+  color: #b91c1c;
+  border-color: #fca5a5;
 }
 
 
@@ -434,11 +449,21 @@
 }
 
 .matching-badge-assigned.correct {
-  background: var(--success, #16a34a);
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #86efac;
 }
 
 .matching-badge-assigned.wrong {
-  background: var(--danger, #dc2626);
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+}
+
+.matching-badge-assigned.review-key {
+  background: rgba(124, 58, 237, 0.1);
+  color: #7c3aed;
+  border: 1px solid rgba(124, 58, 237, 0.28);
 }
 
 .matching-options-list {

@@ -113,8 +113,8 @@ test('ClozeRenderer immediately grades upon option selection (both correct and w
   assert.ok(gradedHtml.includes('回答正确 (+0.5分)'));
   assert.ok(leftHtml.includes('cloze-blank filled correct'));
 
-  // Question 2: wrong
-  assert.ok(gradedHtml.includes('回答错误 (正解: [B])'));
+  // Question 2: wrong (with gentle soft styling and clear distinction)
+  assert.ok(gradedHtml.includes('错选 [A] · 正解: [B]'));
   assert.ok(gradedHtml.includes('cloze-opt-flag wrong'));
   assert.ok(leftHtml.includes('cloze-blank filled wrong'));
 
@@ -125,5 +125,12 @@ test('ClozeRenderer immediately grades upon option selection (both correct and w
   assert.ok(gradedHtml.includes('答对</span>\n              <span class="cloze-stat-val">1 题'));
   assert.ok(gradedHtml.includes('答错</span>\n              <span class="cloze-stat-val">1 题'));
   assert.ok(gradedHtml.includes('0.5 <small'));
+
+  // 3. In Review Mode (mode === 'review'), verify clean review badge without '错误'
+  context.window.ClozeRenderer.render(data.use_of_english, 2012, 'review');
+  const reviewHtml = document.getElementById('workspaceContent').innerHTML;
+  assert.ok(reviewHtml.includes('review-key'));
+  assert.ok(reviewHtml.includes('正解: [B]'));
+  assert.ok(!reviewHtml.includes('✖ 错误 正解'));
 });
 

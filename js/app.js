@@ -433,20 +433,6 @@
       return;
     }
 
-    // Special section rendering delegation
-    if (isSpecialSection) {
-      if (textId === 'use_of_english' && window.ClozeRenderer) {
-        window.ClozeRenderer.render(AppState.textData, year, AppState.mode);
-      } else if (textId === 'part_b' && window.MatchingRenderer) {
-        window.MatchingRenderer.render(AppState.textData, year, AppState.mode);
-      } else if (textId === 'translation' && window.TranslationRenderer) {
-        window.TranslationRenderer.render(AppState.textData, year, AppState.mode);
-      }
-      updateUIControls();
-      saveState();
-      return;
-    }
-
     document.body.classList.toggle('mode-review', AppState.mode === 'review');
     document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
     document.body.classList.toggle('mode-vocab', AppState.mode === 'vocab');
@@ -462,13 +448,27 @@
     // Update Submode toggle visibility
     const submodeContainer = document.getElementById('submodeContainer');
     if (submodeContainer) {
-      submodeContainer.style.display = AppState.mode === 'practice' ? 'inline-flex' : 'none';
+      submodeContainer.style.display = (AppState.mode === 'practice' && !isSpecialSection) ? 'inline-flex' : 'none';
       const mockBtn = document.getElementById('submodeMockBtn');
       const stepBtn = document.getElementById('submodeStepBtn');
       if (mockBtn && stepBtn) {
         mockBtn.classList.toggle('active', AppState.practiceSubmode === 'mock');
         stepBtn.classList.toggle('active', AppState.practiceSubmode === 'step');
       }
+    }
+
+    // Special section rendering delegation
+    if (isSpecialSection) {
+      if (textId === 'use_of_english' && window.ClozeRenderer) {
+        window.ClozeRenderer.render(AppState.textData, year, AppState.mode);
+      } else if (textId === 'part_b' && window.MatchingRenderer) {
+        window.MatchingRenderer.render(AppState.textData, year, AppState.mode);
+      } else if (textId === 'translation' && window.TranslationRenderer) {
+        window.TranslationRenderer.render(AppState.textData, year, AppState.mode);
+      }
+      updateUIControls();
+      saveState();
+      return;
     }
 
     if (AppState.mode === 'vocab') {
@@ -660,7 +660,12 @@
     const isMock = AppState.mode === 'practice' && AppState.practiceSubmode === 'mock';
     const isVocab = AppState.mode === 'vocab';
     const isSpecial = typeof AppState.textId === 'string' && ['use_of_english', 'part_b', 'translation'].includes(AppState.textId);
-    const unavailable = !AppState.textData;
+    const practiceBtn = document.getElementById('practiceModeBtn');
+    const reviewBtn = document.getElementById('reviewModeBtn');
+    const vocabBtn = document.getElementById('vocabModeBtn');
+    if (practiceBtn) practiceBtn.classList.toggle('active', AppState.mode === 'practice');
+    if (reviewBtn) reviewBtn.classList.toggle('active', AppState.mode === 'review');
+    if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
 
     if (isSpecial) {
       if (prevBtn) prevBtn.disabled = true;

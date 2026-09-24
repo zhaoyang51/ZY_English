@@ -84,9 +84,13 @@
 
         let badgeHtml = '';
         if (isSubmitted) {
-          badgeHtml = `<span class="matching-badge-assigned ${isCorrect ? 'correct' : 'wrong'}">
-            ${isCorrect ? '✔ 正确' : '✖ 错误'} (你的选择: ${currentChoice || '未选'} / 正确: ${answers[qid]})
-          </span>`;
+          if (mode === 'review') {
+            badgeHtml = `<span class="matching-badge-assigned review-key">🎯 正解: [ ${answers[qid]} ]</span>`;
+          } else if (isCorrect) {
+            badgeHtml = `<span class="matching-badge-assigned correct">✔ 匹配正确</span>`;
+          } else {
+            badgeHtml = `<span class="matching-badge-assigned wrong">✖ 错选 [ ${currentChoice || '未选'} ] · 正解: [ ${answers[qid]} ]</span>`;
+          }
         } else if (currentChoice) {
           badgeHtml = `<span class="matching-badge-assigned">已配对 [ ${currentChoice} ]</span>`;
         } else {
