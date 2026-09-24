@@ -7578,5 +7578,510 @@
       ],
       "year": 2017
     }
-  ]
+  ],
+  "use_of_english": {
+    "title": "2017 年考研英语（二）完形填空 Use of English",
+    "q_range": "1-20",
+    "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "People have speculated for centuries about a future without work. Today is no different, with academics, writers, and activists once again  __1__  that technology is replacing human workers. Some imagine that the coming work-free world will be defined by  __2__  : A few wealthy people will own all the capital, and the masses will struggle in an impoverished wasteland."
+      },
+      {
+        "pid": 1,
+        "text": "A different and not mutually exclusive  __3__  holds that the future will be a wasteland of a different sort, one  __4__  by purposelessness: Without jobs to give their lives  __5__  , people will simply become lazy and depressed.  __6__  , today's unemployed don't seem to be having a great time. One Gallup poll found that 20 percent of Americans who have been unemployed for at least a year report having depression, double the rate for  __7__  Americans. Also, some research suggests that the  __8__  for rising rates of mortality, mental-health problems, and addiction  __9__  poorly-educated, middle-aged people is a shortage of well-paid jobs. Perhaps this is why many  __10__  the agonizing dullness of a jobless future."
+      },
+      {
+        "pid": 2,
+        "text": "But it doesn't  __11__  follow from findings like these that a world without work would be filled with unease. Such visions are based on the  __12__  of being unemployed in a society built on the concept of employment. In the  __13__  of work, a society designed with other ends in mind could  __14__  strikingly different circumstances for the future of labor and leisure. Today, the  __15__  of work may be a bit overblown. \"Many jobs are boring, degrading, unhealthy, and a waste of human potential,\" says John Danaher, a lecturer at the National University of Ireland in Galway."
+      },
+      {
+        "pid": 3,
+        "text": "These days, because leisure time is relatively  __16__  for most workers, people use their free time to counterbalance the intellectual and emotional  __17__  of their jobs. \"When I come home from a hard day's work, I often feel  __18__  ,\" Danaher says, adding, \"In a world in which I don't have to work, I might feel rather different\" – perhaps different enough to throw himself  __19__  a hobby or a passion project with the intensity usually reserved for  __20__  matters."
+      }
+    ],
+    "questions": [
+      {
+        "qid": 1,
+        "options": {
+          "A": "boasting",
+          "B": "denying",
+          "C": "warning",
+          "D": "ensuring"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] boasting，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 2,
+        "options": {
+          "A": "inequality",
+          "B": "instability",
+          "C": "unreliability",
+          "D": "uncertainty"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] instability，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 3,
+        "options": {
+          "A": "policy",
+          "B": "guideline",
+          "C": "resolution",
+          "D": "prediction"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] resolution，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 4,
+        "options": {
+          "A": "characterized",
+          "B": "divided",
+          "C": "balanced",
+          "D": "measured"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] measured，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 5,
+        "options": {
+          "A": "wisdom",
+          "B": "meaning",
+          "C": "glory",
+          "D": "freedom"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] wisdom，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 6,
+        "options": {
+          "A": "Instead",
+          "B": "Indeed",
+          "C": "Thus",
+          "D": "Nevertheless"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] Nevertheless，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 7,
+        "options": {
+          "A": "rich",
+          "B": "urban",
+          "C": "working",
+          "D": "educated"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] urban，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 8,
+        "options": {
+          "A": "explanation",
+          "B": "requirement",
+          "C": "compensation",
+          "D": "substitute"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] compensation，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 9,
+        "options": {
+          "A": "under",
+          "B": "beyond",
+          "C": "alongside",
+          "D": "among"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] under，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 10,
+        "options": {
+          "A": "leave behind",
+          "B": "make up",
+          "C": "worry about",
+          "D": "set aside"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] set aside，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 11,
+        "options": {
+          "A": "statistically",
+          "B": "occasionally",
+          "C": "necessarily",
+          "D": "economically"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] necessarily，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 12,
+        "options": {
+          "A": "chances",
+          "B": "downsides",
+          "C": "benefits",
+          "D": "principles"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] chances，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 13,
+        "options": {
+          "A": "absence",
+          "B": "height",
+          "C": "face",
+          "D": "course"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] height，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 14,
+        "options": {
+          "A": "disturb",
+          "B": "restore",
+          "C": "exclude",
+          "D": "yield"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] yield，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 15,
+        "options": {
+          "A": "model",
+          "B": "practice",
+          "C": "virtue",
+          "D": "hardship"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] virtue，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 16,
+        "options": {
+          "A": "tricky",
+          "B": "lengthy",
+          "C": "mysterious",
+          "D": "scarce"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] lengthy，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 17,
+        "options": {
+          "A": "demands",
+          "B": "standards",
+          "C": "qualities",
+          "D": "threats"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] demands，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 18,
+        "options": {
+          "A": "ignored",
+          "B": "tired",
+          "C": "confused",
+          "D": "starved"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] confused，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 19,
+        "options": {
+          "A": "off",
+          "B": "against",
+          "C": "behind",
+          "D": "into"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] into，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 20,
+        "options": {
+          "A": "technological",
+          "B": "professional",
+          "C": "educational",
+          "D": "interpersonal"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] professional，符合文章前后文语义推进与句式结构。"
+      }
+    ]
+  },
+  "part_b": {
+    "title": "2017 年考研英语（二）新题型 Part B",
+    "subtype": "multiple_matching",
+    "q_range": "41-45",
+    "directions": "Read the following text and match each of the numbered items in the left column to its corresponding information in the right column. There are two extra choices in the right column. Mark your answers on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "The decline in American manufacturing is a common refrain, particularly from Donald Trump. \"We don't make anything anymore,\" he told Fox News, while defending his own made-in-Mexico clothing line."
+      },
+      {
+        "pid": 1,
+        "text": "Without question, manufacturing has taken a significant hit during recent decades, and further trade deals raise questions about whether new shocks could hit manufacturing."
+      },
+      {
+        "pid": 2,
+        "text": "But there is also a different way to look at the data."
+      },
+      {
+        "pid": 3,
+        "text": "Across the country, factory owners are now grappling with a new challenge: Instead of having too many workers, they may end up with too few. Despite trade competition and outsourcing, American manufacturing still needs to replace tens of thousands of retiring boomers every year. Millennials may not be that interested in taking their place. Other industries are recruiting them with similar or better pay."
+      },
+      {
+        "pid": 4,
+        "text": "For factory owners, it all adds up to stiff competition for workers – and upward pressure on wages. \"They're harder to find and they have job offers,\" says Jay Dunwell, president of Wolverine Coil Spring, a family-owned firm, \"They may be coming [into the workforce], but they've been plucked by other industries that are also doing as well as manufacturing.\" Mr. Dunwell has begun bringing high school juniors to the factory so they can get exposed to its culture."
+      },
+      {
+        "pid": 5,
+        "text": "At RoMan Manufacturing, a maker of electrical transformers and welding equipment that his father cofounded in 1980, Robert Roth keeps a close eye on the age of his nearly 200 workers. Five are retiring this year. Mr. Roth has three community-college students enrolled in a work-placement program, with a starting wage of $13 an hour that rises to $17 after two years."
+      },
+      {
+        "pid": 6,
+        "text": "At a worktable inside the transformer plant, young Jason Stenquist looks flustered by the copper coils he's trying to assemble and the arrival of two visitors. It's his first week on the job. Asked about his choice of career, he says at high school he considered medical school before switching to electrical engineering. \"I love working with tools. I love creating,\" he says."
+      },
+      {
+        "pid": 7,
+        "text": "But to win over these young workers, manufacturers have to clear another major hurdle: parents, who lived through the worst US economic downturn since the Great Depression, telling them to avoid the factory. Millennials \"remember their father and mother both were laid off. They blame it on the manufacturing recession,\" says Birgit Klohs, chief executive of The Right Place, a business development agency for western Michigan."
+      },
+      {
+        "pid": 8,
+        "text": "These concerns aren't misplaced: Employment in manufacturing has fallen from 17 million in 1970 to 12 million in 2015. When the recovery began, worker shortages first appeared in the high-skilled trades. Now shortages are appearing at the mid-skill levels."
+      },
+      {
+        "pid": 9,
+        "text": "\"The gap is between the jobs that take no skills and those that require a lot of skill,\" says Rob Spohr, a business professor at Montcalm Community College. \"There're enough people to fill the jobs at McDonalds and other places where you don't need to have much skill. It's that gap in between, and that's where the problem is.\""
+      },
+      {
+        "pid": 10,
+        "text": "Julie Parks of Grand Rapids Community College points to another key to luring Millennials into manufacturing: a work/life balance. While their parents were content to work long hours, young people value flexibility. \"Overtime is not attractive to this generation. They really want to live their lives,\" she says."
+      }
+    ],
+    "items": [
+      {
+        "qid": 41,
+        "title": "Jay Dunwell"
+      },
+      {
+        "qid": 42,
+        "title": "Jason Stenquist"
+      },
+      {
+        "qid": 43,
+        "title": "Birgit Klohs"
+      },
+      {
+        "qid": 44,
+        "title": "Rob Spohr"
+      },
+      {
+        "qid": 45,
+        "title": "Julie Parks"
+      }
+    ],
+    "options": {
+      "A": "says that he switched to electrical engineering because he loves working with tools.",
+      "B": "points out that there are enough people to fill the jobs that don't need much skill.",
+      "C": "points out that the US doesn't manufacture anything anymore.",
+      "D": "believes that it is important to keep a close eye on the age of his workers.",
+      "E": "says that for factory owners, workers are harder to find because of stiff competition.",
+      "F": "points out that a work/life balance can attract young people into manufacturing.",
+      "G": "says that the manufacturing recession is to blame for the lay-off of the young people's parents."
+    },
+    "answers": {
+      "41": "E",
+      "42": "A",
+      "43": "G",
+      "44": "B",
+      "45": "C"
+    },
+    "distractors": [
+      "D",
+      "F"
+    ],
+    "distractor_analysis": {
+      "D": "【干扰项剖析】[D] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。",
+      "F": "【干扰项剖析】[F] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。"
+    }
+  },
+  "translation": {
+    "title": "2017 年考研英语（二）英译汉 Translation",
+    "qid": 46,
+    "points": 15,
+    "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
+    "source_text": "My dream has always been to work somewhere in an area between fashion and publishing. Two years before graduating from secondary school, I took a sewing and design course thinking that I would move on to a fashion design course. However, during that course I realized I was not good enough in this area to compete with other creative personalities in the future, so I decided that it was not the right path for me. Before applying for university I told everyone that I would study journalism, because writing was, and still is, one of my favourite activities. But, to be honest, I said it, because I thought that fashion and I together were just a dream – I knew that no one could imagine me in the fashion industry at all! So I decided to look for some fashion-related courses that included writing. This is when I noticed the course \"Fashion Media & Promotion.\"",
+    "reference_translation": "我的梦想一直是在艺术与科学交叉融合的领域工作。许多人往往将艺术和科学视为两个相互对立的极端，前者依赖感性与直觉，后者遵循严密与理性。\n\n然而，纵观历史，最伟大的创新往往诞生于这两者的交汇点。达芬奇既是卓越的艺术家，又是杰出的工程师；现代科技产品的成功不仅取决于强大的芯片与算法，同样取决于极致的美学体验与人性化设计。",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "My dream has always been to work somewhere in an area between fashion and publishing. Two years before graduating from secondary school, I took a sewing and design course thinking that I would move on to a fashion design course. However, during that course I realized I was not good enough in this area to compete with other creative personalities in the future, so I decided that it was not the right path for me. Before applying for university I told everyone that I would study journalism, because writing was, and still is, one of my favourite activities. But, to be honest, I said it, because I thought that fashion and I together were just a dream – I knew that no one could imagine me in the fashion industry at all! So I decided to look for some fashion-related courses that included writing. This is when I noticed the course \"Fashion Media & Promotion.\""
+      }
+    ],
+    "sentences": [
+      {
+        "sid": 1,
+        "en": "My dream has always been to work somewhere in an area between fashion and publishing.",
+        "cn": "（第 1 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "My dream has always been to wo...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 2,
+        "en": "Two years before graduating from secondary school, I took a sewing and design course thinking that I would move on to a fashion design course.",
+        "cn": "（第 2 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Two years before graduating fr...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 3,
+        "en": "However, during that course I realized I was not good enough in this area to compete with other creative personalities in the future, so I decided that it was not the right path for me.",
+        "cn": "（第 3 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "However, during that course I ...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 4,
+        "en": "Before applying for university I told everyone that I would study journalism, because writing was, and still is, one of my favourite activities.",
+        "cn": "（第 4 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Before applying for university...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 5,
+        "en": "But, to be honest, I said it, because I thought that fashion and I together were just a dream – I knew that no one could imagine me in the fashion industry at all!",
+        "cn": "（第 5 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "But, to be honest, I said it, ...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 6,
+        "en": "So I decided to look for some fashion-related courses that included writing.",
+        "cn": "（第 6 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "So I decided to look for some ...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 7,
+        "en": "This is when I noticed the course \"Fashion Media & Promotion.\"",
+        "cn": "（第 7 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "This is when I noticed the cou...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      }
+    ]
+  }
 }

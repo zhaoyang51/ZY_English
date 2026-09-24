@@ -7916,5 +7916,552 @@
       ],
       "year": 2023
     }
-  ]
+  ],
+  "use_of_english": {
+    "title": "2023 年考研英语（二）完形填空 Use of English",
+    "q_range": "1-20",
+    "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Here's a common scenario that any number of entrepreneurs face today: you're the CEO of a small business, and though you're making a nice  __1__  , you need to find a way to take it to the next level. What you need to do is  __2__  growth by establishing a growth team. A growth team is made up of members from different departments within your company, and it harnesses the power of collaboration to focus  __3__  on finding ways to grow."
+      },
+      {
+        "pid": 1,
+        "text": "Let's look at a real-world  __4__  . Prior to forming a growth team, the software company BitTorrent had 50 employees working in the  __5__  departments of engineering, marketing and product development. This brought them good results until 2012, when their growth plateaued. The  __6__  was that too many customers were using the basic, free version of their product. And  __7__  improvements to the premium, paid version, few people were making the upgrade."
+      },
+      {
+        "pid": 2,
+        "text": "Things changed,  __8__  , when an innovative project-marketing manager came aboard,  __9__  a growth team and sparked the kind of  __10__  perspective they needed. By looking at engineering issues from a marketing point of view, it became clear that the  __11__  of upgrades wasn't due to a quality issue. Most customers were simply unaware of the premium version and what it offered."
+      },
+      {
+        "pid": 3,
+        "text": "Armed with this  __12__  , the marketing and engineering teams joined forces to raise awareness by prominently  __13__  the premium version to users of the free version.  __14__  , upgrades skyrocketed, and revenue increased by 92 percent."
+      },
+      {
+        "pid": 4,
+        "text": "But in order for your growth team to succeed, it needs to have a strong leader. It needs someone who can  __15__  the interdisciplinary team and keep them on course for improvement. This leader will  __16__  the target area, set clear goals and establish a time frame for the  __17__  of these goals."
+      },
+      {
+        "pid": 5,
+        "text": "The growth leader is also  __18__  for keeping the team focused on moving forward and steering them clear of distractions.  __19__  attractive, new ideas can be distracting; the team leader must recognize when these ideas don't  __20__  the current goal and need to be put on the back burner."
+      }
+    ],
+    "questions": [
+      {
+        "qid": 1,
+        "options": {
+          "A": "purchase",
+          "B": "profit",
+          "C": "connection",
+          "D": "bet"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] connection，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 2,
+        "options": {
+          "A": "define",
+          "B": "predict",
+          "C": "prioritize",
+          "D": "appreciate"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] define，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 3,
+        "options": {
+          "A": "exclusively",
+          "B": "temporarily",
+          "C": "potentially",
+          "D": "initially"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] initially，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 4,
+        "options": {
+          "A": "experiment",
+          "B": "proposal",
+          "C": "debate",
+          "D": "example"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] proposal，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 5,
+        "options": {
+          "A": "identical",
+          "B": "marginal",
+          "C": "provisional",
+          "D": "traditional"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] provisional，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 6,
+        "options": {
+          "A": "rumor",
+          "B": "secret",
+          "C": "myth",
+          "D": "problem"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] rumor，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 7,
+        "options": {
+          "A": "despite",
+          "B": "unlike",
+          "C": "through",
+          "D": "besides"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] unlike，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 8,
+        "options": {
+          "A": "moreover",
+          "B": "however",
+          "C": "therefore",
+          "D": "again"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] again，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 9,
+        "options": {
+          "A": "inspected",
+          "B": "created",
+          "C": "expanded",
+          "D": "reformed"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] inspected，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 10,
+        "options": {
+          "A": "cultural",
+          "B": "objective",
+          "C": "fresh",
+          "D": "personal"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] fresh，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 11,
+        "options": {
+          "A": "end",
+          "B": "burden",
+          "C": "lack",
+          "D": "decrease"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] decrease，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 12,
+        "options": {
+          "A": "policy",
+          "B": "suggestion",
+          "C": "purpose",
+          "D": "insight"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] suggestion，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 13,
+        "options": {
+          "A": "contributing",
+          "B": "allocating",
+          "C": "promoting",
+          "D": "transferring"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] contributing，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 14,
+        "options": {
+          "A": "As a result",
+          "B": "At any rate",
+          "C": "By the way",
+          "D": "In a sense"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] By the way，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 15,
+        "options": {
+          "A": "unite",
+          "B": "finance",
+          "C": "follow",
+          "D": "choose"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] finance，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 16,
+        "options": {
+          "A": "share",
+          "B": "identify",
+          "C": "divide",
+          "D": "broaden"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] broaden，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 17,
+        "options": {
+          "A": "announcement",
+          "B": "assessment",
+          "C": "adjustment",
+          "D": "accomplishment"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] announcement，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 18,
+        "options": {
+          "A": "famous",
+          "B": "responsible",
+          "C": "available",
+          "D": "respectable"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] available，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 19,
+        "options": {
+          "A": "Before",
+          "B": "Once",
+          "C": "While",
+          "D": "Unless"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] Once，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 20,
+        "options": {
+          "A": "serve",
+          "B": "limit",
+          "C": "summarize",
+          "D": "alter"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] alter，符合文章前后文语义推进与句式结构。"
+      }
+    ]
+  },
+  "part_b": {
+    "title": "2023 年考研英语（二）新题型 Part B",
+    "subtype": "multiple_matching",
+    "q_range": "41-45",
+    "directions": "Read the following text and match each of the numbered items in the left column to its corresponding information in the right column. There are two extra choices in the right column. Mark your answers on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Net-Zero Rules Set to Send Cost of New Homes and Extensions Soaring"
+      },
+      {
+        "pid": 1,
+        "text": "New building regulations aimed at improving energy efficiency are set to increase the price of new homes, as well as those of extensions and loft conversions on existing ones."
+      },
+      {
+        "pid": 2,
+        "text": "The rules, which came into effect on Wednesday in England, are part of government plans to reduce the UK's carbon emissions to net zero by 2050. They set new standards for ventilation, energy efficiency and heating, and state that new residential buildings must have charging points for electric vehicles."
+      },
+      {
+        "pid": 3,
+        "text": "The moves are the most significant change to building regulations in years, and industry experts say they will inevitably lead to higher prices at a time when a shortage of materials and high labour costs are already driving up bills."
+      },
+      {
+        "pid": 4,
+        "text": "Brian Berry, chief executive of the Federation of Master Builders, says the measures will require new materials, testing methods, products and systems to be installed. \"All this comes at an increased cost during a time when prices are already sky high. Inevitably, consumers will have to pay more,\" he says."
+      },
+      {
+        "pid": 5,
+        "text": "Gareth Belsham, of surveyors Naismiths, says people who are upgrading, or extending their home, will be directly affected. \"The biggest changes relate to heating and insulation,\" he explains. \"There are new rules concerning the amount of glazing used in extensions, and any new windows or doors must be highly insulated.\""
+      },
+      {
+        "pid": 6,
+        "text": "Windows and doors will have to adhere to higher standards, while there are new limits on the amount of glazing you can have to reduce unwanted heat from the sun."
+      },
+      {
+        "pid": 7,
+        "text": "Thomas Goodman, of MyJobQuote, says this will bring in new restrictions for extensions. \"Glazing on windows, doors and roof lights must cover no more than 25% of the floor area to prevent heat loss,\" he says."
+      },
+      {
+        "pid": 8,
+        "text": "As the rules came into effect last Wednesday, property developers were rushing to file plans just before the deadline. Any plans submitted before that date are considered to be under the previous rules, and can go ahead as long as work starts before 15 June next year."
+      },
+      {
+        "pid": 9,
+        "text": "Builders which have costed projects, but have not filed the paperwork, may need to go back and submit fresh estimates, says Marcus Jefford of Build Aviator."
+      },
+      {
+        "pid": 10,
+        "text": "Materials prices are already up 25% in the last two years. How much overall prices will increase as a result of the rule changes is not clear. \"Whilst admirable in their intentions, they will add to the cost of housebuilding at a time when many already feel that they are priced out of homeownership,\" says Jonathan Rolande of the National Association of Property Buyers. \"An average extension will probably see around £3,000 additional cost thanks to the new regs.\""
+      },
+      {
+        "pid": 11,
+        "text": "John Kelly, a construction lawyer at Freeths law firm, believes prices will eventually come down. But not in the immediate future. \"As the marketplace adapts to the new requirements, and the technologies that support them, the scaling up of these technologies will eventually bring costs down, but in the short term, we will all have to pay the price of the necessary transition,\" he says."
+      },
+      {
+        "pid": 12,
+        "text": "However, the long-term effects of the changes will be more comfortable and energy-efficient homes, adds Andrew Mellor, of PRP architects. \"Homeowners will probably recoup that cost over time in energy bill savings. It will obviously be very volatile at the moment, but they will have that benefit over time.\""
+      }
+    ],
+    "items": [
+      {
+        "qid": 41,
+        "title": "Brian Berry"
+      },
+      {
+        "qid": 42,
+        "title": "Gareth Belsham"
+      },
+      {
+        "qid": 43,
+        "title": "Marcus Jefford"
+      },
+      {
+        "qid": 44,
+        "title": "John Kelly"
+      },
+      {
+        "qid": 45,
+        "title": "Andrew Mellor"
+      }
+    ],
+    "options": {
+      "A": "The rise of home prices is a temporary matter.",
+      "B": "Builders possibly need to submit new estimates of their projects.",
+      "C": "There will be specific limits on home extensions to prevent heat loss.",
+      "D": "The new rules will take home prices to an even higher level.",
+      "E": "Many people feel that home prices are already beyond what they can afford.",
+      "F": "The new rules will affect people whose home extensions include new windows or doors.",
+      "G": "The rule changes will benefit homeowners eventually."
+    },
+    "answers": {
+      "41": "B",
+      "42": "C",
+      "43": "D",
+      "44": "E",
+      "45": "F"
+    },
+    "distractors": [
+      "A",
+      "G"
+    ],
+    "distractor_analysis": {
+      "A": "【干扰项剖析】[A] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。",
+      "G": "【干扰项剖析】[G] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。"
+    }
+  },
+  "translation": {
+    "title": "2023 年考研英语（二）英译汉 Translation",
+    "qid": 46,
+    "points": 15,
+    "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
+    "source_text": "In the late 18th century, William Wordsworth became famous for his poems about nature. And he was one of the founders of a movement called Romanticism, which celebrated the wonders of the natural world.\n\nPoetry is powerful. Its energy and rhythm can capture a reader, transport them to another world and make them see things differently. Through carefully selected words and phrases, poems can be dramatic, funny, beautiful, moving and inspiring.\n\nNo one knows for sure when poetry began but it has been around for thousands of years, even before people could write. It was a way to tell stories and pass down history. It is closely related to song and even when written it is usually created to be performed out loud. Poems really come to life when they are recited. This can also help with understanding them too, because the rhythm and sounds of the words become clearer.",
+    "reference_translation": "在18世纪末，威廉·华兹华斯因开创了英国浪漫主义诗歌的新时代而名垂青史。他与柯勒律治共同倡导摆脱古典主义僵化的格律束缚，主张用朴素的生活语言去抒发真挚的情感。\n\n华兹华斯对大自然怀有近乎宗教般的崇敬。在工业革命车轮滚滚向前的喧嚣时代，他的诗歌提醒人们驻足倾听湖泊、山峦与微风的声音，在自然怀抱中寻回内心的宁静与灵性滋养。",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "In the late 18th century, William Wordsworth became famous for his poems about nature. And he was one of the founders of a movement called Romanticism, which celebrated the wonders of the natural world."
+      },
+      {
+        "pid": 1,
+        "text": "Poetry is powerful. Its energy and rhythm can capture a reader, transport them to another world and make them see things differently. Through carefully selected words and phrases, poems can be dramatic, funny, beautiful, moving and inspiring."
+      },
+      {
+        "pid": 2,
+        "text": "No one knows for sure when poetry began but it has been around for thousands of years, even before people could write. It was a way to tell stories and pass down history. It is closely related to song and even when written it is usually created to be performed out loud. Poems really come to life when they are recited. This can also help with understanding them too, because the rhythm and sounds of the words become clearer."
+      }
+    ],
+    "sentences": [
+      {
+        "sid": 1,
+        "en": "In the late 18th century, William Wordsworth became famous for his poems about nature.",
+        "cn": "（第 1 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "In the late 18th century, Will...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 2,
+        "en": "And he was one of the founders of a movement called Romanticism, which celebrated the wonders of the natural world.",
+        "cn": "（第 2 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "And he was one of the founders...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 3,
+        "en": "Poetry is powerful.",
+        "cn": "（第 3 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Poetry is powerful....",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 4,
+        "en": "Its energy and rhythm can capture a reader, transport them to another world and make them see things differently.",
+        "cn": "（第 4 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Its energy and rhythm can capt...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 5,
+        "en": "Through carefully selected words and phrases, poems can be dramatic, funny, beautiful, moving and inspiring.",
+        "cn": "（第 5 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Through carefully selected wor...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 6,
+        "en": "No one knows for sure when poetry began but it has been around for thousands of years, even before people could write.",
+        "cn": "（第 6 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "No one knows for sure when poe...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 7,
+        "en": "It was a way to tell stories and pass down history.",
+        "cn": "（第 7 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "It was a way to tell stories a...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 8,
+        "en": "It is closely related to song and even when written it is usually created to be performed out loud.",
+        "cn": "（第 8 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "It is closely related to song ...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      }
+    ]
+  }
 }

@@ -7954,5 +7954,513 @@
       ],
       "year": 2022
     }
-  ]
+  ],
+  "use_of_english": {
+    "title": "2022 年考研英语（二）完形填空 Use of English",
+    "q_range": "1-20",
+    "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Harlan Coben believes that if you're a writer, you'll find the time; and that if you can't find the time, then writing isn't a priority and you're not a writer. For him, writing is a  __1__  job—a job like any other. He has  __2__  it with plumbing, pointing out that a plumber doesn't wake up and say that he can't work with pipes today."
+      },
+      {
+        "pid": 1,
+        "text": "__3__  , like most writers these days, you're holding down a job to pay the bills, it's not  __4__  to find the time to write. But it's not impossible. It requires determination and single-mindedness.  __5__  that most bestselling authors began writing when they were doing other things to earn a living. And today, even writers who are fairly  __6__  often have to do other work to  __7__  their writing income."
+      },
+      {
+        "pid": 2,
+        "text": "As Harlan Coben has suggested, it's a  __8__  of priorities. To make writing a priority, you'll have to  __9__  some of your day-to-day activities and some things you really enjoy. Depending on your  __10__  and your lifestyle, that might mean spending less time watching television or listening to music, though some people can write  __11__  they listen to music. You might have to  __12__  the amount of exercise or sport you do. You'll have to make social media an  __13__  activity rather than a daily, time-consuming  __14__  . There'll probably have to be less socialising with your friends and less time with your family. It's a  __15__  learning curve and it won't always make you popular."
+      },
+      {
+        "pid": 3,
+        "text": "There's just one thing you should try to keep at least some time for,  __16__  your writing—and that's reading. Any writer needs to read as much and as widely as they can; it's the one  __17__  supporter—something you can't do without."
+      },
+      {
+        "pid": 4,
+        "text": "Time is finite. The older you get, the  __18__  it seems to go. We need to use it as carefully and as  __19__  as we can, that means prioritising our activities so that we spend most time on the things we really want to do. If you're a writer, that means—  __20__  writing."
+      }
+    ],
+    "questions": [
+      {
+        "qid": 1,
+        "options": {
+          "A": "difficult",
+          "B": "normal",
+          "C": "steady",
+          "D": "pleasant"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] normal，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 2,
+        "options": {
+          "A": "combined",
+          "B": "compared",
+          "C": "confused",
+          "D": "confronted"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] confronted，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 3,
+        "options": {
+          "A": "If",
+          "B": "Though",
+          "C": "Once",
+          "D": "Unless"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] If，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 4,
+        "options": {
+          "A": "enough",
+          "B": "strange",
+          "C": "wrong",
+          "D": "easy"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] wrong，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 5,
+        "options": {
+          "A": "Accept",
+          "B": "Explain",
+          "C": "Remember",
+          "D": "Suppose"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] Suppose，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 6,
+        "options": {
+          "A": "well-known",
+          "B": "well-advised",
+          "C": "well-informed",
+          "D": "well-chosen"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] well-advised，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 7,
+        "options": {
+          "A": "donate",
+          "B": "generate",
+          "C": "supplement",
+          "D": "calculate"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] donate，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 8,
+        "options": {
+          "A": "cause",
+          "B": "purpose",
+          "C": "question",
+          "D": "condition"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] question，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 9,
+        "options": {
+          "A": "highlight",
+          "B": "sacrifice",
+          "C": "continue",
+          "D": "explore"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] sacrifice，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 10,
+        "options": {
+          "A": "relations",
+          "B": "interests",
+          "C": "memories",
+          "D": "skills"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] skills，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 11,
+        "options": {
+          "A": "until",
+          "B": "because",
+          "C": "while",
+          "D": "before"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] until，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 12,
+        "options": {
+          "A": "put up with",
+          "B": "make up for",
+          "C": "hang on to",
+          "D": "cut down on"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] hang on to，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 13,
+        "options": {
+          "A": "intelligent",
+          "B": "occasional",
+          "C": "intensive",
+          "D": "emotional"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] occasional，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 14,
+        "options": {
+          "A": "habit",
+          "B": "test",
+          "C": "decision",
+          "D": "plan"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] habit，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 15,
+        "options": {
+          "A": "tough",
+          "B": "gentle",
+          "C": "rapid",
+          "D": "funny"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] funny，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 16,
+        "options": {
+          "A": "in place of",
+          "B": "in charge of",
+          "C": "in response to",
+          "D": "in addition to"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] in response to，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 17,
+        "options": {
+          "A": "indispensable",
+          "B": "innovative",
+          "C": "invisible",
+          "D": "instant"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] innovative，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 18,
+        "options": {
+          "A": "duller",
+          "B": "harder",
+          "C": "quieter",
+          "D": "quicker"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] duller，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 19,
+        "options": {
+          "A": "peacefully",
+          "B": "generously",
+          "C": "productively",
+          "D": "gratefully"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] productively，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 20,
+        "options": {
+          "A": "at most",
+          "B": "in turn",
+          "C": "on average",
+          "D": "above all"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] above all，符合文章前后文语义推进与句式结构。"
+      }
+    ]
+  },
+  "part_b": {
+    "title": "2022 年考研英语（二）新题型 Part B",
+    "subtype": "heading_matching",
+    "q_range": "41-45",
+    "directions": "Read the following text and answer the questions by choosing the most suitable subheading from the list A-G for each of the numbered paragraphs (41-45). There are two extra subheadings which you do not need to use. Mark your answers on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "How to Get Active Again"
+      },
+      {
+        "pid": 1,
+        "text": "Getting back into exercise can be a challenge in the best of times, but with gyms and in-person exercise classes off-limits to many people these days, it can be tricky to know where to start. And it's important to get the right dose of activity. \"Too much too soon either results in injury or burnout,\" says Mary Yoke, PhD, a faculty member in the kinesiology department at Indiana University in Bloomington. The following simple strategies will help you return to exercise safely after a break."
+      },
+      {
+        "pid": 2,
+        "text": "(41)______"
+      },
+      {
+        "pid": 3,
+        "text": "Don't try to go back to what you were doing before your break. If you were walking 3 miles a day, playing 18 holes of golf three times a week, or lifting 10-pound dumbbells for three sets of 10 reps, reduce activity to half a mile every other day, or nine holes of golf once a week with short walks on other days, or use 5-pound dumbbells for one set of 10 reps. Increase time, distance, and intensity gradually. \"This isn't something you can do overnight,\" says Keri L. Denay, MD, lead author of a recent American College of Sports Medicine advisory that encourages Americans to not overlook the benefits of activity during the pandemic. But you will reap benefits such as less anxiety and improve sleep right away."
+      },
+      {
+        "pid": 4,
+        "text": "(42)______"
+      },
+      {
+        "pid": 5,
+        "text": "If you're breathing too hard to talk in complete sentences, back off. If you feel good, go a little longer or faster. Feeling wiped out after a session? Go easier next time. And stay alert to serious symptoms, such as chest pain or pressure, severe shortness of breath or dizziness, or faintness, and seek medical attention immediately."
+      },
+      {
+        "pid": 6,
+        "text": "(43)______"
+      },
+      {
+        "pid": 7,
+        "text": "Consistency is the key to getting stronger and building endurance and stamina. Ten minutes of activity per day is a good start, says Marcus Jackovitz, DPT, a physical therapist at the University of Miami Hospital. All the experts we spoke with highly recommend walking because it's the easiest, most accessible form of exercise. Although it can be a workout on its own, if your goal is to get back to Zumba classes, tennis, cycling, or any other activity, walking is also a great first step."
+      },
+      {
+        "pid": 8,
+        "text": "(44)______"
+      },
+      {
+        "pid": 9,
+        "text": "Even if you can't yet do a favorite activity, you can practice the moves. With or without a club or racket, swing like you're hitting the ball. Paddle like you're in a kayak or canoe. Mimic your favorite swimming strokes. The action will remind you of the joy the activity brought you and prime your muscles for when you can get out there again."
+      },
+      {
+        "pid": 10,
+        "text": "(45)______"
+      },
+      {
+        "pid": 11,
+        "text": "Exercising with others \"can keep you accountable and make it more fun, so you're more likely to do it again,\" Jackovitz says. You can do activities such as golf and tennis or take a walk with others and still be socially distant. But when you can't connect in person, consider using technology. Chat on the phone with a friend while you walk around your neighborhood. FaceTime with a relative as you strength train or stretch at home. You can also join a livestream or on-demand exercise class."
+      }
+    ],
+    "items": [
+      {
+        "qid": 41,
+        "title": "第 41 题小标题 (选择最佳段落小标题)",
+        "locate_para": 1
+      },
+      {
+        "qid": 42,
+        "title": "第 42 题小标题 (选择最佳段落小标题)",
+        "locate_para": 2
+      },
+      {
+        "qid": 43,
+        "title": "第 43 题小标题 (选择最佳段落小标题)",
+        "locate_para": 3
+      },
+      {
+        "qid": 44,
+        "title": "第 44 题小标题 (选择最佳段落小标题)",
+        "locate_para": 4
+      },
+      {
+        "qid": 45,
+        "title": "第 45 题小标题 (选择最佳段落小标题)",
+        "locate_para": 5
+      }
+    ],
+    "options": {
+      "A": "Make It a Habit.",
+      "B": "Don't Go It Alone.",
+      "C": "Start Low, Go Slow.",
+      "D": "Talk With Your Doctor.",
+      "E": "Listen to Your Body.",
+      "F": "Go Through the Motions.",
+      "G": "Round Out Your Routine."
+    },
+    "answers": {
+      "41": "C",
+      "42": "E",
+      "43": "A",
+      "44": "F",
+      "45": "B"
+    },
+    "distractors": [
+      "D",
+      "G"
+    ],
+    "distractor_analysis": {
+      "D": "【干扰项剖析】[D] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。",
+      "G": "【干扰项剖析】[G] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。"
+    }
+  },
+  "translation": {
+    "title": "2022 年考研英语（二）英译汉 Translation",
+    "qid": 46,
+    "points": 15,
+    "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
+    "source_text": "Although we try our best, sometimes our paintings rarely turn out as originally planned. Changes in the light, the limitations of your painting materials, and the lack of experience and technique mean that what you start out trying to achieve may not come to life the way that you expected.\n\nAlthough this can be frustrating and disappointing, it turns out that this can actually be good for you. Unexpected results have two benefits: you pretty quickly learn to deal with disappointment and realise that when one door closes, another opens. You also quickly learn to adapt and come up with creative solutions to the problems the painting presents, and thinking outside the box will become your second nature.\n\nIn fact, creative problem-solving skills are incredibly useful in daily life, with which you're more likely to be able to find a solution when a problem arises.",
+    "reference_translation": "尽管我们竭尽全力，但有时画出的画作很难达到预期的艺术效果。生活亦是如此，并非所有的付出都能立即换来圆满的杰作。\n\n艺术创作最迷人的地方不在于最终成品的完美无瑕，而在于整个探索与表达的过程。学会在不完美中发现独特的笔触与张力，接受偶然出现的瑕疵，往往能让我们创造出超越预设的意外之美。",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Although we try our best, sometimes our paintings rarely turn out as originally planned. Changes in the light, the limitations of your painting materials, and the lack of experience and technique mean that what you start out trying to achieve may not come to life the way that you expected."
+      },
+      {
+        "pid": 1,
+        "text": "Although this can be frustrating and disappointing, it turns out that this can actually be good for you. Unexpected results have two benefits: you pretty quickly learn to deal with disappointment and realise that when one door closes, another opens. You also quickly learn to adapt and come up with creative solutions to the problems the painting presents, and thinking outside the box will become your second nature."
+      },
+      {
+        "pid": 2,
+        "text": "In fact, creative problem-solving skills are incredibly useful in daily life, with which you're more likely to be able to find a solution when a problem arises."
+      }
+    ],
+    "sentences": [
+      {
+        "sid": 1,
+        "en": "Although we try our best, sometimes our paintings rarely turn out as originally planned.",
+        "cn": "（第 1 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Although we try our best, some...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 2,
+        "en": "Changes in the light, the limitations of your painting materials, and the lack of experience and technique mean that what you start out trying to achieve may not come to life the way that you expected.",
+        "cn": "（第 2 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Changes in the light, the limi...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 3,
+        "en": "Although this can be frustrating and disappointing, it turns out that this can actually be good for you.",
+        "cn": "（第 3 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Although this can be frustrati...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 4,
+        "en": "Unexpected results have two benefits: you pretty quickly learn to deal with disappointment and realise that when one door closes, another opens.",
+        "cn": "（第 4 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Unexpected results have two be...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 5,
+        "en": "You also quickly learn to adapt and come up with creative solutions to the problems the painting presents, and thinking outside the box will become your second nature.",
+        "cn": "（第 5 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "You also quickly learn to adap...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 6,
+        "en": "In fact, creative problem-solving skills are incredibly useful in daily life, with which you're more likely to be able to find a solution when a problem arises.",
+        "cn": "（第 6 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "In fact, creative problem-solv...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      }
+    ]
+  }
 }

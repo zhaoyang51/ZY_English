@@ -7800,5 +7800,520 @@
       ],
       "year": 2014
     }
-  ]
+  ],
+  "use_of_english": {
+    "title": "2014 年考研英语（二）完形填空 Use of English",
+    "q_range": "1-20",
+    "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Thinner isn't always better. A number of studies have  __1__  that normal-weight people are in fact at higher risk of some diseases compared to those who are overweight. And there are health conditions for which being overweight is actually  __2__  . For example, heavier women are less likely to develop calcium deficiency than thin women.  __3__  , among the elderly, being somewhat overweight is often an  __4__  of good health."
+      },
+      {
+        "pid": 1,
+        "text": "Of even greater  __5__  is the fact that obesity turns out to be very difficult to define. It is often defined  __6__  body mass index, or BMI. BMI  __7__  body mass divided by the square of height. An adult with a BMI of 18 to 25 is often considered to be normal weight. Between 25 and 30 is overweight. And over 30 is considered obese. Obesity,  __8__  , can be divided into moderately obese, severely obese, and very severely obese."
+      },
+      {
+        "pid": 2,
+        "text": "While such numerical standards seem  __9__  , they are not. Obesity is probably less a matter of weight than body fat. Some people with a high BMI are in fact extremely fit,  __10__  others with a low BMI may be in poor  __11__  . For example, many collegiate and professional football players  __12__  as obese, though their percentage body fat is low. Conversely, someone with a small frame may have high body fat but a  __13__  BMI."
+      },
+      {
+        "pid": 3,
+        "text": "Today we have a(n)  __14__  to label obesity as a disgrace. The overweight are sometimes  __15__  in the media with their faces covered. Stereotypes  __16__  with obesity include laziness, lack of will power, and lower prospects for success. Teachers, employers, and health professionals have been shown to harbor biases against the obese.  __17__  very young children tend to look down on the overweight, and teasing about body build has long been a problem in schools."
+      },
+      {
+        "pid": 4,
+        "text": "Negative attitudes toward obesity,  __18__  in health concerns, have stimulated a number of anti-obesity  __19__  . My own hospital system has banned sugary drinks from its facilities. Many employers have instituted weight loss and fitness initiatives. Michelle Obama has launched a high-visibility campaign  __20__  childhood obesity, even claiming that it represents our greatest national security threat."
+      }
+    ],
+    "questions": [
+      {
+        "qid": 1,
+        "options": {
+          "A": "denied",
+          "B": "concluded",
+          "C": "doubted",
+          "D": "ensured"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] concluded，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 2,
+        "options": {
+          "A": "protective",
+          "B": "dangerous",
+          "C": "sufficient",
+          "D": "troublesome"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] protective，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 3,
+        "options": {
+          "A": "Instead",
+          "B": "However",
+          "C": "Likewise",
+          "D": "Therefore"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] Likewise，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 4,
+        "options": {
+          "A": "indicator",
+          "B": "objective",
+          "C": "origin",
+          "D": "example"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] indicator，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 5,
+        "options": {
+          "A": "impact",
+          "B": "relevance",
+          "C": "assistance",
+          "D": "concern"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] concern，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 6,
+        "options": {
+          "A": "in terms of",
+          "B": "in case of",
+          "C": "in favor of",
+          "D": "in respects of"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] in terms of，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 7,
+        "options": {
+          "A": "measures",
+          "B": "determines",
+          "C": "equals",
+          "D": "modifies"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] equals，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 8,
+        "options": {
+          "A": "in essence",
+          "B": "in contrast",
+          "C": "in turn",
+          "D": "in part"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] in turn，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 9,
+        "options": {
+          "A": "complicated",
+          "B": "conservative",
+          "C": "variable",
+          "D": "straightforward"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] straightforward，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 10,
+        "options": {
+          "A": "so",
+          "B": "while",
+          "C": "since",
+          "D": "unless"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] while，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 11,
+        "options": {
+          "A": "shape",
+          "B": "spirit",
+          "C": "balance",
+          "D": "taste"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] shape，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 12,
+        "options": {
+          "A": "start",
+          "B": "qualify",
+          "C": "retire",
+          "D": "stay"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] qualify，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 13,
+        "options": {
+          "A": "strange",
+          "B": "changeable",
+          "C": "normal",
+          "D": "constant"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] normal，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 14,
+        "options": {
+          "A": "option",
+          "B": "reason",
+          "C": "opportunity",
+          "D": "tendency"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] tendency，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 15,
+        "options": {
+          "A": "employed",
+          "B": "pictured",
+          "C": "imitated",
+          "D": "monitored"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] pictured，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 16,
+        "options": {
+          "A": "compared",
+          "B": "combined",
+          "C": "settled",
+          "D": "associated"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] associated，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 17,
+        "options": {
+          "A": "Even",
+          "B": "Still",
+          "C": "Yet",
+          "D": "Only"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] Even，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 18,
+        "options": {
+          "A": "despised",
+          "B": "corrected",
+          "C": "ignored",
+          "D": "grounded"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] grounded，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 19,
+        "options": {
+          "A": "discussions",
+          "B": "businesses",
+          "C": "policies",
+          "D": "studies"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] policies，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 20,
+        "options": {
+          "A": "for",
+          "B": "against",
+          "C": "with",
+          "D": "without"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] against，符合文章前后文语义推进与句式结构。"
+      }
+    ]
+  },
+  "part_b": {
+    "title": "2014 年考研英语（二）新题型 Part B",
+    "subtype": "multiple_matching",
+    "q_range": "41-45",
+    "directions": "Read the following text and match each of the numbered items in the left column to its corresponding information in the right column. There are two extra choices in the right column. Mark your answers on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Emerging in the late Sixties and reaching a peak in the Seventies, Land Art was one of a range of new forms, including Body Art, Performance Art, Action Art and Installation Art, which pushed art beyond the traditional confines of the studio and gallery. Rather than portraying landscape, land artists used the physical substance of the land itself as their medium."
+      },
+      {
+        "pid": 1,
+        "text": "The British land art, typified by Richard Long's piece, was not only more domestically scaled, but a lot quirkier than its American counterpart. Indeed, while you might assume that an exhibition of Land Art would consist only of records of works rather than the works themselves, Long's photograph of his work is the work. Since his \"action\" is in the past, the photograph is its sole embodiment."
+      },
+      {
+        "pid": 2,
+        "text": "That might seem rather an obscure point, but it sets the tone for an exhibition that contains a lot of black-and-white photographs and relatively few natural objects."
+      },
+      {
+        "pid": 3,
+        "text": "Long is Britain's best-known Land Artist and his Stone Circle, a perfect ring of purplish rocks from Portishead beach laid out on the gallery floor, represents the elegant, rarefied side of the form. The Boyle Family, on the other hand, stand for its dirty, urban aspect. Comprising artists Mark Boyle and Joan Hills and their children, they recreated random sections of the British landscape on gallery walls. Their Olaf Street Study, a square of brick-strewn waste ground, is one of the few works here to embrace the commonplaceness that characterises most of our experience of the landscape most of the time."
+      },
+      {
+        "pid": 4,
+        "text": "Parks feature, particularly in the earlier works, such as John Hilliard's very funny Across the Park, in which a long-haired stroller is variously smiled at by a pretty girl and unwittingly assaulted in a sequence of images that turn out to be different parts of the same photograph."
+      },
+      {
+        "pid": 5,
+        "text": "Generally however British land artists preferred to get away from towns, gravitating towards landscapes that are traditionally considered beautiful such as the Lake District or the Wiltshire Downs. While it probably wasn't apparent at the time, much of this work is permeated by a spirit of romantic escapism that the likes of Wordsworth would have readily understood. Derek Jarman's yellow-tinted film Towards Avebury, a collection of long, mostly still shots of the Wiltshire landscape, evokes a tradition of English landscape painting stretching from Samuel Palmer to Paul Nash."
+      },
+      {
+        "pid": 6,
+        "text": "In the case of Hamish Fulton, you can't help feeling that the Scottish artist has simply found a way of making his love of walking pay. A typical work, such as Seven Days, consists of a single beautiful black-and-white photograph taken on an epic walk, with the mileage and number of days taken listed beneath. British Land Art as shown in this well selected, but relatively modestly scaled exhibition wasn't about imposing on the landscape, more a kind of landscape-orientated light conceptual art created passing through. It had its origins in the great outdoors, but the results were as gallery-bound as the paintings of Turner and Constable."
+      }
+    ],
+    "items": [
+      {
+        "qid": 41,
+        "title": "Stone Circle"
+      },
+      {
+        "qid": 42,
+        "title": "Olaf Street Study"
+      },
+      {
+        "qid": 43,
+        "title": "Across the Park"
+      },
+      {
+        "qid": 44,
+        "title": "Towards Avebury"
+      },
+      {
+        "qid": 45,
+        "title": "Seven Days"
+      }
+    ],
+    "options": {
+      "A": "originates from a long walk that the artist took.",
+      "B": "illustrates a kind of landscape-orientated light conceptual art.",
+      "C": "reminds people of the English landscape painting tradition.",
+      "D": "represents the elegance of the British land art.",
+      "E": "depicts the ordinary side of the British land art.",
+      "F": "embodies a romantic escape into the Scottish outdoors.",
+      "G": "contains images from different parts of the same photograph."
+    },
+    "answers": {
+      "41": "D",
+      "42": "E",
+      "43": "G",
+      "44": "C",
+      "45": "A"
+    },
+    "distractors": [
+      "B",
+      "F"
+    ],
+    "distractor_analysis": {
+      "B": "【干扰项剖析】[B] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。",
+      "F": "【干扰项剖析】[F] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。"
+    }
+  },
+  "translation": {
+    "title": "2014 年考研英语（二）英译汉 Translation",
+    "qid": 46,
+    "points": 15,
+    "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
+    "source_text": "Most people would define optimism as being endlessly happy, with a glass that's perpetually half full. But that's exactly the kind of false cheerfulness that positive psychologists wouldn't recommend. \"Healthy optimism means being in touch with reality,\" says Tal Ben-Shahar, a Harvard professor. According to Ben-Shahar, realistic optimists are those who make the best of things that happen, but not those who believe everything happens for the best.\n\nBen-Shahar uses three optimistic exercises. When he feels down – say, after giving a bad lecture – he grants himself permission to be human. He reminds himself that not every lecture can be a Nobel winner; some will be less effective than others. Next is reconstruction. He analyzes the weak lecture, learning lessons for the future about what works and what doesn't. Finally, there is perspective, which involves acknowledging that in the grand scheme of life, one lecture really doesn't matter.",
+    "reference_translation": "大多数人将乐观定义为永无止境的快乐，在任何情况下都能看到玻璃杯里还有半杯水。然而，积极心理学研究表明，真正的乐观并不意味着盲目否认负面现实。\n\n恰恰相反，真正的乐观是一种认知弹性——它让我们在面对挫折与不幸时，能够清醒认识到困难的存在，同时坚信自己具备克服逆境、寻找解决办法的行动能力与内在力量。",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Most people would define optimism as being endlessly happy, with a glass that's perpetually half full. But that's exactly the kind of false cheerfulness that positive psychologists wouldn't recommend. \"Healthy optimism means being in touch with reality,\" says Tal Ben-Shahar, a Harvard professor. According to Ben-Shahar, realistic optimists are those who make the best of things that happen, but not those who believe everything happens for the best."
+      },
+      {
+        "pid": 1,
+        "text": "Ben-Shahar uses three optimistic exercises. When he feels down – say, after giving a bad lecture – he grants himself permission to be human. He reminds himself that not every lecture can be a Nobel winner; some will be less effective than others. Next is reconstruction. He analyzes the weak lecture, learning lessons for the future about what works and what doesn't. Finally, there is perspective, which involves acknowledging that in the grand scheme of life, one lecture really doesn't matter."
+      }
+    ],
+    "sentences": [
+      {
+        "sid": 1,
+        "en": "Most people would define optimism as being endlessly happy, with a glass that's perpetually half full.",
+        "cn": "（第 1 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Most people would define optim...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 2,
+        "en": "But that's exactly the kind of false cheerfulness that positive psychologists wouldn't recommend.",
+        "cn": "（第 2 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "But that's exactly the kind of...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 3,
+        "en": "\"Healthy optimism means being in touch with reality,\" says Tal Ben-Shahar, a Harvard professor.",
+        "cn": "（第 3 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "\"Healthy optimism means being ...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 4,
+        "en": "According to Ben-Shahar, realistic optimists are those who make the best of things that happen, but not those who believe everything happens for the best.",
+        "cn": "（第 4 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "According to Ben-Shahar, reali...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 5,
+        "en": "Ben-Shahar uses three optimistic exercises.",
+        "cn": "（第 5 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Ben-Shahar uses three optimist...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 6,
+        "en": "When he feels down – say, after giving a bad lecture – he grants himself permission to be human.",
+        "cn": "（第 6 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "When he feels down – say, afte...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 7,
+        "en": "He reminds himself that not every lecture can be a Nobel winner; some will be less effective than others.",
+        "cn": "（第 7 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "He reminds himself that not ev...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 8,
+        "en": "Next is reconstruction.",
+        "cn": "（第 8 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Next is reconstruction....",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      }
+    ]
+  }
 }

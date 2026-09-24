@@ -7242,5 +7242,553 @@
       ],
       "year": 2020
     }
-  ]
+  ],
+  "use_of_english": {
+    "title": "2020 年考研英语（二）完形填空 Use of English",
+    "q_range": "1-20",
+    "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Being a good parent is, of course, what every parent would like to be. But defining what it means to be a good parent is undoubtedly very  __1__  , particularly since children respond differently to the same style of parenting. A calm, rule-following child might respond better to a different sort of parenting than,  __2__  , a younger sibling."
+      },
+      {
+        "pid": 1,
+        "text": "__3__  , there's another sort of parent that's a bit easier to  __4__  : a patient parent. Children of every age benefit from patient parenting. Still,  __5__  every parent would like to be patient, this is no easy  __6__  . Sometimes parents get exhausted and frustrated and are unable to maintain a  __7__  and composed style with their kids. I understand this."
+      },
+      {
+        "pid": 2,
+        "text": "You're only human, and sometimes your kids can  __8__  you just a little too far. And then the  __9__  happens: You lose your patience and either scream at your kids or say something that was a bit too  __10__  and does nobody any good. You wish that you could  __11__  the clock and start over. We've all been there."
+      },
+      {
+        "pid": 3,
+        "text": "__12__  , even though it's common, it's important to keep in mind that in a single moment of fatigue, you can say something to your child that you may  __13__  for a long time. This may not only do damage to your relationship with your child but also  __14__  your child's self-esteem."
+      },
+      {
+        "pid": 4,
+        "text": "If you consistently lose your  __15__  with your kids, then you are inadvertently modeling a lack of emotional control for your kids. We are all becoming increasingly aware of the  __16__  of modeling tolerance and patience for the younger generation. This is a skill that will help them all throughout life. In fact, the ability to emotionally regulate or maintain emotional control when  __17__  by stress is one of the most important of all life's skills."
+      },
+      {
+        "pid": 5,
+        "text": "Certainly, it's incredibly  __18__  to maintain patience at all times with your children. A more practical goal is to try, to the best of your ability, to be as tolerant and composed as you can when faced with  __19__  situations involving your children. I can promise you this: As a result of working toward this goal, you and your children will benefit and  __20__  from stressful moments feeling better physically and emotionally."
+      }
+    ],
+    "questions": [
+      {
+        "qid": 1,
+        "options": {
+          "A": "tedious",
+          "B": "pleasant",
+          "C": "instructive",
+          "D": "tricky"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] pleasant，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 2,
+        "options": {
+          "A": "in addition",
+          "B": "for example",
+          "C": "at once",
+          "D": "by accident"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] by accident，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 3,
+        "options": {
+          "A": "Fortunately",
+          "B": "Occasionally",
+          "C": "Accordingly",
+          "D": "Eventually"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] Fortunately，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 4,
+        "options": {
+          "A": "amuse",
+          "B": "assist",
+          "C": "describe",
+          "D": "train"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] describe，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 5,
+        "options": {
+          "A": "while",
+          "B": "because",
+          "C": "unless",
+          "D": "once"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] because，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 6,
+        "options": {
+          "A": "answer",
+          "B": "task",
+          "C": "choice",
+          "D": "access"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] choice，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 7,
+        "options": {
+          "A": "tolerant",
+          "B": "formal",
+          "C": "rigid",
+          "D": "critical"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] tolerant，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 8,
+        "options": {
+          "A": "move",
+          "B": "drag",
+          "C": "push",
+          "D": "send"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] send，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 9,
+        "options": {
+          "A": "mysterious",
+          "B": "illogical",
+          "C": "suspicious",
+          "D": "inevitable"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] illogical，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 10,
+        "options": {
+          "A": "boring",
+          "B": "naive",
+          "C": "harsh",
+          "D": "vague"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] boring，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 11,
+        "options": {
+          "A": "turn back",
+          "B": "take apart",
+          "C": "set aside",
+          "D": "cover up"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] cover up，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 12,
+        "options": {
+          "A": "Overall",
+          "B": "Instead",
+          "C": "However",
+          "D": "Otherwise"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] However，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 13,
+        "options": {
+          "A": "like",
+          "B": "miss",
+          "C": "believe",
+          "D": "regret"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] miss，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 14,
+        "options": {
+          "A": "raise",
+          "B": "affect",
+          "C": "justify",
+          "D": "reflect"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] raise，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 15,
+        "options": {
+          "A": "time",
+          "B": "bond",
+          "C": "race",
+          "D": "cool"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] cool，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 16,
+        "options": {
+          "A": "nature",
+          "B": "secret",
+          "C": "importance",
+          "D": "context"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] importance，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 17,
+        "options": {
+          "A": "cheated",
+          "B": "defeated",
+          "C": "confused",
+          "D": "confronted"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] defeated，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 18,
+        "options": {
+          "A": "terrible",
+          "B": "hard",
+          "C": "strange",
+          "D": "wrong"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] wrong，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 19,
+        "options": {
+          "A": "trying",
+          "B": "changing",
+          "C": "exciting",
+          "D": "surprising"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] trying，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 20,
+        "options": {
+          "A": "hide",
+          "B": "emerge",
+          "C": "withdraw",
+          "D": "escape"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] withdraw，符合文章前后文语义推进与句式结构。"
+      }
+    ]
+  },
+  "part_b": {
+    "title": "2020 年考研英语（二）新题型 Part B",
+    "subtype": "heading_matching",
+    "q_range": "41-45",
+    "directions": "Read the following text and answer the questions by choosing the most suitable subheading from the list A-G for each of the numbered paragraphs (41-45). There are two extra subheadings which you do not need to use. Mark your answers on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Five Ways to Win Over Everyone in the Office"
+      },
+      {
+        "pid": 1,
+        "text": "Is it possible to like everyone in your office? Think about how tough it is to get together 15 people, much less 50, who all get along perfectly. But unlike in friendships, you need coworkers. You work with them every day, and you depend on them just as they depend on you. Here are some ways that you can get the whole office on your side."
+      },
+      {
+        "pid": 2,
+        "text": "(41)______"
+      },
+      {
+        "pid": 3,
+        "text": "If you have a bone to pick with someone in your workplace, you may try to stay tight-lipped around them. But you won't be helping either one of you. A Harvard Business School study found that observers consistently rated those who were upfront about themselves more highly, while those who hid lost trustworthiness. The lesson is not that you should make your personal life an open book, but rather, when given the option to offer up details about yourself or studiously stash them away, you should just be honest."
+      },
+      {
+        "pid": 4,
+        "text": "(42)______"
+      },
+      {
+        "pid": 5,
+        "text": "Just as important as being honest about yourself is being receptive to others. We often feel the need to tell others how we feel, whether it's a concern about a project, a stray thought, or a compliment. Those are all valid, but you need to take time to hear out your coworkers, too. In fact, rushing to get your own ideas out there can cause colleagues to feel you don't value their opinions. Do your best to engage coworkers in a genuine, back-and-forth conversation, rather than prioritizing your own thoughts."
+      },
+      {
+        "pid": 6,
+        "text": "(43)______"
+      },
+      {
+        "pid": 7,
+        "text": "It's common to have a \"cubicle mate\" or special confidant in a work setting. But in addition to those trusted coworkers, you should expand your horizons and find out about all the people around you. Use your lunch and coffee breaks to meet up with colleagues you don't always see. Find out about their lives and interests beyond the job. It requires minimal effort and goes a long way. This will help to grow your internal network, in addition to being a nice break in the work day."
+      },
+      {
+        "pid": 8,
+        "text": "(44)______"
+      },
+      {
+        "pid": 9,
+        "text": "Positive feedback is important for anyone to hear. And you don't have to be someone's boss to tell them they did an exceptional job on a particular project. This will help engender good will in others. But don't overdo it or be fake about it. One study found that people responded best to comments that shifted from negative to positive, possibly because it suggested they had won somebody over."
+      },
+      {
+        "pid": 10,
+        "text": "(45)______"
+      },
+      {
+        "pid": 11,
+        "text": "This one may be a bit more difficult to pull off, but it can go a long way to achieving results. Remember in dealing with any coworker what they appreciate from an interaction. Watch out for how they verbalize with others. Some people like small talk in a meeting before digging into important matters, while others are more straightforward. Jokes that work on one person won't necessarily land with another. So, adapt your style accordingly to type. Consider the person that you're dealing with in advance and what will get you to your desired outcome."
+      }
+    ],
+    "items": [
+      {
+        "qid": 41,
+        "title": "第 41 题小标题 (选择最佳段落小标题)",
+        "locate_para": 1
+      },
+      {
+        "qid": 42,
+        "title": "第 42 题小标题 (选择最佳段落小标题)",
+        "locate_para": 2
+      },
+      {
+        "qid": 43,
+        "title": "第 43 题小标题 (选择最佳段落小标题)",
+        "locate_para": 3
+      },
+      {
+        "qid": 44,
+        "title": "第 44 题小标题 (选择最佳段落小标题)",
+        "locate_para": 4
+      },
+      {
+        "qid": 45,
+        "title": "第 45 题小标题 (选择最佳段落小标题)",
+        "locate_para": 5
+      }
+    ],
+    "options": {
+      "A": "Give compliments, just not too many",
+      "B": "Put on a good face, always",
+      "C": "Tailor your interactions",
+      "D": "Spend time with everyone",
+      "E": "Reveal, don't hide, information",
+      "F": "Slow down and listen",
+      "G": "Put yourselves in others' shoes"
+    },
+    "answers": {
+      "41": "D",
+      "42": "F",
+      "43": "C",
+      "44": "G",
+      "45": "B"
+    },
+    "distractors": [
+      "A",
+      "E"
+    ],
+    "distractor_analysis": {
+      "A": "【干扰项剖析】[A] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。",
+      "E": "【干扰项剖析】[E] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。"
+    }
+  },
+  "translation": {
+    "title": "2020 年考研英语（二）英译汉 Translation",
+    "qid": 46,
+    "points": 15,
+    "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
+    "source_text": "It's almost impossible to go through life without experiencing some kind of failure. But, the wonderful thing about failure is that it's entirely up to us to decide how to look at it.\n\nWe can choose to see failure as \"the end of the world\". Or, we can look at failure as the incredible learning experience that it often is. Every time we fail at something, we can choose to look for the lesson we're meant to learn. These lessons are very important; they're how we grow, and how we keep from making that same mistake again. Failures stop us only if we let them.\n\nFailure can also teach us things about ourselves that we would never have learned otherwise. For instance, failure can help you discover how strong a person you are. Failing at something can help you discover your truest friends, or help you find unexpected motivation to succeed.",
+    "reference_translation": "人的一生中几乎不可能不经历某种形式的失败。失败是人类生存体验中不可避免的一部分。\n\n我们可以选择将失败视作“世界末日”和能力的否定；或者，我们也可以将失败看作是不可多得的学习契机与人生转折点。失败能向我们揭示关于自我的真实特质——那些在顺风顺水时永远无法领悟的坚韧与勇气。",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "It's almost impossible to go through life without experiencing some kind of failure. But, the wonderful thing about failure is that it's entirely up to us to decide how to look at it."
+      },
+      {
+        "pid": 1,
+        "text": "We can choose to see failure as \"the end of the world\". Or, we can look at failure as the incredible learning experience that it often is. Every time we fail at something, we can choose to look for the lesson we're meant to learn. These lessons are very important; they're how we grow, and how we keep from making that same mistake again. Failures stop us only if we let them."
+      },
+      {
+        "pid": 2,
+        "text": "Failure can also teach us things about ourselves that we would never have learned otherwise. For instance, failure can help you discover how strong a person you are. Failing at something can help you discover your truest friends, or help you find unexpected motivation to succeed."
+      }
+    ],
+    "sentences": [
+      {
+        "sid": 1,
+        "en": "It's almost impossible to go through life without experiencing some kind of failure.",
+        "cn": "（第 1 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "It's almost impossible to go t...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 2,
+        "en": "But, the wonderful thing about failure is that it's entirely up to us to decide how to look at it.",
+        "cn": "（第 2 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "But, the wonderful thing about...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 3,
+        "en": "We can choose to see failure as \"the end of the world\".",
+        "cn": "（第 3 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "We can choose to see failure a...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 4,
+        "en": "Or, we can look at failure as the incredible learning experience that it often is.",
+        "cn": "（第 4 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Or, we can look at failure as ...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 5,
+        "en": "Every time we fail at something, we can choose to look for the lesson we're meant to learn.",
+        "cn": "（第 5 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Every time we fail at somethin...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 6,
+        "en": "These lessons are very important; they're how we grow, and how we keep from making that same mistake again.",
+        "cn": "（第 6 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "These lessons are very importa...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 7,
+        "en": "Failures stop us only if we let them.",
+        "cn": "（第 7 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Failures stop us only if we le...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 8,
+        "en": "Failure can also teach us things about ourselves that we would never have learned otherwise.",
+        "cn": "（第 8 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Failure can also teach us thin...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      }
+    ]
+  }
 }

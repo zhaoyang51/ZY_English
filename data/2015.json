@@ -7204,5 +7204,561 @@
       ],
       "year": 2015
     }
-  ]
+  ],
+  "use_of_english": {
+    "title": "2015 年考研英语（二）完形填空 Use of English",
+    "q_range": "1-20",
+    "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "In our contemporary culture, the prospect of communicating with – or even looking at – a stranger is virtually unbearable. Everyone around us seems to agree by the way they cling to their phones, even without a  __1__  on a subway."
+      },
+      {
+        "pid": 1,
+        "text": "It's a sad reality – our desire to avoid interacting with other human beings – because there's  __2__  to be gained from talking to the stranger standing by you. But you wouldn't know it,  __3__  into your phone. This universal protection sends the  __4__  : \"Please don't approach me.\""
+      },
+      {
+        "pid": 2,
+        "text": "What is it that makes us feel we need to hide  __5__  our screens?"
+      },
+      {
+        "pid": 3,
+        "text": "One answer is fear, according to Jon Wortmann, an executive mental coach. We fear rejection, or that our innocent social advances will be  __6__  as \"weird.\" We fear we'll be  __7__  . We fear we'll be disruptive."
+      },
+      {
+        "pid": 4,
+        "text": "Strangers are inherently  __8__  to us, so we are more likely to feel  __9__  when communicating with them compared with our friends and acquaintances. To avoid this uneasiness, we  __10__  to our phones. \"Phones become our security blanket,\" Wortmann says. \"They are our happy glasses that protect us from what we perceive is going to be more  __11__  .\""
+      },
+      {
+        "pid": 5,
+        "text": "But once we rip off the band-aid, tuck our smartphones in our pockets and look up, it doesn't  __12__  so bad. In one 2011 experiment, behavioral scientists Nicholas Epley and Juliana Schroeder asked commuters to do the unthinkable: Start a  __13__  . They had Chicago train commuters talk to their fellow  __14__  . \"When Dr. Epley and Ms. Schroeder asked other people in the same train station to  __15__  how they would feel after talking to a stranger, the commuters thought their  __16__  would be more pleasant if they sat on their own,\" The New York Times summarizes. Though the participants didn't expect a positive experience, after they  __17__  with the experiment, \"not a single person reported having been embarrassed.\""
+      },
+      {
+        "pid": 6,
+        "text": "__18__  , these commutes were reportedly more enjoyable compared with those without communication, which makes absolute sense,  __19__  human beings thrive off of social connections. It's that  __20__  : Talking to strangers can make you feel connected."
+      }
+    ],
+    "questions": [
+      {
+        "qid": 1,
+        "options": {
+          "A": "signal",
+          "B": "permit",
+          "C": "ticket",
+          "D": "record"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] ticket，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 2,
+        "options": {
+          "A": "nothing",
+          "B": "little",
+          "C": "another",
+          "D": "much"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] much，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 3,
+        "options": {
+          "A": "beaten",
+          "B": "plugged",
+          "C": "guided",
+          "D": "brought"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] guided，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 4,
+        "options": {
+          "A": "message",
+          "B": "code",
+          "C": "notice",
+          "D": "sign"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] message，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 5,
+        "options": {
+          "A": "under",
+          "B": "beyond",
+          "C": "behind",
+          "D": "from"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] behind，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 6,
+        "options": {
+          "A": "misapplied",
+          "B": "misinterpreted",
+          "C": "misadjusted",
+          "D": "mismatched"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] misapplied，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 7,
+        "options": {
+          "A": "judged",
+          "B": "fired",
+          "C": "replaced",
+          "D": "delayed"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] fired，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 8,
+        "options": {
+          "A": "unreasonable",
+          "B": "ungrateful",
+          "C": "unconventional",
+          "D": "unfamiliar"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] unfamiliar，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 9,
+        "options": {
+          "A": "comfortable",
+          "B": "confident",
+          "C": "anxious",
+          "D": "angry"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] confident，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 10,
+        "options": {
+          "A": "attend",
+          "B": "turn",
+          "C": "take",
+          "D": "point"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] point，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 11,
+        "options": {
+          "A": "dangerous",
+          "B": "mysterious",
+          "C": "violent",
+          "D": "boring"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] dangerous，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 12,
+        "options": {
+          "A": "bend",
+          "B": "resist",
+          "C": "hurt",
+          "D": "decay"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] bend，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 13,
+        "options": {
+          "A": "lecture",
+          "B": "debate",
+          "C": "conversation",
+          "D": "negotiation"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] debate，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 14,
+        "options": {
+          "A": "trainees",
+          "B": "employees",
+          "C": "researchers",
+          "D": "passengers"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] passengers，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 15,
+        "options": {
+          "A": "reveal",
+          "B": "choose",
+          "C": "predict",
+          "D": "design"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] predict，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 16,
+        "options": {
+          "A": "voyage",
+          "B": "flight",
+          "C": "walk",
+          "D": "ride"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] ride，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 17,
+        "options": {
+          "A": "went through",
+          "B": "did away",
+          "C": "caught up",
+          "D": "put up"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] went through，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 18,
+        "options": {
+          "A": "In turn",
+          "B": "In fact",
+          "C": "In particular",
+          "D": "In consequence"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] In particular，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 19,
+        "options": {
+          "A": "unless",
+          "B": "whereas",
+          "C": "if",
+          "D": "since"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] whereas，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 20,
+        "options": {
+          "A": "funny",
+          "B": "simple",
+          "C": "logical",
+          "D": "rare"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] simple，符合文章前后文语义推进与句式结构。"
+      }
+    ]
+  },
+  "part_b": {
+    "title": "2015 年考研英语（二）新题型 Part B",
+    "subtype": "heading_matching",
+    "q_range": "41-45",
+    "directions": "Read the following text and answer the questions by choosing the most suitable subheading from the list A-G for each of the numbered paragraphs (41-45). There are two extra subheadings which you do not need to use. Mark your answers on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Some Old Truths to Help You Overcome Tough Times"
+      },
+      {
+        "pid": 1,
+        "text": "Unfortunately, life is not a bed of roses. We are going through life facing sad experiences. Moreover, we are grieving various kinds of loss: a friendship, a romantic relationship or a house. Hard times may hold you down at what usually seems like the most inopportune time, but you should remember that they won't last forever."
+      },
+      {
+        "pid": 2,
+        "text": "When our time of mourning is over, we press forward, stronger with a greater understanding and respect for life. Furthermore, these losses make us mature and eventually move us toward future opportunities for growth and happiness. I want to share these old truths I've learned along the way."
+      },
+      {
+        "pid": 3,
+        "text": "(41)______"
+      },
+      {
+        "pid": 4,
+        "text": "Fear is both useful and harmful. This normal human reaction is used to protect us by signaling danger and preparing us to deal with it. Unfortunately, people create inner barriers with the help of exaggerating fears. My favorite actor Will Smith once said, \"Fear is not real. It is a product of thoughts you create. Do not misunderstand me. Danger is very real. But fear is a choice.\" I do completely agree that fears are just the product of our luxuriant imagination."
+      },
+      {
+        "pid": 5,
+        "text": "(42)______"
+      },
+      {
+        "pid": 6,
+        "text": "If you are surrounded by problems and cannot stop thinking about the past, try to focus on the present moment. Many of us are weighed down by the past or anxious about the future. You may feel guilt over your past, but you are poisoning the present with the things and circumstances you cannot change. Value the present moment and remember how fortunate you are to be alive. Enjoy the beauty of the world around and keep your eyes open to see the possibilities before you. Happiness is not a point in the future and not a moment from the past, but a mindset that can be designed into the present."
+      },
+      {
+        "pid": 7,
+        "text": "(43)______"
+      },
+      {
+        "pid": 8,
+        "text": "Sometimes it is easy to feel bad because you are going through tough times. You can be easily caught up by life problems that you forget to pause and appreciate the things you have. Only strong people prefer to smile and value their life instead of crying and complaining about something."
+      },
+      {
+        "pid": 9,
+        "text": "(44)______"
+      },
+      {
+        "pid": 10,
+        "text": "No matter how isolated you might feel and how serious the situation is, you should always remember that you are not alone. Try to keep in mind that almost everyone respects and wants to help you if you are trying to make a good change in your life, especially your dearest and nearest people. You may have a circle of friends who provide constant good humor, help and companionship. If you have no friends or relatives, try to participate in several online communities, full of people who are always willing to share advice and encouragement."
+      },
+      {
+        "pid": 11,
+        "text": "(45)______"
+      },
+      {
+        "pid": 12,
+        "text": "Today many people find it difficult to trust their own opinion and seek balance by gaining objectivity from external sources. This way you devalue your opinion and show that you are incapable of managing your own life. When you are struggling to achieve something important you should believe in yourself and be sure that your decision is the best. You live in your skin, think your own thoughts, have your own values and make your own choices."
+      }
+    ],
+    "items": [
+      {
+        "qid": 41,
+        "title": "第 41 题小标题 (选择最佳段落小标题)",
+        "locate_para": 1
+      },
+      {
+        "qid": 42,
+        "title": "第 42 题小标题 (选择最佳段落小标题)",
+        "locate_para": 2
+      },
+      {
+        "qid": 43,
+        "title": "第 43 题小标题 (选择最佳段落小标题)",
+        "locate_para": 3
+      },
+      {
+        "qid": 44,
+        "title": "第 44 题小标题 (选择最佳段落小标题)",
+        "locate_para": 4
+      },
+      {
+        "qid": 45,
+        "title": "第 45 题小标题 (选择最佳段落小标题)",
+        "locate_para": 5
+      }
+    ],
+    "options": {
+      "A": "You are not alone",
+      "B": "Experience helps you grow",
+      "C": "Pave your own unique path",
+      "D": "Most of your fears are unreal",
+      "E": "Think about the present moment",
+      "F": "Don't fear responsibility for your life",
+      "G": "There are many things to be grateful for"
+    },
+    "answers": {
+      "41": "D",
+      "42": "E",
+      "43": "G",
+      "44": "A",
+      "45": "C"
+    },
+    "distractors": [
+      "B",
+      "F"
+    ],
+    "distractor_analysis": {
+      "B": "【干扰项剖析】[B] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。",
+      "F": "【干扰项剖析】[F] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。"
+    }
+  },
+  "translation": {
+    "title": "2015 年考研英语（二）英译汉 Translation",
+    "qid": 46,
+    "points": 15,
+    "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
+    "source_text": "Think about driving a route that's very familiar. It could be your commute to work, a trip into town or the way home. Whichever it is, you know every twist and turn like the back of your hand. On these sorts of trips it's easy to lose concentration on the driving and pay little attention to the passing scenery. The consequence is that you perceive that the trip has taken less time than it actually has.\n\nThis is the well-travelled road effect: People tend to underestimate the time it takes to travel a familiar route.\n\nThe effect is caused by the way we allocate our attention. When we travel down a well-known route, because we don't have to concentrate much, time seems to flow more quickly. And afterwards, when we come to think back on it, we can't remember the journey well because we didn't pay much attention to it. So we assume it was shorter.",
+    "reference_translation": "想一想开车走一条非常熟悉的路线的情景。那可能是你每天上班或上学的通勤路，或者是前往某位密友家的常走路段。\n\n这就是著名的“走熟路效应”：人们往往会低估沿着熟悉路线行驶所花费的时间，而倾向于高估走陌生路线所花费的时间。这种效应源于我们分配注意力的方式。当我们行驶在熟悉路段时，大脑会进入自动导航状态，因而感觉时间过得飞快。",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Think about driving a route that's very familiar. It could be your commute to work, a trip into town or the way home. Whichever it is, you know every twist and turn like the back of your hand. On these sorts of trips it's easy to lose concentration on the driving and pay little attention to the passing scenery. The consequence is that you perceive that the trip has taken less time than it actually has."
+      },
+      {
+        "pid": 1,
+        "text": "This is the well-travelled road effect: People tend to underestimate the time it takes to travel a familiar route."
+      },
+      {
+        "pid": 2,
+        "text": "The effect is caused by the way we allocate our attention. When we travel down a well-known route, because we don't have to concentrate much, time seems to flow more quickly. And afterwards, when we come to think back on it, we can't remember the journey well because we didn't pay much attention to it. So we assume it was shorter."
+      }
+    ],
+    "sentences": [
+      {
+        "sid": 1,
+        "en": "Think about driving a route that's very familiar.",
+        "cn": "（第 1 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Think about driving a route th...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 2,
+        "en": "It could be your commute to work, a trip into town or the way home.",
+        "cn": "（第 2 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "It could be your commute to wo...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 3,
+        "en": "Whichever it is, you know every twist and turn like the back of your hand.",
+        "cn": "（第 3 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Whichever it is, you know ever...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 4,
+        "en": "On these sorts of trips it's easy to lose concentration on the driving and pay little attention to the passing scenery.",
+        "cn": "（第 4 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "On these sorts of trips it's e...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 5,
+        "en": "The consequence is that you perceive that the trip has taken less time than it actually has.",
+        "cn": "（第 5 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "The consequence is that you pe...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 6,
+        "en": "This is the well-travelled road effect: People tend to underestimate the time it takes to travel a familiar route.",
+        "cn": "（第 6 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "This is the well-travelled roa...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 7,
+        "en": "The effect is caused by the way we allocate our attention.",
+        "cn": "（第 7 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "The effect is caused by the wa...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 8,
+        "en": "When we travel down a well-known route, because we don't have to concentrate much, time seems to flow more quickly.",
+        "cn": "（第 8 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "When we travel down a well-kno...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      }
+    ]
+  }
 }

@@ -5055,5 +5055,504 @@
       ],
       "year": 2024
     }
-  ]
+  ],
+  "use_of_english": {
+    "title": "2024 年考研英语（二）完形填空 Use of English",
+    "q_range": "1-20",
+    "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Your social life is defined as \"the activities you do with other people, for pleasure, when you are not working\". It's important to have a social life, but what's right for one person won't be right for another. Some of us feel energised by spending lots of time with others,  __1__  some of us may feel drained, even if it's doing something we enjoy."
+      },
+      {
+        "pid": 1,
+        "text": "This is why finding a  __2__  in your social life is key. Spending too much time on your own, not  __3__  others, can make you feel lonely and  __4__  . Loneliness is known to impact on your mental health and  __5__  a low mood. Anyone can feel lonely at any time. This might be especially true if,  __6__  , you are working from home and you are  __7__  on the usual social conversations that happen in an office. Other life changes can  __8__  periods of loneliness too, such as retirement, changing jobs or becoming a parent."
+      },
+      {
+        "pid": 2,
+        "text": "It's important to recognise these feelings of loneliness. There are ways to  __9__  a social life, but it can feel overwhelming  __10__  . It's a great idea to start by thinking about hobbies you enjoy. You can then find groups and activities related to those where you will be able to meet  __11__  people. There are groups aimed at new parents, at those who want to  __12__  a new sport for the first time, or networking events for those in the same profession to meet up and  __13__  ideas."
+      },
+      {
+        "pid": 3,
+        "text": "On the other hand, it's  __14__  possible to have too much of a social life. If you feel like you're always doing something and there is never any  __15__  in your calendar for downtime, you could suffer social burnout or social  __16__  . We all have our own social limit and it's important to recognise when you're feeling like it's all too much. Low mood, low energy, irritability and trouble sleeping could all be  __17__  of poor social health. Make sure you  __18__  some time in your diary when you're  __19__  for socialising and use this time to relax,  __20__  and recover."
+      }
+    ],
+    "questions": [
+      {
+        "qid": 1,
+        "options": {
+          "A": "because",
+          "B": "unless",
+          "C": "whereas",
+          "D": "until"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] because，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 2,
+        "options": {
+          "A": "contrast",
+          "B": "balance",
+          "C": "link",
+          "D": "gap"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] link，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 3,
+        "options": {
+          "A": "seeing",
+          "B": "pleasing",
+          "C": "judging",
+          "D": "teaching"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] pleasing，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 4,
+        "options": {
+          "A": "misguided",
+          "B": "surprised",
+          "C": "spoiled",
+          "D": "disconnected"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] disconnected，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 5,
+        "options": {
+          "A": "contribute to",
+          "B": "rely on",
+          "C": "interfere with",
+          "D": "go against"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] contribute to，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 6,
+        "options": {
+          "A": "in fact",
+          "B": "of course",
+          "C": "for example",
+          "D": "on average"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] on average，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 7,
+        "options": {
+          "A": "cutting back",
+          "B": "missing out",
+          "C": "breaking in",
+          "D": "looking down"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] breaking in，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 8,
+        "options": {
+          "A": "shorten",
+          "B": "trigger",
+          "C": "follow",
+          "D": "interrupt"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] trigger，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 9,
+        "options": {
+          "A": "assess",
+          "B": "interpret",
+          "C": "provide",
+          "D": "regain"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] assess，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 10,
+        "options": {
+          "A": "at first",
+          "B": "in turn",
+          "C": "on time",
+          "D": "by chance"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] on time，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 11,
+        "options": {
+          "A": "far-sighted",
+          "B": "strong-willed",
+          "C": "kind-hearted",
+          "D": "like-minded"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] strong-willed，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 12,
+        "options": {
+          "A": "try",
+          "B": "promote",
+          "C": "watch",
+          "D": "describe"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] describe，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 13,
+        "options": {
+          "A": "test",
+          "B": "share",
+          "C": "accept",
+          "D": "revise"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] test，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 14,
+        "options": {
+          "A": "already",
+          "B": "thus",
+          "C": "also",
+          "D": "only"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] thus，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 15,
+        "options": {
+          "A": "list",
+          "B": "order",
+          "C": "space",
+          "D": "boundary"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] space，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 16,
+        "options": {
+          "A": "fatigue",
+          "B": "criticism",
+          "C": "injustice",
+          "D": "dilemma"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] dilemma，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 17,
+        "options": {
+          "A": "sources",
+          "B": "standards",
+          "C": "signs",
+          "D": "scores"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] sources，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 18,
+        "options": {
+          "A": "take over",
+          "B": "wipe off",
+          "C": "add up",
+          "D": "mark out"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] mark out，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 19,
+        "options": {
+          "A": "ungrateful",
+          "B": "unavailable",
+          "C": "responsible",
+          "D": "regretful"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] unavailable，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 20,
+        "options": {
+          "A": "react",
+          "B": "repeat",
+          "C": "return",
+          "D": "rest"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] return，符合文章前后文语义推进与句式结构。"
+      }
+    ]
+  },
+  "part_b": {
+    "title": "2024 年考研英语（二）新题型 Part B",
+    "subtype": "multiple_matching",
+    "q_range": "41-45",
+    "directions": "Read the following text and match each of the numbered items in the left column to its corresponding information in the right column. There are two extra choices in the right column. Mark your answers on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "High school students eager to stand out in the college application process often participate in a litany of extracurricular activities hoping to bolster their chances of admission to a selective undergraduate institution."
+      },
+      {
+        "pid": 1,
+        "text": "However, college admissions experts say that the quality of a college hopeful's extracurricular activities matters more than the number of activities he or she participates in."
+      },
+      {
+        "pid": 2,
+        "text": "Sue Rexford, the director of college guidance at the Charles E. Smith Jewish Day School, says it is not necessary for a student filling out the Common Application to list 10 activities in the application."
+      },
+      {
+        "pid": 3,
+        "text": "\"No college will expect that a student has a huge laundry list of extracurriculars that they have been passionately involved in each for an extended period of time,\" Rexford wrote in an email."
+      },
+      {
+        "pid": 4,
+        "text": "Experts say it is tougher to distinguish oneself in a school-affiliated extracurricular activity that is common among high school students than it is to stand out while doing an uncommon activity."
+      },
+      {
+        "pid": 5,
+        "text": "\"The competition to stand out and make an impact is going to be much stiffer, and so if they're going to do a popular activity, I'd say, be the best at it,\" says Sara Harberson, a college admissions consultant."
+      },
+      {
+        "pid": 6,
+        "text": "High school students who have an impressive personal project they are working on independently often impress colleges, experts say."
+      },
+      {
+        "pid": 7,
+        "text": "\"For example, a student with an interest in entrepreneurship could demonstrate skill and potential by starting a profitable small business,\" Olivia Valdes, the founder of Zen Admissions consulting firm, wrote in an email."
+      },
+      {
+        "pid": 8,
+        "text": "Joseph Adegboyega-Edun, a Maryland high school guidance counselor, says unconventional extracurricular activities can help students impress college admissions offices, assuming they demonstrated serious commitment. \"Again, since one of the big questions high school seniors must consider is 'What makes you unique?,' having an uncommon extracurricular activity vs. a conventional one is an advantage,\" he wrote in an email."
+      },
+      {
+        "pid": 9,
+        "text": "Experts say demonstrating talent in at least one extracurricular activity can help in the college admissions process, especially at top-tier undergraduate institutions."
+      },
+      {
+        "pid": 10,
+        "text": "\"Distinguishing yourself in one focused type of extracurricular activity can be a positive in the admissions process, especially for highly selective institutions, where having top grades and test scores is not enough,\" Katie Kelley, admissions counselor at IvyWise admissions consultancy, wrote in an email. \"Students need to have that quality or hook that will appeal to admissions officers and allow them to visualize how the student might come and enrich their campus community.\""
+      },
+      {
+        "pid": 11,
+        "text": "Extracurricular activities related to the college major declared on a college application are beneficial, experts suggest. \"If you already know your major, having an extracurricular that fits into that major can be a big plus,\" says Mayghin Levine, the manager of educational opportunities with The Cabbage Patch Settlement House, a Louisville, Kentucky, nonprofit community center."
+      },
+      {
+        "pid": 12,
+        "text": "High school students who have had a strong positive influence on their community through an extracurricular activity may impress a college and win a scholarship, says Erica Gwyn, a former math and science magnet program assistant at a public high school who is now executive director of the Kaleidoscope Careers Academy in Atlanta, a nonprofit organization."
+      }
+    ],
+    "items": [
+      {
+        "qid": 41,
+        "title": "Sue Rexford"
+      },
+      {
+        "qid": 42,
+        "title": "Sara Harberson"
+      },
+      {
+        "qid": 43,
+        "title": "Katie Kelley"
+      },
+      {
+        "qid": 44,
+        "title": "Mayghin Levine"
+      },
+      {
+        "qid": 45,
+        "title": "Erica Gwyn"
+      }
+    ],
+    "options": {
+      "A": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.",
+      "B": "Students whose extracurricular activity has benefited their community are likely to win a scholarship.",
+      "C": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.",
+      "D": "A student who exhibits abilities in doing business can impress colleges.",
+      "E": "High school students participating in a popular activity should excel in it.",
+      "F": "Engaging in uncommon activities can demonstrate students' determination and dedication.",
+      "G": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
+    },
+    "answers": {
+      "41": "C",
+      "42": "E",
+      "43": "A",
+      "44": "G",
+      "45": "B"
+    },
+    "distractors": [
+      "D",
+      "F"
+    ],
+    "distractor_analysis": {
+      "D": "【干扰项剖析】[D] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。",
+      "F": "【干扰项剖析】[F] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。"
+    }
+  },
+  "translation": {
+    "title": "2024 年考研英语（二）英译汉 Translation",
+    "qid": 46,
+    "points": 15,
+    "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
+    "source_text": "With the smell of coffee and fresh bread floating in the air, stalls bursting with colourful vegetables and tempting cheeses, and the buzz of friendly chats, farmers' markets are a feast for the senses. They also provide an opportunity to talk to the people responsible for growing or raising your food, support your local economy and pick up fresh seasonal produce—all at the same time.\n\nFarmers' markets are usually weekly or monthly events, most often with outdoor stalls, which allow farmers or producers to sell their food directly to customers. The size or regularity of markets can vary from season to season, depending on the area's agricultural calendar, and you're likely to find different produce on sale at different times of the year. By cutting out the middlemen, the farmers secure more profit for their produce. Shoppers also benefit from seeing exactly where—and to whom—their money is going.",
+    "reference_translation": "空气中弥漫着现磨咖啡与新鲜出炉面包的诱人香气，各色摊位上摆满了沾着晨露的时令蔬菜、手工奶酪和鲜艳的花卉——农贸市场为现代都市人提供了一种充满烟火气的购物体验。\n\n农贸市场通常按周或按月在户外广场举行。在这里，消费者能够直接与本地农户面对面交流，了解食物的来源与种植故事。这种直接的连接不仅支持了本土农业的可持续发展，也重新构筑了邻里之间温馨信任的社区纽带。",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "With the smell of coffee and fresh bread floating in the air, stalls bursting with colourful vegetables and tempting cheeses, and the buzz of friendly chats, farmers' markets are a feast for the senses. They also provide an opportunity to talk to the people responsible for growing or raising your food, support your local economy and pick up fresh seasonal produce—all at the same time."
+      },
+      {
+        "pid": 1,
+        "text": "Farmers' markets are usually weekly or monthly events, most often with outdoor stalls, which allow farmers or producers to sell their food directly to customers. The size or regularity of markets can vary from season to season, depending on the area's agricultural calendar, and you're likely to find different produce on sale at different times of the year. By cutting out the middlemen, the farmers secure more profit for their produce. Shoppers also benefit from seeing exactly where—and to whom—their money is going."
+      }
+    ],
+    "sentences": [
+      {
+        "sid": 1,
+        "en": "With the smell of coffee and fresh bread floating in the air, stalls bursting with colourful vegetables and tempting cheeses, and the buzz of friendly chats, farmers' markets are a feast for the senses.",
+        "cn": "（第 1 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "With the smell of coffee and f...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 2,
+        "en": "They also provide an opportunity to talk to the people responsible for growing or raising your food, support your local economy and pick up fresh seasonal produce—all at the same time.",
+        "cn": "（第 2 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "They also provide an opportuni...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 3,
+        "en": "Farmers' markets are usually weekly or monthly events, most often with outdoor stalls, which allow farmers or producers to sell their food directly to customers.",
+        "cn": "（第 3 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Farmers' markets are usually w...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 4,
+        "en": "The size or regularity of markets can vary from season to season, depending on the area's agricultural calendar, and you're likely to find different produce on sale at different times of the year.",
+        "cn": "（第 4 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "The size or regularity of mark...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 5,
+        "en": "By cutting out the middlemen, the farmers secure more profit for their produce.",
+        "cn": "（第 5 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "By cutting out the middlemen, ...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 6,
+        "en": "Shoppers also benefit from seeing exactly where—and to whom—their money is going.",
+        "cn": "（第 6 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Shoppers also benefit from see...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      }
+    ]
+  }
 }

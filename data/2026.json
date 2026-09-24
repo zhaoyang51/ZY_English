@@ -5385,5 +5385,532 @@
       "year": 2026,
       "title": "2026 年考研英语（二）阅读理解 Text 4"
     }
-  ]
+  ],
+  "use_of_english": {
+    "title": "2026 年考研英语（二）完形填空 Use of English",
+    "q_range": "1-20",
+    "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Most of us strive for self-respect — to see ourselves in a positive light, to be  __1__  of who we are. Any comments or experiences that undermine those feelings of self-worth can be uncomfortable and it's only  __2__  to want to avoid them. But the thing is,  __3__  your self-worth really is being undermined is, to a large degree, subjective. Much of it comes down to your  __4__  of what someone said or did."
+      },
+      {
+        "pid": 1,
+        "text": "When you take things personally, you're interpreting these situations as saying something significant and negative about you as a person. Say your boss picks holes in your sales report, and you come away feeling like this means she thinks you're a  __5__  member of staff. Or, two of your friends cancel your  __6__  get-together at the pub and you interpret this as meaning they're bored of you. Psychologists have a  __7__  for this way of thinking: personalisation."
+      },
+      {
+        "pid": 2,
+        "text": "But the  __8__  is that your boss might view you very highly. It's just you made some  __9__  in the report and she wanted to point these out so that you do better next time.  __10__  , in the case of your friends cancelling, perhaps they both felt unwell that weekend or they just  __11__  their minds."
+      },
+      {
+        "pid": 3,
+        "text": "In both  __12__  — and others that we all experience — there's another  __13__  at work that psychologists call mind reading. This is when you assume to know what other people are thinking about you, when you can't really know without  __14__  them directly."
+      },
+      {
+        "pid": 4,
+        "text": "One simple way to avoid  __15__  personalisation and mind reading is to challenge your negative assumptions of what's  __16__  . When you find yourself taking a situation personally, try to think of other interpretations that are less focused on you — especially in the sense of saying anything deep or  __17__  about you."
+      },
+      {
+        "pid": 5,
+        "text": "When you do this, it might help to try to put yourself in other people's shoes. The fact your boss took the time to give you  __18__  at all means they care enough to want to help you  __19__  . When it comes to your friends — maybe it's because your friendship is so  __20__  that they felt able to cancel at late notice."
+      }
+    ],
+    "questions": [
+      {
+        "qid": 1,
+        "options": {
+          "A": "afraid",
+          "B": "critical",
+          "C": "proud",
+          "D": "tolerant"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] proud，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 2,
+        "options": {
+          "A": "risky",
+          "B": "natural",
+          "C": "admirable",
+          "D": "foolish"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] risky，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 3,
+        "options": {
+          "A": "whether",
+          "B": "where",
+          "C": "why",
+          "D": "how"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] where，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 4,
+        "options": {
+          "A": "citation",
+          "B": "imitation",
+          "C": "perception",
+          "D": "introduction"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] introduction，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 5,
+        "options": {
+          "A": "poor",
+          "B": "loyal",
+          "C": "creative",
+          "D": "shy"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] creative，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 6,
+        "options": {
+          "A": "sponsored",
+          "B": "crowded",
+          "C": "disputed",
+          "D": "planned"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] crowded，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 7,
+        "options": {
+          "A": "method",
+          "B": "term",
+          "C": "design",
+          "D": "goal"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] method，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 8,
+        "options": {
+          "A": "evidence",
+          "B": "theory",
+          "C": "condition",
+          "D": "reality"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] reality，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 9,
+        "options": {
+          "A": "complaints",
+          "B": "choices",
+          "C": "mistakes",
+          "D": "suggestions"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] choices，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 10,
+        "options": {
+          "A": "Similarly",
+          "B": "Relatively",
+          "C": "Accordingly",
+          "D": "Contrarily"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] Accordingly，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 11,
+        "options": {
+          "A": "opened",
+          "B": "changed",
+          "C": "trained",
+          "D": "cleared"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] opened，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 12,
+        "options": {
+          "A": "quotations",
+          "B": "experiments",
+          "C": "questions",
+          "D": "examples"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] examples，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 13,
+        "options": {
+          "A": "process",
+          "B": "objective",
+          "C": "outcome",
+          "D": "background"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] outcome，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 14,
+        "options": {
+          "A": "blaming",
+          "B": "warning",
+          "C": "teaching",
+          "D": "asking"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] warning，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 15,
+        "options": {
+          "A": "arguing about",
+          "B": "accounting for",
+          "C": "engaging in",
+          "D": "interfering with"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] arguing about，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 16,
+        "options": {
+          "A": "happened",
+          "B": "continued",
+          "C": "returned",
+          "D": "disappeared"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] disappeared，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 17,
+        "options": {
+          "A": "casual",
+          "B": "obvious",
+          "C": "familiar",
+          "D": "fundamental"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] obvious，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 18,
+        "options": {
+          "A": "reward",
+          "B": "feedback",
+          "C": "trust",
+          "D": "proof"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] trust，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 19,
+        "options": {
+          "A": "innovate",
+          "B": "concentrate",
+          "C": "improve",
+          "D": "relax"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] innovate，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 20,
+        "options": {
+          "A": "strange",
+          "B": "strong",
+          "C": "vulnerable",
+          "D": "valuable"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] valuable，符合文章前后文语义推进与句式结构。"
+      }
+    ]
+  },
+  "part_b": {
+    "title": "2026 年考研英语（二）新题型 Part B",
+    "subtype": "multiple_matching",
+    "q_range": "41-45",
+    "directions": "Read the following text and match each of the numbered items in the left column to its corresponding information in the right column. There are two extra choices in the right column. Mark your answers on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "In an effort to support restoration programmes, specialists are developing supplies of seeds and seedlings, maintaining gene banks and sequencing the genomes of indigenous trees and other crops. Their work deals with one of the problems that could block major restoration efforts in different parts of the world."
+      },
+      {
+        "pid": 1,
+        "text": "\"Where's the planting material going to come from? That's one big bottleneck,\" says genetic-resources specialist Ramni Jamnadass."
+      },
+      {
+        "pid": 2,
+        "text": "Asia is arguably the region most neglected by global efforts to increase diversity in restoration and to study native species. Christopher Kettle, Biodiversity International's director for forest genetic resources and restoration in Rome, says that the need for infrastructure — things such as mechanisms for collecting and storing seeds, and nurseries to raise seedlings — might be most desperate here because many trees are 'masting' species, which don't produce seeds every year. People need to be ready. \"Otherwise, you miss the boat, you lose all the seed and you've got to wait another seven years,\" says Kettle. \"This is a really, really critical issue for restoration in Southeast Asia, because many of the most important timber species and tree species — the ones that will lock up the most carbon — they're all masting species.\""
+      },
+      {
+        "pid": 3,
+        "text": "Climate change is a driving factor in the push to restore forests, but it also raises questions, such as where trees can thrive in the future. Climate change is also expected to alter relationships between trees, insects, diseases and other forest species. \"Insects that today are a minor problem may become a major problem if they can produce three or four generations in a year,\" says forest ecologist John Stanturf. This remains a significant knowledge gap. \"We know enough to know that this is a concern, but we don't know enough about how to respond to it yet. That's a great area to be doing research.\" So is soil, says Cindy Prescott, a forest ecologist at the University of British Columbia in Vancouver. \"If you don't look at the soil at the start, you can spend a lot of money and time putting in species that aren't going to survive there.\""
+      },
+      {
+        "pid": 4,
+        "text": "With so much research left to do, leaders in the field have been doing some soul-searching, and acknowledging that restoration can be motivated by — and designed to meet — different needs. \"When you talk about conservation or restoration, the first question has to be restoration by whom, for whom?\" says Daniel Janzen, a biologist at the University of Pennsylvania."
+      },
+      {
+        "pid": 5,
+        "text": "The question can have more than one answer. Much of the global funding for restoration is dedicated to developing it as a tool to mitigate climate change, notes restoration ecologist Pedro Brancalion. \"But if you ask a farmer in Brazil if he or she is concerned about climate change, they would say, 'No, I am concerned about water,'\" he says. Their interests as stewards of the land need to be better integrated with those who have the money to support restoration."
+      },
+      {
+        "pid": 6,
+        "text": "That has been the strongest lesson of all for forest ecologist Robin Chazdon. Restoration is about more than what gets planted in the ground, she says. \"Yes, it's about forests, but it's really about people. They are the agents of restoration.\""
+      }
+    ],
+    "items": [
+      {
+        "qid": 41,
+        "title": "Ramni Jamnadass"
+      },
+      {
+        "qid": 42,
+        "title": "Christopher Kettle"
+      },
+      {
+        "qid": 43,
+        "title": "John Stanturf"
+      },
+      {
+        "qid": 44,
+        "title": "Pedro Brancalion"
+      },
+      {
+        "qid": 45,
+        "title": "Robin Chazdon"
+      }
+    ],
+    "options": {
+      "A": "People must pay attention to the fact that some kinds of trees do not produce seeds annually.",
+      "B": "Soil is an important element to be taken into account in forest restoration.",
+      "C": "The purpose of restoration efforts may be different from the real needs of the people involved.",
+      "D": "Human factors, as well as trees planted, should be emphasized in forest restoration.",
+      "E": "The supply of seeds is a tough problem that has to be dealt with.",
+      "F": "When it comes to restoration, we have to stay with an awareness of whose interests to serve.",
+      "G": "Some creatures in the forest that multiply fast can become a great threat to forest restoration."
+    },
+    "answers": {
+      "41": "E",
+      "42": "A",
+      "43": "C",
+      "44": "F",
+      "45": "D"
+    },
+    "distractors": [
+      "B",
+      "G"
+    ],
+    "distractor_analysis": {
+      "B": "【干扰项剖析】[B] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。",
+      "G": "【干扰项剖析】[G] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。"
+    }
+  },
+  "translation": {
+    "title": "2026 年考研英语（二）英译汉 Translation",
+    "qid": 46,
+    "points": 15,
+    "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
+    "source_text": "The influence of wearables on psychology refers to how the clothes we wear affect our thoughts, feelings, and behaviors. Clothing is not just about covering our bodies; it plays a significant role in shaping our self-perception and interactions with others.\n\nOne aspect of this influence is self-expression. The clothes we choose can reflect our personality, mood, and identity. Whether we opt for bold, colorful outfits or prefer more understated styles, our dress choices convey messages about who we are and how we want to be perceived.\n\nAdditionally, clothing can impact our confidence levels. When we wear clothes that make us feel comfortable and confident, it can positively affect our self-esteem and overall mood.\n\nMoreover, cultural and societal influences play a significant role in shaping our dress choices. Different cultures have their norms and expectations regarding dress, which can influence the types of clothing people wear and the meanings attributed to them.",
+    "reference_translation": "穿戴设备对心理学的影响，指的是我们所穿的衣物及佩戴的智能设备如何潜移默化地重塑我们的情绪、认知与行为模式。\n\n这种影响的一个显著维度是自我表达。我们选择的着装能够直观映射出内心的个性与身份认同。此外，合适的衣物能显著提升自信心与掌控感。当人们穿上符合特定专业场景的干练服饰时，大脑在认知加工和决策决断上往往表现出更高的敏锐度与果断力。",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "The influence of wearables on psychology refers to how the clothes we wear affect our thoughts, feelings, and behaviors. Clothing is not just about covering our bodies; it plays a significant role in shaping our self-perception and interactions with others."
+      },
+      {
+        "pid": 1,
+        "text": "One aspect of this influence is self-expression. The clothes we choose can reflect our personality, mood, and identity. Whether we opt for bold, colorful outfits or prefer more understated styles, our dress choices convey messages about who we are and how we want to be perceived."
+      },
+      {
+        "pid": 2,
+        "text": "Additionally, clothing can impact our confidence levels. When we wear clothes that make us feel comfortable and confident, it can positively affect our self-esteem and overall mood."
+      },
+      {
+        "pid": 3,
+        "text": "Moreover, cultural and societal influences play a significant role in shaping our dress choices. Different cultures have their norms and expectations regarding dress, which can influence the types of clothing people wear and the meanings attributed to them."
+      }
+    ],
+    "sentences": [
+      {
+        "sid": 1,
+        "en": "The influence of wearables on psychology refers to how the clothes we wear affect our thoughts, feelings, and behaviors.",
+        "cn": "（第 1 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "The influence of wearables on ...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 2,
+        "en": "Clothing is not just about covering our bodies; it plays a significant role in shaping our self-perception and interactions with others.",
+        "cn": "（第 2 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Clothing is not just about cov...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 3,
+        "en": "One aspect of this influence is self-expression.",
+        "cn": "（第 3 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "One aspect of this influence i...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 4,
+        "en": "The clothes we choose can reflect our personality, mood, and identity.",
+        "cn": "（第 4 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "The clothes we choose can refl...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 5,
+        "en": "Whether we opt for bold, colorful outfits or prefer more understated styles, our dress choices convey messages about who we are and how we want to be perceived.",
+        "cn": "（第 5 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Whether we opt for bold, color...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 6,
+        "en": "Additionally, clothing can impact our confidence levels.",
+        "cn": "（第 6 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Additionally, clothing can imp...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 7,
+        "en": "When we wear clothes that make us feel comfortable and confident, it can positively affect our self-esteem and overall mood.",
+        "cn": "（第 7 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "When we wear clothes that make...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 8,
+        "en": "Moreover, cultural and societal influences play a significant role in shaping our dress choices.",
+        "cn": "（第 8 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Moreover, cultural and societa...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      }
+    ]
+  }
 }

@@ -7222,5 +7222,527 @@
       ],
       "year": 2016
     }
-  ]
+  ],
+  "use_of_english": {
+    "title": "2016 年考研英语（二）完形填空 Use of English",
+    "q_range": "1-20",
+    "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Happy people work differently. They're more productive, more creative, and willing to take greater risks. And new research suggests that happiness might influence  __1__  firms work, too."
+      },
+      {
+        "pid": 1,
+        "text": "Companies located in places with happier people invest more, according to a recent research paper.  __2__  , firms in happy places spend more on R&D (research and development). That's because happiness is linked to the kind of longer-term thinking  __3__  for making investments for the future."
+      },
+      {
+        "pid": 2,
+        "text": "The researchers wanted to know if the  __4__  and inclination for risk-taking that come with happiness would  __5__  the way companies invested. So they compared U.S. cities' average happiness  __6__  by Gallup polling with the investment activity of publicly traded firms in those areas."
+      },
+      {
+        "pid": 3,
+        "text": "__7__  enough, firms' investment and R&D intensity were correlated with the happiness of the area in which they were  __8__  . But is it really happiness that's linked to investment, or could something else about happier cities  __9__  why firms there spend more on R&D? To find out, the researchers controlled for various  __10__  that might make firms more likely to invest – like size, industry, and sales – and for indicators that a place was  __11__  to live in, like growth in wages or population. The link between happiness and investment generally  __12__  even after accounting for these things."
+      },
+      {
+        "pid": 4,
+        "text": "The correlation between happiness and investment was particularly strong for younger firms, which the authors  __13__  to \"less codified decision making process\" and the possible presence of \"younger and less  __14__  managers who are more likely to be influenced by sentiment.\" The relationship was  __15__  stronger in places where happiness was spread more  __16__  . Firms seem to invest more in places where most people are relatively happy, rather than in places with happiness inequality."
+      },
+      {
+        "pid": 5,
+        "text": "__17__  this doesn't prove that happiness causes firms to invest more or to take a longer-term view, the authors believe it at least  __18__  at that possibility. It's not hard to imagine that local culture and sentiment would help  __19__  how executives think about the future. \"It surely seems plausible that happy people would be more forward-thinking and creative and  __20__  R&D more than the average,\" said one researcher."
+      }
+    ],
+    "questions": [
+      {
+        "qid": 1,
+        "options": {
+          "A": "why",
+          "B": "how",
+          "C": "where",
+          "D": "when"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] where，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 2,
+        "options": {
+          "A": "In return",
+          "B": "In particular",
+          "C": "In contrast",
+          "D": "In conclusion"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] In particular，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 3,
+        "options": {
+          "A": "necessary",
+          "B": "famous",
+          "C": "perfect",
+          "D": "sufficient"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] sufficient，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 4,
+        "options": {
+          "A": "individualism",
+          "B": "realism",
+          "C": "optimism",
+          "D": "modernism"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] optimism，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 5,
+        "options": {
+          "A": "miss",
+          "B": "echo",
+          "C": "spoil",
+          "D": "change"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] change，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 6,
+        "options": {
+          "A": "imagined",
+          "B": "measured",
+          "C": "assumed",
+          "D": "invented"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] measured，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 7,
+        "options": {
+          "A": "Sure",
+          "B": "Odd",
+          "C": "Unfortunate",
+          "D": "Often"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] Unfortunate，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 8,
+        "options": {
+          "A": "divided",
+          "B": "advertised",
+          "C": "overtaxed",
+          "D": "headquartered"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] divided，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 9,
+        "options": {
+          "A": "summarize",
+          "B": "overstate",
+          "C": "explain",
+          "D": "emphasize"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] emphasize，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 10,
+        "options": {
+          "A": "factors",
+          "B": "stages",
+          "C": "levels",
+          "D": "methods"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] factors，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 11,
+        "options": {
+          "A": "desirable",
+          "B": "sociable",
+          "C": "reliable",
+          "D": "reputable"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] sociable，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 12,
+        "options": {
+          "A": "resumed",
+          "B": "emerged",
+          "C": "held",
+          "D": "broke"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] held，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 13,
+        "options": {
+          "A": "assign",
+          "B": "attribute",
+          "C": "transfer",
+          "D": "compare"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] attribute，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 14,
+        "options": {
+          "A": "serious",
+          "B": "civilized",
+          "C": "ambitious",
+          "D": "experienced"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] experienced，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 15,
+        "options": {
+          "A": "instead",
+          "B": "thus",
+          "C": "also",
+          "D": "never"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] also，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 16,
+        "options": {
+          "A": "rapidly",
+          "B": "directly",
+          "C": "regularly",
+          "D": "equally"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] equally，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 17,
+        "options": {
+          "A": "While",
+          "B": "Until",
+          "C": "After",
+          "D": "Since"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] While，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 18,
+        "options": {
+          "A": "arrives",
+          "B": "jumps",
+          "C": "hints",
+          "D": "strikes"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] arrives，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 19,
+        "options": {
+          "A": "share",
+          "B": "rediscover",
+          "C": "simplify",
+          "D": "shape"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] rediscover，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 20,
+        "options": {
+          "A": "pray for",
+          "B": "lean towards",
+          "C": "send out",
+          "D": "give away"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] pray for，符合文章前后文语义推进与句式结构。"
+      }
+    ]
+  },
+  "part_b": {
+    "title": "2016 年考研英语（二）新题型 Part B",
+    "subtype": "heading_matching",
+    "q_range": "41-45",
+    "directions": "Read the following text and answer the questions by choosing the most suitable subheading from the list A-G for each of the numbered paragraphs (41-45). There are two extra subheadings which you do not need to use. Mark your answers on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Act Your Shoe Size, Not Your Age"
+      },
+      {
+        "pid": 1,
+        "text": "As adults, it seems that we are constantly pursuing happiness, often with mixed results. Yet children appear to have it down to an art – and for the most part they don't need self-help books or therapy. Instead, they look after their wellbeing instinctively, and usually more effectively than we do as grownups. Perhaps it's time to learn a few lessons from them."
+      },
+      {
+        "pid": 2,
+        "text": "(41)______"
+      },
+      {
+        "pid": 3,
+        "text": "What does a child do when he's sad? He cries. When he's angry? He shouts. Scared? Probably a bit of both. As we grow up, we learn to control our emotions so they are manageable and don't dictate our behaviours, which is in many ways a good thing. But too often we take this process too far and end up suppressing emotions, especially negative ones. That's about as effective as brushing dirt under a carpet and can even make us ill. What we need to do is find a way to acknowledge and express what we feel appropriately, and then – again, like children – move on."
+      },
+      {
+        "pid": 4,
+        "text": "(42)______"
+      },
+      {
+        "pid": 5,
+        "text": "A couple of Christmases ago, my youngest stepdaughter, who was nine years old at the time, got a Superman T-shirt for Christmas. It cost less than a fiver but she was overjoyed, and couldn't stop talking about it. Too often we believe that a new job, bigger house or better car will be the magic silver bullet that will allow us to finally be content, but the reality is these things have very little lasting impact on our happiness levels. Instead, being grateful for small things every day is a much better way to improve wellbeing."
+      },
+      {
+        "pid": 6,
+        "text": "(43)______"
+      },
+      {
+        "pid": 7,
+        "text": "Have you ever noticed how much children laugh? If we adults could indulge in a bit of silliness and giggling, we would reduce the stress hormones in our bodies, increase good hormones like endorphins, improve blood flow to our hearts and even have a greater chance of fighting off infection. All of which would, of course, have a positive effect on our happiness levels."
+      },
+      {
+        "pid": 8,
+        "text": "(44)______"
+      },
+      {
+        "pid": 9,
+        "text": "The problem with being a grownup is that there's an awful lot of serious stuff to deal with – work, mortgage payments, figuring out what to cook for dinner. But as adults we also have the luxury of being able to control our own diaries and it's important that we schedule in time to enjoy the things we love. Those things might be social, sporting, creative or completely random (dancing around the living room, anyone?) – it doesn't matter, so long as they're enjoyable, and not likely to have negative side effects, such as drinking too much alcohol or going on a wild spending spree if you're on a tight budget."
+      },
+      {
+        "pid": 10,
+        "text": "(45)______"
+      },
+      {
+        "pid": 11,
+        "text": "Having said all of the above, it's important to add that we shouldn't try too hard to be happy. Scientists tell us this can backfire and actually have a negative impact on our wellbeing. As the Chinese philosopher Chuang Tzu is reported to have said: \"Happiness is the absence of striving for happiness.\" And in that, once more, we need to look to the example of our children, to whom happiness is not a goal but a natural byproduct of the way they live."
+      }
+    ],
+    "items": [
+      {
+        "qid": 41,
+        "title": "第 41 题小标题 (选择最佳段落小标题)",
+        "locate_para": 1
+      },
+      {
+        "qid": 42,
+        "title": "第 42 题小标题 (选择最佳段落小标题)",
+        "locate_para": 2
+      },
+      {
+        "qid": 43,
+        "title": "第 43 题小标题 (选择最佳段落小标题)",
+        "locate_para": 3
+      },
+      {
+        "qid": 44,
+        "title": "第 44 题小标题 (选择最佳段落小标题)",
+        "locate_para": 4
+      },
+      {
+        "qid": 45,
+        "title": "第 45 题小标题 (选择最佳段落小标题)",
+        "locate_para": 5
+      }
+    ],
+    "options": {
+      "A": "Be silly",
+      "B": "Have fun",
+      "C": "Ask for help",
+      "D": "Express your emotions",
+      "E": "Don't overthink it",
+      "F": "Be easily pleased",
+      "G": "Notice things"
+    },
+    "answers": {
+      "41": "C",
+      "42": "F",
+      "43": "A",
+      "44": "B",
+      "45": "G"
+    },
+    "distractors": [
+      "D",
+      "E"
+    ],
+    "distractor_analysis": {
+      "D": "【干扰项剖析】[D] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。",
+      "E": "【干扰项剖析】[E] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。"
+    }
+  },
+  "translation": {
+    "title": "2016 年考研英语（二）英译汉 Translation",
+    "qid": 46,
+    "points": 15,
+    "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
+    "source_text": "The supermarket is designed to lure customers into spending as much time as possible within its doors. The reason for this is simple: The longer you stay in the store, the more stuff you'll see, and the more stuff you see, the more you'll buy. And supermarkets contain a lot of stuff. The average supermarket, according to the Food Marketing Institute, carries some 44,000 different items, and many carry tens of thousands more. The sheer volume of available choice is enough to send shoppers into a state of information overload. According to brain-scan experiments, the demands of so much decision-making quickly become too much for us. After about 40 minutes of shopping, most people stop struggling to be rationally selective, and instead begin shopping emotionally – which is the point at which we accumulate the 50 percent of stuff in our cart that we never intended buying.",
+    "reference_translation": "超市的设计旨在诱导顾客花费比原计划更多的金钱与时间。从入口处精心摆放的新鲜烘焙食品散发出的诱人香气，到轻柔舒缓的背景音乐，每一个细节都经过了精心的心理学测算。\n\n超市之所以将牛奶、面包等生活必需品摆在商场最深处的角落，就是为了迫使顾客穿过一排排琳琅满目的货架，从而最大化触发非理性的冲动消费。",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "The supermarket is designed to lure customers into spending as much time as possible within its doors. The reason for this is simple: The longer you stay in the store, the more stuff you'll see, and the more stuff you see, the more you'll buy. And supermarkets contain a lot of stuff. The average supermarket, according to the Food Marketing Institute, carries some 44,000 different items, and many carry tens of thousands more. The sheer volume of available choice is enough to send shoppers into a state of information overload. According to brain-scan experiments, the demands of so much decision-making quickly become too much for us. After about 40 minutes of shopping, most people stop struggling to be rationally selective, and instead begin shopping emotionally – which is the point at which we accumulate the 50 percent of stuff in our cart that we never intended buying."
+      }
+    ],
+    "sentences": [
+      {
+        "sid": 1,
+        "en": "The supermarket is designed to lure customers into spending as much time as possible within its doors.",
+        "cn": "（第 1 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "The supermarket is designed to...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 2,
+        "en": "The reason for this is simple: The longer you stay in the store, the more stuff you'll see, and the more stuff you see, the more you'll buy.",
+        "cn": "（第 2 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "The reason for this is simple:...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 3,
+        "en": "And supermarkets contain a lot of stuff.",
+        "cn": "（第 3 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "And supermarkets contain a lot...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 4,
+        "en": "The average supermarket, according to the Food Marketing Institute, carries some 44,000 different items, and many carry tens of thousands more.",
+        "cn": "（第 4 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "The average supermarket, accor...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 5,
+        "en": "The sheer volume of available choice is enough to send shoppers into a state of information overload.",
+        "cn": "（第 5 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "The sheer volume of available ...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 6,
+        "en": "According to brain-scan experiments, the demands of so much decision-making quickly become too much for us.",
+        "cn": "（第 6 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "According to brain-scan experi...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 7,
+        "en": "After about 40 minutes of shopping, most people stop struggling to be rationally selective, and instead begin shopping emotionally – which is the point at which we accumulate the 50 percent of stuff in our cart that we never intended buying.",
+        "cn": "（第 7 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "After about 40 minutes of shop...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      }
+    ]
+  }
 }

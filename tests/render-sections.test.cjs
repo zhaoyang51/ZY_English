@@ -65,13 +65,13 @@ function setupDOM() {
   return { context, document, elements };
 }
 
-test('Renderer modules can render 2010 and 2011 without errors', () => {
+test('Renderer modules can render all years 2010 to 2026 without errors', () => {
   const { context, document } = setupDOM();
   assert.ok(context.window.ClozeRenderer);
   assert.ok(context.window.MatchingRenderer);
   assert.ok(context.window.TranslationRenderer);
 
-  for (const yr of [2010, 2011]) {
+  for (let yr = 2010; yr <= 2026; yr++) {
     const data = JSON.parse(read(`data/${yr}.json`));
     
     // 1. Cloze

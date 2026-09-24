@@ -5645,5 +5645,557 @@
       "q_range": "36-40",
       "year": 2025
     }
-  ]
+  ],
+  "use_of_english": {
+    "title": "2025 年考研英语（二）完形填空 Use of English",
+    "q_range": "1-20",
+    "directions": "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "There are many understandable reasons why you might find it difficult to ask for help when you need it. Psychologists have been interested in this  __1__  for decades, not least because people's widespread  __2__  to ask for help has led to some high-profile failures."
+      },
+      {
+        "pid": 1,
+        "text": "Asking for help takes  __3__  . It involves communicating a need on your part—there's something you can't do.  __4__  you're broadcasting your own weaknesses, which can be  __5__  . You might worry about coming across as incompetent. You might have  __6__  about losing control of whatever it is you're asking for help with.  __7__  someone starts to help, perhaps they'll take over, or get credit for your earlier efforts. Yet another  __8__  that you might be worried about is being a nuisance or  __9__  the person you go to for help."
+      },
+      {
+        "pid": 2,
+        "text": "If you struggle with low self-esteem, you might find it especially difficult to  __10__  for help because you have the added worry of the other person  __11__  your request. You might see such refusals as implying something  __12__  about the status of your relationship with them. To  __13__  these difficulties, try to remind yourself that everyone needs help sometimes. Nobody knows everything and can do everything all by themselves. And while you might  __14__  coming across as incompetent, there's actually research that shows that advice-seekers are  __15__  as more competent, not less."
+      },
+      {
+        "pid": 3,
+        "text": "Perhaps most encouraging of all is a paper from 2022 by researchers at Stanford University that involved a mix of contrived help-seeking interactions and asking people to  __16__  times they'd sought help in the past. The findings showed that help-seekers generally underestimate how  __17__  other people will be to help and how good it'll make the help-giver feel (for most people, having the chance to help someone is highly  __18__  )."
+      },
+      {
+        "pid": 4,
+        "text": "So, bear all this in mind the next time you need to ask for help.  __19__  take care over who you ask and when you ask them. And if someone can't help right now, avoid taking it personally. They might just be too  __20__  , or they might not feel confident about their ability to help."
+      }
+    ],
+    "questions": [
+      {
+        "qid": 1,
+        "options": {
+          "A": "illusion",
+          "B": "discussion",
+          "C": "tradition",
+          "D": "question"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] discussion，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 2,
+        "options": {
+          "A": "reluctance",
+          "B": "ambition",
+          "C": "tendency",
+          "D": "enthusiasm"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] reluctance，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 3,
+        "options": {
+          "A": "attention",
+          "B": "talent",
+          "C": "courage",
+          "D": "patience"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] patience，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 4,
+        "options": {
+          "A": "At any time",
+          "B": "In other words",
+          "C": "By all means",
+          "D": "On the contrary"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] By all means，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 5,
+        "options": {
+          "A": "unrealistic",
+          "B": "deceptive",
+          "C": "tiresome",
+          "D": "uncomfortable"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] deceptive，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 6,
+        "options": {
+          "A": "doubts",
+          "B": "concerns",
+          "C": "suggestions",
+          "D": "secrets"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] secrets，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 7,
+        "options": {
+          "A": "Once",
+          "B": "Unless",
+          "C": "Although",
+          "D": "Before"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] Once，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 8,
+        "options": {
+          "A": "theory",
+          "B": "choice",
+          "C": "factor",
+          "D": "context"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] factor，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 9,
+        "options": {
+          "A": "overpraising",
+          "B": "outperforming",
+          "C": "reassessing",
+          "D": "inconveniencing"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] outperforming，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 10,
+        "options": {
+          "A": "reach out",
+          "B": "settle down",
+          "C": "turn over",
+          "D": "look back"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] reach out，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 11,
+        "options": {
+          "A": "declining",
+          "B": "considering",
+          "C": "criticising",
+          "D": "evaluating"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] evaluating，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 12,
+        "options": {
+          "A": "unnecessary",
+          "B": "negative",
+          "C": "strange",
+          "D": "impractical"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] strange，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 13,
+        "options": {
+          "A": "explain",
+          "B": "identify",
+          "C": "predict",
+          "D": "overcome"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] identify，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 14,
+        "options": {
+          "A": "deny",
+          "B": "forget",
+          "C": "miss",
+          "D": "fear"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] deny，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 15,
+        "options": {
+          "A": "disguised",
+          "B": "perceived",
+          "C": "followed",
+          "D": "introduced"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] followed，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 16,
+        "options": {
+          "A": "recall",
+          "B": "classify",
+          "C": "analyse",
+          "D": "compare"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] compare，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 17,
+        "options": {
+          "A": "brave",
+          "B": "disappointed",
+          "C": "willing",
+          "D": "hesitant"
+        },
+        "answer": "B",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [B] disappointed，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 18,
+        "options": {
+          "A": "relaxing",
+          "B": "surprising",
+          "C": "rewarding",
+          "D": "demanding"
+        },
+        "answer": "A",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [A] relaxing，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 19,
+        "options": {
+          "A": "Thus",
+          "B": "Also",
+          "C": "Finally",
+          "D": "Instead"
+        },
+        "answer": "D",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [D] Instead，符合文章前后文语义推进与句式结构。"
+      },
+      {
+        "qid": 20,
+        "options": {
+          "A": "polite",
+          "B": "proud",
+          "C": "busy",
+          "D": "lazy"
+        },
+        "answer": "C",
+        "category": "词义辨析与篇章逻辑",
+        "analysis": "考查语境逻辑与核心搭配。此处正确选项为 [C] busy，符合文章前后文语义推进与句式结构。"
+      }
+    ]
+  },
+  "part_b": {
+    "title": "2025 年考研英语（二）新题型 Part B",
+    "subtype": "heading_matching",
+    "q_range": "41-45",
+    "directions": "Read the following text and answer the questions by choosing the most suitable subheading from the list A-G for each of the numbered paragraphs (41-45). There are two extra subheadings which you do not need to use. Mark your answers on the ANSWER SHEET. (10 points)",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "Five Steps to Suggesting a Change at Work"
+      },
+      {
+        "pid": 1,
+        "text": "That'll Actually Get Taken Seriously"
+      },
+      {
+        "pid": 2,
+        "text": "Everyone wants to be that person—the one who looks at the same information as everyone else, but who sees a fresh, innovative solution. However, it takes more than simply having a good idea. How you share it is as important as the suggestion itself. Why? Because writing a new script—literally or figuratively—means that other team members will have to adapt to something new. Not to mention, if the process you're scrapping is one someone else suggested, there's the possibility of hurt feelings. To gain buy-in on an innovative, new idea, follow these steps:"
+      },
+      {
+        "pid": 3,
+        "text": "(41)______"
+      },
+      {
+        "pid": 4,
+        "text": "Great ideas don't stand alone. In other words, you can't mention your suggestion once and expect it to be adopted. To see a change, you'll need to champion your plan and sell its merits. In addition, you need to be willing to stand up to scrutiny and criticism and be prepared to explain your innovation in different ways for various audiences."
+      },
+      {
+        "pid": 5,
+        "text": "(42)______"
+      },
+      {
+        "pid": 6,
+        "text": "Sometimes it makes sense to go to your boss first. But other times, it's useful to build a coalition among your co-workers or other stakeholders. When it works, it works great—because you're ready for your stubborn supervisor's pushback with answers like, \"Actually, I connected with a few people in our tech department to discuss how much time these kinds of website updates would take, and they suggested they have the bandwidth.\""
+      },
+      {
+        "pid": 7,
+        "text": "(43)______"
+      },
+      {
+        "pid": 8,
+        "text": "One of the biggest barriers to gaining buy-in occurs when the owner of an idea is viewed as argumentative, defensive, or close-minded. Because, let's be honest: No one likes a know-it-all. So, if people disagree with you, don't be indignant. Instead, listen to their concerns fully, try to understand their perspective, and include their concerns (and possible remedies) in future discussions. So, instead of saying, \"Martha, our current slogan is confusing and should be updated,\" you could try, \"Martha raises a great point that our current slogan has a long history for our stakeholders, but I wonder if we might be able to brainstorm a tagline that could build on that—and be clearer for new customers.\""
+      },
+      {
+        "pid": 9,
+        "text": "(44)______"
+      },
+      {
+        "pid": 10,
+        "text": "New ideas are the grandchildren of old ones. In other words, don't throw old solutions under the bus to make your improvement stand out. Remember that in light of whatever the problem the old system solved—or, maybe, has failed to solve in recent memory—it was a great idea at the time. Appreciating the older contributions as you suggest future innovations helps bolster the credibility of your idea."
+      },
+      {
+        "pid": 11,
+        "text": "(45)______"
+      },
+      {
+        "pid": 12,
+        "text": "When pitching a new idea, it's important to use the language of abundance instead of the language of deficit. Instead of saying what is wrong, broken, or suboptimal, talk about what is right, fixable, or ideal. For example, try, \"I can see lots of applications for this new approach\" rather than, \"This innovation is the only way.\" Be optimistic but realistic, and you will stand out."
+      }
+    ],
+    "items": [
+      {
+        "qid": 41,
+        "title": "第 41 题小标题 (选择最佳段落小标题)",
+        "locate_para": 1
+      },
+      {
+        "qid": 42,
+        "title": "第 42 题小标题 (选择最佳段落小标题)",
+        "locate_para": 2
+      },
+      {
+        "qid": 43,
+        "title": "第 43 题小标题 (选择最佳段落小标题)",
+        "locate_para": 3
+      },
+      {
+        "qid": 44,
+        "title": "第 44 题小标题 (选择最佳段落小标题)",
+        "locate_para": 4
+      },
+      {
+        "qid": 45,
+        "title": "第 45 题小标题 (选择最佳段落小标题)",
+        "locate_para": 5
+      }
+    ],
+    "options": {
+      "A": "Stay positive.",
+      "B": "Respect the past.",
+      "C": "Use channels.",
+      "D": "Give it time.",
+      "E": "Invite resistance.",
+      "F": "Be a salesman.",
+      "G": "Be humble."
+    },
+    "answers": {
+      "41": "F",
+      "42": "C",
+      "43": "G",
+      "44": "B",
+      "45": "A"
+    },
+    "distractors": [
+      "D",
+      "E"
+    ],
+    "distractor_analysis": {
+      "D": "【干扰项剖析】[D] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。",
+      "E": "【干扰项剖析】[E] 为命题人设计的强干扰项，原文并无对应直接事实佐证，属于张冠李戴或无中生有。"
+    }
+  },
+  "translation": {
+    "title": "2025 年考研英语（二）英译汉 Translation",
+    "qid": 46,
+    "points": 15,
+    "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
+    "source_text": "You know the moment—the conversation slows, then there's a pause. It's awkward, and so awkward that some people will panic and say anything. Do we all find such silences so stressful?\n\nResearchers analysed the frequency and impact of gaps greater than 2 seconds during conversations, including an overview of previous studies which indicate that the fear of awkward silences can be so extreme that people avoid talking to strangers, even though doing so is likely to be an enjoyable experience.\n\nDuring conversations with short gaps, people feel more connected to their conversation partners. But such feelings of connection markedly dip when entering a long gap. Long gaps between strangers are likely to be followed by a change in topic.\n\nBut the opposite seems to be true for conversations between friends. Long gaps there saw increased connection. Between friends, longer gaps seem to provide natural moments for reflection and expression.",
+    "reference_translation": "你肯定经历过那样的尴尬时刻——聚会中的谈话渐渐慢了下来，空气中出现了片刻的寂静，大家似乎都在搜肠刮肚寻找新话题。\n\n许多人害怕沉默，将短暂的停顿视作社交失败并急于用廉价的闲聊去填补。然而，心理学家指出，舒适的沉默恰恰是深厚关系的试金石。给对话一点呼吸的空间，往往能为更具深度、更真诚的心灵交流创造契机。",
+    "paragraphs": [
+      {
+        "pid": 0,
+        "text": "You know the moment—the conversation slows, then there's a pause. It's awkward, and so awkward that some people will panic and say anything. Do we all find such silences so stressful?"
+      },
+      {
+        "pid": 1,
+        "text": "Researchers analysed the frequency and impact of gaps greater than 2 seconds during conversations, including an overview of previous studies which indicate that the fear of awkward silences can be so extreme that people avoid talking to strangers, even though doing so is likely to be an enjoyable experience."
+      },
+      {
+        "pid": 2,
+        "text": "During conversations with short gaps, people feel more connected to their conversation partners. But such feelings of connection markedly dip when entering a long gap. Long gaps between strangers are likely to be followed by a change in topic."
+      },
+      {
+        "pid": 3,
+        "text": "But the opposite seems to be true for conversations between friends. Long gaps there saw increased connection. Between friends, longer gaps seem to provide natural moments for reflection and expression."
+      }
+    ],
+    "sentences": [
+      {
+        "sid": 1,
+        "en": "You know the moment—the conversation slows, then there's a pause.",
+        "cn": "（第 1 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "You know the moment—the conver...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 2,
+        "en": "It's awkward, and so awkward that some people will panic and say anything.",
+        "cn": "（第 2 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "It's awkward, and so awkward t...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 3,
+        "en": "Do we all find such silences so stressful?",
+        "cn": "（第 3 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Do we all find such silences s...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 4,
+        "en": "Researchers analysed the frequency and impact of gaps greater than 2 seconds during conversations, including an overview of previous studies which indicate that the fear of awkward silences can be so extreme that people avoid talking to strangers, even though doing so is likely to be an enjoyable experience.",
+        "cn": "（第 4 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Researchers analysed the frequ...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 5,
+        "en": "During conversations with short gaps, people feel more connected to their conversation partners.",
+        "cn": "（第 5 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "During conversations with shor...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 6,
+        "en": "But such feelings of connection markedly dip when entering a long gap.",
+        "cn": "（第 6 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "But such feelings of connectio...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 7,
+        "en": "Long gaps between strangers are likely to be followed by a change in topic.",
+        "cn": "（第 7 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "Long gaps between strangers ar...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      },
+      {
+        "sid": 8,
+        "en": "But the opposite seems to be true for conversations between friends.",
+        "cn": "（第 8 句标准采分参考）",
+        "scoring_points": [
+          {
+            "phrase": "But the opposite seems to be t...",
+            "score": 1.0,
+            "guide": "主干谓语与从句结构顺译，采分点完整"
+          },
+          {
+            "phrase": "重点词汇与短语",
+            "score": 0.5,
+            "guide": "结合考研语境引申翻译，语言通顺达意"
+          }
+        ],
+        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+      }
+    ]
+  }
 }

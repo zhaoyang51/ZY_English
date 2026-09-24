@@ -5,8 +5,8 @@ const path = require('node:path');
 
 const root = path.resolve(__dirname, '..');
 
-test('2010 and 2011 have complete Section I, Part B, and Translation structures', () => {
-  for (const yr of [2010, 2011]) {
+test('all years 2010-2026 have complete Section I, Part B, and Translation structures', () => {
+  for (let yr = 2010; yr <= 2026; yr++) {
     const d = JSON.parse(fs.readFileSync(path.join(root, `data/${yr}.json`), 'utf8'));
     
     // 1. Section I Use of English
