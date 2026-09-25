@@ -1118,12 +1118,14 @@
     const syntaxOverlay = document.getElementById('syntaxOverlay');
     const syntaxModal = document.getElementById('syntaxModal');
     const closeSyntaxBtn = document.getElementById('closeSyntaxBtn');
+    const prevSyntaxBtn = document.getElementById('syntaxPrevSentBtn');
+    const nextSyntaxBtn = document.getElementById('syntaxNextSentBtn');
     const vocabPopup = document.getElementById('vocabPopup');
 
     function closeSyntaxModal() {
       if (syntaxOverlay) syntaxOverlay.classList.remove('show');
       if (syntaxModal) syntaxModal.classList.remove('show');
-      document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('active-sent'));
+      document.querySelectorAll('.exam-sent, .trans-sent').forEach(el => el.classList.remove('active-sent', 'highlight-focus'));
     }
 
     examPaper.addEventListener('click', e => {
@@ -1188,12 +1190,28 @@
         const sid = Number(rawSid);
         const sentObj = AppState.textData.sentences.find(s => s.sid === sid || String(s.sid) === rawSid);
         if (sentObj) {
-          document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('active-sent'));
+          document.querySelectorAll('.exam-sent, .trans-sent').forEach(el => el.classList.remove('active-sent', 'highlight-focus'));
           sentSpan.classList.add('active-sent');
-          showSyntaxModal(sentObj);
+          showSyntaxModal(sentObj, AppState.textData.sentences);
         }
       }
     });
+
+    if (prevSyntaxBtn) {
+      prevSyntaxBtn.onclick = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        navigateSyntaxSentence(-1);
+      };
+    }
+
+    if (nextSyntaxBtn) {
+      nextSyntaxBtn.onclick = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        navigateSyntaxSentence(1);
+      };
+    }
 
     if (closeSyntaxBtn) {
       closeSyntaxBtn.onclick = (e) => {
@@ -1435,11 +1453,93 @@
     }).join('<span class="chunk-slash"> / </span>');
   }
 
-  function showSyntaxModal(sent) {
+  let currentSyntaxSentence = null;
+  let currentSyntaxList = [];
+
+  function navigateSyntaxSentence(direction) {
+    if (!currentSyntaxList || currentSyntaxList.length <= 1) return;
+    const currIdx = currentSyntaxList.findIndex(s => s === currentSyntaxSentence || (s.sid !== undefined && currentSyntaxSentence && currentSyntaxSentence.sid !== undefined && String(s.sid) === String(currentSyntaxSentence.sid)));
+    if (currIdx === -1) return;
+    const targetIdx = currIdx + direction;
+    if (targetIdx < 0 || targetIdx >= currentSyntaxList.length) return;
+    const targetSent = currentSyntaxList[targetIdx];
+    showSyntaxModal(targetSent, currentSyntaxList);
+    syncActiveSentenceToDOM(targetSent);
+  }
+
+  function syncActiveSentenceToDOM(targetSent) {
+    if (!targetSent) return;
+    const sid = targetSent.sid;
+
+    document.querySelectorAll('.exam-sent, .trans-sent').forEach(el => {
+      el.classList.remove('active-sent', 'highlight-focus');
+    });
+
+    const leftSentEl = document.querySelector(`.exam-sent[data-sid="${sid}"]`) || document.getElementById(`trans-sent-${sid}`);
+    if (leftSentEl) {
+      leftSentEl.classList.add('active-sent');
+      if (leftSentEl.classList.contains('trans-sent')) {
+        leftSentEl.classList.add('highlight-focus');
+      }
+      leftSentEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    const transRow = document.getElementById(`trans-ws-sent-${sid}`);
+    if (transRow) {
+      document.querySelectorAll('.trans-sent-row').forEach(el => el.style.background = 'transparent');
+      transRow.style.background = 'var(--accent-light, #eff6ff)';
+      transRow.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      const compSection = document.getElementById('transComparisonSection');
+      if (compSection) compSection.style.display = 'block';
+    }
+  }
+
+  function showSyntaxModal(sent, sentList) {
     const overlay = document.getElementById('syntaxOverlay');
     const modal = document.getElementById('syntaxModal');
     const content = document.getElementById('syntaxModalContent');
     if (!content || !sent) return;
+
+    currentSyntaxSentence = sent;
+    if (Array.isArray(sentList) && sentList.length > 0) {
+      currentSyntaxList = sentList;
+    } else if (typeof AppState !== 'undefined' && AppState.textData && Array.isArray(AppState.textData.sentences)) {
+      currentSyntaxList = AppState.textData.sentences;
+    } else if (!currentSyntaxList || currentSyntaxList.length === 0) {
+      currentSyntaxList = [sent];
+    }
+
+    const currentIndex = currentSyntaxList.findIndex(s => s === sent || (s.sid !== undefined && sent.sid !== undefined && String(s.sid) === String(sent.sid)));
+    const totalCount = currentSyntaxList.length;
+    const hasMultiple = totalCount > 1 && currentIndex !== -1;
+    const prevSent = hasMultiple && currentIndex > 0 ? currentSyntaxList[currentIndex - 1] : null;
+    const nextSent = hasMultiple && currentIndex < totalCount - 1 ? currentSyntaxList[currentIndex + 1] : null;
+
+    // Header buttons & indicator state
+    const prevBtn = document.getElementById('syntaxPrevSentBtn');
+    const nextBtn = document.getElementById('syntaxNextSentBtn');
+    const navIndexEl = document.getElementById('syntaxSentNavIndex');
+
+    if (navIndexEl) {
+      if (hasMultiple) {
+        navIndexEl.style.display = 'inline-block';
+        navIndexEl.textContent = `第 ${currentIndex + 1} / ${totalCount} 句`;
+      } else {
+        navIndexEl.style.display = 'none';
+      }
+    }
+
+    if (prevBtn) {
+      prevBtn.disabled = !prevSent;
+      prevBtn.style.opacity = prevSent ? '1' : '0.4';
+      prevBtn.style.cursor = prevSent ? 'pointer' : 'not-allowed';
+    }
+
+    if (nextBtn) {
+      nextBtn.disabled = !nextSent;
+      nextBtn.style.opacity = nextSent ? '1' : '0.4';
+      nextBtn.style.cursor = nextSent ? 'pointer' : 'not-allowed';
+    }
 
     const titleEl = document.getElementById('syntaxModalTitle') || (modal ? modal.querySelector('.syntax-modal-header span') : null);
     if (titleEl) {
@@ -1528,6 +1628,18 @@
       `;
     }
 
+    // 5. Footer navigation buttons
+    let footerNavHtml = '';
+    if (hasMultiple) {
+      footerNavHtml = `
+        <div class="syntax-modal-footer-nav" style="display:flex;justify-content:space-between;align-items:center;margin-top:20px;padding-top:14px;border-top:1px dashed var(--border);flex-wrap:wrap;gap:10px">
+          <button class="toolbar-btn btn-modal-footer-prev" ${!prevSent ? 'disabled style="opacity:0.4;cursor:not-allowed;padding:6px 14px"' : 'style="padding:6px 14px;cursor:pointer"'}>◀ 上一句</button>
+          <span style="font-size:0.85em;color:var(--muted)">第 ${currentIndex + 1} / ${totalCount} 句（支持键盘 ← / → 方向键切换）</span>
+          <button class="toolbar-btn btn-modal-footer-next" ${!nextSent ? 'disabled style="opacity:0.4;cursor:not-allowed;padding:6px 14px"' : 'style="padding:6px 14px;cursor:pointer"'}>下一句 ▶</button>
+        </div>
+      `;
+    }
+
     const sentNumPrefix = sent.sid ? `<span class="badge" style="background:var(--mode-bg);color:var(--mode-color);margin-right:8px;font-size:0.85em;padding:2px 8px;border-radius:4px">第 ${sent.sid} 句</span>` : '';
 
     content.innerHTML = `
@@ -1538,13 +1650,36 @@
       ${scoringHtml}
       ${syntaxHtml}
       ${transHtml}
+      ${footerNavHtml}
     `;
+
+    // Bind footer nav clicks
+    const footerPrev = content.querySelector('.btn-modal-footer-prev');
+    if (footerPrev && prevSent) {
+      footerPrev.onclick = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        navigateSyntaxSentence(-1);
+      };
+    }
+    const footerNext = content.querySelector('.btn-modal-footer-next');
+    if (footerNext && nextSent) {
+      footerNext.onclick = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        navigateSyntaxSentence(1);
+      };
+    }
+
+    content.scrollTop = 0;
 
     if (overlay) overlay.classList.add('show');
     if (modal) modal.classList.add('show');
   }
 
   window.showSyntaxModal = showSyntaxModal;
+  window.navigateSyntaxSentence = navigateSyntaxSentence;
+  window.syncActiveSentenceToDOM = syncActiveSentenceToDOM;
 
   function showQuestionModal(q, textData) {
     const overlay = document.getElementById('syntaxOverlay');
@@ -2026,8 +2161,24 @@
 
   function setupKeyboardShortcuts() {
     window.addEventListener('keydown', e => {
-      if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') return;
       if (AppState.mode === 'vocab') return;
+
+      const syntaxModal = document.getElementById('syntaxModal');
+      if (syntaxModal && syntaxModal.classList.contains('show')) {
+        if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          navigateSyntaxSentence(1);
+          return;
+        } else if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          navigateSyntaxSentence(-1);
+          return;
+        } else if (e.key === 'Escape') {
+          closeSyntaxModal();
+          return;
+        }
+      }
 
       if (e.key === 'ArrowRight' || e.key === ' ') {
         e.preventDefault();

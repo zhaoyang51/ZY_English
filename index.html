@@ -147,8 +147,15 @@
   <div class="syntax-overlay" id="syntaxOverlay">
     <div class="syntax-modal" id="syntaxModal">
       <div class="syntax-modal-header">
-        <span id="syntaxModalTitle" style="font-weight:800;color:var(--mode-color)">🔍 长难句结构化拆解与考点剖析</span>
-        <button class="toolbar-btn" id="closeSyntaxBtn" style="padding:4px 10px">✕ 关闭</button>
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+          <span id="syntaxModalTitle" style="font-weight:800;color:var(--mode-color)">🔍 长难句结构化拆解与考点剖析</span>
+          <span id="syntaxSentNavIndex" class="badge" style="background:var(--accent-light, #eff6ff);color:var(--accent);font-size:0.82em;padding:2px 8px;border-radius:12px;display:none">第 1 / 7 句</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px">
+          <button class="toolbar-btn" id="syntaxPrevSentBtn" title="快捷键: ← 方向键" style="padding:4px 12px">◀ 上一句</button>
+          <button class="toolbar-btn" id="syntaxNextSentBtn" title="快捷键: → 方向键" style="padding:4px 12px">下一句 ▶</button>
+          <button class="toolbar-btn" id="closeSyntaxBtn" title="快捷键: Esc" style="padding:4px 10px">✕ 关闭</button>
+        </div>
       </div>
       <div class="syntax-modal-body" id="syntaxModalContent"></div>
     </div>

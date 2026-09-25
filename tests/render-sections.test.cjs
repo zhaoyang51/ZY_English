@@ -334,22 +334,30 @@ test('showSyntaxModal renders complete breakdown for translation sentences and r
   // Load showSyntaxModal from app.js into context
   const appCode = read('js/app.js');
   const start = appCode.indexOf('function formatColoredChunks');
-  const end = appCode.indexOf('window.showSyntaxModal = showSyntaxModal;') + 'window.showSyntaxModal = showSyntaxModal;'.length;
+  const end = appCode.indexOf('window.syncActiveSentenceToDOM = syncActiveSentenceToDOM;') + 'window.syncActiveSentenceToDOM = syncActiveSentenceToDOM;'.length;
   const syntaxCode = appCode.slice(start, end);
   vm.runInContext(syntaxCode, context);
 
   assert.strictEqual(typeof context.window.showSyntaxModal, 'function');
+  assert.strictEqual(typeof context.window.navigateSyntaxSentence, 'function');
 
   // 1. Test translation sentence (2010 Sentence 1)
   const trans2010 = JSON.parse(read('data/2010.json')).translation;
   const sent1 = trans2010.sentences[0];
-  context.window.showSyntaxModal(sent1);
+  context.window.showSyntaxModal(sent1, trans2010.sentences);
 
   const titleEl = document.getElementById('syntaxModalTitle');
   const contentEl = document.getElementById('syntaxModalContent');
-  const transModalHtml = contentEl.innerHTML;
+  const prevBtn = document.getElementById('syntaxPrevSentBtn');
+  const nextBtn = document.getElementById('syntaxNextSentBtn');
+  const navIndexEl = document.getElementById('syntaxSentNavIndex');
 
   assert.strictEqual(titleEl.textContent, '🔍 英译汉句子拆解与采分点剖析');
+  assert.strictEqual(navIndexEl.textContent, '第 1 / 7 句');
+  assert.strictEqual(prevBtn.disabled, true, 'First sentence should disable prev button');
+  assert.strictEqual(nextBtn.disabled, false, 'First sentence should enable next button');
+
+  const transModalHtml = contentEl.innerHTML;
   assert.ok(transModalHtml.includes(sent1.en), 'Must render English sentence');
   assert.ok(transModalHtml.includes('【采分点拆解与评分要领】'), 'Must render scoring rubrics header');
   assert.ok(transModalHtml.includes('1 分'), 'Must render score badge');
@@ -361,11 +369,35 @@ test('showSyntaxModal renders complete breakdown for translation sentences and r
   assert.ok(transModalHtml.includes(sent1.cn), 'Must render Chinese translation');
   // Slashed text should not render when not present
   assert.ok(!transModalHtml.includes('【意群断句与速译】'), 'Should not render empty slashed text block');
+  // Footer navigation should be rendered
+  assert.ok(transModalHtml.includes('btn-modal-footer-prev'));
+  assert.ok(transModalHtml.includes('btn-modal-footer-next'));
+
+  // Navigate to Next Sentence (Sentence 2)
+  context.window.navigateSyntaxSentence(1);
+  const sent2 = trans2010.sentences[1];
+  assert.strictEqual(navIndexEl.textContent, '第 2 / 7 句');
+  assert.strictEqual(prevBtn.disabled, false, 'Sentence 2 should enable prev button');
+  assert.strictEqual(nextBtn.disabled, false, 'Sentence 2 should enable next button');
+  assert.ok(contentEl.innerHTML.includes(sent2.en), 'Must render second sentence after next');
+
+  // Navigate back to Previous Sentence (Sentence 1)
+  context.window.navigateSyntaxSentence(-1);
+  assert.strictEqual(navIndexEl.textContent, '第 1 / 7 句');
+  assert.strictEqual(prevBtn.disabled, true);
+  assert.ok(contentEl.innerHTML.includes(sent1.en));
+
+  // Navigate to the last sentence (Sentence 7)
+  const lastSent = trans2010.sentences[trans2010.sentences.length - 1];
+  context.window.showSyntaxModal(lastSent, trans2010.sentences);
+  assert.strictEqual(navIndexEl.textContent, '第 7 / 7 句');
+  assert.strictEqual(prevBtn.disabled, false);
+  assert.strictEqual(nextBtn.disabled, true, 'Last sentence should disable next button');
 
   // 2. Test reading comprehension sentence (2010 Text 1 Sentence 1)
   const reading2010 = JSON.parse(read('data/2010.json')).texts[0];
   const readSent1 = reading2010.sentences[0];
-  context.window.showSyntaxModal(readSent1);
+  context.window.showSyntaxModal(readSent1, reading2010.sentences);
 
   const readModalHtml = contentEl.innerHTML;
   assert.strictEqual(titleEl.textContent, '🔍 长难句结构化拆解与考点剖析');
@@ -377,3 +409,4 @@ test('showSyntaxModal renders complete breakdown for translation sentences and r
   // Scoring points should not render for reading sentences
   assert.ok(!readModalHtml.includes('【采分点拆解与评分要领】'), 'Should not render scoring points block for reading');
 });
+

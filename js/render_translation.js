@@ -75,7 +75,7 @@
           this.highlightSentence(sid);
           const sObj = data.sentences && data.sentences.find(s => String(s.sid) === String(sid) || s.sid === Number(sid));
           if (sObj && typeof window.showSyntaxModal === 'function') {
-            window.showSyntaxModal(sObj);
+            window.showSyntaxModal(sObj, data.sentences);
           }
         });
       });
@@ -236,7 +236,7 @@
           const sid = btn.getAttribute('data-sid');
           const sObj = data.sentences && data.sentences.find(s => String(s.sid) === String(sid) || s.sid === Number(sid));
           if (sObj && typeof window.showSyntaxModal === 'function') {
-            window.showSyntaxModal(sObj);
+            window.showSyntaxModal(sObj, data.sentences);
           }
         });
       });
