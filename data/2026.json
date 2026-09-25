@@ -5936,147 +5936,367 @@
     "sentences": [
       {
         "sid": 1,
+        "pid": 0,
         "en": "The influence of wearables on psychology refers to how the clothes we wear affect our thoughts, feelings, and behaviors.",
-        "cn": "（第 1 句标准采分参考）",
+        "cn": "穿戴设备对心理学的影响，指的是我们所穿的衣物及佩戴的智能设备如何潜移默化地重塑我们的思维、情绪与行为模式。",
         "scoring_points": [
           {
-            "phrase": "The influence of wearables on ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "The influence of wearables on psychology",
+            "score": 1,
+            "guide": "wearables 前沿考点词‘穿戴设备/可穿戴产品’；psychology 译为‘心理学/心理机制’。意群精准译为‘可穿戴物对人类心理层面的深层影响，’",
+            "vocab": [
+              {
+                "word": "wearables",
+                "pos": "n.",
+                "common": "穿戴式设备",
+                "context": "现代衣饰及智能穿戴装备"
+              },
+              {
+                "word": "psychology",
+                "pos": "n.",
+                "common": "心理学；心理",
+                "context": "人的心理状态与认知机制"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "refers to how the clothes we wear affect our thoughts, feelings, and behaviors",
+            "score": 1,
+            "guide": "refers to 译为‘指的是/意在阐明’；how 引导宾语从句；we wear 定从修饰 clothes；thoughts, feelings, and behaviors 译为‘思想、情感与行为举止’。意群精准译为‘指的正是我们日常所穿戴的衣物是如何反向重塑我们的思想、情绪以及举止行为的’",
+            "vocab": [
+              {
+                "word": "refer",
+                "pos": "v.",
+                "common": "涉及；参考；指的是",
+                "context": "refer to 阐明某科学概念的内涵"
+              },
+              {
+                "word": "behavior",
+                "pos": "n.",
+                "common": "行为；举止",
+                "context": "外在呈现的具体行为动作"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主语为 The influence of wearables on psychology；谓语 refers to；how 引导宾语从句，从句主干为 the clothes affect our thoughts, feelings, and behaviors；we wear 为省略 that 的定语从句修饰 the clothes。",
+        "reassembly_notes": "wearables 现代科技核心专有名词‘可穿戴设备/智能穿戴’；refers to 顺译为‘指的是’；affect 后接三个并列名词 thoughts, feelings, and behaviors 对应‘思维、情感与行为模式’。"
       },
       {
         "sid": 2,
+        "pid": 0,
         "en": "Clothing is not just about covering our bodies; it plays a significant role in shaping our self-perception and interactions with others.",
-        "cn": "（第 2 句标准采分参考）",
+        "cn": "衣着绝不仅仅是为了蔽体保暖；它在塑造自我认知以及与他人的日常人际互动中，发挥着至关重要的作用。",
         "scoring_points": [
           {
-            "phrase": "Clothing is not just about cov...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Clothing is not just about covering our bodies;",
+            "score": 1,
+            "guide": "not just about 译为‘绝不仅仅关乎’；covering our bodies 译为‘遮体保暖’。意群精准译为‘服饰的意义绝不仅限于遮蔽肉身；’",
+            "vocab": [
+              {
+                "word": "clothing",
+                "pos": "n.",
+                "common": "服装；衣服",
+                "context": "广义的衣着与打扮"
+              },
+              {
+                "word": "cover",
+                "pos": "v.",
+                "common": "覆盖；遮盖",
+                "context": "满足基本生理遮蔽需求"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "it plays a significant role in shaping our self-perception and interactions with others",
+            "score": 1,
+            "guide": "play a significant role in 经典短语‘发挥显著作用’；shape 动词‘塑造/构建’；self-perception 专业术语‘自我审视/自我感知’；interactions 译为‘社交互动’。意群精准译为‘它在塑造我们的自我认知以及与周围人的互动模式中，扮演着举足轻重的角色’",
+            "vocab": [
+              {
+                "word": "significant",
+                "pos": "adj.",
+                "common": "重大的；显著的",
+                "context": "产生不可忽视的深远影响"
+              },
+              {
+                "word": "perception",
+                "pos": "n.",
+                "common": "知觉；认知",
+                "context": "self-perception 对自身价值与形象的感知"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "分号连接两个并列主句：第一句 Clothing is not just about covering our bodies；第二句 it plays a significant role in doing sth，介词 in 后接两个并列宾语 shaping our self-perception and interactions with others。",
+        "reassembly_notes": "not just about... 译为‘绝不仅限于……’；covering our bodies 雅译为成语‘遮羞蔽体/御寒保暖’；play a significant role in 考研金牌句型（在……中发挥重要作用）；self-perception 译为‘自我认知’。"
       },
       {
         "sid": 3,
+        "pid": 1,
         "en": "One aspect of this influence is self-expression.",
-        "cn": "（第 3 句标准采分参考）",
+        "cn": "这种影响的一个核心维度，便是自我表达。",
         "scoring_points": [
           {
-            "phrase": "One aspect of this influence i...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
-          },
-          {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "One aspect of this influence is self-expression",
+            "score": 2,
+            "guide": "aspect 译为‘方面/维度’；influence 译为‘心理影响’；self-expression 专有名词‘自我表达’。意群精准译为‘这种深层影响的其中一个显著维度，正是自我表达。’",
+            "vocab": [
+              {
+                "word": "aspect",
+                "pos": "n.",
+                "common": "方面；方位",
+                "context": "多元研究角度中的一环"
+              },
+              {
+                "word": "expression",
+                "pos": "n.",
+                "common": "表达；表情",
+                "context": "self-expression 展现自我内心世界"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主系表简单句：主语 One aspect of this influence，连系动词 is，表语 self-expression。",
+        "reassembly_notes": "One aspect 结合心理学分析译为‘一个重要方面/维度’；self-expression 规范译为‘自我表达/个性张扬’，单句提纲挈领。"
       },
       {
         "sid": 4,
+        "pid": 1,
         "en": "The clothes we choose can reflect our personality, mood, and identity.",
-        "cn": "（第 4 句标准采分参考）",
+        "cn": "我们所挑选的衣着装扮，能够直观映射出内心的个性、心境以及身份认同。",
         "scoring_points": [
           {
-            "phrase": "The clothes we choose can refl...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "The clothes we choose",
+            "score": 0.5,
+            "guide": "we choose 省略 that 的定从，译为‘我们挑选的衣物’。意群精准译为‘我们所挑选穿戴的服饰，’",
+            "vocab": [
+              {
+                "word": "choose",
+                "pos": "v.",
+                "common": "选择；挑中",
+                "context": "自主做出的审美挑选"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "can reflect our personality, mood, and identity",
+            "score": 1.5,
+            "guide": "reflect 考研高频动词‘反映；折射’；personality（性格）、mood（心境情绪）、identity（社会身份与认同）。意群精准译为‘能生动折射出我们的性格特征、心绪境况乃至身份认同’",
+            "vocab": [
+              {
+                "word": "reflect",
+                "pos": "v.",
+                "common": "反射；反映",
+                "context": "心智与内心情感的向外投射"
+              },
+              {
+                "word": "personality",
+                "pos": "n.",
+                "common": "个性；人格",
+                "context": "鲜明的个人性格特质"
+              },
+              {
+                "word": "identity",
+                "pos": "n.",
+                "common": "身份；同一性",
+                "context": "社会地位与自我归属认同"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主谓宾句：主语 The clothes，we choose 为省略 that 的定语从句修饰 clothes；情态动词 can，谓语 reflect，三个并列名词宾语 our personality, mood, and identity。",
+        "reassembly_notes": "we choose 定语从句前置修饰‘我们所挑拣选穿的衣饰’；reflect 译为‘映射/折射出’；personality, mood, and identity 译为‘性格禀赋、当时心情与身份认同’。"
       },
       {
         "sid": 5,
+        "pid": 1,
         "en": "Whether we opt for bold, colorful outfits or prefer more understated styles, our dress choices convey messages about who we are and how we want to be perceived.",
-        "cn": "（第 5 句标准采分参考）",
+        "cn": "无论我们是偏爱张扬醒目、色彩绚烂的服饰，还是崇尚内敛低调的素雅风格，我们的穿搭选择都在对外传递着清晰的讯号：我们是谁，以及我们渴望被外界如何看待。",
         "scoring_points": [
           {
-            "phrase": "Whether we opt for bold, color...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Whether we opt for bold, colorful outfits or prefer more understated styles,",
+            "score": 1,
+            "guide": "Whether... or 引导让步；opt for 核心词组‘选择’；bold, colorful 译为‘大胆鲜亮的’；understated 核心词‘低调沉稳的’。意群精准译为‘无论我们是青睐抢眼绚丽的先锋装束，还是更偏好低调内敛的朴素风格，’",
+            "vocab": [
+              {
+                "word": "opt",
+                "pos": "v.",
+                "common": "选择",
+                "context": "opt for 做出倾向性选择"
+              },
+              {
+                "word": "bold",
+                "pos": "adj.",
+                "common": "大胆的；醒目的",
+                "context": "设计夸张大胆的着装"
+              },
+              {
+                "word": "understated",
+                "pos": "adj.",
+                "common": "轻描淡写的；低调内敛的",
+                "context": "不事张扬的高雅风格"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "our dress choices convey messages about who we are and how we want to be perceived",
+            "score": 1,
+            "guide": "dress choices 译为‘着装选择’；convey messages 译为‘传递讯息/宣告’；how we want to be perceived 被动语态‘我们渴望被外界如何看待’。意群精准译为‘我们的穿戴决策都在对外宣示着我们究竟是何方神圣，以及我们期许被世人如何打量界定’",
+            "vocab": [
+              {
+                "word": "convey",
+                "pos": "v.",
+                "common": "传达；运输",
+                "context": "向外界人际网络传递非言语信号"
+              },
+              {
+                "word": "perceive",
+                "pos": "v.",
+                "common": "感知；认为",
+                "context": "外界他人对我们外表形象的评价认知"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "Whether... or... 引导让步状语从句；主句主干 our dress choices convey messages；about 介词后接两个并列宾语从句 who we are and how we want to be perceived，后一从句含被动不定式 to be perceived。",
+        "reassembly_notes": "opt for 考研核心短语（倾向于/选择）；bold, colorful 与 understated styles 对比鲜明（张扬艳丽 vs 低调内敛）；how we want to be perceived 语态与词义深刻，译为‘我们渴望被他人如何看待/如何评价’。"
       },
       {
         "sid": 6,
+        "pid": 2,
         "en": "Additionally, clothing can impact our confidence levels.",
-        "cn": "（第 6 句标准采分参考）",
+        "cn": "此外，着装还会直接影响我们的自信程度。",
         "scoring_points": [
           {
-            "phrase": "Additionally, clothing can imp...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
-          },
-          {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "Additionally, clothing can impact our confidence levels",
+            "score": 2,
+            "guide": "Additionally 译为‘此外/不仅如此’；impact 动词‘影响/波及’；confidence levels 译为‘自信程度’。意群精准译为‘不仅如此，服装的质地款型还会深刻左右我们的自信心高低。’",
+            "vocab": [
+              {
+                "word": "additionally",
+                "pos": "adv.",
+                "common": "此外；另外",
+                "context": "引出下一层逻辑论据"
+              },
+              {
+                "word": "impact",
+                "pos": "v./n.",
+                "common": "冲击；影响",
+                "context": "在心理动力上产生显著作用"
+              },
+              {
+                "word": "confidence",
+                "pos": "n.",
+                "common": "信心；自信",
+                "context": "举手投足间的心理自信"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "Additionally 为副词状语；主干为 clothing can impact our confidence levels（主谓宾结构）。",
+        "reassembly_notes": "Additionally 顺译为‘不仅如此/此外’；impact 动词‘冲击/影响’；confidence levels 译为‘自信心水平’，单句简短承上启下。"
       },
       {
         "sid": 7,
+        "pid": 2,
         "en": "When we wear clothes that make us feel comfortable and confident, it can positively affect our self-esteem and overall mood.",
-        "cn": "（第 7 句标准采分参考）",
+        "cn": "当我们穿上那些让自己倍感舒适而自信的衣服时，它能对我们的自尊心与整体心境产生强烈的积极影响。",
         "scoring_points": [
           {
-            "phrase": "When we wear clothes that make...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "When we wear clothes that make us feel comfortable and confident,",
+            "score": 1,
+            "guide": "When 引导时间从句；that 定语从句修饰 clothes；make sb feel 使役连缀。意群精准译为‘每当我们换上那些让自己感到妥帖舒适、底气十足的衣裳时，’",
+            "vocab": [
+              {
+                "word": "comfortable",
+                "pos": "adj.",
+                "common": "舒服的；舒适的",
+                "context": "剪裁合身、体感惬意"
+              },
+              {
+                "word": "confident",
+                "pos": "adj.",
+                "common": "有信心的；自信的",
+                "context": "内心从容自信"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "it can positively affect our self-esteem and overall mood",
+            "score": 1,
+            "guide": "positively affect 译为‘带来积极正向的作用’；self-esteem 核心词‘自尊感’；overall mood 译为‘整体精神面貌/整体心境’。意群精准译为‘它能对我们的自我认同自尊感以及全天的精神状态带来极佳的积极助益’",
+            "vocab": [
+              {
+                "word": "positively",
+                "pos": "adv.",
+                "common": "积极地；正面地",
+                "context": "提供正向的情绪价值"
+              },
+              {
+                "word": "self-esteem",
+                "pos": "n.",
+                "common": "自尊；自尊心",
+                "context": "对自我价值的内在肯定"
+              },
+              {
+                "word": "mood",
+                "pos": "n.",
+                "common": "心情；情绪",
+                "context": "全身心的精神情绪状态"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "When 引导时间条件状语从句；that make us feel comfortable and confident 为定语从句修饰 clothes；主句主干为 it can positively affect our self-esteem and overall mood。",
+        "reassembly_notes": "定语从句 make us feel comfortable and confident 提前修饰衣物‘令人舒适且自信的’；positively affect 译为‘产生积极正面的影响’；self-esteem 心理学专有名词‘自尊心’。"
       },
       {
         "sid": 8,
+        "pid": 3,
         "en": "Moreover, cultural and societal influences play a significant role in shaping our dress choices.",
-        "cn": "（第 8 句标准采分参考）",
+        "cn": "此外，文化积淀与社会环境的潜移默化，也在深层塑造着我们的穿衣搭配选择。",
         "scoring_points": [
           {
-            "phrase": "Moreover, cultural and societa...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Moreover, cultural and societal influences",
+            "score": 1,
+            "guide": "Moreover 表递进；cultural and societal 译为‘文化与社会的’；influences 译为‘熏陶与影响’。意群精准译为‘更为重要的是，社会规范与文化传统的潜移默化，’",
+            "vocab": [
+              {
+                "word": "societal",
+                "pos": "adj.",
+                "common": "社会的",
+                "context": "社会群体层面的规范与期待"
+              },
+              {
+                "word": "influence",
+                "pos": "n.",
+                "common": "影响；作用",
+                "context": "环境对人审美的无形塑造"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "play a significant role in shaping our dress choices",
+            "score": 1,
+            "guide": "play a significant role in 经典短语再次出现；shaping our dress choices 译为‘塑造我们的着装决断’。意群精准译为‘在我们每天决定穿什么出门的抉择中，同样起到了极为深刻的导向作用’",
+            "vocab": [
+              {
+                "word": "shape",
+                "pos": "v.",
+                "common": "使成形；塑造",
+                "context": "深刻定型并制约审美观念"
+              },
+              {
+                "word": "choice",
+                "pos": "n.",
+                "common": "选择",
+                "context": "最终付诸实践的装束抉择"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "Moreover 为逻辑连接词；主语为 cultural and societal influences；谓语 play a significant role in...；动名词短语 shaping our dress choices 作介词 in 的宾语。",
+        "reassembly_notes": "cultural and societal influences 译为‘文化背景与社会习俗的影响’；play a significant role in 再次出现，与第二句首尾呼应；shaping 动词‘塑造/规范’，重组浑然一体。"
       }
     ]
   }

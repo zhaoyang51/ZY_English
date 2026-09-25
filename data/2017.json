@@ -8127,129 +8127,354 @@
     "sentences": [
       {
         "sid": 1,
+        "pid": 0,
         "en": "My dream has always been to work somewhere in an area between fashion and publishing.",
-        "cn": "（第 1 句标准采分参考）",
+        "cn": "我的梦想一直都是能够在时尚与出版两大行业的交汇领域工作。",
         "scoring_points": [
           {
-            "phrase": "My dream has always been to wo...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "My dream has always been",
+            "score": 0.5,
+            "guide": "完成时态体现一贯追求，译为‘我的梦想始终是……’。意群精准译为‘我一直以来的梦想就是’",
+            "vocab": [
+              {
+                "word": "dream",
+                "pos": "n.",
+                "common": "梦想；梦境",
+                "context": "长久以来的职业理想"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "to work somewhere in an area between fashion and publishing",
+            "score": 1.5,
+            "guide": "to work somewhere 译为‘在某处工作’；between fashion and publishing 定语前置‘介于时尚与出版业之间’。意群精准译为‘在时尚与出版跨界交叉的领域谋得一份工作’",
+            "vocab": [
+              {
+                "word": "fashion",
+                "pos": "n.",
+                "common": "时尚；风尚",
+                "context": "时装与时尚行业"
+              },
+              {
+                "word": "publishing",
+                "pos": "n.",
+                "common": "出版；出版业",
+                "context": "图书杂志与媒体出版行业"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主系表结构：主语 My dream，谓语 has always been，表语为不定式短语 to work somewhere；介词短语 in an area between fashion and publishing 作地点状语。",
+        "reassembly_notes": "between fashion and publishing 修饰 an area，地道汉语译为‘时尚与出版两大行业的交汇/交叉领域’，顺畅贴切。"
       },
       {
         "sid": 2,
+        "pid": 0,
         "en": "Two years before graduating from secondary school, I took a sewing and design course thinking that I would move on to a fashion design course.",
-        "cn": "（第 2 句标准采分参考）",
+        "cn": "在中学毕业前两年，我参加了缝纫与设计课程，当时我心想自己随后会进一步去攻读服装设计专业。",
         "scoring_points": [
           {
-            "phrase": "Two years before graduating fr...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Two years before graduating from secondary school",
+            "score": 0.5,
+            "guide": "before graduating 介词加动名词；secondary school 译为‘中学/高中’。意群精准译为‘在中学毕业前的两年’",
+            "vocab": [
+              {
+                "word": "graduate",
+                "pos": "v.",
+                "common": "毕业",
+                "context": "学业完成毕业"
+              },
+              {
+                "word": "secondary",
+                "pos": "adj.",
+                "common": "次要的；中等的",
+                "context": "secondary school 中等教育学校"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "I took a sewing and design course",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "take a course 经典搭配‘修读/参加一门课程’；sewing 译为‘缝纫/刺绣裁剪’。意群精准译为‘我参加了一门缝纫与设计课程’",
+            "vocab": [
+              {
+                "word": "sewing",
+                "pos": "n.",
+                "common": "缝纫；针线活",
+                "context": "服装缝纫工艺"
+              },
+              {
+                "word": "course",
+                "pos": "n.",
+                "common": "课程；过程",
+                "context": "技能培训课程"
+              }
+            ]
+          },
+          {
+            "phrase": "thinking that I would move on to a fashion design course",
+            "score": 1,
+            "guide": "thinking 分词伴随状语；move on to 考研核心短语‘进而转向/继续学习’。意群精准译为‘心里琢磨着自己将来会接着去读服装设计专业’",
+            "vocab": [
+              {
+                "word": "move on to",
+                "pos": "phr.",
+                "common": "进而转向；进入下一阶段",
+                "context": "升学进入更专业的领域"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "时间状语 Two years before graduating from secondary school；主句主干为 I took a sewing and design course；现在分词短语 thinking that... 作伴随状语，that 后引导宾语从句。",
+        "reassembly_notes": "时间状语提前；thinking that 分词伴随译为‘心中揣着……的想法/心想’；move on to 译为‘进阶到/进而学习’，层次分明。"
       },
       {
         "sid": 3,
+        "pid": 0,
         "en": "However, during that course I realized I was not good enough in this area to compete with other creative personalities in the future, so I decided that it was not the right path for me.",
-        "cn": "（第 3 句标准采分参考）",
+        "cn": "然而，在那门课程的学习期间，我意识到自己在这一领域并不出众，未来根本无法与其他富有创意的人才竞争，所以我断定这并非适合我的道路。",
         "scoring_points": [
           {
-            "phrase": "However, during that course I ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "However, during that course I realized",
+            "score": 0.5,
+            "guide": "However 转折；during that course 译为‘在那段学习期间’；realize 译为‘领悟到/意识到’。意群精准译为‘然而在学习那门课的过程中，我意识到’",
+            "vocab": [
+              {
+                "word": "realize",
+                "pos": "v.",
+                "common": "意识到；实现",
+                "context": "清醒地认识到现实"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "I was not good enough in this area to compete with other creative personalities in the future",
+            "score": 1,
+            "guide": "not good enough to 译为‘不够优秀以至于无法……’；compete with 译为‘与……一较高下/竞争’；personalities 熟词僻义，指‘知名人士/有个性的人才’。意群精准译为‘自己在该领域资质平平，未来根本无法与那些极富创造力的人才一较高下’",
+            "vocab": [
+              {
+                "word": "compete",
+                "pos": "v.",
+                "common": "竞争；对抗",
+                "context": "职场与艺术维度的竞争"
+              },
+              {
+                "word": "creative",
+                "pos": "adj.",
+                "common": "有创意的；创造性的",
+                "context": "艺术创造力极强的"
+              },
+              {
+                "word": "personality",
+                "pos": "n.",
+                "common": "个性；名人（熟词僻义）",
+                "context": "具备鲜明才华特质的人士"
+              }
+            ]
+          },
+          {
+            "phrase": "so I decided that it was not the right path for me",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "so 因果连词；decided 引导从句；not the right path 比喻‘并非适合我的发展方向’。意群精准译为‘因此我认定这并非适合自己的正确道路’",
+            "vocab": [
+              {
+                "word": "path",
+                "pos": "n.",
+                "common": "小路；道路",
+                "context": "人生与职业发展道路"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "However 表转折；during that course 为时间状语；主干包含 so 连接的因果并列句：前句 I realized 后接省略 that 的宾语从句，从句内部包含 not good enough... to compete with 结构；后句 so I decided that 引导宾语从句。",
+        "reassembly_notes": "长因果句：前半句‘意识到天赋不足、无法竞争’作为原因顺译；后半句‘断定不适合自己’作为果。creative personalities 属于熟词僻义（借代‘富有创造力的人才’）。"
       },
       {
         "sid": 4,
+        "pid": 0,
         "en": "Before applying for university I told everyone that I would study journalism, because writing was, and still is, one of my favourite activities.",
-        "cn": "（第 4 句标准采分参考）",
+        "cn": "在申请大学之前，我告诉所有人自己会攻读新闻学，因为写作在过去是、并且现在依然是我最喜欢的活动之一。",
         "scoring_points": [
           {
-            "phrase": "Before applying for university...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Before applying for university I told everyone that I would study journalism",
+            "score": 1,
+            "guide": "apply for university 译为‘申请大学’；study journalism 译为‘学习新闻学/新闻专业’。意群精准译为‘在报考大学前，我跟所有人都说自己打算去读新闻学’",
+            "vocab": [
+              {
+                "word": "apply",
+                "pos": "v.",
+                "common": "申请；应用",
+                "context": "apply for university 申请高校录取"
+              },
+              {
+                "word": "journalism",
+                "pos": "n.",
+                "common": "新闻学；新闻业",
+                "context": "大学新闻与采编专业"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "because writing was, and still is, one of my favourite activities",
+            "score": 1,
+            "guide": "because 原因从句；was, and still is 插入语兼顾过去与现在；favourite activities 译为‘最热爱的事情/活动之一’。意群精准译为‘因为写作向来就是、且至今仍是我最喜欢的爱好之一’",
+            "vocab": [
+              {
+                "word": "favourite",
+                "pos": "adj./n.",
+                "common": "特别喜爱的",
+                "context": "心头所爱；最青睐的"
+              },
+              {
+                "word": "activity",
+                "pos": "n.",
+                "common": "活动；行动",
+                "context": "日常热爱的事情/爱好"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "Before applying for university 为时间状语；主干为 I told everyone that...；because 引导原因状语从句，从句主谓包含 was, and still is 插入并列时态。",
+        "reassembly_notes": "Before applying for university 提至句首；was, and still is 巧妙对仗，译出‘过去是、现在也依然是’的时态跨度感。"
       },
       {
         "sid": 5,
+        "pid": 0,
         "en": "But, to be honest, I said it, because I thought that fashion and I together were just a dream – I knew that no one could imagine me in the fashion industry at all!",
-        "cn": "（第 5 句标准采分参考）",
+        "cn": "但老实说，我之所以那么说，是因为我觉得自己与时尚结缘不过是痴人说梦——我心知肚明，根本没有人能想象我投身时尚界的模样！",
         "scoring_points": [
           {
-            "phrase": "But, to be honest, I said it, ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "But, to be honest, I said it",
+            "score": 0.5,
+            "guide": "to be honest 插入语‘老实说/坦白讲’；said it 译为‘之所以那样讲’。意群精准译为‘但平心而论，我之所以这么说’",
+            "vocab": [
+              {
+                "word": "honest",
+                "pos": "adj.",
+                "common": "诚实的；老实的",
+                "context": "to be honest 坦白说；平心而论"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "because I thought that fashion and I together were just a dream",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "because 原因从句；fashion and I together 形象表述，指‘我和时尚搭边’；just a dream 译为‘黄粱一梦/痴心妄想’。意群精准译为‘是因为我觉得自己涉足时尚圈纯属痴人说梦’",
+            "vocab": [
+              {
+                "word": "dream",
+                "pos": "n.",
+                "common": "梦想；幻觉",
+                "context": "脱离实际的虚妄幻想"
+              }
+            ]
+          },
+          {
+            "phrase": "I knew that no one could imagine me in the fashion industry at all!",
+            "score": 1,
+            "guide": "knew that 引导从句；imagine sb in... 译为‘想象某人身处……行业’；not... at all 表绝无可能。意群精准译为‘我很清楚身边完全没人能想象我置身于时尚界！’",
+            "vocab": [
+              {
+                "word": "imagine",
+                "pos": "v.",
+                "common": "想象；设想",
+                "context": "在大脑中勾画某种场景"
+              },
+              {
+                "word": "industry",
+                "pos": "n.",
+                "common": "工业；行业",
+                "context": "the fashion industry 时尚行业"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "to be honest 为插入语；主句主干为 I said it；because 引导原因状语从句；破折号后 I knew that... 为同位补充说明，宾语从句含 not... at all 完全否定。",
+        "reassembly_notes": "to be honest 译为‘平心而论/老实说’；fashion and I together were just a dream 意译为‘自己涉足时尚界不过是一场虚幻的梦境/痴人说梦’；not at all 加强语气‘根本不……’。"
       },
       {
         "sid": 6,
+        "pid": 0,
         "en": "So I decided to look for some fashion-related courses that included writing.",
-        "cn": "（第 6 句标准采分参考）",
+        "cn": "于是，我决定去搜寻一些兼顾写作的时尚相关专业课程。",
         "scoring_points": [
           {
-            "phrase": "So I decided to look for some ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "So I decided to look for some fashion-related courses",
+            "score": 1,
+            "guide": "decide to do 决定做某事；look for 寻找；fashion-related 复合形容词‘与时尚相关的’。意群精准译为‘于是我决定去找一些与时尚相关的课程’",
+            "vocab": [
+              {
+                "word": "decide",
+                "pos": "v.",
+                "common": "决定；决断",
+                "context": "下定决心采取行动"
+              },
+              {
+                "word": "related",
+                "pos": "adj.",
+                "common": "相关的；有联系的",
+                "context": "fashion-related 时尚相关的"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "that included writing",
+            "score": 1,
+            "guide": "that 定语从句前置，include 译为‘包含/涵盖’。意群精准译为‘其中涵盖了写作内容的课程’",
+            "vocab": [
+              {
+                "word": "include",
+                "pos": "v.",
+                "common": "包括；包含",
+                "context": "课程培养方案中涵盖"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "简单句，主语 I，谓语 decided to look for，宾语 some fashion-related courses；that included writing 为定语从句修饰 courses。",
+        "reassembly_notes": "fashion-related 复合形容词译为‘时尚相关的’；that included writing 定语从句前置修饰‘涵盖写作内容的/兼顾写作的’，语意凝练。"
       },
       {
         "sid": 7,
+        "pid": 0,
         "en": "This is when I noticed the course \"Fashion Media & Promotion.\"",
-        "cn": "（第 7 句标准采分参考）",
+        "cn": "正是在这个时候，我留意到了“时尚传媒与品牌推广”这门课程。",
         "scoring_points": [
           {
-            "phrase": "This is when I noticed the cou...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "This is when I noticed the course",
+            "score": 1,
+            "guide": "This is when 句型译为‘正是在此时/正是那时候’；notice 动词‘注意到/留意到’。意群精准译为‘正是在那个契机下，我注意到了这门课程’",
+            "vocab": [
+              {
+                "word": "notice",
+                "pos": "v.",
+                "common": "注意；留心",
+                "context": "目光捕捉到并引起浓厚兴趣"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "\"Fashion Media & Promotion.\"",
+            "score": 1,
+            "guide": "专有名词课程名；Fashion Media 译为‘时尚媒体/时尚传媒’；Promotion 译为‘公关推广/宣传营销’。意群精准译为‘名为“时尚媒体与品牌推广”’",
+            "vocab": [
+              {
+                "word": "media",
+                "pos": "n.",
+                "common": "媒体；媒介",
+                "context": "时尚新闻媒体与期刊"
+              },
+              {
+                "word": "promotion",
+                "pos": "n.",
+                "common": "晋升；促销；推广",
+                "context": "品牌公关宣传与营销推广"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主系表结构：This is when...；when 引导表语从句，从句主谓宾为 I noticed the course...",
+        "reassembly_notes": "This is when... 经典强调时间节点句型，译为‘正是在这个时候……’；Promotion 商业熟词僻义（品牌公关与营销推广）。"
       }
     ]
   }

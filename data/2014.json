@@ -8338,147 +8338,325 @@
     "sentences": [
       {
         "sid": 1,
+        "pid": 0,
         "en": "Most people would define optimism as being endlessly happy, with a glass that's perpetually half full.",
-        "cn": "（第 1 句标准采分参考）",
+        "cn": "大多数人会将乐观定义为永无止境的快乐，就像眼中永远装着半杯水的杯子一样。",
         "scoring_points": [
           {
-            "phrase": "Most people would define optim...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Most people would define optimism as being endlessly happy",
+            "score": 1,
+            "guide": "define... as... 译为‘把……定义为……’；endlessly happy 译为‘无止境的快乐/永恒的开心’。意群精准译为‘多数人会将乐观定义为永远快乐’",
+            "vocab": [
+              {
+                "word": "define",
+                "pos": "v.",
+                "common": "给……下定义；界定",
+                "context": "阐释界定（某概念）"
+              },
+              {
+                "word": "optimism",
+                "pos": "n.",
+                "common": "乐观；乐观主义",
+                "context": "积极向上的心态"
+              },
+              {
+                "word": "endlessly",
+                "pos": "adv.",
+                "common": "无尽地；不断地",
+                "context": "永无休止地；持续不断地"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "with a glass that's perpetually half full",
+            "score": 1,
+            "guide": "with 复合结构表伴随比喻；perpetually 考研高频副词‘永久地/始终’；half full 意指‘总看到半满那一半（积极面）’。意群精准译为‘眼中杯子里的水永远是半满的状态’",
+            "vocab": [
+              {
+                "word": "perpetually",
+                "pos": "adv.",
+                "common": "永恒地；持久地",
+                "context": "始终如一地；永远"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主干为主谓宾补：Most people would define optimism as being endlessly happy；with 复合结构作伴随状语，that 引导定语从句修饰 a glass。",
+        "reassembly_notes": "define A as B 顺译为‘把 A 定义为 B’；with a glass that's perpetually half full 是西方经典比喻（半杯水看作半满还是半空），重组时采用比喻增词‘就像……一样’，点出乐观意象。"
       },
       {
         "sid": 2,
+        "pid": 0,
         "en": "But that's exactly the kind of false cheerfulness that positive psychologists wouldn't recommend.",
-        "cn": "（第 2 句标准采分参考）",
+        "cn": "但这恰恰是积极心理学家们绝不会推荐的那种虚假的盲目乐观。",
         "scoring_points": [
           {
-            "phrase": "But that's exactly the kind of...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "But that's exactly the kind of false cheerfulness",
+            "score": 1,
+            "guide": "exactly 表强调‘恰恰/正是’；false cheerfulness 核心概念‘虚假的高兴/强颜欢笑/虚妄的盲目乐观’。意群精准译为‘但这恰恰是那种虚假的欢快’",
+            "vocab": [
+              {
+                "word": "cheerfulness",
+                "pos": "n.",
+                "common": "愉快；快乐",
+                "context": "乐观欢悦的心态"
+              },
+              {
+                "word": "false",
+                "pos": "adj.",
+                "common": "虚假的；错误的",
+                "context": "不真实的；虚妄的"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "that positive psychologists wouldn't recommend",
+            "score": 1,
+            "guide": "that 定语从句；positive psychologists 专有名词‘积极心理学家’；recommend 动词‘推荐/倡导’。意群精准译为‘积极心理学家绝不推荐的做法’",
+            "vocab": [
+              {
+                "word": "positive",
+                "pos": "adj.",
+                "common": "积极的；正面的",
+                "context": "positive psychology 积极心理学"
+              },
+              {
+                "word": "psychologist",
+                "pos": "n.",
+                "common": "心理学家",
+                "context": "从事心理科学研究的学者"
+              },
+              {
+                "word": "recommend",
+                "pos": "v.",
+                "common": "推荐；建议",
+                "context": "推崇；倡导"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主句为 But that's exactly the kind of false cheerfulness；that 引导限制性定语从句修饰 cheerfulness。",
+        "reassembly_notes": "that's exactly 译为‘但这恰恰是……’；cheerfulness 转译为‘乐观/乐天态度’，定语从句提前修饰‘积极心理学家绝不推荐的’。"
       },
       {
         "sid": 3,
+        "pid": 0,
         "en": "\"Healthy optimism means being in touch with reality,\" says Tal Ben-Shahar, a Harvard professor.",
-        "cn": "（第 3 句标准采分参考）",
+        "cn": "哈佛大学教授塔尔·本-沙哈尔表示：“健康的乐观主义意味着立足于现实。”",
         "scoring_points": [
           {
-            "phrase": "\"Healthy optimism means being ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "\"Healthy optimism means being in touch with reality,\"",
+            "score": 1,
+            "guide": "in touch with 核心习语‘接触；联系；立足于’；reality 译为‘客观现实’。意群精准译为‘“健康的乐观主义意味着不脱离现实”’",
+            "vocab": [
+              {
+                "word": "healthy",
+                "pos": "adj.",
+                "common": "健康的",
+                "context": "理性的；健全的（乐观心态）"
+              },
+              {
+                "word": "reality",
+                "pos": "n.",
+                "common": "现实；实际情况",
+                "context": "客观现实与生活境况"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "says Tal Ben-Shahar, a Harvard professor",
+            "score": 1,
+            "guide": "完全倒装引语主句；a Harvard professor 作同位语，提前翻译修饰。意群精准译为‘哈佛大学教授塔尔·本-沙哈尔说道’",
+            "vocab": [
+              {
+                "word": "professor",
+                "pos": "n.",
+                "common": "教授",
+                "context": "大学正教授"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "直接引语作宾语，主句为 says Tal Ben-Shahar，a Harvard professor 为同位语解释主语身份；引语中 means 后接动名词短语 being in touch with reality 作宾语。",
+        "reassembly_notes": "语序调整：引语标点在汉语中通常先交代说话人及其身份‘哈佛大学教授……表示’，再接冒号引号引出所言内容，语流更加符合中文叙述惯例。"
       },
       {
         "sid": 4,
+        "pid": 0,
         "en": "According to Ben-Shahar, realistic optimists are those who make the best of things that happen, but not those who believe everything happens for the best.",
-        "cn": "（第 4 句标准采分参考）",
+        "cn": "本-沙哈尔认为，务实的乐观主义者是那些能对所发生之事随遇而安、充分利用的人，而不是盲目相信一切发生皆是最好安排的人。",
         "scoring_points": [
           {
-            "phrase": "According to Ben-Shahar, reali...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "According to Ben-Shahar, realistic optimists are those who make the best of things that happen",
+            "score": 1,
+            "guide": "realistic optimists 译为‘务实的/现实的乐观主义者’；make the best of 习语译为‘充分利用；善处逆境’；that happen 定语从句译为‘所发生的事情’。意群精准译为‘本-沙哈尔指出，务实的乐观者会尽可能善用所发生的一切’",
+            "vocab": [
+              {
+                "word": "realistic",
+                "pos": "adj.",
+                "common": "现实的；务实的",
+                "context": "立足实际的；实事求是的"
+              },
+              {
+                "word": "make the best of",
+                "pos": "phr.",
+                "common": "充分利用；妥善处理",
+                "context": "面对困境尽力争取最好结果"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "but not those who believe everything happens for the best",
+            "score": 1,
+            "guide": "but not 引导并列否定项；happen for the best 习语译为‘冥冥中都是最好的安排/最终结果总是好的’。意群精准译为‘而非盲目坚信所有事情都会走向最好结局的人’",
+            "vocab": [
+              {
+                "word": "believe",
+                "pos": "v.",
+                "common": "相信；坚信",
+                "context": "盲目坚信某种信念"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "According to 作介词状语；主干为 realistic optimists are those... but not those...；两个 those 后面各自带有一个由 who 引导的定语从句，形成对比。",
+        "reassembly_notes": "句型包含 not A but B 对比思维（此处是 A but not B）。make the best of 是考研必背习语（充分利用现有条件），与 believe everything happens for the best 形成鲜明反差，重组时增补连词‘而不是’强化对仗。"
       },
       {
         "sid": 5,
+        "pid": 1,
         "en": "Ben-Shahar uses three optimistic exercises.",
-        "cn": "（第 5 句标准采分参考）",
+        "cn": "本-沙哈尔推行了三套培养乐观心态的练习方法。",
         "scoring_points": [
           {
-            "phrase": "Ben-Shahar uses three optimist...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
-          },
-          {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "Ben-Shahar uses three optimistic exercises",
+            "score": 2,
+            "guide": "uses 译为‘运用/推行’；optimistic exercises 译为‘乐观练习/积极心态训练方法’。意群精准译为‘本-沙哈尔经常运用三种培养乐观心态的练习’",
+            "vocab": [
+              {
+                "word": "exercise",
+                "pos": "n.",
+                "common": "锻炼；练习",
+                "context": "心理调节与思维训练方法"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主谓宾简单句：主语 Ben-Shahar，谓语 uses，宾语 three optimistic exercises。",
+        "reassembly_notes": "单句顺译。将 exercises 结合心理学语境引申为‘心理练习/训练方法’，避免字面直译‘做练习’。"
       },
       {
         "sid": 6,
+        "pid": 1,
         "en": "When he feels down – say, after giving a bad lecture – he grants himself permission to be human.",
-        "cn": "（第 6 句标准采分参考）",
+        "cn": "每当他情绪低落时——比如说，在搞砸了一场演讲之后——他便允许自己展露出作为普通人的一面。",
         "scoring_points": [
           {
-            "phrase": "When he feels down – say, afte...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "When he feels down – say, after giving a bad lecture",
+            "score": 1,
+            "guide": "feel down 习语‘情绪低落/心情沮丧’；say 插入语‘比方说’；bad lecture 译为‘一场糟糕的授课/讲座’。意群精准译为‘当他情绪沮丧时——比如作了一场糟糕的讲座之后’",
+            "vocab": [
+              {
+                "word": "down",
+                "pos": "adj./adv.",
+                "common": "向下",
+                "context": "feel down 情绪消沉低落"
+              },
+              {
+                "word": "lecture",
+                "pos": "n.",
+                "common": "讲座；演讲；训斥",
+                "context": "大学课堂讲授；学术演讲"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "he grants himself permission to be human",
+            "score": 1,
+            "guide": "grant sb permission to do 译为‘给予某人……的许可’；to be human 意译为‘承认自己只是凡人/允许自己是个普通人’。意群精准译为‘他会允许自己也有身为普通人的软弱’",
+            "vocab": [
+              {
+                "word": "grant",
+                "pos": "v.",
+                "common": "准许；授予",
+                "context": "正式允许；给予"
+              },
+              {
+                "word": "permission",
+                "pos": "n.",
+                "common": "许可；准许",
+                "context": "宽容与接纳的许可"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "When 引导时间状语从句；破折号之间 say, after giving a bad lecture 为插入语作举例说明；主句主谓宾补为 he grants himself permission to be human。",
+        "reassembly_notes": "插入语 say 在此为熟词僻义（副词表‘比方说’）；grant permission 搭配 to be human 属于地道英语习语，意指‘接纳自己也会犯错的凡人属性’，意译为‘允许自己也有凡人的弱点/展露凡人一面’。"
       },
       {
         "sid": 7,
+        "pid": 1,
         "en": "He reminds himself that not every lecture can be a Nobel winner; some will be less effective than others.",
-        "cn": "（第 7 句标准采分参考）",
+        "cn": "他提醒自己：并非每一次演讲都能像诺贝尔奖得主的发言那样惊艳；有些演讲的效果难免会不如其他场次。",
         "scoring_points": [
           {
-            "phrase": "He reminds himself that not ev...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "He reminds himself that not every lecture can be a Nobel winner",
+            "score": 1,
+            "guide": "remind sb that 译为‘提醒自己……’；not every 考查部分否定‘并非每场……都能……’；Nobel winner 借喻极高成就。意群精准译为‘他告诫自己，并非每场讲座都能达到诺奖级别的高度’",
+            "vocab": [
+              {
+                "word": "remind",
+                "pos": "v.",
+                "common": "提醒；使想起",
+                "context": "心理自我告诫与提醒"
+              },
+              {
+                "word": "lecture",
+                "pos": "n.",
+                "common": "演讲；讲座",
+                "context": "公开授课"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "some will be less effective than others",
+            "score": 1,
+            "guide": "less effective than 比较级‘效果不如其他场次’；some 与 others 对比。意群精准译为‘总有些演讲的效果会稍显逊色’",
+            "vocab": [
+              {
+                "word": "effective",
+                "pos": "adj.",
+                "common": "有效的；起作用的",
+                "context": "授课与沟通成效卓著的"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主句为 He reminds himself that...；that 引导宾语从句；从句中 not every 为部分否定；分号连接并列句 some will be less effective than others。",
+        "reassembly_notes": "not every 是考研英语重点语法（部分否定），必须译为‘并非每一次……都……’，不能误译为全盘否定；Nobel winner 比喻引申为‘顶尖杰作/极高水准’。"
       },
       {
         "sid": 8,
+        "pid": 1,
         "en": "Next is reconstruction.",
-        "cn": "（第 8 句标准采分参考）",
+        "cn": "紧接着第二步是认知重构。",
         "scoring_points": [
           {
-            "phrase": "Next is reconstruction....",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
-          },
-          {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "Next is reconstruction",
+            "score": 2,
+            "guide": "Next 译为‘下一步/紧接着’；reconstruction 结合积极心理学专业术语译为‘思维重构/认知重塑’。意群精准译为‘接下来的环节便是认知重构’",
+            "vocab": [
+              {
+                "word": "reconstruction",
+                "pos": "n.",
+                "common": "重建；改建",
+                "context": "心理认知重构（重新诠释困境）"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "倒装系表结构，副词/序数标志 Next 位于句首充当表语，连系动词 is，主语为 reconstruction。",
+        "reassembly_notes": "单句精练。reconstruction 在心理学中专业术语为‘认知重构’（cognitive reconstruction），体现语境专业度。"
       }
     ]
   }

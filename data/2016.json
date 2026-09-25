@@ -7791,129 +7791,398 @@
     "sentences": [
       {
         "sid": 1,
+        "pid": 0,
         "en": "The supermarket is designed to lure customers into spending as much time as possible within its doors.",
-        "cn": "（第 1 句标准采分参考）",
+        "cn": "超市的设计初衷，正是为了诱导顾客在其门店内尽可能多地逗留停留。",
         "scoring_points": [
           {
-            "phrase": "The supermarket is designed to...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "The supermarket is designed to",
+            "score": 0.5,
+            "guide": "被动语态转主动，译为‘超市的设计旨在/其设计初衷是’。意群精准译为‘超市的设计旨在’",
+            "vocab": [
+              {
+                "word": "design",
+                "pos": "v.",
+                "common": "设计；计划",
+                "context": "be designed to 旨在；初衷是为了"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "lure customers into spending as much time as possible",
+            "score": 1,
+            "guide": "lure sb into doing 考研核心短语‘引诱/诱惑某人做某事’；as much time as possible 译为‘尽可能多的时间’。意群精准译为‘诱导顾客尽可能耗费更多的时间’",
+            "vocab": [
+              {
+                "word": "lure",
+                "pos": "v.",
+                "common": "引诱；诱惑",
+                "context": "商业营销手段上的引诱"
+              },
+              {
+                "word": "customer",
+                "pos": "n.",
+                "common": "顾客；客户",
+                "context": "超市消费者"
+              }
+            ]
+          },
+          {
+            "phrase": "within its doors",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "within its doors 介词短语，比喻修辞‘在超市门内/在店内’。意群精准译为‘逗留在超市门店内’",
+            "vocab": [
+              {
+                "word": "within",
+                "pos": "prep.",
+                "common": "在……之内",
+                "context": "在营业场所范围内部"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主干为被动语态 The supermarket is designed to do...；不定式短语内部含有 lure sb into doing sth 结构；as much time as possible 为数量状语，within its doors 为地点介词短语。",
+        "reassembly_notes": "被动转主动：is designed to 译为‘……的设计初衷正是为了……’；lure sb into doing 译为‘引诱/诱导某人做某事’；within its doors 转译为‘在门店内/在店内’。"
       },
       {
         "sid": 2,
+        "pid": 0,
         "en": "The reason for this is simple: The longer you stay in the store, the more stuff you'll see, and the more stuff you see, the more you'll buy.",
-        "cn": "（第 2 句标准采分参考）",
+        "cn": "其中的原因很简单：你在店里逗留的时间越长，看到的商品就越多；而你看到的商品越多，购买的也就越多。",
         "scoring_points": [
           {
-            "phrase": "The reason for this is simple:...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "The reason for this is simple:",
+            "score": 0.5,
+            "guide": "主系表结构引出解释，顺译即可。意群精准译为‘这背后的原因很简单：’",
+            "vocab": [
+              {
+                "word": "reason",
+                "pos": "n.",
+                "common": "理由；原因",
+                "context": "商业营销行为背后的动因"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "The longer you stay in the store, the more stuff you'll see",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "the more..., the more... 比较结构，stuff 在此指代各类商品货物。意群精准译为‘在店里呆得越久，看到的商品就越多’",
+            "vocab": [
+              {
+                "word": "stuff",
+                "pos": "n.",
+                "common": "东西；原料",
+                "context": "超市陈列的各种商品"
+              }
+            ]
+          },
+          {
+            "phrase": "and the more stuff you see, the more you'll buy",
+            "score": 1,
+            "guide": "第二组比较结构承接上文，形成连环递进逻辑。意群精准译为‘而你看到的货品越多，买得也就越多’",
+            "vocab": [
+              {
+                "word": "buy",
+                "pos": "v.",
+                "common": "购买",
+                "context": "掏钱消费选购"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "冒号前为主系表 The reason for this is simple；冒号后包含两组并列的 the more..., the more... 经典比较句型。",
+        "reassembly_notes": "冒号后为双重 the + 比较级，the + 比较级结构，前后对仗工整，顺译出‘越……就越……；而越……就越……’的递进因果逻辑。"
       },
       {
         "sid": 3,
+        "pid": 0,
         "en": "And supermarkets contain a lot of stuff.",
-        "cn": "（第 3 句标准采分参考）",
+        "cn": "而超市里的商品确实琳琅满目、应有尽有。",
         "scoring_points": [
           {
-            "phrase": "And supermarkets contain a lot...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
-          },
-          {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "And supermarkets contain a lot of stuff",
+            "score": 2,
+            "guide": "contain 译为‘包含/容纳’；a lot of stuff 意译为‘货品浩繁/琳琅满目’。意群精准译为‘而且超市里所容纳的货物确实数量惊人’",
+            "vocab": [
+              {
+                "word": "contain",
+                "pos": "v.",
+                "common": "包含；容纳；克制",
+                "context": "陈列包罗大量商品"
+              },
+              {
+                "word": "stuff",
+                "pos": "n.",
+                "common": "物品；东西",
+                "context": "各类货物商品"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "简单主谓宾句：supermarkets 为主语，contain 为谓语，a lot of stuff 为宾语。",
+        "reassembly_notes": "a lot of stuff 过于口语化，重组翻译时运用汉语四字成语‘琳琅满目/应有尽有’进行雅化与润色。"
       },
       {
         "sid": 4,
+        "pid": 0,
         "en": "The average supermarket, according to the Food Marketing Institute, carries some 44,000 different items, and many carry tens of thousands more.",
-        "cn": "（第 4 句标准采分参考）",
+        "cn": "据食品营销协会统计，一家普通超市通常销售大约4.4万种不同的货品，许多大型超市的货品甚至还要多出数万种。",
         "scoring_points": [
           {
-            "phrase": "The average supermarket, accor...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "The average supermarket, according to the Food Marketing Institute",
+            "score": 0.5,
+            "guide": "average 译为‘普通的/一般的’；according to 插入语提至句首，Food Marketing Institute 专有名词。意群精准译为‘据食品营销协会统计，一家普通超市’",
+            "vocab": [
+              {
+                "word": "average",
+                "pos": "adj.",
+                "common": "平均的；普通的",
+                "context": "普通典型的；常规规模的"
+              },
+              {
+                "word": "institute",
+                "pos": "n.",
+                "common": "协会；学院；研究所",
+                "context": "行业协会研究机构"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "carries some 44,000 different items",
+            "score": 1,
+            "guide": "carry 熟词僻义，指‘售卖/铺货’；some 修饰数词为‘大约’；items 译为‘商品种类/单品’。意群精准译为‘通常会售卖大约4.4万种各色商品’",
+            "vocab": [
+              {
+                "word": "carry",
+                "pos": "v.",
+                "common": "携带；售卖（熟词僻义）",
+                "context": "商店有存货并持续销售"
+              },
+              {
+                "word": "item",
+                "pos": "n.",
+                "common": "项目；一件商品",
+                "context": "SKU/商品单品种类"
+              }
+            ]
+          },
+          {
+            "phrase": "and many carry tens of thousands more",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "many 代指许多大型超市；tens of thousands more 译为‘还要多出数万种’。意群精准译为‘而许多超市的商品数量还要多出数万种’",
+            "vocab": [
+              {
+                "word": "tens of thousands",
+                "pos": "phrase",
+                "common": "成千上万",
+                "context": "数以万计的增量"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "according to... 为插入语；and 连接两个并列分句：前一句主谓宾 The average supermarket carries some 44,000 different items；后一句 many carry tens of thousands more。",
+        "reassembly_notes": "语序调整：将插入语 according to the Food Marketing Institute 提到句首‘据……统计’；carries 熟词僻义（商店售卖/有某种存货），some 在数词前为副词‘大约’。"
       },
       {
         "sid": 5,
+        "pid": 0,
         "en": "The sheer volume of available choice is enough to send shoppers into a state of information overload.",
-        "cn": "（第 5 句标准采分参考）",
+        "cn": "摆在面前如此庞大的可供选择数量，足以让购物者陷入信息过载的状态。",
         "scoring_points": [
           {
-            "phrase": "The sheer volume of available ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "The sheer volume of available choice",
+            "score": 1,
+            "guide": "sheer 考研重点词‘极度的/纯粹的’；volume 译为‘数量/容积’；available choice 译为‘可供挑选的选择’。意群精准译为‘如此庞大的可选商品数量’",
+            "vocab": [
+              {
+                "word": "sheer",
+                "pos": "adj.",
+                "common": "纯粹的；全然的；陡峭的",
+                "context": "数量极多到令人惊叹的"
+              },
+              {
+                "word": "volume",
+                "pos": "n.",
+                "common": "体积；容积；总量",
+                "context": "可供选择的总数量"
+              },
+              {
+                "word": "available",
+                "pos": "adj.",
+                "common": "可利用的；可获得的",
+                "context": "摆在货架上供挑选的"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "is enough to send shoppers into a state of information overload",
+            "score": 1,
+            "guide": "send sb into a state of 译为‘让某人陷入……的境地’；information overload 专业词汇‘信息过载’。意群精准译为‘足以让消费者陷入信息过载的瘫痪状态’",
+            "vocab": [
+              {
+                "word": "shopper",
+                "pos": "n.",
+                "common": "购物者",
+                "context": "前来采购的顾客"
+              },
+              {
+                "word": "overload",
+                "pos": "n./v.",
+                "common": "过载；超载",
+                "context": "大脑信息负荷超载"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主语为 The sheer volume of available choice，包含两个介词短语修饰；谓语为 is enough to do...；send sb into... 为结果使役结构。",
+        "reassembly_notes": "sheer volume 为经典高频词组（极其庞大的数量）；send sb into 译为‘使某人陷入……状态’；information overload 为现代认知心理学术语‘信息过载’。"
       },
       {
         "sid": 6,
+        "pid": 0,
         "en": "According to brain-scan experiments, the demands of so much decision-making quickly become too much for us.",
-        "cn": "（第 6 句标准采分参考）",
+        "cn": "脑部扫描实验显示，做出如此繁复的决策需求，很快就会让我们的大脑难以承受。",
         "scoring_points": [
           {
-            "phrase": "According to brain-scan experi...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "According to brain-scan experiments",
+            "score": 0.5,
+            "guide": "brain-scan experiments 科技常识词‘脑部扫描实验’。意群精准译为‘脑部扫描实验表明’",
+            "vocab": [
+              {
+                "word": "scan",
+                "pos": "n./v.",
+                "common": "扫描；细看",
+                "context": "医学脑电或核磁扫描"
+              },
+              {
+                "word": "experiment",
+                "pos": "n.",
+                "common": "实验；尝试",
+                "context": "科学实证研究"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "the demands of so much decision-making",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "demands 名词‘要求/需求/消耗’；decision-making 译为‘决策/做出决断’。意群精准译为‘如此频繁做决定的心智负担’",
+            "vocab": [
+              {
+                "word": "demand",
+                "pos": "n.",
+                "common": "要求；需求",
+                "context": "对大脑认知精力的苛刻要求"
+              },
+              {
+                "word": "decision-making",
+                "pos": "n.",
+                "common": "决策制定",
+                "context": "权衡挑选商品的决断过程"
+              }
+            ]
+          },
+          {
+            "phrase": "quickly become too much for us",
+            "score": 1,
+            "guide": "become too much for sb 习语‘使某人无法招架/难以负荷’。意群精准译为‘很快就会让人招架不住’",
+            "vocab": [
+              {
+                "word": "quickly",
+                "pos": "adv.",
+                "common": "迅速地",
+                "context": "转瞬间；很快"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "According to brain-scan experiments 为介词状语；主干为 the demands of so much decision-making quickly become too much for us；the demands 为主语，become 为系动词，too much 为表语。",
+        "reassembly_notes": "介词短语提至句首；too much for us 英语口语习惯表达，指‘超过负荷、让人难以招架’，意译为‘让我们的大脑不堪重负/难以承受’。"
       },
       {
         "sid": 7,
+        "pid": 0,
         "en": "After about 40 minutes of shopping, most people stop struggling to be rationally selective, and instead begin shopping emotionally – which is the point at which we accumulate the 50 percent of stuff in our cart that we never intended buying.",
-        "cn": "（第 7 句标准采分参考）",
+        "cn": "在逛街采购大约40分钟之后，多数人便不再苦苦坚持理性挑选，转而开始冲动消费——正是在这一刻，我们把购物车里50%原本根本没打算购买的商品堆了进去。",
         "scoring_points": [
           {
-            "phrase": "After about 40 minutes of shop...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "After about 40 minutes of shopping, most people stop struggling to be rationally selective",
+            "score": 0.5,
+            "guide": "stop doing sth 停止做某事；struggle to do 挣扎着做某事；rationally selective 译为‘理智地进行挑选’。意群精准译为‘在购物大约40分钟之后，大部分人不再勉力保持理性筛选’",
+            "vocab": [
+              {
+                "word": "struggle",
+                "pos": "v.",
+                "common": "挣扎；努力斗争",
+                "context": "勉力抵抗诱惑；苦苦坚持"
+              },
+              {
+                "word": "rationally",
+                "pos": "adv.",
+                "common": "理性地",
+                "context": "按逻辑与预算理智地"
+              },
+              {
+                "word": "selective",
+                "pos": "adj.",
+                "common": "有选择性的",
+                "context": "精挑细选的"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "and instead begin shopping emotionally",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "instead 表转折替代‘取而代之的是’；emotionally 译为‘凭感性/冲动地’。意群精准译为‘反而开始全凭感性与情绪冲动购物’",
+            "vocab": [
+              {
+                "word": "instead",
+                "pos": "adv.",
+                "common": "反而；代替",
+                "context": "转向另一种相反的行为模式"
+              },
+              {
+                "word": "emotionally",
+                "pos": "adv.",
+                "common": "情绪化地",
+                "context": "凭感觉与情绪冲动"
+              }
+            ]
+          },
+          {
+            "phrase": "which is the point at which we accumulate the 50 percent of stuff in our cart",
+            "score": 0.5,
+            "guide": "which 指代前文的时间点，at which 引导从句修饰 point；accumulate 核心动词‘堆积/积聚’。意群精准译为‘而正是从这时起，我们开始在购物车里胡乱堆放那半数的货品’",
+            "vocab": [
+              {
+                "word": "accumulate",
+                "pos": "v.",
+                "common": "积累；积聚",
+                "context": "一件件往购物车里塞堆"
+              },
+              {
+                "word": "cart",
+                "pos": "n.",
+                "common": "手推车；购物车",
+                "context": "超市手推车"
+              }
+            ]
+          },
+          {
+            "phrase": "that we never intended buying",
+            "score": 0.5,
+            "guide": "that 定语从句修饰 stuff；intend doing/to do 译为‘原本打算做……’；never 表否定。意群精准译为‘那些我们原本根本无意购买的商品’",
+            "vocab": [
+              {
+                "word": "intend",
+                "pos": "v.",
+                "common": "打算；意图",
+                "context": "原本有购买规划"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "时间状语为 After about 40 minutes of shopping；主句主干包含并列谓语 stop struggling... and begin shopping...；破折号后 which 引导非限制性定语从句，从句中嵌套 at which 引导的定语从句修饰 the point，从句末尾包含 that 定语从句修饰 stuff。",
+        "reassembly_notes": "长难句经典三层拆分：前半句先交待时间与理性心理崩溃过程（不再坚持理性筛选）；中段承接情感冲动购物；后半段破折号双重定从拆译为‘正是在这一时刻……’，将 cart that we never intended buying 的限定定从前置润色。"
       }
     ]
   }

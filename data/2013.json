@@ -7945,147 +7945,341 @@
     "sentences": [
       {
         "sid": 1,
+        "pid": 0,
         "en": "I can pick a date from the past 53 years and know instantly where I was, what happened in the news and even the day of the week.",
-        "cn": "（第 1 句标准采分参考）",
+        "cn": "我可以从过去的53年中随手挑出一个日期，就能立即知道那天我身在何处、新闻里发生了什么，甚至能脱口说出那是星期几。",
         "scoring_points": [
           {
-            "phrase": "I can pick a date from the pas...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "I can pick a date from the past 53 years",
+            "score": 0.5,
+            "guide": "pick a date 顺译为‘挑出一个日期/选定某一天’，介词短语修饰 53 年。意群精准译为‘我可以从过去的53年中随手挑出一个日期’",
+            "vocab": [
+              {
+                "word": "pick",
+                "pos": "v.",
+                "common": "挑选；采摘",
+                "context": "随手挑出；选定"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "and know instantly where I was",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "instantly 副词修饰 know，译为‘瞬间/立刻知道’；where I was 地点状语从句译为‘我身在何处’。意群精准译为‘并立刻知道当时自己身在何方’",
+            "vocab": [
+              {
+                "word": "instantly",
+                "pos": "adv.",
+                "common": "立刻；马上",
+                "context": "一瞬间；立刻"
+              }
+            ]
+          },
+          {
+            "phrase": "what happened in the news and even the day of the week",
+            "score": 1,
+            "guide": "what 引导宾语从句，the day of the week 为固定表达‘星期几’，even 表递进‘甚至’。意群精准译为‘新闻里发生了什么，甚至那天是星期几’",
+            "vocab": [
+              {
+                "word": "happen",
+                "pos": "v.",
+                "common": "发生",
+                "context": "出现；发生"
+              },
+              {
+                "word": "week",
+                "pos": "n.",
+                "common": "周；星期",
+                "context": "the day of the week 星期几"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主语为 I，情态动词 can 后面接两个并列动词短语 pick a date... 和 know instantly...；know 后面并列带了三个宾语成分：where 从句、what 从句以及名词短语 the day of the week。",
+        "reassembly_notes": "know 引导的三个宾语并列（两个宾从加一个名词短语），中文顺译时增补‘那天’、‘脱口说出’等衔接词，节奏紧凑明快。"
       },
       {
         "sid": 2,
+        "pid": 0,
         "en": "I've been able to do this since I was four.",
-        "cn": "（第 2 句标准采分参考）",
+        "cn": "从我四岁起，我就具备了这种能力。",
         "scoring_points": [
           {
-            "phrase": "I've been able to do this sinc...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "I've been able to do this",
+            "score": 1,
+            "guide": "be able to do 译为‘能够做到这一点/具备这种能力’；完成时态体现持续性。意群精准译为‘我就一直具备这种能力’",
+            "vocab": [
+              {
+                "word": "able",
+                "pos": "adj.",
+                "common": "能够的；有才干的",
+                "context": "be able to 具备……的能力"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "since I was four",
+            "score": 1,
+            "guide": "since 引导时间状语从句，four 略去了 years old。意群精准译为‘从我四岁的时候开始’",
+            "vocab": [
+              {
+                "word": "since",
+                "pos": "conj.",
+                "common": "自……以来；因为",
+                "context": "引导过去某时间点至今的时间状语"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主句为现在完成时 I've been able to do this，since 引导时间状语从句 I was four。",
+        "reassembly_notes": "语序调整：汉语习惯将 since 引导的时间状语从句‘从我四岁起’置于句首，主句后置，更加自然地交代能力来源。"
       },
       {
         "sid": 3,
+        "pid": 1,
         "en": "I never feel overwhelmed with the amount of information my brain absorbs.",
-        "cn": "（第 3 句标准采分参考）",
+        "cn": "大脑吸收如此巨量的信息，但我从未因此感到不堪重负。",
         "scoring_points": [
           {
-            "phrase": "I never feel overwhelmed with ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "I never feel overwhelmed with",
+            "score": 1,
+            "guide": "feel overwhelmed with 为考研核心短语，译为‘对……感到不堪重负/被……压垮’；never 表完全否定。意群精准译为‘我从未感到不堪重负’",
+            "vocab": [
+              {
+                "word": "overwhelmed",
+                "pos": "adj.",
+                "common": "不知所措的；被压垮的",
+                "context": "不堪重负的；无法承受的"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "the amount of information my brain absorbs",
+            "score": 1,
+            "guide": "the amount of 修饰不可数名词 information；my brain absorbs 定语从句前置修饰‘大脑所吸收的’。意群精准译为‘大脑所吸收的海量信息’",
+            "vocab": [
+              {
+                "word": "absorb",
+                "pos": "v.",
+                "common": "吸收；同化",
+                "context": "摄取、接收并储存知识/信息"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主干为 I never feel overwhelmed with...；the amount of information 之后带有省略了关系代词 that/which 的定语从句 my brain absorbs 修饰 information。",
+        "reassembly_notes": "将介词短语及后置定语从句‘大脑所吸收的庞大信息量’前提作为铺垫，主句‘从未感到不堪重负’置后，形成语义转折反差，更具表现力。"
       },
       {
         "sid": 4,
+        "pid": 1,
         "en": "My mind seems to be able to cope and the information is stored away neatly.",
-        "cn": "（第 4 句标准采分参考）",
+        "cn": "我的大脑似乎应付自如，所有信息都被井井有条地归档封存。",
         "scoring_points": [
           {
-            "phrase": "My mind seems to be able to co...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "My mind seems to be able to cope",
+            "score": 1,
+            "guide": "mind 译为‘大脑/心智’；seem to be able to 译为‘似乎完全能够’；cope 为不及物动词，译为‘应对/应付自如’。意群精准译为‘我的大脑似乎完全能够应付自如’",
+            "vocab": [
+              {
+                "word": "cope",
+                "pos": "v.",
+                "common": "处理；对付",
+                "context": "应对得当；应付自如"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "and the information is stored away neatly",
+            "score": 1,
+            "guide": "被动语态 is stored away 译为‘被储存/被归档’；neatly 副词译为‘井然有序地/整整齐齐地’。意群精准译为‘而且所有信息都被井井有条地封存起来’",
+            "vocab": [
+              {
+                "word": "store",
+                "pos": "v.",
+                "common": "贮存；保存",
+                "context": "store away 归纳储存；封存"
+              },
+              {
+                "word": "neatly",
+                "pos": "adv.",
+                "common": "整洁地；巧妙地",
+                "context": "井井有条地；工整地"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "and 连接两个并列主句；前一句主谓为 My mind seems to be able to cope；后一句为一般现在时的被动语态 the information is stored away neatly。",
+        "reassembly_notes": "并列两分句顺译；cope 引申为‘应付自如/应对得当’；store away neatly 带有拟人比喻色彩，译作‘井井有条地归档封存’。"
       },
       {
         "sid": 5,
+        "pid": 1,
         "en": "When I think of a sad memory, I do what everybody does – try to put it to one side.",
-        "cn": "（第 5 句标准采分参考）",
+        "cn": "当回想起一段伤心往事时，我和常人一样——尽力把它搁置一边。",
         "scoring_points": [
           {
-            "phrase": "When I think of a sad memory, ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "When I think of a sad memory",
+            "score": 0.5,
+            "guide": "think of 译为‘想到/回想起’；sad memory 译为‘悲伤的回忆/伤心往事’。意群精准译为‘当我想起伤心往事时’",
+            "vocab": [
+              {
+                "word": "memory",
+                "pos": "n.",
+                "common": "记忆；回忆",
+                "context": "一段记忆往事"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "I do what everybody does",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "what 引导宾语从句，字面是‘做每个人都做的事’，地道意译为‘我和普通人一样’。意群精准译为‘我和大家一样’",
+            "vocab": [
+              {
+                "word": "everybody",
+                "pos": "pron.",
+                "common": "每个人；人人",
+                "context": "普通大众；常人"
+              }
+            ]
+          },
+          {
+            "phrase": "try to put it to one side",
+            "score": 1,
+            "guide": "破折号引出解释；put sth to one side 英语习语，比喻‘将……置于一旁/抛至脑后’。意群精准译为‘努力把它先搁置在一旁’",
+            "vocab": [
+              {
+                "word": "side",
+                "pos": "n.",
+                "common": "边；侧面",
+                "context": "put to one side 搁置一边；暂不理会"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "When 引导时间状语从句；主句主干为 I do what everybody does，what 引导宾语从句；破折号后不定式短语 try to put it to one side 作为同位语补充说明具体做法。",
+        "reassembly_notes": "what everybody does 意译为‘像所有人一样/和常人无异’；put it to one side 形象生动，译为成语‘搁置一边/抛在脑后’。"
       },
       {
         "sid": 6,
+        "pid": 1,
         "en": "I don't think it's harder for me just because my memory is clearer.",
-        "cn": "（第 6 句标准采分参考）",
+        "cn": "我并不认为仅仅因为自己的记忆更加清晰，摆脱痛苦对我而言就会更艰难。",
         "scoring_points": [
           {
-            "phrase": "I don't think it's harder for ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "I don't think it's harder for me",
+            "score": 1,
+            "guide": "否定转移：think 否定从句中的 harder；it 为形式主语指代前文走出悲伤。意群精准译为‘我并不认为这对我来说会更加困难’",
+            "vocab": [
+              {
+                "word": "harder",
+                "pos": "adj.",
+                "common": "更困难的",
+                "context": "在心理上更加艰难难熬"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "just because my memory is clearer",
+            "score": 1,
+            "guide": "just because 强调原因‘仅仅因为’；clearer 比较级译为‘更清晰/历历在目’。意群精准译为‘仅仅是因为自己的记忆更为清晰’",
+            "vocab": [
+              {
+                "word": "clear",
+                "pos": "adj.",
+                "common": "清晰的；明亮的",
+                "context": "记忆细节分明清晰"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主句为否定转移句型 I don't think...；think 后面接宾语从句 it's harder for me；just because 引导原因状语从句解释比较的缘由。",
+        "reassembly_notes": "典型的否定转移结构 I don't think，否定实则落在从句 harder 上；原因状语从句 just because 前置翻译符合汉语因果逻辑：‘并不认为仅仅因为……，对我而言就会更难’。"
       },
       {
         "sid": 7,
+        "pid": 1,
         "en": "Powerful memory doesn't make my emotions any more acute or vivid.",
-        "cn": "（第 7 句标准采分参考）",
+        "cn": "强大的记忆力并没有让我的情绪变得更加剧烈或鲜明。",
         "scoring_points": [
           {
-            "phrase": "Powerful memory doesn't make m...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Powerful memory doesn't make my emotions",
+            "score": 1,
+            "guide": "Powerful memory 作主语‘强大的记忆能力’；make my emotions 表使役‘使我的情绪……’。意群精准译为‘超强记忆并没有让我的情感波澜’",
+            "vocab": [
+              {
+                "word": "powerful",
+                "pos": "adj.",
+                "common": "强大的；强有力的",
+                "context": "超常卓越的；强劲的"
+              },
+              {
+                "word": "emotion",
+                "pos": "n.",
+                "common": "情感；情绪",
+                "context": "内心感受与情绪"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "any more acute or vivid",
+            "score": 1,
+            "guide": "acute 形容词‘敏锐的；剧烈的’；vivid 形容词‘生动的；鲜明的’；any more 在否定句中表‘丝毫更……’。意群精准译为‘变得更加剧烈或鲜活’",
+            "vocab": [
+              {
+                "word": "acute",
+                "pos": "adj.",
+                "common": "急性的；敏锐的",
+                "context": "剧烈的；强烈的（痛感或情绪）"
+              },
+              {
+                "word": "vivid",
+                "pos": "adj.",
+                "common": "生动的；鲜明的",
+                "context": "历历在目的；鲜活的"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主干为主谓宾宾补结构：主语 Powerful memory，谓语 doesn't make，宾语 my emotions，宾语补足语 any more acute or vivid。",
+        "reassembly_notes": "make + n. + adj. 结构，顺译即可。acute 与 vivid 两个形容词并列修饰 emotions，分别对应情绪感受的‘剧烈程度’与‘清晰鲜活程度’。"
       },
       {
         "sid": 8,
+        "pid": 1,
         "en": "I can recall the day my grandfather died and the sadness I felt when we went to the hospital the day before.",
-        "cn": "（第 8 句标准采分参考）",
+        "cn": "我能回忆起祖父去世的那一天，以及前一天我们去医院探视时我内心体会到的巨大悲伤。",
         "scoring_points": [
           {
-            "phrase": "I can recall the day my grandf...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "I can recall the day my grandfather died",
+            "score": 1,
+            "guide": "recall 考研核心词‘回忆起’；the day 后省略 that 定从，修饰 the day‘祖父去世的那一天’。意群精准译为‘我能清晰忆起祖父离世的那天’",
+            "vocab": [
+              {
+                "word": "recall",
+                "pos": "v.",
+                "common": "回忆；召回",
+                "context": "脑海中重新浮现；回忆起"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "and the sadness I felt when we went to the hospital the day before",
+            "score": 1,
+            "guide": "sadness 宾语‘悲痛/难过’；I felt 定语从句‘我所感受到的’；the day before 译为‘前一天’。意群精准译为‘以及前一天我们赶往医院时我所感到的悲伤’",
+            "vocab": [
+              {
+                "word": "sadness",
+                "pos": "n.",
+                "common": "悲伤；难过",
+                "context": "失去至亲的悲痛之情"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主谓为 I can recall；recall 带有两个由 and 并列的宾语部分：the day (that) my grandfather died 和 the sadness (that) I felt，最后接时间状语从句 when we went to the hospital the day before。",
+        "reassembly_notes": "两处定语从句省略了关系代词 that。把修饰 sadness 的时间从句 when we went to the hospital the day before 提前译出，符合汉语时间先于感受的叙事顺序。"
       }
     ]
   }

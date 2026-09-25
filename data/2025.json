@@ -6226,147 +6226,352 @@
     "sentences": [
       {
         "sid": 1,
+        "pid": 0,
         "en": "You know the moment—the conversation slows, then there's a pause.",
-        "cn": "（第 1 句标准采分参考）",
+        "cn": "你一定很熟悉那个时刻——交谈渐渐慢了下来，紧接着是一阵令人难堪的停顿。",
         "scoring_points": [
           {
-            "phrase": "You know the moment—the conver...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "You know the moment—",
+            "score": 0.5,
+            "guide": "口语化引述，译为‘想必你很清楚那样的场景——’。意群精准译为‘你一定深谙那样的尴尬瞬间——’",
+            "vocab": [
+              {
+                "word": "moment",
+                "pos": "n.",
+                "common": "瞬间；时刻",
+                "context": "社交场合中出现的短暂情境"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "the conversation slows, then there's a pause",
+            "score": 1.5,
+            "guide": "conversation slows 动词顺译‘谈话慢下来’；there's a pause 译为‘出现停顿/冷场’。意群精准译为‘原本热络的对话渐渐降温，随后便陷入了无言的停顿’",
+            "vocab": [
+              {
+                "word": "slows",
+                "pos": "v.",
+                "common": "变慢",
+                "context": "交谈节奏由热络转向沉闷"
+              },
+              {
+                "word": "pause",
+                "pos": "n.",
+                "common": "暂停；停顿",
+                "context": "言语之间的冷场与空白"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主干为 You know the moment；破折号后为同位语展开解释分句：the conversation slows, then there's a pause（包含 there be 句型）。",
+        "reassembly_notes": "You know the moment 带有极强读者互动口吻，译为‘你肯定经历过/熟稔那样一个尴尬瞬间’；slows 译为‘语速慢下来/谈话渐趋停滞’；pause 译为‘陷入停顿/片刻寂静’。"
       },
       {
         "sid": 2,
+        "pid": 0,
         "en": "It's awkward, and so awkward that some people will panic and say anything.",
-        "cn": "（第 2 句标准采分参考）",
+        "cn": "场面十分尴尬，甚至尴尬到了某些人会惊慌失措、开始口不择言胡乱敷衍的地步。",
         "scoring_points": [
           {
-            "phrase": "It's awkward, and so awkward t...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "It's awkward,",
+            "score": 0.5,
+            "guide": "awkward 核心词‘令人尴尬的/局促不安的’。意群精准译为‘这种气氛极其尴尬，’",
+            "vocab": [
+              {
+                "word": "awkward",
+                "pos": "adj.",
+                "common": "令人尴尬的；笨拙的",
+                "context": "社交冷场时的难堪与如坐针毡"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "and so awkward that some people will panic and say anything",
+            "score": 1.5,
+            "guide": "so... that 结果状语从句；panic 动词‘陷入恐慌’；say anything 意译为‘口不择言/胡乱说点什么来打破沉默’。意群精准译为‘而且是尴尬到了有些人甚至会恐慌发作、不管不顾胡言乱语的地步’",
+            "vocab": [
+              {
+                "word": "panic",
+                "pos": "v./n.",
+                "common": "恐慌；惊慌",
+                "context": "因害怕冷场而心慌意乱"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主系表 It's awkward，and 连接 so... that... 结果状语从句；that 从句中并列谓语 will panic and say anything。",
+        "reassembly_notes": "awkward 考研核心社交词汇（尴尬的/局促的）；so awkward that 顺译为‘尴尬到了……的地步’；panic and say anything 汉语四字成语成片‘惊慌失措、口不择言’，准确捕捉尴尬心理。"
       },
       {
         "sid": 3,
+        "pid": 0,
         "en": "Do we all find such silences so stressful?",
-        "cn": "（第 3 句标准采分参考）",
+        "cn": "难道我们所有人都会觉得这种沉默让人倍感窒息与压力吗？",
         "scoring_points": [
           {
-            "phrase": "Do we all find such silences s...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
-          },
-          {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "Do we all find such silences so stressful",
+            "score": 2,
+            "guide": "find + 宾语 + 宾补结构；such silences 译为‘此种沉默’；stressful 译为‘充满压力的/令人神经紧绷的’。意群精准译为‘难道我们所有人真觉得这种沉默如此令人倍感压力吗？’",
+            "vocab": [
+              {
+                "word": "silence",
+                "pos": "n.",
+                "common": "沉默；寂静",
+                "context": "对话中断产生的空白冷场"
+              },
+              {
+                "word": "stressful",
+                "pos": "adj.",
+                "common": "充满压力的；紧张的",
+                "context": "令人内心焦虑紧绷的"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "一般疑问句：助动词 Do 前置，主语 we all，谓语 find，宾语 such silences，宾补 so stressful。",
+        "reassembly_notes": "find sth adj. 结构，译为‘觉得……如此让人压力山大’；such silences 复数泛指社交中的片刻沉寂，反问句调体现探索科研动机。"
       },
       {
         "sid": 4,
+        "pid": 1,
         "en": "Researchers analysed the frequency and impact of gaps greater than 2 seconds during conversations, including an overview of previous studies which indicate that the fear of awkward silences can be so extreme that people avoid talking to strangers, even though doing so is likely to be an enjoyable experience.",
-        "cn": "（第 4 句标准采分参考）",
+        "cn": "研究人员分析了交谈中超过2秒钟的语歇停顿的发生频次与心理冲击，包括对过往研究的综合梳理；这些研究指出，人们对尴尬冷场的恐惧有时竟会极端到宁愿躲避与陌生人搭讪，哪怕与人交谈原本极有可能是一段愉快的体验。",
         "scoring_points": [
           {
-            "phrase": "Researchers analysed the frequ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Researchers analysed the frequency and impact of gaps greater than 2 seconds during conversations,",
+            "score": 0.5,
+            "guide": "frequency and impact 译为‘发生频率与影响’；gaps 译为‘谈话间隙/语歇停顿’；greater than 2 seconds 定语前置‘超过两秒的’。意群精准译为‘研究人员分析了对话中超过两秒的语歇停顿的发生频次与深层影响，’",
+            "vocab": [
+              {
+                "word": "analyse",
+                "pos": "v.",
+                "common": "分析；研究",
+                "context": "运用统计数据进行量化分析"
+              },
+              {
+                "word": "frequency",
+                "pos": "n.",
+                "common": "频率；频度",
+                "context": "停顿出现的频率"
+              },
+              {
+                "word": "gap",
+                "pos": "n.",
+                "common": "间隙；缺口",
+                "context": "说话停顿的沉默空隙"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "including an overview of previous studies which indicate that",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "overview 考研核心词‘概况/综述’；previous studies 译为‘先前的各项研究’；which 定从修饰 studies。意群精准译为‘包括对以往相关文献的系统综述，这些研究揭示出：’",
+            "vocab": [
+              {
+                "word": "overview",
+                "pos": "n.",
+                "common": "综述；概览",
+                "context": "学术研究的系统综合回顾"
+              },
+              {
+                "word": "indicate",
+                "pos": "v.",
+                "common": "表明；指出",
+                "context": "研究数据揭示出客观结论"
+              }
+            ]
+          },
+          {
+            "phrase": "the fear of awkward silences can be so extreme that people avoid talking to strangers,",
+            "score": 0.5,
+            "guide": "fear of awkward silences 译为‘对尴尬沉默的恐惧’；so extreme that 译为‘极端到……以至于’；avoid doing 规避做某事。意群精准译为‘人们对尴尬冷场的恐惧感有时竟会剧烈到宁可刻意避开与陌生人攀谈，’",
+            "vocab": [
+              {
+                "word": "extreme",
+                "pos": "adj.",
+                "common": "极端的；偏激的",
+                "context": "恐惧程度达到了异常地步"
+              },
+              {
+                "word": "avoid",
+                "pos": "v.",
+                "common": "避免；逃避",
+                "context": "刻意回避社交接触"
+              }
+            ]
+          },
+          {
+            "phrase": "even though doing so is likely to be an enjoyable experience",
+            "score": 0.5,
+            "guide": "even though 引导让步‘哪怕/即便’；doing so 指代与陌生人交流；enjoyable experience 译为‘令人愉悦的体验’。意群精准译为‘即便从事实上看，与人交谈极有可能会是一段倍感愉悦的经历’",
+            "vocab": [
+              {
+                "word": "enjoyable",
+                "pos": "adj.",
+                "common": "令人愉悦的",
+                "context": "带来积极情绪回报的"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主句主谓宾 Researchers analysed the frequency and impact of gaps...；greater than 2 seconds 为形容词短语作后置定语修饰 gaps；including 为介词后接名词短语；which 引导定语从句修饰 studies；从句谓语 indicate 后接 that 引导的宾语从句；that 从句中嵌套 so... that... 结果从句与 even though 让步状语从句。",
+        "reassembly_notes": "四星级超长复合从句：前段交代研究对象（2秒以上停顿的频率与影响）；中段拆译 including an overview 并将 which indicate that 独立成句‘以往研究指出……’；后段将 so extreme that 与 even though 让步状语层层嵌套顺畅理顺，彻底告别机器翻译的生硬感。"
       },
       {
         "sid": 5,
+        "pid": 2,
         "en": "During conversations with short gaps, people feel more connected to their conversation partners.",
-        "cn": "（第 5 句标准采分参考）",
+        "cn": "在停顿短暂的谈话过程中，人们会觉得与自己的对话伙伴之间有着更为紧密的心理联结。",
         "scoring_points": [
           {
-            "phrase": "During conversations with shor...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "During conversations with short gaps,",
+            "score": 1,
+            "guide": "During 介词短语；short gaps 译为‘停顿短暂/间歇极短’。意群精准译为‘在间歇极为短促的日常对话中，’",
+            "vocab": [
+              {
+                "word": "gap",
+                "pos": "n.",
+                "common": "缝隙；空白",
+                "context": "短暂几百毫秒的正常语歇"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "people feel more connected to their conversation partners",
+            "score": 1,
+            "guide": "feel connected to 译为‘感到更有联系/更有归属感’；conversation partners 译为‘谈话同伴/对话者’。意群精准译为‘人们往往觉得自己与倾听对话的伙伴之间联系更加亲密’",
+            "vocab": [
+              {
+                "word": "connected",
+                "pos": "adj.",
+                "common": "有联系的",
+                "context": "心理上产生同频共振与亲近感"
+              },
+              {
+                "word": "partner",
+                "pos": "n.",
+                "common": "伙伴；搭档",
+                "context": "正在与之对话的聊天对象"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "During conversations with short gaps 为时间介词状语；主干为 people feel more connected to...；connected to 为形容词短语作表语。",
+        "reassembly_notes": "short gaps 顺译为‘短暂间歇/停顿极短’；feel connected to 心理学高频表达（体会到情感联系/心理亲近感），顺畅得体。"
       },
       {
         "sid": 6,
+        "pid": 2,
         "en": "But such feelings of connection markedly dip when entering a long gap.",
-        "cn": "（第 6 句标准采分参考）",
+        "cn": "然而一旦陷入较长时间的停顿沉默，这种亲近感就会出现显著的骤降滑坡。",
         "scoring_points": [
           {
-            "phrase": "But such feelings of connectio...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "But such feelings of connection markedly dip",
+            "score": 1,
+            "guide": "markedly 考研高频词‘显著地/明显地’；dip 动词‘下跌/下沉/下滑’。意群精准译为‘然而这种融洽的心理联结感却会显著跌落，’",
+            "vocab": [
+              {
+                "word": "markedly",
+                "pos": "adv.",
+                "common": "显著地；明显地",
+                "context": "数据或感受发生幅度极大的变化"
+              },
+              {
+                "word": "dip",
+                "pos": "v.",
+                "common": "浸润；下沉（熟词僻义）",
+                "context": "心情指数快速下挫跌入低谷"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "when entering a long gap",
+            "score": 1,
+            "guide": "when entering 分词省略从句，意为‘一旦陷入长时间的冷场停顿时’。意群精准译为‘一旦谈话步入一段漫长的沉默空白’",
+            "vocab": [
+              {
+                "word": "enter",
+                "pos": "v.",
+                "common": "进入",
+                "context": "对话陷入某种沉寂状态"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主干为主谓结构：But such feelings of connection markedly dip；when entering a long gap 为 when 引导的省略时间状语从句（省略了 they are）。",
+        "reassembly_notes": "such feelings of connection 承接上句‘这种紧密亲近的联结感’；markedly 考研核心高级副词（显著地/明显地）；dip 动词熟词僻义（骤降/急剧下探）。"
       },
       {
         "sid": 7,
+        "pid": 2,
         "en": "Long gaps between strangers are likely to be followed by a change in topic.",
-        "cn": "（第 7 句标准采分参考）",
+        "cn": "陌生人之间的长时间冷场，随之而来的往往是转换话题。",
         "scoring_points": [
           {
-            "phrase": "Long gaps between strangers ar...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Long gaps between strangers",
+            "score": 1,
+            "guide": "between strangers 介词短语修饰 gaps‘素昧平生的陌生人之间漫长的沉默’。意群精准译为‘陌生人之间过长时间的语歇冷场，’",
+            "vocab": [
+              {
+                "word": "stranger",
+                "pos": "n.",
+                "common": "陌生人",
+                "context": "缺乏彼此了解的萍水相逢者"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "are likely to be followed by a change in topic",
+            "score": 1,
+            "guide": "be likely to 译为‘很可能/往往’；be followed by 译为‘接着发生……’；a change in topic 译为‘转换话题’。意群精准译为‘紧接着往往会以生硬地改换聊天话题而收场’",
+            "vocab": [
+              {
+                "word": "topic",
+                "pos": "n.",
+                "common": "话题；主题",
+                "context": "交谈中的议题"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主语为 Long gaps between strangers，谓语为 are likely to be followed by...（被动语态短语），介词宾语为 a change in topic。",
+        "reassembly_notes": "be followed by 经典被动语态，汉语转主动‘随之而来的是……/接下来往往会……’；a change in topic 词性转译为动词‘转换话题’。"
       },
       {
         "sid": 8,
+        "pid": 3,
         "en": "But the opposite seems to be true for conversations between friends.",
-        "cn": "（第 8 句标准采分参考）",
+        "cn": "但对于熟人好友之间的闲聊而言，情况却似乎恰恰相反。",
         "scoring_points": [
           {
-            "phrase": "But the opposite seems to be t...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "But the opposite seems to be true",
+            "score": 1,
+            "guide": "the opposite 译为‘相反的情形’；seems to be true 译为‘似乎完全成立/恰恰相反’。意群精准译为‘但事实情况却似乎完全相反，’",
+            "vocab": [
+              {
+                "word": "opposite",
+                "pos": "n./adj.",
+                "common": "相反的；对立物",
+                "context": "截然相反的社会交往规律"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "for conversations between friends",
+            "score": 1,
+            "guide": "介词短语修饰范围‘至于知心挚友之间的对话’。意群精准译为‘倘若是发生在熟络好友之间的谈笑闲叙’",
+            "vocab": [
+              {
+                "word": "friend",
+                "pos": "n.",
+                "common": "朋友",
+                "context": "具有高度互信与心理默契的密友"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主系表主句：主语 the opposite（相反的情形），谓语 seems to be，表语 true；介词短语 for conversations between friends 作范围状语。",
+        "reassembly_notes": "the opposite seems to be true 经典学术与议论文表达（情况似乎正好截然相反）；介词短语提至句首‘但对朋友间的交谈而言’，对仗工整。"
       }
     ]
   }

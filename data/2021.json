@@ -8139,129 +8139,379 @@
     "sentences": [
       {
         "sid": 1,
+        "pid": 0,
         "en": "We tend to think that friends and family members are our biggest sources of connection, laughter, and warmth.",
-        "cn": "（第 1 句标准采分参考）",
+        "cn": "我们往往认为，亲朋好友是我们获取人际联结、欢声笑语以及脉脉温情的最主要源泉。",
         "scoring_points": [
           {
-            "phrase": "We tend to think that friends ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "We tend to think that",
+            "score": 0.5,
+            "guide": "tend to 倾向于；think that 引出观点。意群精准译为‘我们常常习惯性地认为’",
+            "vocab": [
+              {
+                "word": "tend",
+                "pos": "v.",
+                "common": "倾向",
+                "context": "tend to think 往往认为"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "friends and family members are our biggest sources",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "friends and family members 译为‘朋友与家人/亲朋好友’；biggest sources 译为‘最大的来源/最主要的源泉’。意群精准译为‘亲朋好友是我们最核心的心灵源泉’",
+            "vocab": [
+              {
+                "word": "source",
+                "pos": "n.",
+                "common": "源头；来源",
+                "context": "情感滋养的最主要来源"
+              }
+            ]
+          },
+          {
+            "phrase": "of connection, laughter, and warmth",
+            "score": 1,
+            "guide": "of 介词接三个并列情感名词：connection（联结感）、laughter（欢声笑语）、warmth（脉脉温情）。意群精准译为‘从中汲取社交联系、欢声笑语以及人间温暖’",
+            "vocab": [
+              {
+                "word": "connection",
+                "pos": "n.",
+                "common": "连接；关系",
+                "context": "深层的人际亲密联结"
+              },
+              {
+                "word": "warmth",
+                "pos": "n.",
+                "common": "温暖；热情",
+                "context": "情感上的慰藉与温暖"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主句主干 We tend to think that...；that 引导宾语从句，从句主干为 friends and family members are our biggest sources of...；of 后面接三个并列名词 connection, laughter, and warmth。",
+        "reassembly_notes": "tend to think 译为‘往往认为/习惯性以为’；connection, laughter, and warmth 三个抽象名词四字雅化为‘人际联结、欢声笑语、温情脉脉’，语言极富文采美感。"
       },
       {
         "sid": 2,
+        "pid": 0,
         "en": "While that may well be true, researchers have also recently found that interacting with strangers actually brings a boost in mood and feelings of belonging that we didn't expect.",
-        "cn": "（第 2 句标准采分参考）",
+        "cn": "尽管这确实很有道理，但研究人员最近也发现，与陌生人互动实际上能出乎意料地显著提振心情，并带来意想不到的归属感。",
         "scoring_points": [
           {
-            "phrase": "While that may well be true, r...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "While that may well be true,",
+            "score": 0.5,
+            "guide": "While 引导让步‘尽管/虽然’；may well be true 考研高频短语‘完全合乎事实/确实不假’。意群精准译为‘尽管这一观点确属实情’",
+            "vocab": [
+              {
+                "word": "may well",
+                "pos": "phr.",
+                "common": "很可能；完全能够",
+                "context": "强调某推断完全在情理之中"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "researchers have also recently found that",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "主句主谓，that 引导宾语从句。意群精准译为‘但研究人员近来同样发现’",
+            "vocab": [
+              {
+                "word": "researcher",
+                "pos": "n.",
+                "common": "研究人员",
+                "context": "社会心理学科研人员"
+              }
+            ]
+          },
+          {
+            "phrase": "interacting with strangers actually brings a boost in mood",
+            "score": 0.5,
+            "guide": "动名词作主语；interact with 译为‘与……打交道/互动’；boost in mood 译为‘提振心境/情绪高涨’。意群精准译为‘与陌生人偶作交流实际上能够显著提振心境’",
+            "vocab": [
+              {
+                "word": "interact",
+                "pos": "v.",
+                "common": "相互作用；交流",
+                "context": "人际打招呼与简短交流"
+              },
+              {
+                "word": "stranger",
+                "pos": "n.",
+                "common": "陌生人",
+                "context": "素昧平生的人"
+              },
+              {
+                "word": "boost",
+                "pos": "n./v.",
+                "common": "促进；提高",
+                "context": "心理情绪上的积极提升"
+              }
+            ]
+          },
+          {
+            "phrase": "and feelings of belonging that we didn't expect",
+            "score": 0.5,
+            "guide": "feelings of belonging 心理学术语‘归属感’；that we didn't expect 定从前置‘出乎我们意料的’。意群精准译为‘并带来出乎我们预期的社会归属感’",
+            "vocab": [
+              {
+                "word": "belonging",
+                "pos": "n.",
+                "common": "归属；归属感",
+                "context": "个体融入群体的精神认同感"
+              },
+              {
+                "word": "expect",
+                "pos": "v.",
+                "common": "预料；期望",
+                "context": "事先未曾预料到"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "While 引导让步状语从句，may well be true 意为‘很有可能是事实’；主句主干 researchers have also recently found that...；宾语从句动名词短语 interacting with strangers 作主语，谓语 brings，宾语 a boost in mood and feelings of belonging；that we didn't expect 定语从句修饰 a boost 和 feelings。",
+        "reassembly_notes": "While 让步从句顺译‘尽管这诚然不假’；interacting with strangers 动名词作主语；a boost in mood 词性转译为动词‘提振情绪’；that we didn't expect 定从提前修饰‘我们始料未及的’。"
       },
       {
         "sid": 3,
+        "pid": 1,
         "en": "In one series of studies, researchers instructed Chicago-area commuters using public transportation to strike up a conversation with someone near them.",
-        "cn": "（第 3 句标准采分参考）",
+        "cn": "在一系列研究中，研究人员要求芝加哥地区搭乘公共交通的通勤者们，主动与身边邻座之人攀谈交流。",
         "scoring_points": [
           {
-            "phrase": "In one series of studies, rese...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "In one series of studies, researchers instructed Chicago-area commuters",
+            "score": 0.5,
+            "guide": "instruct sb to do 译为‘指导/要求某人做……’；Chicago-area 芝加哥地区；commuters 译为‘通勤人员’。意群精准译为‘在其中的一系列实验中，学者们要求芝加哥地区的通勤乘客’",
+            "vocab": [
+              {
+                "word": "commuter",
+                "pos": "n.",
+                "common": "通勤者；经常乘车往返者",
+                "context": "上下班每日坐车的人"
+              },
+              {
+                "word": "instruct",
+                "pos": "v.",
+                "common": "指示；教授",
+                "context": "实验中向受试者下达指导指令"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "using public transportation",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "现在分词短语作后置定语，修饰 commuters，译为‘乘坐公共交通工具的’。意群精准译为‘那些乘坐公共交通出行的人群’",
+            "vocab": [
+              {
+                "word": "transportation",
+                "pos": "n.",
+                "common": "交通运输；运输工具",
+                "context": "公共地铁与公交网络"
+              }
+            ]
+          },
+          {
+            "phrase": "to strike up a conversation with someone near them",
+            "score": 1,
+            "guide": "strike up a conversation 经典高频习语‘与某人开始交谈/攀谈’；near them 译为‘身旁的陌生人’。意群精准译为‘主动与身旁的乘客攀谈闲聊’",
+            "vocab": [
+              {
+                "word": "strike",
+                "pos": "v.",
+                "common": "击打；罢工；开始（熟词僻义）",
+                "context": "strike up a conversation 开启一段谈话"
+              },
+              {
+                "word": "conversation",
+                "pos": "n.",
+                "common": "交谈；谈话",
+                "context": "简短寒暄与日常对话"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "In one series of studies 为介词状语；主干为 researchers instructed commuters to strike up a conversation...；using public transportation 为现在分词短语作后置定语修饰 commuters；near them 为介词短语修饰 someone。",
+        "reassembly_notes": "instruct sb to do 译为‘指示/要求某人做某事’；using public transportation 分词定语提前‘乘坐公共交通工具的’；strike up a conversation 考研地道习语‘主动搭讪/与……攀谈’。"
       },
       {
         "sid": 4,
+        "pid": 1,
         "en": "On average, participants who followed this instruction felt better than those who had been told to stand or sit in silence.",
-        "cn": "（第 4 句标准采分参考）",
+        "cn": "平均而言，遵循这一指示的受试者，其心情状态明显好于那些被要求保持沉默、或站或坐的受试者。",
         "scoring_points": [
           {
-            "phrase": "On average, participants who f...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "On average, participants who followed this instruction",
+            "score": 1,
+            "guide": "On average 译为‘平均来看/总体而言’；participants 核心词‘参与者/受试者’；followed instruction 译为‘遵循该指示’。意群精准译为‘平均而言，照此吩咐与人搭话的受试人员’",
+            "vocab": [
+              {
+                "word": "average",
+                "pos": "n.",
+                "common": "平均；普通",
+                "context": "on average 平均而言"
+              },
+              {
+                "word": "participant",
+                "pos": "n.",
+                "common": "参与者",
+                "context": "科研心理学实验受试人员"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "felt better than those who had been told to stand or sit in silence",
+            "score": 1,
+            "guide": "felt better 译为‘情绪体验更佳’；had been told 被动语态‘被告知/被要求’；in silence 译为‘保持沉默/一声不吭’。意群精准译为‘其心情愉悦度要显著优于那些被要求静默站立或枯坐的人’",
+            "vocab": [
+              {
+                "word": "silence",
+                "pos": "n.",
+                "common": "沉默；寂静",
+                "context": "in silence 默不作声"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "On average 为介词状语；主干为 participants felt better than those...；who followed this instruction 修饰 participants；who had been told to stand or sit in silence 修饰 those，形成鲜明对照比较。",
+        "reassembly_notes": "On average 句首顺译‘平均而言’；两组 who 定语从句各自前置修饰‘听从指令开口聊天的受试者’与‘被要求默不作声站立或坐着的受试者’，对比鲜明。"
       },
       {
         "sid": 5,
+        "pid": 1,
         "en": "The researchers also argued that when we shy away from casual interactions with strangers, it is often due to a misplaced anxiety that they might not want to talk to us.",
-        "cn": "（第 5 句标准采分参考）",
+        "cn": "研究人员还指出，当我们对与陌生人随意交谈退避三舍时，往往是因为一种毫无根据的杞人忧天，误以为对方并不愿意搭理我们。",
         "scoring_points": [
           {
-            "phrase": "The researchers also argued th...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "The researchers also argued that when we shy away from casual interactions with strangers,",
+            "score": 1,
+            "guide": "argued that 译为‘论述指出……’；shy away from 核心短语‘回避/畏缩退避’；casual interactions 译为‘随意的接触交流’。意群精准译为‘研究人员同时指出，我们之所以对与陌生人闲聊退避三舍’",
+            "vocab": [
+              {
+                "word": "shy",
+                "pos": "v.",
+                "common": "害羞；畏缩（熟词僻义）",
+                "context": "shy away from 避而远之；退缩躲避"
+              },
+              {
+                "word": "casual",
+                "pos": "adj.",
+                "common": "随意的；非正式的",
+                "context": "不拘形式的日常随性交流"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "it is often due to a misplaced anxiety that they might not want to talk to us",
+            "score": 1,
+            "guide": "due to 介词短语‘由于/归因于’；misplaced anxiety 核心概念‘错位的焦虑/多余的担忧’；that 同位语从句解释‘对方不想与我们说话’。意群精准译为‘多半是出于一种多余的焦虑，总觉得对方根本不想理睬自己’",
+            "vocab": [
+              {
+                "word": "misplaced",
+                "pos": "adj.",
+                "common": "放错位置的；不适当的",
+                "context": "无中生有的；毫无事实依据的"
+              },
+              {
+                "word": "anxiety",
+                "pos": "n.",
+                "common": "焦虑；忧虑",
+                "context": "社交恐惧与担忧情绪"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主句为 The researchers also argued that...；that 从句中嵌套 when we shy away from... 时间状语从句；从句主干为 it is often due to a misplaced anxiety；that they might not want to talk to us 为同位语从句解释 anxiety。",
+        "reassembly_notes": "shy away from 考研高频短语（退缩/躲避）；misplaced anxiety 词义深刻（误放的焦虑/毫无根据的担忧）；that 同位语从句解释担忧的具体内容，顺译为‘误以为……’。"
       },
       {
         "sid": 6,
+        "pid": 1,
         "en": "Much of the time, however, this belief is false.",
-        "cn": "（第 6 句标准采分参考）",
+        "cn": "然而在大多数情况下，这种顾虑完全是多余且不合实情的。",
         "scoring_points": [
           {
-            "phrase": "Much of the time, however, thi...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Much of the time, however,",
+            "score": 1,
+            "guide": "however 插入语提前；Much of the time 译为‘在多数时间/大多数情况下’。意群精准译为‘然而在绝大多数时候，’",
+            "vocab": [
+              {
+                "word": "however",
+                "pos": "adv.",
+                "common": "然而；但是",
+                "context": "逻辑强势转折"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "this belief is false",
+            "score": 1,
+            "guide": "belief 译为‘信念/想法/顾虑’；false 译为‘虚假的/不成立的’。意群精准译为‘这种先入为主的臆想完全是错误的。’",
+            "vocab": [
+              {
+                "word": "belief",
+                "pos": "n.",
+                "common": "信仰；信念；想法",
+                "context": "自以为是的心理预判"
+              },
+              {
+                "word": "false",
+                "pos": "adj.",
+                "common": "错误的；虚假的",
+                "context": "与事实大相径庭的"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主系表结构：however 为插入转折词；Much of the time 为时间介词短语；主语 this belief，表语 false。",
+        "reassembly_notes": "however 提至句首‘然而’；Much of the time 译为‘绝大多数时候’；this belief 结合上文引申为‘这种担忧顾虑’，false 译为‘失真/错误的’。"
       },
       {
         "sid": 7,
+        "pid": 1,
         "en": "As it turns out, many people are actually perfectly willing to talk—and may even be flattered to receive your attention.",
-        "cn": "（第 7 句标准采分参考）",
+        "cn": "事实证明，许多人其实非常乐意交谈——甚至会因为受到你的关注而感到受宠若惊。",
         "scoring_points": [
           {
-            "phrase": "As it turns out, many people a...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "As it turns out, many people are actually perfectly willing to talk—",
+            "score": 1,
+            "guide": "As it turns out 经典短语‘事实证明/结果表明’；perfectly willing to 译为‘完全乐意/非常情愿’。意群精准译为‘事实表明，很多人其实打心底里极为乐意畅谈——’",
+            "vocab": [
+              {
+                "word": "turn out",
+                "pos": "phr.",
+                "common": "证明是；结果是",
+                "context": "as it turns out 事实证明结果显现"
+              },
+              {
+                "word": "willing",
+                "pos": "adj.",
+                "common": "乐意的；自愿的",
+                "context": "态度积极主动的"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "and may even be flattered to receive your attention",
+            "score": 1,
+            "guide": "flattered 动词过去分词表被动‘感到受宠若惊/深感荣幸’；receive your attention 译为‘得到你的搭话注意’。意群精准译为‘甚至可能会因得到你的主动搭讪而倍感欣喜与荣幸’",
+            "vocab": [
+              {
+                "word": "flattered",
+                "pos": "adj.",
+                "common": "受宠若惊的；感到荣幸的",
+                "context": "因他人善意关注而感到开心喜悦"
+              },
+              {
+                "word": "attention",
+                "pos": "n.",
+                "common": "注意；照料",
+                "context": "主动搭话示好的社交关注"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "As it turns out 为固定插入语‘事实证明’；主干为 many people are actually perfectly willing to talk；破折号后并列情态动作 may even be flattered to do... 作补充说明。",
+        "reassembly_notes": "perfectly willing to 核心短语（非常乐意/完全甘愿）；flattered 考研高频情绪词（受宠若惊的/感到荣幸的），破折号后递进语流自然。"
       }
     ]
   }

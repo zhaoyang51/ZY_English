@@ -9006,147 +9006,365 @@
     "sentences": [
       {
         "sid": 1,
+        "pid": 0,
         "en": "It is easy to underestimate English writer James Herriot.",
-        "cn": "（第 1 句标准采分参考）",
+        "cn": "人们很容易低估英国作家詹姆斯·赫里奥特。",
         "scoring_points": [
           {
-            "phrase": "It is easy to underestimate En...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "It is easy to underestimate",
+            "score": 1,
+            "guide": "It 为形式主语；underestimate 考研高频词‘低估/轻视’。意群精准译为‘人们很容易低估’",
+            "vocab": [
+              {
+                "word": "underestimate",
+                "pos": "v.",
+                "common": "低估；看轻",
+                "context": "低估作家的文学造诣与深度"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "English writer James Herriot",
+            "score": 1,
+            "guide": "专有名词及同位修饰，writer 修饰人名。意群精准译为‘英国作家詹姆斯·赫里奥特’",
+            "vocab": [
+              {
+                "word": "writer",
+                "pos": "n.",
+                "common": "作家；作者",
+                "context": "文学创作者"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "形式主语结构：It 为形式主语，is 为系动词，easy 为表语，真正的主语为动词不定式短语 to underestimate English writer James Herriot。",
+        "reassembly_notes": "It is easy to do 顺译为‘人们很容易……’；underestimate 考研高频动词（低估/看轻）。单句精炼明快。"
       },
       {
         "sid": 2,
+        "pid": 0,
         "en": "He had such a pleasant, readable style that one might think that anyone could imitate it.",
-        "cn": "（第 2 句标准采分参考）",
+        "cn": "他的写作风格如此亲切流畅、通俗易懂，以至于人们可能会误以为任何人都能轻易效仿。",
         "scoring_points": [
           {
-            "phrase": "He had such a pleasant, readab...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "He had such a pleasant, readable style",
+            "score": 1,
+            "guide": "pleasant 译为‘令人愉悦的/亲切的’；readable 派生词‘通俗流畅的/好读的’；style 译为‘行文风格/文风’。意群精准译为‘他的文字风格如此平易近人、通畅好读’",
+            "vocab": [
+              {
+                "word": "pleasant",
+                "pos": "adj.",
+                "common": "令人愉快的；亲切的",
+                "context": "文笔令人如沐春风"
+              },
+              {
+                "word": "readable",
+                "pos": "adj.",
+                "common": "好读的；清晰易读的",
+                "context": "通俗易懂流畅的"
+              },
+              {
+                "word": "style",
+                "pos": "n.",
+                "common": "风格；文体",
+                "context": "文学写作风格"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "that one might think that anyone could imitate it",
+            "score": 1,
+            "guide": "that 引导结果从句；one 代指普通人‘任何人’；imitate 考研核心动词‘模仿/仿造’。意群精准译为‘以至于人们会觉得谁都能信手仿效’",
+            "vocab": [
+              {
+                "word": "imitate",
+                "pos": "v.",
+                "common": "模仿；效仿",
+                "context": "临摹并仿制某种写作笔调"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主干为 such... that... 引导的结果状语从句；主句 He had such a pleasant, readable style；that 从句中嵌套 that 引导的宾语从句 that anyone could imitate it。",
+        "reassembly_notes": "such a pleasant, readable style 两个形容词并列修饰 style，译为‘亲切流畅、通俗易懂的文风’；imitate 动词‘模仿/效仿’。"
       },
       {
         "sid": 3,
+        "pid": 0,
         "en": "How many times have I heard people say, \"I could write a book.",
-        "cn": "（第 3 句标准采分参考）",
+        "cn": "我已经数不清有多少次听别人说过：“我也能写出一本书来。",
         "scoring_points": [
           {
-            "phrase": "How many times have I heard pe...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "How many times have I heard people say,",
+            "score": 1,
+            "guide": "倒装感叹句式，译为‘不知多少次我曾听人说道’。意群精准译为‘有多少次我听到人们大言不惭地说：’",
+            "vocab": [
+              {
+                "word": "times",
+                "pos": "n.",
+                "common": "次数；时代",
+                "context": "听到这种论调的频次"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "\"I could write a book.",
+            "score": 1,
+            "guide": "could 表虚拟语气与能力自信，直译为‘我也能写一本书’。意群精准译为‘“我也能写一本书呢，’",
+            "vocab": [
+              {
+                "word": "write",
+                "pos": "v.",
+                "common": "撰写；写作",
+                "context": "从事长篇文学创作"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "特殊疑问句倒装：How many times 为时间状语，助动词 have 前置于主语 I，谓语 heard people say，双引号内为直接引语 I could write a book。",
+        "reassembly_notes": "How many times have I heard 习语化反问修辞，译为‘不知有多少次，我听到有人吹嘘……’，生动再现口语语境。"
       },
       {
         "sid": 4,
+        "pid": 0,
         "en": "I just haven't the time.\" Easily said.",
-        "cn": "（第 4 句标准采分参考）",
+        "cn": "我只是抽不出时间罢了。”说来容易，",
         "scoring_points": [
           {
-            "phrase": "I just haven't the time.\" Easi...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "I just haven't the time.\"",
+            "score": 1,
+            "guide": "口语表达，haven't the time 译为‘只是没时间罢了’。意群精准译为‘无非是我腾不出时间而已。”’",
+            "vocab": [
+              {
+                "word": "time",
+                "pos": "n.",
+                "common": "时间",
+                "context": "从事创作的空暇工夫"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "Easily said.",
+            "score": 1,
+            "guide": "成语俗语前半句，省略句，译为‘说起来容易’。意群精准译为‘说来轻巧，’",
+            "vocab": [
+              {
+                "word": "easily",
+                "pos": "adv.",
+                "common": "容易地；轻而易举地",
+                "context": "口头上说说极为轻巧"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "直接引语分句 I just haven't the time；后面接省略句 Easily said（为 It is easily said 的省略）。",
+        "reassembly_notes": "haven't the time 译为‘没有时间/抽不出工夫’；Easily said 与下一句 Not so easily done 构成经典成语对照‘说来容易做来难’。"
       },
       {
         "sid": 5,
+        "pid": 0,
         "en": "Not so easily done.",
-        "cn": "（第 5 句标准采分参考）",
+        "cn": "但做起来可绝非易事。",
         "scoring_points": [
           {
-            "phrase": "Not so easily done....",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
-          },
-          {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "Not so easily done",
+            "score": 2,
+            "guide": "英语经典俗语 Easily said, not so easily done 对应的后半截，译为‘做起来却谈何容易’。意群精准译为‘做起来却殊非易事。’",
+            "vocab": [
+              {
+                "word": "done",
+                "pos": "v.",
+                "common": "做完；达成",
+                "context": "付诸长期的文字实践与付印"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "承接上一句的完全省略句：（It is）not so easily done，属于固定英语谚语对仗。",
+        "reassembly_notes": "配合 Easily said，译为四字成语或俗语‘做来却难/实际做起来绝非容易’。"
       },
       {
         "sid": 6,
+        "pid": 0,
         "en": "James Herriot, contrary to popular opinion, did not find it easy in his early days of, as he put it, \"having a go at the writing game\".",
-        "cn": "（第 6 句标准采分参考）",
+        "cn": "与大众的想法恰恰相反，詹姆斯·赫里奥特在他早年——正如他所言——“投身写作这一行”时，并没觉得这是一件轻松的事。",
         "scoring_points": [
           {
-            "phrase": "James Herriot, contrary to pop...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "James Herriot, contrary to popular opinion,",
+            "score": 0.5,
+            "guide": "contrary to 介词短语‘与……相反’；popular opinion 译为‘大众普遍观点/常人看法’。意群精准译为‘与常人的想当然相反，詹姆斯·赫里奥特’",
+            "vocab": [
+              {
+                "word": "contrary",
+                "pos": "adj./n.",
+                "common": "相反的；反对的",
+                "context": "contrary to 与……截然相悖"
+              },
+              {
+                "word": "opinion",
+                "pos": "n.",
+                "common": "意见；看法",
+                "context": "外界先入为主的偏见"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "did not find it easy in his early days of,",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "find it easy 形式宾语结构‘觉得……容易’；early days 译为‘早年岁月/初创时期’。意群精准译为‘在他早年的摸索时期丝毫没感到轻松’",
+            "vocab": [
+              {
+                "word": "early",
+                "pos": "adj.",
+                "common": "早期的",
+                "context": "写作生涯刚刚起步的早年"
+              }
+            ]
+          },
+          {
+            "phrase": "as he put it, \"having a go at the writing game\"",
+            "score": 1,
+            "guide": "as he put it 经典插入语‘正如他所说/用他的话来说’；have a go at 习语‘尝试做……’；writing game 比喻‘写作这行当’。意群精准译为‘正如他自己形容的那样，在“尝试涉足写作这门营生”之初’",
+            "vocab": [
+              {
+                "word": "game",
+                "pos": "n.",
+                "common": "游戏；猎物；行业/行当（高频熟词僻义）",
+                "context": "具有挑战性与竞争性的职业门类"
+              },
+              {
+                "word": "put",
+                "pos": "v.",
+                "common": "放置；表达（熟词僻义）",
+                "context": "as one puts it 正如某人所言"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主语 James Herriot；contrary to popular opinion 为插入状语；谓语为 did not find it easy，it 为形式宾语，真正的宾语为后面的介词动名词短语；as he put it 为插入语；having a go at 为习语。",
+        "reassembly_notes": "两处插入语嵌套（contrary to... 与 as he put it）；have a go at 习语（尝试/试一试）；the writing game 比喻‘写作这行营生/文坛’；it 形式宾语还原为‘并不觉得轻松’。"
       },
       {
         "sid": 7,
+        "pid": 0,
         "en": "While he obviously had an abundance of natural talent, the final, polished work that he gave to the world was the result of years of practicing, re-writing and reading.",
-        "cn": "（第 7 句标准采分参考）",
+        "cn": "尽管他显然拥有过人的天赋，但他最终奉献给世人的千锤百炼之作，却是多年刻苦练习、反复重写以及大量阅读的结晶。",
         "scoring_points": [
           {
-            "phrase": "While he obviously had an abun...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "While he obviously had an abundance of natural talent",
+            "score": 0.5,
+            "guide": "While 引导让步‘尽管/虽然’；an abundance of 考研高频‘极其丰富充沛的’；natural talent 译为‘天赋秉异’。意群精准译为‘尽管他显然具备极为充沛的与生俱来的天赋’",
+            "vocab": [
+              {
+                "word": "abundance",
+                "pos": "n.",
+                "common": "丰富；充足",
+                "context": "过人且源源不断的才能"
+              },
+              {
+                "word": "talent",
+                "pos": "n.",
+                "common": "天赋；才能",
+                "context": "天生的文学写作直觉"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "the final, polished work that he gave to the world",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "polished work 熟词僻义，指‘精心打磨、字斟句酌的成熟作品’；that 定语从句修饰 work。意群精准译为‘但他最终呈现给世人的字斟句酌的成熟之作’",
+            "vocab": [
+              {
+                "word": "polished",
+                "pos": "adj.",
+                "common": "磨光的；精雕细琢的",
+                "context": "经过无数次推敲润色的完美文本"
+              }
+            ]
+          },
+          {
+            "phrase": "was the result of years of practicing, re-writing and reading",
+            "score": 1,
+            "guide": "the result of 译为‘……的结晶/成果’；三个并列动名词顺译‘多年练笔、反复重写与广泛阅读’。意群精准译为‘无一不是多年刻苦磨练、反复推敲修改与海量阅读的结晶’",
+            "vocab": [
+              {
+                "word": "result",
+                "pos": "n.",
+                "common": "结果；成果",
+                "context": "长期辛勤努力积累的果实"
+              },
+              {
+                "word": "practicing",
+                "pos": "v.",
+                "common": "练习；实践",
+                "context": "坚持不懈的创作实践"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "While 引导让步状语从句；主句主干为 the final, polished work... was the result of...；that he gave to the world 为定语从句修饰 work；of 后面连接三个并列动名词 practicing, re-writing and reading。",
+        "reassembly_notes": "While 让步状语从句顺译‘尽管……’；an abundance of natural talent 译为‘过人的天赋/卓越的天资’；polished work 艺术转译为‘千锤百炼的作品/打磨成熟之作’；the result of 结合动名词译为‘……的结晶’。"
       },
       {
         "sid": 8,
+        "pid": 0,
         "en": "Like the majority of authors, he had to suffer many disappointments and rejections along the way, but these made him all the more determined to succeed.",
-        "cn": "（第 8 句标准采分参考）",
+        "cn": "正如绝大多数作家一样，他一路走来不得不承受无数次的失望与退稿；但这反而让他更加坚定了成功的决心。",
         "scoring_points": [
           {
-            "phrase": "Like the majority of authors, ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Like the majority of authors,",
+            "score": 0.5,
+            "guide": "Like 介词‘正如……一样’；the majority of 译为‘绝大多数’。意群精准译为‘与绝大多数作者毫无二致’",
+            "vocab": [
+              {
+                "word": "majority",
+                "pos": "n.",
+                "common": "大多数；大部分",
+                "context": "文坛绝大多数普通写作者"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "he had to suffer many disappointments and rejections along the way",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "suffer 动词‘遭受/经历’；rejections 文学特定语境译为‘退稿/被拒稿件’；along the way 译为‘一路走来/在写作生涯中’。意群精准译为‘他在一路打拼中必须咽下诸多失望与被无情退稿的痛苦’",
+            "vocab": [
+              {
+                "word": "disappointment",
+                "pos": "n.",
+                "common": "失望；沮丧",
+                "context": "作品得不到认可的挫败感"
+              },
+              {
+                "word": "rejection",
+                "pos": "n.",
+                "common": "拒绝；排斥；退稿（熟词僻义）",
+                "context": "出版社寄来的拒绝信与退稿"
+              }
+            ]
+          },
+          {
+            "phrase": "but these made him all the more determined to succeed",
+            "score": 1,
+            "guide": "these 指代前面的挫折；all the more 强调‘越发/更加’；determined to succeed 译为‘坚定求成’。意群精准译为‘但这反而使他更加坚定了取得成功的信念’",
+            "vocab": [
+              {
+                "word": "determined",
+                "pos": "adj.",
+                "common": "坚定的；决意的",
+                "context": "越挫越勇、矢志不移的坚定决心"
+              },
+              {
+                "word": "succeed",
+                "pos": "v.",
+                "common": "成功；继任",
+                "context": "在文坛立足成名"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "Like the majority of authors 作比较介词状语；主干为 but 连接的两个并列分句：前一句 he had to suffer many disappointments and rejections along the way；后一句 these made him all the more determined to succeed（含 make + 宾语 + 宾补结构）。",
+        "reassembly_notes": "rejections 在文学出版界具有明确行业含义（退稿信/拒绝出版）；all the more 表程度递进（越发/更加）；determined to succeed 译为‘坚定了成功的信念/意志’。"
       }
     ]
   }

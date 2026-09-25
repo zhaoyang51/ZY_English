@@ -8493,147 +8493,383 @@
     "sentences": [
       {
         "sid": 1,
+        "pid": 0,
         "en": "In the late 18th century, William Wordsworth became famous for his poems about nature.",
-        "cn": "（第 1 句标准采分参考）",
+        "cn": "在18世纪末，威廉·华兹华斯因其描摹大自然风光的诗作而闻名遐迩。",
         "scoring_points": [
           {
-            "phrase": "In the late 18th century, Will...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "In the late 18th century,",
+            "score": 0.5,
+            "guide": "In the late 18th century 时间状语顺译‘在18世纪末叶’。意群精准译为‘18世纪末叶，’",
+            "vocab": [
+              {
+                "word": "century",
+                "pos": "n.",
+                "common": "世纪；百年",
+                "context": "历史时期年代划分"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "William Wordsworth became famous for his poems about nature",
+            "score": 1.5,
+            "guide": "专有名词 William Wordsworth 英国浪漫主义诗人；become famous for 因……出名；about nature 译为‘赞美自然的’。意群精准译为‘威廉·华兹华斯因其歌咏自然的优美诗篇而名声大噪’",
+            "vocab": [
+              {
+                "word": "famous",
+                "pos": "adj.",
+                "common": "著名的；出名的",
+                "context": "享誉文坛的"
+              },
+              {
+                "word": "nature",
+                "pos": "n.",
+                "common": "自然界；天性",
+                "context": "大自然的青山绿水"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "时间状语 In the late 18th century；主谓宾主干 William Wordsworth became famous for...；for 介词后接名词短语 his poems about nature，about nature 作后置定语修饰 poems。",
+        "reassembly_notes": "时间状语置于句首；become famous for 译为‘因……而名声大噪/闻名天下’；poems about nature 前置翻译为‘歌咏自然/描摹自然的诗歌’。"
       },
       {
         "sid": 2,
+        "pid": 0,
         "en": "And he was one of the founders of a movement called Romanticism, which celebrated the wonders of the natural world.",
-        "cn": "（第 2 句标准采分参考）",
+        "cn": "他亦是“浪漫主义”文学运动的奠基人之一，该运动颂扬大千自然界的种种奇迹。",
         "scoring_points": [
           {
-            "phrase": "And he was one of the founders...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "And he was one of the founders of a movement called Romanticism,",
+            "score": 1,
+            "guide": "founder 核心词‘创始人/开创者’；called Romanticism 过去分词定语‘被称为浪漫主义的’。意群精准译为‘他亦是这场被称为“浪漫主义”艺术思潮的开创者之一’",
+            "vocab": [
+              {
+                "word": "founder",
+                "pos": "n.",
+                "common": "创始人；奠基者",
+                "context": "文学流派与思潮的奠基宗师"
+              },
+              {
+                "word": "Romanticism",
+                "pos": "n.",
+                "common": "浪漫主义",
+                "context": "18-19世纪欧洲浪漫主义文艺思潮"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "which celebrated the wonders of the natural world",
+            "score": 1,
+            "guide": "which 定语从句；celebrated 考研熟词僻义‘赞美/歌颂’；wonders 译为‘奇迹/造化奇景’。意群精准译为‘该流派热烈赞颂自然界的神奇造化’",
+            "vocab": [
+              {
+                "word": "celebrate",
+                "pos": "v.",
+                "common": "庆祝；赞美歌颂（熟词僻义）",
+                "context": "在诗歌中热烈歌咏与颂赞"
+              },
+              {
+                "word": "wonder",
+                "pos": "n.",
+                "common": "惊奇；奇迹",
+                "context": "大自然的神奇奥妙与风光奇观"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主干为主系表 he was one of the founders of a movement；called Romanticism 为过去分词短语作后置定语修饰 movement；which celebrated... 为非限制性定语从句修饰 Romanticism。",
+        "reassembly_notes": "founder 译为‘创始人/奠基人’；Romanticism 专有名词‘浪漫主义’；celebrated 熟词僻义（动词‘颂扬/歌颂’而非庆祝）；wonders 译为‘造化奇观/奇迹’。"
       },
       {
         "sid": 3,
+        "pid": 1,
         "en": "Poetry is powerful.",
-        "cn": "（第 3 句标准采分参考）",
+        "cn": "诗歌蕴含着强大的震撼力量。",
         "scoring_points": [
           {
-            "phrase": "Poetry is powerful....",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
-          },
-          {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "Poetry is powerful",
+            "score": 2,
+            "guide": "Poetry 集合名词‘诗歌’；powerful 译为‘极富力量/震撼人心’。意群精准译为‘诗歌的力量是无比巨大的。’",
+            "vocab": [
+              {
+                "word": "poetry",
+                "pos": "n.",
+                "common": "诗歌；诗意",
+                "context": "韵文诗歌艺术总体"
+              },
+              {
+                "word": "powerful",
+                "pos": "adj.",
+                "common": "强大的；有震撼力的",
+                "context": "直击心灵、震撼心魄的力量"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主系表结构：主语 Poetry，连系动词 is，表语 powerful。",
+        "reassembly_notes": "短句力透纸背，顺译为‘诗歌是强大的’或雅化为‘诗歌蕴含着磅礴的力量’，体现主旨宣告感。"
       },
       {
         "sid": 4,
+        "pid": 1,
         "en": "Its energy and rhythm can capture a reader, transport them to another world and make them see things differently.",
-        "cn": "（第 4 句标准采分参考）",
+        "cn": "它的气韵与节奏能够深深吸引读者，将他们带往另一个精神世界，并使他们以截然不同的全新视角去洞察万物。",
         "scoring_points": [
           {
-            "phrase": "Its energy and rhythm can capt...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Its energy and rhythm can capture a reader,",
+            "score": 0.5,
+            "guide": "energy and rhythm 译为‘能量与韵律节奏’；capture a reader 译为‘深深打动/吸引读者’。意群精准译为‘它的生机与韵律能够紧紧抓住读者的心魄’",
+            "vocab": [
+              {
+                "word": "rhythm",
+                "pos": "n.",
+                "common": "节奏；韵律",
+                "context": "诗歌平仄压韵的音韵美"
+              },
+              {
+                "word": "capture",
+                "pos": "v.",
+                "common": "俘获；夺得",
+                "context": "扣人心弦、深深吸引读者"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "transport them to another world",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "transport sb to 动词引申‘将某人带入/引入’；another world 借喻‘另一个精神幻境’。意群精准译为‘把他们带入另一个超然物外的天地’",
+            "vocab": [
+              {
+                "word": "transport",
+                "pos": "v.",
+                "common": "运输；使心醉神迷（熟词僻义）",
+                "context": "精神上神游迁徙到另一境界"
+              }
+            ]
+          },
+          {
+            "phrase": "and make them see things differently",
+            "score": 1,
+            "guide": "make sb do 使役结构；see things differently 译为‘以不同的眼光打量世间万物’。意群精准译为‘并引导他们换一种全新的眼光去打量世界’",
+            "vocab": [
+              {
+                "word": "differently",
+                "pos": "adv.",
+                "common": "不同地",
+                "context": "改变原有成见、重新看待事物"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主干为主谓并列结构：主语 Its energy and rhythm，情态动词 can 统领三个并列动宾短语：capture a reader, transport them to another world, and make them see things differently。",
+        "reassembly_notes": "energy and rhythm 艺术转译为‘气韵与韵律/节奏’；capture a reader 译为‘俘获读者的心’；transport sb to 形象生动‘把读者带入另一个世界’；differently 修饰 see‘以不同的眼光审视万物’。"
       },
       {
         "sid": 5,
+        "pid": 1,
         "en": "Through carefully selected words and phrases, poems can be dramatic, funny, beautiful, moving and inspiring.",
-        "cn": "（第 5 句标准采分参考）",
+        "cn": "通过字斟句酌的词句，诗歌既可跌宕起伏，又可诙谐幽默，更能达到优美动人、发人深省的至高境界。",
         "scoring_points": [
           {
-            "phrase": "Through carefully selected wor...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Through carefully selected words and phrases,",
+            "score": 1,
+            "guide": "Through 表方式手段‘借助/通过’；carefully selected 译为‘精挑细选的/字斟句酌的’。意群精准译为‘借助字斟句酌推敲出来的辞藻与诗行’",
+            "vocab": [
+              {
+                "word": "carefully",
+                "pos": "adv.",
+                "common": "小心地；仔细地",
+                "context": "反复字斟句酌"
+              },
+              {
+                "word": "selected",
+                "pos": "adj.",
+                "common": "挑选出来的",
+                "context": "精心挑选的诗语"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "poems can be dramatic, funny, beautiful, moving and inspiring",
+            "score": 1,
+            "guide": "五个形容词并列：dramatic（富有戏剧张力的）、funny（妙趣横生的）、beautiful（典雅优美的）、moving（感人肺腑的）、inspiring（催人奋进的）。意群精准译为‘诗篇能够兼具戏剧张力、幽默风趣、优美格调、感人肺腑与发人深省’",
+            "vocab": [
+              {
+                "word": "dramatic",
+                "pos": "adj.",
+                "common": "戏剧性的；急剧的",
+                "context": "波澜起伏、极具戏剧冲突的"
+              },
+              {
+                "word": "moving",
+                "pos": "adj.",
+                "common": "移动的；感人的（熟词僻义）",
+                "context": "触动灵魂、催人泪下的"
+              },
+              {
+                "word": "inspiring",
+                "pos": "adj.",
+                "common": "鼓舞人心的",
+                "context": "启迪心智、唤醒灵感的"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "方式介词状语 Through carefully selected words and phrases；主干为主系表 poems can be...；表语由五个形容词多重并列构成：dramatic, funny, beautiful, moving and inspiring。",
+        "reassembly_notes": "carefully selected 词性转译为四字成语‘字斟句酌’；五个并列形容词层层推进（跌宕起伏、妙趣横生、优美绝伦、感人至深、启迪心智），汉语对仗工整美妙。"
       },
       {
         "sid": 6,
+        "pid": 2,
         "en": "No one knows for sure when poetry began but it has been around for thousands of years, even before people could write.",
-        "cn": "（第 6 句标准采分参考）",
+        "cn": "没人能够确切知晓诗歌究竟发端于何时，但它早已流传了数千年之久，甚至在人类懂得书写文字之前便已蔚然成风。",
         "scoring_points": [
           {
-            "phrase": "No one knows for sure when poe...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "No one knows for sure when poetry began",
+            "score": 0.5,
+            "guide": "know for sure 考研常用短语‘确切知道’；when 宾从‘诗歌起源的时间’。意群精准译为‘没有人能确切考证出诗歌究竟滥觞于何年’",
+            "vocab": [
+              {
+                "word": "for sure",
+                "pos": "phr.",
+                "common": "确定；肯定",
+                "context": "确切无疑地知晓"
+              },
+              {
+                "word": "began",
+                "pos": "v.",
+                "common": "开始；发源",
+                "context": "艺术形式的最初起源"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "but it has been around for thousands of years,",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "has been around 习语‘存在/流传’；thousands of years 译为‘数千载岁月’。意群精准译为‘但它在世间流传至少已有数千年历史’",
+            "vocab": [
+              {
+                "word": "around",
+                "pos": "adv.",
+                "common": "到处；在周围",
+                "context": "be around 存世于世；流传"
+              }
+            ]
+          },
+          {
+            "phrase": "even before people could write",
+            "score": 1,
+            "guide": "even before 连词短语强调时间先于；write 借代‘拥有文字书写能力’。意群精准译为‘甚至早于人类学会用文字书写记录的蒙昧年代’",
+            "vocab": [
+              {
+                "word": "write",
+                "pos": "v.",
+                "common": "写字；写作",
+                "context": "人类文明掌握文字书写"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "but 连接两个并列分句：前一句 No one knows for sure when poetry began（when 引导宾语从句）；后一句 it has been around for thousands of years，包含由 even before 引导的时间状语从句。",
+        "reassembly_notes": "know for sure 译为‘确切知晓’；has been around 习语译为‘早已存在流传’；even before people could write 顺译‘甚至早在文字被创造书写之前’。"
       },
       {
         "sid": 7,
+        "pid": 2,
         "en": "It was a way to tell stories and pass down history.",
-        "cn": "（第 7 句标准采分参考）",
+        "cn": "它曾是人们口口相传、讲述故事并将历史薪火相传的重要载体。",
         "scoring_points": [
           {
-            "phrase": "It was a way to tell stories a...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "It was a way to tell stories",
+            "score": 1,
+            "guide": "tell stories 译为‘讲述传说故事/叙事’。意群精准译为‘诗歌曾是早期人类叙说故事的一种载体’",
+            "vocab": [
+              {
+                "word": "way",
+                "pos": "n.",
+                "common": "道路；方法",
+                "context": "口头文化的承载方式"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "and pass down history",
+            "score": 1,
+            "guide": "pass down 考研核心短语‘流传；一代代传下去’；history 译为‘历史传统’。意群精准译为‘并且代代相传、传承历史’",
+            "vocab": [
+              {
+                "word": "pass down",
+                "pos": "phr.",
+                "common": "传给后代；遗传",
+                "context": "口耳相传历史记忆"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主系表结构：It was a way；不定式短语 to tell stories and pass down history 作后置定语修饰 way。",
+        "reassembly_notes": "way 结合古代口头传统译为‘有效载体/方式’；pass down 经典短语（流传下去/薪火相传），语言文雅厚重。"
       },
       {
         "sid": 8,
+        "pid": 2,
         "en": "It is closely related to song and even when written it is usually created to be performed out loud.",
-        "cn": "（第 8 句标准采分参考）",
+        "cn": "它与歌谣休戚相关，即便在落实为文字之后，它通常也是为了让人大声朗诵演奏而创作的。",
         "scoring_points": [
           {
-            "phrase": "It is closely related to song ...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "It is closely related to song",
+            "score": 0.5,
+            "guide": "be closely related to 考研核心短语‘与……密切相连’；song 译为‘歌曲/乐歌’。意群精准译为‘诗歌与歌谣有着血脉相连的渊源’",
+            "vocab": [
+              {
+                "word": "closely",
+                "pos": "adv.",
+                "common": "紧密地",
+                "context": "息息相关地"
+              },
+              {
+                "word": "related",
+                "pos": "adj.",
+                "common": "有联系的",
+                "context": "源流相通的关系"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "and even when written",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "even when 引导让步；written 过去分词省略了 it is。意群精准译为‘而且即便后来被写在纸页上’",
+            "vocab": [
+              {
+                "word": "written",
+                "pos": "adj./v.",
+                "common": "成文的；书写的",
+                "context": "从口耳相传变为书面文字"
+              }
+            ]
+          },
+          {
+            "phrase": "it is usually created to be performed out loud",
+            "score": 1,
+            "guide": "is created 被动语态‘被创作出来’；to be performed 不定式表目的；out loud 译为‘大声地/朗朗上口地朗诵’。意群精准译为‘它的创作初衷也往往是为了大声当众吟咏与诵读’",
+            "vocab": [
+              {
+                "word": "perform",
+                "pos": "v.",
+                "common": "执行；演出；诵读",
+                "context": "在众人面前表演或声情并茂地朗诵"
+              },
+              {
+                "word": "out loud",
+                "pos": "phr.",
+                "common": "大声地；出声地",
+                "context": "发出清晰洪亮的声音朗读"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "and 连接两个并列句：前一句 It is closely related to song；后一句 it is usually created to be performed out loud，并在主谓之间插入了即使书写成册的让步状语从句 even when (it is) written。",
+        "reassembly_notes": "be closely related to 译为‘与……密切相关/休戚与共’；even when written 省略结构前置翻译为‘即便被写成文字’；performed out loud 结合诗歌朗诵传统译为‘大声诵读/表演吟咏’。"
       }
     ]
   }

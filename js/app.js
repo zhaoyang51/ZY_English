@@ -1655,7 +1655,10 @@
 
       // Step 2: Scoring Points Cards with (1) Vocab, (2) Translation Tips, (3) Translation
       const step2CardsHtml = sent.scoring_points.map((sp, idx) => {
-        const vocabList = extractTranslationVocab(sp.phrase);
+        const vocabList = (sp.vocab && Array.isArray(sp.vocab) && sp.vocab.length > 0)
+          ? sp.vocab
+          : extractTranslationVocab(sp.phrase);
+
         const vocabHtml = vocabList.length > 0 ? `
           <div style="margin-top:8px;padding:8px 12px;background:var(--card-bg);border-radius:6px;border:1px solid var(--border)">
             <strong style="color:var(--accent);font-size:0.85em;display:block;margin-bottom:4px">📚 (1) 考研与四六级核心词汇辨析：</strong>
@@ -1665,10 +1668,12 @@
           </div>
         ` : '';
 
-        let chunkTrans = '';
-        const matchQuote = sp.guide && sp.guide.match(/[‘'“"]([^‘'“”"]+)[’'”"]/);
-        if (matchQuote && matchQuote[1]) {
-          chunkTrans = matchQuote[1];
+        let chunkTrans = sp.translation || sp.chunk_translation || '';
+        if (!chunkTrans) {
+          const matchQuote = sp.guide && sp.guide.match(/[‘'“"]([^‘'“”"]+)[’'”"]/);
+          if (matchQuote && matchQuote[1]) {
+            chunkTrans = matchQuote[1];
+          }
         }
 
         return `
@@ -1762,6 +1767,11 @@
 
           <div style="background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:10px 12px;font-size:0.88em;color:var(--ink);line-height:1.75">
             <strong style="color:var(--ink)">💡 组合重组要领剖析与名师点拨：</strong>
+            ${sent.reassembly_notes ? `
+              <div style="margin:6px 0 8px 0;padding:8px 12px;background:rgba(5,150,105,0.06);border-radius:6px;border-left:3px solid #059669;color:var(--ink)">
+                🎯 <strong>本句组合要领：</strong>${sent.reassembly_notes}
+              </div>
+            ` : ''}
             <ul style="margin:4px 0 0 0;padding-left:18px">
               <li><strong>① 大范围语序调整：</strong>遵循汉语“前因后果、状语前置、长定语拆译后置”习惯，将英文后置状语/定语合理移至中文动词前或句首。</li>
               <li><strong>② 语言润色（增词与减词）：</strong>适度增补中文连接词或代词主语，删减英文冗余物主代词，消除僵硬欧化痕迹。</li>

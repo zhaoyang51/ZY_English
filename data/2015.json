@@ -7791,147 +7791,366 @@
     "sentences": [
       {
         "sid": 1,
+        "pid": 0,
         "en": "Think about driving a route that's very familiar.",
-        "cn": "（第 1 句标准采分参考）",
+        "cn": "请设想一下，开车行驶在一条你非常熟悉的线路上。",
         "scoring_points": [
           {
-            "phrase": "Think about driving a route th...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Think about driving a route",
+            "score": 1,
+            "guide": "Think about 祈使句译为‘想象一下/试想……’；driving a route 译为‘沿某条路线驾车行驶’。意群精准译为‘试想一下开车走某条路线的情景’",
+            "vocab": [
+              {
+                "word": "route",
+                "pos": "n.",
+                "common": "路线；路途",
+                "context": "日常行驶的行车路线"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "that's very familiar",
+            "score": 1,
+            "guide": "that 定语从句修饰 a route，familiar 译为‘熟悉的/驾轻就熟的’。意群精准译为‘而这条路线你极为熟悉’",
+            "vocab": [
+              {
+                "word": "familiar",
+                "pos": "adj.",
+                "common": "熟悉的；通晓的",
+                "context": "走过多次、烂熟于心的"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "祈使句；动词 Think about 作谓语，宾语为 driving a route；that 引导限制性定语从句 that's very familiar 修饰 route。",
+        "reassembly_notes": "祈使句顺译，增补委婉语气词‘请设想一下/想象一下’；定语从句提前修饰‘一条你极为熟悉的路线’。"
       },
       {
         "sid": 2,
+        "pid": 0,
         "en": "It could be your commute to work, a trip into town or the way home.",
-        "cn": "（第 2 句标准采分参考）",
+        "cn": "那可能是你上班的通勤路、进城采买的路线，或是返程回家的路途。",
         "scoring_points": [
           {
-            "phrase": "It could be your commute to wo...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "It could be your commute to work",
+            "score": 1,
+            "guide": "It 指代前面的路线；commute to work 考研核心短语，译为‘上班的通勤路’。意群精准译为‘它可能是你每日上下班的通勤路线’",
+            "vocab": [
+              {
+                "word": "commute",
+                "pos": "n./v.",
+                "common": "上下班往返；通勤",
+                "context": "工作与住所之间的往返路途"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "a trip into town or the way home",
+            "score": 1,
+            "guide": "a trip into town 译为‘进城一趟/前往市中心的路’；the way home 译为‘回家的路’。意群精准译为‘去往市区的一段路，或是回家的路途’",
+            "vocab": [
+              {
+                "word": "trip",
+                "pos": "n.",
+                "common": "旅行；行程",
+                "context": "短途出行；一趟旅程"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主干为主系表结构，It could be 后面连接三个并列名词短语作为表语：your commute to work, a trip into town 和 the way home。",
+        "reassembly_notes": "三个并列路程顺译，注意 commute 为考研高频重点词汇，专指‘上班通勤/往返上下班的路程’。"
       },
       {
         "sid": 3,
+        "pid": 0,
         "en": "Whichever it is, you know every twist and turn like the back of your hand.",
-        "cn": "（第 3 句标准采分参考）",
+        "cn": "无论是哪一种，对于路上的每一处弯道曲折，你都了如指掌、烂熟于心。",
         "scoring_points": [
           {
-            "phrase": "Whichever it is, you know ever...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Whichever it is",
+            "score": 0.5,
+            "guide": "Whichever 引导让步状语从句，译为‘不论是哪一种情况/无论是哪条路’。意群精准译为‘无论是哪一种情形’",
+            "vocab": [
+              {
+                "word": "whichever",
+                "pos": "pron.",
+                "common": "无论哪个",
+                "context": "不论上述所列举的哪一种路线"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "you know every twist and turn",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "twist and turn 名词并列搭配，指‘盘旋曲折/每一个拐弯处’。意群精准译为‘你对路上的每个弯道曲折都一清二楚’",
+            "vocab": [
+              {
+                "word": "twist",
+                "pos": "n./v.",
+                "common": "扭曲；转折",
+                "context": "道路的弯曲蜿蜒处"
+              }
+            ]
+          },
+          {
+            "phrase": "like the back of your hand",
+            "score": 1,
+            "guide": "比喻习语，字面是‘像手背一样了解’，地道汉语译为成语‘了如指掌’。意群精准译为‘简直就像熟悉自己的手背一样了如指掌’",
+            "vocab": [
+              {
+                "word": "back of hand",
+                "pos": "idiom",
+                "common": "手背",
+                "context": "like the back of one's hand 了如指掌"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "Whichever it is 引导让步状语从句；主句主干为 you know every twist and turn；介词短语 like the back of your hand 作方式状语。",
+        "reassembly_notes": "让步状语从句顺译；twist and turn 译为‘弯弯绕绕/每一个转弯与曲折’；like the back of one's hand 属于经典英语习语，翻译为汉语成语‘了如指掌/烂熟于心’最为地道传神。"
       },
       {
         "sid": 4,
+        "pid": 0,
         "en": "On these sorts of trips it's easy to lose concentration on the driving and pay little attention to the passing scenery.",
-        "cn": "（第 4 句标准采分参考）",
+        "cn": "在这类行车过程中，人们很容易在驾驶时注意力涣散，并且对沿途掠过的风景视而不见。",
         "scoring_points": [
           {
-            "phrase": "On these sorts of trips it's e...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "On these sorts of trips it's easy to lose concentration on the driving",
+            "score": 1,
+            "guide": "it 为形式主语；lose concentration 译为‘分散注意力/注意力难以集中’；driving 作动名词宾语。意群精准译为‘在这样的旅程中，人们很容易在开车时分散注意力’",
+            "vocab": [
+              {
+                "word": "concentration",
+                "pos": "n.",
+                "common": "专注；专心；浓度",
+                "context": "精神集中度；注意力"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "and pay little attention to the passing scenery",
+            "score": 1,
+            "guide": "pay little attention to 含有半否定‘几乎不注意/很少留心’；passing scenery 译为‘沿途掠过的风景’。意群精准译为‘并且几乎无心留恋沿途掠过的景物’",
+            "vocab": [
+              {
+                "word": "attention",
+                "pos": "n.",
+                "common": "注意；关注",
+                "context": "pay attention to 集中关注"
+              },
+              {
+                "word": "scenery",
+                "pos": "n.",
+                "common": "风景；景色",
+                "context": "道路两侧的自然或人文风光"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "On these sorts of trips 为介词短语作状语；it 为形式主语，真正的主语为两个并列不定式短语 to lose concentration... and (to) pay little attention...。",
+        "reassembly_notes": "形式主语 it 顺译为‘很容易……’；little attention 含有半否定意义，翻译出‘很少留意/几乎视而不见’；passing scenery 译为‘沿途掠过的景物/身边经过的风景’。"
       },
       {
         "sid": 5,
+        "pid": 0,
         "en": "The consequence is that you perceive that the trip has taken less time than it actually has.",
-        "cn": "（第 5 句标准采分参考）",
+        "cn": "其结果就是，你主观上觉得这趟旅程所花费的时间，比实际耗费的时间要短得多。",
         "scoring_points": [
           {
-            "phrase": "The consequence is that you pe...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "The consequence is that you perceive",
+            "score": 1,
+            "guide": "consequence 考研核心词‘结果；后果’；perceive 动词‘感知到；主观觉得’。意群精准译为‘这种心不在焉的结果便是，你会主观感觉’",
+            "vocab": [
+              {
+                "word": "consequence",
+                "pos": "n.",
+                "common": "结果；后果；重要性",
+                "context": "必然招致的情形或结果"
+              },
+              {
+                "word": "perceive",
+                "pos": "v.",
+                "common": "感知；察觉；认为",
+                "context": "主观直觉与认知感知"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "that the trip has taken less time than it actually has",
+            "score": 1,
+            "guide": "take time 译为‘花费时间’；less... than 比较级；it actually has 省略了 taken time。意群精准译为‘该行程所花费的时间比实际消耗的时间更短’",
+            "vocab": [
+              {
+                "word": "actually",
+                "pos": "adv.",
+                "common": "实际上；事实上",
+                "context": "真实客观情况下"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主句主系表：The consequence is that...；第一个 that 引导表语从句；从句中 perceive 后嵌套第二个 that 引导的宾语从句；宾语从句中包含 less... than 比较结构，has 后面省略了 taken。",
+        "reassembly_notes": "双重从句嵌套：先译表语从句‘结果是’，再译感知宾语从句‘你觉得……’；比较级结构‘比实际耗时更少’与汉语习惯契合，顺畅衔接。"
       },
       {
         "sid": 6,
+        "pid": 1,
         "en": "This is the well-travelled road effect: People tend to underestimate the time it takes to travel a familiar route.",
-        "cn": "（第 6 句标准采分参考）",
+        "cn": "这就是著名的“走熟路效应”：人们往往会低估沿着一条熟悉路线行驶所需要的时间。",
         "scoring_points": [
           {
-            "phrase": "This is the well-travelled roa...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "This is the well-travelled road effect:",
+            "score": 0.5,
+            "guide": "专有名词 well-travelled road effect 译为‘走熟路效应/熟路效应’，冒号引出定义解释。意群精准译为‘这就是所谓的“走熟路效应”：’",
+            "vocab": [
+              {
+                "word": "well-travelled",
+                "pos": "adj.",
+                "common": "常有人走的",
+                "context": "非常熟悉且常开的道路"
+              },
+              {
+                "word": "effect",
+                "pos": "n.",
+                "common": "效应；影响",
+                "context": "心理学效应/现象"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "People tend to underestimate the time",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "tend to 译为‘往往；倾向于’；underestimate 考研高频词，译为‘低估/轻估’。意群精准译为‘人们往往会低估’",
+            "vocab": [
+              {
+                "word": "tend",
+                "pos": "v.",
+                "common": "倾向；照料",
+                "context": "tend to 往往易于出现某种倾向"
+              },
+              {
+                "word": "underestimate",
+                "pos": "v.",
+                "common": "低估；看轻",
+                "context": "在估算时间或成本时偏低"
+              }
+            ]
+          },
+          {
+            "phrase": "it takes to travel a familiar route",
+            "score": 1,
+            "guide": "定语从句修饰 the time，it 为形式主语‘花费……时间去走一段熟悉路线’。意群精准译为‘行驶一条熟悉路线所耗费的时间’",
+            "vocab": [
+              {
+                "word": "familiar",
+                "pos": "adj.",
+                "common": "熟悉的",
+                "context": "驾轻就熟的路线"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "冒号前为主系表结构 This is the well-travelled road effect；冒号后为同位语解释分句，主干为 People tend to underestimate the time，it takes to travel a familiar route 为省略了 that 的定语从句修饰 time。",
+        "reassembly_notes": "well-travelled road effect 为心理学专属名词‘走熟路效应’；underestimate 考研常考前缀词（under- + estimate 估计不足/低估），定语从句提前翻译为‘行驶一条熟悉路线所花费的时间’。"
       },
       {
         "sid": 7,
+        "pid": 2,
         "en": "The effect is caused by the way we allocate our attention.",
-        "cn": "（第 7 句标准采分参考）",
+        "cn": "之所以产生这种效应，是因为我们分配自身注意力的方式所致。",
         "scoring_points": [
           {
-            "phrase": "The effect is caused by the wa...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "The effect is caused by",
+            "score": 1,
+            "guide": "被动语态被动转主动，译为‘这种效应是由……引起的/之所以产生该效应，源于……’。意群精准译为‘这一效应的产生，根源在于’",
+            "vocab": [
+              {
+                "word": "cause",
+                "pos": "v.",
+                "common": "引起；导致",
+                "context": "be caused by 由……引起；根源在于"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "the way we allocate our attention",
+            "score": 1,
+            "guide": "the way 后跟定语从句，allocate 考研高频核心词‘分配；配给’；attention 译为‘注意力’。意群精准译为‘我们分配自身注意力的方式’",
+            "vocab": [
+              {
+                "word": "allocate",
+                "pos": "v.",
+                "common": "分配；划拨",
+                "context": "合理调配与分配心理认知资源"
+              },
+              {
+                "word": "attention",
+                "pos": "n.",
+                "common": "注意力",
+                "context": "大脑心智的专注点"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主干为被动语态 The effect is caused by...；the way 后面跟定语从句 we allocate our attention 修饰 the way（省略了 in which 或 that）。",
+        "reassembly_notes": "被动句转译：is caused by 转译为汉语因果连词‘之所以……是因为……’，符合汉语习惯；allocate attention 译为‘分配注意力’。"
       },
       {
         "sid": 8,
+        "pid": 2,
         "en": "When we travel down a well-known route, because we don't have to concentrate much, time seems to flow more quickly.",
-        "cn": "（第 8 句标准采分参考）",
+        "cn": "当我们行驶在一条熟知的路线上时，由于我们不必高度集中精力，时间似乎流逝得更为飞快。",
         "scoring_points": [
           {
-            "phrase": "When we travel down a well-kno...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "When we travel down a well-known route",
+            "score": 0.5,
+            "guide": "When 引导时间状语；well-known route 译为‘熟知的路线’；travel down 译为‘驱车行驶在……’。意群精准译为‘当我们行驶在一条熟悉的路线上时’",
+            "vocab": [
+              {
+                "word": "well-known",
+                "pos": "adj.",
+                "common": "著名的；众所周知的",
+                "context": "烂熟于心的；所熟知的"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "because we don't have to concentrate much",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "because 原因状语从句，don't have to 译为‘不必’；concentrate 不及物动词‘聚精会神/集中精力’。意群精准译为‘因为我们不必过于高度集中精力’",
+            "vocab": [
+              {
+                "word": "concentrate",
+                "pos": "v.",
+                "common": "集中；聚集；浓缩",
+                "context": "全神贯注；集中注意力"
+              }
+            ]
+          },
+          {
+            "phrase": "time seems to flow more quickly",
+            "score": 1,
+            "guide": "主句主干，seem to 译为‘似乎/好像’；flow 比喻时间如水般‘流逝’；more quickly 比较级修饰 flow。意群精准译为‘时间似乎便流逝得更为迅速’",
+            "vocab": [
+              {
+                "word": "flow",
+                "pos": "v.",
+                "common": "流动；流出",
+                "context": "比喻时光飞速流淌流逝"
+              },
+              {
+                "word": "quickly",
+                "pos": "adv.",
+                "common": "迅速地；快速地",
+                "context": "飞速地"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "When 引导时间状语从句；主句前面又插入了 because 引导的原因状语从句；主句主干为 time seems to flow more quickly。",
+        "reassembly_notes": "双重状语从句（时间状语从句 + 原因状语从句），顺译逻辑先后；concentrate much 译为‘高度集中精神’；flow more quickly 拟人化‘时间流逝得更快’。"
       }
     ]
   }

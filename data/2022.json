@@ -8526,111 +8526,350 @@
     "sentences": [
       {
         "sid": 1,
+        "pid": 0,
         "en": "Although we try our best, sometimes our paintings rarely turn out as originally planned.",
-        "cn": "（第 1 句标准采分参考）",
+        "cn": "尽管我们竭尽全力，但有时我们画出的画作却极少能如最初设想的那样完美呈现。",
         "scoring_points": [
           {
-            "phrase": "Although we try our best, some...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Although we try our best,",
+            "score": 0.5,
+            "guide": "Although 让步连词‘尽管/虽然’；try our best 译为‘尽了最大努力/竭尽所能’。意群精准译为‘尽管我们付出了最大努力，’",
+            "vocab": [
+              {
+                "word": "best",
+                "pos": "n./adv.",
+                "common": "最好",
+                "context": "try one's best 竭尽全力"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "sometimes our paintings rarely turn out",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "rarely 否定副词‘罕有/极少’；turn out 核心短语‘最终呈现/结果变成’。意群精准译为‘有时我们的画作也很难完全按照’",
+            "vocab": [
+              {
+                "word": "rarely",
+                "pos": "adv.",
+                "common": "很少；罕见地",
+                "context": "带有极强半否定色彩"
+              },
+              {
+                "word": "turn out",
+                "pos": "phr.",
+                "common": "结果是；证明是",
+                "context": "作品最终绘制出来的呈现状态"
+              }
+            ]
+          },
+          {
+            "phrase": "as originally planned",
+            "score": 1,
+            "guide": "as originally planned 省略结构，译为‘正如最初规划的那样’。意群精准译为‘最初预设的蓝图顺利完工’",
+            "vocab": [
+              {
+                "word": "originally",
+                "pos": "adv.",
+                "common": "起初；原来",
+                "context": "最初下笔构思的规划"
+              },
+              {
+                "word": "planned",
+                "pos": "v.",
+                "common": "规划；设计",
+                "context": "最初的创作意图"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "Although 引导让步状语从句；主句主谓为 our paintings rarely turn out；as originally planned 为 as 引导的省略方式状语从句（省略了 they were）。",
+        "reassembly_notes": "try our best 顺译为‘竭尽全力’；rarely 否定副词结合 turn out 译为‘极少能如……展现’；as originally planned 译为‘如原先所设想的那样’。"
       },
       {
         "sid": 2,
+        "pid": 0,
         "en": "Changes in the light, the limitations of your painting materials, and the lack of experience and technique mean that what you start out trying to achieve may not come to life the way that you expected.",
-        "cn": "（第 2 句标准采分参考）",
+        "cn": "光线的变幻、绘画颜料画具的局限，加上经验与技艺的欠缺，都意味着你起初着手想要达到的画面效果，可能无法按照你预期的模样跃然纸上。",
         "scoring_points": [
           {
-            "phrase": "Changes in the light, the limi...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Changes in the light, the limitations of your painting materials,",
+            "score": 0.5,
+            "guide": "light 光照变化；limitations 译为‘局限性/受制因素’；painting materials 译为‘绘画材料/画具颜料’。意群精准译为‘光影的变幻、所用画材工具的限制’",
+            "vocab": [
+              {
+                "word": "limitation",
+                "pos": "n.",
+                "common": "限制；限度",
+                "context": "画笔颜料性能的物理局限"
+              },
+              {
+                "word": "material",
+                "pos": "n.",
+                "common": "材料；物资",
+                "context": "绘画用的油彩画布等材料"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "and the lack of experience and technique mean that",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "lack of 译为‘缺乏/匮乏’；technique 译为‘技法/技艺’；mean that 引导宾语从句。意群精准译为‘以及经验手法的生疏欠缺，都意味着’",
+            "vocab": [
+              {
+                "word": "technique",
+                "pos": "n.",
+                "common": "技巧；工艺",
+                "context": "专业美术绘画笔触技法"
+              },
+              {
+                "word": "lack",
+                "pos": "n./v.",
+                "common": "缺乏；不足",
+                "context": "练习火候未到的经验欠缺"
+              }
+            ]
+          },
+          {
+            "phrase": "what you start out trying to achieve",
+            "score": 0.5,
+            "guide": "what 引导主语从句；start out doing 译为‘着手做……/起初下笔打算做……’；achieve 译为‘达成/实现’。意群精准译为‘你起初起笔意图呈现的效果’",
+            "vocab": [
+              {
+                "word": "start out",
+                "pos": "phr.",
+                "common": "出发；着手进行",
+                "context": "从最初构思下笔开始"
+              },
+              {
+                "word": "achieve",
+                "pos": "v.",
+                "common": "实现；达成",
+                "context": "在画布上呈现目标艺术构想"
+              }
+            ]
+          },
+          {
+            "phrase": "may not come to life the way that you expected",
+            "score": 0.5,
+            "guide": "come to life 核心习语‘变得鲜活/苏醒/栩栩如生’；the way that 方式定语从句‘如你所料想的方式’。意群精准译为‘未必能按照你的期待如实生动地跃然纸上’",
+            "vocab": [
+              {
+                "word": "come to life",
+                "pos": "idiom",
+                "common": "苏醒；变得生动",
+                "context": "绘画构图活灵活现地呈现"
+              },
+              {
+                "word": "expected",
+                "pos": "v.",
+                "common": "期待；预期",
+                "context": "原先所希冀的艺术效果"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "主语由三个并列名词短语构成：Changes in the light, the limitations... and the lack...；谓语 mean；that 引导宾语从句；从句中 what you start out trying to achieve 为主语从句，may not come to life 为谓语短语，the way that you expected 为方式状语从句。",
+        "reassembly_notes": "三大主语并列：光线变化、材料局限、经验技艺不足，气势磅礴；what you start out trying to achieve 顺译为‘你最初竭力追求的目标’；come to life 为考研生动画意习语（栩栩如生地活现/跃然纸上）。"
       },
       {
         "sid": 3,
+        "pid": 1,
         "en": "Although this can be frustrating and disappointing, it turns out that this can actually be good for you.",
-        "cn": "（第 3 句标准采分参考）",
+        "cn": "尽管这难免令人沮丧和失望，但事实表明，这种波折其实对你大有裨益。",
         "scoring_points": [
           {
-            "phrase": "Although this can be frustrati...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Although this can be frustrating and disappointing,",
+            "score": 1,
+            "guide": "frustrating 令人沮丧的；disappointing 令人失望的；can 表客观推测。意群精准译为‘尽管这可能会让人倍感挫败与灰心，’",
+            "vocab": [
+              {
+                "word": "frustrating",
+                "pos": "adj.",
+                "common": "令人沮丧的；令人挫败的",
+                "context": "付出心血却未达预期的无力感"
+              },
+              {
+                "word": "disappointing",
+                "pos": "adj.",
+                "common": "令人扫兴的",
+                "context": "成品不如人意的失望"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "it turns out that this can actually be good for you",
+            "score": 1,
+            "guide": "it turns out that 经典主语从句句型‘事实证明……’；be good for you 译为‘对你颇有好处/裨益良多’。意群精准译为‘但事实证明，这其实对你的心智成长大有裨益’",
+            "vocab": [
+              {
+                "word": "actually",
+                "pos": "adv.",
+                "common": "实际上；居然",
+                "context": "转折强调出乎意料的正面收获"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "Although 引导让步状语从句；主句为 it turns out that... 固定句型；that 引导主语从句 this can actually be good for you。",
+        "reassembly_notes": "frustrating and disappointing 双形容词并列译为‘令人沮丧和失望’；it turns out that 顺译为‘事实表明’；be good for you 结合语境译为‘对你大有裨益/极具成长价值’。"
       },
       {
         "sid": 4,
+        "pid": 1,
         "en": "Unexpected results have two benefits: you pretty quickly learn to deal with disappointment and realise that when one door closes, another opens.",
-        "cn": "（第 4 句标准采分参考）",
+        "cn": "出乎意料的画作结果有两大好处：你能非常迅速地学会应对失望，并且懂得“当一扇门关上时，另一扇门就会开启”的深刻道理。",
         "scoring_points": [
           {
-            "phrase": "Unexpected results have two be...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "Unexpected results have two benefits:",
+            "score": 0.5,
+            "guide": "Unexpected results 译为‘意料之外的结果’；benefits 译为‘益处/好处’。意群精准译为‘意料之外的画作结局具有双重好处：’",
+            "vocab": [
+              {
+                "word": "unexpected",
+                "pos": "adj.",
+                "common": "始料未及的",
+                "context": "画出的画超脱了原先的构思"
+              },
+              {
+                "word": "benefit",
+                "pos": "n.",
+                "common": "益处；好处",
+                "context": "心理与技法上的收获"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "you pretty quickly learn to deal with disappointment",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "pretty quickly 译为‘相当迅速地’；deal with 核心短语‘处理/应对’；disappointment 译为‘失望情绪’。意群精准译为‘你能够很快学会直面并化解心中的失落’",
+            "vocab": [
+              {
+                "word": "deal with",
+                "pos": "phr.",
+                "common": "处理；应付",
+                "context": "心理调适并面对挫折"
+              }
+            ]
+          },
+          {
+            "phrase": "and realise that when one door closes, another opens",
+            "score": 1,
+            "guide": "realise that 引导宾语从句；when one door closes, another opens 西方经典谚语，寓意‘天无绝人之路/塞翁失马’。意群精准译为‘并深刻悟出“当一扇门关上，另一扇门便会为你敞开”的哲理’",
+            "vocab": [
+              {
+                "word": "door",
+                "pos": "n.",
+                "common": "门",
+                "context": "比喻人生遭遇的闭门羹或新契机"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "冒号前为主谓宾 Unexpected results have two benefits；冒号后为并列动词短语解释好处：learn to deal with disappointment 和 realise that...；that 后面包含 when 引导的时间条件状语从句以及名言 another opens。",
+        "reassembly_notes": "冒号后展开两大好处；deal with disappointment 译为‘化解/应对失落’；when one door closes, another opens 属于西方经典谚语（天无绝人之路/失之东隅收之桑榆），译出双引号哲理感。"
       },
       {
         "sid": 5,
+        "pid": 1,
         "en": "You also quickly learn to adapt and come up with creative solutions to the problems the painting presents, and thinking outside the box will become your second nature.",
-        "cn": "（第 5 句标准采分参考）",
+        "cn": "你还会迅速学会调整变通，并针对画布上出现的难题想出极具创意的解法，而跳出框框思考也终将成为你的本能直觉。",
         "scoring_points": [
           {
-            "phrase": "You also quickly learn to adap...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "You also quickly learn to adapt",
+            "score": 0.5,
+            "guide": "adapt 不及物动词‘适应/灵活变通’。意群精准译为‘你也会迅速学会临机变通’",
+            "vocab": [
+              {
+                "word": "adapt",
+                "pos": "v.",
+                "common": "适应；改写",
+                "context": "面对画面失误时灵活调整策略"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
+            "phrase": "and come up with creative solutions to the problems the painting presents,",
             "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "guide": "come up with 核心短语‘想出’；solutions to the problems 译为‘对难题的解法’；the painting presents 定语从句前置修饰‘画面所暴露出的’。意群精准译为‘并对画作所呈现的破绽提出富有创见的补救办法’",
+            "vocab": [
+              {
+                "word": "solution",
+                "pos": "n.",
+                "common": "解决方案；答案",
+                "context": "艺术设计与修正办法"
+              },
+              {
+                "word": "present",
+                "pos": "v.",
+                "common": "提出；展现（熟词僻义）",
+                "context": "呈现暴露出来的问题"
+              }
+            ]
+          },
+          {
+            "phrase": "and thinking outside the box will become your second nature",
+            "score": 1,
+            "guide": "think outside the box 考研经典成语‘打破常规/跳脱固有思维’；second nature 习语‘第二天性/本能直觉’。意群精准译为‘而这种打破常规的求异思维，亦将化作你的第二本能’",
+            "vocab": [
+              {
+                "word": "outside the box",
+                "pos": "idiom",
+                "common": "跳出框架；创新思考",
+                "context": "打破传统刻板构图逻辑"
+              },
+              {
+                "word": "nature",
+                "pos": "n.",
+                "common": "自然；本性",
+                "context": "second nature 深入骨髓的习性/本能"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "and 连接两个并列主句：第一句谓语包含 learn to adapt and come up with...；the painting presents 为省略 that 的定语从句修饰 problems；第二句主语为动名词短语 thinking outside the box，谓语 will become，表语 your second nature。",
+        "reassembly_notes": "adapt 译为‘变通调整’；solutions to the problems 介词搭配 to；thinking outside the box 为考研顶尖习语（跳出固有思维/打破框架思考）；second nature 为经典成语（习惯成自然/第二本能）。"
       },
       {
         "sid": 6,
+        "pid": 2,
         "en": "In fact, creative problem-solving skills are incredibly useful in daily life, with which you're more likely to be able to find a solution when a problem arises.",
-        "cn": "（第 6 句标准采分参考）",
+        "cn": "事实上，创造性解决问题的能力在日常生活中极为有用；凭借这种能力，当棘手问题出现时，你将更有可能找到化解之道。",
         "scoring_points": [
           {
-            "phrase": "In fact, creative problem-solv...",
-            "score": 1.0,
-            "guide": "主干谓语与从句结构顺译，采分点完整"
+            "phrase": "In fact, creative problem-solving skills are incredibly useful in daily life,",
+            "score": 1,
+            "guide": "problem-solving skills 译为‘解决问题的能力’；incredibly useful 译为‘极度管用/大有裨益’。意群精准译为‘事实上，富有创造力的问题化解能力在日常生活中堪称无价之宝’",
+            "vocab": [
+              {
+                "word": "problem-solving",
+                "pos": "adj.",
+                "common": "解决问题的",
+                "context": "排难解纷的实践能力"
+              },
+              {
+                "word": "incredibly",
+                "pos": "adv.",
+                "common": "难以置信地；极其",
+                "context": "非常；极具价值地"
+              }
+            ]
           },
           {
-            "phrase": "重点词汇与短语",
-            "score": 0.5,
-            "guide": "结合考研语境引申翻译，语言通顺达意"
+            "phrase": "with which you're more likely to be able to find a solution when a problem arises",
+            "score": 1,
+            "guide": "with which 介词定语从句，with 意为‘凭借它’；when a problem arises 时间从句译为‘当困难露头时’；find a solution 译为‘觅得良策’。意群精准译为‘有了它，每当难题陡现，你便更有能力迅速找到破局良策’",
+            "vocab": [
+              {
+                "word": "arise",
+                "pos": "v.",
+                "common": "出现；上升；产生",
+                "context": "问题或意外突然冒出"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "并列或复合句式，考查长难句切分与语序逻辑调整。"
+        "grammar_breakdown": "In fact 为副词状语；主干为 creative problem-solving skills are incredibly useful in daily life；with which 引导非限制性定语从句修饰 skills；从句中嵌套 when a problem arises 时间状语从句。",
+        "reassembly_notes": "with which 介词加关系代词引导从句，还原为汉语代词‘凭借这种能力……’拆译；arise 考研高频不及物动词（出现/滋生），语序流畅有力。"
       }
     ]
   }
