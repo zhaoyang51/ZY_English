@@ -307,6 +307,73 @@ test('ClozeRenderer supports two practice styles: instant grading and whole subm
   context.window.ClozeRenderer.setSubmittedForYear(2012, false);
 });
 
+test('TranslationRenderer renders accurate paragraph sentence placement and syntax modal buttons without duplicates (2010-2026)', () => {
+  const { context, document } = setupDOM();
 
+  for (let yr = 2010; yr <= 2026; yr++) {
+    const data = JSON.parse(read(`data/${yr}.json`));
+    context.window.TranslationRenderer.render(data.translation, yr, 'practice');
+    const paperHtml = document.getElementById('examPaper').innerHTML;
+    const wsHtml = document.getElementById('workspaceContent').innerHTML;
 
+    // Check that each sentence span is present exactly once
+    data.translation.sentences.forEach(s => {
+      const regex = new RegExp(`trans-sent-${s.sid}`, 'g');
+      const matches = paperHtml.match(regex) || [];
+      assert.strictEqual(matches.length, 1, `Year ${yr} sentence ${s.sid} should appear exactly once in examPaper`);
+    });
 
+    // Check that every sentence row has a syntax trigger button
+    assert.ok(wsHtml.includes('btn-trans-syntax'), `Year ${yr} should contain syntax buttons in workspace`);
+  }
+});
+
+test('showSyntaxModal renders complete breakdown for translation sentences and reading comprehension without regressions', () => {
+  const { context, document } = setupDOM();
+
+  // Load showSyntaxModal from app.js into context
+  const appCode = read('js/app.js');
+  const start = appCode.indexOf('function formatColoredChunks');
+  const end = appCode.indexOf('window.showSyntaxModal = showSyntaxModal;') + 'window.showSyntaxModal = showSyntaxModal;'.length;
+  const syntaxCode = appCode.slice(start, end);
+  vm.runInContext(syntaxCode, context);
+
+  assert.strictEqual(typeof context.window.showSyntaxModal, 'function');
+
+  // 1. Test translation sentence (2010 Sentence 1)
+  const trans2010 = JSON.parse(read('data/2010.json')).translation;
+  const sent1 = trans2010.sentences[0];
+  context.window.showSyntaxModal(sent1);
+
+  const titleEl = document.getElementById('syntaxModalTitle');
+  const contentEl = document.getElementById('syntaxModalContent');
+  const transModalHtml = contentEl.innerHTML;
+
+  assert.strictEqual(titleEl.textContent, '🔍 英译汉句子拆解与采分点剖析');
+  assert.ok(transModalHtml.includes(sent1.en), 'Must render English sentence');
+  assert.ok(transModalHtml.includes('【采分点拆解与评分要领】'), 'Must render scoring rubrics header');
+  assert.ok(transModalHtml.includes('1 分'), 'Must render score badge');
+  assert.ok(transModalHtml.includes(sent1.scoring_points[0].phrase), 'Must render rubric phrase');
+  assert.ok(transModalHtml.includes(sent1.scoring_points[0].guide), 'Must render rubric guide');
+  assert.ok(transModalHtml.includes('【主干识别与句法拆解】'), 'Must render grammar breakdown header');
+  assert.ok(transModalHtml.includes(sent1.grammar_breakdown), 'Must render grammar breakdown text');
+  assert.ok(transModalHtml.includes('【满分参考译文与考点】'), 'Must render reference translation header');
+  assert.ok(transModalHtml.includes(sent1.cn), 'Must render Chinese translation');
+  // Slashed text should not render when not present
+  assert.ok(!transModalHtml.includes('【意群断句与速译】'), 'Should not render empty slashed text block');
+
+  // 2. Test reading comprehension sentence (2010 Text 1 Sentence 1)
+  const reading2010 = JSON.parse(read('data/2010.json')).texts[0];
+  const readSent1 = reading2010.sentences[0];
+  context.window.showSyntaxModal(readSent1);
+
+  const readModalHtml = contentEl.innerHTML;
+  assert.strictEqual(titleEl.textContent, '🔍 长难句结构化拆解与考点剖析');
+  assert.ok(readModalHtml.includes(readSent1.text), 'Must render reading English sentence');
+  assert.ok(readModalHtml.includes('【意群断句与速译】'), 'Must render chunks block');
+  assert.ok(readModalHtml.includes('【主干识别与句法拆解】'), 'Must render syntax breakdown block');
+  assert.ok(readModalHtml.includes('【满分参考译文与考点】'), 'Must render reading reference translation');
+  assert.ok(readModalHtml.includes(readSent1.translation), 'Must render translation text');
+  // Scoring points should not render for reading sentences
+  assert.ok(!readModalHtml.includes('【采分点拆解与评分要领】'), 'Should not render scoring points block for reading');
+});

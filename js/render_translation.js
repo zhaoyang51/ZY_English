@@ -23,10 +23,13 @@
       paragraphs.forEach((p, pidx) => {
         let sentHtml = '';
         if (data.sentences && data.sentences.length > 0) {
-          const pSents = data.sentences.filter(s => s.pid === pidx || (p.pid !== undefined && s.pid === p.pid));
-          const list = pSents.length > 0 ? pSents : data.sentences;
+          const pSents = data.sentences.filter(s => {
+            if (s.pid !== undefined) return s.pid === pidx || (p.pid !== undefined && s.pid === p.pid);
+            return p.text && s.en && p.text.includes(s.en.trim().slice(0, 25));
+          });
+          const list = pSents.length > 0 ? pSents : (paragraphs.length === 1 ? data.sentences : []);
           list.forEach(s => {
-            sentHtml += `<span class="exam-sent trans-sent" id="trans-sent-${s.sid}" data-sid="${s.sid}" title="点击在工作台查看该句译文与采分点">${s.en || s.text || ''}</span> `;
+            sentHtml += `<span class="exam-sent trans-sent" id="trans-sent-${s.sid}" data-sid="${s.sid}" title="点击查看长难句拆解、参考译文与采分点">${s.en || s.text || ''}</span> `;
           });
         } else {
           sentHtml = p.text || '';
@@ -70,6 +73,10 @@
         el.addEventListener('click', () => {
           const sid = el.getAttribute('data-sid');
           this.highlightSentence(sid);
+          const sObj = data.sentences && data.sentences.find(s => String(s.sid) === String(sid) || s.sid === Number(sid));
+          if (sObj && typeof window.showSyntaxModal === 'function') {
+            window.showSyntaxModal(sObj);
+          }
         });
       });
 
@@ -109,6 +116,9 @@
               <div class="trans-sent-cn">👉 <strong>参考译文：</strong>${s.cn || s.translation || ''}</div>
               ${rubricsHtml}
               ${s.grammar_breakdown ? `<div style="font-size:0.85em;color:var(--muted);margin-top:4px">🔍 <strong>语法剖析：</strong>${s.grammar_breakdown}</div>` : ''}
+              <div style="display:flex;justify-content:flex-end;margin-top:6px">
+                <button class="toolbar-btn btn-trans-syntax" data-sid="${s.sid}" style="padding:2px 10px;font-size:0.82em;cursor:pointer">🔍 弹窗详析（采分点与考点）</button>
+              </div>
             </div>
           `;
         });
@@ -219,14 +229,25 @@
           localStorage.setItem(`${storageKey}_score`, val);
         });
       }
+
+      container.querySelectorAll('.btn-trans-syntax').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const sid = btn.getAttribute('data-sid');
+          const sObj = data.sentences && data.sentences.find(s => String(s.sid) === String(sid) || s.sid === Number(sid));
+          if (sObj && typeof window.showSyntaxModal === 'function') {
+            window.showSyntaxModal(sObj);
+          }
+        });
+      });
     },
 
     highlightSentence: function(sid) {
-      document.querySelectorAll('.trans-sent').forEach(el => el.classList.remove('highlight-focus'));
+      document.querySelectorAll('.trans-sent').forEach(el => el.classList.remove('highlight-focus', 'active-sent'));
       const targetLeft = document.getElementById(`trans-sent-${sid}`);
       if (targetLeft) {
-        targetLeft.classList.add('highlight-focus');
-        targetLeft.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        targetLeft.classList.add('highlight-focus', 'active-sent');
+        targetLeft.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       }
 
       const compSection = document.getElementById('transComparisonSection');
@@ -236,7 +257,7 @@
       const targetRight = document.getElementById(`trans-ws-sent-${sid}`);
       if (targetRight) {
         targetRight.style.background = 'var(--accent-light, #eff6ff)';
-        targetRight.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        targetRight.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       }
     }
   };

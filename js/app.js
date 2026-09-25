@@ -1182,10 +1182,11 @@
       }
 
       const sentSpan = e.target.closest('.exam-sent');
-      if (sentSpan && AppState.textData) {
+      if (sentSpan && AppState.textData && Array.isArray(AppState.textData.sentences)) {
         e.stopPropagation();
-        const sid = Number(sentSpan.getAttribute('data-sid'));
-        const sentObj = AppState.textData.sentences.find(s => s.sid === sid);
+        const rawSid = sentSpan.getAttribute('data-sid');
+        const sid = Number(rawSid);
+        const sentObj = AppState.textData.sentences.find(s => s.sid === sid || String(s.sid) === rawSid);
         if (sentObj) {
           document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('active-sent'));
           sentSpan.classList.add('active-sent');
@@ -1440,41 +1441,110 @@
     const content = document.getElementById('syntaxModalContent');
     if (!content || !sent) return;
 
-    const breakdownTags = (sent.syntax && sent.syntax.breakdown && Array.isArray(sent.syntax.breakdown))
-      ? sent.syntax.breakdown.map(b => {
-          let tagClass = 'tag-modifier';
-          if (b.type.includes('主干')) tagClass = 'tag-backbone';
-          if (b.type.includes('定语')) tagClass = 'tag-attributive';
-          if (b.type.includes('状语')) tagClass = 'tag-adverbial';
-          if (b.type.includes('名词')) tagClass = 'tag-noun';
-          if (b.type.includes('逻辑') || b.type.includes('考点')) tagClass = 'tag-logic';
-          if (b.type.includes('非谓语') || b.type.includes('特殊') || b.type.includes('同位语') || b.type.includes('修饰')) tagClass = 'tag-special';
-          return `<li style="margin-bottom:8px;font-family:var(--font-base)"><span class="syntax-tag ${tagClass}">[${b.type}]</span> <strong style="font-family:var(--font-base);color:var(--ink)">${b.content}</strong> — <span style="font-family:var(--font-base)">${b.explanation}</span></li>`;
-        }).join('')
-      : '';
+    const titleEl = document.getElementById('syntaxModalTitle') || (modal ? modal.querySelector('.syntax-modal-header span') : null);
+    if (titleEl) {
+      if (sent.scoring_points && Array.isArray(sent.scoring_points) && sent.scoring_points.length > 0) {
+        titleEl.textContent = '🔍 英译汉句子拆解与采分点剖析';
+      } else {
+        titleEl.textContent = '🔍 长难句结构化拆解与考点剖析';
+      }
+    }
+
+    const enText = sent.text || sent.en || '';
+    const cnText = sent.translation || sent.cn || '';
+
+    // 1. Chunks / Slashed Text
+    let chunksHtml = '';
+    if (sent.slashed_text || sent.chunk_translation) {
+      chunksHtml = `
+        <div style="margin-bottom:14px;background:rgba(37,99,235,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid var(--accent);font-family:var(--font-base)">
+          <p style="font-weight:700;color:var(--accent);margin-bottom:6px;font-family:var(--font-base)">【意群断句与速译】</p>
+          ${sent.slashed_text ? `<p class="chunk-group" style="margin-bottom:6px">${formatColoredChunks(sent.slashed_text)}</p>` : ''}
+          ${sent.chunk_translation ? `<p class="chunk-group">${formatColoredChunks(sent.chunk_translation)}</p>` : ''}
+        </div>
+      `;
+    }
+
+    // 2. Scoring Points / Rubrics (for translation sentences)
+    let scoringHtml = '';
+    if (sent.scoring_points && Array.isArray(sent.scoring_points) && sent.scoring_points.length > 0) {
+      const scoringItemsHtml = sent.scoring_points.map(sp => `
+        <li style="margin-bottom:10px;padding:8px 12px;background:var(--surface);border-radius:6px;border:1px solid var(--border);line-height:1.6">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap">
+            <span class="badge" style="background:#0284c7;color:#fff;font-size:0.75em;padding:2px 6px;border-radius:4px;font-weight:700">${sp.score !== undefined ? `${sp.score} 分` : '采分点'}</span>
+            <strong style="color:var(--ink);font-size:0.96em">${sp.phrase || ''}</strong>
+          </div>
+          <div style="font-size:0.9em;color:var(--muted)">👉 <strong>翻译要领：</strong>${sp.guide || ''}</div>
+        </li>
+      `).join('');
+
+      scoringHtml = `
+        <div style="margin-bottom:14px;background:rgba(37,99,235,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid var(--accent);font-family:var(--font-base)">
+          <p style="font-weight:700;color:var(--accent);margin-bottom:10px;font-family:var(--font-base)">【采分点拆解与评分要领】</p>
+          <ul style="padding-left:0;margin:0;list-style:none">${scoringItemsHtml}</ul>
+        </div>
+      `;
+    }
+
+    // 3. Syntax / Grammar Breakdown
+    let syntaxHtml = '';
+    if (sent.syntax && sent.syntax.breakdown && Array.isArray(sent.syntax.breakdown) && sent.syntax.breakdown.length > 0) {
+      const breakdownTags = sent.syntax.breakdown.map(b => {
+        let tagClass = 'tag-modifier';
+        if (b.type.includes('主干')) tagClass = 'tag-backbone';
+        if (b.type.includes('定语')) tagClass = 'tag-attributive';
+        if (b.type.includes('状语')) tagClass = 'tag-adverbial';
+        if (b.type.includes('名词')) tagClass = 'tag-noun';
+        if (b.type.includes('逻辑') || b.type.includes('考点')) tagClass = 'tag-logic';
+        if (b.type.includes('非谓语') || b.type.includes('特殊') || b.type.includes('同位语') || b.type.includes('修饰')) tagClass = 'tag-special';
+        return `<li style="margin-bottom:8px;font-family:var(--font-base)"><span class="syntax-tag ${tagClass}">[${b.type}]</span> <strong style="font-family:var(--font-base);color:var(--ink)">${b.content}</strong> — <span style="font-family:var(--font-base)">${b.explanation}</span></li>`;
+      }).join('');
+
+      syntaxHtml = `
+        <div style="margin-bottom:14px;background:var(--card-bg);padding:14px 16px;border-radius:8px;border:1px solid var(--border);font-family:var(--font-base)">
+          <p style="font-weight:700;color:var(--mode-color);margin-bottom:10px;font-family:var(--font-base)">【主干识别与句法拆解】</p>
+          <ul style="padding-left:16px;line-height:1.8;font-family:var(--font-base)">${breakdownTags}</ul>
+        </div>
+      `;
+    } else if (sent.grammar_breakdown) {
+      syntaxHtml = `
+        <div style="margin-bottom:14px;background:var(--card-bg);padding:14px 16px;border-radius:8px;border:1px solid var(--border);font-family:var(--font-base)">
+          <p style="font-weight:700;color:var(--mode-color);margin-bottom:8px;font-family:var(--font-base)">【主干识别与句法拆解】</p>
+          <div style="line-height:1.8;font-size:0.98em;color:var(--ink);font-family:var(--font-base)">
+            ${sent.grammar_breakdown}
+          </div>
+        </div>
+      `;
+    }
+
+    // 4. Reference Translation
+    let transHtml = '';
+    if (cnText) {
+      transHtml = `
+        <div style="background:rgba(15,118,110,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid #0f766e;font-family:var(--font-base)">
+          <p style="font-weight:700;color:#0f766e;margin-bottom:6px;font-family:var(--font-base)">【满分参考译文与考点】</p>
+          <p style="font-size:1.05em;color:#0f766e;font-weight:600;font-family:var(--font-base);line-height:1.7">${cnText}</p>
+        </div>
+      `;
+    }
+
+    const sentNumPrefix = sent.sid ? `<span class="badge" style="background:var(--mode-bg);color:var(--mode-color);margin-right:8px;font-size:0.85em;padding:2px 8px;border-radius:4px">第 ${sent.sid} 句</span>` : '';
 
     content.innerHTML = `
       <div style="font-size:1.15em;font-family:var(--font-base);line-height:1.7;color:var(--ink);margin-bottom:14px">
-        <strong>原句：</strong>${sent.text || ''}
+        ${sentNumPrefix}<strong>原句：</strong>${enText}
       </div>
-      <div style="margin-bottom:14px;background:rgba(37,99,235,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid var(--accent);font-family:var(--font-base)">
-        <p style="font-weight:700;color:var(--accent);margin-bottom:6px;font-family:var(--font-base)">【意群断句与速译】</p>
-        <p class="chunk-group" style="margin-bottom:6px">${formatColoredChunks(sent.slashed_text)}</p>
-        <p class="chunk-group">${formatColoredChunks(sent.chunk_translation)}</p>
-      </div>
-      <div style="margin-bottom:14px;background:var(--card-bg);padding:14px 16px;border-radius:8px;border:1px solid var(--border);font-family:var(--font-base)">
-        <p style="font-weight:700;color:var(--mode-color);margin-bottom:10px;font-family:var(--font-base)">【主干识别与句法拆解】</p>
-        <ul style="padding-left:16px;line-height:1.8;font-family:var(--font-base)">${breakdownTags}</ul>
-      </div>
-      <div style="background:rgba(15,118,110,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid #0f766e;font-family:var(--font-base)">
-        <p style="font-weight:700;color:#0f766e;margin-bottom:6px;font-family:var(--font-base)">【满分参考译文与考点】</p>
-        <p style="font-size:1.05em;color:#0f766e;font-weight:600;font-family:var(--font-base);line-height:1.7">${sent.translation || ''}</p>
-      </div>
+      ${chunksHtml}
+      ${scoringHtml}
+      ${syntaxHtml}
+      ${transHtml}
     `;
 
     if (overlay) overlay.classList.add('show');
     if (modal) modal.classList.add('show');
   }
+
+  window.showSyntaxModal = showSyntaxModal;
 
   function showQuestionModal(q, textData) {
     const overlay = document.getElementById('syntaxOverlay');
