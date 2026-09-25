@@ -64,6 +64,53 @@
   color: var(--danger, #dc2626);
 }
 
+.cloze-blank.filled.picked {
+  border-color: var(--accent, #2563eb);
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--accent, #2563eb);
+}
+.cloze-blank.filled.picked.active {
+  background: var(--accent, #2563eb);
+  color: #ffffff;
+}
+.cloze-blank.filled.picked .blank-word {
+  color: var(--accent, #2563eb);
+  font-weight: 600;
+}
+.cloze-blank.filled.picked.active .blank-word {
+  color: #ffffff;
+}
+body.theme-parchment .cloze-blank.filled.picked {
+  border-color: #8b5cf6;
+  background: rgba(139, 92, 246, 0.09);
+  color: #6d28d9;
+}
+body.theme-parchment .cloze-blank.filled.picked.active {
+  background: #8b5cf6;
+  color: #ffffff;
+}
+body.theme-parchment .cloze-blank.filled.picked .blank-word {
+  color: #6d28d9;
+}
+body.theme-parchment .cloze-blank.filled.picked.active .blank-word {
+  color: #ffffff;
+}
+body.theme-dark .cloze-blank.filled.picked {
+  border-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.15);
+  color: #93c5fd;
+}
+body.theme-dark .cloze-blank.filled.picked.active {
+  background: #3b82f6;
+  color: #ffffff;
+}
+body.theme-dark .cloze-blank.filled.picked .blank-word {
+  color: #93c5fd;
+}
+body.theme-dark .cloze-blank.filled.picked.active .blank-word {
+  color: #ffffff;
+}
+
 .cloze-card {
   background: var(--surface, #ffffff);
   border: 1px solid var(--border, #e2e8f0);
@@ -253,6 +300,125 @@ body.mode-review .cloze-opt-btn.dimmed,
   background: var(--accent-light, #eff6ff);
   color: var(--accent, #2563eb);
   border-color: var(--accent, #2563eb);
+}
+
+/* Cloze Practice Sub-mode Switcher */
+.cloze-submode-segmented {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 3px;
+  border-radius: var(--radius-sm, 6px);
+  gap: 3px;
+  border: 1px solid var(--border, #cbd5e1);
+}
+
+.cloze-submode-btn {
+  border: none;
+  background: transparent;
+  padding: 3px 9px;
+  font-size: 0.8em;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--muted, #64748b);
+  transition: all 0.15s ease;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.cloze-submode-btn:hover {
+  color: var(--ink, #0f172a);
+}
+
+.cloze-submode-btn.active {
+  background: var(--accent, #2563eb);
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+body.theme-parchment .cloze-submode-segmented {
+  background: #eadecc;
+  border-color: #dcd0bf;
+}
+
+body.theme-parchment .cloze-submode-btn {
+  color: #786c5e;
+}
+
+body.theme-parchment .cloze-submode-btn.active {
+  background: #8b5cf6;
+  color: #ffffff;
+}
+
+body.theme-dark .cloze-submode-segmented {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+body.theme-dark .cloze-submode-btn {
+  color: #94a3b8;
+}
+
+body.theme-dark .cloze-submode-btn.active {
+  background: #3b82f6;
+  color: #ffffff;
+}
+
+/* Status Badge & Chip Picked State (Pre-submission) */
+.cloze-status-badge.picked {
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  color: var(--accent, #2563eb);
+}
+
+body.theme-parchment .cloze-status-badge.picked {
+  background: rgba(139, 92, 246, 0.1);
+  border-color: rgba(139, 92, 246, 0.25);
+  color: #7c3aed;
+}
+
+body.theme-dark .cloze-status-badge.picked {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(59, 130, 246, 0.35);
+  color: #93c5fd;
+}
+
+.cloze-nav-chip.picked {
+  background: rgba(37, 99, 235, 0.12);
+  border-color: var(--accent, #2563eb);
+  color: var(--accent, #2563eb);
+  font-weight: 700;
+}
+
+body.theme-parchment .cloze-nav-chip.picked {
+  background: rgba(139, 92, 246, 0.12);
+  border-color: #8b5cf6;
+  color: #7c3aed;
+}
+
+body.theme-dark .cloze-nav-chip.picked {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: #3b82f6;
+  color: #93c5fd;
+}
+
+.cloze-clear-btn {
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #cbd5e1);
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-size: 0.76em;
+  font-weight: 600;
+  color: var(--muted, #64748b);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.cloze-clear-btn:hover {
+  background: var(--danger-bg, #fef2f2);
+  color: var(--danger, #dc2626);
+  border-color: var(--danger, #dc2626);
 }
 
 /* Cloze Analysis Box */

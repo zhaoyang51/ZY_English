@@ -1,6 +1,8 @@
 /**
  * Cloze Renderer: Section I Use of English (完形填空 / 英语知识运用)
- * Interactive In-text Blanks, Instant Grading upon Selection, Real-time Dashboard & Error Analysis
+ * Supports two practice styles:
+ * 1. 'instant': 逐题即时批改 (写一道题批改一道，即时展现正误与精析)
+ * 2. 'submit': 全篇统一交卷 (20题全部选完后，自主交卷统一核算得分与全解)
  */
 (function() {
   let clozeSelections = {}; // { 1: 'D', 2: 'C', ... }
@@ -23,6 +25,27 @@
       }
       localStorage.setItem('kaoyan_cloze_show_trans', String(val));
       localStorage.setItem('kaoyan_partb_show_trans', String(val));
+    },
+
+    getPracticeStyle: function() {
+      return localStorage.getItem('kaoyan_cloze_practice_style') || 'instant';
+    },
+
+    setPracticeStyle: function(style) {
+      localStorage.setItem('kaoyan_cloze_practice_style', style || 'instant');
+    },
+
+    isSubmittedForYear: function(year) {
+      return localStorage.getItem(`kaoyan_cloze_submitted_${year}`) === 'true';
+    },
+
+    setSubmittedForYear: function(year, val) {
+      if (val) {
+        localStorage.setItem(`kaoyan_cloze_submitted_${year}`, 'true');
+      } else {
+        localStorage.removeItem(`kaoyan_cloze_submitted_${year}`);
+        localStorage.removeItem(`kaoyan_cloze_${year}_submitted`);
+      }
     },
 
     render: function(clozeData, year, mode) {
@@ -50,6 +73,9 @@
       const fs = window.ReaderModule?.settings?.fontSize || 17.5;
       const lh = window.ReaderModule?.settings?.lineHeight || 1.85;
       const isReview = (mode === 'review');
+      const practiceStyle = this.getPracticeStyle();
+      const isSubmitted = this.isSubmittedForYear(year);
+      const isMockExam = !isReview && (practiceStyle === 'submit');
       const showTrans = this.getShowTrans();
 
       let parasHtml = '';
@@ -62,7 +88,6 @@
           const chosenOpt = clozeSelections[qid];
           const qObj = (data.questions || []).find(q => q.qid === qid);
           const isAnswered = Boolean(chosenOpt);
-          const isCorrect = qObj && (chosenOpt === qObj.answer);
           const isActive = activeBlankQid === qid;
 
           let stateCls = '';
@@ -72,7 +97,16 @@
             stateCls = 'filled correct';
             const rightWord = qObj?.options?.[qObj.answer] || '_______';
             wordHtml = `<span class="blank-word">${rightWord}</span>`;
+          } else if (isMockExam && !isSubmitted) {
+            if (isAnswered) {
+              stateCls = 'filled picked';
+              const chosenWord = qObj?.options?.[chosenOpt] || '_______';
+              wordHtml = `<span class="blank-word picked-word">${chosenWord}</span>`;
+            } else {
+              wordHtml = `<span class="blank-word">_______</span>`;
+            }
           } else if (isAnswered) {
+            const isCorrect = qObj && (chosenOpt === qObj.answer);
             if (isCorrect) {
               stateCls = 'filled correct';
               const rightWord = qObj?.options?.[chosenOpt] || '_______';
@@ -108,13 +142,18 @@
 
       examPaper.innerHTML = `
         <div class="reader-toolbar">
-          <div class="toolbar-group">
+          <div class="toolbar-group" style="display:flex;align-items:center;gap:8px">
             <span style="font-size:0.82em;font-weight:700;color:var(--muted)">题型:</span>
             <span class="badge" style="background:#0284c7;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.82em">Section I 完形填空 (10分)</span>
+            ${!isReview ? `
+              <span class="badge" style="background:rgba(2,132,199,0.1);color:#0284c7;border:1px solid rgba(2,132,199,0.25);padding:2px 8px;border-radius:4px;font-size:0.8em">
+                ${isMockExam ? '📝 全篇模考交卷' : '⚡ 逐题即时批改'}
+              </span>
+            ` : ''}
           </div>
           <div class="toolbar-group" style="margin-left:auto;display:flex;align-items:center;gap:8px">
             <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnToggleClozeTrans" title="切换全文与选项中文对照">🌐 中文对照</button>
-            <span style="font-size:0.82em;color:var(--muted)">20 题 · 每题 0.5 分 · 即做即改</span>
+            <span style="font-size:0.82em;color:var(--muted)">20 题 · 每题 0.5 分</span>
           </div>
         </div>
 
@@ -158,6 +197,9 @@
 
       const prevScrollTop = container.scrollTop;
       const isReview = (mode === 'review');
+      const practiceStyle = this.getPracticeStyle();
+      const isSubmitted = this.isSubmittedForYear(year);
+      const isMockExam = !isReview && (practiceStyle === 'submit');
       const showTrans = this.getShowTrans();
       const questions = data.questions || [];
       const totalQuestions = questions.length || 20;
@@ -188,6 +230,8 @@
 
         if (isReview) {
           chipCls = 'correct';
+        } else if (isMockExam && !isSubmitted) {
+          if (chosen) chipCls = 'picked';
         } else if (chosen) {
           if (chosen === q.answer) {
             chipCls = 'correct';
@@ -199,23 +243,93 @@
         }
 
         if (activeBlankQid === qid) chipCls += ' active';
-        navChipsHtml += `<button class="cloze-nav-chip ${chipCls}" data-qid="${qid}" title="第 ${qid} 题 (${chosen ? (chosen === q.answer ? '答对' : '答错') : '未答'})">${chipText}</button>`;
+        const statusDesc = (isMockExam && !isSubmitted)
+          ? (chosen ? `已作答 [${chosen}]` : '未作答')
+          : (chosen ? (chosen === q.answer ? '答对' : '答错') : '未答');
+        navChipsHtml += `<button class="cloze-nav-chip ${chipCls}" data-qid="${qid}" title="第 ${qid} 题 (${statusDesc})">${chipText}</button>`;
       });
 
-      // 2. Real-time Dashboard
-      let reviewBannerHtml = '';
+      // 2. Real-time Dashboard / Status Banner
+      let bannerHtml = '';
+      let statsHtml = '';
+
       if (isReview) {
-        reviewBannerHtml = `
+        bannerHtml = `
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;padding:8px 12px;background:rgba(124, 58, 237, 0.08);border:1px solid rgba(124, 58, 237, 0.22);border-radius:6px;font-size:0.88em;color:#7c3aed;font-weight:600">
             <span>📖 复盘精读模式：20 题全量答案、语境线索与长难句考点解析已全部展示</span>
           </div>
         `;
-      }
-
-      const dashboardHtml = `
-        <div class="cloze-dashboard">
-          ${reviewBannerHtml}
-          <div class="cloze-dashboard-stats">
+        statsHtml = `
+          <div class="cloze-stat-item">
+            <span class="cloze-stat-label">已作答</span>
+            <span class="cloze-stat-val">${answeredCount} <small style="font-size:0.65em;color:var(--muted)">/ ${totalQuestions}</small></span>
+          </div>
+          <div class="cloze-stat-item correct">
+            <span class="cloze-stat-label">答对</span>
+            <span class="cloze-stat-val">${correctCount} 题</span>
+          </div>
+          <div class="cloze-stat-item wrong">
+            <span class="cloze-stat-label">答错</span>
+            <span class="cloze-stat-val">${wrongCount} 题</span>
+          </div>
+          <div class="cloze-stat-item score">
+            <span class="cloze-stat-label">实时得分</span>
+            <span class="cloze-stat-val highlight">${score} <small style="font-size:0.65em;color:var(--muted)">/ 10分</small></span>
+          </div>
+        `;
+      } else if (isMockExam && !isSubmitted) {
+        bannerHtml = `
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;padding:8px 12px;background:rgba(37, 99, 235, 0.07);border:1px solid rgba(37, 99, 235, 0.22);border-radius:6px;font-size:0.88em;color:var(--accent);font-weight:600">
+            <span>📝 全篇模考模式：自主选完 20 题后点击“提交全篇批改”统一核算成绩与解析</span>
+            <button id="btnSubmitClozeTop" class="btn" style="background:var(--accent);color:#fff;border:none;border-radius:4px;padding:4px 12px;font-size:0.82em;font-weight:700;cursor:pointer">
+              🚀 提交批改
+            </button>
+          </div>
+        `;
+        statsHtml = `
+          <div class="cloze-stat-item">
+            <span class="cloze-stat-label">已作答</span>
+            <span class="cloze-stat-val">${answeredCount} <small style="font-size:0.65em;color:var(--muted)">/ ${totalQuestions}</small></span>
+          </div>
+          <div class="cloze-stat-item" style="color:var(--muted)">
+            <span class="cloze-stat-label">待作答</span>
+            <span class="cloze-stat-val">${totalQuestions - answeredCount} 题</span>
+          </div>
+          <div class="cloze-stat-item score">
+            <span class="cloze-stat-label">当前进度</span>
+            <span class="cloze-stat-val highlight">${progressPct}% <small style="font-size:0.65em;color:var(--muted)">(${answeredCount}/${totalQuestions})</small></span>
+          </div>
+        `;
+      } else if (isMockExam && isSubmitted) {
+        bannerHtml = `
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;padding:8px 12px;background:rgba(22, 163, 74, 0.08);border:1px solid rgba(22, 163, 74, 0.25);border-radius:6px;font-size:0.88em;color:#15803d;font-weight:600">
+            <span>🎉 模考交卷完成！最终得分: <strong>${score}</strong> / 10 分（答对 ${correctCount} 题，答错 ${wrongCount} 题）</span>
+            <button id="btnReExamCloze" class="btn" style="background:#15803d;color:#fff;border:none;border-radius:4px;padding:4px 12px;font-size:0.82em;cursor:pointer">
+              ↺ 重新模考
+            </button>
+          </div>
+        `;
+        statsHtml = `
+          <div class="cloze-stat-item">
+            <span class="cloze-stat-label">已作答</span>
+            <span class="cloze-stat-val">${answeredCount} <small style="font-size:0.65em;color:var(--muted)">/ ${totalQuestions}</small></span>
+          </div>
+          <div class="cloze-stat-item correct">
+            <span class="cloze-stat-label">答对</span>
+            <span class="cloze-stat-val">${correctCount} 题</span>
+          </div>
+          <div class="cloze-stat-item wrong">
+            <span class="cloze-stat-label">答错</span>
+            <span class="cloze-stat-val">${wrongCount} 题</span>
+          </div>
+          <div class="cloze-stat-item score">
+            <span class="cloze-stat-label">最终得分</span>
+            <span class="cloze-stat-val highlight">${score} <small style="font-size:0.65em;color:var(--muted)">/ 10分</small></span>
+          </div>
+        `;
+      } else {
+        // Default instant feedback mode
+        statsHtml = `
             <div class="cloze-stat-item">
               <span class="cloze-stat-label">已作答</span>
               <span class="cloze-stat-val">${answeredCount} <small style="font-size:0.65em;color:var(--muted)">/ ${totalQuestions}</small></span>
@@ -232,7 +346,13 @@
               <span class="cloze-stat-label">实时得分</span>
               <span class="cloze-stat-val highlight">${score} <small style="font-size:0.65em;color:var(--muted)">/ 10分</small></span>
             </div>
-          </div>
+          `;
+      }
+
+      const dashboardHtml = `
+        <div class="cloze-dashboard">
+          ${bannerHtml}
+          <div class="cloze-dashboard-stats">${statsHtml}</div>
           <div class="cloze-progress-track">
             <div class="cloze-progress-fill" style="width: ${progressPct}%"></div>
           </div>
@@ -249,7 +369,16 @@
         const currentChoice = clozeSelections[qid] || '';
         const isAnswered = Boolean(currentChoice);
         const isCorrect = isAnswered && (currentChoice === q.answer);
-        const isGraded = isAnswered || isReview;
+
+        let isGraded = false;
+        if (isReview) {
+          isGraded = true;
+        } else if (isMockExam) {
+          isGraded = isSubmitted;
+        } else {
+          isGraded = isAnswered;
+        }
+
         const isActive = activeBlankQid === qid;
 
         let optionsHtml = '';
@@ -288,7 +417,7 @@
           `;
         });
 
-        // Header status badge & retry button
+        // Header status badge & retry/clear button
         let statusBadge = '';
         let retryBtn = '';
         if (isGraded) {
@@ -296,16 +425,23 @@
             statusBadge = `<span class="cloze-status-badge review-key">🎯 正解: [${q.answer}]</span>`;
           } else if (isCorrect) {
             statusBadge = '<span class="cloze-status-badge correct">✔ 回答正确 (+0.5分)</span>';
-            retryBtn = `<button class="cloze-retry-btn" data-qid="${qid}" title="清除作答，重新选择">↺ 重做</button>`;
+            if (!isMockExam) {
+              retryBtn = `<button class="cloze-retry-btn" data-qid="${qid}" title="清除作答，重新选择">↺ 重做</button>`;
+            }
           } else {
-            statusBadge = `<span class="cloze-status-badge wrong">✖ 错选 [${currentChoice}] · 正解: [${q.answer}]</span>`;
-            retryBtn = `<button class="cloze-retry-btn" data-qid="${qid}" title="清除作答，重新选择">↺ 重做</button>`;
+            statusBadge = `<span class="cloze-status-badge wrong">✖ 错选 [${currentChoice || '未答'}] · 正解: [${q.answer}]</span>`;
+            if (!isMockExam) {
+              retryBtn = `<button class="cloze-retry-btn" data-qid="${qid}" title="清除作答，重新选择">↺ 重做</button>`;
+            }
           }
+        } else if (isAnswered) {
+          statusBadge = `<span class="cloze-status-badge picked">已选 [${currentChoice}]</span>`;
+          retryBtn = `<button class="cloze-clear-btn" data-qid="${qid}" title="清除本题选择">✕ 清除</button>`;
         } else {
           statusBadge = '<span class="cloze-status-badge unpicked">未作答 · 0.5分</span>';
         }
 
-        // Analysis box: revealed immediately when graded
+        // Analysis box: revealed when graded
         let analysisHtml = '';
         if (isGraded && (q.analysis || q.context_clue)) {
           const rightWord = q.options ? q.options[q.answer] : '';
@@ -349,7 +485,13 @@
 
       // Bottom status hint
       let bottomHint = '';
-      if (answeredCount === totalQuestions) {
+      if (isReview) {
+        bottomHint = `<span style="font-size:0.88em;color:var(--muted)">20 题精读解析与中文对照已全部展示</span>`;
+      } else if (isMockExam && !isSubmitted) {
+        bottomHint = `<span style="font-size:0.85em;color:var(--muted)">已答 ${answeredCount}/20 题 · 选完后点击右侧按钮统一交卷批改</span>`;
+      } else if (isMockExam && isSubmitted) {
+        bottomHint = `<span style="font-size:0.9em;font-weight:700;color:var(--success)">🎉 模考批改完成！最终得分: ${score} / 10 分 (答对 ${correctCount} / 答错 ${wrongCount})</span>`;
+      } else if (answeredCount === totalQuestions) {
         bottomHint = `<span style="font-size:0.9em;font-weight:700;color:var(--success)">🎉 20 题已全部完成！最终得分: ${score} / 10 分</span>`;
       } else {
         bottomHint = `<span style="font-size:0.85em;color:var(--muted)">已答 ${answeredCount}/20 题 · 点击任意选项即可自动批改</span>`;
@@ -357,9 +499,23 @@
 
       container.innerHTML = `
         <div class="cloze-workspace">
-          <div class="cloze-card-header" style="border-bottom:1px solid var(--border);padding-bottom:10px">
-            <span style="font-size:1.05em;font-weight:700">🧩 完形填空即时批改工作台 (1-20 题)</span>
-            <div style="display:flex;align-items:center;gap:8px">
+          <div class="cloze-card-header" style="border-bottom:1px solid var(--border);padding-bottom:10px;flex-wrap:wrap;gap:10px">
+            <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+              <span style="font-size:1.05em;font-weight:700">🧩 完形填空工作台 (1-20 题)</span>
+              ${!isReview ? `
+                <div class="cloze-submode-segmented">
+                  <button class="cloze-submode-btn ${practiceStyle === 'instant' ? 'active' : ''}" data-style="instant" title="做一道批改一道，即时查看正误与解析">
+                    ⚡ 逐题即时批改
+                  </button>
+                  <button class="cloze-submode-btn ${practiceStyle === 'submit' ? 'active' : ''}" data-style="submit" title="全篇20题作答完毕后统一交卷批改">
+                    📝 全篇统一交卷
+                  </button>
+                </div>
+              ` : `
+                <span class="badge" style="background:#7c3aed;color:#fff;font-size:0.8em;padding:2px 8px;border-radius:4px">复盘精读模式</span>
+              `}
+            </div>
+            <div style="display:flex;align-items:center;gap:8px;margin-left:auto">
               <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnToggleClozeTransRight" style="font-size:0.8em;padding:2px 8px" title="切换全文与选项中文对照">🌐 中文对照</button>
               <span class="badge" style="background:#0284c7;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.8em">每题 0.5 分 · 满分 10 分</span>
             </div>
@@ -373,9 +529,18 @@
           </div>
 
           <!-- Bottom Actions -->
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px;padding-top:12px;border-top:1px solid var(--border)">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px;padding-top:12px;border-top:1px solid var(--border);flex-wrap:wrap;gap:10px">
             <div>${bottomHint}</div>
-            <button id="btnResetCloze" class="btn" style="font-size:0.85em;color:var(--muted)">清空所有作答 (重新练习)</button>
+            <div style="display:flex;align-items:center;gap:8px">
+              ${isMockExam && !isSubmitted ? `
+                <button id="btnSubmitClozeBottom" class="btn" style="background:var(--accent);color:#fff;border-color:var(--accent-dark);font-weight:700;font-size:0.85em;padding:6px 14px;box-shadow:0 2px 4px rgba(37,99,235,0.25)">
+                  🚀 提交全篇批改 (10分)
+                </button>
+              ` : ''}
+              <button id="btnResetCloze" class="btn" style="font-size:0.85em;color:var(--muted)">
+                ${isMockExam && isSubmitted ? '↺ 清空并重新模考' : '清空所有作答 (重新练习)'}
+              </button>
+            </div>
           </div>
         </div>
       `;
@@ -388,11 +553,24 @@
     },
 
     bindEvents: function(data, year, mode) {
-      // 1. Option click -> Immediate Grading!
+      const isReview = (mode === 'review');
+      const practiceStyle = this.getPracticeStyle();
+      const isSubmitted = this.isSubmittedForYear(year);
+      const isMockExam = !isReview && (practiceStyle === 'submit');
+
+      // 1. Option click
       document.querySelectorAll('.cloze-opt-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           const qid = Number(btn.getAttribute('data-qid'));
           const opt = btn.getAttribute('data-opt');
+
+          // If in mock exam mode and already submitted, option click focuses without altering answers
+          if (isMockExam && isSubmitted) {
+            activeBlankQid = qid;
+            this.highlightBlank(qid, data, year, false);
+            return;
+          }
+
           clozeSelections[qid] = opt;
           localStorage.setItem(`kaoyan_cloze_${year}`, JSON.stringify(clozeSelections));
           activeBlankQid = qid;
@@ -402,7 +580,21 @@
         });
       });
 
-      // 2. Retry single question button
+      // 2. Clear single question button (in submit mode pre-submission)
+      document.querySelectorAll('.cloze-clear-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const qid = Number(btn.getAttribute('data-qid'));
+          delete clozeSelections[qid];
+          localStorage.setItem(`kaoyan_cloze_${year}`, JSON.stringify(clozeSelections));
+          activeBlankQid = qid;
+          this.renderLeftPanel(data, year, mode);
+          this.renderRightPanel(data, year, mode);
+          this.highlightBlank(qid, data, year, false);
+        });
+      });
+
+      // 3. Retry single question button (in instant mode)
       document.querySelectorAll('.cloze-retry-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
           e.stopPropagation();
@@ -416,7 +608,7 @@
         });
       });
 
-      // 3. Mini navigator chips
+      // 4. Mini navigator chips
       document.querySelectorAll('.cloze-nav-chip').forEach(chip => {
         chip.addEventListener('click', () => {
           const qid = Number(chip.getAttribute('data-qid'));
@@ -425,13 +617,43 @@
         });
       });
 
-      // 4. Reset all answers
-      const resetBtn = document.getElementById('btnResetCloze');
-      if (resetBtn) {
-        resetBtn.addEventListener('click', () => {
-          if (confirm('确定要清空本年份完形填空的作答记录，重新开始练习吗？')) {
+      // 5. Submit all answers handler
+      const handleSubmit = () => {
+        const questions = data.questions || [];
+        const total = questions.length || 20;
+        let answered = 0;
+        questions.forEach(q => {
+          if (clozeSelections[q.qid]) answered++;
+        });
+
+        if (answered < total) {
+          const unpicked = total - answered;
+          if (!confirm(`您还有 ${unpicked} 道题未作答，确定现在提前提交批改吗？\n（未作答题目将按 0 分计）`)) {
+            return;
+          }
+        }
+
+        this.setSubmittedForYear(year, true);
+        this.renderLeftPanel(data, year, mode);
+        this.renderRightPanel(data, year, mode);
+        const container = document.getElementById('workspaceContent');
+        if (container) container.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
+      const submitBtnTop = document.getElementById('btnSubmitClozeTop');
+      if (submitBtnTop) submitBtnTop.addEventListener('click', handleSubmit);
+
+      const submitBtnBottom = document.getElementById('btnSubmitClozeBottom');
+      if (submitBtnBottom) submitBtnBottom.addEventListener('click', handleSubmit);
+
+      // 6. Re-exam button
+      const reExamBtn = document.getElementById('btnReExamCloze');
+      if (reExamBtn) {
+        reExamBtn.addEventListener('click', () => {
+          if (confirm('确定要重新开始全篇模考吗？将清空本篇完形填空的作答与批改结果。')) {
             clozeSelections = {};
             localStorage.removeItem(`kaoyan_cloze_${year}`);
+            this.setSubmittedForYear(year, false);
             activeBlankQid = 1;
             this.renderLeftPanel(data, year, mode);
             this.renderRightPanel(data, year, mode);
@@ -440,7 +662,38 @@
         });
       }
 
-      // 5. Toggle translation button from right panel header
+      // 7. Reset all answers
+      const resetBtn = document.getElementById('btnResetCloze');
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          const msg = (isMockExam && isSubmitted)
+            ? '确定要清空作答并重新模考吗？'
+            : '确定要清空本年份完形填空的作答记录，重新开始练习吗？';
+          if (confirm(msg)) {
+            clozeSelections = {};
+            localStorage.removeItem(`kaoyan_cloze_${year}`);
+            this.setSubmittedForYear(year, false);
+            activeBlankQid = 1;
+            this.renderLeftPanel(data, year, mode);
+            this.renderRightPanel(data, year, mode);
+            this.highlightBlank(1, data, year, true);
+          }
+        });
+      }
+
+      // 8. Toggle practice style buttons
+      document.querySelectorAll('.cloze-submode-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const style = btn.getAttribute('data-style');
+          if (style && style !== this.getPracticeStyle()) {
+            this.setPracticeStyle(style);
+            this.renderLeftPanel(data, year, mode);
+            this.renderRightPanel(data, year, mode);
+          }
+        });
+      });
+
+      // 9. Toggle translation button from right panel header
       const toggleBtnRight = document.getElementById('btnToggleClozeTransRight');
       if (toggleBtnRight) {
         toggleBtnRight.addEventListener('click', () => {

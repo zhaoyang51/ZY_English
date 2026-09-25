@@ -245,5 +245,68 @@ test('Part B items for all 17 years (2010-2026) have authentic question titles a
   }
 });
 
+test('ClozeRenderer supports two practice styles: instant grading and whole submit mode', () => {
+  const { context, document } = setupDOM();
+  const data = JSON.parse(read('data/2012.json'));
+
+  // 1. Initial practice style defaults to 'instant'
+  assert.equal(context.window.ClozeRenderer.getPracticeStyle(), 'instant');
+
+  // 2. Switch to 'submit' (全篇统一交卷) mode
+  context.window.ClozeRenderer.setPracticeStyle('submit');
+  assert.equal(context.window.ClozeRenderer.getPracticeStyle(), 'submit');
+
+  // Clear any existing submission for 2012
+  context.window.ClozeRenderer.setSubmittedForYear(2012, false);
+  context.localStorage.setItem('kaoyan_cloze_2012', JSON.stringify({ 1: 'A', 2: 'A' })); // 1 correct, 2 wrong
+
+  context.window.ClozeRenderer.render(data.use_of_english, 2012, 'practice');
+  const paperHtmlPre = document.getElementById('examPaper').innerHTML;
+  const wsHtmlPre = document.getElementById('workspaceContent').innerHTML;
+
+  // Before submission:
+  // - Mode selector rendered and shows active submit button
+  assert.ok(wsHtmlPre.includes('cloze-submode-segmented'));
+  assert.ok(wsHtmlPre.includes('data-style="submit"'));
+  // - No answers or correct/wrong flags revealed
+  assert.ok(!wsHtmlPre.includes('✔ 回答正确'));
+  assert.ok(!wsHtmlPre.includes('✖ 错选'));
+  assert.ok(!wsHtmlPre.includes('cloze-opt-flag'));
+  assert.ok(!wsHtmlPre.includes('cloze-analysis-box'), 'Analysis must be hidden before submit in submit mode');
+  // - Options have 'selected' class
+  assert.ok(wsHtmlPre.includes('cloze-opt-btn selected'));
+  // - Badges show '已选 [A]'
+  assert.ok(wsHtmlPre.includes('已选 [A]'));
+  // - Left paper blank has 'filled picked', but not 'filled correct' or 'filled wrong'
+  assert.ok(paperHtmlPre.includes('cloze-blank filled picked'));
+  assert.ok(!paperHtmlPre.includes('blank-correct-hint'));
+  // - Submit buttons present
+  assert.ok(wsHtmlPre.includes('btnSubmitClozeTop') || wsHtmlPre.includes('btnSubmitClozeBottom'));
+
+  // 3. Submit all answers
+  context.window.ClozeRenderer.setSubmittedForYear(2012, true);
+  context.window.ClozeRenderer.render(data.use_of_english, 2012, 'practice');
+
+  const paperHtmlPost = document.getElementById('examPaper').innerHTML;
+  const wsHtmlPost = document.getElementById('workspaceContent').innerHTML;
+
+  // After submission:
+  // - Graded flags & correct/wrong badges appear
+  assert.ok(wsHtmlPost.includes('回答正确 (+0.5分)'));
+  assert.ok(wsHtmlPost.includes('错选 [A] · 正解: [B]'));
+  assert.ok(wsHtmlPost.includes('cloze-opt-flag correct'));
+  assert.ok(wsHtmlPost.includes('cloze-analysis-box'), 'Analysis must be revealed after submission');
+  // - Left paper blanks now show correct / wrong states
+  assert.ok(paperHtmlPost.includes('cloze-blank filled correct'));
+  assert.ok(paperHtmlPost.includes('cloze-blank filled wrong'));
+  // - Re-exam button is rendered
+  assert.ok(wsHtmlPost.includes('btnReExamCloze'));
+
+  // Clean up
+  context.window.ClozeRenderer.setPracticeStyle('instant');
+  context.window.ClozeRenderer.setSubmittedForYear(2012, false);
+});
+
+
 
 
