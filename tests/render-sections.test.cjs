@@ -453,4 +453,48 @@ test('Translation strategy modal contains comprehensive 3-step strategy and rubr
   assert.strictEqual(modalEl.classList.contains('show'), false, 'Modal must remove show class when closed');
 });
 
+test('ClozeRenderer renders word tokens and lookup badges and supports lookupWord and vocabulary popup', () => {
+  const { context, document } = setupDOM();
+  const data = JSON.parse(read('data/2012.json'));
+  const uoe = data.use_of_english;
+
+  let popupWord = null;
+  let popupCustomDef = null;
+  let popupContext = null;
+  let popupExtraAction = null;
+  context.window.showVocabPopup = (word, x, y, contextSent, def, extraAction) => {
+    popupWord = word;
+    popupContext = contextSent;
+    popupCustomDef = def;
+    popupExtraAction = extraAction;
+  };
+
+  context.window.ClozeRenderer.render(uoe, 2012, 'practice');
+  const rightHtml = document.getElementById('workspaceContent').innerHTML;
+
+  // 1. Verify word tokens and lookup buttons are present in right panel
+  assert.ok(rightHtml.includes('cloze-word-token exam-word-token'), 'Must contain cloze-word-token elements');
+  assert.ok(rightHtml.includes('cloze-opt-lookup-btn'), 'Must contain cloze-opt-lookup-btn elements');
+  assert.ok(rightHtml.includes('📖 释义'), 'Must contain 📖 释义 badge text');
+
+  // Verify first question options are properly tokenized
+  const q1 = uoe.questions[0];
+  const q1OptA = q1.options.A;
+  const q1OptACn = q1.options_cn.A;
+  assert.ok(rightHtml.includes(`data-word="${q1OptA}"`));
+  assert.ok(rightHtml.includes(`data-def="${q1OptACn}"`));
+
+  // 2. Test lookupWord directly
+  context.window.ClozeRenderer.lookupWord(q1OptA, q1OptACn, 1, 'A', 100, 200, uoe, 2012, 'practice');
+  assert.strictEqual(popupWord, q1OptA);
+  assert.strictEqual(popupCustomDef, q1OptACn);
+  assert.ok(popupContext && popupContext.length > 0, 'Context sentence must be extracted');
+  assert.ok(popupExtraAction.includes('👉 选为 [A] 答案'), 'Must provide action to pick this option');
+
+  // 3. In review mode, extra action button is omitted
+  context.window.ClozeRenderer.lookupWord(q1OptA, q1OptACn, 1, 'A', 100, 200, uoe, 2012, 'review');
+  assert.strictEqual(popupExtraAction, '');
+});
+
+
 

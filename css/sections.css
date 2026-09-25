@@ -254,6 +254,82 @@ body.mode-review .cloze-opt-btn.dimmed,
   color: #b91c1c;
 }
 
+/* Cloze Option Word Token & Lookup Badge */
+.cloze-opt-en {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 0.95em;
+  flex-wrap: wrap;
+}
+
+.cloze-word-token {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 1px 4px;
+  transition: all 0.15s ease;
+  user-select: text;
+  cursor: pointer;
+}
+
+.cloze-word-token:hover {
+  background: rgba(37, 99, 235, 0.12);
+  color: var(--accent, #2563eb);
+  text-decoration: underline dotted;
+}
+
+.cloze-opt-btn.selected .cloze-word-token:hover {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+.cloze-opt-lookup-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  opacity: 0;
+  padding: 1px 7px;
+  font-size: 0.74em;
+  font-weight: 600;
+  border-radius: 4px;
+  background: rgba(37, 99, 235, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  color: var(--accent, #2563eb);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  vertical-align: middle;
+  line-height: 1.4;
+  user-select: none;
+}
+
+.cloze-opt-btn:hover .cloze-opt-lookup-btn,
+.cloze-opt-lookup-btn:hover,
+body.mode-review .cloze-opt-lookup-btn {
+  opacity: 1;
+}
+
+.cloze-opt-lookup-btn:hover {
+  background: var(--accent, #2563eb);
+  color: #ffffff;
+  border-color: var(--accent, #2563eb);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+}
+
+.cloze-opt-btn.selected .cloze-opt-lookup-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  opacity: 0.92;
+}
+
+.cloze-opt-btn.selected .cloze-opt-lookup-btn:hover {
+  background: #ffffff;
+  color: var(--accent, #2563eb);
+}
+
 /* Cloze Instant Feedback Badges & Controls */
 .cloze-status-badge {
   display: inline-flex;

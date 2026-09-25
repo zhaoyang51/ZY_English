@@ -1451,7 +1451,7 @@
     // Global click listener to close popups and modals when clicking outside
     document.addEventListener('click', e => {
       // 1. Close Vocabulary Popup if clicking outside
-      if (vocabPopup && !vocabPopup.contains(e.target) && !e.target.closest('.exam-vocab') && !e.target.closest('.exam-connector') && !e.target.closest('.exam-word-token')) {
+      if (vocabPopup && !vocabPopup.contains(e.target) && !e.target.closest('.exam-vocab') && !e.target.closest('.exam-connector') && !e.target.closest('.exam-word-token') && !e.target.closest('.cloze-opt-lookup-btn') && !e.target.closest('.cloze-word-token')) {
         vocabPopup.classList.remove('show');
       }
 
@@ -2098,16 +2098,16 @@
     return null;
   }
 
-  function showVocabPopup(word, clientX, clientY, sentenceContext) {
+  function showVocabPopup(word, clientX, clientY, sentenceContext, customDefParam, extraActionHtml) {
     const popup = document.getElementById('vocabPopup');
     if (!popup) return;
 
     const wClean = word.toLowerCase().trim();
     const baseClean = wClean.replace(/['’]s$/, '').replace(/^[“"']|[”"']$/g, '');
 
-    let customDef = null;
+    let customDef = customDefParam || null;
     let customPos = '';
-    if (AppState.textData && AppState.textData.paragraphs) {
+    if (!customDef && AppState.textData && AppState.textData.paragraphs) {
       for (const p of AppState.textData.paragraphs) {
         if (p.vocabulary) {
           const match = p.vocabulary.find(v => v.word && (v.word.toLowerCase().trim() === wClean || v.word.toLowerCase().trim() === baseClean));
@@ -2160,14 +2160,20 @@
       </div>
       ${signpostHtml}
       <div class="vocab-def">${info.def}</div>
-      <div class="vocab-actions">
+      ${sentenceContext ? `<div style="margin:8px 0;padding:6px 10px;background:var(--card-bg);border-radius:4px;border-left:3px solid var(--accent);font-size:0.82em;color:var(--muted);max-height:80px;overflow-y:auto;line-height:1.5"><strong>真题语境原句：</strong>${sentenceContext}</div>` : ''}
+      <div class="vocab-actions" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
         <button id="bookmarkBtn" class="toolbar-btn ${isBookmarked ? 'active' : ''}">${isBookmarked ? '★ 已在生词本' : '☆ 收藏生词'}</button>
-        <button id="closeVocabBtn" class="toolbar-btn" style="padding:2px 8px">✕</button>
+        ${extraActionHtml || ''}
+        <button id="closeVocabBtn" class="toolbar-btn" style="padding:2px 8px;margin-left:auto">✕</button>
       </div>
     `;
 
-    const posX = Math.min(Math.max(16, clientX - 160), window.innerWidth - 340);
-    const posY = Math.min(clientY + 15, window.innerHeight - 200);
+    const posX = Math.min(Math.max(16, (clientX || window.innerWidth / 2) - 160), window.innerWidth - 340);
+    const popupHeight = 280;
+    let posY = (clientY || window.innerHeight / 2) + 15;
+    if (posY + popupHeight > window.innerHeight) {
+      posY = Math.max(16, (clientY || window.innerHeight / 2) - popupHeight - 10);
+    }
     popup.style.left = `${posX}px`;
     popup.style.top = `${posY}px`;
     popup.classList.add('show');
@@ -2183,8 +2189,10 @@
         bBtn.textContent = res.added ? '★ 已在生词本' : '☆ 收藏生词';
         bBtn.classList.toggle('active', res.added);
       }
+      showToast(res.added ? `⭐ 已加入生词本: ${word}` : `已移出生词本: ${word}`);
     };
   }
+  window.showVocabPopup = showVocabPopup;
 
   // Global Handlers for Mock Exam Interactions
   window.handleMockOptionClick = function(year, textId, qid, optKey) {

@@ -66,6 +66,50 @@
       if (!activeBlankQid) activeBlankQid = 1;
     },
 
+    lookupWord: function(word, def, qid, opt, clientX, clientY, data, year, mode) {
+      if (!word) return;
+      const isReview = (mode === 'review');
+      const practiceStyle = this.getPracticeStyle();
+      const isSubmitted = this.isSubmittedForYear(year);
+      const isMockExam = !isReview && (practiceStyle === 'submit');
+
+      // Find sentence context for this blank
+      let contextSent = '';
+      if (data && data.paragraphs && qid) {
+        const blankRegex = new RegExp(`_{1,4}${qid}_{1,4}|\\[\\s*${qid}\\s*\\]`);
+        for (const p of data.paragraphs) {
+          const text = p.text || p;
+          if (blankRegex.test(text)) {
+            const sents = text.split(/(?<=[.?!])\s+/);
+            const matchSent = sents.find(s => blankRegex.test(s));
+            contextSent = matchSent ? matchSent.trim() : text.trim();
+            break;
+          }
+        }
+      }
+
+      const extraAction = (!isReview && (!isMockExam || !isSubmitted) && qid && opt) ? `
+        <button id="btnPickThisClozeOpt" class="toolbar-btn" style="color:var(--accent);font-weight:700" title="确认选择该选项">👉 选为 [${opt}] 答案</button>
+      ` : '';
+
+      if (window.showVocabPopup) {
+        window.showVocabPopup(word, clientX, clientY, contextSent, def, extraAction);
+        const pickBtn = document.getElementById('btnPickThisClozeOpt');
+        if (pickBtn) {
+          pickBtn.onclick = () => {
+            const popup = document.getElementById('vocabPopup');
+            if (popup) popup.classList.remove('show');
+            clozeSelections[qid] = opt;
+            localStorage.setItem(`kaoyan_cloze_${year}`, JSON.stringify(clozeSelections));
+            activeBlankQid = qid;
+            this.renderLeftPanel(data, year, mode);
+            this.renderRightPanel(data, year, mode);
+            this.highlightBlank(qid, data, year, false);
+          };
+        }
+      }
+    },
+
     renderLeftPanel: function(data, year, mode) {
       const examPaper = document.getElementById('examPaper');
       if (!examPaper) return;
@@ -171,12 +215,25 @@
         </div>
       `;
 
-      // Bind blank clicks
+      // Bind blank clicks and double-clicks
       examPaper.querySelectorAll('.cloze-blank').forEach(el => {
         el.addEventListener('click', () => {
           const qid = Number(el.getAttribute('data-qid'));
           activeBlankQid = qid;
           this.highlightBlank(qid, data, year, true);
+        });
+
+        el.addEventListener('dblclick', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const qid = Number(el.getAttribute('data-qid'));
+          const qObj = (data.questions || []).find(q => q.qid === qid);
+          const chosenOpt = clozeSelections[qid] || qObj?.answer;
+          const word = qObj?.options?.[chosenOpt];
+          const def = qObj?.options_cn?.[chosenOpt] || '';
+          if (word) {
+            this.lookupWord(word, def, qid, chosenOpt, e.clientX, e.clientY, data, year, mode);
+          }
         });
       });
 
@@ -409,7 +466,10 @@
             <button class="cloze-opt-btn ${optCls}" data-qid="${qid}" data-opt="${opt}">
               <span class="cloze-opt-letter">${opt}</span>
               <div class="cloze-opt-content">
-                <span class="cloze-opt-en">${optText}</span>
+                <span class="cloze-opt-en">
+                  <span class="cloze-word-token exam-word-token" data-word="${optText}" data-def="${optCn || ''}" data-qid="${qid}" data-opt="${opt}" title="点击或双击：查看释义与生词收藏">${optText}</span>
+                  <span class="cloze-opt-lookup-btn" data-word="${optText}" data-def="${optCn || ''}" data-qid="${qid}" data-opt="${opt}" title="点击查词释义与收藏生词">📖 释义</span>
+                </span>
                 ${(showTrans || isGraded) && optCn ? `<span class="cloze-opt-cn">${optCn}</span>` : ''}
               </div>
               ${flagHtml}
@@ -558,9 +618,28 @@
       const isSubmitted = this.isSubmittedForYear(year);
       const isMockExam = !isReview && (practiceStyle === 'submit');
 
-      // 1. Option click
+      // 1. Word token / lookup badge click & double click
+      document.querySelectorAll('.cloze-word-token, .cloze-opt-lookup-btn').forEach(el => {
+        const handleLookup = (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const word = el.getAttribute('data-word');
+          const def = el.getAttribute('data-def') || '';
+          const qid = Number(el.getAttribute('data-qid'));
+          const opt = el.getAttribute('data-opt');
+          this.lookupWord(word, def, qid, opt, e.clientX, e.clientY, data, year, mode);
+        };
+
+        el.addEventListener('click', handleLookup);
+        el.addEventListener('dblclick', handleLookup);
+      });
+
+      // 2. Option click & double click
       document.querySelectorAll('.cloze-opt-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
+        btn.addEventListener('click', (e) => {
+          if (e.target.closest('.cloze-word-token, .cloze-opt-lookup-btn')) {
+            return;
+          }
           const qid = Number(btn.getAttribute('data-qid'));
           const opt = btn.getAttribute('data-opt');
 
@@ -577,6 +656,19 @@
           this.renderLeftPanel(data, year, mode);
           this.renderRightPanel(data, year, mode);
           this.highlightBlank(qid, data, year, false);
+        });
+
+        btn.addEventListener('dblclick', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const qid = Number(btn.getAttribute('data-qid'));
+          const opt = btn.getAttribute('data-opt');
+          const qObj = (data.questions || []).find(q => q.qid === qid);
+          const word = qObj?.options?.[opt];
+          const def = qObj?.options_cn?.[opt] || '';
+          if (word) {
+            this.lookupWord(word, def, qid, opt, e.clientX, e.clientY, data, year, mode);
+          }
         });
       });
 
