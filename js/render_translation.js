@@ -84,7 +84,7 @@
       const tipBtn = document.getElementById('btnToggleTransHelp');
       if (tipBtn) {
         tipBtn.addEventListener('click', () => {
-          alert('【考研英语二翻译核心策略】\n\n1. 通读全篇，把握基调：明确主题词（如sustainability/wearables）的准确汉译；\n2. 拆分主干，理清修饰：识别定语从句、状语从句与非谓语动词，先主后从顺译；\n3. 润色调整，符合习惯：避免欧化句式，保证现代汉语“通顺、达意、完整”。');
+          this.openStrategyModal();
         });
       }
     },
@@ -259,6 +259,30 @@
         targetRight.style.background = 'var(--accent-light, #eff6ff)';
         targetRight.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       }
+    },
+
+    openStrategyModal: function() {
+      const modal = document.getElementById('transStrategyModal');
+      if (!modal) return;
+      modal.classList.add('show');
+
+      const closeBtn = document.getElementById('closeTransStrategyBtn');
+      const confirmBtn = document.getElementById('btnTransStrategyConfirm');
+
+      const closeHandler = () => {
+        modal.classList.remove('show');
+      };
+
+      if (closeBtn) closeBtn.onclick = closeHandler;
+      if (confirmBtn) confirmBtn.onclick = closeHandler;
+      modal.onclick = (e) => {
+        if (e.target === modal) closeHandler();
+      };
+    },
+
+    closeStrategyModal: function() {
+      const modal = document.getElementById('transStrategyModal');
+      if (modal) modal.classList.remove('show');
     }
   };
 })();

@@ -410,3 +410,47 @@ test('showSyntaxModal renders complete breakdown for translation sentences and r
   assert.ok(!readModalHtml.includes('【采分点拆解与评分要领】'), 'Should not render scoring points block for reading');
 });
 
+test('Translation strategy modal contains comprehensive 3-step strategy and rubric flowchart content and toggles properly', () => {
+  const indexHtml = read('index.html');
+
+  // Verify full mindmap flowchart content present in index.html
+  assert.ok(indexHtml.includes('transStrategyModal'), 'Must have #transStrategyModal');
+  assert.ok(indexHtml.includes('考研英语（二）英译汉核心三步法与提分全攻略'));
+  assert.ok(indexHtml.includes('严复《天演论》'));
+  assert.ok(indexHtml.includes('傅雷'));
+  assert.ok(indexHtml.includes('最多不超过 0.5 分'), 'Must include 0.5 rubric rule');
+  assert.ok(indexHtml.includes('按错误译文给分'), 'Must include multiple translations penalty rule');
+  assert.ok(indexHtml.includes('三个及以上错别字扣 0.5 分'), 'Must include typos rule');
+  assert.ok(indexHtml.includes('核心断句标尺：划出语义相对完整、逻辑清晰的 3~4 个意群'));
+  assert.ok(indexHtml.includes('六大断句断点信号标尺'));
+  assert.ok(indexHtml.includes('从属连词断句（理清从句归属）'));
+  assert.ok(indexHtml.includes('并列连词断句（严守分界线）'));
+  assert.ok(indexHtml.includes('game') && indexHtml.includes('猎物'));
+  assert.ok(indexHtml.includes('wrong') && indexHtml.includes('不公对待/委屈'));
+  assert.ok(indexHtml.includes('company') && indexHtml.includes('剧团/演出团'));
+  assert.ok(indexHtml.includes('lay') && indexHtml.includes('外行的/非专业的'));
+  assert.ok(indexHtml.includes('考研五大常考翻译方法技巧速查'));
+  assert.ok(indexHtml.includes('定语从句的翻译'));
+  assert.ok(indexHtml.includes('同位语从句的翻译'));
+  assert.ok(indexHtml.includes('被动结构的翻译'));
+  assert.ok(indexHtml.includes('of 结构的翻译'));
+  assert.ok(indexHtml.includes('非谓语动词的翻译'));
+  assert.ok(indexHtml.includes('长句拆短句经典对比'));
+  assert.ok(indexHtml.includes('考研翻译 4 大常见误区'));
+
+  // Verify TranslationRenderer openStrategyModal and closeStrategyModal interactive behavior
+  const { context, document } = setupDOM();
+  const modalEl = document.getElementById('transStrategyModal');
+  const closeBtn = document.getElementById('closeTransStrategyBtn');
+  const confirmBtn = document.getElementById('btnTransStrategyConfirm');
+
+  assert.strictEqual(modalEl.classList.contains('show'), false);
+
+  context.window.TranslationRenderer.openStrategyModal();
+  assert.strictEqual(modalEl.classList.contains('show'), true, 'Modal must have show class when opened');
+
+  context.window.TranslationRenderer.closeStrategyModal();
+  assert.strictEqual(modalEl.classList.contains('show'), false, 'Modal must remove show class when closed');
+});
+
+

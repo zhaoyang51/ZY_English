@@ -161,6 +161,317 @@
     </div>
   </div>
 
+  <!-- Translation Core Strategy & Rubrics Modal Dialog -->
+  <div class="modal-overlay" id="transStrategyModal">
+    <div class="modal-dialog" style="width:780px;max-width:94vw;max-height:88vh;display:flex;flex-direction:column">
+      <div class="modal-header">
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+          <span style="font-weight:800;font-size:1.08em;color:var(--mode-color)">💡 考研英语（二）英译汉核心三步法与提分全攻略</span>
+          <span class="badge" style="background:#0f766e;color:#fff;font-size:0.75em;padding:2px 8px;border-radius:4px">Section III · 15 分</span>
+        </div>
+        <button class="toolbar-btn" id="closeTransStrategyBtn" style="padding:4px 10px">✕ 关闭</button>
+      </div>
+      <div class="modal-body" id="transStrategyModalBody" style="flex:1;overflow-y:auto;padding:20px 24px;line-height:1.75">
+        <div class="trans-strategy-content">
+          <!-- Overview Banner & Quotes -->
+          <div style="background:linear-gradient(135deg, rgba(37,99,235,0.08) 0%, rgba(15,118,110,0.08) 100%);padding:16px 20px;border-radius:var(--radius-md);border-left:4px solid var(--accent);margin-bottom:20px">
+            <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:8px">
+              <div style="display:flex;align-items:center;gap:8px">
+                <span style="font-size:1.25em">🎯</span>
+                <strong style="font-size:1.08em;color:var(--ink)">考研翻译·保8争10：15 分的“送分题”，绝不要轻易放弃！</strong>
+              </div>
+              <span class="badge" style="background:var(--accent);color:#fff;font-size:0.8em;padding:2px 8px;border-radius:4px">Section III · 满分 15 分</span>
+            </div>
+            <p style="margin:0;font-size:0.95em;color:var(--ink);line-height:1.7">
+              考研英语（二）Section III 英译汉要求翻译一篇约 <strong>150 词</strong> 的连贯文章或若干自然段（第 46 题）。
+            </p>
+            <div style="margin-top:8px;padding:8px 12px;background:var(--surface);border-radius:6px;font-size:0.9em;color:var(--muted);line-height:1.6">
+              💡 <strong>英一 vs 英二题型对比：</strong>英语一为 5 个孤立割裂的长难句（生词卡壳则全句崩塌）；英语二以<strong>整篇段落</strong>呈现，上下文逻辑与前后语境提示丰富，生词大多可以通过逻辑关系推导！
+            </div>
+            <div style="margin-top:8px;padding:8px 12px;background:rgba(217,119,6,0.08);border-left:3px solid var(--warning);border-radius:4px;font-size:0.9em;color:var(--ink);line-height:1.6">
+              📜 <strong>名师箴言：</strong>“译事三难：信、达、雅。求其信已大难矣，顾信矣不达，虽译犹不译也，则达尚焉。”——严复《天演论》<br>
+              “翻译最大的技巧就是实践，以真题为核心，积累词句与方法，培养翻译手感。”——傅雷<br>
+              <strong>👉 考研翻译核心目标：在准确的基础上，尽可能通顺！</strong>
+            </div>
+          </div>
+
+          <!-- Section 1: Scoring Standards & Rubric Rules -->
+          <div style="margin-bottom:24px">
+            <h3 style="font-size:1.02em;font-weight:800;color:var(--ink);margin:0 0 12px 0;display:flex;align-items:center;gap:8px">
+              <span>📊</span> 模块一：官方阅卷四档标准与大纲采分三大铁律
+            </h3>
+
+            <!-- 4 Tiers Grid -->
+            <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));gap:12px;margin-bottom:14px">
+              <div style="background:var(--surface);border:1px solid #10b981;border-radius:8px;padding:12px 14px;box-shadow:var(--shadow-sm)">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+                  <span class="badge" style="background:#10b981;color:#fff;font-weight:700;font-size:0.82em">第一档 · 信达雅</span>
+                  <strong style="color:#059669;font-size:1.05em">13 - 15 分</strong>
+                </div>
+                <p style="margin:0;font-size:0.88em;color:var(--ink);line-height:1.6">译文准确完整、行文流畅地道、符合现代汉语习惯，无理解或语法错误。</p>
+              </div>
+
+              <div style="background:var(--surface);border:1px solid var(--accent);border-radius:8px;padding:12px 14px;box-shadow:var(--shadow-sm)">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+                  <span class="badge" style="background:var(--accent);color:#fff;font-weight:700;font-size:0.82em">第二档 · 稳健必得 (★冲刺)</span>
+                  <strong style="color:var(--accent);font-size:1.05em">9 - 12 分</strong>
+                </div>
+                <p style="margin:0;font-size:0.88em;color:var(--ink);line-height:1.6">译文基本准确通顺，仅有个别生词或非核心修饰微疵，完全不影响核心意思理解。</p>
+              </div>
+
+              <div style="background:var(--surface);border:1px solid var(--warning);border-radius:8px;padding:12px 14px;box-shadow:var(--shadow-sm)">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+                  <span class="badge" style="background:var(--warning);color:#fff;font-weight:700;font-size:0.82em">第三档 · 偏颇生硬</span>
+                  <strong style="color:var(--warning);font-size:1.05em">5 - 8 分</strong>
+                </div>
+                <p style="margin:0;font-size:0.88em;color:var(--ink);line-height:1.6">能够理解文章大致框架，但欧化结构明显、字面直译生硬，存在明显误译或漏译。</p>
+              </div>
+
+              <div style="background:var(--surface);border:1px solid #ef4444;border-radius:8px;padding:12px 14px;box-shadow:var(--shadow-sm)">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+                  <span class="badge" style="background:#ef4444;color:#fff;font-weight:700;font-size:0.82em">第四档 · 支离破碎</span>
+                  <strong style="color:#ef4444;font-size:1.05em">0 - 4 分</strong>
+                </div>
+                <p style="margin:0;font-size:0.88em;color:var(--ink);line-height:1.6">译文断章取义、大量留白未翻，多数句子语句不通或核心主谓宾关系完全曲解。</p>
+              </div>
+            </div>
+
+            <!-- Big Exam Rubric 3 Rules (from Mindmap) -->
+            <div style="background:var(--card-bg);border:1.5px solid var(--border);border-radius:8px;padding:14px 16px">
+              <div style="font-weight:700;font-size:0.95em;color:var(--ink);margin-bottom:8px;display:flex;align-items:center;gap:6px">
+                <span class="badge" style="background:#dc2626;color:#fff;font-size:0.78em;padding:2px 6px">考研大纲三大铁律</span>
+                <strong>阅卷“采点给分”判卷细则：</strong>
+              </div>
+              <ul style="margin:0;padding-left:20px;font-size:0.9em;color:var(--ink);line-height:1.75">
+                <li><strong>① 偏离原文扣分红线：</strong>如果译文与原文意思有明显不同，该句/该小点得分<strong>最多不超过 0.5 分</strong>。</li>
+                <li><strong>② 多译文防坑机制（极其重要）：</strong>如果考生就一个题目提供了两个或两个以上译文，并均正确，按照正确译文给分；<strong>但如果其中一个译文有错，按错误译文给分！</strong><span style="color:var(--danger)">（切忌在答题卡上自作聪明写“或者译为...”！一旦备选译文出错直接倒扣）</span></li>
+                <li><strong>③ 错别字累计扣分：</strong>译文中错别字按每题累计扣分。<strong>三个及以上错别字扣 0.5 分</strong>，少于 3 个不扣。</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Section 2: Core 3-Step Practical Workflow -->
+          <div style="margin-bottom:24px">
+            <h3 style="font-size:1.02em;font-weight:800;color:var(--ink);margin:0 0 14px 0;display:flex;align-items:center;gap:8px">
+              <span>🚀</span> 模块二：考研翻译核心三步法（拆分 ➔ 直译 ➔ 重组）
+            </h3>
+
+            <!-- Step 1: 拆分 -->
+            <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:14px">
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;flex-wrap:wrap;gap:8px">
+                <div style="display:flex;align-items:center;gap:8px">
+                  <span class="badge" style="background:#4f46e5;color:#fff;font-size:0.82em;padding:2px 8px;border-radius:4px">Step 1</span>
+                  <strong style="font-size:1.02em;color:var(--ink)">拆分：理清主从与修饰，锁定 3-4 个独立采分意群</strong>
+                </div>
+                <span style="font-size:0.82em;color:var(--accent);font-weight:600">🎯 目的：划分独立意群，直击踩分点</span>
+              </div>
+              <p style="font-size:0.92em;color:var(--muted);margin:0 0 10px 0">
+                英语句子是“树状结构”，修饰成分层层嵌套。必须把长句切分为<strong>语义相对完整、逻辑清晰的 3-4 个意群</strong>，这正是阅卷给分的最小单元！
+              </p>
+
+              <!-- Step 1 Callout Pill from Flowchart -->
+              <div style="background:linear-gradient(90deg, #ea580c, #dc2626);color:#fff;border-radius:20px;padding:8px 16px;text-align:center;font-weight:700;font-size:0.9em;margin-bottom:12px;box-shadow:0 2px 6px rgba(220,38,38,0.25)">
+                🔥 核心断句标尺：划出语义相对完整、逻辑清晰的 3~4 个意群 ➔ 锁定 3~4 个采分点 ➔ 尽可能拿满步骤分！
+              </div>
+
+              <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:12px 14px">
+                <strong style="font-size:0.92em;color:var(--ink);display:block;margin-bottom:8px">✂️ 六大断句断点信号标尺：</strong>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:0.88em">
+                  <div style="padding:8px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--accent)">1. 标点符号断句：</strong>
+                    <div style="color:var(--muted);margin-top:2px">遇到逗号、破折号、分号、冒号处自然停顿断开。</div>
+                  </div>
+                  <div style="padding:8px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--accent)">2. 从属连词断句（理清从句归属）：</strong>
+                    <div style="color:var(--muted);margin-top:2px">
+                      引导从句，标明从句与主句之间的逻辑关系。借助连词找到从句起点与结束点：
+                      <div style="font-size:0.85em;margin-top:3px;color:var(--ink);line-height:1.5">
+                        • <strong>关系词：</strong>that, which, who, whose, what, where, how...<br>
+                        • <strong>时间：</strong>when, while, as, before, after, since, until...<br>
+                        • <strong>原因：</strong>because, since, as, now that, in that<br>
+                        • <strong>让步：</strong>although, though, even though, even if, while
+                      </div>
+                    </div>
+                  </div>
+                  <div style="padding:8px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--accent)">3. 并列连词断句（严守分界线）：</strong>
+                    <div style="color:var(--muted);margin-top:2px">
+                      连接语法地位相同的成分（词、短语、独立分句）：
+                      <div style="font-size:0.85em;margin-top:3px;color:var(--ink);line-height:1.5">
+                        • <strong>代表词：</strong>and (并列), but (转折), or (选择), for (因果), so (结果)<br>
+                        • <strong>断句原则：</strong>连接<strong>独立分句</strong>时在连词前断句；连接并列词/短语时<strong>千万不断开</strong>，作为一个意群！
+                      </div>
+                    </div>
+                  </div>
+                  <div style="padding:8px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--accent)">4. 介词短语 / 分词(-ing/-ed)：</strong>
+                    <div style="color:var(--muted);margin-top:2px">长后置定语介词短语或分词伴随状语，在介词/分词前断开。</div>
+                  </div>
+                  <div style="padding:8px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--accent)">5. 不定式结构 (to do)：</strong>
+                    <div style="color:var(--muted);margin-top:2px">表目的状语或较长修饰时，在 to do 之前断开独立处理。</div>
+                  </div>
+                  <div style="padding:8px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--accent)">6. 主谓过长断句：</strong>
+                    <div style="color:var(--muted);margin-top:2px">主语太长时，在主谓之间断句，长主语可独立成句翻译。</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 2: 直译与语序差异 -->
+            <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:14px">
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;flex-wrap:wrap;gap:8px">
+                <div style="display:flex;align-items:center;gap:8px">
+                  <span class="badge" style="background:#0284c7;color:#fff;font-size:0.82em;padding:2px 8px;border-radius:4px">Step 2</span>
+                  <strong style="font-size:1.02em;color:var(--ink)">直译：分别翻译小意群，攻克熟词僻义与两大语序差异</strong>
+                </div>
+                <span style="font-size:0.82em;color:var(--success);font-weight:600">🎯 原则：在准确的基础上，尽可能通顺</span>
+              </div>
+
+              <!-- High Frequency Polysemy Table from Mindmap -->
+              <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:12px 14px;margin-bottom:12px">
+                <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
+                  <strong style="font-size:0.92em;color:var(--ink)">📖 真题高频熟词僻义清单（真题中积累，重视词义延伸）：</strong>
+                  <span style="font-size:0.8em;color:var(--muted)">结合语境灵活引申，忌生搬硬套第一词义</span>
+                </div>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));gap:8px;font-size:0.88em">
+                  <div style="padding:6px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--danger)">game</strong> n. <strong>猎物</strong>
+                    <div style="font-size:0.8em;color:var(--muted)">2010年真题（非“游戏”）</div>
+                  </div>
+                  <div style="padding:6px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--danger)">wrong</strong> v. <strong>不公对待/委屈</strong>
+                    <div style="font-size:0.8em;color:var(--muted)">2012年真题（非“错误”）</div>
+                  </div>
+                  <div style="padding:6px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--danger)">company</strong> n. <strong>剧团/演出团</strong>
+                    <div style="font-size:0.8em;color:var(--muted)">2018年真题（非“公司”）</div>
+                  </div>
+                  <div style="padding:6px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--danger)">lay</strong> adj. <strong>外行的/非专业的</strong>
+                    <div style="font-size:0.8em;color:var(--muted)">2019年真题（非“躺/放置”）</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Word Order Differences from Mindmap -->
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:0.9em;margin-bottom:12px">
+                <div style="padding:10px 12px;background:var(--card-bg);border-radius:6px;border:1px solid var(--border)">
+                  <strong style="color:var(--ink)">① 定语语序差异：</strong>
+                  <div style="margin-top:4px;color:var(--muted);line-height:1.6">
+                    • 英文常<strong>后置定语</strong>（介词短语/分词/不定式/从句）<br>
+                    • 中文习惯<strong>定语前置（“...的”）</strong>，或者拆开独立后置叙述。
+                  </div>
+                </div>
+                <div style="padding:10px 12px;background:var(--card-bg);border-radius:6px;border:1px solid var(--border)">
+                  <strong style="color:var(--ink)">② 状语语序差异（经典考点）：</strong>
+                  <div style="margin-top:4px;color:var(--muted);line-height:1.6">
+                    • 英文语序：主语 + 谓语 + 宾语 + <strong>状语后置</strong><br>
+                    • 中文习惯：<strong>状语多在动词前或句首！</strong><br>
+                    <span style="color:var(--accent);font-size:0.88em">例：He worked hard in the lab yesterday. ➔ <strong>他昨天在实验室努力工作。</strong></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 5 Core Translation Techniques from Mindmap -->
+              <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:12px 14px">
+                <strong style="font-size:0.92em;color:var(--ink);display:block;margin-bottom:6px">🛠️ 考研五大常考翻译方法技巧速查（流程图核心方法）：</strong>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));gap:8px;font-size:0.85em">
+                  <div style="padding:6px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--accent)">1. 定语从句的翻译：</strong>
+                    <div style="color:var(--muted);margin-top:2px">短定语前置译（“...的”）；较长定语从句拆译后置，独立成句（重复先行词或代词承接）。</div>
+                  </div>
+                  <div style="padding:6px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--accent)">2. 同位语从句的翻译：</strong>
+                    <div style="color:var(--muted);margin-top:2px">常跟在 fact, idea, belief 后。可译为“即...”、“认为...”或用冒号引申。</div>
+                  </div>
+                  <div style="padding:6px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--accent)">3. 被动结构的翻译：</strong>
+                    <div style="color:var(--muted);margin-top:2px">英文多被动，中文多主动。可颠倒主客体、增补泛指主语（“人们/大家”），或用“由.../受到/得到/加以”。</div>
+                  </div>
+                  <div style="padding:6px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--accent)">4. of 结构的翻译：</strong>
+                    <div style="color:var(--muted);margin-top:2px">绝大多数逆序翻译（B of A ➔ A的B）；表数量/种类或同位语时顺序翻译（a series of 一系列）。</div>
+                  </div>
+                  <div style="padding:6px 10px;background:var(--surface);border-radius:6px;border:1px solid var(--border)">
+                    <strong style="color:var(--accent)">5. 非谓语动词的翻译：</strong>
+                    <div style="color:var(--muted);margin-top:2px">作状语时根据语境补充时间、原因、伴随（“伴随着/同时...”）、目的（“为了...”）等连词。</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 3: 重组与长句拆短句 -->
+            <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px">
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;flex-wrap:wrap;gap:8px">
+                <div style="display:flex;align-items:center;gap:8px">
+                  <span class="badge" style="background:#059669;color:#fff;font-size:0.82em;padding:2px 8px;border-radius:4px">Step 3</span>
+                  <strong style="font-size:1.02em;color:var(--ink)">重组：长句拆短句，润色增减词，重读检验通顺度</strong>
+                </div>
+                <span style="font-size:0.82em;color:var(--danger);font-weight:600">🎯 目标：通顺流畅的完整中文句子</span>
+              </div>
+              <p style="font-size:0.92em;color:var(--muted);margin:0 0 10px 0">
+                将前面散装翻译的各个独立意群重新拼接组合成符合中文“竹节流水”表达的自然语句，消除机翻腔。
+              </p>
+
+              <!-- Case Comparison Box -->
+              <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:12px 14px;margin-bottom:12px">
+                <div style="font-size:0.88em;color:var(--muted);margin-bottom:6px">【长句拆短句经典对比】</div>
+                <div style="font-size:0.95em;font-weight:600;color:var(--ink);margin-bottom:8px;line-height:1.6">
+                  “The company, which was founded in 2010 by a group of engineers who previously worked at Google, has become a major player in the AI industry.”
+                </div>
+                <div style="padding:8px 12px;background:rgba(239,68,68,0.06);border-left:3px solid #ef4444;border-radius:4px;margin-bottom:6px;font-size:0.9em">
+                  ❌ <strong>直译（像机翻，生硬窒息）：</strong>“这家由一群之前在谷歌工作的工程师于 2010 年创立的公司，已经成为人工智能行业的主要参与者。” <span style="color:#ef4444;font-size:0.85em">（定语从句长达28字无停顿）</span>
+                </div>
+                <div style="padding:8px 12px;background:rgba(16,185,129,0.06);border-left:3px solid #10b981;border-radius:4px;font-size:0.9em">
+                  ✅ <strong>拆句顺译（高分自然，呼吸舒畅）：</strong>“这家公司成立于 2010 年，由一批曾在谷歌任职的工程师创立，如今已成为人工智能领域的重要企业。”
+                </div>
+              </div>
+
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:0.9em">
+                <div style="padding:8px 12px;background:var(--card-bg);border-radius:6px">
+                  <strong>✨ 语言润色（增词与减词）：</strong>适度增补中文连接词或代词主语，删减英文冗余物主代词（如把 in his life 译为“一生中”而非“在他自己的生命中”）。
+                </div>
+                <div style="padding:8px 12px;background:var(--card-bg);border-radius:6px">
+                  <strong>🗣️ 重读检验（人话检验法）：</strong>脱离英文原句重读中文，读出声音来检查！只要读起来疙疙瘩瘩，立即调换中文语序。
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 3: Pitfalls -->
+          <div>
+            <h3 style="font-size:1.02em;font-weight:800;color:var(--danger);margin:0 0 12px 0;display:flex;align-items:center;gap:8px">
+              <span>⚠️</span> 模块三：考研翻译 4 大常见误区（红线避坑）
+            </h3>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:0.9em">
+              <div style="padding:10px 14px;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.2);border-radius:6px">
+                <strong style="color:#ef4444">❌ 误区 1：逐词翻译，不顾中文习惯</strong>
+                <div style="margin-top:4px;color:var(--ink);line-height:1.6">硬套英文字面顺序，造成中文句式颠倒混乱、难以阅读。</div>
+              </div>
+              <div style="padding:10px 14px;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.2);border-radius:6px">
+                <strong style="color:#ef4444">❌ 误区 2：遇到生词就空着不翻</strong>
+                <div style="margin-top:4px;color:var(--ink);line-height:1.6">哪怕结合语境猜也要猜一个词或泛化表达，空着必定直接判定为漏译零分！</div>
+              </div>
+              <div style="padding:10px 14px;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.2);border-radius:6px">
+                <strong style="color:#ef4444">❌ 误区 3：卷面字迹潦草随意涂改</strong>
+                <div style="margin-top:4px;color:var(--ink);line-height:1.6">卷面书写印象分真实存在！字迹工整、分段清晰至少能多得 1-2 分。</div>
+              </div>
+              <div style="padding:10px 14px;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.2);border-radius:6px">
+                <strong style="color:#ef4444">❌ 误区 4：耗时过长挤占写作时间</strong>
+                <div style="margin-top:4px;color:var(--ink);line-height:1.6">翻译建议在 <strong>20 分钟内</strong> 完成，必须为大、小两篇作文留足 50 分钟以上！</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding:12px 24px;border-top:1px solid var(--border);display:flex;justify-content:flex-end;gap:10px;background:var(--card-bg)">
+        <button class="btn" id="btnTransStrategyConfirm" style="background:var(--accent);color:#fff;border-color:var(--accent-dark);padding:6px 18px;font-size:0.9em">掌握要领，开始实战翻译 ✍️</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Statistics Analytics Dashboard Modal -->
   <div class="modal-overlay" id="statsModal">
     <div class="modal-dialog">

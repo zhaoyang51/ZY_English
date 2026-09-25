@@ -2191,11 +2191,13 @@
       } else if (e.key === 'Escape') {
         const overlay = document.getElementById('syntaxOverlay');
         const modal = document.getElementById('syntaxModal');
+        const transStrategy = document.getElementById('transStrategyModal');
         if (overlay) overlay.classList.remove('show');
         const popup = document.getElementById('vocabPopup');
         const stats = document.getElementById('statsModal');
         const exp = document.getElementById('exportModal');
         if (modal) modal.classList.remove('show');
+        if (transStrategy) transStrategy.classList.remove('show');
         if (popup) popup.classList.remove('show');
         if (stats) stats.classList.remove('show');
         if (exp) exp.classList.remove('show');
