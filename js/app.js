@@ -537,6 +537,13 @@
         opt.textContent = secName;
         jumpSelect.appendChild(opt);
       }
+
+      if (AppState.mode === 'review' && st.section === 3 && st.meta && st.meta.qid && st.meta.form === 'overview') {
+        const opt = document.createElement('option');
+        opt.value = idx;
+        opt.textContent = `　↳ 第 ${st.meta.qid} 题命题复盘`;
+        jumpSelect.appendChild(opt);
+      }
     });
   }
 
@@ -1158,6 +1165,16 @@
         return;
       }
 
+      const reviewJumpBtn = e.target.closest('.btn-jump-to-review-q');
+      if (reviewJumpBtn) {
+        e.stopPropagation();
+        const qid = reviewJumpBtn.getAttribute('data-qid');
+        if (qid) {
+          jumpToReviewQuestion(qid);
+        }
+        return;
+      }
+
       const transBtn = e.target.closest('.q-trans-btn');
       if (transBtn) {
         e.stopPropagation();
@@ -1243,6 +1260,18 @@
     const workspaceContent = document.getElementById('workspaceContent');
     if (workspaceContent) {
       workspaceContent.addEventListener('click', e => {
+        // Review Mode Question Direct Jump Pill
+        const qJumpBtn = e.target.closest('.btn-review-q-jump');
+        if (qJumpBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          const qid = qJumpBtn.getAttribute('data-qid');
+          if (qid) {
+            jumpToReviewQuestion(qid);
+          }
+          return;
+        }
+
         // 0. Word token / vocab / connector click in workspace (Mock, Practice, Review)
         const wordToken = e.target.closest('.exam-word-token, .exam-vocab, .exam-connector');
         if (wordToken) {
@@ -1901,9 +1930,12 @@
     }).join('');
 
     content.innerHTML = `
-      <div style="font-size:1.1em;font-family:var(--font-base);line-height:1.7;color:var(--ink);margin-bottom:14px">
-        <span class="badge" style="background:var(--mode-bg);color:var(--mode-color);margin-right:6px">第 ${q.qid} 题 · ${q.type}</span>
-        <strong>${formattedStem}</strong>
+      <div style="font-size:1.1em;font-family:var(--font-base);line-height:1.7;color:var(--ink);margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
+        <div>
+          <span class="badge" style="background:var(--mode-bg);color:var(--mode-color);margin-right:6px">第 ${q.qid} 题 · ${q.type}</span>
+          <strong>${formattedStem}</strong>
+        </div>
+        <button type="button" class="btn-review-q-jump" data-qid="${q.qid}" style="padding:4px 12px;font-size:0.82em" onclick="if(window.jumpToReviewQuestion){window.jumpToReviewQuestion(${q.qid});}const o=document.getElementById('syntaxOverlay');if(o)o.classList.remove('show');const m=document.getElementById('syntaxModal');if(m)m.classList.remove('show');">🎯 直达本题复盘</button>
       </div>
       <div style="margin-bottom:14px;background:rgba(15,118,110,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid #0f766e;font-family:var(--font-base)">
         <p style="font-weight:700;color:#0f766e;margin-bottom:6px;font-family:var(--font-base)">【题干精析汉译】</p>
@@ -1923,6 +1955,79 @@
     if (overlay) overlay.classList.add('show');
     if (modal) modal.classList.add('show');
   }
+
+  function jumpToReviewQuestion(qid) {
+    if (!qid || !AppState.textData) return;
+    const targetQidStr = String(qid);
+
+    // If currently not in review mode, switch to review mode seamlessly
+    if (AppState.mode !== 'review') {
+      AppState.mode = 'review';
+      const reviewBtn = document.getElementById('reviewModeBtn');
+      const practiceBtn = document.getElementById('practiceModeBtn');
+      const vocabBtn = document.getElementById('vocabModeBtn');
+      if (reviewBtn) reviewBtn.classList.add('active');
+      if (practiceBtn) practiceBtn.classList.remove('active');
+      if (vocabBtn) vocabBtn.classList.remove('active');
+      AppState.steps = window.QuizModule.buildReviewSteps(AppState.textData);
+      updateJumpDropdown();
+    }
+
+    // On mobile devices, automatically switch layout view to the right panel (研读工作台)
+    if (window.innerWidth <= 900) {
+      const mainLayout = document.getElementById('mainLayout');
+      const tabLeftBtn = document.getElementById('tabLeftBtn');
+      const tabRightBtn = document.getElementById('tabRightBtn');
+      if (mainLayout && tabRightBtn && tabLeftBtn) {
+        mainLayout.className = 'layout show-right';
+        tabRightBtn.classList.add('active');
+        tabLeftBtn.classList.remove('active');
+      }
+    }
+
+    if (AppState.isFullMode) {
+      // In Full Mode: smoothly scroll to the question card
+      const targetCard = document.getElementById(`review-q-card-${targetQidStr}`) || document.querySelector(`[data-review-qid="${targetQidStr}"]`);
+      if (targetCard) {
+        targetCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        targetCard.classList.remove('highlight-focus');
+        void targetCard.offsetWidth; // trigger CSS reflow
+        targetCard.classList.add('highlight-focus');
+        setTimeout(() => targetCard.classList.remove('highlight-focus'), 2500);
+      }
+      // Synchronize active state of buttons in sticky nav
+      document.querySelectorAll('.btn-review-q-jump').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-qid') === targetQidStr);
+      });
+      // Synchronize left panel question & sentence highlight
+      window.ReaderModule.highlight({ section: 3, qid: targetQidStr });
+      const qObj = (AppState.textData.questions || []).find(q => String(q.qid) === targetQidStr);
+      if (qObj && typeof qObj.locate_pid === 'number') {
+        window.ReaderModule.highlightLocatorSentence(qObj.locate_pid);
+      }
+      showToast(`🎯 已直达第 ${targetQidStr} 题命题复盘`);
+      return;
+    }
+
+    // In Step-by-Step Mode: find Question Overview step in Section 3
+    let targetIndex = AppState.steps.findIndex(st => 
+      st.section === 3 && String(st.meta?.qid) === targetQidStr && st.meta?.form === 'overview'
+    );
+    if (targetIndex === -1) {
+      targetIndex = AppState.steps.findIndex(st => 
+        st.section === 3 && String(st.meta?.qid) === targetQidStr
+      );
+    }
+
+    if (targetIndex !== -1) {
+      AppState.stepIndex = targetIndex;
+      renderCurrentStep({ forceTop: true });
+      updateUIControls();
+      saveState();
+      showToast(`🎯 已跳转至第 ${targetQidStr} 题命题复盘`);
+    }
+  }
+  window.jumpToReviewQuestion = jumpToReviewQuestion;
 
   function getWordInfo(word) {
     if (!word) return null;
@@ -2316,6 +2421,13 @@
     document.getElementById('jumpSelect').addEventListener('change', e => {
       const idx = Number(e.target.value);
       if (!isNaN(idx) && idx >= 0 && idx < AppState.steps.length) {
+        if (AppState.isFullMode) {
+          const targetStep = AppState.steps[idx];
+          if (targetStep && targetStep.section === 3 && targetStep.meta?.qid) {
+            jumpToReviewQuestion(targetStep.meta.qid);
+            return;
+          }
+        }
         AppState.stepIndex = idx;
         renderCurrentStep({ forceTop: true });
         updateUIControls();

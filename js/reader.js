@@ -214,7 +214,10 @@
                 <span class="q-num-badge" title="点击查看本题考点拆解与逐项剖析">${q.qid}.</span>
                 <span class="q-stem-text">${formattedStem}</span>
               </div>
-              <button class="q-trans-btn" data-qid="${q.qid}" title="切换本题与选项中文翻译">🌐 题意</button>
+              <div style="display:inline-flex;align-items:center;gap:4px;flex-shrink:0">
+                <button type="button" class="btn-jump-to-review-q" data-qid="${q.qid}" title="直达右侧命题复盘">🎯 复盘</button>
+                <button class="q-trans-btn" data-qid="${q.qid}" title="切换本题与选项中文翻译">🌐 题意</button>
+              </div>
             </div>
             <div class="stem-trans-inline ${transClass}" data-qid="${q.qid}">${q.stem_cn || ''}</div>
             <div class="q-options">

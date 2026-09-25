@@ -799,6 +799,23 @@ ${a.theme_validation ? `
         : step.section;
 
       let html = `<div style="font-size:12px;font-weight:700;color:var(--mode-color);text-transform:uppercase;margin-bottom:6px">★ ${secName} (步骤 ${stepIndex + 1} / ${totalSteps})</div>`;
+
+      // If in Section 3 (题目命题复盘), render question quick jump pills
+      const questions = (textData && textData.questions) || (currentActiveTextData && currentActiveTextData.questions) || (window.AppState && window.AppState.textData && window.AppState.textData.questions) || [];
+      if (step.section === 3 && questions.length > 0) {
+        const currentQid = step.meta && step.meta.qid ? String(step.meta.qid) : '';
+        const pills = questions.map(q => {
+          const isActive = String(q.qid) === currentQid ? ' active' : '';
+          return `<button type="button" class="btn-review-q-jump${isActive}" data-qid="${q.qid}" title="直达第 ${q.qid} 题命题复盘">第 ${q.qid} 题</button>`;
+        }).join('');
+        html += `
+          <nav class="review-q-nav" aria-label="题目命题复盘题号直达导航">
+            <span class="review-q-nav-label">🎯 题号直达:</span>
+            <div class="review-q-pills">${pills}</div>
+          </nav>
+        `;
+      }
+
       if (step.title) {
         html += `<h2 style="margin-top:0;margin-bottom:12px;font-size:1.4em">${step.title}</h2>`;
       }
@@ -816,9 +833,27 @@ ${a.theme_validation ? `
       const container = document.getElementById(containerId || 'workspaceContent');
       if (!container) return;
 
+      const questions = (currentActiveTextData && currentActiveTextData.questions) || (window.AppState && window.AppState.textData && window.AppState.textData.questions) || [];
+      let sec3NavRendered = false;
+
       let html = '<div class="all-mode-container">';
       steps.forEach((step) => {
-        html += `<article class="step-card" style="margin-bottom:24px;padding:16px 20px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);box-shadow:var(--shadow-sm)">
+        if (step.section === 3 && !sec3NavRendered && questions.length > 0) {
+          sec3NavRendered = true;
+          const pills = questions.map(q => `<button type="button" class="btn-review-q-jump" data-qid="${q.qid}" title="滚动直达第 ${q.qid} 题命题复盘">第 ${q.qid} 题</button>`).join('');
+          html += `
+            <nav class="review-q-nav sticky-q-nav" aria-label="题目命题复盘题号直达导航">
+              <span class="review-q-nav-label">🎯 题号直达:</span>
+              <div class="review-q-pills">${pills}</div>
+            </nav>
+          `;
+        }
+
+        const isSec3QCard = step.section === 3 && step.meta && step.meta.qid && step.meta.form === 'overview';
+        const cardIdAttr = isSec3QCard ? ` id="review-q-card-${step.meta.qid}"` : '';
+        const dataQidAttr = (step.section === 3 && step.meta && step.meta.qid) ? ` data-review-qid="${step.meta.qid}"` : '';
+
+        html += `<article class="step-card"${cardIdAttr}${dataQidAttr} style="margin-bottom:24px;padding:16px 20px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);box-shadow:var(--shadow-sm)">
           ${step.title ? `<h3 style="margin-top:0">${step.title}</h3>` : ''}
           ${step.html || ''}
         </article>`;

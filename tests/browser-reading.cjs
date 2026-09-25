@@ -91,6 +91,14 @@ async function run() {
   await evaluate('document.querySelector("#nextBtn").click()');
   assert.ok(await evaluate('document.querySelector(".reading-answer").textContent.includes("答案：D")'));
   assert.equal(await evaluate('document.querySelectorAll("#workspaceContent input,#workspaceContent textarea,#workspaceContent details").length'), 0);
+  assert.equal(await evaluate('document.querySelectorAll("#workspaceContent .btn-review-q-jump").length'), 5);
+  await evaluate('document.querySelector("#workspaceContent .btn-review-q-jump[data-qid=\'23\']").click()');
+  assert.ok(await evaluate('document.querySelector("#workspaceContent").textContent.includes("23题 · 题干、题型与核心出处")'));
+  assert.ok(await evaluate('document.querySelector("#workspaceContent .btn-review-q-jump[data-qid=\'23\']").classList.contains("active")'));
+  assert.equal(await evaluate('document.querySelectorAll("#examPaper .btn-jump-to-review-q").length'), 5);
+  await evaluate('document.querySelector("#examPaper .btn-jump-to-review-q[data-qid=\'24\']").click()');
+  assert.ok(await evaluate('document.querySelector("#workspaceContent").textContent.includes("24题 · 题干、题型与核心出处")'));
+  assert.ok(await evaluate('document.querySelector("#workspaceContent .btn-review-q-jump[data-qid=\'24\']").classList.contains("active")'));
   await select('#yearSelect', '2024');
   await select('#textSelect', '1');
   await jump(4);
