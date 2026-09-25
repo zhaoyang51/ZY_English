@@ -1494,6 +1494,86 @@
     }
   }
 
+  const TRANSLATION_CORE_VOCAB = {
+    sustainability: { pos: 'n.', common: '可持续性；持续发展能力', context: '句中作主语，指生态环境与发展维度的“可持续性”' },
+    sustainable: { pos: 'adj.', common: '可持续的', context: '句中作定语，指可持续的发展模式' },
+    unsustainability: { pos: 'n.', common: '不可持续性；难以为继的状态', context: '指生活中失意迷茫、难以为继的痛苦状态' },
+    popular: { pos: 'adj.', common: '流行的；受大众欢迎的', context: '句中作定语修饰 word，译为“流行词汇”' },
+    concept: { pos: 'n.', common: '概念；观念；思想', context: '句中作从句主语，指“可持续性”这一概念' },
+    personal: { pos: 'adj.', common: '个人的；独特的；私人的', context: '修饰 meaning，引申译为“特殊的个人意义”' },
+    endured: { pos: 'v.', common: '忍受；经历；耐受', context: '现在分词完成时作主语，译为“经历过一段…痛苦时期”' },
+    endure: { pos: 'v.', common: '忍受；经历', context: '经历；熬过' },
+    painful: { pos: 'adj.', common: '痛苦的；艰难的', context: '修饰 period，译为“艰难痛苦的（岁月）”' },
+    oriented: { pos: 'adj.', common: '以…为导向的；面向…的', context: '复合词 sustainability-oriented，译为“以可持续发展为导向的”' },
+    expressed: { pos: 'v.', common: '表达；表现；显露', context: '被动语态 be expressed through，转主动译为“通过…体现出来”' },
+    action: { pos: 'n.', common: '行动；行为', context: 'everyday action 译为“日常行动/每天的行动”' },
+    choice: { pos: 'n.', common: '选择；抉择', context: '并列作介词宾语，译为“行动与选择”' },
+    recalls: { pos: 'v.', common: '回忆；回想；召回', context: '主句谓语，后接动名词短语，译为“回忆起”' },
+    confusing: { pos: 'adj.', common: '令人困惑的；迷茫的', context: '修饰 year，引申译为“迷茫的一年/迷茫岁月”' },
+    boom: { pos: 'n./v.', common: '繁荣；暴涨；激增', context: 'the dot-com boom 译为“互联网热潮/兴盛”' },
+    burst: { pos: 'n./v.', common: '爆炸；破灭；破裂', context: 'and burst 译为“泡沫破灭”' },
+    desperate: { pos: 'adj.', common: '绝望的；极其渴望的（常考熟词僻义）', context: '形容词短语作状语表原因，译为“迫切渴望一份工作”' },
+    agency: { pos: 'n.', common: '代理机构；中介；专门行政部门', context: '签约的博尔德代理机构' },
+    move: { pos: 'n.', common: '移动；举措；决策（熟词僻义）', context: 'bad move 译为“糟糕的举措/错误的抉择”' },
+    passion: { pos: 'n.', common: '激情；热情；酷爱', context: '表主语补足语，译为“热情所在/真正热爱的事”' },
+    dilemma: { pos: 'n.', common: '两难境地；困境；窘境', context: '定语从句主语，指“在工作上的进退维谷/职业两难”' },
+    predictably: { pos: 'adv.', common: '可预见地；不出所料地', context: '插入语，译为“正如预料的那样/不出所料”' },
+    sales: { pos: 'n.', common: '销售量；销售额；销售业绩', context: 'lack of sales 译为“业绩惨淡/缺乏销售额”' },
+    miserable: { pos: 'adj.', common: '痛苦的；可怜的；凄惨的', context: '形容词作表语，译为“痛苦不堪”' },
+    anxiety: { pos: 'n.', common: '焦虑；忧虑；不安', context: 'so much anxiety that 结果状语从句，译为“极度焦虑”' },
+    stare: { pos: 'v.', common: '凝视；盯着看', context: 'stare at the ceiling 形象译为“呆呆盯着天花板”' },
+    ceiling: { pos: 'n.', common: '天花板；上限', context: '作介词宾语，指“凝视天花板”' },
+    corner: { pos: 'idiom', common: 'turn the corner 迎来转机；走出困境（经典考研习语）', context: '比喻“情况好转/走出人生低谷”' },
+    greenhouse: { pos: 'n.', common: '温室；花房', context: 'greenhouse gases 译为“温室气体”' },
+    emission: { pos: 'n.', common: '排放；散发；排放物', context: '译为“（温室气体）排放量”' },
+    equivalent: { pos: 'adj./n.', common: '等价的；相等的；等价物', context: 'be equivalent to 译为“相当于/与…相当”' },
+    sector: { pos: 'n.', common: '部门；行业；领域', context: 'health sector 译为“卫生部门/医疗卫生行业”' },
+    vulnerable: { pos: 'adj.', common: '脆弱的；易受攻击的；易受伤害的', context: 'be vulnerable to 译为“容易受到…的影响/极易受损”' },
+    drain: { pos: 'n./v.', common: '排水；流失；消耗（熟词僻义）', context: 'brain drain 考研高频术语，译为“人才外流”' },
+    wrong: { pos: 'v.', common: '不公正对待；委屈；冤枉（高频熟词僻义）', context: '及物动词，译为“受到不公正对待/受委屈”' },
+    company: { pos: 'n.', common: '公司；剧团；演出团；陪伴（高频熟词僻义）', context: '2018年真题指“剧团/演出团”' },
+    game: { pos: 'n.', common: '游戏；比赛；猎物；野味（高频熟词僻义）', context: '2010年真题指“猎物/野味”' },
+    lay: { pos: 'adj.', common: '外行的；非专业的（高频熟词僻义）', context: '2019年真题指“外行的/非专业的读者”' }
+  };
+
+  function extractTranslationVocab(phrase) {
+    if (!phrase) return [];
+    const cleanWords = phrase.toLowerCase().replace(/[^a-z0-9\s-]/g, ' ').split(/\s+/).filter(w => w.length > 2);
+    const seen = new Set();
+    const result = [];
+
+    for (const w of cleanWords) {
+      const base = w.replace(/(ing|ed|es|s|tion|ly)$/, '');
+      if (TRANSLATION_CORE_VOCAB[w] && !seen.has(w)) {
+        seen.add(w);
+        result.push({ word: w, ...TRANSLATION_CORE_VOCAB[w] });
+      } else if (TRANSLATION_CORE_VOCAB[base] && !seen.has(base)) {
+        seen.add(base);
+        result.push({ word: w, ...TRANSLATION_CORE_VOCAB[base] });
+      }
+    }
+
+    const stopwords = new Set(['about', 'after', 'again', 'against', 'almost', 'along', 'also', 'although', 'always', 'another', 'around', 'because', 'before', 'being', 'between', 'both', 'could', 'during', 'every', 'first', 'great', 'group', 'having', 'other', 'people', 'should', 'since', 'their', 'there', 'these', 'those', 'through', 'under', 'until', 'where', 'which', 'while', 'would']);
+    for (const w of cleanWords) {
+      if (result.length >= 3) break;
+      if (w.length >= 5 && !seen.has(w) && !stopwords.has(w)) {
+        seen.add(w);
+        let pos = 'n./v.';
+        if (w.endsWith('ly')) pos = 'adv.';
+        else if (w.endsWith('ful') || w.endsWith('able') || w.endsWith('ive') || w.endsWith('al')) pos = 'adj.';
+        else if (w.endsWith('tion') || w.endsWith('ment') || w.endsWith('ity') || w.endsWith('ness')) pos = 'n.';
+        result.push({
+          word: w,
+          pos,
+          common: '考研/四六级高频词汇',
+          context: '在句中作为关键实词，需结合具体语境准确切分与转译'
+        });
+      }
+    }
+
+    return result;
+  }
+
   function showSyntaxModal(sent, sentList) {
     const overlay = document.getElementById('syntaxOverlay');
     const modal = document.getElementById('syntaxModal');
@@ -1553,81 +1633,6 @@
     const enText = sent.text || sent.en || '';
     const cnText = sent.translation || sent.cn || '';
 
-    // 1. Chunks / Slashed Text
-    let chunksHtml = '';
-    if (sent.slashed_text || sent.chunk_translation) {
-      chunksHtml = `
-        <div style="margin-bottom:14px;background:rgba(37,99,235,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid var(--accent);font-family:var(--font-base)">
-          <p style="font-weight:700;color:var(--accent);margin-bottom:6px;font-family:var(--font-base)">【意群断句与速译】</p>
-          ${sent.slashed_text ? `<p class="chunk-group" style="margin-bottom:6px">${formatColoredChunks(sent.slashed_text)}</p>` : ''}
-          ${sent.chunk_translation ? `<p class="chunk-group">${formatColoredChunks(sent.chunk_translation)}</p>` : ''}
-        </div>
-      `;
-    }
-
-    // 2. Scoring Points / Rubrics (for translation sentences)
-    let scoringHtml = '';
-    if (sent.scoring_points && Array.isArray(sent.scoring_points) && sent.scoring_points.length > 0) {
-      const scoringItemsHtml = sent.scoring_points.map(sp => `
-        <li style="margin-bottom:10px;padding:8px 12px;background:var(--surface);border-radius:6px;border:1px solid var(--border);line-height:1.6">
-          <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap">
-            <span class="badge" style="background:#0284c7;color:#fff;font-size:0.75em;padding:2px 6px;border-radius:4px;font-weight:700">${sp.score !== undefined ? `${sp.score} 分` : '采分点'}</span>
-            <strong style="color:var(--ink);font-size:0.96em">${sp.phrase || ''}</strong>
-          </div>
-          <div style="font-size:0.9em;color:var(--muted)">👉 <strong>翻译要领：</strong>${sp.guide || ''}</div>
-        </li>
-      `).join('');
-
-      scoringHtml = `
-        <div style="margin-bottom:14px;background:rgba(37,99,235,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid var(--accent);font-family:var(--font-base)">
-          <p style="font-weight:700;color:var(--accent);margin-bottom:10px;font-family:var(--font-base)">【采分点拆解与评分要领】</p>
-          <ul style="padding-left:0;margin:0;list-style:none">${scoringItemsHtml}</ul>
-        </div>
-      `;
-    }
-
-    // 3. Syntax / Grammar Breakdown
-    let syntaxHtml = '';
-    if (sent.syntax && sent.syntax.breakdown && Array.isArray(sent.syntax.breakdown) && sent.syntax.breakdown.length > 0) {
-      const breakdownTags = sent.syntax.breakdown.map(b => {
-        let tagClass = 'tag-modifier';
-        if (b.type.includes('主干')) tagClass = 'tag-backbone';
-        if (b.type.includes('定语')) tagClass = 'tag-attributive';
-        if (b.type.includes('状语')) tagClass = 'tag-adverbial';
-        if (b.type.includes('名词')) tagClass = 'tag-noun';
-        if (b.type.includes('逻辑') || b.type.includes('考点')) tagClass = 'tag-logic';
-        if (b.type.includes('非谓语') || b.type.includes('特殊') || b.type.includes('同位语') || b.type.includes('修饰')) tagClass = 'tag-special';
-        return `<li style="margin-bottom:8px;font-family:var(--font-base)"><span class="syntax-tag ${tagClass}">[${b.type}]</span> <strong style="font-family:var(--font-base);color:var(--ink)">${b.content}</strong> — <span style="font-family:var(--font-base)">${b.explanation}</span></li>`;
-      }).join('');
-
-      syntaxHtml = `
-        <div style="margin-bottom:14px;background:var(--card-bg);padding:14px 16px;border-radius:8px;border:1px solid var(--border);font-family:var(--font-base)">
-          <p style="font-weight:700;color:var(--mode-color);margin-bottom:10px;font-family:var(--font-base)">【主干识别与句法拆解】</p>
-          <ul style="padding-left:16px;line-height:1.8;font-family:var(--font-base)">${breakdownTags}</ul>
-        </div>
-      `;
-    } else if (sent.grammar_breakdown) {
-      syntaxHtml = `
-        <div style="margin-bottom:14px;background:var(--card-bg);padding:14px 16px;border-radius:8px;border:1px solid var(--border);font-family:var(--font-base)">
-          <p style="font-weight:700;color:var(--mode-color);margin-bottom:8px;font-family:var(--font-base)">【主干识别与句法拆解】</p>
-          <div style="line-height:1.8;font-size:0.98em;color:var(--ink);font-family:var(--font-base)">
-            ${sent.grammar_breakdown}
-          </div>
-        </div>
-      `;
-    }
-
-    // 4. Reference Translation
-    let transHtml = '';
-    if (cnText) {
-      transHtml = `
-        <div style="background:rgba(15,118,110,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid #0f766e;font-family:var(--font-base)">
-          <p style="font-weight:700;color:#0f766e;margin-bottom:6px;font-family:var(--font-base)">【满分参考译文与考点】</p>
-          <p style="font-size:1.05em;color:#0f766e;font-weight:600;font-family:var(--font-base);line-height:1.7">${cnText}</p>
-        </div>
-      `;
-    }
-
     // 5. Footer navigation buttons
     let footerNavHtml = '';
     if (hasMultiple) {
@@ -1642,16 +1647,194 @@
 
     const sentNumPrefix = sent.sid ? `<span class="badge" style="background:var(--mode-bg);color:var(--mode-color);margin-right:8px;font-size:0.85em;padding:2px 8px;border-radius:4px">第 ${sent.sid} 句</span>` : '';
 
-    content.innerHTML = `
-      <div style="font-size:1.15em;font-family:var(--font-base);line-height:1.7;color:var(--ink);margin-bottom:14px">
-        ${sentNumPrefix}<strong>原句：</strong>${enText}
-      </div>
-      ${chunksHtml}
-      ${scoringHtml}
-      ${syntaxHtml}
-      ${transHtml}
-      ${footerNavHtml}
-    `;
+    const isTransSent = sent.scoring_points && Array.isArray(sent.scoring_points) && sent.scoring_points.length > 0;
+    if (isTransSent) {
+      // Step 1: Slashed Chunks Display
+      const rawChunks = sent.scoring_points.map(sp => sp.phrase.trim()).filter(Boolean);
+      const slashedDisplayHtml = rawChunks.map((c, i) => `<span class="chunk-c${i % 6}">${c}</span>`).join('<span class="chunk-slash"> / </span>');
+
+      // Step 2: Scoring Points Cards with (1) Vocab, (2) Translation Tips, (3) Translation
+      const step2CardsHtml = sent.scoring_points.map((sp, idx) => {
+        const vocabList = extractTranslationVocab(sp.phrase);
+        const vocabHtml = vocabList.length > 0 ? `
+          <div style="margin-top:8px;padding:8px 12px;background:var(--card-bg);border-radius:6px;border:1px solid var(--border)">
+            <strong style="color:var(--accent);font-size:0.85em;display:block;margin-bottom:4px">📚 (1) 考研与四六级核心词汇辨析：</strong>
+            <ul style="margin:0;padding-left:16px;font-size:0.86em;line-height:1.65;color:var(--ink)">
+              ${vocabList.map(v => `<li><span class="badge" style="background:rgba(37,99,235,0.1);color:var(--accent);font-weight:700;padding:1px 5px">${v.word}</span> <span style="color:var(--muted)">[${v.pos}]</span> 常见释义：${v.common} ➔ <strong style="color:var(--ink)">【本句释义】：${v.context}</strong></li>`).join('')}
+            </ul>
+          </div>
+        ` : '';
+
+        let chunkTrans = '';
+        const matchQuote = sp.guide && sp.guide.match(/[‘'“"]([^‘'“”"]+)[’'”"]/);
+        if (matchQuote && matchQuote[1]) {
+          chunkTrans = matchQuote[1];
+        }
+
+        return `
+          <li style="margin-bottom:12px;padding:12px 14px;background:var(--surface);border-radius:8px;border:1px solid var(--border);line-height:1.6;list-style:none">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px;flex-wrap:wrap">
+              <div style="display:flex;align-items:center;gap:8px">
+                <span class="badge" style="background:#0284c7;color:#fff;font-size:0.78em;padding:2px 8px;border-radius:4px;font-weight:700">意群 ${idx + 1} · ${sp.score !== undefined ? `${sp.score} 分` : '采分点'}</span>
+                <strong style="color:var(--ink);font-size:0.98em">${sp.phrase || ''}</strong>
+              </div>
+            </div>
+            ${vocabHtml}
+            <div style="font-size:0.9em;color:var(--ink);margin-top:8px">
+              🎯 <strong>(2) 翻译要点与考点：</strong>👉 <strong>翻译要领：</strong>${sp.guide || '注意语序调整与词义引申。'}
+            </div>
+            ${chunkTrans ? `
+              <div style="font-size:0.9em;color:#0f766e;margin-top:6px;background:rgba(15,118,110,0.06);padding:6px 10px;border-radius:4px">
+                ✍️ <strong>(3) 意群精准译文：</strong>“${chunkTrans}”
+              </div>
+            ` : ''}
+          </li>
+        `;
+      }).join('');
+
+      content.innerHTML = `
+        <!-- Teacher Guidance Banner -->
+        <div style="background:linear-gradient(135deg, rgba(37,99,235,0.08) 0%, rgba(15,118,110,0.08) 100%);padding:12px 16px;border-radius:8px;border-left:4px solid var(--accent);margin-bottom:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px">
+            <div style="display:flex;align-items:center;gap:6px">
+              <span style="font-size:1.1em">🎓</span>
+              <strong style="color:var(--ink);font-size:0.96em">资深名师考点精讲 · 考研英译汉核心三步法</strong>
+            </div>
+            <span class="badge" style="background:#0f766e;color:#fff;font-size:0.75em;padding:2px 8px;border-radius:4px">Section III · 采点给分制</span>
+          </div>
+          <div style="font-size:0.86em;color:var(--muted);margin-top:4px;line-height:1.6">
+            💡 <strong>名师备考要领：</strong>考研英语二翻译一句话约 2 分，完全按意群采点给分。请严格遵循<strong>「Step 1 拆分 ➔ Step 2 翻译 ➔ Step 3 重组」</strong>三步走，拿满各步骤分！
+          </div>
+        </div>
+
+        <!-- Original Sentence -->
+        <div style="font-size:1.1em;font-family:var(--font-base);line-height:1.75;color:var(--ink);margin-bottom:14px;background:var(--surface);padding:12px 16px;border-radius:8px;border:1px solid var(--border)">
+          ${sentNumPrefix}<strong>原句：</strong>${enText}
+        </div>
+
+        <!-- Step 1: 拆分 -->
+        <div style="margin-bottom:14px;background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:14px 16px">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;flex-wrap:wrap;gap:6px">
+            <div style="display:flex;align-items:center;gap:8px">
+              <span class="badge" style="background:#4f46e5;color:#fff;font-size:0.8em;padding:2px 8px;border-radius:4px">Step 1</span>
+              <strong style="font-size:1em;color:var(--ink)">【Step 1: 拆分 · 主干识别与句法拆解】</strong>
+            </div>
+            <span style="font-size:0.82em;color:var(--accent);font-weight:600">🎯 理清主从与修饰 · 锁定采分点</span>
+          </div>
+
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:10px 12px;margin-bottom:10px">
+            <div style="font-size:0.82em;color:var(--muted);margin-bottom:4px;font-weight:700">✂️ 意群断句切分标记：</div>
+            <div class="chunk-group" style="font-size:0.95em;line-height:1.7">${slashedDisplayHtml}</div>
+          </div>
+
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:10px 12px;font-size:0.9em;color:var(--ink);line-height:1.6">
+            <strong style="color:var(--mode-color)">【主干识别与句法拆解】</strong>
+            <div style="margin-top:4px">${sent.grammar_breakdown || '主从复合句结构，考查主干抓取与修饰成分逻辑切分。'}</div>
+          </div>
+        </div>
+
+        <!-- Step 2: 翻译 -->
+        <div style="margin-bottom:14px;background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:14px 16px">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;flex-wrap:wrap;gap:6px">
+            <div style="display:flex;align-items:center;gap:8px">
+              <span class="badge" style="background:#0284c7;color:#fff;font-size:0.8em;padding:2px 8px;border-radius:4px">Step 2</span>
+              <strong style="font-size:1em;color:var(--ink)">【Step 2: 翻译】·【采分点拆解与评分要领】</strong>
+            </div>
+            <span style="font-size:0.82em;color:var(--success);font-weight:600">🎯 逐个意群深度精析</span>
+          </div>
+          <ul style="padding-left:0;margin:0;list-style:none">${step2CardsHtml}</ul>
+        </div>
+
+        <!-- Step 3: 重组 -->
+        <div style="margin-bottom:14px;background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:14px 16px">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;flex-wrap:wrap;gap:6px">
+            <div style="display:flex;align-items:center;gap:8px">
+              <span class="badge" style="background:#059669;color:#fff;font-size:0.8em;padding:2px 8px;border-radius:4px">Step 3</span>
+              <strong style="font-size:1em;color:var(--ink)">【Step 3: 重组 · 满分参考译文与考点】</strong>
+            </div>
+            <span style="font-size:0.82em;color:#059669;font-weight:600">🎯 消除欧化机翻 · 呼吸自然</span>
+          </div>
+
+          <div style="background:rgba(15,118,110,0.06);padding:12px 14px;border-radius:6px;border-left:4px solid #0f766e;margin-bottom:10px">
+            <p style="font-weight:700;color:#0f766e;margin:0 0 4px 0">【满分参考译文与考点】</p>
+            <p style="font-size:1.05em;color:#0f766e;font-weight:600;margin:0;line-height:1.7">${cnText}</p>
+          </div>
+
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:10px 12px;font-size:0.88em;color:var(--ink);line-height:1.75">
+            <strong style="color:var(--ink)">💡 组合重组要领剖析与名师点拨：</strong>
+            <ul style="margin:4px 0 0 0;padding-left:18px">
+              <li><strong>① 大范围语序调整：</strong>遵循汉语“前因后果、状语前置、长定语拆译后置”习惯，将英文后置状语/定语合理移至中文动词前或句首。</li>
+              <li><strong>② 语言润色（增词与减词）：</strong>适度增补中文连接词或代词主语，删减英文冗余物主代词，消除僵硬欧化痕迹。</li>
+              <li><strong>③ 通顺度重读检验（人话检验法）：</strong>脱离英文大声朗读重读中文，凡生硬拗口、像机器翻译处立即调整语序，确保符合地道现代汉语表达习惯。</li>
+            </ul>
+          </div>
+        </div>
+
+        ${footerNavHtml}
+      `;
+    } else {
+      // Branch B: Reading Comprehension sentence
+      let chunksHtml = '';
+      if (sent.slashed_text || sent.chunk_translation) {
+        chunksHtml = `
+          <div style="margin-bottom:14px;background:rgba(37,99,235,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid var(--accent);font-family:var(--font-base)">
+            <p style="font-weight:700;color:var(--accent);margin-bottom:6px;font-family:var(--font-base)">【意群断句与速译】</p>
+            ${sent.slashed_text ? `<p class="chunk-group" style="margin-bottom:6px">${formatColoredChunks(sent.slashed_text)}</p>` : ''}
+            ${sent.chunk_translation ? `<p class="chunk-group">${formatColoredChunks(sent.chunk_translation)}</p>` : ''}
+          </div>
+        `;
+      }
+
+      let syntaxHtml = '';
+      if (sent.syntax && sent.syntax.breakdown && Array.isArray(sent.syntax.breakdown) && sent.syntax.breakdown.length > 0) {
+        const breakdownTags = sent.syntax.breakdown.map(b => {
+          let tagClass = 'tag-modifier';
+          if (b.type.includes('主干')) tagClass = 'tag-backbone';
+          if (b.type.includes('定语')) tagClass = 'tag-attributive';
+          if (b.type.includes('状语')) tagClass = 'tag-adverbial';
+          if (b.type.includes('名词')) tagClass = 'tag-noun';
+          if (b.type.includes('逻辑') || b.type.includes('考点')) tagClass = 'tag-logic';
+          if (b.type.includes('非谓语') || b.type.includes('特殊') || b.type.includes('同位语') || b.type.includes('修饰')) tagClass = 'tag-special';
+          return `<li style="margin-bottom:8px;font-family:var(--font-base)"><span class="syntax-tag ${tagClass}">[${b.type}]</span> <strong style="font-family:var(--font-base);color:var(--ink)">${b.content}</strong> — <span style="font-family:var(--font-base)">${b.explanation}</span></li>`;
+        }).join('');
+
+        syntaxHtml = `
+          <div style="margin-bottom:14px;background:var(--card-bg);padding:14px 16px;border-radius:8px;border:1px solid var(--border);font-family:var(--font-base)">
+            <p style="font-weight:700;color:var(--mode-color);margin-bottom:10px;font-family:var(--font-base)">【主干识别与句法拆解】</p>
+            <ul style="padding-left:16px;line-height:1.8;font-family:var(--font-base)">${breakdownTags}</ul>
+          </div>
+        `;
+      } else if (sent.grammar_breakdown) {
+        syntaxHtml = `
+          <div style="margin-bottom:14px;background:var(--card-bg);padding:14px 16px;border-radius:8px;border:1px solid var(--border);font-family:var(--font-base)">
+            <p style="font-weight:700;color:var(--mode-color);margin-bottom:8px;font-family:var(--font-base)">【主干识别与句法拆解】</p>
+            <div style="line-height:1.8;font-size:0.98em;color:var(--ink);font-family:var(--font-base)">
+              ${sent.grammar_breakdown}
+            </div>
+          </div>
+        `;
+      }
+
+      let transHtml = '';
+      if (cnText) {
+        transHtml = `
+          <div style="background:rgba(15,118,110,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid #0f766e;font-family:var(--font-base)">
+            <p style="font-weight:700;color:#0f766e;margin-bottom:6px;font-family:var(--font-base)">【满分参考译文与考点】</p>
+            <p style="font-size:1.05em;color:#0f766e;font-weight:600;font-family:var(--font-base);line-height:1.7">${cnText}</p>
+          </div>
+        `;
+      }
+
+      content.innerHTML = `
+        <div style="font-size:1.15em;font-family:var(--font-base);line-height:1.7;color:var(--ink);margin-bottom:14px">
+          ${sentNumPrefix}<strong>原句：</strong>${enText}
+        </div>
+        ${chunksHtml}
+        ${syntaxHtml}
+        ${transHtml}
+        ${footerNavHtml}
+      `;
+    }
 
     // Bind footer nav clicks
     const footerPrev = content.querySelector('.btn-modal-footer-prev');
