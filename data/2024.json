@@ -11,8 +11,8 @@
           "pid": 0,
           "text": "The digital economy is often hailed as a boundless engine of modern economic progress, yet its fruits are distributed with alarming inequality. In her incisive book Cogs and Monsters: What Economics Is, and What It Should Be, Cambridge economist Diane Coyle warns that if the gains from transformative technological advances are captured exclusively by a handful of tech titans and prosperous elites, the entire economic edifice will face an existential legitimacy crisis.",
           "translation": "数字经济常被颂扬为现代经济发展的无限引擎，然而其果实的分摊却呈现出令人担忧的不平等。剑桥大学经济学家黛安·科伊尔在其深刻的著作《齿轮与怪兽：经济学是什么，它应该是什么》中发出警告：如果变革性技术进步所带来的红利仅仅被少数科技巨头和富裕精英独占，整个经济体系将面临严重的合法性生存危机。",
-          "slashed_text": "The digital economy is often hailed / as a boundless engine / of modern economic progress , / yet its fruits are distributed / with alarming inequality. / In her incisive book / Cogs and Monsters: What Economics Is, and What It Should Be , / Cambridge economist Diane Coyle warns / that if the gains / from transformative technological advances / are captured exclusively / by a handful of tech titans / and prosperous elites , / the entire economic edifice / will face / an existential legitimacy crisis.",
-          "chunk_translation": "数字经济经常被赞颂为 / 一座具有无限动力的引擎 / 推动现代经济进步 / 然而其结出的成果分配 / 却伴随着令人心惊的悬殊不平等 / 在其洞见深刻的著作中 / 《齿轮与怪兽：经济学是什么，它应该是什么》 / 剑桥大学经济学家黛安·科伊尔发出预警 / 即倘若那些收益 / 源于变革性技术进步的巨大红利 / 被完全且排他性地攫取 / 仅仅落入少数科技巨擘 / 与富裕精英阶层手中 / 那么整座经济运行的庞大建筑 / 都将不可避免地遭遇 / 一场关乎根本生存的合法性危机",
+          "slashed_text": "The digital economy is often hailed / as a boundless engine of modern economic progress , / yet its fruits are distributed / with alarming inequality. / In her incisive book Cogs and Monsters : / What Economics Is , and What It Should Be , / Cambridge economist Diane Coyle warns / that if the gains from transformative technological advances / are captured exclusively by a handful of tech titans and prosperous elites , / the entire economic edifice / will face an existential legitimacy crisis.",
+          "chunk_translation": "数字经济常被称赞 / 为现代经济进步的无限引擎， / 然而其成果的分配 / 却伴随着令人担忧的不平等。 / 在她深刻的著作《齿轮与怪兽： / 经济学是什么，应该是什么》中， / 剑桥大学经济学家戴安·科伊尔警告称， / 如果变革性技术进步所带来的收益 / 被少数科技巨头和富裕精英独占， / 整个经济大厦 / 将面临生死存亡的合法性危机。",
           "vocabulary": [
             {
               "word": "boundless",
@@ -80,8 +80,8 @@
           "pid": 1,
           "text": "For decades, economic policymakers have adhered to the orthodox assumption that rapid technological innovation automatically translates into widespread social prosperity. Yet empirical evidence paints a far more troubling picture: while automation and algorithm-driven platforms have dramatically boosted labor productivity in tech-dense hubs, wages for ordinary gig workers and service laborers have stagnated. Digitalization, rather than lifting all boats, has deepened the chasm between capital owners and precarious workers.",
           "translation": "几十年来，经济决策者一直恪守一种传统假设，即快速的技术创新自然会自动转化为普遍的社会繁荣。然而，实证经验却描绘出了一幅令人不安得多的图景：尽管自动化与算法驱动型平台在科技密集的中心区域显著提升了劳动生产率，但普通零工工人和服务业劳动者的实际工资却陷入停滞。数字化并没有水涨船高地惠及所有人，反倒进一步拉大了资本所有者与弱势劳动者之间的鸿沟。",
-          "slashed_text": "For decades , / economic policymakers have adhered to / the orthodox assumption / that rapid technological innovation / automatically translates into / widespread social prosperity. / Yet empirical evidence paints / a far more troubling picture : / while automation and algorithm-driven platforms / have dramatically boosted / labor productivity / in tech-dense hubs , / wages for ordinary gig workers / and service laborers / have stagnated. / Digitalization , / rather than lifting all boats , / has deepened the chasm / between capital owners / and precarious workers.",
-          "chunk_translation": "数十年来 / 经济决策者们始终墨守 / 一种正统而传统的假设 / 即迅猛的技术革新步伐 / 必然会自动转变为 / 惠及广泛大众的社会整体繁荣 / 然而实际的实证数据所勾勒的 / 却是一幅令人倍感忧虑的图面 / 尽管自动化工具与算法驱动的各类平台 / 确实极为显著地大幅拉升了 / 劳动生产效率 / 在科技密集的中心都市圈 / 但千千万万普通零工从业人员 / 以及基础服务业劳动者的薪酬 / 却长期停滞不前 / 数字化转型进程 / 非但未能像潮水般载起所有船只 / 反而加剧拓宽了深不见底的鸿沟 / 横亘于掌握资本所有权的高层 / 与处于朝不保夕境况的底层劳工之间",
+          "slashed_text": "For decades , / economic policymakers have adhered to the orthodox assumption / that rapid technological innovation / automatically translates into widespread social prosperity. / Yet empirical evidence paints a far more troubling picture : / while automation and algorithm-driven platforms have dramatically boosted labor productivity / in tech-dense hubs , / wages for ordinary gig workers and service laborers / have stagnated. / Digitalization , rather than lifting all boats , / has deepened the chasm / between capital owners and precarious workers.",
+          "chunk_translation": "几十年来， / 经济政策制定者一直秉持着正统的假设， / 即快速的技术创新 / 会自动转化为广泛的社会繁荣。 / 然而实证证据描绘了一幅令人不安得多的图景： / 尽管自动化和算法驱动的平台显著提高了劳动生产率 / 在科技密集型中心， / 但普通零工工人和服务业劳动者的工资 / 却陷入了停滞。 / 数字化非但没有使所有船只水涨船高， / 反而加深了鸿沟， / 在资本所有者与不稳定劳动者之间。",
           "vocabulary": [
             {
               "word": "adhere to",
@@ -160,8 +160,8 @@
           "pid": 2,
           "text": "This widening disparity poses a direct roadblock to the sustained deployment of artificial intelligence. Coyle argues that deploying artificial intelligence on a national scale demands tremendous public investment and civic infrastructure, which fundamentally relies on broad social buy-in. When the majority of citizens perceive that technological breakthroughs enrich only a protected billionaire class while leaving them vulnerable to job displacement, simmering resentment inevitably spills over into institutional distrust.",
           "translation": "这种日益扩大的差距对人工智能的持续部署构成了直接障碍。科伊尔指出，在全国范围内推广部署人工智能需要庞大的公共投资与公民基础设施，而这在根本上取决于广泛的社会共识与民众认可。当绝大多数公民感到技术突破仅仅使受到庇护的亿万富翁阶层受惠，却让自己暴露在失业风险之下时，积郁的不满情绪便必然会转化为对制度与机构的信任危机。",
-          "slashed_text": "This widening disparity poses / a direct roadblock / to the sustained deployment / of artificial intelligence. / Coyle argues that / deploying artificial intelligence / on a national scale / demands tremendous public investment / and civic infrastructure , / which fundamentally relies on / broad social buy-in. / When the majority of citizens perceive / that technological breakthroughs enrich / only a protected billionaire class / while leaving them vulnerable / to job displacement , / simmering resentment / inevitably spills over / into institutional distrust.",
-          "chunk_translation": "这种不断扩大的贫富与地域差距造成了 / 一道难以逾越的直接障碍 / 严重阻碍了可持续的实质部署 / 人工智能技术的落地应用 / 科伊尔深入论证指出 / 要想在全社会的宏观国家尺度上部署人工智能 / 离不开天量庞大的公共财政投入 / 以及完备的公民数字基础设施支撑 / 而这一切在最深层面上都极度依赖于 / 全社会广大公众的认同与接受 / 当占据绝大多数的普通民众清醒地觉察到 / 前沿技术取得的跨越式突破 / 仅仅在让少数拥有特权的亿万富豪阶层暴富 / 却同时使他们自己孤立无援地面对 / 随时可能失去岗位的被替代风险 / 那么底层长期郁积发酵的愤怒怨言 / 就势必会失控蔓延开来 / 最终演变为对整体体制性权威的信任坍塌",
+          "slashed_text": "This widening disparity / poses a direct roadblock / to the sustained deployment of artificial intelligence. / Coyle argues that deploying artificial intelligence / on a national scale / demands tremendous public investment / and civic infrastructure , / which fundamentally relies on broad social buy-in. / When the majority of citizens perceive / that technological breakthroughs enrich only a protected billionaire class / while leaving them vulnerable to job displacement , / simmering resentment inevitably spills over / into institutional distrust.",
+          "chunk_translation": "这种不断扩大的差距 / 构成了直接的阻碍， / 对人工智能的持续部署而言。 / 科伊尔认为，在全国范围内 / 部署人工智能 / 需要巨大的公共投资 / 和市政基础设施， / 这从根本上依赖于广泛的社会支持认同。 / 当大多数公民察觉到 / 技术突破只让受到保护的亿万富翁阶层发财， / 同时却让自己易受失业下岗冲击时， / 暗流涌动的怨气便不可避免地蔓延 / 转化为对体制的不信任。",
           "vocabulary": [
             {
               "word": "roadblock",
@@ -240,8 +240,8 @@
           "pid": 3,
           "text": "Geographical concentration intensifies these social tensions. In Britain and the United States alike, high-value digital assets and patents are heavily clustered in a few prosperous metropolitan regions, leaving post-industrial rust belts and rural communities economically stranded. Without conscious policy interventions to loosen Big Tech’s stranglehold over essential data pipelines, regional inequalities will continue to sour public sentiment and foster anti-tech political backlash.",
           "translation": "地理上的高度集中进一步加剧了这些社会矛盾。在英国和美国，高价值的数字资产和专利高度聚集在少数繁荣的大都市圈，使得后工业化时期的铁锈地带和乡村社区在经济上陷入困境。如果不采取自觉的政策干预来打破大型科技巨头对核心数据管道的绝对垄断，区域间的不平等将持续恶化公众情绪，并助长反对科技发展的政治反弹。",
-          "slashed_text": "Geographical concentration intensifies / these social tensions. / In Britain and the United States alike , / high-value digital assets and patents / are heavily clustered / in a few prosperous metropolitan regions , / leaving post-industrial rust belts / and rural communities / economically stranded. / Without conscious policy interventions / to loosen Big Tech’s stranglehold / over essential data pipelines , / regional inequalities will continue / to sour public sentiment / and foster anti-tech political backlash.",
-          "chunk_translation": "地理空间上的过度扎堆聚集急剧激化了 / 这些深层的社会利益冲突 / 无论是在英国还是在美利坚合众国都是如此 / 最具高附加值的数字核心资产与研发专利 / 都异乎寻常地密集扎堆 / 坐落于极少数繁华富庶的大都会中心区 / 进而使得传统后工业时代的铁锈地带 / 以及广大广袤的偏远乡村社区 / 在经济发展的浪潮中被边缘化和孤立搁浅 / 倘若不采取目标清醒明确的国家级公共政策干预 / 设法打破并松动大型科技寡头 / 牢牢把控核心底层数据基础设施命脉的绝对扼杀 / 那么日趋悬殊的区域间失衡差距 / 就将持续不断地败坏恶化公众的情感认同 / 并彻底催生出针对技术狂飙的激烈政治反冲力量",
+          "slashed_text": "Geographical concentration / intensifies these social tensions. / In Britain and the United States alike , / high-value digital assets and patents / are heavily clustered in a few prosperous metropolitan regions , / leaving post-industrial rust belts and rural communities / economically stranded. / Without conscious policy interventions / to loosen Big Tech’s stranglehold over essential data pipelines , / regional inequalities will continue to sour public sentiment / and foster anti-tech political backlash.",
+          "chunk_translation": "地理上的高度集中 / 加剧了这些社会紧张局势。 / 在英国和美国同样如此， / 高价值的数字资产和专利 / 高度聚集在少数繁荣的大都市地区， / 使得后工业锈带和乡村社区 / 在经济上陷入困境。 / 如果没有自觉的政策干预 / 来打破大型科技公司对核心数据通道的垄断控制， / 区域不平等将继续恶化公众情绪， / 并催生反科技的政治抵制反弹。",
           "vocabulary": [
             {
               "word": "intensify",
@@ -314,8 +314,8 @@
           "pid": 4,
           "text": "Coyle ultimately stresses that economics itself must evolve beyond narrow market efficiency metrics. GDP growth alone cannot measure genuine social well-being when prosperity is hoarded at the apex. To forge a sustainable digital future, governments must redesign market architecture, guarantee fair compensation for creative contributors, and channel technological power into collective public flourishing rather than concentrated private accumulation.",
           "translation": "科伊尔最终强调，经济学本身必须超越狭隘的市场效率指标。当财富被金字塔尖所垄断时，单纯的国内生产总值增长根本无法衡量真正的社会福祉。为了构建可持续的数字未来，各国政府必须重新设计市场底层架构，确保创作者获得公正的回报，并将科技力量引向全社会的共同繁荣，而非少数人的私人资本积累。",
-          "slashed_text": "Coyle ultimately stresses / that economics itself must evolve / beyond narrow market efficiency metrics. / GDP growth alone cannot measure / genuine social well-being / when prosperity is hoarded at the apex. / To forge a sustainable digital future , / governments must redesign / market architecture , / guarantee fair compensation / for creative contributors , / and channel technological power / into collective public flourishing / rather than concentrated private accumulation.",
-          "chunk_translation": "科伊尔在全篇结语中着重力陈 / 现代经济学学科本身必须经历根本性革新演进 / 超越以往狭隘短视的市场效率考核衡量准绳 / 仅仅片面追求国内生产总值的统计数据增长 / 根本无法如实度量反映 / 人民群众真正的社会整体福祉 / 当所有的财富与繁荣硕果被金字塔顶端极度囤积占有时 / 唯有为了铸就一个可持续发展且公平有序的数字未来 / 各国政府决策者才必须大刀阔斧重构 / 整体市场的制度规则架构 / 充分切实保障公平合理的回报薪酬 / 面向所有一线劳动者与创新贡献群体 / 并把这股改天换地的澎湃技术动能导入 / 整个社会共同富裕与全面繁荣的轨道之中 / 而绝非任由其沦为加剧私人财富极度垄断的工具",
+          "slashed_text": "Coyle ultimately stresses / that economics itself must evolve / beyond narrow market efficiency metrics. / GDP growth alone cannot measure genuine social well-being / when prosperity is hoarded at the apex. / To forge a sustainable digital future , / governments must redesign market architecture , / guarantee fair compensation for creative contributors , / and channel technological power into collective public flourishing / rather than concentrated private accumulation.",
+          "chunk_translation": "科伊尔最终强调， / 经济学本身必须向前演进， / 超越狭隘的市场效率指标。 / 单靠国内生产总值增长无法衡量真正的社会福祉， / 当繁荣被顶层所独占聚敛之时。 / 为了开创可持续的数字未来， / 政府必须重新设计市场结构， / 保障对创新贡献者的公平报酬， / 并引导技术力量促进公众的整体繁荣， / 而非少数私人的财富积累。",
           "vocabulary": [
             {
               "word": "metric",
@@ -393,8 +393,8 @@
           "sentence_index": 0,
           "text": "The digital economy is often hailed as a boundless engine of modern economic progress, yet its fruits are distributed with alarming inequality.",
           "translation": "数字经济常被颂扬为现代经济发展的无限引擎，然而其果实的分摊却呈现出令人担忧的不平等。",
-          "slashed_text": "The digital economy is often hailed / as a boundless engine / of modern economic progress , / yet its fruits are distributed / with alarming inequality.",
-          "chunk_translation": "数字经济经常被赞颂为 / 一座具有无限动力的引擎 / 推动现代经济进步 / 然而其结出的成果分配 / 却伴随着令人心惊的悬殊不平等",
+          "slashed_text": "The digital economy is often hailed / as a boundless engine of modern economic progress , / yet its fruits are distributed / with alarming inequality.",
+          "chunk_translation": "数字经济常被称赞 / 为现代经济进步的无限引擎， / 然而其成果的分配 / 却伴随着令人担忧的不平等。",
           "syntax": {
             "breakdown": [
               {
@@ -421,8 +421,8 @@
           "sentence_index": 1,
           "text": "In her incisive book Cogs and Monsters: What Economics Is, and What It Should Be, Cambridge economist Diane Coyle warns that if the gains from transformative technological advances are captured exclusively by a handful of tech titans and prosperous elites, the entire economic edifice will face an existential legitimacy crisis.",
           "translation": "剑桥大学经济学家黛安·科伊尔在其深刻的著作《齿轮与怪兽：经济学是什么，它应该是什么》中发出警告：如果变革性技术进步所带来的红利仅仅被少数科技巨头和富裕精英独占，整个经济体系将面临严重的合法性生存危机。",
-          "slashed_text": "In her incisive book / Cogs and Monsters: What Economics Is, and What It Should Be , / Cambridge economist Diane Coyle warns / that if the gains / from transformative technological advances / are captured exclusively / by a handful of tech titans / and prosperous elites , / the entire economic edifice / will face / an existential legitimacy crisis.",
-          "chunk_translation": "在其洞见深刻的著作中 / 《齿轮与怪兽：经济学是什么，它应该是什么》 / 剑桥大学经济学家黛安·科伊尔发出预警 / 即倘若那些收益 / 源于变革性技术进步的巨大红利 / 被完全且排他性地攫取 / 仅仅落入少数科技巨擘 / 与富裕精英阶层手中 / 那么整座经济运行的庞大建筑 / 都将不可避免地遭遇 / 一场关乎根本生存的合法性危机",
+          "slashed_text": "In her incisive book Cogs and Monsters : / What Economics Is , and What It Should Be , / Cambridge economist Diane Coyle warns / that if the gains from transformative technological advances / are captured exclusively by a handful of tech titans and prosperous elites , / the entire economic edifice / will face an existential legitimacy crisis.",
+          "chunk_translation": "在她深刻的著作《齿轮与怪兽： / 经济学是什么，应该是什么》中， / 剑桥大学经济学家戴安·科伊尔警告称， / 如果变革性技术进步所带来的收益 / 被少数科技巨头和富裕精英独占， / 整个经济大厦 / 将面临生死存亡的合法性危机。",
           "syntax": {
             "breakdown": [
               {
@@ -454,8 +454,8 @@
           "sentence_index": 0,
           "text": "For decades, economic policymakers have adhered to the orthodox assumption that rapid technological innovation automatically translates into widespread social prosperity.",
           "translation": "几十年来，经济决策者一直恪守一种传统假设，即快速的技术创新自然会自动转化为普遍的社会繁荣。",
-          "slashed_text": "For decades , / economic policymakers have adhered to / the orthodox assumption / that rapid technological innovation / automatically translates into / widespread social prosperity.",
-          "chunk_translation": "数十年来 / 经济决策者们始终墨守 / 一种正统而传统的假设 / 即迅猛的技术革新步伐 / 必然会自动转变为 / 惠及广泛大众的社会整体繁荣",
+          "slashed_text": "For decades , / economic policymakers have adhered to the orthodox assumption / that rapid technological innovation / automatically translates into widespread social prosperity.",
+          "chunk_translation": "几十年来， / 经济政策制定者一直秉持着正统的假设， / 即快速的技术创新 / 会自动转化为广泛的社会繁荣。",
           "syntax": {
             "breakdown": [
               {
@@ -482,8 +482,8 @@
           "sentence_index": 1,
           "text": "Yet empirical evidence paints a far more troubling picture: while automation and algorithm-driven platforms have dramatically boosted labor productivity in tech-dense hubs, wages for ordinary gig workers and service laborers have stagnated.",
           "translation": "然而，实证经验却描绘出了一幅令人不安得多的图景：尽管自动化与算法驱动型平台在科技密集的中心区域显著提升了劳动生产率，但普通零工工人和服务业劳动者的实际工资却陷入停滞。",
-          "slashed_text": "Yet empirical evidence paints / a far more troubling picture : / while automation and algorithm-driven platforms / have dramatically boosted / labor productivity / in tech-dense hubs , / wages for ordinary gig workers / and service laborers / have stagnated.",
-          "chunk_translation": "然而实际的实证数据所勾勒的 / 却是一幅令人倍感忧虑的图面 / 尽管自动化工具与算法驱动的各类平台 / 确实极为显著地大幅拉升了 / 劳动生产效率 / 在科技密集的中心都市圈 / 但千千万万普通零工从业人员 / 以及基础服务业劳动者的薪酬 / 却长期停滞不前",
+          "slashed_text": "Yet empirical evidence paints a far more troubling picture : / while automation and algorithm-driven platforms have dramatically boosted labor productivity / in tech-dense hubs , / wages for ordinary gig workers and service laborers / have stagnated.",
+          "chunk_translation": "然而实证证据描绘了一幅令人不安得多的图景： / 尽管自动化和算法驱动的平台显著提高了劳动生产率 / 在科技密集型中心， / 但普通零工工人和服务业劳动者的工资 / 却陷入了停滞。",
           "syntax": {
             "breakdown": [
               {
@@ -510,8 +510,8 @@
           "sentence_index": 2,
           "text": "Digitalization, rather than lifting all boats, has deepened the chasm between capital owners and precarious workers.",
           "translation": "数字化并没有水涨船高地惠及所有人，反倒进一步拉大了资本所有者与弱势劳动者之间的鸿沟。",
-          "slashed_text": "Digitalization , / rather than lifting all boats , / has deepened the chasm / between capital owners / and precarious workers.",
-          "chunk_translation": "数字化转型进程 / 非但未能像潮水般载起所有船只 / 反而加剧拓宽了深不见底的鸿沟 / 横亘于掌握资本所有权的高层 / 与处于朝不保夕境况的底层劳工之间",
+          "slashed_text": "Digitalization , rather than lifting all boats , / has deepened the chasm / between capital owners and precarious workers.",
+          "chunk_translation": "数字化非但没有使所有船只水涨船高， / 反而加深了鸿沟， / 在资本所有者与不稳定劳动者之间。",
           "syntax": {
             "breakdown": [
               {
@@ -538,8 +538,8 @@
           "sentence_index": 0,
           "text": "This widening disparity poses a direct roadblock to the sustained deployment of artificial intelligence.",
           "translation": "这种日益扩大的差距对人工智能的持续部署构成了直接障碍。",
-          "slashed_text": "This widening disparity poses / a direct roadblock / to the sustained deployment / of artificial intelligence.",
-          "chunk_translation": "这种不断扩大的贫富与地域差距造成了 / 一道难以逾越的直接障碍 / 严重阻碍了可持续的实质部署 / 人工智能技术的落地应用",
+          "slashed_text": "This widening disparity / poses a direct roadblock / to the sustained deployment of artificial intelligence.",
+          "chunk_translation": "这种不断扩大的差距 / 构成了直接的阻碍， / 对人工智能的持续部署而言。",
           "syntax": {
             "breakdown": [
               {
@@ -561,8 +561,8 @@
           "sentence_index": 1,
           "text": "Coyle argues that deploying artificial intelligence on a national scale demands tremendous public investment and civic infrastructure, which fundamentally relies on broad social buy-in.",
           "translation": "科伊尔指出，在全国范围内推广部署人工智能需要庞大的公共投资与公民基础设施，而这在根本上取决于广泛的社会共识与民众认可。",
-          "slashed_text": "Coyle argues that / deploying artificial intelligence / on a national scale / demands tremendous public investment / and civic infrastructure , / which fundamentally relies on / broad social buy-in.",
-          "chunk_translation": "科伊尔深入论证指出 / 要想在全社会的宏观国家尺度上部署人工智能 / 离不开天量庞大的公共财政投入 / 以及完备的公民数字基础设施支撑 / 而这一切在最深层面上都极度依赖于 / 全社会广大公众的认同与接受",
+          "slashed_text": "Coyle argues that deploying artificial intelligence / on a national scale / demands tremendous public investment / and civic infrastructure , / which fundamentally relies on broad social buy-in.",
+          "chunk_translation": "科伊尔认为，在全国范围内 / 部署人工智能 / 需要巨大的公共投资 / 和市政基础设施， / 这从根本上依赖于广泛的社会支持认同。",
           "syntax": {
             "breakdown": [
               {
@@ -589,8 +589,8 @@
           "sentence_index": 2,
           "text": "When the majority of citizens perceive that technological breakthroughs enrich only a protected billionaire class while leaving them vulnerable to job displacement, simmering resentment inevitably spills over into institutional distrust.",
           "translation": "当绝大多数公民感到技术突破仅仅使受到庇护的亿万富翁阶层受惠，却让自己暴露在失业风险之下时，积郁的不满情绪便必然会转化为对制度与机构的信任危机。",
-          "slashed_text": "When the majority of citizens perceive / that technological breakthroughs enrich / only a protected billionaire class / while leaving them vulnerable / to job displacement , / simmering resentment / inevitably spills over / into institutional distrust.",
-          "chunk_translation": "当占据绝大多数的普通民众清醒地觉察到 / 前沿技术取得的跨越式突破 / 仅仅在让少数拥有特权的亿万富豪阶层暴富 / 却同时使他们自己孤立无援地面对 / 随时可能失去岗位的被替代风险 / 那么底层长期郁积发酵的愤怒怨言 / 就势必会失控蔓延开来 / 最终演变为对整体体制性权威的信任坍塌",
+          "slashed_text": "When the majority of citizens perceive / that technological breakthroughs enrich only a protected billionaire class / while leaving them vulnerable to job displacement , / simmering resentment inevitably spills over / into institutional distrust.",
+          "chunk_translation": "当大多数公民察觉到 / 技术突破只让受到保护的亿万富翁阶层发财， / 同时却让自己易受失业下岗冲击时， / 暗流涌动的怨气便不可避免地蔓延 / 转化为对体制的不信任。",
           "syntax": {
             "breakdown": [
               {
@@ -622,8 +622,8 @@
           "sentence_index": 0,
           "text": "Geographical concentration intensifies these social tensions.",
           "translation": "地理上的高度集中进一步加剧了这些社会矛盾。",
-          "slashed_text": "Geographical concentration intensifies / these social tensions.",
-          "chunk_translation": "地理空间上的过度扎堆聚集急剧激化了 / 这些深层的社会利益冲突",
+          "slashed_text": "Geographical concentration / intensifies these social tensions.",
+          "chunk_translation": "地理上的高度集中 / 加剧了这些社会紧张局势。",
           "syntax": {
             "breakdown": [
               {
@@ -645,8 +645,8 @@
           "sentence_index": 1,
           "text": "In Britain and the United States alike, high-value digital assets and patents are heavily clustered in a few prosperous metropolitan regions, leaving post-industrial rust belts and rural communities economically stranded.",
           "translation": "在英国和美国，高价值的数字资产和专利高度聚集在少数繁荣的大都市圈，使得后工业化时期的铁锈地带和乡村社区在经济上陷入困境。",
-          "slashed_text": "In Britain and the United States alike , / high-value digital assets and patents / are heavily clustered / in a few prosperous metropolitan regions , / leaving post-industrial rust belts / and rural communities / economically stranded.",
-          "chunk_translation": "无论是在英国还是在美利坚合众国都是如此 / 最具高附加值的数字核心资产与研发专利 / 都异乎寻常地密集扎堆 / 坐落于极少数繁华富庶的大都会中心区 / 进而使得传统后工业时代的铁锈地带 / 以及广大广袤的偏远乡村社区 / 在经济发展的浪潮中被边缘化和孤立搁浅",
+          "slashed_text": "In Britain and the United States alike , / high-value digital assets and patents / are heavily clustered in a few prosperous metropolitan regions , / leaving post-industrial rust belts and rural communities / economically stranded.",
+          "chunk_translation": "在英国和美国同样如此， / 高价值的数字资产和专利 / 高度聚集在少数繁荣的大都市地区， / 使得后工业锈带和乡村社区 / 在经济上陷入困境。",
           "syntax": {
             "breakdown": [
               {
@@ -673,8 +673,8 @@
           "sentence_index": 2,
           "text": "Without conscious policy interventions to loosen Big Tech’s stranglehold over essential data pipelines, regional inequalities will continue to sour public sentiment and foster anti-tech political backlash.",
           "translation": "如果不采取自觉的政策干预来打破大型科技巨头对核心数据管道的绝对垄断，区域间的不平等将持续恶化公众情绪，并助长反对科技发展的政治反弹。",
-          "slashed_text": "Without conscious policy interventions / to loosen Big Tech’s stranglehold / over essential data pipelines , / regional inequalities will continue / to sour public sentiment / and foster anti-tech political backlash.",
-          "chunk_translation": "倘若不采取目标清醒明确的国家级公共政策干预 / 设法打破并松动大型科技寡头 / 牢牢把控核心底层数据基础设施命脉的绝对扼杀 / 那么日趋悬殊的区域间失衡差距 / 就将持续不断地败坏恶化公众的情感认同 / 并彻底催生出针对技术狂飙的激烈政治反冲力量",
+          "slashed_text": "Without conscious policy interventions / to loosen Big Tech’s stranglehold over essential data pipelines , / regional inequalities will continue to sour public sentiment / and foster anti-tech political backlash.",
+          "chunk_translation": "如果没有自觉的政策干预 / 来打破大型科技公司对核心数据通道的垄断控制， / 区域不平等将继续恶化公众情绪， / 并催生反科技的政治抵制反弹。",
           "syntax": {
             "breakdown": [
               {
@@ -702,7 +702,7 @@
           "text": "Coyle ultimately stresses that economics itself must evolve beyond narrow market efficiency metrics.",
           "translation": "科伊尔最终强调，经济学本身必须超越狭隘的市场效率指标。",
           "slashed_text": "Coyle ultimately stresses / that economics itself must evolve / beyond narrow market efficiency metrics.",
-          "chunk_translation": "科伊尔在全篇结语中着重力陈 / 现代经济学学科本身必须经历根本性革新演进 / 超越以往狭隘短视的市场效率考核衡量准绳",
+          "chunk_translation": "科伊尔最终强调， / 经济学本身必须向前演进， / 超越狭隘的市场效率指标。",
           "syntax": {
             "breakdown": [
               {
@@ -724,8 +724,8 @@
           "sentence_index": 1,
           "text": "GDP growth alone cannot measure genuine social well-being when prosperity is hoarded at the apex.",
           "translation": "当财富被金字塔尖所垄断时，单纯的国内生产总值增长根本无法衡量真正的社会福祉。",
-          "slashed_text": "GDP growth alone cannot measure / genuine social well-being / when prosperity is hoarded at the apex.",
-          "chunk_translation": "仅仅片面追求国内生产总值的统计数据增长 / 根本无法如实度量反映 / 人民群众真正的社会整体福祉 / 当所有的财富与繁荣硕果被金字塔顶端极度囤积占有时",
+          "slashed_text": "GDP growth alone cannot measure genuine social well-being / when prosperity is hoarded at the apex.",
+          "chunk_translation": "单靠国内生产总值增长无法衡量真正的社会福祉， / 当繁荣被顶层所独占聚敛之时。",
           "syntax": {
             "breakdown": [
               {
@@ -752,8 +752,8 @@
           "sentence_index": 2,
           "text": "To forge a sustainable digital future, governments must redesign market architecture, guarantee fair compensation for creative contributors, and channel technological power into collective public flourishing rather than concentrated private accumulation.",
           "translation": "为了构建可持续的数字未来，各国政府必须重新设计市场底层架构，确保创作者获得公正的回报，并将科技力量引向全社会的共同繁荣，而非少数人的私人资本积累。",
-          "slashed_text": "To forge a sustainable digital future , / governments must redesign / market architecture , / guarantee fair compensation / for creative contributors , / and channel technological power / into collective public flourishing / rather than concentrated private accumulation.",
-          "chunk_translation": "唯有为了铸就一个可持续发展且公平有序的数字未来 / 各国政府决策者才必须大刀阔斧重构 / 整体市场的制度规则架构 / 充分切实保障公平合理的回报薪酬 / 面向所有一线劳动者与创新贡献群体 / 并把这股改天换地的澎湃技术动能导入 / 整个社会共同富裕与全面繁荣的轨道之中 / 而绝非任由其沦为加剧私人财富极度垄断的工具",
+          "slashed_text": "To forge a sustainable digital future , / governments must redesign market architecture , / guarantee fair compensation for creative contributors , / and channel technological power into collective public flourishing / rather than concentrated private accumulation.",
+          "chunk_translation": "为了开创可持续的数字未来， / 政府必须重新设计市场结构， / 保障对创新贡献者的公平报酬， / 并引导技术力量促进公众的整体繁荣， / 而非少数私人的财富积累。",
           "syntax": {
             "breakdown": [
               {
@@ -1268,8 +1268,8 @@
           "pid": 0,
           "text": "Britain's ambitious construction industry is facing an acute structural crisis due to its chronic failure to cultivate a resilient domestic forestry sector. Forestry bodies are urgently calling for a decisive reduction in the nation's overwhelming reliance on timber imports. Currently, Britain imports more than eighty percent of its construction timber, a staggering proportion that leaves housebuilders dangerously vulnerable to international price fluctuations and geopolitical supply shocks.",
           "translation": "英国雄心勃勃的建筑业正面临严重的结构性危机，其根源在于长期未能培育出具有韧性的本土林业部门。林业管理机构正紧急呼吁，必须果断降低该国对木材进口的过度依赖。目前，英国超过80%的建筑木材依赖进口，这一令人震惊的比例使得住宅建造商极易受到国际价格波动和地缘政治供应链冲击的影响。",
-          "slashed_text": "Britain's ambitious construction industry is facing / an acute structural crisis / due to its chronic failure / to cultivate a resilient domestic forestry sector. / Forestry bodies are urgently calling for / a decisive reduction / in the nation's overwhelming reliance / on timber imports. / Currently , / Britain imports more than eighty percent / of its construction timber , / a staggering proportion / that leaves housebuilders / dangerously vulnerable / to international price fluctuations / and geopolitical supply shocks.",
-          "chunk_translation": "英国雄心勃勃的建筑工业正面临着 / 一场极其严峻的结构性深层危机 / 归因于其长期以往的严重未能做到 / 培育出具备强大自持韧性的本土林业产业 / 各大官方林业机构正在发出紧急呼吁 / 必须坚决实现决定性的削减降低 / 针对全英国对海外木材的压倒性过度依赖 / 在木材进口贸易方面 / 截至目前当下 / 英国超过百分之八十以上的建筑施工原木 / 均完全依赖于跨国采购输入 / 这是一个令人膛目结舌的庞大畸形比例 / 这直接使得广大国内房屋营建商 / 陷入极其危险脆弱的被动境地 / 极易遭受全球市场大宗价格剧烈波动 / 以及地缘政治供应链断裂危机的双重沉重打击",
+          "slashed_text": "Britain's ambitious construction industry is facing an acute structural crisis / due to its chronic failure / to cultivate a resilient domestic forestry sector. / Forestry bodies are urgently calling / for a decisive reduction / in the nation's overwhelming reliance on timber imports. / Currently , Britain imports more than eighty percent of its construction timber , / a staggering proportion / that leaves housebuilders dangerously vulnerable / to international price fluctuations / and geopolitical supply shocks.",
+          "chunk_translation": "英国雄心勃勃的建筑业正面临着严峻的结构性危机， / 由于其长期未能 / 培育出一个具有韧性的本土林业部门。 / 林业机构正紧急呼吁 / 采取果断措施减少 / 该国对木材进口的过度依赖。 / 目前，英国80%以上的建筑木材依赖进口， / 这一惊人的比例 / 让房屋建造商处于极其脆弱的境地， / 极易受到国际价格波动 / 和地缘政治供应冲击的影响。",
           "vocabulary": [
             {
               "word": "acute",
@@ -1333,8 +1333,8 @@
           "pid": 1,
           "text": "To avert an impending supply breakdown, industry executives argue that mandatory requirements for using home-grown timber in low-carbon housing must be introduced. Fresh financial incentives are essential to motivate private landowners to invest in domestic commercial woodland. Timber is an unparalleled carbon-storing material, and expanding sustainably managed domestic forests would simultaneously accelerate Britain's net-zero strategy and generate durable wealth for the struggling rural economy.",
           "translation": "为了避免迫在眉睫的供应断裂，行业高管们主张，必须强制推行在低碳住宅建设中使用本国自产木材的规定。同时，必须出台全新的财政激励措施，以激发私人土地所有者投资国内商业林地。木材是一种无与伦比的固碳材料，扩大可持续管理的本土森林，不仅能加速英国实现净零排放战略，还能为陷入困境的乡村经济注入持久的财富动力。",
-          "slashed_text": "To avert an impending supply breakdown , / industry executives argue / that mandatory requirements / for using home-grown timber / in low-carbon housing / must be introduced. / Fresh financial incentives are essential / to motivate private landowners / to invest / in domestic commercial woodland. / Timber is an unparalleled carbon-storing material , / and expanding sustainably managed domestic forests / would simultaneously accelerate / Britain's net-zero strategy / and generate durable wealth / for the struggling rural economy.",
-          "chunk_translation": "为了彻底规避防范一场迫在眉睫的物资供应断裂危机 / 工业界高管与领军企业代表力陈 / 明确具有法律约束力的刚性强制标准 / 针对在未来各类低碳环保住宅建造中采用本土自产木材 / 必须尽快在国家政策层面正式出台落地 / 全新的直接性财政补贴与税收激励措施至关重要 / 唯有如此才能有效调动私人土地拥有者们的积极性 / 推动其将充沛资金长期注入 / 英国本国商业林地的营造与扩大之中 / 木材本质上是一种无可比拟的天然储碳绿色建材 / 而大规模扩展并可持续地经营管理本土人工林木资源 / 将能够同时强劲赋能并加速推进 / 英国既定的国家级净零碳排放战略实施进程 / 并为目前饱受萧条困扰的广大乡村边缘经济 / 持续创造源源不断的稳定繁荣与长久财富",
+          "slashed_text": "To avert an impending supply breakdown , / industry executives argue / that mandatory requirements for using home-grown timber / in low-carbon housing must be introduced. / Fresh financial incentives are essential / to motivate private landowners / to invest in domestic commercial woodland. / Timber is an unparalleled carbon-storing material , / and expanding sustainably managed domestic forests / would simultaneously accelerate Britain's net-zero strategy / and generate durable wealth for the struggling rural economy.",
+          "chunk_translation": "为了避免迫在眉睫的供应断裂， / 行业高管认为， / 必须引入在低碳住房中 / 使用本土种植木材的强制性要求。 / 新的财政激励措施至关重要， / 以便激励私人土地所有者 / 投资于本土商业林地。 / 木材是一种无可比拟的储碳材料， / 扩大可持续管理的本土森林面积， / 既能推进英国的净零排放战略， / 又能为举步维艰的农村经济创造持久的财富。",
           "vocabulary": [
             {
               "word": "avert",
@@ -1407,8 +1407,8 @@
           "pid": 2,
           "text": "However, commercial tree planting faces stubborn institutional hurdles and cultural resistance. Landowners frequently encounter tangled planning regulations and lengthy bureaucratic delays when attempting to afforest their estates. Furthermore, productive commercial conifers are burdened by outdated public perceptions that equate productive timber forests with ecological decimation, despite evidence that modern certified forests harbor rich wildlife and even protect endangered species like the native red squirrel.",
           "translation": "然而，商业植树造林遭遇了顽固的制度障碍和文化阻力。土地所有者在尝试将地产绿化造林时，经常遭遇纷繁复杂的规划规章以及漫长的官僚审批拖延。此外，高产商业针叶林还背负着过时的公众偏见——人们往往把商品用材林等同于生态破坏，尽管有充分证据表明，现代经过认证的森林能为丰富野生动物提供栖息地，甚至庇护诸如本土红松鼠这样的濒危物种。",
-          "slashed_text": "However , / commercial tree planting faces / stubborn institutional hurdles / and cultural resistance. / Landowners frequently encounter / tangled planning regulations / and lengthy bureaucratic delays / when attempting to afforest their estates. / Furthermore , / productive commercial conifers are burdened by / outdated public perceptions / that equate productive timber forests / with ecological decimation , / despite evidence / that modern certified forests / harbor rich wildlife / and even protect endangered species / like the native red squirrel.",
-          "chunk_translation": "然而在实际推进过程中 / 大规模商业植树营造林工程却遭遇到了 / 极其顽固陈旧的制度性掣肘壁垒 / 以及广泛根深蒂固的社会文化抵触情绪 / 各地私人地主往往频繁碰壁于 / 错综繁复且自相矛盾的规划审批法规条款 / 以及漫长折磨的行政官僚程序性拖延 / 当他们满怀意愿试图将其土地庄园退耕还林之时 / 不仅如此 / 高度兼具经济效益的高产商业针叶针叶林木种植 / 还长期背负着极度过时陈腐的公众刻板成见 / 人们习惯性地机械将人工商品用材林 / 等同于毫无生机的生态大灭绝与自然摧毁 / 尽管科学实证与监测数据早已确凿证明 / 现代经过国际权威认证的可持续林场 / 广泛栖息庇护着极度丰富的野生动植物种群 / 甚至切实保护着极度珍贵脆弱的本土濒危红松鼠",
+          "slashed_text": "However , commercial tree planting faces stubborn institutional hurdles / and cultural resistance. / Landowners frequently encounter tangled planning regulations / and lengthy bureaucratic delays / when attempting to afforest their estates. / Furthermore , productive commercial conifers are burdened / by outdated public perceptions / that equate productive timber forests with ecological decimation , / despite evidence that modern certified forests harbor rich wildlife / and even protect endangered species like the native red squirrel.",
+          "chunk_translation": "然而，商业植树面临着顽固的制度障碍 / 和文化阻力。 / 土地所有者经常遭遇复杂的规划法规 / 和漫长的官僚拖延， / 当试图在自己的地产上植树造林时。 / 此外，高产的商业针叶树林还背负着 / 过时的公众偏见， / 这些偏见将木材林与生态破坏画上等号， / 尽管有证据表明现代认证森林蕴育着丰富的野生动物， / 甚至保护着像本土红松鼠这样的濒危物种。",
           "vocabulary": [
             {
               "word": "hurdle",
@@ -1476,8 +1476,8 @@
           "pid": 3,
           "text": "The situation is further complicated by a polarizing clash between timber production and radical rewilding campaigns. Many environmental groups advocate exclusively for biodiversity-focused native broadleaf restoration, viewing commercial forestry as an unwelcome intrusion. Forestry leaders argue that this either-or dichotomy is fundamentally misguided: commercial timber and ecological conservation are complementary partners, not irreconcilable adversaries.",
           "translation": "木材生产与激进的“再野化”运动之间两极分化的冲突，使局面进一步复杂化。许多环保组织完全只提倡注重生物多样性的本土阔叶林恢复，将商业林业视作不受欢迎的侵扰。而林业领袖们则反驳称，这种非此即彼的二元对立在根本上是错误的：商业木材生产与生态环境保护是互补的伙伴，而非不可调和的死敌。",
-          "slashed_text": "The situation is further complicated / by a polarizing clash / between timber production / and radical rewilding campaigns. / Many environmental groups advocate / exclusively for biodiversity-focused native broadleaf restoration , / viewing commercial forestry / as an unwelcome intrusion. / Forestry leaders argue that / this either-or dichotomy / is fundamentally misguided : / commercial timber / and ecological conservation / are complementary partners , / not irreconcilable adversaries.",
-          "chunk_translation": "眼下的现实困境还在被进一步复杂化放大 / 根源于一场日趋极化撕裂的尖锐针锋相对 / 爆发于国家基础木材生产目标 / 与激进狂热的自然再野化民间倡议之间 / 众多环保公益组织与非政府机构普遍仅仅极力主张 / 排他性地推进以纯粹生物多样性为核心的本土阔叶落叶林自然恢复 / 极端武断地将一切现代商业人工林业 / 视为对纯粹大自然格格不入的粗暴侵犯与破坏 / 广大林业行业代表人物针锋相对地力辩 / 这种非黑即白、非此即彼的二元割裂思维 / 在本质认识论上存在着极大的认知误区 / 商业木材的可持续产出 / 与自然生态的保护涵养修复 / 实际上是相辅相成、协同共进的孪生伙伴 / 而绝非命中注定势不两立、不可调和的生死冤家",
+          "slashed_text": "The situation is further complicated / by a polarizing clash / between timber production and radical rewilding campaigns. / Many environmental groups advocate exclusively for biodiversity-focused native broadleaf restoration , / viewing commercial forestry as an unwelcome intrusion. / Forestry leaders argue / that this either-or dichotomy is fundamentally misguided : / commercial timber and ecological conservation are complementary partners , / not irreconcilable adversaries.",
+          "chunk_translation": "这一局面由于两极分化的冲突 / 而进一步复杂化， / 即木材生产与激进的再野化运动之间的冲突。 / 许多环保组织专门倡导恢复以生物多样性为重点的本土阔叶林， / 将商业林业视为不受欢迎的侵扰。 / 林业领袖们认为， / 这种非此即彼的二元对立从根本上是被误导的： / 商业木材与生态保护是相辅相成的伙伴， / 而不是不可调和的对手。",
           "vocabulary": [
             {
               "word": "polarizing",
@@ -1551,8 +1551,8 @@
           "pid": 4,
           "text": "Without coherent government leadership to bridge these conflicting aspirations, Britain will remain shackled to foreign supply chains. Ministers must articulate a holistic national land-use framework that integrates timber self-sufficiency into wider climate targets. Only by harmonizing commercial output with environmental stewardship can the country secure the foundational materials required to build a green economy on home ground.",
           "translation": "如果缺乏连贯统一的政府领导来弥合这些相互冲突的诉求，英国将继续受制于外国供应链的枷锁。政府官员们必须明确制定一项全面的国家土地利用框架，将木材自给自足纳入更广泛的气候目标之中。唯有将商业产出与环境生态保护有机结合，国家才能在本土奠定构建绿色经济所需的基石材料。",
-          "slashed_text": "Without coherent government leadership / to bridge these conflicting aspirations , / Britain will remain shackled / to foreign supply chains. / Ministers must articulate / a holistic national land-use framework / that integrates timber self-sufficiency / into wider climate targets. / Only by harmonizing commercial output / with environmental stewardship / can the country secure / the foundational materials / required to build a green economy / on home ground.",
-          "chunk_translation": "倘若缺乏统一连贯且坚决有力的中央政府顶层设计领导 / 来统筹弥合协调这些看似互相冲突的各方抱负愿景 / 那么大不列颠就将不可逆转地长期被牢牢戴上镣铐 / 深度受制并受困于飘忽不定的海外跨国供应链命脉 / 各部委决策大臣必须清晰权威地构建并阐明 / 一整套兼顾全局的宏观国家级土地利用战略总体框架 / 将实现木材基础供给的自给自足安全防线 / 全面深层次有机整合嵌入到更广阔的国家气候宏伟目标之中 / 唯有通过切实将商业用材的高效产出 / 与严格崇高的生态环境管护职责统筹调谐在一起 / 全英国才可能从根本上牢牢守护并锁定 / 这些不可或缺的底层支柱性基础建筑原材料 / 从而真正能够依靠本国坚实的大地与资源禀赋 / 构筑起名副其实的内生型绿色低碳崭新经济",
+          "slashed_text": "Without coherent government leadership / to bridge these conflicting aspirations , / Britain will remain shackled / to foreign supply chains. / Ministers must articulate a holistic national land-use framework / that integrates timber self-sufficiency / into wider climate targets. / Only by harmonizing commercial output / with environmental stewardship / can the country secure the foundational materials / required to build a green economy on home ground.",
+          "chunk_translation": "如果没有政府统筹有力的领导 / 来调和这些冲突诉求， / 英国将继续受制于 / 外国供应链。 / 部长们必须明确一个全面的国家土地利用框架， / 将木材自给自足 / 纳入更广泛的气候目标之中。 / 唯有将商业产出 / 与环境管理协调起来， / 该国才能确保获得基础原材料， / 用于在本土建立绿色经济。",
           "vocabulary": [
             {
               "word": "coherent",
@@ -1630,8 +1630,8 @@
           "sentence_index": 0,
           "text": "Britain's ambitious construction industry is facing an acute structural crisis due to its chronic failure to cultivate a resilient domestic forestry sector.",
           "translation": "英国雄心勃勃的建筑业正面临严重的结构性危机，其根源在于长期未能培育出具有韧性的本土林业部门。",
-          "slashed_text": "Britain's ambitious construction industry is facing / an acute structural crisis / due to its chronic failure / to cultivate a resilient domestic forestry sector.",
-          "chunk_translation": "英国雄心勃勃的建筑工业正面临着 / 一场极其严峻的结构性深层危机 / 归因于其长期以往的严重未能做到 / 培育出具备强大自持韧性的本土林业产业",
+          "slashed_text": "Britain's ambitious construction industry is facing an acute structural crisis / due to its chronic failure / to cultivate a resilient domestic forestry sector.",
+          "chunk_translation": "英国雄心勃勃的建筑业正面临着严峻的结构性危机， / 由于其长期未能 / 培育出一个具有韧性的本土林业部门。",
           "syntax": {
             "breakdown": [
               {
@@ -1658,8 +1658,8 @@
           "sentence_index": 1,
           "text": "Forestry bodies are urgently calling for a decisive reduction in the nation's overwhelming reliance on timber imports.",
           "translation": "林业管理机构正紧急呼吁，必须果断降低该国对木材进口的过度依赖。",
-          "slashed_text": "Forestry bodies are urgently calling for / a decisive reduction / in the nation's overwhelming reliance / on timber imports.",
-          "chunk_translation": "各大官方林业机构正在发出紧急呼吁 / 必须坚决实现决定性的削减降低 / 针对全英国对海外木材的压倒性过度依赖 / 在木材进口贸易方面",
+          "slashed_text": "Forestry bodies are urgently calling / for a decisive reduction / in the nation's overwhelming reliance on timber imports.",
+          "chunk_translation": "林业机构正紧急呼吁 / 采取果断措施减少 / 该国对木材进口的过度依赖。",
           "syntax": {
             "breakdown": [
               {
@@ -1686,8 +1686,8 @@
           "sentence_index": 2,
           "text": "Currently, Britain imports more than eighty percent of its construction timber, a staggering proportion that leaves housebuilders dangerously vulnerable to international price fluctuations and geopolitical supply shocks.",
           "translation": "目前，英国超过80%的建筑木材依赖进口，这一令人震惊的比例使得住宅建造商极易受到国际价格波动和地缘政治供应链冲击的影响。",
-          "slashed_text": "Currently , / Britain imports more than eighty percent / of its construction timber , / a staggering proportion / that leaves housebuilders / dangerously vulnerable / to international price fluctuations / and geopolitical supply shocks.",
-          "chunk_translation": "截至目前当下 / 英国超过百分之八十以上的建筑施工原木 / 均完全依赖于跨国采购输入 / 这是一个令人膛目结舌的庞大畸形比例 / 这直接使得广大国内房屋营建商 / 陷入极其危险脆弱的被动境地 / 极易遭受全球市场大宗价格剧烈波动 / 以及地缘政治供应链断裂危机的双重沉重打击",
+          "slashed_text": "Currently , Britain imports more than eighty percent of its construction timber , / a staggering proportion / that leaves housebuilders dangerously vulnerable / to international price fluctuations / and geopolitical supply shocks.",
+          "chunk_translation": "目前，英国80%以上的建筑木材依赖进口， / 这一惊人的比例 / 让房屋建造商处于极其脆弱的境地， / 极易受到国际价格波动 / 和地缘政治供应冲击的影响。",
           "syntax": {
             "breakdown": [
               {
@@ -1714,8 +1714,8 @@
           "sentence_index": 0,
           "text": "To avert an impending supply breakdown, industry executives argue that mandatory requirements for using home-grown timber in low-carbon housing must be introduced.",
           "translation": "为了避免迫在眉睫的供应断裂，行业高管们主张，必须强制推行在低碳住宅建设中使用本国自产木材的规定。",
-          "slashed_text": "To avert an impending supply breakdown , / industry executives argue / that mandatory requirements / for using home-grown timber / in low-carbon housing / must be introduced.",
-          "chunk_translation": "为了彻底规避防范一场迫在眉睫的物资供应断裂危机 / 工业界高管与领军企业代表力陈 / 明确具有法律约束力的刚性强制标准 / 针对在未来各类低碳环保住宅建造中采用本土自产木材 / 必须尽快在国家政策层面正式出台落地",
+          "slashed_text": "To avert an impending supply breakdown , / industry executives argue / that mandatory requirements for using home-grown timber / in low-carbon housing must be introduced.",
+          "chunk_translation": "为了避免迫在眉睫的供应断裂， / 行业高管认为， / 必须引入在低碳住房中 / 使用本土种植木材的强制性要求。",
           "syntax": {
             "breakdown": [
               {
@@ -1742,8 +1742,8 @@
           "sentence_index": 1,
           "text": "Fresh financial incentives are essential to motivate private landowners to invest in domestic commercial woodland.",
           "translation": "同时，必须出台全新的财政激励措施，以激发私人土地所有者投资国内商业林地。",
-          "slashed_text": "Fresh financial incentives are essential / to motivate private landowners / to invest / in domestic commercial woodland.",
-          "chunk_translation": "全新的直接性财政补贴与税收激励措施至关重要 / 唯有如此才能有效调动私人土地拥有者们的积极性 / 推动其将充沛资金长期注入 / 英国本国商业林地的营造与扩大之中",
+          "slashed_text": "Fresh financial incentives are essential / to motivate private landowners / to invest in domestic commercial woodland.",
+          "chunk_translation": "新的财政激励措施至关重要， / 以便激励私人土地所有者 / 投资于本土商业林地。",
           "syntax": {
             "breakdown": [
               {
@@ -1770,8 +1770,8 @@
           "sentence_index": 2,
           "text": "Timber is an unparalleled carbon-storing material, and expanding sustainably managed domestic forests would simultaneously accelerate Britain's net-zero strategy and generate durable wealth for the struggling rural economy.",
           "translation": "木材是一种无与伦比的固碳材料，扩大可持续管理的本土森林，不仅能加速英国实现净零排放战略，还能为陷入困境的乡村经济注入持久的财富动力。",
-          "slashed_text": "Timber is an unparalleled carbon-storing material , / and expanding sustainably managed domestic forests / would simultaneously accelerate / Britain's net-zero strategy / and generate durable wealth / for the struggling rural economy.",
-          "chunk_translation": "木材本质上是一种无可比拟的天然储碳绿色建材 / 而大规模扩展并可持续地经营管理本土人工林木资源 / 将能够同时强劲赋能并加速推进 / 英国既定的国家级净零碳排放战略实施进程 / 并为目前饱受萧条困扰的广大乡村边缘经济 / 持续创造源源不断的稳定繁荣与长久财富",
+          "slashed_text": "Timber is an unparalleled carbon-storing material , / and expanding sustainably managed domestic forests / would simultaneously accelerate Britain's net-zero strategy / and generate durable wealth for the struggling rural economy.",
+          "chunk_translation": "木材是一种无可比拟的储碳材料， / 扩大可持续管理的本土森林面积， / 既能推进英国的净零排放战略， / 又能为举步维艰的农村经济创造持久的财富。",
           "syntax": {
             "breakdown": [
               {
@@ -1798,8 +1798,8 @@
           "sentence_index": 0,
           "text": "However, commercial tree planting faces stubborn institutional hurdles and cultural resistance.",
           "translation": "然而，商业植树造林遭遇了顽固的制度障碍和文化阻力。",
-          "slashed_text": "However , / commercial tree planting faces / stubborn institutional hurdles / and cultural resistance.",
-          "chunk_translation": "然而在实际推进过程中 / 大规模商业植树营造林工程却遭遇到了 / 极其顽固陈旧的制度性掣肘壁垒 / 以及广泛根深蒂固的社会文化抵触情绪",
+          "slashed_text": "However , commercial tree planting faces stubborn institutional hurdles / and cultural resistance.",
+          "chunk_translation": "然而，商业植树面临着顽固的制度障碍 / 和文化阻力。",
           "syntax": {
             "breakdown": [
               {
@@ -1821,8 +1821,8 @@
           "sentence_index": 1,
           "text": "Landowners frequently encounter tangled planning regulations and lengthy bureaucratic delays when attempting to afforest their estates.",
           "translation": "土地所有者在尝试将地产绿化造林时，经常遭遇纷繁复杂的规划规章以及漫长的官僚审批拖延。",
-          "slashed_text": "Landowners frequently encounter / tangled planning regulations / and lengthy bureaucratic delays / when attempting to afforest their estates.",
-          "chunk_translation": "各地私人地主往往频繁碰壁于 / 错综繁复且自相矛盾的规划审批法规条款 / 以及漫长折磨的行政官僚程序性拖延 / 当他们满怀意愿试图将其土地庄园退耕还林之时",
+          "slashed_text": "Landowners frequently encounter tangled planning regulations / and lengthy bureaucratic delays / when attempting to afforest their estates.",
+          "chunk_translation": "土地所有者经常遭遇复杂的规划法规 / 和漫长的官僚拖延， / 当试图在自己的地产上植树造林时。",
           "syntax": {
             "breakdown": [
               {
@@ -1849,8 +1849,8 @@
           "sentence_index": 2,
           "text": "Furthermore, productive commercial conifers are burdened by outdated public perceptions that equate productive timber forests with ecological decimation, despite evidence that modern certified forests harbor rich wildlife and even protect endangered species like the native red squirrel.",
           "translation": "此外，高产商业针叶林还背负着过时的公众偏见——人们往往把商品用材林等同于生态破坏，尽管有充分证据表明，现代经过认证的森林能为丰富野生动物提供栖息地，甚至庇护诸如本土红松鼠这样的濒危物种。",
-          "slashed_text": "Furthermore , / productive commercial conifers are burdened by / outdated public perceptions / that equate productive timber forests / with ecological decimation , / despite evidence / that modern certified forests / harbor rich wildlife / and even protect endangered species / like the native red squirrel.",
-          "chunk_translation": "不仅如此 / 高度兼具经济效益的高产商业针叶针叶林木种植 / 还长期背负着极度过时陈腐的公众刻板成见 / 人们习惯性地机械将人工商品用材林 / 等同于毫无生机的生态大灭绝与自然摧毁 / 尽管科学实证与监测数据早已确凿证明 / 现代经过国际权威认证的可持续林场 / 广泛栖息庇护着极度丰富的野生动植物种群 / 甚至切实保护着极度珍贵脆弱的本土濒危红松鼠",
+          "slashed_text": "Furthermore , productive commercial conifers are burdened / by outdated public perceptions / that equate productive timber forests with ecological decimation , / despite evidence that modern certified forests harbor rich wildlife / and even protect endangered species like the native red squirrel.",
+          "chunk_translation": "此外，高产的商业针叶树林还背负着 / 过时的公众偏见， / 这些偏见将木材林与生态破坏画上等号， / 尽管有证据表明现代认证森林蕴育着丰富的野生动物， / 甚至保护着像本土红松鼠这样的濒危物种。",
           "syntax": {
             "breakdown": [
               {
@@ -1882,8 +1882,8 @@
           "sentence_index": 0,
           "text": "The situation is further complicated by a polarizing clash between timber production and radical rewilding campaigns.",
           "translation": "木材生产与激进的“再野化”运动之间两极分化的冲突，使局面进一步复杂化。",
-          "slashed_text": "The situation is further complicated / by a polarizing clash / between timber production / and radical rewilding campaigns.",
-          "chunk_translation": "眼下的现实困境还在被进一步复杂化放大 / 根源于一场日趋极化撕裂的尖锐针锋相对 / 爆发于国家基础木材生产目标 / 与激进狂热的自然再野化民间倡议之间",
+          "slashed_text": "The situation is further complicated / by a polarizing clash / between timber production and radical rewilding campaigns.",
+          "chunk_translation": "这一局面由于两极分化的冲突 / 而进一步复杂化， / 即木材生产与激进的再野化运动之间的冲突。",
           "syntax": {
             "breakdown": [
               {
@@ -1910,8 +1910,8 @@
           "sentence_index": 1,
           "text": "Many environmental groups advocate exclusively for biodiversity-focused native broadleaf restoration, viewing commercial forestry as an unwelcome intrusion.",
           "translation": "许多环保组织完全只提倡注重生物多样性的本土阔叶林恢复，将商业林业视作不受欢迎的侵扰。",
-          "slashed_text": "Many environmental groups advocate / exclusively for biodiversity-focused native broadleaf restoration , / viewing commercial forestry / as an unwelcome intrusion.",
-          "chunk_translation": "众多环保公益组织与非政府机构普遍仅仅极力主张 / 排他性地推进以纯粹生物多样性为核心的本土阔叶落叶林自然恢复 / 极端武断地将一切现代商业人工林业 / 视为对纯粹大自然格格不入的粗暴侵犯与破坏",
+          "slashed_text": "Many environmental groups advocate exclusively for biodiversity-focused native broadleaf restoration , / viewing commercial forestry as an unwelcome intrusion.",
+          "chunk_translation": "许多环保组织专门倡导恢复以生物多样性为重点的本土阔叶林， / 将商业林业视为不受欢迎的侵扰。",
           "syntax": {
             "breakdown": [
               {
@@ -1938,8 +1938,8 @@
           "sentence_index": 2,
           "text": "Forestry leaders argue that this either-or dichotomy is fundamentally misguided: commercial timber and ecological conservation are complementary partners, not irreconcilable adversaries.",
           "translation": "而林业领袖们则反驳称，这种非此即彼的二元对立在根本上是错误的：商业木材生产与生态环境保护是互补的伙伴，而非不可调和的死敌。",
-          "slashed_text": "Forestry leaders argue that / this either-or dichotomy / is fundamentally misguided : / commercial timber / and ecological conservation / are complementary partners , / not irreconcilable adversaries.",
-          "chunk_translation": "广大林业行业代表人物针锋相对地力辩 / 这种非黑即白、非此即彼的二元割裂思维 / 在本质认识论上存在着极大的认知误区 / 商业木材的可持续产出 / 与自然生态的保护涵养修复 / 实际上是相辅相成、协同共进的孪生伙伴 / 而绝非命中注定势不两立、不可调和的生死冤家",
+          "slashed_text": "Forestry leaders argue / that this either-or dichotomy is fundamentally misguided : / commercial timber and ecological conservation are complementary partners , / not irreconcilable adversaries.",
+          "chunk_translation": "林业领袖们认为， / 这种非此即彼的二元对立从根本上是被误导的： / 商业木材与生态保护是相辅相成的伙伴， / 而不是不可调和的对手。",
           "syntax": {
             "breakdown": [
               {
@@ -1967,7 +1967,7 @@
           "text": "Without coherent government leadership to bridge these conflicting aspirations, Britain will remain shackled to foreign supply chains.",
           "translation": "如果缺乏连贯统一的政府领导来弥合这些相互冲突的诉求，英国将继续受制于外国供应链的枷锁。",
           "slashed_text": "Without coherent government leadership / to bridge these conflicting aspirations , / Britain will remain shackled / to foreign supply chains.",
-          "chunk_translation": "倘若缺乏统一连贯且坚决有力的中央政府顶层设计领导 / 来统筹弥合协调这些看似互相冲突的各方抱负愿景 / 那么大不列颠就将不可逆转地长期被牢牢戴上镣铐 / 深度受制并受困于飘忽不定的海外跨国供应链命脉",
+          "chunk_translation": "如果没有政府统筹有力的领导 / 来调和这些冲突诉求， / 英国将继续受制于 / 外国供应链。",
           "syntax": {
             "breakdown": [
               {
@@ -1994,8 +1994,8 @@
           "sentence_index": 1,
           "text": "Ministers must articulate a holistic national land-use framework that integrates timber self-sufficiency into wider climate targets.",
           "translation": "政府官员们必须明确制定一项全面的国家土地利用框架，将木材自给自足纳入更广泛的气候目标之中。",
-          "slashed_text": "Ministers must articulate / a holistic national land-use framework / that integrates timber self-sufficiency / into wider climate targets.",
-          "chunk_translation": "各部委决策大臣必须清晰权威地构建并阐明 / 一整套兼顾全局的宏观国家级土地利用战略总体框架 / 将实现木材基础供给的自给自足安全防线 / 全面深层次有机整合嵌入到更广阔的国家气候宏伟目标之中",
+          "slashed_text": "Ministers must articulate a holistic national land-use framework / that integrates timber self-sufficiency / into wider climate targets.",
+          "chunk_translation": "部长们必须明确一个全面的国家土地利用框架， / 将木材自给自足 / 纳入更广泛的气候目标之中。",
           "syntax": {
             "breakdown": [
               {
@@ -2022,8 +2022,8 @@
           "sentence_index": 2,
           "text": "Only by harmonizing commercial output with environmental stewardship can the country secure the foundational materials required to build a green economy on home ground.",
           "translation": "唯有将商业产出与环境生态保护有机结合，国家才能在本土奠定构建绿色经济所需的基石材料。",
-          "slashed_text": "Only by harmonizing commercial output / with environmental stewardship / can the country secure / the foundational materials / required to build a green economy / on home ground.",
-          "chunk_translation": "唯有通过切实将商业用材的高效产出 / 与严格崇高的生态环境管护职责统筹调谐在一起 / 全英国才可能从根本上牢牢守护并锁定 / 这些不可或缺的底层支柱性基础建筑原材料 / 从而真正能够依靠本国坚实的大地与资源禀赋 / 构筑起名副其实的内生型绿色低碳崭新经济",
+          "slashed_text": "Only by harmonizing commercial output / with environmental stewardship / can the country secure the foundational materials / required to build a green economy on home ground.",
+          "chunk_translation": "唯有将商业产出 / 与环境管理协调起来， / 该国才能确保获得基础原材料， / 用于在本土建立绿色经济。",
           "syntax": {
             "breakdown": [
               {
@@ -2551,8 +2551,8 @@
           "pid": 0,
           "text": "As the global population ages rapidly, governments and medical associations are wrestling with a deeply sensitive public safety challenge: when and how to convince older drivers to turn over their car keys. While mobility represents independence and self-worth, severe physical or cognitive impairments in elderly motorists pose a substantial risk to road users. Consequently, a growing number of jurisdictions are debating whether physicians should be legally mandated to notify motor vehicle licensing authorities when patients suffer from conditions that impair safe driving.",
           "translation": "随着全球人口迅速老龄化，各国政府和医学协会正面临一项极其敏感的公共安全挑战：在何时以及如何说服高龄驾驶员交出汽车钥匙。尽管出行能力代表着独立性与自我价值，但老年驾驶员严重的身体或认知功能障碍对所有道路使用者构成了实质性风险。因此，越来越多的司法管辖区正在辩论，是否应当通过法律强制要求医生在发现患者患有妨碍安全驾驶的病症时，必须向机动车牌照管理机构通报。",
-          "slashed_text": "As the global population ages rapidly , / governments and medical associations are wrestling with / a deeply sensitive public safety challenge : / when and how to convince older drivers / to turn over their car keys. / While mobility represents independence and self-worth , / severe physical or cognitive impairments / in elderly motorists / pose a substantial risk / to road users. / Consequently , / a growing number of jurisdictions are debating / whether physicians should be legally mandated / to notify motor vehicle licensing authorities / when patients suffer from conditions / that impair safe driving.",
-          "chunk_translation": "伴随着全世界宏观人口老龄化进程的急速加速 / 各国政府决策机构与国家级医学专业行业协会 / 正共同陷入一场极其敏感棘手的公共交通安全治理重大挑战之中 / 即究竟应该在何时、通过何种恰当方式说服老年机动车驾驶人 / 自愿彻底交出他们的汽车钥匙并放弃驾车 / 尽管无障碍的自主通行能力象征着老年群体的独立生活尊严与自我认同价值 / 然而老年机动车驾驶员身上客观出现的重度身体机能衰竭或不可逆认知功能障碍 / 却无可否认地对全体社会公众道路使用者 / 带来了巨大的致命安全风险隐患 / 顺理成章地 / 越来越多国家和地区的立法司法管辖区 / 正在掀起一场关于立法边界的激烈白热化辩论 / 即法律是否应当强制性地责令各科执业临床医生 / 必须无条件向各级官方机动车行驶执照监管当局进行实名通报申报 / 一旦他们接诊发现特定患者罹患有 / 足以直接损害剥夺其安全驾驶能力的特定严重生理或心理疾患",
+          "slashed_text": "As the global population ages rapidly , / governments and medical associations are wrestling / with a deeply sensitive public safety challenge : / when and how to convince older drivers / to turn over their car keys. / While mobility represents independence and self-worth , / severe physical or cognitive impairments in elderly motorists / pose a substantial risk to road users. / Consequently , a growing number of jurisdictions are debating / whether physicians should be legally mandated / to notify motor vehicle licensing authorities / when patients suffer from conditions that impair safe driving.",
+          "chunk_translation": "随着全球人口迅速老龄化， / 政府和医学协会正在应对 / 一项高度敏感的公共安全挑战： / 何时以及如何说服老年驾驶员 / 交出车钥匙。 / 尽管出行能力代表着独立与自我价值， / 但老年驾驶员严重的身体或认知损伤 / 却对道路使用者构成了巨大风险。 / 因此，越来越多的司法管辖区正在争论， / 是否应依法强制要求医生 / 通知机动车驾驶证管理部门， / 当患者患有损害安全驾驶的疾病时。",
           "vocabulary": [
             {
               "word": "wrestle with",
@@ -2615,8 +2615,8 @@
           "pid": 1,
           "text": "For doctors, however, mandatory reporting creates a painful ethical minefield. The cornerstone of the doctor-patient relationship has long been absolute confidentiality. If senior patients realize that candidly disclosing lapses in vision, sudden memory blackouts, or chronic neurological tremors might result in the immediate forfeiture of their driving privileges, many will simply conceal their symptoms or avoid seeing a doctor altogether. In attempting to eliminate traffic hazards, coercive laws might inadvertently inflict far graver health damage on vulnerable seniors.",
           "translation": "然而对医生而言，强制通报制度构成了痛苦的伦理雷区。医患关系的基石长期以来一直是绝对的保密性。如果老年患者意识到坦白承认视力下降、突发性记忆断片或慢性神经震颤会导致他们立即丧失驾驶特权，许多人就会索性隐瞒病情，甚至完全逃避就医。在试图消除交通事故隐患的同时，强制性法律可能会在无意中给脆弱的老年人造成严重得多的健康损害。",
-          "slashed_text": "For doctors , however , / mandatory reporting creates / a painful ethical minefield. / The cornerstone of the doctor-patient relationship / has long been / absolute confidentiality. / If senior patients realize / that candidly disclosing lapses in vision , / sudden memory blackouts , / or chronic neurological tremors / might result in the immediate forfeiture / of their driving privileges , / many will simply conceal their symptoms / or avoid seeing a doctor altogether. / In attempting to eliminate traffic hazards , / coercive laws might inadvertently inflict / far graver health damage / on vulnerable seniors.",
-          "chunk_translation": "然而对于身处一线的广大医疗工作者而言 / 具有法律强制效力的硬性举报通报机制 / 却直接制造出了一片痛苦至极的医德伦理雷区 / 历代以来现代良好医患信任关系的终极立足基石 / 长期以来毫无疑问都建立在 / 绝对且不可侵犯的隐私保密承诺之上 / 倘若广大老年就诊患者清醒地意识到 / 自己一旦向主治医生坦诚相告视力急剧退化模糊的实情 / 或者突发性的短暂记忆意识断片缺失 / 抑或是顽固性慢性神经震颤手抖等潜在隐患 / 极有可能直接招致官方对其合法机动车驾驶特权的即刻吊销没收 / 那么相当数量的老年人就将索性蓄意隐瞒掩盖真实病症 / 甚至彻底抗拒排斥前往正规医疗机构求医看诊 / 试图通过这种手段根除交通安全隐患的立法本意 / 反而会在不经意间给这些脆弱无助的老年群体 / 施加招致远比交通事故本身更加严酷沉重的次生健康毁灭性打击",
+          "slashed_text": "For doctors , however , / mandatory reporting creates a painful ethical minefield. / The cornerstone of the doctor-patient relationship / has long been absolute confidentiality. / If senior patients realize / that candidly disclosing lapses in vision , sudden memory blackouts , or chronic neurological tremors / might result in the immediate forfeiture of their driving privileges , / many will simply conceal their symptoms / or avoid seeing a doctor altogether. / In attempting to eliminate traffic hazards , / coercive laws might inadvertently inflict / far graver health damage on vulnerable seniors.",
+          "chunk_translation": "然而对医生而言， / 强制报告造成了痛苦的伦理雷区。 / 医患关系的基石 / 长期以来一直是绝对保密。 / 如果老年患者意识到， / 如实透露视力减退、突发性记忆缺失或慢性神经性震颤 / 可能会导致立即被剥夺驾驶资格， / 许多人就会直接隐瞒病情， / 或者干脆完全避免就医看病。 / 在试图消除交通隐患的过程中， / 强制性法律可能会无意中造成 / 对脆弱老年人群体更严重的健康伤害。",
           "vocabulary": [
             {
               "word": "minefield",
@@ -2690,8 +2690,8 @@
           "pid": 2,
           "text": "Furthermore, medical professionals emphasize that chronological age alone is an unreliable proxy for driving competence. Aging affects individuals unevenly: an octogenarian may possess exceptional reflexes, while a much younger driver might suffer from debilitating fatigue or substance abuse. Rather than burdening individual clinicians with conflicting policing roles, experts suggest that state licensing bureaus should implement standardized, objective testing protocols—such as mandatory on-road assessments and specialized reaction tests—for all drivers seeking license renewals beyond a specified age threshold.",
           "translation": "此外，专业医学人士强调，单纯的生理年龄并不是衡量驾驶能力的可靠指标。衰老对每个人的影响极不均衡：一位八旬老人可能依然反应敏捷，而一名年轻得多的驾驶员却可能深受严重疲劳或药物滥用的困扰。专家建议，与其将互相冲突的“警察”监管角色强加给临床医生个人，不如由政府牌照主管机构出台标准化、客观化的考核体系——例如针对超过特定年龄界限申请更换驾照的所有驾驶员，强制实施实际路考和专项应急反应测试。",
-          "slashed_text": "Furthermore , / medical professionals emphasize / that chronological age alone / is an unreliable proxy / for driving competence. / Aging affects individuals unevenly : / an octogenarian may possess exceptional reflexes , / while a much younger driver might suffer from / debilitating fatigue / or substance abuse. / Rather than burdening individual clinicians / with conflicting policing roles , / experts suggest / that state licensing bureaus should implement / standardized, objective testing protocols — / such as mandatory on-road assessments / and specialized reaction tests — / for all drivers / seeking license renewals / beyond a specified age threshold.",
-          "chunk_translation": "不仅如此 / 临床医学界权威专家更是反复郑重强调 / 单纯数字意义上的生理实际年龄跨度 / 本质上是一个极其不准确且不可靠的替代衡量指标 / 用于科学评估一个人的真实机动车实际操纵与安全驾驶胜任力 / 衰老机制在不同个体生命上的投射表现存在着极大的不均衡性 / 一位年过八旬的古稀老人完全可能依然保留着超乎常人的卓越敏锐反射神经 / 而另一名年龄明显年轻得多的青年司机却可能长期深陷于 / 导致机能严重虚弱衰退的极度慢性疲劳 / 或者是药物酒精滥用成瘾的毒害深渊之中 / 与其简单粗暴地将这种角色内在严重冲突的准警察式执法监督枷锁 / 硬生生套在肩负治病救人天职的临床医务人员个体身上 / 各方智库与老年医学专家普遍明确建议 / 各州各省的法定机动车行驶牌照主管行政机构理应建立推行 / 更加标准化、科学透明且客观公正的专业技能考核制度规范 / 诸如推行刚性法定的实地真实路况综合评测 / 以及专业化的临场危机应急反应专项测评等多元手段 / 面向全社会所有试图申请进行驾驶证换证更新的驾驶人员 / 只要其年龄跨度超越了预先法定设定的基准门槛线",
+          "slashed_text": "Furthermore , medical professionals emphasize / that chronological age alone / is an unreliable proxy / for driving competence. / Aging affects individuals unevenly : / an octogenarian may possess exceptional reflexes , / while a much younger driver might suffer from debilitating fatigue / or substance abuse. / Rather than burdening individual clinicians / with conflicting policing roles , / experts suggest that state licensing bureaus should implement standardized , objective testing protocols — / such as mandatory on-road assessments and specialized reaction tests — / for all drivers seeking license renewals / beyond a specified age threshold.",
+          "chunk_translation": "此外，医疗专业人士强调， / 单凭生理年龄 / 并不是衡量驾驶能力的 / 可靠指标。 / 衰老对每个人的影响并不均衡： / 一位八十多岁的老人可能拥有出色的反应能力， / 而一位年轻得多的驾驶员却可能遭受极度疲劳 / 或药物滥用的困扰。 / 与其让当事医生承受 / 冲突的执法者角色负担， / 专家建议各州车管部门应推行标准化、客观的测试规程—— / 诸如强制路考和专项反应能力测试—— / 针对所有寻求换领驾照的驾驶员， / 只要超过规定的年龄门槛。",
           "vocabulary": [
             {
               "word": "chronological",
@@ -2760,8 +2760,8 @@
           "pid": 3,
           "text": "Technological advancements also offer promising alternatives to abrupt license revocation. Automotive engineers are actively designing adaptive driver-assistance systems and advanced sensors that can monitor driver alertness, correct unintentional lane departures, and automatically apply emergency braking when collisions are imminent. Looking forward, the maturation of autonomous vehicles promises to comfortably resolve the tension between public road safety and personal freedom, allowing aging seniors to retain seamless mobility without ever touching a steering wheel.",
           "translation": "技术进步也为突然吊销驾照提供了极具前景的替代方案。汽车工程师们正在积极研发自适应辅助驾驶系统和先进传感器，这些技术能够实时监测驾驶员的警觉状态，纠正无意间的车道偏离，并在碰撞迫在眉睫时自动采取紧急制动。展望未来，自动驾驶汽车技术的成熟有望从容化解公共道路安全与个人自由之间的紧张冲突，让年迈的老人即便不再触碰方向盘，也能保留无缝的自主出行能力。",
-          "slashed_text": "Technological advancements also offer / promising alternatives / to abrupt license revocation. / Automotive engineers are actively designing / adaptive driver-assistance systems / and advanced sensors / that can monitor driver alertness , / correct unintentional lane departures , / and automatically apply emergency braking / when collisions are imminent. / Looking forward , / the maturation of autonomous vehicles promises / to comfortably resolve the tension / between public road safety / and personal freedom , / allowing aging seniors / to retain seamless mobility / without ever touching a steering wheel.",
-          "chunk_translation": "现代智能汽车与物联网软硬件前沿技术的飞速演进 / 也正在为替代过去冷酷残酷的一刀切式突发吊销驾驶资格执照手段 / 展现出极具应用潜力与人文关怀的前景替代可能 / 汽车工业界算法专家与顶尖系统工程师正在争分夺秒地研发设计 / 全新一代高精度自适应驾驶员辅助驾驶系统平台 / 以及集成式高灵敏度车载传感器阵列 / 这套系统能够不间断动态智能监测驾驶员眼睑与精神警觉专注状态 / 精准敏锐地自动纠正各种因分心失误造成的非故意偏离车道行为 / 并在系统研判不可逆碰撞险情迫在眉睫的关键毫秒内强行执行自动紧急刹车避险 / 极目远眺更加广阔的未来社会图景 / 真正完全无人驾驶的高级别自动驾驶汽车技术的全面商用成熟 / 更是展现出了终极妥善化解公共道路交通集体安全底线 / 与公民个体行动自由权利这两大古老价值冲突维度的希望曙光 / 从而真正能够赋予并允许日趋老龄化的老年社会群体 / 永久保留属于他们的无障碍从容顺畅出行通行能力 / 哪怕他们的双手终其一生再也无需触碰方向盘与机械脚踏板半分半厘",
+          "slashed_text": "Technological advancements / also offer promising alternatives / to abrupt license revocation. / Automotive engineers are actively designing adaptive driver-assistance systems / and advanced sensors / that can monitor driver alertness , / correct unintentional lane departures , / and automatically apply emergency braking / when collisions are imminent. / Looking forward , / the maturation of autonomous vehicles / promises to comfortably resolve the tension / between public road safety and personal freedom , / allowing aging seniors to retain seamless mobility / without ever touching a steering wheel.",
+          "chunk_translation": "技术的进步 / 也提供了充满希望的替代方案， / 避免突然吊销驾照。 / 汽车工程师正在积极设计自适应辅助驾驶系统 / 和先进传感器， / 能够监测驾驶员的警觉状态， / 纠正无意的车道偏离， / 并在发生碰撞在即时 / 自动实施紧急制动。 / 展望未来， / 自动驾驶汽车的成熟 / 有望妥善化解这种紧张关系， / 即在公共道路安全与个人自由之间， / 让老年人无需触碰方向盘 / 就能保持顺畅的出行能力。",
           "vocabulary": [
             {
               "word": "abrupt",
@@ -2824,8 +2824,8 @@
           "pid": 4,
           "text": "Until autonomous transportation becomes universally accessible, however, society must adopt a compassionate, multifaceted strategy. Addressing senior driving requires replacing fragmented, piecemeal mandates with collaborative community transit solutions, subsidized ride-sharing programs, and objective functional evaluations. True road safety should never be achieved by converting trusted healthcare healers into reluctant law enforcement proxies.",
           "translation": "然而，在自动驾驶交通工具普惠普及之前，全社会必须采取一种富有同情心的多元化战略。妥善解决高龄驾驶问题，需要用协作式的社区公共交通方案、带有补贴的共享出行计划以及客观的功能性能力评估，来取代零敲碎打、支离破碎的硬性通报规定。真正的道路安全绝不应当建立在把备受信赖的医务工作者转变为不情愿的执法代理人之上。",
-          "slashed_text": "Until autonomous transportation becomes universally accessible , / however , / society must adopt / a compassionate, multifaceted strategy. / Addressing senior driving requires / replacing fragmented, piecemeal mandates / with collaborative community transit solutions , / subsidized ride-sharing programs , / and objective functional evaluations. / True road safety should never be achieved / by converting trusted healthcare healers / into reluctant law enforcement proxies.",
-          "chunk_translation": "然而在全自动智能交通彻底演变为人人触手可及的普惠日常现实之前 / 整个现代文明社会体系 / 必须果断摒弃简单生硬的单维思维，转而采纳践行 / 一整套充满人道温情与系统深度的多元协同治理新战略 / 唯有科学系统妥善化解解决老年人驾驶出行的深刻时代挑战 / 才迫切需要彻底终结并取代过去那种各自为政、零碎孤立且漏洞百出的硬性行政通报指令 / 真正通过制度创新大力引入由全社区深度共建协同的公共慢行交通支持系统 / 配套推出政府专项财政兜底补贴的定制化无障碍叫车合乘出行援助工程 / 以及推行全面科学严谨且客观公平的实际机能综合医学与功能评估机制 / 崇高至善的真正道路交通文明与全员安全底线 / 绝不应该建立在逼迫世人将悬壶济世、深受广大患者无条件托付信赖的医者仁心 / 强行异化蜕变为满心抵触不情愿的变相治安行政执法傀儡代理人这一悲剧之上",
+          "slashed_text": "Until autonomous transportation becomes universally accessible , / however , / society must adopt a compassionate , multifaceted strategy. / Addressing senior driving requires replacing fragmented , piecemeal mandates / with collaborative community transit solutions , / subsidized ride-sharing programs , / and objective functional evaluations. / True road safety / should never be achieved / by converting trusted healthcare healers / into reluctant law enforcement proxies.",
+          "chunk_translation": "然而，在自动驾驶交通工具普惠普及之前， / 社会必须采取兼顾关怀 / 与多维度的综合策略。 / 解决老年人驾驶问题需要取代零散片面的行政命令， / 转向社区协同公共交通方案、 / 补贴拼车出行项目 / 以及客观的功能评估。 / 真正的道路安全 / 绝不应当通过 / 将值得信赖的医护救治者 / 变成不情愿的执法代理人来实现。",
           "vocabulary": [
             {
               "word": "compassionate",
@@ -2893,8 +2893,8 @@
           "sentence_index": 0,
           "text": "As the global population ages rapidly, governments and medical associations are wrestling with a deeply sensitive public safety challenge: when and how to convince older drivers to turn over their car keys.",
           "translation": "随着全球人口迅速老龄化，各国政府和医学协会正面临一项极其敏感的公共安全挑战：在何时以及如何说服高龄驾驶员交出汽车钥匙。",
-          "slashed_text": "As the global population ages rapidly , / governments and medical associations are wrestling with / a deeply sensitive public safety challenge : / when and how to convince older drivers / to turn over their car keys.",
-          "chunk_translation": "伴随着全世界宏观人口老龄化进程的急速加速 / 各国政府决策机构与国家级医学专业行业协会 / 正共同陷入一场极其敏感棘手的公共交通安全治理重大挑战之中 / 即究竟应该在何时、通过何种恰当方式说服老年机动车驾驶人 / 自愿彻底交出他们的汽车钥匙并放弃驾车",
+          "slashed_text": "As the global population ages rapidly , / governments and medical associations are wrestling / with a deeply sensitive public safety challenge : / when and how to convince older drivers / to turn over their car keys.",
+          "chunk_translation": "随着全球人口迅速老龄化， / 政府和医学协会正在应对 / 一项高度敏感的公共安全挑战： / 何时以及如何说服老年驾驶员 / 交出车钥匙。",
           "syntax": {
             "breakdown": [
               {
@@ -2921,8 +2921,8 @@
           "sentence_index": 1,
           "text": "While mobility represents independence and self-worth, severe physical or cognitive impairments in elderly motorists pose a substantial risk to road users.",
           "translation": "尽管出行能力代表着独立性与自我价值，但老年驾驶员严重的身体或认知功能障碍对所有道路使用者构成了实质性风险。",
-          "slashed_text": "While mobility represents independence and self-worth , / severe physical or cognitive impairments / in elderly motorists / pose a substantial risk / to road users.",
-          "chunk_translation": "尽管无障碍的自主通行能力象征着老年群体的独立生活尊严与自我认同价值 / 然而老年机动车驾驶员身上客观出现的重度身体机能衰竭或不可逆认知功能障碍 / 却无可否认地对全体社会公众道路使用者 / 带来了巨大的致命安全风险隐患",
+          "slashed_text": "While mobility represents independence and self-worth , / severe physical or cognitive impairments in elderly motorists / pose a substantial risk to road users.",
+          "chunk_translation": "尽管出行能力代表着独立与自我价值， / 但老年驾驶员严重的身体或认知损伤 / 却对道路使用者构成了巨大风险。",
           "syntax": {
             "breakdown": [
               {
@@ -2949,8 +2949,8 @@
           "sentence_index": 2,
           "text": "Consequently, a growing number of jurisdictions are debating whether physicians should be legally mandated to notify motor vehicle licensing authorities when patients suffer from conditions that impair safe driving.",
           "translation": "因此，越来越多的司法管辖区正在辩论，是否应当通过法律强制要求医生在发现患者患有妨碍安全驾驶的病症时，必须向机动车牌照管理机构通报。",
-          "slashed_text": "Consequently , / a growing number of jurisdictions are debating / whether physicians should be legally mandated / to notify motor vehicle licensing authorities / when patients suffer from conditions / that impair safe driving.",
-          "chunk_translation": "顺理成章地 / 越来越多国家和地区的立法司法管辖区 / 正在掀起一场关于立法边界的激烈白热化辩论 / 即法律是否应当强制性地责令各科执业临床医生 / 必须无条件向各级官方机动车行驶执照监管当局进行实名通报申报 / 一旦他们接诊发现特定患者罹患有 / 足以直接损害剥夺其安全驾驶能力的特定严重生理或心理疾患",
+          "slashed_text": "Consequently , a growing number of jurisdictions are debating / whether physicians should be legally mandated / to notify motor vehicle licensing authorities / when patients suffer from conditions that impair safe driving.",
+          "chunk_translation": "因此，越来越多的司法管辖区正在争论， / 是否应依法强制要求医生 / 通知机动车驾驶证管理部门， / 当患者患有损害安全驾驶的疾病时。",
           "syntax": {
             "breakdown": [
               {
@@ -2977,8 +2977,8 @@
           "sentence_index": 0,
           "text": "For doctors, however, mandatory reporting creates a painful ethical minefield.",
           "translation": "然而对医生而言，强制通报制度构成了痛苦的伦理雷区。",
-          "slashed_text": "For doctors , however , / mandatory reporting creates / a painful ethical minefield.",
-          "chunk_translation": "然而对于身处一线的广大医疗工作者而言 / 具有法律强制效力的硬性举报通报机制 / 却直接制造出了一片痛苦至极的医德伦理雷区",
+          "slashed_text": "For doctors , however , / mandatory reporting creates a painful ethical minefield.",
+          "chunk_translation": "然而对医生而言， / 强制报告造成了痛苦的伦理雷区。",
           "syntax": {
             "breakdown": [
               {
@@ -3000,8 +3000,8 @@
           "sentence_index": 1,
           "text": "The cornerstone of the doctor-patient relationship has long been absolute confidentiality.",
           "translation": "医患关系的基石长期以来一直是绝对的保密性。",
-          "slashed_text": "The cornerstone of the doctor-patient relationship / has long been / absolute confidentiality.",
-          "chunk_translation": "历代以来现代良好医患信任关系的终极立足基石 / 长期以来毫无疑问都建立在 / 绝对且不可侵犯的隐私保密承诺之上",
+          "slashed_text": "The cornerstone of the doctor-patient relationship / has long been absolute confidentiality.",
+          "chunk_translation": "医患关系的基石 / 长期以来一直是绝对保密。",
           "syntax": {
             "breakdown": [
               {
@@ -3023,8 +3023,8 @@
           "sentence_index": 2,
           "text": "If senior patients realize that candidly disclosing lapses in vision, sudden memory blackouts, or chronic neurological tremors might result in the immediate forfeiture of their driving privileges, many will simply conceal their symptoms or avoid seeing a doctor altogether.",
           "translation": "如果老年患者意识到坦白承认视力下降、突发性记忆断片或慢性神经震颤会导致他们立即丧失驾驶特权，许多人就会索性隐瞒病情，甚至完全逃避就医。",
-          "slashed_text": "If senior patients realize / that candidly disclosing lapses in vision , / sudden memory blackouts , / or chronic neurological tremors / might result in the immediate forfeiture / of their driving privileges , / many will simply conceal their symptoms / or avoid seeing a doctor altogether.",
-          "chunk_translation": "倘若广大老年就诊患者清醒地意识到 / 自己一旦向主治医生坦诚相告视力急剧退化模糊的实情 / 或者突发性的短暂记忆意识断片缺失 / 抑或是顽固性慢性神经震颤手抖等潜在隐患 / 极有可能直接招致官方对其合法机动车驾驶特权的即刻吊销没收 / 那么相当数量的老年人就将索性蓄意隐瞒掩盖真实病症 / 甚至彻底抗拒排斥前往正规医疗机构求医看诊",
+          "slashed_text": "If senior patients realize / that candidly disclosing lapses in vision , sudden memory blackouts , or chronic neurological tremors / might result in the immediate forfeiture of their driving privileges , / many will simply conceal their symptoms / or avoid seeing a doctor altogether.",
+          "chunk_translation": "如果老年患者意识到， / 如实透露视力减退、突发性记忆缺失或慢性神经性震颤 / 可能会导致立即被剥夺驾驶资格， / 许多人就会直接隐瞒病情， / 或者干脆完全避免就医看病。",
           "syntax": {
             "breakdown": [
               {
@@ -3051,8 +3051,8 @@
           "sentence_index": 3,
           "text": "In attempting to eliminate traffic hazards, coercive laws might inadvertently inflict far graver health damage on vulnerable seniors.",
           "translation": "在试图消除交通事故隐患的同时，强制性法律可能会在无意中给脆弱的老年人造成严重得多的健康损害。",
-          "slashed_text": "In attempting to eliminate traffic hazards , / coercive laws might inadvertently inflict / far graver health damage / on vulnerable seniors.",
-          "chunk_translation": "试图通过这种手段根除交通安全隐患的立法本意 / 反而会在不经意间给这些脆弱无助的老年群体 / 施加招致远比交通事故本身更加严酷沉重的次生健康毁灭性打击",
+          "slashed_text": "In attempting to eliminate traffic hazards , / coercive laws might inadvertently inflict / far graver health damage on vulnerable seniors.",
+          "chunk_translation": "在试图消除交通隐患的过程中， / 强制性法律可能会无意中造成 / 对脆弱老年人群体更严重的健康伤害。",
           "syntax": {
             "breakdown": [
               {
@@ -3079,8 +3079,8 @@
           "sentence_index": 0,
           "text": "Furthermore, medical professionals emphasize that chronological age alone is an unreliable proxy for driving competence.",
           "translation": "此外，专业医学人士强调，单纯的生理年龄并不是衡量驾驶能力的可靠指标。",
-          "slashed_text": "Furthermore , / medical professionals emphasize / that chronological age alone / is an unreliable proxy / for driving competence.",
-          "chunk_translation": "不仅如此 / 临床医学界权威专家更是反复郑重强调 / 单纯数字意义上的生理实际年龄跨度 / 本质上是一个极其不准确且不可靠的替代衡量指标 / 用于科学评估一个人的真实机动车实际操纵与安全驾驶胜任力",
+          "slashed_text": "Furthermore , medical professionals emphasize / that chronological age alone / is an unreliable proxy / for driving competence.",
+          "chunk_translation": "此外，医疗专业人士强调， / 单凭生理年龄 / 并不是衡量驾驶能力的 / 可靠指标。",
           "syntax": {
             "breakdown": [
               {
@@ -3102,8 +3102,8 @@
           "sentence_index": 1,
           "text": "Aging affects individuals unevenly: an octogenarian may possess exceptional reflexes, while a much younger driver might suffer from debilitating fatigue or substance abuse.",
           "translation": "衰老对每个人的影响极不均衡：一位八旬老人可能依然反应敏捷，而一名年轻得多的驾驶员却可能深受严重疲劳或药物滥用的困扰。",
-          "slashed_text": "Aging affects individuals unevenly : / an octogenarian may possess exceptional reflexes , / while a much younger driver might suffer from / debilitating fatigue / or substance abuse.",
-          "chunk_translation": "衰老机制在不同个体生命上的投射表现存在着极大的不均衡性 / 一位年过八旬的古稀老人完全可能依然保留着超乎常人的卓越敏锐反射神经 / 而另一名年龄明显年轻得多的青年司机却可能长期深陷于 / 导致机能严重虚弱衰退的极度慢性疲劳 / 或者是药物酒精滥用成瘾的毒害深渊之中",
+          "slashed_text": "Aging affects individuals unevenly : / an octogenarian may possess exceptional reflexes , / while a much younger driver might suffer from debilitating fatigue / or substance abuse.",
+          "chunk_translation": "衰老对每个人的影响并不均衡： / 一位八十多岁的老人可能拥有出色的反应能力， / 而一位年轻得多的驾驶员却可能遭受极度疲劳 / 或药物滥用的困扰。",
           "syntax": {
             "breakdown": [
               {
@@ -3130,8 +3130,8 @@
           "sentence_index": 2,
           "text": "Rather than burdening individual clinicians with conflicting policing roles, experts suggest that state licensing bureaus should implement standardized, objective testing protocols—such as mandatory on-road assessments and specialized reaction tests—for all drivers seeking license renewals beyond a specified age threshold.",
           "translation": "专家建议，与其将互相冲突的“警察”监管角色强加给临床医生个人，不如由政府牌照主管机构出台标准化、客观化的考核体系——例如针对超过特定年龄界限申请更换驾照的所有驾驶员，强制实施实际路考和专项应急反应测试。",
-          "slashed_text": "Rather than burdening individual clinicians / with conflicting policing roles , / experts suggest / that state licensing bureaus should implement / standardized, objective testing protocols — / such as mandatory on-road assessments / and specialized reaction tests — / for all drivers / seeking license renewals / beyond a specified age threshold.",
-          "chunk_translation": "与其简单粗暴地将这种角色内在严重冲突的准警察式执法监督枷锁 / 硬生生套在肩负治病救人天职的临床医务人员个体身上 / 各方智库与老年医学专家普遍明确建议 / 各州各省的法定机动车行驶牌照主管行政机构理应建立推行 / 更加标准化、科学透明且客观公正的专业技能考核制度规范 / 诸如推行刚性法定的实地真实路况综合评测 / 以及专业化的临场危机应急反应专项测评等多元手段 / 面向全社会所有试图申请进行驾驶证换证更新的驾驶人员 / 只要其年龄跨度超越了预先法定设定的基准门槛线",
+          "slashed_text": "Rather than burdening individual clinicians / with conflicting policing roles , / experts suggest that state licensing bureaus should implement standardized , objective testing protocols — / such as mandatory on-road assessments and specialized reaction tests — / for all drivers seeking license renewals / beyond a specified age threshold.",
+          "chunk_translation": "与其让当事医生承受 / 冲突的执法者角色负担， / 专家建议各州车管部门应推行标准化、客观的测试规程—— / 诸如强制路考和专项反应能力测试—— / 针对所有寻求换领驾照的驾驶员， / 只要超过规定的年龄门槛。",
           "syntax": {
             "breakdown": [
               {
@@ -3158,8 +3158,8 @@
           "sentence_index": 0,
           "text": "Technological advancements also offer promising alternatives to abrupt license revocation.",
           "translation": "技术进步也为突然吊销驾照提供了极具前景的替代方案。",
-          "slashed_text": "Technological advancements also offer / promising alternatives / to abrupt license revocation.",
-          "chunk_translation": "现代智能汽车与物联网软硬件前沿技术的飞速演进 / 也正在为替代过去冷酷残酷的一刀切式突发吊销驾驶资格执照手段 / 展现出极具应用潜力与人文关怀的前景替代可能",
+          "slashed_text": "Technological advancements / also offer promising alternatives / to abrupt license revocation.",
+          "chunk_translation": "技术的进步 / 也提供了充满希望的替代方案， / 避免突然吊销驾照。",
           "syntax": {
             "breakdown": [
               {
@@ -3181,8 +3181,8 @@
           "sentence_index": 1,
           "text": "Automotive engineers are actively designing adaptive driver-assistance systems and advanced sensors that can monitor driver alertness, correct unintentional lane departures, and automatically apply emergency braking when collisions are imminent.",
           "translation": "汽车工程师们正在积极研发自适应辅助驾驶系统和先进传感器，这些技术能够实时监测驾驶员的警觉状态，纠正无意间的车道偏离，并在碰撞迫在眉睫时自动采取紧急制动。",
-          "slashed_text": "Automotive engineers are actively designing / adaptive driver-assistance systems / and advanced sensors / that can monitor driver alertness , / correct unintentional lane departures , / and automatically apply emergency braking / when collisions are imminent.",
-          "chunk_translation": "汽车工业界算法专家与顶尖系统工程师正在争分夺秒地研发设计 / 全新一代高精度自适应驾驶员辅助驾驶系统平台 / 以及集成式高灵敏度车载传感器阵列 / 这套系统能够不间断动态智能监测驾驶员眼睑与精神警觉专注状态 / 精准敏锐地自动纠正各种因分心失误造成的非故意偏离车道行为 / 并在系统研判不可逆碰撞险情迫在眉睫的关键毫秒内强行执行自动紧急刹车避险",
+          "slashed_text": "Automotive engineers are actively designing adaptive driver-assistance systems / and advanced sensors / that can monitor driver alertness , / correct unintentional lane departures , / and automatically apply emergency braking / when collisions are imminent.",
+          "chunk_translation": "汽车工程师正在积极设计自适应辅助驾驶系统 / 和先进传感器， / 能够监测驾驶员的警觉状态， / 纠正无意的车道偏离， / 并在发生碰撞在即时 / 自动实施紧急制动。",
           "syntax": {
             "breakdown": [
               {
@@ -3209,8 +3209,8 @@
           "sentence_index": 2,
           "text": "Looking forward, the maturation of autonomous vehicles promises to comfortably resolve the tension between public road safety and personal freedom, allowing aging seniors to retain seamless mobility without ever touching a steering wheel.",
           "translation": "展望未来，自动驾驶汽车技术的成熟有望从容化解公共道路安全与个人自由之间的紧张冲突，让年迈的老人即便不再触碰方向盘，也能保留无缝的自主出行能力。",
-          "slashed_text": "Looking forward , / the maturation of autonomous vehicles promises / to comfortably resolve the tension / between public road safety / and personal freedom , / allowing aging seniors / to retain seamless mobility / without ever touching a steering wheel.",
-          "chunk_translation": "极目远眺更加广阔的未来社会图景 / 真正完全无人驾驶的高级别自动驾驶汽车技术的全面商用成熟 / 更是展现出了终极妥善化解公共道路交通集体安全底线 / 与公民个体行动自由权利这两大古老价值冲突维度的希望曙光 / 从而真正能够赋予并允许日趋老龄化的老年社会群体 / 永久保留属于他们的无障碍从容顺畅出行通行能力 / 哪怕他们的双手终其一生再也无需触碰方向盘与机械脚踏板半分半厘",
+          "slashed_text": "Looking forward , / the maturation of autonomous vehicles / promises to comfortably resolve the tension / between public road safety and personal freedom , / allowing aging seniors to retain seamless mobility / without ever touching a steering wheel.",
+          "chunk_translation": "展望未来， / 自动驾驶汽车的成熟 / 有望妥善化解这种紧张关系， / 即在公共道路安全与个人自由之间， / 让老年人无需触碰方向盘 / 就能保持顺畅的出行能力。",
           "syntax": {
             "breakdown": [
               {
@@ -3237,8 +3237,8 @@
           "sentence_index": 0,
           "text": "Until autonomous transportation becomes universally accessible, however, society must adopt a compassionate, multifaceted strategy.",
           "translation": "然而，在自动驾驶交通工具普惠普及之前，全社会必须采取一种富有同情心的多元化战略。",
-          "slashed_text": "Until autonomous transportation becomes universally accessible , / however , / society must adopt / a compassionate, multifaceted strategy.",
-          "chunk_translation": "然而在全自动智能交通彻底演变为人人触手可及的普惠日常现实之前 / 整个现代文明社会体系 / 必须果断摒弃简单生硬的单维思维，转而采纳践行 / 一整套充满人道温情与系统深度的多元协同治理新战略",
+          "slashed_text": "Until autonomous transportation becomes universally accessible , / however , / society must adopt a compassionate , multifaceted strategy.",
+          "chunk_translation": "然而，在自动驾驶交通工具普惠普及之前， / 社会必须采取兼顾关怀 / 与多维度的综合策略。",
           "syntax": {
             "breakdown": [
               {
@@ -3265,8 +3265,8 @@
           "sentence_index": 1,
           "text": "Addressing senior driving requires replacing fragmented, piecemeal mandates with collaborative community transit solutions, subsidized ride-sharing programs, and objective functional evaluations.",
           "translation": "妥善解决高龄驾驶问题，需要用协作式的社区公共交通方案、带有补贴的共享出行计划以及客观的功能性能力评估，来取代零敲碎打、支离破碎的硬性通报规定。",
-          "slashed_text": "Addressing senior driving requires / replacing fragmented, piecemeal mandates / with collaborative community transit solutions , / subsidized ride-sharing programs , / and objective functional evaluations.",
-          "chunk_translation": "唯有科学系统妥善化解解决老年人驾驶出行的深刻时代挑战 / 才迫切需要彻底终结并取代过去那种各自为政、零碎孤立且漏洞百出的硬性行政通报指令 / 真正通过制度创新大力引入由全社区深度共建协同的公共慢行交通支持系统 / 配套推出政府专项财政兜底补贴的定制化无障碍叫车合乘出行援助工程 / 以及推行全面科学严谨且客观公平的实际机能综合医学与功能评估机制",
+          "slashed_text": "Addressing senior driving requires replacing fragmented , piecemeal mandates / with collaborative community transit solutions , / subsidized ride-sharing programs , / and objective functional evaluations.",
+          "chunk_translation": "解决老年人驾驶问题需要取代零散片面的行政命令， / 转向社区协同公共交通方案、 / 补贴拼车出行项目 / 以及客观的功能评估。",
           "syntax": {
             "breakdown": [
               {
@@ -3293,8 +3293,8 @@
           "sentence_index": 2,
           "text": "True road safety should never be achieved by converting trusted healthcare healers into reluctant law enforcement proxies.",
           "translation": "真正的道路安全绝不应当建立在把备受信赖的医务工作者转变为不情愿的执法代理人之上。",
-          "slashed_text": "True road safety should never be achieved / by converting trusted healthcare healers / into reluctant law enforcement proxies.",
-          "chunk_translation": "崇高至善的真正道路交通文明与全员安全底线 / 绝不应该建立在逼迫世人将悬壶济世、深受广大患者无条件托付信赖的医者仁心 / 强行异化蜕变为满心抵触不情愿的变相治安行政执法傀儡代理人这一悲剧之上",
+          "slashed_text": "True road safety / should never be achieved / by converting trusted healthcare healers / into reluctant law enforcement proxies.",
+          "chunk_translation": "真正的道路安全 / 绝不应当通过 / 将值得信赖的医护救治者 / 变成不情愿的执法代理人来实现。",
           "syntax": {
             "breakdown": [
               {
@@ -3809,8 +3809,8 @@
           "pid": 0,
           "text": "Millions of health-conscious consumers today take advantage of connected fitness trackers and wellness applications to keep track of their sleep patterns, heart rates, and mental well-being. However, while users readily input a great deal of intimate biometric data into these digital devices, few realize that existing legal frameworks fail to safeguard their privacy. Most consumers assume their health metrics enjoy comprehensive legal shields, yet the reality is that non-clinical health data remains largely exposed to unregulated commercial exploitation.",
           "translation": "如今，数以百万计注重健康的消费者利用互联健身手环和健康应用程序，来追踪自己的睡眠模式、心率以及心理健康状态。然而，尽管用户毫不迟疑地将大量极其私密的生物识别数据输入这些数字设备，却鲜有人意识到现行的法律框架根本无法保护他们的隐私。大多数消费者理所当然地认为自己的健康数据享有全面的法律庇护，然而残酷的现实是，非临床健康数据在很大程度上仍暴露在不受监管的商业牟利开发之下。",
-          "slashed_text": "Millions of health-conscious consumers today / take advantage of connected fitness trackers / and wellness applications / to keep track of their sleep patterns , / heart rates , / and mental well-being. / However , / while users readily input / a great deal of intimate biometric data / into these digital devices , / few realize / that existing legal frameworks / fail to safeguard their privacy. / Most consumers assume / their health metrics enjoy / comprehensive legal shields , / yet the reality is / that non-clinical health data / remains largely exposed / to unregulated commercial exploitation.",
-          "chunk_translation": "如今数以千万计高度关注身心健康的普通消费者 / 普遍非常热衷于借助佩戴各类智能互联健身手环 / 以及形形色色的手机身心健康管理应用程序 / 用以随时随地精准记录追踪他们每日的夜间睡眠周期规律 / 动态心率波动曲线 / 以及心理精神压力健康指数 / 然而残酷的真相在于 / 尽管广大用户毫不设防地主动输入录入 / 浩如烟海的极度隐秘个人生物识别特征数据信息 / 到这些看似贴心方便的便携数字消费电子设备之中 / 却极少有人能够清醒深刻地认识到 / 当下现行适用的国家法定监管法律架构 / 事实上完全未能提供有效可靠的隐私保护屏障 / 绝大多数普通消费者总是主观盲目地假定认为 / 他们上传的各项身体生理健康核心指标数据 / 必然受制并享有全方位的国家级法定隐私盾牌庇护 / 可冷酷的现实却是 / 产生于医院临床诊疗环境之外的非临床健康大数据 / 在极大程度上依然赤裸裸暴露于 / 处于野蛮生长且完全缺乏法制监管的商业化逐利变现掠夺之中",
+          "slashed_text": "Millions of health-conscious consumers today / take advantage of connected fitness trackers and wellness applications / to keep track of their sleep patterns , / heart rates , / and mental well-being. / However , while users readily input a great deal of intimate biometric data / into these digital devices , / few realize / that existing legal frameworks fail to safeguard their privacy. / Most consumers assume their health metrics enjoy comprehensive legal shields , / yet the reality is / that non-clinical health data / remains largely exposed / to unregulated commercial exploitation.",
+          "chunk_translation": "当今数百万注重健康的消费者 / 利用联网的健康运动追踪器和健康类应用 / 来记录自己的睡眠模式、 / 心率 / 以及心理健康状况。 / 然而，尽管用户欣然将大量私密的生物特征数据输入 / 这些数字化设备中， / 却很少有人意识到 / 现有的法律框架未能有效保障他们的隐私。 / 大多数消费者假定自己的健康指标受到全面的法律保护， / 但现实却是， / 非临床健康数据 / 基本上暴露于 / 未受监管的商业化利用之中。",
           "vocabulary": [
             {
               "word": "health-conscious",
@@ -3873,8 +3873,8 @@
           "pid": 1,
           "text": "This dangerous vulnerability stems primarily from the narrow scope of traditional legislation. In the United States, the venerable Health Insurance Portability and Accountability Act (HIPAA) strictly restricts how hospitals, clinics, and insurance companies manage medical records. Crucially, however, HIPAA was drafted long before the dawn of the smartphone era. Because wearable manufacturers and app developers are not considered 'covered medical entities' under the statute, they operate in a legal gray zone, freely analyzing and monetizing sensitive user data without explicit consent.",
           "translation": "这种危险的漏洞主要源于传统法律狭隘的适用范围。在美国，历史悠久的《健康保险流通与责任法案》（HIPAA）严格限制了医院、诊所和保险公司管理医疗档案的方式。然而至关重要的是，HIPAA的起草远在智能手机时代曙光破晓之前。因为可穿戴设备制造商和应用程序开发者在该法规下并不被视作“受保护的医疗实体”，他们便游走在法律灰色地带，在未经用户明确同意的情况下随意分析敏感数据并将其商业变现。",
-          "slashed_text": "This dangerous vulnerability stems primarily / from the narrow scope of traditional legislation. / In the United States , / the venerable Health Insurance Portability and Accountability Act (HIPAA) / strictly restricts / how hospitals, clinics, and insurance companies / manage medical records. / Crucially , however , / HIPAA was drafted / long before the dawn of the smartphone era. / Because wearable manufacturers and app developers / are not considered 'covered medical entities' / under the statute , / they operate in a legal gray zone , / freely analyzing and monetizing sensitive user data / without explicit consent.",
-          "chunk_translation": "这种高度危险的致命制度漏洞与信息真空 / 从根本源头上主要衍生自 / 传统既有卫生立法过于狭隘僵化的管辖适用边界 / 在美利坚合众国 / 具有极高法律威严与悠久历史的《健康保险可携性与责任法案》（HIPAA） / 确实极其严苛地立法限制规范了 / 各级正规综合医院、专科门诊诊所以及商业医疗健康保险公司 / 在日常管理处置患者病历医疗机密档案时的法定程序 / 然而最为致命的根本痛点在于 / HIPAA法案最初制定起草颁布的时间节点 / 远远早于现代移动互联网与智能手机时代的破晓黎明之前 / 正因为当今庞大的可穿戴硬件生产厂商与各类健康管理App软件开发运营者 / 在这部过时的法律条文范畴定义下绝不属于所谓的“受法律监管医疗实体” / 导致他们长期游刃有余地穿梭游走于无法可依的巨大法律灰色地带之中 / 肆无忌惮地深度挖掘分析并私自变现转售用户极度敏感的身体健康大数据 / 而根本无需事先征得用户任何真实有效的书面明示授权同意",
+          "slashed_text": "This dangerous vulnerability / stems primarily / from the narrow scope of traditional legislation. / In the United States , / the venerable Health Insurance Portability and Accountability Act (HIPAA) / strictly restricts / how hospitals , clinics , and insurance companies manage medical records. / Crucially , however , / HIPAA was drafted / long before the dawn of the smartphone era. / Because wearable manufacturers and app developers / are not considered 'covered medical entities' / under the statute , / they operate in a legal gray zone , / freely analyzing and monetizing sensitive user data / without explicit consent.",
+          "chunk_translation": "这种危险的漏洞脆弱性 / 主要源于 / 传统法律条文适用的狭隘范围。 / 在美国， / 具有悠久历史的《健康保险可携性与责任法案》（HIPAA） / 严格限制了 / 医院、诊所和保险公司管理医疗记录的方式。 / 然而至关重要的一点是， / 该法案起草的时间 / 远在智能手机时代来临之前。 / 由于可穿戴设备制造商和应用程序开发商 / 不被视为“受保护的医疗实体” / 在该法规的管辖下， / 他们在法律灰色地带运作， / 随意分析敏感用户数据并将其变现， / 而无需取得用户的明示同意。",
           "vocabulary": [
             {
               "word": "vulnerability",
@@ -3939,7 +3939,7 @@
           "text": "Regulators are belatedly attempting to rein in these pervasive abuses. The Federal Trade Commission (FTC) recently concluded high-profile investigations alleging that prominent fertility tracking platforms shared users' sensitive menstrual cycles and ovulation dates with third-party advertisers. By issuing stern consent orders, the commission mandated deceptive firms to purge illicitly gathered databases and prohibited future disclosures without express affirmative consent, signaling a more aggressive regulatory posture toward digital health brokers.",
           "translation": "监管机构正迟缓地试图遏制这些普遍存在的滥用行径。美国联邦贸易委员会（FTC）近期完成了一系列高调的调查，指控知名经期与排卵追踪平台将用户的月经周期和排卵日期等敏感隐私与第三方广告商共享。通过发布严厉的行政和解指令，该委员会强制要求欺诈性企业彻底清除违法收集的数据库，并禁止在未经用户明确肯定同意的情况下进行任何未来披露，这标志着监管部门对数字健康数据中间商采取了更加进取的强力整顿姿态。",
           "slashed_text": "Regulators are belatedly attempting / to rein in these pervasive abuses. / The Federal Trade Commission (FTC) recently concluded / high-profile investigations / alleging that prominent fertility tracking platforms / shared users' sensitive menstrual cycles / and ovulation dates / with third-party advertisers. / By issuing stern consent orders , / the commission mandated deceptive firms / to purge illicitly gathered databases / and prohibited future disclosures / without express affirmative consent , / signaling a more aggressive regulatory posture / toward digital health brokers.",
-          "chunk_translation": "国家级监管执法机构目前终于开始后知后觉地采取行动 / 试图全力遏制打击这些早已无孔不入的野蛮数据滥用行径 / 联邦贸易委员会（FTC）在近期密集结案公布了 / 多起引发全社会高度关注的轰动性专项执法调查案 / 严厉指控多家行业处于绝对龙头地位的女性经期生育健康追踪应用平台 / 竟敢暗中将数以千万计注册女性用户的极度私密月经生理周期 / 以及排卵期精确时间节点等绝对隐私数据 / 直接出卖分发共享给各路第三方商业广告投放跟踪巨头 / 通过正式签署并签发措辞严厉的行政强制合规和解裁决令 / 该监管委员会强行勒令责令涉嫌虚假欺骗营销的违规科技企业 / 必须限期彻底永久销毁删除所有非法黑箱抓取聚敛的用户敏感数据库资产 / 并且明令严禁任何未来未经用户书面明确且肯定式实质同意的数据共享行为 / 这一铁腕重拳极为明确地向全社会传递宣示了监管当局 / 针对各路数字健康大数据地下黑产掮客与贩卖商愈发凌厉坚决的强监管震慑姿态",
+          "chunk_translation": "监管机构迟延地试图 / 遏制这些普遍存在的滥用行为。 / 美国联邦贸易委员会（FTC）近期结束了 / 引人注目的调查， / 指控知名的经期追踪平台 / 将用户敏感的月经周期 / 和排卵日期 / 共享给了第三方广告商。 / 通过发布严厉的同意令， / 该委员会勒令具有欺诈行为的公司 / 清除违规收集的数据库， / 并禁止未来在未经明示肯定同意的情况下披露数据， / 这一举措标志着 / 针对数字健康数据经纪人 / 采取了更加积极严厉的监管姿态。",
           "vocabulary": [
             {
               "word": "belatedly",
@@ -4008,7 +4008,7 @@
           "text": "Yet enforcement actions alone cannot compensate for the absence of comprehensive federal privacy legislation. Critics contend that ad-hoc FTC settlements merely slap wrist penalties on bad actors after catastrophic privacy violations have already occurred. In the absence of an overarching digital rights statute, users are left with the impossible burden of deciphering impenetrable terms-of-service agreements that bury data-sharing clauses under mountains of legal jargon.",
           "translation": "然而，仅靠事后的执法行动根本无法弥补全面联邦隐私立法的缺失。批评人士指出，FTC零散的临时性和解协议，往往是在灾难性的隐私泄露已经酿成之后，才对恶劣违规者施以隔靴搔痒的轻微惩罚。在缺乏一部纲领性数字人权法案的情况下，广大用户只能独自承担起不可能完成的重负——去破译那些晦涩难懂的“服务条款协议”，而其中早已在浩如烟海的法律行话掩盖下埋设了无数的数据共享霸王条款。",
           "slashed_text": "Yet enforcement actions alone cannot compensate / for the absence / of comprehensive federal privacy legislation. / Critics contend that / ad-hoc FTC settlements / merely slap wrist penalties / on bad actors / after catastrophic privacy violations / have already occurred. / In the absence of an overarching digital rights statute , / users are left with / the impossible burden / of deciphering impenetrable terms-of-service agreements / that bury data-sharing clauses / under mountains of legal jargon.",
-          "chunk_translation": "然而仅仅单靠事后个案式的被动执法惩戒手段 / 根本无法从机制上弥补填平 / 国家层面统一完备的联邦数字隐私保护母法的长期空缺空白 / 众多法学界权威批评学者尖锐指出 / FTC各方妥协出台的这种头痛医头脚痛医脚的个案临时和解协议 / 充其量不过是在灾难性的恶性隐私泄露丑闻 / 已经无可挽回地发生之后 / 对那些屡教不改的恶意违法平台施行轻描淡写般的隔靴搔痒式惩戒罢免 / 在全国性具有统领效力的数字公民权利保障成文法案缺位的冰冷现实面前 / 最终被逼无奈扔给千千万万普通消费者的 / 却是一项无论如何也根本不可能真正完成的沉重认知负担 / 即逼迫所有人去自行逐行破译宛如天书般晦涩艰深的各种用户服务格式合同协议条款 / 而这些协议无一例外地将最致命的数据转售共享授权条款 / 巧妙而阴险地深埋于浩如烟海的专业法律黑话与辞令迷雾之下",
+          "chunk_translation": "然而仅靠执法行动无法弥补 / 缺少 / 全面联邦隐私立法的空白。 / 批评人士主张， / 联邦贸易委员会临时的和解协议 / 仅仅是隔靴搔痒般的轻微处罚， / 施加给不良违规者， / 在灾难性的隐私侵犯事件 / 已经发生之后。 / 在缺乏具有统领性的数字权利法规的情况下， / 用户不得不承担 / 这一不可能完成的沉重负担： / 解读难以理解的服务条款协议， / 这些协议将数据共享条款 / 掩埋在堆积如山的法律术语之下。",
           "vocabulary": [
             {
               "word": "compensate for",
@@ -4083,7 +4083,7 @@
           "text": "True protection requires enacting modern laws that recognize biometric and wellness metrics as sensitive human data by default. Policymakers must shift the responsibility away from individual consumers and directly onto commercial entities by restricting secondary data monetization, enforcing strict data minimization standards, and holding tech executives legally accountable for breaches. Until consumer wearables are governed by the same ethical rigor as clinical medicine, personal health autonomy will remain an empty illusion.",
           "translation": "真正的保护需要制定现代法律，将生物识别和健康指标默认认定为高度敏感的人类核心隐私。决策者必须将保护责任从消费者个体身上转移开，直接落实在商业实体肩上——通过限制二手数据变现、强制执行严格的数据最小化标准，并追究科技高管发生泄密事件时的法律责任。在消费级可穿戴设备受到与临床医学同等严格的伦理约束之前，个人的健康自主权将永远只是一场空洞的幻觉。",
           "slashed_text": "True protection requires / enacting modern laws / that recognize biometric and wellness metrics / as sensitive human data / by default. / Policymakers must shift the responsibility / away from individual consumers / and directly onto commercial entities / by restricting secondary data monetization , / enforcing strict data minimization standards , / and holding tech executives legally accountable / for breaches. / Until consumer wearables are governed / by the same ethical rigor / as clinical medicine , / personal health autonomy / will remain / an empty illusion.",
-          "chunk_translation": "要想构建名副其实、坚不可摧的终极隐私安全防线 / 迫切需要立法机关大刀阔斧制定出台现代化立法规范 / 明确在制度层面上无条件默认将所有个人生物识别特征与身心日常健康动态指标 / 一律法定界定为极度敏感且不可侵犯的人类最高核心隐私数据 / 国家立法与政策制定者们必须坚决将这一沉重防范监管责任 / 彻底从孤立无援的弱势消费者个体肩头卸下 / 转而旗帜鲜明地直接完全加诸于牟取暴利的商业科技实体身上 / 通过严厉限制并斩断一切未经授权的次级二手健康大数据商业变现黑色利益链 / 强制推行并监督落实严苛绝伦的“数据最小化”必要采集原则法定标准 / 并在一旦发生数据违规泄露事故时直接追究科技公司核心高管个人的法定民刑事连带法律责任 / 除非并且直到所有面向大众消费级市场的智能健康可穿戴软硬件设备 / 均被毫无保留地置于并受制于 / 与传统严肃正规临床现代医学完全同等高度严格的伦理守则约束规制之下 / 否则现代人类社会口口声声所标榜宣称的所谓个人身体健康数据主权与隐私自主 / 就将永远注定不过是一场自欺欺人的空洞美丽幻影而已",
+          "chunk_translation": "真正的保护需要 / 制定现代法律， / 将生物特征和健康指标 / 认定为敏感的个人数据， / 在默认情况下。 / 政策制定者必须将责任 / 从个体消费者身上移开， / 直接落实到商业实体身上， / 通过限制次级数据商业化变现、 / 推行严格的数据最小化标准， / 并追究科技高管的法律责任 / 对于违规泄露行为。 / 直到消费级可穿戴设备 / 受到同样严格的伦理规范监管 / 就像临床医学一样， / 个人健康自主权 / 就将始终 / 是一场空洞的幻象。",
           "vocabulary": [
             {
               "word": "by default",
@@ -4156,8 +4156,8 @@
           "sentence_index": 0,
           "text": "Millions of health-conscious consumers today take advantage of connected fitness trackers and wellness applications to keep track of their sleep patterns, heart rates, and mental well-being.",
           "translation": "如今，数以百万计注重健康的消费者利用互联健身手环和健康应用程序，来追踪自己的睡眠模式、心率以及心理健康状态。",
-          "slashed_text": "Millions of health-conscious consumers today / take advantage of connected fitness trackers / and wellness applications / to keep track of their sleep patterns , / heart rates , / and mental well-being.",
-          "chunk_translation": "如今数以千万计高度关注身心健康的普通消费者 / 普遍非常热衷于借助佩戴各类智能互联健身手环 / 以及形形色色的手机身心健康管理应用程序 / 用以随时随地精准记录追踪他们每日的夜间睡眠周期规律 / 动态心率波动曲线 / 以及心理精神压力健康指数",
+          "slashed_text": "Millions of health-conscious consumers today / take advantage of connected fitness trackers and wellness applications / to keep track of their sleep patterns , / heart rates , / and mental well-being.",
+          "chunk_translation": "当今数百万注重健康的消费者 / 利用联网的健康运动追踪器和健康类应用 / 来记录自己的睡眠模式、 / 心率 / 以及心理健康状况。",
           "syntax": {
             "breakdown": [
               {
@@ -4184,8 +4184,8 @@
           "sentence_index": 1,
           "text": "However, while users readily input a great deal of intimate biometric data into these digital devices, few realize that existing legal frameworks fail to safeguard their privacy.",
           "translation": "然而，尽管用户毫不迟疑地将大量极其私密的生物识别数据输入这些数字设备，却鲜有人意识到现行的法律框架根本无法保护他们的隐私。",
-          "slashed_text": "However , / while users readily input / a great deal of intimate biometric data / into these digital devices , / few realize / that existing legal frameworks / fail to safeguard their privacy.",
-          "chunk_translation": "然而残酷的真相在于 / 尽管广大用户毫不设防地主动输入录入 / 浩如烟海的极度隐秘个人生物识别特征数据信息 / 到这些看似贴心方便的便携数字消费电子设备之中 / 却极少有人能够清醒深刻地认识到 / 当下现行适用的国家法定监管法律架构 / 事实上完全未能提供有效可靠的隐私保护屏障",
+          "slashed_text": "However , while users readily input a great deal of intimate biometric data / into these digital devices , / few realize / that existing legal frameworks fail to safeguard their privacy.",
+          "chunk_translation": "然而，尽管用户欣然将大量私密的生物特征数据输入 / 这些数字化设备中， / 却很少有人意识到 / 现有的法律框架未能有效保障他们的隐私。",
           "syntax": {
             "breakdown": [
               {
@@ -4212,8 +4212,8 @@
           "sentence_index": 2,
           "text": "Most consumers assume their health metrics enjoy comprehensive legal shields, yet the reality is that non-clinical health data remains largely exposed to unregulated commercial exploitation.",
           "translation": "大多数消费者理所当然地认为自己的健康数据享有全面的法律庇护，然而残酷的现实是，非临床健康数据在很大程度上仍暴露在不受监管的商业牟利开发之下。",
-          "slashed_text": "Most consumers assume / their health metrics enjoy / comprehensive legal shields , / yet the reality is / that non-clinical health data / remains largely exposed / to unregulated commercial exploitation.",
-          "chunk_translation": "绝大多数普通消费者总是主观盲目地假定认为 / 他们上传的各项身体生理健康核心指标数据 / 必然受制并享有全方位的国家级法定隐私盾牌庇护 / 可冷酷的现实却是 / 产生于医院临床诊疗环境之外的非临床健康大数据 / 在极大程度上依然赤裸裸暴露于 / 处于野蛮生长且完全缺乏法制监管的商业化逐利变现掠夺之中",
+          "slashed_text": "Most consumers assume their health metrics enjoy comprehensive legal shields , / yet the reality is / that non-clinical health data / remains largely exposed / to unregulated commercial exploitation.",
+          "chunk_translation": "大多数消费者假定自己的健康指标受到全面的法律保护， / 但现实却是， / 非临床健康数据 / 基本上暴露于 / 未受监管的商业化利用之中。",
           "syntax": {
             "breakdown": [
               {
@@ -4240,8 +4240,8 @@
           "sentence_index": 0,
           "text": "This dangerous vulnerability stems primarily from the narrow scope of traditional legislation.",
           "translation": "这种危险的漏洞主要源于传统法律狭隘的适用范围。",
-          "slashed_text": "This dangerous vulnerability stems primarily / from the narrow scope of traditional legislation.",
-          "chunk_translation": "这种高度危险的致命制度漏洞与信息真空 / 从根本源头上主要衍生自 / 传统既有卫生立法过于狭隘僵化的管辖适用边界",
+          "slashed_text": "This dangerous vulnerability / stems primarily / from the narrow scope of traditional legislation.",
+          "chunk_translation": "这种危险的漏洞脆弱性 / 主要源于 / 传统法律条文适用的狭隘范围。",
           "syntax": {
             "breakdown": [
               {
@@ -4263,8 +4263,8 @@
           "sentence_index": 1,
           "text": "In the United States, the venerable Health Insurance Portability and Accountability Act (HIPAA) strictly restricts how hospitals, clinics, and insurance companies manage medical records.",
           "translation": "在美国，历史悠久的《健康保险流通与责任法案》（HIPAA）严格限制了医院、诊所和保险公司管理医疗档案的方式。",
-          "slashed_text": "In the United States , / the venerable Health Insurance Portability and Accountability Act (HIPAA) / strictly restricts / how hospitals, clinics, and insurance companies / manage medical records.",
-          "chunk_translation": "在美利坚合众国 / 具有极高法律威严与悠久历史的《健康保险可携性与责任法案》（HIPAA） / 确实极其严苛地立法限制规范了 / 各级正规综合医院、专科门诊诊所以及商业医疗健康保险公司 / 在日常管理处置患者病历医疗机密档案时的法定程序",
+          "slashed_text": "In the United States , / the venerable Health Insurance Portability and Accountability Act (HIPAA) / strictly restricts / how hospitals , clinics , and insurance companies manage medical records.",
+          "chunk_translation": "在美国， / 具有悠久历史的《健康保险可携性与责任法案》（HIPAA） / 严格限制了 / 医院、诊所和保险公司管理医疗记录的方式。",
           "syntax": {
             "breakdown": [
               {
@@ -4287,7 +4287,7 @@
           "text": "Crucially, however, HIPAA was drafted long before the dawn of the smartphone era.",
           "translation": "然而至关重要的是，HIPAA的起草远在智能手机时代曙光破晓之前。",
           "slashed_text": "Crucially , however , / HIPAA was drafted / long before the dawn of the smartphone era.",
-          "chunk_translation": "然而最为致命的根本痛点在于 / HIPAA法案最初制定起草颁布的时间节点 / 远远早于现代移动互联网与智能手机时代的破晓黎明之前",
+          "chunk_translation": "然而至关重要的一点是， / 该法案起草的时间 / 远在智能手机时代来临之前。",
           "syntax": {
             "breakdown": [
               {
@@ -4310,7 +4310,7 @@
           "text": "Because wearable manufacturers and app developers are not considered 'covered medical entities' under the statute, they operate in a legal gray zone, freely analyzing and monetizing sensitive user data without explicit consent.",
           "translation": "因为可穿戴设备制造商和应用程序开发者在该法规下并不被视作“受保护的医疗实体”，他们便游走在法律灰色地带，在未经用户明确同意的情况下随意分析敏感数据并将其商业变现。",
           "slashed_text": "Because wearable manufacturers and app developers / are not considered 'covered medical entities' / under the statute , / they operate in a legal gray zone , / freely analyzing and monetizing sensitive user data / without explicit consent.",
-          "chunk_translation": "正因为当今庞大的可穿戴硬件生产厂商与各类健康管理App软件开发运营者 / 在这部过时的法律条文范畴定义下绝不属于所谓的“受法律监管医疗实体” / 导致他们长期游刃有余地穿梭游走于无法可依的巨大法律灰色地带之中 / 肆无忌惮地深度挖掘分析并私自变现转售用户极度敏感的身体健康大数据 / 而根本无需事先征得用户任何真实有效的书面明示授权同意",
+          "chunk_translation": "由于可穿戴设备制造商和应用程序开发商 / 不被视为“受保护的医疗实体” / 在该法规的管辖下， / 他们在法律灰色地带运作， / 随意分析敏感用户数据并将其变现， / 而无需取得用户的明示同意。",
           "syntax": {
             "breakdown": [
               {
@@ -4343,7 +4343,7 @@
           "text": "Regulators are belatedly attempting to rein in these pervasive abuses.",
           "translation": "监管机构正迟缓地试图遏制这些普遍存在的滥用行径。",
           "slashed_text": "Regulators are belatedly attempting / to rein in these pervasive abuses.",
-          "chunk_translation": "国家级监管执法机构目前终于开始后知后觉地采取行动 / 试图全力遏制打击这些早已无孔不入的野蛮数据滥用行径",
+          "chunk_translation": "监管机构迟延地试图 / 遏制这些普遍存在的滥用行为。",
           "syntax": {
             "breakdown": [
               {
@@ -4366,7 +4366,7 @@
           "text": "The Federal Trade Commission (FTC) recently concluded high-profile investigations alleging that prominent fertility tracking platforms shared users' sensitive menstrual cycles and ovulation dates with third-party advertisers.",
           "translation": "美国联邦贸易委员会（FTC）近期完成了一系列高调的调查，指控知名经期与排卵追踪平台将用户的月经周期和排卵日期等敏感隐私与第三方广告商共享。",
           "slashed_text": "The Federal Trade Commission (FTC) recently concluded / high-profile investigations / alleging that prominent fertility tracking platforms / shared users' sensitive menstrual cycles / and ovulation dates / with third-party advertisers.",
-          "chunk_translation": "联邦贸易委员会（FTC）在近期密集结案公布了 / 多起引发全社会高度关注的轰动性专项执法调查案 / 严厉指控多家行业处于绝对龙头地位的女性经期生育健康追踪应用平台 / 竟敢暗中将数以千万计注册女性用户的极度私密月经生理周期 / 以及排卵期精确时间节点等绝对隐私数据 / 直接出卖分发共享给各路第三方商业广告投放跟踪巨头",
+          "chunk_translation": "美国联邦贸易委员会（FTC）近期结束了 / 引人注目的调查， / 指控知名的经期追踪平台 / 将用户敏感的月经周期 / 和排卵日期 / 共享给了第三方广告商。",
           "syntax": {
             "breakdown": [
               {
@@ -4394,7 +4394,7 @@
           "text": "By issuing stern consent orders, the commission mandated deceptive firms to purge illicitly gathered databases and prohibited future disclosures without express affirmative consent, signaling a more aggressive regulatory posture toward digital health brokers.",
           "translation": "通过发布严厉的行政和解指令，该委员会强制要求欺诈性企业彻底清除违法收集的数据库，并禁止在未经用户明确肯定同意的情况下进行任何未来披露，这标志着监管部门对数字健康数据中间商采取了更加进取的强力整顿姿态。",
           "slashed_text": "By issuing stern consent orders , / the commission mandated deceptive firms / to purge illicitly gathered databases / and prohibited future disclosures / without express affirmative consent , / signaling a more aggressive regulatory posture / toward digital health brokers.",
-          "chunk_translation": "通过正式签署并签发措辞严厉的行政强制合规和解裁决令 / 该监管委员会强行勒令责令涉嫌虚假欺骗营销的违规科技企业 / 必须限期彻底永久销毁删除所有非法黑箱抓取聚敛的用户敏感数据库资产 / 并且明令严禁任何未来未经用户书面明确且肯定式实质同意的数据共享行为 / 这一铁腕重拳极为明确地向全社会传递宣示了监管当局 / 针对各路数字健康大数据地下黑产掮客与贩卖商愈发凌厉坚决的强监管震慑姿态",
+          "chunk_translation": "通过发布严厉的同意令， / 该委员会勒令具有欺诈行为的公司 / 清除违规收集的数据库， / 并禁止未来在未经明示肯定同意的情况下披露数据， / 这一举措标志着 / 针对数字健康数据经纪人 / 采取了更加积极严厉的监管姿态。",
           "syntax": {
             "breakdown": [
               {
@@ -4422,7 +4422,7 @@
           "text": "Yet enforcement actions alone cannot compensate for the absence of comprehensive federal privacy legislation.",
           "translation": "然而，仅靠事后的执法行动根本无法弥补全面联邦隐私立法的缺失。",
           "slashed_text": "Yet enforcement actions alone cannot compensate / for the absence / of comprehensive federal privacy legislation.",
-          "chunk_translation": "然而仅仅单靠事后个案式的被动执法惩戒手段 / 根本无法从机制上弥补填平 / 国家层面统一完备的联邦数字隐私保护母法的长期空缺空白",
+          "chunk_translation": "然而仅靠执法行动无法弥补 / 缺少 / 全面联邦隐私立法的空白。",
           "syntax": {
             "breakdown": [
               {
@@ -4445,7 +4445,7 @@
           "text": "Critics contend that ad-hoc FTC settlements merely slap wrist penalties on bad actors after catastrophic privacy violations have already occurred.",
           "translation": "批评人士指出，FTC零散的临时性和解协议，往往是在灾难性的隐私泄露已经酿成之后，才对恶劣违规者施以隔靴搔痒的轻微惩罚。",
           "slashed_text": "Critics contend that / ad-hoc FTC settlements / merely slap wrist penalties / on bad actors / after catastrophic privacy violations / have already occurred.",
-          "chunk_translation": "众多法学界权威批评学者尖锐指出 / FTC各方妥协出台的这种头痛医头脚痛医脚的个案临时和解协议 / 充其量不过是在灾难性的恶性隐私泄露丑闻 / 已经无可挽回地发生之后 / 对那些屡教不改的恶意违法平台施行轻描淡写般的隔靴搔痒式惩戒罢免",
+          "chunk_translation": "批评人士主张， / 联邦贸易委员会临时的和解协议 / 仅仅是隔靴搔痒般的轻微处罚， / 施加给不良违规者， / 在灾难性的隐私侵犯事件 / 已经发生之后。",
           "syntax": {
             "breakdown": [
               {
@@ -4473,7 +4473,7 @@
           "text": "In the absence of an overarching digital rights statute, users are left with the impossible burden of deciphering impenetrable terms-of-service agreements that bury data-sharing clauses under mountains of legal jargon.",
           "translation": "在缺乏一部纲领性数字人权法案的情况下，广大用户只能独自承担起不可能完成的重负——去破译那些晦涩难懂的“服务条款协议”，而其中早已在浩如烟海的法律行话掩盖下埋设了无数的数据共享霸王条款。",
           "slashed_text": "In the absence of an overarching digital rights statute , / users are left with / the impossible burden / of deciphering impenetrable terms-of-service agreements / that bury data-sharing clauses / under mountains of legal jargon.",
-          "chunk_translation": "在全国性具有统领效力的数字公民权利保障成文法案缺位的冰冷现实面前 / 最终被逼无奈扔给千千万万普通消费者的 / 却是一项无论如何也根本不可能真正完成的沉重认知负担 / 即逼迫所有人去自行逐行破译宛如天书般晦涩艰深的各种用户服务格式合同协议条款 / 而这些协议无一例外地将最致命的数据转售共享授权条款 / 巧妙而阴险地深埋于浩如烟海的专业法律黑话与辞令迷雾之下",
+          "chunk_translation": "在缺乏具有统领性的数字权利法规的情况下， / 用户不得不承担 / 这一不可能完成的沉重负担： / 解读难以理解的服务条款协议， / 这些协议将数据共享条款 / 掩埋在堆积如山的法律术语之下。",
           "syntax": {
             "breakdown": [
               {
@@ -4501,7 +4501,7 @@
           "text": "True protection requires enacting modern laws that recognize biometric and wellness metrics as sensitive human data by default.",
           "translation": "真正的保护需要制定现代法律，将生物识别和健康指标默认认定为高度敏感的人类核心隐私。",
           "slashed_text": "True protection requires / enacting modern laws / that recognize biometric and wellness metrics / as sensitive human data / by default.",
-          "chunk_translation": "要想构建名副其实、坚不可摧的终极隐私安全防线 / 迫切需要立法机关大刀阔斧制定出台现代化立法规范 / 明确在制度层面上无条件默认将所有个人生物识别特征与身心日常健康动态指标 / 一律法定界定为极度敏感且不可侵犯的人类最高核心隐私数据",
+          "chunk_translation": "真正的保护需要 / 制定现代法律， / 将生物特征和健康指标 / 认定为敏感的个人数据， / 在默认情况下。",
           "syntax": {
             "breakdown": [
               {
@@ -4529,7 +4529,7 @@
           "text": "Policymakers must shift the responsibility away from individual consumers and directly onto commercial entities by restricting secondary data monetization, enforcing strict data minimization standards, and holding tech executives legally accountable for breaches.",
           "translation": "决策者必须将保护责任从消费者个体身上转移开，直接落实在商业实体肩上——通过限制二手数据变现、强制执行严格的数据最小化标准，并追究科技高管发生泄密事件时的法律责任。",
           "slashed_text": "Policymakers must shift the responsibility / away from individual consumers / and directly onto commercial entities / by restricting secondary data monetization , / enforcing strict data minimization standards , / and holding tech executives legally accountable / for breaches.",
-          "chunk_translation": "国家立法与政策制定者们必须坚决将这一沉重防范监管责任 / 彻底从孤立无援的弱势消费者个体肩头卸下 / 转而旗帜鲜明地直接完全加诸于牟取暴利的商业科技实体身上 / 通过严厉限制并斩断一切未经授权的次级二手健康大数据商业变现黑色利益链 / 强制推行并监督落实严苛绝伦的“数据最小化”必要采集原则法定标准 / 并在一旦发生数据违规泄露事故时直接追究科技公司核心高管个人的法定民刑事连带法律责任",
+          "chunk_translation": "政策制定者必须将责任 / 从个体消费者身上移开， / 直接落实到商业实体身上， / 通过限制次级数据商业化变现、 / 推行严格的数据最小化标准， / 并追究科技高管的法律责任 / 对于违规泄露行为。",
           "syntax": {
             "breakdown": [
               {
@@ -4557,7 +4557,7 @@
           "text": "Until consumer wearables are governed by the same ethical rigor as clinical medicine, personal health autonomy will remain an empty illusion.",
           "translation": "在消费级可穿戴设备受到与临床医学同等严格的伦理约束之前，个人的健康自主权将永远只是一场空洞的幻觉。",
           "slashed_text": "Until consumer wearables are governed / by the same ethical rigor / as clinical medicine , / personal health autonomy / will remain / an empty illusion.",
-          "chunk_translation": "除非并且直到所有面向大众消费级市场的智能健康可穿戴软硬件设备 / 均被毫无保留地置于并受制于 / 与传统严肃正规临床现代医学完全同等高度严格的伦理守则约束规制之下 / 否则现代人类社会口口声声所标榜宣称的所谓个人身体健康数据主权与隐私自主 / 就将永远注定不过是一场自欺欺人的空洞美丽幻影而已",
+          "chunk_translation": "直到消费级可穿戴设备 / 受到同样严格的伦理规范监管 / 就像临床医学一样， / 个人健康自主权 / 就将始终 / 是一场空洞的幻象。",
           "syntax": {
             "breakdown": [
               {

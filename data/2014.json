@@ -11,8 +11,8 @@
           "pid": 0,
           "text": "What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.",
           "translation": "您会用 5.9 亿美元做什么？现在，这是一位 84 岁的寡妇格洛丽亚·麦肯齐 (Gloria MacKenzie) 面临的问题。她最近从佛罗里达州的铁皮屋顶小房子里走出来，赢得了历史上最大的不可分割的彩票头奖。如果她希望新发现的财富能够带来持久的满足感，那么她最好读一下伊丽莎白·邓恩和迈克尔·诺顿的《快乐金钱》。",
-          "slashed_text": "What would you do with $590m? / This is now a question / for Gloria MacKenzie , / an 84-year-old widow / who recently emerged from her small , / tin-roofed house / in Florida to collect the biggest undivided lottery jackpot / in history. / If she hopes her new-found fortune will yield lasting feelings of fulfilment , / she could do worse than read Happy Money / by Elizabeth Dunn and Michael Norton.",
-          "chunk_translation": "你会用5.9亿美元做什么？ / 这现在成了一个问题 / 摆在格洛丽亚·麦肯齐面前， / 一位84岁的寡妇， / 她最近走出自己那间狭小的、 / 铁皮屋顶的房屋， / 在佛罗里达州领取了历史上最大的单人独揽彩票大奖 / 在历史上。 / 如果她希望自己新获得的财富能够带来持久的充实感， / 她不妨读读《快乐金钱》 / 由伊丽莎白·邓恩和迈克尔·诺顿所著。",
+          "slashed_text": "What would you do with $590m? / This is now a question / for Gloria MacKenzie , / an 84-year-old widow / who recently emerged from her small , tin-roofed house / in Florida to collect the biggest undivided lottery jackpot / in history. / This is now a question / for Gloria MacKenzie , / an 84-year-old widow / who recently emerged from her small , / tin-roofed house / in Florida to collect the biggest undivided lottery jackpot / in history. / If she hopes her new-found fortune will yield lasting feelings of fulfilment , / she could do worse than read Happy Money / by Elizabeth Dunn and Michael Norton.",
+          "chunk_translation": "你会用5.9亿美元做什么？ / 这现在成了一个问题 / 摆在格洛丽亚·麦肯齐面前， / 一位84岁的寡妇， / 她最近走出自己在佛罗里达州那间狭小的铁皮屋顶房屋， / 前去领取了历史上单人独揽的最大彩票大奖， / 创下历史纪录。 / 这现在成了一个问题 / 摆在格洛丽亚·麦肯齐面前， / 一位84岁的寡妇， / 她最近走出自己那间狭小的、 / 铁皮屋顶的房屋， / 在佛罗里达州领取了历史上最大的单人独揽彩票大奖 / 在历史上。 / 如果她希望自己新获得的财富能够带来持久的充实感， / 她不妨读读《快乐金钱》 / 由伊丽莎白·邓恩和迈克尔·诺顿所著。",
           "vocabulary": [
             {
               "word": "widow",
@@ -648,8 +648,8 @@
           "pid": 3,
           "text": "Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax incentives for American homebuyers. But most people will come away from this book believing it was money well spent.",
           "translation": "《快乐金钱》的读者显然是一群享有特权的人，他们关心的是成就感，而不是饥饿。金钱不一定能买到幸福，但富裕国家的人们通常比贫穷国家的人们更幸福。然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系，而稀缺性增强了大多数人对大多数事物的乐趣。并非所有人都会同意作者的政策理念，其中包括要求更多的假期时间和减少对美国购房者的税收优惠。但大多数人读完这本书后都会认为这钱花得值。",
-          "slashed_text": "Readers of Happy Money are clearly a privileged lot , / anxious / about fulfilment , / not hunger. / Money may not quite buy happiness , / but people / in wealthier countries are generally happier than those / in poor ones. / Yet the link between feeling good and spending money / on others can be seen among rich and poor people around the world , / and scarcity enhances the pleasure of most things / for most people. / Not everyone will agree with the authors’ policy ideas , / which range / from mandating more holiday time to reducing tax incentives / for American homebuyers. / But most people will come away / from this book believing it was money well spent.",
-          "chunk_translation": "《快乐金钱》的读者显然属于特权群体， / 焦虑 / 关于自我实现的充实感， / 而非饥饿。 / 金钱或许不能完全买来幸福， / 但是人们 / 在更富裕国家的人通常比那些人更快乐 / 在贫穷国家的人。 / 然而良好感觉与花钱之间的联系 / 花在他人身上，可以在世界各地的富人和穷人中看到 / 在世界各地， / 并且稀缺性提升了大多数事物给大多数人带来的乐趣。 / 并非每个人都会赞同 / 作者们的政策构想， / 这些构想从强制规定更多假期到减少税收优惠 / 针对美国购房者。 / 但大多数人读完这本书后都会坚信 / 买这本书的钱花得非常值。",
+          "slashed_text": "Readers of Happy Money are clearly a privileged lot , / anxious / about fulfilment , / not hunger. / Money may not quite buy happiness , / but people / in wealthier countries are generally happier than those / in poor ones. / Yet the link between feeling good and spending money / on others can be seen among rich and poor people around the world , / and scarcity enhances the pleasure of most things / for most people. / Not everyone will agree with the authors’ policy ideas , / which range from mandating more holiday time / to reducing tax incentives / for American homebuyers. / But most people will come away / from this book believing it was money well spent.",
+          "chunk_translation": "《快乐金钱》的读者显然属于特权群体， / 焦虑 / 关于自我实现的充实感， / 而非饥饿。 / 金钱或许不能完全买来幸福， / 但是人们 / 在更富裕国家的人通常比那些人更快乐 / 在贫穷国家的人。 / 然而自我感觉良好与花钱之间的联系 / 在为他人花钱这件事上，可以在世界各地的富人和穷人中看到， / 而且稀缺性会增加大多数事物带来的愉悦感 / 对大多数人而言。 / 并非每个人都会赞同作者们的政策构想， / 这些构想从强制规定更多休假时间 / 到减少税收优惠 / 针对美国购房者。 / 但大多数人读完这本书后都会坚信 / 买这本书的钱花得非常值。",
           "vocabulary": [
             {
               "word": "may prove to be a worthwhile purchase",
@@ -826,8 +826,8 @@
           "sentence_index": 0,
           "text": "What would you do with $590m?",
           "translation": "您会用 5.9 亿美元做什么？",
-          "slashed_text": "What would you do with $590m?",
-          "chunk_translation": "你会用5.9亿美元做什么？",
+          "slashed_text": "What would you do with $590m? / This is now a question / for Gloria MacKenzie , / an 84-year-old widow / who recently emerged from her small , tin-roofed house / in Florida to collect the biggest undivided lottery jackpot / in history.",
+          "chunk_translation": "你会用5.9亿美元做什么？ / 这现在成了一个问题 / 摆在格洛丽亚·麦肯齐面前， / 一位84岁的寡妇， / 她最近走出自己在佛罗里达州那间狭小的铁皮屋顶房屋， / 前去领取了历史上单人独揽的最大彩票大奖， / 创下历史纪录。",
           "syntax": {
             "breakdown": [
               {
@@ -1209,7 +1209,7 @@
           "text": "Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people.",
           "translation": "然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系，而稀缺性增强了大多数人对大多数事物的乐趣。",
           "slashed_text": "Yet the link between feeling good and spending money / on others can be seen among rich and poor people around the world , / and scarcity enhances the pleasure of most things / for most people.",
-          "chunk_translation": "然而良好感觉与花钱之间的联系 / 花在他人身上，可以在世界各地的富人和穷人中看到 / 在世界各地， / 并且稀缺性提升了大多数事物给大多数人带来的乐趣。",
+          "chunk_translation": "然而自我感觉良好与花钱之间的联系 / 在为他人花钱这件事上，可以在世界各地的富人和穷人中看到， / 而且稀缺性会增加大多数事物带来的愉悦感 / 对大多数人而言。",
           "syntax": {
             "breakdown": [
               {
@@ -1231,8 +1231,8 @@
           "sentence_index": 3,
           "text": "Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax incentives for American homebuyers.",
           "translation": "并非所有人都会同意作者的政策理念，其中包括要求更多的假期时间和减少对美国购房者的税收优惠。",
-          "slashed_text": "Not everyone will agree with the authors’ policy ideas , / which range / from mandating more holiday time to reducing tax incentives / for American homebuyers.",
-          "chunk_translation": "并非每个人都会赞同 / 作者们的政策构想， / 这些构想从强制规定更多假期到减少税收优惠 / 针对美国购房者。",
+          "slashed_text": "Not everyone will agree with the authors’ policy ideas , / which range from mandating more holiday time / to reducing tax incentives / for American homebuyers.",
+          "chunk_translation": "并非每个人都会赞同作者们的政策构想， / 这些构想从强制规定更多休假时间 / 到减少税收优惠 / 针对美国购房者。",
           "syntax": {
             "breakdown": [
               {
@@ -1874,8 +1874,8 @@
           "pid": 0,
           "text": "An article in Scientific American has pointed out that empirical research says that, actually, you think you’re more beautiful than you are. We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. Social psychologists have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate ourselves as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.",
           "translation": "《科学美国人》的一篇文章指出，实证研究表明，实际上，你认为自己比实际情况更美丽。我们有一种根深蒂固的自我感觉良好的需要，我们自然会采用一些自我增强的策略来实现这一目标。社会心理学家对他们所谓的“高于平均水平效应”或“虚幻的优越感”进行了大量研究，并表明，例如，我们中 70% 的人认为自己在领导力方面高于平均水平，93% 的人在驾驶方面高于平均水平，85% 的人在与他人相处方面高于平均水平——所有这些显然在统计上都是不可能的。",
-          "slashed_text": "An article / in Scientific American has pointed out / that empirical research says / that , / actually , / you think you’re more beautiful than you are. / We have a deep-seated need to feel good / about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. / Social psychologists have amassed oceans of research / into what they call the “above average effect” , / or “illusory superiority” , / and shown / that , / for example , / 70 % of us rate ourselves as above average / in leadership , / 93 % / in driving and 85 % / at getting / on well / with others — / all obviously statistical impossibilities.",
-          "chunk_translation": "一篇文章 / 发表在《科学美国人》上指出， / 实证研究解决的问题 / 从根本上讲微乎其微， / 这一观点 / 同样适用于心理学领域。 / 我们有一种根深蒂固的需求去自我感觉良好， / 对我们自己，我们自然会想出各种方法来欺骗自己，让自己觉得过得不错，主要是因为这一点，我们产生了自我提升偏差。 / 社会心理学家积累了海量的研究 / 关于自我提升偏差， / 并且 / 得出了结论， / 即我们大多数人都会编造理由 / 去相信 / 我们自己很优秀。我们可能会选择 / 为自己选择任何我们碰巧认为的特质 / 是最棒的特质， / 或者 / 我们认为 / 自己非同寻常 / 仅仅 / 因为具备了平淡无奇的品质。",
+          "slashed_text": "An article / in Scientific American has pointed out / that empirical research says / that , actually , / you think you’re more beautiful / than you are. / We have a deep-seated need to feel good / about ourselves / and we naturally employ a number of self-enhancing strategies / to achieve this. / Social psychologists have amassed oceans of research / into what they call the “above average effect” , or “illusory superiority” , / and shown that , for example , / 70 % of us rate ourselves as above average in leadership , / 93 % in driving / and 85 % at getting on well with others — / all obviously statistical impossibilities.",
+          "chunk_translation": "一篇文章 / 发表在《科学美国人》上指出， / 实证研究表明， / 实际上， / 你认为自己更美丽 / 相比于你真实的模样。 / 我们有一种根深蒂固的需求去自我感觉良好， / 对待我们自己， / 我们自然会采用一系列自我提升策略 / 来达到这一目的。 / 社会心理学家积累了海量的研究 / 关于他们所称的“高于平均水平效应”或“虚幻优越感”， / 并表明，例如， / 我们当中有70%的人认为自己在领导力方面高于平均水平， / 93%的人认为自己在驾驶方面高于平均水平， / 85%的人认为自己在与他人融洽相处方面高于平均水平—— / 这些显然在统计学上都是不可能的。",
           "vocabulary": [
             {
               "word": "our self-ratings are unrealistically high",
@@ -2053,8 +2053,8 @@
           "pid": 1,
           "text": "We rose-tint our memories and put ourselves into self-affirming situations. We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem. We stalk around thinking we’re hot stuff.",
           "translation": "我们将自己的记忆染上玫瑰色，并将自己置于自我肯定的境地。当受到批评时，我们会变得防御性，并对他人施加负面的刻板印象，以提高自己的自尊。我们四处走动，以为自己很热门。",
-          "slashed_text": "We rose-tint our memories and put ourselves / into self-affirming situations. / We become defensive / when criticised , / and apply negative stereotypes to others to boost our own esteem. / We stalk around thinking we’re hot stuff.",
-          "chunk_translation": "我们粉饰自己的回忆，并让自己置身于 / 自我肯定的情境中。 / 我们变得具有防御性 / 当受到批评时， / 并且对他人套用负面的刻板印象来提升我们自己的自尊。 / 我们趾高气扬地走来走去，自以为不可一世。",
+          "slashed_text": "We rose-tint our memories / and put ourselves / into self-affirming situations. / We become defensive / when criticised , / and apply negative stereotypes to others / to boost our own esteem. / We stalk around / thinking we’re hot stuff.",
+          "chunk_translation": "我们粉饰自己的回忆， / 并让自己置身于 / 自我肯定的情境中。 / 我们变得具有防御性 / 当受到批评时， / 并且对他人套用负面的刻板印象 / 来提升我们自己的自尊。 / 我们昂首阔步地走来走去， / 自以为不可一世。",
           "vocabulary": [
             {
               "word": "rose-tint",
@@ -2152,8 +2152,8 @@
           "pid": 2,
           "text": "Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness. Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive. Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.",
           "translation": "心理学家和行为科学家尼古拉斯·埃普利（Nicholas Epley）主持了一项关于自我增强和吸引力的重要研究。他并没有让人们简单地与其他人相比评价自己的美丽程度，而是要求他们从一系列照片中找出一张自己的原始照片，其中包括经过修改的版本，使其看起来更具吸引力或不那么有吸引力。该研究称，视觉识别是“一种自动的心理过程，快速而直观地发生，很少或没有明显的有意识的考虑。”如果受试者很快选择了一个虚假的讨人喜欢的形象——大多数人都会这样做——他们就会真诚地相信这就是他们的样子。",
-          "slashed_text": "Psychologist and behavioural scientist Nicholas Epley oversaw a key study / into self- enhancement and attractiveness. / Rather than have people simply rate their beauty compared / with others , / he asked them to identify an original photograph of themselves from a lineup including versions / that had been altered to appear more and less attractive. / Visual recognition , / reads the study , / is “an automatic psychological process , / occurring rapidly and intuitively / with little or no apparent conscious deliberation.” / If the subjects quickly chose a falsely flattering image — / which most did — / they genuinely believed it was really how they looked.",
-          "chunk_translation": "心理学家兼行为科学家尼古拉斯·埃普利 / 主持了一项研究，探讨我们在视觉认知方面是否也是自我美化者。 / 他没有让人们简单地给自己的外貌打分 / 与他人相比， / 他 / 让受试者辨认一张自己的照片，该照片已与一个长相较丑或较好看的人的照片进行了合成融合。 / 视觉识别， / 该研究指出， / 是“一种迅速且毫不费力发生的自动心理过程 / 并且 / 无需留心的 / 或 / 故意的 / 自我控制”。",
+          "slashed_text": "Psychologist and behavioural scientist Nicholas Epley oversaw a key study / into self- enhancement and attractiveness. / Rather than have people simply rate their beauty / compared with others , / he asked them to identify an original photograph of themselves / from a lineup including versions / that had been altered to appear more and less attractive. / Visual recognition , reads the study , / is “an automatic psychological process , / occurring rapidly and intuitively / with little or no apparent conscious deliberation.” / If the subjects quickly chose a falsely flattering image — / which most did — / they genuinely believed it was really how they looked.",
+          "chunk_translation": "心理学家兼行为科学家尼古拉斯·埃普利主持了一项关键研究， / 探讨自我美化与吸引力。 / 他没有让人们简单地评价自己的外貌 / 与他人相比， / 而是让他们从一组照片中辨认出自己原始的照片， / 其中包含经过修改的版本， / 分别使其显得更有吸引力或更无吸引力。 / 该研究指出，视觉识别 / 是“一种自动的心理过程， / 迅速且直觉地发生， / 几乎或完全不需要显式的意识深思熟虑。” / 如果受试者迅速选择了一张虚假美化的照片—— / 大多数人确实如此—— / 他们就真心认为那正是自己真实的模样。",
           "vocabulary": [
             {
               "word": "intuitive response",
@@ -2406,8 +2406,8 @@
           "pid": 3,
           "text": "Epley found no significant gender difference in responses. Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored picture were real) were doing so to make up for profound insecurities. In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem. “I don’t think the findings that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, you won’t be self-enhancing.",
           "translation": "埃普利发现反应中没有显着的性别差异。也没有任何证据表明那些自我增强最多的人（即那些认为经过最积极修改的图片是真实的参与者）这样做是为了弥补深深的不安全感。事实上，那些认为吸引力等级较高的图像是真实的的人与那些表现出其他具有更高自尊的标志的人直接对应。 “我不认为我们的发现是个人错觉的任何证据，”埃普利说。 “这只是人们普遍自我评价良好的反映。”如果你感到沮丧，你就不会自我提升。",
-          "slashed_text": "Epley found no significant gender difference / in responses. / Nor was there any evidence / that those / who self-enhanced the most ( / that is , / the participants / who thought the most positively doctored picture were real) were doing so to make up / for profound insecurities. / In fact , / those / who thought / that the images higher up the attractiveness scale were real directly corresponded / with those / who showed other markers / for having higher self-esteem. / “I don’t think the findings / that we have are any evidence of personal delusion , / ” says Epley. / “It’s a reflection simply of people generally thinking well of themselves.” / If you are depressed , / you won’t be self-enhancing.",
-          "chunk_translation": "埃普利没有发现显著的性别差异 / 在反应上。 / 也没有任何证据表明 / 那些人 / 进行自我美化的人更加缺乏安全感， / 但是 / 他们更有可能 / 拥有 / 更高的自尊心。 / 事实上， / 那些人 / 认为 / 那些在吸引力评级中更高的图像 / 代表真人的人 / 拥有 / 更高的自尊心。 / “我认为我们所获得的调查结果 / 绝非个人妄想的证据，” / 埃普利说。 / “这仅仅反映了 / 仅仅是 / 人们普遍认为自己挺不错的想法。”",
+          "slashed_text": "Epley found no significant gender difference / in responses. / Nor was there any evidence / that those who self-enhanced the most / (that is , the participants who thought the most positively doctored picture were real) / were doing so to make up for profound insecurities. / In fact , / those who thought that the images higher up the attractiveness scale were real / directly corresponded with those / who showed other markers / for having higher self-esteem. / “I don’t think the findings that we have / are any evidence of personal delusion ,” / says Epley. / “It’s a reflection simply of people generally thinking well of themselves.” / If you are depressed , / you won’t be self-enhancing.",
+          "chunk_translation": "埃普利没有发现显著的性别差异 / 在反应结果上。 / 也没有任何证据表明， / 那些自我美化程度最高的人 / （即那些认为修饰得最漂亮的照片才是真实照片的参与者） / 这么做是为了弥补内心深处的不安全感。 / 事实上， / 那些认为吸引力评分更高的照片才是真实照片的人， / 直接对应着那些 / 表现出拥有更高自尊心 / 其他指标的人。 / “我不认为我们所获得的调查结果 / 是个人妄想的任何证据，” / 埃普利说。 / “这仅仅反映了人们普遍对自己评价良好。” / 如果你感到抑郁， / 你就不会进行自我美化。",
           "vocabulary": [
             {
               "word": "believe in their attractiveness",
@@ -2595,8 +2595,8 @@
           "pid": 4,
           "text": "Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves. Facebook therefore, is a self-enhancer’s paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyle. It’s not that people’s profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, “but they portray an idealised version of themselves.”",
           "translation": "了解了埃普利的研究结果后，我们发现许多人发自内心地讨厌自己的照片，这是有道理的——在某种程度上，他们甚至不认识照片中的人就是他们自己。因此，Facebook 是自我提升者的天堂，人们只能在这里分享最讨人喜欢的照片，以及他们智慧、风格、美丽、智慧和生活方式的精华。威斯康星麦迪逊大学的卡特琳娜·托马表示，这并不是说人们的个人资料不诚实，“而是他们描绘了理想化的自己。”",
-          "slashed_text": "Knowing the results of Epley’s study , / it makes sense / that many people hate photographs of themselves viscerally — / on one level , / they don’t even recognise the person in the picture as themselves. / Facebook therefore , / is a self-enhancer’s paradise , / where people can share only the most flattering photos , / the cream of their wit , / style , / beauty , / intellect and lifestyle. / It’s not / that people’s profiles are dishonest , / says Catalina Toma of Wisconsin-Madison University , / “but they portray an idealised version of themselves.”",
-          "chunk_translation": "知道了埃普利的研究结果， / 这就说得通了 / 为什么许多人会修饰自己的自拍照 / 来提升 / 他们的自尊心。 / 因此脸书 / 是自我美化者的天堂， / 在那里人们可以只分享最诱人的照片 / 关于他们自己， / 并且 / 将会收到 / 大量的正面积极反馈。 / 这并不是说人们的个人资料是不真实的， / 卡特琳娜·费克说， / 她是照片分享网站的联合创始人及社交网站的创始人， / 而是因为它们描绘了我们自己尽可能最好的一面。",
+          "slashed_text": "Knowing the results of Epley’s study , / it makes sense / that many people hate photographs of themselves viscerally — / on one level , / they don’t even recognise the person in the picture as themselves. / Facebook therefore , / is a self-enhancer’s paradise , / where people can share only the most flattering photos , / the cream of their wit , / style , beauty , intellect and lifestyle. / It’s not that people’s profiles are dishonest , / says Catalina Toma of Wisconsin-Madison University , / “but they portray an idealised version of themselves.”",
+          "chunk_translation": "了解到埃普利的研究结果， / 这就说得通了： / 为什么许多人本能地讨厌自己的照片—— / 在某种层面上， / 他们甚至认不出照片中的人就是自己。 / 脸书因此 / 是自我美化者的天堂， / 在那里人们可以只分享最诱人的照片、 / 他们机智的精华、 / 以及风度、美貌、才智与生活方式的最佳面貌。 / “这并不是说人们的个人资料不诚实，” / 威斯康星大学麦迪逊分校的卡塔利娜·托马说， / “而是他们描绘了一个理想化的自己。”",
           "vocabulary": [
             {
               "word": "instinctively",
@@ -2808,8 +2808,8 @@
           "sentence_index": 0,
           "text": "An article in Scientific American has pointed out that empirical research says that, actually, you think you’re more beautiful than you are.",
           "translation": "《科学美国人》的一篇文章指出，实证研究表明，实际上，你认为自己比实际情况更美丽。",
-          "slashed_text": "An article / in Scientific American has pointed out / that empirical research says / that , / actually , / you think you’re more beautiful than you are.",
-          "chunk_translation": "一篇文章 / 发表在《科学美国人》上指出， / 实证研究解决的问题 / 从根本上讲微乎其微， / 这一观点 / 同样适用于心理学领域。",
+          "slashed_text": "An article / in Scientific American has pointed out / that empirical research says / that , actually , / you think you’re more beautiful / than you are.",
+          "chunk_translation": "一篇文章 / 发表在《科学美国人》上指出， / 实证研究表明， / 实际上， / 你认为自己更美丽 / 相比于你真实的模样。",
           "syntax": {
             "breakdown": [
               {
@@ -2836,8 +2836,8 @@
           "sentence_index": 1,
           "text": "We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this.",
           "translation": "我们有一种根深蒂固的自我感觉良好的需求，我们自然会采用一些自我提升的策略来实现这一目标。",
-          "slashed_text": "We have a deep-seated need to feel good / about ourselves and we naturally employ a number of self-enhancing strategies to achieve this.",
-          "chunk_translation": "我们有一种根深蒂固的需求去自我感觉良好， / 对我们自己，我们自然会想出各种方法来欺骗自己，让自己觉得过得不错，主要是因为这一点，我们产生了自我提升偏差。",
+          "slashed_text": "We have a deep-seated need to feel good / about ourselves / and we naturally employ a number of self-enhancing strategies / to achieve this.",
+          "chunk_translation": "我们有一种根深蒂固的需求去自我感觉良好， / 对待我们自己， / 我们自然会采用一系列自我提升策略 / 来达到这一目的。",
           "syntax": {
             "breakdown": [
               {
@@ -2859,8 +2859,8 @@
           "sentence_index": 2,
           "text": "Social psychologists have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate ourselves as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.",
           "translation": "社会心理学家对他们所谓的“高于平均水平效应”或“虚幻的优越感”进行了大量研究，并表明，例如，我们中 70% 的人认为自己在领导力方面高于平均水平，93% 的人在驾驶方面高于平均水平，85% 的人在与他人相处方面高于平均水平——所有这些显然在统计上都是不可能的。",
-          "slashed_text": "Social psychologists have amassed oceans of research / into what they call the “above average effect” , / or “illusory superiority” , / and shown / that , / for example , / 70 % of us rate ourselves as above average / in leadership , / 93 % / in driving and 85 % / at getting / on well / with others — / all obviously statistical impossibilities.",
-          "chunk_translation": "社会心理学家积累了海量的研究 / 关于自我提升偏差， / 并且 / 得出了结论， / 即我们大多数人都会编造理由 / 去相信 / 我们自己很优秀。我们可能会选择 / 为自己选择任何我们碰巧认为的特质 / 是最棒的特质， / 或者 / 我们认为 / 自己非同寻常 / 仅仅 / 因为具备了平淡无奇的品质。",
+          "slashed_text": "Social psychologists have amassed oceans of research / into what they call the “above average effect” , or “illusory superiority” , / and shown that , for example , / 70 % of us rate ourselves as above average in leadership , / 93 % in driving / and 85 % at getting on well with others — / all obviously statistical impossibilities.",
+          "chunk_translation": "社会心理学家积累了海量的研究 / 关于他们所称的“高于平均水平效应”或“虚幻优越感”， / 并表明，例如， / 我们当中有70%的人认为自己在领导力方面高于平均水平， / 93%的人认为自己在驾驶方面高于平均水平， / 85%的人认为自己在与他人融洽相处方面高于平均水平—— / 这些显然在统计学上都是不可能的。",
           "syntax": {
             "breakdown": [
               {
@@ -2892,8 +2892,8 @@
           "sentence_index": 0,
           "text": "We rose-tint our memories and put ourselves into self-affirming situations.",
           "translation": "我们将自己的记忆粉饰得玫瑰色，并将自己置于自我肯定的境地。",
-          "slashed_text": "We rose-tint our memories and put ourselves / into self-affirming situations.",
-          "chunk_translation": "我们粉饰自己的回忆，并让自己置身于 / 自我肯定的情境中。",
+          "slashed_text": "We rose-tint our memories / and put ourselves / into self-affirming situations.",
+          "chunk_translation": "我们粉饰自己的回忆， / 并让自己置身于 / 自我肯定的情境中。",
           "syntax": {
             "breakdown": [
               {
@@ -2915,8 +2915,8 @@
           "sentence_index": 1,
           "text": "We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem.",
           "translation": "当受到批评时，我们会变得防御性，并对他人施加负面的刻板印象，以提高我们自己的自尊。",
-          "slashed_text": "We become defensive / when criticised , / and apply negative stereotypes to others to boost our own esteem.",
-          "chunk_translation": "我们变得具有防御性 / 当受到批评时， / 并且对他人套用负面的刻板印象来提升我们自己的自尊。",
+          "slashed_text": "We become defensive / when criticised , / and apply negative stereotypes to others / to boost our own esteem.",
+          "chunk_translation": "我们变得具有防御性 / 当受到批评时， / 并且对他人套用负面的刻板印象 / 来提升我们自己的自尊。",
           "syntax": {
             "breakdown": [
               {
@@ -2943,8 +2943,8 @@
           "sentence_index": 2,
           "text": "We stalk around thinking we’re hot stuff.",
           "translation": "我们四处走动，以为自己很热门。",
-          "slashed_text": "We stalk around thinking we’re hot stuff.",
-          "chunk_translation": "我们趾高气扬地走来走去，自以为不可一世。",
+          "slashed_text": "We stalk around / thinking we’re hot stuff.",
+          "chunk_translation": "我们昂首阔步地走来走去， / 自以为不可一世。",
           "syntax": {
             "breakdown": [
               {
@@ -2972,7 +2972,7 @@
           "text": "Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness.",
           "translation": "心理学家和行为科学家尼古拉斯·埃普利（Nicholas Epley）主持了一项关于自我增强和吸引力的重要研究。",
           "slashed_text": "Psychologist and behavioural scientist Nicholas Epley oversaw a key study / into self- enhancement and attractiveness.",
-          "chunk_translation": "心理学家兼行为科学家尼古拉斯·埃普利 / 主持了一项研究，探讨我们在视觉认知方面是否也是自我美化者。",
+          "chunk_translation": "心理学家兼行为科学家尼古拉斯·埃普利主持了一项关键研究， / 探讨自我美化与吸引力。",
           "syntax": {
             "breakdown": [
               {
@@ -2994,8 +2994,8 @@
           "sentence_index": 1,
           "text": "Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive.",
           "translation": "他并没有让人们简单地与其他人相比评价自己的美丽程度，而是要求他们从一系列照片中找出一张自己的原始照片，其中包括经过修改的版本，使其看起来更具吸引力或不那么有吸引力。",
-          "slashed_text": "Rather than have people simply rate their beauty compared / with others , / he asked them to identify an original photograph of themselves from a lineup including versions / that had been altered to appear more and less attractive.",
-          "chunk_translation": "他没有让人们简单地给自己的外貌打分 / 与他人相比， / 他 / 让受试者辨认一张自己的照片，该照片已与一个长相较丑或较好看的人的照片进行了合成融合。",
+          "slashed_text": "Rather than have people simply rate their beauty / compared with others , / he asked them to identify an original photograph of themselves / from a lineup including versions / that had been altered to appear more and less attractive.",
+          "chunk_translation": "他没有让人们简单地评价自己的外貌 / 与他人相比， / 而是让他们从一组照片中辨认出自己原始的照片， / 其中包含经过修改的版本， / 分别使其显得更有吸引力或更无吸引力。",
           "syntax": {
             "breakdown": [
               {
@@ -3022,8 +3022,8 @@
           "sentence_index": 2,
           "text": "Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.",
           "translation": "该研究称，视觉识别是“一种自动的心理过程，快速而直观地发生，很少或没有明显的有意识的考虑。”如果受试者很快选择了一个虚假的讨人喜欢的形象——大多数人都会这样做——他们就会真诚地相信这就是他们的样子。",
-          "slashed_text": "Visual recognition , / reads the study , / is “an automatic psychological process , / occurring rapidly and intuitively / with little or no apparent conscious deliberation.” / If the subjects quickly chose a falsely flattering image — / which most did — / they genuinely believed it was really how they looked.",
-          "chunk_translation": "视觉识别， / 该研究指出， / 是“一种迅速且毫不费力发生的自动心理过程 / 并且 / 无需留心的 / 或 / 故意的 / 自我控制”。",
+          "slashed_text": "Visual recognition , reads the study , / is “an automatic psychological process , / occurring rapidly and intuitively / with little or no apparent conscious deliberation.” / If the subjects quickly chose a falsely flattering image — / which most did — / they genuinely believed it was really how they looked.",
+          "chunk_translation": "该研究指出，视觉识别 / 是“一种自动的心理过程， / 迅速且直觉地发生， / 几乎或完全不需要显式的意识深思熟虑。” / 如果受试者迅速选择了一张虚假美化的照片—— / 大多数人确实如此—— / 他们就真心认为那正是自己真实的模样。",
           "syntax": {
             "breakdown": [
               {
@@ -3051,7 +3051,7 @@
           "text": "Epley found no significant gender difference in responses.",
           "translation": "埃普利发现反应中没有显着的性别差异。",
           "slashed_text": "Epley found no significant gender difference / in responses.",
-          "chunk_translation": "埃普利没有发现显著的性别差异 / 在反应上。",
+          "chunk_translation": "埃普利没有发现显著的性别差异 / 在反应结果上。",
           "syntax": {
             "breakdown": [
               {
@@ -3073,8 +3073,8 @@
           "sentence_index": 1,
           "text": "Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored picture were real) were doing so to make up for profound insecurities.",
           "translation": "也没有任何证据表明那些自我增强最多的人（即那些认为经过最积极修改的图片是真实的参与者）这样做是为了弥补深深的不安全感。",
-          "slashed_text": "Nor was there any evidence / that those / who self-enhanced the most ( / that is , / the participants / who thought the most positively doctored picture were real) were doing so to make up / for profound insecurities.",
-          "chunk_translation": "也没有任何证据表明 / 那些人 / 进行自我美化的人更加缺乏安全感， / 但是 / 他们更有可能 / 拥有 / 更高的自尊心。",
+          "slashed_text": "Nor was there any evidence / that those who self-enhanced the most / (that is , the participants who thought the most positively doctored picture were real) / were doing so to make up for profound insecurities.",
+          "chunk_translation": "也没有任何证据表明， / 那些自我美化程度最高的人 / （即那些认为修饰得最漂亮的照片才是真实照片的参与者） / 这么做是为了弥补内心深处的不安全感。",
           "syntax": {
             "breakdown": [
               {
@@ -3101,8 +3101,8 @@
           "sentence_index": 2,
           "text": "In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem.",
           "translation": "事实上，那些认为吸引力等级较高的图像是真实的的人与那些表现出其他具有更高自尊的标志的人直接对应。",
-          "slashed_text": "In fact , / those / who thought / that the images higher up the attractiveness scale were real directly corresponded / with those / who showed other markers / for having higher self-esteem.",
-          "chunk_translation": "事实上， / 那些人 / 认为 / 那些在吸引力评级中更高的图像 / 代表真人的人 / 拥有 / 更高的自尊心。",
+          "slashed_text": "In fact , / those who thought that the images higher up the attractiveness scale were real / directly corresponded with those / who showed other markers / for having higher self-esteem.",
+          "chunk_translation": "事实上， / 那些认为吸引力评分更高的照片才是真实照片的人， / 直接对应着那些 / 表现出拥有更高自尊心 / 其他指标的人。",
           "syntax": {
             "breakdown": [
               {
@@ -3129,8 +3129,8 @@
           "sentence_index": 3,
           "text": "“I don’t think the findings that we have are any evidence of personal delusion,” says Epley.",
           "translation": "“我不认为我们的发现是个人错觉的任何证据，”埃普利说。",
-          "slashed_text": "“I don’t think the findings / that we have are any evidence of personal delusion , / ” says Epley.",
-          "chunk_translation": "“我认为我们所获得的调查结果 / 绝非个人妄想的证据，” / 埃普利说。",
+          "slashed_text": "“I don’t think the findings that we have / are any evidence of personal delusion ,” / says Epley.",
+          "chunk_translation": "“我不认为我们所获得的调查结果 / 是个人妄想的任何证据，” / 埃普利说。",
           "syntax": {
             "breakdown": [
               {
@@ -3158,7 +3158,7 @@
           "text": "“It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, you won’t be self-enhancing.",
           "translation": "“这只是人们普遍自我评价良好的反映。”如果你感到沮丧，你就不会自我提升。",
           "slashed_text": "“It’s a reflection simply of people generally thinking well of themselves.” / If you are depressed , / you won’t be self-enhancing.",
-          "chunk_translation": "“这仅仅反映了 / 仅仅是 / 人们普遍认为自己挺不错的想法。”",
+          "chunk_translation": "“这仅仅反映了人们普遍对自己评价良好。” / 如果你感到抑郁， / 你就不会进行自我美化。",
           "syntax": {
             "breakdown": [
               {
@@ -3186,7 +3186,7 @@
           "text": "Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves.",
           "translation": "了解了埃普利的研究结果后，我们发现许多人发自内心地讨厌自己的照片，这是有道理的——在某种程度上，他们甚至不认识照片中的人就是他们自己。",
           "slashed_text": "Knowing the results of Epley’s study , / it makes sense / that many people hate photographs of themselves viscerally — / on one level , / they don’t even recognise the person in the picture as themselves.",
-          "chunk_translation": "知道了埃普利的研究结果， / 这就说得通了 / 为什么许多人会修饰自己的自拍照 / 来提升 / 他们的自尊心。",
+          "chunk_translation": "了解到埃普利的研究结果， / 这就说得通了： / 为什么许多人本能地讨厌自己的照片—— / 在某种层面上， / 他们甚至认不出照片中的人就是自己。",
           "syntax": {
             "breakdown": [
               {
@@ -3213,8 +3213,8 @@
           "sentence_index": 1,
           "text": "Facebook therefore, is a self-enhancer’s paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyle.",
           "translation": "因此，Facebook 是自我提升者的天堂，人们只能在这里分享最讨人喜欢的照片，以及他们智慧、风格、美丽、智慧和生活方式的精华。",
-          "slashed_text": "Facebook therefore , / is a self-enhancer’s paradise , / where people can share only the most flattering photos , / the cream of their wit , / style , / beauty , / intellect and lifestyle.",
-          "chunk_translation": "因此脸书 / 是自我美化者的天堂， / 在那里人们可以只分享最诱人的照片 / 关于他们自己， / 并且 / 将会收到 / 大量的正面积极反馈。",
+          "slashed_text": "Facebook therefore , / is a self-enhancer’s paradise , / where people can share only the most flattering photos , / the cream of their wit , / style , beauty , intellect and lifestyle.",
+          "chunk_translation": "脸书因此 / 是自我美化者的天堂， / 在那里人们可以只分享最诱人的照片、 / 他们机智的精华、 / 以及风度、美貌、才智与生活方式的最佳面貌。",
           "syntax": {
             "breakdown": [
               {
@@ -3241,8 +3241,8 @@
           "sentence_index": 2,
           "text": "It’s not that people’s profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, “but they portray an idealised version of themselves.”",
           "translation": "威斯康星麦迪逊大学的卡特琳娜·托马表示，这并不是说人们的个人资料不诚实，“而是他们描绘了理想化的自己。”",
-          "slashed_text": "It’s not / that people’s profiles are dishonest , / says Catalina Toma of Wisconsin-Madison University , / “but they portray an idealised version of themselves.”",
-          "chunk_translation": "这并不是说人们的个人资料是不真实的， / 卡特琳娜·费克说， / 她是照片分享网站的联合创始人及社交网站的创始人， / 而是因为它们描绘了我们自己尽可能最好的一面。",
+          "slashed_text": "It’s not that people’s profiles are dishonest , / says Catalina Toma of Wisconsin-Madison University , / “but they portray an idealised version of themselves.”",
+          "chunk_translation": "“这并不是说人们的个人资料不诚实，” / 威斯康星大学麦迪逊分校的卡塔利娜·托马说， / “而是他们描绘了一个理想化的自己。”",
           "syntax": {
             "breakdown": [
               {
@@ -3873,8 +3873,8 @@
           "pid": 0,
           "text": "The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.",
           "translation": "人与机器的概念至少与工业革命一样古老，但这种现象往往在经济低迷和脆弱的复苏期间最为明显。然而，如果认为我们现在只是在经历繁荣与萧条周期的痛苦一面，那就错了。某些工作已经被机器永远消失、过时了。由于技术对吞噬人类工作的胃口如此之大，这种现象将继续以我们无法立即预见的方式重组我们的经济。",
-          "slashed_text": "The concept of man versus machine is / at least as old as the industrial revolution , / but this phenomenon tends to be most acutely felt / during economic downturns and fragile recoveries. / And yet , / it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. / Certain jobs have gone away / for good , / outmoded / by machines. / Since technology has such an insatiable appetite / for eating up human jobs , / this phenomenon will continue to restructure our economy / in ways we cannot immediately foresee.",
-          "chunk_translation": "人机对立的概念至少和……一样古老 / 工业革命一样古老， / 但这一现象最近获得了一些新术语 / 比如“技术性失业”。 / 然而， / 如果认为我们即将步入一个机器人包揽所有工作而人类坐享其收入的世界，那就大错特错了。 / 某些工作岗位已经消失了 / 彻底消失， / 被淘汰了 / 被机器淘汰。 / 因为技术对这些工作有着如此难以满足的胃口 / 对于常规性的 / 并且 / 可预测的任务。",
+          "slashed_text": "The concept of man versus machine / is at least as old as the industrial revolution , / but this phenomenon tends to be most acutely felt / during economic downturns and fragile recoveries. / And yet , / it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. / Certain jobs have gone away / for good , / outmoded / by machines. / Since technology has such an insatiable appetite / for eating up human jobs , / this phenomenon will continue to restructure our economy / in ways we cannot immediately foresee.",
+          "chunk_translation": "人机竞争的概念 / 至少和工业革命一样古老， / 但这种现象往往最深刻地被人们感受到 / 在经济低迷与脆弱复苏时期。 / 然而， / 如果认为我们即将步入一个机器人包揽所有工作而人类坐享其收入的世界，那就大错特错了。 / 某些工作岗位已经消失了 / 彻底消失， / 被淘汰了 / 被机器淘汰。 / 因为技术对这些工作有着如此难以满足的胃口 / 对于常规性的 / 并且 / 可预测的任务。",
           "vocabulary": [
             {
               "word": "highlight machines’ threat to human jobs",
@@ -4052,8 +4052,8 @@
           "pid": 1,
           "text": "When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has attracted a lot of attention, via the success of the book Race Against the Machine , by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT’s Center for Digital Business.",
           "translation": "当技术的价格和性能迅速提高时，曾经被认为不受自动化影响的工作突然受到威胁。由于埃里克·布林约尔松 (Erik Brynjolfsson) 和安德鲁·麦卡菲 (Andrew McAfee) 所著的《与机器赛跑》一书的成功，这一论点引起了广泛关注，他们都来自麻省理工学院数字商业中心。",
-          "slashed_text": "When there is rapid improvement in the price and performance of technology , / jobs / that were once thought to be immune / from automation suddenly become threatened. / This argument has attracted a lot of attention , / via the success of the book Race Against the Machine , / by Erik Brynjolfsson and Andrew McAfee , / who both hail from MIT’s Center / for Digital Business.",
-          "chunk_translation": "当出现快速改善时 / 在技术的性价比方面， / 那些工作岗位 / 那些曾经由人类完成的工作正越来越多地由机器来承担。 / 这一论点引起了极大的关注， / 通过《与机器赛跑》一书， / 由埃里克·布林约尔松和安德鲁·麦卡菲所著， / 他们两人都来自 / 麻省理工学院数字商业中心。",
+          "slashed_text": "When there is rapid improvement / in the price and performance of technology , / jobs that were once thought to be immune from automation / suddenly become threatened. / This argument has attracted a lot of attention , / via the success of the book Race Against the Machine , / by Erik Brynjolfsson and Andrew McAfee , / who both hail from MIT’s Center / for Digital Business.",
+          "chunk_translation": "当出现快速改善时 / 在技术的性价比方面， / 那些曾经被认为免于自动化的工作岗位 / 突然面临威胁。 / 这一论点引起了极大的关注， / 通过《与机器赛跑》一书， / 由埃里克·布林约尔松和安德鲁·麦卡菲所著， / 他们两人都来自 / 麻省理工学院数字商业中心。",
           "vocabulary": [
             {
               "word": "technology is diminishing man’s job opportunities",
@@ -4166,8 +4166,8 @@
           "pid": 2,
           "text": "This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.",
           "translation": "这是一个强有力的论点，也是一个可怕的论点。然而，《拉动的力量》和其他书籍的作者约翰·哈格尔表示，布林约尔松和迈克菲首先忽视了这些工作如此容易受到技术影响的原因。",
-          "slashed_text": "This is a powerful argument , / and a scary one. / And yet , / John Hagel , / author of The Power of Pull and other books , / says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.",
-          "chunk_translation": "这是一个有力的论点， / 也是一个令人恐慌的论点。 / 然而， / 约翰·哈格尔， / 《拉动力》等书的作者， / 认为布林约尔松和麦卡菲把因果关系搞反了。",
+          "slashed_text": "This is a powerful argument , / and a scary one. / And yet , / John Hagel , / author of The Power of Pull and other books , / says Brynjolfsson and McAfee miss the reason / why these jobs are so vulnerable to technology in the first place.",
+          "chunk_translation": "这是一个有力的论点， / 也是一个令人恐慌的论点。 / 然而， / 约翰·哈格尔， / 《拉动力》等书的作者， / 认为布林约尔松和麦卡菲忽略了一个根本原因： / 为什么这些岗位从一开始就如此容易受到技术的冲击。",
           "vocabulary": [
             {
               "word": "scary",
@@ -4235,8 +4235,8 @@
           "pid": 3,
           "text": "Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.",
           "translation": "哈格尔说，我们在美国设计的工作往往是“严格照本宣科”和“高度标准化”，没有给“个人主动性或创造力”留下空间。简而言之，在这些类型的工作中，机器可以比人类做得更好。哈格尔说，这就是我们如何在美国工人的背上挂上一个巨大的目标标志。",
-          "slashed_text": "Hagel says we have designed jobs in the U.S. / that tend to be “tightly scripted” and “highly standardized” ones / that leave no room for “individual initiative or creativity.” In short , / these are the types of jobs / that machines can perform much better / at than human beings. / That is how we have put a giant target sign on the backs of American workers , / Hagel says.",
-          "chunk_translation": "哈格尔表示，我们在美国设计工作岗位的方式 / 往往是“高度按既定程序行事” / 并且 / “高度标准化”的， / 这些岗位 / 几乎没有给“个人自主裁量权”留下任何空间。 / 这就是我们如何将一个巨大的瞄准靶心 / 贴在了美国工人的背上。",
+          "slashed_text": "Hagel says we have designed jobs in the U.S. / that tend to be “tightly scripted” and “highly standardized” ones / that leave no room for “individual initiative or creativity.” / In short , / these are the types of jobs / that machines can perform much better / at than human beings. / That is how we have put a giant target sign / on the backs of American workers , / Hagel says.",
+          "chunk_translation": "哈格尔表示，我们在美国设计工作岗位的方式 / 往往倾向于“高度按既定程序行事”与“高度标准化”， / 没有给“个人主动性或创造力”留下任何空间。 / 简而言之， / 这些类型的工作 / 机器能做得远远更好 / 相比于人类。 / 这就是我们如何把一个巨大的瞄准靶心 / 贴在美国工人的背上， / 哈格尔说。",
           "vocabulary": [
             {
               "word": "designed against human creativity",
@@ -4359,8 +4359,8 @@
           "pid": 4,
           "text": "It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at. They are designed to perform very predictable activities.",
           "translation": "哈格尔说，现在是重新发明工作方式的时候了，因为我们仍然依赖 20 世纪的工作概念。在瞬息万变的经济中，我们比以往任何时候都更需要工作场所的人们能够主动并发挥想象力“应对突发事件”。这不是机器擅长的事情。它们被设计用来执行非常可预测的活动。",
-          "slashed_text": "It’s time to reinvent the formula for how work is conducted , / since we are still relying on a very 20th century notion of work , / Hagel says. / In our rapidly changing economy , / we more than ever need people in the workplace / who can take initiative and exercise their imagination “to respond to unexpected events.” / That is not something machines are good at. / They are designed to perform very predictable activities.",
-          "chunk_translation": "现在是时候 / 重新改造这一模式了 / 关于工作是如何开展的。 / 在我们飞速变化的经济环境中， / 我们比以往任何时候都更需要人们 / 去做一些事情 / 那些机器所无法做到的事情。 / 机器被设计用来以非常明确的方式执行极具可预测性的活动。",
+          "slashed_text": "It’s time to reinvent the formula for how work is conducted , / since we are still relying on a very 20th century notion of work , / Hagel says. / In our rapidly changing economy , / we more than ever need people in the workplace / who can take initiative and exercise their imagination “to respond to unexpected events.” / That is not something machines are good at. / They are designed / to perform very predictable activities.",
+          "chunk_translation": "现在是时候重塑工作的开展模式了， / 因为我们仍然依赖于非常20世纪的工作观念， / 哈格尔说。 / 在我们飞速变化的经济环境中， / 我们比以往任何时候都更需要职场中的员工 / 能够发挥主动性并运用想象力“来应对突发事件”。 / 这绝非机器所擅长的事情。 / 它们被设计出来 / 专门执行高度可预测的活动。",
           "vocabulary": [
             {
               "word": "initiative",
@@ -4488,8 +4488,8 @@
           "pid": 5,
           "text": "As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book. We need to reframe race against the machine as race with the machine . In other words, we need to look at the ways in which machines can augment human labor rather than replace it. So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”",
           "translation": "正如哈格尔指出的那样，布林约尔松和迈克菲确实在他们的书中谈到了这一点。我们需要将与机器的竞赛重新定义为与机器的竞赛。换句话说，我们需要研究机器如何增强而不是取代人类劳动力。因此，问题实际上并不在于技术，而是“我们如何创新我们的机构和工作实践？”",
-          "slashed_text": "As Hagel notes , / Brynjolfsson and McAfee indeed touched / on this point / in their book. / We need to reframe race against the machine as race with the machine . / In other words , / we need to look at the ways in / which machines can augment human labor rather than replace it. / So then the problem is not really / about technology , / but rather , / “how do we innovate our institutions and our work practices?”",
-          "chunk_translation": "正如哈格尔所指出的， / 布林约尔松和麦卡菲确实涉及了 / 这一点， / 但他们主要把焦点放在技术问题上。 / 我们需要将“与机器竞争”重新定义为“与机器同行协同”。 / 换句话说， / 我们需要审视各种途径， / 在这些途径中我们可以与机器通力合作以拓展我们自身的能力。 / 因此，问题真正的核心并不在于技术本身， / 而在于我们如何将技术融入 / 我们的生活之中， / 以及我们能否重新设计我们的工作环境。",
+          "slashed_text": "As Hagel notes , / Brynjolfsson and McAfee indeed touched / on this point / in their book. / We need to reframe / race against the machine / as race with the machine . / In other words , / we need to look at the ways in / which machines can augment human labor / rather than replace it. / So then the problem is not really / about technology , / but rather , / “how do we innovate our institutions and our work practices?”",
+          "chunk_translation": "正如哈格尔所指出的， / 布林约尔松和麦卡菲确实涉及了 / 这一点 / 在他们的书中。 / 我们需要重构这一理念： / 将“与机器赛跑竞争” / 转化为“与机器同行协同”。 / 换句话说， / 我们需要审视各种途径， / 在这些途径中机器能够增强人类劳动力， / 而不是替代它。 / 因此问题的核心并不真正 / 在于技术本身， / 而是， / “我们如何革新我们的体制和我们的工作实践？”",
           "vocabulary": [
             {
               "word": "the necessity of human involvement in the workplace",
@@ -4606,8 +4606,8 @@
           "sentence_index": 0,
           "text": "The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries.",
           "translation": "人与机器的概念至少与工业革命一样古老，但这种现象往往在经济低迷和脆弱的复苏期间最为明显。",
-          "slashed_text": "The concept of man versus machine is / at least as old as the industrial revolution , / but this phenomenon tends to be most acutely felt / during economic downturns and fragile recoveries.",
-          "chunk_translation": "人机对立的概念至少和……一样古老 / 工业革命一样古老， / 但这一现象最近获得了一些新术语 / 比如“技术性失业”。",
+          "slashed_text": "The concept of man versus machine / is at least as old as the industrial revolution , / but this phenomenon tends to be most acutely felt / during economic downturns and fragile recoveries.",
+          "chunk_translation": "人机竞争的概念 / 至少和工业革命一样古老， / 但这种现象往往最深刻地被人们感受到 / 在经济低迷与脆弱复苏时期。",
           "syntax": {
             "breakdown": [
               {
@@ -4713,8 +4713,8 @@
           "sentence_index": 0,
           "text": "When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened.",
           "translation": "当技术的价格和性能迅速提高时，曾经被认为不受自动化影响的工作突然受到威胁。",
-          "slashed_text": "When there is rapid improvement in the price and performance of technology , / jobs / that were once thought to be immune / from automation suddenly become threatened.",
-          "chunk_translation": "当出现快速改善时 / 在技术的性价比方面， / 那些工作岗位 / 那些曾经由人类完成的工作正越来越多地由机器来承担。",
+          "slashed_text": "When there is rapid improvement / in the price and performance of technology , / jobs that were once thought to be immune from automation / suddenly become threatened.",
+          "chunk_translation": "当出现快速改善时 / 在技术的性价比方面， / 那些曾经被认为免于自动化的工作岗位 / 突然面临威胁。",
           "syntax": {
             "breakdown": [
               {
@@ -4792,8 +4792,8 @@
           "sentence_index": 1,
           "text": "And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.",
           "translation": "然而，《拉动的力量》和其他书籍的作者约翰·哈格尔表示，布林约尔松和迈克菲首先忽视了这些工作如此容易受到技术影响的原因。",
-          "slashed_text": "And yet , / John Hagel , / author of The Power of Pull and other books , / says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.",
-          "chunk_translation": "然而， / 约翰·哈格尔， / 《拉动力》等书的作者， / 认为布林约尔松和麦卡菲把因果关系搞反了。",
+          "slashed_text": "And yet , / John Hagel , / author of The Power of Pull and other books , / says Brynjolfsson and McAfee miss the reason / why these jobs are so vulnerable to technology in the first place.",
+          "chunk_translation": "然而， / 约翰·哈格尔， / 《拉动力》等书的作者， / 认为布林约尔松和麦卡菲忽略了一个根本原因： / 为什么这些岗位从一开始就如此容易受到技术的冲击。",
           "syntax": {
             "breakdown": [
               {
@@ -4843,8 +4843,8 @@
           "sentence_index": 1,
           "text": "that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings.",
           "translation": "这些往往是“严格的脚本化”和“高度标准化”的，没有为“个人主动性或创造力”留下空间。简而言之，在这些类型的工作中，机器可以比人类做得更好。",
-          "slashed_text": "that tend to be “tightly scripted” and “highly standardized” ones / that leave no room for “individual initiative or creativity.” In short , / these are the types of jobs / that machines can perform much better / at than human beings.",
-          "chunk_translation": "往往是“高度按既定程序行事” / 并且 / “高度标准化”的， / 这些岗位 / 几乎没有给“个人自主裁量权”留下任何空间。",
+          "slashed_text": "that tend to be “tightly scripted” and “highly standardized” ones / that leave no room for “individual initiative or creativity.” / In short , / these are the types of jobs / that machines can perform much better / at than human beings.",
+          "chunk_translation": "往往倾向于“高度按既定程序行事”与“高度标准化”， / 没有给“个人主动性或创造力”留下任何空间。 / 简而言之， / 这些类型的工作 / 机器能做得远远更好 / 相比于人类。",
           "syntax": {
             "breakdown": [
               {
@@ -4871,8 +4871,8 @@
           "sentence_index": 2,
           "text": "That is how we have put a giant target sign on the backs of American workers, Hagel says.",
           "translation": "哈格尔说，这就是我们如何在美国工人的背上挂上一个巨大的目标标志。",
-          "slashed_text": "That is how we have put a giant target sign on the backs of American workers , / Hagel says.",
-          "chunk_translation": "这就是我们如何将一个巨大的瞄准靶心 / 贴在了美国工人的背上。",
+          "slashed_text": "That is how we have put a giant target sign / on the backs of American workers , / Hagel says.",
+          "chunk_translation": "这就是我们如何把一个巨大的瞄准靶心 / 贴在美国工人的背上， / 哈格尔说。",
           "syntax": {
             "breakdown": [
               {
@@ -4900,7 +4900,7 @@
           "text": "It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says.",
           "translation": "哈格尔说，现在是重新发明工作方式的时候了，因为我们仍然依赖 20 世纪的工作概念。",
           "slashed_text": "It’s time to reinvent the formula for how work is conducted , / since we are still relying on a very 20th century notion of work , / Hagel says.",
-          "chunk_translation": "现在是时候 / 重新改造这一模式了 / 关于工作是如何开展的。",
+          "chunk_translation": "现在是时候重塑工作的开展模式了， / 因为我们仍然依赖于非常20世纪的工作观念， / 哈格尔说。",
           "syntax": {
             "breakdown": [
               {
@@ -4928,7 +4928,7 @@
           "text": "In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at.",
           "translation": "在瞬息万变的经济中，我们比以往任何时候都更需要工作场所的人们能够主动并发挥想象力“应对突发事件”。这不是机器擅长的事情。",
           "slashed_text": "In our rapidly changing economy , / we more than ever need people in the workplace / who can take initiative and exercise their imagination “to respond to unexpected events.” / That is not something machines are good at.",
-          "chunk_translation": "在我们飞速变化的经济环境中， / 我们比以往任何时候都更需要人们 / 去做一些事情 / 那些机器所无法做到的事情。",
+          "chunk_translation": "在我们飞速变化的经济环境中， / 我们比以往任何时候都更需要职场中的员工 / 能够发挥主动性并运用想象力“来应对突发事件”。 / 这绝非机器所擅长的事情。",
           "syntax": {
             "breakdown": [
               {
@@ -4955,8 +4955,8 @@
           "sentence_index": 2,
           "text": "They are designed to perform very predictable activities.",
           "translation": "它们被设计用来执行非常可预测的活动。",
-          "slashed_text": "They are designed to perform very predictable activities.",
-          "chunk_translation": "机器被设计用来以非常明确的方式执行极具可预测性的活动。",
+          "slashed_text": "They are designed / to perform very predictable activities.",
+          "chunk_translation": "它们被设计出来 / 专门执行高度可预测的活动。",
           "syntax": {
             "breakdown": [
               {
@@ -4979,7 +4979,7 @@
           "text": "As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book.",
           "translation": "正如哈格尔指出的那样，布林约尔松和迈克菲在他们的书中确实谈到了这一点。",
           "slashed_text": "As Hagel notes , / Brynjolfsson and McAfee indeed touched / on this point / in their book.",
-          "chunk_translation": "正如哈格尔所指出的， / 布林约尔松和麦卡菲确实涉及了 / 这一点， / 但他们主要把焦点放在技术问题上。",
+          "chunk_translation": "正如哈格尔所指出的， / 布林约尔松和麦卡菲确实涉及了 / 这一点 / 在他们的书中。",
           "syntax": {
             "breakdown": [
               {
@@ -5001,8 +5001,8 @@
           "sentence_index": 1,
           "text": "We need to reframe race against the machine as race with the machine .",
           "translation": "我们需要将与机器的竞赛重新定义为与机器的竞赛。",
-          "slashed_text": "We need to reframe race against the machine as race with the machine .",
-          "chunk_translation": "我们需要将“与机器竞争”重新定义为“与机器同行协同”。",
+          "slashed_text": "We need to reframe / race against the machine / as race with the machine .",
+          "chunk_translation": "我们需要重构这一理念： / 将“与机器赛跑竞争” / 转化为“与机器同行协同”。",
           "syntax": {
             "breakdown": [
               {
@@ -5029,8 +5029,8 @@
           "sentence_index": 2,
           "text": "In other words, we need to look at the ways in which machines can augment human labor rather than replace it.",
           "translation": "换句话说，我们需要研究机器如何增强而不是取代人类劳动力。",
-          "slashed_text": "In other words , / we need to look at the ways in / which machines can augment human labor rather than replace it.",
-          "chunk_translation": "换句话说， / 我们需要审视各种途径， / 在这些途径中我们可以与机器通力合作以拓展我们自身的能力。",
+          "slashed_text": "In other words , / we need to look at the ways in / which machines can augment human labor / rather than replace it.",
+          "chunk_translation": "换句话说， / 我们需要审视各种途径， / 在这些途径中机器能够增强人类劳动力， / 而不是替代它。",
           "syntax": {
             "breakdown": [
               {
@@ -5058,7 +5058,7 @@
           "text": "So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”",
           "translation": "因此，问题实际上并不在于技术，而是“我们如何创新我们的机构和工作实践？”",
           "slashed_text": "So then the problem is not really / about technology , / but rather , / “how do we innovate our institutions and our work practices?”",
-          "chunk_translation": "因此，问题真正的核心并不在于技术本身， / 而在于我们如何将技术融入 / 我们的生活之中， / 以及我们能否重新设计我们的工作环境。",
+          "chunk_translation": "因此问题的核心并不真正 / 在于技术本身， / 而是， / “我们如何革新我们的体制和我们的工作实践？”",
           "syntax": {
             "breakdown": [
               {
@@ -5690,8 +5690,8 @@
           "pid": 0,
           "text": "When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.",
           "translation": "当政府谈论基础设施对经济的贡献时，重点通常是公路、铁路、宽带和能源。住房很少被提及。",
-          "slashed_text": "When the government talks / about infrastructure contributing to the economy the focus is usually / on roads , / railways , / broadband and energy. / Housing is seldom mentioned.",
-          "chunk_translation": "当政府谈论起 / 基础设施 / 建设时， / 它通常指的是诸如此类的项目 / 比如公路和铁路。 / 住房却很少被提及。",
+          "slashed_text": "When the government talks / about infrastructure contributing to the economy / the focus is usually / on roads , railways , broadband and energy. / Housing is seldom mentioned.",
+          "chunk_translation": "当政府谈论 / 基础设施对经济的贡献时， / 焦点通常集中在 / 公路、铁路、宽带和能源上。 / 住房却很少被提及。",
           "vocabulary": [
             {
               "word": "infrastructure",
@@ -5765,7 +5765,7 @@
           "text": "Why is that? To some extent the housing sector must shoulder the blame. We have not been good at communicating the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.",
           "translation": "这是为什么？在某种程度上，住房部门必须承担责任。我们一直不擅长传达住房对经济增长贡献的真正价值。然后是典型住房项目的规模。耗资数十亿英镑的基础设施项目很难引起人们的注意，因此注意力不可避免地会集中到其他地方。但也许最重要的原因是这个问题一直充满政治色彩。",
           "slashed_text": "Why is / that? / To some extent the housing sector must shoulder the blame. / We have not been good / at communicating the real value / that housing can contribute to economic growth. / Then there is the scale of the typical housing project. / It is hard to shove / for attention among multibillion-pound infrastructure projects , / so it is inevitable / that the attention is focused elsewhere. / But perhaps the most significant reason is / that the issue has always been so politically charged.",
-          "chunk_translation": "这是为什么 / 呢？ / 在某种程度上，住房部门必须承担责任。 / 我们一直不擅长 / 传达真正价值 / 保障性住房对公众的真正价值。 / 再者就是典型住房项目的规模问题。 / 很难挤破头去争夺 / 在那些数十亿英镑的基础设施项目中争夺关注， / 因此 / 不难理解关于住房的讨论是如何被边缘化和忽视的。 / 但也许最重要的原因是 / 住房问题已经被高度政治化了。",
+          "chunk_translation": "这是为什么 / 呢？ / 在某种程度上，住房部门必须承担责任。 / 我们一直不擅长 / 传达真实价值 / 即住房能对经济增长做出的贡献。 / 再者就是典型住房项目的规模问题。 / 很难去挤位争抢关注 / 在那些价值数十亿英镑的基础设施项目中， / 因此不可避免的是 / 注意力被吸引到了其他地方。 / 但也许最重要的原因是 / 这一问题历来都极具政治敏感性。",
           "vocabulary": [
             {
               "word": "involves certain political factors",
@@ -5944,7 +5944,7 @@
           "text": "Nevertheless, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.",
           "translation": "然而，保障性住房的形势却十分严峻。等候名单一直在增加，而我们根本没有建造足够的新房。",
           "slashed_text": "Nevertheless , / the affordable housing situation is desperate. / Waiting lists increase all the time and we are simply not building enough new homes.",
-          "chunk_translation": "尽管如此， / 保障性住房的形势正逼近危机临界点。 / 候补名单一直在增加，而我们建造的房屋根本不够。",
+          "chunk_translation": "尽管如此， / 保障性住房的形势依然十分严峻。 / 候补名单一直在增加，而我们建造的房屋根本不够。",
           "vocabulary": [
             {
               "word": "housing",
@@ -6116,8 +6116,8 @@
           "pid": 4,
           "text": "There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.",
           "translation": "有一些迹象表明它正准备这样做。社区部长唐·福斯特 (Don Foster) 暗示，财政大臣乔治·奥斯本 (George Osborne) 可能会对当前地方政府可抵押住房存量债务的借款金额上限引入更大的灵活性。有证据表明，如果取消上限，未来五年可额外建造 60,000 套新房，GDP 增长 0.6%。",
-          "slashed_text": "There are some indications / that it is preparing to do just / that. / The communities minister , / Don Foster , / has hinted / that George Osborne , / Chancellor of the Exchequer , / may introduce more flexibility to the current cap on the amount / that local authorities can borrow against their housing stock debt. / Evidence shows / that 60 , / 000 extra new homes could be built over the next five years / if the cap were lifted , / increasing GDP by 0.6%.",
-          "chunk_translation": "有一些迹象表明 / 政府正准备着手去做 / 正是这件事情。 / 社区事务大臣 / 唐·福斯特， / 已经暗示过 / 政府正在考虑 / 允许房屋协会 / 进行借贷抵押 / 以其自身物业的价值为抵押进行借贷。 / 证据表明， / 60, / 000套额外的新住房可以被建造出来 / 在接下来的五年里， / 如果借贷上限能够被取消。",
+          "slashed_text": "There are some indications / that it is preparing to do just / that. / The communities minister , / Don Foster , / has hinted / that George Osborne , Chancellor of the Exchequer , / may introduce more flexibility / to the current cap on the amount / that local authorities can borrow against their housing stock debt. / Evidence shows / that 60,000 extra new homes could be built / over the next five years / if the cap were lifted , / increasing GDP by 0.6%.",
+          "chunk_translation": "有一些迹象表明 / 政府正准备着手去做 / 正是这件事情。 / 社区事务大臣 / 唐·福斯特 / 已经暗示， / 财政大臣乔治·奥斯本 / 可能会引入更大的灵活性 / 针对目前的借贷上限， / 即地方当局以其存量住房债务为抵押所能借贷的金额。 / 证据表明， / 可以额外建造6万套新住房 / 在未来五年内， / 如果借贷上限被放宽， / 并使国内生产总值增长0.6%。",
           "vocabulary": [
             {
               "word": "allow greater government debt for housing",
@@ -6276,7 +6276,7 @@
           "text": "Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.",
           "translation": "部长们还应该考虑在租赁环境中创造更大的确定性，这将对注册提供商利用收入为新开发项目提供资金的能力产生重大影响。",
           "slashed_text": "Ministers should also look / at creating greater certainty in the rental environment , / which would have a significant impact on the ability of registered providers to fund new developments / from revenues.",
-          "chunk_translation": "部长们还应该考虑 / 创造更大的确定性 / 在租赁市场中 / 通过稳定租金水平。",
+          "chunk_translation": "部长们还应该着眼于 / 在租赁环境中创造更大的确定性， / 这将对注册住房提供商依靠租金收入资助新开发项目的能力 / 产生重大影响。",
           "vocabulary": [
             {
               "word": "contribute to funding new developments",
@@ -6380,7 +6380,7 @@
           "text": "But it is not just down to the government. While these measures would be welcome in the short term, we must face up to the fact that the existing ￡4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then. The Labour party has recently announced that it will retain a large part of the coalition’s spending plans if it returns to power. The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants. We need to adjust to this changing climate.",
           "translation": "但这不仅仅取决于政府。虽然这些措施在短期内会受到欢迎，但我们必须面对这样一个事实：现有的 45 亿英镑资助新建经济适用房的赠款计划将于 2015 年到期，之后不太可能再延长。工党最近宣布，如果重新掌权，它将保留联合政府支出计划的很大一部分。住房部门需要接受这样一个事实：我们不太可能回到大规模公共拨款的时代。我们需要适应这种不断变化的气候。",
           "slashed_text": "But it is not just down to the government. / While these measures would be welcome in the short term , / we must face up to the fact / that the existing ￡4.5bn programme of grants to fund new affordable housing , / set to expire in 2015 , / is unlikely to be extended beyond then. / The Labour party has recently announced / that it will retain a large part of the coalition’s spending plans / if it returns to power. / The housing sector needs to accept / that we are very unlikely to ever return to the era of large-scale public grants. / We need to adjust to this changing climate.",
-          "chunk_translation": "但这不仅仅是政府的责任。 / 尽管这些举措将会受到欢迎 / 在短期内， / 但我们也需要 / 去应对长期的挑战 / 住房行业所面临的挑战。 / 工党最近宣布 / 它将全面审查 / 整个住房市场，如果它赢得下届大选。 / 住房部门需要接受这一事实： / 我们很大程度上只能靠自己。 / 我们需要适应这种不断变化的大环境。",
+          "chunk_translation": "但这不仅仅是政府的责任。 / 尽管这些举措在短期内会受到欢迎， / 但我们必须正视这一事实： / 现有的45亿英镑资助新建保障性住房的拨款计划 / 预计将于2015年到期， / 之后极不可能再获得展期。 / 工党最近宣布， / 它将保留执政联盟支出计划的大部分内容， / 如果它重新执政。 / 住房部门需要接受这一现实： / 我们极不可能再回到大规模公共拨款的时代。 / 我们需要适应这种不断变化的大环境。",
           "vocabulary": [
             {
               "word": "stop generous funding to the housing sector",
@@ -6569,7 +6569,7 @@
           "text": "While the government’s commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.",
           "translation": "尽管政府对长期资助的承诺可能已经改变，但对更多经济适用房的迫切需求是真实存在的，并且不会消失。",
           "slashed_text": "While the government’s commitment to long-term funding may have changed , / the very pressing need / for more affordable housing is real and is not going away.",
-          "chunk_translation": "虽然政府的承诺 / 对于长期资金支持至关重要， / 但我们承受不起坐等其成的代价。",
+          "chunk_translation": "虽然政府对长期资金的承诺可能已经改变， / 但对更多保障性住房的紧迫需求 / 是实实在在的，而且不会自行消失。",
           "vocabulary": [
             {
               "word": "housing",
@@ -6621,8 +6621,8 @@
           "sentence_index": 0,
           "text": "When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy.",
           "translation": "当政府谈论基础设施对经济的贡献时，重点通常是公路、铁路、宽带和能源。",
-          "slashed_text": "When the government talks / about infrastructure contributing to the economy the focus is usually / on roads , / railways , / broadband and energy.",
-          "chunk_translation": "当政府谈论起 / 基础设施 / 建设时， / 它通常指的是诸如此类的项目 / 比如公路和铁路。",
+          "slashed_text": "When the government talks / about infrastructure contributing to the economy / the focus is usually / on roads , railways , broadband and energy.",
+          "chunk_translation": "当政府谈论 / 基础设施对经济的贡献时， / 焦点通常集中在 / 公路、铁路、宽带和能源上。",
           "syntax": {
             "breakdown": [
               {
@@ -6719,7 +6719,7 @@
           "text": "We have not been good at communicating the real value that housing can contribute to economic growth.",
           "translation": "我们一直不擅长传达住房对经济增长贡献的真正价值。",
           "slashed_text": "We have not been good / at communicating the real value / that housing can contribute to economic growth.",
-          "chunk_translation": "我们一直不擅长 / 传达真正价值 / 保障性住房对公众的真正价值。",
+          "chunk_translation": "我们一直不擅长 / 传达真实价值 / 即住房能对经济增长做出的贡献。",
           "syntax": {
             "breakdown": [
               {
@@ -6770,7 +6770,7 @@
           "text": "It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere.",
           "translation": "耗资数十亿英镑的基础设施项目很难引起人们的注意，因此注意力不可避免地会集中到其他地方。",
           "slashed_text": "It is hard to shove / for attention among multibillion-pound infrastructure projects , / so it is inevitable / that the attention is focused elsewhere.",
-          "chunk_translation": "很难挤破头去争夺 / 在那些数十亿英镑的基础设施项目中争夺关注， / 因此 / 不难理解关于住房的讨论是如何被边缘化和忽视的。",
+          "chunk_translation": "很难去挤位争抢关注 / 在那些价值数十亿英镑的基础设施项目中， / 因此不可避免的是 / 注意力被吸引到了其他地方。",
           "syntax": {
             "breakdown": [
               {
@@ -6798,7 +6798,7 @@
           "text": "But perhaps the most significant reason is that the issue has always been so politically charged.",
           "translation": "但也许最重要的原因是这个问题一直充满政治色彩。",
           "slashed_text": "But perhaps the most significant reason is / that the issue has always been so politically charged.",
-          "chunk_translation": "但也许最重要的原因是 / 住房问题已经被高度政治化了。",
+          "chunk_translation": "但也许最重要的原因是 / 这一问题历来都极具政治敏感性。",
           "syntax": {
             "breakdown": [
               {
@@ -6826,7 +6826,7 @@
           "text": "Nevertheless, the affordable housing situation is desperate.",
           "translation": "然而，保障性住房的形势却十分严峻。",
           "slashed_text": "Nevertheless , / the affordable housing situation is desperate.",
-          "chunk_translation": "尽管如此， / 保障性住房的形势正逼近危机临界点。",
+          "chunk_translation": "尽管如此， / 保障性住房的形势依然十分严峻。",
           "syntax": {
             "breakdown": [
               {
@@ -6945,8 +6945,8 @@
           "sentence_index": 1,
           "text": "The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt.",
           "translation": "社区部长唐·福斯特 (Don Foster) 暗示，财政大臣乔治·奥斯本 (George Osborne) 可能会对当前地方政府可抵押住房存量债务的借款金额上限引入更大的灵活性。",
-          "slashed_text": "The communities minister , / Don Foster , / has hinted / that George Osborne , / Chancellor of the Exchequer , / may introduce more flexibility to the current cap on the amount / that local authorities can borrow against their housing stock debt.",
-          "chunk_translation": "社区事务大臣 / 唐·福斯特， / 已经暗示过 / 政府正在考虑 / 允许房屋协会 / 进行借贷抵押 / 以其自身物业的价值为抵押进行借贷。",
+          "slashed_text": "The communities minister , / Don Foster , / has hinted / that George Osborne , Chancellor of the Exchequer , / may introduce more flexibility / to the current cap on the amount / that local authorities can borrow against their housing stock debt.",
+          "chunk_translation": "社区事务大臣 / 唐·福斯特 / 已经暗示， / 财政大臣乔治·奥斯本 / 可能会引入更大的灵活性 / 针对目前的借贷上限， / 即地方当局以其存量住房债务为抵押所能借贷的金额。",
           "syntax": {
             "breakdown": [
               {
@@ -6973,8 +6973,8 @@
           "sentence_index": 2,
           "text": "Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.",
           "translation": "有证据表明，如果取消上限，未来五年可额外建造 60,000 套新房，GDP 增长 0.6%。",
-          "slashed_text": "Evidence shows / that 60 , / 000 extra new homes could be built over the next five years / if the cap were lifted , / increasing GDP by 0.6%.",
-          "chunk_translation": "证据表明， / 60, / 000套额外的新住房可以被建造出来 / 在接下来的五年里， / 如果借贷上限能够被取消。",
+          "slashed_text": "Evidence shows / that 60,000 extra new homes could be built / over the next five years / if the cap were lifted , / increasing GDP by 0.6%.",
+          "chunk_translation": "证据表明， / 可以额外建造6万套新住房 / 在未来五年内， / 如果借贷上限被放宽， / 并使国内生产总值增长0.6%。",
           "syntax": {
             "breakdown": [
               {
@@ -7002,7 +7002,7 @@
           "text": "Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.",
           "translation": "部长们还应该考虑在租赁环境中创造更大的确定性，这将对注册提供商利用收入为新开发项目提供资金的能力产生重大影响。",
           "slashed_text": "Ministers should also look / at creating greater certainty in the rental environment , / which would have a significant impact on the ability of registered providers to fund new developments / from revenues.",
-          "chunk_translation": "部长们还应该考虑 / 创造更大的确定性 / 在租赁市场中 / 通过稳定租金水平。",
+          "chunk_translation": "部长们还应该着眼于 / 在租赁环境中创造更大的确定性， / 这将对注册住房提供商依靠租金收入资助新开发项目的能力 / 产生重大影响。",
           "syntax": {
             "breakdown": [
               {
@@ -7053,7 +7053,7 @@
           "text": "While these measures would be welcome in the short term, we must face up to the fact that the existing ￡4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then.",
           "translation": "虽然这些措施在短期内会受到欢迎，但我们必须面对这样一个事实：现有的 45 亿英镑资助新建经济适用房的赠款计划将于 2015 年到期，之后不太可能再延长。",
           "slashed_text": "While these measures would be welcome in the short term , / we must face up to the fact / that the existing ￡4.5bn programme of grants to fund new affordable housing , / set to expire in 2015 , / is unlikely to be extended beyond then.",
-          "chunk_translation": "尽管这些举措将会受到欢迎 / 在短期内， / 但我们也需要 / 去应对长期的挑战 / 住房行业所面临的挑战。",
+          "chunk_translation": "尽管这些举措在短期内会受到欢迎， / 但我们必须正视这一事实： / 现有的45亿英镑资助新建保障性住房的拨款计划 / 预计将于2015年到期， / 之后极不可能再获得展期。",
           "syntax": {
             "breakdown": [
               {
@@ -7081,7 +7081,7 @@
           "text": "The Labour party has recently announced that it will retain a large part of the coalition’s spending plans if it returns to power.",
           "translation": "工党最近宣布，如果重新掌权，它将保留联合政府支出计划的很大一部分。",
           "slashed_text": "The Labour party has recently announced / that it will retain a large part of the coalition’s spending plans / if it returns to power.",
-          "chunk_translation": "工党最近宣布 / 它将全面审查 / 整个住房市场，如果它赢得下届大选。",
+          "chunk_translation": "工党最近宣布， / 它将保留执政联盟支出计划的大部分内容， / 如果它重新执政。",
           "syntax": {
             "breakdown": [
               {
@@ -7109,7 +7109,7 @@
           "text": "The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants.",
           "translation": "住房部门需要接受这样一个事实：我们不太可能回到大规模公共拨款的时代。",
           "slashed_text": "The housing sector needs to accept / that we are very unlikely to ever return to the era of large-scale public grants.",
-          "chunk_translation": "住房部门需要接受这一事实： / 我们很大程度上只能靠自己。",
+          "chunk_translation": "住房部门需要接受这一现实： / 我们极不可能再回到大规模公共拨款的时代。",
           "syntax": {
             "breakdown": [
               {
@@ -7160,7 +7160,7 @@
           "text": "While the government’s commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.",
           "translation": "尽管政府对长期资助的承诺可能已经改变，但对更多经济适用房的迫切需求是真实存在的，并且不会消失。",
           "slashed_text": "While the government’s commitment to long-term funding may have changed , / the very pressing need / for more affordable housing is real and is not going away.",
-          "chunk_translation": "虽然政府的承诺 / 对于长期资金支持至关重要， / 但我们承受不起坐等其成的代价。",
+          "chunk_translation": "虽然政府对长期资金的承诺可能已经改变， / 但对更多保障性住房的紧迫需求 / 是实实在在的，而且不会自行消失。",
           "syntax": {
             "breakdown": [
               {

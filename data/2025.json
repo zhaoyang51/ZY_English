@@ -10,8 +10,8 @@
           "pid": 0,
           "text": "For generations, tipping in American society was anchored in a clear social contract: customers rewarded restaurant servers at the conclusion of a meal based on the perceived quality of service. Historically, this custom assumed that tips functioned as an essential supplement to low base wages in sit-down dining. Today, however, the ubiquity of digital payment terminals has thoroughly dismantled this traditional norm, ushering in an era of pervasive 'tip creep' that prompts consumers to tip before receiving any service across almost every casual transaction.",
           "translation": "几代人以来，美国社会的小费文化都建立在明确的社会契约之上：顾客在用餐结束时，根据其所感受到的服务质量对餐厅侍者进行打赏。从历史上看，这种习俗基于一种假定，即在正规坐席餐饮中，小费是对较低基础工资的必要补充。然而在今天，数字支付终端的无处不在彻底打破了这一传统规范，开启了一个泛滥的“小费膨胀”时代——几乎在每笔日常即时交易中，系统都会在消费者接受任何服务之前提示其支付小费。",
-          "slashed_text": "For generations , / tipping in American society / was anchored in a clear social contract : / customers rewarded restaurant servers / at the conclusion of a meal / based on the perceived quality of service. / Historically , / this custom assumed / that tips functioned / as an essential supplement / to low base wages / in sit-down dining. / Today , however , / the ubiquity of digital payment terminals / has thoroughly dismantled this traditional norm , / ushering in an era / of pervasive 'tip creep' / that prompts consumers to tip / before receiving any service / across almost every casual transaction.",
-          "chunk_translation": "几代人以来 / 美国社会内部的小费打赏传统 / 始终牢牢扎根于一份心照不宣的明确社会契约之中 / 即就餐顾客通常在整顿正餐彻底享用完毕之后的买单时刻 / 方才根据自己切身体会到的服务质量优劣高低 / 对辛勤服务的餐厅侍应生施以现金奖赏 / 从历史演变脉络来看 / 这项不成文的民间惯例始终假定 / 顾客自愿慷慨赠予的小费 / 乃是对传统正规堂食餐厅员工过于微薄的底薪收入所不可或缺的关键补偿 / 然而时至今日 / 各类触摸屏数字电子移动支付结算终端的无处不在与全面普及 / 却已经彻底摧毁颠覆了这套历经百年的传统行为准则 / 进而悍然开启了一个无孔不入的“小费膨胀侵蚀”荒诞新时代 / 强行诱导并催促广大消费者 / 甚至在尚未实际享受到任何具体服务之前就必须硬着头皮预先勾选小费 / 这一怪现象如今已经席卷渗透进了几乎所有的日常简单柜台交易场景之中",
+          "slashed_text": "For generations , / tipping in American society was anchored in a clear social contract : / customers rewarded restaurant servers at the conclusion of a meal / based on the perceived quality of service. / Historically , this custom assumed / that tips functioned as an essential supplement / to low base wages / in sit-down dining. / Today , however , / the ubiquity of digital payment terminals / has thoroughly dismantled this traditional norm , / ushering in an era of pervasive 'tip creep' / that prompts consumers to tip / before receiving any service / across almost every casual transaction.",
+          "chunk_translation": "几代人以来， / 美国社会中的小费习惯都植根于一份明确的社会契约： / 顾客在就餐结束时向餐厅服务员发放赏钱， / 取决于所感受到的服务质量高低。 / 在历史上，这一习俗假定 / 小费发挥着必不可少的补充作用， / 针对较低的基本工资， / 在堂食餐饮服务中。 / 然而在今天， / 数字支付终端的无处不在 / 彻底瓦解了这一传统规范， / 开启了一个普遍“小费泛滥蔓延”的时代， / 促使消费者给小费 / 在接受任何服务之前， / 在几乎每一笔日常随意的交易中。",
           "vocabulary": [
             {
               "word": "anchor",
@@ -74,8 +74,8 @@
           "pid": 1,
           "text": "The mechanics of this shift are driven by software design rather than spontaneous hospitality. When buying a simple takeout coffee or pastry, consumers are routinely confronted with a swivel screen displaying pre-set tip percentages ranging from eighteen to thirty percent. Faced with the awkward gaze of the cashier, customers succumb to social embarrassment and guilt, tapping generous default buttons even when no specialized assistance was provided. What was once a discretionary token of gratitude has morphed into a coercive psychological toll.",
           "translation": "这一转变背后的运作机制主要由软件设计而非自发的热情款待所驱动。在购买一杯普通的外带咖啡或糕点时，消费者通常会面对一块翻转屏幕，上面显示着从18%到30%不等的预设小费比例。在收银员尴尬的注视下，顾客往往屈服于社交窘迫与内疚心理，即便利落的交易中根本没有提供任何特殊服务，他们也会点击慷慨的默认选项按钮。曾经自愿表达谢意的象征性打赏，如今已演变为一种胁迫性的心理敲诈。",
-          "slashed_text": "The mechanics of this shift are driven / by software design / rather than spontaneous hospitality. / When buying a simple takeout coffee or pastry , / consumers are routinely confronted with / a swivel screen / displaying pre-set tip percentages / ranging from eighteen to thirty percent. / Faced with the awkward gaze of the cashier , / customers succumb to / social embarrassment and guilt , / tapping generous default buttons / even when no specialized assistance was provided. / What was once a discretionary token of gratitude / has morphed into / a coercive psychological toll.",
-          "chunk_translation": "这场社会风气剧烈逆变的底层驱动机制 / 完全是由冰冷的商业软件界面设计所刻意操弄推动的 / 而绝非源于人与人之间自发真诚的热情待客之道 / 每当顾客仅仅只是在快餐店柜台购买一杯普通的外带咖啡或者一块烘焙面包时 / 消费者往往都会身不由己地被迫直面 / 一块由收银员主动翻转过来的电子触摸屏 / 上面赫然并列展示着由系统预先设定好的各种小费百分比选项 / 其浮动区间普遍夸张地高居百分之十八到百分之三十之间 / 面对柜台收银员直勾勾且令人如坐针毡的尴尬注视目光 / 许多顾客往往在重重社交窘迫与莫名内疚心理的驱使下缴械屈服 / 迫不得已抬手触碰点击那些极其慷慨高昂的系统默认比例按钮 / 哪怕在整个流程中店员根本未曾向其提供过任何定制化的专属优质服务 / 曾经完全取决于个人自由意志、纯粹表达感谢的温情礼节 / 如今却已彻头彻尾蜕变异化为 / 一种具有变相精神胁迫性质的隐性心理过路费",
+          "slashed_text": "The mechanics of this shift / are driven by software design / rather than spontaneous hospitality. / When buying a simple takeout coffee or pastry , / consumers are routinely confronted / with a swivel screen / displaying pre-set tip percentages / ranging from eighteen to thirty percent. / Faced with the awkward gaze of the cashier , / customers succumb to social embarrassment and guilt , / tapping generous default buttons / even when no specialized assistance was provided. / What was once a discretionary token of gratitude / has morphed into a coercive psychological toll.",
+          "chunk_translation": "这种转变的运作机制 / 是由软件设计所驱动的， / 而非自发的热情好客。 / 当购买一杯简单的外带咖啡或糕点时， / 消费者通常会面对 / 一个旋转屏幕， / 上面显示着预设的小费比例， / 从18%到30%不等。 / 面对收银员尴尬的注视， / 顾客往往屈从于社交难堪与内疚心理， / 点击慷慨的默认选项按钮， / 即使并未获得任何专门的协助。 / 曾经作为表达谢意的自愿之举， / 如今已演变为一种强迫性的心理负担代价。",
           "vocabulary": [
             {
               "word": "mechanics",
@@ -144,8 +144,8 @@
           "pid": 2,
           "text": "Behind this digital manipulation lies a calculated employer strategy to offload labor compensation onto patrons. Facing soaring inflation and intense pressure to raise wages, business owners exploit customer tips to subsidize operational payrolls without raising posted menu prices. By relying on customer largesse to bridge the gap between inadequate legal minimum wages and a livable income, employers effectively convert voluntary patronage into an unpaid subsidy for corporate overhead.",
           "translation": "在这种数字操纵的背后，隐藏着雇主将用工成本转嫁给顾客的精心算计。面对急剧飙升的通胀以及上调薪资的巨大压力，企业主们利用顾客的小费来补贴运营工资支出，从而避免提高明码标价的菜单价格。通过依靠消费者的慷慨大度来弥合过低的法定最低工资与体面生活收入之间的差距，雇主实际上将自愿消费转变为对企业日常运营开支的无偿补贴。",
-          "slashed_text": "Behind this digital manipulation lies / a calculated employer strategy / to offload labor compensation / onto patrons. / Facing soaring inflation / and intense pressure to raise wages , / business owners exploit customer tips / to subsidize operational payrolls / without raising posted menu prices. / By relying on customer largesse / to bridge the gap / between inadequate legal minimum wages / and a livable income , / employers effectively convert / voluntary patronage / into an unpaid subsidy / for corporate overhead.",
-          "chunk_translation": "在这场看似中立的技术算法数字操纵背后 / 实际上深藏着一整套由资方雇主精心盘算的深层商业策略 / 其核心目的正在于将本该由资方承担的法定员工薪酬成本 / 堂而皇之地直接转嫁给广大的无辜消费顾客身上 / 面对连年居高不下的恶性通货膨胀压力 / 以及全社会要求上调一线底层员工薪酬待遇的空前呼声 / 众多企业经营老板巧妙地利用剥削顾客慷慨解囊的小费打赏 / 来变相填补补贴门店内繁重的员工工资福利账单 / 从而狡黠地避免因直接上调菜单门牌明码标价而吓跑顾客 / 通过近乎寄生般依赖消费大众的善意与同情心 / 来勉强填补抚平 / 现行严重不足的低微法定最低工资线 / 与维持一个劳动者有尊严生活的体面实际生活开支线之间的巨大落差 / 雇主们实际上极具欺骗性地将顾客完全自愿纯粹的消费光顾行为 / 彻底扭曲异化为一种向企业日常经营开销 / 变相输送的无偿巨额财务隐性补贴",
+          "slashed_text": "Behind this digital manipulation / lies a calculated employer strategy / to offload labor compensation / onto patrons. / Facing soaring inflation / and intense pressure to raise wages , / business owners exploit customer tips / to subsidize operational payrolls / without raising posted menu prices. / By relying on customer largesse / to bridge the gap between inadequate legal minimum wages and a livable income , / employers effectively convert voluntary patronage / into an unpaid subsidy for corporate overhead.",
+          "chunk_translation": "在这种数字化操纵的背后， / 隐藏着雇主精打细算的策略， / 即将劳动力报酬的负担转嫁 / 给顾客。 / 面对不断飙升的通胀 / 以及提高工资的巨大压力， / 企业主利用顾客的小费 / 来补贴日常运营的薪酬支出， / 而无需提高标示的菜单价格。 / 通过依赖顾客的慷慨解囊 / 来弥补过低的法定最低工资与维持生计所需收入之间的差距， / 雇主实际上将自愿消费 / 转化为了对企业日常管理成本的无偿补贴。",
           "vocabulary": [
             {
               "word": "manipulation",
@@ -214,8 +214,8 @@
           "pid": 3,
           "text": "Earlier attempts by progressive restaurateurs to abolish tipping and guarantee fair base pay have largely fizzled out. Pioneers who eliminated tips and raised menu prices often suffered sharp customer revolts and high staff turnover, as experienced servers realized they could earn substantially more in tip-fueled establishments elsewhere. Because piecemeal reforms leave conscientious businesses at a commercial disadvantage, the no-tipping movement collapsed under competitive market realities.",
           "translation": "早先由一些具有进步思想的餐馆经营者发起的废除小费、保障公平底薪的尝试，大多以失败告终。那些取消小费并上调菜单价格的先驱者往往遭遇了顾客的强烈抵触和员工的高流失率，因为经验丰富的服务员意识到，在其他依赖小费模式的餐馆，他们能赚取丰厚得多的收入。由于零星零碎的改良使得讲良心的企业在商业竞争中处于劣势，废除小费运动最终在严酷的市场竞争现实面前败下阵来。",
-          "slashed_text": "Earlier attempts by progressive restaurateurs / to abolish tipping / and guarantee fair base pay / have largely fizzled out. / Pioneers who eliminated tips / and raised menu prices / often suffered sharp customer revolts / and high staff turnover , / as experienced servers realized / they could earn substantially more / in tip-fueled establishments elsewhere. / Because piecemeal reforms leave / conscientious businesses / at a commercial disadvantage , / the no-tipping movement collapsed / under competitive market realities.",
-          "chunk_translation": "早期阶段由一批满怀社会理想的进步派独立餐饮业主 / 率先尝试推行的废止取缔小费制度 / 并承诺保障足额体面底薪待遇的社会改革试验 / 如今在绝大多数现实案例中均已草草收场、终成泡影 / 那些率先以身试法彻底废除打赏机制 / 并被迫同步上调明面菜单零售标价的行业先驱拓荒者们 / 往往很快就遭到了广大消费顾客因对高昂账单敏感而爆发的强烈抵触与用脚投票 / 以及店内资深核心业务骨干人员的剧烈高离职率反噬 / 盖因那些拥有娴熟经验的高级侍应生敏锐清醒地发现 / 如果跳槽前往其他依然大行其道保留传统小费狂欢体制的餐饮行号 / 他们能够轻松斩获远比这里死板固定薪资丰厚优渥得多的综合进账 / 正因为缺乏全行业法制约束的零敲碎打式孤立改良自律 / 最终只会让那些严格讲求商业良心、不欺瞒顾客的正规企业 / 处于极度危险的劣势竞争孤立境地 / 这场轰轰烈烈却先天不足的废除小费运动 / 终究不可避免地在冷酷的市场优胜劣汰现实法则面前全面土崩瓦解",
+          "slashed_text": "Earlier attempts by progressive restaurateurs / to abolish tipping and guarantee fair base pay / have largely fizzled out. / Pioneers who eliminated tips and raised menu prices / often suffered sharp customer revolts and high staff turnover , / as experienced servers realized / they could earn substantially more / in tip-fueled establishments elsewhere. / Because piecemeal reforms leave conscientious businesses / at a commercial disadvantage , / the no-tipping movement collapsed / under competitive market realities.",
+          "chunk_translation": "早前一些开明餐饮经营者所做的尝试—— / 即废除小费制度并保障公平的基本工资—— / 大多已经以失败告终。 / 取消小费并提高菜单价格的先行者 / 往往遭遇顾客的强烈抵触和高员工离职率， / 因为经验丰富的服务员意识到， / 他们在其他依靠小费维持收入的场所 / 能够赚得明显更多。 / 由于零星片面的改革让有良知的企业 / 处于商业竞争劣势， / 无小费运动便崩溃了， / 在残酷的市场竞争现实面前。",
           "vocabulary": [
             {
               "word": "abolish",
@@ -284,8 +284,8 @@
           "pid": 4,
           "text": "True resolution requires comprehensive statutory reform rather than reliance on consumer goodwill. Lawmakers must eliminate outdated sub-minimum wage loopholes that allow employers to pay service workers poverty-level wages, while standardizing transparent all-inclusive pricing. Only when fair compensation is treated as an unconditional employer obligation will tipping return to its authentic role: an occasional, voluntary expression of appreciation rather than an institutionalized guilt trip.",
           "translation": "真正的解决之道依赖于全面的法定改革，而非对消费者善意的无节制透支。立法者必须取缔过时的“低于最低工资”法律漏洞——该漏洞允许雇主向服务劳动者支付赤贫级别的极低工资，同时强制推行透明的明码标价全包价格体系。唯有将公平薪酬视作雇主不可推卸的无条件法定义务，小费才能回归其本真角色：一种偶然的、自愿的赞赏表达，而非一种制度化的心理负罪感勒索。",
-          "slashed_text": "True resolution requires / comprehensive statutory reform / rather than reliance on consumer goodwill. / Lawmakers must eliminate / outdated sub-minimum wage loopholes / that allow employers / to pay service workers / poverty-level wages , / while standardizing transparent all-inclusive pricing. / Only when fair compensation is treated / as an unconditional employer obligation / will tipping return / to its authentic role : / an occasional, voluntary expression of appreciation / rather than an institutionalized guilt trip.",
-          "chunk_translation": "真正能够根治这一深层社会扭曲畸形生态的终极解决路径 / 迫切依赖于国家出台顶层宏观的系统性法定制度成文改革 / 而绝非一味天真寄希望于对广大普通消费者自发善意同情心的无尽透支 / 立法机关各方决策者必须断然采取立法铁腕手段 / 彻底封堵铲除那些早已脱离现代法治文明的过时“次最低工资法免责漏洞” / 正是这一恶劣制度漏洞长期公然纵容允许资本雇主 / 肆无忌惮地向一线辛勤付出的服务业劳动大军支付宛如赤贫挣扎般的微薄报酬 / 与此同时还必须全行业强制规范推行透明度极高、没有任何隐形附加项的全包价综合定价机制 / 唯有当足额、体面且公平的劳动报酬被全社会坚定不移地确立并视作 / 雇主企业不可转嫁、不设前提条件的刚性法定义务之时 / 小费打赏才可能真正重新洗尽铅华回归到其最本真纯粹的历史原初角色 / 即作为一种完全出于随性与自愿的真诚赞赏与喜悦感激表达 / 而绝非任由其沦为一套披着科技现代化外衣、绑架全社会的制度化心理负罪感勒索体系",
+          "slashed_text": "True resolution requires comprehensive statutory reform / rather than reliance on consumer goodwill. / Lawmakers must eliminate outdated sub-minimum wage loopholes / that allow employers to pay service workers poverty-level wages , / while standardizing transparent all-inclusive pricing. / Only when fair compensation is treated / as an unconditional employer obligation / will tipping return to its authentic role : / an occasional , voluntary expression of appreciation / rather than an institutionalized guilt trip.",
+          "chunk_translation": "真正的解决途径需要全面的法定制度改革， / 而不是依赖消费者的善意好心。 / 立法者必须消除过时的低于最低工资标准的法律漏洞， / 这些漏洞允许雇主向服务行业员工支付贫困线水平的工资， / 与此同时应推行透明规范的全包标价模式。 / 唯有将公平报酬视为 / 雇主无条件的法定义务时， / 小费才能回归其本真角色： / 一种偶尔的、出于自愿的感激表达， / 而非制度化的内疚心理折磨。",
           "vocabulary": [
             {
               "word": "statutory",
@@ -352,8 +352,8 @@
           "sentence_index": 0,
           "text": "For generations, tipping in American society was anchored in a clear social contract: customers rewarded restaurant servers at the conclusion of a meal based on the perceived quality of service.",
           "translation": "几代人以来，美国社会的小费文化都建立在明确的社会契约之上：顾客在用餐结束时，根据其所感受到的服务质量对餐厅侍者进行打赏。",
-          "slashed_text": "For generations , / tipping in American society / was anchored in a clear social contract : / customers rewarded restaurant servers / at the conclusion of a meal / based on the perceived quality of service.",
-          "chunk_translation": "几代人以来 / 美国社会内部的小费打赏传统 / 始终牢牢扎根于一份心照不宣的明确社会契约之中 / 即就餐顾客通常在整顿正餐彻底享用完毕之后的买单时刻 / 方才根据自己切身体会到的服务质量优劣高低 / 对辛勤服务的餐厅侍应生施以现金奖赏",
+          "slashed_text": "For generations , / tipping in American society was anchored in a clear social contract : / customers rewarded restaurant servers at the conclusion of a meal / based on the perceived quality of service.",
+          "chunk_translation": "几代人以来， / 美国社会中的小费习惯都植根于一份明确的社会契约： / 顾客在就餐结束时向餐厅服务员发放赏钱， / 取决于所感受到的服务质量高低。",
           "syntax": {
             "breakdown": [
               {
@@ -380,8 +380,8 @@
           "sentence_index": 1,
           "text": "Historically, this custom assumed that tips functioned as an essential supplement to low base wages in sit-down dining.",
           "translation": "从历史上看，这种习俗基于一种假定，即在正规坐席餐饮中，小费是对较低基础工资的必要补充。",
-          "slashed_text": "Historically , / this custom assumed / that tips functioned / as an essential supplement / to low base wages / in sit-down dining.",
-          "chunk_translation": "从历史演变脉络来看 / 这项不成文的民间惯例始终假定 / 顾客自愿慷慨赠予的小费 / 乃是对传统正规堂食餐厅员工过于微薄的底薪收入所不可或缺的关键补偿",
+          "slashed_text": "Historically , this custom assumed / that tips functioned as an essential supplement / to low base wages / in sit-down dining.",
+          "chunk_translation": "在历史上，这一习俗假定 / 小费发挥着必不可少的补充作用， / 针对较低的基本工资， / 在堂食餐饮服务中。",
           "syntax": {
             "breakdown": [
               {
@@ -408,8 +408,8 @@
           "sentence_index": 2,
           "text": "Today, however, the ubiquity of digital payment terminals has thoroughly dismantled this traditional norm, ushering in an era of pervasive 'tip creep' that prompts consumers to tip before receiving any service across almost every casual transaction.",
           "translation": "然而在今天，数字支付终端的无处不在彻底打破了这一传统规范，开启了一个泛滥的“小费膨胀”时代——几乎在每笔日常即时交易中，系统都会在消费者接受任何服务之前提示其支付小费。",
-          "slashed_text": "Today , however , / the ubiquity of digital payment terminals / has thoroughly dismantled this traditional norm , / ushering in an era / of pervasive 'tip creep' / that prompts consumers to tip / before receiving any service / across almost every casual transaction.",
-          "chunk_translation": "然而时至今日 / 各类触摸屏数字电子移动支付结算终端的无处不在与全面普及 / 却已经彻底摧毁颠覆了这套历经百年的传统行为准则 / 进而悍然开启了一个无孔不入的“小费膨胀侵蚀”荒诞新时代 / 强行诱导并催促广大消费者 / 甚至在尚未实际享受到任何具体服务之前就必须硬着头皮预先勾选小费 / 这一怪现象如今已经席卷渗透进了几乎所有的日常简单柜台交易场景之中",
+          "slashed_text": "Today , however , / the ubiquity of digital payment terminals / has thoroughly dismantled this traditional norm , / ushering in an era of pervasive 'tip creep' / that prompts consumers to tip / before receiving any service / across almost every casual transaction.",
+          "chunk_translation": "然而在今天， / 数字支付终端的无处不在 / 彻底瓦解了这一传统规范， / 开启了一个普遍“小费泛滥蔓延”的时代， / 促使消费者给小费 / 在接受任何服务之前， / 在几乎每一笔日常随意的交易中。",
           "syntax": {
             "breakdown": [
               {
@@ -436,8 +436,8 @@
           "sentence_index": 0,
           "text": "The mechanics of this shift are driven by software design rather than spontaneous hospitality.",
           "translation": "这一转变背后的运作机制主要由软件设计而非自发的热情款待所驱动。",
-          "slashed_text": "The mechanics of this shift are driven / by software design / rather than spontaneous hospitality.",
-          "chunk_translation": "这场社会风气剧烈逆变的底层驱动机制 / 完全是由冰冷的商业软件界面设计所刻意操弄推动的 / 而绝非源于人与人之间自发真诚的热情待客之道",
+          "slashed_text": "The mechanics of this shift / are driven by software design / rather than spontaneous hospitality.",
+          "chunk_translation": "这种转变的运作机制 / 是由软件设计所驱动的， / 而非自发的热情好客。",
           "syntax": {
             "breakdown": [
               {
@@ -459,8 +459,8 @@
           "sentence_index": 1,
           "text": "When buying a simple takeout coffee or pastry, consumers are routinely confronted with a swivel screen displaying pre-set tip percentages ranging from eighteen to thirty percent.",
           "translation": "在购买一杯普通的外带咖啡或糕点时，消费者通常会面对一块翻转屏幕，上面显示着从18%到30%不等的预设小费比例。",
-          "slashed_text": "When buying a simple takeout coffee or pastry , / consumers are routinely confronted with / a swivel screen / displaying pre-set tip percentages / ranging from eighteen to thirty percent.",
-          "chunk_translation": "每当顾客仅仅只是在快餐店柜台购买一杯普通的外带咖啡或者一块烘焙面包时 / 消费者往往都会身不由己地被迫直面 / 一块由收银员主动翻转过来的电子触摸屏 / 上面赫然并列展示着由系统预先设定好的各种小费百分比选项 / 其浮动区间普遍夸张地高居百分之十八到百分之三十之间",
+          "slashed_text": "When buying a simple takeout coffee or pastry , / consumers are routinely confronted / with a swivel screen / displaying pre-set tip percentages / ranging from eighteen to thirty percent.",
+          "chunk_translation": "当购买一杯简单的外带咖啡或糕点时， / 消费者通常会面对 / 一个旋转屏幕， / 上面显示着预设的小费比例， / 从18%到30%不等。",
           "syntax": {
             "breakdown": [
               {
@@ -487,8 +487,8 @@
           "sentence_index": 2,
           "text": "Faced with the awkward gaze of the cashier, customers succumb to social embarrassment and guilt, tapping generous default buttons even when no specialized assistance was provided.",
           "translation": "在收银员尴尬的注视下，顾客往往屈服于社交窘迫与内疚心理，即便利落的交易中根本没有提供任何特殊服务，他们也会点击慷慨的默认选项按钮。",
-          "slashed_text": "Faced with the awkward gaze of the cashier , / customers succumb to / social embarrassment and guilt , / tapping generous default buttons / even when no specialized assistance was provided.",
-          "chunk_translation": "面对柜台收银员直勾勾且令人如坐针毡的尴尬注视目光 / 许多顾客往往在重重社交窘迫与莫名内疚心理的驱使下缴械屈服 / 迫不得已抬手触碰点击那些极其慷慨高昂的系统默认比例按钮 / 哪怕在整个流程中店员根本未曾向其提供过任何定制化的专属优质服务",
+          "slashed_text": "Faced with the awkward gaze of the cashier , / customers succumb to social embarrassment and guilt , / tapping generous default buttons / even when no specialized assistance was provided.",
+          "chunk_translation": "面对收银员尴尬的注视， / 顾客往往屈从于社交难堪与内疚心理， / 点击慷慨的默认选项按钮， / 即使并未获得任何专门的协助。",
           "syntax": {
             "breakdown": [
               {
@@ -515,8 +515,8 @@
           "sentence_index": 3,
           "text": "What was once a discretionary token of gratitude has morphed into a coercive psychological toll.",
           "translation": "曾经自愿表达谢意的象征性打赏，如今已演变为一种胁迫性的心理敲诈。",
-          "slashed_text": "What was once a discretionary token of gratitude / has morphed into / a coercive psychological toll.",
-          "chunk_translation": "曾经完全取决于个人自由意志、纯粹表达感谢的温情礼节 / 如今却已彻头彻尾蜕变异化为 / 一种具有变相精神胁迫性质的隐性心理过路费",
+          "slashed_text": "What was once a discretionary token of gratitude / has morphed into a coercive psychological toll.",
+          "chunk_translation": "曾经作为表达谢意的自愿之举， / 如今已演变为一种强迫性的心理负担代价。",
           "syntax": {
             "breakdown": [
               {
@@ -538,8 +538,8 @@
           "sentence_index": 0,
           "text": "Behind this digital manipulation lies a calculated employer strategy to offload labor compensation onto patrons.",
           "translation": "在这种数字操纵的背后，隐藏着雇主将用工成本转嫁给顾客的精心算计。",
-          "slashed_text": "Behind this digital manipulation lies / a calculated employer strategy / to offload labor compensation / onto patrons.",
-          "chunk_translation": "在这场看似中立的技术算法数字操纵背后 / 实际上深藏着一整套由资方雇主精心盘算的深层商业策略 / 其核心目的正在于将本该由资方承担的法定员工薪酬成本 / 堂而皇之地直接转嫁给广大的无辜消费顾客身上",
+          "slashed_text": "Behind this digital manipulation / lies a calculated employer strategy / to offload labor compensation / onto patrons.",
+          "chunk_translation": "在这种数字化操纵的背后， / 隐藏着雇主精打细算的策略， / 即将劳动力报酬的负担转嫁 / 给顾客。",
           "syntax": {
             "breakdown": [
               {
@@ -567,7 +567,7 @@
           "text": "Facing soaring inflation and intense pressure to raise wages, business owners exploit customer tips to subsidize operational payrolls without raising posted menu prices.",
           "translation": "面对急剧飙升的通胀以及上调薪资的巨大压力，企业主们利用顾客的小费来补贴运营工资支出，从而避免提高明码标价的菜单价格。",
           "slashed_text": "Facing soaring inflation / and intense pressure to raise wages , / business owners exploit customer tips / to subsidize operational payrolls / without raising posted menu prices.",
-          "chunk_translation": "面对连年居高不下的恶性通货膨胀压力 / 以及全社会要求上调一线底层员工薪酬待遇的空前呼声 / 众多企业经营老板巧妙地利用剥削顾客慷慨解囊的小费打赏 / 来变相填补补贴门店内繁重的员工工资福利账单 / 从而狡黠地避免因直接上调菜单门牌明码标价而吓跑顾客",
+          "chunk_translation": "面对不断飙升的通胀 / 以及提高工资的巨大压力， / 企业主利用顾客的小费 / 来补贴日常运营的薪酬支出， / 而无需提高标示的菜单价格。",
           "syntax": {
             "breakdown": [
               {
@@ -594,8 +594,8 @@
           "sentence_index": 2,
           "text": "By relying on customer largesse to bridge the gap between inadequate legal minimum wages and a livable income, employers effectively convert voluntary patronage into an unpaid subsidy for corporate overhead.",
           "translation": "通过依靠消费者的慷慨大度来弥合过低的法定最低工资与体面生活收入之间的差距，雇主实际上将自愿消费转变为对企业日常运营开支的无偿补贴。",
-          "slashed_text": "By relying on customer largesse / to bridge the gap / between inadequate legal minimum wages / and a livable income , / employers effectively convert / voluntary patronage / into an unpaid subsidy / for corporate overhead.",
-          "chunk_translation": "通过近乎寄生般依赖消费大众的善意与同情心 / 来勉强填补抚平 / 现行严重不足的低微法定最低工资线 / 与维持一个劳动者有尊严生活的体面实际生活开支线之间的巨大落差 / 雇主们实际上极具欺骗性地将顾客完全自愿纯粹的消费光顾行为 / 彻底扭曲异化为一种向企业日常经营开销 / 变相输送的无偿巨额财务隐性补贴",
+          "slashed_text": "By relying on customer largesse / to bridge the gap between inadequate legal minimum wages and a livable income , / employers effectively convert voluntary patronage / into an unpaid subsidy for corporate overhead.",
+          "chunk_translation": "通过依赖顾客的慷慨解囊 / 来弥补过低的法定最低工资与维持生计所需收入之间的差距， / 雇主实际上将自愿消费 / 转化为了对企业日常管理成本的无偿补贴。",
           "syntax": {
             "breakdown": [
               {
@@ -622,8 +622,8 @@
           "sentence_index": 0,
           "text": "Earlier attempts by progressive restaurateurs to abolish tipping and guarantee fair base pay have largely fizzled out.",
           "translation": "早先由一些具有进步思想的餐馆经营者发起的废除小费、保障公平底薪的尝试，大多以失败告终。",
-          "slashed_text": "Earlier attempts by progressive restaurateurs / to abolish tipping / and guarantee fair base pay / have largely fizzled out.",
-          "chunk_translation": "早期阶段由一批满怀社会理想的进步派独立餐饮业主 / 率先尝试推行的废止取缔小费制度 / 并承诺保障足额体面底薪待遇的社会改革试验 / 如今在绝大多数现实案例中均已草草收场、终成泡影",
+          "slashed_text": "Earlier attempts by progressive restaurateurs / to abolish tipping and guarantee fair base pay / have largely fizzled out.",
+          "chunk_translation": "早前一些开明餐饮经营者所做的尝试—— / 即废除小费制度并保障公平的基本工资—— / 大多已经以失败告终。",
           "syntax": {
             "breakdown": [
               {
@@ -645,8 +645,8 @@
           "sentence_index": 1,
           "text": "Pioneers who eliminated tips and raised menu prices often suffered sharp customer revolts and high staff turnover, as experienced servers realized they could earn substantially more in tip-fueled establishments elsewhere.",
           "translation": "那些取消小费并上调菜单价格的先驱者往往遭遇了顾客的强烈抵触和员工的高流失率，因为经验丰富的服务员意识到，在其他依赖小费模式的餐馆，他们能赚取丰厚得多的收入。",
-          "slashed_text": "Pioneers who eliminated tips / and raised menu prices / often suffered sharp customer revolts / and high staff turnover , / as experienced servers realized / they could earn substantially more / in tip-fueled establishments elsewhere.",
-          "chunk_translation": "那些率先以身试法彻底废除打赏机制 / 并被迫同步上调明面菜单零售标价的行业先驱拓荒者们 / 往往很快就遭到了广大消费顾客因对高昂账单敏感而爆发的强烈抵触与用脚投票 / 以及店内资深核心业务骨干人员的剧烈高离职率反噬 / 盖因那些拥有娴熟经验的高级侍应生敏锐清醒地发现 / 如果跳槽前往其他依然大行其道保留传统小费狂欢体制的餐饮行号 / 他们能够轻松斩获远比这里死板固定薪资丰厚优渥得多的综合进账",
+          "slashed_text": "Pioneers who eliminated tips and raised menu prices / often suffered sharp customer revolts and high staff turnover , / as experienced servers realized / they could earn substantially more / in tip-fueled establishments elsewhere.",
+          "chunk_translation": "取消小费并提高菜单价格的先行者 / 往往遭遇顾客的强烈抵触和高员工离职率， / 因为经验丰富的服务员意识到， / 他们在其他依靠小费维持收入的场所 / 能够赚得明显更多。",
           "syntax": {
             "breakdown": [
               {
@@ -673,8 +673,8 @@
           "sentence_index": 2,
           "text": "Because piecemeal reforms leave conscientious businesses at a commercial disadvantage, the no-tipping movement collapsed under competitive market realities.",
           "translation": "由于零星零碎的改良使得讲良心的企业在商业竞争中处于劣势，废除小费运动最终在严酷的市场竞争现实面前败下阵来。",
-          "slashed_text": "Because piecemeal reforms leave / conscientious businesses / at a commercial disadvantage , / the no-tipping movement collapsed / under competitive market realities.",
-          "chunk_translation": "正因为缺乏全行业法制约束的零敲碎打式孤立改良自律 / 最终只会让那些严格讲求商业良心、不欺瞒顾客的正规企业 / 处于极度危险的劣势竞争孤立境地 / 这场轰轰烈烈却先天不足的废除小费运动 / 终究不可避免地在冷酷的市场优胜劣汰现实法则面前全面土崩瓦解",
+          "slashed_text": "Because piecemeal reforms leave conscientious businesses / at a commercial disadvantage , / the no-tipping movement collapsed / under competitive market realities.",
+          "chunk_translation": "由于零星片面的改革让有良知的企业 / 处于商业竞争劣势， / 无小费运动便崩溃了， / 在残酷的市场竞争现实面前。",
           "syntax": {
             "breakdown": [
               {
@@ -701,8 +701,8 @@
           "sentence_index": 0,
           "text": "True resolution requires comprehensive statutory reform rather than reliance on consumer goodwill.",
           "translation": "真正的解决之道依赖于全面的法定改革，而非对消费者善意的无节制透支。",
-          "slashed_text": "True resolution requires / comprehensive statutory reform / rather than reliance on consumer goodwill.",
-          "chunk_translation": "真正能够根治这一深层社会扭曲畸形生态的终极解决路径 / 迫切依赖于国家出台顶层宏观的系统性法定制度成文改革 / 而绝非一味天真寄希望于对广大普通消费者自发善意同情心的无尽透支",
+          "slashed_text": "True resolution requires comprehensive statutory reform / rather than reliance on consumer goodwill.",
+          "chunk_translation": "真正的解决途径需要全面的法定制度改革， / 而不是依赖消费者的善意好心。",
           "syntax": {
             "breakdown": [
               {
@@ -724,8 +724,8 @@
           "sentence_index": 1,
           "text": "Lawmakers must eliminate outdated sub-minimum wage loopholes that allow employers to pay service workers poverty-level wages, while standardizing transparent all-inclusive pricing.",
           "translation": "立法者必须取缔过时的“低于最低工资”法律漏洞——该漏洞允许雇主向服务劳动者支付赤贫级别的极低工资，同时强制推行透明的明码标价全包价格体系。",
-          "slashed_text": "Lawmakers must eliminate / outdated sub-minimum wage loopholes / that allow employers / to pay service workers / poverty-level wages , / while standardizing transparent all-inclusive pricing.",
-          "chunk_translation": "立法机关各方决策者必须断然采取立法铁腕手段 / 彻底封堵铲除那些早已脱离现代法治文明的过时“次最低工资法免责漏洞” / 正是这一恶劣制度漏洞长期公然纵容允许资本雇主 / 肆无忌惮地向一线辛勤付出的服务业劳动大军支付宛如赤贫挣扎般的微薄报酬 / 与此同时还必须全行业强制规范推行透明度极高、没有任何隐形附加项的全包价综合定价机制",
+          "slashed_text": "Lawmakers must eliminate outdated sub-minimum wage loopholes / that allow employers to pay service workers poverty-level wages , / while standardizing transparent all-inclusive pricing.",
+          "chunk_translation": "立法者必须消除过时的低于最低工资标准的法律漏洞， / 这些漏洞允许雇主向服务行业员工支付贫困线水平的工资， / 与此同时应推行透明规范的全包标价模式。",
           "syntax": {
             "breakdown": [
               {
@@ -752,8 +752,8 @@
           "sentence_index": 2,
           "text": "Only when fair compensation is treated as an unconditional employer obligation will tipping return to its authentic role: an occasional, voluntary expression of appreciation rather than an institutionalized guilt trip.",
           "translation": "唯有将公平薪酬视作雇主不可推卸的无条件法定义务，小费才能回归其本真角色：一种偶然的、自愿的赞赏表达，而非一种制度化的心理负罪感勒索。",
-          "slashed_text": "Only when fair compensation is treated / as an unconditional employer obligation / will tipping return / to its authentic role : / an occasional, voluntary expression of appreciation / rather than an institutionalized guilt trip.",
-          "chunk_translation": "唯有当足额、体面且公平的劳动报酬被全社会坚定不移地确立并视作 / 雇主企业不可转嫁、不设前提条件的刚性法定义务之时 / 小费打赏才可能真正重新洗尽铅华回归到其最本真纯粹的历史原初角色 / 即作为一种完全出于随性与自愿的真诚赞赏与喜悦感激表达 / 而绝非任由其沦为一套披着科技现代化外衣、绑架全社会的制度化心理负罪感勒索体系",
+          "slashed_text": "Only when fair compensation is treated / as an unconditional employer obligation / will tipping return to its authentic role : / an occasional , voluntary expression of appreciation / rather than an institutionalized guilt trip.",
+          "chunk_translation": "唯有将公平报酬视为 / 雇主无条件的法定义务时， / 小费才能回归其本真角色： / 一种偶尔的、出于自愿的感激表达， / 而非制度化的内疚心理折磨。",
           "syntax": {
             "breakdown": [
               {
@@ -1270,7 +1270,7 @@
           "text": "When Britain's National Health Service (NHS) was established in 1948, it was hailed as a visionary institution designed to provide timely and universal care to meet the pressing medical needs of the dominant population it served. Over seven decades later, however, this post-war model has grown profoundly out of date. While British life expectancy has stalled and survival rates for conditions like cancer and infant mortality increasingly lag behind peer nations, NHS waitlists have ballooned to unprecedented highs. As specialized healthcare becomes increasingly inaccessible for millions, frustrated patients are routinely forced to opt for private alternatives or endure agonizing delays.",
           "translation": "当英国国家医疗服务体系（NHS）于1948年建立时，它被盛赞为一个极具远见卓识的机构，旨在提供及时且普惠的医疗服务，以满足其所服务的主要人群紧迫的就医需求。然而，七十多年后的今天，这一战后模式已彻底过时。尽管英国的人均预期寿命停滞不前，癌症等重疾的生存率与婴儿死亡率指标日益落后于同类发达国家，NHS的就医等候名单却膨胀到了前所未有的历史高位。随着数以百万计的民众愈发难以获得专科医疗，倍感沮丧的患者不得不频繁自费选择私立医疗，或忍受令人痛苦不堪的漫长延误。",
           "slashed_text": "When Britain's National Health Service (NHS) was established in 1948 , / it was hailed as a visionary institution / designed to provide timely and universal care / to meet the pressing medical needs / of the dominant population it served. / Over seven decades later , however , / this post-war model / has grown profoundly out of date. / While British life expectancy has stalled / and survival rates for conditions like cancer / and infant mortality / increasingly lag behind peer nations , / NHS waitlists have ballooned / to unprecedented highs. / As specialized healthcare becomes increasingly inaccessible for millions , / frustrated patients are routinely forced / to opt for private alternatives / or endure agonizing delays.",
-          "chunk_translation": "当英国国家医疗服务体系于1948年正式创立之时 / 它被世人普遍赞颂为一项富有远见卓识的制度创举 / 旨在提供及时而普遍的医疗救护 / 以切实满足极为紧迫的看病需求 / 针对其所服务的主体国民人口 / 然而历经了七十多个春秋之后 / 这一成型于二战后的传统医疗模式 / 已经变得极度脱节且陈旧过时 / 尽管英国居民的人均预期寿命已经陷入停滞 / 且诸如恶性肿瘤等重大疾病的生存率 / 以及婴儿死亡率等核心健康指标 / 均已显著落后于同等水平的发达国家盟友 / NHS医院的就诊等候名单却持续恶性膨胀 / 飙升至历史罕见的最高纪录 / 伴随着专业医疗救治对数以百万计的普通大众而言变得越发难以触及 / 满腹怨怼的病患们只能无可奈何地被迫 / 自掏腰包选用私立医疗机构作为替代方案 / 抑或是被迫忍受漫长折磨且遥遥无期的排队等待",
+          "chunk_translation": "当英国国家医疗服务体系（NHS）于1948年建立时， / 它被誉为一个有远见的机构， / 旨在提供及时且普惠的医疗服务， / 以满足紧迫的医疗需求， / 针对其所服务的主要人口。 / 然而，七十多年后， / 这种战后模式 / 已经严重过时。 / 尽管英国的人口预期寿命停滞不前， / 且癌症等疾病的生存率 / 以及婴儿死亡率 / 日益落后于同行国家， / NHS候诊名单已急剧增加 / 达到前所未有的高点。 / 随着专科医疗对数以百万计的人而言变得越来越难以企及， / 感到沮丧的患者通常被迫 / 选择私立医疗替代方案， / 或忍受痛苦的延误。",
           "vocabulary": [
             {
               "word": "visionary",
@@ -1338,8 +1338,8 @@
           "pid": 1,
           "text": "The roots of this crisis stem from decades of squeezed capital investment and a chronic staffing shortage that has pushed the clinical workforce to its breaking point. Faced with overwhelmed acute hospitals, policy experts have long rehearsed a familiar answer: modern healthcare must systematically divert resources away from acute hospital wards to manage patients within primary care and community care settings. By expanding local clinics and investing in general practitioners, reformers argue, the system could alleviate reliance on hospital capacity and better support an aging population living with complex, long-term conditions.",
           "translation": "这场危机的根源在于数十年来资本投资遭受压缩，以及长期的医护人手匮乏，这已将一线临床人员推向了崩溃的边缘。面对不堪重负的急诊及重症医院，政策专家们长期以来反复老调重弹一个熟悉的应对方案：现代医疗体系必须系统性地将资源从急诊住院病房分流出去，以便在基层医疗和社区护理环境中管理患者。改革者主张，通过扩建地方诊所并大力投资全科医生队伍，医疗系统便能减轻对医院床位承载力的过度依赖，从而更好地支持带病生存、患有复杂长期慢性病的老龄人口。",
-          "slashed_text": "The roots of this crisis stem from / decades of squeezed capital investment / and a chronic staffing shortage / that has pushed the clinical workforce / to its breaking point. / Faced with overwhelmed acute hospitals , / policy experts have long rehearsed / a familiar answer : / modern healthcare must systematically divert resources / away from acute hospital wards / to manage patients / within primary care and community care settings. / By expanding local clinics / and investing in general practitioners , / reformers argue , / the system could alleviate reliance / on hospital capacity / and better support an aging population / living with complex , long-term conditions.",
-          "chunk_translation": "这场全面危机的深层根基源自于 / 历经数十年之久的资本投资严重压缩与削减 / 以及长期积弊难返的医护人员严重匮乏 / 这些沉重负荷已经将一线医疗工作者团队 / 推向了濒临瓦解与崩溃的极限边缘 / 面对着早已人满为患且濒临瘫痪的急症专科医院 / 卫生政策领域的资深专家们多年来反复排演重申着 / 一个大家耳熟能详的既定对策 / 即现代医疗体系必须有计划、有系统地分流财政与人力资源 / 逐渐撤出资源消耗极大的急诊与专科病房 / 转而将庞大的患者群体收治与管理 / 扎根在初级全科医疗以及社区护理网络的基层场景中 / 改革倡导者坚决认定只要通过扩充基层全科诊所的网点 / 并大力度持续投资于全科医生骨干队伍 / 整个医疗体系就能够大幅度缓解 / 对大型专科医院床位与接诊容量的刚性依附 / 并能更为周全地关照与服务日益庞大的老龄化群体 / 尤其是那些长期遭受各类复杂慢性疾病困扰的患者群",
+          "slashed_text": "The roots of this crisis stem from / decades of squeezed capital investment / and a chronic staffing shortage / that has pushed the clinical workforce / to its breaking point. / Faced with overwhelmed acute hospitals , / policy experts have long rehearsed a familiar answer : / modern healthcare must systematically divert resources / away from acute hospital wards / to manage patients / within primary care and community care settings. / By expanding local clinics / and investing in general practitioners , / reformers argue , / the system could alleviate reliance on hospital capacity / and better support an aging population / living with complex , long-term conditions.",
+          "chunk_translation": "这场危机的根源在于 / 数十年被压缩的资本投资， / 以及长期的员工短缺， / 这已将临床医护人员推向 / 其承受极限。 / 面对不堪重负的急诊医院， / 政策专家长期以来给出一个熟悉的答案： / 现代医疗必须系统性地转移资源， / 远离急症医院病房， / 以便管理患者 / 在初级医疗和社区护理环境中。 / 通过扩建当地诊所 / 并投资于全科医生， / 改革者认为， / 该体系可以减轻对医院容量的依赖， / 并更好地支持老龄化人口， / 这些人口伴有复杂的长期慢性疾病。",
           "vocabulary": [
             {
               "word": "squeeze",
@@ -1413,7 +1413,7 @@
           "text": "Yet successive rounds of government strategy and top-down reform have persistently failed to deliver meaningful transformation. A recent landmark study by a healthcare think tank, under a programme entitled 'Reimagining the NHS,' calls for an honest and urgent rethink of why prior efforts floundered. The report concludes that previous initiatives merely tinkered at the margins while retaining an entrenched hospital-centric bias. Because political pressure prioritizes short-term hospital targets and emergency room headlines, acute trusts continue to absorb lion's shares of state revenue, leaving community care underfunded and barely able to cope.",
           "translation": "然而，历届政府推出的一轮轮战略规划与自上而下的改革，却始终未能带来任何实质性的转型成效。一家医疗智库最近开展的一项名为‘重构NHS’的旗舰研究项目，呼吁对以往举措为何纷纷搁浅进行一次坦诚而紧迫的反思。该报告得出结论认为，先前的种种举措仅仅是在细枝末节上小修小补，同时却顽固地保留了根深蒂固的‘以医院为中心’的偏见。由于政治压力总是优先追逐医院短期考核指标和急诊室头条新闻，大型急救医疗联合体持续鲸吞国家财政拨款的绝大部分份额，导致社区医疗长期处于资金短缺状态，几乎无法招架实际需求。",
           "slashed_text": "Yet successive rounds of government strategy / and top-down reform / have persistently failed / to deliver meaningful transformation. / A recent landmark study / by a healthcare think tank , / under a programme entitled 'Reimagining the NHS ,' / calls for an honest and urgent rethink / of why prior efforts floundered. / The report concludes / that previous initiatives merely tinkered at the margins / while retaining an entrenched hospital-centric bias. / Because political pressure prioritizes / short-term hospital targets / and emergency room headlines , / acute trusts continue to absorb / lion's shares of state revenue , / leaving community care underfunded / and barely able to cope.",
-          "chunk_translation": "然而多届政府接连出台的一轮又一轮宏大战略 / 以及自上而下推行的行政化医改方案 / 却历来且固执地一再折戟沉沙 / 始终未能向公众交付任何具有实质分量的深层制度变革 / 一家极具权威影响力的卫生医疗智库近期发表的里程碑式研究 / 正是在一个题为‘重构NHS新蓝图’的特别研究项目框架之下 / 郑重发出呼吁要求政界与学界展开一场极其坦诚且刻不容缓的深层反思 / 全面审视过往一系列雷声大雨点小的医改举措为何接连陷入泥潭 / 这份重磅调研报告明确断定 / 以往的所有试水改革无非是在边缘非核心领域搞隔靴搔痒式的修修补补 / 骨子里却顽固不化地全盘保留了根深蒂固的‘以综合大医院为绝对轴心’的系统偏见 / 鉴于现实中的政界政绩压力总是极力优先考核 / 急诊等候时间等短期立竿见影的医院绩效指标 / 以及抢占媒体眼球的急诊室突发公关新闻 / 使得各大急性专科综合医院托管会持续虹吸 / 英国国家卫生财政预算中绝大部分的巨额真金白银 / 进而致使真正处在守护防线第一线的广大社区基层医疗长期陷于失血饥渴之中 / 勉强维持运转且早已完全无力承受涌入的就医洪流",
+          "chunk_translation": "然而，连续几轮的政府战略 / 和自上而下的改革， / 始终未能 / 带来有意义的转变。 / 最近的一项里程碑式研究 / 由一家医疗智库开展， / 在名为“重构NHS”的项目下， / 呼吁进行坦诚而紧迫的反思 / 反思先前的努力为何陷入困境。 / 该报告总结道， / 先前的举措仅仅是在边缘进行修补， / 同时保留了根深蒂固的以医院为中心的偏向。 / 因为政治压力优先考虑 / 短期的医院指标 / 和急诊室新闻头条， / 急诊信托基金继续吸收 / 国家财政收入的大部分， / 导致社区护理资金不足， / 勉强能够应付。",
           "vocabulary": [
             {
               "word": "think tank",
@@ -1488,7 +1488,7 @@
           "text": "Crucially, this hospital-centric orientation is ill-suited to modern public health challenges. Medical institutions are primarily organized to fix acute physical illnesses, yet epidemiological studies estimate that healthcare interventions account for barely twenty percent of overall health outcomes. The overwhelming majority of modern morbidities are shaped by broader social determinants, such as substandard housing, air pollution, and commercial food environments that aggravate chronic ailments like obesity and Type 2 diabetes. Treating patients repeatedly in specialized hospital wards without remedying these underlying social conditions is neither clinically effective nor economically sustainable.",
           "translation": "至关重要的是，这种以医院为中心的导向与现代公共卫生的严峻挑战完全格格不入。医疗机构在组织架构上主要是为了救治突发急性躯体疾病而设立的，然而流行病学研究估计，临床医疗干预措施在整体健康结局中所起的作用仅仅占到区区20%。现代疾病的绝大部分主要是由更广泛的社会决定因素塑造的，比如恶劣的居住条件、空气污染以及诱发肥胖和2型糖尿病等慢性疾病的商业化食品环境。若不解决这些深层社会诱因，仅仅把病患一次次送进专科病房进行修补性治疗，既无法在临床上取得根治疗效，在经济上也难以为继。",
           "slashed_text": "Crucially , / this hospital-centric orientation / is ill-suited to modern public health challenges. / Medical institutions are primarily organized / to fix acute physical illnesses , / yet epidemiological studies estimate / that healthcare interventions account for / barely twenty percent of overall health outcomes. / The overwhelming majority of modern morbidities / are shaped by broader social determinants , / such as substandard housing , / air pollution , / and commercial food environments / that aggravate chronic ailments / like obesity and Type 2 diabetes. / Treating patients repeatedly / in specialized hospital wards / without remedying these underlying social conditions / is neither clinically effective / nor economically sustainable.",
-          "chunk_translation": "而尤为切中肯綮的要害在于 / 这种唯综合大医院马首是瞻的病态价值导向 / 面对21世纪日益复杂的现代公共卫生危机早已显得格格不入且南辕北辙 / 传统的各级医疗行政机构在设立初衷与组织机理上 / 仅仅是将目标定位于去机械式扑灭突发急性躯体病变 / 然而权威流行病学领域的严谨模型测算揭示 / 狭义层面的临床医疗干预手段充其量仅仅占到 / 决定全民最终整体健康产出与寿命质量的区区百分之二十 / 现代文明社会中绝大多数久治不愈的流行性病痛诱因 / 几乎全部是由更为宏阔深远的社会决定因素所塑造和催化的 / 这其中包括环境恶劣不达标的低收入劣质住房 / 日益侵蚀呼吸系统的城市空气重度污染 / 以及极度充斥着高糖高盐工业垃圾食品的商业零售环境 / 这些不利社会因素正在全方位恶化并加速催生着诸如肥胖症 / 以及2型糖尿病等呈爆炸式蔓延的终身性慢性顽疾 / 倘若对滋生疾病的这些底层社会土壤与生活环境视而不见、拒绝予以综合治理修复 / 仅仅机械式地一次次把发病病患推入专科大医院病房实施末端抢救与修补 / 既无法在临床医学层面斩断病根 / 更在经济财政的可持续性上注定走向破产绝境",
+          "chunk_translation": "关键在于， / 这种以医院为中心的导向 / 不适应现代公共卫生的挑战。 / 医疗机构主要用于组织 / 治疗急性的身体疾病， / 然而流行病学研究估计， / 医疗干预仅仅占到 / 总体健康结局的百分之二十。 / 现代发病率的绝大多数 / 都受到更广泛的社会决定因素塑造， / 例如不达标的住房、 / 空气污染、 / 以及商业食品环境， / 这些环境加剧了慢性病， / 比如肥胖症和2型糖尿病。 / 反复治疗患者 / 在专门的医院病房中， / 却不纠正这些潜在的社会条件， / 既在临床上没有效果， / 也在经济上无法持续。",
           "vocabulary": [
             {
               "word": "ill-suited",
@@ -1563,7 +1563,7 @@
           "text": "To build a resilient healthcare system for the twenty-first century, policymakers must move beyond simply scrapping nominal price tags or announcing cosmetic structural reshuffles. Real reform demands that authorities radically restructure power and redistribute budgetary resources across administrative tiers, devolving clinical functions to integrated community teams. Rather than continuing to pour capital exclusively into acute hospital infrastructure, the state must pay due attention to social determinants and create an empathetic understanding of preventative medicine. Only when healthcare leaders exercise a bold sense of collective responsibility can the NHS overcome structural deficiencies and truly fulfill its founding promise.",
           "translation": "要为21世纪构建一个具有抗风险韧性的医疗服务体系，政策制定者绝不能仅仅停留在取消名义上的就医价格标签，或是宣布一些装点门面的组织架构重组。真正的改革要求决策当局从根本上重塑权力格局，在各行政层级之间重新分配财政预算资源，将临床诊疗与健康管理职能真正下沉给一体化的社区团队。国家必须对深层社会决定因素给予应有的重视，并对预防医学树立起富有同理心的体认，而不是继续把资金一味注入急诊大医院的基础设施之中。唯有医疗领域的领导层切实履行起勇于担当的集体责任感，NHS才能克服其体制缺陷，真正兑现其建制之初的宏伟承诺。",
           "slashed_text": "To build a resilient healthcare system / for the twenty-first century , / policymakers must move beyond / simply scrapping nominal price tags / or announcing cosmetic structural reshuffles. / Real reform demands / that authorities radically restructure power / and redistribute budgetary resources / across administrative tiers , / devolving clinical functions / to integrated community teams. / Rather than continuing to pour capital exclusively / into acute hospital infrastructure , / the state must pay due attention / to social determinants / and create an empathetic understanding / of preventative medicine. / Only when healthcare leaders exercise / a bold sense of collective responsibility / can the NHS overcome structural deficiencies / and truly fulfill its founding promise.",
-          "chunk_translation": "为了真正打造出一套能够经受住21世纪时代考验且具备强大韧性的全民医疗体系 / 国家高层的政策制定者们就必须彻底跳出原有思维定势 / 绝不能仅仅局限于象征性地取消几张就医名义收费标签 / 或是空洞对外发布一些隔靴搔痒、装点门面的所谓行政组织机构洗牌重组 / 触及灵魂的动真格改革明确要求 / 卫生最高行政掌权当局必须大刀阔斧地彻底重塑权力分配格局 / 并在各个层级的行政与医疗管辖体系之间重新调配整个国家卫生预算资源 / 将核心的日常临床诊疗与健康监护职能实质性下沉并授权给 / 扎根基层的跨学科一体化社区医护服务团队 / 绝不应再继续将宝贵的公共资本毫无节制且近乎排他性地疯狂砸向 / 大型急症专科综合医院的钢铁水泥等硬件基础设施之中 / 现代国家机器必须对决定全民生老病死的深层社会决定因素给予高度且应有的政策倾斜与关照 / 并在全社会范围内培育出对疾病预防与源头健康管理的深刻共情与战略认知 / 唯有当卫生管理体系的高层决策舵手们能够真正践行并展现出 / 一种敢于刮骨疗毒、勇担使命的宏大集体责任担当精神 / 英国国家医疗服务体系才有可能从根子上战胜其顽固的历史制度沉疴与结构性缺陷 / 进而真正重新全面兑现其在七十多年前建制伊始所许下的宏伟民生诺言",
+          "chunk_translation": "为了构建一个有韧性的医疗体系 / 面向二十一世纪， / 政策制定者必须超越 / 仅仅取消名义收费标签， / 或宣布表面上的结构重组。 / 真正的改革要求 / 当局从根本上重组权力， / 并重新分配预算资源 / 跨越各个行政层级， / 将临床职能下放 / 给综合社区团队。 / 与其继续一味将资金 / 投入到急诊医院基础设施中， / 国家必须给予应有的重视 / 于社会决定因素， / 并建立起感同身受的理解 / 对预防医学。 / 只有当医疗领导者展现出 / 果敢的集体责任感时， / NHS才能克服结构性缺陷， / 并真正兑现其建构之初的承诺。",
           "vocabulary": [
             {
               "word": "resilient",
@@ -1642,7 +1642,7 @@
           "text": "When Britain's National Health Service (NHS) was established in 1948, it was hailed as a visionary institution designed to provide timely and universal care to meet the pressing medical needs of the dominant population it served.",
           "translation": "当英国国家医疗服务体系（NHS）于1948年建立时，它被盛赞为一个极具远见卓识的机构，旨在提供及时且普惠的医疗服务，以满足其所服务的主要人群紧迫的就医需求。",
           "slashed_text": "When Britain's National Health Service (NHS) was established in 1948 , / it was hailed as a visionary institution / designed to provide timely and universal care / to meet the pressing medical needs / of the dominant population it served.",
-          "chunk_translation": "当英国国家医疗服务体系于1948年正式创立之时 / 它被世人普遍赞颂为一项富有远见卓识的制度创举 / 旨在提供及时而普遍的医疗救护 / 以切实满足极为紧迫的看病需求 / 针对其所服务的主体国民人口",
+          "chunk_translation": "当英国国家医疗服务体系（NHS）于1948年建立时， / 它被誉为一个有远见的机构， / 旨在提供及时且普惠的医疗服务， / 以满足紧迫的医疗需求， / 针对其所服务的主要人口。",
           "syntax": {
             "breakdown": [
               {
@@ -1675,7 +1675,7 @@
           "text": "Over seven decades later, however, this post-war model has grown profoundly out of date.",
           "translation": "然而，七十多年后的今天，这一战后模式已彻底过时。",
           "slashed_text": "Over seven decades later , however , / this post-war model / has grown profoundly out of date.",
-          "chunk_translation": "然而历经了七十多个春秋之后 / 这一成型于二战后的传统医疗模式 / 已经变得极度脱节且陈旧过时",
+          "chunk_translation": "然而，七十多年后， / 这种战后模式 / 已经严重过时。",
           "syntax": {
             "breakdown": [
               {
@@ -1703,7 +1703,7 @@
           "text": "While British life expectancy has stalled and survival rates for conditions like cancer and infant mortality increasingly lag behind peer nations, NHS waitlists have ballooned to unprecedented highs.",
           "translation": "尽管英国的人均预期寿命停滞不前，癌症等重疾的生存率与婴儿死亡率指标日益落后于同类发达国家，NHS的就医等候名单却膨胀到了前所未有的历史高位。",
           "slashed_text": "While British life expectancy has stalled / and survival rates for conditions like cancer / and infant mortality / increasingly lag behind peer nations , / NHS waitlists have ballooned / to unprecedented highs.",
-          "chunk_translation": "尽管英国居民的人均预期寿命已经陷入停滞 / 且诸如恶性肿瘤等重大疾病的生存率 / 以及婴儿死亡率等核心健康指标 / 均已显著落后于同等水平的发达国家盟友 / NHS医院的就诊等候名单却持续恶性膨胀 / 飙升至历史罕见的最高纪录",
+          "chunk_translation": "尽管英国的人口预期寿命停滞不前， / 且癌症等疾病的生存率 / 以及婴儿死亡率 / 日益落后于同行国家， / NHS候诊名单已急剧增加 / 达到前所未有的高点。",
           "syntax": {
             "breakdown": [
               {
@@ -1731,7 +1731,7 @@
           "text": "As specialized healthcare becomes increasingly inaccessible for millions, frustrated patients are routinely forced to opt for private alternatives or endure agonizing delays.",
           "translation": "随着数以百万计的民众愈发难以获得专科医疗，倍感沮丧的患者不得不频繁自费选择私立医疗，或忍受令人痛苦不堪的漫长延误。",
           "slashed_text": "As specialized healthcare becomes increasingly inaccessible for millions , / frustrated patients are routinely forced / to opt for private alternatives / or endure agonizing delays.",
-          "chunk_translation": "伴随着专业医疗救治对数以百万计的普通大众而言变得越发难以触及 / 满腹怨怼的病患们只能无可奈何地被迫 / 自掏腰包选用私立医疗机构作为替代方案 / 抑或是被迫忍受漫长折磨且遥遥无期的排队等待",
+          "chunk_translation": "随着专科医疗对数以百万计的人而言变得越来越难以企及， / 感到沮丧的患者通常被迫 / 选择私立医疗替代方案， / 或忍受痛苦的延误。",
           "syntax": {
             "breakdown": [
               {
@@ -1759,7 +1759,7 @@
           "text": "The roots of this crisis stem from decades of squeezed capital investment and a chronic staffing shortage that has pushed the clinical workforce to its breaking point.",
           "translation": "这场危机的根源在于数十年来资本投资遭受压缩，以及长期的医护人手匮乏，这已将一线临床人员推向了崩溃的边缘。",
           "slashed_text": "The roots of this crisis stem from / decades of squeezed capital investment / and a chronic staffing shortage / that has pushed the clinical workforce / to its breaking point.",
-          "chunk_translation": "这场全面危机的深层根基源自于 / 历经数十年之久的资本投资严重压缩与削减 / 以及长期积弊难返的医护人员严重匮乏 / 这些沉重负荷已经将一线医疗工作者团队 / 推向了濒临瓦解与崩溃的极限边缘",
+          "chunk_translation": "这场危机的根源在于 / 数十年被压缩的资本投资， / 以及长期的员工短缺， / 这已将临床医护人员推向 / 其承受极限。",
           "syntax": {
             "breakdown": [
               {
@@ -1791,8 +1791,8 @@
           "sentence_index": 1,
           "text": "Faced with overwhelmed acute hospitals, policy experts have long rehearsed a familiar answer: modern healthcare must systematically divert resources away from acute hospital wards to manage patients within primary care and community care settings.",
           "translation": "面对不堪重负的急诊及重症医院，政策专家们长期以来反复老调重弹一个熟悉的应对方案：现代医疗体系必须系统性地将资源从急诊住院病房分流出去，以便在基层医疗和社区护理环境中管理患者。",
-          "slashed_text": "Faced with overwhelmed acute hospitals , / policy experts have long rehearsed / a familiar answer : / modern healthcare must systematically divert resources / away from acute hospital wards / to manage patients / within primary care and community care settings.",
-          "chunk_translation": "面对着早已人满为患且濒临瘫痪的急症专科医院 / 卫生政策领域的资深专家们多年来反复排演重申着 / 一个大家耳熟能详的既定对策 / 即现代医疗体系必须有计划、有系统地分流财政与人力资源 / 逐渐撤出资源消耗极大的急诊与专科病房 / 转而将庞大的患者群体收治与管理 / 扎根在初级全科医疗以及社区护理网络的基层场景中",
+          "slashed_text": "Faced with overwhelmed acute hospitals , / policy experts have long rehearsed a familiar answer : / modern healthcare must systematically divert resources / away from acute hospital wards / to manage patients / within primary care and community care settings.",
+          "chunk_translation": "面对不堪重负的急诊医院， / 政策专家长期以来给出一个熟悉的答案： / 现代医疗必须系统性地转移资源， / 远离急症医院病房， / 以便管理患者 / 在初级医疗和社区护理环境中。",
           "syntax": {
             "breakdown": [
               {
@@ -1819,8 +1819,8 @@
           "sentence_index": 2,
           "text": "By expanding local clinics and investing in general practitioners, reformers argue, the system could alleviate reliance on hospital capacity and better support an aging population living with complex, long-term conditions.",
           "translation": "改革者主张，通过扩建地方诊所并大力投资全科医生队伍，医疗系统便能减轻对医院床位承载力的过度依赖，从而更好地支持带病生存、患有复杂长期慢性病的老龄人口。",
-          "slashed_text": "By expanding local clinics / and investing in general practitioners , / reformers argue , / the system could alleviate reliance / on hospital capacity / and better support an aging population / living with complex , long-term conditions.",
-          "chunk_translation": "改革倡导者坚决认定只要通过扩充基层全科诊所的网点 / 并大力度持续投资于全科医生骨干队伍 / 整个医疗体系就能够大幅度缓解 / 对大型专科医院床位与接诊容量的刚性依附 / 并能更为周全地关照与服务日益庞大的老龄化群体 / 尤其是那些长期遭受各类复杂慢性疾病困扰的患者群",
+          "slashed_text": "By expanding local clinics / and investing in general practitioners , / reformers argue , / the system could alleviate reliance on hospital capacity / and better support an aging population / living with complex , long-term conditions.",
+          "chunk_translation": "通过扩建当地诊所 / 并投资于全科医生， / 改革者认为， / 该体系可以减轻对医院容量的依赖， / 并更好地支持老龄化人口， / 这些人口伴有复杂的长期慢性疾病。",
           "syntax": {
             "breakdown": [
               {
@@ -1853,7 +1853,7 @@
           "text": "Yet successive rounds of government strategy and top-down reform have persistently failed to deliver meaningful transformation.",
           "translation": "然而，历届政府推出的一轮轮战略规划与自上而下的改革，却始终未能带来任何实质性的转型成效。",
           "slashed_text": "Yet successive rounds of government strategy / and top-down reform / have persistently failed / to deliver meaningful transformation.",
-          "chunk_translation": "然而多届政府接连出台的一轮又一轮宏大战略 / 以及自上而下推行的行政化医改方案 / 却历来且固执地一再折戟沉沙 / 始终未能向公众交付任何具有实质分量的深层制度变革",
+          "chunk_translation": "然而，连续几轮的政府战略 / 和自上而下的改革， / 始终未能 / 带来有意义的转变。",
           "syntax": {
             "breakdown": [
               {
@@ -1881,7 +1881,7 @@
           "text": "A recent landmark study by a healthcare think tank, under a programme entitled 'Reimagining the NHS,' calls for an honest and urgent rethink of why prior efforts floundered.",
           "translation": "一家医疗智库最近开展的一项名为‘重构NHS’的旗舰研究项目，呼吁对以往举措为何纷纷搁浅进行一次坦诚而紧迫的反思。",
           "slashed_text": "A recent landmark study / by a healthcare think tank , / under a programme entitled 'Reimagining the NHS ,' / calls for an honest and urgent rethink / of why prior efforts floundered.",
-          "chunk_translation": "一家极具权威影响力的卫生医疗智库近期发表的里程碑式研究 / 正是在一个题为‘重构NHS新蓝图’的特别研究项目框架之下 / 郑重发出呼吁要求政界与学界展开一场极其坦诚且刻不容缓的深层反思 / 全面审视过往一系列雷声大雨点小的医改举措为何接连陷入泥潭",
+          "chunk_translation": "最近的一项里程碑式研究 / 由一家医疗智库开展， / 在名为“重构NHS”的项目下， / 呼吁进行坦诚而紧迫的反思 / 反思先前的努力为何陷入困境。",
           "syntax": {
             "breakdown": [
               {
@@ -1914,7 +1914,7 @@
           "text": "The report concludes that previous initiatives merely tinkered at the margins while retaining an entrenched hospital-centric bias.",
           "translation": "该报告得出结论认为，先前的种种举措仅仅是在细枝末节上小修小补，同时却顽固地保留了根深蒂固的‘以医院为中心’的偏见。",
           "slashed_text": "The report concludes / that previous initiatives merely tinkered at the margins / while retaining an entrenched hospital-centric bias.",
-          "chunk_translation": "这份重磅调研报告明确断定 / 以往的所有试水改革无非是在边缘非核心领域搞隔靴搔痒式的修修补补 / 骨子里却顽固不化地全盘保留了根深蒂固的‘以综合大医院为绝对轴心’的系统偏见",
+          "chunk_translation": "该报告总结道， / 先前的举措仅仅是在边缘进行修补， / 同时保留了根深蒂固的以医院为中心的偏向。",
           "syntax": {
             "breakdown": [
               {
@@ -1942,7 +1942,7 @@
           "text": "Because political pressure prioritizes short-term hospital targets and emergency room headlines, acute trusts continue to absorb lion's shares of state revenue, leaving community care underfunded and barely able to cope.",
           "translation": "由于政治压力总是优先追逐医院短期考核指标和急诊室头条新闻，大型急救医疗联合体持续鲸吞国家财政拨款的绝大部分份额，导致社区医疗长期处于资金短缺状态，几乎无法招架实际需求。",
           "slashed_text": "Because political pressure prioritizes / short-term hospital targets / and emergency room headlines , / acute trusts continue to absorb / lion's shares of state revenue , / leaving community care underfunded / and barely able to cope.",
-          "chunk_translation": "鉴于现实中的政界政绩压力总是极力优先考核 / 急诊等候时间等短期立竿见影的医院绩效指标 / 以及抢占媒体眼球的急诊室突发公关新闻 / 使得各大急性专科综合医院托管会持续虹吸 / 英国国家卫生财政预算中绝大部分的巨额真金白银 / 进而致使真正处在守护防线第一线的广大社区基层医疗长期陷于失血饥渴之中 / 勉强维持运转且早已完全无力承受涌入的就医洪流",
+          "chunk_translation": "因为政治压力优先考虑 / 短期的医院指标 / 和急诊室新闻头条， / 急诊信托基金继续吸收 / 国家财政收入的大部分， / 导致社区护理资金不足， / 勉强能够应付。",
           "syntax": {
             "breakdown": [
               {
@@ -1975,7 +1975,7 @@
           "text": "Crucially, this hospital-centric orientation is ill-suited to modern public health challenges.",
           "translation": "至关重要的是，这种以医院为中心的导向与现代公共卫生的严峻挑战完全格格不入。",
           "slashed_text": "Crucially , / this hospital-centric orientation / is ill-suited to modern public health challenges.",
-          "chunk_translation": "而尤为切中肯綮的要害在于 / 这种唯综合大医院马首是瞻的病态价值导向 / 面对21世纪日益复杂的现代公共卫生危机早已显得格格不入且南辕北辙",
+          "chunk_translation": "关键在于， / 这种以医院为中心的导向 / 不适应现代公共卫生的挑战。",
           "syntax": {
             "breakdown": [
               {
@@ -2003,7 +2003,7 @@
           "text": "Medical institutions are primarily organized to fix acute physical illnesses, yet epidemiological studies estimate that healthcare interventions account for barely twenty percent of overall health outcomes.",
           "translation": "医疗机构在组织架构上主要是为了救治突发急性躯体疾病而设立的，然而流行病学研究估计，临床医疗干预措施在整体健康结局中所起的作用仅仅占到区区20%。",
           "slashed_text": "Medical institutions are primarily organized / to fix acute physical illnesses , / yet epidemiological studies estimate / that healthcare interventions account for / barely twenty percent of overall health outcomes.",
-          "chunk_translation": "传统的各级医疗行政机构在设立初衷与组织机理上 / 仅仅是将目标定位于去机械式扑灭突发急性躯体病变 / 然而权威流行病学领域的严谨模型测算揭示 / 狭义层面的临床医疗干预手段充其量仅仅占到 / 决定全民最终整体健康产出与寿命质量的区区百分之二十",
+          "chunk_translation": "医疗机构主要用于组织 / 治疗急性的身体疾病， / 然而流行病学研究估计， / 医疗干预仅仅占到 / 总体健康结局的百分之二十。",
           "syntax": {
             "breakdown": [
               {
@@ -2031,7 +2031,7 @@
           "text": "The overwhelming majority of modern morbidities are shaped by broader social determinants, such as substandard housing, air pollution, and commercial food environments that aggravate chronic ailments like obesity and Type 2 diabetes.",
           "translation": "现代疾病的绝大部分主要是由更广泛的社会决定因素塑造的，比如恶劣的居住条件、空气污染以及诱发肥胖和2型糖尿病等慢性疾病的商业化食品环境。",
           "slashed_text": "The overwhelming majority of modern morbidities / are shaped by broader social determinants , / such as substandard housing , / air pollution , / and commercial food environments / that aggravate chronic ailments / like obesity and Type 2 diabetes.",
-          "chunk_translation": "现代文明社会中绝大多数久治不愈的流行性病痛诱因 / 几乎全部是由更为宏阔深远的社会决定因素所塑造和催化的 / 这其中包括环境恶劣不达标的低收入劣质住房 / 日益侵蚀呼吸系统的城市空气重度污染 / 以及极度充斥着高糖高盐工业垃圾食品的商业零售环境 / 这些不利社会因素正在全方位恶化并加速催生着诸如肥胖症 / 以及2型糖尿病等呈爆炸式蔓延的终身性慢性顽疾",
+          "chunk_translation": "现代发病率的绝大多数 / 都受到更广泛的社会决定因素塑造， / 例如不达标的住房、 / 空气污染、 / 以及商业食品环境， / 这些环境加剧了慢性病， / 比如肥胖症和2型糖尿病。",
           "syntax": {
             "breakdown": [
               {
@@ -2059,7 +2059,7 @@
           "text": "Treating patients repeatedly in specialized hospital wards without remedying these underlying social conditions is neither clinically effective nor economically sustainable.",
           "translation": "若不解决这些深层社会诱因，仅仅把病患一次次送进专科病房进行修补性治疗，既无法在临床上取得根治疗效，在经济上也难以为继。",
           "slashed_text": "Treating patients repeatedly / in specialized hospital wards / without remedying these underlying social conditions / is neither clinically effective / nor economically sustainable.",
-          "chunk_translation": "倘若对滋生疾病的这些底层社会土壤与生活环境视而不见、拒绝予以综合治理修复 / 仅仅机械式地一次次把发病病患推入专科大医院病房实施末端抢救与修补 / 既无法在临床医学层面斩断病根 / 更在经济财政的可持续性上注定走向破产绝境",
+          "chunk_translation": "反复治疗患者 / 在专门的医院病房中， / 却不纠正这些潜在的社会条件， / 既在临床上没有效果， / 也在经济上无法持续。",
           "syntax": {
             "breakdown": [
               {
@@ -2087,7 +2087,7 @@
           "text": "To build a resilient healthcare system for the twenty-first century, policymakers must move beyond simply scrapping nominal price tags or announcing cosmetic structural reshuffles.",
           "translation": "要为21世纪构建一个具有抗风险韧性的医疗服务体系，政策制定者绝不能仅仅停留在取消名义上的就医价格标签，或是宣布一些装点门面的组织架构重组。",
           "slashed_text": "To build a resilient healthcare system / for the twenty-first century , / policymakers must move beyond / simply scrapping nominal price tags / or announcing cosmetic structural reshuffles.",
-          "chunk_translation": "为了真正打造出一套能够经受住21世纪时代考验且具备强大韧性的全民医疗体系 / 国家高层的政策制定者们就必须彻底跳出原有思维定势 / 绝不能仅仅局限于象征性地取消几张就医名义收费标签 / 或是空洞对外发布一些隔靴搔痒、装点门面的所谓行政组织机构洗牌重组",
+          "chunk_translation": "为了构建一个有韧性的医疗体系 / 面向二十一世纪， / 政策制定者必须超越 / 仅仅取消名义收费标签， / 或宣布表面上的结构重组。",
           "syntax": {
             "breakdown": [
               {
@@ -2115,7 +2115,7 @@
           "text": "Real reform demands that authorities radically restructure power and redistribute budgetary resources across administrative tiers, devolving clinical functions to integrated community teams.",
           "translation": "真正的改革要求决策当局从根本上重塑权力格局，在各行政层级之间重新分配财政预算资源，将临床诊疗与健康管理职能真正下沉给一体化的社区团队。",
           "slashed_text": "Real reform demands / that authorities radically restructure power / and redistribute budgetary resources / across administrative tiers , / devolving clinical functions / to integrated community teams.",
-          "chunk_translation": "触及灵魂的动真格改革明确要求 / 卫生最高行政掌权当局必须大刀阔斧地彻底重塑权力分配格局 / 并在各个层级的行政与医疗管辖体系之间重新调配整个国家卫生预算资源 / 将核心的日常临床诊疗与健康监护职能实质性下沉并授权给 / 扎根基层的跨学科一体化社区医护服务团队",
+          "chunk_translation": "真正的改革要求 / 当局从根本上重组权力， / 并重新分配预算资源 / 跨越各个行政层级， / 将临床职能下放 / 给综合社区团队。",
           "syntax": {
             "breakdown": [
               {
@@ -2143,7 +2143,7 @@
           "text": "Rather than continuing to pour capital exclusively into acute hospital infrastructure, the state must pay due attention to social determinants and create an empathetic understanding of preventative medicine.",
           "translation": "国家必须对深层社会决定因素给予应有的重视，并对预防医学树立起富有同理心的体认，而不是继续把资金一味注入急诊大医院的基础设施之中。",
           "slashed_text": "Rather than continuing to pour capital exclusively / into acute hospital infrastructure , / the state must pay due attention / to social determinants / and create an empathetic understanding / of preventative medicine.",
-          "chunk_translation": "绝不应再继续将宝贵的公共资本毫无节制且近乎排他性地疯狂砸向 / 大型急症专科综合医院的钢铁水泥等硬件基础设施之中 / 现代国家机器必须对决定全民生老病死的深层社会决定因素给予高度且应有的政策倾斜与关照 / 并在全社会范围内培育出对疾病预防与源头健康管理的深刻共情与战略认知",
+          "chunk_translation": "与其继续一味将资金 / 投入到急诊医院基础设施中， / 国家必须给予应有的重视 / 于社会决定因素， / 并建立起感同身受的理解 / 对预防医学。",
           "syntax": {
             "breakdown": [
               {
@@ -2171,7 +2171,7 @@
           "text": "Only when healthcare leaders exercise a bold sense of collective responsibility can the NHS overcome structural deficiencies and truly fulfill its founding promise.",
           "translation": "唯有医疗领域的领导层切实履行起勇于担当的集体责任感，NHS才能克服其体制缺陷，真正兑现其建制之初的宏伟承诺。",
           "slashed_text": "Only when healthcare leaders exercise / a bold sense of collective responsibility / can the NHS overcome structural deficiencies / and truly fulfill its founding promise.",
-          "chunk_translation": "唯有当卫生管理体系的高层决策舵手们能够真正践行并展现出 / 一种敢于刮骨疗毒、勇担使命的宏大集体责任担当精神 / 英国国家医疗服务体系才有可能从根子上战胜其顽固的历史制度沉疴与结构性缺陷 / 进而真正重新全面兑现其在七十多年前建制伊始所许下的宏伟民生诺言",
+          "chunk_translation": "只有当医疗领导者展现出 / 果敢的集体责任感时， / NHS才能克服结构性缺陷， / 并真正兑现其建构之初的承诺。",
           "syntax": {
             "breakdown": [
               {
@@ -2687,8 +2687,8 @@
           "pid": 0,
           "text": "As catastrophic summer heatwaves proliferate across the globe with alarming regularity, governments are scrambling to spell out comprehensive contingency plans. When public health officials issue extreme heat warnings, their primary goal is to alert civic institutions and medical facilities to prepare for an inevitable surge in casualties. Emergency guidance frequently calls for hospitals to set aside specialized wards and reserve dedicated clinical staff to treat heatstroke and acute cardiovascular distress. Yet beneath these official pronouncements, the construction and actual implementation of such heat response plans under existing policies remain frustratingly uneven.",
           "translation": "随着灾难性的夏季热浪以惊人的常态在全球范围内蔓延扩散，多国政府正急于制定详尽的应急预案。当公共卫生官员发布极端高温预警时，其首要目标是提醒市政公共机构与医疗设施做好准备，以应对伤亡人数不可避免的激增。应急指导常常要求医院专门辟出专科病房，并预留专门的临床医护力量来救治中暑与突发急性心血管疾患。然而，在这些冠冕堂皇的官方声明之下，现行政策框架下此类高温应对预案的制定建设与实际落地执行却依然显得令人沮丧地参差不齐。",
-          "slashed_text": "As catastrophic summer heatwaves proliferate across the globe / with alarming regularity , / governments are scrambling / to spell out comprehensive contingency plans. / When public health officials issue extreme heat warnings , / their primary goal is / to alert civic institutions and medical facilities / to prepare for an inevitable surge in casualties. / Emergency guidance frequently calls for hospitals / to set aside specialized wards / and reserve dedicated clinical staff / to treat heatstroke and acute cardiovascular distress. / Yet beneath these official pronouncements , / the construction and actual implementation / of such heat response plans / under existing policies / remain frustratingly uneven.",
-          "chunk_translation": "伴随着灾难性且破坏力极强的夏季极端热浪席卷全球 / 并展现出令人极度担忧且频率骤增的常态化趋势 / 各国主管政府正手忙脚乱地争相 / 详细敲定并出台全方位的紧急应对方案 / 每当官方公共卫生主管官员对外正式发布极端极端高温红色预警之时 / 其最为关键的首要施政目标便在于 / 及时拉响警报提示社会各级公共机构与基层医疗设施 / 提前做好充分应急储备以应对极有可能出现的就诊伤亡暴增洪峰 / 上级权威部门下达的紧急行动指南屡屡明确要求各大综合医院 / 必须提前清空并单独腾出特定的重症专科病房 / 并定点留存专门的一线临床骨干力量 / 以集中收治与抢救严重中暑病患以及急性心血管衰竭重症 / 然而隐藏在这些高调纸面政令宣传的背后 / 这类高温应急防护方案从硬件设施的前期规划布局到终端的实际操作落实 / 在既有的僵化行政政策体系掣肘之下 / 依然暴露出极度令人气馁的推进迟滞与巨大地区差距",
+          "slashed_text": "As catastrophic summer heatwaves proliferate across the globe / with alarming regularity , / governments are scrambling to spell out / comprehensive contingency plans. / When public health officials issue extreme heat warnings , / their primary goal is to alert civic institutions and medical facilities / to prepare for an inevitable surge in casualties. / Emergency guidance frequently calls for hospitals / to set aside specialized wards / and reserve dedicated clinical staff / to treat heatstroke and acute cardiovascular distress. / Yet beneath these official pronouncements , / the construction and actual implementation of such heat response plans under existing policies / remain frustratingly uneven.",
+          "chunk_translation": "随着破坏性的夏季热浪以令人担忧的频率 / 在全球各地频繁出现， / 各国政府正争先恐后地制定 / 全面的应急预案。 / 当公共卫生官员发布极端高温预警时， / 其首要目标是提醒市政机构和医疗设施 / 为不可避免的伤亡人数激增做好准备。 / 应急指导常常呼吁医院 / 预留专门的病房， / 并配备专门的临床医护人员， / 用以救治中暑和急性心血管疾病患者。 / 然而在这些官方声明的背后， / 现有政策下此类高温应对计划的制定与实际执行 / 依然极不均衡，令人沮丧。",
           "vocabulary": [
             {
               "word": "proliferate",
@@ -2751,8 +2751,8 @@
           "pid": 1,
           "text": "A major impediment to timely intervention lies in the rigid trigger thresholds that activate emergency protocols. In most municipal jurisdictions, heat action plans require thermometer readings to exceed a predetermined, static temperature before emergency measures—such as opening cooled shelters or halting outdoor construction—are formally enacted. However, meteorological authorities increasingly highlight that simple temperature gauges offer a flawed and un-nuanced measure of human thermal stress. In humid coastal regions, high atmospheric moisture prevents the evaporation of sweat, amplifying bodily strain even when raw temperatures remain roughly shy of official alert thresholds.",
           "translation": "阻碍及时干预的一大主要障碍在于启动应急方案的死板触发阈值。在绝大多数市政辖区内，高温行动预案往往要求温度计读数超过一个预先设定的僵化温度，随后诸如开放避暑降温庇护所或暂停室外建筑施工等紧急措施才会被正式实施。然而，气象机构日益强调，单纯的温度表读数在衡量人体所承受的热应激方面不仅存在缺陷，而且缺乏精准细致度。在潮湿的沿海地区，高大气湿度会阻碍汗液蒸发，从而急剧放大身体负荷，即便当时的原始气温读数大致上还略微低于官方设定的警报门槛。",
-          "slashed_text": "A major impediment to timely intervention / lies in the rigid trigger thresholds / that activate emergency protocols. / In most municipal jurisdictions , / heat action plans require thermometer readings / to exceed a predetermined , static temperature / before emergency measures — / such as opening cooled shelters / or halting outdoor construction — / are formally enacted. / However , meteorological authorities increasingly highlight / that simple temperature gauges offer / a flawed and un-nuanced measure / of human thermal stress. / In humid coastal regions , / high atmospheric moisture prevents the evaporation of sweat , / amplifying bodily strain / even when raw temperatures remain roughly shy / of official alert thresholds.",
-          "chunk_translation": "导致各级政府无法在黄金时间内及时介入阻断灾害的一大核心掣肘 / 恰恰潜藏于启动各类紧急响应机制时所依赖的死板生硬触发临界值 / 在绝大多数地方市政管辖区域的常规运作中 / 高温灾害应急预案往往刻板要求水银温度计的实际读数 / 必须生硬突破一个事先人为画线、静止不变的绝对温度标尺 / 随后包括紧急向社会无偿开放防暑降温避难所 / 以及全面强制叫停户外露天施工作业在内的一系列避险手段 / 才会被官方依照程序正式批准付诸执行 / 然而各大专业气象与气候权威研究机构却愈发严正指出 / 单纯依赖单一温度计测出的水银柱数值 / 充其量只能提供一个充满重大盲区且极度缺乏微观梯度的粗糙度量 / 根本无法准确映射人体生理机制所遭遇的真实热应激极限 / 尤其是在水汽丰沛的潮湿沿海地带 / 极高的大气空气相对湿度会严重阻遏人体表皮汗液的自然蒸发散热 / 进而成倍地急剧放大心肺与全身生理器官的超负荷运转 / 哪怕此时户外由气象站测得的原始气温账面数值 / 依然只是差一点点尚未触及官方刻板画定的红色预警警戒线",
+          "slashed_text": "A major impediment to timely intervention / lies in the rigid trigger thresholds / that activate emergency protocols. / In most municipal jurisdictions , / heat action plans require thermometer readings to exceed a predetermined , static temperature / before emergency measures — such as opening cooled shelters or halting outdoor construction — / are formally enacted. / However , meteorological authorities increasingly highlight / that simple temperature gauges offer a flawed and un-nuanced measure / of human thermal stress. / In humid coastal regions , / high atmospheric moisture prevents the evaporation of sweat , / amplifying bodily strain / even when raw temperatures remain roughly shy of official alert thresholds.",
+          "chunk_translation": "及时干预的一大阻碍 / 在于启动应急方案的 / 僵化触发阈值。 / 在大多数市政辖区中， / 高温行动计划要求温度计读数超过预设的静态温度， / 然后诸如开放避暑降温庇护所或暂停户外施工等应急措施 / 才会正式启动。 / 然而气象部门日益强调指出， / 单纯的气温测量指标在衡量人体的热压力时 / 存在缺陷且不够细致。 / 在潮湿的沿海地区， / 较高的大气湿度阻碍了汗液蒸发， / 加剧了身体的生理负荷， / 即使原始气温略低于官方预警阈值。",
           "vocabulary": [
             {
               "word": "impediment",
@@ -2821,8 +2821,8 @@
           "pid": 2,
           "text": "Furthermore, the physical impacts of extreme heat are not distributed equitably across urban landscapes. Recent demographic analyses demonstrate that heat-related morbidity is disproportionately concentrated in impoverished neighborhoods and informal dwellings. These densely populated communities suffer from severe heat island effects, where asphalt and concrete trap radiation during daylight hours and release it slowly at night, offering residents no nocturnal respite. Compounding this vulnerability is a chronic lack of adequate funding for basic urban amenities, leaving lower-income districts with neglected shade, treeless sidewalks, and uninsulated housing.",
           "translation": "此外，极端高温对人体的身体冲击在城市地理空间中的分布绝非均等。近期的统计人口学分析表明，与高温相关的发病率不成比例地集中在贫困社区和非正规简陋居所之中。这些人口稠密的社区饱受严重的城市热岛效应之苦：沥青路面与混凝土建筑在白天吸收并积聚辐射热量，并在夜间缓慢释放，使得居民在夜间根本得不到任何降温喘息的机会。更为雪上加霜的是，由于基础设施长期缺乏充足资金支持，低收入街区绿荫遮蔽严重不足，人行道光秃无树，住房也普遍缺乏隔热保温材料。",
-          "slashed_text": "Furthermore , / the physical impacts of extreme heat / are not distributed equitably / across urban landscapes. / Recent demographic analyses demonstrate / that heat-related morbidity is disproportionately concentrated / in impoverished neighborhoods and informal dwellings. / These densely populated communities suffer from / severe heat island effects , / where asphalt and concrete trap radiation / during daylight hours / and release it slowly at night , / offering residents no nocturnal respite. / Compounding this vulnerability / is a chronic lack of adequate funding / for basic urban amenities , / leaving lower-income districts / with neglected shade , treeless sidewalks , / and uninsulated housing.",
-          "chunk_translation": "更为不容粉饰的是 / 致命极端高温带给肉体生命的生理冲击与致病概率 / 在现代城市错综复杂的地理空间版图中根本谈不上任何实质公平 / 近期多项严谨的人口学与流行病学交叉统计清晰证实 / 因酷热诱发的心衰与热射病等急慢性发病率极度畸形地高度集中 / 在那些基础设施破败的贫困社区以及违规搭建的非正规简陋住房群落 / 这些人口密度极高且拥挤狭窄的边缘化社区无时无刻不在饱受 / 极其恶劣且不断自我强化的城市热岛效应的双重折磨 / 密不透风的柏油沥青路面与密集裸露的钢筋水泥在白昼疯狂吞噬并积聚太阳辐射 / 并于太阳落山后的漫漫长夜间缓慢持续向四周蒸腾释放致命热气 / 使得身处其中的普通居民在夜晚根本无法获得一丝一毫清凉的休整喘息 / 而让这种生态脆弱性更加雪上加霜、陷入死结的关键推手 / 则是公共财政对底层最基础市政配套公共设施投入的长期慢性匮乏 / 直接导致广大低收入平民街区随处可见被漠视砍伐的残缺树荫 / 毫无绿植遮蔽滚烫焦渴的裸露人行便道 / 以及毫无隔热与防风保温材料加持的薄铁皮瓦顶房屋",
+          "slashed_text": "Furthermore , the physical impacts of extreme heat / are not distributed equitably across urban landscapes. / Recent demographic analyses demonstrate / that heat-related morbidity is disproportionately concentrated / in impoverished neighborhoods and informal dwellings. / These densely populated communities suffer from severe heat island effects , / where asphalt and concrete trap radiation during daylight hours / and release it slowly at night , / offering residents no nocturnal respite. / Compounding this vulnerability is a chronic lack of adequate funding / for basic urban amenities , / leaving lower-income districts with neglected shade , treeless sidewalks , and uninsulated housing.",
+          "chunk_translation": "此外，极端高温造成的实际生理影响 / 在城市各个区域的分布并不均衡。 / 近期的人口学分析表明， / 与高温相关的发病率不成比例地集中在 / 贫困社区和简陋住所之中。 / 这些人口稠密的社区饱受严重的热岛效应之苦， / 柏油路面和混凝土在白天吸收热辐射， / 并在夜间缓慢释放， / 让居民在夜间也得不到片刻清凉喘息。 / 加剧这种脆弱性的是基本城市公共设施 / 长期缺乏充足资金支持， / 导致低收入街区遮阳设施失修、人行道缺乏树木庇荫、房屋隔热不良。",
           "vocabulary": [
             {
               "word": "informal dwelling",
@@ -2891,8 +2891,8 @@
           "pid": 3,
           "text": "Addressing this public health crisis requires policymakers to transition from reactive crisis management to proactive, localized infrastructure adaptation. Relying solely on hospital wards to treat the heat-stricken is a downstream palliative that ignores root environmental causes. Instead, municipal authorities must customize heat alerts based on combined temperature-humidity indices that reflect localized physiological risk. Simultaneously, cities must direct targeted funding toward retrofitting informal dwellings with reflective roofing, expanding urban tree canopies, and installing accessible shade structures throughout vulnerable neighborhoods.",
           "translation": "应对这一公共卫生危机，要求决策者从被动应付的危机管理转向主动出击的本地化基础设施适应性改造。仅仅依赖医院病房来抢救中暑群体，充其量只是一种无视根本环境诱因的下游权宜之计。相反，市政当局必须基于综合考虑温湿度的指标体系来量身定制高温警报，以便真实反映特定区域的生理健康风险。与此同时，各城市必须定向划拨专项资金，用于为简陋居所加装反射隔热屋顶、扩大城市林木树冠覆盖率，并在脆弱社区各处广泛增设易于触及的遮阴设施。",
-          "slashed_text": "Addressing this public health crisis / requires policymakers to transition / from reactive crisis management / to proactive , localized infrastructure adaptation. / Relying solely on hospital wards / to treat the heat-stricken / is a downstream palliative / that ignores root environmental causes. / Instead , municipal authorities must customize heat alerts / based on combined temperature-humidity indices / that reflect localized physiological risk. / Simultaneously , cities must direct targeted funding / toward retrofitting informal dwellings / with reflective roofing , / expanding urban tree canopies , / and installing accessible shade structures / throughout vulnerable neighborhoods.",
-          "chunk_translation": "若要从根本上化解这场日益演进的重大全民健康生存危机 / 就迫切要求各级公共政策的操盘手们果断实现战略思维大转向 / 彻底摒弃那种灾后疲于奔命的被动式危机应付模式 / 坚定转向具有前瞻预防性质的本地化基础设施韧性适应改造 / 仅仅孤立依靠各大综合医院临时腾挪病房来抢救重症中暑伤患 / 充其量不过是一种治标不治本、自欺欺人的下游止痛缓兵之计 / 并且从源头上完全无视了致病致命的深层人居生态环境诱因 / 与之相对立，现代城市市政当局必须彻底重构预警逻辑 / 必须全面引入高度融合气温与湿度的体感综合科学指数来定制预警系统 / 使之能敏锐映射出微观特定区域内公众身体所承受的实际生理过载风险 / 与此同时，城市公共财政必须集中火力实施定向精准滴灌 / 大力资助对贫困老旧棚户区实施建筑外立面改造、铺设高反射隔热屋面材料 / 以前所未有的力度规模化扩建城市道路林荫树冠遮蔽网络 / 并于所有处于高热暴露风险的脆弱社区各个角落大规模增设便于公众歇脚的降温遮阳设施",
+          "slashed_text": "Addressing this public health crisis / requires policymakers to transition / from reactive crisis management / to proactive , localized infrastructure adaptation. / Relying solely on hospital wards to treat the heat-stricken / is a downstream palliative / that ignores root environmental causes. / Instead , municipal authorities must customize heat alerts / based on combined temperature-humidity indices / that reflect localized physiological risk. / Simultaneously , cities must direct targeted funding / toward retrofitting informal dwellings with reflective roofing , / expanding urban tree canopies , / and installing accessible shade structures / throughout vulnerable neighborhoods.",
+          "chunk_translation": "应对这场公共卫生危机 / 要求政策制定者实现转型， / 即从被动的事后危机应对 / 转向主动的因地制宜基础设施改造。 / 单靠医院病房救治中暑患者 / 是一种下游治标手段， / 忽视了根本的环境诱因。 / 相反，市政当局必须根据综合温湿度指数 / 来量身定制高温预警， / 该指数能更真实反映局部的生理健康风险。 / 与此同时，城市必须引导专项资金， / 用于为简陋住所改建反光屋顶、 / 扩大城市绿树树冠覆盖面、 / 并安装便利的遮阳设施 / 遍及脆弱街区。",
           "vocabulary": [
             {
               "word": "palliative",
@@ -2961,8 +2961,8 @@
           "pid": 4,
           "text": "Ultimately, extreme heat can no longer be dismissed as a temporary meteorological nuisance or an unavoidable act of nature. It represents a systemic climate threat that tests the resilience of urban governance and social equity. Only by spelling out forward-looking policies that integrate nuanced scientific thresholds with sustained capital investment in physical shading and architectural retrofits can cities hope to safeguard their most vulnerable citizens against an increasingly sweltering future.",
           "translation": "归根结底，极端高温再也不能被轻描淡写地视为一种暂时的气象麻烦，或是一种不可避免的天灾。它代表着一场对城市治理韧性与社会公平发起全面大考的系统性气候威胁。唯有通过明确制定具有前瞻性的政策，将细致入微的科学起报阈值与对物理遮阳设施及建筑改造的持续资本投入深度融合，各大城市才有希望在日益酷热逼人的未来岁月中，真正守护好其最脆弱的普通市民。",
-          "slashed_text": "Ultimately , / extreme heat can no longer be dismissed / as a temporary meteorological nuisance / or an unavoidable act of nature. / It represents a systemic climate threat / that tests the resilience of urban governance / and social equity. / Only by spelling out forward-looking policies / that integrate nuanced scientific thresholds / with sustained capital investment / in physical shading and architectural retrofits / can cities hope to safeguard their most vulnerable citizens / against an increasingly sweltering future.",
-          "chunk_translation": "追本溯源、归根结底而言 / 肆虐各地的极端高热气候再也绝不能被狂妄轻蔑地贬低 / 视为无足轻重、转瞬即逝的短暂气象小骚扰 / 抑或被宿命论式地推脱为人类绝对无能为力的不可抗天灾 / 它实实在在地代表着一场正在常态化蔓延的深层系统性气候生存威胁 / 全方位严酷拷打着现代城市治理体系的抗压韧性以及最基本的社会公平底线 / 唯有各级政府能够拿出真正登高望远的担当胸襟制定出具有前瞻性的宏观法案 / 将洞察微观环境差异的科学气象复合起报阈值机制 / 与持续不断注入实体防晒林荫以及底层老旧建筑节能隔热改造的真金白银相结合 / 现代城市群落才有可能怀抱哪怕一丝希望，去切实筑牢生命安全防线 / 在这个越来越窒息酷热的未来大考中保护好最无助的底层平民",
+          "slashed_text": "Ultimately , extreme heat can no longer be dismissed / as a temporary meteorological nuisance / or an unavoidable act of nature. / It represents a systemic climate threat / that tests the resilience / of urban governance and social equity. / Only by spelling out forward-looking policies / that integrate nuanced scientific thresholds / with sustained capital investment in physical shading and architectural retrofits / can cities hope to safeguard their most vulnerable citizens / against an increasingly sweltering future.",
+          "chunk_translation": "归根结底，极端高温再也不能被轻描淡写地视为 / 一时烦人的气象琐事， / 或不可抗拒的自然天灾。 / 它代表着一种系统性的气候威胁， / 严峻考验着 / 城市治理的韧性与社会公平。 / 唯有制定出具有前瞻性的政策， / 将科学严谨的复合指标阈值 / 与在遮阳设施及建筑改造方面的持续资金投入结合起来， / 城市才有希望保护好最脆弱的市民群落， / 抵御日益酷热难耐的未来。",
           "vocabulary": [
             {
               "word": "nuisance",
@@ -3024,8 +3024,8 @@
           "sentence_index": 0,
           "text": "As catastrophic summer heatwaves proliferate across the globe with alarming regularity, governments are scrambling to spell out comprehensive contingency plans.",
           "translation": "随着灾难性的夏季热浪以惊人的常态在全球范围内蔓延扩散，多国政府正急于制定详尽的应急预案。",
-          "slashed_text": "As catastrophic summer heatwaves proliferate across the globe / with alarming regularity , / governments are scrambling / to spell out comprehensive contingency plans.",
-          "chunk_translation": "伴随着灾难性且破坏力极强的夏季极端热浪席卷全球 / 并展现出令人极度担忧且频率骤增的常态化趋势 / 各国主管政府正手忙脚乱地争相 / 详细敲定并出台全方位的紧急应对方案",
+          "slashed_text": "As catastrophic summer heatwaves proliferate across the globe / with alarming regularity , / governments are scrambling to spell out / comprehensive contingency plans.",
+          "chunk_translation": "随着破坏性的夏季热浪以令人担忧的频率 / 在全球各地频繁出现， / 各国政府正争先恐后地制定 / 全面的应急预案。",
           "syntax": {
             "breakdown": [
               {
@@ -3057,8 +3057,8 @@
           "sentence_index": 1,
           "text": "When public health officials issue extreme heat warnings, their primary goal is to alert civic institutions and medical facilities to prepare for an inevitable surge in casualties.",
           "translation": "当公共卫生官员发布极端高温预警时，其首要目标是提醒市政公共机构与医疗设施做好准备，以应对伤亡人数不可避免的激增。",
-          "slashed_text": "When public health officials issue extreme heat warnings , / their primary goal is / to alert civic institutions and medical facilities / to prepare for an inevitable surge in casualties.",
-          "chunk_translation": "每当官方公共卫生主管官员对外正式发布极端极端高温红色预警之时 / 其最为关键的首要施政目标便在于 / 及时拉响警报提示社会各级公共机构与基层医疗设施 / 提前做好充分应急储备以应对极有可能出现的就诊伤亡暴增洪峰",
+          "slashed_text": "When public health officials issue extreme heat warnings , / their primary goal is to alert civic institutions and medical facilities / to prepare for an inevitable surge in casualties.",
+          "chunk_translation": "当公共卫生官员发布极端高温预警时， / 其首要目标是提醒市政机构和医疗设施 / 为不可避免的伤亡人数激增做好准备。",
           "syntax": {
             "breakdown": [
               {
@@ -3091,7 +3091,7 @@
           "text": "Emergency guidance frequently calls for hospitals to set aside specialized wards and reserve dedicated clinical staff to treat heatstroke and acute cardiovascular distress.",
           "translation": "应急指导常常要求医院专门辟出专科病房，并预留专门的临床医护力量来救治中暑与突发急性心血管疾患。",
           "slashed_text": "Emergency guidance frequently calls for hospitals / to set aside specialized wards / and reserve dedicated clinical staff / to treat heatstroke and acute cardiovascular distress.",
-          "chunk_translation": "上级权威部门下达的紧急行动指南屡屡明确要求各大综合医院 / 必须提前清空并单独腾出特定的重症专科病房 / 并定点留存专门的一线临床骨干力量 / 以集中收治与抢救严重中暑病患以及急性心血管衰竭重症",
+          "chunk_translation": "应急指导常常呼吁医院 / 预留专门的病房， / 并配备专门的临床医护人员， / 用以救治中暑和急性心血管疾病患者。",
           "syntax": {
             "breakdown": [
               {
@@ -3123,8 +3123,8 @@
           "sentence_index": 3,
           "text": "Yet beneath these official pronouncements, the construction and actual implementation of such heat response plans under existing policies remain frustratingly uneven.",
           "translation": "然而，在这些冠冕堂皇的官方声明之下，现行政策框架下此类高温应对预案的制定建设与实际落地执行却依然显得令人沮丧地参差不齐。",
-          "slashed_text": "Yet beneath these official pronouncements , / the construction and actual implementation / of such heat response plans / under existing policies / remain frustratingly uneven.",
-          "chunk_translation": "然而隐藏在这些高调纸面政令宣传的背后 / 这类高温应急防护方案从硬件设施的前期规划布局到终端的实际操作落实 / 在既有的僵化行政政策体系掣肘之下 / 依然暴露出极度令人气馁的推进迟滞与巨大地区差距",
+          "slashed_text": "Yet beneath these official pronouncements , / the construction and actual implementation of such heat response plans under existing policies / remain frustratingly uneven.",
+          "chunk_translation": "然而在这些官方声明的背后， / 现有政策下此类高温应对计划的制定与实际执行 / 依然极不均衡，令人沮丧。",
           "syntax": {
             "breakdown": [
               {
@@ -3152,7 +3152,7 @@
           "text": "A major impediment to timely intervention lies in the rigid trigger thresholds that activate emergency protocols.",
           "translation": "阻碍及时干预的一大主要障碍在于启动应急方案的死板触发阈值。",
           "slashed_text": "A major impediment to timely intervention / lies in the rigid trigger thresholds / that activate emergency protocols.",
-          "chunk_translation": "导致各级政府无法在黄金时间内及时介入阻断灾害的一大核心掣肘 / 恰恰潜藏于启动各类紧急响应机制时所依赖的死板生硬触发临界值",
+          "chunk_translation": "及时干预的一大阻碍 / 在于启动应急方案的 / 僵化触发阈值。",
           "syntax": {
             "breakdown": [
               {
@@ -3184,8 +3184,8 @@
           "sentence_index": 1,
           "text": "In most municipal jurisdictions, heat action plans require thermometer readings to exceed a predetermined, static temperature before emergency measures—such as opening cooled shelters or halting outdoor construction—are formally enacted.",
           "translation": "在绝大多数市政辖区内，高温行动预案往往要求温度计读数超过一个预先设定的僵化温度，随后诸如开放避暑降温庇护所或暂停室外建筑施工等紧急措施才会被正式实施。",
-          "slashed_text": "In most municipal jurisdictions , / heat action plans require thermometer readings / to exceed a predetermined , static temperature / before emergency measures — / such as opening cooled shelters / or halting outdoor construction — / are formally enacted.",
-          "chunk_translation": "在绝大多数地方市政管辖区域的常规运作中 / 高温灾害应急预案往往刻板要求水银温度计的实际读数 / 必须生硬突破一个事先人为画线、静止不变的绝对温度标尺 / 随后包括紧急向社会无偿开放防暑降温避难所 / 以及全面强制叫停户外露天施工作业在内的一系列避险手段 / 才会被官方依照程序正式批准付诸执行",
+          "slashed_text": "In most municipal jurisdictions , / heat action plans require thermometer readings to exceed a predetermined , static temperature / before emergency measures — such as opening cooled shelters or halting outdoor construction — / are formally enacted.",
+          "chunk_translation": "在大多数市政辖区中， / 高温行动计划要求温度计读数超过预设的静态温度， / 然后诸如开放避暑降温庇护所或暂停户外施工等应急措施 / 才会正式启动。",
           "syntax": {
             "breakdown": [
               {
@@ -3217,8 +3217,8 @@
           "sentence_index": 2,
           "text": "However, meteorological authorities increasingly highlight that simple temperature gauges offer a flawed and un-nuanced measure of human thermal stress.",
           "translation": "然而，气象机构日益强调，单纯的温度表读数在衡量人体所承受的热应激方面不仅存在缺陷，而且缺乏精准细致度。",
-          "slashed_text": "However , meteorological authorities increasingly highlight / that simple temperature gauges offer / a flawed and un-nuanced measure / of human thermal stress.",
-          "chunk_translation": "然而各大专业气象与气候权威研究机构却愈发严正指出 / 单纯依赖单一温度计测出的水银柱数值 / 充其量只能提供一个充满重大盲区且极度缺乏微观梯度的粗糙度量 / 根本无法准确映射人体生理机制所遭遇的真实热应激极限",
+          "slashed_text": "However , meteorological authorities increasingly highlight / that simple temperature gauges offer a flawed and un-nuanced measure / of human thermal stress.",
+          "chunk_translation": "然而气象部门日益强调指出， / 单纯的气温测量指标在衡量人体的热压力时 / 存在缺陷且不够细致。",
           "syntax": {
             "breakdown": [
               {
@@ -3250,8 +3250,8 @@
           "sentence_index": 3,
           "text": "In humid coastal regions, high atmospheric moisture prevents the evaporation of sweat, amplifying bodily strain even when raw temperatures remain roughly shy of official alert thresholds.",
           "translation": "在潮湿的沿海地区，高大气湿度会阻碍汗液蒸发，从而急剧放大身体负荷，即便当时的原始气温读数大致上还略微低于官方设定的警报门槛。",
-          "slashed_text": "In humid coastal regions , / high atmospheric moisture prevents the evaporation of sweat , / amplifying bodily strain / even when raw temperatures remain roughly shy / of official alert thresholds.",
-          "chunk_translation": "尤其是在水汽丰沛的潮湿沿海地带 / 极高的大气空气相对湿度会严重阻遏人体表皮汗液的自然蒸发散热 / 进而成倍地急剧放大心肺与全身生理器官的超负荷运转 / 哪怕此时户外由气象站测得的原始气温账面数值 / 依然只是差一点点尚未触及官方刻板画定的红色预警警戒线",
+          "slashed_text": "In humid coastal regions , / high atmospheric moisture prevents the evaporation of sweat , / amplifying bodily strain / even when raw temperatures remain roughly shy of official alert thresholds.",
+          "chunk_translation": "在潮湿的沿海地区， / 较高的大气湿度阻碍了汗液蒸发， / 加剧了身体的生理负荷， / 即使原始气温略低于官方预警阈值。",
           "syntax": {
             "breakdown": [
               {
@@ -3283,8 +3283,8 @@
           "sentence_index": 0,
           "text": "Furthermore, the physical impacts of extreme heat are not distributed equitably across urban landscapes.",
           "translation": "此外，极端高温对人体的身体冲击在城市地理空间中的分布绝非均等。",
-          "slashed_text": "Furthermore , / the physical impacts of extreme heat / are not distributed equitably / across urban landscapes.",
-          "chunk_translation": "更为不容粉饰的是 / 致命极端高温带给肉体生命的生理冲击与致病概率 / 在现代城市错综复杂的地理空间版图中根本谈不上任何实质公平",
+          "slashed_text": "Furthermore , the physical impacts of extreme heat / are not distributed equitably across urban landscapes.",
+          "chunk_translation": "此外，极端高温造成的实际生理影响 / 在城市各个区域的分布并不均衡。",
           "syntax": {
             "breakdown": [
               {
@@ -3312,7 +3312,7 @@
           "text": "Recent demographic analyses demonstrate that heat-related morbidity is disproportionately concentrated in impoverished neighborhoods and informal dwellings.",
           "translation": "近期的统计人口学分析表明，与高温相关的发病率不成比例地集中在贫困社区和非正规简陋居所之中。",
           "slashed_text": "Recent demographic analyses demonstrate / that heat-related morbidity is disproportionately concentrated / in impoverished neighborhoods and informal dwellings.",
-          "chunk_translation": "近期多项严谨的人口学与流行病学交叉统计清晰证实 / 因酷热诱发的心衰与热射病等急慢性发病率极度畸形地高度集中 / 在那些基础设施破败的贫困社区以及违规搭建的非正规简陋住房群落",
+          "chunk_translation": "近期的人口学分析表明， / 与高温相关的发病率不成比例地集中在 / 贫困社区和简陋住所之中。",
           "syntax": {
             "breakdown": [
               {
@@ -3344,8 +3344,8 @@
           "sentence_index": 2,
           "text": "These densely populated communities suffer from severe heat island effects, where asphalt and concrete trap radiation during daylight hours and release it slowly at night, offering residents no nocturnal respite.",
           "translation": "这些人口稠密的社区饱受严重的城市热岛效应之苦：沥青路面与混凝土建筑在白天吸收并积聚辐射热量，并在夜间缓慢释放，使得居民在夜间根本得不到任何降温喘息的机会。",
-          "slashed_text": "These densely populated communities suffer from / severe heat island effects , / where asphalt and concrete trap radiation / during daylight hours / and release it slowly at night , / offering residents no nocturnal respite.",
-          "chunk_translation": "这些人口密度极高且拥挤狭窄的边缘化社区无时无刻不在饱受 / 极其恶劣且不断自我强化的城市热岛效应的双重折磨 / 密不透风的柏油沥青路面与密集裸露的钢筋水泥在白昼疯狂吞噬并积聚太阳辐射 / 并于太阳落山后的漫漫长夜间缓慢持续向四周蒸腾释放致命热气 / 使得身处其中的普通居民在夜晚根本无法获得一丝一毫清凉的休整喘息",
+          "slashed_text": "These densely populated communities suffer from severe heat island effects , / where asphalt and concrete trap radiation during daylight hours / and release it slowly at night , / offering residents no nocturnal respite.",
+          "chunk_translation": "这些人口稠密的社区饱受严重的热岛效应之苦， / 柏油路面和混凝土在白天吸收热辐射， / 并在夜间缓慢释放， / 让居民在夜间也得不到片刻清凉喘息。",
           "syntax": {
             "breakdown": [
               {
@@ -3377,8 +3377,8 @@
           "sentence_index": 3,
           "text": "Compounding this vulnerability is a chronic lack of adequate funding for basic urban amenities, leaving lower-income districts with neglected shade, treeless sidewalks, and uninsulated housing.",
           "translation": "更为雪上加霜的是，由于基础设施长期缺乏充足资金支持，低收入街区绿荫遮蔽严重不足，人行道光秃无树，住房也普遍缺乏隔热保温材料。",
-          "slashed_text": "Compounding this vulnerability / is a chronic lack of adequate funding / for basic urban amenities , / leaving lower-income districts / with neglected shade , treeless sidewalks , / and uninsulated housing.",
-          "chunk_translation": "而让这种生态脆弱性更加雪上加霜、陷入死结的关键推手 / 则是公共财政对底层最基础市政配套公共设施投入的长期慢性匮乏 / 直接导致广大低收入平民街区随处可见被漠视砍伐的残缺树荫 / 毫无绿植遮蔽滚烫焦渴的裸露人行便道 / 以及毫无隔热与防风保温材料加持的薄铁皮瓦顶房屋",
+          "slashed_text": "Compounding this vulnerability is a chronic lack of adequate funding / for basic urban amenities , / leaving lower-income districts with neglected shade , treeless sidewalks , and uninsulated housing.",
+          "chunk_translation": "加剧这种脆弱性的是基本城市公共设施 / 长期缺乏充足资金支持， / 导致低收入街区遮阳设施失修、人行道缺乏树木庇荫、房屋隔热不良。",
           "syntax": {
             "breakdown": [
               {
@@ -3411,7 +3411,7 @@
           "text": "Addressing this public health crisis requires policymakers to transition from reactive crisis management to proactive, localized infrastructure adaptation.",
           "translation": "应对这一公共卫生危机，要求决策者从被动应付的危机管理转向主动出击的本地化基础设施适应性改造。",
           "slashed_text": "Addressing this public health crisis / requires policymakers to transition / from reactive crisis management / to proactive , localized infrastructure adaptation.",
-          "chunk_translation": "若要从根本上化解这场日益演进的重大全民健康生存危机 / 就迫切要求各级公共政策的操盘手们果断实现战略思维大转向 / 彻底摒弃那种灾后疲于奔命的被动式危机应付模式 / 坚定转向具有前瞻预防性质的本地化基础设施韧性适应改造",
+          "chunk_translation": "应对这场公共卫生危机 / 要求政策制定者实现转型， / 即从被动的事后危机应对 / 转向主动的因地制宜基础设施改造。",
           "syntax": {
             "breakdown": [
               {
@@ -3438,8 +3438,8 @@
           "sentence_index": 1,
           "text": "Relying solely on hospital wards to treat the heat-stricken is a downstream palliative that ignores root environmental causes.",
           "translation": "仅仅依赖医院病房来抢救中暑群体，充其量只是一种无视根本环境诱因的下游权宜之计。",
-          "slashed_text": "Relying solely on hospital wards / to treat the heat-stricken / is a downstream palliative / that ignores root environmental causes.",
-          "chunk_translation": "仅仅孤立依靠各大综合医院临时腾挪病房来抢救重症中暑伤患 / 充其量不过是一种治标不治本、自欺欺人的下游止痛缓兵之计 / 并且从源头上完全无视了致病致命的深层人居生态环境诱因",
+          "slashed_text": "Relying solely on hospital wards to treat the heat-stricken / is a downstream palliative / that ignores root environmental causes.",
+          "chunk_translation": "单靠医院病房救治中暑患者 / 是一种下游治标手段， / 忽视了根本的环境诱因。",
           "syntax": {
             "breakdown": [
               {
@@ -3472,7 +3472,7 @@
           "text": "Instead, municipal authorities must customize heat alerts based on combined temperature-humidity indices that reflect localized physiological risk.",
           "translation": "相反，市政当局必须基于综合考虑温湿度的指标体系来量身定制高温警报，以便真实反映特定区域的生理健康风险。",
           "slashed_text": "Instead , municipal authorities must customize heat alerts / based on combined temperature-humidity indices / that reflect localized physiological risk.",
-          "chunk_translation": "与之相对立，现代城市市政当局必须彻底重构预警逻辑 / 必须全面引入高度融合气温与湿度的体感综合科学指数来定制预警系统 / 使之能敏锐映射出微观特定区域内公众身体所承受的实际生理过载风险",
+          "chunk_translation": "相反，市政当局必须根据综合温湿度指数 / 来量身定制高温预警， / 该指数能更真实反映局部的生理健康风险。",
           "syntax": {
             "breakdown": [
               {
@@ -3504,8 +3504,8 @@
           "sentence_index": 3,
           "text": "Simultaneously, cities must direct targeted funding toward retrofitting informal dwellings with reflective roofing, expanding urban tree canopies, and installing accessible shade structures throughout vulnerable neighborhoods.",
           "translation": "与此同时，各城市必须定向划拨专项资金，用于为简陋居所加装反射隔热屋顶、扩大城市林木树冠覆盖率，并在脆弱社区各处广泛增设易于触及的遮阴设施。",
-          "slashed_text": "Simultaneously , cities must direct targeted funding / toward retrofitting informal dwellings / with reflective roofing , / expanding urban tree canopies , / and installing accessible shade structures / throughout vulnerable neighborhoods.",
-          "chunk_translation": "与此同时，城市公共财政必须集中火力实施定向精准滴灌 / 大力资助对贫困老旧棚户区实施建筑外立面改造、铺设高反射隔热屋面材料 / 以前所未有的力度规模化扩建城市道路林荫树冠遮蔽网络 / 并于所有处于高热暴露风险的脆弱社区各个角落大规模增设便于公众歇脚的降温遮阳设施",
+          "slashed_text": "Simultaneously , cities must direct targeted funding / toward retrofitting informal dwellings with reflective roofing , / expanding urban tree canopies , / and installing accessible shade structures / throughout vulnerable neighborhoods.",
+          "chunk_translation": "与此同时，城市必须引导专项资金， / 用于为简陋住所改建反光屋顶、 / 扩大城市绿树树冠覆盖面、 / 并安装便利的遮阳设施 / 遍及脆弱街区。",
           "syntax": {
             "breakdown": [
               {
@@ -3537,8 +3537,8 @@
           "sentence_index": 0,
           "text": "Ultimately, extreme heat can no longer be dismissed as a temporary meteorological nuisance or an unavoidable act of nature.",
           "translation": "归根结底，极端高温再也不能被轻描淡写地视为一种暂时的气象麻烦，或是一种不可避免的天灾。",
-          "slashed_text": "Ultimately , / extreme heat can no longer be dismissed / as a temporary meteorological nuisance / or an unavoidable act of nature.",
-          "chunk_translation": "追本溯源、归根结底而言 / 肆虐各地的极端高热气候再也绝不能被狂妄轻蔑地贬低 / 视为无足轻重、转瞬即逝的短暂气象小骚扰 / 抑或被宿命论式地推脱为人类绝对无能为力的不可抗天灾",
+          "slashed_text": "Ultimately , extreme heat can no longer be dismissed / as a temporary meteorological nuisance / or an unavoidable act of nature.",
+          "chunk_translation": "归根结底，极端高温再也不能被轻描淡写地视为 / 一时烦人的气象琐事， / 或不可抗拒的自然天灾。",
           "syntax": {
             "breakdown": [
               {
@@ -3565,8 +3565,8 @@
           "sentence_index": 1,
           "text": "It represents a systemic climate threat that tests the resilience of urban governance and social equity.",
           "translation": "它代表着一场对城市治理韧性与社会公平发起全面大考的系统性气候威胁。",
-          "slashed_text": "It represents a systemic climate threat / that tests the resilience of urban governance / and social equity.",
-          "chunk_translation": "它实实在在地代表着一场正在常态化蔓延的深层系统性气候生存威胁 / 全方位严酷拷打着现代城市治理体系的抗压韧性以及最基本的社会公平底线",
+          "slashed_text": "It represents a systemic climate threat / that tests the resilience / of urban governance and social equity.",
+          "chunk_translation": "它代表着一种系统性的气候威胁， / 严峻考验着 / 城市治理的韧性与社会公平。",
           "syntax": {
             "breakdown": [
               {
@@ -3593,8 +3593,8 @@
           "sentence_index": 2,
           "text": "Only by spelling out forward-looking policies that integrate nuanced scientific thresholds with sustained capital investment in physical shading and architectural retrofits can cities hope to safeguard their most vulnerable citizens against an increasingly sweltering future.",
           "translation": "唯有通过明确制定具有前瞻性的政策，将细致入微的科学起报阈值与对物理遮阳设施及建筑改造的持续资本投入深度融合，各大城市才有希望在日益酷热逼人的未来岁月中，真正守护好其最脆弱的普通市民。",
-          "slashed_text": "Only by spelling out forward-looking policies / that integrate nuanced scientific thresholds / with sustained capital investment / in physical shading and architectural retrofits / can cities hope to safeguard their most vulnerable citizens / against an increasingly sweltering future.",
-          "chunk_translation": "唯有各级政府能够拿出真正登高望远的担当胸襟制定出具有前瞻性的宏观法案 / 将洞察微观环境差异的科学气象复合起报阈值机制 / 与持续不断注入实体防晒林荫以及底层老旧建筑节能隔热改造的真金白银相结合 / 现代城市群落才有可能怀抱哪怕一丝希望，去切实筑牢生命安全防线 / 在这个越来越窒息酷热的未来大考中保护好最无助的底层平民",
+          "slashed_text": "Only by spelling out forward-looking policies / that integrate nuanced scientific thresholds / with sustained capital investment in physical shading and architectural retrofits / can cities hope to safeguard their most vulnerable citizens / against an increasingly sweltering future.",
+          "chunk_translation": "唯有制定出具有前瞻性的政策， / 将科学严谨的复合指标阈值 / 与在遮阳设施及建筑改造方面的持续资金投入结合起来， / 城市才有希望保护好最脆弱的市民群落， / 抵御日益酷热难耐的未来。",
           "syntax": {
             "breakdown": [
               {
@@ -4118,8 +4118,8 @@
           "pid": 0,
           "text": "Every day, millions of pedestrians navigate the meticulously organised pavements of modern urban environments. Yet look closely at almost any public park, university campus, or suburban development, and another geography emerges in the footprints left by the community. Across manicured lawns and landscaped flowerbeds, dirt tracks reveal where walkers consistently deviate from formal concrete walkways to forge intuitive shortcuts. Known to urbanists and landscape architects as 'desire paths'—or 'desire lines'—these beaten earth trails are carved out by the collective tread of ordinary citizens seeking more efficient routes than those planned by municipal authorities.",
           "translation": "每天，数以百万计的行人在现代城市环境中规划严整的硬化人行道上穿行。然而，只要仔细审视几乎任何一座公园、大学校园或郊区社区，就会发现由公众留下的足迹勾勒出了另一种独特的地理图景。在修剪齐整的草坪与精心布置的花坛之间，一道道泥土小径清晰揭示出行人们如何屡屡偏离正规的水泥步道，去自行踏出符合直觉的捷径。城市规划学者与景观建筑师将这些被踩出的泥土小径称作‘欲望路径’（或‘愿望线’），它们是由普通市民的群体踩踏共同刻蚀而成的，目的正在于寻找比市政当局所规划的路线更为高效的通行轨迹。",
-          "slashed_text": "Every day , / millions of pedestrians navigate / the meticulously organised pavements / of modern urban environments. / Yet look closely at almost any public park , / university campus , / or suburban development , / and another geography emerges / in the footprints left by the community. / Across manicured lawns / and landscaped flowerbeds , / dirt tracks reveal / where walkers consistently deviate / from formal concrete walkways / to forge intuitive shortcuts. / Known to urbanists and landscape architects / as 'desire paths' — or 'desire lines' — / these beaten earth trails are carved out / by the collective tread of ordinary citizens / seeking more efficient routes / than those planned by municipal authorities.",
-          "chunk_translation": "在平淡无奇的每一天 / 数以百万计的匆匆行人日常穿行于 / 那些被规划得严丝合缝、工整有序的硬化人行铺道上 / 处于现代水泥森林般的城市空间之中 / 然而只要你静下心来仔细端详打量身边的任何一座市政公园 / 任何一所大学校园 / 抑或是任何一处新兴郊区住宅区 / 就会赫然发现另一幅截然不同的生动地理图景正悄然浮现 / 就深深刻印在社区公众日积月累留下的脚印足迹之中 / 穿行横跨过修剪得平平整整的人工草坪 / 以及被精心打理点缀的景观花坛 / 一条条质朴裸露的泥土小径无声地揭示着 / 步履匆匆的过客们究竟是在何处默契地一致偏离 / 由市政官方规规矩矩浇筑铺设的正规水泥走廊 / 转而去踩出一条条符合人类生理本能直觉的便道捷径 / 被广大学界城市规划专家与资深景观建筑师 / 形象生动地统称为‘欲望路径’——或者叫作‘愿望线’ / 这些被千百万人反复踩踏得坚实光滑的泥土便道 / 正是由千千万万普通平民百姓的集体脚步共同踏出来的 / 旨在主动探寻出一条比起市政官僚闭门造车所规划的路线 / 远为省时高效、顺应本能的日常通行最优解",
+          "slashed_text": "Every day , / millions of pedestrians navigate the meticulously organised pavements / of modern urban environments. / Yet look closely / at almost any public park , university campus , or suburban development , / and another geography emerges / in the footprints left by the community. / Across manicured lawns and landscaped flowerbeds , / dirt tracks reveal / where walkers consistently deviate from formal concrete walkways / to forge intuitive shortcuts. / Known to urbanists and landscape architects as 'desire paths' — or 'desire lines' — / these beaten earth trails are carved out by the collective tread of ordinary citizens / seeking more efficient routes / than those planned by municipal authorities.",
+          "chunk_translation": "每一天， / 数以百万计的行人穿行在规划严整的人行道上， / 在现代城市的空间环境之中。 / 然而仔细观察 / 几乎任何一处公园、大学校园或郊区开发区， / 就会发现另一种空间地理格局显现出来， / 烙印在公众留下的足迹之中。 / 穿过精心修剪的草坪和景观花坛， / 泥土小径清晰展现出 / 行人经常偏离规范水泥步道的地方， / 去踩出直觉上的捷径。 / 这些小径被城市规划学者和景观设计师称为“欲望路径”或“欲望线条”， / 这些被踏平的泥土小路是由普通市民的脚步共同踩出来的， / 他们试图寻找更高效的路线， / 相比于市政当局所规划的那些道路。",
           "vocabulary": [
             {
               "word": "navigate",
@@ -4193,8 +4193,8 @@
           "pid": 1,
           "text": "Historically, conventional urban planners routinely interpreted these informal tracks as acts of civil disobedience or unsightly signs of public laziness that cut corners across designed landscapes. Eager to preserve aesthetic order, authorities erected wire fences, planted thorny shrubbery, or posted punitive signs warning pedestrians to keep off the grass. Yet these coercive measures rarely succeed. Human movement possesses a natural capability to assert its own spatial logic; when a desire path bisects an expansive lawn, it does not signify deliberate defiance, but rather exposes a fundamental design flaw where designated routes fail to meet human needs for convenient transit. Far from being random vandalism, desire lines provide invaluable insights into the living dynamics of pedestrian behavior.",
           "translation": "在历史上，传统的城市规划者通常将这些非正规便道解读为公民不服从的违规行为，或是公众偷懒抄近道、破坏景观设计的难看不雅现象。为了维护既定的美学秩序，管理当局往往会架设铁丝栅栏、栽种带刺灌木，或是树立带有惩罚性质的警示牌，告诫行人‘请勿践踏草坪’。然而，这些强制手段却极少奏效。人类的行进流动天然具备一种宣告自身空间逻辑的本能；当一条欲望路径将一片开阔草坪一分为二时，它并不意味着公众在蓄意挑衅，而是暴露了一个深层的根本设计缺陷——即官方指定的路线未能满足人类对便捷通行的刚性需求。愿望线绝非随意的破坏公物之举，相反，它为洞察行人鲜活的行为动态提供了极其宝贵的第一手视角。",
-          "slashed_text": "Historically , / conventional urban planners routinely interpreted these informal tracks / as acts of civil disobedience / or unsightly signs of public laziness / that cut corners across designed landscapes. / Eager to preserve aesthetic order , / authorities erected wire fences , / planted thorny shrubbery , / or posted punitive signs / warning pedestrians to keep off the grass. / Yet these coercive measures rarely succeed. / Human movement possesses a natural capability / to assert its own spatial logic ; / when a desire path bisects an expansive lawn , / it does not signify deliberate defiance , / but rather exposes a fundamental design flaw / where designated routes fail to meet human needs / for convenient transit. / Far from being random vandalism , / desire lines provide invaluable insights / into the living dynamics of pedestrian behavior.",
-          "chunk_translation": "回顾城市发展的漫长历史 / 那些墨守成规的传统城市规划学者长期以来习惯性地将这类私自踩出的非正式小道 / 刻板定性为违背规章指令、缺乏公德的微型反抗违纪行为 / 抑或是公众为了图省事抄近道而不惜破坏既有景观设计的懒惰丑陋烙印 / 为了急不可耐地强行捍卫他们自以为是的几何图纸美学秩序 / 各地管理当局常常煞费苦心设立铁丝隔离围栏 / 故意栽种密密麻麻的带刺灌木丛进行阻挡 / 或是立起措辞严厉带有罚款恐吓性质的警告标语牌 / 居高临下地严令过往行人切勿踩踏绿化草坪 / 然而这些近乎暴力的强制性拦截打压手段却极少能真正奏效 / 人类双腿在空间中的自发迁徙移动天然蕴含着一种 / 极其顽强去彰显自身空间利用逻辑的内在生命力 / 当一条被踩出来的欲望路径从容地把一片开阔浩瀚的草坪从中一劈两半时 / 它在骨子里绝不代表行人是在故意寻衅挑衅公共规则 / 恰恰相反，它无情地戳破并曝光了一个最致命的根本性图纸设计硬伤 / 即官方原先主观指定的绕远路线早已彻底脱离并辜负了普通人 / 对省时便捷通勤出行的最基本人性需求 / 它绝非是什么毫无理性、任性妄为的随地乱踩破坏公物行为 / 恰恰相反，一条条纵横交错的愿望线为规划界洞悉鲜活多维的行人出行心理与动态轨迹 / 提供了任何书本图纸都无法替代的无价深刻洞见",
+          "slashed_text": "Historically , conventional urban planners routinely interpreted these informal tracks / as acts of civil disobedience / or unsightly signs of public laziness / that cut corners across designed landscapes. / Eager to preserve aesthetic order , / authorities erected wire fences , planted thorny shrubbery , / or posted punitive signs / warning pedestrians to keep off the grass. / Yet these coercive measures / rarely succeed. / Human movement possesses a natural capability to assert its own spatial logic ; / when a desire path bisects an expansive lawn , / it does not signify deliberate defiance , / but rather exposes a fundamental design flaw / where designated routes fail to meet human needs / for convenient transit. / Far from being random vandalism , / desire lines provide invaluable insights / into the living dynamics of pedestrian behavior.",
+          "chunk_translation": "在历史上，传统城市规划者通常将这些自发小道解读为 / 违规不遵纪守法的行为， / 或是公众偷懒图省事的难看痕迹， / 破坏了精心设计的景观布局。 / 为了极力维护景观秩序的美观， / 管理部门竖立起铁丝围栏、种上带刺灌木， / 或设立惩罚性的警示牌， / 警告行人请勿践踏草坪。 / 然而这些强迫手段 / 却极少能奏效。 / 人类的走动具有主张其自身空间逻辑的自然能力； / 当一条欲望小径横穿大片草坪时， / 它并不意味着故意对抗规矩， / 而是暴露了一个根本性的设计缺陷， / 即规定的路线未能满足人们 / 对便捷通行的需求。 / 它们绝非随意的蓄意破坏， / 欲望小道为我们提供了宝贵的洞见， / 帮助理解行人行为的真实动态规律。",
           "vocabulary": [
             {
               "word": "civil disobedience",
@@ -4267,8 +4267,8 @@
           "pid": 2,
           "text": "A celebrated counter-example to this top-down rigidity can be found at Ohio State University's historic central lawn, known as the Oval. When the campus was redesigned in the twentieth century, university administrators deliberately held off on laying paved walkways across the massive green space. Instead, they waited until students and faculty naturally traversed the open grounds, allowing their daily routines to carve clear desire paths into the turf. Only after these patterns had fully established themselves did planners proceed to pave over the dirt tracks with permanent cobblestones. By embracing organic human movement rather than fighting it, the university created a harmonious and deeply functional campus landscape.",
           "translation": "面对这种自上而下的僵化思维，一个广受赞誉的破局典范当属俄亥俄州立大学历史悠久的中央草坪——即著名的‘椭圆广场’（the Oval）。二十世纪该校区进行重新规划时，大学管理者特意推迟了在这片巨大绿地上铺设硬化人行道的计划。相反，他们耐心地等待师生员工在开阔的空地上自发往来穿行，任由大家的日常出行习惯在草皮上踩出清晰可辨的欲望路径。直到这些行走模式完全稳定成型之后，规划者才顺理成章地沿着这些泥土小径铺设了永久性的鹅卵石步道。通过主动拥抱、而非粗暴对抗人类的自发流动，该大学打造出了一个既和谐优美又极富实用功能的校园景观。",
-          "slashed_text": "A celebrated counter-example to this top-down rigidity / can be found at Ohio State University's historic central lawn , / known as the Oval. / When the campus was redesigned in the twentieth century , / university administrators deliberately held off on / laying paved walkways / across the massive green space. / Instead , they waited / until students and faculty naturally traversed the open grounds , / allowing their daily routines / to carve clear desire paths into the turf. / Only after these patterns had fully established themselves / did planners proceed to pave over the dirt tracks / with permanent cobblestones. / By embracing organic human movement / rather than fighting it , / the university created a harmonious / and deeply functional campus landscape.",
-          "chunk_translation": "而足以给这种自上而下、死板教条思维提供响亮反戈一击的著名成功范例 / 赫然坐落于俄亥俄州立大学那片承载着厚重历史的标志性中央大草坪上 / 亦即世人皆知的‘椭圆广场’ / 当该校于二十世纪着手全面重构规划整个核心校区格局之时 / 独具远见的大学管理层出人意料地特意按兵不动 / 坚决推迟在这片开阔辽阔的巨大绿地上草率修建硬化水泥路面 / 取而代之的是，规划决策者们充满耐心地静观其变 / 直到全校成千上万的青年学子与教职员工自然而然地踩着草坪穿行而过 / 宽容地任由全校师生在日复一日的真实行走路线中 / 在茂密的草皮上踩踏并刻印出一条条轨迹清晰无比的欲望路径 / 唯有等到这些在实践中沉淀出的自发路线完全扎根并定型成熟之后 / 校园规划师们才顺水推舟、顺应民意地正式启动施工 / 严丝合缝地沿着这些被踩出来的泥泞小径铺设上永久性的平整鹅卵石步道 / 通过毫无偏见地主动接纳与拥抱人类自发生长的有机流动轨迹 / 而不是愚蠢地与人性的本能去横加对抗 / 该校最终成功铸就了一处既保留自然和谐之美 / 又在微观细节上高度契合师生真实通行需求的校园人文景观绝响",
+          "slashed_text": "A celebrated counter-example to this top-down rigidity / can be found at Ohio State University's historic central lawn , / known as the Oval. / When the campus was redesigned in the twentieth century , / university administrators deliberately held off / on laying paved walkways across the massive green space. / Instead , they waited / until students and faculty naturally traversed the open grounds , / allowing their daily routines / to carve clear desire paths into the turf. / Only after these patterns had fully established themselves / did planners proceed to pave over the dirt tracks / with permanent cobblestones. / By embracing organic human movement / rather than fighting it , / the university created a harmonious / and deeply functional campus landscape.",
+          "chunk_translation": "一个打破这种自上而下僵化规划的著名成功范例， / 可以在俄亥俄州立大学历史悠久的中心草坪找到， / 即著名的“椭圆广场”。 / 当20世纪对该校区进行重新规划设计时， / 大学管理层特意推迟了 / 在这片巨大绿地上铺设硬化步道的决定。 / 相反，他们耐心等待， / 直到师生们自然穿行在这片开阔的草地上， / 任由他们的日常通行习惯 / 在草皮上踏出清晰的欲望路径。 / 只有在这些行走路线完全定型之后， / 规划人员才着手在泥土小径上 / 铺设永久性的鹅卵石步道。 / 通过接纳自发的人类活动规律， / 而不是与之对抗， / 该大学打造出了一处既和谐 / 又极具实用功能的校园景观。",
           "vocabulary": [
             {
               "word": "counter-example",
@@ -4338,7 +4338,7 @@
           "text": "Despite such proven successes, a persistent reluctance to integrate desire paths remains common throughout modern urban planning. Many landscape architects remain stubbornly devoted to formal geometric aesthetics, boasting symmetrical showcase plazas that photograph brilliantly in architectural journals but prove awkward and frustrating for pedestrians in real life. When planners rigidly adhere to preconceived blueprints and designate sterile corridors while ignoring natural human paths, an inherent clash between artistic vanity and organic utility is underscored.",
           "translation": "尽管这一成功范例早已得到实证检验，但在现代城市规划领域，将欲望路径主动融入设计的态度依然普遍遭遇顽固抵触。许多景观建筑师依然顽固地沉湎于死板的形式主义几何美学，热衷于炫耀那些具有对称视觉冲击力、能够在建筑期刊上拍出惊艳大片的样板广场，但在现实生活中，这些广场却被证明让行人感到别扭而沮丧。当规划师们刻板坚守预设的蓝图图纸，划定出毫无生气的人流走廊，却对人类自然的行走轨迹视而不见时，艺术虚荣与有机实用性之间的内在冲突便被极其鲜明地凸显了出来。",
           "slashed_text": "Despite such proven successes , / a persistent reluctance to integrate desire paths / remains common throughout modern urban planning. / Many landscape architects remain stubbornly devoted / to formal geometric aesthetics , / boasting symmetrical showcase plazas / that photograph brilliantly in architectural journals / but prove awkward and frustrating / for pedestrians in real life. / When planners rigidly adhere to preconceived blueprints / and designate sterile corridors / while ignoring natural human paths , / an inherent clash / between artistic vanity and organic utility / is underscored.",
-          "chunk_translation": "尽管这一历经时间检验的智慧范式早已用不可辩驳的事实自证了成功 / 然而一种对吸纳与融合欲望路径的深层抵触与傲慢抗拒 / 依然阴魂不散地广泛弥漫在当今整个现代城市规划设计圈层之中 / 大量名牌景观建筑师至今依然固执己见地死死抱残守缺 / 沉醉于冷冰冰的形式主义几何对称构图美学无法自拔 / 盲目向世人夸耀那些看似严整对仗、视觉震撼的样板工程地标广场 / 尽管这些宏大设计能够被极其完美地上镜拍摄进一本本光鲜亮丽的权威建筑学术画刊 / 却在每日必须亲身踏足其间的普通行人的现实真实生活里 / 被无情证实为体验极度别扭、令人火冒三丈的糟糕设计 / 当建筑设计师们僵化死板地全盘效忠于锁在象牙塔里的预设图纸蓝图 / 强硬地在城市空间中单向画定一条条毫无生机人气的冰冷通道 / 却对活生生的人类自发行走路线彻底视若无睹、傲慢无视之时 / 一场潜藏于设计师纯粹个人艺术虚荣心 / 与普通大众对空间有机实用需求之间的巨大内在尖锐冲突 / 便被极其赤裸而刺眼地彻底暴露在聚光灯下",
+          "chunk_translation": "尽管有这样被证明成功的先例， / 但吸纳整合欲望路径的犹豫抵触心理 / 在现代城市规划中依然十分普遍。 / 许多景观设计师依然固执地偏爱 / 形式主义的几何美学， / 夸耀那些对称的展示性广场， / 它们在建筑杂志的照片中显得美轮美奂， / 但在现实生活中却给行人 / 带来了尴尬别扭与困扰。 / 当规划者死板地坚持预先设想的图纸、 / 划定死板冰冷的通道， / 同时忽视自然的行人走动轨迹时， / 一种固有的冲突 / 即艺术虚荣与实用需求之间的矛盾 / 就被凸显出来。",
           "vocabulary": [
             {
               "word": "reluctance",
@@ -4412,8 +4412,8 @@
           "pid": 4,
           "text": "This clash is not new; indeed, urban history cites famous precedents where organic trails outlived rigid geometric grids. In New York City, Broadway famously began as the Wickquasgeck Trail, an organic Native American pathway that meandered naturally across Manhattan's topography. When the Commissioners' Plan of 1811 imposed an uncompromising rectangular street grid onto the island, Broadway proved too vital to erase, persistently slicing diagonally across Manhattan to this day. Ultimately, desire paths remind us that cities are not static monuments created for top-down admiration, but living ecosystems animated by the people who walk them. True urban design should not suppress human movement, but humbly follow in its footprints.",
           "translation": "这种冲突绝非什么新鲜事物；事实上，城市发展史曾多次引述著名的先例，证明自发生长出的有机古道往往比死板生硬的几何网格拥有更持久的生命力。在纽约市，著名的百老汇大道最初起源于‘威克夸斯格克小径’——这是一条美洲原住民顺应曼哈顿自然地形蜿蜒踏出的有机便道。当1811年纽约专员规划案强行将毫不妥协的矩形棋盘街区网格覆盖整座岛屿时，百老汇大道却因其无可替代的通行生命力而根本无法被抹去，时至今日依然坚定不移地斜切贯穿整个曼哈顿。归根结底，欲望路径提醒着我们：城市从来不是供上层权贵自上而下观赏膜拜的静止纪念碑，而是由每一个行走其中的普通人所赋予生机的活生生的生态系统。真正优秀的城市规划绝不应去压制人类的行进，而应当谦逊地追随行人的足迹。",
-          "slashed_text": "This clash is not new ; / indeed , urban history cites famous precedents / where organic trails outlived rigid geometric grids. / In New York City , / Broadway famously began as the Wickquasgeck Trail , / an organic Native American pathway / that meandered naturally across Manhattan's topography. / When the Commissioners' Plan of 1811 / imposed an uncompromising rectangular street grid / onto the island , / Broadway proved too vital to erase , / persistently slicing diagonally across Manhattan to this day. / Ultimately , desire paths remind us / that cities are not static monuments / created for top-down admiration , / but living ecosystems animated by the people / who walk them. / True urban design should not suppress human movement , / but humbly follow in its footprints.",
-          "chunk_translation": "这种理念上的交锋撕扯在漫长人类历史上绝非首次上演 / 恰恰相反，卷帙浩繁的城市建筑史册中屡屡郑重引述过诸多震撼人心的历史先例 / 证明那些完全顺应自然本能生长出的有机野径古道往往能以更顽强的生命力 / 彻底熬死并战胜那些自命不凡、死板僵化的几何网格规划 / 在当今世界名城纽约市的大街小巷中 / 闻名遐迩的百老汇大道最早赫然正是滥觞于一条古老的‘威克夸斯格克土著小道’ / 一条由美洲本土印第安原住民完全依循山川自然地貌蜿蜒踏出的天然有机通道 / 当十九世纪初那份著名的1811年《专员规划案》 / 带着不可一世的傲慢强行将一张冷酷无情、毫不妥协的矩形方格棋盘网状街道系统 / 粗暴而机械化地全盘扣在曼哈顿整座岛屿之上时 / 百老汇大道在纽约市民日常通勤血脉中的不可替代性却被现实证明早已根深蒂固、根本无法被图纸抹杀抹平 / 从而桀骜不驯地跨越两个多世纪、直至今天依然雷打不动地从西南向东北斜切劈开整个曼哈顿网格 / 追根溯源而言，那些在泥土草丛中若隐若现的欲望路径犹如一记警钟，时时刻刻在向我们昭示 / 现代城市从来就绝不是为了供长官意志在沙盘图纸前高高在上俯瞰膜拜而铸造的冰冷静止纪念碑 / 而是由无数个每日用双脚真实丈量大地的普通市民群众共同注入灵性与呼吸的活生生生态有机体 / 真正经得起历史检验的伟大城市规划之道，绝不该狂妄自大地去试图围追堵截人类的步伐 / 而恰恰应当脱下长衫、洗尽铅华，无比谦卑地紧紧追随在千千万万普通行人的足迹身后",
+          "slashed_text": "This clash is not new ; / indeed , urban history cites famous precedents / where organic trails outlived rigid geometric grids. / In New York City , / Broadway famously began as the Wickquasgeck Trail , / an organic Native American pathway / that meandered naturally across Manhattan's topography. / When the Commissioners' Plan of 1811 / imposed an uncompromising rectangular street grid / onto the island , / Broadway proved too vital to erase , / persistently slicing diagonally across Manhattan to this day. / Ultimately , / desire paths remind us / that cities are not static monuments / created for top-down admiration , / but living ecosystems animated by the people / who walk them. / True urban design / should not suppress human movement , / but humbly follow in its footprints.",
+          "chunk_translation": "这种冲突并不新鲜； / 事实上，城市史中记载了著名的先例， / 其中自发形成的小道存续时间超越了僵化的几何网格街道。 / 在纽约市， / 闻名遐迩的百老汇大道最初正是“威克夸斯格克小道”， / 一条自然形成的美洲原住民步道， / 顺应着曼哈顿的地形自然蜿蜒穿行。 / 当1811年的《专员规划案》 / 将毫不妥协的矩形方格街道网络 / 强加于曼哈顿岛之上时， / 百老汇大道被证明过于重要而无法被抹除， / 至今依然斜切穿过整个曼哈顿。 / 归根结底， / 欲望小径提醒我们， / 城市绝非静止的纪念碑， / 为了自上而下的观赏赞叹而建造， / 而是充满生机的生态系统，由在其中穿行的人们 / 赋予活力。 / 真正的城市设计 / 不应当压制人类的活动步调， / 而应谦逊地追随人们的足迹。",
           "vocabulary": [
             {
               "word": "cite",
@@ -4480,8 +4480,8 @@
           "sentence_index": 0,
           "text": "Every day, millions of pedestrians navigate the meticulously organised pavements of modern urban environments.",
           "translation": "每天，数以百万计的行人在现代城市环境中规划严整的硬化人行道上穿行。",
-          "slashed_text": "Every day , / millions of pedestrians navigate / the meticulously organised pavements / of modern urban environments.",
-          "chunk_translation": "在平淡无奇的每一天 / 数以百万计的匆匆行人日常穿行于 / 那些被规划得严丝合缝、工整有序的硬化人行铺道上 / 处于现代水泥森林般的城市空间之中",
+          "slashed_text": "Every day , / millions of pedestrians navigate the meticulously organised pavements / of modern urban environments.",
+          "chunk_translation": "每一天， / 数以百万计的行人穿行在规划严整的人行道上， / 在现代城市的空间环境之中。",
           "syntax": {
             "breakdown": [
               {
@@ -4508,8 +4508,8 @@
           "sentence_index": 1,
           "text": "Yet look closely at almost any public park, university campus, or suburban development, and another geography emerges in the footprints left by the community.",
           "translation": "然而，只要仔细审视几乎任何一座公园、大学校园或郊区社区，就会发现由公众留下的足迹勾勒出了另一种独特的地理图景。",
-          "slashed_text": "Yet look closely at almost any public park , / university campus , / or suburban development , / and another geography emerges / in the footprints left by the community.",
-          "chunk_translation": "然而只要你静下心来仔细端详打量身边的任何一座市政公园 / 任何一所大学校园 / 抑或是任何一处新兴郊区住宅区 / 就会赫然发现另一幅截然不同的生动地理图景正悄然浮现 / 就深深刻印在社区公众日积月累留下的脚印足迹之中",
+          "slashed_text": "Yet look closely / at almost any public park , university campus , or suburban development , / and another geography emerges / in the footprints left by the community.",
+          "chunk_translation": "然而仔细观察 / 几乎任何一处公园、大学校园或郊区开发区， / 就会发现另一种空间地理格局显现出来， / 烙印在公众留下的足迹之中。",
           "syntax": {
             "breakdown": [
               {
@@ -4541,8 +4541,8 @@
           "sentence_index": 2,
           "text": "Across manicured lawns and landscaped flowerbeds, dirt tracks reveal where walkers consistently deviate from formal concrete walkways to forge intuitive shortcuts.",
           "translation": "在修剪齐整的草坪与精心布置的花坛之间，一道道泥土小径清晰揭示出行人们如何屡屡偏离正规的水泥步道，去自行踏出符合直觉的捷径。",
-          "slashed_text": "Across manicured lawns / and landscaped flowerbeds , / dirt tracks reveal / where walkers consistently deviate / from formal concrete walkways / to forge intuitive shortcuts.",
-          "chunk_translation": "穿行横跨过修剪得平平整整的人工草坪 / 以及被精心打理点缀的景观花坛 / 一条条质朴裸露的泥土小径无声地揭示着 / 步履匆匆的过客们究竟是在何处默契地一致偏离 / 由市政官方规规矩矩浇筑铺设的正规水泥走廊 / 转而去踩出一条条符合人类生理本能直觉的便道捷径",
+          "slashed_text": "Across manicured lawns and landscaped flowerbeds , / dirt tracks reveal / where walkers consistently deviate from formal concrete walkways / to forge intuitive shortcuts.",
+          "chunk_translation": "穿过精心修剪的草坪和景观花坛， / 泥土小径清晰展现出 / 行人经常偏离规范水泥步道的地方， / 去踩出直觉上的捷径。",
           "syntax": {
             "breakdown": [
               {
@@ -4574,8 +4574,8 @@
           "sentence_index": 3,
           "text": "Known to urbanists and landscape architects as 'desire paths'—or 'desire lines'—these beaten earth trails are carved out by the collective tread of ordinary citizens seeking more efficient routes than those planned by municipal authorities.",
           "translation": "城市规划学者与景观建筑师将这些被踩出的泥土小径称作‘欲望路径’（或‘愿望线’），它们是由普通市民的群体踩踏共同刻蚀而成的，目的正在于寻找比市政当局所规划的路线更为高效的通行轨迹。",
-          "slashed_text": "Known to urbanists and landscape architects / as 'desire paths' — or 'desire lines' — / these beaten earth trails are carved out / by the collective tread of ordinary citizens / seeking more efficient routes / than those planned by municipal authorities.",
-          "chunk_translation": "被广大学界城市规划专家与资深景观建筑师 / 形象生动地统称为‘欲望路径’——或者叫作‘愿望线’ / 这些被千百万人反复踩踏得坚实光滑的泥土便道 / 正是由千千万万普通平民百姓的集体脚步共同踏出来的 / 旨在主动探寻出一条比起市政官僚闭门造车所规划的路线 / 远为省时高效、顺应本能的日常通行最优解",
+          "slashed_text": "Known to urbanists and landscape architects as 'desire paths' — or 'desire lines' — / these beaten earth trails are carved out by the collective tread of ordinary citizens / seeking more efficient routes / than those planned by municipal authorities.",
+          "chunk_translation": "这些小径被城市规划学者和景观设计师称为“欲望路径”或“欲望线条”， / 这些被踏平的泥土小路是由普通市民的脚步共同踩出来的， / 他们试图寻找更高效的路线， / 相比于市政当局所规划的那些道路。",
           "syntax": {
             "breakdown": [
               {
@@ -4607,8 +4607,8 @@
           "sentence_index": 0,
           "text": "Historically, conventional urban planners routinely interpreted these informal tracks as acts of civil disobedience or unsightly signs of public laziness that cut corners across designed landscapes.",
           "translation": "在历史上，传统的城市规划者通常将这些非正规便道解读为公民不服从的违规行为，或是公众偷懒抄近道、破坏景观设计的难看不雅现象。",
-          "slashed_text": "Historically , / conventional urban planners routinely interpreted these informal tracks / as acts of civil disobedience / or unsightly signs of public laziness / that cut corners across designed landscapes.",
-          "chunk_translation": "回顾城市发展的漫长历史 / 那些墨守成规的传统城市规划学者长期以来习惯性地将这类私自踩出的非正式小道 / 刻板定性为违背规章指令、缺乏公德的微型反抗违纪行为 / 抑或是公众为了图省事抄近道而不惜破坏既有景观设计的懒惰丑陋烙印",
+          "slashed_text": "Historically , conventional urban planners routinely interpreted these informal tracks / as acts of civil disobedience / or unsightly signs of public laziness / that cut corners across designed landscapes.",
+          "chunk_translation": "在历史上，传统城市规划者通常将这些自发小道解读为 / 违规不遵纪守法的行为， / 或是公众偷懒图省事的难看痕迹， / 破坏了精心设计的景观布局。",
           "syntax": {
             "breakdown": [
               {
@@ -4635,8 +4635,8 @@
           "sentence_index": 1,
           "text": "Eager to preserve aesthetic order, authorities erected wire fences, planted thorny shrubbery, or posted punitive signs warning pedestrians to keep off the grass.",
           "translation": "为了维护既定的美学秩序，管理当局往往会架设铁丝栅栏、栽种带刺灌木，或是树立带有惩罚性质的警示牌，告诫行人‘请勿践踏草坪’。",
-          "slashed_text": "Eager to preserve aesthetic order , / authorities erected wire fences , / planted thorny shrubbery , / or posted punitive signs / warning pedestrians to keep off the grass.",
-          "chunk_translation": "为了急不可耐地强行捍卫他们自以为是的几何图纸美学秩序 / 各地管理当局常常煞费苦心设立铁丝隔离围栏 / 故意栽种密密麻麻的带刺灌木丛进行阻挡 / 或是立起措辞严厉带有罚款恐吓性质的警告标语牌 / 居高临下地严令过往行人切勿踩踏绿化草坪",
+          "slashed_text": "Eager to preserve aesthetic order , / authorities erected wire fences , planted thorny shrubbery , / or posted punitive signs / warning pedestrians to keep off the grass.",
+          "chunk_translation": "为了极力维护景观秩序的美观， / 管理部门竖立起铁丝围栏、种上带刺灌木， / 或设立惩罚性的警示牌， / 警告行人请勿践踏草坪。",
           "syntax": {
             "breakdown": [
               {
@@ -4668,8 +4668,8 @@
           "sentence_index": 2,
           "text": "Yet these coercive measures rarely succeed.",
           "translation": "然而，这些强制手段却极少奏效。",
-          "slashed_text": "Yet these coercive measures rarely succeed.",
-          "chunk_translation": "然而这些近乎暴力的强制性拦截打压手段却极少能真正奏效。",
+          "slashed_text": "Yet these coercive measures / rarely succeed.",
+          "chunk_translation": "然而这些强迫手段 / 却极少能奏效。",
           "syntax": {
             "breakdown": [
               {
@@ -4696,8 +4696,8 @@
           "sentence_index": 3,
           "text": "Human movement possesses a natural capability to assert its own spatial logic; when a desire path bisects an expansive lawn, it does not signify deliberate defiance, but rather exposes a fundamental design flaw where designated routes fail to meet human needs for convenient transit.",
           "translation": "人类的行进流动天然具备一种宣告自身空间逻辑的本能；当一条欲望路径将一片开阔草坪一分为二时，它并不意味着公众在蓄意挑衅，而是暴露了一个深层的根本设计缺陷——即官方指定的路线未能满足人类对便捷通行的刚性需求。",
-          "slashed_text": "Human movement possesses a natural capability / to assert its own spatial logic ; / when a desire path bisects an expansive lawn , / it does not signify deliberate defiance , / but rather exposes a fundamental design flaw / where designated routes fail to meet human needs / for convenient transit.",
-          "chunk_translation": "人类双腿在空间中的自发迁徙移动天然蕴含着一种 / 极其顽强去彰显自身空间利用逻辑的内在生命力 / 当一条被踩出来的欲望路径从容地把一片开阔浩瀚的草坪从中一劈两半时 / 它在骨子里绝不代表行人是在故意寻衅挑衅公共规则 / 恰恰相反，它无情地戳破并曝光了一个最致命的根本性图纸设计硬伤 / 即官方原先主观指定的绕远路线早已彻底脱离并辜负了普通人 / 对省时便捷通勤出行的最基本人性需求",
+          "slashed_text": "Human movement possesses a natural capability to assert its own spatial logic ; / when a desire path bisects an expansive lawn , / it does not signify deliberate defiance , / but rather exposes a fundamental design flaw / where designated routes fail to meet human needs / for convenient transit.",
+          "chunk_translation": "人类的走动具有主张其自身空间逻辑的自然能力； / 当一条欲望小径横穿大片草坪时， / 它并不意味着故意对抗规矩， / 而是暴露了一个根本性的设计缺陷， / 即规定的路线未能满足人们 / 对便捷通行的需求。",
           "syntax": {
             "breakdown": [
               {
@@ -4725,7 +4725,7 @@
           "text": "Far from being random vandalism, desire lines provide invaluable insights into the living dynamics of pedestrian behavior.",
           "translation": "愿望线绝非随意的破坏公物之举，相反，它为洞察行人鲜活的行为动态提供了极其宝贵的第一手视角。",
           "slashed_text": "Far from being random vandalism , / desire lines provide invaluable insights / into the living dynamics of pedestrian behavior.",
-          "chunk_translation": "它绝非是什么毫无理性、任性妄为的随地乱踩破坏公物行为 / 恰恰相反，一条条纵横交错的愿望线为规划界洞悉鲜活多维的行人出行心理与动态轨迹 / 提供了任何书本图纸都无法替代的无价深刻洞见",
+          "chunk_translation": "它们绝非随意的蓄意破坏， / 欲望小道为我们提供了宝贵的洞见， / 帮助理解行人行为的真实动态规律。",
           "syntax": {
             "breakdown": [
               {
@@ -4758,7 +4758,7 @@
           "text": "A celebrated counter-example to this top-down rigidity can be found at Ohio State University's historic central lawn, known as the Oval.",
           "translation": "面对这种自上而下的僵化思维，一个广受赞誉的破局典范当属俄亥俄州立大学历史悠久的中央草坪——即著名的‘椭圆广场’（the Oval）。",
           "slashed_text": "A celebrated counter-example to this top-down rigidity / can be found at Ohio State University's historic central lawn , / known as the Oval.",
-          "chunk_translation": "而足以给这种自上而下、死板教条思维提供响亮反戈一击的著名成功范例 / 赫然坐落于俄亥俄州立大学那片承载着厚重历史的标志性中央大草坪上 / 亦即世人皆知的‘椭圆广场’",
+          "chunk_translation": "一个打破这种自上而下僵化规划的著名成功范例， / 可以在俄亥俄州立大学历史悠久的中心草坪找到， / 即著名的“椭圆广场”。",
           "syntax": {
             "breakdown": [
               {
@@ -4790,8 +4790,8 @@
           "sentence_index": 1,
           "text": "When the campus was redesigned in the twentieth century, university administrators deliberately held off on laying paved walkways across the massive green space.",
           "translation": "二十世纪该校区进行重新规划时，大学管理者特意推迟了在这片巨大绿地上铺设硬化人行道的计划。",
-          "slashed_text": "When the campus was redesigned in the twentieth century , / university administrators deliberately held off on / laying paved walkways / across the massive green space.",
-          "chunk_translation": "当该校于二十世纪着手全面重构规划整个核心校区格局之时 / 独具远见的大学管理层出人意料地特意按兵不动 / 坚决推迟在这片开阔辽阔的巨大绿地上草率修建硬化水泥路面",
+          "slashed_text": "When the campus was redesigned in the twentieth century , / university administrators deliberately held off / on laying paved walkways across the massive green space.",
+          "chunk_translation": "当20世纪对该校区进行重新规划设计时， / 大学管理层特意推迟了 / 在这片巨大绿地上铺设硬化步道的决定。",
           "syntax": {
             "breakdown": [
               {
@@ -4824,7 +4824,7 @@
           "text": "Instead, they waited until students and faculty naturally traversed the open grounds, allowing their daily routines to carve clear desire paths into the turf.",
           "translation": "相反，他们耐心地等待师生员工在开阔的空地上自发往来穿行，任由大家的日常出行习惯在草皮上踩出清晰可辨的欲望路径。",
           "slashed_text": "Instead , they waited / until students and faculty naturally traversed the open grounds , / allowing their daily routines / to carve clear desire paths into the turf.",
-          "chunk_translation": "取而代之的是，规划决策者们充满耐心地静观其变 / 直到全校成千上万的青年学子与教职员工自然而然地踩着草坪穿行而过 / 宽容地任由全校师生在日复一日的真实行走路线中 / 在茂密的草皮上踩踏并刻印出一条条轨迹清晰无比的欲望路径",
+          "chunk_translation": "相反，他们耐心等待， / 直到师生们自然穿行在这片开阔的草地上， / 任由他们的日常通行习惯 / 在草皮上踏出清晰的欲望路径。",
           "syntax": {
             "breakdown": [
               {
@@ -4857,7 +4857,7 @@
           "text": "Only after these patterns had fully established themselves did planners proceed to pave over the dirt tracks with permanent cobblestones.",
           "translation": "直到这些行走模式完全稳定成型之后，规划者才顺理成章地沿着这些泥土小径铺设了永久性的鹅卵石步道。",
           "slashed_text": "Only after these patterns had fully established themselves / did planners proceed to pave over the dirt tracks / with permanent cobblestones.",
-          "chunk_translation": "唯有等到这些在实践中沉淀出的自发路线完全扎根并定型成熟之后 / 校园规划师们才顺水推舟、顺应民意地正式启动施工 / 严丝合缝地沿着这些被踩出来的泥泞小径铺设上永久性的平整鹅卵石步道",
+          "chunk_translation": "只有在这些行走路线完全定型之后， / 规划人员才着手在泥土小径上 / 铺设永久性的鹅卵石步道。",
           "syntax": {
             "breakdown": [
               {
@@ -4890,7 +4890,7 @@
           "text": "By embracing organic human movement rather than fighting it, the university created a harmonious and deeply functional campus landscape.",
           "translation": "通过主动拥抱、而非粗暴对抗人类的自发流动，该大学打造出了一个既和谐优美又极富实用功能的校园景观。",
           "slashed_text": "By embracing organic human movement / rather than fighting it , / the university created a harmonious / and deeply functional campus landscape.",
-          "chunk_translation": "通过毫无偏见地主动接纳与拥抱人类自发生长的有机流动轨迹 / 而不是愚蠢地与人性的本能去横加对抗 / 该校最终成功铸就了一处既保留自然和谐之美 / 又在微观细节上高度契合师生真实通行需求的校园人文景观绝响",
+          "chunk_translation": "通过接纳自发的人类活动规律， / 而不是与之对抗， / 该大学打造出了一处既和谐 / 又极具实用功能的校园景观。",
           "syntax": {
             "breakdown": [
               {
@@ -4918,7 +4918,7 @@
           "text": "Despite such proven successes, a persistent reluctance to integrate desire paths remains common throughout modern urban planning.",
           "translation": "尽管这一成功范例早已得到实证检验，但在现代城市规划领域，将欲望路径主动融入设计的态度依然普遍遭遇顽固抵触。",
           "slashed_text": "Despite such proven successes , / a persistent reluctance to integrate desire paths / remains common throughout modern urban planning.",
-          "chunk_translation": "尽管这一历经时间检验的智慧范式早已用不可辩驳的事实自证了成功 / 然而一种对吸纳与融合欲望路径的深层抵触与傲慢抗拒 / 依然阴魂不散地广泛弥漫在当今整个现代城市规划设计圈层之中",
+          "chunk_translation": "尽管有这样被证明成功的先例， / 但吸纳整合欲望路径的犹豫抵触心理 / 在现代城市规划中依然十分普遍。",
           "syntax": {
             "breakdown": [
               {
@@ -4951,7 +4951,7 @@
           "text": "Many landscape architects remain stubbornly devoted to formal geometric aesthetics, boasting symmetrical showcase plazas that photograph brilliantly in architectural journals but prove awkward and frustrating for pedestrians in real life.",
           "translation": "许多景观建筑师依然顽固地沉湎于死板的形式主义几何美学，热衷于炫耀那些具有对称视觉冲击力、能够在建筑期刊上拍出惊艳大片的样板广场，但在现实生活中，这些广场却被证明让行人感到别扭而沮丧。",
           "slashed_text": "Many landscape architects remain stubbornly devoted / to formal geometric aesthetics , / boasting symmetrical showcase plazas / that photograph brilliantly in architectural journals / but prove awkward and frustrating / for pedestrians in real life.",
-          "chunk_translation": "大量名牌景观建筑师至今依然固执己见地死死抱残守缺 / 沉醉于冷冰冰的形式主义几何对称构图美学无法自拔 / 盲目向世人夸耀那些看似严整对仗、视觉震撼的样板工程地标广场 / 尽管这些宏大设计能够被极其完美地上镜拍摄进一本本光鲜亮丽的权威建筑学术画刊 / 却在每日必须亲身踏足其间的普通行人的现实真实生活里 / 被无情证实为体验极度别扭、令人火冒三丈的糟糕设计",
+          "chunk_translation": "许多景观设计师依然固执地偏爱 / 形式主义的几何美学， / 夸耀那些对称的展示性广场， / 它们在建筑杂志的照片中显得美轮美奂， / 但在现实生活中却给行人 / 带来了尴尬别扭与困扰。",
           "syntax": {
             "breakdown": [
               {
@@ -4984,7 +4984,7 @@
           "text": "When planners rigidly adhere to preconceived blueprints and designate sterile corridors while ignoring natural human paths, an inherent clash between artistic vanity and organic utility is underscored.",
           "translation": "当规划师们刻板坚守预设的蓝图图纸，划定出毫无生气的人流走廊，却对人类自然的行走轨迹视而不见时，艺术虚荣与有机实用性之间的内在冲突便被极其鲜明地凸显了出来。",
           "slashed_text": "When planners rigidly adhere to preconceived blueprints / and designate sterile corridors / while ignoring natural human paths , / an inherent clash / between artistic vanity and organic utility / is underscored.",
-          "chunk_translation": "当建筑设计师们僵化死板地全盘效忠于锁在象牙塔里的预设图纸蓝图 / 强硬地在城市空间中单向画定一条条毫无生机人气的冰冷通道 / 却对活生生的人类自发行走路线彻底视若无睹、傲慢无视之时 / 一场潜藏于设计师纯粹个人艺术虚荣心 / 与普通大众对空间有机实用需求之间的巨大内在尖锐冲突 / 便被极其赤裸而刺眼地彻底暴露在聚光灯下",
+          "chunk_translation": "当规划者死板地坚持预先设想的图纸、 / 划定死板冰冷的通道， / 同时忽视自然的行人走动轨迹时， / 一种固有的冲突 / 即艺术虚荣与实用需求之间的矛盾 / 就被凸显出来。",
           "syntax": {
             "breakdown": [
               {
@@ -5017,7 +5017,7 @@
           "text": "This clash is not new; indeed, urban history cites famous precedents where organic trails outlived rigid geometric grids.",
           "translation": "这种冲突绝非什么新鲜事物；事实上，城市发展史曾多次引述著名的先例，证明自发生长出的有机古道往往比死板生硬的几何网格拥有更持久的生命力。",
           "slashed_text": "This clash is not new ; / indeed , urban history cites famous precedents / where organic trails outlived rigid geometric grids.",
-          "chunk_translation": "这种理念上的交锋撕扯在漫长人类历史上绝非首次上演 / 恰恰相反，卷帙浩繁的城市建筑史册中屡屡郑重引述过诸多震撼人心的历史先例 / 证明那些完全顺应自然本能生长出的有机野径古道往往能以更顽强的生命力 / 彻底熬死并战胜那些自命不凡、死板僵化的几何网格规划",
+          "chunk_translation": "这种冲突并不新鲜； / 事实上，城市史中记载了著名的先例， / 其中自发形成的小道存续时间超越了僵化的几何网格街道。",
           "syntax": {
             "breakdown": [
               {
@@ -5045,7 +5045,7 @@
           "text": "In New York City, Broadway famously began as the Wickquasgeck Trail, an organic Native American pathway that meandered naturally across Manhattan's topography.",
           "translation": "在纽约市，著名的百老汇大道最初起源于‘威克夸斯格克小径’——这是一条美洲原住民顺应曼哈顿自然地形蜿蜒踏出的有机便道。",
           "slashed_text": "In New York City , / Broadway famously began as the Wickquasgeck Trail , / an organic Native American pathway / that meandered naturally across Manhattan's topography.",
-          "chunk_translation": "在当今世界名城纽约市的大街小巷中 / 闻名遐迩的百老汇大道最早赫然正是滥觞于一条古老的‘威克夸斯格克土著小道’ / 一条由美洲本土印第安原住民完全依循山川自然地貌蜿蜒踏出的天然有机通道",
+          "chunk_translation": "在纽约市， / 闻名遐迩的百老汇大道最初正是“威克夸斯格克小道”， / 一条自然形成的美洲原住民步道， / 顺应着曼哈顿的地形自然蜿蜒穿行。",
           "syntax": {
             "breakdown": [
               {
@@ -5078,7 +5078,7 @@
           "text": "When the Commissioners' Plan of 1811 imposed an uncompromising rectangular street grid onto the island, Broadway proved too vital to erase, persistently slicing diagonally across Manhattan to this day.",
           "translation": "当1811年纽约专员规划案强行将毫不妥协的矩形棋盘街区网格覆盖整座岛屿时，百老汇大道却因其无可替代的通行生命力而根本无法被抹去，时至今日依然坚定不移地斜切贯穿整个曼哈顿。",
           "slashed_text": "When the Commissioners' Plan of 1811 / imposed an uncompromising rectangular street grid / onto the island , / Broadway proved too vital to erase , / persistently slicing diagonally across Manhattan to this day.",
-          "chunk_translation": "当十九世纪初那份著名的1811年《专员规划案》 / 带着不可一世的傲慢强行将一张冷酷无情、毫不妥协的矩形方格棋盘网状街道系统 / 粗暴而机械化地全盘扣在曼哈顿整座岛屿之上时 / 百老汇大道在纽约市民日常通勤血脉中的不可替代性却被现实证明早已根深蒂固、根本无法被图纸抹杀抹平 / 从而桀骜不驯地跨越两个多世纪、直至今天依然雷打不动地从西南向东北斜切劈开整个曼哈顿网格",
+          "chunk_translation": "当1811年的《专员规划案》 / 将毫不妥协的矩形方格街道网络 / 强加于曼哈顿岛之上时， / 百老汇大道被证明过于重要而无法被抹除， / 至今依然斜切穿过整个曼哈顿。",
           "syntax": {
             "breakdown": [
               {
@@ -5111,7 +5111,7 @@
           "text": "Ultimately, desire paths remind us that cities are not static monuments created for top-down admiration, but living ecosystems animated by the people who walk them.",
           "translation": "归根结底，欲望路径提醒着我们：城市从来不是供上层权贵自上而下观赏膜拜的静止纪念碑，而是由每一个行走其中的普通人所赋予生机的活生生的生态系统。",
           "slashed_text": "Ultimately , / desire paths remind us / that cities are not static monuments / created for top-down admiration , / but living ecosystems animated by the people / who walk them.",
-          "chunk_translation": "追根溯源而言，那些在泥土草丛中若隐若现的欲望路径犹如一记警钟，时时刻刻在向我们昭示 / 现代城市从来就绝不是为了供长官意志在沙盘图纸前高高在上俯瞰膜拜而铸造的冰冷静止纪念碑 / 而是由无数个每日用双脚真实丈量大地的普通市民群众共同注入灵性与呼吸的活生生生态有机体",
+          "chunk_translation": "归根结底， / 欲望小径提醒我们， / 城市绝非静止的纪念碑， / 为了自上而下的观赏赞叹而建造， / 而是充满生机的生态系统，由在其中穿行的人们 / 赋予活力。",
           "syntax": {
             "breakdown": [
               {
@@ -5144,7 +5144,7 @@
           "text": "True urban design should not suppress human movement, but humbly follow in its footprints.",
           "translation": "真正优秀的城市规划绝不应去压制人类的行进，而应当谦逊地追随行人的足迹。",
           "slashed_text": "True urban design / should not suppress human movement , / but humbly follow in its footprints.",
-          "chunk_translation": "真正经得起历史检验的伟大城市规划之道，绝不该狂妄自大地去试图围追堵截人类的步伐 / 而恰恰应当脱下长衫、洗尽铅华，无比谦卑地紧紧追随在千千万万普通行人的足迹身后",
+          "chunk_translation": "真正的城市设计 / 不应当压制人类的活动步调， / 而应谦逊地追随人们的足迹。",
           "syntax": {
             "breakdown": [
               {

@@ -5001,7 +5001,7 @@
           "text": "In effect, the U.S. can import food or it can import the workers who pick it.",
           "translation": "实际上，美国要么可以进口粮食，要么可以引进采摘粮食的劳工。",
           "slashed_text": "In effect , / the U.S. can import food / or it can import the workers / who pick it.",
-          "chunk_translation": "实际上 / 美国可以进口粮食 / 或者它可以引进工人 / 采摘粮食的劳动力。",
+          "chunk_translation": "实际上， / 美国既可以进口农产品粮食， / 也可以引进劳工 / 来采摘这些粮食。",
           "vocabulary": [
             {
               "word": "in effect",
@@ -5762,7 +5762,7 @@
           "text": "In effect, the U.S. can import food or it can import the workers who pick it.",
           "translation": "实际上，美国要么可以进口粮食，要么可以引进采摘粮食的劳工。",
           "slashed_text": "In effect , / the U.S. can import food / or it can import the workers / who pick it.",
-          "chunk_translation": "实际上 / 美国可以进口粮食 / 或者它可以引进工人 / 采摘粮食的劳动力。",
+          "chunk_translation": "实际上， / 美国既可以进口农产品粮食， / 也可以引进劳工 / 来采摘这些粮食。",
           "syntax": {
             "breakdown": [
               {
@@ -6551,7 +6551,7 @@
           "text": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics. But the overarching message is directed at individuals.",
           "translation": "世界环境日的关键信息确实包括呼吁各国政府颁布立法来限制一次性塑料制品。但最重要的信息是针对个人的。",
           "slashed_text": "The key messages / that have been put together / for World Environment Day do include a call / for governments to enact legislation to curb single-use plastics. / But the overarching message is directed / at individuals.",
-          "chunk_translation": "为世界环境日所汇编的 / 核心宣传信息 / 确实包含呼吁 / 各国政府出台法律以遏制一次性塑料的使用。 / 但最主要的宣传导向依然 / 针对个人。",
+          "chunk_translation": "汇集整理起来的 / 核心宣传信息 / 为世界环境日确实包含一项呼吁： / 要求各国政府立法以遏制一次性塑料制品。 / 但最主要的宣传导向依然 / 针对个人。",
           "vocabulary": [
             {
               "word": "single-use",
@@ -6625,7 +6625,7 @@
           "text": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved. On their own, taking our own bags to the grocery store or quitting plastic straws, for example, will accomplish little and require very little of us. They could even be harmful, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions—a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge.",
           "translation": "然而，我担心将其留给个人，因为我们对需要实现的目标的认识有限。例如，仅凭自己的袋子去杂货店或戒掉塑料吸管，收效甚微，对我们的要求也很少。它们甚至可能是有害的，满足了“尽自己的一份力量”的需要，却没有采取更大规模、更大胆、更有效的行动——一种“道德许可”，可以减轻我们的担忧，阻止我们做更多的事情，并向负责人提出更多的要求。",
           "slashed_text": "My concern / with leaving it up to the individual , / however , / is our limited sense of what needs to be achieved. / On their own , / taking our own bags to the grocery store or quitting plastic straws , / for example , / will accomplish little and require very little of us. / They could even be harmful , / satisfying a need to have “done our bit” / without ever progressing onto bigger , / bolder , / more effective actions — / a kind of “moral licensing” / that eases our concerns and stops us doing more and asking more of those / in charge.",
-          "chunk_translation": "然而我对将减塑责任完全留给个人的 / 担忧之处在于， / 我们往往， / 对真正需要达成什么目标缺乏全局性认知。 / 单靠这些行动， / 例如自备购物袋去杂货店或弃用塑料吸管， / 举例来说， / 收效甚微，对我们的改变要求也微乎其微。 / 这些举动甚至可能产生反作用， / 满足了我们“已经尽了一份力”的心理需求， / 却从未进一步迈向更大规模、 / 更大胆、 / 更具实效的行动—— / 产生一种“道德许可”， / 减轻了我们的担忧，阻止我们采取更多行动并向掌权者 / 提出更高要求。",
+          "chunk_translation": "我的担忧 / 在于若将责任完全留给个人， / 然而， / 在于我们对究竟需要实现什么缺乏充分的认知。 / 单靠这些行动， / 例如自备购物袋去杂货店或弃用塑料吸管， / 举例来说， / 收效甚微，对我们的改变要求也微乎其微。 / 这些举动甚至可能产生反作用， / 满足了我们“已经尽了一份力”的心理需求， / 却从未进一步迈向更大规模、 / 更大胆、 / 更具实效的行动—— / 产生一种“道德许可”， / 减轻了我们的担忧，阻止我们采取更多行动并向掌权者 / 提出更高要求。",
           "vocabulary": [
             {
               "word": "suppress our desire for success",
@@ -7105,8 +7105,8 @@
           "pid": 6,
           "text": "DeSombre isn’t saying people should stop caring about the environment. It’s just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior.",
           "translation": "德松布雷并不是说人们应该停止关心环境。她说，只是个人行动太慢，这不是改变普遍行为的唯一甚至主要方法。",
-          "slashed_text": "DeSombre isn’t saying people should stop caring about the environment. / It’s just / that individual actions are too slow , / she says , / for / that to be the only , / or even primary , / approach to changing widespread behavior.",
-          "chunk_translation": "德松布尔并不是说人们应该停止关心环境。 / 只是 / 个人行动见效太慢， / 她说， / 不足以 / 将其作为改变广泛公众行为的唯一、 / 乃至主要的 / 途径。",
+          "slashed_text": "DeSombre isn’t saying people should stop caring about the environment. / It’s just that individual actions are too slow , / she says , / for that to be the only , / or even primary , / approach to changing widespread behavior.",
+          "chunk_translation": "德松布尔并不是说人们应该停止关心环境。 / 只是个人行动的见效实在太慢， / 她说， / 不足以作为唯一的、 / 乃至主要的 / 改变广泛公众行为的途径。",
           "vocabulary": [
             {
               "word": "primary",
@@ -7170,7 +7170,7 @@
           "text": "None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
           "translation": "所有这些都不是要注销个人。这只是要正确看待事物。我们没有时间等待。我们需要制定集体行动的进步政策，同时需要积极参与的公民推动变革。",
           "slashed_text": "None of this is / about writing off the individual. / It’s just / about putting things / into perspective. / We don’t have time to wait. / We need progressive policies / that shape collective action , / alongside engaged citizens pushing / for change.",
-          "chunk_translation": "这一切绝非 / 否定个人的作用。 / 这只是 / 要客观看待事物， / 把握好大局。 / 我们已经没有时间再等待。 / 我们需要引领集体行动的进取性政策， / 来塑造集体行动， / 同时需要积极参与的公民共同推动 / 真正的变革。",
+          "chunk_translation": "这一切绝非 / 否定个人的作用。 / 这只是 / 要客观看待事物， / 把握好大局。 / 我们已经没有时间再等待。 / 我们需要积极进取的政策 / 来引导塑造集体行动， / 同时需要积极参与的公民去共同推动 / 变革的发生。",
           "vocabulary": [
             {
               "word": "are far from sufficient\nี൫ज໶",
@@ -7324,7 +7324,7 @@
           "text": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics.",
           "translation": "世界环境日的关键信息确实包括呼吁各国政府颁布立法来限制一次性塑料制品。",
           "slashed_text": "The key messages / that have been put together / for World Environment Day do include a call / for governments to enact legislation to curb single-use plastics.",
-          "chunk_translation": "为世界环境日所汇编的 / 核心宣传信息 / 确实包含呼吁 / 各国政府出台法律以遏制一次性塑料的使用。",
+          "chunk_translation": "汇集整理起来的 / 核心宣传信息 / 为世界环境日确实包含一项呼吁： / 要求各国政府立法以遏制一次性塑料制品。",
           "syntax": {
             "breakdown": [
               {
@@ -7380,7 +7380,7 @@
           "text": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved.",
           "translation": "然而，我担心将其留给个人，因为我们对需要实现的目标的认识有限。",
           "slashed_text": "My concern / with leaving it up to the individual , / however , / is our limited sense of what needs to be achieved.",
-          "chunk_translation": "然而我对将减塑责任完全留给个人的 / 担忧之处在于， / 我们往往， / 对真正需要达成什么目标缺乏全局性认知。",
+          "chunk_translation": "我的担忧 / 在于若将责任完全留给个人， / 然而， / 在于我们对究竟需要实现什么缺乏充分的认知。",
           "syntax": {
             "breakdown": [
               {
@@ -7659,8 +7659,8 @@
           "sentence_index": 1,
           "text": "It’s just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior.",
           "translation": "她说，只是个人行动太慢，这不是改变普遍行为的唯一甚至主要方法。",
-          "slashed_text": "It’s just / that individual actions are too slow , / she says , / for / that to be the only , / or even primary , / approach to changing widespread behavior.",
-          "chunk_translation": "只是 / 个人行动见效太慢， / 她说， / 不足以 / 将其作为改变广泛公众行为的唯一、 / 乃至主要的 / 途径。",
+          "slashed_text": "It’s just that individual actions are too slow , / she says , / for that to be the only , / or even primary , / approach to changing widespread behavior.",
+          "chunk_translation": "只是个人行动的见效实在太慢， / 她说， / 不足以作为唯一的、 / 乃至主要的 / 改变广泛公众行为的途径。",
           "syntax": {
             "breakdown": [
               {
@@ -7772,7 +7772,7 @@
           "text": "We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
           "translation": "我们需要制定集体行动的进步政策，同时需要积极参与的公民推动变革。",
           "slashed_text": "We need progressive policies / that shape collective action , / alongside engaged citizens pushing / for change.",
-          "chunk_translation": "我们需要引领集体行动的进取性政策， / 来塑造集体行动， / 同时需要积极参与的公民共同推动 / 真正的变革。",
+          "chunk_translation": "我们需要积极进取的政策 / 来引导塑造集体行动， / 同时需要积极参与的公民去共同推动 / 变革的发生。",
           "syntax": {
             "breakdown": [
               {

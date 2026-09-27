@@ -2592,7 +2592,7 @@
           "text": "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles. Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly in coming years.",
           "translation": "这一进步在一定程度上是由汽车制造商推动的，他们在电池驱动的电动汽车上下了很大的赌注。尽管电动汽车现在在道路上仍然很少见，但这项巨额投资可能会在未来几年迅速改变这一状况。",
           "slashed_text": "The advance is driven / in part / by vehicle manufacturers , / who are placing big bets / on battery-powered electric vehicles. / Although electric cars are still a rarity / on roads now , / this massive investment could change the picture rapidly / in coming years.",
-          "chunk_translation": "这一进步在一定程度上 / 是由汽车制造商推动的 / 他们正在 / 大力押注 / 电池驱动的电动汽车。 / 尽管电动汽车目前在公路上依然少见 / 如今在路上 / 但这一巨额投资可能会在未来几年迅速改变这一局面 / 在未来的岁月里。",
+          "chunk_translation": "这一进步在一定程度上 / 是由汽车制造商推动的 / 他们正在 / 大力押注 / 电池驱动的电动汽车。 / 尽管电动汽车目前依然罕见 / 在当今的公路上， / 但这一大规模投资可能会迅速改变这种局面 / 在未来的几年里。",
           "vocabulary": [
             {
               "word": "Its continuous supply is becoming a reality",
@@ -3209,7 +3209,7 @@
           "text": "Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly in coming years.",
           "translation": "尽管电动汽车现在在道路上仍然很少见，但这项巨额投资可能会在未来几年迅速改变这一状况。",
           "slashed_text": "Although electric cars are still a rarity / on roads now , / this massive investment could change the picture rapidly / in coming years.",
-          "chunk_translation": "尽管电动汽车目前在公路上依然少见 / 如今在路上 / 但这一巨额投资可能会在未来几年迅速改变这一局面 / 在未来的岁月里。",
+          "chunk_translation": "尽管电动汽车目前依然罕见 / 在当今的公路上， / 但这一大规模投资可能会迅速改变这种局面 / 在未来的几年里。",
           "syntax": {
             "breakdown": [
               {

@@ -5987,8 +5987,8 @@
           "pid": 0,
           "text": "Although ethics classes are common around the world, scientists are unsure if their lessons can actually change behavior; evidence either way is weak, relying on contrived laboratory tests or sometimes unreliable self-reports. But a new study published in Cognition found that, in at least one real-world situation, a single ethics lesson may have had lasting effects.",
           "translation": "尽管道德课程在世界各地很常见，但科学家们不确定他们的课程是否真的能改变行为；无论哪种方式，证据都很薄弱，依赖于人为的实验室测试或有时不可靠的自我报告。但发表在《认知》杂志上的一项新研究发现，至少在一个现实世界的情况下，一堂道德课可能会产生持久的影响。",
-          "slashed_text": "Although ethics classes are common around the world , / scientists are unsure / if their lessons can actually change behavior ; / evidence either way is weak , / relying / on contrived laboratory tests or sometimes unreliable self-reports. / But a new study published / in Cognition found / that , / in / at least one real-world situation , / a single ethics lesson may have had lasting effects.",
-          "chunk_translation": "尽管伦理道德课程在世界各地屡见不鲜， / 但科学家们并不确定 / 其讲授内容是否真能改变人们的行为； / 支持与否的证据都相当薄弱， / 往往依赖于 / 人为设计的实验室测试或时常不可靠的自我报告。 / 然而发表在《认知》期刊上的一项新研究发现， / 至少在 / 现实生活中的某一种情境下， / 单单一堂 / 伦理道德课 / 就可能产生持久深远的影响。",
+          "slashed_text": "Although ethics classes are common around the world , / scientists are unsure / if their lessons can actually change behavior ; / evidence either way is weak , / relying / on contrived laboratory tests or sometimes unreliable self-reports. / But a new study published in Cognition found / that , in at least one real-world situation , / a single ethics lesson may have had lasting effects.",
+          "chunk_translation": "尽管伦理道德课程在世界各地屡见不鲜， / 但科学家们并不确定 / 其讲授内容是否真能改变人们的行为； / 支持与否的证据都相当薄弱， / 往往依赖于 / 人为设计的实验室测试或时常不可靠的自我报告。 / 然而发表在《认知》期刊上的一项新研究发现， / 在至少一种现实生活情境中， / 单单一堂伦理道德课就可能产生持久的影响。",
           "vocabulary": [
             {
               "word": "hard to determine",
@@ -6559,8 +6559,8 @@
           "pid": 3,
           "text": "“That’s actually a pretty large effect for a pretty small intervention,” Schwitzgebel says. Psychologist Nina Strohminger at the University of Pennsylvania, who was not involved in the study, says she wants the effect to be real but cannot rule out some unknown confounding variable. And if real, she notes, it might be reversible by another nudge: “Easy come, easy go.”",
           "translation": "“对于很小的干预来说，这实际上是一个相当大的影响，”施维茨格贝尔说。宾夕法尼亚大学的心理学家尼娜·斯特罗明格（Nina Strohminger）没有参与这项研究，她说她希望这种效果是真实的，但不能排除一些未知的混杂变量。她指出，如果是真的，这种情况可能会通过另一次推动而逆转：“来得容易，去得也快。”",
-          "slashed_text": "“ / That’s actually a pretty large effect for a pretty small intervention , / ” Schwitzgebel says. / Psychologist Nina Strohminger at the University of Pennsylvania , / who was not involved in the study , / says she wants the effect to be real but cannot rule out some unknown confounding variable. / And / if real , / she notes , / it might be reversible / by another nudge : / “Easy come , / easy go.”",
-          "chunk_translation": "“ / 对于如此微小的教学干预而言，这实际上是一个相当显著的效果，” / 施维茨格贝尔表示。 / 未参与该研究的宾夕法尼亚大学心理学家妮娜·斯特罗明格 / 表示， / 她虽然希望这种效果是真实的，但尚不能排除某些未知的混杂干扰变量。 / 而且 / 即使效果属实， / 她指出， / 它也可能被另一次心理助推所逆转： / 正所谓： / “来得容易， / 去得也快。”",
+          "slashed_text": "“ / That’s actually a pretty large effect for a pretty small intervention , / ” Schwitzgebel says. / Psychologist Nina Strohminger at the University of Pennsylvania , / who was not involved in the study , / says she wants the effect to be real but cannot rule out some unknown confounding variable. / And if real , she notes , / it might be reversible by another nudge : / “Easy come , easy go.”",
+          "chunk_translation": "“ / 对于如此微小的教学干预而言，这实际上是一个相当显著的效果，” / 施维茨格贝尔表示。 / 未参与该研究的宾夕法尼亚大学心理学家妮娜·斯特罗明格 / 表示， / 她虽然希望这种效果是真实的，但尚不能排除某些未知的混杂干扰变量。 / 而且即使效果属实，她指出， / 它也可能被另一次心理助推所逆转： / 正所谓“来得容易，去得也快”。",
           "vocabulary": [
             {
               "word": "uncertain",
@@ -6904,8 +6904,8 @@
           "sentence_index": 1,
           "text": "But a new study published in Cognition found that, in at least one real-world situation, a single ethics lesson may have had lasting effects.",
           "translation": "但发表在《认知》杂志上的一项新研究发现，至少在一个现实世界的情况下，一堂道德课可能会产生持久的影响。",
-          "slashed_text": "But a new study published / in Cognition found / that , / in / at least one real-world situation , / a single ethics lesson may have had lasting effects.",
-          "chunk_translation": "然而发表在《认知》期刊上的一项新研究发现， / 至少在 / 现实生活中的某一种情境下， / 单单一堂 / 伦理道德课 / 就可能产生持久深远的影响。",
+          "slashed_text": "But a new study published in Cognition found / that , in at least one real-world situation , / a single ethics lesson may have had lasting effects.",
+          "chunk_translation": "然而发表在《认知》期刊上的一项新研究发现， / 在至少一种现实生活情境中， / 单单一堂伦理道德课就可能产生持久的影响。",
           "syntax": {
             "breakdown": [
               {
@@ -7177,8 +7177,8 @@
           "sentence_index": 2,
           "text": "And if real, she notes, it might be reversible by another nudge: “Easy come, easy go.”",
           "translation": "她指出，如果是真的，这种情况可能会通过另一次推动而逆转：“来得容易，去得也快。”",
-          "slashed_text": "And / if real , / she notes , / it might be reversible / by another nudge : / “Easy come , / easy go.”",
-          "chunk_translation": "而且 / 即使效果属实， / 她指出， / 它也可能被另一次心理助推所逆转： / 正所谓： / “来得容易， / 去得也快。”",
+          "slashed_text": "And if real , she notes , / it might be reversible by another nudge : / “Easy come , easy go.”",
+          "chunk_translation": "而且即使效果属实，她指出， / 它也可能被另一次心理助推所逆转： / 正所谓“来得容易，去得也快”。",
           "syntax": {
             "breakdown": [
               {

@@ -100,8 +100,8 @@
           "pid": 1,
           "text": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske. In fact women even say they feel better at work, she notes. “It is men, not women, who report being happier at home than at work.” Another surprise is that the findings hold true for both those with children and without, but more so for nonparents. This is why people who work outside the home have better health.",
           "translation": "研究人员之一莎拉·达马斯克（Sarah Damaske）写道：“与传统观点相矛盾的是，我们发现女性和男性在工作中承受的压力都比在家中承受的压力要低。”事实上，女性甚至说她们在工作中感觉更好，她指出。 “据报道，在家中比在工作中更快乐的是男性，而不是女性。”另一个令人惊讶的是，这些发现对于有孩子和没有孩子的人都适用，但对于没有孩子的人来说更是如此。这就是为什么在外工作的人健康状况更好。",
-          "slashed_text": "“Further contradicting conventional wisdom , / we found / that women as well as men have lower levels of stress / at work than / at home , / ” writes one of the researchers , / Sarah Damaske. / In fact women even say they feel better / at work , / she notes. / “It is men , / not women , / who report being happier / at home than / at work.” Another surprise is / that the findings hold true / for both those / with children and without , / but more so / for nonparents. / This is why people / who work outside the home have better health.",
-          "chunk_translation": "“进一步与传统认知相反的是， / 我们发现 / 无论女性还是男性都有较低的水平 / 皮质醇水平 / 在工作中 / 相比 / 在家里，”其中一位研究员萨拉·达马斯克写道。 / 事实上女性甚至表示她们感觉更好 / 在工作中， / 她指出。 / “正是男性， / 而非女性， / 报告称感到更快乐 / 在家里。” / 正是男性， / 而非女性， / 报告称感到更快乐 / 在家里。 / 正是男性， / 而非女性报告称在家里更快乐。 / 这就是为什么人们 / 外出工作的人拥有更高的幸福感。",
+          "slashed_text": "Researchers measured people’s cortisol , / which is a stress marker , / while they were at work / and while they were at home / and found it higher / in what is supposed to be a haven. / “Further contradicting conventional wisdom , / we found that women as well as men had lower levels of stress / at work / compared with at home ,” / one of the researchers , Sarah Damaske , wrote. / “It is men , / not women , / who report being happier / at home than / at work.” Another surprise is / that the findings hold true / for both those / with children and without , / but more so / for nonparents. / This is why people / who work outside the home have better health.",
+          "chunk_translation": "研究人员测量了人们体内的皮质醇， / 这是一种压力标志物， / 当他们在工作时 / 以及当他们在家里时， / 并发现其水平更高 / 在原本应当是避风港的家中。 / “进一步推翻传统认知的是， / 我们发现无论女性还是男性在工作中感受到的压力水平都更低， / 相比于 / 在家里，” / 其中一位研究人员萨拉·达马斯克写道。 / “正是男性， / 而非女性， / 报告称感到更快乐 / 在家里。” / 正是男性， / 而非女性， / 报告称感到更快乐 / 在家里。 / 正是男性， / 而非女性报告称在家里更快乐。 / 这就是为什么人们 / 外出工作的人拥有更高的幸福感。",
           "vocabulary": [
             {
               "word": "Childless husbands",
@@ -432,8 +432,8 @@
           "pid": 4,
           "text": "On the home front, however, people have no such clarity. Rare is the household in which the division of labor is so clinically and methodically laid out. There are a lot of tasks to be done; there are inadequate rewards for most of them. Your home colleagues—your family— have no clear rewards for their labor; they need to be talked into it, or if they’re teenagers, threatened with complete removal of all electronic devices. Plus, they’re your family. You cannot fire your family. You never really get to go home from home.",
           "translation": "然而，在家庭方面，人们却没有这样的清晰度。很少有家庭能够如此临床和有条不紊地安排劳动分工。有很多任务要做；对他们中的大多数人来说，奖励不足。你的家庭同事——你的家人——他们的劳动没有明确的回报；他们需要被说服，或者如果他们是青少年，则威胁要完全移除所有电子设备。另外，他们是你的家人。你不能解雇你的家人。你永远无法真正从家里回家。",
-          "slashed_text": "On the home front , / however , / people have no such clarity. / Rare is the household in / which the division of labor is so clinically and methodically laid out. / There are a lot of tasks to be done ; / there are inadequate rewards / for most of them. / Your home colleagues — / your family — / have no clear rewards / for their labor ; / they need to be talked into it , / or / if they’re teenagers , / threatened / with complete removal of all electronic devices. / Plus , / they’re your family. / You cannot fire your family. / You never really get to go home / from home.",
-          "chunk_translation": "然而在家庭阵地上， / 然而， / 人们却没有这种清晰明确性。 / 很少有这样的家庭 / 其中的劳动分工能如此一目了然。 / 有大量的家务杂事要做； / 资源却本来就不足 / 从一开始就匮乏。 / 你的家庭同事们—— / 你的家人—— / 没有明确的职责描述， / 而且 / 没有任何 / 法律义务 / 去按你所想的 / 去做事， / 去配合。 / 而且， / 他们是你的家人。 / 你不能解雇你的家人。 / 你永远无法真正从家里 / 再回到家去放松。",
+          "slashed_text": "On the home front , / however , / people have fewer colleagues / to share burdens with. / Rare is the household in / which the division of labor is so clinically and methodically laid out. / There are a lot of tasks to be done ; / there are inadequate rewards / for most of them. / Your home colleagues — / your family — / have no clear rewards / for their labor ; / they need to be talked into it , / or / if they’re teenagers , / threatened / with complete removal of all electronic devices. / Plus , / they’re your family. / You cannot fire your family. / You never really get to go home / from home.",
+          "chunk_translation": "而在家庭阵地上， / 然而， / 人们很少有同事 / 可以共同分担负担。 / 很少有这样的家庭 / 其中的劳动分工能如此一目了然。 / 有大量的家务杂事要做； / 资源却本来就不足 / 从一开始就匮乏。 / 你的家庭同事们—— / 你的家人—— / 没有明确的职责描述， / 而且 / 没有任何 / 法律义务 / 去按你所想的 / 去做事， / 去配合。 / 而且， / 他们是你的家人。 / 你不能解雇你的家人。 / 你永远无法真正从家里 / 再回到家去放松。",
           "vocabulary": [
             {
               "word": "division of labor at home is seldom clear-cut",
@@ -665,8 +665,8 @@
           "sentence_index": 0,
           "text": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske.",
           "translation": "研究人员之一莎拉·达马斯克（Sarah Damaske）写道：“与传统观点相矛盾的是，我们发现女性和男性在工作中承受的压力都比在家中承受的压力要低。”",
-          "slashed_text": "“Further contradicting conventional wisdom , / we found / that women as well as men have lower levels of stress / at work than / at home , / ” writes one of the researchers , / Sarah Damaske.",
-          "chunk_translation": "“进一步与传统认知相反的是， / 我们发现 / 无论女性还是男性都有较低的水平 / 皮质醇水平 / 在工作中 / 相比 / 在家里，”其中一位研究员萨拉·达马斯克写道。",
+          "slashed_text": "Researchers measured people’s cortisol , / which is a stress marker , / while they were at work / and while they were at home / and found it higher / in what is supposed to be a haven.",
+          "chunk_translation": "研究人员测量了人们体内的皮质醇， / 这是一种压力标志物， / 当他们在工作时 / 以及当他们在家里时， / 并发现其水平更高 / 在原本应当是避风港的家中。",
           "syntax": {
             "breakdown": [
               {
@@ -693,8 +693,8 @@
           "sentence_index": 1,
           "text": "In fact women even say they feel better at work, she notes.",
           "translation": "事实上，女性甚至说她们在工作中感觉更好，她指出。",
-          "slashed_text": "In fact women even say they feel better / at work , / she notes.",
-          "chunk_translation": "事实上女性甚至表示她们感觉更好 / 在工作中， / 她指出。",
+          "slashed_text": "“Further contradicting conventional wisdom , / we found that women as well as men had lower levels of stress / at work / compared with at home ,” / one of the researchers , Sarah Damaske , wrote.",
+          "chunk_translation": "“进一步推翻传统认知的是， / 我们发现无论女性还是男性在工作中感受到的压力水平都更低， / 相比于 / 在家里，” / 其中一位研究人员萨拉·达马斯克写道。",
           "syntax": {
             "breakdown": [
               {
@@ -996,8 +996,8 @@
           "sentence_index": 0,
           "text": "On the home front, however, people have no such clarity.",
           "translation": "然而，在家庭方面，人们却没有这样的清晰度。",
-          "slashed_text": "On the home front , / however , / people have no such clarity.",
-          "chunk_translation": "然而在家庭阵地上， / 然而， / 人们却没有这种清晰明确性。",
+          "slashed_text": "On the home front , / however , / people have fewer colleagues / to share burdens with.",
+          "chunk_translation": "而在家庭阵地上， / 然而， / 人们很少有同事 / 可以共同分担负担。",
           "syntax": {
             "breakdown": [
               {
@@ -1843,8 +1843,8 @@
           "pid": 0,
           "text": "For years, studies have found that first-generation college students—those who do not have a parent with a college degree—lag other students on a range of education achievement factors. Their grades are lower and their dropout rates are higher. But since such students are most likely to advance economically if they succeed in higher education, colleges and universities have pushed for decades to recruit more of them. This has created “a paradox” in that recruiting first-generation students, but then watching many of them fail, means that higher education has “continued to reproduce and widen, rather than close” an achievement gap based on social class, according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
           "translation": "多年来，研究发现，第一代大学生（父母没有大学学历的人）在一系列教育成就因素上落后于其他学生。他们的成绩较低，辍学率较高。但由于这些学生如果在高等教育中取得成功，最有可能在经济上取得进步，因此学院和大学几十年来一直在努力招收更多这样的学生。根据即将发表在《心理科学》杂志上的一篇论文的令人沮丧的开头，这造成了一个“悖论”，即招收第一代学生，但随后看到他们中的许多人失败，这意味着高等教育“继续复制和扩大，而不是缩小”基于社会阶层的成就差距。",
-          "slashed_text": "For years , / studies have found / that first-generation college students — / those / who do not have a parent with a college degree — / lag other students on a range of education achievement factors. / Their grades are lower and their dropout rates are higher. / But / since such students are most likely to advance economically / if they succeed / in higher education , / colleges and universities have pushed / for decades to recruit more of them. / This has created “a paradox” in / that recruiting first-generation students , / but then watching many of them fail , / means / that higher education has “continued to reproduce and widen , / rather than close” an achievement gap based / on social class , / according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
-          "chunk_translation": "多年来， / 诸多研究发现， / 第一代大学生——即那些 / 父母双方均无大学学位的人——面临着 / 特殊的阻碍与困难 / 在大学学业取得成功方面。 / 他们的成绩普遍较低，退学率则更高。 / 但由于这类学生最有可能实现阶层跃升 / 在经济层面上， / 如果他们能在高等教育中取得成功， / 各大高校一直在大力推行 / 各种途径与举措 / 以缩小这一差距。 / 这造成了一种“悖论”， / 在于招收了第一代大学生， / 但是 / 随后 / 却也 / 眼看着他们失败退学 / 未能为进入职场做好准备。 / 无法顺利走上工作岗位。",
+          "slashed_text": "For years , studies have found / that first-generation college students — / those who do not have a parent with a college degree — / lag other students / on a range of education achievement factors. / Their grades are lower and their dropout rates are higher. / But since such students are most likely to advance economically / if they succeed in higher education , / colleges and universities have pushed for decades / to recruit more of them. / This has created “a paradox” in that recruiting first-generation students , / but then watching many of them fail , / means that higher education has “continued to reproduce and widen , / rather than close” / an achievement gap based on social class , / according to the depressing beginning of a paper / forthcoming in the journal Psychological Science.",
+          "chunk_translation": "多年以来，研究发现 / 第一代大学生—— / 即那些父母没有大学学历的学生—— / 落后于其他学生 / 在一系列学业成就指标上。 / 他们的成绩普遍较低，退学率则更高。 / 但由于这类学生最有可能实现经济状况的改善 / 如果他们在高等教育中取得成功， / 过去几十年来各大高校一直在努力 / 招收更多的此类学生。 / 这造成了一种“悖论”：招收第一代大学生， / 随后却眼睁睁看着他们中许多人失败， / 意味着高等教育“一直在复制并拉大、 / 而不是缩小” / 基于社会阶层的成就差距， / 这正如一篇即将发表在《心理科学》期刊上的论文 / 那令人沮丧的开篇所言。",
           "vocabulary": [
             {
               "word": "missed its original purpose",
@@ -2627,8 +2627,8 @@
           "sentence_index": 0,
           "text": "For years, studies have found that first-generation college students—those who do not have a parent with a college degree—lag other students on a range of education achievement factors.",
           "translation": "多年来，研究发现，第一代大学生（父母没有大学学历的人）在一系列教育成就因素上落后于其他学生。",
-          "slashed_text": "For years , / studies have found / that first-generation college students — / those / who do not have a parent with a college degree — / lag other students on a range of education achievement factors.",
-          "chunk_translation": "多年来， / 诸多研究发现， / 第一代大学生——即那些 / 父母双方均无大学学位的人——面临着 / 特殊的阻碍与困难 / 在大学学业取得成功方面。",
+          "slashed_text": "For years , studies have found / that first-generation college students — / those who do not have a parent with a college degree — / lag other students / on a range of education achievement factors.",
+          "chunk_translation": "多年以来，研究发现 / 第一代大学生—— / 即那些父母没有大学学历的学生—— / 落后于其他学生 / 在一系列学业成就指标上。",
           "syntax": {
             "breakdown": [
               {
@@ -2683,8 +2683,8 @@
           "sentence_index": 2,
           "text": "But since such students are most likely to advance economically if they succeed in higher education, colleges and universities have pushed for decades to recruit more of them.",
           "translation": "但由于这些学生如果在高等教育中取得成功，最有可能在经济上取得进步，因此学院和大学几十年来一直在努力招收更多这样的学生。",
-          "slashed_text": "But / since such students are most likely to advance economically / if they succeed / in higher education , / colleges and universities have pushed / for decades to recruit more of them.",
-          "chunk_translation": "但由于这类学生最有可能实现阶层跃升 / 在经济层面上， / 如果他们能在高等教育中取得成功， / 各大高校一直在大力推行 / 各种途径与举措 / 以缩小这一差距。",
+          "slashed_text": "But since such students are most likely to advance economically / if they succeed in higher education , / colleges and universities have pushed for decades / to recruit more of them.",
+          "chunk_translation": "但由于这类学生最有可能实现经济状况的改善 / 如果他们在高等教育中取得成功， / 过去几十年来各大高校一直在努力 / 招收更多的此类学生。",
           "syntax": {
             "breakdown": [
               {
@@ -2711,8 +2711,8 @@
           "sentence_index": 3,
           "text": "This has created “a paradox” in that recruiting first-generation students, but then watching many of them fail, means that higher education has “continued to reproduce and widen, rather than close” an achievement gap based on social class, according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
           "translation": "根据即将发表在《心理科学》杂志上的一篇论文的令人沮丧的开头，这造成了一个“悖论”，即招收第一代学生，但随后看到他们中的许多人失败，这意味着高等教育“继续复制和扩大，而不是缩小”基于社会阶层的成就差距。",
-          "slashed_text": "This has created “a paradox” in / that recruiting first-generation students , / but then watching many of them fail , / means / that higher education has “continued to reproduce and widen , / rather than close” an achievement gap based / on social class , / according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
-          "chunk_translation": "这造成了一种“悖论”， / 在于招收了第一代大学生， / 但是 / 随后 / 却也 / 眼看着他们失败退学 / 未能为进入职场做好准备。 / 无法顺利走上工作岗位。",
+          "slashed_text": "This has created “a paradox” in that recruiting first-generation students , / but then watching many of them fail , / means that higher education has “continued to reproduce and widen , / rather than close” / an achievement gap based on social class , / according to the depressing beginning of a paper / forthcoming in the journal Psychological Science.",
+          "chunk_translation": "这造成了一种“悖论”：招收第一代大学生， / 随后却眼睁睁看着他们中许多人失败， / 意味着高等教育“一直在复制并拉大、 / 而不是缩小” / 基于社会阶层的成就差距， / 这正如一篇即将发表在《心理科学》期刊上的论文 / 那令人沮丧的开篇所言。",
           "syntax": {
             "breakdown": [
               {
@@ -3883,8 +3883,8 @@
           "pid": 2,
           "text": "These terms are also intended to infuse work with meaning—and, as Rakesh Khurana, another professor, points out, increase allegiance to the firm. “You have the importation of terminology that historically used to be associated with non-profit organizations and religious organizations: terms like vision, values, passion, and purpose,” said Khurana.",
           "translation": "这些术语还旨在为工作注入意义，正如另一位教授拉克什·库拉纳 (Rakesh Khurana) 指出的那样，增加对公司的忠诚度。 “你引入了历史上与非营利组织和宗教组织相关的术语：愿景、价值观、激情和目的等术语，”库拉纳说。",
-          "slashed_text": "These terms are also intended to infuse work / with meaning — / and , / as Rakesh Khurana , / another professor , / points out , / increase allegiance to the firm. / “You have the importation of terminology / that historically used to be associated with non-profit organizations and religious organizations : / terms like vision , / values , / passion , / and purpose , / ” said Khurana.",
-          "chunk_translation": "这些用语同时旨在 / 为工作注入 / 非凡的意义 / ——并且， / 其结果就是， / 榨取和产出 / 更多的价值。 / “你见证了这些引入 / 专业术语的引入， / 这些词汇在历史上曾属于 / 宗教精神传统 / 或者 / 家庭生活领域，” / 科恩说道。",
+          "slashed_text": "These terms are also intended to infuse work / with meaning — / and , as Rakesh Khurana , another professor , points out , / increase allegiance to the firm. / “You have the importation of terminology / that historically used to be associated with non-profit organizations and religious organizations : / terms like vision , values , passion , and purpose ,” / said Khurana.",
+          "chunk_translation": "这些术语同时也旨在为工作注入 / 意义—— / 正如另一位教授拉凯什·库拉纳所指出的， / 增加对公司的忠诚度。 / “你可以看到那些术语的引入， / 它们在历史上曾经与非营利组织和宗教团体联系在一起： / 诸如远景、价值观、激情和目标等术语，” / 库拉纳说道。",
           "vocabulary": [
             {
               "word": "strengthen employee loyalty",
@@ -4017,8 +4017,8 @@
           "pid": 3,
           "text": "This new focus on personal fulfillment can help keep employees motivated amid increasingly loud debates over work-life balance. The “mommy wars” of the 1990s are still going on today, prompting arguments about why women still can’t have it all and books like Sheryl Sandberg’s Lean In, whose title has become a buzzword in its own right. Terms like unplug, offline, life-hack, bandwidth, and capacity are all about setting boundaries between the office and the home. But if your work is your “passion,” you’ll be more likely to devote yourself to it, even if that means going home for dinner and then working long after the kids are in bed.",
           "translation": "这种对个人成就感的新关注可以帮助员工在关于工作与生活平衡的争论日益激烈的情况下保持积极性。 20 世纪 90 年代的“妈妈之战”至今仍在继续，引发了关于为什么女性仍然无法拥有一切的争论，以及谢丽尔·桑德伯格 (Sheryl Sandberg) 的《向前一步》(Lean In) 等书籍，该书的书名本身已成为流行语。拔掉插头、离线、生活黑客、带宽和容量等术语都是关于在办公室和家庭之间划定界限的。但如果你的工作是你的“热情”，你就会更有可能全身心投入其中，即使这意味着回家吃晚饭，然后在孩子们上床睡觉后很长时间才能工作。",
-          "slashed_text": "This new focus / on personal fulfillment can help keep employees motivated amid increasingly loud debates over work-life balance. / The “mommy wars” of the 1990s are still going / on today , / prompting arguments about why women still can’t have it all and books like Sheryl Sandberg’s Lean In , / whose title has become a buzzword in its own right. / Terms like unplug , / offline , / life-hack , / bandwidth , / and capacity are all / about setting boundaries between the office and the home. / But / if your work is your “passion , / ” you’ll be more likely to devote yourself to it , / even / if / that means going home / for dinner and then working long after the kids are in bed.",
-          "chunk_translation": "这种对个人实现的新关注有助于保持员工的积极性 / 在裁员不断和工资停滞不前的逆境中。 / 20世纪90年代的‘母亲战争’依然在持续 / 在今天， / 但是 / 其词汇表述已经发生了变化。 / 诸如此类的术语 / 像‘拔掉插头离线’、 / ‘下线’、 / ‘生活捷径窍门’、 / ‘带宽精力’ / 以及‘负荷能力’都借用自科技领域。 / 但是 / 如果你的工作是你的‘激情所在’， / 你将更有可能 / 去投入工作 / 长时间加班 / 而没有任何 / 抱怨怨言。",
+          "slashed_text": "This new focus on personal fulfillment / can help keep employees motivated / amid increasingly loud debates over work-life balance. / The “mommy wars” of the 1990s are still going on today , / prompting arguments about why women still can’t have it all / and books like Sheryl Sandberg’s Lean In , / whose title has become a buzzword in its own right. / Terms like unplug , offline , life-hack , bandwidth , and capacity / are all about setting boundaries / between the office and the home. / But if your work is your “passion ,” / you’ll be more likely to devote yourself to it , / even if that means going home for dinner / and then working long after the kids are in bed.",
+          "chunk_translation": "这种对个人价值实现的新关注 / 有助于保持员工的工作积极性， / 在有关工作与生活平衡的争论日益激烈的当下。 / 20世纪90年代的“妈妈之争”在今天依然在上演， / 引发了关于为何女性仍然无法兼顾一切的争论， / 以及诸如谢丽尔·桑德伯格的《向前一步》等书籍的问世， / 该书的书名本身就已成为一个流行热词。 / 诸如断网、离线、生活巧招、带宽以及负荷能力等用语 / 都是为了划清界限 / 在办公室与家庭之间。 / 但如果你的工作就是你的“激情所在”， / 你就更有可能全身心投入其中， / 即便这意味着回家吃顿晚饭， / 然后在孩子们入睡后继续工作很长时间。",
           "vocabulary": [
             {
               "word": "voices for working women",
@@ -4201,8 +4201,8 @@
           "pid": 4,
           "text": "But this seems to be the irony of office speak: Everyone makes fun of it, but managers love it, companies depend on it, and regular people willingly absorb it. As a linguist once said, “You can get people to think it’s nonsense at the same time that you buy into it.” In a workplace that’s fundamentally indifferent to your life and its meaning, office speak can help you figure out how you relate to your work—and how your work defines who you are.",
           "translation": "但这似乎是办公室谈话的讽刺：每个人都在取笑它，但经理们喜欢它，公司依赖它，普通人也愿意吸收它。正如一位语言学家曾经说过的：“你可以让人们认为这是无稽之谈，同时你也相信它。”在一个对你的生活及其意义根本漠不关心的工作场所中，办公室演讲可以帮助你弄清楚你与工作的关系，以及你的工作如何定义你是谁。",
-          "slashed_text": "But this seems to be the irony of office speak : / Everyone makes fun of it , / but managers love it , / companies depend on it , / and regular people willingly absorb it. / As a linguist once said , / “You can get people to think it’s nonsense at the same time / that you buy into it.” In a workplace / that’s fundamentally indifferent to your life and its meaning , / office speak can help you figure out how you relate to your work — / and how your work defines / who you are.",
-          "chunk_translation": "但这似乎正是办公室黑话的讽刺之处： / 办公室用语的讽刺： / 每个人都渴望展现真实真诚， / 但是 / 一切听起来却显得如此虚伪造作。 / 正如一位语言学家曾经所说， / “你可以引导人们 / 去思考 / 以某种特定方式去思考某件事， / 通过 / 改变 / 他们所使用的词语。”",
+          "slashed_text": "But this seems to be the irony of office speak : / Everyone makes fun of it , / but managers love it , / companies depend on it , / and regular people willingly absorb it. / As a linguist once said , / “You can get people to think it’s nonsense / at the same time that you buy into it.” / In a workplace that’s fundamentally indifferent to your life and its meaning , / office speak can help you figure out how you relate to your work — / and how your work defines who you are.",
+          "chunk_translation": "但这似乎正是职场语言的讽刺之处： / 每个人都拿它开玩笑调侃， / 但管理人员喜爱它， / 公司依赖它， / 普通员工也心甘情愿地吸收接纳它。 / 正如一位语言学家曾经所说： / “你可以让人们觉得它是废话， / 与此同时却又欣然认同买账。” / 在一个本质上对你的生活及其意义漠不关心的职场中， / 职场语言能够帮助你理清自己与工作的关系—— / 以及你的工作如何定义你是谁。",
           "vocabulary": [
             {
               "word": "Regular people mock it but accept it",
@@ -4558,8 +4558,8 @@
           "sentence_index": 0,
           "text": "These terms are also intended to infuse work with meaning—and, as Rakesh Khurana, another professor, points out, increase allegiance to the firm.",
           "translation": "这些术语还旨在为工作注入意义，正如另一位教授拉克什·库拉纳 (Rakesh Khurana) 指出的那样，增加对公司的忠诚度。",
-          "slashed_text": "These terms are also intended to infuse work / with meaning — / and , / as Rakesh Khurana , / another professor , / points out , / increase allegiance to the firm.",
-          "chunk_translation": "这些用语同时旨在 / 为工作注入 / 非凡的意义 / ——并且， / 其结果就是， / 榨取和产出 / 更多的价值。",
+          "slashed_text": "These terms are also intended to infuse work / with meaning — / and , as Rakesh Khurana , another professor , points out , / increase allegiance to the firm.",
+          "chunk_translation": "这些术语同时也旨在为工作注入 / 意义—— / 正如另一位教授拉凯什·库拉纳所指出的， / 增加对公司的忠诚度。",
           "syntax": {
             "breakdown": [
               {
@@ -4586,8 +4586,8 @@
           "sentence_index": 1,
           "text": "“You have the importation of terminology that historically used to be associated with non-profit organizations and religious organizations: terms like vision, values, passion, and purpose,” said Khurana.",
           "translation": "“你引入了历史上与非营利组织和宗教组织相关的术语：愿景、价值观、激情和目的等术语，”库拉纳说。",
-          "slashed_text": "“You have the importation of terminology / that historically used to be associated with non-profit organizations and religious organizations : / terms like vision , / values , / passion , / and purpose , / ” said Khurana.",
-          "chunk_translation": "“你见证了这些引入 / 专业术语的引入， / 这些词汇在历史上曾属于 / 宗教精神传统 / 或者 / 家庭生活领域，” / 科恩说道。",
+          "slashed_text": "“You have the importation of terminology / that historically used to be associated with non-profit organizations and religious organizations : / terms like vision , values , passion , and purpose ,” / said Khurana.",
+          "chunk_translation": "“你可以看到那些术语的引入， / 它们在历史上曾经与非营利组织和宗教团体联系在一起： / 诸如远景、价值观、激情和目标等术语，” / 库拉纳说道。",
           "syntax": {
             "breakdown": [
               {
@@ -4614,8 +4614,8 @@
           "sentence_index": 0,
           "text": "This new focus on personal fulfillment can help keep employees motivated amid increasingly loud debates over work-life balance.",
           "translation": "这种对个人成就感的新关注可以帮助员工在关于工作与生活平衡的争论日益激烈的情况下保持积极性。",
-          "slashed_text": "This new focus / on personal fulfillment can help keep employees motivated amid increasingly loud debates over work-life balance.",
-          "chunk_translation": "这种对个人实现的新关注有助于保持员工的积极性 / 在裁员不断和工资停滞不前的逆境中。",
+          "slashed_text": "This new focus on personal fulfillment / can help keep employees motivated / amid increasingly loud debates over work-life balance.",
+          "chunk_translation": "这种对个人价值实现的新关注 / 有助于保持员工的工作积极性， / 在有关工作与生活平衡的争论日益激烈的当下。",
           "syntax": {
             "breakdown": [
               {
@@ -4642,8 +4642,8 @@
           "sentence_index": 1,
           "text": "The “mommy wars” of the 1990s are still going on today, prompting arguments about why women still can’t have it all and books like Sheryl Sandberg’s Lean In, whose title has become a buzzword in its own right.",
           "translation": "20 世纪 90 年代的“妈妈之战”至今仍在继续，引发了关于为什么女性仍然无法拥有一切的争论，以及谢丽尔·桑德伯格 (Sheryl Sandberg) 的《向前一步》(Lean In) 等书籍，该书的书名本身已成为流行语。",
-          "slashed_text": "The “mommy wars” of the 1990s are still going / on today , / prompting arguments about why women still can’t have it all and books like Sheryl Sandberg’s Lean In , / whose title has become a buzzword in its own right.",
-          "chunk_translation": "20世纪90年代的‘母亲战争’依然在持续 / 在今天， / 但是 / 其词汇表述已经发生了变化。",
+          "slashed_text": "The “mommy wars” of the 1990s are still going on today , / prompting arguments about why women still can’t have it all / and books like Sheryl Sandberg’s Lean In , / whose title has become a buzzword in its own right.",
+          "chunk_translation": "20世纪90年代的“妈妈之争”在今天依然在上演， / 引发了关于为何女性仍然无法兼顾一切的争论， / 以及诸如谢丽尔·桑德伯格的《向前一步》等书籍的问世， / 该书的书名本身就已成为一个流行热词。",
           "syntax": {
             "breakdown": [
               {
@@ -4670,8 +4670,8 @@
           "sentence_index": 2,
           "text": "Terms like unplug, offline, life-hack, bandwidth, and capacity are all about setting boundaries between the office and the home.",
           "translation": "拔掉插头、离线、生活黑客、带宽和容量等术语都是关于在办公室和家庭之间划定界限的。",
-          "slashed_text": "Terms like unplug , / offline , / life-hack , / bandwidth , / and capacity are all / about setting boundaries between the office and the home.",
-          "chunk_translation": "诸如此类的术语 / 像‘拔掉插头离线’、 / ‘下线’、 / ‘生活捷径窍门’、 / ‘带宽精力’ / 以及‘负荷能力’都借用自科技领域。",
+          "slashed_text": "Terms like unplug , offline , life-hack , bandwidth , and capacity / are all about setting boundaries / between the office and the home.",
+          "chunk_translation": "诸如断网、离线、生活巧招、带宽以及负荷能力等用语 / 都是为了划清界限 / 在办公室与家庭之间。",
           "syntax": {
             "breakdown": [
               {
@@ -4698,8 +4698,8 @@
           "sentence_index": 3,
           "text": "But if your work is your “passion,” you’ll be more likely to devote yourself to it, even if that means going home for dinner and then working long after the kids are in bed.",
           "translation": "但如果你的工作是你的“热情”，你就会更有可能全身心投入其中，即使这意味着回家吃晚饭，然后在孩子们上床睡觉后很长时间才能工作。",
-          "slashed_text": "But / if your work is your “passion , / ” you’ll be more likely to devote yourself to it , / even / if / that means going home / for dinner and then working long after the kids are in bed.",
-          "chunk_translation": "但是 / 如果你的工作是你的‘激情所在’， / 你将更有可能 / 去投入工作 / 长时间加班 / 而没有任何 / 抱怨怨言。",
+          "slashed_text": "But if your work is your “passion ,” / you’ll be more likely to devote yourself to it , / even if that means going home for dinner / and then working long after the kids are in bed.",
+          "chunk_translation": "但如果你的工作就是你的“激情所在”， / 你就更有可能全身心投入其中， / 即便这意味着回家吃顿晚饭， / 然后在孩子们入睡后继续工作很长时间。",
           "syntax": {
             "breakdown": [
               {
@@ -4727,7 +4727,7 @@
           "text": "But this seems to be the irony of office speak: Everyone makes fun of it, but managers love it, companies depend on it, and regular people willingly absorb it.",
           "translation": "但这似乎是办公室谈话的讽刺：每个人都在取笑它，但经理们喜欢它，公司依赖它，普通人也愿意吸收它。",
           "slashed_text": "But this seems to be the irony of office speak : / Everyone makes fun of it , / but managers love it , / companies depend on it , / and regular people willingly absorb it.",
-          "chunk_translation": "但这似乎正是办公室黑话的讽刺之处： / 办公室用语的讽刺： / 每个人都渴望展现真实真诚， / 但是 / 一切听起来却显得如此虚伪造作。",
+          "chunk_translation": "但这似乎正是职场语言的讽刺之处： / 每个人都拿它开玩笑调侃， / 但管理人员喜爱它， / 公司依赖它， / 普通员工也心甘情愿地吸收接纳它。",
           "syntax": {
             "breakdown": [
               {
@@ -4754,8 +4754,8 @@
           "sentence_index": 1,
           "text": "As a linguist once said, “You can get people to think it’s nonsense at the same time that you buy into it.” In a workplace that’s fundamentally indifferent to your life and its meaning, office speak can help you figure out how you relate to your work—and how your work defines who you are.",
           "translation": "正如一位语言学家曾经说过的：“你可以让人们认为这是无稽之谈，同时你也相信它。”在一个对你的生活及其意义根本不关心的工作场所，办公室演讲可以帮助你弄清楚你与工作的关系，以及你的工作如何定义你是谁。",
-          "slashed_text": "As a linguist once said , / “You can get people to think it’s nonsense at the same time / that you buy into it.” In a workplace / that’s fundamentally indifferent to your life and its meaning , / office speak can help you figure out how you relate to your work — / and how your work defines / who you are.",
-          "chunk_translation": "正如一位语言学家曾经所说， / “你可以引导人们 / 去思考 / 以某种特定方式去思考某件事， / 通过 / 改变 / 他们所使用的词语。”",
+          "slashed_text": "As a linguist once said , / “You can get people to think it’s nonsense / at the same time that you buy into it.” / In a workplace that’s fundamentally indifferent to your life and its meaning , / office speak can help you figure out how you relate to your work — / and how your work defines who you are.",
+          "chunk_translation": "正如一位语言学家曾经所说： / “你可以让人们觉得它是废话， / 与此同时却又欣然认同买账。” / 在一个本质上对你的生活及其意义漠不关心的职场中， / 职场语言能够帮助你理清自己与工作的关系—— / 以及你的工作如何定义你是谁。",
           "syntax": {
             "breakdown": [
               {
@@ -5386,8 +5386,8 @@
           "pid": 0,
           "text": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news. And they were right. For now it appears the economy is creating jobs at a decent pace. We still have a long way to go to get back to full employment, but at least we are now finally moving forward at a faster pace.",
           "translation": "许多人将劳工部报告的 6 月份新增就业岗位 288,000 个以及失业率下降至 6.1% 视为好消息。他们是对的。目前看来，经济正在以不错的速度创造就业机会。恢复充分就业还有很长的路要走，但至少我们现在终于以更快的速度前进了。",
-          "slashed_text": "Many people talked of the 288 , / 000 new jobs the Labor Department reported / for June , / along with the drop in the unemployment rate to 6.1 percent , / as good news. / And they were right. / For now it appears the economy is creating jobs at a decent pace. / We still have a long way to go to get back to full employment , / but / at least we are now finally moving forward at a faster pace.",
-          "chunk_translation": "许多人谈及这288, / 000个新增就业岗位——由美国劳工部所报告的 / 6月份数据， / 以及失业率降至6.1%的喜讯， / 视其为大好消息。 / 而且他们是对的。 / 就目前而言，经济似乎正以相当可观的速度创造着就业岗位。 / 我们仍有很长的路 / 要走 / 才能重返充分就业状态。",
+          "slashed_text": "Many people talked of the 288,000 new jobs / the Labor Department reported for June , / along with the drop in the unemployment rate to 6.1 percent , / as good news. / And they were right. / For now it appears the economy is creating jobs at a decent pace. / We still have a long way to go / to get back to full employment , / but at least we are now finally moving forward / at a faster pace.",
+          "chunk_translation": "许多人将劳工部公布的 / 6月份28.8万个新增就业岗位， / 以及失业率降至6.1%的消息， / 视作大好消息。 / 而且他们是对的。 / 就目前而言，经济似乎正以相当可观的速度创造着就业岗位。 / 我们仍有很长的路要走 / 才能重返充分就业， / 但至少我们现在终于在前进， / 以更快的步伐。",
           "vocabulary": [
             {
               "word": "the Labor Department",
@@ -5495,8 +5495,8 @@
           "pid": 1,
           "text": "However, there is another important part of the jobs picture that was largely overlooked. There was a big jump in the number of people who report voluntarily working part-time. This figure is now 830,000 (4.4 percent) above its year ago level.",
           "translation": "然而，就业形势的另一个重要部分在很大程度上被忽视了。自愿从事兼职工作的人数大幅增加。目前这一数字比去年同期增加了 830,000 人（4.4%）。",
-          "slashed_text": "However , / there is another important part of the jobs picture / that was largely overlooked. / There was a big jump in the number of people / who report voluntarily working part-time. / This figure is now 830 , / 000 (4.4 percent) above its year ago level.",
-          "chunk_translation": "然而， / 还有另一个重要组成部分 / 在整个就业格局中被人们所忽视了。 / 人数出现了大幅激增 / 那些报告称因经济原因而从事兼职工作的人数。 / 这一数字目前比一年前高出830, / 000人（增幅达4.4%）。",
+          "slashed_text": "However , / there is another important part of the jobs picture / that was largely overlooked. / There was a big jump in the number of people / who report voluntarily working part-time. / This figure is now 830,000 (4.4 percent) / above its year ago level.",
+          "chunk_translation": "然而， / 还有另一个重要组成部分 / 在整个就业格局中被人们所忽视了。 / 报告称自愿从事兼职工作的人数 / 出现了大幅激增。 / 这一数字目前比一年前的高出83万人 / （增幅达4.4%）。",
           "vocabulary": [
             {
               "word": "The increase of voluntary part-time jobs",
@@ -5574,8 +5574,8 @@
           "pid": 2,
           "text": "Before explaining the connection to the Obamacare, it is worth making an important distinction. Many people who work part-time jobs actually want full-time jobs. They take part-time work because this is all they can get. An increase in involuntary part-time work is evidence of weakness in the labor market and it means that many people will be having a very hard time making ends meet.",
           "translation": "在解释与奥巴马医改的联系之前，有必要先做一个重要的区分。许多从事兼职工作的人实际上想要全职工作。他们从事兼职工作，因为这是他们所能得到的一切。非自愿兼职工作的增加是劳动力市场疲软的证据，这意味着许多人将很难维持收支平衡。",
-          "slashed_text": "Before explaining the connection to the Obamacare , / it is worth making an important distinction. / Many people / who work part-time jobs actually want full-time jobs. / They take part-time work / because this is all they can get. / An increase / in involuntary part-time work is evidence of weakness in the labor market and it means / that many people will be having a very hard time making ends meet.",
-          "chunk_translation": "在解释其与奥巴马医改方案的关联之前， / 有必要先澄清这些术语的具体含义。 / 许多人 / 从事兼职工作的人实际上渴望得到全职工作。 / 他们接受兼职工作 / 是因为这是他们唯一能找到的工作。 / 数量的增加 / 在非自愿兼职工作方面的增加， / 正是劳动力市场疲软乏力的有力证据。",
+          "slashed_text": "Before explaining the connection to the Obamacare , / it is worth making an important distinction. / Many people / who work part-time jobs actually want full-time jobs. / They take part-time work / because this is all they can get. / An increase in involuntary part-time work / is evidence of weakness in the labor market / and it means that many people / will be having a very hard time making ends meet.",
+          "chunk_translation": "在解释其与奥巴马医改的关系之前， / 有必要先做出一个重要的区分。 / 许多人 / 从事兼职工作的人实际上渴望得到全职工作。 / 他们接受兼职工作 / 是因为这是他们唯一能找到的工作。 / 非自愿兼职工作的增加 / 是劳动力市场疲软的证据， / 这意味着许多人 / 将在维持生计上经历非常艰难的时期。",
           "vocabulary": [
             {
               "word": "cannot get their hands on full-time jobs",
@@ -5663,8 +5663,8 @@
           "pid": 3,
           "text": "There was an increase in involuntary part-time in June, but the general direction has been down. Involuntary part-time employment is still far higher than before the recession, but it is down by 640,000 (7.9 percent) from its year ago level.",
           "translation": "6月份非自愿兼职有所增加，但总体方向是下降的。非自愿兼职就业人数仍远高于经济衰退前，但较去年同期水平减少了 64 万人（7.9%）。",
-          "slashed_text": "There was an increase / in involuntary part-time / in June , / but the general direction has been down. / Involuntary part-time employment is still far higher than before the recession , / but it is down by 640 , / 000 (7.9 percent) from its year ago level.",
-          "chunk_translation": "确实出现过增长 / 在非自愿兼职人数方面 / 在前一个月中， / 但总体趋势一直是在逐步下降的。 / 非自愿兼职就业人数依然远高于 / 经济衰退前的水平， / 但它正在逐步回落。",
+          "slashed_text": "There was an increase / in involuntary part-time / in June , / but the general direction has been down. / Involuntary part-time employment is still far higher than before the recession , / but it is down by 640,000 (7.9 percent) / from its year ago level.",
+          "chunk_translation": "确实出现过增长 / 在非自愿兼职人数方面 / 在前一个月中， / 但总体趋势一直是在逐步下降的。 / 非自愿兼职就业人数仍然远高于衰退前的水平， / 但相比一年前的水平已经减少了64万人 / （降幅达7.9%）。",
           "vocabulary": [
             {
               "word": "shows a general tendency of decline",
@@ -5722,8 +5722,8 @@
           "pid": 4,
           "text": "We know the difference between voluntary and involuntary part-time employment because people tell us. The survey used by the Labor Department asks people if they worked less than 35 hours in the reference week. If the answer is “yes,” they are classified as working part-time. The survey then asks whether they worked less than 35 hours in that week because they wanted to work less than full time or because they had no choice. They are only classified as voluntary part-time workers if they tell the survey taker they chose to work less than 35 hours a week.",
           "translation": "我们知道自愿和非自愿兼职工作之间的区别，因为人们告诉我们。劳工部使用的调查询问人们在参考周内的工作时间是否少于 35 小时。如果答案是“是”，他们就被归类为兼职工作。然后，调查询问他们在那一周的工作时间少于 35 小时，是因为他们想减少全职工作时间，还是因为他们别无选择。只有当他们告诉调查者他们选择每周工作时间少于 35 小时时，他们才会被归类为自愿兼职工人。",
-          "slashed_text": "We know the difference between voluntary and involuntary part-time employment / because people tell us. / The survey used by the Labor Department asks people / if they worked less than 35 hours in the reference week. / If the answer is “yes , / ” they are classified as working part-time. / The survey then asks whether they worked less than 35 hours in / that week / because they wanted to work less than full time or / because they had no choice. / They are only classified as voluntary part-time workers / if they tell the survey taker they chose to work less than 35 hours a week.",
-          "chunk_translation": "我们能够知晓二者的差异 / 自愿兼职与非自愿兼职就业之间的区别，正是通过劳工部每月开展的家庭调查得知的。 / 这项调查由 / 劳工部采用，会询问受访者是否从事了兼职工作。 / 如果回答是“是”， / 他们就会被归类为兼职从业人员。 / 随后调查会进一步询问 / 他们工作不足35小时 / 是因为他们自己自愿如此 / 还是因为他们找不到全职工作。 / 他们才会被归类 / 为自愿兼职工作者，如果他们是主动选择兼职工作的话。",
+          "slashed_text": "We know the difference / between voluntary and involuntary part-time employment / because people tell us. / The survey used by the Labor Department / asks people / if they worked less than 35 hours / in the reference week. / If the answer is “yes ,” / they are classified as working part-time. / The survey then asks / whether they worked less than 35 hours in that week / because they wanted to work less than full time / or because they had no choice. / They are only classified as voluntary part-time workers / if they tell the survey taker / they chose to work less than 35 hours a week.",
+          "chunk_translation": "我们之所以知道 / 自愿兼职与非自愿兼职就业的区别， / 是因为受访者如实告诉我们。 / 劳工部采用的调查 / 会询问受访者， / 是否在该参考调查周内 / 工作时间少于35小时。 / 如果回答是“是”， / 他们就会被归类为从事兼职工作。 / 随后调查会继续询问： / 他们在那一周工作少于35小时， / 是因为他们自己想做少于全职的工作， / 还是因为他们别无选择。 / 他们只有在告诉调查人员 / 自己是主动选择每周工作少于35小时的情况下， / 才会归类为自愿兼职工作者。",
           "vocabulary": [
             {
               "word": "the Labor Department",
@@ -5806,8 +5806,8 @@
           "pid": 5,
           "text": "The issue of voluntary part-time relates to Obamacare because one of the main purposes was to allow people to get insurance outside of employment. For many people, especially those with serious health conditions or family members with serious health conditions, before Obamacare the only way to get insurance was through a job that provided health insurance.",
           "translation": "自愿兼职问题与奥巴马医改有关，因为其主要目的之一是允许人们在就业之外获得保险。对于许多人来说，特别是那些患有严重健康问题的人或患有严重健康问题的家庭成员，在奥巴马医改之前，获得保险的唯一途径是通过提供健康保险的工作。",
-          "slashed_text": "The issue of voluntary part-time relates to Obamacare / because one of the main purposes was to allow people to get insurance outside of employment. / For many people , / especially those / with serious health conditions or family members / with serious health conditions , / before Obamacare the only way to get insurance was through a job / that provided health insurance.",
-          "chunk_translation": "自愿兼职的问题关联着 / 与奥巴马医改方案有着极其直接的关联。 / 对于许多人而言， / 特别是那些人 / 患有严重健康疾病的人， / 他们承受不起 / 离开一份提供医疗保险的工作的代价， / 因为他们自己无法单独购买到商业医保。",
+          "slashed_text": "The issue of voluntary part-time relates to Obamacare / because one of the main purposes was to allow people / to get insurance outside of employment. / For many people , / especially those with serious health conditions / or family members with serious health conditions , / before Obamacare / the only way to get insurance / was through a job that provided health insurance.",
+          "chunk_translation": "自愿兼职问题与奥巴马医改相关联， / 因为该法案的主要目的之一就是允许人们 / 在受雇工作之外获得医疗保险。 / 对于许多人来说， / 特别是那些自身患有严重疾病、 / 或者有家庭成员患有严重疾病的人， / 在奥巴马医改之前， / 获得医保的唯一途径 / 就是通过一份提供医疗保险的工作。",
           "vocabulary": [
             {
               "word": "insurance",
@@ -5895,8 +5895,8 @@
           "pid": 6,
           "text": "However, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges. These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families. With Obamacare there is no longer a link between employment and insurance.",
           "translation": "然而，奥巴马医改已允许超过 1200 万人通过医疗补助或交易所获得保险。这些人以前可能觉得需要找到一份提供保险的全职工作，以保障自己和家人的生活。有了奥巴马医改，就业和保险之间就不再有联系。",
-          "slashed_text": "However , / Obamacare has allowed more than 12 million people to either get insurance / through Medicaid or the exchanges. / These are people / who may previously have felt the need to get a full-time job / that provided insurance / in order to cover themselves and their families. / With Obamacare there is no longer a link between employment and insurance.",
-          "chunk_translation": "然而， / 奥巴马医改已经使1200多万人得以 / 能够自行购买并享有医疗保险。 / 这些人正是 / 先前可能感到有必要 / 去从事全职工作的人， / 仅仅为了获得医疗保险保障。 / 随着奥巴马医改的实施，全职就业与医疗保险之间的必然捆绑关系已不复存在。",
+          "slashed_text": "However , Obamacare has allowed / more than 12 million people / to either get insurance through Medicaid / or the exchanges. / These are people / who may previously have felt the need to get a full-time job that provided insurance / in order to cover themselves and their families. / With Obamacare / there is no longer a link / between employment and insurance.",
+          "chunk_translation": "然而，奥巴马医改已经使得 / 超过1200万人 / 能够通过医疗补助计划 / 或健康保险交易市场获得保险。 / 这些人 / 先前可能觉得必须去获得一份提供医保的全职工作， / 以便为自己和家人提供保障。 / 有了奥巴马医改， / 就业与医疗保险之间 / 不再存在必然的绑定纽带。",
           "vocabulary": [
             {
               "word": "employment is no longer a precondition to get insurance",
@@ -5988,8 +5988,8 @@
           "sentence_index": 0,
           "text": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news.",
           "translation": "许多人将劳工部报告的 6 月份新增就业岗位 288,000 个以及失业率下降至 6.1% 视为好消息。",
-          "slashed_text": "Many people talked of the 288 , / 000 new jobs the Labor Department reported / for June , / along with the drop in the unemployment rate to 6.1 percent , / as good news.",
-          "chunk_translation": "许多人谈及这288, / 000个新增就业岗位——由美国劳工部所报告的 / 6月份数据， / 以及失业率降至6.1%的喜讯， / 视其为大好消息。",
+          "slashed_text": "Many people talked of the 288,000 new jobs / the Labor Department reported for June , / along with the drop in the unemployment rate to 6.1 percent , / as good news.",
+          "chunk_translation": "许多人将劳工部公布的 / 6月份28.8万个新增就业岗位， / 以及失业率降至6.1%的消息， / 视作大好消息。",
           "syntax": {
             "breakdown": [
               {
@@ -6062,8 +6062,8 @@
           "sentence_index": 3,
           "text": "We still have a long way to go to get back to full employment, but at least we are now finally moving forward at a faster pace.",
           "translation": "恢复充分就业还有很长的路要走，但至少我们现在终于以更快的速度前进了。",
-          "slashed_text": "We still have a long way to go to get back to full employment , / but / at least we are now finally moving forward at a faster pace.",
-          "chunk_translation": "我们仍有很长的路 / 要走 / 才能重返充分就业状态。",
+          "slashed_text": "We still have a long way to go / to get back to full employment , / but at least we are now finally moving forward / at a faster pace.",
+          "chunk_translation": "我们仍有很长的路要走 / 才能重返充分就业， / 但至少我们现在终于在前进， / 以更快的步伐。",
           "syntax": {
             "breakdown": [
               {
@@ -6119,7 +6119,7 @@
           "text": "There was a big jump in the number of people who report voluntarily working part-time.",
           "translation": "自愿从事兼职工作的人数大幅增加。",
           "slashed_text": "There was a big jump in the number of people / who report voluntarily working part-time.",
-          "chunk_translation": "人数出现了大幅激增 / 那些报告称因经济原因而从事兼职工作的人数。",
+          "chunk_translation": "报告称自愿从事兼职工作的人数 / 出现了大幅激增。",
           "syntax": {
             "breakdown": [
               {
@@ -6146,8 +6146,8 @@
           "sentence_index": 2,
           "text": "This figure is now 830,000 (4.4 percent) above its year ago level.",
           "translation": "目前这一数字比去年同期增加了 830,000 人（4.4%）。",
-          "slashed_text": "This figure is now 830 , / 000 (4.4 percent) above its year ago level.",
-          "chunk_translation": "这一数字目前比一年前高出830, / 000人（增幅达4.4%）。",
+          "slashed_text": "This figure is now 830,000 (4.4 percent) / above its year ago level.",
+          "chunk_translation": "这一数字目前比一年前的高出83万人 / （增幅达4.4%）。",
           "syntax": {
             "breakdown": [
               {
@@ -6170,7 +6170,7 @@
           "text": "Before explaining the connection to the Obamacare, it is worth making an important distinction.",
           "translation": "在解释与奥巴马医改的联系之前，有必要先做一个重要的区分。",
           "slashed_text": "Before explaining the connection to the Obamacare , / it is worth making an important distinction.",
-          "chunk_translation": "在解释其与奥巴马医改方案的关联之前， / 有必要先澄清这些术语的具体含义。",
+          "chunk_translation": "在解释其与奥巴马医改的关系之前， / 有必要先做出一个重要的区分。",
           "syntax": {
             "breakdown": [
               {
@@ -6248,8 +6248,8 @@
           "sentence_index": 3,
           "text": "An increase in involuntary part-time work is evidence of weakness in the labor market and it means that many people will be having a very hard time making ends meet.",
           "translation": "非自愿兼职工作的增加是劳动力市场疲软的证据，这意味着许多人将很难维持收支平衡。",
-          "slashed_text": "An increase / in involuntary part-time work is evidence of weakness in the labor market and it means / that many people will be having a very hard time making ends meet.",
-          "chunk_translation": "数量的增加 / 在非自愿兼职工作方面的增加， / 正是劳动力市场疲软乏力的有力证据。",
+          "slashed_text": "An increase in involuntary part-time work / is evidence of weakness in the labor market / and it means that many people / will be having a very hard time making ends meet.",
+          "chunk_translation": "非自愿兼职工作的增加 / 是劳动力市场疲软的证据， / 这意味着许多人 / 将在维持生计上经历非常艰难的时期。",
           "syntax": {
             "breakdown": [
               {
@@ -6299,8 +6299,8 @@
           "sentence_index": 1,
           "text": "Involuntary part-time employment is still far higher than before the recession, but it is down by 640,000 (7.9 percent) from its year ago level.",
           "translation": "非自愿兼职就业人数仍远高于经济衰退前，但较去年同期水平减少了 64 万人（7.9%）。",
-          "slashed_text": "Involuntary part-time employment is still far higher than before the recession , / but it is down by 640 , / 000 (7.9 percent) from its year ago level.",
-          "chunk_translation": "非自愿兼职就业人数依然远高于 / 经济衰退前的水平， / 但它正在逐步回落。",
+          "slashed_text": "Involuntary part-time employment is still far higher than before the recession , / but it is down by 640,000 (7.9 percent) / from its year ago level.",
+          "chunk_translation": "非自愿兼职就业人数仍然远高于衰退前的水平， / 但相比一年前的水平已经减少了64万人 / （降幅达7.9%）。",
           "syntax": {
             "breakdown": [
               {
@@ -6327,8 +6327,8 @@
           "sentence_index": 0,
           "text": "We know the difference between voluntary and involuntary part-time employment because people tell us.",
           "translation": "我们知道自愿和非自愿兼职工作之间的区别，因为人们告诉我们。",
-          "slashed_text": "We know the difference between voluntary and involuntary part-time employment / because people tell us.",
-          "chunk_translation": "我们能够知晓二者的差异 / 自愿兼职与非自愿兼职就业之间的区别，正是通过劳工部每月开展的家庭调查得知的。",
+          "slashed_text": "We know the difference / between voluntary and involuntary part-time employment / because people tell us.",
+          "chunk_translation": "我们之所以知道 / 自愿兼职与非自愿兼职就业的区别， / 是因为受访者如实告诉我们。",
           "syntax": {
             "breakdown": [
               {
@@ -6350,8 +6350,8 @@
           "sentence_index": 1,
           "text": "The survey used by the Labor Department asks people if they worked less than 35 hours in the reference week.",
           "translation": "劳工部使用的调查询问人们在参考周内的工作时间是否少于 35 小时。",
-          "slashed_text": "The survey used by the Labor Department asks people / if they worked less than 35 hours in the reference week.",
-          "chunk_translation": "这项调查由 / 劳工部采用，会询问受访者是否从事了兼职工作。",
+          "slashed_text": "The survey used by the Labor Department / asks people / if they worked less than 35 hours / in the reference week.",
+          "chunk_translation": "劳工部采用的调查 / 会询问受访者， / 是否在该参考调查周内 / 工作时间少于35小时。",
           "syntax": {
             "breakdown": [
               {
@@ -6378,8 +6378,8 @@
           "sentence_index": 2,
           "text": "If the answer is “yes,” they are classified as working part-time.",
           "translation": "如果答案是“是”，他们就被归类为兼职工作。",
-          "slashed_text": "If the answer is “yes , / ” they are classified as working part-time.",
-          "chunk_translation": "如果回答是“是”， / 他们就会被归类为兼职从业人员。",
+          "slashed_text": "If the answer is “yes ,” / they are classified as working part-time.",
+          "chunk_translation": "如果回答是“是”， / 他们就会被归类为从事兼职工作。",
           "syntax": {
             "breakdown": [
               {
@@ -6401,8 +6401,8 @@
           "sentence_index": 3,
           "text": "The survey then asks whether they worked less than 35 hours in that week because they wanted to work less than full time or because they had no choice.",
           "translation": "然后，调查询问他们在那一周的工作时间少于 35 小时，是因为他们想减少全职工作时间，还是因为他们别无选择。",
-          "slashed_text": "The survey then asks whether they worked less than 35 hours in / that week / because they wanted to work less than full time or / because they had no choice.",
-          "chunk_translation": "随后调查会进一步询问 / 他们工作不足35小时 / 是因为他们自己自愿如此 / 还是因为他们找不到全职工作。",
+          "slashed_text": "The survey then asks / whether they worked less than 35 hours in that week / because they wanted to work less than full time / or because they had no choice.",
+          "chunk_translation": "随后调查会继续询问： / 他们在那一周工作少于35小时， / 是因为他们自己想做少于全职的工作， / 还是因为他们别无选择。",
           "syntax": {
             "breakdown": [
               {
@@ -6429,8 +6429,8 @@
           "sentence_index": 4,
           "text": "They are only classified as voluntary part-time workers if they tell the survey taker they chose to work less than 35 hours a week.",
           "translation": "只有当他们告诉调查者他们选择每周工作时间少于 35 小时时，他们才会被归类为自愿兼职工人。",
-          "slashed_text": "They are only classified as voluntary part-time workers / if they tell the survey taker they chose to work less than 35 hours a week.",
-          "chunk_translation": "他们才会被归类 / 为自愿兼职工作者，如果他们是主动选择兼职工作的话。",
+          "slashed_text": "They are only classified as voluntary part-time workers / if they tell the survey taker / they chose to work less than 35 hours a week.",
+          "chunk_translation": "他们只有在告诉调查人员 / 自己是主动选择每周工作少于35小时的情况下， / 才会归类为自愿兼职工作者。",
           "syntax": {
             "breakdown": [
               {
@@ -6457,8 +6457,8 @@
           "sentence_index": 0,
           "text": "The issue of voluntary part-time relates to Obamacare because one of the main purposes was to allow people to get insurance outside of employment.",
           "translation": "自愿兼职问题与奥巴马医改有关，因为其主要目的之一是允许人们在就业之外获得保险。",
-          "slashed_text": "The issue of voluntary part-time relates to Obamacare / because one of the main purposes was to allow people to get insurance outside of employment.",
-          "chunk_translation": "自愿兼职的问题关联着 / 与奥巴马医改方案有着极其直接的关联。",
+          "slashed_text": "The issue of voluntary part-time relates to Obamacare / because one of the main purposes was to allow people / to get insurance outside of employment.",
+          "chunk_translation": "自愿兼职问题与奥巴马医改相关联， / 因为该法案的主要目的之一就是允许人们 / 在受雇工作之外获得医疗保险。",
           "syntax": {
             "breakdown": [
               {
@@ -6485,8 +6485,8 @@
           "sentence_index": 1,
           "text": "For many people, especially those with serious health conditions or family members with serious health conditions, before Obamacare the only way to get insurance was through a job that provided health insurance.",
           "translation": "对于许多人来说，特别是那些患有严重健康问题的人或患有严重健康问题的家庭成员，在奥巴马医改之前，获得保险的唯一途径是通过提供健康保险的工作。",
-          "slashed_text": "For many people , / especially those / with serious health conditions or family members / with serious health conditions , / before Obamacare the only way to get insurance was through a job / that provided health insurance.",
-          "chunk_translation": "对于许多人而言， / 特别是那些人 / 患有严重健康疾病的人， / 他们承受不起 / 离开一份提供医疗保险的工作的代价， / 因为他们自己无法单独购买到商业医保。",
+          "slashed_text": "For many people , / especially those with serious health conditions / or family members with serious health conditions , / before Obamacare / the only way to get insurance / was through a job that provided health insurance.",
+          "chunk_translation": "对于许多人来说， / 特别是那些自身患有严重疾病、 / 或者有家庭成员患有严重疾病的人， / 在奥巴马医改之前， / 获得医保的唯一途径 / 就是通过一份提供医疗保险的工作。",
           "syntax": {
             "breakdown": [
               {
@@ -6513,8 +6513,8 @@
           "sentence_index": 0,
           "text": "However, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges.",
           "translation": "然而，奥巴马医改已允许超过 1200 万人通过医疗补助或交易所获得保险。",
-          "slashed_text": "However , / Obamacare has allowed more than 12 million people to either get insurance / through Medicaid or the exchanges.",
-          "chunk_translation": "然而， / 奥巴马医改已经使1200多万人得以 / 能够自行购买并享有医疗保险。",
+          "slashed_text": "However , Obamacare has allowed / more than 12 million people / to either get insurance through Medicaid / or the exchanges.",
+          "chunk_translation": "然而，奥巴马医改已经使得 / 超过1200万人 / 能够通过医疗补助计划 / 或健康保险交易市场获得保险。",
           "syntax": {
             "breakdown": [
               {
@@ -6541,8 +6541,8 @@
           "sentence_index": 1,
           "text": "These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families.",
           "translation": "这些人以前可能觉得需要找到一份提供保险的全职工作，以保障自己和家人的生活。",
-          "slashed_text": "These are people / who may previously have felt the need to get a full-time job / that provided insurance / in order to cover themselves and their families.",
-          "chunk_translation": "这些人正是 / 先前可能感到有必要 / 去从事全职工作的人， / 仅仅为了获得医疗保险保障。",
+          "slashed_text": "These are people / who may previously have felt the need to get a full-time job that provided insurance / in order to cover themselves and their families.",
+          "chunk_translation": "这些人 / 先前可能觉得必须去获得一份提供医保的全职工作， / 以便为自己和家人提供保障。",
           "syntax": {
             "breakdown": [
               {
@@ -6569,8 +6569,8 @@
           "sentence_index": 2,
           "text": "With Obamacare there is no longer a link between employment and insurance.",
           "translation": "有了奥巴马医改，就业和保险之间就不再有联系。",
-          "slashed_text": "With Obamacare there is no longer a link between employment and insurance.",
-          "chunk_translation": "随着奥巴马医改的实施，全职就业与医疗保险之间的必然捆绑关系已不复存在。",
+          "slashed_text": "With Obamacare / there is no longer a link / between employment and insurance.",
+          "chunk_translation": "有了奥巴马医改， / 就业与医疗保险之间 / 不再存在必然的绑定纽带。",
           "syntax": {
             "breakdown": [
               {
