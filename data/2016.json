@@ -3831,8 +3831,8 @@
           "pid": 1,
           "text": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient. The web’s full of articles offering tips on making time to read: “Give up TV” or “Carry a book with you at all times.” But in my experience, using such methods to free up the odd 30 minutes doesn’t work. Sit down to read and the flywheel of work-related thoughts keeps spinning—or else you’re so exhausted that a challenging book’s the last thing you need. The modern mind, Tim Parks, a novelist and critic, writes, “is overwhelmingly inclined toward communication … It is not simply that one is interrupted; it is that one is actually inclined to interruption.” Deep reading requires not just time, but a special kind of time which can’t be obtained merely by becoming more efficient.",
           "translation": "使问题变得更加棘手的是，通常的时间管理技巧似乎还不够。网络上有很多文章提供了如何腾出时间阅读的建议：“放弃电视”或“随时随身携带一本书”。但根据我的经验，用这样的方法来腾出那零星的30分钟是行不通的。坐下来阅读，与工作相关的想法的飞轮会不断旋转，否则你会精疲力尽，以至于你最不需要的就是一本具有挑战性的书。小说家兼评论家蒂姆·帕克斯 (Tim Parks) 写道，现代人“极其倾向于交流……这不仅仅是一个人被打断；而是一个人实际上倾向于打断。”深度阅读需要的不仅仅是时间，而是一种特殊的时间，而这种时间不是仅仅通过提高效率就能获得的。",
-          "slashed_text": "What makes the problem thornier is / that the usual time-management techniques don’t seem sufficient. / The web’s full of articles offering tips / on making time to read : / “Give up TV” or “Carry a book with you at all times.” But in my experience , / using such methods to free up the odd 30 minutes doesn’t work. / Sit down to read and the flywheel of work-related thoughts keeps spinning — / or else you’re so exhausted / that a challenging book’s the last thing you need. / The modern mind , / Tim Parks , / a novelist and critic , / writes , / “is overwhelmingly inclined toward communication … It is not simply / that one is interrupted ; / it is / that one is actually inclined to interruption.” Deep reading requires not just time , / but a special kind of time / which can’t be obtained merely / by becoming more efficient.",
-          "chunk_translation": "让这个问题变得更加棘手的是， / 通常的补救办法反而会让情况更加恶化。 / 网络上充斥着 / 提供各种建议的文章， / 关于如何挤出时间 / 用来阅读。 / 坐下来准备阅读， / 脑海中那些与工作相关的思绪飞轮 / 却依然在高速运转个不停。 / 现代人的心智， / 蒂姆·帕克斯， / 一位小说家兼评论家， / 写道， / “具有极其强烈的交流沟通倾向……这不仅仅在于 / 一个人会被打断； / 而在于 / 一个人实际上主动倾向于被打断。”深度阅读需要的不仅仅是时间， / 而是一种特别的时间， / 这种时间是无法仅仅通过 / 变得更加高效而获取的。",
+          "slashed_text": "What makes the problem thornier is / that the usual time-management techniques don’t seem sufficient. / The web’s full of articles offering tips / on making time to read : / “Give up TV” or “Carry a book with you at all times .” / But in my experience , / using such methods to free up the odd 30 minutes / doesn’t work . / Sit down to read and the flywheel of work-related thoughts keeps spinning — / or else you’re so exhausted / that a challenging book’s the last thing you need. / The modern mind , / Tim Parks , / a novelist and critic , / writes , / “is overwhelmingly inclined toward communication … It is not simply / that one is interrupted ; / it is / that one is actually inclined to interruption .” / Deep reading requires not just time , / but a special kind of time / which can’t be obtained merely / by becoming more efficient .",
+          "chunk_translation": "让这个问题变得更加棘手的是， / 通常的补救办法反而会让情况更加恶化。 / 网络上充斥着提供建议的文章， / 关于如何挤出时间用来阅读： / “戒掉电视”或者“随身带一本书”。 / 但依我的经验， / 使用这类方法去腾出零碎的30分钟 / 是行不通的。 / 坐下来准备阅读， / 脑海中那些与工作相关的思绪飞轮 / 却依然在高速运转个不停。 / 现代人的心智， / 蒂姆·帕克斯， / 一位小说家兼评论家， / 写道， / “具有极其强烈的交流沟通倾向……这不仅仅在于 / 一个人会被打断； / 而在于 / 一个人实际上主动倾向于被打断。” / 深度阅读需要的不仅仅是时间， / 而是一种特别的时间， / 这种时间是无法仅仅通过 / 变得更加高效而获取的。",
           "vocabulary": [
             {
               "word": "what deep reading requires cannot be guaranteed",
@@ -4590,9 +4590,9 @@
           "pid": 1,
           "sentence_index": 1,
           "text": "The web’s full of articles offering tips on making time to read: “Give up TV” or “Carry a book with you at all times.” But in my experience, using such methods to free up the odd 30 minutes doesn’t work.",
-          "translation": "网络上有很多文章提供了如何腾出时间阅读的建议：“放弃电视”或“随时随身携带一本书”。但根据我的经验，用这样的方法来腾出那零星的30分钟是行不通的。",
-          "slashed_text": "The web’s full of articles offering tips / on making time to read : / “Give up TV” or “Carry a book with you at all times.” But in my experience , / using such methods to free up the odd 30 minutes doesn’t work.",
-          "chunk_translation": "网络上充斥着 / 提供各种建议的文章， / 关于如何挤出时间 / 用来阅读。",
+          "translation": "网络上充斥着提供如何挤出时间阅读的建议文章：“戒掉电视”或“随身带一本书”。但依我的经验，使用这类方法去腾出零碎的30分钟是行不通的。",
+          "slashed_text": "The web’s full of articles offering tips / on making time to read : / “Give up TV” or “Carry a book with you at all times .” / But in my experience , / using such methods to free up the odd 30 minutes / doesn’t work .",
+          "chunk_translation": "网络上充斥着提供建议的文章， / 关于如何挤出时间用来阅读： / “戒掉电视”或者“随身带一本书”。 / 但依我的经验， / 使用这类方法去腾出零碎的30分钟 / 是行不通的。",
           "syntax": {
             "breakdown": [
               {
@@ -4647,8 +4647,8 @@
           "sentence_index": 3,
           "text": "The modern mind, Tim Parks, a novelist and critic, writes, “is overwhelmingly inclined toward communication … It is not simply that one is interrupted; it is that one is actually inclined to interruption.” Deep reading requires not just time, but a special kind of time which can’t be obtained merely by becoming more efficient.",
           "translation": "小说家兼评论家蒂姆·帕克斯 (Tim Parks) 写道，现代人“极其倾向于交流……这不仅仅是一个人被打断；而是一个人实际上倾向于打断。”深度阅读需要的不仅仅是时间，而是一种特殊的时间，而这种时间不是仅仅通过提高效率就能获得的。",
-          "slashed_text": "The modern mind , / Tim Parks , / a novelist and critic , / writes , / “is overwhelmingly inclined toward communication … It is not simply / that one is interrupted ; / it is / that one is actually inclined to interruption.” Deep reading requires not just time , / but a special kind of time / which can’t be obtained merely / by becoming more efficient.",
-          "chunk_translation": "现代人的心智， / 蒂姆·帕克斯， / 一位小说家兼评论家， / 写道， / “具有极其强烈的交流沟通倾向……这不仅仅在于 / 一个人会被打断； / 而在于 / 一个人实际上主动倾向于被打断。”深度阅读需要的不仅仅是时间， / 而是一种特别的时间， / 这种时间是无法仅仅通过 / 变得更加高效而获取的。",
+          "slashed_text": "The modern mind , / Tim Parks , / a novelist and critic , / writes , / “is overwhelmingly inclined toward communication … It is not simply / that one is interrupted ; / it is / that one is actually inclined to interruption .” / Deep reading requires not just time , / but a special kind of time / which can’t be obtained merely / by becoming more efficient .",
+          "chunk_translation": "现代人的心智， / 蒂姆·帕克斯， / 一位小说家兼评论家， / 写道， / “具有极其强烈的交流沟通倾向……这不仅仅在于 / 一个人会被打断； / 而在于 / 一个人实际上主动倾向于被打断。” / 深度阅读需要的不仅仅是时间， / 而是一种特别的时间， / 这种时间是无法仅仅通过 / 变得更加高效而获取的。",
           "syntax": {
             "breakdown": [
               {

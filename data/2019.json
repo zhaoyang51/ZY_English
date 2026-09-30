@@ -6976,8 +6976,8 @@
           "pid": 5,
           "text": "This might mean implementing policy such as a plastic tax that adds a cost to environmentally problematic action, or banning single-use plastics altogether. India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier, such as ensuring recycling is at least as easy as trash disposal.",
           "translation": "这可能意味着实施塑料税等政策，增加环境问题行动的成本，或者完全禁止一次性塑料。印度刚刚宣布将“到 2022 年消除该国所有一次性塑料制品”。还有一些基于激励的方法可以让更好的环境选择变得更容易，例如确保回收至少像垃圾处理一样容易。",
-          "slashed_text": "This might mean implementing policy such as a plastic tax / that adds a cost to environmentally problematic action , / or banning single-use plastics altogether. / India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier , / such as ensuring recycling is / at least as easy as trash disposal.",
-          "chunk_translation": "这可能意味着推行诸如征收塑料税等政策， / 为危害环境的行为增加成本， / 或者彻底取缔一次性塑料制品。 / 印度刚刚宣布将于“2022年前在全国范围内消除所有一次性塑料制品”。此外还可以通过激励机制让做出更好的环保选择变得更加容易， / 例如确保垃圾回收 / 至少与丢弃垃圾一样方便。",
+          "slashed_text": "This might mean implementing policy such as a plastic tax / that adds a cost to environmentally problematic action , / or banning single-use plastics altogether. / India has just announced / it will “eliminate all single-use plastic in the country by 2022 .” / There are also incentive-based ways / of making better environmental choices easier , / such as ensuring recycling is / at least as easy as trash disposal .",
+          "chunk_translation": "这可能意味着推行诸如征收塑料税等政策， / 为危害环境的行为增加成本， / 或者彻底取缔一次性塑料制品。 / 印度刚刚宣布 / 将于“2022年前在全国范围内消除所有一次性塑料制品”。 / 此外还存在基于激励的方法， / 让人们更容易做出环保的选择， / 例如确保垃圾回收 / 至少与倾倒垃圾一样方便。",
           "vocabulary": [
             {
               "word": "recycling",
@@ -7603,8 +7603,8 @@
           "sentence_index": 1,
           "text": "India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier, such as ensuring recycling is at least as easy as trash disposal.",
           "translation": "印度刚刚宣布将“到 2022 年消除该国所有一次性塑料制品”。还有一些基于激励的方法可以让更好的环境选择变得更容易，例如确保回收至少像垃圾处理一样容易。",
-          "slashed_text": "India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier , / such as ensuring recycling is / at least as easy as trash disposal.",
-          "chunk_translation": "印度刚刚宣布将于“2022年前在全国范围内消除所有一次性塑料制品”。此外还可以通过激励机制让做出更好的环保选择变得更加容易， / 例如确保垃圾回收 / 至少与丢弃垃圾一样方便。",
+          "slashed_text": "India has just announced / it will “eliminate all single-use plastic in the country by 2022 .” / There are also incentive-based ways / of making better environmental choices easier , / such as ensuring recycling is / at least as easy as trash disposal .",
+          "chunk_translation": "印度刚刚宣布 / 将于“2022年前在全国范围内消除所有一次性塑料制品”。 / 此外还存在基于激励的方法， / 让人们更容易做出环保的选择， / 例如确保垃圾回收 / 至少与倾倒垃圾一样方便。",
           "syntax": {
             "breakdown": [
               {

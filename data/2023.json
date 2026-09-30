@@ -4175,8 +4175,8 @@
           "pid": 1,
           "text": "In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.” Traditionally, this role was fulfilled by data banks, libraries, and other humans. Your father may never remember birthdays because your mother does, for instance. Some worry that this is having a destructive effect on society, but Sparrow sees an upside. Perhaps, she suggests, the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— something that is not available on the Internet. “I personally have never seen all that much intellectual value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.",
           "translation": "以一种非常实际的方式，互联网正在成为我们记忆的外部硬盘驱动器，这一过程被称为“认知卸载”。传统上，这一角色是由数据库、图书馆和其他人来履行的。例如，你的父亲可能永远不会记得生日，因为你的母亲会记得。有些人担心这会对社会产生破坏性影响，但斯帕罗看到了积极的一面。她认为，也许这一趋势将改变我们的学习方法，从关注个人事实和记忆转向强调更多概念性思维——这是互联网上无法提供的。斯帕罗说：“我个人从未见过记忆事物有如此大的智力价值。”他补充说，我们并没有失去记忆的能力。",
-          "slashed_text": "In a very practical way , / the Internet is becoming an external hard drive for our memories , / a process known as “cognitive offloading.” Traditionally , / this role was fulfilled / by data banks , / libraries , / and other humans. / Your father may never remember birthdays / because your mother does , / for instance. / Some worry / that this is having a destructive effect / on society , / but Sparrow sees an upside. / Perhaps , / she suggests , / the trend will change our approach to learning from a focus / on individual facts and memorization to an emphasis / on more conceptual thinking — / something / that is not available on the Internet. / “I personally have never seen all / that much intellectual value / in memorizing things , / ” Sparrow says , / adding / that we haven’t lost our ability to do it.",
-          "chunk_translation": "在非常切实的意义上， / 互联网正在变成我们个人记忆的“外挂硬盘”， / 这一过程被称为“认知卸载”。在传统时代， / 这一角色主要是由 / 资料库、 / 图书馆 / 以及身边其他人来承担的。 / 比如你的父亲可能从来记不住家人的生日， / 因为你的母亲总会记住， / 就是这个道理。 / 有人担忧 / 这正在产生破坏性负面影响 / 对整个社会而言， / 但斯帕罗却看到了其积极的一面。 / 也许， / 她指出， / 这一趋势将促使我们的学习方式发生转变，从过度聚焦 / 于个别事实和死记硬背，转向着重培养 / 更为宏观的概念性思维—— / 而这正是 / 互联网本身所无法直接提供的能力。 / “我个人从未认为 / 死记硬背各种事物 / 有多么巨大的智力价值，” / 斯帕罗表示， / 并补充道， / 我们并没有丧失记忆的能力。",
+          "slashed_text": "In a very practical way , / the Internet is becoming an external hard drive for our memories , / a process known as “cognitive offloading .” / Traditionally , / this role was fulfilled / by data banks , / libraries , / and other humans . / Your father may never remember birthdays / because your mother does , / for instance. / Some worry / that this is having a destructive effect / on society , / but Sparrow sees an upside. / Perhaps , / she suggests , / the trend will change our approach to learning from a focus / on individual facts and memorization to an emphasis / on more conceptual thinking — / something / that is not available on the Internet. / “I personally have never seen all / that much intellectual value / in memorizing things , / ” Sparrow says , / adding / that we haven’t lost our ability to do it.",
+          "chunk_translation": "在非常切实的意义上， / 互联网正在成为我们记忆的外部硬盘， / 这一过程被称为“认知卸载”。 / 在传统时代， / 这一角色主要是由 / 资料库、 / 图书馆 / 以及其他人来承担的。 / 比如你的父亲可能从来记不住家人的生日， / 因为你的母亲总会记住， / 就是这个道理。 / 有人担忧 / 这正在产生破坏性负面影响 / 对整个社会而言， / 但斯帕罗却看到了其积极的一面。 / 也许， / 她指出， / 这一趋势将促使我们的学习方式发生转变，从过度聚焦 / 于个别事实和死记硬背，转向着重培养 / 更为宏观的概念性思维—— / 而这正是 / 互联网本身所无法直接提供的能力。 / “我个人从未认为 / 死记硬背各种事物 / 有多么巨大的智力价值，” / 斯帕罗表示， / 并补充道， / 我们并没有丧失记忆的能力。",
           "vocabulary": [
             {
               "word": "lessens our memory burdens",
@@ -4935,8 +4935,8 @@
           "sentence_index": 0,
           "text": "In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.” Traditionally, this role was fulfilled by data banks, libraries, and other humans.",
           "translation": "以一种非常实际的方式，互联网正在成为我们记忆的外部硬盘驱动器，这一过程被称为“认知卸载”。传统上，这一角色是由数据库、图书馆和其他人来履行的。",
-          "slashed_text": "In a very practical way , / the Internet is becoming an external hard drive for our memories , / a process known as “cognitive offloading.” Traditionally , / this role was fulfilled / by data banks , / libraries , / and other humans.",
-          "chunk_translation": "在非常切实的意义上， / 互联网正在变成我们个人记忆的“外挂硬盘”， / 这一过程被称为“认知卸载”。在传统时代， / 这一角色主要是由 / 资料库、 / 图书馆 / 以及身边其他人来承担的。",
+          "slashed_text": "In a very practical way , / the Internet is becoming an external hard drive for our memories , / a process known as “cognitive offloading .” / Traditionally , / this role was fulfilled / by data banks , / libraries , / and other humans .",
+          "chunk_translation": "在非常切实的意义上， / 互联网正在成为我们记忆的外部硬盘， / 这一过程被称为“认知卸载”。 / 在传统时代， / 这一角色主要是由 / 资料库、 / 图书馆 / 以及其他人来承担的。",
           "syntax": {
             "breakdown": [
               {
@@ -5107,7 +5107,7 @@
           "pid": 2,
           "sentence_index": 1,
           "text": "There is no experimental evidence showing that it interferes with  our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J.",
-          "translation": "There is no experimental evidence showing that it interferes with  our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J.",
+          "translation": "例如，心理学家克里斯托弗·查布里斯和丹尼尔·J·写道，目前尚无确凿的实验证据表明互联网干扰了我们的专注力。",
           "slashed_text": "There is no experimental evidence showing / that it interferes with  our ability to focus , / for instance , / wrote psychologists Christopher Chabris and Daniel J.",
           "chunk_translation": "目前尚无确凿的实验证据表明 / 互联网干扰了我们的专注力， / 举例来说， / 心理学家克里斯托弗·查布里斯和丹尼尔·J·",
           "syntax": {
@@ -6403,8 +6403,8 @@
           "pid": 5,
           "text": "Is there some common factor that underlies these apparently contradictory developments? One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.",
           "translation": "这些看似矛盾的发展背后是否存在某种共同因素？一种观点是，青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报与风险、收益与成本。“奖励敏感性”衡量的是需要多少奖励才能超过风险。",
-          "slashed_text": "Is there some common factor / that underlies these apparently contradictory developments? / One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks , / benefits and costs. / “Reward sensitivity” measures how much reward it takes to outweigh risk.",
-          "chunk_translation": "是否存在某种共同的底层因素， / 在驱动着这些表面上看似矛盾的发展变化？ / 一种解释是， / 青少年的行为与研究人员所谓的“奖励敏感性”紧密相关。任何决策制定始终都涉及到权衡奖赏与风险、 / 收益与代价。 / “奖励敏感性”所衡量的，正是需要多大程度的奖励回报才足以压倒所面临的风险。",
+          "slashed_text": "Is there some common factor / that underlies these apparently contradictory developments? / One idea is / that teenage behavior is related to what researchers call “reward sensitivity .” / Decision-making always involves / balancing rewards and risks , / benefits and costs . / “Reward sensitivity” measures how much reward it takes to outweigh risk.",
+          "chunk_translation": "是否存在某种共同的底层因素， / 在驱动着这些表面上看似矛盾的发展变化？ / 一种观点是， / 青少年的行为与研究人员所谓的“奖励敏感性”相关。 / 决策制定始终涉及到 / 权衡回报与风险， / 以及收益与代价。 / “奖励敏感性”所衡量的，正是需要多大程度的奖励回报才足以压倒所面临的风险。",
           "vocabulary": [
             {
               "word": "teenage",
@@ -6751,7 +6751,7 @@
           "pid": 0,
           "sentence_index": 4,
           "text": "At the  same time, once cheerful and compliant children become rebellious teenage risk-takers.",
-          "translation": "At the  same time, once cheerful and compliant children become rebellious teenage risk-takers.",
+          "translation": "但与此同时，曾经温顺听话的孩童也蜕变为了桀骜不驯、热衷冒险的叛逆少年。",
           "slashed_text": "At the  same time , / once cheerful and compliant children become rebellious teenage risk-takers.",
           "chunk_translation": "但与此同时， / 曾经温顺听话的孩童也蜕变为了桀骜不驯、热衷冒险的叛逆少年。",
           "syntax": {
@@ -7003,7 +7003,7 @@
           "pid": 3,
           "sentence_index": 2,
           "text": "Teenagers were  more likely than younger children or adults to report that they did things like unselfishly help a friend.",
-          "translation": "Teenagers were  more likely than younger children or adults to report that they did things like unselfishly help a friend.",
+          "translation": "相比年幼儿童或成年人，青少年更倾向于报告自己曾做出诸如无私帮助朋友等亲社会行为。",
           "slashed_text": "Teenagers were  more likely than younger children or adults to report / that they did things like unselfishly help a friend.",
           "chunk_translation": "相比年幼儿童或成年人，青少年更倾向于报告 / 自己曾做出诸如无私帮助朋友等亲社会行为。",
           "syntax": {
@@ -7144,8 +7144,8 @@
           "sentence_index": 1,
           "text": "One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs.",
           "translation": "一种观点是，青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报与风险、收益与成本。",
-          "slashed_text": "One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks , / benefits and costs.",
-          "chunk_translation": "一种解释是， / 青少年的行为与研究人员所谓的“奖励敏感性”紧密相关。任何决策制定始终都涉及到权衡奖赏与风险、 / 收益与代价。",
+          "slashed_text": "One idea is / that teenage behavior is related to what researchers call “reward sensitivity .” / Decision-making always involves / balancing rewards and risks , / benefits and costs .",
+          "chunk_translation": "一种观点是， / 青少年的行为与研究人员所谓的“奖励敏感性”相关。 / 决策制定始终涉及到 / 权衡回报与风险， / 以及收益与代价。",
           "syntax": {
             "breakdown": [
               {

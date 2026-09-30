@@ -150,8 +150,8 @@
           "pid": 1,
           "text": "Parkrun is succeeding where London’s Olympic “legacy” is failing. Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London. Planning documents pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. The population would be fitter, healthier and produce more winners. It has not happened. The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster. Worse, the numbers are now falling at an accelerating rate. The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official retrospections continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.",
           "translation": "帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。十年前的周一，宣布第 30 届奥运会将在伦敦举行。规划文件承诺，奥运会的伟大遗产将是让全国的体育爱好者远离沙发。人口将会变得更健康、更健康，并产生更多的赢家。但它并没有发生。每周参加体育运动的成年人数量确实有所增加，到 2012 年为止增加了近 200 万，但总人口增长得更快。更糟糕的是，这个数字现在正在加速下降。反对派声称，小学生每周至少进行两小时体育运动的人数几乎减少了一半。成人和儿童的肥胖率有所上升。官方仍在继续反思为什么 2012 年伦敦奥运会未能“激励一代人”。 Parkrun 的成功提供了答案。",
-          "slashed_text": "Parkrun is succeeding / where London’s Olympic “legacy” is failing. / Ten years ago on Monday , / it was announced / that the Games of the 30th Olympiad / would be in London. / Planning documents pledged / that the great legacy of the Games / would be to lever a nation of sport lovers / away from their couches. / The population would be fitter , / healthier / and produce more winners. / It has not happened. / The number of adults doing weekly sport did rise , / by nearly 2 million in the run-up to 2012 — / but the general population was growing faster. / Worse , / the numbers are now falling at an accelerating rate. / The opposition claims / primary school pupils doing at least two hours of sport a week / have nearly halved. / Obesity has risen among adults and children. / Official retrospections continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.",
-          "chunk_translation": "公园跑取得了显著的成功， / 而伦敦奥运会的“遗产计划”却正在走向失败。 / 十年前的周一， / 官方正式宣布， / 第30届奥林匹克运动会 / 将在伦敦举行。 / 规划文件承诺， / 本届奥运会最伟大的遗产 / 将是促使一个热爱体育的国家的大众 / 离开沙发走出家门。 / 全体国民将变得更健壮、 / 更健康， / 并涌现出更多的优胜赢家。 / 然而这一切并未发生。 / 每周进行体育运动的成年人数量确实上升了， / 在2012年筹备期间增加了近200万—— / 但总体人口的增长速度更快。 / 更为糟糕的是， / 该参与人数目前正以更快的速度持续下滑。 / 反对党声称， / 每周至少进行两小时体育锻炼的小学生人数 / 几乎减半。 / 成年人和儿童中的肥胖率均在上升。 / 关于伦敦为何未能兑现其体育遗产承诺的官方反思仍在继续。",
+          "slashed_text": "Parkrun is succeeding / where London’s Olympic “legacy” is failing. / Ten years ago on Monday , / it was announced / that the Games of the 30th Olympiad / would be in London. / Planning documents pledged / that the great legacy of the Games / would be to lever a nation of sport lovers / away from their couches. / The population would be fitter , / healthier / and produce more winners. / It has not happened. / The number of adults doing weekly sport did rise , / by nearly 2 million in the run-up to 2012 — / but the general population was growing faster. / Worse , / the numbers are now falling at an accelerating rate. / The opposition claims / primary school pupils doing at least two hours of sport a week / have nearly halved. / Obesity has risen among adults and children. / Official retrospections continue / as to why London 2012 failed to “inspire a generation .” / The success of Parkrun / offers answers .",
+          "chunk_translation": "公园跑取得了显著的成功， / 而伦敦奥运会的“遗产计划”却正在走向失败。 / 十年前的周一， / 官方正式宣布， / 第30届奥林匹克运动会 / 将在伦敦举行。 / 规划文件承诺， / 本届奥运会最伟大的遗产 / 将是促使一个热爱体育的国家的大众 / 离开沙发走出家门。 / 全体国民将变得更健壮、 / 更健康， / 并涌现出更多的优胜赢家。 / 然而这一切并未发生。 / 每周进行体育运动的成年人数量确实上升了， / 在2012年筹备期间增加了近200万—— / 但总体人口的增长速度更快。 / 更为糟糕的是， / 该参与人数目前正以更快的速度持续下滑。 / 反对党声称， / 每周至少进行两小时体育锻炼的小学生人数 / 几乎减半。 / 成年人和儿童中的肥胖率均在上升。 / 官方的反思仍在继续， / 关于为何2012年伦敦奥运会未能“激励一代人”。 / 公园跑（Parkrun）的成功 / 提供了答案。",
           "vocabulary": [
             {
               "word": "promote sport participation",
@@ -1214,9 +1214,9 @@
           "pid": 1,
           "sentence_index": 9,
           "text": "Official retrospections continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.",
-          "translation": "官方仍在继续反思为什么 2012 年伦敦奥运会未能“激励一代人”。 Parkrun 的成功提供了答案。",
-          "slashed_text": "Official retrospections continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.",
-          "chunk_translation": "关于伦敦为何未能兑现其体育遗产承诺的官方反思仍在继续。",
+          "translation": "关于为何2012年伦敦奥运会未能“激励一代人”的官方反思仍在继续。公园跑（Parkrun）的成功提供了答案。",
+          "slashed_text": "Official retrospections continue / as to why London 2012 failed to “inspire a generation .” / The success of Parkrun / offers answers .",
+          "chunk_translation": "官方的反思仍在继续， / 关于为何2012年伦敦奥运会未能“激励一代人”。 / 公园跑（Parkrun）的成功 / 提供了答案。",
           "syntax": {
             "breakdown": [
               {
@@ -2111,7 +2111,7 @@
           "text": "With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use. “Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement. It makes it hard to disengage, and leads to a lot of bleed-over into the family routine. ”",
           "translation": "由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。 “科技的设计就是为了真正吸引你，”珍妮·拉德斯基（Jenny Radesky）在她对数字游戏的研究中说道，“而数字产品的存在是为了促进最大程度的参与。它让人很难脱离，并导致很多家庭日常生活的影响。”",
           "slashed_text": "With so much focus / on children’s use of screens , / it’s easy / for parents to forget / about their own screen use. / “Tech is designed to really suck you in ,” / says Jenny Radesky in her study of digital play , / “and digital products are there to promote maximal engagement. / It makes it hard to disengage , / and leads to a lot of bleed-over into the family routine. / ”",
-          "chunk_translation": "在如此多的关注下， / 对于孩子使用屏幕的关注， / 很容易导致 / 父母们忘记了 / 关于他们自己使用电子屏幕的情况。 / “科技产品从设计上就是为了让你深深沉迷，” / 珍妮·拉德斯基在她关于数字娱乐的研究中说， / “而且数字产品的存在就是为了促成最大限度的参与投入。 / 这让人很难脱身抽离， / 并导致大量溢出渗透进家庭日常生活中。 / “",
+          "chunk_translation": "在如此多的关注下， / 对于孩子使用屏幕的关注， / 很容易导致 / 父母们忘记了 / 关于他们自己使用电子屏幕的情况。 / “科技产品从设计上就是为了让你深深沉迷，” / 珍妮·拉德斯基在她关于数字娱乐的研究中说， / “而且数字产品的存在就是为了促成最大限度的参与投入。 / 这让人很难脱身抽离， / 并导致大量溢出渗透进家庭日常生活中。 / ”",
           "vocabulary": [
             {
               "word": "absorb user attention",
@@ -2890,7 +2890,7 @@
           "text": "”",
           "translation": "”",
           "slashed_text": "”",
-          "chunk_translation": "“",
+          "chunk_translation": "”",
           "syntax": {
             "breakdown": [
               {

@@ -100,8 +100,8 @@
           "pid": 1,
           "text": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske. In fact women even say they feel better at work, she notes. “It is men, not women, who report being happier at home than at work.” Another surprise is that the findings hold true for both those with children and without, but more so for nonparents. This is why people who work outside the home have better health.",
           "translation": "研究人员之一莎拉·达马斯克（Sarah Damaske）写道：“与传统观点相矛盾的是，我们发现女性和男性在工作中承受的压力都比在家中承受的压力要低。”事实上，女性甚至说她们在工作中感觉更好，她指出。 “据报道，在家中比在工作中更快乐的是男性，而不是女性。”另一个令人惊讶的是，这些发现对于有孩子和没有孩子的人都适用，但对于没有孩子的人来说更是如此。这就是为什么在外工作的人健康状况更好。",
-          "slashed_text": "Researchers measured people’s cortisol , / which is a stress marker , / while they were at work / and while they were at home / and found it higher / in what is supposed to be a haven. / “Further contradicting conventional wisdom , / we found that women as well as men had lower levels of stress / at work / compared with at home ,” / one of the researchers , Sarah Damaske , wrote. / “It is men , / not women , / who report being happier / at home than / at work.” Another surprise is / that the findings hold true / for both those / with children and without , / but more so / for nonparents. / This is why people / who work outside the home have better health.",
-          "chunk_translation": "研究人员测量了人们体内的皮质醇， / 这是一种压力标志物， / 当他们在工作时 / 以及当他们在家里时， / 并发现其水平更高 / 在原本应当是避风港的家中。 / “进一步推翻传统认知的是， / 我们发现无论女性还是男性在工作中感受到的压力水平都更低， / 相比于 / 在家里，” / 其中一位研究人员萨拉·达马斯克写道。 / “正是男性， / 而非女性， / 报告称感到更快乐 / 在家里。” / 正是男性， / 而非女性， / 报告称感到更快乐 / 在家里。 / 正是男性， / 而非女性报告称在家里更快乐。 / 这就是为什么人们 / 外出工作的人拥有更高的幸福感。",
+          "slashed_text": "Researchers measured people’s cortisol , / which is a stress marker , / while they were at work / and while they were at home / and found it higher / in what is supposed to be a haven. / “Further contradicting conventional wisdom , / we found that women as well as men had lower levels of stress / at work / compared with at home ,” / one of the researchers , Sarah Damaske , wrote. / “It is men , / not women , / who report being happier / at home than at work .” / Another surprise is / that the findings hold true / for both those / with children and without , / but more so / for nonparents . / This is why people / who work outside the home have better health.",
+          "chunk_translation": "研究人员测量了人们体内的皮质醇， / 这是一种压力标志物， / 当他们在工作时 / 以及当他们在家里时， / 并发现其水平更高 / 在原本应当是避风港的家中。 / “进一步推翻传统认知的是， / 我们发现无论女性还是男性在工作中感受到的压力水平都更低， / 相比于 / 在家里，” / 其中一位研究人员萨拉·达马斯克写道。 / “正是男性， / 而非女性， / 报告称感到更快乐 / 在家里相比在工作中。” / 另一项令人意外的发现是， / 这些研究结果同样适用 / 于两类人群， / 无论是有孩子的人还是没有孩子的人， / 但这种现象更为明显 / 对于没有孩子的人来说。 / 这就是为什么人们 / 外出工作的人拥有更高的幸福感。",
           "vocabulary": [
             {
               "word": "Childless husbands",
@@ -721,8 +721,8 @@
           "sentence_index": 2,
           "text": "“It is men, not women, who report being happier at home than at work.” Another surprise is that the findings hold true for both those with children and without, but more so for nonparents.",
           "translation": "“据报道，在家中比在工作中更快乐的是男性，而不是女性。”另一个令人惊讶的是，这些发现对于有孩子和没有孩子的人都适用，但对于没有孩子的人来说更是如此。",
-          "slashed_text": "“It is men , / not women , / who report being happier / at home than / at work.” Another surprise is / that the findings hold true / for both those / with children and without , / but more so / for nonparents.",
-          "chunk_translation": "“正是男性， / 而非女性， / 报告称感到更快乐 / 在家里。” / 正是男性， / 而非女性， / 报告称感到更快乐 / 在家里。 / 正是男性， / 而非女性报告称在家里更快乐。",
+          "slashed_text": "“It is men , / not women , / who report being happier / at home than at work .” / Another surprise is / that the findings hold true / for both those / with children and without , / but more so / for nonparents .",
+          "chunk_translation": "“正是男性， / 而非女性， / 报告称感到更快乐 / 在家里相比在工作中。” / 另一项令人意外的发现是， / 这些研究结果同样适用 / 于两类人群， / 无论是有孩子的人还是没有孩子的人， / 但这种现象更为明显 / 对于没有孩子的人来说。",
           "syntax": {
             "breakdown": [
               {
@@ -2072,8 +2072,8 @@
           "pid": 1,
           "text": "But the article is actually quite optimistic, as it outlines a potential solution to this problem, suggesting that an approach (which involves a one-hour, next-to-no-cost program) can close 63 percent of the achievement gap (measured by such factors as grades) between first-generation and other students.",
           "translation": "但这篇文章实际上相当乐观，因为它概述了这个问题的潜在解决方案，表明一种方法（涉及一小时、几乎免费的课程）可以缩小第一代学生和其他学生之间 63% 的成绩差距（以成绩等因素衡量）。",
-          "slashed_text": "But the article is actually quite optimistic , / as it outlines a potential solution to this problem , / suggesting / that an approach ( / which involves a one-hour , / next-to-no-cost program) can close 63 percent of the achievement gap (measured / by such factors as grades) between first-generation and other students.",
-          "chunk_translation": "但这篇文章实际上非常乐观， / 因为它表明 / 我们现在已经掌握了关键方法 / 在手中， / 去消除 / 这些 / 各方面的差距。",
+          "slashed_text": "But the article is actually quite optimistic , / as it outlines a potential solution to this problem , / suggesting that an approach / (which involves a one-hour , next-to-no-cost program) / can close 63 percent of the achievement gap / (measured by such factors as grades) / between first-generation and other students .",
+          "chunk_translation": "但这篇文章实际上相当乐观， / 因为它概述了该问题的一个潜在解决方案， / 表明一种方法 / （该方法涉及一项耗时一小时、几乎无成本的方案） / 能够缩小63%的学业成绩差距 / （通过学业成绩等指标衡量） / 在第一代大学生与其他学生之间。",
           "vocabulary": [
             {
               "word": "the problem is solvable",
@@ -2191,8 +2191,8 @@
           "pid": 2,
           "text": "The authors of the paper are from different universities, and their findings are based on a study involving 147 students (who completed the project) at an unnamed private university. First generation was defined as not having a parent with a four-year college degree. Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need, while this was true only for 8.6 percent of the students with at least one parent with a four-year degree.",
           "translation": "该论文的作者来自不同的大学，他们的研究结果基于一项涉及一所未具名私立大学的 147 名学生（完成该项目）的研究。第一代被定义为父母没有四年制大学学位。大多数第一代学生（59.1％）是佩尔助学金的获得者，这是一项针对有经济需要的本科生的联邦助学金，而只有 8.6％ 的学生至少有一个父母拥有四年制学位。",
-          "slashed_text": "The authors of the paper are / from different universities , / and their findings are based on a study involving 147 students ( / who completed the project) at an unnamed private university. / First generation was defined as not having a parent with a four-year college degree. / Most of the first-generation students (59.1 percent) were recipients of Pell Grants , / a federal grant / for undergraduates / with financial need , / while this was true only for 8.6 percent of the students with / at least one parent with a four-year degree.",
-          "chunk_translation": "这篇论文的作者们来自不同的大学， / 他们 / 开展了一项实验研究 / 针对第一代大学生群体。 / 第一代大学生的定义为父母双方均没有四年制大学学位。 / 大多数第一代大学生（59.1%） / 为白人 / ——并且 / 他们的表现更好 / 相比 / 其他群体。",
+          "slashed_text": "The authors of the paper are / from different universities , / and their findings are based on a study involving 147 students ( / who completed the project) at an unnamed private university. / First generation was defined as not having a parent with a four-year college degree. / Most of the first-generation students (59.1 percent) were recipients of Pell Grants , / a federal grant / for undergraduates with financial need , / while this was true only for 8.6 percent of the students / with at least one parent with a four-year degree .",
+          "chunk_translation": "这篇论文的作者们来自不同的大学， / 他们 / 开展了一项实验研究 / 针对第一代大学生群体。 / 第一代大学生的定义为父母双方均没有四年制大学学位。 / 大多数第一代大学生（59.1%）是佩尔助学金的获得者， / 这是一项联邦助学金， / 资助有经济困难的本科生， / 而这一比例在那些学生中仅为8.6%， / 针对父母中至少有一位拥有四年制学位的群体。",
           "vocabulary": [
             {
               "word": "are in need of financial support",
@@ -2738,9 +2738,9 @@
           "pid": 1,
           "sentence_index": 0,
           "text": "But the article is actually quite optimistic, as it outlines a potential solution to this problem, suggesting that an approach (which involves a one-hour, next-to-no-cost program) can close 63 percent of the achievement gap (measured by such factors as grades) between first-generation and other students.",
-          "translation": "但这篇文章实际上相当乐观，因为它概述了这个问题的潜在解决方案，表明一种方法（涉及一小时、几乎免费的课程）可以缩小第一代学生和其他学生之间 63% 的成绩差距（以成绩等因素衡量）。",
-          "slashed_text": "But the article is actually quite optimistic , / as it outlines a potential solution to this problem , / suggesting / that an approach ( / which involves a one-hour , / next-to-no-cost program) can close 63 percent of the achievement gap (measured / by such factors as grades) between first-generation and other students.",
-          "chunk_translation": "但这篇文章实际上非常乐观， / 因为它表明 / 我们现在已经掌握了关键方法 / 在手中， / 去消除 / 这些 / 各方面的差距。",
+          "translation": "但这篇文章实际上相当乐观，因为它概述了该问题的一个潜在解决方案，表明一种方法（该方法涉及一项耗时一小时、几乎无成本的方案）能够缩小第一代大学生与其他学生之间63%的学业成绩差距（通过学业成绩等指标衡量）。",
+          "slashed_text": "But the article is actually quite optimistic , / as it outlines a potential solution to this problem , / suggesting that an approach / (which involves a one-hour , next-to-no-cost program) / can close 63 percent of the achievement gap / (measured by such factors as grades) / between first-generation and other students .",
+          "chunk_translation": "但这篇文章实际上相当乐观， / 因为它概述了该问题的一个潜在解决方案， / 表明一种方法 / （该方法涉及一项耗时一小时、几乎无成本的方案） / 能够缩小63%的学业成绩差距 / （通过学业成绩等指标衡量） / 在第一代大学生与其他学生之间。",
           "syntax": {
             "breakdown": [
               {
@@ -2817,9 +2817,9 @@
           "pid": 2,
           "sentence_index": 2,
           "text": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need, while this was true only for 8.6 percent of the students with at least one parent with a four-year degree.",
-          "translation": "大多数第一代学生（59.1％）是佩尔助学金的获得者，这是一项针对有经济需要的本科生的联邦助学金，而只有 8.6％ 的学生至少有一个父母拥有四年制学位。",
-          "slashed_text": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants , / a federal grant / for undergraduates / with financial need , / while this was true only for 8.6 percent of the students with / at least one parent with a four-year degree.",
-          "chunk_translation": "大多数第一代大学生（59.1%） / 为白人 / ——并且 / 他们的表现更好 / 相比 / 其他群体。",
+          "translation": "大多数第一代大学生（59.1%）是佩尔助学金（一项针对有经济困难本科生的联邦助学金）的获得者，而在父母中至少有一位拥有四年制学位的学生中，这一比例仅为8.6%。",
+          "slashed_text": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants , / a federal grant / for undergraduates with financial need , / while this was true only for 8.6 percent of the students / with at least one parent with a four-year degree .",
+          "chunk_translation": "大多数第一代大学生（59.1%）是佩尔助学金的获得者， / 这是一项联邦助学金， / 资助有经济困难的本科生， / 而这一比例在那些学生中仅为8.6%， / 针对父母中至少有一位拥有四年制学位的群体。",
           "syntax": {
             "breakdown": [
               {
