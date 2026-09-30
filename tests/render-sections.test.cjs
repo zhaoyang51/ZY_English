@@ -453,6 +453,59 @@ test('Translation strategy modal contains comprehensive 3-step strategy and rubr
   assert.strictEqual(modalEl.classList.contains('show'), false, 'Modal must remove show class when closed');
 });
 
+test('TranslationRenderer bilingual Chinese translation toggle and ellipsis-free syntax breakdown (2010-2026)', () => {
+  const { context, document } = setupDOM();
+  const data2011 = JSON.parse(read('data/2011.json'));
+
+  // 1. When showTrans is false, verify no sent-trans-inline and buttons exist
+  context.window.TranslationRenderer.setShowTrans(false);
+  context.window.TranslationRenderer.render(data2011.translation, 2011, 'practice');
+  let paperHtml = document.getElementById('examPaper').innerHTML;
+  let wsHtml = document.getElementById('workspaceContent').innerHTML;
+
+  assert.ok(paperHtml.includes('id="btnToggleTrans"'), 'btnToggleTrans button must exist in toolbar');
+  assert.ok(wsHtml.includes('id="btnToggleTransRight"'), 'btnToggleTransRight button must exist in right panel');
+  assert.ok(!paperHtml.includes('sent-trans-inline'), 'sent-trans-inline should not be visible when showTrans is false');
+  assert.ok(wsHtml.includes('id="transComparisonSection" style="display:none"'), 'transComparisonSection should be hidden');
+
+  // 2. When showTrans is true, verify sent-trans-inline and comparison section are visible
+  context.window.TranslationRenderer.setShowTrans(true);
+  context.window.TranslationRenderer.render(data2011.translation, 2011, 'practice');
+  paperHtml = document.getElementById('examPaper').innerHTML;
+  wsHtml = document.getElementById('workspaceContent').innerHTML;
+
+  assert.ok(paperHtml.includes('sent-trans-inline'), 'sent-trans-inline must be rendered when showTrans is true');
+  assert.ok(wsHtml.includes('id="transComparisonSection" style="display:block"'), 'transComparisonSection must be visible');
+
+  // 3. Verify showSyntaxModal does not contain ellipsis or redundant boilerplate
+  const appCode = read('js/app.js');
+  const start = appCode.indexOf('function formatColoredChunks');
+  const end = appCode.indexOf('window.syncActiveSentenceToDOM = syncActiveSentenceToDOM;') + 'window.syncActiveSentenceToDOM = syncActiveSentenceToDOM;'.length;
+  const syntaxCode = appCode.slice(start, end);
+  vm.runInContext(syntaxCode, context);
+
+  const sent1 = data2011.translation.sentences[0];
+  context.window.showSyntaxModal(sent1, data2011.translation.sentences);
+  const modalHtml = document.getElementById('syntaxModalContent').innerHTML;
+
+  assert.ok(!modalHtml.includes('Who would have thought that...'), 'Must not contain ellipsis in phrase');
+  assert.ok(modalHtml.includes('Who would have thought that, globally, the IT industry produces'), 'Must contain complete phrase');
+  assert.ok(!modalHtml.includes('💡 组合重组要领剖析与名师点拨'), 'Must not contain redundant boilerplate header');
+  assert.ok(!modalHtml.includes('① 大范围语序调整'), 'Must not contain redundant rule list');
+
+  // 4. Verify all 17 years have zero ellipsis in scoring_points
+  for (let yr = 2010; yr <= 2026; yr++) {
+    const yrData = JSON.parse(read(`data/${yr}.json`));
+    (yrData.translation.sentences || []).forEach(s => {
+      (s.scoring_points || []).forEach(sp => {
+        assert.ok(!sp.phrase.includes('...'), `Year ${yr} sentence ${s.sid} phrase must not contain '...'`);
+        assert.ok(!sp.phrase.includes('…'), `Year ${yr} sentence ${s.sid} phrase must not contain '…'`);
+      });
+    });
+  }
+});
+
+
 test('ClozeRenderer renders word tokens and lookup badges and supports lookupWord and vocabulary popup', () => {
   const { context, document } = setupDOM();
   const data = JSON.parse(read('data/2012.json'));

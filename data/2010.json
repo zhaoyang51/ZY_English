@@ -7764,9 +7764,9 @@
             "guide": "现在分词完成时作主语，译为‘经历过一段…痛苦时期’"
           },
           {
-            "phrase": "made it clear to him that...",
+            "phrase": "made it clear to him that",
             "score": 1,
-            "guide": "make it clear 形式宾语结构，that 从句为真正宾语，译为‘让他深刻明白…’"
+            "guide": "make it clear 形式宾语结构，that 从句为真正宾语，译为‘让他深刻明白’"
           },
           {
             "phrase": "sustainability-oriented values must be expressed through everyday action and choice",
@@ -7783,9 +7783,14 @@
         "cn": "宁回忆起20世纪90年代末卖保险度过的那段迷茫岁月。",
         "scoring_points": [
           {
-            "phrase": "recalls spending a confusing year ... selling insurance",
-            "score": 1.5,
-            "guide": "recall doing sth 结构，confusing year 译为‘迷茫岁月/困惑的一年’"
+            "phrase": "Ning recalls spending a confusing year in the late 1990s",
+            "score": 1,
+            "guide": "recall doing sth 结构，confusing year 译为‘迷茫岁月/困惑的一年’，in the late 1990s 译为‘在20世纪90年代末’"
+          },
+          {
+            "phrase": "selling insurance",
+            "score": 0.5,
+            "guide": "现在分词作伴随状语，译为‘做保险推销/卖保险’"
           }
         ],
         "grammar_breakdown": "recall 后接动名词短语 spending 作宾语，selling insurance 为伴随状语。"
@@ -7835,14 +7840,19 @@
         "cn": "“我感到痛苦不堪。我焦虑到半夜醒来呆呆盯着天花板。我身无分文却急需这份工作。",
         "scoring_points": [
           {
-            "phrase": "I had so much anxiety that...",
+            "phrase": "\"I was miserable. I had so much anxiety that",
             "score": 1,
-            "guide": "so... that... 结果状语从句‘如此焦虑以至于…’"
+            "guide": "so much anxiety that 结果状语从句，译为‘我感到痛苦不堪。我焦虑到’"
           },
           {
-            "phrase": "wake up in the middle of the night and stare at the ceiling",
+            "phrase": "I would wake up in the middle of the night and stare at the ceiling.",
             "score": 1,
-            "guide": "stare at the ceiling 形象翻译为‘呆呆盯着天花板’"
+            "guide": "stare at the ceiling 形象翻译为‘半夜醒来呆呆盯着天花板’"
+          },
+          {
+            "phrase": "I had no money and needed the job.\"",
+            "score": 0.5,
+            "guide": "并列句顺译为‘我身无分文却急需这份工作。’"
           }
         ],
         "grammar_breakdown": "so much anxiety that 引导结果状语从句，描述极度焦虑的心理状态。"

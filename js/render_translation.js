@@ -6,8 +6,26 @@
   window.TranslationRenderer = {
     render: function(transData, year, mode) {
       if (!transData) return;
+      this.currentData = transData;
+      this.currentYear = year;
+      this.currentMode = mode || 'practice';
       this.renderLeftPanel(transData, year);
-      this.renderRightPanel(transData, year, mode);
+      this.renderRightPanel(transData, year, this.currentMode);
+    },
+
+    getShowTrans: function() {
+      if (window.ReaderModule?.settings?.showTrans !== undefined) {
+        return window.ReaderModule.settings.showTrans;
+      }
+      return localStorage.getItem('kaoyan_trans_show_trans') === 'true';
+    },
+
+    setShowTrans: function(val) {
+      if (window.ReaderModule?.settings) {
+        window.ReaderModule.settings.showTrans = val;
+        window.StorageModule?.saveSettings(window.ReaderModule.settings);
+      }
+      localStorage.setItem('kaoyan_trans_show_trans', String(val));
     },
 
     renderLeftPanel: function(data, year) {
@@ -16,6 +34,7 @@
 
       const fs = window.ReaderModule?.settings?.fontSize || 17.5;
       const lh = window.ReaderModule?.settings?.lineHeight || 1.85;
+      const showTrans = this.getShowTrans();
 
       let parasHtml = '';
       const paragraphs = data.paragraphs || [{ pid: 0, text: data.source_text || '' }];
@@ -29,10 +48,15 @@
           });
           const list = pSents.length > 0 ? pSents : (paragraphs.length === 1 ? data.sentences : []);
           list.forEach(s => {
-            sentHtml += `<span class="exam-sent trans-sent" id="trans-sent-${s.sid}" data-sid="${s.sid}" title="点击查看长难句拆解、参考译文与采分点">${s.en || s.text || ''}</span> `;
+            const cn = s.cn || s.translation || '';
+            const transHtml = (showTrans && cn) ? `<span class="sent-trans-inline">${cn}</span>` : '';
+            sentHtml += `<span class="exam-sent trans-sent" id="trans-sent-${s.sid}" data-sid="${s.sid}" title="点击查看长难句拆解、参考译文与采分点">${s.en || s.text || ''}</span> ${transHtml} `;
           });
         } else {
           sentHtml = p.text || '';
+          if (showTrans && p.translation) {
+            sentHtml += `<div class="sent-trans-inline">${p.translation}</div>`;
+          }
         }
 
         parasHtml += `
@@ -49,7 +73,8 @@
             <span style="font-size:0.82em;font-weight:700;color:var(--muted)">题型:</span>
             <span class="badge" style="background:var(--accent);color:#fff;padding:2px 8px;border-radius:4px;font-size:0.82em">Section III 英译汉 (15分)</span>
           </div>
-          <div class="toolbar-group" style="margin-left:auto">
+          <div class="toolbar-group" style="margin-left:auto;display:flex;align-items:center;gap:8px">
+            <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnToggleTrans" title="切换全文逐句中文对照">🌐 中文对照</button>
             <button class="toolbar-btn" id="btnToggleTransHelp" title="点击查看翻译答题策略">💡 考研翻译核心三步法</button>
           </div>
         </div>
@@ -80,6 +105,16 @@
         });
       });
 
+      // Bind toggle translation button in left panel toolbar
+      const toggleBtn = examPaper.querySelector('#btnToggleTrans');
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => {
+          this.setShowTrans(!this.getShowTrans());
+          this.renderLeftPanel(data, year);
+          this.renderRightPanel(data, year, this.currentMode);
+        });
+      }
+
       // Bind strategy tip
       const tipBtn = document.getElementById('btnToggleTransHelp');
       if (tipBtn) {
@@ -96,6 +131,7 @@
       const storageKey = `kaoyan_trans_${year}`;
       const savedDraft = localStorage.getItem(storageKey) || '';
       const savedScore = localStorage.getItem(`${storageKey}_score`) || '';
+      const showTrans = this.getShowTrans();
 
       let sentsComparisonHtml = '';
       if (data.sentences && data.sentences.length > 0) {
@@ -126,9 +162,12 @@
 
       container.innerHTML = `
         <div class="trans-workspace">
-          <div class="cloze-card-header" style="border-bottom:1px solid var(--border);padding-bottom:10px">
-            <span style="font-size:1.05em;font-weight:700">✍️ 英译汉实战工作台</span>
-            <span class="badge" style="background:#0f766e;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.8em">满分 15 分</span>
+          <div class="cloze-card-header" style="border-bottom:1px solid var(--border);padding-bottom:10px;display:flex;justify-content:space-between;align-items:center">
+            <div style="display:flex;align-items:center;gap:8px">
+              <span style="font-size:1.05em;font-weight:700">✍️ 英译汉实战工作台</span>
+              <span class="badge" style="background:#0f766e;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.8em">满分 15 分</span>
+            </div>
+            <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnToggleTransRight" style="font-size:0.82em;padding:3px 10px" title="切换全文逐句中文对照与参考译文">🌐 中文对照</button>
           </div>
 
           <!-- Typing Canvas Card -->
@@ -149,7 +188,7 @@
           </div>
 
           <!-- Reference & Rubric Box -->
-          <div id="transComparisonSection" style="display:${savedDraft || mode === 'review' ? 'block' : 'none'}">
+          <div id="transComparisonSection" style="display:${showTrans || savedDraft || mode === 'review' ? 'block' : 'none'}">
             <div class="trans-reference-box">
               <h3 style="font-size:1.05em;font-weight:800;color:var(--accent);margin-top:0;margin-bottom:8px">
                 📜 官方 / 权威标准参考译文
@@ -227,6 +266,15 @@
           const val = scoreRange.value;
           scoreDisplay.textContent = `${val} 分`;
           localStorage.setItem(`${storageKey}_score`, val);
+        });
+      }
+
+      const toggleRightBtn = container.querySelector('#btnToggleTransRight');
+      if (toggleRightBtn) {
+        toggleRightBtn.addEventListener('click', () => {
+          this.setShowTrans(!this.getShowTrans());
+          this.renderLeftPanel(data, year);
+          this.renderRightPanel(data, year, mode);
         });
       }
 

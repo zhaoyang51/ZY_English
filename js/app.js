@@ -1679,14 +1679,15 @@
     const isTransSent = sent.scoring_points && Array.isArray(sent.scoring_points) && sent.scoring_points.length > 0;
     if (isTransSent) {
       // Step 1: Slashed Chunks Display
-      const rawChunks = sent.scoring_points.map(sp => sp.phrase.trim()).filter(Boolean);
+      const rawChunks = sent.scoring_points.map(sp => (sp.phrase || '').replace(/\.{2,}|…/g, '').trim()).filter(Boolean);
       const slashedDisplayHtml = rawChunks.map((c, i) => `<span class="chunk-c${i % 6}">${c}</span>`).join('<span class="chunk-slash"> / </span>');
 
       // Step 2: Scoring Points Cards with (1) Vocab, (2) Translation Tips, (3) Translation
       const step2CardsHtml = sent.scoring_points.map((sp, idx) => {
+        const cleanPhrase = (sp.phrase || '').replace(/\.{2,}|…/g, '').trim();
         const vocabList = (sp.vocab && Array.isArray(sp.vocab) && sp.vocab.length > 0)
           ? sp.vocab
-          : extractTranslationVocab(sp.phrase);
+          : extractTranslationVocab(cleanPhrase);
 
         const vocabHtml = vocabList.length > 0 ? `
           <div style="margin-top:8px;padding:8px 12px;background:var(--card-bg);border-radius:6px;border:1px solid var(--border)">
@@ -1710,7 +1711,7 @@
             <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px;flex-wrap:wrap">
               <div style="display:flex;align-items:center;gap:8px">
                 <span class="badge" style="background:#0284c7;color:#fff;font-size:0.78em;padding:2px 8px;border-radius:4px;font-weight:700">意群 ${idx + 1} · ${sp.score !== undefined ? `${sp.score} 分` : '采分点'}</span>
-                <strong style="color:var(--ink);font-size:0.98em">${sp.phrase || ''}</strong>
+                <strong style="color:var(--ink);font-size:0.98em">${cleanPhrase}</strong>
               </div>
             </div>
             ${vocabHtml}
@@ -1742,7 +1743,7 @@
         </div>
 
         <!-- Original Sentence -->
-        <div style="font-size:1.1em;font-family:var(--font-base);line-height:1.75;color:var(--ink);margin-bottom:14px;background:var(--surface);padding:12px 16px;border-radius:8px;border:1px solid var(--border)">
+        <div style="font-size:1.1em;font-family:var(--font-base);line-height:1.75;color:var(--ink);margin-bottom:14px;background:var(--surface);padding:12px 16px;border-radius:8px;border-left:4px solid var(--accent);border:1px solid var(--border)">
           ${sentNumPrefix}<strong>原句：</strong>${enText}
         </div>
 
@@ -1794,19 +1795,11 @@
             <p style="font-size:1.05em;color:#0f766e;font-weight:600;margin:0;line-height:1.7">${cnText}</p>
           </div>
 
-          <div style="background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:10px 12px;font-size:0.88em;color:var(--ink);line-height:1.75">
-            <strong style="color:var(--ink)">💡 组合重组要领剖析与名师点拨：</strong>
-            ${sent.reassembly_notes ? `
-              <div style="margin:6px 0 8px 0;padding:8px 12px;background:rgba(5,150,105,0.06);border-radius:6px;border-left:3px solid #059669;color:var(--ink)">
-                🎯 <strong>本句组合要领：</strong>${sent.reassembly_notes}
-              </div>
-            ` : ''}
-            <ul style="margin:4px 0 0 0;padding-left:18px">
-              <li><strong>① 大范围语序调整：</strong>遵循汉语“前因后果、状语前置、长定语拆译后置”习惯，将英文后置状语/定语合理移至中文动词前或句首。</li>
-              <li><strong>② 语言润色（增词与减词）：</strong>适度增补中文连接词或代词主语，删减英文冗余物主代词，消除僵硬欧化痕迹。</li>
-              <li><strong>③ 通顺度重读检验（人话检验法）：</strong>脱离英文大声朗读重读中文，凡生硬拗口、像机器翻译处立即调整语序，确保符合地道现代汉语表达习惯。</li>
-            </ul>
-          </div>
+          ${sent.reassembly_notes ? `
+            <div style="background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:10px 12px;font-size:0.88em;color:var(--ink);line-height:1.75;margin-top:8px">
+              🎯 <strong>组合重组要领：</strong>${sent.reassembly_notes}
+            </div>
+          ` : ''}
         </div>
 
         ${footerNavHtml}

@@ -8514,9 +8514,9 @@
         "cn": "谁曾想到，在全球范围内，IT行业产生的温室气体排放量竟然与全球航空业相当——大约占人类排放总量的2%？",
         "scoring_points": [
           {
-            "phrase": "Who would have thought that...",
+            "phrase": "Who would have thought that, globally, the IT industry produces",
             "score": 1,
-            "guide": "反问句型准确译为‘谁会想到/谁曾料想…’"
+            "guide": "反问句型准确译为‘谁会想到/谁曾料想…’，插入语与宾语从句主干准确对齐"
           },
           {
             "phrase": "about the same volume of greenhouse gases as the world's airlines do",
@@ -8524,9 +8524,9 @@
             "guide": "the same... as 比较结构，译为‘与全球航空业相当的温室气体排放量’"
           },
           {
-            "phrase": "roughly 2 percent of all human emissions",
+            "phrase": "- roughly 2 percent of all human emissions?",
             "score": 0.5,
-            "guide": "roughly 译为‘大约/约’，破折号后补充说明"
+            "guide": "roughly 译为‘大约/约’，破折号后作同位补充说明"
           }
         ],
         "grammar_breakdown": "特殊疑问句作主句，that 引导宾语从句，从句内部包含 the same... as 比较结构与破折号同位解释语。"
@@ -8552,14 +8552,14 @@
         "cn": "一次谷歌搜索会释放出0.2至7.0克二氧化碳，具体取决于获取“正确”答案所需的搜索次数。",
         "scoring_points": [
           {
-            "phrase": "leak between 0.2 and 7.0 grams of CO2",
+            "phrase": "A Google search can leak between 0.2 and 7.0 grams of CO2,",
             "score": 1,
-            "guide": "leak 引申翻译为‘释放/排放’"
+            "guide": "主谓宾结构：leak 引申翻译为‘释放/排放’，译为‘一次谷歌搜索会释放出0.2至7.0克二氧化碳’"
           },
           {
-            "phrase": "depending on how many attempts are needed...",
+            "phrase": "depending on how many attempts are needed to get the \"right\" answer.",
             "score": 1.5,
-            "guide": "depending on 作状语，译为‘取决于…’，how many attempts 译为‘搜索尝试的次数’"
+            "guide": "depending on 作状语，译为‘具体取决于获取“正确”答案所需的搜索尝试次数’"
           }
         ],
         "grammar_breakdown": "主句 + depending on 引导的现在分词短语作状语，内含 how many attempts are needed 宾语从句。"
