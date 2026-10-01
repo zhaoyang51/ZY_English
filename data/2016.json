@@ -1317,7 +1317,7 @@
           "stem_cn": "在为高中生提供课程时，Flatiron 考虑了他们的______。",
           "type": "因果推断题",
           "locate_pid": 3,
-          "locate_sentence": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
+          "locate_sentence": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
           "locate_sentence_cn": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
           "options": [
             {
@@ -1329,7 +1329,7 @@
               "analysis": {
                 "practice_status": "误以为编程培训班会看重学员以往的经验，未严格核对原文定位句，排除",
                 "option_nature": "干扰项（反向考查/无中生有）",
-                "source_sentence": "Flatiron has students sketch a project on paper... The language of curriculum is more tailored to their interests...",
+                "source_sentence": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
                 "source_translation": "Flatiron 让学生先在纸上勾勒项目草图……课程的语言更多是根据他们的兴趣量身定制的……",
                 "locator_comparison": "选项A认为 Flatiron 考虑了高中生的“经验（experience）”。然而第4段首句就明确指出该项目是面向初涉编程的高中生（high-schoolers），且采用在纸上画草图等极为初级友好的方式教学，通篇根本没有要求或考量学生的既有经验（prior experience）。A项完全缺乏原文信息支撑。",
                 "writing_perspective": "Flatiron 设立该课程的目的正是为了降低门槛、破除畏难情绪，如果教学前提是考量学员的已有经验，就彻底违背了该训练营针对零基础青少年进行启蒙的办学宗旨。",
@@ -1346,7 +1346,7 @@
               "analysis": {
                 "practice_status": "准确定位第4段 tailored to their interests，秒选B",
                 "option_nature": "正确项（同义对应）",
-                "source_sentence": "“The language of curriculum is more tailored to their interests,” said Allison Singer, a Flatiron director...",
+                "source_sentence": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
                 "source_translation": "Flatiron 主管艾莉森·辛格表示：“课程的语言更多是针对他们的兴趣量身定制的……”",
                 "locator_comparison": "选项B指出 Flatiron 考虑了高中生的“兴趣（interest）”。定位句中 Singer 明确表示：“The language of curriculum is more tailored to their interests”，随后紧接着举例说明学生们被鼓励制作游戏（games）和时尚应用（fashion apps），这些正是青少年兴趣所在的具象化体现。B选项精准契合原文核心考量点。",
                 "writing_perspective": "第4段结构严密，作者通过先叙述教学手段（纸上设计、开发游戏和时尚应用），再引用教学主管的原话进行定性总结，核心就在于以“兴趣为导向（interest-driven）”激发青少年的探索欲望。",
@@ -1363,7 +1363,7 @@
               "analysis": {
                 "practice_status": "受成人培训班注重就业前景的思维惯性影响，容易错选C，排除",
                 "option_nature": "干扰项（张冠李戴/过度推断）",
-                "source_sentence": "Flatiron... started as one of the many coding bootcamps... But in delivering lessons for high-schoolers, 'The language of curriculum is more tailored to their interests'...",
+                "source_sentence": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
                 "source_translation": "Flatiron 起初是众多面向付费成人的编程训练营之一……但针对高中生授课时，“课程更多是契合他们的兴趣”……",
                 "locator_comparison": "选项C认为其考虑了“职业前景（career prospects）”。原文虽然提到 Flatiron 原本是针对成人的商业编程训练营（bootcamp），但在针对高中生（delivering lessons for high-schoolers）这一特定群体时，文中特意强调教学重心的转变——不再强调职业技能输出，而是让教学迎合兴趣（interests）。选项C将成人培训的功利诉求张冠李戴到了高中生身上。",
                 "writing_perspective": "第5段与第6段紧接着指出“这些高中生很可能不会辍学去打造下一个Facebook，甚至未来根本不进IT行业”，直接反向戳破了C选项所谓“考虑职业前景”的假设。",
@@ -1380,7 +1380,7 @@
               "analysis": {
                 "practice_status": "推测课程需要根据学生的学业背景调整，但文中未提学术背景，排除",
                 "option_nature": "干扰项（无中生有）",
-                "source_sentence": "The Flatiron School... started as one of the many coding bootcamps that’s become popular in recent years... 'The language of curriculum is more tailored to their interests'...",
+                "source_sentence": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
                 "source_translation": "Flatiron 学校起初是近年来流行起来的众多编程训练营之一……“课程的语言更多是契合他们的兴趣”……",
                 "locator_comparison": "选项D声称其考虑了高中生的“学术背景（academic backgrounds）”。第4段在阐述课程设计依据时，唯一明文给出的依据就是“their interests（他们的兴趣）”，以及如何通过动手做他们喜欢的东西来引导他们。文中从未调查或根据学员的校内成绩、先修学科等“学术背景”进行分层教学。D项纯属凭空捏造。",
                 "writing_perspective": "作者在这一段突出的是 Flatiron 教学模式的新颖与轻松活泼，重点在于兴趣驱动（games, fashion apps），若引入严肃的 academic backgrounds 分析，反而削弱了其反传统教育的对比色彩。",
@@ -3386,7 +3386,7 @@
           "stem_cn": "It can be learned from Paragraph 3 that unintentional harm-doers will not be prosecuted if \nthey ______.",
           "type": "段落推理题",
           "locate_pid": 2,
-          "locate_sentence": "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
+          "locate_sentence": "Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat.",
           "locate_sentence_cn": "例如，根据该计划，该机构表示，只要土地所有者或企业签署了恢复草原鸡栖息地的大范围管理计划，就不会起诉无意杀死、伤害或扰乱鸟类的土地所有者或企业。",
           "options": [
             {
@@ -3398,7 +3398,7 @@
               "analysis": {
                 "practice_status": "牢牢抓住 as long as 条件从句中的 pay a fee，对照A选项迅速确定",
                 "option_nature": "正确项（同义归纳）",
-                "source_sentence": "...the agency said it would not prosecute landowners or businesses that unintentionally kill... as long as they sign up for a range-wide management plan and pay a fee to create conservation acreage elsewhere.",
+                "source_sentence": "Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat.",
                 "source_translation": "……该机构表示不会起诉那些无意中杀死……的土地所有者或企业——只要他们签署一项大范围管理计划，并支付一笔费用在其他地方建立保护区。",
                 "locator_comparison": "选项A指出免于起诉的条件是“同意支付一笔补偿金（agree to pay a sum for compensation）”。原文 as long as 条件状语从句中明确列出豁免前提：pay a fee to create conservation acreage elsewhere（支付一笔费用在异地建设等效保护区面积）。这一机制在环境法上被称为生态补偿机制。pay a sum 精确对应 pay a fee，for compensation 精炼概括了异地建保护区的补偿本质，A是完全成立的同义转述。",
                 "writing_perspective": "作者在第3段详细解释了这一充满争议的“以资金换豁免”制度安排，旨在为第4段批判该方案为“金钱交易、监管放水”埋下伏笔，选A直接命中了这套制度设计的核心要害。",
@@ -3415,7 +3415,7 @@
               "analysis": {
                 "practice_status": "看到 habitat 单词，但原文是交钱由管理方异地建设，非企业自建，排除",
                 "option_nature": "干扰项（偷换概念/责任主体错乱）",
-                "source_sentence": "...pay a fee to create conservation acreage elsewhere.",
+                "source_sentence": "Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat.",
                 "source_translation": "……支付一笔费用以便在其他地方建立保护区面积。",
                 "locator_comparison": "选项B声称条件是“自愿建立一个同样大的栖息地（volunteer to set up an equally big habitat）”。原文规定的是破坏者支付费用（pay a fee），由区域管理机构统一统筹建设，而非由破坏者自身“自愿建立（volunteer to set up）”；且原文用 elsewhere（异地）表示地点替代，未曾出现“equally big（同样大小）”的严格面积对等限定。B项曲解了执行机制与面积要求。",
                 "writing_perspective": "如果要求开发商亲自去建同等栖息地，开发成本将极为高昂且难以落实；作者特意强调 pay a fee，正是为了凸显该方案对企业的妥协与便利，B项破坏了这一论点。",
@@ -3432,7 +3432,7 @@
               "analysis": {
                 "practice_status": "文中提到了 WAFWA 协调，但非免受起诉的直接条件，排除",
                 "option_nature": "干扰项（张冠李戴/无中生有）",
-                "source_sentence": "...sign up for a range-wide management plan and pay a fee...",
+                "source_sentence": "Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat.",
                 "source_translation": "……签署一项大范围管理计划并支付费用……",
                 "locator_comparison": "选项C声称条件是“主动提议支持 WAFWA 的监测工作（offer to support the WAFWA monitoring job）”。原文中 WAFWA（西部各州鱼类及野生生物管理机构协会）是5个州联合制定和管理该计划的协调方，企业加入的是管理计划，需要做的是“交补偿费”，根本没有提及企业需要主动提供对监测工作的技术或人力支持。C项把监管机构的职能强加为企业的免责条件。",
                 "writing_perspective": "作者的叙事核心是钱款支付与法律豁免之间的兑换，引入所谓监测工作属于偏离题旨的细枝末节生造。",
@@ -3449,7 +3449,7 @@
               "analysis": {
                 "practice_status": "筹款对象错误，钱是交给生态保护基金而非USFWS运营，排除",
                 "option_nature": "干扰项（偷换概念/资金用途曲解）",
-                "source_sentence": "...pay a fee to create conservation acreage elsewhere.",
+                "source_sentence": "Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat.",
                 "source_translation": "……支付费用在其他地方建立保护区面积。",
                 "locator_comparison": "选项D声称条件是“承诺为 USFWS 的运营筹集资金（promise to raise funds for USFWS operations）”。原文明确强调这笔钱是用于“create conservation acreage elsewhere（在其他地方建设保护区土地）”，属于专项生态补偿基金，绝不是为联邦机构 USFWS 的日常行政“运营筹集资金（raise funds for operations）”。选项D严重曲解了资金的性质与用途。",
                 "writing_perspective": "若联邦机构收取企业资金作为自身运营费用，便构成了赤裸裸的利益输送与公权私用，文章若作此推论将引发严重的法律指控，D选项在常识层面极为荒谬。",

@@ -5433,93 +5433,88 @@
         },
         {
           "qid": 32,
-          "stem": "Which of the following is a reason for the researchers to study meat eating?",
-          "stem_cn": "下列哪一项是研究人员选择研究吃肉行为的原因？",
-          "type": "因果推断题",
-          "locate_pid": 1,
-          "locate_sentence": "The researchers investigated one class session’s impact on eating meat. They chose this particular behavior for three reasons, according to study co-author Eric Schwitzgebel, a philosopher at the University of California, Riverside: students’ attitudes on the topic are variable and unstable, behavior is easily measurable, and ethics literature largely agrees that eating less meat is good because it reduces environmental harm and animal suffering.",
-          "locate_sentence_cn": "研究人员调查了一次课堂对吃肉行为的影响。据该研究合著者、加州大学河滨分校哲学家埃里克·施维茨格贝尔介绍，他们之所以选择这种特定的行为有三个原因：学生们在该话题上的态度多变且不稳定、该行为容易测量，而且伦理学文献基本一致认同少吃肉是好事，因为这能减少环境破坏和动物痛苦。",
+          "stem": "The 2019 study on dark patterns is mentioned to show _______.",
+          "stem_cn": "提到关于黑暗模式的2019年研究是为了说明_______。",
+          "type": "例证推断题",
+          "locate_pid": 2,
+          "locate_sentence": "In a 2019 study of 53,000 product pages and 11,000 websites, researchers found that about one in 10 employs these design practices. Though widely prevalent, the concept of dark patterns is still not well understood.",
+          "locate_sentence_cn": "在一项针对53,000个产品页面和11,000个网站的2019年研究中，研究人员发现约有十分之一采用了这些设计手法。尽管黑暗模式十分普遍，但其概念仍未被充分理解。",
           "options": [
             {
               "key": "A",
-              "text": "It is common among students.",
-              "text_cn": "这在学生中很普遍。",
+              "text": "their major flaws",
+              "text_cn": "它们的主要缺陷",
               "is_correct": false,
-              "trap_type": "张冠李戴 / 偷换概念",
+              "trap_type": "干扰项（偷换概念 / 无中生有）",
               "analysis": {
-                "practice_status": "考生容易被首段中出现的'common'一词诱导，误以为这也是实验选择的理由。",
-                "option_nature": "张冠李戴项。第2段给出的第一个理由是学生对该话题的态度多变且不稳定（'students’ attitudes on the topic are variable and unstable'），强调的是态度易动摇、有干预转化的空间，而不是吃肉这种行为在学生中有多么普遍（common）。",
-                "source_sentence": "...students’ attitudes on the topic are variable and unstable, behavior is easily measurable...",
-                "source_translation": "……学生们在该话题上的态度多变且不稳定、该行为容易测量……",
-                "locator_comparison": "原文探讨的是态度未定型（variable and unstable），选项偷换为行为普遍常见（common）。",
-                "writing_perspective": "如果某种行为根深蒂固且人人皆然，微弱的单次课堂干预极难见效；作者突出的是态度可塑性，非普遍性。",
-                "theme_validation": "移花接木，把第1段首句形容伦理课普遍（classes are common）的修饰词错误套在吃肉行为上。",
-                "verdict": "张冠李戴：原文理由是学生态度不稳定多变，而非吃肉行为普遍。"
+                "practice_status": "原文数据旨在说明该现象十分普遍，而非分析其技术缺陷，排除。",
+                "option_nature": "干扰项（偷换概念 / 无中生有）",
+                "source_sentence": "In a 2019 study of 53,000 product pages and 11,000 websites, researchers found that about one in 10 employs these design practices. Though widely prevalent, the concept of dark patterns is still not well understood.",
+                "source_translation": "研究发现约有十分之一采用了这些设计手法。尽管十分普遍，但其概念仍未被充分理解。",
+                "locator_comparison": "引用5.3万个页面、1.1万个网站的数据是为了客观呈现其庞大的使用规模，而非讨论缺陷，偷换概念。",
+                "writing_perspective": "作者在此处用大规模统计数据立论，说明该现象已经渗透到网络生活的各个角落，非技术挑错。",
+                "theme_validation": "偏离论证黑暗模式普遍性的核心意图，排除。",
+                "verdict": "偷换概念：数据展示的是存在规模而非自身缺陷，排除。"
               }
             },
             {
               "key": "B",
-              "text": "It is a behavior easy to measure.",
-              "text_cn": "这是一种容易测量的行为。",
-              "is_correct": true,
-              "trap_type": "同义替换",
+              "text": "their complex designs",
+              "text_cn": "它们复杂的设计",
+              "is_correct": false,
+              "trap_type": "干扰项（反向考查 / 局部干扰）",
               "analysis": {
-                "practice_status": "对照第2段'behavior is easily measurable'，词性稍作转换，一眼看中正解。",
-                "option_nature": "同义替换项。选项中的'a behavior easy to measure'（容易测量的行为）字面完美对应原文'behavior is easily measurable'，后文的1.4万张校园餐卡购买记录更是对此提供了最强有力的事实佐证。",
-                "source_sentence": "They chose this particular behavior for three reasons...: students’ attitudes on the topic are variable and unstable, behavior is easily measurable, and ethics literature largely agrees that eating less meat is good...",
-                "source_translation": "他们之所以选择这种特定的行为有三个原因……：学生们在该话题上的态度多变且不稳定、该行为容易测量，而且伦理学文献基本一致认同少吃肉是好事……",
-                "locator_comparison": "a behavior easy to measure 与 behavior is easily measurable 达到 100% 严丝合缝的同义映射。",
-                "writing_perspective": "以往伦理学研究无法证实教学效果，正是受困于现实道德行为难以量化；作者指出本次突破的关键就在于找到了'易测量'的突破口，选项直击实验设计的精髓。",
-                "theme_validation": "与文章依托客观餐卡真实消费数据（meal-card purchases）展开实证论证的科学逻辑高度统一。",
-                "verdict": "精准对位：原文原词明确指出该行为容易测量（easily measurable）。"
+                "practice_status": "第1段提到复杂，但2019年研究数据说明的是覆盖面之广，排除。",
+                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
+                "source_sentence": "In a 2019 study of 53,000 product pages and 11,000 websites, researchers found that about one in 10 employs these design practices.",
+                "source_translation": "研究发现约十分之一采用了这些设计手法。",
+                "locator_comparison": "研究数据强调的是“约十分之一（about one in 10）”的网站都在使用，着眼于广泛度，而非具体设计手段是否复杂。",
+                "writing_perspective": "论据的统计属性决定了其服务于“普遍性”判断，不能把前文概念生搬硬套到该项研究上。",
+                "theme_validation": "与统计数据展示覆盖广泛性的初衷不符，排除。",
+                "verdict": "张冠李戴：数据直接证明其普及度而非设计复杂度，排除。"
               }
             },
             {
               "key": "C",
-              "text": "It is important to students’ health.",
-              "text_cn": "这对学生的健康很重要。",
+              "text": "their severe damage",
+              "text_cn": "它们严重的危害",
               "is_correct": false,
-              "trap_type": "无中生有 / 生活常识干扰",
+              "trap_type": "干扰项（过度引申 / 逻辑越界）",
               "analysis": {
-                "practice_status": "典型的健康饮食常识干扰项，不回文核对极易掉坑。",
-                "option_nature": "无中生有项。第2段给出的第三个理由是'reduces environmental harm and animal suffering'（减少环境破坏与动物痛苦），研究探讨的是利他主义与生态伦理责任，通篇压根未提少吃肉对学生个人的身体健康（students' health）有何重要性。",
-                "source_sentence": "...and ethics literature largely agrees that eating less meat is good because it reduces environmental harm and animal suffering.",
-                "source_translation": "……而且伦理学文献基本一致认同少吃肉是好事，因为这能减少环境破坏和动物痛苦。",
-                "locator_comparison": "减少环境伤害和动物痛苦被生硬替换为学生自身身体健康，无中生有。",
-                "writing_perspective": "伦理课探讨的是超越自我的道德利他关怀，选项将其降格为利己的养生保健，违背伦理学研究语境。",
-                "theme_validation": "把公共道德与生态危机问题歪曲为个人生理健康话题，偏离主旨。",
-                "verdict": "无中生有：选择少吃肉是出于环境与动物伦理考量，未提及学生健康。"
+                "practice_status": "虽然黑暗模式会损害消费者选择，但2019年的数据本身是为了说明其广泛存在，排除。",
+                "option_nature": "干扰项（主观越界 / 强加因果）",
+                "source_sentence": "In a 2019 study of 53,000 product pages and 11,000 websites, researchers found that about one in 10 employs these design practices. Though widely prevalent, the concept of dark patterns is still not well understood.",
+                "source_translation": "研究发现约有十分之一采用了这些设计手法。尽管十分普遍……",
+                "locator_comparison": "危害性是全文背景，但2019年调查报告的核心事实依据是“about one in 10”，直接论证“widely prevalent（普遍存在）”。",
+                "writing_perspective": "作者在介绍概念后，必须先用调研数据证明该问题绝非孤例、而是普遍现象，方能引出后续的警示与应对。",
+                "theme_validation": "过度推论，忽视了例证题必须紧扣例证本身直接支撑的论点。",
+                "verdict": "过度引申：数据直接支撑的是普遍存在，而非危害程度，排除。"
               }
             },
             {
               "key": "D",
-              "text": "It is a hot topic in ethics classes.",
-              "text_cn": "这是伦理课程上的热门话题。",
-              "is_correct": false,
-              "trap_type": "偷换概念 / 歪曲文献共识",
+              "text": "their strong presence",
+              "text_cn": "它们广泛的存在",
+              "is_correct": true,
+              "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "考生看到'ethics literature'，容易在脑海中将其等同于'ethics classes'中的热门讨论。",
-                "option_nature": "偷换概念项。原文写的是'ethics literature largely agrees that eating less meat is good'（伦理学文献对于少吃肉是好的这一点达成了广泛共识），强调的是学界具有确定的道德价值评判共识，避免陷入伦理争议，并未说明吃肉是课堂上的'热门讨论话题（hot topic）'。",
-                "source_sentence": "...and ethics literature largely agrees that eating less meat is good because it reduces environmental harm and animal suffering.",
-                "source_translation": "……而且伦理学文献基本一致认同少吃肉是好事，因为这能减少环境破坏和动物痛苦。",
-                "locator_comparison": "学术文献达成基本共识（literature largely agrees）被偷换为课堂热门讨论话题（hot topic in classes），性质完全不同。",
-                "writing_perspective": "学者需要一个价值标准毫无争议的良善行为来检验教学效力，非追逐所谓课堂流量热点。",
-                "theme_validation": "歪曲了实验为了确立测量效度而寻求学术共识的初衷。",
-                "verdict": "偷换概念：原文是学术文献对此有广泛共识，而非课堂热门话题。"
+                "practice_status": "about one in 10 和 widely prevalent 完美同义对应 strong presence，秒选D。",
+                "option_nature": "★ 标准正确同义改写",
+                "source_sentence": "In a 2019 study of 53,000 product pages and 11,000 websites, researchers found that about one in 10 employs these design practices. Though widely prevalent, the concept of dark patterns is still not well understood.",
+                "source_translation": "在一项针对53,000个产品页面和11,000个网站的2019年研究中，研究人员发现约有十分之一采用了这些设计手法。尽管黑暗模式十分普遍（widely prevalent），但其概念仍未被充分理解。",
+                "locator_comparison": "“about one in 10 employs these design practices”（十分之一都在用）及紧随其后的“widely prevalent”（广泛普及）与选项D“strong presence”（强烈的存在/广泛的存在）实现精准同义替换。",
+                "writing_perspective": "例证题标准逻辑：举出覆盖5.3万个页面、1.1万个网站的宏大样本，正是为了用铁证说明黑暗模式并非个别案例，而是具有广泛的存在感。",
+                "theme_validation": "呼应全篇指出黑暗模式在互联网无处不在、亟待监管与警惕的论述基调。",
+                "verdict": "复盘判断：about one in 10 与 widely prevalent 完美同义改写为 strong presence，正确。"
               }
             }
           ],
-          "summary": "【题型与考点】事实细节题。考查对第2段研究团队选取'吃肉（meat eating）'作为实验测量行为三大核心考量的精准定位。原文列出三大理由：1) 学生态度多变不稳定（variable and unstable）；2) 行为容易测量（behavior is easily measurable）；3) 伦理学文献存在广泛价值共识（reduces environmental harm）。随后文末给出详尽例证：通过校园餐饮卡（meal-card purchases）调取近1.4万份匿名消费凭据即可客观精准记录。选项以'a behavior easy to measure'实现对'behavior is easily measurable'的原词近义无缝匹配。",
+          "summary": "【题型与考点】例证推断题。考查对第3段开头引用2019年大规模调研数据的论证目的理解。文中明确指出，在对5.3万个产品页面和1.1万个网站的调查中，研究人员发现约有十分之一（about one in 10）采用了此类设计手法；且后文紧接着给出定性评价“Though widely prevalent（尽管十分普遍）”。由此可知，引入该研究旨在说明黑暗模式在网络商业界面中“广泛存在（strong presence）”。正确答案为D项。",
           "synonym_pairs": [
             {
-              "opt_term": "a behavior easy to measure",
-              "text_term": "behavior is easily measurable / meal-card purchases ... nearly 14,000 receipts",
-              "logic": "同义转化：词性转换匹配，easily measurable（容易测量的）转化为 easy to measure（容易测量）"
-            },
-            {
-              "opt_term": "study meat eating",
-              "text_term": "chose this particular behavior ... impact on eating meat",
-              "logic": "定位线索重合：选择吃肉行为作为考察对象"
+              "opt_term": "their strong presence",
+              "text_term": "about one in 10 employs these design practices / widely prevalent",
+              "logic": "同义替换：约十分之一采纳、广泛盛行 ↔ 广泛存在（strong presence）"
             }
           ]
         },

@@ -7303,7 +7303,7 @@
           "stem_cn": "巴尔奇教授指出，火是人类应该_______的东西。",
           "type": "全文主旨题",
           "locate_pid": 8,
-          "locate_sentence": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado.",
+          "locate_sentence": "But acknowledging fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says.",
           "locate_sentence_cn": "与此同时，科罗拉多大学的巴尔奇教授表示，人们仍然认为火灾是一种需要完全控制的事件，只有在必要时才会发生火灾。",
           "options": [
             {
@@ -7315,7 +7315,7 @@
               "analysis": {
                 "practice_status": "彻底消除火灾是过去人类的狂妄幻想，文章明确予以驳斥，排除",
                 "option_nature": "干扰项（反向考查/驳论陷阱）",
-                "source_sentence": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only... But fire is not something we can ever fully extinguish...",
+                "source_sentence": "But acknowledging fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says.",
                 "source_translation": "与此同时，人们继续把火视为一种需要被完全控制并且只能在……时释放的事件。但火绝不是我们能够彻底扑灭的东西……",
                 "locator_comparison": "选项A认为人类应该“彻底消灭火灾（do away with）”。末段首句开门见山批判了人类长期的狂妄心态：妄图完全控制火（wholly controlled）；随后第二句直接驳斥道：“fire is not something we can ever fully extinguish（火绝不是我们所能彻底消灭的事物）”。习语 do away with 意为废除、消灭，完全等同于 fully extinguish。选项A把作者坚决批判并证明不可行的狂妄企图，错当成专家的建议，黑白颠倒。",
                 "writing_perspective": "作者在末尾引用 Balch，旨在完成从人定胜天到敬畏自然的观念颠覆；A选项把被颠覆的陈旧神话当成了结论，彻底摧毁了全篇的升华高潮。",
@@ -7332,7 +7332,7 @@
               "analysis": {
                 "practice_status": "对比末段 learn to live with 以及 coming to terms with，秒定B",
                 "option_nature": "正确项（原词咬合/主旨升华）",
-                "source_sentence": "It is a natural process that humans must learn to live with, coming to terms with its presence on the landscape.",
+                "source_sentence": "But acknowledging fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says.",
                 "source_translation": "这是一个人类必须学会与之共存的自然过程，去学会接受并适应它在自然景观中的存在。",
                 "locator_comparison": "选项B指出人类应该对火“学会接纳并妥协共存（come to terms with）”。定位句中，Balch 教授明确给出了人类与火相处的终极智慧：“humans must learn to live with, coming to terms with its presence on the landscape”。习语 come to terms with 意为“妥协、达成和解、学会接受并适应客观现实”。B选项原原本本地提取了这一核心动词短语，完全忠于原文，体现了至高境界的生态共存智慧。",
                 "writing_perspective": "作者用极其宏大的生态哲学为全篇收官：人类必须戒除对抗自然的傲慢，学会像接纳风雨一样接纳野火，选B以极其震撼的文字力量锁定了全篇最高主旨。",
@@ -7349,7 +7349,7 @@
               "analysis": {
                 "practice_status": "文中指出人类在被动承受损失，但专家的建议是主动转变思维达成和解，排除",
                 "option_nature": "干扰项（消极偏离/未体现主动策略）",
-                "source_sentence": "...coming to terms with its presence on the landscape.",
+                "source_sentence": "But acknowledging fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says.",
                 "source_translation": "……去学会接受并适应它在自然景观中的存在。",
                 "locator_comparison": "选项C认为人类应该“为之付出代价（pay a price for）”。虽然人类如果继续蛮干确实会付出高昂代价，但题干考查的是 Balch 教授认为人类应当采取的“主动态度和处理方式（something man should do）”。专家的建设性建议是学会接纳（come to terms with / live with），而不是消极被动地去“为之付出沉重代价（pay a price for）”。C项把悲惨的客观后果偷换成了行动建议，偏离要旨。",
                 "writing_perspective": "Balch 发言的意图是给出解决方案，引领公众走向理性，若结论是让大家认命付出代价，整篇文章就滑向了消极宿命论的深渊，C选项格调低下。",
@@ -7366,7 +7366,7 @@
               "analysis": {
                 "practice_status": "人类已经居住在林区，且火不可避免，无法绝对远离，排除",
                 "option_nature": "干扰项（反向考查/脱离现实）",
-                "source_sentence": "...humans must learn to live with, coming to terms with its presence on the landscape.",
+                "source_sentence": "But acknowledging fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says.",
                 "source_translation": "……人类必须学会与之共存，去学会接受并适应它在自然地貌中的存在。",
                 "locator_comparison": "选项D认为人类应该“远离火灾（keep away from）”。原文明确强调火灾是广袤地貌景观中无处不在的自然过程（its presence on the landscape），人类系统与自然系统已经深度交织，根本不可能做到绝对的“远离（keep away from）”。专家的建议不是逃跑或隔离，而是学会在火的伴随下合理规划家园与共存（learn to live with）。D项的逃避主义表述与共存的主旨完全相冲。",
                 "writing_perspective": "如果解决办法是远离，那么整个美国西部数千万居民都必须举家搬迁，这在现实中毫无可行性；Balch 倡导的是在火的边缘建立弹性的韧性社会，D选项显得极为幼稚可笑。",

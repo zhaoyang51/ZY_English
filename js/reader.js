@@ -357,12 +357,38 @@
       }
     },
 
-    highlightLocatorSentence(pid) {
-      document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('locator-pulse'));
-      const pEl = document.getElementById(`exam-para-${pid}`);
-      if (pEl) {
-        const firstSent = pEl.querySelector('.exam-sent');
-        if (firstSent) firstSent.classList.add('locator-pulse');
+    highlightLocatorSentence(sid, pid) {
+      if (typeof document === 'undefined') return;
+      if (typeof document.querySelectorAll === 'function') {
+        document.querySelectorAll('.exam-sent').forEach(el => el.classList && el.classList.remove('locator-pulse'));
+      }
+      let targetEl = null;
+
+      if (sid !== undefined && sid !== null && sid !== '') {
+        if (typeof document.getElementById === 'function') {
+          targetEl = document.getElementById(`sent-${sid}`);
+        }
+        if (!targetEl && typeof document.querySelector === 'function') {
+          targetEl = document.querySelector(`.exam-sent[data-sid="${sid}"]`);
+        }
+      }
+
+      // Fallback to first sentence of paragraph if specific sentence not found
+      if (!targetEl && pid !== undefined && pid !== null && pid !== '') {
+        const pEl = typeof document.getElementById === 'function' ? document.getElementById(`exam-para-${pid}`) : null;
+        if (pEl && typeof pEl.querySelector === 'function') {
+          targetEl = pEl.querySelector('.exam-sent');
+        }
+      }
+
+      if (targetEl) {
+        void targetEl.offsetWidth; // Force CSS reflow to re-trigger pulse animation reliably
+        if (targetEl.classList && typeof targetEl.classList.add === 'function') {
+          targetEl.classList.add('locator-pulse');
+        }
+        if (typeof targetEl.scrollIntoView === 'function') {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
       }
     }
   };

@@ -1599,6 +1599,18 @@
           highlightSentenceOnLeftPanel(sid);
           return;
         }
+
+        const sourceLocateBtn = e.target.closest('.source-sent-locate-badge, .source-quote-box');
+        if (sourceLocateBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          const sid = sourceLocateBtn.getAttribute('data-sid');
+          if (sid !== null && sid !== undefined && sid !== '') {
+            highlightSentenceOnLeftPanel(Number(sid));
+            showToast('📖 已在左侧原文定位该出处句子');
+          }
+          return;
+        }
       });
 
       workspaceContent.addEventListener('dblclick', () => {
@@ -2158,8 +2170,13 @@
       // Synchronize left panel question & sentence highlight
       window.ReaderModule.highlight({ section: 3, qid: targetQidStr });
       const qObj = (AppState.textData.questions || []).find(q => String(q.qid) === targetQidStr);
-      if (qObj && typeof qObj.locate_pid === 'number') {
-        window.ReaderModule.highlightLocatorSentence(qObj.locate_pid);
+      if (qObj) {
+        let qSid = null;
+        if (window.findSentenceInText && AppState.textData) {
+          const match = window.findSentenceInText(AppState.textData, qObj.locate_sentence);
+          if (match && typeof match.sid === 'number') qSid = match.sid;
+        }
+        window.ReaderModule.highlightLocatorSentence(qSid, qObj.locate_pid);
       }
       showToast(`🎯 已直达第 ${targetQidStr} 题命题复盘`);
       return;

@@ -660,10 +660,59 @@ ${backbone ? `<div class="reading-backbone"><b>主干速览</b><p>${backbone.con
 ${logic.length ? `<div class="reading-logic"><b>语篇作用与考点</b>${logic.map(b => `<p><strong>${b.content}</strong> — ${b.explanation}</p>`).join('')}</div>` : ''}
 <p style="margin-top:8px"><strong>【参考译文】</strong><span style="color:var(--review-accent);font-weight:600">${sent.translation}</span></p>
 </section>`,
-            meta: { section: 2, para: pid, sentence: s_idx }
+            meta: { section: 2, para: pid, sentence: s_idx, sid: sent.sid }
           });
         });
       });
+
+      // Helper to accurately match a source snippet or locator sentence to its authentic sentence sid
+      function findSentenceSid(sourceText, fallbackPid) {
+        if (!textData || !Array.isArray(textData.sentences)) return null;
+        if (!sourceText) {
+          if (typeof fallbackPid === 'number') {
+            const pSents = textData.sentences.filter(s => s.pid === fallbackPid);
+            return pSents.length > 0 ? pSents[0].sid : null;
+          }
+          return null;
+        }
+        if (typeof window !== 'undefined' && window.findSentenceInText) {
+          const match = window.findSentenceInText(textData, sourceText);
+          if (match && typeof match.sid === 'number') return match.sid;
+        }
+        const clean = s => (s || '')
+          .toLowerCase()
+          .replace(/^[.。\s…\.\-]+|[.。\s…\.\-]+$/g, '')
+          .replace(/[“’”"']/g, '')
+          .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim();
+        const cText = clean(sourceText);
+        if (cText.length >= 4) {
+          const found = textData.sentences.find(s => {
+            const cs = clean(s.text);
+            return cs.includes(cText) || cText.includes(cs);
+          });
+          if (found) return found.sid;
+          const words = cText.split(' ').filter(w => w.length > 3);
+          if (words.length >= 2) {
+            let best = null, max = 0;
+            for (const s of textData.sentences) {
+              const cs = clean(s.text);
+              const score = words.filter(w => cs.includes(w)).length;
+              if (score > max && score >= Math.min(2, words.length)) {
+                max = score;
+                best = s;
+              }
+            }
+            if (best) return best.sid;
+          }
+        }
+        if (typeof fallbackPid === 'number') {
+          const pSents = textData.sentences.filter(s => s.pid === fallbackPid);
+          return pSents.length > 0 ? pSents[0].sid : null;
+        }
+        return null;
+      }
 
       // Section 3: 第三鸟 · 题目命题思维与避坑解析
       steps.push({
@@ -681,6 +730,8 @@ ${logic.length ? `<div class="reading-logic"><b>语篇作用与考点</b>${logic
         const formatText = (window.ReviewContent && window.ReviewContent.formatQuestionText) || (t => t);
         const formattedStem = formatText(q.stem, allVocab);
         const formattedCorrText = correctOpt ? formatText(correctOpt.text, allVocab) : '';
+        const qSid = findSentenceSid(q.locate_sentence, q.locate_pid);
+        const qLocateBadge = qSid !== null ? `<button type="button" class="source-sent-locate-badge" data-sid="${qSid}" style="display:inline-flex;align-items:center;gap:4px;cursor:pointer;font-size:0.8em;padding:2px 8px;border-radius:4px;border:1px solid rgba(37,99,235,0.25);background:rgba(37,99,235,0.08);color:var(--primary);font-weight:600;margin-left:8px;vertical-align:middle" title="点击在左侧原文定位该题眼核心句"><span>📍</span> 定位原文</button>` : '';
 
         // Build option analysis cards for overview
         const optionsBreakdownHtml = q.options.map(opt => {
@@ -729,10 +780,10 @@ ${logic.length ? `<div class="reading-logic"><b>语篇作用与考点</b>${logic
 ${optionsBreakdownHtml}
 </div>
 
-<h3>定位出处（第 ${q.locate_pid + 1} 段核心定位句）</h3>
-<blockquote><p>${q.locate_sentence}<br>${q.locate_sentence_cn}</p></blockquote>
+<h3>定位出处（第 ${q.locate_pid + 1} 段核心定位句）${qLocateBadge}</h3>
+<blockquote class="source-quote-box" ${qSid !== null ? `data-sid="${qSid}" style="cursor:pointer" title="点击在左侧原文定位该出处句子"` : ''}><p>${q.locate_sentence}<br>${q.locate_sentence_cn}</p></blockquote>
 ${getSynonymCardHtml(q, correctOpt)}`,
-          meta: { section: 3, qid: String(q.qid), form: "overview", para: q.locate_pid }
+          meta: { section: 3, qid: String(q.qid), form: "overview", para: q.locate_pid, sid: qSid }
         });
 
         // 4 Options
@@ -741,13 +792,16 @@ ${getSynonymCardHtml(q, correctOpt)}`,
           const a = window.ReviewContent.analysis(q, opt);
           const trapPill = !isC ? getTrapPillHtml(opt.trap_type) : '';
           const formattedOpt = formatText(opt.text, allVocab);
+          const optSource = a.source_sentence || q.locate_sentence || '';
+          const optSid = findSentenceSid(optSource, q.locate_pid) ?? qSid;
+          const optLocateBadge = optSid !== null ? `<button type="button" class="source-sent-locate-badge" data-sid="${optSid}" style="display:inline-flex;align-items:center;gap:4px;cursor:pointer;font-size:0.8em;padding:2px 8px;border-radius:4px;border:1px solid rgba(37,99,235,0.25);background:rgba(37,99,235,0.08);color:var(--primary);font-weight:600;margin-left:8px;vertical-align:middle" title="点击在左侧原文定位该选项出处句子"><span>📍</span> 定位原文</button>` : '';
 
           const leadHtml = `<section class="revealPart optionLead">
 <blockquote><p><strong style="color:var(--primary)">[${opt.key}]</strong> ${formattedOpt}<br><span style="color:var(--muted)">${opt.text_cn}</span></p></blockquote>
 ${a.practice_status ? `<p><strong>选项判断：</strong>${a.practice_status}</p>` : ''}
 <p><strong>选项性质：${a.option_nature}。</strong> ${trapPill}</p>
 ${a.position ? `<p><strong>依据位置：</strong>${a.position}</p>` : ''}
-<strong>出处：</strong><blockquote><p>${a.source_sentence}</p></blockquote>
+<strong>出处：</strong>${optLocateBadge}<blockquote class="source-quote-box" ${optSid !== null ? `data-sid="${optSid}" style="cursor:pointer" title="点击在左侧原文定位该出处句子"` : ''}><p>${a.source_sentence}</p></blockquote>
 </section>`;
 
           const compHtml = `<section class="revealPart">
@@ -772,28 +826,28 @@ ${a.theme_validation ? `
             section: 3,
             title: `${opt.key}. ${opt.text}`,
             html: leadHtml,
-            meta: { section: 3, qid: String(q.qid), option: opt.key, stage: 0, para: q.locate_pid }
+            meta: { section: 3, qid: String(q.qid), option: opt.key, stage: 0, para: q.locate_pid, sid: optSid }
           });
 
           steps.push({
             section: 3,
             title: `${opt.key}. ${opt.text}`,
             html: leadHtml + compHtml,
-            meta: { section: 3, qid: String(q.qid), option: opt.key, stage: 1, para: q.locate_pid }
+            meta: { section: 3, qid: String(q.qid), option: opt.key, stage: 1, para: q.locate_pid, sid: optSid }
           });
 
           if (writeHtml) steps.push({
             section: 3,
             title: `${opt.key}. ${opt.text}`,
             html: leadHtml + compHtml + writeHtml,
-            meta: { section: 3, qid: String(q.qid), option: opt.key, stage: 2, para: q.locate_pid }
+            meta: { section: 3, qid: String(q.qid), option: opt.key, stage: 2, para: q.locate_pid, sid: optSid }
           });
 
           steps.push({
             section: 3,
             title: `${opt.key}. ${opt.text}`,
             html: leadHtml + compHtml + writeHtml + crossHtml,
-            meta: { section: 3, qid: String(q.qid), option: opt.key, stage: 3, para: q.locate_pid }
+            meta: { section: 3, qid: String(q.qid), option: opt.key, stage: 3, para: q.locate_pid, sid: optSid }
           });
         });
 
@@ -806,7 +860,7 @@ ${a.theme_validation ? `
   <div style="font-weight:700;color:var(--accent);margin-bottom:6px">💡 核心考点与命题避坑总结：</div>
   <div>${q.summary || ''}</div>
 </div>`,
-          meta: { section: 3, qid: String(q.qid), form: "conclusion", para: q.locate_pid }
+          meta: { section: 3, qid: String(q.qid), form: "conclusion", para: q.locate_pid, sid: qSid }
         });
       });
 
@@ -866,8 +920,12 @@ ${a.theme_validation ? `
       container.innerHTML = html;
       window.ReaderModule.highlight(step.meta);
 
-      if (step.meta && typeof step.meta.para === 'number') {
-        window.ReaderModule.highlightLocatorSentence(step.meta.para);
+      if (step.meta) {
+        if (typeof step.meta.sid === 'number') {
+          window.ReaderModule.highlightLocatorSentence(step.meta.sid, step.meta.para);
+        } else if (typeof step.meta.para === 'number') {
+          window.ReaderModule.highlightLocatorSentence(null, step.meta.para);
+        }
       }
     },
 
