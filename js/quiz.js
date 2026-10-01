@@ -468,7 +468,7 @@ ${synonymCard}
                 </div>
                 <div class="vocab-card-actions">
                   <button class="vocab-icon-btn vocab-tts-btn" data-word="${escWord}" title="🔊 朗读发音">🔊</button>
-                  <button class="vocab-icon-btn vocab-star-btn ${item.isB ? 'bookmarked' : ''}" data-word="${escWord}" data-def="${escDef}" data-sentence="${escSent}" data-year="${textData.year || ''}" data-textid="${textData.text_id || ''}" title="${item.isB ? '★ 已在生词本' : '☆ 收藏至生词本'}">${item.isB ? '★' : '☆'}</button>
+                  <button class="vocab-icon-btn vocab-star-btn ${item.isB ? 'bookmarked' : ''}" data-word="${escWord}" data-def="${escDef}" data-sentence="${escSent}" data-year="${textData.year || ''}" data-textid="${textData.text_id || ''}" data-sid="${item.contextSid != null ? escapeHtmlAttr(String(item.contextSid)) : ''}" data-pid="${item.contextPid != null ? escapeHtmlAttr(String(item.contextPid)) : ''}" title="${item.isB ? '★ 已在生词本' : '☆ 收藏至生词本'}">${item.isB ? '★' : '☆'}</button>
                 </div>
               </div>
               <div class="vocab-card-def" title="自测模式下点击或悬停揭晓">
@@ -510,7 +510,7 @@ ${synonymCard}
               </td>
               <td class="col-act">
                 <button class="vocab-icon-btn vocab-tts-btn" data-word="${escWord}" title="🔊 朗读发音">🔊</button>
-                <button class="vocab-icon-btn vocab-star-btn ${item.isB ? 'bookmarked' : ''}" data-word="${escWord}" data-def="${escDef}" data-sentence="${escSent}" data-year="${textData.year || ''}" data-textid="${textData.text_id || ''}" title="${item.isB ? '★ 已在生词本' : '☆ 收藏至生词本'}">${item.isB ? '★' : '☆'}</button>
+                <button class="vocab-icon-btn vocab-star-btn ${item.isB ? 'bookmarked' : ''}" data-word="${escWord}" data-def="${escDef}" data-sentence="${escSent}" data-year="${textData.year || ''}" data-textid="${textData.text_id || ''}" data-sid="${item.contextSid != null ? escapeHtmlAttr(String(item.contextSid)) : ''}" data-pid="${item.contextPid != null ? escapeHtmlAttr(String(item.contextPid)) : ''}" title="${item.isB ? '★ 已在生词本' : '☆ 收藏至生词本'}">${item.isB ? '★' : '☆'}</button>
                 ${item.contextSid != null ? `<button class="vocab-icon-btn vocab-context-jump-btn" data-sid="${escapeHtmlAttr(String(item.contextSid))}" title="📖 联动左侧原文定位">📖</button>` : ''}
               </td>
             </tr>

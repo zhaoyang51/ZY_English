@@ -468,6 +468,16 @@
         window.MatchingRenderer.render(AppState.textData, year, AppState.mode);
       } else if (textId === 'translation' && window.TranslationRenderer) {
         window.TranslationRenderer.render(AppState.textData, year, AppState.mode);
+        if (AppState.targetSentenceInfo) {
+          const transSent = findSentenceInText(AppState.textData, AppState.targetSentenceInfo.sentence, AppState.targetSentenceInfo.word, AppState.targetSentenceInfo.sid);
+          if (transSent) {
+            setTimeout(() => {
+              window.TranslationRenderer.highlightSentence(transSent.sid);
+            }, 120);
+            showToast(`🎯 已跳转并定位到翻译第 ${transSent.sid} 句`);
+          }
+          AppState.targetSentenceInfo = null;
+        }
       }
       updateUIControls();
       saveState();
@@ -501,7 +511,26 @@
       AppState.steps = window.QuizModule.buildReviewSteps(AppState.textData);
     }
 
-    if (AppState.savedStepIndex !== null && AppState.savedStepIndex >= 0 && AppState.savedStepIndex < AppState.steps.length) {
+    let jumpTargetSentence = null;
+    let targetWord = null;
+    if (AppState.targetSentenceInfo && AppState.textData) {
+      targetWord = AppState.targetSentenceInfo.word;
+      jumpTargetSentence = findSentenceInText(
+        AppState.textData,
+        AppState.targetSentenceInfo.sentence,
+        AppState.targetSentenceInfo.word,
+        AppState.targetSentenceInfo.sid
+      );
+      if (jumpTargetSentence && AppState.mode === 'review' && Array.isArray(AppState.textData.sentences) && AppState.steps) {
+        const sentsInPara = AppState.textData.sentences.filter(s => s.pid === jumpTargetSentence.pid);
+        const sIdx = sentsInPara.findIndex(s => s.sid === jumpTargetSentence.sid);
+        const stepIdx = AppState.steps.findIndex(st => st.section === 2 && st.meta && st.meta.para === jumpTargetSentence.pid && st.meta.sentence === sIdx);
+        if (stepIdx >= 0) {
+          AppState.stepIndex = stepIdx;
+          AppState.savedStepIndex = null;
+        }
+      }
+    } else if (AppState.savedStepIndex !== null && AppState.savedStepIndex >= 0 && AppState.savedStepIndex < AppState.steps.length) {
       AppState.stepIndex = AppState.savedStepIndex;
       AppState.savedStepIndex = null;
     } else {
@@ -512,6 +541,15 @@
     renderCurrentStep({ forceTop: true });
     updateUIControls();
     saveState();
+
+    if (jumpTargetSentence) {
+      AppState.targetSentenceInfo = null;
+      setTimeout(() => {
+        highlightSentenceOnLeftPanel(jumpTargetSentence.sid, targetWord);
+      }, 120);
+      const paraLabel = (jumpTargetSentence.pid !== undefined && jumpTargetSentence.pid !== null) ? `第 ${jumpTargetSentence.pid + 1} 段` : '';
+      showToast(`🎯 已跳转并定位到${paraLabel}原句`);
+    }
   }
 
   function updateJumpDropdown() {
@@ -954,6 +992,105 @@
     if (statsModal) statsModal.classList.remove('show');
   };
 
+  function escapeAttr(str) {
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
+  function findSentenceInText(textData, sentenceText, word, givenSid) {
+    if (!textData) return null;
+    const sentences = Array.isArray(textData.sentences) ? textData.sentences : [];
+    if (sentences.length === 0) return null;
+
+    // 1. Explicit givenSid if provided and matches
+    if (givenSid !== undefined && givenSid !== null && givenSid !== '') {
+      const matchBySid = sentences.find(s => String(s.sid) === String(givenSid));
+      if (matchBySid) return matchBySid;
+    }
+
+    const clean = s => (s || '')
+      .toLowerCase()
+      .replace(/[“’”"']/g, '')
+      .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    const cleanInput = clean(sentenceText);
+    const cleanWord = (word || '').toLowerCase().trim();
+
+    // 2. High-precision full or prefix match on cleaned sentence
+    if (cleanInput && cleanInput.length > 8) {
+      // Direct exact equality or substring
+      let bestMatch = sentences.find(s => {
+        const cs = clean(s.text);
+        return cs.includes(cleanInput) || cleanInput.includes(cs);
+      });
+      if (bestMatch) return bestMatch;
+
+      // Prefix match (first 25 characters)
+      const inputPrefix = cleanInput.slice(0, 25);
+      bestMatch = sentences.find(s => clean(s.text).includes(inputPrefix));
+      if (bestMatch) return bestMatch;
+    }
+
+    // 3. Fallback: match by target word and overlap tokens
+    if (cleanWord) {
+      try {
+        const re = new RegExp(`\\b${cleanWord.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}\\b`, 'i');
+        const wordMatches = sentences.filter(s => re.test(s.text || ''));
+        if (wordMatches.length === 1) return wordMatches[0];
+        if (wordMatches.length > 1 && cleanInput) {
+          const inputTokens = cleanInput.split(' ').filter(t => t.length > 3);
+          let maxScore = -1;
+          let best = wordMatches[0];
+          for (const s of wordMatches) {
+            const cs = clean(s.text);
+            const score = inputTokens.filter(t => cs.includes(t)).length;
+            if (score > maxScore) {
+              maxScore = score;
+              best = s;
+            }
+          }
+          return best;
+        }
+      } catch (e) {}
+    }
+
+    return null;
+  }
+  window.findSentenceInText = findSentenceInText;
+
+  function jumpToArticleSentence({ year, textId, word, sentence, sid, pid }) {
+    const y = Number(year);
+    const t = textId;
+    if (!y || !t) return;
+
+    const modal = document.getElementById('vocabBookModal');
+    if (modal) modal.classList.remove('show');
+
+    AppState.targetSentenceInfo = {
+      year: y,
+      textId: t,
+      word: word || '',
+      sentence: sentence || '',
+      sid: (sid !== undefined && sid !== null && sid !== '') ? Number(sid) : null,
+      pid: (pid !== undefined && pid !== null && pid !== '') ? Number(pid) : null
+    };
+
+    AppState.year = y;
+    AppState.textId = t;
+    AppState.mode = 'review';
+    AppState.savedStepIndex = 0;
+    setupYearDropdown();
+    loadCurrentText();
+  }
+  window.jumpToArticleSentence = jumpToArticleSentence;
+
   function renderVocabBookModal(filterSearch = '') {
     const body = document.getElementById('vocabBookModalBody');
     if (!body) return;
@@ -1004,7 +1141,7 @@
         }
 
         html += `
-          <div class="vocab-book-card" data-word="${item.word}">
+          <div class="vocab-book-card" data-word="${escapeAttr(item.word)}">
             <div class="vocab-book-header">
               <span class="vocab-book-word">${item.word}</span>
               <div class="vocab-book-meta">
@@ -1014,9 +1151,9 @@
             <div class="vocab-book-def">${item.def || (window.KAOYAN_VOCAB_DICT && window.KAOYAN_VOCAB_DICT[item.word.toLowerCase().trim()] && window.KAOYAN_VOCAB_DICT[item.word.toLowerCase().trim()].def) || '真题重点考查词汇'}</div>
             ${sentHtml ? `<div class="vocab-book-sentence"><strong>真题原句：</strong>${sentHtml}</div>` : ''}
             <div class="vocab-book-actions">
-              <button class="toolbar-btn btn-speak-word" data-word="${item.word}" style="padding:3px 10px;font-size:0.82em" title="发音朗读">🔊 朗读</button>
-              ${item.year ? `<button class="toolbar-btn btn-jump-article" data-year="${item.year}" data-text="${item.textId}" style="padding:3px 10px;font-size:0.82em;color:var(--primary)" title="跳转到该真题文章">📖 跳转真题</button>` : ''}
-              <button class="toolbar-btn btn-del-word" data-word="${item.word}" style="padding:3px 10px;font-size:0.82em;color:#ef4444" title="移出生词本">🗑️ 移除</button>
+              <button class="toolbar-btn btn-speak-word" data-word="${escapeAttr(item.word)}" style="padding:3px 10px;font-size:0.82em" title="发音朗读">🔊 朗读</button>
+              ${item.year ? `<button class="toolbar-btn btn-jump-article" data-year="${escapeAttr(item.year)}" data-text="${escapeAttr(item.textId)}" data-word="${escapeAttr(item.word)}" data-sentence="${escapeAttr(item.sentence || '')}" data-sid="${item.sid !== undefined && item.sid !== null ? item.sid : ''}" data-pid="${item.pid !== undefined && item.pid !== null ? item.pid : ''}" style="padding:3px 10px;font-size:0.82em;color:var(--primary)" title="跳转到真题文章并精确定位原句">📖 跳转真题</button>` : ''}
+              <button class="toolbar-btn btn-del-word" data-word="${escapeAttr(item.word)}" style="padding:3px 10px;font-size:0.82em;color:#ef4444" title="移出生词本">🗑️ 移除</button>
             </div>
           </div>
         `;
@@ -1062,18 +1199,13 @@
 
     body.querySelectorAll('.btn-jump-article').forEach(btn => {
       btn.onclick = () => {
-        const y = Number(btn.getAttribute('data-year'));
-        const t = Number(btn.getAttribute('data-text'));
-        if (y && t) {
-          const modal = document.getElementById('vocabBookModal');
-          if (modal) modal.classList.remove('show');
-          AppState.year = y;
-          AppState.textId = t;
-          AppState.mode = 'review';
-          AppState.savedStepIndex = 0;
-          setupYearDropdown();
-          loadCurrentText();
-        }
+        const y = btn.getAttribute('data-year');
+        const t = btn.getAttribute('data-text');
+        const word = btn.getAttribute('data-word') || '';
+        const sentence = btn.getAttribute('data-sentence') || '';
+        const sid = btn.getAttribute('data-sid');
+        const pid = btn.getAttribute('data-pid');
+        jumpToArticleSentence({ year: y, textId: t, word, sentence, sid, pid });
       };
     });
   }
@@ -1105,13 +1237,32 @@
   }
   window.speakWord = speakWord;
 
-  function highlightSentenceOnLeftPanel(sid) {
+  function highlightSentenceOnLeftPanel(sid, targetWord) {
     if (sid === null || sid === undefined || sid === '') return;
     const sentEl = document.getElementById(`sent-${sid}`) || document.querySelector(`.exam-sent[data-sid="${sid}"]`);
     if (sentEl) {
       document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('locator-pulse'));
+      document.querySelectorAll('.vocab-target-highlight').forEach(el => el.classList.remove('vocab-target-highlight'));
+      void sentEl.offsetWidth; // Force reflow to re-trigger pulse
       sentEl.classList.add('locator-pulse');
       sentEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+      if (targetWord) {
+        const cleanTarget = targetWord.toLowerCase().trim().replace(/['’]s$/, '').replace(/^[“"']|[”"']$/g, '');
+        const tokens = sentEl.querySelectorAll('.exam-word-token, .exam-vocab');
+        let matchedToken = null;
+        for (const tok of tokens) {
+          const w = (tok.getAttribute('data-word') || tok.innerText || '').toLowerCase().trim();
+          if (w === cleanTarget || w.startsWith(cleanTarget) || cleanTarget.startsWith(w)) {
+            matchedToken = tok;
+            break;
+          }
+        }
+        if (matchedToken) {
+          matchedToken.classList.add('vocab-target-highlight');
+        }
+      }
+
       if (window.innerWidth <= 900) {
         showToast('📖 已在试卷原文中定位对应原句');
       }
@@ -1142,7 +1293,9 @@
         const sentSpan = connSpan.closest('.exam-sent, .q-stem, .q-opt');
         const sentText = sentSpan ? sentSpan.innerText : '';
         const connWord = connSpan.getAttribute('data-connector') || connSpan.innerText;
-        showVocabPopup(connWord, e.clientX, e.clientY, sentText);
+        const targetSid = sentSpan ? (sentSpan.getAttribute('data-sid') || (sentSpan.dataset ? sentSpan.dataset.sid : null)) : null;
+        const targetPid = sentSpan ? (sentSpan.getAttribute('data-pid') || (sentSpan.dataset ? sentSpan.dataset.pid : null)) : null;
+        showVocabPopup(connWord, e.clientX, e.clientY, sentText, null, '', targetSid, targetPid);
         return;
       }
 
@@ -1151,7 +1304,9 @@
         e.stopPropagation();
         const sentSpan = vocabSpan.closest('.exam-sent, .q-stem, .q-opt');
         const sentText = sentSpan ? sentSpan.innerText : '';
-        showVocabPopup(vocabSpan.getAttribute('data-word'), e.clientX, e.clientY, sentText);
+        const targetSid = sentSpan ? (sentSpan.getAttribute('data-sid') || (sentSpan.dataset ? sentSpan.dataset.sid : null)) : null;
+        const targetPid = sentSpan ? (sentSpan.getAttribute('data-pid') || (sentSpan.dataset ? sentSpan.dataset.pid : null)) : null;
+        showVocabPopup(vocabSpan.getAttribute('data-word'), e.clientX, e.clientY, sentText, null, '', targetSid, targetPid);
         return;
       }
 
@@ -1161,7 +1316,10 @@
         const parentContext = wordTokenSpan.closest('.q-stem, .q-opt, .exam-sent, .exam-para');
         const sentText = parentContext ? parentContext.innerText : '';
         const word = wordTokenSpan.getAttribute('data-word') || wordTokenSpan.innerText;
-        showVocabPopup(word, e.clientX, e.clientY, sentText);
+        const sentSpan = wordTokenSpan.closest('.exam-sent');
+        const targetSid = sentSpan ? (sentSpan.getAttribute('data-sid') || (sentSpan.dataset ? sentSpan.dataset.sid : null)) : null;
+        const targetPid = sentSpan ? (sentSpan.getAttribute('data-pid') || (sentSpan.dataset ? sentSpan.dataset.pid : null)) : null;
+        showVocabPopup(word, e.clientX, e.clientY, sentText, null, '', targetSid, targetPid);
         return;
       }
 
@@ -1280,7 +1438,10 @@
           const word = wordToken.getAttribute('data-word') || wordToken.getAttribute('data-connector') || wordToken.innerText;
           const parentContext = wordToken.closest('.mock-opt-item, .mock-q-card, .step-card, blockquote, h2, h3, p');
           const sentText = parentContext ? parentContext.innerText : '';
-          showVocabPopup(word, e.clientX, e.clientY, sentText);
+          const sentSpan = wordToken.closest('.exam-sent, [data-sid]');
+          const targetSid = sentSpan ? (sentSpan.getAttribute('data-sid') || (sentSpan.dataset ? sentSpan.dataset.sid : null)) : null;
+          const targetPid = sentSpan ? (sentSpan.getAttribute('data-pid') || (sentSpan.dataset ? sentSpan.dataset.pid : null)) : null;
+          showVocabPopup(word, e.clientX, e.clientY, sentText, null, '', targetSid, targetPid);
           return;
         }
 
@@ -1304,8 +1465,10 @@
           const sent = starBtn.getAttribute('data-sentence') || '';
           const year = starBtn.getAttribute('data-year') || (AppState.year ? String(AppState.year) : '');
           const textId = starBtn.getAttribute('data-textid') || (AppState.textId ? String(AppState.textId) : '');
+          const sid = starBtn.getAttribute('data-sid') || '';
+          const pid = starBtn.getAttribute('data-pid') || '';
           if (window.StorageModule && window.StorageModule.toggleBookmark) {
-            const res = window.StorageModule.toggleBookmark(word, def, sent, year, textId);
+            const res = window.StorageModule.toggleBookmark(word, def, sent, year, textId, sid, pid);
             const allStars = document.querySelectorAll(`.vocab-star-btn[data-word="${CSS.escape(word)}"]`);
             allStars.forEach(btn => {
               if (res.added) {
@@ -2091,7 +2254,7 @@
     return null;
   }
 
-  function showVocabPopup(word, clientX, clientY, sentenceContext, customDefParam, extraActionHtml) {
+  function showVocabPopup(word, clientX, clientY, sentenceContext, customDefParam, extraActionHtml, targetSid, targetPid) {
     const popup = document.getElementById('vocabPopup');
     if (!popup) return;
 
@@ -2176,7 +2339,7 @@
 
     document.getElementById('closeVocabBtn').onclick = () => popup.classList.remove('show');
     document.getElementById('bookmarkBtn').onclick = () => {
-      const res = window.StorageModule.toggleBookmark(word, info.def, sentenceContext, AppState.year, AppState.textId);
+      const res = window.StorageModule.toggleBookmark(word, info.def, sentenceContext, AppState.year, AppState.textId, targetSid, targetPid);
       const bBtn = document.getElementById('bookmarkBtn');
       if (bBtn) {
         bBtn.textContent = res.added ? '★ 已在生词本' : '☆ 收藏生词';

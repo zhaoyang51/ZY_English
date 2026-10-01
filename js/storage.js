@@ -144,7 +144,7 @@
     },
 
     // --- Vocabulary Book ---
-    addWordToBook(word, def, sentence, year, textId) {
+    addWordToBook(word, def, sentence, year, textId, sid, pid) {
       try {
         const list = this.getVocabBook();
         const wLow = word.toLowerCase().trim();
@@ -155,10 +155,12 @@
           sentence: sentence || '',
           year: year || '',
           textId: textId || '',
+          sid: (sid !== undefined && sid !== null && sid !== '') ? Number(sid) : null,
+          pid: (pid !== undefined && pid !== null && pid !== '') ? Number(pid) : null,
           time: Date.now()
         };
         if (existingIdx >= 0) {
-          list[existingIdx] = item;
+          list[existingIdx] = Object.assign(list[existingIdx], item);
         } else {
           list.push(item);
         }
@@ -192,13 +194,13 @@
       }
     },
 
-    toggleBookmark(word, def, sentence, year, textId) {
+    toggleBookmark(word, def, sentence, year, textId, sid, pid) {
       const isB = this.isBookmarked(word);
       if (isB) {
         this.removeWordFromBook(word);
         return { added: false };
       } else {
-        return this.addWordToBook(word, def, sentence, year, textId);
+        return this.addWordToBook(word, def, sentence, year, textId, sid, pid);
       }
     },
 
