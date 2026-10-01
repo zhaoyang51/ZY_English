@@ -682,15 +682,53 @@ ${logic.length ? `<div class="reading-logic"><b>语篇作用与考点</b>${logic
         const formattedStem = formatText(q.stem, allVocab);
         const formattedCorrText = correctOpt ? formatText(correctOpt.text, allVocab) : '';
 
+        // Build option analysis cards for overview
+        const optionsBreakdownHtml = q.options.map(opt => {
+          const isC = opt.is_correct;
+          const a = window.ReviewContent.analysis(q, opt);
+          const badgeColor = isC ? '#059669' : '#dc2626';
+          const badgeBg = isC ? 'rgba(5, 150, 105, 0.1)' : 'rgba(220, 38, 38, 0.08)';
+          const borderColor = isC ? 'rgba(5, 150, 105, 0.4)' : 'var(--border)';
+          const formattedOpt = formatText(opt.text, allVocab);
+          const trapLabel = isC ? '★ 标准正确项' : (opt.trap_type || '干扰项');
+          const concreteReason = a.practice_status || a.locator_comparison || a.verdict || '';
+
+          return `
+            <div class="reading-option-card" style="border:1px solid ${borderColor};border-left:4px solid ${badgeColor};border-radius:6px;padding:9px 12px;background:var(--surface)">
+              <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:3px;flex-wrap:wrap">
+                <div>
+                  <strong style="color:${badgeColor};margin-right:6px">[${opt.key}]</strong>
+                  <span style="font-weight:600">${formattedOpt}</span>
+                  <span style="color:var(--muted);font-size:0.88em;margin-left:6px">${opt.text_cn ? `(${opt.text_cn})` : ''}</span>
+                </div>
+                <span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:0.82em;font-weight:600;background:${badgeBg};color:${badgeColor}">${trapLabel}</span>
+              </div>
+              ${concreteReason ? `<div style="font-size:0.88em;line-height:1.55;color:var(--ink);margin-top:4px">${concreteReason}</div>` : ''}
+            </div>
+          `;
+        }).join('');
+
         // Question Overview
         steps.push({
           section: 3,
           title: `${q.qid}题 · 题干、题型与核心出处`,
           html: `<blockquote><p><b>[题干]</b> ${formattedStem}<br><span style="color:var(--muted)">${q.stem_cn}</span></p></blockquote>
 <div class="reading-answer"><b>答案：${corrKey}</b> · ${formattedCorrText}</div>
-<h3>题型判定与解题策略</h3>
-<p>这是一道<strong>${q.type}</strong>，考查考生对第 <strong>${q.locate_pid + 1}</strong> 段核心事实或论证逻辑的精准理解。</p>
-<p class="reading-section-note">${window.ReviewContent.typeExplanation(q.type || '')}</p>
+
+<h3>🎯 命题深层逻辑与设题剖析</h3>
+<div class="reading-question-summary" style="background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:6px;padding:12px 14px;line-height:1.75;font-size:0.95em;color:var(--ink);margin-bottom:14px">
+  <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;flex-wrap:wrap">
+    <span style="display:inline-block;padding:2px 8px;font-size:0.85em;border-radius:4px;background:rgba(29,78,216,0.1);color:var(--primary);font-weight:600">🏷️ 题型：${q.type}</span>
+    <span style="font-size:0.85em;color:var(--muted)">📍 定位依据：第 ${q.locate_pid + 1} 段</span>
+  </div>
+  <div>${q.summary || '本题考查对定位段落核心信息的提炼与同义改写。'}</div>
+</div>
+
+<h3>🔍 四大选项具体对比与避坑剖析</h3>
+<div class="reading-options-detail-list" style="display:flex;flex-direction:column;gap:8px;margin-bottom:16px">
+${optionsBreakdownHtml}
+</div>
+
 <h3>定位出处（第 ${q.locate_pid + 1} 段核心定位句）</h3>
 <blockquote><p>${q.locate_sentence}<br>${q.locate_sentence_cn}</p></blockquote>
 ${getSynonymCardHtml(q, correctOpt)}`,
@@ -762,8 +800,12 @@ ${a.theme_validation ? `
         // Question Conclusion
         steps.push({
           section: 3,
-          title: `${q.qid}题结论`,
-          html: `<blockquote><p><strong>${q.qid}. ${corrKey}</strong></p></blockquote><p>${q.summary}</p>`,
+          title: `${q.qid}题结论与命题避坑`,
+          html: `<blockquote><p><strong>第 ${q.qid} 题复盘结论 · 正选：${corrKey}</strong> · ${formattedCorrText}</p></blockquote>
+<div class="reading-question-summary" style="background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:6px;padding:12px 14px;line-height:1.75;font-size:0.95em;color:var(--ink)">
+  <div style="font-weight:700;color:var(--accent);margin-bottom:6px">💡 核心考点与命题避坑总结：</div>
+  <div>${q.summary || ''}</div>
+</div>`,
           meta: { section: 3, qid: String(q.qid), form: "conclusion", para: q.locate_pid }
         });
       });

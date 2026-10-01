@@ -97,7 +97,8 @@
       md.push('## 三、题目证据与选项解析', '');
       textData.questions.forEach(q => {
         md.push(`### 第 ${q.qid} 题 · ${q.type}`, '', q.stem, '', q.stem_cn || '', '',
-          `**答案：${q.options.find(o => o.is_correct)?.key || '待补充'}**`, '', C.typeExplanation(q.type || ''),
+          `**答案：${q.options.find(o => o.is_correct)?.key || '待补充'}**`, '',
+          q.summary ? `> **命题深层逻辑与选项剖析**：${q.summary}` : '',
           '', `定位原文：${q.locate_sentence || ''}`, '', q.locate_sentence_cn || '', '');
         C.pairs(q).forEach(p => md.push(`- 原文 ${p.text_term} → 选项 ${p.opt_term}；${p.logic}`));
         q.options.forEach(o => {

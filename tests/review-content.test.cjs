@@ -138,3 +138,36 @@ test('all 340 questions across 68 passages support word tokenization and complet
   assert.match(sample, /class="exam-connector" data-connector="because"/);
 });
 
+test('Section 3 question overview cards contain specific option analysis and no generic boilerplate', () => {
+  for (const [year, data] of Object.entries(db)) {
+    for (const t of data.texts) {
+      const steps = quiz.buildReviewSteps(t);
+      const overviews = steps.filter(s => s.meta?.form === 'overview');
+      assert.equal(overviews.length, 5);
+
+      overviews.forEach((step, idx) => {
+        const q = t.questions[idx];
+
+        // 1. Must NOT contain repetitive generic boilerplate
+        assert.doesNotMatch(step.html, /这是一道<strong>.*?<\/strong>，考查考生对第/, `${year} T${t.text_id} Q${q.qid} contains boilerplate`);
+        assert.doesNotMatch(step.html, /推断必须由文中事实支持/, `${year} T${t.text_id} Q${q.qid} contains boilerplate`);
+        assert.doesNotMatch(step.html, /细节题以原文对应信息为依据/, `${year} T${t.text_id} Q${q.qid} contains boilerplate`);
+        assert.doesNotMatch(step.html, /主旨题概括全文反复讨论/, `${year} T${t.text_id} Q${q.qid} contains boilerplate`);
+        assert.doesNotMatch(step.html, /态度题区分作者与引述者/, `${year} T${t.text_id} Q${q.qid} contains boilerplate`);
+        assert.doesNotMatch(step.html, /例证题的答案指向例子服务/, `${year} T${t.text_id} Q${q.qid} contains boilerplate`);
+        assert.doesNotMatch(step.html, /语境义由当前搭配与上下文/, `${year} T${t.text_id} Q${q.qid} contains boilerplate`);
+
+        // 2. Must contain specific proposition analysis (q.summary)
+        assert.ok(step.html.includes('命题深层逻辑与设题剖析'), `${year} T${t.text_id} Q${q.qid} missing summary title`);
+        assert.ok(step.html.includes(q.summary.slice(0, 20)), `${year} T${t.text_id} Q${q.qid} missing q.summary content`);
+
+        // 3. Must contain concrete option-by-option analysis cards
+        assert.ok(step.html.includes('四大选项具体对比与避坑剖析'), `${year} T${t.text_id} Q${q.qid} missing options analysis header`);
+        for (const opt of q.options) {
+          assert.ok(step.html.includes(`[${opt.key}]`), `${year} T${t.text_id} Q${q.qid} missing option key ${opt.key}`);
+        }
+      });
+    }
+  }
+});
+
