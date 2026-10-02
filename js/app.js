@@ -2502,7 +2502,10 @@
     // 2. Year and Text dropdowns
     document.getElementById('yearSelect').addEventListener('change', e => {
       AppState.year = Number(e.target.value);
-      AppState.textId = 1;
+      const specialSections = ['use_of_english', 'part_b', 'translation'];
+      if (!specialSections.includes(String(AppState.textId))) {
+        AppState.textId = 1;
+      }
       updateTextDropdown();
       AppState.savedStepIndex = 0;
       loadCurrentText();

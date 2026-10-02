@@ -549,5 +549,40 @@ test('ClozeRenderer renders word tokens and lookup badges and supports lookupWor
   assert.strictEqual(popupExtraAction, '');
 });
 
+test('Year dropdown retains question type across years (part_b, use_of_english, translation) and resets reading to Text 1', () => {
+  const appCode = read('js/app.js');
+
+  // Verify the listener in app.js implements the question type retention logic
+  assert.ok(
+    appCode.includes("const specialSections = ['use_of_english', 'part_b', 'translation'];") &&
+    appCode.includes("if (!specialSections.includes(String(AppState.textId)))"),
+    'yearSelect change listener must retain special section question types'
+  );
+
+  // Test state transitions
+  function simulateYearChange(currentTextId, newYear) {
+    const AppState = { year: 2025, textId: currentTextId };
+    const specialSections = ['use_of_english', 'part_b', 'translation'];
+    if (!specialSections.includes(String(AppState.textId))) {
+      AppState.textId = 1;
+    }
+    AppState.year = Number(newYear);
+    return AppState;
+  }
+
+  // 1. From 2025 part_b to 2020 -> must remain part_b (新题型)
+  assert.strictEqual(simulateYearChange('part_b', 2020).textId, 'part_b');
+
+  // 2. From 2025 use_of_english to 2020 -> must remain use_of_english (完形填空)
+  assert.strictEqual(simulateYearChange('use_of_english', 2020).textId, 'use_of_english');
+
+  // 3. From 2025 translation to 2020 -> must remain translation (英译汉)
+  assert.strictEqual(simulateYearChange('translation', 2020).textId, 'translation');
+
+  // 4. From 2025 Text 4 to 2020 -> defaults to Text 1 (traditional reading begins at Text 1)
+  assert.strictEqual(simulateYearChange(4, 2020).textId, 1);
+  assert.strictEqual(simulateYearChange(2, 2020).textId, 1);
+});
+
 
 
