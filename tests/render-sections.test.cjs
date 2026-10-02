@@ -584,5 +584,72 @@ test('Year dropdown retains question type across years (part_b, use_of_english, 
   assert.strictEqual(simulateYearChange(2, 2020).textId, 1);
 });
 
+test('Part B Review Mode provides sentence breakdown, word tokens, per-paragraph translation toggles, and review workbench', () => {
+  const { context, document } = setupDOM();
+  const data2025 = JSON.parse(read('data/2025.json'));
+  const pb2025 = data2025.part_b;
+
+  // 1. Practice Mode verification
+  context.window.MatchingRenderer.render(pb2025, 2025, 'practice');
+  const paperHtml = document.getElementById('examPaper').innerHTML;
+  const wsHtml = document.getElementById('workspaceContent').innerHTML;
+
+  // Verify sentences were extracted onto data and AppState
+  assert.ok(Array.isArray(pb2025.sentences) && pb2025.sentences.length > 20, 'pb2025 must have extracted sentences');
+  assert.ok(pb2025.sentences[0].sid === 1 && pb2025.sentences[0].grammar_breakdown, 'sentences must have sid and grammar_breakdown');
+
+  // Verify left panel sentence spans with data-sid and word tokens
+  assert.ok(paperHtml.includes('exam-sent partb-sent'), 'Left panel must render sentences with .exam-sent.partb-sent');
+  assert.ok(paperHtml.includes('data-sid="1"') && paperHtml.includes('data-sid="2"'), 'Sentences must include data-sid attributes');
+  assert.ok(paperHtml.includes('exam-word-token'), 'Sentence text must contain .exam-word-token elements');
+
+  // Verify per-paragraph translation toggle button
+  assert.ok(paperHtml.includes('partb-trans-toggle-btn'), 'Every paragraph must have a per-paragraph translation toggle button');
+  assert.ok(paperHtml.includes('title="展开/收起本段译文"'), 'Translation toggle button must have tooltip');
+
+  // 2. Review Mode verification
+  context.window.MatchingRenderer.render(pb2025, 2025, 'review');
+  const reviewPaperHtml = document.getElementById('examPaper').innerHTML;
+  const reviewWsHtml = document.getElementById('workspaceContent').innerHTML;
+
+  // In review mode, left panel heading slots are pre-filled with official answers
+  assert.ok(reviewPaperHtml.includes('partb-heading-slot review-key-slot'), 'Review mode must highlight heading slots with .review-key-slot');
+  assert.ok(reviewPaperHtml.includes('★ 标准正解'), 'Review mode heading slots must display official correct answer');
+  assert.ok(reviewPaperHtml.includes('💡 选项译文：'), 'Review mode heading slots must display translation');
+
+  // In review mode, right panel renders the full Review Mode workbench
+  assert.ok(reviewWsHtml.includes('matching-container review-mode'), 'Right panel must render review workbench');
+
+  // Sticky Question Quick Jump Nav for Q41-Q45
+  assert.ok(reviewWsHtml.includes('partb-review-q-nav'), 'Review workbench must render question quick-jump navigation');
+  assert.ok(reviewWsHtml.includes('btn-review-q-nav') && reviewWsHtml.includes('第 41 题') && reviewWsHtml.includes('第 45 题'), 'Quick jump nav must include Q41-Q45 buttons');
+
+  // 5 Detailed Question Review Cards
+  assert.ok(reviewWsHtml.includes('matching-review-card') && reviewWsHtml.includes('id="matching-review-card-41"'), 'Review workbench must render review cards');
+  assert.ok(reviewWsHtml.includes('★ 官方正解: [ F ]'), 'Q41 review card must display official correct answer F');
+  assert.ok(reviewWsHtml.includes('💡 命题逻辑与解题线索：'), 'Review cards must provide pedagogical matching rationale');
+
+  // Locate buttons
+  assert.ok(reviewWsHtml.includes('btn-locate-para') && reviewWsHtml.includes('📍 定位原文出处'), 'Review card must contain a 📍 定位原文出处 button');
+
+  // Distractors Analysis
+  assert.ok(reviewWsHtml.includes('partb-distractor-card'), 'Review workbench must render distractor cards');
+  assert.ok(reviewWsHtml.includes('多余干扰项 D') && reviewWsHtml.includes('多余干扰项 E'), 'Distractors D and E must be analyzed');
+
+  // Key Vocabulary Matrix
+  assert.ok(reviewWsHtml.includes('partb-vocab-matrix-card'), 'Review workbench must render core vocabulary matrix');
+  assert.ok(reviewWsHtml.includes('partb-vocab-chip'), 'Review workbench must extract and render core vocabulary chips');
+
+  // 3. Test Multiple Matching in Review Mode (e.g. 2026)
+  const data2026 = JSON.parse(read('data/2026.json'));
+  context.window.MatchingRenderer.render(data2026.part_b, 2026, 'review');
+  const paper2026Html = document.getElementById('examPaper').innerHTML;
+  const ws2026Html = document.getElementById('workspaceContent').innerHTML;
+
+  assert.ok(paper2026Html.includes('partb-exam-item-row review-mode'), 'Multiple matching must render review rows in left panel');
+  assert.ok(ws2026Html.includes('matching-review-card') && ws2026Html.includes('id="matching-review-card-41"'), 'Multiple matching review must render review cards');
+  assert.ok(ws2026Html.includes('★ 标准匹配选项'), 'Multiple matching review cards must render standard matched option');
+});
+
 
 
