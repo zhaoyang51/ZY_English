@@ -351,7 +351,6 @@
           </div>
           <div class="toolbar-group" style="margin-left:auto;display:flex;align-items:center;gap:8px">
             <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnTogglePartBTrans" title="切换全文与选项中文对照">🌐 全文对照</button>
-            <button class="toolbar-btn ${isReviewMode ? 'active' : ''}" id="btnToggleModeLeft" title="切换做题/复盘模式">${isReviewMode ? '✏️ 做题模式' : '🎯 复盘模式'}</button>
           </div>
         </div>
 
@@ -384,12 +383,6 @@
         });
       }
 
-      const modeBtnLeft = examPaper.querySelector('#btnToggleModeLeft');
-      if (modeBtnLeft) {
-        modeBtnLeft.addEventListener('click', () => {
-          this.switchMode(this.currentMode === 'review' ? 'practice' : 'review');
-        });
-      }
 
       // Individual paragraph translation toggle buttons
       examPaper.querySelectorAll('.partb-trans-toggle-btn').forEach(btn => {
@@ -533,7 +526,7 @@
               <select class="select-control partb-item-select" data-qid="${qid}" style="font-size:0.85em;padding:4px 8px;flex:1">
                 <option value="">-- 点击选择 A-G --</option>
                 ${Object.keys(data.options || {}).sort().map(key => `
-                  <option value="${key}" ${currentChoice === key ? 'selected' : ''}>[${key}] ${(data.options[key] || '').substring(0, 50)}...</option>
+                  <option value="${key}" ${currentChoice === key ? 'selected' : ''}>[${key}] ${data.options[key] || ''}</option>
                 `).join('')}
               </select>
             </div>
@@ -579,9 +572,6 @@
                 <strong style="font-size:1.05em">📊 本次答题得分报告：</strong>
                 <span style="font-size:1.3em;font-weight:800;color:${score >= 6 ? 'var(--success)' : 'var(--danger)'}">${score} / 10 分</span>
               </div>
-              <button type="button" id="btnEnterReviewFromPractice" class="btn" style="background:#059669;color:#fff;border-color:#047857;font-weight:700;font-size:0.85em">
-                🎯 立即进入深度复盘模式
-              </button>
             </div>
           </div>
         `;
@@ -596,7 +586,6 @@
             </div>
             <div style="display:flex;align-items:center;gap:8px">
               <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnTogglePartBTransRight" style="font-size:0.8em;padding:2px 8px" title="切换全文与选项中文对照">🌐 全文对照</button>
-              <button class="toolbar-btn" id="btnGoToReview" style="font-size:0.8em;padding:2px 8px;background:var(--mode-bg);color:var(--mode-color)">🎯 复盘模式</button>
             </div>
           </div>
 
@@ -796,7 +785,6 @@
             </div>
             <div style="display:flex;align-items:center;gap:8px">
               <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnTogglePartBTransReview" style="font-size:0.8em;padding:2px 8px" title="切换全文与选项中文对照">🌐 全文对照</button>
-              <button class="toolbar-btn" id="btnSwitchToPractice" style="font-size:0.8em;padding:2px 8px;background:var(--accent);color:#fff;border-color:var(--accent-dark);font-weight:700">✏️ 切换做题模式</button>
             </div>
           </div>
 
@@ -837,8 +825,7 @@
           ${vocabSectionHtml}
 
           <!-- Footer Actions -->
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-top:20px;padding-top:14px;border-top:1px solid var(--border);flex-wrap:wrap;gap:8px">
-            <button id="btnFooterSwitchPractice" class="btn" style="font-size:0.85em">✏️ 返回做题模式</button>
+          <div style="display:flex;justify-content:flex-end;align-items:center;margin-top:20px;padding-top:14px;border-top:1px solid var(--border);flex-wrap:wrap;gap:8px">
             <button id="btnFooterToggleTrans" class="btn" style="font-size:0.85em">🌐 切换全文对照</button>
           </div>
         </div>
@@ -977,20 +964,7 @@
         });
       }
 
-      // 6. Go to review button
-      const goReviewBtn = document.getElementById('btnGoToReview');
-      if (goReviewBtn) {
-        goReviewBtn.addEventListener('click', () => {
-          this.switchMode('review');
-        });
-      }
 
-      const enterReviewFromPractice = document.getElementById('btnEnterReviewFromPractice');
-      if (enterReviewFromPractice) {
-        enterReviewFromPractice.addEventListener('click', () => {
-          this.switchMode('review');
-        });
-      }
     },
 
     bindReviewEvents: function(data, year) {
@@ -1068,20 +1042,7 @@
         });
       }
 
-      // 6. Switch to practice mode
-      const switchToPracticeBtn = document.getElementById('btnSwitchToPractice');
-      if (switchToPracticeBtn) {
-        switchToPracticeBtn.addEventListener('click', () => {
-          this.switchMode('practice');
-        });
-      }
 
-      const footerSwitchPractice = document.getElementById('btnFooterSwitchPractice');
-      if (footerSwitchPractice) {
-        footerSwitchPractice.addEventListener('click', () => {
-          this.switchMode('practice');
-        });
-      }
 
       // 7. Retest Part B
       const retestBtn = document.getElementById('btnRetestPartB');

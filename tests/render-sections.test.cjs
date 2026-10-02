@@ -651,5 +651,39 @@ test('Part B Review Mode provides sentence breakdown, word tokens, per-paragraph
   assert.ok(ws2026Html.includes('★ 标准匹配选项'), 'Multiple matching review cards must render standard matched option');
 });
 
+test('Part B right workbench dropdown displays full option text without ellipsis and has no redundant inner mode buttons', () => {
+  const { context, document } = setupDOM();
+  const data2016 = JSON.parse(read('data/2016.json'));
+  const pb2016 = data2016.part_b;
+
+  // 1. Render Practice Mode
+  context.window.MatchingRenderer.render(pb2016, 2016, 'practice');
+  const paperHtml = document.getElementById('examPaper').innerHTML;
+  const wsHtml = document.getElementById('workspaceContent').innerHTML;
+
+  // Verify dropdown options have full text and NO ellipsis (...)
+  assert.ok(wsHtml.includes('class="select-control partb-item-select"'), 'Must render item select dropdowns');
+  assert.ok(wsHtml.includes('[A] Be silly</option>'), 'Dropdown option A must display full text without ellipsis');
+  assert.ok(wsHtml.includes('[D] Express your emotions</option>'), 'Dropdown option D must display full text without ellipsis');
+  assert.ok(wsHtml.includes('[F] Be easily pleased</option>'), 'Dropdown option F must display full text without ellipsis');
+  assert.ok(!wsHtml.includes('Be silly...'), 'Option text must not have ellipsis');
+  assert.ok(!wsHtml.includes('Express your emotions...'), 'Option text must not have ellipsis');
+
+  // Verify NO redundant mode toggle buttons in practice mode
+  assert.ok(!paperHtml.includes('id="btnToggleModeLeft"'), 'Left paper must not have btnToggleModeLeft');
+  assert.ok(!wsHtml.includes('id="btnGoToReview"'), 'Right workbench must not have btnGoToReview');
+  assert.ok(!wsHtml.includes('id="btnEnterReviewFromPractice"'), 'Practice report must not have btnEnterReviewFromPractice');
+
+  // 2. Render Review Mode
+  context.window.MatchingRenderer.render(pb2016, 2016, 'review');
+  const reviewPaperHtml = document.getElementById('examPaper').innerHTML;
+  const reviewWsHtml = document.getElementById('workspaceContent').innerHTML;
+
+  // Verify NO redundant mode toggle buttons in review mode
+  assert.ok(!reviewPaperHtml.includes('id="btnToggleModeLeft"'), 'Review left paper must not have btnToggleModeLeft');
+  assert.ok(!reviewWsHtml.includes('id="btnSwitchToPractice"'), 'Review workbench must not have btnSwitchToPractice');
+  assert.ok(!reviewWsHtml.includes('id="btnFooterSwitchPractice"'), 'Review footer must not have btnFooterSwitchPractice');
+});
+
 
 
