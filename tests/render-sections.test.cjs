@@ -685,5 +685,43 @@ test('Part B right workbench dropdown displays full option text without ellipsis
   assert.ok(!reviewWsHtml.includes('id="btnFooterSwitchPractice"'), 'Review footer must not have btnFooterSwitchPractice');
 });
 
+test('TranslationRenderer supports click-to-lookup word tokens while excluding simple words (and, she, it)', () => {
+  const { context, document } = setupDOM();
+  const data2016 = JSON.parse(read('data/2016.json'));
+  context.window.TranslationRenderer.render(data2016.translation, 2016, 'practice');
+
+  const paperHtml = document.getElementById('examPaper').innerHTML;
+  const wsHtml = document.getElementById('workspaceContent').innerHTML;
+
+  assert.ok(paperHtml.includes('class="exam-word-token"'), 'Translation paper must contain exam-word-token elements');
+  assert.ok(!paperHtml.includes('class="exam-word-token" data-word="and"'), 'Simple word "and" must not be wrapped as exam-word-token');
+  assert.ok(!paperHtml.includes('class="exam-word-token" data-word="she"'), 'Simple word "she" must not be wrapped as exam-word-token');
+  assert.ok(!paperHtml.includes('class="exam-word-token" data-word="it"'), 'Simple word "it" must not be wrapped as exam-word-token');
+  assert.ok(!paperHtml.includes('class="exam-word-token" data-word="the"'), 'Simple word "the" must not be wrapped as exam-word-token');
+  assert.ok(!paperHtml.includes('class="exam-word-token" data-word="is"'), 'Simple word "is" must not be wrapped as exam-word-token');
+
+  assert.ok(wsHtml.includes('class="exam-word-token"'), 'Translation workspace must contain exam-word-token elements');
+  assert.ok(wsHtml.includes('data-sid="1"'), 'Workspace sentence row must have data-sid');
+});
+
+test('MatchingRenderer excludes simple words (and, she, it) from exam-word-token to facilitate sentence clicking', () => {
+  const { context, document } = setupDOM();
+  const data2016 = JSON.parse(read('data/2016.json'));
+  context.window.MatchingRenderer.render(data2016.part_b, 2016, 'practice');
+
+  const paperHtml = document.getElementById('examPaper').innerHTML;
+  assert.ok(paperHtml.includes('class="exam-word-token" data-word="emotions"'), 'Content word emotions must be tokenized');
+  assert.ok(!paperHtml.includes('class="exam-word-token" data-word="and"'), 'Simple word and must not be tokenized');
+  assert.ok(!paperHtml.includes('class="exam-word-token" data-word="she"'), 'Simple word she must not be tokenized');
+  assert.ok(!paperHtml.includes('class="exam-word-token" data-word="it"'), 'Simple word it must not be tokenized');
+  assert.ok(!paperHtml.includes('class="exam-word-token" data-word="when"'), 'Simple word when must not be tokenized');
+  assert.ok(!paperHtml.includes('class="exam-word-token" data-word="he"'), 'Simple word he must not be tokenized');
+});
+
+test('showVocabPopup does not render context sentence div in popup card', () => {
+  const appJs = read('js/app.js');
+  assert.ok(!appJs.includes('<strong>真题语境原句：</strong>'), 'showVocabPopup must not include context sentence div');
+});
+
 
 

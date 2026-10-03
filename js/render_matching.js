@@ -5,9 +5,64 @@
  */
 (function() {
   let activeItemQid = 41;
-  let userSelections = {}; // { 41: 'E', 42: 'D', ... }
+  const SIMPLE_WORDS = new Set([
+    'an', 'the', 'this', 'that', 'these', 'those',
+    'i', 'me', 'my', 'mine', 'myself',
+    'you', 'your', 'yours', 'yourself', 'yourselves',
+    'he', 'him', 'his', 'himself',
+    'she', 'her', 'hers', 'herself',
+    'it', 'its', 'itself',
+    'we', 'us', 'our', 'ours', 'ourselves',
+    'they', 'them', 'their', 'theirs', 'themselves',
+    'who', 'whom', 'whose', 'which', 'what', 'whatever', 'whoever',
+    'and', 'or', 'but', 'nor', 'so', 'yet', 'for',
+    'if', 'as', 'than', 'because', 'while', 'though', 'although', 'since', 'unless',
+    'in', 'on', 'at', 'to', 'of', 'by', 'with', 'from', 'into', 'onto', 'upon',
+    'about', 'over', 'under', 'up', 'down', 'out', 'off', 'through', 'between', 'among',
+    'after', 'before', 'against', 'during', 'without',
+    'be', 'am', 'is', 'are', 'was', 'were', 'been', 'being',
+    'have', 'has', 'had', 'having',
+    'do', 'does', 'did', 'done', 'doing',
+    'will', 'would', 'shall', 'should', 'can', 'could', 'may', 'might', 'must',
+    'not', 'no', 'yes', 'all', 'any', 'some', 'each', 'every', 'both', 'such',
+    'too', 'very', 'also', 'just', 'only', 'here', 'there', 'now', 'then',
+    'how', 'why', 'when', 'where', 'again', 'ever', 'never',
+    "it's", "that's", "there's", "what's", "who's", "here's", "let's", "how's", "where's",
+    "don't", "doesn't", "didn't", "won't", "wouldn't", "can't", "couldn't", "shouldn't", "mustn't",
+    "isn't", "aren't", "wasn't", "weren't", "haven't", "hasn't", "hadn't",
+    "i'm", "you're", "he's", "she's", "we're", "they're",
+    "i've", "you've", "we've", "they've",
+    "i'll", "you'll", "he'll", "she'll", "we'll", "they'll",
+    "i'd", "you'd", "he'd", "she'd", "we'd", "they'd"
+  ]);
+
+  function isSimpleWord(w) {
+    if (!w || w.length <= 1) return true;
+    const lower = w.toLowerCase().replace(/[\u2018\u2019']/g, "'");
+    return SIMPLE_WORDS.has(lower);
+  }
+
+  window.TextTokenizer = {
+    SIMPLE_WORDS,
+    isSimpleWord,
+    tokenizeWords: function(text) {
+      if (!text) return '';
+      const parts = String(text).split(/(<[^>]+>)/g);
+      for (let i = 0; i < parts.length; i += 2) {
+        if (parts[i]) {
+          parts[i] = parts[i].replace(/\b([a-zA-Z]+(?:['’][a-zA-Z]+)?)\b/g, (match) => {
+            if (isSimpleWord(match)) return match;
+            return `<span class="exam-word-token" data-word="${match}" title="点击查词: ${match}">${match}</span>`;
+          });
+        }
+      }
+      return parts.join('');
+    }
+  };
 
   window.MatchingRenderer = {
+    SIMPLE_WORDS,
+    isSimpleWord,
     currentMode: 'practice',
 
     getShowTrans: function() {
@@ -122,17 +177,11 @@
     },
 
     /**
-     * Tokenize text so every English word is clickable (.exam-word-token)
+     * Tokenize text so meaningful English words are clickable (.exam-word-token),
+     * while simple words (and, she, it, etc.) remain plain text for easy sentence clicking.
      */
     tokenizeWords: function(text) {
-      if (!text) return '';
-      const parts = String(text).split(/(<[^>]+>)/g);
-      for (let i = 0; i < parts.length; i += 2) {
-        if (parts[i]) {
-          parts[i] = parts[i].replace(/\b([a-zA-Z]+(?:['’][a-zA-Z]+)?)\b/g, '<span class="exam-word-token" data-word="$1" title="点击查词: $1">$1</span>');
-        }
-      }
-      return parts.join('');
+      return window.TextTokenizer.tokenizeWords(text);
     },
 
     /**

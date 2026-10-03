@@ -3,7 +3,66 @@
  * Interactive Draft Canvas, Real-time Local Persistence, Scoring Rubrics & Sentence Compare
  */
 (function() {
+  const SIMPLE_WORDS = (window.TextTokenizer && window.TextTokenizer.SIMPLE_WORDS) || new Set([
+    'an', 'the', 'this', 'that', 'these', 'those',
+    'i', 'me', 'my', 'mine', 'myself',
+    'you', 'your', 'yours', 'yourself', 'yourselves',
+    'he', 'him', 'his', 'himself',
+    'she', 'her', 'hers', 'herself',
+    'it', 'its', 'itself',
+    'we', 'us', 'our', 'ours', 'ourselves',
+    'they', 'them', 'their', 'theirs', 'themselves',
+    'who', 'whom', 'whose', 'which', 'what', 'whatever', 'whoever',
+    'and', 'or', 'but', 'nor', 'so', 'yet', 'for',
+    'if', 'as', 'than', 'because', 'while', 'though', 'although', 'since', 'unless',
+    'in', 'on', 'at', 'to', 'of', 'by', 'with', 'from', 'into', 'onto', 'upon',
+    'about', 'over', 'under', 'up', 'down', 'out', 'off', 'through', 'between', 'among',
+    'after', 'before', 'against', 'during', 'without',
+    'be', 'am', 'is', 'are', 'was', 'were', 'been', 'being',
+    'have', 'has', 'had', 'having',
+    'do', 'does', 'did', 'done', 'doing',
+    'will', 'would', 'shall', 'should', 'can', 'could', 'may', 'might', 'must',
+    'not', 'no', 'yes', 'all', 'any', 'some', 'each', 'every', 'both', 'such',
+    'too', 'very', 'also', 'just', 'only', 'here', 'there', 'now', 'then',
+    'how', 'why', 'when', 'where', 'again', 'ever', 'never',
+    "it's", "that's", "there's", "what's", "who's", "here's", "let's", "how's", "where's",
+    "don't", "doesn't", "didn't", "won't", "wouldn't", "can't", "couldn't", "shouldn't", "mustn't",
+    "isn't", "aren't", "wasn't", "weren't", "haven't", "hasn't", "hadn't",
+    "i'm", "you're", "he's", "she's", "we're", "they're",
+    "i've", "you've", "we've", "they've",
+    "i'll", "you'll", "he'll", "she'll", "we'll", "they'll",
+    "i'd", "you'd", "he'd", "she'd", "we'd", "they'd"
+  ]);
+
+  function isSimpleWord(w) {
+    if (!w || w.length <= 1) return true;
+    const lower = w.toLowerCase().replace(/[\u2018\u2019']/g, "'");
+    return SIMPLE_WORDS.has(lower);
+  }
+
+  window.TextTokenizer = window.TextTokenizer || {
+    SIMPLE_WORDS,
+    isSimpleWord,
+    tokenizeWords: function(text) {
+      if (!text) return '';
+      const parts = String(text).split(/(<[^>]+>)/g);
+      for (let i = 0; i < parts.length; i += 2) {
+        if (parts[i]) {
+          parts[i] = parts[i].replace(/\b([a-zA-Z]+(?:['’][a-zA-Z]+)?)\b/g, (match) => {
+            if (isSimpleWord(match)) return match;
+            return `<span class="exam-word-token" data-word="${match}" title="点击查词: ${match}">${match}</span>`;
+          });
+        }
+      }
+      return parts.join('');
+    }
+  };
+
   window.TranslationRenderer = {
+    tokenizeWords: function(text) {
+      return window.TextTokenizer.tokenizeWords(text);
+    },
+
     render: function(transData, year, mode) {
       if (!transData) return;
       this.currentData = transData;
@@ -50,10 +109,10 @@
           list.forEach(s => {
             const cn = s.cn || s.translation || '';
             const transHtml = (showTrans && cn) ? `<span class="sent-trans-inline">${cn}</span>` : '';
-            sentHtml += `<span class="exam-sent trans-sent" id="trans-sent-${s.sid}" data-sid="${s.sid}" title="点击查看长难句拆解、参考译文与采分点">${s.en || s.text || ''}</span> ${transHtml} `;
+            sentHtml += `<span class="exam-sent trans-sent" id="trans-sent-${s.sid}" data-sid="${s.sid}" title="点击查看长难句拆解、参考译文与采分点">${this.tokenizeWords(s.en || s.text || '')}</span> ${transHtml} `;
           });
         } else {
-          sentHtml = p.text || '';
+          sentHtml = this.tokenizeWords(p.text || '');
           if (showTrans && p.translation) {
             sentHtml += `<div class="sent-trans-inline">${p.translation}</div>`;
           }
@@ -81,7 +140,7 @@
 
         <h2 style="font-size:1.35em;font-weight:800;margin-bottom:4px">${year} 年全国硕士研究生招生考试英语（二）</h2>
         <div style="color:var(--muted);font-size:0.95em;margin-bottom:14px">
-          Section III Translation ｜ 第 46 题（满分 15 分）
+          Section III Translation ｜ 第 46 题（满分 15 分） ｜ <span style="color:var(--accent);font-weight:600">💡 点击句子查长难句拆解，点击单词即查生词</span>
         </div>
 
         <div class="matching-banner" style="margin-bottom:18px">
@@ -95,7 +154,8 @@
 
       // Bind sentence click
       examPaper.querySelectorAll('.trans-sent').forEach(el => {
-        el.addEventListener('click', () => {
+        el.addEventListener('click', (e) => {
+          if (e.target.closest('.exam-word-token')) return;
           const sid = el.getAttribute('data-sid');
           this.highlightSentence(sid);
           const sObj = data.sentences && data.sentences.find(s => String(s.sid) === String(sid) || s.sid === Number(sid));
@@ -147,8 +207,8 @@
           }
 
           sentsComparisonHtml += `
-            <div class="trans-sent-row" id="trans-ws-sent-${s.sid}">
-              <div class="trans-sent-en"><strong>[第 ${s.sid} 句]</strong> ${s.en || s.text || ''}</div>
+            <div class="trans-sent-row" id="trans-ws-sent-${s.sid}" data-sid="${s.sid}">
+              <div class="trans-sent-en"><strong>[第 ${s.sid} 句]</strong> ${this.tokenizeWords(s.en || s.text || '')}</div>
               <div class="trans-sent-cn">👉 <strong>参考译文：</strong>${s.cn || s.translation || ''}</div>
               ${rubricsHtml}
               ${s.grammar_breakdown ? `<div style="font-size:0.85em;color:var(--muted);margin-top:4px">🔍 <strong>语法剖析：</strong>${s.grammar_breakdown}</div>` : ''}

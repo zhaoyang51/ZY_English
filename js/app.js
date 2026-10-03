@@ -1436,7 +1436,7 @@
           e.preventDefault();
           e.stopPropagation();
           const word = wordToken.getAttribute('data-word') || wordToken.getAttribute('data-connector') || wordToken.innerText;
-          const parentContext = wordToken.closest('.mock-opt-item, .mock-q-card, .step-card, blockquote, h2, h3, p');
+          const parentContext = wordToken.closest('.mock-opt-item, .mock-q-card, .step-card, blockquote, h2, h3, p, .trans-sent-row');
           const sentText = parentContext ? parentContext.innerText : '';
           const sentSpan = wordToken.closest('.exam-sent, [data-sid]');
           const targetSid = sentSpan ? (sentSpan.getAttribute('data-sid') || (sentSpan.dataset ? sentSpan.dataset.sid : null)) : null;
@@ -2333,7 +2333,6 @@
       </div>
       ${signpostHtml}
       <div class="vocab-def">${info.def}</div>
-      ${sentenceContext ? `<div style="margin:8px 0;padding:6px 10px;background:var(--card-bg);border-radius:4px;border-left:3px solid var(--accent);font-size:0.82em;color:var(--muted);max-height:80px;overflow-y:auto;line-height:1.5"><strong>真题语境原句：</strong>${sentenceContext}</div>` : ''}
       <div class="vocab-actions" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
         <button id="bookmarkBtn" class="toolbar-btn ${isBookmarked ? 'active' : ''}">${isBookmarked ? '★ 已在生词本' : '☆ 收藏生词'}</button>
         ${extraActionHtml || ''}
@@ -2342,7 +2341,7 @@
     `;
 
     const posX = Math.min(Math.max(16, (clientX || window.innerWidth / 2) - 160), window.innerWidth - 340);
-    const popupHeight = 280;
+    const popupHeight = signpost ? 220 : 170;
     let posY = (clientY || window.innerHeight / 2) + 15;
     if (posY + popupHeight > window.innerHeight) {
       posY = Math.max(16, (clientY || window.innerHeight / 2) - popupHeight - 10);
