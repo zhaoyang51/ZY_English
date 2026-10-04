@@ -5896,7 +5896,7 @@
         {
           "pid": 0,
           "text": "Will the European Union make it? The question would have sounded strange not long ago. Now even the project’s greatest cheerleaders talk of a continent facing a “Bermuda triangle” of debt, population decline and lower growth.",
-          "translation": "欧盟能做到吗？不久前，这个问题听起来还很奇怪。现在，就连该项目最伟大的啦啦队员也谈到非洲大陆面临着债务、人口下降和增长放缓的“百慕大三角”。",
+          "translation": "欧洲联盟能渡过难关吗？不久前，这个问题听起来还很奇怪。如今，就连该项目最坚定的支持者，也在谈论欧洲大陆正面临着一个由债务、人口下滑以及增长放缓构成的“百慕大三角”。",
           "slashed_text": "Will the European Union make it? / The question would have sounded strange / not long ago. / Now even the project’s greatest cheerleaders / talk of a continent facing a “Bermuda triangle” / of debt, population decline and lower growth.",
           "chunk_translation": "欧洲联盟能渡过难关吗？ / 这个问题听起来会很奇怪 / 就在不久之前。 / 如今哪怕是该项目最热心的支持者 / 也在谈论欧洲大陆正面临着一个“百慕大三角” / 即债务危机、人口下滑以及增长放缓。",
           "vocabulary": [
@@ -6844,7 +6844,7 @@
           "pid": 0,
           "sentence_index": 0,
           "text": "Will the European Union make it?",
-          "translation": "欧盟能做到吗？",
+          "translation": "欧洲联盟能渡过难关吗？",
           "slashed_text": "Will the European Union make it?",
           "chunk_translation": "欧洲联盟能渡过难关吗？",
           "syntax": {
@@ -6900,7 +6900,7 @@
           "pid": 0,
           "sentence_index": 2,
           "text": "Now even the project’s greatest cheerleaders talk of a continent facing a “Bermuda triangle” of debt, population decline and lower growth.",
-          "translation": "现在，就连该项目最伟大的啦啦队员也谈到非洲大陆面临着债务、人口下降和增长放缓的“百慕大三角”。",
+          "translation": "如今，就连该项目最坚定的支持者，也在谈论欧洲大陆正面临着一个由债务、人口下滑以及增长放缓构成的“百慕大三角”。",
           "slashed_text": "Now even the project’s greatest cheerleaders / talk of a continent facing a “Bermuda triangle” / of debt, population decline and lower growth.",
           "chunk_translation": "如今哪怕是该项目最热心的支持者 / 也在谈论欧洲大陆正面临着一个“百慕大三角” / 即债务危机、人口下滑以及增长放缓。",
           "syntax": {

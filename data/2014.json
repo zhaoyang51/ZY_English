@@ -4234,7 +4234,7 @@
         {
           "pid": 3,
           "text": "Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.",
-          "translation": "哈格尔说，我们在美国设计的工作往往是“严格照本宣科”和“高度标准化”，没有给“个人主动性或创造力”留下空间。简而言之，在这些类型的工作中，机器可以比人类做得更好。哈格尔说，这就是我们如何在美国工人的背上挂上一个巨大的目标标志。",
+          "translation": "哈格尔表示，我们在美国所设计的工作岗位往往倾向于“高度按既定程序行事”与“高度标准化”，没有给“个人主动性或创造力”留出任何空间。简而言之，这类工作机器能比人类表现得好得多。哈格尔说，这就是我们如何在美国工人的背上挂上一个巨大的目标标志。",
           "slashed_text": "Hagel says we have designed jobs in the U.S. / that tend to be “tightly scripted” and “highly standardized” ones / that leave no room for “individual initiative or creativity.” / In short , / these are the types of jobs / that machines can perform much better / at than human beings. / That is how we have put a giant target sign / on the backs of American workers , / Hagel says.",
           "chunk_translation": "哈格尔表示，我们在美国设计工作岗位的方式 / 往往倾向于“高度按既定程序行事”与“高度标准化”， / 没有给“个人主动性或创造力”留下任何空间。 / 简而言之， / 这些类型的工作 / 机器能做得远远更好 / 相比于人类。 / 这就是我们如何把一个巨大的瞄准靶心 / 贴在美国工人的背上， / 哈格尔说。",
           "vocabulary": [
@@ -4819,7 +4819,7 @@
           "pid": 3,
           "sentence_index": 0,
           "text": "Hagel says we have designed jobs in the U.S.",
-          "translation": "哈格尔说我们在美国设计了就业机会",
+          "translation": "哈格尔表示，我们在美国所设计的工作岗位",
           "slashed_text": "Hagel says we have designed jobs in the U.S.",
           "chunk_translation": "哈格尔表示，我们在美国设计工作岗位的方式",
           "syntax": {
@@ -4842,7 +4842,7 @@
           "pid": 3,
           "sentence_index": 1,
           "text": "that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings.",
-          "translation": "这些往往是“严格的脚本化”和“高度标准化”的，没有为“个人主动性或创造力”留下空间。简而言之，在这些类型的工作中，机器可以比人类做得更好。",
+          "translation": "往往倾向于“高度按既定程序行事”与“高度标准化”，没有给“个人主动性或创造力”留出任何空间。简而言之，这类工作机器能比人类表现得好得多。",
           "slashed_text": "that tend to be “tightly scripted” and “highly standardized” ones / that leave no room for “individual initiative or creativity.” / In short , / these are the types of jobs / that machines can perform much better / at than human beings.",
           "chunk_translation": "往往倾向于“高度按既定程序行事”与“高度标准化”， / 没有给“个人主动性或创造力”留下任何空间。 / 简而言之， / 这些类型的工作 / 机器能做得远远更好 / 相比于人类。",
           "syntax": {

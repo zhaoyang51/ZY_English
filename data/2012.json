@@ -6303,7 +6303,7 @@
         {
           "pid": 4,
           "text": "In the Internet age, it is particularly easy to see the resentment that has always been hidden within American society. More difficult, in the moment, is discerning precisely how these lean times are affecting society’s character. In many respects, the U.S. was more socially tolerant entering this recession than at any time in its history, and a variety of national polls on social conflict since then have shown mixed results. We will have to wait and see exactly how these hard times will reshape our social fabric. But they certainly will reshape it, and all the more so the longer they extend.",
-          "translation": "在网络时代，特别容易看到美国社会内部一直隐藏的怨恨情绪。目前，更困难的是准确辨别这些经济不景气的时期如何影响社会特征。美国在很多方面进入这次衰退的社会容忍度比历史上任何时候都高，自那时以来有关社会冲突的各种全国民意调查显示出不同的结果。我们将不得不拭目以待，看看这些困难时期将如何重塑我们的社会结构。但他们肯定会重塑它，而且随着时间的延长，情况更是如此。",
+          "translation": "在网络时代，特别容易看到美国社会内部一直隐藏的怨恨情绪。目前，更困难的是准确辨别这些经济不景气的时期如何影响社会特征。在许多方面，美国在步入本次经济衰退时其社会包容度比其历史上任何时期都要高，而自那以来关于社会冲突的多项全美民调则得出了喜忧参半的结果。我们将不得不拭目以待，看看这些困难时期将如何重塑我们的社会结构。但他们肯定会重塑它，而且随着时间的延长，情况更是如此。",
           "slashed_text": "In the Internet age, / it is particularly easy to see / the resentment / that has always been hidden within American society. / More difficult , / in the moment , / is discerning precisely how these lean times are affecting society’s character. / In many respects , / the U.S. / America was more socially tolerant / entering this recession / than at any time in its history, / and a variety of national polls on social conflict / since then have shown mixed results. / We will have to wait and see exactly how these hard times will reshape our social fabric. / But they certainly will reshape it , / and all the more so the longer they extend.",
           "chunk_translation": "在互联网时代 / 尤其容易看清 / 那种怨恨情绪 / 始终隐匿于美国社会内部。 / 眼下更加困难的 / 在当前 / 是准确洞察这些艰难岁月究竟在如何重塑我们社会的性格特质 / 在许多方面 / 美国 / 美国具有更高的社会包容度 / 在步入此次经济衰退时 / 相比其历史上的任何时期 / 而自那时以来关于社会冲突的多项全国民调 / 呈现出喜忧参半的结果。 / 我们不得不拭目以待，看看这些艰难岁月究竟会如何重塑我们的社会结构 / 但它们必然会重塑社会结构 / 而且经济困境持续的时间越长，这种重塑就越深刻",
           "vocabulary": [
@@ -6841,7 +6841,7 @@
           "pid": 4,
           "sentence_index": 2,
           "text": "In many respects, the U.S.",
-          "translation": "美国在很多方面",
+          "translation": "在许多方面，美国在",
           "slashed_text": "In many respects , / the U.S.",
           "chunk_translation": "在许多方面 / 美国",
           "syntax": {
@@ -6864,7 +6864,7 @@
           "pid": 4,
           "sentence_index": 3,
           "text": "was more socially tolerant entering this recession than at any time in its history, and a variety of national polls on social conflict since then have shown mixed results.",
-          "translation": "进入这次衰退的社会容忍度比历史上任何时候都高，自那时以来有关社会冲突的各种全国民意调查显示出不同的结果。",
+          "translation": "步入本次经济衰退时其社会包容度比其历史上任何时期都要高，而自那以来关于社会冲突的多项全美民调则得出了喜忧参半的结果。",
           "slashed_text": "America was more socially tolerant / entering this recession / than at any time in its history, / and a variety of national polls on social conflict / since then have shown mixed results.",
           "chunk_translation": "美国具有更高的社会包容度 / 在步入此次经济衰退时 / 相比其历史上的任何时期 / 而自那时以来关于社会冲突的多项全国民调 / 呈现出喜忧参半的结果。",
           "syntax": {

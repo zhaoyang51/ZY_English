@@ -1946,14 +1946,14 @@
         {
           "pid": 1,
           "text": "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened. “The lesser prairie chicken is in a desperate situation,” said USFWS Director Daniel Ashe. Some environmentalists, however, were disappointed. They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats. But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches. In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.",
-          "translation": "这次事故是美国坠机的主要原因鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。“小草原鸡正处于绝望的境地，”美国鱼类和野生动物管理局局长丹尼尔·阿什说。然而，一些环保人士却感到失望。他们敦促该机构将这种鸟指定为“濒临灭绝”，这一状态赋予联邦官员更大的监管权力来打击威胁。但阿什和其他人认为，“受威胁”标签使联邦政府能够灵活地尝试新的、可能不那么对抗性的保护方法。他们特别呼吁与西部州政府和私人土地所有者建立更密切的合作，西部州政府往往对联邦政府的行动感到不安，而私人土地所有者控制着大约 95% 的草原鸡栖息地。",
+          "translation": "（小草原鸡数量的）暴跌是美国鱼类及野生动物管理局（USFWS）决定正式将其列为受威胁物种的主要原因。“小草原鸡正处于绝望的境地，”美国鱼类和野生动物管理局局长丹尼尔·阿什说。然而，一些环保人士却感到失望。他们敦促该机构将这种鸟指定为“濒临灭绝”，这一状态赋予联邦官员更大的监管权力来打击威胁。但阿什和其他人认为，“受威胁”标签使联邦政府能够灵活地尝试新的、可能不那么对抗性的保护方法。他们特别呼吁与西部州政府和私人土地所有者建立更密切的合作，西部州政府往往对联邦政府的行动感到不安，而私人土地所有者控制着大约 95% 的草原鸡栖息地。",
           "slashed_text": "The crash was a major reason the U.S. / Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened. / “The lesser prairie chicken is in a desperate situation , / ” said USFWS Director Daniel Ashe. / Some environmentalists , / however , / were disappointed. / They had pushed the agency / to designate the bird as “endangered ,” / a status that gives federal officials greater regulatory power / to crack down on threats. / But Ashe and others argued / that the “threatened” tag / gave the federal government flexibility / to try out new , potentially less confrontational conservation approaches. / In particular , they called for forging closer collaborations / with western state governments , which are often uneasy with federal action , / and with the private landowners / who control an estimated 95% of the prairie chicken’s habitat.",
           "chunk_translation": "种群数量的暴跌是美国相关部门做出决定的主要原因。 / 美国鱼类及野生动物管理局决定正式将该鸟类列为受威胁物种。 / “小草原榛鸡正处于极其危急的境地，” / 美国鱼类及野生动物管理局局长丹·阿什说道。 / 一些环保人士， / 然而， / 却对这一决定感到失望。 / 他们此前敦促该机构 / 将该鸟类列为“濒危物种”， / 这一级别能赋予联邦官员更大的监管权力 / 来打击威胁。 / 但阿什等人认为， / “受威胁”这一标签 / 赋予了联邦政府灵活性， / 可以尝试新的、潜在对抗性更弱的保护方式。 / 特别是，他们呼吁建立更紧密的合作， / 与往往对联邦行动感到不安的西部州政府合作， / 以及与私人土地所有者合作， / 后者控制着估计95%的草原榛鸡栖息地。",
           "vocabulary": [
             {
               "word": "its drastically decreased population",
               "pos": "",
-              "definition": "【🎯解题正解】 其人口急剧减少"
+              "definition": "【🎯解题正解】 其种群数量急剧减少"
             },
             {
               "word": "a desperate appeal from some biologists",
@@ -2758,7 +2758,7 @@
           "pid": 1,
           "sentence_index": 0,
           "text": "The crash was a major reason the U.S.",
-          "translation": "这次事故是美国坠机的主要原因",
+          "translation": "（小草原鸡数量的）暴跌是美国",
           "slashed_text": "The crash was a major reason the U.S.",
           "chunk_translation": "种群数量的暴跌是美国相关部门做出决定的主要原因。",
           "syntax": {
@@ -2781,7 +2781,7 @@
           "pid": 1,
           "sentence_index": 1,
           "text": "Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened.",
-          "translation": "鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。",
+          "translation": "鱼类及野生动物管理局（USFWS）决定正式将其列为受威胁物种的主要原因。",
           "slashed_text": "Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened.",
           "chunk_translation": "美国鱼类及野生动物管理局决定正式将该鸟类列为受威胁物种。",
           "syntax": {
@@ -3213,12 +3213,12 @@
           "type": "事实细节题",
           "locate_pid": 1,
           "locate_sentence": "The crash was a major reason the U.S.",
-          "locate_sentence_cn": "这次事故是美国坠机的主要原因",
+          "locate_sentence_cn": "（小草原鸡数量的）暴跌是美国鱼类及野生动物管理局（USFWS）决定正式将其列为受威胁物种的主要原因",
           "options": [
             {
               "key": "A",
               "text": "its drastically decreased population",
-              "text_cn": "其人口急剧减少",
+              "text_cn": "其种群数量急剧减少",
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {

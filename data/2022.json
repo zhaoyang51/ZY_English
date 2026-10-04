@@ -10,7 +10,7 @@
         {
           "pid": 0,
           "text": "On a recent sunny day, 13,000 chickens roam over Larry Brown’s 40 windswept acres in Shiner, Texas. Some rest in the shade of a parked car. Others drink water with the cows. This all seems random, but it’s by design, part of what the $6.1 billion U.S. egg industry bets will be its next big thing: climate-friendly eggs.",
-          "translation": "最近一个阳光明媚的日子，13,000 只鸡在拉里·布朗 (Larry Brown) 位于德克萨斯州希纳 (Shiner) 的 40 英亩被风吹拂的土地上漫步。有些人在停放的汽车的阴凉处休息。其他人则与牛一起喝水。这一切看似随机，但却是有意为之，这是价值 61 亿美元的美国鸡蛋行业押注的下一件大事的一部分：气候友好型鸡蛋。",
+          "translation": "最近一个阳光明媚的日子，13,000 只鸡在拉里·布朗 (Larry Brown) 位于德克萨斯州希纳 (Shiner) 的 40 英亩被风吹拂的土地上漫步。有些人在停放的汽车的阴凉处休息。其他人则与牛一起喝水。这一切看似随意，但实际上却是精心设计的，也是产值达 61 亿美元的美国鸡蛋行业押注的下一个重大商机：气候友好型鸡蛋。",
           "slashed_text": "On a recent sunny day , / 13 , / 000 chickens roam over Larry Brown’s 40 windswept acres / in Shiner , / Texas. / Some rest in the shade of a parked car. / Others drink water with the cows. / This all seems random , / but it’s / by design , / part of what the $6.1 billion U.S. / egg industry bets will be its next big thing : / climate-friendly eggs.",
           "chunk_translation": "在最近一个阳光明媚的日子里， / 1.3 / 万只鸡在拉里·布朗那40英亩迎风起伏的土地上漫步， / 该农场地处谢纳， / 德克萨斯州。 / 有的在停放的车辆阴凉处休息。 / 有的则与牛群一起喝水。 / 这一切看似随意， / 但实际上却是 / 精心设计的， / 是规模达61亿美元的美国 / 鸡蛋产业所押注的下一个行业焦点的一部分： / 气候友好型鸡蛋。",
           "vocabulary": [
@@ -1012,7 +1012,7 @@
           "pid": 0,
           "sentence_index": 3,
           "text": "This all seems random, but it’s by design, part of what the $6.1 billion U.S.",
-          "translation": "这一切看似随机，但却是有意为之，是 61 亿美元资产的一部分。",
+          "translation": "这一切看似随意，但实际上却是精心设计的，也是产值达 61 亿美元的美国",
           "slashed_text": "This all seems random , / but it’s / by design , / part of what the $6.1 billion U.S.",
           "chunk_translation": "这一切看似随意， / 但实际上却是 / 精心设计的， / 是规模达61亿美元的美国",
           "syntax": {
@@ -1040,7 +1040,7 @@
           "pid": 0,
           "sentence_index": 4,
           "text": "egg industry bets will be its next big thing: climate-friendly eggs.",
-          "translation": "鸡蛋行业的赌注将是其下一件大事：气候友好型鸡蛋。",
+          "translation": "鸡蛋行业押注的下一个重大商机：气候友好型鸡蛋。",
           "slashed_text": "egg industry bets will be its next big thing : / climate-friendly eggs.",
           "chunk_translation": "鸡蛋产业所押注的下一个行业焦点的一部分： / 气候友好型鸡蛋。",
           "syntax": {
@@ -2362,7 +2362,7 @@
         {
           "pid": 4,
           "text": "One reason for the change in retirement patterns: Americans are living longer. Older Americans are also the fastest-growing segment of the U.S. workforce. The percentage of retirement-age people in the labor force has doubled over the past three decades. About 20% of people 65 and older were in the workforce in February 2019, up from an all-time low of 10% in January 1985, according to money manager United Income.",
-          "translation": "退休模式发生变化的原因之一是：美国人的寿命更长。美国老年人也是美国增长最快的群体。劳动力。过去三十年里，退休年龄人口在劳动力中的比例翻了一番。根据资金管理公司 United Income 的数据，2019 年 2 月，65 岁及以上的人中约有 20% 进入劳动力市场，高于 1985 年 1 月 10% 的历史最低水平。",
+          "translation": "退休模式发生变化的原因之一是：美国人的寿命更长。老年人同时也是美国劳动力队伍中增长最快的人群。过去三十年里，退休年龄人口在劳动力中的比例翻了一番。根据资金管理公司 United Income 的数据，2019 年 2 月，65 岁及以上的人中约有 20% 进入劳动力市场，高于 1985 年 1 月 10% 的历史最低水平。",
           "slashed_text": "One reason for the change / in retirement patterns : / Americans are living longer. / Older Americans are also the fastest-growing segment of the U.S. / workforce. / The percentage of retirement-age people in the labor force has doubled over the past three decades. / About 20% of people 65 and older were in the workforce / in February 2019 , / up from an all-time low of 10% / in January 1985 , / according to money manager United Income.",
           "chunk_translation": "退休模式发生改变的原因之一是： / 退休生活模式： / 美国人的预期寿命变得更长。 / 美国老年群体也是全美劳动力中 / 增长最快的一部分。 / 在过去三十年中，处于退休年龄却依然在职的人员比例翻了一番。 / 大约20%的65岁及以上老年人处于就业状态 / 在2019年2月， / 高于10%的历史最低点 / 在1985年1月， / 据资产管理机构联合收入公司的数据显示。",
           "vocabulary": [
@@ -3009,7 +3009,7 @@
           "pid": 4,
           "sentence_index": 1,
           "text": "Older Americans are also the fastest-growing segment of the U.S.",
-          "translation": "美国老年人也是美国增长最快的群体。",
+          "translation": "老年人同时也是美国",
           "slashed_text": "Older Americans are also the fastest-growing segment of the U.S.",
           "chunk_translation": "美国老年群体也是全美劳动力中",
           "syntax": {
@@ -3032,7 +3032,7 @@
           "pid": 4,
           "sentence_index": 2,
           "text": "workforce.",
-          "translation": "劳动力。",
+          "translation": "劳动力队伍中增长最快的人群。",
           "slashed_text": "workforce.",
           "chunk_translation": "增长最快的一部分。",
           "syntax": {
