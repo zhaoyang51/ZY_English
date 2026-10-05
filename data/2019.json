@@ -1563,8 +1563,8 @@
           "stem_cn": "研究人员认为内疚可能是一件好事，因为它可能有助于 _____。",
           "type": "事实细节题",
           "locate_pid": 0,
-          "locate_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms.",
-          "locate_sentence_cn": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感出现得稍晚一些，是随着儿童对社会和道德规范的逐渐理解而产生的。",
+          "locate_sentence": "This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
+          "locate_sentence_cn": "这就是为什么研究人员通常认为适度的所谓道德内疚是一件好事。",
           "options": [
             {
               "key": "A",
@@ -1575,8 +1575,8 @@
               "analysis": {
                 "practice_status": "对比定位句原词 foster a child's moral development，秒定A",
                 "option_nature": "正确项（原词复现/立论总纲）",
-                "source_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing understanding of social rules and empathy... helping to foster a child’s moral development.",
-                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感的产生稍晚一些，它伴随着儿童对社会规则和共情能力的不断理解而出现……有助于促进儿童的道德发展。",
+                "source_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms. Children aren’t born knowing how to say “I’m sorry”; rather, they learn over time that such statements appease parents and friends—and their own consciences. This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
+                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感的出现要稍晚一些，是伴随着儿童对社会和道德规范的日益掌握而出现的。儿童并不是生来就知道如何说“对不起”；相反，随着时间的推移，他们逐渐懂得这样的表达能安抚父母和朋友——以及他们自己的良心。这就是为什么研究人员通常认为适度的所谓道德内疚是一件好事。",
                 "locator_comparison": "选项A指出研究者认为内疚感是好事是因为它可能有助于“促进儿童的道德发展（foster a child’s moral development）”。定位句中，作者在将内疚感与原始基本情绪对比后，直接抛出权威心理学观点：“helping to foster a child’s moral development”。A选项与原文完全一字不差、原词原句精准对应。道德发展（moral development）正是儿童理解社会公德、学会换位思考的核心标志。",
                 "writing_perspective": "作者在全文开篇即行“拨乱反正”，打破大众把内疚感视作纯负面情绪的旧观念，将内疚提升为人类高级道德意识觉醒的标志，选A完美确立了全篇的科学探索主轴。",
                 "theme_validation": "全文围绕内疚感如何激发利他亲社会行为（prosocial behavior）展开，道德发展是该心理过程的最高概括，A项与全篇主旨深度绑定。",
@@ -1592,8 +1592,8 @@
               "analysis": {
                 "practice_status": "首句是将内疚感与基本情绪对比，未说内疚感能调节基本情绪，排除",
                 "option_nature": "干扰项（张冠李戴/逻辑关系曲解）",
-                "source_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later...",
-                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感出现得稍晚一些……",
+                "source_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms. Children aren’t born knowing how to say “I’m sorry”; rather, they learn over time that such statements appease parents and friends—and their own consciences. This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
+                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感的出现要稍晚一些，是伴随着儿童对社会和道德规范的日益掌握而出现的。儿童并不是生来就知道如何说“对不起”；相反，随着时间的推移，他们逐渐懂得这样的表达能安抚父母和朋友——以及他们自己的良心。这就是为什么研究人员通常认为适度的所谓道德内疚是一件好事。",
                 "locator_comparison": "选项B认为其有助于“调节儿童的基本情绪（regulate a child’s basic emotions）”。原文首句使用“Unlike basic emotions（与基本情绪不同）”，只是在发展时间线上进行横向对照：悲伤、恐惧等基本情绪婴儿期即有，而内疚感产生更晚。作者从未声称内疚感的功能是去“调节（regulate）”悲伤或恐惧等原始情绪。B项把分类对比关系曲解为主从调节关系，逻辑彻底错乱。",
                 "writing_perspective": "作者区分基本情绪与复杂情绪是为了界定内疚感的高级认知属性，B选项平添情绪调节机制，偏离了对内疚感社会化功能的阐释。",
                 "theme_validation": "文章聚焦内疚与亲社会品格的关系，而非泛泛的情绪控制与调节，B项脱离主旨。",
@@ -1609,8 +1609,8 @@
               "analysis": {
                 "practice_status": "内疚感属于道德与情感范畴，非智力发育，排除",
                 "option_nature": "干扰项（偷换概念/范畴错配）",
-                "source_sentence": "...helping to foster a child’s moral development.",
-                "source_translation": "……有助于促进儿童的道德发展。",
+                "source_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms. Children aren’t born knowing how to say “I’m sorry”; rather, they learn over time that such statements appease parents and friends—and their own consciences. This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
+                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感的出现要稍晚一些，是伴随着儿童对社会和道德规范的日益掌握而出现的。儿童并不是生来就知道如何说“对不起”；相反，随着时间的推移，他们逐渐懂得这样的表达能安抚父母和朋友——以及他们自己的良心。这就是为什么研究人员通常认为适度的所谓道德内疚是一件好事。",
                 "locator_comparison": "选项C声称其有助于“提高儿童的智力水平（improve a child’s intellectual ability）”。原文明确指出内疚感促进的是“moral development（道德/品行发展）”，属于情感、伦理与人际交往的情商范畴。选项C偷换为“intellectual ability（智力水平/智商）”，将人格与道德维度的成长曲解为数理认知与智商层面的提高。属于典型的跨范畴偷换概念项。",
                 "writing_perspective": "心理学严格区分认知智力（IQ）与道德社会化发展，作者通篇讨论良心与过错弥补，绝无涉及智商测验，C选项违背学术规范。",
                 "theme_validation": "全文讨论的主题是道德良知，与智力高低无关，C项完全跑题。",
@@ -1626,8 +1626,8 @@
               "analysis": {
                 "practice_status": "内疚感本身是令人痛苦的不适感，绝非强化积极感受，排除",
                 "option_nature": "干扰项（与后文事实相悖/反向考查）",
-                "source_sentence": "It is deeply uncomfortable—it’s the emotional equivalent of a toothache...",
-                "source_translation": "它让人深感不适——它就像情感上的牙痛……",
+                "source_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms. Children aren’t born knowing how to say “I’m sorry”; rather, they learn over time that such statements appease parents and friends—and their own consciences. This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
+                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感的出现要稍晚一些，是伴随着儿童对社会和道德规范的日益掌握而出现的。儿童并不是生来就知道如何说“对不起”；相反，随着时间的推移，他们逐渐懂得这样的表达能安抚父母和朋友——以及他们自己的良心。这就是为什么研究人员通常认为适度的所谓道德内疚是一件好事。",
                 "locator_comparison": "选项D认为其有助于“强化儿童的积极感受（intensify a child’s positive feelings）”。第2段明确指出内疚感在体感上是“deeply uncomfortable（极其难受不适的）”，宛如心理上的牙痛（emotional toothache）。它本身就是一种负面、扎心的心理刺痛，正是这种痛苦促使人去弥补过失。声称其会“强化积极感受（positive feelings）”，与人类对内疚的真实生理心理体验彻底相悖。",
                 "writing_perspective": "作者的论述妙处在于“良药苦口”：正因为内疚刺痛人心，它才能激发悔改；D选项将其粉饰为积极甜美的感受，抹杀了内疚感独特的反省警示心理机制。",
                 "theme_validation": "文章强调通过负罪痛苦转化为利他善行，D项脱离内疚的本质属性。",
@@ -1650,8 +1650,8 @@
           "stem_cn": "根据第 2 段，许多人仍然认为内疚是 _____。",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones.",
-          "locate_sentence_cn": "当然，在公众的普遍印象中，内疚感仍然饱受诟病。它让人极其难受——在情感上相当于穿着一件装满石头的夹克。",
+          "locate_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones. Yet this understanding is outdated.",
+          "locate_sentence_cn": "当然，在大众的想象中，内疚仍然背负着恶名。它是极度令人不适的——在情感上就相当于穿了一件沉甸甸地装满石头的夹克。然而，这种理解已经过时了。",
           "options": [
             {
               "key": "A",
@@ -1662,8 +1662,8 @@
               "analysis": {
                 "practice_status": "内疚是自己的主观痛苦感受，非道德上的不可饶恕，排除",
                 "option_nature": "干扰项（概念偷换/主客颠倒）",
-                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable...",
-                "source_translation": "当然，在大众的想象中，内疚名声依然很坏。它令人深感不适……",
+                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones. Yet this understanding is outdated.",
+                "source_translation": "当然，在大众的想象中，内疚仍然背负着恶名。它是极度令人不适的——在情感上就相当于穿了一件沉甸甸地装满石头的夹克。然而，这种理解已经过时了。",
                 "locator_comparison": "选项A认为人们认为内疚是“不可原谅的（inexcusable）”。大众之所以反感内疚感，是因为它让人在内心深处感到极其难受、煎熬与压抑（deeply uncomfortable, a toothache）。inexcusable 通常用于指责某种不可饶恕的罪行或道德败坏行为。内疚本身是人对自己过错的一种自我惩罚心理，人们厌恶的是这种沉重的负罪折磨，而不是判定内疚这种情感本身“不可原谅”。A项偷换了道德评价的对象。",
                 "writing_perspective": "作者在此描写的是一种普遍的情绪厌恶（不愿承受痛苦），若使用 inexcusable，在修辞上完全无法与后文的“牙痛”比喻相衔接，A选项用词不当。",
                 "theme_validation": "文章反思的是大众对心理负担的排斥，A项脱离情绪体验的描述语境。",
@@ -1679,8 +1679,8 @@
               "analysis": {
                 "practice_status": "文中指出内疚让人直面自身过失，绝无欺骗性，排除",
                 "option_nature": "干扰项（无中生有/与心理机制相悖）",
-                "source_sentence": "It is deeply uncomfortable—it’s the emotional equivalent of a toothache...",
-                "source_translation": "它令人深感不适——它就像情感上的牙痛……",
+                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones. Yet this understanding is outdated.",
+                "source_translation": "当然，在大众的想象中，内疚仍然背负着恶名。它是极度令人不适的——在情感上就相当于穿了一件沉甸甸地装满石头的夹克。然而，这种理解已经过时了。",
                 "locator_comparison": "选项B认为人们认为内疚是“具有欺骗性的（deceptive）”。第2段全段都在描写内疚感带来的真实、尖锐的心理刺痛与折磨，后文更是指出内疚能促使人们真实地反省自身的善恶（think more deeply about goodness）。通篇没有任何字句表明内疚感具有虚假性或“欺骗性（deceptive）”。B项纯属毫无文本根据的凭空捏造项。",
                 "writing_perspective": "内疚感是最赤诚、最残酷的自我审判，欺骗性与内疚的本质属性完全绝缘，作者绝不可能在此作此推导，B选项极其荒唐。",
                 "theme_validation": "文章论证内疚是通向真实道德悔改的桥梁，B项严重违背心理科学常识。",
@@ -1696,8 +1696,8 @@
               "analysis": {
                 "practice_status": "人人避之不及，不可能令人上瘾，排除",
                 "option_nature": "干扰项（常识相悖/反向考查）",
-                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable...",
-                "source_translation": "当然，在大众的想象中，内疚依然名声很坏。它令人深感不适……",
+                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones. Yet this understanding is outdated.",
+                "source_translation": "当然，在大众的想象中，内疚仍然背负着恶名。它是极度令人不适的——在情感上就相当于穿了一件沉甸甸地装满石头的夹克。然而，这种理解已经过时了。",
                 "locator_comparison": "选项C声称人们认为内疚是“令人上瘾的（addictive）”。大众对内疚的态度是“gets a bad rap（声名狼藉）”，人人避之唯恐不及，恨不得立刻摆脱这种牙痛般的折磨。没有任何正常人会对痛苦自责的负罪感“上瘾（addictive）”。选项C严重违背基本人类心理学常识，属于恶意反向干扰项。",
                 "writing_perspective": "作者在全篇旨在解释为何人们长期抵触内疚（因为难受），如果它令人上瘾，全段对 bad rap 的解释逻辑将彻底瓦解，C选项完全讲不通。",
                 "theme_validation": "内疚的痛苦驱使人去行动修复，上瘾说纯属无稽之谈，C项果断排除。",
@@ -1713,8 +1713,8 @@
               "analysis": {
                 "practice_status": "对比 toothache, persistent, naggy burden，锁定 burdensome，选D",
                 "option_nature": "正确项（同义替换/隐喻破译）",
-                "source_sentence": "It is deeply uncomfortable—it’s the emotional equivalent of a toothache, a persistent, naggy burden...",
-                "source_translation": "它令人深感不适——它相当于情感上的牙痛，是一种挥之不去、令人心烦意乱的沉重负担……",
+                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones. Yet this understanding is outdated.",
+                "source_translation": "当然，在大众的想象中，内疚仍然背负着恶名。它是极度令人不适的——在情感上就相当于穿了一件沉甸甸地装满石头的夹克。然而，这种理解已经过时了。",
                 "locator_comparison": "选项D指出许多人仍然认为内疚感是“沉重累赘的/令人不堪重负的（burdensome）”。定位句中，作者连用极其传神的修辞刻画大众对内疚的排斥：“deeply uncomfortable（极度不适）”、“emotional equivalent of a toothache（情感牙痛）”以及原词“naggy burden（令人烦扰的沉重包袱）”。形容词 burdensome 完美由名词 burden 派生提炼而来，精准概括了这种让人喘不过气来的心理重压感。完全吻合原文。",
                 "writing_perspective": "作者用极其生动的牙痛与重担比喻，瞬间唤醒读者对内疚经历的切身体会，为下文心理学家颠覆这一成见提供了强烈的欲扬先抑修辞张力，选D完美再现了作者的修辞意图。",
                 "theme_validation": "全文讨论如何将内疚这种看似沉重的心理负担（burdensome feeling）转化为积极的建设性力量，D项准确切中大众传统认知的核心盲区。",
@@ -1738,7 +1738,7 @@
           "type": "段落推理题",
           "locate_pid": 1,
           "locate_sentence": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
-          "locate_sentence_cn": "弗吉尼亚大学心理学研究员阿姆里莎·瓦伊什表示：“人们对什么是内疚以及内疚能发挥什么作用进行了某种复兴或重新思考”，她补充说，这种复兴是对情绪并非非黑即白这一更大认知的一部分——在某种情境下可能有益的情绪在另一种情境下可能是有害的。",
+          "locate_sentence_cn": "弗吉尼亚大学心理学研究员阿姆丽莎·瓦伊什表示：“人们对内疚是什么以及内疚可以发挥什么作用进行了一种复兴或重新思考。”她补充说，这种反思是更大范围认知的一部分，即情绪并不是非此即彼的——在一种情境下可能有益的情绪，在另一种情境下可能是有害的。",
           "options": [
             {
               "key": "A",
@@ -1749,8 +1749,8 @@
               "analysis": {
                 "practice_status": "内疚必须依赖具体情境产生，非脱离情境，排除",
                 "option_nature": "干扰项（偷换概念/与学术事实相悖）",
-                "source_sentence": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve...”",
-                "source_translation": "“关于什么是内疚以及内疚能发挥什么作用，出现了一种复兴或重新思考……”",
+                "source_sentence": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
+                "source_translation": "弗吉尼亚大学心理学研究员阿姆丽莎·瓦伊什表示：“人们对内疚是什么以及内疚可以发挥什么作用进行了一种复兴或重新思考。”她补充说，这种反思是更大范围认知的一部分，即情绪并不是非此即彼的——在一种情境下可能有益的情绪，在另一种情境下可能是有害的。",
                 "locator_comparison": "选项A认为重新思考源于意识到“情绪与具体情境无关（emotions are context-independent）”。发展心理学反复强调，内疚感等高级社会化情绪高度依赖于具体的社会情境、人际关系和伤害过失（highly context-dependent）。Vaish 强调的是情绪功能在不同视角下的利弊反转，通篇未曾提出过情绪脱离情境（context-independent）的荒谬论调。A项与事实完全相反。",
                 "writing_perspective": "作者在后文列举了大量的实验情境（伤害他人、打破东西、食物测试），证明情境是激活内疚的前提，A选项完全割裂了情境与心理的纽带。",
                 "theme_validation": "文章反思的是功能属性的二元对立与统一，而非探讨抽象的情境无关论，A项偏离论旨。",
@@ -1766,8 +1766,8 @@
               "analysis": {
                 "practice_status": "精准抓取 not just destructive but also constructive，抽象为 opposing roles，选B",
                 "option_nature": "正确项（辩证概括/同义提炼）",
-                "source_sentence": "“There has been a kind of revival or a rethinking... It’s not just a destructive force; it also has a constructive, prosocial side,” says Amrisha Vaish.",
-                "source_translation": "阿姆里沙·瓦伊什表示：“人们对内疚是什么以及它能起到什么作用进行了一种复兴或反思……它不仅是一种破坏性的力量，它也具有建设性的、亲社会的一面。”",
+                "source_sentence": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
+                "source_translation": "弗吉尼亚大学心理学研究员阿姆丽莎·瓦伊什表示：“人们对内疚是什么以及内疚可以发挥什么作用进行了一种复兴或重新思考。”她补充说，这种反思是更大范围认知的一部分，即情绪并不是非此即彼的——在一种情境下可能有益的情绪，在另一种情境下可能是有害的。",
                 "locator_comparison": "选项B指出对内疚的重新审视源于意识到“一种情绪可以扮演截然相反的角色（an emotion can play opposing roles）”。定位句中，Vaish 权威总结了反思内疚的本质动因：过去人们只看到其消极破坏力（destructive force），而现代科学发现它同时兼具积极建设性的一面（constructive side）。破坏性与建设性构成了一对经典的矛盾对立体。B选项用 play opposing roles（扮演相反角色）对 destructive 与 constructive 进行了极其高超的哲学提炼，逻辑天衣无缝。",
                 "writing_perspective": "作者借权威学者之口，将读者的认知水平从非黑即白的幼稚二元论，拉升到辩证统一的现代科学视界，选B深刻映射了作者这一认知升级的行文主旨。",
                 "theme_validation": "全文讨论的核心正是内疚感从“有害”到“有益”的戏剧性功能反转，B项是该反转背后的理论最高纲领。",
@@ -1783,8 +1783,8 @@
               "analysis": {
                 "practice_status": "只说了建设性的一面，遗漏了破坏性的一面，以偏概全，排除",
                 "option_nature": "干扰项（以偏概全/单边表述）",
-                "source_sentence": "“It’s not just a destructive force; it also has a constructive, prosocial side...”",
-                "source_translation": "“它不仅是一种破坏性的力量；它同时也具有建设性的、亲社会的一面……”",
+                "source_sentence": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
+                "source_translation": "弗吉尼亚大学心理学研究员阿姆丽莎·瓦伊什表示：“人们对内疚是什么以及内疚可以发挥什么作用进行了一种复兴或重新思考。”她补充说，这种反思是更大范围认知的一部分，即情绪并不是非此即彼的——在一种情境下可能有益的情绪，在另一种情境下可能是有害的。",
                 "locator_comparison": "选项C认为意识到“情绪在社会层面具有建设性（emotions are socially constructive）”。选项C仅仅抓取了后半句的“constructive, prosocial side”，却完全遗漏了前半句极其重要的“not just a destructive force（它依然包含破坏性的一面）”。重新思考（rethinking）的精髓在于看清事物的“两面性与复杂性（opposing roles）”，而不是从极端否定跳向盲目肯定的另一个极端单边主义。C项以偏概全，未能体现辩证反思的全面性。",
                 "writing_perspective": "作者使用的是不仅……而且……的平衡句式，旨在指出兼而有之；C选项片面绝对化，削弱了科学论述的严密审慎底色。",
                 "theme_validation": "文章反思的本质是破除单一属性标签，C项退回到了新的单一标签，不如B项全面周严。",
@@ -1800,8 +1800,8 @@
               "analysis": {
                 "practice_status": "文中讨论的是情绪的道德与社会功能，非情绪稳定与身体健康，排除",
                 "option_nature": "干扰项（无中生有/跨界杂糅）",
-                "source_sentence": "“...what role guilt can serve... constructive, prosocial side...”",
-                "source_translation": "“……内疚能起到什么作用……建设性的、亲社会的一面……”",
+                "source_sentence": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
+                "source_translation": "弗吉尼亚大学心理学研究员阿姆丽莎·瓦伊什表示：“人们对内疚是什么以及内疚可以发挥什么作用进行了一种复兴或重新思考。”她补充说，这种反思是更大范围认知的一部分，即情绪并不是非此即彼的——在一种情境下可能有益的情绪，在另一种情境下可能是有害的。",
                 "locator_comparison": "选项D声称是因为意识到“情绪稳定能够有益健康（emotional stability can benefit health）”。Vaish 的研究领域是儿童道德发展与社会化交往，他所强调的是内疚这种剧烈不稳定的情绪如何转化为弥补过失的善行。通篇未曾涉及“情绪稳定（emotional stability）”的概念，更没有讨论过其对肉体“生理健康（benefit health）”的益处。D项纯属将心理健康常识胡乱拼凑的无端干扰项。",
                 "writing_perspective": "内疚本身就是情绪波动与不安的表现，若倡导情绪稳定，恰恰排斥了内疚的产生，D选项与作者讨论的主题逻辑背道而驰。",
                 "theme_validation": "文章聚焦利他品行塑造，D项乱入生理健康长寿话题，完全脱轨。",
@@ -1836,8 +1836,8 @@
               "analysis": {
                 "practice_status": "合作与分享是深思熟虑的利他行为，非冲动产物，排除",
                 "option_nature": "干扰项（反向考查/与心理机制相悖）",
-                "source_sentence": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors...",
-                "source_translation": "而且内疚通过促使我们更深入地思考自身的善意，能够鼓励人类弥补过失……",
+                "source_sentence": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing. Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses. And vice versa: High sympathy can substitute for low guilt.",
+                "source_translation": "在多项研究中，马尔蒂等人表明，内疚和同情可能代表了通往合作与分享的不同途径。一些同情心较低的孩子可能会通过经历更多的内疚感来弥补这一不足，这可以抑制他们更不良的冲动。反之亦然：高度的同情可以弥补较低的内疚。",
                 "locator_comparison": "选项A认为合作与分享“可能是冲动行为的结果（may be the outcome of impulsive acts）”。前文明确指出，内疚促使人展开深思熟虑（think more deeply），评估社会规则并主动修复关系。合作与分享是高度成熟的社会化亲社会行为（prosocial behavior），绝非未经大脑思考的“一时冲动（impulsive acts）”。A项用贬义的冲动曲解了深层道德反省产物，属于荒谬的反向干扰项。",
                 "writing_perspective": "作者在全篇强调儿童道德认知的成熟度，若归因于冲动，则彻底否定了共情与内疚的理性自省机制，A选项破坏了科学解释链条。",
                 "theme_validation": "文章赞美合作源于深刻的同理心与负罪反思，A项贬低其为冲动产物，极其荒谬。",
@@ -1853,8 +1853,8 @@
               "analysis": {
                 "practice_status": "文中研究的是通往合作的心理路径，未提及纠正情绪缺陷，排除",
                 "option_nature": "干扰项（无中生有/概念偷换）",
-                "source_sentence": "...guilt and sympathy may represent different pathways to cooperation and sharing...",
-                "source_translation": "……内疚和同情可能代表着通往合作与分享的不同路径……",
+                "source_sentence": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing. Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses. And vice versa: High sympathy can substitute for low guilt.",
+                "source_translation": "在多项研究中，马尔蒂等人表明，内疚和同情可能代表了通往合作与分享的不同途径。一些同情心较低的孩子可能会通过经历更多的内疚感来弥补这一不足，这可以抑制他们更不良的冲动。反之亦然：高度的同情可以弥补较低的内疚。",
                 "locator_comparison": "选项B声称合作与分享“可能有助于纠正情绪缺陷（may help correct emotional deficiencies）”。第4段的核心在于探讨亲社会行为（cooperation and sharing）是从何种心理动力萌发出来的（来自同情或内疚）。文中从未声称参与合作与分享能够反过来“治疗或纠正情绪缺陷（correct emotional deficiencies）”。B项无中生有，颠倒因果，引入完全不存在的病理学术语。",
                 "writing_perspective": "作者探讨的是正常健康儿童的道德成长路径，并非针对有情绪障碍儿童的临床矫正矫治，B选项混淆了发展心理学与临床病理学领域。",
                 "theme_validation": "文章反思的是良心发育的路径，B项生造心理缺陷矫正，脱离文本主线。",
@@ -1870,8 +1870,8 @@
               "analysis": {
                 "practice_status": "虽然助人为乐可能满足，但实验证明的是其由同情或内疚引发，排除",
                 "option_nature": "干扰项（主观臆测/偏离实验核心因果）",
-                "source_sentence": "...guilt and sympathy may represent different pathways to cooperation and sharing...",
-                "source_translation": "……内疚和同情可能代表着通往合作与分享的不同路径……",
+                "source_sentence": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing. Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses. And vice versa: High sympathy can substitute for low guilt.",
+                "source_translation": "在多项研究中，马尔蒂等人表明，内疚和同情可能代表了通往合作与分享的不同途径。一些同情心较低的孩子可能会通过经历更多的内疚感来弥补这一不足，这可以抑制他们更不良的冲动。反之亦然：高度的同情可以弥补较低的内疚。",
                 "locator_comparison": "选项C声称合作与分享“能够带来情感上的满足（can bring about emotional satisfaction）”。民间常识虽有“赠人玫瑰手有余香”之说，但题干明确考查 Malti 等人的实证研究得出了什么结论。Malti 发现的核心科学成果是证明了同情与内疚是促成合作的“两大独立驱动力（different pathways / either sympathy or guilt）”。实验并没有去测量分享之后学生是否感受到了“情感满足（emotional satisfaction）”。C项属于以主观鸡汤常识替代实证因果推论的干扰项。",
                 "writing_perspective": "科学家的论点在于溯源行为动机（为什么愿意分享？），C选项将目光投向了行为发生后的主观感受，在因果箭头上完全走偏，不符学术论证逻辑。",
                 "theme_validation": "全文聚焦内疚这一特定情感如何转化为亲社会行为，C项泛化为情感满足，缺乏针对性。",
@@ -1887,8 +1887,8 @@
               "analysis": {
                 "practice_status": "依据 different pathways to cooperation and sharing 与 either... or...，选D",
                 "option_nature": "正确项（原词对应/双路径归纳）",
-                "source_sentence": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing... feel either more guilt or more sympathy...",
-                "source_translation": "在多项研究中，马尔蒂等人已经证明，内疚和同情可能代表着通往合作与分享的不同路径……感受到更多内疚或更多同情的孩子……",
+                "source_sentence": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing. Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses. And vice versa: High sympathy can substitute for low guilt.",
+                "source_translation": "在多项研究中，马尔蒂等人表明，内疚和同情可能代表了通往合作与分享的不同途径。一些同情心较低的孩子可能会通过经历更多的内疚感来弥补这一不足，这可以抑制他们更不良的冲动。反之亦然：高度的同情可以弥补较低的内疚。",
                 "locator_comparison": "选项D指出合作与分享“既可以源自同情心，也可以源自内疚感（can result from either sympathy or guilt）”。定位句明确阐述了 Malti 的里程碑发现：guilt and sympathy 构成了通往 cooperation and sharing 的“different pathways（不同路径）”，后文紧接着印证“feel either more guilt or more sympathy（无论具备较多内疚感还是同情心）”的孩子都能走向合作与分享。D选项用 can result from either A or B 高度严整地还原了这一双路径驱动模型，逻辑百分之百对齐。",
                 "writing_perspective": "作者在此揭示了心理学上的重大突破：以前人们以为只有出于爱与同情（sympathy）才会利他，Malti 证明了源于自责与负罪（guilt）同样能结出高尚利他的果实，选D精准呈现了这一突破性学术发现。",
                 "theme_validation": "全文的主线正是为内疚感正名，证明其能殊途同归地促成亲社会行为，D项是全篇主旨最硬核的科学支撑。",
@@ -1912,7 +1912,7 @@
           "type": "全文主旨题",
           "locate_pid": 4,
           "locate_sentence": "Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions.",
-          "locate_sentence_cn": "通过看护人的评估和儿童的自我观察，她评估了每个孩子的整体同情心水平以及他们在做出不道德行为后产生消极情绪的倾向。",
+          "locate_sentence_cn": "通过看护者的评估和儿童的自我观察，她对每个孩子的整体同情心水平以及在发生道德违规行为后感受负面情绪的倾向进行了评分。",
           "options": [
             {
               "key": "A",
@@ -1923,8 +1923,8 @@
               "analysis": {
                 "practice_status": "后文举例是破规矩和伤人，非教学教导，排除",
                 "option_nature": "干扰项（词义偏差/脱离语境线索）",
-                "source_sentence": "...their overall guilt based on their reactions to their own transgressions, such as breaking a rule or hurting a peer...",
-                "source_translation": "……根据他们对自己过错（如违背规则或伤害同龄人）的反应，来评估他们的总体内疚感……",
+                "source_sentence": "In a 2014 study, for example, Malti looked at 244 children. Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions. Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child.",
+                "source_translation": "例如，在2014年的一项研究中，马尔蒂对244名儿童进行了观察。通过看护者的评估和儿童的自我观察，她对每个孩子的整体同情心水平以及在发生道德违规行为后感受负面情绪的倾向进行了评分。随后，孩子们得到了巧克力硬币，并有机会与一个匿名的孩子分享。",
                 "locator_comparison": "选项A认为 transgressions 意为“教义、教导（teachings）”。破折号后的 such as 明确给出了该词的具象实例：“breaking a rule（违背规矩规则）”或者“hurting a peer（伤害同伴）”。破坏规则和伤害别人属于个体犯下的过失行为，与老师或长辈给予的“教育/教导（teachings）”风马牛不相及。A项词义严重错位。",
                 "writing_perspective": "内疚感只会因自己做错了事而萌发，绝不可能因为得到了教导而产生内疚，A选项在心理因果逻辑上完全讲不通。",
                 "theme_validation": "文章反思做错事后的心理修复，A项偏离犯错与悔改的主题链条。",
@@ -1940,8 +1940,8 @@
               "analysis": {
                 "practice_status": "根据 such as breaking a rule or hurting a peer，秒定 wrongdoings，选B",
                 "option_nature": "正确项（语境例证/词汇学同义词）",
-                "source_sentence": "...their overall guilt based on their reactions to their own transgressions, such as breaking a rule or hurting a peer...",
-                "source_translation": "……根据他们对自身过错（比如破坏规则或伤害同伴）的反应，评估他们整体的内疚水平……",
+                "source_sentence": "In a 2014 study, for example, Malti looked at 244 children. Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions. Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child.",
+                "source_translation": "例如，在2014年的一项研究中，马尔蒂对244名儿童进行了观察。通过看护者的评估和儿童的自我观察，她对每个孩子的整体同情心水平以及在发生道德违规行为后感受负面情绪的倾向进行了评分。随后，孩子们得到了巧克力硬币，并有机会与一个匿名的孩子分享。",
                 "locator_comparison": "选项B指出 transgressions 最接近的含义是“过错、不当行为（wrongdoings）”。定位句中，作者给出了极其直白明了的举例说明：“such as breaking a rule or hurting a peer”。犯规（breaking a rule）与伤人（hurting a peer）在伦理学与行为学上被称为过失与不良行径。transgression 词根来自于 trans-（跨越、逾越）+ gress（迈步），本义即为“逾矩、违规、过失”。wrongdoings 完美契合其词根学解释与文本例证，属于毫无争议的最佳选项。",
                 "writing_perspective": "作者通过这一细节界定了内疚的触发机制：唯有当个体意识到自己是伤害的肇事者（caused harm）时，内疚回路才会被激活，选B严密咬合了这一心理因果链条。",
                 "theme_validation": "全文探讨如何将对自身过错（wrongdoings）的悔恨转化为利他补偿，B项精准扣死核心诱因。",
@@ -1957,8 +1957,8 @@
               "analysis": {
                 "practice_status": "讨论是中性言语互动，无法解释后文违反规则和伤害同伴的例证，排除",
                 "option_nature": "干扰项（无中生有/含义脱节）",
-                "source_sentence": "...based on their reactions to their own transgressions...",
-                "source_translation": "……根据他们对自己过失的反应……",
+                "source_sentence": "In a 2014 study, for example, Malti looked at 244 children. Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions. Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child.",
+                "source_translation": "例如，在2014年的一项研究中，马尔蒂对244名儿童进行了观察。通过看护者的评估和儿童的自我观察，她对每个孩子的整体同情心水平以及在发生道德违规行为后感受负面情绪的倾向进行了评分。随后，孩子们得到了巧克力硬币，并有机会与一个匿名的孩子分享。",
                 "locator_comparison": "选项C认为其意为“讨论（discussions）”。举例中的“breaking a rule or hurting a peer”是客观破坏性行为，根本不是口头交流探讨（discussions）。面对正常的讨论交流，人不会也不应该产生病理性的内疚感。C项既无法解释后文的暴力和违规例证，也无法承接内疚感的情感诱因，纯属无稽之谈。",
                 "writing_perspective": "实验观察的是真实的道德犯规行为，若替换为讨论，实验就变成了口头座谈会，C选项彻底扭曲了实验性质。",
                 "theme_validation": "文章聚焦行动层面的伤害与修复，C项流于言语交流，缺乏道德张力。",
@@ -1974,8 +1974,8 @@
               "analysis": {
                 "practice_status": "限制是外部施加的约束，而此处是自己做出的不良行为，排除",
                 "option_nature": "干扰项（概念混淆/施受主体错乱）",
-                "source_sentence": "...based on their reactions to their own transgressions, such as breaking a rule...",
-                "source_translation": "……根据他们对自身过错（如违背规则）的反应……",
+                "source_sentence": "In a 2014 study, for example, Malti looked at 244 children. Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions. Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child.",
+                "source_translation": "例如，在2014年的一项研究中，马尔蒂对244名儿童进行了观察。通过看护者的评估和儿童的自我观察，她对每个孩子的整体同情心水平以及在发生道德违规行为后感受负面情绪的倾向进行了评分。随后，孩子们得到了巧克力硬币，并有机会与一个匿名的孩子分享。",
                 "locator_comparison": "选项D认为其意为“限制、约束（restrictions）”。规则（rules）本身可以被视为一种外部限制，但短语是“their own transgressions（他们自己的……）”，随后举例也是动名词动作“breaking a rule（打破限制/违规）”。如果是“限制（restrictions）”，则变成了自己遵守限制，这不仅不会引发内疚，反而是合规守矩。D项把“逾矩犯错”的动作与被逾越的“限制客体”混为一谈，施受逻辑错位。",
                 "writing_perspective": "内疚来源于突破了道德限制（transgression of restrictions），而不是来源于限制本身，D选项混淆了罪过与戒律的界限，逻辑不通。",
                 "theme_validation": "文章讨论违规后的自省，D项误将违规偷换为限制，果断排除。",
@@ -3644,7 +3644,7 @@
           "type": "事实细节题",
           "locate_pid": 0,
           "locate_sentence": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so.",
-          "locate_sentence_cn": "正当我们人类指望森林吸收我们产生的大量二氧化碳时，我们却在威胁它们吸收碳的能力。",
+          "locate_sentence_cn": "尽管人类指望森林吸收我们产生的大量二氧化碳，但我们正在威胁它们这样做的能力。",
           "options": [
             {
               "key": "A",
@@ -3655,8 +3655,8 @@
               "analysis": {
                 "practice_status": "气候变化失控过于宽泛宏大，未能聚焦森林自身角色的戏剧性异化，排除",
                 "option_nature": "干扰项（过于空泛/脱离森林主体）",
-                "source_sentence": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
-                "source_translation": "森林为我们提供绿荫、宁静，以及在对抗气候变化战役中更加艰难的挑战之一。",
+                "source_sentence": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change. Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so. The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.",
+                "source_translation": "森林为我们带来阴凉、宁静，以及在抗击气候变化斗争中更艰巨的挑战之一。尽管人类指望森林吸收我们产生的大量二氧化碳，但我们正在威胁它们这样做的能力。我们正在加速的气候变化有朝一日可能会让我们面对排放碳多于吸收碳的森林。",
                 "locator_comparison": "选项A认为作者暗示“全球气候变化可能失控（global climate change may get out of control）”。虽然气候治理确实极为艰难，但作者在第1段开宗明义设置的挑战主语是“Forests（森林）”，下文紧接着展开的论述完全聚焦在“森林自身如何从吸碳库蜕变为易燃排碳源”这一独特的生态反噬上。A项把针对森林管理机制的具体悖论，空泛扩大为整个人类气候战役的整体失控，脱离了论述的核心主体。",
                 "writing_perspective": "作者在首段旨在引出全篇的核心研究对象——森林碳管理悖论，若直接得出世界末日般的失控结论，后文的科学林业规划就失去了立足空间，A选项大而无当。",
                 "theme_validation": "全文讨论的是加州森林科学管理方案，而非宣泄气候失控的绝望情绪，A项偏离主线。",
@@ -3672,8 +3672,8 @@
               "analysis": {
                 "practice_status": "对比 count on forests 与 turn into tinderboxes that emit carbon，秒定B",
                 "option_nature": "正确项（悖论破译/深层意蕴）",
-                "source_sentence": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are discovering they can also turn into tinderboxes that emit carbon.",
-                "source_translation": "正当我们人类指望森林吸收我们产生的大量二氧化碳时，我们却发现它们也可能变成释放碳的火药桶。",
+                "source_sentence": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change. Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so. The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.",
+                "source_translation": "森林为我们带来阴凉、宁静，以及在抗击气候变化斗争中更艰巨的挑战之一。尽管人类指望森林吸收我们产生的大量二氧化碳，但我们正在威胁它们这样做的能力。我们正在加速的气候变化有朝一日可能会让我们面对排放碳多于吸收碳的森林。",
                 "locator_comparison": "选项B指出作者暗示“森林可能变成一种潜在的威胁（forests may become a potential threat）”。定位句通过 Even as 引导的戏剧性对比深刻揭示了这一悖论：人类自古视森林为忠诚的生态守护者与碳吸收池（count on to soak up CO2），然而残酷的现实却是，密集退化的森林极易演变为熊熊燃烧的火药桶（turn into tinderboxes），反向喷涌出巨额温室气体，从而在客观上异化为了威胁气候安全的巨大隐患。B选项 potential threat 极其精准地破译了这一反噬悖论，立意高远深刻。",
                 "writing_perspective": "作者用这句带有强烈哲学反思的开篇，颠覆了大众对“保护森林只要不砍树就行”的肤浅认知，为后文提出“为了救森林必须主动砍伐稀疏”的反直觉方案奠定了最震撼的理论伏笔，选B完美契合这一行文动机。",
                 "theme_validation": "全文从头至尾在化解“森林变火海排碳”的严峻风险，B项高度统摄全篇核心危机。",
@@ -3689,8 +3689,8 @@
               "analysis": {
                 "practice_status": "文中指责的是森林管理难度，非人们误解全球变暖，排除",
                 "option_nature": "干扰项（无中生有/认知错位）",
-                "source_sentence": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
-                "source_translation": "森林为我们提供阴凉、宁静，以及应对气候变化中更严峻的挑战之一。",
+                "source_sentence": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change. Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so. The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.",
+                "source_translation": "森林为我们带来阴凉、宁静，以及在抗击气候变化斗争中更艰巨的挑战之一。尽管人类指望森林吸收我们产生的大量二氧化碳，但我们正在威胁它们这样做的能力。我们正在加速的气候变化有朝一日可能会让我们面对排放碳多于吸收碳的森林。",
                 "locator_comparison": "选项C声称作者暗示“人们可能误解了全球变暖（people may misunderstand global warming）”。第1段探讨的是客观存在的生态物理过程：枯死密集的树木遭遇干旱会化为火海并排放碳。作者是在陈述一个严峻的生态科学客观规律，根本没有指责公众在主观意识上对全球变暖存在什么“误解（misunderstand）”。C项把客观生态威胁偷换成了公众主观认知偏差，纯属无稽之谈。",
                 "writing_perspective": "作者在全篇面向的是林业政策制定者与科学界，呼吁行动改革，C选项将问题弱化为科普观念误解，缺乏政策探讨的锐度。",
                 "theme_validation": "文章反思的是具体的林业碳汇实践困境，C项脱离现实物理威胁。",
@@ -3706,8 +3706,8 @@
               "analysis": {
                 "practice_status": "极端天气是外部大环境背景，森林自身变成威胁才是 harder challenge 的内涵，排除",
                 "option_nature": "干扰项（背景与本体混淆/因果倒置）",
-                "source_sentence": "...one of the harder challenges... they can also turn into tinderboxes that emit carbon...",
-                "source_translation": "……更严峻的挑战之一……它们也可能变成释放碳的火药桶……",
+                "source_sentence": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change. Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so. The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.",
+                "source_translation": "森林为我们带来阴凉、宁静，以及在抗击气候变化斗争中更艰巨的挑战之一。尽管人类指望森林吸收我们产生的大量二氧化碳，但我们正在威胁它们这样做的能力。我们正在加速的气候变化有朝一日可能会让我们面对排放碳多于吸收碳的森林。",
                 "locator_comparison": "选项D认为作者暗示“极端天气状况可能会出现（extreme weather conditions may arise）”。极端干旱等恶劣气候确实是诱发森林大火的外部诱因，但题干精准考查的是为何森林本身构成了“one of the harder challenges（更严峻的挑战之一）”。挑战的本质在于森林自身的“两面性与反噬性（从吸碳库变成喷碳源）”，而不仅仅是外部气候本身变恶劣。选项D把外部环境背景当成了挑战本身的内涵，未击中要害。",
                 "writing_perspective": "如果挑战只是极端天气，全篇就该去讨论人工降雨或防风抗旱；作者通篇都在讨论如何给森林“剃头疏伐”，证明矛盾核心在森林本身，D选项严重偏离行文主轴。",
                 "theme_validation": "文章探讨林地内部生物质管理，D项游离于外部天气，缺乏针对性。",
@@ -3731,7 +3731,7 @@
           "type": "因果推断题",
           "locate_pid": 1,
           "locate_sentence": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
-          "locate_sentence_cn": "为了帮助森林在未来长久地作为宝贵的“碳汇”繁荣生长，可能需要现在就降低其吸收碳的能力。",
+          "locate_sentence_cn": "为了让森林在未来长久地作为宝贵的“碳汇”繁茂生长，现在可能需要降低它们吸收碳的能力。",
           "options": [
             {
               "key": "A",
@@ -3742,8 +3742,8 @@
               "analysis": {
                 "practice_status": "后文第7段指出传统林业才看物种多样性，当下碳汇管理核心在疏伐降密，排除",
                 "option_nature": "干扰项（张冠李戴/脱离段落焦点）",
-                "source_sentence": "State governments... traditionally they’ve focused on wildlife, watersheds and timber...",
-                "source_translation": "州政府……传统上一直专注于野生动物、集水区和木材……",
+                "source_sentence": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance. Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+                "source_translation": "值得庆幸的是，摆脱这种困境有一种方法——但这涉及到达成微妙的平衡。为了让森林在未来长久地作为宝贵的“碳汇”繁茂生长，现在可能需要降低它们吸收碳的能力。",
                 "locator_comparison": "选项A认为我们需要“保护其中物种的多样性（preserve the diversity of species in them）”。第7段明确指出，关注野生动物与物种栖息地（wildlife, diversity）是过去传统林业管理的关注点；而在应对当下严峻的气候与火灾大危机时，第2段明确给出的药方是极具反直觉色彩的“reducing their present carbon-absorbing capacity（降低即时碳吸收能力进行疏伐）”。A选项将传统旧林业目标生搬硬套到本题的碳汇新管理上，张冠李戴。",
                 "writing_perspective": "作者在第2段旨在抛出一个震动人心的反直觉两难命题（为了吸碳必须先减碳），若写成平庸的保护物种多样性，整段的科学新意与论辩张力将荡然无存，A选项严重平庸化。",
                 "theme_validation": "全文讨论的是碳的物理吸附与封存工程，A项偏离碳汇管理的独特论述轨道。",
@@ -3759,8 +3759,8 @@
               "analysis": {
                 "practice_status": "在定位句直接看到 reducing their present carbon-absorbing capacity，秒定B",
                 "option_nature": "正确项（原句重现/反直觉科学破局）",
-                "source_sentence": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their present carbon-absorbing capacity.",
-                "source_translation": "从长远来看，帮助森林作为宝贵的“碳汇”茁壮成长，可能需要降低它们眼下的碳吸收能力。",
+                "source_sentence": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance. Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+                "source_translation": "值得庆幸的是，摆脱这种困境有一种方法——但这涉及到达成微妙的平衡。为了让森林在未来长久地作为宝贵的“碳汇”繁茂生长，现在可能需要降低它们吸收碳的能力。",
                 "locator_comparison": "选项B指出维持森林长远碳汇功能可能需要“降低它们眼下的碳吸收能力（lower their present carbon-absorbing capacity）”。定位句明确给出了这道平衡难题的破局解法：“may require reducing their present carbon-absorbing capacity”。B选项仅将动词 reducing 替换为 lower，后置名词短语 their present carbon-absorbing capacity 完全原原本本保留。逻辑严密，原句高保真映射，毫无争议。",
                 "writing_perspective": "作者在此展示了卓越的战略远见：宁可承受眼前少吸收一点碳的阵痛，也绝不能让森林变成引发浩劫的密林火坑；选B精准锁定了全篇最硬核、最反直觉的科学决策支点。",
                 "theme_validation": "全文的核心论证框架正是“主动减碳降密 -> 消除毁灭火灾 -> 确保长久稳定碳汇”，B项是这一战略闭环的命门所在。",
@@ -3776,8 +3776,8 @@
               "analysis": {
                 "practice_status": "原文明确说要给小树疏伐以减少密度，加速生长与文意相反，排除",
                 "option_nature": "干扰项（与原文手段彻底相悖/反向考查）",
-                "source_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush...",
-                "source_translation": "该州拟议的森林碳计划旨在加倍努力，稀疏幼树并清理灌木……",
+                "source_sentence": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance. Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+                "source_translation": "值得庆幸的是，摆脱这种困境有一种方法——但这涉及到达成微妙的平衡。为了让森林在未来长久地作为宝贵的“碳汇”繁茂生长，现在可能需要降低它们吸收碳的能力。",
                 "locator_comparison": "选项C声称需要“加速幼树的生长（accelerate the growth of young trees）”。第3段明确给出的具体技术路线是：“thin out young trees and clear brush（淘汰稀疏幼树并清理杂乱灌木）”。因为过度茂密的幼树和灌木正是火灾最危险的引火柴（fuel/ladder fuels），必须将其砍伐清除以降低森林密度。选项C声称去“加速幼树生长（accelerate growth）”，无异于在火药桶里火上浇油。彻底与事实和技术路线相反。",
                 "writing_perspective": "作者极力论证“树木并非越密越好”，强调减法治理；C选项主张催生树木，完全是作者批判的传统朴素植树思维，逻辑相左。",
                 "theme_validation": "文章反思盲目追求树木密度的危害，C项违背森林疏伐的基本常识。",
@@ -3793,8 +3793,8 @@
               "analysis": {
                 "practice_status": "重点在于降低树木与燃料密度，非不同植物间的平衡，排除",
                 "option_nature": "干扰项（过度泛化/偷换概念）",
-                "source_sentence": "...it involves striking a subtle balance. Helping forests flourish... may require reducing their present carbon-absorbing capacity.",
-                "source_translation": "……这涉及达成微妙的平衡。帮助森林茁壮成长……可能需要降低眼下的碳吸收能力。",
+                "source_sentence": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance. Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+                "source_translation": "值得庆幸的是，摆脱这种困境有一种方法——但这涉及到达成微妙的平衡。为了让森林在未来长久地作为宝贵的“碳汇”繁茂生长，现在可能需要降低它们吸收碳的能力。",
                 "locator_comparison": "选项D认为需要“在不同的植物种类之间取得平衡（strike a balance among different plants）”。原文提到的“striking a subtle balance（达成微妙平衡）”，其内涵紧接着在后半句阐明：是指在“当下的碳吸收能力（present capacity）”与“长期的生态安全性（long into the future）”之间做时间维度的战略取舍平衡。选项D偷梁换柱，将长短期的战略平衡，庸俗曲解为森林里各种植物物种数量的“植物生态平衡（among different plants）”。概念完全偷换。",
                 "writing_perspective": "作者在此讨论的是碳核算的时间博弈（跨期平衡），而非植物学群落分类，D选项流于字面词汇拼凑，偏离了碳汇金融与治理的严谨维度。",
                 "theme_validation": "文章聚焦碳库安全与火灾风险的对冲，D项泛化为植物杂烩，脱离主旨。",
@@ -3818,7 +3818,7 @@
           "type": "段落推理题",
           "locate_pid": 2,
           "locate_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
-          "locate_sentence_cn": "该州提出的森林碳计划旨在加倍努力，稀疏森林部分区域的幼树并清理灌木丛。",
+          "locate_sentence_cn": "该州提议的《森林碳计划》旨在加倍努力，在部分森林中稀疏幼树并清理灌木。",
           "options": [
             {
               "key": "A",
@@ -3829,8 +3829,8 @@
               "analysis": {
                 "practice_status": "计划旨在防火于未燃，而非大火烧光后的灾后恢复，排除",
                 "option_nature": "干扰项（时序错位/防灾与救灾混淆）",
-                "source_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush...",
-                "source_translation": "该州拟议的森林碳计划旨在加倍努力，在部分森林中稀疏幼树并清理灌木丛……",
+                "source_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest. This temporarily lowers carbon-carrying capacity. But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest’s capacity to pull carbon from the air.",
+                "source_translation": "该州提议的《森林碳计划》旨在加倍努力，在部分森林中稀疏幼树并清理灌木。这暂时降低了碳承载能力。但剩下的树木吸取了更大比例的可用水分，因此它们茁壮生长，恢复森林从空气中吸收碳的能力。",
                 "locator_comparison": "选项A认为该计划致力于“在野火发生后迅速恢复其森林（restore its forests quickly after wildfires）”。定位句清晰表明，加州森林碳计划的核心使命是“防患于未然”：通过人工提前疏伐树木，使其对火灾更具韧性（make them more resilient to fire），从而阻止大火发生。它是在大火发生前采取的预防性减密措施，绝非在大火烧光殆尽之后的“灾后生态恢复（restore after wildfires）”。A项时序严重颠倒。",
                 "writing_perspective": "作者反复告诫灾后补救代价惨重且碳已排入大气，该计划的全部先进性就在于从事前预防入手，A选项倒退回灾后被动补救，彻底抹杀了该计划的前瞻性价值。",
                 "theme_validation": "全文强调主动管理以防灾，A项混淆事前干预与事后抢险，不符文意。",
@@ -3846,8 +3846,8 @@
               "analysis": {
                 "practice_status": "文中指出干旱杀死树木，但计划手段是疏伐现有林木而非培育新抗旱树种，排除",
                 "option_nature": "干扰项（无中生有/手段捏造）",
-                "source_sentence": "...aims to double efforts to thin out young trees and clear brush...",
-                "source_translation": "……旨在加倍努力稀疏幼树并清除灌木……",
+                "source_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest. This temporarily lowers carbon-carrying capacity. But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest’s capacity to pull carbon from the air.",
+                "source_translation": "该州提议的《森林碳计划》旨在加倍努力，在部分森林中稀疏幼树并清理灌木。这暂时降低了碳承载能力。但剩下的树木吸取了更大比例的可用水分，因此它们茁壮生长，恢复森林从空气中吸收碳的能力。",
                 "locator_comparison": "选项B声称该计划致力于“培育更多耐旱树种（cultivate more drought-resistant trees）”。第4段虽然提到长期干旱（drought）导致上亿树木枯死，但第3段在具体阐述“Forest Carbon Plan”的官方规划方案时，唯一定义的操作手段就是机械化疏伐和清杂（thin out, clear brush）。全段自始至终未曾出现基因育种或人工培育“耐旱树种（drought-resistant trees）”的设想。B项纯属利用干旱背景词生造生物育种措施的干扰项。",
                 "writing_perspective": "加州森林面积以数百万英亩计，靠重新人工育种根本无法解决眼前上亿枯木的燃眉之急，作者强调的是大刀阔斧的物理清理，B选项不具备现实可行性。",
                 "theme_validation": "文章探讨现有林地的密度管控，B项脱离实际林业操作，果断排除。",
@@ -3863,8 +3863,8 @@
               "analysis": {
                 "practice_status": "虫害是导致死树的自然原因，但计划是清理林木非研发杀虫剂，排除",
                 "option_nature": "干扰项（偷换概念/农药灭虫误区）",
-                "source_sentence": "...drought and insects have killed over 100 million trees... Plan aims to thin out...",
-                "source_translation": "……干旱和虫害已经导致超过1亿棵树木死亡……计划旨在稀疏幼树……",
+                "source_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest. This temporarily lowers carbon-carrying capacity. But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest’s capacity to pull carbon from the air.",
+                "source_translation": "该州提议的《森林碳计划》旨在加倍努力，在部分森林中稀疏幼树并清理灌木。这暂时降低了碳承载能力。但剩下的树木吸取了更大比例的可用水分，因此它们茁壮生长，恢复森林从空气中吸收碳的能力。",
                 "locator_comparison": "选项C认为该计划致力于“寻找更有效的灭虫方法（find more effective ways to kill insects）”。树皮甲虫等虫害（insects）确实是导致树木大面积枯死的推手之一，但加州政府碳计划的核心是对现有过密林木进行采伐疏枝（thin out trees），从而恢复健康林分结构，根本没有把精力放在研究如何“喷洒农药灭虫（kill insects）”上。选项C将生态危机的原因当成了管理计划的具体举措，偷换概念。",
                 "writing_perspective": "面对百万英亩的高山原始林，大规模化学灭虫完全违背生态法治准则；作者倡导的是提升森林自然免疫力，C选项陷入了低劣的农药思维，严重违背生态学规律。",
                 "theme_validation": "文章反思的是森林物理密度过大，C项偏离林地疏伐主线。",
@@ -3880,8 +3880,8 @@
               "analysis": {
                 "practice_status": "把 thin out young trees in parts of forest 同义转述为 reduce density of some forests，选D",
                 "option_nature": "正确项（学术同义改写/核心举措提炼）",
-                "source_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
-                "source_translation": "该州拟议的森林碳计划旨在加倍努力，在部分森林中淘汰稀疏幼树并清理灌木丛。",
+                "source_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest. This temporarily lowers carbon-carrying capacity. But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest’s capacity to pull carbon from the air.",
+                "source_translation": "该州提议的《森林碳计划》旨在加倍努力，在部分森林中稀疏幼树并清理灌木。这暂时降低了碳承载能力。但剩下的树木吸取了更大比例的可用水分，因此它们茁壮生长，恢复森林从空气中吸收碳的能力。",
                 "locator_comparison": "选项D指出加州森林碳计划致力于“降低其部分森林的密度（reduce the density of some of its forests）”。定位句明确给出了行动方针：在森林局部区域加倍展开“thin out young trees and clear brush（间伐小树、拔除灌木）”。在林学上，thin out 的标准学术定义正是降低林分郁闭度与植株密度（reduce the density）；in parts of the forest 严格对应 some of its forests。D选项提炼精准、专业地道，与原文天衣无缝。",
                 "writing_perspective": "作者在第3段将抽象的宏观战略落地为极具操作性的林业技术规范：救森林的第一步就是物理降密，选D精准捕捉到了该碳计划最务实、最根本的治理精髓。",
                 "theme_validation": "从“火药桶”到“健康碳汇”，密度过大是所有灾难的物理根源，降低密度是全篇唯一的科学解药，D项完全统摄主旨。",
@@ -3905,7 +3905,7 @@
           "type": "词义/例证题",
           "locate_pid": 4,
           "locate_sentence": "That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
-          "locate_sentence_cn": "这仅占可能受益的总面积（总计约50万英亩）的一小部分，因此优先考虑火灾或干旱风险最大的区域至关重要。",
+          "locate_sentence_cn": "这仅占可能受益的总面积（总计约50万英亩）的一小部分，因此优先考虑面临火灾或干旱最大风险的区域将至关重要。",
           "options": [
             {
               "key": "A",
@@ -3916,8 +3916,8 @@
               "analysis": {
                 "practice_status": "文中交代了资金来自碳排放拍卖，但段落强调的关键是指标有限时如何排优先级，排除",
                 "option_nature": "干扰项（偷换重心/未切中最高准则）",
-                "source_sentence": "...financed from the proceeds of the state’s emissions-permit auctions... That means it’s essential to prioritize...",
-                "source_translation": "……资金来自该州排放许可拍卖的收益……这意味着必须确定优先顺序……",
+                "source_sentence": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions. That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+                "source_translation": "加州计划到2020年每年处理35,000英亩森林，到2030年每年处理60,000英亩——资金来自该州排放许可证拍卖的收益。这仅占可能受益的总面积（总计约50万英亩）的一小部分，因此优先考虑面临火灾或干旱最大风险的区域将至关重要。",
                 "locator_comparison": "选项A认为关键在于“获得足够的财政支持（To obtain enough financial support）”。第5段已经交代资金来源明确——来自加州碳排放许可证拍卖款（financed from proceeds of auctions）。而且由于总面积高达数十万乃至数百万英亩，资金在客观上永远不可能无限“充足”。正因额度有限，作者才用“That means it's essential to...（这意味着关键在于……）”引出真正的核心法则：按危险程度排优先级。A项偏离了段落强调的资源分配优化重心。",
                 "writing_perspective": "作者在第5段探讨的是典型的运筹学与有限资源配置智慧：在钱有限的情况下怎么把效益最大化；A选项空喊多要钱，缺乏公共政策的务实管理思维。",
                 "theme_validation": "文章反思盲目大水漫灌，倡导精准靶向治理，A项缺乏针对性。",
@@ -3933,8 +3933,8 @@
               "analysis": {
                 "practice_status": "2020年只是每年治理3.5万英亩的阶段时间节点，非全部完成，排除",
                 "option_nature": "干扰项（断章取义/将阶段目标当终点）",
-                "source_sentence": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030...",
-                "source_translation": "加州计划到2020年每年处理3.5万英亩森林，到2030年每年处理6万英亩……",
+                "source_sentence": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions. That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+                "source_translation": "加州计划到2020年每年处理35,000英亩森林，到2030年每年处理60,000英亩——资金来自该州排放许可证拍卖的收益。这仅占可能受益的总面积（总计约50万英亩）的一小部分，因此优先考虑面临火灾或干旱最大风险的区域将至关重要。",
                 "locator_comparison": "选项B认为关键是“在2020年之前将其彻底执行完毕（To carry it out before the year of 2020）”。原文明确写道，到2020年目标是“每年治理3.5万英亩（35,000 acres a year by 2020）”，而到了2030年还要进一步扩大到每年6万英亩。这是一项长达数十年、跨越2020和2030年的长期常态化林业工程，根本不是在2020年之前“完成全部计划（carry it out before 2020）”。B项严重曲解时间规划。",
                 "writing_perspective": "林业治理是永续工程，作者绝不可能提出一个在三年内彻底完工的荒唐假想，B选项缺乏对长期环境治理常识的敬畏。",
                 "theme_validation": "文章讨论跨越数十年的气候战略，B项短视狭隘，明显与文本规划冲突。",
@@ -3950,8 +3950,8 @@
               "analysis": {
                 "practice_status": "精确定位 That means it’s essential to prioritize... first，选C",
                 "option_nature": "正确项（原词对应/优先级策略）",
-                "source_sentence": "That means it’s essential to prioritize the areas in greatest need, targeting the most fire-prone and densely packed areas first.",
-                "source_translation": "这意味着至关重要的是对最需要的区域进行优先级排序，首先针对那些最容易发生火灾且树木最密集的区域。",
+                "source_sentence": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions. That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+                "source_translation": "加州计划到2020年每年处理35,000英亩森林，到2030年每年处理60,000英亩——资金来自该州排放许可证拍卖的收益。这仅占可能受益的总面积（总计约50万英亩）的一小部分，因此优先考虑面临火灾或干旱最大风险的区域将至关重要。",
                 "locator_comparison": "选项C指出加州计划的关键在于“首先处理处于严重危险中的区域（To handle the areas in serious danger first）”。定位句中，“That means it’s essential to...”直接点题题干中的 essential。后半句给出具体抓手：“prioritize the areas in greatest need, targeting the most fire-prone... first”。C选项中，handle 精准概括 target/treat，areas in serious danger 完美融合 in greatest need 与 most fire-prone，first 原词呼应。因果推演极为扎实，完全吻合。",
                 "writing_perspective": "作者在此展示了卓越的行政决策理性：面对广袤林区，唯有靶向瞄准最危险的地段（serious danger），才能用有限的财政资金筑起最高效的防火屏障，选C精准再现了这一治理智慧。",
                 "theme_validation": "精准防控、排查高危是环境减灾的核心原则，C项与全篇提倡的科学理性治理高度契合。",
@@ -3967,8 +3967,8 @@
               "analysis": {
                 "practice_status": "拍卖配额只是既有资金渠道，非林业规划本身追求的关键，排除",
                 "option_nature": "干扰项（张冠李戴/工具手段错置）",
-                "source_sentence": "...financed from the proceeds of the state’s emissions-permit auctions...",
-                "source_translation": "……资金来自该州碳排放配额拍卖的收益……",
+                "source_sentence": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions. That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+                "source_translation": "加州计划到2020年每年处理35,000英亩森林，到2030年每年处理60,000英亩——资金来自该州排放许可证拍卖的收益。这仅占可能受益的总面积（总计约50万英亩）的一小部分，因此优先考虑面临火灾或干旱最大风险的区域将至关重要。",
                 "locator_comparison": "选项D认为关键是“完善排放许可拍卖制度（To perfect the emissions-permit auctions）”。排放许可拍卖只是加州政府早已成熟运行并用来为林业计划提供专项资金的“筹资渠道背景（financed from the proceeds）”。加州森林碳计划本身是一套林学防火与碳汇工程，其自身的首要关键任务是林地现场的施工与资源倾斜，而不是去“完善金融拍卖制度（perfect auctions）”。D项张冠李戴，本末倒置。",
                 "writing_perspective": "作者在第5段探讨的是一线森林施工作业面的取舍，金融工具只是背景铺垫，若将重心转为金融机制改革，全段论证将瞬间跑偏，D选项错位严重。",
                 "theme_validation": "文章反思林地实体生态治理，D项局限在碳交易金融市场，偏离主题。",
@@ -3992,7 +3992,7 @@
           "type": "全文主旨题",
           "locate_pid": 6,
           "locate_sentence": "California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
-          "locate_sentence_cn": "预计将于明年由州长最终确定的加州计划应该会成为一个典范。",
+          "locate_sentence_cn": "预计将于明年由州长定稿的加州计划应当成为典范。",
           "options": [
             {
               "key": "A",
@@ -4003,8 +4003,8 @@
               "analysis": {
                 "practice_status": "根据文末 should serve as a model for other states，秒定A",
                 "option_nature": "正确项（态度提炼/高规格褒奖）",
-                "source_sentence": "California’s plan, which is expected to be finalized by the governor next year, should serve as a model for other states, not only for the west but across the country.",
-                "source_translation": "加州的计划预计将于明年由州长最终定稿，它不仅应该成为西部各州的典范，而且应该成为全国其他各州的典范。",
+                "source_sentence": "State governments are well accustomed to managing forests, but traditionally they’ve focused on wildlife, watersheds and opportunities for recreation. Only recently have they come to see the vital part forests will have to play in storing carbon. California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+                "source_translation": "州政府非常习惯于管理森林，但传统上他们侧重于野生动物、流域和休闲娱乐机会。直到最近，他们才认识到森林在储碳方面必须发挥的重要作用。预计将于明年由州长定稿的加州计划应当成为典范。",
                 "locator_comparison": "选项A指出作者对待加州计划的态度是“支持的、赞许的（supportive）”。在第7段总结段落中，作者对加州敢于打破传统林业束缚、将防火减灾与长期碳汇巧妙结合的前瞻性方案给予了极高评价，郑重宣布该方案“should serve as a model for other states（应当充当全国各州的楷模榜样）”。能够将一项方案奉为全国榜样，表明作者对其持有毫无保留的肯定与支持立场。A选项 supportive 定性精准无可辩驳。",
                 "writing_perspective": "作者在篇末完成全篇的政治与政策动员：加州的经验不仅属于加州，更属于整个受气候变暖困扰的美国；选A完美呼应了作者这一充满激情的政策呼吁倡议。",
                 "theme_validation": "全文旨在向全社会推广这一极具创新性的科学林业范式，supportive 是作者贯穿通篇的精神底色，A项坚如磐石。",
@@ -4020,8 +4020,8 @@
               "analysis": {
                 "practice_status": "作者明确要求作为全国榜样推广，立场斩钉截铁，毫无模棱两可，排除",
                 "option_nature": "干扰项（态度明确性曲解）",
-                "source_sentence": "...should serve as a model for other states...",
-                "source_translation": "……应该成为其他各州的榜样……",
+                "source_sentence": "State governments are well accustomed to managing forests, but traditionally they’ve focused on wildlife, watersheds and opportunities for recreation. Only recently have they come to see the vital part forests will have to play in storing carbon. California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+                "source_translation": "州政府非常习惯于管理森林，但传统上他们侧重于野生动物、流域和休闲娱乐机会。直到最近，他们才认识到森林在储碳方面必须发挥的重要作用。预计将于明年由州长定稿的加州计划应当成为典范。",
                 "locator_comparison": "选项B认为作者的态度是“模棱两可的、含糊不清的（ambiguous）”。作者在末段立场极为明朗、语气坚定无比，明确使用具有强烈价值主张的情态动词 should，并赋予其“model（典范/楷模）”的光环。通篇没有任何含糊其辞、顾左右而言他的闪烁其词。B项把作者旗帜鲜明的站台支持曲解为模糊中立，违背客观事实。",
                 "writing_perspective": "作为主流媒体的政策评论员，作者在篇末旨在给出权威定论，绝无骑墙或模棱两可的余地，B选项是典型的低级干扰项。",
                 "theme_validation": "文章旨在树立标杆，模棱两可的态度将使文章失去全部倡导意义，B项不成立。",
@@ -4037,8 +4037,8 @@
               "analysis": {
                 "practice_status": "作者高度推崇，非消极容忍，排除",
                 "option_nature": "干扰项（感情色彩降级/偏离赞赏）",
-                "source_sentence": "...should serve as a model for other states...",
-                "source_translation": "……应该成为其他各州的榜样……",
+                "source_sentence": "State governments are well accustomed to managing forests, but traditionally they’ve focused on wildlife, watersheds and opportunities for recreation. Only recently have they come to see the vital part forests will have to play in storing carbon. California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+                "source_translation": "州政府非常习惯于管理森林，但传统上他们侧重于野生动物、流域和休闲娱乐机会。直到最近，他们才认识到森林在储碳方面必须发挥的重要作用。预计将于明年由州长定稿的加州计划应当成为典范。",
                 "locator_comparison": "选项C声称作者的态度是“容忍的、宽容的（tolerant）”。宽容意味着对某项存在缺陷或异议的方案勉强接受。而作者将该计划视为全美环境治理的指路明灯（model），表现出的是由衷的赞叹与积极的推介，绝非勉强的宽容忍受。选项C严重降级了作者的赞赏高度，定性失实。",
                 "writing_perspective": "作者视该计划为应对大火反噬的唯一科学救星，若定性为 tolerant，文章的全部推介热忱将被彻底抹杀，C选项格调严重偏低。",
                 "theme_validation": "文章大力倡导推广加州经验，C项的消极宽容不符合文章行文情感色彩。",
@@ -4054,8 +4054,8 @@
               "analysis": {
                 "practice_status": "文中通篇对该计划寄予厚望，未列举担忧风险，非谨慎态度，排除",
                 "option_nature": "干扰项（无中生有/过度保留）",
-                "source_sentence": "...should serve as a model for other states, not only for the west but across the country.",
-                "source_translation": "……应该成为其他各州的榜样，不仅对西部而且对全国都是如此。",
+                "source_sentence": "State governments are well accustomed to managing forests, but traditionally they’ve focused on wildlife, watersheds and opportunities for recreation. Only recently have they come to see the vital part forests will have to play in storing carbon. California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+                "source_translation": "州政府非常习惯于管理森林，但传统上他们侧重于野生动物、流域和休闲娱乐机会。直到最近，他们才认识到森林在储碳方面必须发挥的重要作用。预计将于明年由州长定稿的加州计划应当成为典范。",
                 "locator_comparison": "选项D认为作者的态度是“谨慎的（cautious）”。谨慎态度通常表现为在肯定成绩的同时，长篇大论列举该方案在执行层面可能存在的巨大潜在风险、财政不确定性或需要观望的保守言论。而作者在文中从头至尾在为该方案的科学原理辩护，在末段更是全力向全美各州大力推介（across the country），未曾表达任何担忧与保留。D项主观添加谨慎预设，不符事实。",
                 "writing_perspective": "作者在全篇构建了严密的论证闭环，对该方案充满科学自信，没有任何犹豫观望，D选项缺乏对文本坚定语调的感知。",
                 "theme_validation": "文章致力于为加州方案大声疾呼、建立标杆，D项的迟疑谨慎无法承载文章的政治倡议使命。",
@@ -8155,7 +8155,7 @@
           "type": "全文主旨题",
           "locate_pid": 7,
           "locate_sentence": "None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
-          "locate_sentence_cn": "这一切并不是要抹杀个人努力。这只是要正确客观地看待问题。我们没有时间再等待了。我们需要制定能够塑造集体行动的进步政策，同时需要热心参与的公民推动变革。",
+          "locate_sentence_cn": "这一切都不是要抹杀个人努力。这只是为了客观看待问题。我们没有时间等待了。我们需要引导集体行动的进步政策，同时需要热心投入的公民推动变革。",
           "options": [
             {
               "key": "A",
@@ -8166,8 +8166,8 @@
               "analysis": {
                 "practice_status": "考生若不理解'aggressive'的意思，可能胡乱瞎猜。",
                 "option_nature": "反向干扰项。作者认为个人自带购物袋和拒绝吸管的行为太温和微弱、微不足道，绝非'aggressive'（激进、侵略性）。",
-                "source_sentence": "On their own, taking our own bags to the grocery store or quitting plastic straws, for example, will accomplish little and require very little of us... individual actions are too slow, small...",
-                "source_translation": "就其本身而言，比如自带购物袋去杂货店或放弃塑料吸管，将收效甚微，对我们的要求也很低……个人行动太慢、太渺小……",
+                "source_sentence": "DeSombre isn’t saying people should stop caring about the environment. It’s just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior. None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+                "source_translation": "德索布尔并不是说人们应该停止关心环境。她说，仅仅是个人行动太缓慢了，无法成为改变普遍行为的唯一甚至是主要方式。这一切都不是要抹杀个人努力。这只是为了客观看待问题。我们没有时间等待了。我们需要引导集体行动的进步政策，同时需要热心投入的公民推动变革。",
                 "locator_comparison": "选项'too aggressive'（太激进）与原文所描述的'will accomplish little'（收效甚微）和'require very little of us'（要求极低）完全对立。",
                 "writing_perspective": "作者在第3段甚至呼吁我们需要更宏大更大胆的行动（'progressing onto bigger, bolder, more effective actions'），恰恰说明个人努力远远谈不上激进。",
                 "theme_validation": "文章批判个人微小环保行为过于温吞软弱，选项颠倒黑白。",
@@ -8183,8 +8183,8 @@
               "analysis": {
                 "practice_status": "考生容易从生活经验联想：个人环保常常坚持不下去，从而臆断选项符合文意。",
                 "option_nature": "无中生有项。作者批判的重点在于微小努力的力量上限和心理麻痹效应，而非批评个人行动是否前后一致（inconsistent）。",
-                "source_sentence": "None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait.",
-                "source_translation": "这一切并不是要抹杀个人努力。这只是要正确客观地看待问题。我们没有时间再等待了。",
+                "source_sentence": "DeSombre isn’t saying people should stop caring about the environment. It’s just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior. None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+                "source_translation": "德索布尔并不是说人们应该停止关心环境。她说，仅仅是个人行动太缓慢了，无法成为改变普遍行为的唯一甚至是主要方式。这一切都不是要抹杀个人努力。这只是为了客观看待问题。我们没有时间等待了。我们需要引导集体行动的进步政策，同时需要热心投入的公民推动变革。",
                 "locator_comparison": "全文未出现或暗示个人行动'inconsistent'（不连贯、矛盾反复）的问题，作者强调的是即使坚持做，杯水车薪的规模也解决不了危机。",
                 "writing_perspective": "作者关注的是行动的量级（scale）和速度（speed），并非坚持度或一致性。",
                 "theme_validation": "核心问题在于行动微小不足，而非前后矛盾。",
@@ -8200,8 +8200,8 @@
               "analysis": {
                 "practice_status": "考生容易受到第5段书名'Why Good People Do Bad Environmental Things'的干扰，误以为个人行为是非理性的。",
                 "option_nature": "曲解文意项。个人自带购物袋和少用塑料完全是出自善意的理性环保举措，作者并未指责个人行为'irrational'（不理性），而是强调客观现实上力量有限。",
-                "source_sentence": "None of this is about writing off the individual. It’s just about putting things into perspective.",
-                "source_translation": "这一切并不是要抹杀个人努力。这只是要正确客观地看待问题。",
+                "source_sentence": "DeSombre isn’t saying people should stop caring about the environment. It’s just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior. None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+                "source_translation": "德索布尔并不是说人们应该停止关心环境。她说，仅仅是个人行动太缓慢了，无法成为改变普遍行为的唯一甚至是主要方式。这一切都不是要抹杀个人努力。这只是为了客观看待问题。我们没有时间等待了。我们需要引导集体行动的进步政策，同时需要热心投入的公民推动变革。",
                 "locator_comparison": "作者明确说'None of this is about writing off the individual'，并承认这些微小努力的存在价值，未将个人行为定性为不理性（'far from rational'）。",
                 "writing_perspective": "作者承认个人环保的美德价值，但理性提醒大家不能止步于此，这与否定个人行为的合理性完全不同。",
                 "theme_validation": "个人行为本身是合理的，只是单靠它无法从根本上扭转局势。",
@@ -8217,8 +8217,8 @@
               "analysis": {
                 "practice_status": "通读第3段'accomplish little'、第7段'too slow, small'以及第8段'don't have time to wait... need progressive policies'的考生，能深刻体会到作者的紧迫感并迅速选出D。",
                 "option_nature": "高度概括项。完美提炼全文对个人行动的总结定位：个人努力虽有价值但微小缓慢（'accomplish little'、'too slow, small'），若没有自上而下的政策制度，应对危机是远远不够的（'far from sufficient'）。",
-                "source_sentence": "None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
-                "source_translation": "这一切并不是要抹杀个人努力。这只是要正确客观地看待问题。我们没有时间再等待了。我们需要制定能够塑造集体行动的进步政策，同时需要热心参与的公民推动变革。",
+                "source_sentence": "DeSombre isn’t saying people should stop caring about the environment. It’s just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior. None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+                "source_translation": "德索布尔并不是说人们应该停止关心环境。她说，仅仅是个人行动太缓慢了，无法成为改变普遍行为的唯一甚至是主要方式。这一切都不是要抹杀个人努力。这只是为了客观看待问题。我们没有时间等待了。我们需要引导集体行动的进步政策，同时需要热心投入的公民推动变革。",
                 "locator_comparison": "选项'are far from sufficient'精准概括了末两段的核心：不否定个人（not writing off），但个人努力在危机面前速度太慢、力量太小（too slow, small），因此远远不够（far from sufficient），必须借助进步政策（progressive policies）共同破局。",
                 "writing_perspective": "作者在文末达到论述高潮，辩证统合了个人作为消费者与公民的双重属性，清晰指出单靠个人的微观努力绝不可能拯救全局，必须制度与公民双管齐下。",
                 "theme_validation": "完美契合全文主旨：个人自带吸管等努力值得肯定但远远不够，必须依靠自上而下的法规与制度力量。",

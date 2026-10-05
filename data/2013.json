@@ -4992,7 +4992,7 @@
               "analysis": {
                 "practice_status": "判断危险出现在前文评估防御，本段讲快餐标志引发急躁与冲动，并非危险，排除。",
                 "option_nature": "干扰项（张冠李戴 / 细节混淆）",
-                "source_sentence": "if we are judging whether someone is dangerous... (Paragraph 2)",
+                "source_sentence": "if we are judging whether someone is dangerous...",
                 "source_translation": "如果我们是在判断某人是否具有危险性……（第2段）",
                 "locator_comparison": "判断危险出现在第2段涉及生存威胁的情境，第3段快餐标志引发的是急躁与消费冲动，并未表明快餐标志本身具有危险性，排除。",
                 "writing_perspective": "作者在第3段展现的是现代商业符号对专注力和耐心的侵蚀，而非面临生死存亡的危险，C项过度曲解语境。",
@@ -5096,7 +5096,7 @@
               "analysis": {
                 "practice_status": "专家只是后文列举的研究者，日常购物决策不可能事事请教专家，排除。",
                 "option_nature": "干扰项（答非所问 / 局部细节干扰）",
-                "source_sentence": "John Gottman, the marriage expert, explains... (Paragraph 5)",
+                "source_sentence": "John Gottman, the marriage expert, explains...",
                 "source_translation": "婚姻专家约翰·戈特曼解释说……（第5段）",
                 "locator_comparison": "第5段提及专家只是为了证明长期研究的可靠性，作者给普通大众开出的日常逆转建议是自我暂停思考，而非事事请教专家，排除。",
                 "writing_perspective": "作者强调个体内心自省机制的建立，而非对外盲目依附专家权威，D项曲解了作者的赋能思路。",
@@ -6920,7 +6920,7 @@
               "analysis": {
                 "practice_status": "对应原文立法源于挫败感（born of frustration），在自律失败后被迫采取法律强制，锁定正选。",
                 "option_nature": "★ 标准正确情感动因概括",
-                "source_sentence": "This proposed mandate was born of frustration... appeal was considered a failure: only 24 companies took it up. (Paragraph 2) ... I understand Reding’s reluctance—and her frustration... fairer world must be temporarily ordered. (Paragraph 5)",
+                "source_sentence": "This proposed mandate was born of frustration... appeal was considered a failure: only 24 companies took it up. ... I understand Reding’s reluctance—and her frustration... fairer world must be temporarily ordered.",
                 "source_translation": "这一拟议中的强制指令是在挫败与无奈中诞生的……呼吁被视为彻底失败：仅24家响应。（第2段）……我理解雷丁的勉强与她的挫败……更公平的世界暂时必须通过命令来构建。（第5段）",
                 "locator_comparison": "定位句明确指出该项立法提议是'born of frustration'（源于深深的挫败感）。在商界自律彻底落空之后，欧盟不得不动用强制立法。选项C'a reluctant choice'（勉强的/无可奈何的选择）概括准确，锁定正选。",
                 "writing_perspective": "作者后文明确指出自己和雷丁都不喜欢配额（违背自由择优），但面对顽固现实别无选择，C项精准把握住了这一贯穿全篇的核心论辩张力。",
@@ -7007,7 +7007,7 @@
               "analysis": {
                 "practice_status": "平衡工作与家庭是第3段探讨的宏观议题，并非雷丁所论述的配额直接功效，排除。",
                 "option_nature": "干扰项（答非所问 / 移花接木）",
-                "source_sentence": "Do we need quotas to ensure that women can continue to climb the corporate ladder fairly as they balance work and family? (Paragraph 3)",
+                "source_sentence": "Do we need quotas to ensure that women can continue to climb the corporate ladder fairly as they balance work and family?",
                 "source_translation": "我们需要配额来确保女性在平衡工作与家庭的同时公平地攀登企业阶梯吗？（第3段）",
                 "locator_comparison": "兼顾工作与家庭是第3段分析的社会普遍挑战，雷丁配额措施的直接目标是提高女性在高管中的比例，跨段拼凑答非所问，排除。",
                 "writing_perspective": "配额只能解决权力分配，无法代替全套家庭福利政策（作者在第7段批判的正是这一点），C项混淆了治理维度。",

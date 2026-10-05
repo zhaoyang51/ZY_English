@@ -1,7 +1,7 @@
 window.KAOYAN_MANIFEST = [
   {
     "year": 2010,
-    "version": "d623e930eb28",
+    "version": "48bb318f286f",
     "texts": [
       {
         "id": 1,
@@ -79,7 +79,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2013,
-    "version": "5fb28843c3f0",
+    "version": "30b70624e0c6",
     "texts": [
       {
         "id": 1,
@@ -105,7 +105,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2014,
-    "version": "948ed3595c45",
+    "version": "0c6fed7414aa",
     "texts": [
       {
         "id": 1,
@@ -131,7 +131,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2015,
-    "version": "031137922101",
+    "version": "42c9023ea21d",
     "texts": [
       {
         "id": 1,
@@ -157,7 +157,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2016,
-    "version": "946cca88a9d0",
+    "version": "c163ad78a8ca",
     "texts": [
       {
         "id": 1,
@@ -183,7 +183,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2017,
-    "version": "aae3139d816f",
+    "version": "befe533a4683",
     "texts": [
       {
         "id": 1,
@@ -209,7 +209,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2018,
-    "version": "5690d62d408c",
+    "version": "3a9a0a85d78e",
     "texts": [
       {
         "id": 1,
@@ -235,7 +235,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2019,
-    "version": "0c01eaa498b8",
+    "version": "396a4c1a4c28",
     "texts": [
       {
         "id": 1,
@@ -261,7 +261,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2020,
-    "version": "14b6ff9036be",
+    "version": "cecaa97e65c2",
     "texts": [
       {
         "id": 1,
@@ -287,7 +287,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2021,
-    "version": "360d9523ceb2",
+    "version": "228687d8a487",
     "texts": [
       {
         "id": 1,
@@ -313,7 +313,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2022,
-    "version": "74744be4a8de",
+    "version": "290a8d5f26b6",
     "texts": [
       {
         "id": 1,
@@ -339,7 +339,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2023,
-    "version": "ebc867e7a0c3",
+    "version": "0d2719f4145a",
     "texts": [
       {
         "id": 1,

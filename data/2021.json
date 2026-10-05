@@ -3239,7 +3239,7 @@
           "stem_cn": "从最后一段可以得知，英国人______。",
           "type": "词义/例证题",
           "locate_pid": 5,
-          "locate_sentence": "Just 23 per cent of the fruit and vegetables consumed in the UK are currently home-grown, so even with the most extreme measures we could meet only 30 per cent of our fresh produce needs.",
+          "locate_sentence": "Just 23 per cent of the fruit and vegetables consumed in the UK are currently home- grown, so even with the most extreme measures we could meet only 30 per cent of our fresh produce needs.",
           "locate_sentence_cn": "英国消费的水果和蔬菜中，目前只有23%是本土种植的，因此即使采取最极端的措施，我们也只能满足30%的新鲜农产品需求。",
           "options": [
             {
@@ -3251,7 +3251,7 @@
               "analysis": {
                 "practice_status": "能将'本土自产仅占23%'（home-grown 23%）反向进行百分比推导的考生能秒杀本题。",
                 "option_nature": "反向推导项。根据原文'Just 23 per cent of the fruit and vegetables consumed in the UK are currently home-grown... meet only 30 per cent of our fresh produce needs'，自产仅占23%~30%，自然反推出剩余70%~77%的绝大部分新鲜农产品必须依靠外部进口（rely largely on imports for fresh produce）。",
-                "source_sentence": "Just 23 per cent of the fruit and vegetables consumed in the UK are currently home-grown, so even with the most extreme measures we could meet only 30 per cent of our fresh produce needs.",
+                "source_sentence": "Just 23 per cent of the fruit and vegetables consumed in the UK are currently home- grown, so even with the most extreme measures we could meet only 30 per cent of our fresh produce needs.",
                 "source_translation": "英国消费的水果和蔬菜中，目前只有23%是本土种植的，因此即使采取最极端的措施，我们也只能满足30%的新鲜农产品需求。",
                 "locator_comparison": "选项'fresh produce'原词复现，'rely largely on imports'与'home-grown only 23%'构成严谨的互补百分比换算，逻辑无懈可击。",
                 "writing_perspective": "作者在最后一段摆出这组终极数据，给脱欧倡导的自给自足美梦送上致命一击：四分之三的新鲜果蔬全靠进口，自给自足在物理现实上根本就是空中楼阁。",
@@ -3268,7 +3268,7 @@
               "analysis": {
                 "practice_status": "考生看到句中出现'fruit'，容易主观猜测居民水果消费量在稳步增长。",
                 "option_nature": "无中生有项。第6段讨论的是水果蔬菜中本土种植所占的极低比例（23%），并未统计或提及英国人的水果总消费量（fruit consumption）是否在稳步上升（steady rise）。",
-                "source_sentence": "Just 23 per cent of the fruit and vegetables consumed in the UK are currently home-grown...",
+                "source_sentence": "Just 23 per cent of the fruit and vegetables consumed in the UK are currently home- grown...",
                 "source_translation": "英国消费的水果和蔬菜中，目前只有23%是本土种植的……",
                 "locator_comparison": "原文只谈及消费总量中自给率的悲惨百分比，完全没有消费量历史纵向趋势（'steady rise'）的记录。",
                 "writing_perspective": "作者聚焦粮食供给安全与进口敞口，未探讨居民营养消费习惯升级。",
@@ -4908,7 +4908,7 @@
               "analysis": {
                 "practice_status": "精准对应'putting an end to businesses that might one day turn into competitors'的考生能立刻确定正确答案。",
                 "option_nature": "同义替换项。将'putting an end to'替换为'eliminate'，'businesses that might one day turn into competitors'同义精炼为'potential competitors'。",
-                "source_sentence": "“They bought the seedlings and closed them down,” complained Paul Arnold, a partner at San Francisco-based Switch Ventures, putting an end to businesses that might one day turn into competitors.",
+                "source_sentence": "“They bought the seedlings and closed them down,” complained Paul Arnold, a partner at San Francisco- based Switch Ventures, putting an end to businesses that might one day turn into competitors.",
                 "source_translation": "“他们买下幼苗然后将它们关闭，”旧金山Switch Ventures合伙人保罗·阿诺德抱怨道，终结了那些有朝一日可能变成竞争对手的企业。",
                 "locator_comparison": "选项'eliminate their potential competitors'与定位句在动宾搭配和逻辑意图上完全等价，形象生动地诠释了后文所谓的'buy and kill'（买下并扼杀）战术。",
                 "writing_perspective": "作者一语中的点破巨头小额并购的狼子野心：防患于未然，在幼苗（seedlings）尚微小脆弱时花小钱买断并关停，彻底拔除未来颠覆自身帝国版图的一切潜在威胁。",
@@ -4966,7 +4966,7 @@
           "stem_cn": "保罗·阿诺德担心小型收购可能会______。",
           "type": "段落推理题",
           "locate_pid": 3,
-          "locate_sentence": "Like other start-up investors, Mr. Arnold’s own business often depends on selling start-ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on. But are they good for the American economy? I don’t know.”",
+          "locate_sentence": "Like other start-up investors, Mr. Arnold’s own business often depends on selling start- ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on. But are they good for the American economy? I don’t know.”",
           "locate_sentence_cn": "与其他初创企业投资人一样，阿诺德先生自己的业务往往依赖于将初创公司出售给大型科技公司，尽管他承认对这种结果心情复杂：“如果从自私的角度考虑，我认为这些收购对我有利。但它们对美国经济有利吗？我不知道。”",
           "options": [
             {
@@ -5029,7 +5029,7 @@
               "analysis": {
                 "practice_status": "考生容易将阿诺德的'mixed feelings'曲解为对他作为投资人的利益造成了打击。",
                 "option_nature": "反向干扰项。第3段明确写道：阿诺德自己的生意完全依赖把初创公司卖给大厂，并且坦承'these things are good for me, if I put my selfish hat on'（从自私角度来看，这对我很有利），说明小额并购给投资人提供了极佳的套现退出通道，极大地激励了投资人，绝非打击投资人（discourage start-up investors）。",
-                "source_sentence": "Like other start-up investors, Mr. Arnold’s own business often depends on selling start-ups to larger tech companies... “I think these things are good for me, if I put my selfish hat on...”",
+                "source_sentence": "Like other start-up investors, Mr. Arnold’s own business often depends on selling start- ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on. But are they good for the American economy? I don’t know.”",
                 "source_translation": "与其他初创企业投资人一样，阿诺德先生自己的业务往往依赖于将初创公司出售给大型科技公司……“如果从自私的角度考虑，我认为这些收购对我有利……”",
                 "locator_comparison": "原文明确是'good for me'（对投资人有益），选项宣称'discourage investors'（挫伤投资人），完全说反了。",
                 "writing_perspective": "阿诺德的心情复杂正在于个人暴利与国家宏观利益的冲突，D项完全曲解了他的困惑根源。",

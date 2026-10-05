@@ -1301,7 +1301,7 @@
           "stem_cn": "作者在第三段说“任何形式的消费都变得很不合时宜”，意在说明________。",
           "type": "词义推测题",
           "locate_pid": 2,
-          "locate_sentence": "In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply unfashionable. In the art world that meant collectors stayed away from galleries and salerooms. Sales of contemporary art fell by two-thirds, and in the most overheated sector, they were down by nearly 90% in the year to November 2008.",
+          "locate_sentence": "In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply unfashionable. In the art world that meant collectors stayed away from galleries and salerooms. Sales of contemporary art fell by two-thirds, and in the most overheated sector, they were down by nearly 90 % in the year to November 2008.",
           "locate_sentence_cn": "在赫斯特拍卖会结束后的数周和数月里，任何形式的消费都显得极不合时宜。在艺术界，这意味着收藏家们远离了画廊和拍卖大厅。当代艺术品的销售额暴跌了三分之二，而在最过热的领域，截至2008年11月的一年中销售额甚至下降了近90%。",
           "options": [
             {
@@ -1405,7 +1405,7 @@
               "analysis": {
                 "practice_status": "比对第三段数据：当代艺术交易额跌了2/3甚至90%，确属事实，排除。",
                 "option_nature": "符合原文事实（非目标选项）",
-                "source_sentence": "Sales of contemporary art fell by two-thirds, and in the most overheated sector, they were down by nearly 90% in the year to November 2008.",
+                "source_sentence": "Sales of contemporary art fell by two-thirds, and in the most overheated sector, they were down by nearly 90 % in the year to November 2008.",
                 "source_translation": "当代艺术品的销售额暴跌了三分之二，而在最过热的领域，截至2008年11月的一年中销售额甚至下降了近90%。",
                 "locator_comparison": "原文用 fell by two-thirds 和 down by nearly 90% 确凿证实了销量暴跌，dramatically 概括极为准确。该项符合原文，故不选。",
                 "writing_perspective": "作者提供详实数据以证明赫斯特拍卖后的断崖式下跌，论据真实有效。",
@@ -1439,7 +1439,7 @@
               "analysis": {
                 "practice_status": "比对第三、四段，交易额大跌、价格跌40%、拍卖行赔款，全方位下滑完全属实，排除。",
                 "option_nature": "符合原文事实（非目标选项）",
-                "source_sentence": "The current downturn in the art market is the worst... prices are about 40% down on their peak...",
+                "source_sentence": "The current downturn in the art market is the worst... prices are about 40 % down on their peak...",
                 "source_translation": "当前艺术品市场的低迷是自1989年底日本人停止购买印象派作品以来最严重的一次。专家估计目前价格平均比峰值下跌了约40%...",
                 "locator_comparison": "文中从总市值下降（650亿跌至500亿）、销量暴跌、均价跌40%、担保金赔付等多角度（in various ways）阐明全面下行，该表述完全符合事实，故不选。",
                 "writing_perspective": "作者综合引用多家研究机构（Arts Economics）与高管（佳士得CEO）的言论，证实全方位下滑。",
@@ -1599,7 +1599,7 @@
               "analysis": {
                 "practice_status": "全文通篇强调单向暴跌而非正常双向波动，弱化了危机感，排除。",
                 "option_nature": "干扰项（以偏概全 / 弱化危机走向）",
-                "source_sentence": "...prices are about 40% down on their peak on average, though some have been far more fluctuant.",
+                "source_sentence": "...prices are about 40 % down on their peak on average, though some have been far more fluctuant.",
                 "source_translation": "...专家估计目前价格平均比峰值下跌了约40%，尽管有些价格波动要剧烈得多。",
                 "locator_comparison": "第四段虽然提到价格有 fluctuant，但这只是暴跌过程中的微观表现。全文反复强调的是 slump（大萧条）、downturn（严重下滑）、fell by two-thirds（暴跌2/3），具有鲜明的单向下行趋势，用中性的'波动（Fluctuation）'不仅以偏概全，而且严重淡化了全球金融海啸对艺术市场毁灭性打击的论调。",
                 "writing_perspective": "标题必须体现文章主旨的冲击力与宏观定性，Fluctuation 显得平淡无奇，无法涵盖全篇论证重心。",
@@ -6906,7 +6906,7 @@
               "analysis": {
                 "practice_status": "该内容属于1975年最高法院泰勒案判决，而非1968年国会法案，时空错位，排除。",
                 "option_nature": "干扰项（张冠李戴 / 混淆法案与后文最高法院判例）",
-                "source_sentence": "The Taylor decision [1975] also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures...",
+                "source_sentence": "The Taylor decision also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures...",
                 "source_translation": "1975年的泰勒案裁决还宣布陪审员选拔中的性别歧视违宪，并责令各州采用相同程序...",
                 "locator_comparison": "题干的时间与法案限定词是 'After the Jury Selection and Service Act was passed [1968]'。而宣布性别歧视违宪（sex discrimination unconstitutional）是 7 年后——即 1975 年最高法院在'泰勒诉路易斯安那州案（Taylor v. Louisiana）'中做出的里程碑宪法判决。选项将1975年司法判例的成果生搬硬套给1968年的立法法案，属于典型的时间轴张冠李戴。",
                 "writing_perspective": "作者清晰按照'1968国会法案解决联邦层面 ➔ 1975最高法院推及各州并解决性别问题'的历史递进脉络叙述，A项搞乱了递进节奏。",

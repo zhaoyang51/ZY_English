@@ -1276,8 +1276,8 @@
               "analysis": {
                 "practice_status": "受计算机科学需要严密逻辑的常识误导，误入逻辑假设陷阱，排除",
                 "option_nature": "干扰项（拼凑概念/主观臆断）",
-                "source_sentence": "When younger kids learn computer science, they learn that it’s not just a tool for solving math problems or doing software engineering... it’s not as hard for them to transform their thought processes...",
-                "source_translation": "低龄儿童学习计算机科学时，他们会认识到这不仅是解决数学问题或做软件工程的工具……",
+                "source_sentence": "When younger kids learn computer science, they learn that it’s not just a confusing, endless string of letters and numbers—but a tool to build apps, or create artwork, or test hypotheses. It’s not as hard for them to transform their thought processes as it is for older students.",
+                "source_translation": "当年幼的孩子学习计算机科学时，他们知道这不仅仅是一串令人困惑的、无穷无尽的字母和数字，而且是构建应用程序、创作艺术品或测试假设的工具。对他们来说，改变思维过程并不像高年级学生那么难。",
                 "locator_comparison": "选项C声称使其更容易“构想逻辑假设（formulate logical hypotheses）”。定位句上下文恰恰是在纠正对编程的片面认知，指出编程不仅关乎数学和逻辑（not just a tool for solving math problems），更在于创造性。选项C反向抓取理科做实验的惯用词 formulate logical hypotheses，既非定位句所述内容，更颠倒了Cortina强调的创造力重心。",
                 "writing_perspective": "若作者意在论述编程能帮助建立科学假设，下文就不会紧接着强调“it’s also a creative art”，选项C的预设立场与作者突出创意思维的行文走向相冲。",
                 "theme_validation": "全文旨在打破“编程等于枯燥逻辑与硬核工程”的旧观念，C项将编程局限于逻辑假设的学术框架内，未能体现本文破除刻板印象的主旨。",
@@ -1293,8 +1293,8 @@
               "analysis": {
                 "practice_status": "看到原文出现 creative art 词汇，容易误选 artwork 选项，需细审动宾搭配",
                 "option_nature": "干扰项（偷换概念/断章取义）",
-                "source_sentence": "When younger kids learn computer science, they learn that it’s not just a tool... but it’s also a creative art.",
-                "source_translation": "当更小的孩子学习计算机科学时，他们认识到这不仅是一个工具……而且它还是一门充满创造性的艺术。",
+                "source_sentence": "When younger kids learn computer science, they learn that it’s not just a confusing, endless string of letters and numbers—but a tool to build apps, or create artwork, or test hypotheses.",
+                "source_translation": "当年幼的孩子学习计算机科学时，他们知道这不仅仅是一串令人困惑的、无穷无尽的字母和数字，而且是构建应用程序、创作艺术品或测试假设的工具。",
                 "locator_comparison": "选项D声称使其更容易“完善艺术品制作（perfect artwork production）”。原文中 Cortina 确实使用了“it’s also a creative art（它也是一门创造性的艺术）”这句隐喻，意在形容编写代码本身具有艺术创作般的自由与构思之美；但选项D偷梁换柱，将隐喻层面的“创造性艺术”曲解为具象的“艺术品生产制造（artwork production）”，并强加了 perfect（使完美）这一动作，属于典型的断章取义与字面曲解。",
                 "writing_perspective": "作者引入 creative art 纯粹是用作比喻，以拉近普通孩子与代码的距离；从论证逻辑来看，作者绝无可能得出“学编程是为了去制作完善艺术品”这一荒谬推论。",
                 "theme_validation": "文章讨论的是科技素养与认知升级，绝非美术或手工艺制作教学，D项严重跑题。",
@@ -1317,8 +1317,8 @@
           "stem_cn": "在为高中生提供课程时，Flatiron 考虑了他们的______。",
           "type": "因果推断题",
           "locate_pid": 3,
-          "locate_sentence": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
-          "locate_sentence_cn": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
+          "locate_sentence": "The high- schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
+          "locate_sentence_cn": "高中生学习相同的课程，但“我们尝试根据他们感兴趣的内容安排课程，”讲师维多利亚·弗里德曼说。",
           "options": [
             {
               "key": "A",
@@ -1329,8 +1329,8 @@
               "analysis": {
                 "practice_status": "误以为编程培训班会看重学员以往的经验，未严格核对原文定位句，排除",
                 "option_nature": "干扰项（反向考查/无中生有）",
-                "source_sentence": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
-                "source_translation": "Flatiron 让学生先在纸上勾勒项目草图……课程的语言更多是根据他们的兴趣量身定制的……",
+                "source_sentence": "The high- schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
+                "source_translation": "高中生学习相同的课程，但“我们尝试根据他们感兴趣的内容安排课程，”讲师维多利亚·弗里德曼说。",
                 "locator_comparison": "选项A认为 Flatiron 考虑了高中生的“经验（experience）”。然而第4段首句就明确指出该项目是面向初涉编程的高中生（high-schoolers），且采用在纸上画草图等极为初级友好的方式教学，通篇根本没有要求或考量学生的既有经验（prior experience）。A项完全缺乏原文信息支撑。",
                 "writing_perspective": "Flatiron 设立该课程的目的正是为了降低门槛、破除畏难情绪，如果教学前提是考量学员的已有经验，就彻底违背了该训练营针对零基础青少年进行启蒙的办学宗旨。",
                 "theme_validation": "全文多处强调计算机初学者（没有经验的学生）可以通过早教建立信心，经验并非考量维度，选项A不合常理与文意。",
@@ -1346,8 +1346,8 @@
               "analysis": {
                 "practice_status": "准确定位第4段 tailored to their interests，秒选B",
                 "option_nature": "正确项（同义对应）",
-                "source_sentence": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
-                "source_translation": "Flatiron 主管艾莉森·辛格表示：“课程的语言更多是针对他们的兴趣量身定制的……”",
+                "source_sentence": "The high- schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
+                "source_translation": "高中生学习相同的课程，但“我们尝试根据他们感兴趣的内容安排课程，”讲师维多利亚·弗里德曼说。",
                 "locator_comparison": "选项B指出 Flatiron 考虑了高中生的“兴趣（interest）”。定位句中 Singer 明确表示：“The language of curriculum is more tailored to their interests”，随后紧接着举例说明学生们被鼓励制作游戏（games）和时尚应用（fashion apps），这些正是青少年兴趣所在的具象化体现。B选项精准契合原文核心考量点。",
                 "writing_perspective": "第4段结构严密，作者通过先叙述教学手段（纸上设计、开发游戏和时尚应用），再引用教学主管的原话进行定性总结，核心就在于以“兴趣为导向（interest-driven）”激发青少年的探索欲望。",
                 "theme_validation": "文章论证的核心在于如何让代码对中学生变得具有吸引力（not just intimidating），顺应青少年的兴趣是打破畏难心理的最关键钥匙，选B高度呼应主旨。",
@@ -1363,8 +1363,8 @@
               "analysis": {
                 "practice_status": "受成人培训班注重就业前景的思维惯性影响，容易错选C，排除",
                 "option_nature": "干扰项（张冠李戴/过度推断）",
-                "source_sentence": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
-                "source_translation": "Flatiron 起初是众多面向付费成人的编程训练营之一……但针对高中生授课时，“课程更多是契合他们的兴趣”……",
+                "source_sentence": "The high- schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
+                "source_translation": "高中生学习相同的课程，但“我们尝试根据他们感兴趣的内容安排课程，”讲师维多利亚·弗里德曼说。",
                 "locator_comparison": "选项C认为其考虑了“职业前景（career prospects）”。原文虽然提到 Flatiron 原本是针对成人的商业编程训练营（bootcamp），但在针对高中生（delivering lessons for high-schoolers）这一特定群体时，文中特意强调教学重心的转变——不再强调职业技能输出，而是让教学迎合兴趣（interests）。选项C将成人培训的功利诉求张冠李戴到了高中生身上。",
                 "writing_perspective": "第5段与第6段紧接着指出“这些高中生很可能不会辍学去打造下一个Facebook，甚至未来根本不进IT行业”，直接反向戳破了C选项所谓“考虑职业前景”的假设。",
                 "theme_validation": "全文反复澄清，面向未成年人的编程普及绝非职业教育（not to build next Facebook or create army of coders），C项完全脱离文章对教育属性的界定。",
@@ -1380,8 +1380,8 @@
               "analysis": {
                 "practice_status": "推测课程需要根据学生的学业背景调整，但文中未提学术背景，排除",
                 "option_nature": "干扰项（无中生有）",
-                "source_sentence": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
-                "source_translation": "Flatiron 学校起初是近年来流行起来的众多编程训练营之一……“课程的语言更多是契合他们的兴趣”……",
+                "source_sentence": "The high- schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
+                "source_translation": "高中生学习相同的课程，但“我们尝试根据他们感兴趣的内容安排课程，”讲师维多利亚·弗里德曼说。",
                 "locator_comparison": "选项D声称其考虑了高中生的“学术背景（academic backgrounds）”。第4段在阐述课程设计依据时，唯一明文给出的依据就是“their interests（他们的兴趣）”，以及如何通过动手做他们喜欢的东西来引导他们。文中从未调查或根据学员的校内成绩、先修学科等“学术背景”进行分层教学。D项纯属凭空捏造。",
                 "writing_perspective": "作者在这一段突出的是 Flatiron 教学模式的新颖与轻松活泼，重点在于兴趣驱动（games, fashion apps），若引入严肃的 academic backgrounds 分析，反而削弱了其反传统教育的对比色彩。",
                 "theme_validation": "普及性编程课程的初衷就是淡化学术门槛，让任何背景的孩子都能参与，D项强调学术背景，明显偏离文旨。",
@@ -1404,8 +1404,8 @@
           "stem_cn": "Deborah Seehorn 相信在 Flatiron 学到的技能将会______。",
           "type": "段落推理题",
           "locate_pid": 4,
-          "locate_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market.",
-          "locate_sentence_cn": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。",
+          "locate_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market. But the skills they learn—how to think logically through a problem and organize the results—apply to any coding language, said Deborah Seehorn, an education consultant for the state of North Carolina.",
+          "locate_sentence_cn": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。但北卡罗来纳州教育顾问 Deborah Seehorn 表示，他们学到的技能——如何逻辑思考问题并组织结果——适用于任何编码语言。",
           "options": [
             {
               "key": "A",
@@ -1416,8 +1416,8 @@
               "analysis": {
                 "practice_status": "对比定位句末尾的 pick up any new programming language，迅速锁定A",
                 "option_nature": "正确项（同义替换）",
-                "source_sentence": "“Programming languages have a quick turnover... but the core concepts they learn will help them pick up any new programming language,” said Deborah Seehorn...",
-                "source_translation": "黛博拉·西霍恩表示：“编程语言更新换代极快……但他们学到的核心概念将有助于他们轻松掌握任何新的编程语言。”",
+                "source_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market. But the skills they learn—how to think logically through a problem and organize the results—apply to any coding language, said Deborah Seehorn, an education consultant for the state of North Carolina.",
+                "source_translation": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。但北卡罗来纳州教育顾问 Deborah Seehorn 表示，他们学到的技能——如何逻辑思考问题并组织结果——适用于任何编码语言。",
                 "locator_comparison": "选项A指出在 Flatiron 学到的技能将“帮助学生学习其他计算机语言（help students learn other computer languages）”。定位句中 Seehorn 明确指出，虽然具体的语言（如 Ruby on Rails）可能会过时，但学生学到的核心概念（the core concepts they learn）能够“help them pick up any new programming language”。learn 完美置换 pick up，other computer languages 对应 any new programming language。因果推论完全忠于原文。",
                 "writing_perspective": "作者在此处通过 Seehorn 的引言，解答了读者心中的疑虑：“既然计算机语言淘汰那么快，学现在的语言有何意义？”答案正是底层技能的迁移性（transferable skills），A选项精准提炼了这一立论支柱。",
                 "theme_validation": "全文强调底层计算思维（computational thinking）的可迁移价值，学会一套底层逻辑就能举一反三应对未来技术变迁，A项完全符合文章哲学。",
@@ -1433,8 +1433,8 @@
               "analysis": {
                 "practice_status": "看到原文提到 new technologies 和 turnover，容易误把被动淘汰理解为技能升级，排除",
                 "option_nature": "干扰项（曲解文意/主体偷换）",
-                "source_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even exist... but the core concepts they learn will help them pick up any new programming language.",
-                "source_translation": "编程语言更迭迅速，他们所学的“Ruby on Rails”语言甚至可能不再存在……但他们掌握的核心概念将有助于掌握新语言。",
+                "source_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market. But the skills they learn—how to think logically through a problem and organize the results—apply to any coding language, said Deborah Seehorn, an education consultant for the state of North Carolina.",
+                "source_translation": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。但北卡罗来纳州教育顾问 Deborah Seehorn 表示，他们学到的技能——如何逻辑思考问题并组织结果——适用于任何编码语言。",
                 "locator_comparison": "选项B声称所学技能“在新技术出现时必须进行升级（have to be upgraded when new technologies come）”。原文的论述重心在于：具体的语言会消亡淘汰，但底层的“core concepts（核心概念/核心技能）”是恒定且具有普适指导意义的，能够直接赋能去学习新事物，根本不需要去对旧技能本身做所谓“升级（upgraded）”。B选项将底层恒定的通用技能与外部技术的更替混为一谈，曲解了技能的本质。",
                 "writing_perspective": "Seehorn 的核心意图是给家长和学生吃定心丸，证明所学基础概念不过时；若强调“技能必须升级”，则反而加剧了技术焦虑，违背其安抚与肯定的语调。",
                 "theme_validation": "文章赞赏的是思维层面的不变应万变，B项强调被动升级，未能领会核心概念的迁移力。",
@@ -1450,8 +1450,8 @@
               "analysis": {
                 "practice_status": "联想到找工作需要提升技能，但原文此处并未讨论求职，排除",
                 "option_nature": "干扰项（无中生有/强加因果）",
-                "source_sentence": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook... but the core concepts they learn will help them pick up any new programming language...",
-                "source_translation": "Flatiron 班上的学生可能不会从高中辍学去打造下一个 Facebook……但他们学到的核心概念将帮助他们掌握任何新语言……",
+                "source_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market. But the skills they learn—how to think logically through a problem and organize the results—apply to any coding language, said Deborah Seehorn, an education consultant for the state of North Carolina.",
+                "source_translation": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。但北卡罗来纳州教育顾问 Deborah Seehorn 表示，他们学到的技能——如何逻辑思考问题并组织结果——适用于任何编码语言。",
                 "locator_comparison": "选项C认为这些技能“在学生找工作时需要提升（need improving when students look for jobs）”。第5段全段都在分析认知思维与编程语言更迭的关系，第6段甚至明言许多人根本不会涉足IT行业。全段不仅没有任何字句提及学生求职（look for jobs），更未提出过“技能需要进一步提升”的建议。C项纯属脱离语境的主观臆测。",
                 "writing_perspective": "作者在第5段一开始就放低预期（won't build next Facebook），意在去功利化，选项C强行将教育效益拉回求职功利轨道，违背作者的论证方向。",
                 "theme_validation": "全文反复排斥功利化的职业导向，C项的求职预设与文章倡导的纯粹素养教育格格不入。",
@@ -1467,8 +1467,8 @@
               "analysis": {
                 "practice_status": "选项表述极端功利，快速识别其为荒谬干扰项，直接排除",
                 "option_nature": "干扰项（反向考查/极端表述）",
-                "source_sentence": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook.",
-                "source_translation": "Flatiron 班上的学生很可能不会从高中辍学去打造下一个 Facebook。",
+                "source_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market. But the skills they learn—how to think logically through a problem and organize the results—apply to any coding language, said Deborah Seehorn, an education consultant for the state of North Carolina.",
+                "source_translation": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。但北卡罗来纳州教育顾问 Deborah Seehorn 表示，他们学到的技能——如何逻辑思考问题并组织结果——适用于任何编码语言。",
                 "locator_comparison": "选项D宣称技能将“使学生能够赚快钱、大钱（enable students to make big quick money）”。原文第5段首句明确采用否定语气调侃道：“won't drop out of high school and build the next Facebook（他们不会辍学去做出下一个Facebook变成亿万富翁）”。选项D把作者明确否定的幻想反向包装为实际结果，属于黑白颠倒的荒谬干扰项。",
                 "writing_perspective": "作者用极其幽默而现实的语调破除社会对青少年编程的狂热幻想，D选项逆潮流而动，把作者极力反讽的暴富神话作为结论，极为可笑。",
                 "theme_validation": "严肃的教育评论文章绝不可能提倡“赚快钱”，D选项在价值导向上即存在明显硬伤。",
@@ -1537,8 +1537,8 @@
               "analysis": {
                 "practice_status": "结合末段后半句对科技素养的阐述，确认C项概括全面，选C",
                 "option_nature": "正确项（宏观概括/同义置换）",
-                "source_sentence": "It’s about demystifying how technology works... helping them understand the world they live in... coax students into becoming active participants in a technology-saturated world.",
-                "source_translation": "它的意义在于揭开技术运作的神秘面纱……帮助他们理解所生活的世界……引导学生在这个科技浸透的世界中成为积极的参与者。",
+                "source_sentence": "These kids are going to be surrounded by computers—in their pockets, in their offices, in their homes—for the rest of their lives. The younger they learn how computers think, how to coax the machine into producing what they want—the earlier they learn that they have the power to do that—the better.",
+                "source_translation": "这些孩子将终生被电脑包围——在他们的口袋里、在办公室里、在家里。他们越早了解计算机如何思考、如何引导机器生产他们想要的东西——他们越早知道自己有能力做到这一点——就越好。",
                 "locator_comparison": "选项C指出期望 Flatiron 学生“为数字化世界做好更充分的准备（become better prepared for the digitalized world）”。末段明确提出课程的深远追求：揭开技术的神秘面纱（demystifying how technology works）、引导他们理解所生活的世界、在高度科技化的世界中成为积极主动的参与者（active participants in a technology-saturated world）。C选项用 digitalized world 替换 technology-saturated world，用 become better prepared 综合涵盖从容理解与主动参与的状态，高度吻合段落主旨。",
                 "writing_perspective": "作为全文总结段，作者在此完成了从具体的编程技能向普适公民素养的升华，指出无论未来从事何种职业，在数字时代都需要具备基本的数字底线认知，选C正是对这层升华的完美呼应。",
                 "theme_validation": "本文的核心论调就是“编程是面向未来数字时代的现代公民通识”，C项高度凝练地彰显了这一全局思想。",
@@ -1578,8 +1578,8 @@
           "stem_cn": "“coax”（第 6 段）一词的含义最接近 ______。",
           "type": "全文主旨题",
           "locate_pid": 5,
-          "locate_sentence": "But creating a future army of coders is not the sole purpose of the classes.",
-          "locate_sentence_cn": "但创建一支未来的程序员大军并不是这些课程的唯一目的。",
+          "locate_sentence": "The younger they learn how computers think, how to coax the machine into producing what they want—the earlier they learn that they have the power to do that—the better.",
+          "locate_sentence_cn": "他们越早了解计算机如何思考、如何引导机器生产他们想要的东西——他们越早知道自己有能力做到这一点——就越好。",
           "options": [
             {
               "key": "A",
@@ -1590,8 +1590,8 @@
               "analysis": {
                 "practice_status": "结合上下文积极的教育引导语境，辨析出 coax 含有劝导、启发之意，选A",
                 "option_nature": "正确项（语境同义词）",
-                "source_sentence": "...it’s about coaxing students into looking under the hood of tools they use every day...",
-                "source_translation": "……它的意义在于引导/劝导学生去探究他们每天使用的工具的底层运作逻辑……",
+                "source_sentence": "The younger they learn how computers think, how to coax the machine into producing what they want—the earlier they learn that they have the power to do that—the better.",
+                "source_translation": "他们越早了解计算机如何思考、如何引导机器生产他们想要的东西——他们越早知道自己有能力做到这一点——就越好。",
                 "locator_comparison": "选项A指出 coax 最接近的词义是“劝导、说服（persuade）”。在原文语境中，coax students into looking... 描述的是老师和课程如何启发那些原本只知消费技术的学生，使他们乐于去探索技术内部。coax 原意为“巧妙耐心地哄劝、劝诱”，在教学语境下等同于通过激发兴趣来引导（persuade/encourage），搭配 into doing 完全成立，A是最佳同义词。",
                 "writing_perspective": "作者在全文末尾描摹一种理想的教学状态：不是靠强行灌输，而是润物细无声地启发与劝导学生主动提问，persuade 完美呈现了这种正面而有建设性的教育手法。",
                 "theme_validation": "全文推崇启发式、兴趣导向的素养培育，A项所体现的劝导与鼓励特质，与文章的人文主义教育观高度合拍。",
@@ -1607,8 +1607,8 @@
               "analysis": {
                 "practice_status": "词义为消极负面词，明显与作者赞赏教育价值的语境冲突，排除",
                 "option_nature": "干扰项（感情色彩完全相反）",
-                "source_sentence": "...coax students into looking under the hood of tools they use every day...",
-                "source_translation": "……它的意义在于引导学生去探究他们每天使用的工具的底层运作逻辑……",
+                "source_sentence": "The younger they learn how computers think, how to coax the machine into producing what they want—the earlier they learn that they have the power to do that—the better.",
+                "source_translation": "他们越早了解计算机如何思考、如何引导机器生产他们想要的东西——他们越早知道自己有能力做到这一点——就越好。",
                 "locator_comparison": "选项B认为 coax 意为“恐吓、吓唬（frighten）”。全段都在以极其热忱和肯定的态度歌颂这种教育尝试能够帮助孩子建立好奇心。如果将句子替换为“恐吓学生去探索底层”，不仅违背基本常理，而且与前后文正面鼓舞的感情色彩发生严重冲突。B项纯属利用生僻词盲区设置的恶意干扰。",
                 "writing_perspective": "作者的修辞策略是消除畏惧（demystify, not intimidating），若使用 frighten 则是自我打脸，彻底破坏了文章由浅入深的鼓励逻辑。",
                 "theme_validation": "教育的真谛是点燃火种而非施加恐惧，B项直接违背人类常识与文章主旨。",
@@ -1624,8 +1624,8 @@
               "analysis": {
                 "practice_status": "贬义词干扰，与文章正面赞扬的态度背道而驰，排除",
                 "option_nature": "干扰项（感情色彩负面/违背常理）",
-                "source_sentence": "...coax students into looking under the hood of tools they use every day...",
-                "source_translation": "……它的意义在于引导学生去探究他们每天使用的工具的底层运作逻辑……",
+                "source_sentence": "The younger they learn how computers think, how to coax the machine into producing what they want—the earlier they learn that they have the power to do that—the better.",
+                "source_translation": "他们越早了解计算机如何思考、如何引导机器生产他们想要的东西——他们越早知道自己有能力做到这一点——就越好。",
                 "locator_comparison": "选项C声称 coax 意为“误导（misguide）”。原文指出让学生去探究日常软件的底层构造是具有长远益处的启蒙行为（helping them understand the world they live in），属于典型的正确引导，怎么可能是“误导（misguide）”？选项C带有强烈的负面批判色彩，与作者推崇这一教学实践的态度南辕北辙。",
                 "writing_perspective": "作者引用此句是为了升华主旨，彰显该教学模式的崇高价值，绝无可能在此处突然调转枪头指责学校误导学生。",
                 "theme_validation": "全文对 Flatiron 带来的心智启迪高度肯定，C项彻底颠覆了文章价值立场。",
@@ -1641,8 +1641,8 @@
               "analysis": {
                 "practice_status": "虽然 challenge 有激励的意思，但与 into doing 搭配及哄劝的原意不符，排除",
                 "option_nature": "干扰项（含义偏差/搭配不当）",
-                "source_sentence": "...coax students into looking under the hood of tools they use every day...",
-                "source_translation": "……它的意义在于引导学生去探究他们每天使用的工具的底层运作逻辑……",
+                "source_sentence": "The younger they learn how computers think, how to coax the machine into producing what they want—the earlier they learn that they have the power to do that—the better.",
+                "source_translation": "他们越早了解计算机如何思考、如何引导机器生产他们想要的东西——他们越早知道自己有能力做到这一点——就越好。",
                 "locator_comparison": "选项D认为 coax 意为“挑战（challenge）”。challenge 作为动词时常表示“向……发起挑战”或“质疑某人”，常搭配 challenge sb to do sth，侧重强调对抗性、难度或激发竞争心。而 coax 强调的是温柔的劝说、哄诱与耐心启发，接 into doing 结构，其核心内涵重在“软性说服（gentle persuasion）”而非硬性的“下战书（challenge）”，D项未能准确切中其哄诱与劝服的核心神韵。",
                 "writing_perspective": "作者在前文反复铺垫要降低门槛（not intimidating）、激发兴趣（games, fashion apps），说明教学基调是柔性吸纳，而非用硬骨头去强行挑战（challenge）学生。",
                 "theme_validation": "文章倡导包容性素养普及而非精英选拔淘汰，D项带有过于严厉的竞技色彩，不如A项贴切。",
@@ -3212,8 +3212,8 @@
           "stem_cn": "将小草原鸡列为受威胁的主要原因是______。",
           "type": "事实细节题",
           "locate_pid": 1,
-          "locate_sentence": "The crash was a major reason the U.S.",
-          "locate_sentence_cn": "（小草原鸡数量的）暴跌是美国鱼类及野生动物管理局（USFWS）决定正式将其列为受威胁物种的主要原因",
+          "locate_sentence": "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened.",
+          "locate_sentence_cn": "（小草原鸡数量的）暴跌是美国鱼类及野生动物管理局（USFWS）决定正式将其列为受威胁物种的主要原因。",
           "options": [
             {
               "key": "A",
@@ -3224,8 +3224,8 @@
               "analysis": {
                 "practice_status": "顺藤摸瓜通过 The crash 找到第1段数量暴跌事实，迅速匹配A",
                 "option_nature": "正确项（同义替换）",
-                "source_sentence": "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened.",
-                "source_translation": "种群数量的暴跌是美国鱼类及野生动物管理局决定正式将该鸟类列为受威胁物种的主要原因。",
+                "source_sentence": "Biologists estimate that as many as 2 million lesser prairie chickens... But just some 22,000 birds remain today... The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened.",
+                "source_translation": "生物学家估计曾有多达200万只小草原鸡……但如今只剩下约22,000只……（小草原鸡数量的）暴跌是美国鱼类及野生动物管理局决定正式将其列为受威胁物种的主要原因。",
                 "locator_comparison": "选项A指出主要原因是“其种群数量急剧减少（its drastically decreased population）”。定位句明载“The crash was a major reason...”，指示代词 The crash 回指第1段叙述的历史事实：松鸡数量曾高达200万只，但由于干旱和栖息地破坏，数量遭遇惨烈雪崩（crash）。A选项用 drastically decreased population 精准对应 The crash，因果关系与事实完全一致。",
                 "writing_perspective": "作者按照典型的新闻特写逻辑展开：先列出令人震惊的种群暴跌历史数据（2 million -> crash），再以此顺理成章引出联邦机构启动保护等级的现实动作，A选项正是这一因果链条的枢纽。",
                 "theme_validation": "全文围绕濒危物种的保护与妥协展开，物种生存数量的断崖式暴跌是引发全篇法律博弈的唯一起因，选A完全切中主题基石。",
@@ -3241,8 +3241,8 @@
               "analysis": {
                 "practice_status": "看到第1段关于草场面积的描述，但原文并未说低估面积，排除",
                 "option_nature": "干扰项（无中生有/曲解事实）",
-                "source_sentence": "...once numbered in the millions, but their habitat—stretching across grasslands... has been severely fragmented...",
-                "source_translation": "……数量曾以百万计，但它们跨越广袤草场的栖息地已被严重割裂……",
+                "source_sentence": "Biologists estimate that as many as 2 million lesser prairie chickens—a kind of bird living on stretching grasslands—once lent red to the often grey landscape of the midwestern and southwestern United States. But just some 22,000 birds remain today, occupying about 16% of the species’ historic range.",
+                "source_translation": "生物学家估计，曾有多达200万只小草原鸡——一种生活在辽阔草原上的鸟类——曾为美国中西部和西南部常呈灰色的地貌增添了一抹红色。但如今仅存约22,000只，只占该物种历史分布范围的约16%。",
                 "locator_comparison": "选项B称原因是“对草场面积的低估（the underestimate of the grassland acreage）”。原文第1段确实提到了 grasslands（草场）和栖息地遭到开垦割裂（habitat fragmentation），但通篇没有任何文字说明科学家或政府对草场面积做出了“低估（underestimate）”。选项B属于凭空生造事实的无中生有项。",
                 "writing_perspective": "物种保护决定的出台依赖严谨的野外考察与生态监测，若归咎于官方低估面积，文章就会演变成技术失误的检讨，这与作者引述真实生态危机的叙事毫无关联。",
                 "theme_validation": "文章的核心矛盾在于经济开发与鸟类生存空间的撕扯，而非土地测绘数据的失准，B项完全偏离主线。",
@@ -3258,8 +3258,8 @@
               "analysis": {
                 "practice_status": "文中提到了生物学家，但并无绝望呼吁之说，排除",
                 "option_nature": "干扰项（主观臆断/情感色彩过激）",
-                "source_sentence": "Biologists estimate that as many as 2 million lesser prairie chickens... once lived across the region...",
-                "source_translation": "生物学家估计，曾有多达 200 万只小草原松鸡生活在该地区……",
+                "source_sentence": "“The lesser prairie chicken is in a desperate situation,” said USFWS Director Daniel Ashe. Some environmentalists, however, were disappointed. They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats.",
+                "source_translation": "“小草原鸡正处于绝境，”美国鱼类及野生动物管理局局长丹尼尔·阿什说。然而，一些环保人士感到失望，他们一直敦促该机构将这种鸟类指定为“濒危”物种，这种地位将赋予联邦官员更大的监管权力来打击威胁。",
                 "locator_comparison": "选项C认为是“来自一些生物学家的绝望呼吁（a desperate appeal from some biologists）”。原文第1段首句仅提到“Biologists estimate that...（生物学家估计……）”，纯属客观呈现生物学家的科学估算数据。原文中完全没有出现任何生物学家进行“绝望呼吁（desperate appeal）”的情节，选项C属于典型的过度脑补与主观煽情。",
                 "writing_perspective": "作者在全篇保持冷峻客观的新闻报道笔调，引述各方利益博弈，绝无渲染戏剧化的“绝望哀求”，C选项的浮夸措辞与文章行文风格格格不入。",
                 "theme_validation": "推动政策列名的是物种客观存亡危机与法律程序，而非情绪化的呼吁，C项不具备事实支撑。",
@@ -3275,8 +3275,8 @@
               "analysis": {
                 "practice_status": "地主在后文才出现，且地主反对严格保护，因果倒置，排除",
                 "option_nature": "干扰项（张冠李戴/反向因果）",
-                "source_sentence": "...the agency said it would not prosecute landowners or businesses that unintentionally kill, injure...",
-                "source_translation": "……该机构表示不会起诉那些无意中杀死、伤害……的土地所有者或企业……",
+                "source_sentence": "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
+                "source_translation": "例如，根据该计划，该机构表示不会起诉那些无意中杀死、伤害或骚扰这种鸟类的土地所有者或企业，只要他们签署了一项在整个分布区恢复草原鸡栖息地的管理计划。",
                 "locator_comparison": "选项D认为是“私有土地所有者的坚持（the insistence of private landowners）”。后文第3段和第4段明确指出，私有土地所有者（landowners）和工业企业是开发活动的主体，他们通常是环保政策的受限者或妥协参与方，极力抗拒严苛管制。把物种受威胁保护归因于地主的“坚持要求”，在逻辑和事实上均彻底黑白颠倒。",
                 "writing_perspective": "在环境政治论述中，地主通常被置于被监管或被利益赎买的一方，作者绝不可能把保护决定的动因安在被监管者头上，D选项逻辑混乱不堪。",
                 "theme_validation": "全文充斥着环保组织与地主、工业集团之间的博弈，地主从来不是生态保护倡议的发起人，D项完全违背全文利益关系图谱。",
@@ -3299,8 +3299,8 @@
           "stem_cn": "“受威胁”的标签令一些环保主义者感到失望，因为它______。",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats.",
-          "locate_sentence_cn": "他们敦促该机构将这种鸟指定为“濒临灭绝”，这一状态赋予联邦官员更大的监管权力来打击威胁。",
+          "locate_sentence": "But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches. In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.",
+          "locate_sentence_cn": "但阿什和其他人认为，“受威胁”标签使联邦政府能够灵活地尝试新的、可能不那么对抗性的保护方法。他们特别呼吁与西部州政府和私人土地所有者建立更密切的合作，西部州政府往往对联邦政府的行动感到不安，而私人土地所有者控制着大约 95% 的草原鸡栖息地。",
           "options": [
             {
               "key": "A",
@@ -3311,8 +3311,8 @@
               "analysis": {
                 "practice_status": "误以为环保人士失望是因为政府妥协，但选项说的是屈服于政府压力，逻辑错误，排除",
                 "option_nature": "干扰项（因果混淆/主体错乱）",
-                "source_sentence": "They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power...",
-                "source_translation": "他们曾极力敦促该机构将该鸟类指定为“濒危”，因为这一地位赋予联邦官员更大的监管权力……",
+                "source_sentence": "But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches. In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.",
+                "source_translation": "但阿什和其他人认为，“受威胁”标签使联邦政府能够灵活地尝试新的、可能不那么对抗性的保护方法。他们特别呼吁与西部州政府和私人土地所有者建立更密切的合作，西部州政府往往对联邦政府的行动感到不安，而私人土地所有者控制着大约 95% 的草原鸡栖息地。",
                 "locator_comparison": "选项A认为标签令人失望是因为“这是向政府压力低头（was a give-in to governmental pressure）”。原文中 USFWS 本身就是联邦政府机构（federal agency），作出决定的正是政府内部基于经济与各州利益权衡后的折中方案。选项A称其屈服于政府压力，概念混淆，没有切中环保人士对法律效力和强制执行力不足的核心不满。",
                 "writing_perspective": "作者在第2段细致拆解的是两个法律级别（endangered vs. threatened）所附带的权力边界差异，而非笼统地搞政治阴谋论指责，A选项空洞泛化了法律实质。",
                 "theme_validation": "文章讨论的焦点在于各州管理权与联邦强力监管之间的权能再分配，A项没有触及权力划分的本质问题。",
@@ -3328,8 +3328,8 @@
               "analysis": {
                 "practice_status": "选项提到机构数量，文中无此比较，排除",
                 "option_nature": "干扰项（无中生有）",
-                "source_sentence": "...a status that gives federal officials greater regulatory power to mandate habitat protections...",
-                "source_translation": "……这一地位赋予联邦官员更大的监管权力以强制执行栖息地保护……",
+                "source_sentence": "But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches. In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.",
+                "source_translation": "但阿什和其他人认为，“受威胁”标签使联邦政府能够灵活地尝试新的、可能不那么对抗性的保护方法。他们特别呼吁与西部州政府和私人土地所有者建立更密切的合作，西部州政府往往对联邦政府的行动感到不安，而私人土地所有者控制着大约 95% 的草原鸡栖息地。",
                 "locator_comparison": "选项B声称是因为“会牵涉更少的机构采取行动（would involve fewer agencies in action）”。原文讨论的是不同标签赋予联邦官员的“监管权力大小（regulatory power）”，根本没有涉及采取行动的“机构数量（number of agencies）”是多是少。选项B把权力的强弱偷换成了机构的数量多寡，纯属无中生有。",
                 "writing_perspective": "后文第3段甚至提到多达5个州的机构（WAFWA）都介入其中，可见机构参与面极广，B选项的断言在事实层面也站不住脚。",
                 "theme_validation": "环保争端的核心在于执法力度的硬度，而不是出动了多少个机构部门，B项偏离争议焦点。",
@@ -3345,8 +3345,8 @@
               "analysis": {
                 "practice_status": "对比 endangered 的 greater power 与 threatened 的灵活性，判定C项正反推导成立，选C",
                 "option_nature": "正确项（反向逻辑推导/同义替换）",
-                "source_sentence": "They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to mandate habitat protections.",
-                "source_translation": "他们曾敦促该机构将该鸟类定为“濒危”，这一地位赋予联邦官员更大的监管权力来强制实行栖息地保护。",
+                "source_sentence": "But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches. In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.",
+                "source_translation": "但阿什和其他人认为，“受威胁”标签使联邦政府能够灵活地尝试新的、可能不那么对抗性的保护方法。他们特别呼吁与西部州政府和私人土地所有者建立更密切的合作，西部州政府往往对联邦政府的行动感到不安，而私人土地所有者控制着大约 95% 的草原鸡栖息地。",
                 "locator_comparison": "选项C指出原因在于该标签“赋予了较少的联邦监管权力（granted less federal regulatory power）”。原文指出，环保人士坚持要求列入“endangered”，是因为它能赋予官员“greater regulatory power（更大的监管权力）”；如今退而求其次仅定为“threatened”，言下之意正是该标签给予联邦的监管权力明显较弱（less power/allows flexibility）。C选项通过对反义对比句的精准逆向提炼，完全符合命题逻辑。",
                 "writing_perspective": "作者在此通过展示环保人士的诉求意图，深刻揭示了环保法中等级词汇背后的法律武器强弱差异：权能越小，保护越可能沦为空谈，选C准确呼应了作者对法治边界的探讨。",
                 "theme_validation": "全文第4段进一步印证，批评者正是不满联邦将权力拱手让给破坏栖息地的工业界，监管权力缩水（less federal power）是贯穿始终的抨击核心。",
@@ -3362,8 +3362,8 @@
               "analysis": {
                 "practice_status": "将松鸡列入保护本身就是保护政策，并未违反政策，排除",
                 "option_nature": "干扰项（曲解文意/自相矛盾）",
-                "source_sentence": "...decided to formally list the bird as threatened. Some environmental groups were disappointed...",
-                "source_translation": "……决定正式将该鸟类列为受威胁物种。一些环保组织感到失望……",
+                "source_sentence": "But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches. In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.",
+                "source_translation": "但阿什和其他人认为，“受威胁”标签使联邦政府能够灵活地尝试新的、可能不那么对抗性的保护方法。他们特别呼吁与西部州政府和私人土地所有者建立更密切的合作，西部州政府往往对联邦政府的行动感到不安，而私人土地所有者控制着大约 95% 的草原鸡栖息地。",
                 "locator_comparison": "选项D认为失望是因为“违背了保护政策（went against conservation policies）”。定为“threatened”本身就是在依照濒危物种法案（Endangered Species Act）所推行的法定保护政策，属于保护手段力度的分歧，而非公然践踏或违背保护政策。选项D言过其实，把政策力度强弱的争论曲解成了政策本身的非法性违背。",
                 "writing_perspective": "作者在文中忠实记录的是官方与民间在法律框架内的博弈，双方均以保护政策为依据，若定性为 went against policies 则与行政法治事实相悖。",
                 "theme_validation": "各方争议的焦点是“如何保护最有效”，而非“是否违背政策”，D项定性错误，偏离客观事实。",
@@ -3560,8 +3560,8 @@
           "stem_cn": "Jay Lininger 最有可能支持______。",
           "type": "全文主旨题",
           "locate_pid": 3,
-          "locate_sentence": "“The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
-          "locate_sentence_cn": "生物学家杰伊·利宁格 (Jay Lininger) 表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
+          "locate_sentence": "Not surprisingly, industry groups and states generally argue it goes too far; environmentalists say it doesn’t go far enough. “The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+          "locate_sentence_cn": "不足为奇的是，行业团体和各州普遍认为这走得太远了；环保人士则表示这还远远不够。生物学家杰伊·利宁格表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
           "options": [
             {
               "key": "A",
@@ -3572,9 +3572,9 @@
               "analysis": {
                 "practice_status": "看到 Lininger 原文出现 industries 单词，需细看其批判态度，排除",
                 "option_nature": "干扰项（反向考查/立场颠倒）",
-                "source_sentence": "“The federal government is giving responsibility for managing the bird to the same industries that are driving it to extinction,” said Jay Lininger...",
-                "source_translation": "生物多样性中心的生物学家杰伊·利宁格表示：“联邦政府正在把管理这种鸟类的责任移交给那些正将它们推向灭绝的工业界。”",
-                "locator_comparison": "选项A认为他最可能支持“工业集团（industry groups）”。原文中 Lininger 用极其愤怒的严厉措辞指责“the same industries that are driving it to extinction（正是那些正在把鸟类推向灭绝的工业界）”。他将工业界定性为破坏者，怒斥让破坏者当管家是荒唐之举。选项A将其立场完全颠倒，极其荒谬。",
+                "source_sentence": "Not surprisingly, industry groups and states generally argue it goes too far; environmentalists say it doesn’t go far enough. “The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+                "source_translation": "不足为奇的是，行业团体和各州普遍认为这走得太远了；环保人士则表示这还远远不够。生物学家杰伊·利宁格表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
+                "locator_comparison": "选项A认为他最可能支持“行业团体（industry groups）”。原文中 Lininger 严厉指责“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业（the same industries that are pushing it to extinction）”。他将工业行业定性为导致鸟类灭绝的罪魁祸首，痛斥让破坏者来承担管理责任是极其荒唐的。选项A将其立场彻底颠倒，完全相反。",
                 "writing_perspective": "作者在第4段树立 Lininger 这一批判典型，就是为了展示环保界与工业界的激烈对立，若 Lininger 支持工业界，整段反驳逻辑将荡然无存。",
                 "theme_validation": "全文的主线矛盾即生态保护与工业开发的不可调和性，Lininger 代表着零容忍的纯粹环保立场，与工业利益水火不容，A项严重违背人物设定。",
                 "verdict": "判定：A项黑白颠倒，将批评者误判为支持者，果断排除。"
@@ -3589,9 +3589,9 @@
               "analysis": {
                 "practice_status": "第4段首句明确说并非所有人都买账双赢说辞，Lininger 就是不买账的代表，排除",
                 "option_nature": "干扰项（与原文事实相反）",
-                "source_sentence": "Not everyone buys the win-win rhetoric... said Jay Lininger...",
-                "source_translation": "并不是所有人都买账这种“双赢”的说辞……杰伊·利宁格表示……",
-                "locator_comparison": "选项B认为他支持“双赢说辞（the win-win rhetoric）”。第4段首句就统领全段指出：“Not everyone buys the win-win rhetoric（并非每个人都买账所谓的双赢说辞）”，随后全文紧接着列举了 Lininger 的发言来支撑这一统领句。Lininger 正是彻底唾弃并拆穿“双赢说辞”的先锋代表。B项与事实截然相反。",
+                "source_sentence": "Not everyone buys the win-win rhetoric. ... “The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+                "source_translation": "并不是所有人都买账这种双赢的说辞。……生物学家杰伊·利宁格表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
+                "locator_comparison": "选项B认为他支持“双赢的说辞（the win-win rhetoric）”。第4段首句就明确指出“并不是所有人都买账这种双赢的说辞（Not everyone buys the win-win rhetoric）”，随后段落紧接着引用了反对计划的国会议员、提起诉讼的环保团体以及生物学家 Lininger 的批判言论来佐证这一观点。Lininger 正是彻底揭穿、不买账“双赢说辞”的典型代表，选项B与原文事实截然相反。",
                 "writing_perspective": "首句论点（不买账双赢）与下文引语（Lininger 的痛斥）是总分支撑关系，选项B公然与段落总论点唱反调，逻辑彻底崩塌。",
                 "theme_validation": "作者通过 Lininger 的声音揭露所谓的双赢不过是政治妥协与利益分赃，B项完全无视这一批判锋芒。",
                 "verdict": "判定：B项与段落总起论点完全相悖，果断排除。"
@@ -3606,9 +3606,9 @@
               "analysis": {
                 "practice_status": "结合其所在机构 Center for Biological Diversity 及护鸟言论，锁定C",
                 "option_nature": "正确项（身份推论/同义归纳）",
-                "source_sentence": "...said Jay Lininger, a biologist in the Center for Biological Diversity.",
-                "source_translation": "……生物多样性中心的生物学家杰伊·利宁格表示。",
-                "locator_comparison": "选项C指出他最可能支持“环保组织（environmental groups）”。原文明确交代了 Lininger 的机构身份：“Center for Biological Diversity（生物多样性中心）”，此机构是公认的非营利性环境保护组织；且他在发言中寸步不让地要求对物种进行最高力度的强硬保护，坚决抗议削弱监管。他的身份和言论均证明他是环保团体的核心喉舌，必然支持环保组织的立场。C选项推论扎实自然。",
+                "source_sentence": "...three environmental groups are challenging it in federal court. Not surprisingly, industry groups and states generally argue it goes too far; environmentalists say it doesn’t go far enough. “The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+                "source_translation": "……三个环保团体正在联邦法院对该计划提出质疑。不足为奇的是，行业团体和各州普遍认为这走得太远了；环保人士则表示这还远远不够。生物学家杰伊·利宁格表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
+                "locator_comparison": "选项C指出他最可能支持“环保团体（environmental groups）”。原文第4段指出“三个环保团体正在联邦法院对该计划提出质疑（three environmental groups are challenging it in federal court）”，并进一步阐述双方分歧：“行业组织和各州普遍认为管得太宽；环保人士则表示这还远远不够（environmentalists say it doesn't go far enough）”。紧接着，文章引用生物学家 Jay Lininger 的激烈批评：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业”，以抨击现行妥协方案力度不足。Lininger 的立场完全站在环保人士（environmentalists / environmental groups）一边，坚决主张强化保护、反对向工业界妥协，因此他最可能支持环保团体。C选项推论扎实自然。",
                 "writing_perspective": "作者在引用引语前特意点明其官方头衔与所属组织，正是为了确立其作为“环保组织代表”的发言资格与阵营归属，选C完全契合新闻报道的引述逻辑。",
                 "theme_validation": "本文展现了多方势力的角力图谱，其中第2段提到的 environmental groups 与第4段的 Center for Biological Diversity 遥相呼应，C项牢牢锁定了正确的政治阵营。",
                 "verdict": "判定：C项身份与立场推断百分之百契合原文，为标准正确答案。"
@@ -3623,21 +3623,21 @@
               "analysis": {
                 "practice_status": "方案正在被质疑和挑战，而 Lininger 就是发起挑战的人之一，排除",
                 "option_nature": "干扰项（张冠李戴/阵营错置）",
-                "source_sentence": "...Some Congress members are trying to block the plan... said Jay Lininger...",
-                "source_translation": "……一些国会议员正试图阻挠该计划……杰伊·利宁格表示……",
-                "locator_comparison": "选项D认为他支持“受到挑战的该项计划（the plan under challenge）”。第4段全段都在陈述该计划如何“under challenge（受到多方挑战与质疑）”，而 Lininger 的整段发言全部是在痛批该计划出卖鸟类栖息地、纵容肇事工业。他是该计划最坚决的反对者与挑战发起人之一，绝不可能去支持这项出卖保护责任的方案。D项完全站错了立场阵营。",
+                "source_sentence": "Some Congress members are trying to block the plan, and at least a dozen industry groups, four states, and three environmental groups are challenging it in federal court. ... “The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+                "source_translation": "一些国会议员正试图阻止该计划，至少有十几个行业团体、四个州和三个环保团体正在联邦法院对该计划提出质疑。……生物学家杰伊·利宁格表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
+                "locator_comparison": "选项D认为他支持“受到质疑/挑战的计划（the plan under challenge）”。原文明确指出该计划正受到国会议员、各州以及环保团体的广泛挑战（challenging it in federal court），而 Lininger 的整段发言全在猛烈抨击该计划出卖管理责任、纵容破坏栖息地的行业。他是该计划最坚决的反对者与批评者，绝不可能去支持这项受到挑战的计划。D选项完全站错了立场。",
                 "writing_perspective": "作者刻画 Lininger 就是为了展现 plan under challenge 的尖锐对立面，如果反对者反过来支持方案本身，论证结构将陷入精神分裂。",
                 "theme_validation": "全文对该五州方案持反思与批判视角，Lininger 是反方旗手，D项阵营颠倒，绝无可能。",
                 "verdict": "判定：D项立场完全颠倒，颠倒了挑战者与被挑战方案的关系，果断排除。"
               }
             }
           ],
-          "summary": "本题考查对批判性人物态度及立场的深层推断。定位至第4段末尾 Jay Lininger 的引语：“'The federal government is giving responsibility for managing the bird to the same industries that are driving it to extinction,' said Jay Lininger, a biologist in the Center for Biological Diversity”。Lininger 痛斥联邦政府把管理责任拱手让给正在导致该物种灭绝的工业界，其身份是“生物多样性中心（Center for Biological Diversity）”的生物学家，这正是极具代表性的“环保组织（environmental groups）”。C选项 environmental groups 完美对应其所属阵营与价值诉求。干扰项A（工业集团）与B（双赢说辞）均属于其猛烈抨击的对象，D（受到挑战的方案）正是其反对的靶子。",
+          "summary": "本题考查对人物态度与阵营立场的深层推断。定位至第4段末尾：前一句指出“行业团体和各州普遍认为这走得太远了；环保人士则表示这还远远不够（environmentalists say it doesn’t go far enough）”，紧接着引用生物学家 Jay Lininger 的发言批判“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业”。Lininger 的言论直接承接并佐证了环保人士认为该方案力度严重不足、反对向工业界妥协的立场。因此，他最可能支持环保团体（environmental groups），C选项正确。A（行业团体）、B（双赢说辞）、D（受到挑战的计划）均属于其猛烈抨击或反对的靶子。",
           "synonym_pairs": [
             {
               "opt_term": "environmental groups",
-              "text_term": "Center for Biological Diversity / biologist opposing industrial responsibility",
-              "logic": "Center for Biological Diversity（生物多样性中心）是美国著名的环保组织，其生物学家猛烈抨击向工业界妥协的政策，证明其坚决捍卫环保团体（environmental groups）的激进保护立场。"
+              "text_term": "environmentalists say it doesn't go far enough / biologist Jay Lininger",
+              "logic": "Lininger 痛斥向破坏生态的行业妥协，其言论紧跟在'环保人士认为力度远远不够'之后，有力印证其坚定支持环保团体（environmental groups）严厉保护的立场。"
             }
           ]
         }
@@ -4947,8 +4947,8 @@
           "stem_cn": "通常的时间管理技巧不起作用，因为______。",
           "type": "事实细节题",
           "locate_pid": 1,
-          "locate_sentence": "In fact, “becoming more efficient” is part of the problem.",
-          "locate_sentence_cn": "事实上，“变得更有效率”是问题的一部分。",
+          "locate_sentence": "That everyone’s too busy these days is a cliché. But one specific complaint is made especially mournfully: There’s never any time to read.",
+          "locate_sentence_cn": "如今每个人都太忙了，这已是陈词滥调。但有一项具体的抱怨尤其令人哀伤：根本没有时间来阅读。",
           "options": [
             {
               "key": "A",
@@ -4959,8 +4959,8 @@
               "analysis": {
                 "practice_status": "容易从心理学常识过度脑补，误以为是无法缓解现代人的焦虑心境，排除",
                 "option_nature": "干扰项（过度推断/偷换重心）",
-                "source_sentence": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient.",
-                "source_translation": "使这个问题更加棘手的是，通常的时间管理技巧似乎并不管用。",
+                "source_sentence": "That everyone’s too busy these days is a cliché. But one specific complaint is made especially mournfully: There’s never any time to read.",
+                "source_translation": "如今每个人都太忙了，这已是陈词滥调。但有一项具体的抱怨尤其令人哀伤：根本没有时间来阅读。",
                 "locator_comparison": "选项A认为原因是“它们所能提供的东西无法安抚现代人的心灵（what they can offer does not ease the modern mind）”。原文讨论的是“为何常规时间管理法无法帮人抽出时间完成严肃阅读”，焦点在于阅读行为本身的特殊性，而非时间管理工具能否提供心理抚慰（ease the mind）。A项脱离文本对认知模式的探讨，强加心理治愈话题，属于典型的过度发散。",
                 "writing_perspective": "作者在此处的论证目标极其明确：分析阅读与普通日常事务在认知负荷上的质的差异，若转向讨论现代人心灵的安抚，就脱离了读书方法论的剖析主线。",
                 "theme_validation": "全文讨论的核心是“在忙碌的时代如何找到时间去读难懂的好书”，而非探讨普遍的心理健康治疗，A项偏离主线。",
@@ -4976,8 +4976,8 @@
               "analysis": {
                 "practice_status": "看到原文中提到了 rereading 这一阅读行为，容易断章取义选B，排除",
                 "option_nature": "干扰项（以偏概全/偷换因果）",
-                "source_sentence": "...demanding literature requires patience, slow absorption, tolerating ambiguity, re-reading passages...",
-                "source_translation": "……高要求的文学作品需要耐心、缓慢的吸收、容忍晦涩不解以及反复重读段落……",
+                "source_sentence": "That everyone’s too busy these days is a cliché. But one specific complaint is made especially mournfully: There’s never any time to read.",
+                "source_translation": "如今每个人都太忙了，这已是陈词滥调。但有一项具体的抱怨尤其令人哀伤：根本没有时间来阅读。",
                 "locator_comparison": "选项B声称原因是“具有挑战性的书籍需要反复阅读（what challenging books demand is repetitive reading）”。第3段确实提到了读严肃好书往往伴随重读（re-reading passages），但这只是深阅读诸多复杂特质中的冰山一角，且“需要重读”本身并不是时间管理技巧失灵的充分解释——根本原因在于追求效率的时间管理理念把时间切碎，压根无法保障深阅读所需的整块专注与宽裕心境。B项以偏概全且颠倒了因果重心。",
                 "writing_perspective": "作者提及反复阅读只是为了例证深阅读需要慢下来、需要不确定性，用来反衬效率主义的荒谬，B选项抓取细枝末节充当核心因果，削弱了批判锋芒。",
                 "theme_validation": "作者批判的是将流水线效率观强加于精神生活的荒诞，B项未能触及时间管理方法失效的底层哲学冲突。",
@@ -4993,8 +4993,8 @@
               "analysis": {
                 "practice_status": "随身带书是后文给出的补救建议之一，并非技巧失效的原因，排除",
                 "option_nature": "干扰项（张冠李戴/前后颠倒）",
-                "source_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough...",
-                "source_translation": "“随时随地带一本书”实际上也能起作用——前提是你翻阅得足够频繁……",
+                "source_sentence": "That everyone’s too busy these days is a cliché. But one specific complaint is made especially mournfully: There’s never any time to read.",
+                "source_translation": "如今每个人都太忙了，这已是陈词滥调。但有一项具体的抱怨尤其令人哀伤：根本没有时间来阅读。",
                 "locator_comparison": "选项C声称原因是“人们经常忘记随身带一本书（what people often forget is carrying a book with them）”。随身带书（Carry a book with you at all times）是第4段作者给出的积极可行的解法之一，根本不是第2段和第3段剖析常规时间管理方法失效的原因。选项C将解决办法歪曲为人们遗忘的动作，张冠李戴，前后逻辑完全错乱。",
                 "writing_perspective": "作者在第2段批判的是网上泛滥的伪技巧，在第4段才开始提供有效方案；C选项把后文的建设性建议生拉硬拽到前文的反思中，违背递进叙事脉络。",
                 "theme_validation": "全文在反思认知模式与时间观念，绝非指责人们记性不好忘记带书，C项流于表面与儿戏。",
@@ -5010,8 +5010,8 @@
               "analysis": {
                 "practice_status": "抓住 deep reading 与 time-management 之间的核心矛盾，锁定D",
                 "option_nature": "正确项（同义概括/主旨呼应）",
-                "source_sentence": "In fact, “becoming more efficient” is part of the problem. Thinking of time as a resource to be maximised means you approach life with an efficiency mind-set... demanding books require patience, slow absorption...",
-                "source_translation": "事实上，“变得更高效”正是问题的一部分。把时间看作一种需要最大化利用的资源，意味着你带着一种效率至上的心态对待生活……而高要求的书籍需要耐心与缓慢的沉浸……",
+                "source_sentence": "That everyone’s too busy these days is a cliché. But one specific complaint is made especially mournfully: There’s never any time to read.",
+                "source_translation": "如今每个人都太忙了，这已是陈词滥调。但有一项具体的抱怨尤其令人哀伤：根本没有时间来阅读。",
                 "locator_comparison": "选项D指出时间管理技巧不起作用是因为“深度阅读所必需的条件根本无法得到保障（what deep reading requires cannot be guaranteed）”。第2段明确指出你无法在琐碎间隙中进行深阅读（can’t do deep reading on the fly）；第3段深入论证追求效率的时间管理把时间割裂为急躁的填充物，而深阅读所要求的“耐心、缓慢浸泡、容忍不确定性（patience, slow absorption）”与这种效率理念完全相悖，导致其核心条件彻底丧失。D选项高度概括了深阅读需求与效率机制之间的水火不容，对应极为精准深刻。",
                 "writing_perspective": "作者立论高屋建瓴，一针见血地指出“效率工具本身就是消解深度的元凶”，D选项精准提炼了作者对深阅读本质属性的捍卫，是全段论证的最强归结。",
                 "theme_validation": "全文核心旨在辨析：真正的阅读不是做任务打卡，深度阅读需要摆脱功利效率枷锁，D项高度契合这一思想精髓。",
@@ -5034,8 +5034,8 @@
           "stem_cn": "“空瓶子”的比喻说明人们感受到了______的压力。",
           "type": "因果推断题",
           "locate_pid": 2,
-          "locate_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.” No mind-set could be worse for losing yourself in a book.",
-          "locate_sentence_cn": "加里·埃伯勒（Gary Eberle）在他的《神圣时间》一书中写道：“未来就像空瓶子沿着不可阻挡的、几乎无限的传送带向我们走来。”“当这些不同尺寸的瓶子（天、小时、分钟）经过时，我们感到有压力去装满它们，因为如果它们没有被装满，我们就会浪费它们。”没有比沉浸在书中更糟糕的心态了。",
+          "locate_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.”",
+          "locate_sentence_cn": "加里·埃伯利在其著作《神圣时间》中写道：“未来就像传送带上几乎无休止奔流而来的空瓶子，当它们掠过时，我们感到一种压力，必须去填满这些不同尺寸的瓶子（天、小时、分钟），因为如果任由它们空着流走，我们就会浪费掉它们。”",
           "options": [
             {
               "key": "A",
@@ -5046,8 +5046,8 @@
               "analysis": {
                 "practice_status": "受日常时间管理使用待办清单的影响，误将抽象隐喻当做具体操作，排除",
                 "option_nature": "干扰项（无中生有/表面化理解）",
-                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” ... to fill each bottle before it passes.",
-                "source_translation": "“未来如同传送带上一只只空瓶子，不可阻挡且近乎无尽地向我们驶来，”……迫不及待要在每个瓶子滑过之前将其填满。",
+                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.”",
+                "source_translation": "加里·埃伯利在其著作《神圣时间》中写道：“未来就像传送带上几乎无休止奔流而来的空瓶子，当它们掠过时，我们感到一种压力，必须去填满这些不同尺寸的瓶子（天、小时、分钟），因为如果任由它们空着流走，我们就会浪费掉它们。”",
                 "locator_comparison": "选项A认为隐喻说明人们感受到“更新待办事项清单（update their to-do lists）”的压力。虽然现代人常用待办清单，但哲学家在此处的空瓶比喻纯粹是在探讨人对时间流逝本身的本体论焦虑（ontological anxiety），强调不断填满时间的冲动，文中并未提及 to-do lists 这一具体的办公工具。A项把哲理性隐喻降格为具体的事务清单，偏离本意。",
                 "writing_perspective": "作者引用哲学家的空瓶流水线隐喻，是为了从存在主义和心理学层面揭示现代人焦虑的病根，若指代仅仅是更新清单，这种深度隐喻就失去了思想厚度。",
                 "theme_validation": "文章批判的是效率强迫症，A项只停留于办公技巧表象，未能触及灵魂深处的焦虑。",
@@ -5063,8 +5063,8 @@
               "analysis": {
                 "practice_status": "细析 fill each bottle before it passes 的字面与深意，与B选项完美对应，选B",
                 "option_nature": "正确项（隐喻破译/同义替换）",
-                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” ... and we feel a compulsive need to fill each bottle before it passes.",
-                "source_translation": "“未来如同传送带上一只只空瓶子，不可阻挡且近乎无尽地向我们驶来，”……而我们有一种强迫性的冲动，要在每个瓶子滑过之前将其填满。",
+                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.”",
+                "source_translation": "加里·埃伯利在其著作《神圣时间》中写道：“未来就像传送带上几乎无休止奔流而来的空瓶子，当它们掠过时，我们感到一种压力，必须去填满这些不同尺寸的瓶子（天、小时、分钟），因为如果任由它们空着流走，我们就会浪费掉它们。”",
                 "locator_comparison": "选项B指出该隐喻说明人们感受到“让流逝的时间过得充实（make passing time fulfilling）”的心理压力。定位句中，“empty bottles along an unstoppable conveyor belt”形象地将不可逆转、飞速流逝的时间具象化为从眼前掠过的瓶子（passing time）；而“compulsive need to fill each bottle before it passes”则生动刻画了人们唯恐虚度光阴、必须用生产力事件将其全部填满的强迫心理（make... fulfilling）。B选项对比喻的本体和喻体做了天衣无缝的提炼转化。",
                 "writing_perspective": "作者通过这一精准的工业流水线意象，将效率狂热者的荒诞心理剖析得淋漓尽致：时间被物化为容器，生活沦为填装比赛，选B高度再现了作者这一辛辣的修辞意图。",
                 "theme_validation": "全文反复反思现代人“不敢浪费一秒钟”的病态紧绷感，正是这种让时间极度充实的欲望杀死了悠闲的深阅读，B项直击主旨要害。",
@@ -5080,8 +5080,8 @@
               "analysis": {
                 "practice_status": "以为瓶子代表目标和计划，误以为是贯彻执行计划，排除",
                 "option_nature": "干扰项（曲解隐喻/主观臆断）",
-                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” ... to fill each bottle before it passes.",
-                "source_translation": "“未来如同传送带上一只只空瓶子，不可阻挡且近乎无尽地向我们驶来，”……要在每个瓶子滑过之前将其填满。",
+                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.”",
+                "source_translation": "加里·埃伯利在其著作《神圣时间》中写道：“未来就像传送带上几乎无休止奔流而来的空瓶子，当它们掠过时，我们感到一种压力，必须去填满这些不同尺寸的瓶子（天、小时、分钟），因为如果任由它们空着流走，我们就会浪费掉它们。”",
                 "locator_comparison": "选项C认为隐喻说明人们感受到“将计划贯彻到底（carry their plans through）”的压力。空瓶子象征的是源源不断涌来的“未来时间段”，填满瓶子代表的是即时的时间填充强迫症，而非长期的、具体的“规划方案（plans）”及其落地执行。选项C偷换了喻体所对应的心理实体，不符合原文关于即时充实感的剖析。",
                 "writing_perspective": "作者在此处探讨的是对时间本身流逝的恐惧，而不是执行力不足的职场烦恼；C选项从职场执行力的角度切入，完全会错了意。",
                 "theme_validation": "文章讨论的是我们与时间的关系，而非项目管理中的计划推进，C项偏离了对时间哲学的审视。",
@@ -5097,8 +5097,8 @@
               "analysis": {
                 "practice_status": "空瓶隐喻展示的是紧迫和焦虑，与无忧无虑的阅读完全相反，排除",
                 "option_nature": "干扰项（反向考查/自相矛盾）",
-                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” ... to fill each bottle before it passes.",
-                "source_translation": "“未来如同传送带上一只只空瓶子，不可阻挡且近乎无尽地向我们驶来，”……要在每个瓶子滑过之前将其填满。",
+                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.”",
+                "source_translation": "加里·埃伯利在其著作《神圣时间》中写道：“未来就像传送带上几乎无休止奔流而来的空瓶子，当它们掠过时，我们感到一种压力，必须去填满这些不同尺寸的瓶子（天、小时、分钟），因为如果任由它们空着流走，我们就会浪费掉它们。”",
                 "locator_comparison": "选项D声称人们感到“追求无忧无虑阅读（pursue carefree reading）”的压力。空瓶子流水线比喻展示的是高度工业化、令人窒息的紧迫感和生产力狂热；这种焦虑心态正是彻底毁掉“carefree reading（轻松无忧阅读）”的罪魁祸首。选项D把受害者（无忧阅读）说成是施加压力的目标，逻辑完全颠倒自相矛盾。",
                 "writing_perspective": "作者列举该比喻就是为了痛斥效率观剥夺了人们从容读书的心境，D项将结果与诱因黑白颠倒，行文逻辑上完全讲不通。",
                 "theme_validation": "文章主旨呼吁摆脱急躁回归平静阅读，而空瓶比喻是对病态急躁的写照，D项与段落语境截然相反。",
@@ -5121,8 +5121,8 @@
           "stem_cn": "埃伯勒同意安排定期阅读时间有助于______。",
           "type": "段落推理题",
           "locate_pid": 3,
-          "locate_sentence": "Perhaps surprisingly, scheduling regular times for reading.",
-          "locate_sentence_cn": "也许令人惊讶的是，安排固定的阅读时间。",
+          "locate_sentence": "So what does work? Perhaps surprisingly, scheduling regular times for reading. You’d think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time’s flow” into “soul time.”",
+          "locate_sentence_cn": "那么什么才有效呢？也许令人惊讶的是：为阅读安排固定时间。你可能会认为这会助长追求效率的心态，但事实上，埃伯利指出，这种仪式化的行为有助于我们“超脱于时间的洪流之外”，步入“灵魂时间”。",
           "options": [
             {
               "key": "A",
@@ -5133,8 +5133,8 @@
               "analysis": {
                 "practice_status": "看到原文出现 fuel the efficiency mind-set，注意前后转折让步，排除",
                 "option_nature": "干扰项（断章取义/将驳论当立论）",
-                "source_sentence": "You’d think this might fuel the efficiency mind-set, but in fact, it does the opposite.",
-                "source_translation": "你可能会认为这会助长那种效率心态，但事实上，它起到了相反的效果。",
+                "source_sentence": "So what does work? Perhaps surprisingly, scheduling regular times for reading. You’d think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time’s flow” into “soul time.”",
+                "source_translation": "那么什么才有效呢？也许令人惊讶的是：为阅读安排固定时间。你可能会认为这会助长追求效率的心态，但事实上，埃伯利指出，这种仪式化的行为有助于我们“超脱于时间的洪流之外”，步入“灵魂时间”。",
                 "locator_comparison": "选项A认为有助于“助长效率心态（encourage the efficiency mind-set）”。原文明确使用虚拟让步结构澄清读者的预设：“You’d think this might fuel the efficiency mind-set, but in fact, it does the opposite（你也许会以为这会火上浇油助长效率思维，但事实上恰恰相反）”。作者明确指出定期安排阅读时间能够击碎效率心态，而非鼓励（encourage）。A选项将作者极力推翻的错误预设当成结论，犯了典型的把驳论当立论的错误。",
                 "writing_perspective": "作者采用欲扬先抑的修辞手法，先指出常人容易产生的“误以为是搞效率”的偏见，再用 but 强势纠偏，A选项把被纠正的偏见捡起来当答案，完全无视论辩脉络。",
                 "theme_validation": "全文的主线就在于破除 efficiency mind-set，作者绝不可能提出一个为了增强效率心态的解决方案，A项彻底违背全篇主旨。",
@@ -5150,8 +5150,8 @@
               "analysis": {
                 "practice_status": "全文提倡读深奥严肃的书，绝非养成线上阅读习惯，排除",
                 "option_nature": "干扰项（无中生有/反向干扰）",
-                "source_sentence": "Perhaps surprisingly, scheduling regular times for reading... creates a protected space...",
-                "source_translation": "也许令人惊讶的是，为阅读安排固定时间……创造了一个受到保护的空间……",
+                "source_sentence": "So what does work? Perhaps surprisingly, scheduling regular times for reading. You’d think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time’s flow” into “soul time.”",
+                "source_translation": "那么什么才有效呢？也许令人惊讶的是：为阅读安排固定时间。你可能会认为这会助长追求效率的心态，但事实上，埃伯利指出，这种仪式化的行为有助于我们“超脱于时间的洪流之外”，步入“灵魂时间”。",
                 "locator_comparison": "选项B认为有助于“培养线上阅读习惯（develop online reading habits）”。原文讨论的阅读对象是需要潜心钻研的严肃书籍（serious books / demanding literature），与网络上浮躁碎片化的浅阅读（online skimming）完全对立。第2段甚至批评过网络上泛滥的快餐文章（The web’s full of articles）。文中从未提倡过培养线上阅读习惯，B项属于凭空捏造且反向干扰的选项。",
                 "writing_perspective": "作者开篇就把网络浅阅读作为导致注意力涣散的背景，呼吁人们回归书籍，B选项与作者守护深度文本的立场水火不容。",
                 "theme_validation": "数字在线环境正是时间碎片化的重灾区，提倡在线阅读与文章追求的专注冥想境界背道而驰，B项完全脱轨。",
@@ -5167,8 +5167,8 @@
               "analysis": {
                 "practice_status": "虽然定期时间类似某种仪式，但文章强调的是心理沉浸而非仪式化本身，排除",
                 "option_nature": "干扰项（偷换概念/表面化理解）",
-                "source_sentence": "Perhaps surprisingly, scheduling regular times for reading... creates a protected space where you are immersed...",
-                "source_translation": "也许令人惊讶的是，为阅读安排固定时间……创造了一个让你能够完全沉浸的受保护空间……",
+                "source_sentence": "So what does work? Perhaps surprisingly, scheduling regular times for reading. You’d think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time’s flow” into “soul time.”",
+                "source_translation": "那么什么才有效呢？也许令人惊讶的是：为阅读安排固定时间。你可能会认为这会助长追求效率的心态，但事实上，埃伯利指出，这种仪式化的行为有助于我们“超脱于时间的洪流之外”，步入“灵魂时间”。",
                 "locator_comparison": "选项C认为有助于“促进仪式化阅读（promote ritualistic reading）”。定时阅读虽然在形式上具有某种规律性，但 Eberle 强调该举措的真正价值在于在心理层面建立安全岛（protected space），从而达到心无旁骛的专注状态。文章没有任何文字宣扬形式主义的“仪式感（ritualistic）”。C选项以偏概全，把心理专注的实质偷换成了形式上的仪式化噱头。",
                 "writing_perspective": "作者关注的是阅读给大脑带来的深度滋养，若倡导 ritualistic reading，则将精神探索退化为装模作样的拍照打卡，这与作者对深度阅读的真诚追求相差甚远。",
                 "theme_validation": "文章反思的正是各种浮于表面的外在打卡套路，C项的形式主义倾向不合文章的精神实质。",
@@ -5184,8 +5184,8 @@
               "analysis": {
                 "practice_status": "对比 deep absorption 与 immersive reading，确定D项为同义完美转化，选D",
                 "option_nature": "正确项（同义置换/主旨契合）",
-                "source_sentence": "...it creates a protected space... where you can enter deeply into the world of the book, surrendering to its demands...",
-                "source_translation": "……它创造了一个受保护的空间……在那里你可以深深走进书本的世界，顺从它的要求……",
+                "source_sentence": "So what does work? Perhaps surprisingly, scheduling regular times for reading. You’d think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time’s flow” into “soul time.”",
+                "source_translation": "那么什么才有效呢？也许令人惊讶的是：为阅读安排固定时间。你可能会认为这会助长追求效率的心态，但事实上，埃伯利指出，这种仪式化的行为有助于我们“超脱于时间的洪流之外”，步入“灵魂时间”。",
                 "locator_comparison": "选项D指出安排固定阅读时间有助于“实现沉浸式阅读（achieve immersive reading）”。第4段深入分析，划定专门时间最大的妙处在于隔绝外界干扰，让人不再焦虑下一分钟该干什么，从而能够“enter deeply into the world of the book（深深进入书本世界）”并实现“deep absorption（深度沉醉与吸收）”。immersive reading 正是进入文本世界、全神贯注沉浸其中的专业精准表达。D选项与原文在意义和意境上均达成完美共鸣。",
                 "writing_perspective": "作者借 Eberle 之口给出了全篇最有力的破局点：只有用固定的时间围栏挡住效率机器的催逼，深阅读的沉浸体验才能失而复得，选D完整呈现了这一论述高潮。",
                 "theme_validation": "全文反复强调深阅读不可替代的沉浸体验（immersive quality），D项牢牢扣住了文章试图唤醒的终极阅读境界。",
@@ -5209,7 +5209,7 @@
           "type": "词义/例证题",
           "locate_pid": 3,
           "locate_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
-          "locate_sentence_cn": "“随时随身携带一本书”实际上也可以发挥作用——只要你经常阅读，这样阅读就成为默认状态，你可以暂时浮出水面处理事务，然后再放下来。",
+          "locate_sentence_cn": "“随身携带一本书”其实也管用——前提是你翻阅得足够频繁，以至于阅读成为你的默认常态，而你只是暂时从中抽身去处理事务，随后又潜回书本之中。",
           "options": [
             {
               "key": "A",
@@ -5220,8 +5220,8 @@
               "analysis": {
                 "practice_status": "在定位句中直接看到原句 so that reading becomes your primary business of the day，果断选A",
                 "option_nature": "正确项（原词复现/条件句匹配）",
-                "source_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes your primary business of the day...",
-                "source_translation": "“随时随地带一本书”实际上也能奏效——前提是你翻阅得足够频繁，以至于阅读成为你一天当中的首要事务……",
+                "source_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+                "source_translation": "“随身携带一本书”其实也管用——前提是你翻阅得足够频繁，以至于阅读成为你的默认常态，而你只是暂时从中抽身去处理事务，随后又潜回书本之中。",
                 "locator_comparison": "选项A指出该方法能够奏效的前提是“阅读成为你一天当中的主要事务（reading becomes your primary business of the day）”。定位句破折号后用 providing 给出限定条件：“providing you dip in often enough, so that reading becomes your primary business of the day”。A选项与原文从词汇到句意完全一字不差地精准吻合，属于绝对无争议的标准答案。",
                 "writing_perspective": "作者在此处提出了一种极具洞察力的心智翻转：传统时间管理让人把阅读当成见缝插针的余兴，而作者指出只有反客为主，把阅读当作一天的主线，零碎时间才能被串联成连贯的精神旅程，选A完美呼应了作者这一反常规的真知灼见。",
                 "theme_validation": "本文的核心就在于反抗把阅读边缘化、碎片化的现代病，让阅读重回生活的中心地位，A项完全契合主旨态度。",
@@ -5237,8 +5237,8 @@
               "analysis": {
                 "practice_status": "受常识‘先把正事办完再看书’的影响，但原文明确要求把阅读当正事，排除",
                 "option_nature": "干扰项（反向考查/常识陷阱）",
-                "source_sentence": "...providing you dip in often enough, so that reading becomes your primary business of the day...",
-                "source_translation": "……前提是你翻阅得足够频繁，以至于阅读成为你一天当中的首要事务……",
+                "source_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+                "source_translation": "“随身携带一本书”其实也管用——前提是你翻阅得足够频繁，以至于阅读成为你的默认常态，而你只是暂时从中抽身去处理事务，随后又潜回书本之中。",
                 "locator_comparison": "选项B声称条件是“所有日常事务都已得到迅速处理（all the daily business has been promptly dealt with）”。原文非但没有要求处理完其他事务才去读书，反而要求把读书本身升级为一天的首要事务（primary business）。如果必须等所有琐事都办完，现代人将永远没有时间读书（永远有新的邮件和杂事）。选项B将日常琐事置于阅读之前，与原文强调把阅读置于核心的逻辑背道而驰。",
                 "writing_perspective": "开篇第1段就指出“所有人都在抱怨太忙没空读书”，如果作者建议把日常事务全办完再读，就成了无法落地的空话，作者绝不会犯这种低级逻辑错误。",
                 "theme_validation": "全文都在告诫读者不要指望忙完一切再享受阅读，B项退回到了传统低效思维的泥坑中。",
@@ -5254,8 +5254,8 @@
               "analysis": {
                 "practice_status": "误解 business 含义，以为是读完书赶紧回去上班，排除",
                 "option_nature": "干扰项（曲解词义/颠倒主次）",
-                "source_sentence": "...so that reading becomes your primary business of the day...",
-                "source_translation": "……以至于阅读成为你一天当中的首要事务……",
+                "source_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+                "source_translation": "“随身携带一本书”其实也管用——前提是你翻阅得足够频繁，以至于阅读成为你的默认常态，而你只是暂时从中抽身去处理事务，随后又潜回书本之中。",
                 "locator_comparison": "选项C声称条件是“读完之后能够立刻回到事务中（you are able to drop back to business after reading）”。原文中的 business 是抽象含义，指代“主要关注点、头等大事（primary focus/business）”，即让阅读主导心神。选项C机械地将 business 理解为世俗工作，并捏造出“读完赶紧重回工作”的荒诞条件，完全扭曲了原句让阅读统领日常生活的深刻用意。",
                 "writing_perspective": "作者倡导的是沉浸在书中的思绪持续滋养日常，而不是像开关机器一样迅速跳回杂务，C选项严重背离作者对心灵连贯性的要求。",
                 "theme_validation": "作者一直在强调读书需要沉浸，反对把读书作为短暂插曲，C项的割裂视角与文章违和。",
@@ -5271,8 +5271,8 @@
               "analysis": {
                 "practice_status": "文中未提出五五开平均分配时间的概念，排除",
                 "option_nature": "干扰项（无中生有/数量凭空捏造）",
-                "source_sentence": "...so that reading becomes your primary business of the day...",
-                "source_translation": "……以至于阅读成为你一天当中的首要事务……",
+                "source_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+                "source_translation": "“随身携带一本书”其实也管用——前提是你翻阅得足够频繁，以至于阅读成为你的默认常态，而你只是暂时从中抽身去处理事务，随后又潜回书本之中。",
                 "locator_comparison": "选项D认为条件是“阅读与事务的时间能够平分（time can be evenly split for reading and business）”。原文中使用的是 primary（首要的、主要的），表达的是心理权重与注意力焦点的优先排序，根本没有在物理时间长度上提出任何所谓“evenly split（均等分配、五五开）”的数学化规定。D项属于无中生有凭空捏造的数字干扰项。",
                 "writing_perspective": "现代职场人不可能拿出50%的时间来读书，作者深谙现实处境，因此强调的是一种“随时拿起的心态”，而非不切实际的物理时间对半平分，D选项显得极其幼稚。",
                 "theme_validation": "文章讨论的是心境的安顿与认知的重构，而非冷冰冰的时间记账法则，D项偏离主旨。",
@@ -5295,8 +5295,8 @@
           "stem_cn": "本文的最佳标题可能是______。",
           "type": "全文主旨题",
           "locate_pid": 3,
-          "locate_sentence": "So what does work?",
-          "locate_sentence_cn": "那么什么有效呢？",
+          "locate_sentence": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient. ... In fact, “becoming more efficient” is part of the problem. ... So what does work? Perhaps surprisingly, scheduling regular times for reading.",
+          "locate_sentence_cn": "使问题更棘手的是，常规的时间管理技巧似乎并不奏效。……事实上，“提高效率”本身就是问题的一部分。……那么什么才有效呢？也许令人惊讶的是：为阅读安排固定时间。",
           "options": [
             {
               "key": "A",
@@ -5307,8 +5307,8 @@
               "analysis": {
                 "practice_status": "文章通篇讨论的是读难读的严肃书籍，非轻松阅读，排除",
                 "option_nature": "干扰项（曲解主题/反向考查）",
-                "source_sentence": "There’s never enough time to read... demanding literature requires patience, slow absorption...",
-                "source_translation": "永远没有足够的时间读书……高要求的文学作品需要耐心和缓慢的吸收……",
+                "source_sentence": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient. ... In fact, “becoming more efficient” is part of the problem. ... So what does work? Perhaps surprisingly, scheduling regular times for reading.",
+                "source_translation": "使问题更棘手的是，常规的时间管理技巧似乎并不奏效。……事实上，“提高效率”本身就是问题的一部分。……那么什么才有效呢？也许令人惊讶的是：为阅读安排固定时间。",
                 "locator_comparison": "选项A拟定标题为“如何享受轻松阅读（How to Enjoy Easy Reading）”。然而文章在第2段和第3段反复强调，我们之所以挤不出时间，是因为真正值得读的书通常是“challenging books / demanding literature（具有挑战性的书籍、高要求的文学作品）”，需要深度阅读（deep reading）。全文探讨的恰恰是“难读的书”，绝非“轻松浅显的阅读（easy reading）”。A项彻底搞反了阅读客体的性质。",
                 "writing_perspective": "若标题为 easy reading，读者会期待快餐文学或通俗小说推荐，而作者通篇是在苦口婆心地教人攻克严肃经典，A项题文严重不符。",
                 "theme_validation": "全文是在呼唤对深度与难度的重塑，倡导对抗快餐时代的浮躁，A项与文章精神格调背道而驰。",
@@ -5324,8 +5324,8 @@
               "analysis": {
                 "practice_status": "审视全文首尾段脉络，发现全文始终在解决‘没时间读书’的问题，秒选B",
                 "option_nature": "正确项（主旨提炼/标题归纳）",
-                "source_sentence": "There’s never enough time to read... What makes the problem thornier... In fact, “becoming more efficient” is part of the problem... So what does work? Perhaps surprisingly, scheduling regular times for reading.",
-                "source_translation": "永远没有足够的时间读书……使问题更棘手的是……事实上“追求高效”正是问题的一部分……那么什么方法管用呢？也许令人惊讶，为阅读安排固定时间。",
+                "source_sentence": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient. ... In fact, “becoming more efficient” is part of the problem. ... So what does work? Perhaps surprisingly, scheduling regular times for reading.",
+                "source_translation": "使问题更棘手的是，常规的时间管理技巧似乎并不奏效。……事实上，“提高效率”本身就是问题的一部分。……那么什么才有效呢？也许令人惊讶的是：为阅读安排固定时间。",
                 "locator_comparison": "选项B拟定标题为“如何找到时间去阅读（How to Find Time to Read）”。文章从第1段的痛点抱怨“There’s never enough time to read”，到第2、3段反思为何通用时间管理方法找不出时间，再到第4段设问并作答“So what does work? ... scheduling regular times for reading”，通篇的逻辑链条完全闭环在“时间分配与阅读”上。B选项直击全文最核心的矛盾与答案，凝练全面，是最佳标题。",
                 "writing_perspective": "作为一篇发表于主流文化专栏的随笔，作者以疑问与解惑为骨架，标题采用具有操作性和吸引力的 How to 句式，且核心词 Find Time 与 Read 完美抓取读者痛点，结构浑然一体。",
                 "theme_validation": "全文从始至终聚焦于时间管理哲学在阅读领域的重构，B项高度契合这一贯穿全篇的唯一焦点。",
@@ -5341,8 +5341,8 @@
               "analysis": {
                 "practice_status": "文中并未探讨如何制定读书目标或KPI，排除",
                 "option_nature": "干扰项（无中生有/偏离主旨）",
-                "source_sentence": "...thinking of time as a resource to be maximised means you approach life with an efficiency mind-set...",
-                "source_translation": "……把时间看作需要最大化利用的资源，意味着你带着效率心态对待生活……",
+                "source_sentence": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient. ... In fact, “becoming more efficient” is part of the problem. ... So what does work? Perhaps surprisingly, scheduling regular times for reading.",
+                "source_translation": "使问题更棘手的是，常规的时间管理技巧似乎并不奏效。……事实上，“提高效率”本身就是问题的一部分。……那么什么才有效呢？也许令人惊讶的是：为阅读安排固定时间。",
                 "locator_comparison": "选项C拟定标题为“如何设定阅读目标（How to Set Reading Goals）”。通篇阅读下来，作者从未给出过任何关于如何设定阅读目标（如一年读多少本、每天打卡几页等）的建议，反而一直在批判这种将阅读量化为目标考核的效率主义毒瘤。C选项将批判的靶子误作为文章提供的方法论，既无中生有又偏离文旨。",
                 "writing_perspective": "作者痛恨的是给心灵设置各种功利目标，文章倡导的是放下预期、臣服于文字（surrendering to text），C项带有浓重的KPI色彩，完全违背作者意图。",
                 "theme_validation": "文章倡导无为而治的深潜，反对设立数字化指标，C项完全与主旨脱节。",
@@ -5358,8 +5358,8 @@
               "analysis": {
                 "practice_status": "文中倡导深度精读，反对泛读，排除",
                 "option_nature": "干扰项（反向考查/偷换概念）",
-                "source_sentence": "...demanding literature requires patience, slow absorption, tolerating ambiguity, re-reading passages...",
-                "source_translation": "……高要求的文学需要耐心、缓慢吸收、容忍晦涩、反复研读……",
+                "source_sentence": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient. ... In fact, “becoming more efficient” is part of the problem. ... So what does work? Perhaps surprisingly, scheduling regular times for reading.",
+                "source_translation": "使问题更棘手的是，常规的时间管理技巧似乎并不奏效。……事实上，“提高效率”本身就是问题的一部分。……那么什么才有效呢？也许令人惊讶的是：为阅读安排固定时间。",
                 "locator_comparison": "选项D拟定标题为“如何进行泛读（How to Read Extensively）”。Extensively（泛读、广泛涉猎）在阅读学中通常指快读、浅读、扫读以获取大量信息。而作者在文中极力捍卫的是 deep reading（深度阅读、精读），要求慢下来、反复读、沉浸其中。选项D把作者所竭力倡导的“精读深读”偷换成了浮躁的“泛读广泛读”，与文章主旨背道而驰。",
                 "writing_perspective": "作者开篇即讽刺那些在通勤中浮光掠影的浅阅读技巧，其全部笔墨都在为慢读、深读张目，若冠以泛读标题，则彻底沦为笑柄。",
                 "theme_validation": "全文的精神内核是追求阅读的质（深度沉浸）而非量（广泛浏览），D项严重曲解文章核心价值。",
@@ -6624,7 +6624,7 @@
           "type": "事实细节题",
           "locate_pid": 1,
           "locate_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
-          "locate_sentence_cn": "跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。",
+          "locate_sentence_cn": "跨越几代人的界限，美国人仍然看重许多相同的传统成功人生里程碑，包括结婚、生子、拥有自己的住房以及在六十多岁退休。",
           "options": [
             {
               "key": "A",
@@ -6635,8 +6635,8 @@
               "analysis": {
                 "practice_status": "不同生活方式是年轻一代的独特探索，并非跨代际共识，排除",
                 "option_nature": "干扰项（张冠李戴/以偏概全）",
-                "source_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life...",
-                "source_translation": "跨越代际界限，美国人继续珍视许多相同的传统成功人生里程碑……",
+                "source_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
+                "source_translation": "跨越几代人的界限，美国人仍然看重许多相同的传统成功人生里程碑，包括结婚、生子、拥有自己的住房以及在六十多岁退休。",
                 "locator_comparison": "选项A声称跨代际的成功标志是“尝试不同的生活方式（trying out different lifestyles）”。第2段明确指出跨代际共同珍视的是“traditional milestones（传统里程碑：结婚、生子、买房、稳定工作）”。尝试不同生活方式或许是年轻人在现代社会的个性追求，但绝非两代人普遍认可的传统人生成功的标尺。A项混淆了两代共识与年轻人的特有偏好。",
                 "writing_perspective": "作者在第2段先叙述两代人的“同”（traditional milestones），第3段再转述两代人的“异”（年轻人的个性与现实考量），A选项把后续段落的个性分歧移花接木到了第2段的共识之中，破坏了行文结构。",
                 "theme_validation": "文章在第2段旨在强调传统美式成功观念的持久韧性，A项的多元颠覆性表述不符段落原意。",
@@ -6652,8 +6652,8 @@
               "analysis": {
                 "practice_status": "对照第2段中的 getting married 与 having children，直接锁定B",
                 "option_nature": "正确项（同义整合/事实细节）",
-                "source_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, buying a home...",
-                "source_translation": "跨越代际界限，美国人继续珍视许多相同的传统成功人生里程碑，包括结婚、生育子女、买房……",
+                "source_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
+                "source_translation": "跨越几代人的界限，美国人仍然看重许多相同的传统成功人生里程碑，包括结婚、生子、拥有自己的住房以及在六十多岁退休。",
                 "locator_comparison": "选项B指出跨代际成功标志之一是“组建一个有孩子的家庭（having a family with children）”。定位句明确交代：“Across generational lines... traditional milestones of a successful life, including getting married, having children...”。题干 cross-generation 严格对应 across generational lines；mark 对应 milestones；选项 having a family with children 则是对成家（getting married）与育儿（having children）的高度凝练与完美契合。事实完全吻合。",
                 "writing_perspective": "作者在开头树立这一代际共识，意在表明：尽管经济萧条重塑了青年生活轨迹，但人类对家庭温情与亲子传承的本质追求具有跨越时代的恒定性，选B准确呼应了这一社会学洞察。",
                 "theme_validation": "全文论证的基石正是“年轻人依然渴望传统幸福，只是现实变难了”，B项代表的家庭追求正是这一共性基石。",
@@ -6669,8 +6669,8 @@
               "analysis": {
                 "practice_status": "文中仅提到维持稳定工作，绝非超龄退休工作，排除",
                 "option_nature": "干扰项（曲解事实/无中生有）",
-                "source_sentence": "...and maintaining a steady job.",
-                "source_translation": "……以及保持一份稳定的工作。",
+                "source_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
+                "source_translation": "跨越几代人的界限，美国人仍然看重许多相同的传统成功人生里程碑，包括结婚、生子、拥有自己的住房以及在六十多岁退休。",
                 "locator_comparison": "选项C声称成功标志是“工作超越退休年龄（working beyond retirement age）”。原文第2段提及的工作相关标志仅是“maintaining a steady job（保持一份稳定的工作）”，这代表职业的稳定性与安全感。选项C将其恶意曲解为“退休后继续打工（working beyond retirement age）”，这在社会学上往往是被迫维持生计的无奈体现，绝非成功标志。C项偷换概念极其严重。",
                 "writing_perspective": "作者描绘的是中产阶级对安居乐业的经典向往，超龄工作是晚年保障缺失的病态征兆，绝不可能被作者当作成功里程碑，C选项背离常理。",
                 "theme_validation": "文章讨论的是青年人如何立足社会，而非老年人延迟退休的劳工问题，C项完全脱靶。",
@@ -6686,8 +6686,8 @@
               "analysis": {
                 "practice_status": "文中没有创业办企业的内容，排除",
                 "option_nature": "干扰项（无中生有/主观臆断）",
-                "source_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, buying a home, and maintaining a steady job.",
-                "source_translation": "跨越代际界限，美国人继续珍视许多相同的传统成功人生里程碑，包括结婚、生子、买房以及保持稳定工作。",
+                "source_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
+                "source_translation": "跨越几代人的界限，美国人仍然看重许多相同的传统成功人生里程碑，包括结婚、生子、拥有自己的住房以及在六十多岁退休。",
                 "locator_comparison": "选项D认为标志是“创办一家盈利的企业（setting up a profitable business）”。在第2段列举的四项传统里程碑（结婚、生子、买房、稳定工作）中，根本没有提及自主创业或开办企业（setting up a business）。普通大众眼中的成功生活基石是“steady job（旱涝保收的稳定工作）”，而非充满高风险的商业创业。D项纯属脱离文本凭空臆造。",
                 "writing_perspective": "作者呈现的是广谱美国百姓的主流愿景（maintaining a steady job），若替换为极少数人的商业创业冒险，就失去了代表普通社会阶层的普适性，D选项缺乏典型性。",
                 "theme_validation": "全文讨论的是普通青年在经济大衰退后的艰辛谋生，不是硅谷式的商业神话，D项与平民视角不合。",
@@ -6711,7 +6711,7 @@
           "type": "因果推断题",
           "locate_pid": 2,
           "locate_sentence": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
-          "locate_sentence_cn": "调查发现，与老年人相比，刚刚步入生活的年轻人更有可能优先考虑工作中的个人成就感，相信定期更换工作可以最大程度地促进职业发展，支持提供更多公共服务和更快生活节奏的社区，同意夫妻在结婚或生孩子之前应该有经济保障，并坚持认为孩子最好由两个在外工作的父母来照顾。",
+          "locate_sentence_cn": "调查发现，正处于人生起步阶段的年轻人比年长者更有可能优先考虑工作中的个人成就感，更有可能认为通过定期跳槽能最大限度地推进职业发展，更倾向于公共服务完善、生活节奏较快的社区，更认同夫妻在结婚或生子前应实现财务稳定，并坚持认为父母双方都外出工作对子女最有利。",
           "options": [
             {
               "key": "A",
@@ -6722,8 +6722,8 @@
               "analysis": {
                 "practice_status": "年轻人延迟结婚并非想放慢生活节奏，而是迫于生活压力，排除",
                 "option_nature": "干扰项（曲解文意/主观臆断）",
-                "source_sentence": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment...",
-                "source_translation": "刚刚步入社会的年轻人比年长者更有可能优先考虑个人价值的实现……",
+                "source_sentence": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+                "source_translation": "调查发现，正处于人生起步阶段的年轻人比年长者更有可能优先考虑工作中的个人成就感，更有可能认为通过定期跳槽能最大限度地推进职业发展，更倾向于公共服务完善、生活节奏较快的社区，更认同夫妻在结婚或生子前应实现财务稳定，并坚持认为父母双方都外出工作对子女最有利。",
                 "locator_comparison": "选项A认为年轻人倾向于“偏好更慢的生活节奏（favor a slower life pace）”。原文指出年轻人在结婚成家上出现推迟，是因为他们不得不先拼命打拼实现经济独立与个人发展（prioritize career and financial security），这表明他们的现实生活节奏高度紧张，绝非崇尚闲适慢节奏生活（favor a slower life pace）。A项把生活重压下的被迫推迟误解成了悠闲的主动选择，曲解文意。",
                 "writing_perspective": "作者在后文展现了年轻人面临的残酷爬坡困境（Pete Schneider 必须拼命加班），若定性为慢节奏生活，作者对青年困境的现实主义关怀将彻底沦为空谈。",
                 "theme_validation": "全文探讨的是大衰退带来的生存重负与现实考量，A项的小资慢调与沉重的现实基调截然相反。",
@@ -6739,8 +6739,8 @@
               "analysis": {
                 "practice_status": "文中只说老一代看重稳定工作，且现代年轻人跳槽更频繁，排除",
                 "option_nature": "干扰项（张冠李戴/反向常识）",
-                "source_sentence": "...Young people... were more likely to prioritize establishing a career...",
-                "source_translation": "……年轻人……更有可能优先考虑建立起一份事业……",
+                "source_sentence": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+                "source_translation": "调查发现，正处于人生起步阶段的年轻人比年长者更有可能优先考虑工作中的个人成就感，更有可能认为通过定期跳槽能最大限度地推进职业发展，更倾向于公共服务完善、生活节奏较快的社区，更认同夫妻在结婚或生子前应实现财务稳定，并坚持认为父母双方都外出工作对子女最有利。",
                 "locator_comparison": "选项B声称年轻人倾向于“从事一份职业的时间更久（hold an occupation longer）”。原文提到年轻人想要“establishing a career（确立事业生涯）”，指的是在社会上找到立足之地，根本没有谈及在单一工作岗位上“坚持更长时间（hold longer）”。恰恰相反，在当代经济环境中，年轻人为了待遇和发展频繁跳槽是常态，B选项既缺乏文本支撑，也与时代现实相背离。",
                 "writing_perspective": "作者在第3段强调的是年轻人把事业优先于家庭的价值重构，至于工作年限长短根本不在作者的论证视野内，B项引入不相干的职业留存概念，属于无端干扰。",
                 "theme_validation": "文章的主旨是财务门槛提高阻碍了人生规划，而不是分析职业流动率，B项偏离讨论焦点。",
@@ -6756,8 +6756,8 @@
               "analysis": {
                 "practice_status": "精确定位 achieving financial security before getting married，锁定C",
                 "option_nature": "正确项（同义替换/细节推论）",
-                "source_sentence": "...and achieving financial security before getting married and starting a family.",
-                "source_translation": "……以及在结婚和组建家庭之前实现财务安全。",
+                "source_sentence": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+                "source_translation": "调查发现，正处于人生起步阶段的年轻人比年长者更有可能优先考虑工作中的个人成就感，更有可能认为通过定期跳槽能最大限度地推进职业发展，更倾向于公共服务完善、生活节奏较快的社区，更认同夫妻在结婚或生子前应实现财务稳定，并坚持认为父母双方都外出工作对子女最有利。",
                 "locator_comparison": "选项C指出年轻人倾向于“重视婚前的财务状况（attach importance to pre-marital finance）”。定位句明确指出年轻一代的独特取向：achieving financial security before getting married（在步入婚姻之前先实现经济独立和财务安全保障）。C选项中，attach importance to 完美对标 prioritize，pre-marital 准确提炼 before getting married，finance 贴切概括 financial security。全项逻辑与语义毫无偏差。",
                 "writing_perspective": "作者通过对比两代人的婚恋时机，深刻揭示了大衰退给年轻人烙下的现实主义印记：不再相信有情饮水饱，必须先有物质基础（financial security）才敢承担家庭责任，选C精准呼应了这一社会学论点。",
                 "theme_validation": "全文核心议题就是经济压力如何深刻重塑年轻人的生活路线图，婚前财务优先（pre-marital finance）是该重塑的最典型表现，选C极度吻合主旨。",
@@ -6773,8 +6773,8 @@
               "analysis": {
                 "practice_status": "文中未提及家庭外托育服务，排除",
                 "option_nature": "干扰项（无中生有/过度推断）",
-                "source_sentence": "...prioritize personal fulfillment... before getting married and starting a family.",
-                "source_translation": "……在结婚和成家之前优先考虑个人实现……",
+                "source_sentence": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+                "source_translation": "调查发现，正处于人生起步阶段的年轻人比年长者更有可能优先考虑工作中的个人成就感，更有可能认为通过定期跳槽能最大限度地推进职业发展，更倾向于公共服务完善、生活节奏较快的社区，更认同夫妻在结婚或生子前应实现财务稳定，并坚持认为父母双方都外出工作对子女最有利。",
                 "locator_comparison": "选项D认为年轻人“优先考虑家庭外的托儿服务（give priority to childcare outside the home）”。定位段落讨论的是结婚和生育前的准备条件，通篇未曾出现过任何关于婴儿出生后由谁照料、是否送托儿所（childcare outside the home）的内容。选项D纯属利用育儿关联词胡乱编造的无中生有项。",
                 "writing_perspective": "作者的讨论尚停留在结婚成家的前置门槛上，孩子都还没生，怎么可能越级讨论托儿所选择？D选项在叙事发展上严重超前，纯属荒谬拼凑。",
                 "theme_validation": "文章聚焦的是婚姻家庭的经济准入门槛，而非具体的家政与育儿托管分工，D项完全跑题。",
@@ -6798,7 +6798,7 @@
           "type": "段落推理题",
           "locate_pid": 3,
           "locate_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
-          "locate_sentence_cn": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
+          "locate_sentence_cn": "从职业到社区再到家庭，这些鲜明对比表明，在惨烈的大衰退之后，那些刚刚步入生活的人正在确立新的优先考量和期望，这些期望将日益蔓延到美国人生活的几乎所有方面，从消费偏好到住房模式再到政治。",
           "options": [
             {
               "key": "A",
@@ -6809,8 +6809,8 @@
               "analysis": {
                 "practice_status": "文中说的是影响深远广泛，而非清晰度问题，排除",
                 "option_nature": "干扰项（无中生有/认知偏差）",
-                "source_sentence": "From career to community and family, these contrasts suggest that... those entering adulthood are redefining expectations...",
-                "source_translation": "从职业到社区再到家庭，这些反差表明……那些正在步入成年期的人正在重新定义期待……",
+                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
+                "source_translation": "从职业到社区再到家庭，这些鲜明对比表明，在惨烈的大衰退之后，那些刚刚步入生活的人正在确立新的优先考量和期望，这些期望将日益蔓延到美国人生活的几乎所有方面，从消费偏好到住房模式再到政治。",
                 "locator_comparison": "选项A认为年轻人的优先事项和期望将“变得越来越清晰（become increasingly clear）”。第4段的核心在于强调这些反差具有广泛的辐射力（From career to community and family），正在潜移默化地重塑国家，通篇并未讨论这种期望是清晰还是模糊，更没有提到 become increasingly clear 这一认知层面的演变趋势。A项纯属生造概念。",
                 "writing_perspective": "作者在第4段是要展现社会变迁的宏大图景，核心在于广度和深度，而非评估公众对该现象的认知辨识度，A选项切入视角完全错位。",
                 "theme_validation": "文章讨论的是价值观重构对现实社会的广泛重塑，而非对其透明度进行评价，A项偏离论题。",
@@ -6826,8 +6826,8 @@
               "analysis": {
                 "practice_status": "虽然年轻人重视财务安全，但文章强调其优先个人价值实现，非纯物质，排除",
                 "option_nature": "干扰项（以偏概全/偷换概念）",
-                "source_sentence": "Young people... were more likely than older adults to prioritize personal fulfillment...",
-                "source_translation": "年轻人……比年长者更有可能优先考虑个人价值的实现……",
+                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
+                "source_translation": "从职业到社区再到家庭，这些鲜明对比表明，在惨烈的大衰退之后，那些刚刚步入生活的人正在确立新的优先考量和期望，这些期望将日益蔓延到美国人生活的几乎所有方面，从消费偏好到住房模式再到政治。",
                 "locator_comparison": "选项B声称期望将“聚焦于物质问题（focus on materialistic issues）”。原文第3段和第4段明确指出年轻人追求的是“personal fulfillment（个人价值的自我实现）”与财务安全并重，并涵盖从社区交往（community）到精神归属的广泛范畴。选项B贬低性地使用 materialistic（物质主义的/拜金的），以偏概全地抹杀了年轻一代对精神自我实现的崇高追求，定性严重失实。",
                 "writing_perspective": "作者对年轻人的现实困境怀有深切同情，将其经济考量解释为理性生存，绝无贬损年轻人为“唯利是图的拜金主义者”的意图，B选项带有浓烈的感情色彩偏见。",
                 "theme_validation": "全文强调青年在逆境中对多元意义（fulfillment）的探索，B项的低俗物质化定性违背了全文的基本价值取向。",
@@ -6843,8 +6843,8 @@
               "analysis": {
                 "practice_status": "文中没有任何政治党派偏好的讨论，排除",
                 "option_nature": "干扰项（无中生有/过度发散）",
-                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession...",
-                "source_translation": "从职业到社区再到家庭，这些差异表明，在惨烈的大衰退之后……",
+                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
+                "source_translation": "从职业到社区再到家庭，这些鲜明对比表明，在惨烈的大衰退之后，那些刚刚步入生活的人正在确立新的优先考量和期望，这些期望将日益蔓延到美国人生活的几乎所有方面，从消费偏好到住房模式再到政治。",
                 "locator_comparison": "选项C声称将“主要取决于政治偏好（depend largely on political preferences）”。原文明确将这场青年观念革命的根源归结于经济危机（in the aftermath of the searing Great Recession）以及宏观经济与人口结构剧变，自始至终未曾出现任何政党（Democrats/Republicans）、政治派系或政治偏好（political preferences）的分析。C项纯属毫无根据的政治臆测。",
                 "writing_perspective": "作者以扎实的社会经济学数据为依托进行分析，刻意避开了美国媒体常见的党派口水战，C选项强行拉入党派政治叙事，破坏了文本的客观经济学底色。",
                 "theme_validation": "全篇探讨的是大衰退带来的普遍性经济阵痛，具有超越政治立场的全民性，C项脱离文本主轴。",
@@ -6860,8 +6860,8 @@
               "analysis": {
                 "practice_status": "由 From career to community and family 联想到全方位渗透，锁定D",
                 "option_nature": "正确项（同义概括/宏观归纳）",
-                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those entering adulthood are redefining expectations that will reshape the nation...",
-                "source_translation": "从职业到社区再到家庭，这些差异表明，在惨烈的大衰退之后，步入成年期的人们正在重新定义那些将重塑这个国家的预期……",
+                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
+                "source_translation": "从职业到社区再到家庭，这些鲜明对比表明，在惨烈的大衰退之后，那些刚刚步入生活的人正在确立新的优先考量和期望，这些期望将日益蔓延到美国人生活的几乎所有方面，从消费偏好到住房模式再到政治。",
                 "locator_comparison": "选项D指出年轻人的期望将“波及美国人生活的几乎所有方面（reach almost all aspects of American life）”。定位句开头通过介词短语列举：“From career to community and family（从职场、到社区、再到家庭）”，形象展现了影响范围的全方位覆盖；而后半句的“reshape the nation（重塑这个国家）”更是定性了这种广泛深远的重构力量。D选项用 reach almost all aspects of American life 进行了宏观而精准的概括，完全契合。",
                 "writing_perspective": "作者从微观个体的选择逐层递进推演，在第4段给出全局性的定论：这不仅仅是一代人的私事，而是将系统性重塑美国社会的方方面面，选D正是作者这一升华结论的忠实映射。",
                 "theme_validation": "全文展示了住房、就业、婚姻、教育等全领域的连锁反应，证明这种改变是全方位的（all aspects），D项与全局论述深度契合。",
@@ -6885,7 +6885,7 @@
           "type": "词义/例证题",
           "locate_pid": 4,
           "locate_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
-          "locate_sentence_cn": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
+          "locate_sentence_cn": "年轻一代与年长一代在一个关键点上达成高度共识：两组人群中绝大多数人都认为，当今年轻人在人生起步阶段面临的困难，远比前几代人当年更为严峻。",
           "options": [
             {
               "key": "A",
@@ -6896,8 +6896,8 @@
               "analysis": {
                 "practice_status": "虽然年轻人确实难找好工作，但文章共识的宏观表达是立足更难，排除",
                 "option_nature": "干扰项（以偏概全/偷换概念）",
-                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life...",
-                "source_translation": "年轻人和老年人在一个关键点上达成了一致：两组人群中的绝大多数都表示，他们认为当今年轻人想要在生活中立足比前几代人更加艰难……",
+                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
+                "source_translation": "年轻一代与年长一代在一个关键点上达成高度共识：两组人群中绝大多数人都认为，当今年轻人在人生起步阶段面临的困难，远比前几代人当年更为严峻。",
                 "locator_comparison": "选项A认为共识是“高薪工作变得更难获得（good-paying jobs are less available）”。定位句中两代人达成的明确共识是涵盖住房、婚姻、事业等综合维度的“在生活中立足立业更难（harder to get started in life / get established）”。好工作难找只是导致立足困难的可能原因之一，定位句中两代人从未明确就“good-paying jobs 数量减少”达成专门投票统计。A项以偏概全，且偷换了核心论断对象。",
                 "writing_perspective": "作者意在呈现两代人对青年整体生存境遇（getting established）的总体体恤与共识，若局限于好工作多少，就矮化了这一广泛社会共识的涵盖面。",
                 "theme_validation": "文章后续展示的困境包括教育回报率下降、买房不易等系统性难题，A项只看就业薪酬，未免叶公好龙。",
@@ -6913,8 +6913,8 @@
               "analysis": {
                 "practice_status": "两代人是在同情年轻人的艰难，并未争论谁的成就更大，排除",
                 "option_nature": "干扰项（无中生有/主观攀比）",
-                "source_sentence": "...Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for previous generations.",
-                "source_translation": "……两组人群中的绝大多数都表示，他们认为当今年轻人在生活中立足比前几代人更加艰难。",
+                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
+                "source_translation": "年轻一代与年长一代在一个关键点上达成高度共识：两组人群中绝大多数人都认为，当今年轻人在人生起步阶段面临的困难，远比前几代人当年更为严峻。",
                 "locator_comparison": "选项B声称共识是“老年人取得了更多的人生人生就（the old made more life achievements）”。原文探讨的是时代客观生存难度的对比（harder to get started），即老一辈当年起步时外部阻力更小、上升通道更顺畅，但这绝对不等于两代人得出结论说“老年人个人能力更强、成就更大（made more achievements）”。B项把对客观时代机遇的评价，歪曲为主观功绩的相互攀比，无中生有。",
                 "writing_perspective": "作者笔下的老一代对年轻一代充满关怀与客观理解，并不存在倚老卖老的傲慢炫耀，B选项平添代际对立，破坏了文章温和的社会学观察氛围。",
                 "theme_validation": "全文旨在揭示制度与经济结构对青年人的挤压，并非比较个人的历史成就，B项完全偏题。",
@@ -6930,8 +6930,8 @@
               "analysis": {
                 "practice_status": "房贷容易获取与现实和文意完全相反，排除",
                 "option_nature": "干扰项（与原文事实相反/反向考查）",
-                "source_sentence": "...Overwhelming majorities... believe it is harder for young people today to get started in life...",
-                "source_translation": "……绝大多数人……认为当今年轻人在生活中立足更加艰难……",
+                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
+                "source_translation": "年轻一代与年长一代在一个关键点上达成高度共识：两组人群中绝大多数人都认为，当今年轻人在人生起步阶段面临的困难，远比前几代人当年更为严峻。",
                 "locator_comparison": "选项C认为共识是“当今的住房贷款容易获得（housing loans today are easy to obtain）”。大衰退之后，金融信贷全面收紧，买房门槛大幅提高；后文明确提到年轻人买房艰难。选项C声称“房贷容易获得（easy to obtain）”，不仅与大衰退后的金融现实公然违背，更与全段强调年轻人立足艰难的论断南辕北辙。属于纯属胡扯的反向干扰项。",
                 "writing_perspective": "在论述青年人步履维艰的语境下，如果冒出房贷容易获得的结论，作者的论证体系将轰然瓦解，C选项违背基本经济常识。",
                 "theme_validation": "全文反复强调经济壁垒高筑，C项的盲目乐观论调属于典型的送命选项。",
@@ -6947,8 +6947,8 @@
               "analysis": {
                 "practice_status": "牢牢锁定 converge on one key point 后置的宾语从句，锁定D",
                 "option_nature": "正确项（同义转换/核心事实）",
-                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for previous generations.",
-                "source_translation": "年轻人和老年人在一个关键点上达成一致：两组人群中的绝大多数都表示，他们认为当今年轻人想要在生活中立足，比前几代人更加艰难。",
+                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
+                "source_translation": "年轻一代与年长一代在一个关键点上达成高度共识：两组人群中绝大多数人都认为，当今年轻人在人生起步阶段面临的困难，远比前几代人当年更为严峻。",
                 "locator_comparison": "选项D指出两代人一致认同“年轻人如今在社会上立足更加艰难（getting established is harder for the young）”。定位句明确使用冒号引出唯一共识点：“Young and old converge on one key point: ...it is harder for young people today to get started in life”。动名词短语 getting established（在社会上立足、成家立业）是 get started in life 的标准地道同义改写；harder for the young 完全原词复现。信息高度对称，毫无破绽。",
                 "writing_perspective": "作者特意用“Overwhelming majorities（压倒性多数）”和“converge on one key point”来强调该共识的无可撼动，意在向全社会大声疾呼：青年的困境绝非个体懒惰，而是整个社会跨代际公认的客观现实，选D极为震撼地呈现了这一主题巅峰。",
                 "theme_validation": "全文的灵魂正是对当代青年艰难处境的真实共情，D项就是该灵魂的直接文字化身。",
@@ -6971,8 +6971,8 @@
           "stem_cn": "以下关于施耐德的描述哪一项是正确的？",
           "type": "全文主旨题",
           "locate_pid": 5,
-          "locate_sentence": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
-          "locate_sentence_cn": "“我仍然在一个上层中产阶级家庭长大，父母没有大学学位，”施奈德说。",
+          "locate_sentence": "Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young. “I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said. “I don’t think people are capable of that anymore.”",
+          "locate_sentence_cn": "回想起来，他深感震惊的是，即使父母年轻时都没读完大学，却依然能为孩子提供舒适的生活。“我依然在一个中产阶级上层的家庭长大，而我的父母连大学文凭都没有，”施耐德说，“我认为现在的人再也做不到了。”",
           "options": [
             {
               "key": "A",
@@ -6983,8 +6983,8 @@
               "analysis": {
                 "practice_status": "误以为他是大学毕业生，但文中未提他读过大学，更非梦想工作，排除",
                 "option_nature": "干扰项（无中生有/张冠李戴）",
-                "source_sentence": "Schneider, a 27-year-old auto technician from the Chicago suburbs, says he is struggling...",
-                "source_translation": "施耐德是来自芝加哥郊区的一名 27 岁汽车技术人员，他表示自己正在苦苦挣扎……",
+                "source_sentence": "Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young. “I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said. “I don’t think people are capable of that anymore.”",
+                "source_translation": "回想起来，他深感震惊的是，即使父母年轻时都没读完大学，却依然能为孩子提供舒适的生活。“我依然在一个中产阶级上层的家庭长大，而我的父母连大学文凭都没有，”施耐德说，“我认为现在的人再也做不到了。”",
                 "locator_comparison": "选项A声称施耐德“大学毕业后找到了一份梦想的工作（found a dream job after graduating from college）”。第6段明确介绍其职业是汽车修理技师（auto technician），且他正在为生活艰难苦苦挣扎（struggling/tough climb），通篇从未提及他读过大学，更绝无“找到梦想工作（dream job）”的自豪。选项A把一个苦苦爬坡的蓝领工人臆想成了大学毕业的幸运儿，与事实严重不符。",
                 "writing_perspective": "作者选取施耐德作为全篇收尾的例证，正是看重他代表了那些没有大学精英光环、在蓝领岗位上辛勤工作的普通年轻人，A项虚构大学精英光环，破坏了案例的代表性。",
                 "theme_validation": "全文讨论的是普通青年面临的沉重阶层固化，A项的美好叙事脱离文章冷峻现实。",
@@ -7000,8 +7000,8 @@
               "analysis": {
                 "practice_status": "选项谈论父母对稳定工作的信念，文中未提父母的思想观念，排除",
                 "option_nature": "干扰项（无中生有/主观臆断）",
-                "source_sentence": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
-                "source_translation": "施耐德说：“我是在一个中产阶级上层的家庭长大的，而我父母并没有大学文凭。”",
+                "source_sentence": "Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young. “I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said. “I don’t think people are capable of that anymore.”",
+                "source_translation": "回想起来，他深感震惊的是，即使父母年轻时都没读完大学，却依然能为孩子提供舒适的生活。“我依然在一个中产阶级上层的家庭长大，而我的父母连大学文凭都没有，”施耐德说，“我认为现在的人再也做不到了。”",
                 "locator_comparison": "选项B认为施耐德的“父母认为稳定工作是成功的必备条件（His parents believe working steadily is a must for success）”。施耐德在引语中仅仅客观陈述了父母的受教育情况（didn't have college degrees）以及创造的家庭条件（upper middle-class home），通篇完全没有涉及他父母内心对“成功秘诀”有什么观念或信条（believe ... is a must）。B项属于凭空脑补父母心理活动的无中生有项。",
                 "writing_perspective": "施耐德在此处做的是纵向历史对比（当年凭普通工作就能过上好日子 vs 如今即便拼命也难企及），父母的观念在此毫无论证意义，B选项无事生非。",
                 "theme_validation": "文章聚焦客观经济条件的代际变迁，而非父母的家教理念，B项偏离讨论主旨。",
@@ -7017,8 +7017,8 @@
               "analysis": {
                 "practice_status": "细读定位句 parents who didn't have college degrees yet built an upper middle-class home，锁定C",
                 "option_nature": "正确项（事实提炼/同义归纳）",
-                "source_sentence": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
-                "source_translation": "施耐德说：“我是在一个中产阶级上层的家庭长大的，而我的父母连大学文凭都没有。”",
+                "source_sentence": "Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young. “I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said. “I don’t think people are capable of that anymore.”",
+                "source_translation": "回想起来，他深感震惊的是，即使父母年轻时都没读完大学，却依然能为孩子提供舒适的生活。“我依然在一个中产阶级上层的家庭长大，而我的父母连大学文凭都没有，”施耐德说，“我认为现在的人再也做不到了。”",
                 "locator_comparison": "选项C指出“他父母优越的好生活与大学学位关系不大（His parents’ good life has little to do with a college degree）”。定位句中施耐德用带有反差色彩的语气明确指出：“I still grew up in an upper middle-class home with parents who didn’t have college degrees（我的父母连大学文凭都没有，但我却在一个中上阶层的富足家庭中长大）”。富足的中产生活（good life）与没有大学学位（didn't have college degrees）并存，直接证实了在那个时代，拥有美好生活并不依赖大学文凭。C选项推导合情合理，严丝合缝。",
                 "writing_perspective": "作者引用这句话具有极其深刻的讽刺意味与时代对比度：过去的黄金时代无需大学文凭就能轻松过上体面中产生活，而如今的年轻人付出数倍努力却依然深陷泥潭，选C深刻揭示了作者的这一反思重心。",
                 "theme_validation": "文章旨在反思“美国梦”门槛的历史性剧变，施耐德父母的经历正是昔日繁荣的鲜活注脚，C项高度契合主旨内核。",
@@ -7034,8 +7034,8 @@
               "analysis": {
                 "practice_status": "施耐德感到挑战的是阶层上升和生活立足，而非具体技师工作本身，排除",
                 "option_nature": "干扰项（偷换概念/重心错位）",
-                "source_sentence": "Pete Schneider considers the climb tougher today... 'For me, achieving that same security is tough'...",
-                "source_translation": "皮特·施耐德认为当今的阶层攀升更加艰难……“对我来说，获得同样的经济安全感非常艰难”……",
+                "source_sentence": "Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young. “I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said. “I don’t think people are capable of that anymore.”",
+                "source_translation": "回想起来，他深感震惊的是，即使父母年轻时都没读完大学，却依然能为孩子提供舒适的生活。“我依然在一个中产阶级上层的家庭长大，而我的父母连大学文凭都没有，”施耐德说，“我认为现在的人再也做不到了。”",
                 "locator_comparison": "选项D认为他“认为自己作为技师的工作极具挑战性（thinks his job as a technician quite challenging）”。施耐德感叹的艰难是“the climb tougher today（当今年轻人向社会上层攀登、实现经济安稳的过程更艰难）”，即时代阶层跃升与经济安全感的艰难，而不是指他从事的汽车修理技师的具体日常工作业务具有多么高的“技术挑战性（quite challenging）”。D选项偷换了艰难挑战的具体对象。",
                 "writing_perspective": "作者探讨的是宏观经济对年轻一代的普遍挤压，而非讨论某个具体技术工种的技术难度，D选项格局完全缩小并偏离了社会学探讨。",
                 "theme_validation": "全文讨论的是青年立足时代的艰辛，而不是职业岗位本身的胜任力，D项重心严重偏离。",

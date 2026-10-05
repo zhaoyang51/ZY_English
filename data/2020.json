@@ -1269,7 +1269,7 @@
           "stem_cn": "奎因和她的同事进行了一项测试，以探究大鼠是否能够______。",
           "type": "事实细节题",
           "locate_pid": 0,
-          "locate_sentence": "To find out if this extends to non-living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
+          "locate_sentence": "To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
           "locate_sentence_cn": "为了查明这种能力是否能延伸到非生命物体上，加利福尼亚大学圣迭戈分校的拉莱·奎因及其同事测试了大鼠是否能从机器鼠身上探测到社交信号。",
           "options": [
             {
@@ -1281,7 +1281,7 @@
               "analysis": {
                 "practice_status": "考生定位到第1段末句'tested whether rats can detect social signals from robotic rats'即可秒杀正确答案。",
                 "option_nature": "同义替换项。将原文中的'detect'（探测、识别）替换为'pick up'（接收、察觉），将'robotic rats'与前文'non-living beings'结合转化为'non-living rats'。",
-                "source_sentence": "To find out if this extends to non-living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
+                "source_sentence": "To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
                 "source_translation": "为了查明这种能力是否能延伸到非生命物体上，加利福尼亚大学圣迭戈分校的拉莱·奎因及其同事测试了大鼠是否能从机器鼠身上探测到社交信号。",
                 "locator_comparison": "选项'pick up social signals from non-living rats'与定位句'detect social signals from robotic rats'语义完全等同。",
                 "writing_perspective": "作者首段从动物识别同伴的自然天性切入，引出科学家突破性的假设：老鼠对社交信号的敏感是否强大到能够跨越生命界限、与机器人互动。",
@@ -1298,7 +1298,7 @@
               "analysis": {
                 "practice_status": "考生看到第1段首句提到了'identify friends... and enemies to avoid'，容易受表层词汇吸引而误选。",
                 "option_nature": "张冠李戴项。首句指出大鼠天然具备辨识敌友的能力，奎因的实验并非重新验证这个已知常识，而是探索该能力能否拓展到'non-living beings'（非生物）上。",
-                "source_sentence": "Rats and other animals need to be highly attuned to social signals... so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non-living beings...",
+                "source_sentence": "Rats and other animals need to be highly attuned to social signals... so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non- living beings...",
                 "source_translation": "大鼠和其他动物需要对来自他者的社交信号高度敏感，以便辨认出可以合作的朋友和需要避开的敌人。为了查明这种能力是否能延伸到非生命物体上……",
                 "locator_comparison": "首句是普遍背景知识（'identify friends... and enemies'），第2句明确指出实验的变量是'non-living beings'（机器鼠），选项混淆了已知前提与实验测试对象。",
                 "writing_perspective": "作者以已知生物本能作为铺垫，引出实验的创新点，B项完全忽略了实验最关键的自变量（机器鼠）。",
@@ -1315,7 +1315,7 @@
               "analysis": {
                 "practice_status": "考生容易将心理学或动物行为学中常见的'行为训练'概念代入实验过程。",
                 "option_nature": "无中生有项。大鼠对社交信号的反应是其与生俱来的天性（attuned to social signals），实验并没有通过特殊训练去培养它们的社交特质（attain sociable traits）。",
-                "source_sentence": "To find out if this extends to non-living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
+                "source_sentence": "To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
                 "source_translation": "为了查明这种能力是否能延伸到非生命物体上，加利福尼亚大学圣迭戈分校的拉莱·奎因及其同事测试了大鼠是否能从机器鼠身上探测到社交信号。",
                 "locator_comparison": "原文测试的是大鼠现存的感知敏感度（'detect'），实验过程中让机器鼠与活鼠同住共处，根本没有对活鼠进行任何'special training'（特殊训练）。",
                 "writing_perspective": "作者强调的是老鼠本能对极简社交线索的自发反应，训练假设完全背离了研究的本意。",
@@ -1332,7 +1332,7 @@
               "analysis": {
                 "practice_status": "考生容易根据'enemies to avoid'自行动作联想，臆断老鼠会发出警报。",
                 "option_nature": "无中生有项。文章通篇探讨的是老鼠接收社交信号、共同探索以及互惠解救，从未涉及发出'warning messages'（警报信号）。",
-                "source_sentence": "To find out if this extends to non-living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
+                "source_sentence": "To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
                 "source_translation": "为了查明这种能力是否能延伸到非生命物体上，加利福尼亚大学圣迭戈分校的拉莱·奎因及其同事测试了大鼠是否能从机器鼠身上探测到社交信号。",
                 "locator_comparison": "定位句关注的是老鼠接收信号（'detect'），选项编造为老鼠向同伴发送警告（'send out warning messages'），主体与动作方向均不符。",
                 "writing_perspective": "实验的核心是测试跨物种/跨生命的合作与解救，与群体警报无关。",
@@ -1651,7 +1651,7 @@
               "analysis": {
                 "practice_status": "考生看到首句提到了'Rats and other animals'，容易脑补出老鼠比其他动物社交更活跃的推断。",
                 "option_nature": "无中生有项。首句指出大鼠和其他动物都需要感知社交信号，末句指出人类儿童和其他动物也会被机器人吸引，但全文从未在老鼠与其他动物之间比较谁更'socially active'（社交活跃）。",
-                "source_sentence": "Rats and other animals need to be highly attuned to social signals... 'We humans seem to be fascinated by robots, and it turns out other animals are too,' says Wiles.",
+                "source_sentence": "Rats and other animals need to be highly attuned to social signals... “We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.",
                 "source_translation": "大鼠和其他动物都需要对社交信号高度敏感……怀尔斯说：“我们人类似乎对机器人着迷，事实证明其他动物也是如此。”",
                 "locator_comparison": "原文将老鼠作为社会性动物的代表，但没有给出任何横向跨物种活跃度比较数据（'more... than other animals'）。",
                 "writing_perspective": "作者旨在通过大鼠实验揭示普遍的动物社交互动规律，而非评选动物界的社交冠军。",

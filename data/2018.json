@@ -1392,7 +1392,7 @@
           "type": "事实细节题",
           "locate_pid": 1,
           "locate_sentence": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
-          "locate_sentence_cn": "从何时起，学生能够说出美国第13任总统的名字，却因一条断了的自行车链条而不知所措，竟成了公认的常理？",
+          "locate_sentence_cn": "从什么时候开始，学生能够叫出美国第13任总统的名字，却在一根断裂的自行车链条面前完全不知所措，成为了公认的常理？",
           "options": [
             {
               "key": "A",
@@ -1403,8 +1403,8 @@
               "analysis": {
                 "practice_status": "对比修自行车链条与死记硬背总统名字的反差，秒定A",
                 "option_nature": "正确项（例证提炼/核心意图）",
-                "source_sentence": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly baffled by a broken bike chain?",
-                "source_translation": "从什么时候起，能叫出美国第13任总统的名字、却对一根断了的自行车链条束手无策，成了被普遍接受的常识？",
+                "source_sentence": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+                "source_translation": "从什么时候开始，学生能够叫出美国第13任总统的名字，却在一根断裂的自行车链条面前完全不知所措，成为了公认的常理？",
                 "locator_comparison": "选项A指出提到修自行车链条是为了揭示学生缺乏“实际动手能力（practical ability）”。定位句通过鲜明的反差修辞展开论述：学生掌握了抽象的书本死知识（name the 13th president），却在面对物理世界中最基本的手工修理任务时彻底困惑（utterly baffled by a broken bike chain）。这生动表明应试教育导致了学生实际动手操作技能的严重退化与缺失。A选项用 practical ability 精准提炼了动手修理能力，完全契合。",
                 "writing_perspective": "作者在此以极具讽刺意味的反问句作为破题点，旨在唤醒社会对技能型职业教育价值的重新审视，选A准确抓住了作者反对坐而论道、呼唤实践动手的核心立论初衷。",
                 "theme_validation": "全文围绕职业技能教育与动手能力的尊严展开，修车链条正是“动手实践（working with hands）”的具象化代表，A项完全契合主旨。",
@@ -1420,8 +1420,8 @@
               "analysis": {
                 "practice_status": "背总统名字正是学术训练的产物，修车链条表明缺少的是实践而非学术训练，排除",
                 "option_nature": "干扰项（张冠李戴/反向考查）",
-                "source_sentence": "...name the 13th president of the United States but be utterly baffled by a broken bike chain...",
-                "source_translation": "……叫出美国第13任总统的名字，却对断掉的自行车链条束手无策……",
+                "source_sentence": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+                "source_translation": "从什么时候开始，学生能够叫出美国第13任总统的名字，却在一根断裂的自行车链条面前完全不知所措，成为了公认的常理？",
                 "locator_comparison": "选项B认为反映了学生缺乏“学术训练（academic training）”。恰恰相反，能够背诵出极度冷门的第13任美国总统姓名，正是应试性“学术训练（academic training）”过度规训的产物。学生们缺少的根本不是学术训练，而是走出象牙塔的动手生存能力。B项把学生过剩的书本学术记忆误判为缺乏学术训练，颠倒了事实。",
                 "writing_perspective": "作者在后文明确批评整个社会正在向学术学位（bachelor’s degrees for all）过度倾斜，若声称学生缺少学术训练，则与作者批判过度学术化的逻辑彻底相悖，B选项逻辑荒谬。",
                 "theme_validation": "文章批判的就是学校重学术轻实操的偏狭导向，B项结论南辕北辙。",
@@ -1437,8 +1437,8 @@
               "analysis": {
                 "practice_status": "pioneering 是形容 Koziatek 办学的定语，非修车链条说明的品质，排除",
                 "option_nature": "干扰项（偷换概念/修饰词拼凑）",
-                "source_sentence": "Mr. Koziatek is part of something pioneering... but be utterly baffled by a broken bike chain...",
-                "source_translation": "科齐亚特克先生参与了一项开创性的事业……但却对断了的自行车链条一筹莫展……",
+                "source_sentence": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+                "source_translation": "从什么时候开始，学生能够叫出美国第13任总统的名字，却在一根断裂的自行车链条面前完全不知所措，成为了公认的常理？",
                 "locator_comparison": "选项C认为反映了学生缺乏“开拓/先锋精神（pioneering spirit）”。原文第2段首句提到“Mr. Koziatek is part of something pioneering（他在参与一项开创性的先锋探索）”，用来赞扬这位职业教育教师突破陈规的改革举措。选项C将形容教师改革事业的词汇“pioneering”，强行嫁接与曲解为学生身上缺乏的“开拓精神”。属于典型的断章取义与概念盗用。",
                 "writing_perspective": "修自行车属于基本生活动手常识，根本上升不到先锋开拓精神的高度，C选项大词小用，违背常识常理。",
                 "theme_validation": "文章倡导脚踏实地的工匠精神与劳动尊严，而非虚无缥缈的口号式先锋精神，C项偏离论旨。",
@@ -1454,8 +1454,8 @@
               "analysis": {
                 "practice_status": "机械记忆是背总统名字的特征，选项主体偷换，排除",
                 "option_nature": "干扰项（主体倒置/特征错置）",
-                "source_sentence": "...name the 13th president of the United States but be utterly baffled by a broken bike chain...",
-                "source_translation": "……叫出美国第13任总统的名字，却对断掉的自行车链条束手无策……",
+                "source_sentence": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+                "source_translation": "从什么时候开始，学生能够叫出美国第13任总统的名字，却在一根断裂的自行车链条面前完全不知所措，成为了公认的常理？",
                 "locator_comparison": "选项D声称反映了学生缺乏“机械记忆能力（mechanical memorization）”。能够背出冷门历史人名，恰恰证明学生具备极强的“机械记忆能力（mechanical memorization）”。掉链子修不好暴露的是动手能力瘫痪，而不是记不住东西。D项把学生身上原本存在的僵化死记硬背特征，反向扣成缺乏该能力，彻底颠倒逻辑。",
                 "writing_perspective": "作者正是借此讽刺当下的教育体系沉溺于死记硬背（mechanical memorization），D选项不仅颠倒逻辑，更是将批判的靶子当成了药方，极其荒谬。",
                 "theme_validation": "全文反思机械填鸭教育对人的异化，D项的机械记忆与文章倡导的人的全面发展格格不入。",
@@ -1479,7 +1479,7 @@
           "type": "因果推断题",
           "locate_pid": 3,
           "locate_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
-          "locate_sentence_cn": "他说，职业教育类的学校“存在那种刻板印象……即那是为学业不佳的孩子准备的”。",
+          "locate_sentence_cn": "他说，职业教育大家庭中的学校“有着那种刻板印象……认为那是为在学业上无法成功的孩子准备的。”",
           "options": [
             {
               "key": "A",
@@ -1490,8 +1490,8 @@
               "analysis": {
                 "practice_status": "选项盗用 stereotype 词根，纯属字面拼凑，排除",
                 "option_nature": "干扰项（偷换概念/词根欺骗）",
-                "source_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it in the classroom.”",
-                "source_translation": "职业教育体系下的学校“背负着那样的刻板印象……即那是给那些在常规课堂里混不下去的孩子准备的。”",
+                "source_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
+                "source_translation": "他说，职业教育大家庭中的学校“有着那种刻板印象……认为那是为在学业上无法成功的孩子准备的。”",
                 "locator_comparison": "选项A认为偏见是认为职业教育面向那些“思想僵化/有刻板思维的孩子（kids who have a stereotyped mind）”。原文中的 stereotype 是指全社会外界对职业学校贴上的“刻板印象/偏见（prejudice）”。选项A恶意偷换词性与语法角色，将社会大众的刻板偏见，曲解为学生自己脑子僵化（stereotyped mind）。属于典型的利用形近词根制造的障眼法干扰项。",
                 "writing_perspective": "作者在第4段是要批判社会大众的偏见，而非指责学生思维僵化，A选项混淆了施加偏见者与遭受偏见者的心理状态，破坏了社会批判的指向。",
                 "theme_validation": "全文旨在为职校生正名，揭露外部社会评价的扭曲，A项把矛头反向指向受害学生，完全违背主旨。",
@@ -1507,8 +1507,8 @@
               "analysis": {
                 "practice_status": "读职校正是为了学一技之长就业，未提缺乏职业动机，排除",
                 "option_nature": "干扰项（无中生有/反向考查）",
-                "source_sentence": "“...that it’s for kids who can’t make it in the classroom,” Koziatek says.",
-                "source_translation": "科齐亚特克说：“……那是给那些在常规课堂上混不下去的孩子准备的。”",
+                "source_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
+                "source_translation": "他说，职业教育大家庭中的学校“有着那种刻板印象……认为那是为在学业上无法成功的孩子准备的。”",
                 "locator_comparison": "选项B声称偏见认为那是针对“没有职业发展动机的孩子（have no career motivation）”。事实上，选择职业教育的学生往往职业意向更为务实明确，希望早日学成一技之长立足社会。原文明确界定偏见焦点完全在于传统的“应试课堂表现（in the classroom）”，通篇未曾指责这些学生缺乏职业动机（career motivation）。B项纯属脱离文本的无端臆测。",
                 "writing_perspective": "如果职校生没有职业动机，职业教育就无从谈起；作者强调的是他们有强烈的动手和工作意愿，只是不适应死板的应试课堂，B选项违背事实。",
                 "theme_validation": "文章推崇职业技能与就业准备，B项无中生有否定职业动机，不合常理。",
@@ -1524,8 +1524,8 @@
               "analysis": {
                 "practice_status": "准确将 can't make it in the classroom 同义替换为 not academically successful，选C",
                 "option_nature": "正确项（同义替换/刻板印象还原）",
-                "source_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it in the classroom,” Koziatek says.",
-                "source_translation": "科齐亚特克说，属于职业教育序列的学校“往往背负着这种刻板印象……即那是给那些在普通课堂上学不好的孩子准备的。”",
+                "source_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
+                "source_translation": "他说，职业教育大家庭中的学校“有着那种刻板印象……认为那是为在学业上无法成功的孩子准备的。”",
                 "locator_comparison": "选项C指出偏见在于认为职业教育只适合那些“学业上不成功的孩子（are not academically successful）”。定位句中，“kids who can’t make it in the classroom”极为形象地刻画了在传统以读写、考试为主导的应试教室中成绩不佳、跟不上的学生。in the classroom 完美对应学术/课业维度（academically）；can't make it 准确对应不成功（not successful）。C选项同义置换严丝合缝，毫无瑕疵。",
                 "writing_perspective": "作者在此深刻剖析了现代教育单一评价标准的残酷性：只要纸笔考试考不好，就被社会打上劣等（mark of inferiority）的烙印；选C精准体现了作者对这种唯分数论偏见的犀利揭露。",
                 "theme_validation": "全文反复呼吁拒绝用单一的学术标准度量所有孩子（diversity vs. one-size-fits-all），C项准确扣合这一批评核心。",
@@ -1541,8 +1541,8 @@
               "analysis": {
                 "practice_status": "虽然蓝领家庭多，但原文明确界定偏见是成绩差，非经济贫困，排除",
                 "option_nature": "干扰项（常识干扰/偷换偏见维度）",
-                "source_sentence": "“...that it’s for kids who can’t make it in the classroom,” Koziatek says.",
-                "source_translation": "科齐亚特克说：“……那是给在普通课堂上学不好的孩子准备的。”",
+                "source_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
+                "source_translation": "他说，职业教育大家庭中的学校“有着那种刻板印象……认为那是为在学业上无法成功的孩子准备的。”",
                 "locator_comparison": "选项D认为偏见是认为职校适合“经济处于劣势的孩子（are financially disadvantaged）”。虽然在社会现实中底层家庭孩子上职校比例较高，但原文在第4段明确白纸黑字指出，此时讨论的“stereotype（刻板印象）”唯一定位在智力与应试学业层面（can’t make it in the classroom），根本没有将偏见定义为家庭经济贫困（financially disadvantaged）。D项用现实中的阶层常识偷换了文本所精准设定的学术偏见维度。",
                 "writing_perspective": "作者在第4段集中探讨教育认知与心智尊严问题，将体力劳动等同于智力低下（mark of inferiority）；若泛化为贫富差距，就偏离了教育观反思的重心，D选项维度错配。",
                 "theme_validation": "文章批判的是对体力劳动技能的歧视，而非同情贫困，D项脱离论述重心。",
@@ -1653,7 +1653,7 @@
           "type": "词义/例证题",
           "locate_pid": 5,
           "locate_sentence": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs.",
-          "locate_sentence_cn": "但是，盲目推动所有人去读学士学位——以及对低于该学位的文凭的隐性贬低——忽视了重要的一点：那并不是美国经济唯一需要的东西。",
+          "locate_sentence_cn": "但是盲目推动所有人去读学士学位——以及对低于学士学位的任何学业的微妙贬低——遗漏了一个重要观点：那并不是美国经济所需要的唯一东西。",
           "options": [
             {
               "key": "A",
@@ -1664,8 +1664,8 @@
               "analysis": {
                 "practice_status": "猛推本科导致中等技能岗位无人问津，而非创造岗位，排除",
                 "option_nature": "干扰项（反向考查/因果错乱）",
-                "source_sentence": "But the headlong push into bachelor’s degrees for all... misses an important point: that many middle-skill jobs don’t require a four-year degree.",
-                "source_translation": "但是盲目推行全员本科学位——以及对所有非本科学历的微妙贬低——遗漏了一个重要事实：许多中等技能岗位根本不需要四年制大学文凭。",
+                "source_sentence": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs.",
+                "source_translation": "但是盲目推动所有人去读学士学位——以及对低于学士学位的任何学业的微妙贬低——遗漏了一个重要观点：那并不是美国经济所需要的唯一东西。",
                 "locator_comparison": "选项A认为盲目推行全员本科学历“有助于创造大量中等技能工作（helps create a lot of middle-skill jobs）”。原文指出，盲目推行全员本科学历的恶果，恰恰是让年轻人盲目涌入大学，导致社会上大量的“中等技能工作（middle-skill jobs）”因缺乏对口技术工人而长期空缺、遭遇忽视。它不仅没有“创造（create）”这些岗位，反而阻碍了岗位与人才的匹配。A项把被忽视的现实问题错当成了推进成果，颠倒黑白。",
                 "writing_perspective": "作者在第6段旨在揭露学历狂热制造的结构性失业（大学生毕业即失业，中等技工无人填补）；若声称其创造了中等岗位，作者的批判矛头将不攻自破，A选项自相矛盾。",
                 "theme_validation": "全文论证的核心病灶就是过度教育造成中等技能人才断档，A项彻底违背文章反思宗旨。",
@@ -1681,8 +1681,8 @@
               "analysis": {
                 "practice_status": "全员本科反而加剧了对蓝领的歧视与分化，排除",
                 "option_nature": "干扰项（反向干扰/与现实相反）",
-                "source_sentence": "...and the subtle devaluing of anything less...",
-                "source_translation": "……以及对任何非本科学历的隐性贬低……",
+                "source_sentence": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs.",
+                "source_translation": "但是盲目推动所有人去读学士学位——以及对低于学士学位的任何学业的微妙贬低——遗漏了一个重要观点：那并不是美国经济所需要的唯一东西。",
                 "locator_comparison": "选项B声称可能“缩小工人阶级工作中的差距（may narrow the gap in working-class jobs）”。第6段明确使用破折号补充道：“the subtle devaluing of anything less（对非本科文凭的一切技能进行了隐性的贬低与贬值）”。这一盲目冒进行为直接导致不读大学的普通工人阶级遭受更加严重的体制性歧视，社会分化进一步加剧（第7段提到工人阶级由此深感愤怒）。B项宣称其能“缩小差距（narrow the gap）”，与事实彻底相反。",
                 "writing_perspective": "作者指出这种狂热正是撕裂美国社会的元凶之一，B选项粉饰太平宣称缩小差距，与作者所描绘的政治撕裂背景水火不容。",
                 "theme_validation": "文章反思的是学历崇拜给蓝领带来的深重剥夺感，B项的美好推测完全背离现实批判。",
@@ -1698,8 +1698,8 @@
               "analysis": {
                 "practice_status": "虽然盲目推行者可能抱有此期望，但作者此处是在揭露其盲目高估的实质，排除",
                 "option_nature": "干扰项（主观偏见/脱离批判本质）",
-                "source_sentence": "But the headlong push into bachelor’s degrees for all... misses an important point...",
-                "source_translation": "但是盲目推行全员本科学位……遗漏了一个重要问题……",
+                "source_sentence": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs.",
+                "source_translation": "但是盲目推动所有人去读学士学位——以及对低于学士学位的任何学业的微妙贬低——遗漏了一个重要观点：那并不是美国经济所需要的唯一东西。",
                 "locator_comparison": "选项C认为其“被期望产生一支训练更优秀的劳动力大军（is expected to yield a better-trained workforce）”。作者在此使用批判性措辞“headlong push（盲目冒进）”并指出其“misses an important point（错失要害）”，意在定性指出这是一场脱离产业实际的盲目大跃进，导致大量学生耗费四年却没有学到真正的实用技能。C选项退回到支持者的宣传口号，用虚幻的期望掩盖了作者在此进行体制性批判的锐利锋芒。",
                 "writing_perspective": "作者在此处的论证重心是“破”而非“立”，是在无情戳破大学文凭通胀的泡沫，C选项附和盲目的假象，失去了客观定性能力。",
                 "theme_validation": "全文贯穿的核心观点就是大学教育不能包办一切职业素养，C项盲目相信高学历等于好训练，不合文旨。",
@@ -1715,8 +1715,8 @@
               "analysis": {
                 "practice_status": "抓取 headlong push 与 devaluing of anything less，提炼为过度高估高等教育，选D",
                 "option_nature": "正确项（批判定性/同义概括）",
-                "source_sentence": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point...",
-                "source_translation": "但这种盲目推行全员本科学位的做法——以及对所有非本科学位价值的隐性贬低——却忽视了一个极其重要的事实……",
+                "source_sentence": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs.",
+                "source_translation": "但是盲目推动所有人去读学士学位——以及对低于学士学位的任何学业的微妙贬低——遗漏了一个重要观点：那并不是美国经济所需要的唯一东西。",
                 "locator_comparison": "选项D指出该做法“表明了对高等教育的过度重视与高估（indicates the overvaluing of higher education）”。定位句中，作者用贬义词“headlong push into bachelor’s degrees for all（一窝蜂盲目强推所有人读大学本科）”以及“subtle devaluing of anything less（贬低所有职业技能）”，极其犀利地揭示了整个社会陷入了对四年制大学文凭的畸形狂热与病态盲信。D选项用 overvaluing of higher education（对高等教育的过度高估）精准提炼了这种贬抑实操、拔高文凭的社会偏见，一语中的。",
                 "writing_perspective": "作者在此完成了对美国主流教育观念的当头棒喝：高等教育固然重要，但盲目推向全员并贬低其他一切，就是病态的 overvaluing；选D最忠实、最深刻地传达了作者的批判神髓。",
                 "theme_validation": "全文从头至尾反思的正是“学历崇拜”对工匠技能的扼杀，D项切中全文思想灵魂。",
@@ -1740,7 +1740,7 @@
           "type": "全文主旨题",
           "locate_pid": 7,
           "locate_sentence": "Koziatek’s school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
-          "locate_sentence_cn": "科齐亚泰克的学校是一记警钟。当教育变成“一刀切”的模式时，就有可能忽视一个国家所拥有的多元才能。",
+          "locate_sentence_cn": "科齐亚泰克的学校是一记警钟。当教育变得千篇一律时，就有可能忽视一个国家多元的天赋与才华。",
           "options": [
             {
               "key": "A",
@@ -1751,8 +1751,8 @@
               "analysis": {
                 "practice_status": "通读全文对该校的开创性与警钟赞誉，秒定A选项 supportive",
                 "option_nature": "正确项（态度提炼/通篇情感主调）",
-                "source_sentence": "Mr. Koziatek is part of something pioneering... Koziatek’s school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts and needs.",
-                "source_translation": "科齐亚特克先生参与了一项开创性的事业……科齐亚特克的学校是一记及时的警钟。当教育变成千篇一律的一刀切模式时，它就有可能忽视一个国家在天赋与需求方面的多元性。",
+                "source_sentence": "Mr. Koziatek is part of something pioneering. ... Koziatek’s school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+                "source_translation": "科齐亚泰克先生是开创性事业的一员。……科齐亚泰克的学校是一记警钟。当教育变得千篇一律时，就有可能忽视一个国家多元的天赋与才华。",
                 "locator_comparison": "选项A指出作者的态度是“支持的、赞许的（supportive）”。从第2段将该校定义为“pioneering（先锋破冰之举）”，到中间各段为该校所践行的动手教育进行深刻辩护、痛批社会唯文凭论的偏狭，再到末段将该校赞扬为唤醒教育多样性的“wake-up call（警钟）”，作者自始至终坚定站在该校一方，对其给予全方位的赞扬与声援。A选项 supportive 定性极为准确。",
                 "writing_perspective": "作者以极具公共责任感的姿态，通过撰文呼吁打破偏见、为改革者正名；文章结尾的崇高评价展现了强烈的政治与教育盟友立场，选A完美呼应了作者的写作立场。",
                 "theme_validation": "全文旨在推广这种尊重天赋多元性的创新办学模式，支持该校就是守护文章自身的立论大旗，A项无可撼动。",
@@ -1768,8 +1768,8 @@
               "analysis": {
                 "practice_status": "作者在高度盛赞而非勉强宽容，排除",
                 "option_nature": "干扰项（感情色彩降级/偏离赞赏）",
-                "source_sentence": "Koziatek’s school is a wake-up call...",
-                "source_translation": "科齐亚特克的学校是一记警钟……",
+                "source_sentence": "Mr. Koziatek is part of something pioneering. ... Koziatek’s school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+                "source_translation": "科齐亚泰克先生是开创性事业的一员。……科齐亚泰克的学校是一记警钟。当教育变得千篇一律时，就有可能忽视一个国家多元的天赋与才华。",
                 "locator_comparison": "选项B认为作者的态度是“宽容的（tolerant）”。宽容意味着勉强容忍存在缺陷或异端的非主流事物。然而作者在文中对该校不仅没有任何免为其难的勉强，反而将其树立为拯救美国僵化应试体系的典范（pioneering, wake-up call），展现出由衷的推崇。选项B将崇高的赞扬降格为勉强的宽容，严重失真。",
                 "writing_perspective": "作者把该校看作指路明灯，绝非勉强包容的异类；B选项的冷漠与退让姿态，完全违背作者热情呼吁改革的文字张力。",
                 "theme_validation": "文章反思的是主流体制的错误，视该校为正确解法，B项立场倒置，果断排除。",
@@ -1785,8 +1785,8 @@
               "analysis": {
                 "practice_status": "作者失望的是一刀切的教育体制，对该校则充满赞扬，主体张冠李戴，排除",
                 "option_nature": "干扰项（主体张冠李戴/反向考查）",
-                "source_sentence": "...frustrated that the opportunities... Koziatek’s school is a wake-up call.",
-                "source_translation": "……因机会不再而深感沮丧……科齐亚特克的学校是一记警钟。",
+                "source_sentence": "Mr. Koziatek is part of something pioneering. ... Koziatek’s school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+                "source_translation": "科齐亚泰克先生是开创性事业的一员。……科齐亚泰克的学校是一记警钟。当教育变得千篇一律时，就有可能忽视一个国家多元的天赋与才华。",
                 "locator_comparison": "选项C认为作者的态度是“失望的（disappointed）”。作者确实流露出了失望的情绪，但其失望的对象是“全美盲目推行全员本科的教育体制（one-size-fits-all education）”以及造成工人生存困境的经济现状。对于 Koziatek 敢于破局的学校，作者只有赞叹与钦佩。选项C把作者对主流体制的失望，张冠李戴到了被赞美的新型学校头上，彻底搞反了对象。",
                 "writing_perspective": "作者通过将体制的令人失望与学校的令人振奋进行剧烈对照，来强化改革诉求，C选项混淆两者，彻底瓦解了文章的论证对比骨架。",
                 "theme_validation": "新型学校是走出教育失望的希望之光，C项彻底颠倒了黑白立场。",
@@ -1802,8 +1802,8 @@
               "analysis": {
                 "practice_status": "作者态度极其旗帜鲜明，毫无谨慎保留，排除",
                 "option_nature": "干扰项（态度明确性曲解）",
-                "source_sentence": "When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts and needs.",
-                "source_translation": "当教育变成千篇一律的一刀切模式时，它就有可能忽视一个国家在天赋与需求方面的多元性。",
+                "source_sentence": "Mr. Koziatek is part of something pioneering. ... Koziatek’s school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+                "source_translation": "科齐亚泰克先生是开创性事业的一员。……科齐亚泰克的学校是一记警钟。当教育变得千篇一律时，就有可能忽视一个国家多元的天赋与才华。",
                 "locator_comparison": "选项D声称作者的态度是“谨慎的（cautious）”。谨慎态度通常表现为在肯定成绩的同时指出一系列潜在风险、副作用或需要时间检验的保守言论。而作者在文中通篇行文如高山滚石，旗帜鲜明、毫无保留地赞扬该校的先锋价值，未曾提出过任何怀疑、担忧或观望性保留意见。D项把坚决的支持判定为犹豫谨慎，违背客观事实。",
                 "writing_perspective": "作者作为观点评论员，旨在发起一场关于教育哲学的战斗宣言，文字充满决绝的激情，绝无四平八稳的谨慎保留，D选项缺乏对政论文体魄力的感知。",
                 "theme_validation": "文章需要激浊扬清、打破坚冰，谨慎态度无法承载全文强烈的呼吁使命，D项不成立。",
@@ -3410,7 +3410,7 @@
           "type": "因果推断题",
           "locate_pid": 2,
           "locate_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
-          "locate_sentence_cn": "据美国能源信息署报告，今年3月，风能和太阳能发电量首次占到美国总发电量的10%以上。",
+          "locate_sentence_cn": "美国能源信息署报告称，今年3月，风能和太阳能发电量首次占到美国总发电量的10%以上。",
           "options": [
             {
               "key": "A",
@@ -3421,8 +3421,8 @@
               "analysis": {
                 "practice_status": "苏格兰风电占比近60%，美国刚破10%，二者差距明显，并非一样广泛，排除",
                 "option_nature": "干扰项（曲解对比数据/违背事实）",
-                "source_sentence": "In Scotland, for example, wind turbines provided roughly 60 percent... In March, for the first time, wind and solar accounted for more than 10 percent...",
-                "source_translation": "例如在苏格兰，风力涡轮机提供了大约 60% 的电力……3月份，风能和太阳能首次占到全美发电量的 10% 以上……",
+                "source_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+                "source_translation": "美国能源信息署报告称，今年3月，风能和太阳能发电量首次占到美国总发电量的10%以上。",
                 "locator_comparison": "选项A认为美国可再生能源的使用“与欧洲一样广泛（is as extensive as in Europe）”。定位段落中，作者分别列举了两组数据进行对照：欧洲的苏格兰风电占比已高达近60%（60 percent）；而美国则是刚刚有史以来第一次突破10%的大关（more than 10 percent）。两者在普及程度上存在数倍的巨大客观差距，根本谈不上“as extensive as（一样广泛）”。A项属于对对比数据严重失真的曲解项。",
                 "writing_perspective": "作者将欧洲（苏格兰）作为走在前列的领头羊引路人，再引出美国正在迎头赶上的势头；A选项抹杀两者客观阶梯差距，破坏了行文严谨的比较逻辑。",
                 "theme_validation": "全文承认美国新能源仍处于追赶和突破期，盲目自夸与欧洲并驾齐驱不符合文章实事求是的基调，A项失真。",
@@ -3438,8 +3438,8 @@
               "analysis": {
                 "practice_status": "对比 for the first time more than 10 percent，确认取得显著突破，选B",
                 "option_nature": "正确项（同义概括/数据里程碑）",
-                "source_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US.",
-                "source_translation": "今年3月，风能和太阳能发电量首次占到全美总发电量的 10% 以上。",
+                "source_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+                "source_translation": "美国能源信息署报告称，今年3月，风能和太阳能发电量首次占到美国总发电量的10%以上。",
                 "locator_comparison": "选项B指出美国可再生能源“正在取得显著进展（is progressing notably）”。定位句明确记载了一项历史性跨越：风能和太阳能在全美发电结构中的占比“for the first time（有史以来第一次）”突破了两位数（more than 10 percent）。在能源转型史上，10%是公认摆脱小众边缘、迈入主流电网的标志性门槛。B选项用 progressing notably 极其得体且精准地概括了这一令人瞩目的实质性突破，完全符合原文意图。",
                 "writing_perspective": "作者在第3段通过列举这一具有历史分水岭意义的数据，旨在向怀疑论者有力证明：清洁能源革命不再是空谈，而是正在美国大地上真实发生并加速推进，选B完美呈现了作者的论证力量。",
                 "theme_validation": "全文的主线就在于论证新能源正在不可逆转地大踏步前进，B项与该主线完全同向共振。",
@@ -3455,8 +3455,8 @@
               "analysis": {
                 "practice_status": "已占到全美电网10%以上，证明其完全实用，排除",
                 "option_nature": "干扰项（与原文事实相反/反向考查）",
-                "source_sentence": "...wind and solar power accounted for more than 10 percent of the power generated in the US.",
-                "source_translation": "……风能和太阳能发电量占到美国总发电量的 10% 以上。",
+                "source_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+                "source_translation": "美国能源信息署报告称，今年3月，风能和太阳能发电量首次占到美国总发电量的10%以上。",
                 "locator_comparison": "选项C声称美国可再生能源“已被证明是不切实际的（has proved to be impractical）”。如果一项技术已经被全美电网大规模并网消纳、贡献了超过全美十分之一的澎湃电力，它就已经用铁的事实证明了自身的高度实用性与可靠性。选项C声称其 impractical，与事实截然相反，属于典型的反向颠倒项。",
                 "writing_perspective": "作者全篇在用冷酷的事实数据打脸那些声称新能源不可行的怀疑论者，C选项把怀疑论者的陈词滥调当成作者结论，极其荒诞。",
                 "theme_validation": "文章的核心价值就在于宣告清洁能源实用化时代的全面降临，C项彻底颠覆主旨。",
@@ -3472,8 +3472,8 @@
               "analysis": {
                 "practice_status": "本段纯粹展示增长突破，后文才解决储能挑战，段落重心错位，排除",
                 "option_nature": "干扰项（以偏概全/脱离段落定位）",
-                "source_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent...",
-                "source_translation": "3月份，风能和太阳能首次占到全美发电量的10%以上……",
+                "source_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+                "source_translation": "美国能源信息署报告称，今年3月，风能和太阳能发电量首次占到美国总发电量的10%以上。",
                 "locator_comparison": "选项D声称其“面临诸多挑战（faces many challenges）”。题干严格限定“According to Paragraph 3”。在第3段中，作者从苏格兰的60%一气呵成写到美国破纪录的10%，整段文字全部浸润在对跨越式成效的肯定赞美之中，根本没有在第3段展开叙述面临什么困难与挑战。D项脱离段落核心定位，以泛化的常识负面词汇冲淡本段的突破成就。",
                 "writing_perspective": "作者在行文上节奏分明：第3段展示势头（progressing），第5段才引入对风平无光等技术挑战的反思与化解；D选项跨段强塞挑战，破坏了段落各司其职的论述秩序。",
                 "theme_validation": "第3段的使命就是确立新能源在现实中的飞跃，D项与段落意图错位。",
@@ -3497,7 +3497,7 @@
           "type": "段落推理题",
           "locate_pid": 3,
           "locate_sentence": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
-          "locate_sentence_cn": "但这一言论在爱荷华州并未受到广泛欢迎，那里的风力发电机遍布田野，提供了该州36%的发电量——而且微软等科技巨头正被清洁能源的可用性所吸引，用其为数据中心供电。",
+          "locate_sentence_cn": "但这一信息在爱荷华州很多人看来并不讨好，在爱荷华州，风力涡轮机星罗棋布，提供了该州36%的发电量——而且像微软这样的科技巨头正被清洁能源的可用性所吸引，用以供应其数据中心。",
           "options": [
             {
               "key": "A",
@@ -3508,8 +3508,8 @@
               "analysis": {
                 "practice_status": "虽然风电占比超三分之一，但未彻底取代全部化石能源，极端化表述排除",
                 "option_nature": "干扰项（绝对化扩大/过度推断）",
-                "source_sentence": "...where wind turbines dot the fields and provide more than a third of the state’s electricity.",
-                "source_translation": "……在那里，风力涡轮机点缀着田野，并提供了该州三分之一以上的电力。",
+                "source_sentence": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+                "source_translation": "但这一信息在爱荷华州很多人看来并不讨好，在爱荷华州，风力涡轮机星罗棋布，提供了该州36%的发电量——而且像微软这样的科技巨头正被清洁能源的可用性所吸引，用以供应其数据中心。",
                 "locator_comparison": "选项A认为在爱荷华州“风能已经完全取代了化石燃料（wind energy has replaced fossil fuels）”。原文给出的精准数据是风能提供了该州“超过三分之一的电力（more than a third of the state’s electricity）”，这证明风电虽然规模庞大，但剩下的近三分之二电网依然需要其他能源（包括化石能源）支撑。选项A使用绝对化的 replaced（彻底替代），犯了考研英语极典型的以偏概全与绝对化夸大错误。",
                 "writing_perspective": "严谨的科技报道强调能源过渡的长期渐进性，第1段开宗明义指出化石燃料仍占85%，作者绝不可能自相矛盾地声称风能已经全面取代化石能源，A选项严重失真。",
                 "theme_validation": "全文倡导理性的能源转型，而非不切实际的一蹴而就，A项极端化表达不成立。",
@@ -3525,8 +3525,8 @@
               "analysis": {
                 "practice_status": "风力发电机遍地且供电超三分之一，绝非短缺，排除",
                 "option_nature": "干扰项（与原文事实相反/反向考查）",
-                "source_sentence": "...wind turbines dot the fields and provide more than a third of the state’s electricity.",
-                "source_translation": "……风力涡轮机星罗棋布于田野，提供该州三分之一以上的电力。",
+                "source_sentence": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+                "source_translation": "但这一信息在爱荷华州很多人看来并不讨好，在爱荷华州，风力涡轮机星罗棋布，提供了该州36%的发电量——而且像微软这样的科技巨头正被清洁能源的可用性所吸引，用以供应其数据中心。",
                 "locator_comparison": "选项B声称爱荷华州“清洁能源供应短缺（there is a shortage of clean energy supply）”。原文描绘的是一派蓬勃丰饶的景象：风机星罗棋布（dot the fields）、电力输出庞大（more than a third）。正因清洁能源极其充沛且深入人心，当地人才对特朗普兜售的煤炭不屑一顾。选项B声称清洁能源短缺（shortage），与欣欣向荣的现实完全相反。",
                 "writing_perspective": "作者在此展示的是一场具有讽刺意味的政治碰壁：政客拿着旧煤炭去向清洁能源大省推销，碰了一鼻子灰；若当地能源短缺，政客的说辞反而会受欢迎，B选项完全颠倒了戏剧冲突的根源。",
                 "theme_validation": "文章反思保守政客与产业现实的脱节，B项抹杀了新能源在当地的雄厚根基。",
@@ -3542,8 +3542,8 @@
               "analysis": {
                 "practice_status": "文中提到的是汽车制造商投资电池，未提科技巨头投资爱荷华，排除",
                 "option_nature": "干扰项（无中生有/跨段拼凑）",
-                "source_sentence": "...did not play well with many in Iowa, where wind turbines dot the fields...",
-                "source_translation": "……但这一言论在爱荷华州并没有受到很多人的欢迎，那里的风力发电机点缀着田野……",
+                "source_sentence": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+                "source_translation": "但这一信息在爱荷华州很多人看来并不讨好，在爱荷华州，风力涡轮机星罗棋布，提供了该州36%的发电量——而且像微软这样的科技巨头正被清洁能源的可用性所吸引，用以供应其数据中心。",
                 "locator_comparison": "选项C认为在爱荷华州“科技巨头正在投资清洁能源（tech giants are investing in clean energy）”。在第4段中，关于爱荷华州的叙述完全围绕当地的风电普及率（dot the fields, more than a third）展开。通篇未曾提及“科技巨头（tech giants，如谷歌、微软）”在爱荷华州投资。C项属于脱离第4段文本事实的凭空捏造项。",
                 "writing_perspective": "作者在第4段聚焦的是寻常百姓和地方农场的直观感受（fields），而非大型跨国科技公司的资本运作，C选项引入不相干的企业主体，分散了地域民众共识的代表性。",
                 "theme_validation": "文章探讨的是地缘产业生态对政客说辞的自发抵制，C项缺乏针对性支撑。",
@@ -3559,8 +3559,8 @@
               "analysis": {
                 "practice_status": "依据 dot the fields 和 more than a third electricity，秒定D",
                 "option_nature": "正确项（同义概括/事实提炼）",
-                "source_sentence": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide more than a third of the state’s electricity.",
-                "source_translation": "但这番话在爱荷华州许多人听来并不顺耳，在那里，风力发电机星罗棋布于田野，并提供了该州三分之一以上的电力。",
+                "source_sentence": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+                "source_translation": "但这一信息在爱荷华州很多人看来并不讨好，在爱荷华州，风力涡轮机星罗棋布，提供了该州36%的发电量——而且像微软这样的科技巨头正被清洁能源的可用性所吸引，用以供应其数据中心。",
                 "locator_comparison": "选项D指出在爱荷华州“风能是一种被广泛使用的能源（wind is a widely used energy source）”。定位句通过视觉画面与统计数据进行双重印证：“wind turbines dot the fields（风机点缀着田野）”证明其地理分布无处不在；“provide more than a third of electricity（提供超过三分之一电量）”证明其在能源供应中占据支柱地位。D选项用 widely used energy source 极其恰当、稳健地归纳了这两重特征，完全契合。",
                 "writing_perspective": "作者通过这个细节给华盛顿政客上了一堂生动的现实课：市场和技术早已走在立法者前面，绿色转型已在地方落地生根，选D深刻传递了作者对市场力量的信赖。",
                 "theme_validation": "全文反复强调可再生能源已经从实验室设想走向全社会的广泛日常应用，D项正是这一论点的坚实实证。",
@@ -3583,8 +3583,8 @@
           "stem_cn": "根据第 5 段和第 6 段，以下关于清洁能源的说法哪一项是正确的？",
           "type": "词义/例证题",
           "locate_pid": 5,
-          "locate_sentence": "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
-          "locate_sentence_cn": "这一进展部分是由汽车制造商推动的，他们正对电池驱动的电动汽车下重注。",
+          "locate_sentence": "But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely. The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+          "locate_sentence_cn": "但是电池存储容量的提升使得它们全天候保持电力流动的能力变得更加可能。这一进展在一定程度上是由汽车制造商推动的，他们正对电池供电的电动汽车下大赌注。",
           "options": [
             {
               "key": "A",
@@ -3595,8 +3595,8 @@
               "analysis": {
                 "practice_status": "因果倒置：是电池技术促进了清洁能源储存，而非清洁能源应用促进电池储存，排除",
                 "option_nature": "干扰项（因果颠倒/主谓倒置）",
-                "source_sentence": "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles... making continuous power supply a reality.",
-                "source_translation": "这一进步在一定程度上是由汽车制造商推动的，他们正大手笔押注于电池驱动的电动汽车……使持续供电成为现实。",
+                "source_sentence": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics. But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely. The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+                "source_translation": "“当不起风或太阳不出来时会发生什么？”这个问题曾为怀疑论者提供了现成的驳斥理由。但是电池存储容量的提升使得它们全天候保持电力流动的能力变得更加可能。这一进展在一定程度上是由汽车制造商推动的，他们正对电池供电的电动汽车下大赌注。",
                 "locator_comparison": "选项A声称“清洁能源的应用推动了电池储存（Its application has boosted battery storage）”。原文明确指出因果链条的真正流向是：是电动汽车制造商对电池的重金投资以及电池技术的自身飞跃（advances in batteries），反过来攻克了清洁能源间歇性的致命痛点、促进了新能源的电网消纳。选项A将作为推手的电池储能，倒置为新能源应用的结果，犯了因果颠倒的主被动错位错误。",
                 "writing_perspective": "作者在第5、6段是在论证跨行业技术协同效应（电池产业赋能电力能源），若如A选项所述因果，整套产业协同的逻辑链条将彻底断裂，A选项逻辑错乱。",
                 "theme_validation": "文章强调储能技术对清洁能源的拯救赋能作用，A项因果倒置，破坏论点。",
@@ -3612,8 +3612,8 @@
               "analysis": {
                 "practice_status": "文中说车企押注电池电动车，并非汽车制造过程中普遍使用清洁能源，排除",
                 "option_nature": "干扰项（偷换概念/混淆生产环节）",
-                "source_sentence": "...vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
-                "source_translation": "……汽车制造商，他们正对电池驱动的电动汽车下大赌注。",
+                "source_sentence": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics. But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely. The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+                "source_translation": "“当不起风或太阳不出来时会发生什么？”这个问题曾为怀疑论者提供了现成的驳斥理由。但是电池存储容量的提升使得它们全天候保持电力流动的能力变得更加可能。这一进展在一定程度上是由汽车制造商推动的，他们正对电池供电的电动汽车下大赌注。",
                 "locator_comparison": "选项B声称清洁能源“在汽车制造过程中被普遍使用（is commonly used in car manufacturing）”。原文讲的是汽车制造商研发制造的产品是“以电池为动力的电动汽车（battery-powered electric vehicles）”，以此带动了电池产业大发展。这绝不等于汽车制造工厂本身的组装线上“普遍使用清洁能源电力来进行生产制造（commonly used in manufacturing）”。B项严重偷换了产品属性与工厂生产制造能源的概念。",
                 "writing_perspective": "作者关注的是新能源汽车对电池产业链的拉动，至于车企车间用什么电发电根本不在讨论之列，B选项画蛇添足，偷梁换柱。",
                 "theme_validation": "文章讨论的是交通工具电气化对能源存储的革命性贡献，B项偏离讨论轨道。",
@@ -3629,8 +3629,8 @@
               "analysis": {
                 "practice_status": "破除风平无光的瓶颈，直接匹配 making continuous supply a reality，选C",
                 "option_nature": "正确项（原词复现/结论提炼）",
-                "source_sentence": "...has provided a quick put-down for skeptics... The advance in batteries... making continuous, steady power supply a reality.",
-                "source_translation": "……曾为怀疑论者提供了现成的驳斥借口……电池技术的进步……使持续稳定的电力供应成为现实。",
+                "source_sentence": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics. But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely. The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+                "source_translation": "“当不起风或太阳不出来时会发生什么？”这个问题曾为怀疑论者提供了现成的驳斥理由。但是电池存储容量的提升使得它们全天候保持电力流动的能力变得更加可能。这一进展在一定程度上是由汽车制造商推动的，他们正对电池供电的电动汽车下大赌注。",
                 "locator_comparison": "选项C指出“其持续不间断的供应正在成为现实（Its continuous supply is becoming a reality）”。定位段落中，作者直面传统可再生能源的阿喀琉斯之踵——“风不吹、日不晒时怎么办？”随后通过展示电池储能技术的突破，得出铁一般的结论：“making continuous, steady power supply a reality（使连续稳定的电力供应变为现实）”。C选项几乎一字不差地忠实提炼了这一重大技术分水岭，毫无破绽。",
                 "writing_perspective": "作者在此完成了最关键的反驳论证：攻破了阻碍清洁能源大规模上位的最后一个技术壁垒（储能与间歇性），宣告了绿色能源全面具备了基荷电力（baseload power）的能力，选C精准传达了作者的技术乐观主义精髓。",
                 "theme_validation": "全文旨在证明新能源具有颠覆旧秩序的完全可行性，持续供电是这一可行性的最硬核支柱，C项完全契合主旨。",
@@ -3646,8 +3646,8 @@
               "analysis": {
                 "practice_status": "储能突破正在让可持续利用变得可行，非依然困难，排除",
                 "option_nature": "干扰项（与原文事实相反/悲观论调）",
-                "source_sentence": "...making continuous, steady power supply a reality.",
-                "source_translation": "……使持续稳定的电力供应成为现实。",
+                "source_sentence": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics. But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely. The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+                "source_translation": "“当不起风或太阳不出来时会发生什么？”这个问题曾为怀疑论者提供了现成的驳斥理由。但是电池存储容量的提升使得它们全天候保持电力流动的能力变得更加可能。这一进展在一定程度上是由汽车制造商推动的，他们正对电池供电的电动汽车下大赌注。",
                 "locator_comparison": "选项D认为清洁能源的“可持续开发利用将依然困难重重（sustainable exploitation will remain difficult）”。5、6两段通篇都在以积极昂扬的笔调，宣布怀疑论者的老生常谈已经被彻底击碎，电池革命使得清洁能源的开发与稳定利用变得前所未有地唾手可得与成熟。D项使用 remain difficult 散布悲观绝望情绪，与作者庆祝技术突破的胜利基调背道而驰。",
                 "writing_perspective": "作者在下文第7段紧接着写道“趋势线正在飙升（trend lines are spiking）”，证明阻碍已经被扫除；D选项的悲观断言与前后文昂扬的论证节奏完全脱节。",
                 "theme_validation": "文章反思过去质疑、拥抱新能源光明未来，D项违背全篇时代大势。",
@@ -3671,7 +3671,7 @@
           "type": "全文主旨题",
           "locate_pid": 6,
           "locate_sentence": "What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
-          "locate_sentence_cn": "在这一全球思维转变的时代，华盛顿在推广替代能源方面做了什么——或没做什么——可能变得越来越无足轻重。",
+          "locate_sentence_cn": "在思想发生全球性转变的时代，华盛顿在推广替代能源方面做与不做，其意义可能越来越小。",
           "options": [
             {
               "key": "A",
@@ -3682,8 +3682,8 @@
               "analysis": {
                 "practice_status": "结合特朗普力挺煤炭及末段 what Washington doesn't do，锁定A",
                 "option_nature": "正确项（深层推论/政治现实还原）",
-                "source_sentence": "What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of market-driven momentum.",
-                "source_translation": "在市场驱动的势头面前，华盛顿政府为推广替代能源所做的——或者没做的——事情，可能正变得越来越微不足道。",
+                "source_sentence": "While there’s a long way to go, the trend lines for renewables are spiking. The pace of change in energy sources appears to be speeding up—perhaps just in time to have a meaningful effect in slowing climate change. What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+                "source_translation": "虽然还有很长的路要走，但可再生能源的发展趋势正在飙升。能源来源的变化步伐似乎正在加快——也许正好能赶上在减缓气候变化方面产生有意义的影响。在思想发生全球性转变的时代，华盛顿在推广替代能源方面做与不做，其意义可能越来越小。",
                 "locator_comparison": "选项A推断出可再生能源“并未真正受到美国联邦政府的鼓励（is not really encouraged by the US government）”。定位段落中，作者特意在破折号中加入讽刺性的修辞“or doesn’t do（或者压根什么都没做）”，回扣前文第4段叙述的现实：现任总统特朗普公开站台化石燃料、甚至亲赴风电大省兜售落后煤炭。这些事实表明美国联邦官方在政策上并不积极鼓励新能源。A选项深刻揭示了这种政策冷漠甚至倒退的政治现实，推论严密扎实。",
                 "writing_perspective": "作者在末尾形成极其绝妙的修辞对比：政客自以为拥有绝对权力，试图强推化石能源，但新能源依靠市场的无形之手已经超越了华盛顿的羁绊；选A准确还原了作者对白宫官僚政策的冷峻嘲讽。",
                 "theme_validation": "全文呈现“政府保守倒退 vs 市场与技术锐意进取”的戏剧张力，A项牢牢抓住了这一政治与经济博弈的本质特征。",
@@ -3699,8 +3699,8 @@
               "analysis": {
                 "practice_status": "前文反复强调价格大跳水（plummeting prices），成本极具竞争力，排除",
                 "option_nature": "干扰项（与原文核心论据相悖/反向考查）",
-                "source_sentence": "...the plummeting prices of renewables... trend lines are spiking...",
-                "source_translation": "……可再生能源价格的暴跌……趋势线正在飙升……",
+                "source_sentence": "While there’s a long way to go, the trend lines for renewables are spiking. The pace of change in energy sources appears to be speeding up—perhaps just in time to have a meaningful effect in slowing climate change. What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+                "source_translation": "虽然还有很长的路要走，但可再生能源的发展趋势正在飙升。能源来源的变化步伐似乎正在加快——也许正好能赶上在减缓气候变化方面产生有意义的影响。在思想发生全球性转变的时代，华盛顿在推广替代能源方面做与不做，其意义可能越来越小。",
                 "locator_comparison": "选项B声称可再生能源“就其成本而言不够具有竞争力（is not competitive enough with regard to its cost）”。全篇的核心立论基石正是第2段所阐明的事实：新能源迎来了爆发式繁荣，最根本的秘密就在于其成本与价格发生了雪崩式暴跌（plummeting prices），已经完全可以同传统火电一决高下。末段更是盛赞这是“market-driven momentum（完全由市场经济性驱动的势头）”。B项公然否定新能源的成本优势，完全是在胡说八道。",
                 "writing_perspective": "若无成本优势，就谈不上 market-driven；作者通篇在为新能源的性价比背书，B选项彻底颠覆作者的论据，荒谬至极。",
                 "theme_validation": "文章赞美新能源凭借商业竞争力赢得市场，B项彻底背离经济学主线。",
@@ -3716,8 +3716,8 @@
               "analysis": {
                 "practice_status": "文中未提及拉近美国与其他国家的国家关系，排除",
                 "option_nature": "干扰项（无中生有/国际关系发散）",
-                "source_sentence": "What Washington does—or doesn’t do... may mean less and less...",
-                "source_translation": "华盛顿所做的——或没做的——可能变得越来越微不足道……",
+                "source_sentence": "While there’s a long way to go, the trend lines for renewables are spiking. The pace of change in energy sources appears to be speeding up—perhaps just in time to have a meaningful effect in slowing climate change. What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+                "source_translation": "虽然还有很长的路要走，但可再生能源的发展趋势正在飙升。能源来源的变化步伐似乎正在加快——也许正好能赶上在减缓气候变化方面产生有意义的影响。在思想发生全球性转变的时代，华盛顿在推广替代能源方面做与不做，其意义可能越来越小。",
                 "locator_comparison": "选项C认为它“将使美国与其他国家走得更近（will bring the US closer to other countries）”。末段探讨的是华盛顿联邦政策与本土市场自发力量的脱钩，分析的是国内政治对能源转型的无力阻挡。通篇没有提及任何外交政策或国际同盟关系（closer to other countries）。C项属于将国内能源经济话题随意发散至国际外交的无中生有项。",
                 "writing_perspective": "作者在文末着力探讨的是产业与权力的博弈，引入外交关系会彻底稀释这一政治经济学批判，C选项完全跑题。",
                 "theme_validation": "全文聚焦绿色技术本身的商业不可阻挡性，C项脱离产业与技术逻辑。",
@@ -3733,8 +3733,8 @@
               "analysis": {
                 "practice_status": "清洁能源是减缓环境恶化，绝非加速恶化，排除",
                 "option_nature": "干扰项（常识性颠倒/荒谬反动选项）",
-                "source_sentence": "...to fund cleaner energy sources... trend lines are spiking...",
-                "source_translation": "……资助更清洁的能源……趋势线正在飙升……",
+                "source_sentence": "While there’s a long way to go, the trend lines for renewables are spiking. The pace of change in energy sources appears to be speeding up—perhaps just in time to have a meaningful effect in slowing climate change. What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+                "source_translation": "虽然还有很长的路要走，但可再生能源的发展趋势正在飙升。能源来源的变化步伐似乎正在加快——也许正好能赶上在减缓气候变化方面产生有意义的影响。在思想发生全球性转变的时代，华盛顿在推广替代能源方面做与不做，其意义可能越来越小。",
                 "locator_comparison": "选项D声称可再生能源“将加速全球环境变化/恶化（will accelerate global environmental change）”。可再生能源从定义到社会使命，都是为了替代污染严重的化石燃料，以“遏制并延缓”全球变暖与环境恶化。选项D竟然宣称其会“accelerate（加速恶化）”环境变化，不仅颠覆了人类基本科学常识，更是将全人类拯救地球的清洁能源事业反向扣上毁灭环境的帽子，荒唐至极。",
                 "writing_perspective": "作者从开篇就将清洁能源视为人类走向可持续的文明希望，D选项属于典型的丧失基本常识的反智干扰项。",
                 "theme_validation": "发展可再生能源的根本初衷就是应对气候变化拯救地球，D项在伦理与事实双重层面上都是死局。",
@@ -5133,7 +5133,7 @@
           "type": "事实细节题",
           "locate_pid": 0,
           "locate_sentence": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
-          "locate_sentence_cn": "WhatsApp 为 Facebook 提供的是其用户错综复杂且极其详尽的友谊与社交生活网络。",
+          "locate_sentence_cn": "WhatsApp为脸书提供的是一张错综复杂、极其详尽的其用户友谊与社交生活的网络。",
           "options": [
             {
               "key": "A",
@@ -5144,8 +5144,8 @@
               "analysis": {
                 "practice_status": "虽然有软件，但收购的核心是用户关系网而非软件本身，排除",
                 "option_nature": "干扰项（偷换概念/表面化理解）",
-                "source_sentence": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and contacts...",
-                "source_translation": "WhatsApp 为 Facebook 提供的是一个错综复杂、极为详尽的用户交友与联系人网络……",
+                "source_sentence": "Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all. What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+                "source_translation": "亚马逊刚刚宣布以135亿美元收购高档杂货连锁店全食超市，但两年前脸书支付了比这更多的费用来收购根本没有任何实体产品的WhatsApp即时通讯服务。WhatsApp为脸书提供的是一张错综复杂、极其详尽的其用户友谊与社交生活的网络。",
                 "locator_comparison": "选项A认为收购是为了其“数字产品（digital products）”。第1段明确指出，Facebook 斥资190亿美元天价收购 WhatsApp，看中的绝不仅仅是一款聊天软件产品（digital product），而是在于其背后沉淀的“an intricate and finely detailed web of its users' friendships and contacts（庞大详实的用户社交图谱）”。选项A只看到了软件工具的皮囊，完全没有触及巨头收购的真正数字资产核心。",
                 "writing_perspective": "作者在全篇的核心论点是“数字巨头垄断的本质是数据垄断（The product they’re selling is data）”，若将收购动机归结为单纯买一款软件产品，作者关于数据剥削的批判将失去支点，A选项严重弱化文意。",
                 "theme_validation": "全文反复批判科技巨头对用户个人隐私数据的霸权掠夺，A项停留于普通商品买卖，偏离主旨。",
@@ -5161,8 +5161,8 @@
               "analysis": {
                 "practice_status": "服务质量非天价收购的核心理由，排除",
                 "option_nature": "干扰项（无中生有/主观美化）",
-                "source_sentence": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and contacts...",
-                "source_translation": "WhatsApp 为 Facebook 提供的是一个错综复杂、极为详尽的用户交友与联系人网络……",
+                "source_sentence": "Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all. What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+                "source_translation": "亚马逊刚刚宣布以135亿美元收购高档杂货连锁店全食超市，但两年前脸书支付了比这更多的费用来收购根本没有任何实体产品的WhatsApp即时通讯服务。WhatsApp为脸书提供的是一张错综复杂、极其详尽的其用户友谊与社交生活的网络。",
                 "locator_comparison": "选项B声称收购是为了其“优质的服务（quality service）”。定位句在揭秘这笔世纪收购的底牌时，唯一强调的要素就是海量用户的隐私通讯录（friendships and contacts）。通篇没有任何字句提及 WhatsApp 的客服体系或所谓“优质服务（quality service）”。B项把对核心用户数据的掠夺，主观美化为商业服务采购，纯属无中生有。",
                 "writing_perspective": "科技巨头的资本运作极其冷酷，唯一的度量衡就是网络效应与数据垄断壁垒，B选项充斥着公关修饰辞令，不符合严肃政治经济学评论的批判风格。",
                 "theme_validation": "文章反思的是数字巨头的野心与霸权，B项的商业美化倾向与全文基调相悖。",
@@ -5178,8 +5178,8 @@
               "analysis": {
                 "practice_status": "互联网初创企业几乎全为无形资产，实体资产极少，排除",
                 "option_nature": "干扰项（与行业常识相反/无中生有）",
-                "source_sentence": "Amazon has just announced the purchase of the upmarket grocer Whole Foods... What WhatsApp offered Facebook was an intricate...",
-                "source_translation": "亚马逊刚刚宣布收购高档杂货商全食超市……WhatsApp 为 Facebook 提供的是一个错综复杂……",
+                "source_sentence": "Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all. What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+                "source_translation": "亚马逊刚刚宣布以135亿美元收购高档杂货连锁店全食超市，但两年前脸书支付了比这更多的费用来收购根本没有任何实体产品的WhatsApp即时通讯服务。WhatsApp为脸书提供的是一张错综复杂、极其详尽的其用户友谊与社交生活的网络。",
                 "locator_comparison": "选项C认为收购是为了其“实体资产（physical assets）”。第1段前文提到亚马逊收购全食超市（Whole Foods）涉及线下实体超市资产；但在讨论 Facebook 收购纯互联网通讯软件 WhatsApp 时，后者是典型的轻资产科技企业，根本没有昂贵的厂房或地产等实体资产（physical assets）。选项C张冠李戴，把亚马逊的收购特征生搬硬套到 Facebook 身上，违背基本行业事实。",
                 "writing_perspective": "作者在第1段并列两个案例（亚马逊买实体超市 vs 脸书买无形数据），旨在展现巨头对物理与数字世界的全方位渗透；C选项混淆两者的资产形态，逻辑彻底崩塌。",
                 "theme_validation": "文章的核心议题是数字空间中的数据统治，C项完全脱离虚拟经济语境。",
@@ -5195,8 +5195,8 @@
               "analysis": {
                 "practice_status": "对比 web of users' friendships and contacts，提炼为用户信息，秒定D",
                 "option_nature": "正确项（同义概括/核心事实）",
-                "source_sentence": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and contacts...",
-                "source_translation": "WhatsApp 为 Facebook 提供的是一个错综复杂且极其详尽的用户交友与联系人网络……",
+                "source_sentence": "Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all. What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+                "source_translation": "亚马逊刚刚宣布以135亿美元收购高档杂货连锁店全食超市，但两年前脸书支付了比这更多的费用来收购根本没有任何实体产品的WhatsApp即时通讯服务。WhatsApp为脸书提供的是一张错综复杂、极其详尽的其用户友谊与社交生活的网络。",
                 "locator_comparison": "选项D指出收购是为了获取其“用户信息（user information）”。定位句明确指出，WhatsApp 能够贡献给 Facebook 最无可替代的宝藏是“an intricate and finely detailed web of its users’ friendships and contacts”。用户的真实人际关系网、通讯录好友以及社交连接，在信息科学中统称为用户核心隐私信息（user information）。D选项高度凝练且准确地概括了这一海量数据资产，完全忠实于原文。",
                 "writing_perspective": "作者在此一针见血地撕下了互联网公司所谓的“连接世界”温情面具，指出巨头并购的底层逻辑就是人肉数据挖矿，选D深刻还原了作者对数据资本主义剥削本质的冷峻剖析。",
                 "theme_validation": "全文第4段明确指出“The product they’re selling is data”，用户的信息就是巨头最暴利的商品，D项是全篇主旨当之无愧的题眼。",
@@ -5220,7 +5220,7 @@
           "type": "因果推断题",
           "locate_pid": 1,
           "locate_sentence": "Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
-          "locate_sentence_cn": "即便不知道信息的内容，得知谁给谁发送了信息也是极具揭示性的，而且至今依然如此。",
+          "locate_sentence_cn": "即使不知道消息的具体内容，获知谁发了消息、发给谁本身就具有极大的揭示性，并且现在依然如此。",
           "options": [
             {
               "key": "A",
@@ -5231,8 +5231,8 @@
               "analysis": {
                 "practice_status": "结合元数据泄露（who sent them to whom）的隐私危害，锁定A",
                 "option_nature": "正确项（危害推论/同义概括）",
-                "source_sentence": "...the knowledge of who sent them and to whom was enormously revealing... and users’ privacy was severely compromised.",
-                "source_translation": "……知道谁把信息发给了谁，这一信息本身就极具揭示性与暴露性……用户的隐私受到了严重损害。",
+                "source_sentence": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
+                "source_translation": "脸书当时向欧盟委员会承诺不会将电话号码与脸书身份关联，但在交易完成不久后就违背了这一承诺。即使不知道消息的具体内容，获知谁发了消息、发给谁本身就具有极大的揭示性，并且现在依然如此。",
                 "locator_comparison": "选项A指出打通账号可能“给 Facebook 用户带来风险（pose a risk to Facebook users）”。定位段落中，作者深刻分析了这种绑定的可怕后果：即使不看聊天具体文本，仅凭“谁在什么时间发消息给了谁（who sent them and to whom）”的元数据网络，就具有极其恐怖的个人隐私穿透力（enormously revealing）。这种单向透明的数字监控，使普通用户在巨头面前彻底沦为透明人，对个人信息安全构成了巨大潜在风险。A选项定性精准有力。",
                 "writing_perspective": "作者在此敲响了数字极权与监控资本主义的警钟：普通人以为只是一个电话号码，殊不知已经在巨头的数据监控大网中无所遁形，选A高度契合了作者捍卫公民数字权利的公共知识分子立场。",
                 "theme_validation": "全文的核心主线就是声讨数字巨头对普通用户的单向剥削与潜在威胁，A项与这一批判基调完全契合。",
@@ -5248,8 +5248,8 @@
               "analysis": {
                 "practice_status": "误导欧盟是其违背承诺的行径，而非打通身份这一动作对用户造成的结果，排除",
                 "option_nature": "干扰项（因果混淆/对象偷换）",
-                "source_sentence": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise.",
-                "source_translation": "脸书当时向欧盟委员会承诺不会将电话号码与脸书身份相关联，但它违背了诺言。",
+                "source_sentence": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
+                "source_translation": "脸书当时向欧盟委员会承诺不会将电话号码与脸书身份关联，但在交易完成不久后就违背了这一承诺。即使不知道消息的具体内容，获知谁发了消息、发给谁本身就具有极大的揭示性，并且现在依然如此。",
                 "locator_comparison": "选项B认为这一行为可能“误导欧盟委员会（mislead the European commission）”。原文指出 Facebook 当年为了获批收购而向欧盟委员会许下虚假承诺，后来悍然撕毁承诺（broke the promise）。这一违背承诺的行为导致了欧盟随后对 Facebook 处以巨额反垄断欺诈罚款。欧盟委员会是知情并作出惩治的监管方，并没有被其技术操作“误导（mislead）”；且题干问的是该技术动作带来的后果。B项因果与对象均混淆错位。",
                 "writing_perspective": "欧盟在此是执法判官，作者着墨点在于巨头肆无忌惮地践踏法规与用户利益，B选项把关注点弱化为欺骗官僚，偏离了对公众危害的探讨。",
                 "theme_validation": "文章反思的是技术越轨对个体生存境遇的践踏，B项局限于行政官司，缺乏对用户利益的关切。",
@@ -5265,8 +5265,8 @@
               "analysis": {
                 "practice_status": "政治争端在第2段并未提及，排除",
                 "option_nature": "干扰项（无中生有/过度脑补）",
-                "source_sentence": "...the knowledge of who sent them and to whom was enormously revealing.",
-                "source_translation": "……知道谁给谁发送了信息，这本身就极具泄露性。",
+                "source_sentence": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
+                "source_translation": "脸书当时向欧盟委员会承诺不会将电话号码与脸书身份关联，但在交易完成不久后就违背了这一承诺。即使不知道消息的具体内容，获知谁发了消息、发给谁本身就具有极大的揭示性，并且现在依然如此。",
                 "locator_comparison": "选项C认为可能“恶化政治争端（worsen political disputes）”。第2段全段都在聚焦于科技公司商业收购中的“个人隐私泄露与监管博弈”，虽然科技巨头后来可能涉及选举操控等政治丑闻，但在本段文本中，作者自始至终未曾出现任何“政治争端（political disputes）”的词句。C项纯属脱离当前文本事实的过度脑补。",
                 "writing_perspective": "作者在第2段紧扣数据元数据对隐私的穿透力展开科学分析，引入政治争端会打乱其从技术细节向反垄断法律递进的行文节奏，C选项破坏了论证严谨性。",
                 "theme_validation": "文章讨论的是反垄断法对科技霸权的规制，而非政党政治冲突，C项偏离论题。",
@@ -5282,8 +5282,8 @@
               "analysis": {
                 "practice_status": "强行绑定是为了更精准管理和挖掘数据，绝不会弄乱记录，常理相反，排除",
                 "option_nature": "干扰项（反向考查/技术逻辑完全相悖）",
-                "source_sentence": "...link phone numbers to Facebook identities... was enormously revealing...",
-                "source_translation": "……将电话号码与脸书身份关联……极具泄露性……",
+                "source_sentence": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
+                "source_translation": "脸书当时向欧盟委员会承诺不会将电话号码与脸书身份关联，但在交易完成不久后就违背了这一承诺。即使不知道消息的具体内容，获知谁发了消息、发给谁本身就具有极大的揭示性，并且现在依然如此。",
                 "locator_comparison": "选项D声称可能“弄乱客户记录（mess up customer records）”。Facebook 处心积虑冒着被罚款的风险也要将手机号与虚拟账号强行打通，正是为了实现数据的“多表关联与极致精准画像”，从而让数据库更加井井有条、商业价值暴增。宣称此举会“把记录弄乱（mess up）”，不仅违背基本计算机数据库常识，更是将巨头精明的算法霸权弱智化为技术失误。D项荒唐至极。",
                 "writing_perspective": "作者展示的是巨头令人胆寒的数据整合能力，而非嘲笑其技术平庸；D选项的愚蠢假设彻底瓦解了巨头令人生畏的垄断形象，极其违和。",
                 "theme_validation": "数字资本主义的危险在于其过于精确无死角的监控，D项的反向表述不攻自破。",
@@ -5393,8 +5393,8 @@
           "stem_cn": "Competition law as presently interpreted can hardly protect Facebook users because \n______.",
           "type": "词义/例证题",
           "locate_pid": 2,
-          "locate_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them.",
-          "locate_sentence_cn": "目前所诠释的竞争法处理的是消费者遭受的经济损失，而当这些服务的用户无需为此付费时，这种损失就并不明显。",
+          "locate_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them. The users of their services are not their customers.",
+          "locate_sentence_cn": "目前解释的反垄断法处理的是消费者遭受的经济利益损害，而当这些服务的用户并不为其付费时，这种损害并不明显。这些服务的用户并不是他们的客户。",
           "options": [
             {
               "key": "A",
@@ -5405,8 +5405,8 @@
               "analysis": {
                 "practice_status": "文中指出用户没花钱，未提其财务是否可靠，排除",
                 "option_nature": "干扰项（无中生有/概念偷换）",
-                "source_sentence": "...deals with financial disadvantage to consumers and this is completely useless when the service is free...",
-                "source_translation": "……处理的是对消费者造成的财务损失，而当服务在金钱意义上免费时，这完全毫无用处……",
+                "source_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them. The users of their services are not their customers. That would be the people who buy advertising from them—and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+                "source_translation": "目前解释的反垄断法处理的是消费者遭受的经济利益损害，而当这些服务的用户并不为其付费时，这种损害并不明显。这些服务的用户并不是他们的客户。他们的客户应该是向他们购买广告的人——而脸书和谷歌这两大虚拟巨头垄断了数字广告，使所有其他媒体和娱乐公司处于劣势。",
                 "locator_comparison": "选项A认为保护不了用户是因为“他们在财务上不可靠（they are not financially reliable）”。原文探讨的是反垄断法保护机制的前提——必须存在消费者在金钱上的实质损失（financial disadvantage）。而用户面对的是免费平台，因此不存在价格垄断带来的财务损失。这与用户个人自身的财务状况是否良好、信用是否可靠（financially reliable）没有半点关系。A项偷换概念极其严重。",
                 "writing_perspective": "法律保护的是公民的合法权益，绝不会因为公民财务不可靠而拒绝保护，A选项违背基本法治常识，完全脱离文本反垄断法理反思。",
                 "theme_validation": "文章探讨免费商业模式对传统反垄断法规制的规避，A项乱入个人信用评价，完全脱靶。",
@@ -5422,8 +5422,8 @@
               "analysis": {
                 "practice_status": "对比 deals with financial disadvantage to consumers 及 not customers paying cash，锁定B",
                 "option_nature": "正确项（法理穿透/同义归纳）",
-                "source_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is completely useless when the service is free, in money terms. The users are not customers paying cash...",
-                "source_translation": "按照目前的解释，竞争法处理的是对消费者造成的财务损失，而当服务在金钱意义上是免费的时候，这完全毫无用处。用户并不是支付现金的客户……",
+                "source_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them. The users of their services are not their customers. That would be the people who buy advertising from them—and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+                "source_translation": "目前解释的反垄断法处理的是消费者遭受的经济利益损害，而当这些服务的用户并不为其付费时，这种损害并不明显。这些服务的用户并不是他们的客户。他们的客户应该是向他们购买广告的人——而脸书和谷歌这两大虚拟巨头垄断了数字广告，使所有其他媒体和娱乐公司处于劣势。",
                 "locator_comparison": "选项B指出保护不了用户是因为“他们未被定义为客户（they are not defined as customers）”。定位句一针见血地指出了现行反垄断法的制度漏洞：法典仅保护支付真金白银的“consumers/customers”，惩罚价格垄断造成的财务损失；而在“免费”的互联网世界中，用户不付现金，因而在现行法理框架下根本未被确立为享有反垄断索赔权的合法客户（not defined as customers/consumers）。B选项极其精炼地抓住了这一制度性身份盲区，法理分析透彻无误。",
                 "writing_perspective": "作者在此揭开了当代互联网商业最大的法治遁词：打着“免费”的旗号规避了所有针对商品买卖的法律监管；选B精准提炼了作者对传统法学概念滞后性的深刻解构。",
                 "theme_validation": "全文反复强调“如果你不付费，你就是产品”，B项深刻契合这一制度与身份的错配核心。",
@@ -5439,8 +5439,8 @@
               "analysis": {
                 "practice_status": "数字化是服务形态，并非反垄断法无法保护的法理症结，排除",
                 "option_nature": "干扰项（偷换因果/表面化描述）",
-                "source_sentence": "...deals with financial disadvantage to consumers and this is completely useless when the service is free, in money terms...",
-                "source_translation": "……处理的是消费者的财务损失，而当服务在金钱意义上免费时，这完全没用……",
+                "source_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them. The users of their services are not their customers. That would be the people who buy advertising from them—and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+                "source_translation": "目前解释的反垄断法处理的是消费者遭受的经济利益损害，而当这些服务的用户并不为其付费时，这种损害并不明显。这些服务的用户并不是他们的客户。他们的客户应该是向他们购买广告的人——而脸书和谷歌这两大虚拟巨头垄断了数字广告，使所有其他媒体和娱乐公司处于劣势。",
                 "locator_comparison": "选项C认为是因为“这些服务通常是数字化的（the services are generally digital）”。现行法律并非不能保护数字化服务（例如付费的软件授权、流媒体会员同样受消费者权益法保护）。作者明确强调法律失灵的唯一硬核根源是“免费（free, in money terms）”，导致没有直接财务损失发生。数字化（digital）只是其技术载体，绝非免除法律保护责任的因果根据。C项偷换因果，流于表面。",
                 "writing_perspective": "作者的论证刀刀见血，直切经济利益机制（免费），若甩锅给技术载体（数字化），法律界早就通过数字立法解决了，C选项弱化了经济学解释力。",
                 "theme_validation": "文章反思的是金钱维度的规制真空，C项偏离免费经济学的讨论。",
@@ -5456,8 +5456,8 @@
               "analysis": {
                 "practice_status": "广告商买单是商业模式事实，但法律无法保护的直接原因是用户非付费客户，排除",
                 "option_nature": "干扰项（间接背景/未切中法理因果）",
-                "source_sentence": "The users are not customers... they are the product... advertisers pay...",
-                "source_translation": "用户不是客户……他们是产品……广告商出资……",
+                "source_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them. The users of their services are not their customers. That would be the people who buy advertising from them—and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+                "source_translation": "目前解释的反垄断法处理的是消费者遭受的经济利益损害，而当这些服务的用户并不为其付费时，这种损害并不明显。这些服务的用户并不是他们的客户。他们的客户应该是向他们购买广告的人——而脸书和谷歌这两大虚拟巨头垄断了数字广告，使所有其他媒体和娱乐公司处于劣势。",
                 "locator_comparison": "选项D认为是因为“这些服务是由广告商买单的（the services are paid for by advertisers）”。广告商付钱确实是互联网双边市场的商业闭环机制，但题干直指“反垄断法为何难以保护 Facebook 用户”。反垄断法保护受阻的直接法理瓶颈在于：用户自身没有受到“直接财务伤害（financial disadvantage）”，在法律条文中无法主张作为“受害客户（customers）”的权利。选项D阐述的是幕后金主的商业事实，未能直接击中法律适用性资格受阻的根本法理症结。",
                 "writing_perspective": "作者在此进行严密的法律教义学分析：谁是原告？原告受了什么法律意义上的财产损失？B选项直接回答了主体资格缺失，D选项只是补充交代商业常识，力度不及B项。",
                 "theme_validation": "聚焦用户法律身份的异化是全段论证的高光，B项远比D项精准深刻。",
@@ -5481,7 +5481,7 @@
           "type": "全文主旨题",
           "locate_pid": 3,
           "locate_sentence": "Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
-          "locate_sentence_cn": "正如某些蚂蚁饲养蚜虫以获取其进食时分泌的蜜露一样，谷歌也在“饲养”我们，以获取我们数字生活所产生的数据。",
+          "locate_sentence_cn": "正如某些蚂蚁饲养被称为蚜虫的昆虫以获取它们进食时产生的蜜露一样，谷歌饲养我们以获取我们数字生活所产生的数据。",
           "options": [
             {
               "key": "A",
@@ -5492,8 +5492,8 @@
               "analysis": {
                 "practice_status": "蚂蚁和蚜虫是一方圈养另一方，非同类巨头之间的竞争，排除",
                 "option_nature": "干扰项（主体错配/曲解类比关系）",
-                "source_sentence": "Just as some ants farm the bugs called aphids... so Google and Facebook farm us for the data we produce...",
-                "source_translation": "正如一些蚂蚁为了获取蚜虫进食时产生的蜜露而饲养它们一样，谷歌和脸书也在饲养我们以获取我们产生的数据……",
+                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants. Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
+                "source_translation": "他们出售的产品是数据，而我们这些用户将我们的生活转化为数据，以供数字巨头获利。正如某些蚂蚁饲养被称为蚜虫的昆虫以获取它们进食时产生的蜜露一样，谷歌饲养我们以获取我们数字生活所产生的数据。",
                 "locator_comparison": "选项A认为类比展示了“数字巨头之间典型的竞争模式（a typical competition pattern among digital giants）”。类比中的两极分别是“蚂蚁（捕食者/控制者）”与“蚜虫（被圈养者/产出物）”，在后文中分别严格映射到“Google and Facebook（数字巨头）”与“us/users（广大用户）”。这是一个不平等的纵向控制与剥削关系，根本不是两只蚂蚁之间的横向同类竞争（competition among giants）。A项主体彻底搞错。",
                 "writing_perspective": "作者在末段不再讨论巨头互掐，而是将批判的利刃指向巨头对全人类大众的系统性奴役；若写成巨头竞争，文章就降格为了普通的商战八卦，A选项格局完全错位。",
                 "theme_validation": "全文反思的是人与科技巨头的权力不对等，A项偏离全篇核心批判矛头。",
@@ -5509,8 +5509,8 @@
               "analysis": {
                 "practice_status": "蚜虫是被榨取者，绝非双赢的商业伙伴，排除",
                 "option_nature": "干扰项（主观美化/与隐喻讽刺意味相反）",
-                "source_sentence": "Just as some ants farm the bugs called aphids for the honeydew they produce... convert our lives to data for the benefit of digital giants.",
-                "source_translation": "正如一些蚂蚁为了获取蚜虫进食时产生的蜜露而饲养它们一样……为了数字巨头的利益将我们的生活转化为数据。",
+                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants. Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
+                "source_translation": "他们出售的产品是数据，而我们这些用户将我们的生活转化为数据，以供数字巨头获利。正如某些蚂蚁饲养被称为蚜虫的昆虫以获取它们进食时产生的蜜露一样，谷歌饲养我们以获取我们数字生活所产生的数据。",
                 "locator_comparison": "选项B声称类比展示了“数字巨头之间双赢的商业模式（a win-win business model between digital giants）”。首先，类比针对的是巨头与用户，而非巨头之间；其次，作者用“farm us（像圈养牲口一样饲养我们）”并强调“for the benefit of the digital giants（完全是为了数字巨头的单向暴利）”，流露着极强烈的剥削与异化批判色彩。选项B将其美化为田园牧歌式的“双赢模式（win-win）”，是对作者辛辣讽刺的严重曲解。",
                 "writing_perspective": "作者引入昆虫界令人毛骨悚然的寄生现象，旨在唤醒大众对自己被数据化奴役的耻辱感，B选项的温情粉饰彻底消解了警世寓言的冲击力，荒诞至极。",
                 "theme_validation": "文章的核心价值就在于撕毁虚假双赢的谎言，暴露单向榨取的残酷，B项背道而驰。",
@@ -5526,8 +5526,8 @@
               "analysis": {
                 "practice_status": "蚜虫产出蜜露给蚂蚁，对应用户提供数据给巨头，利益流向颠倒，排除",
                 "option_nature": "干扰项（利益流向颠倒/主体混淆）",
-                "source_sentence": "...for the honeydew they produce when they feed, so Google and Facebook farm us for the data we produce.",
-                "source_translation": "……为了它们进食时产生的蜜露，同样谷歌和脸书圈养我们以获取我们产生的数据。",
+                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants. Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
+                "source_translation": "他们出售的产品是数据，而我们这些用户将我们的生活转化为数据，以供数字巨头获利。正如某些蚂蚁饲养被称为蚜虫的昆虫以获取它们进食时产生的蜜露一样，谷歌饲养我们以获取我们数字生活所产生的数据。",
                 "locator_comparison": "选项C认为类比展示了“为数字巨头的客户所提供的利益（the benefits provided for digital giants’ customers）”。在蚂蚁和蚜虫的关系中，真正获益的是“蚂蚁（数字巨头）”，而“蚜虫（用户）”则是被不断索取、分泌蜜露（产生数据）的一方；末句更明确指出是“for the benefit of the digital giants（为了巨头的利益）”。选项C声称展示的是为客户提供的利益，把利益的真正流向与受益主体彻底颠倒。",
                 "writing_perspective": "作者通过这个比喻是在控诉用户付出的惨重隐私代价，而不是展示巨头有多慷慨恩赐，C选项彻底倒置了价值索取的流向。",
                 "theme_validation": "全文揭穿数字资本主义对用户的无偿占有，C项本末倒置，不攻自破。",
@@ -5543,8 +5543,8 @@
               "analysis": {
                 "practice_status": "解构蚂蚁（巨头）与蚜虫（用户）的映射关系，秒定D",
                 "option_nature": "正确项（隐喻破译/关系提炼）",
-                "source_sentence": "Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google and Facebook farm us for the data we produce. We, the users, convert our lives to data for the benefit of the digital giants.",
-                "source_translation": "正如一些蚂蚁为了获取蚜虫进食时产生的蜜露而饲养它们一样，谷歌和脸书也在饲养我们以获取我们产生的数据。我们这些用户，为了数字巨头的利益，正在将我们的生活转化为数据。",
+                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants. Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
+                "source_translation": "他们出售的产品是数据，而我们这些用户将我们的生活转化为数据，以供数字巨头获利。正如某些蚂蚁饲养被称为蚜虫的昆虫以获取它们进食时产生的蜜露一样，谷歌饲养我们以获取我们数字生活所产生的数据。",
                 "locator_comparison": "选项D指出该类比旨在说明“数字巨头与它们的用户之间的关系（the relationship between digital giants and their users）”。定位句严格使用 Just as A... so B... 的对称句式：A部分展示“蚂蚁饲养蚜虫以获取其分泌物”；B部分完美映射“谷歌与脸书饲养人类用户以获取其产生的数据”。整个修辞的核心目的，正是以极其震撼深刻的生物学生态隐喻，无情揭穿数字巨头与广大普通用户之间控制、支配与数据榨取的真实关系。D选项提炼精准，毫无破绽。",
                 "writing_perspective": "作者在全篇结尾抛出这一振聋发聩的比喻，完成了对数字资本主义统治秩序的哲学定性：人已经异化为被巨头放牧的工蚁或蚜虫；选D完整传达了作者这一具有极高文学与思想穿透力的收官结论。",
                 "theme_validation": "全文的灵魂正是反思“人与数字巨头的异化关系”，D项与全文主旨灵魂深度契合。",
@@ -6965,7 +6965,7 @@
           "type": "事实细节题",
           "locate_pid": 1,
           "locate_sentence": "Whichever approach, the key is to determine your length of focus time and stick to it.",
-          "locate_sentence_cn": "无论采取哪种方法，关键在于确定你的专注时长并坚持下去。",
+          "locate_sentence_cn": "无论哪种方法，关键是要确定你的专注时长并坚持下去。",
           "options": [
             {
               "key": "A",
@@ -6976,8 +6976,8 @@
               "analysis": {
                 "practice_status": "列任务清单是表面操作，关键秘诀是确定专注时间并坚持，排除",
                 "option_nature": "干扰项（无中生有/表面技巧）",
-                "source_sentence": "Whichever approach, the key is to determine your length of focus time and stick to it.",
-                "source_translation": "无论采用哪种方法，关键在于确定你的专注时间长度并坚持下去。",
+                "source_sentence": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day. Whichever approach, the key is to determine your length of focus time and stick to it.",
+                "source_translation": "掌握深度工作艺术的方法有很多——无论是在一段时间内闭关专注于特定任务；养成每日固定习惯；还是采取“新闻记者式”方法在一整天中抓住一切可能的时刻进行深度工作。无论哪种方法，关键是要确定你的专注时长并坚持下去。",
                 "locator_comparison": "选项A认为掌握深度工作的关键是“列出你的当务之急/眼下任务（list your immediate tasks）”。第2段探讨了多种深度工作的模式（闭关式、每日定时式、每周特定日式），随后用“the key is to”引出唯一的最高准则——确定专注时长并坚决执行（stick to focus time）。通篇从未提出过“列出眼下任务清单（list immediate tasks）”这一建议。A项属于脱离文本的主观编造项。",
                 "writing_perspective": "作者在后文明确批判了传统的任务清单管理法，强调时间块的纯粹度；A选项退回到了传统的碎片化待办清单，完全违背 Newport 深度工作的哲学。",
                 "theme_validation": "深度工作的真谛是捍卫整块时间的专注度，而非被眼前琐事任务牵着鼻子走，A项背离主旨。",
@@ -6993,8 +6993,8 @@
               "analysis": {
                 "practice_status": "后文第5段明确指出制定具体每日计划效果很差，不能作为秘诀，排除",
                 "option_nature": "干扰项（跨段矛盾/驳论陷阱）",
-                "source_sentence": "Whichever approach, the key is to determine your length of focus time and stick to it... daily plans would be most effective... demoralized...",
-                "source_translation": "无论哪种方法，关键都在于确定专注时间并坚持……每日计划最有效……士气低落……",
+                "source_sentence": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day. Whichever approach, the key is to determine your length of focus time and stick to it.",
+                "source_translation": "掌握深度工作艺术的方法有很多——无论是在一段时间内闭关专注于特定任务；养成每日固定习惯；还是采取“新闻记者式”方法在一整天中抓住一切可能的时刻进行深度工作。无论哪种方法，关键是要确定你的专注时长并坚持下去。",
                 "locator_comparison": "选项B声称关键是“制定具体的每日计划（make specific daily plans）”。定位句明确给出的关键是“stick to your focus time（坚守专注时间）”。不仅如此，后文第5段更是通过科学实验明确证明：制定详尽严密的每日计划（well-structured daily plans）反而会导致学生压力过大、士气低落，效果远不如月度大目标。选项B把后文被实验推翻的错误做法拿来当成功秘诀，跨段矛盾严重。",
                 "writing_perspective": "作者在行文中有意打破人们对“做计划”的迷信，证明过度精细的计划是负担；B选项把作者破除的迷信奉为圭臬，彻底破坏了文章的递进反驳逻辑。",
                 "theme_validation": "文章反思机械的时间表制定，提倡对专注心流的尊重，B项不符文旨。",
@@ -7010,8 +7010,8 @@
               "analysis": {
                 "practice_status": "精准抓取 the key is to... stick to focus time，对应 keep to，选C",
                 "option_nature": "正确项（原词对应/同义替换）",
-                "source_sentence": "Whichever approach, the key is to determine your length of focus time and stick to it.",
-                "source_translation": "无论采用哪种方法，关键在于确定好你的专注时间长度并坚持下去。",
+                "source_sentence": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day. Whichever approach, the key is to determine your length of focus time and stick to it.",
+                "source_translation": "掌握深度工作艺术的方法有很多——无论是在一段时间内闭关专注于特定任务；养成每日固定习惯；还是采取“新闻记者式”方法在一整天中抓住一切可能的时刻进行深度工作。无论哪种方法，关键是要确定你的专注时长并坚持下去。",
                 "locator_comparison": "选项C指出掌握深度工作的关键是“坚守你的专注时间（keep to your focus time）”。定位句中，作者在列举完各种具体流派后做出统领性归纳：“the key is to determine your length of focus time and stick to it”。题干 the key is to 完美定位；动词短语 keep to（遵守、恪守）是 stick to 的标准无瑕同义替换；focus time 原词完美复现。逻辑严密，答案无可挑剔。",
                 "writing_perspective": "作者在此抓住了深度工作的唯一本质：无论你是在深山老林闭关一个月，还是每天早起专注一小时，形式不重要，核心是在划定的时间结界内坚决不破功（stick to it），选C精准击中了这一方法论精髓。",
                 "theme_validation": "全文反复强调屏蔽打扰、捍卫专注时间的极端重要性，C项是全篇操作性最强的金科玉律。",
@@ -7027,8 +7027,8 @@
               "analysis": {
                 "practice_status": "抓住每一分钟工作是疲劳战术，与后文拥抱闲暇的宗旨完全相反，排除",
                 "option_nature": "干扰项（反向考查/与全文主旨彻底相悖）",
-                "source_sentence": "To combat the trap of putting a premium on being busy... embrace downtime...",
-                "source_translation": "为了克服那种盲目看重忙碌的陷阱……拥抱休息与停工期……",
+                "source_sentence": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day. Whichever approach, the key is to determine your length of focus time and stick to it.",
+                "source_translation": "掌握深度工作艺术的方法有很多——无论是在一段时间内闭关专注于特定任务；养成每日固定习惯；还是采取“新闻记者式”方法在一整天中抓住一切可能的时刻进行深度工作。无论哪种方法，关键是要确定你的专注时长并坚持下去。",
                 "locator_comparison": "选项D声称关键是“抓住每一分钟去工作（seize every minute to work）”。开篇第1段就明确提出要对抗盲目忙碌的陷阱（trap of putting a premium on being busy）；后文第6段更是极力呼吁大家“embrace downtime / be lazy（拥抱闲暇、学会偷懒）”，指出发呆闲暇如同维生素D一样是高效工作的必需品。选项D主张像苦力一样分秒必争抓紧每一分钟，恰恰是作者从头至尾猛烈批判的愚蠢忙碌综合征。D项彻底颠覆全篇主旨。",
                 "writing_perspective": "作者的核心智慧就是“减法与节制”，用高质量专注代替低质量磨洋工；D选项倡导拼命加班的疲劳战术，完全背叛了作者倡导的工作革命。",
                 "theme_validation": "全文旨在从过度忙碌中解脱出来实现高效，D项属于典型的南辕北辙选项。",
@@ -7052,7 +7052,7 @@
           "type": "因果推断题",
           "locate_pid": 4,
           "locate_sentence": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students.",
-          "locate_sentence_cn": "虽然研究人员原本假设结构良好的每日计划在执行任务时最有效，但他们错了：详尽的每日计划反而挫伤了学生的积极性。",
+          "locate_sentence_cn": "虽然研究人员假设结构良好的每日计划在执行任务时最有效，但他们错了：详细的每日计划挫伤了学生的积极性。",
           "options": [
             {
               "key": "A",
@@ -7063,8 +7063,8 @@
               "analysis": {
                 "practice_status": "实验证明每日计划反而导致挫败和产出低下，并非不可或缺，排除",
                 "option_nature": "干扰项（反向考查/与实验结论相反）",
-                "source_sentence": "...students given daily plans were severely demoralized and accomplished less...",
-                "source_translation": "……被制定了每日计划的学生士气严重受挫，完成的任务反而更少……",
+                "source_sentence": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students. Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.",
+                "source_translation": "虽然研究人员假设结构良好的每日计划在执行任务时最有效，但他们错了：详细的每日计划挫伤了学生的积极性。哈福德认为，不可避免的干扰往往会使每日待办事项清单失效，而在这样的清单中留出即兴发挥的空间可以获得最佳效果。",
                 "locator_comparison": "选项A认为实验表明“每日时间表对于学习是必不可少的（daily schedules are indispensable to studying）”。实验得出的真实结论恰好给每日时间表泼了一盆冷水：那些被严格按日排满时间表的学生不仅感到极度沮丧压抑（demoralized），实际学习产出反而显著落后于拥有月度自由度的群体。A选项竟然宣称其“必不可少（indispensable）”，公然将实验所否定的错误做法拔高为必需品，属于彻底颠倒黑白的反向干扰项。",
                 "writing_perspective": "作者引用该实验就是为了拆穿“日事日毕、每日排满计划”的传统神话，A选项在神话已被实验击碎后仍继续盲目维护，违背作者的论证意图。",
                 "theme_validation": "文章倡导弹性的专注，反对僵死的日程束缚，A项违背全文提倡的减负哲学。",
@@ -7080,8 +7080,8 @@
               "analysis": {
                 "practice_status": "实验中拥有月度目标的学生反而表现更好、更有动力，B项颠倒，排除",
                 "option_nature": "干扰项（曲解对比/黑白颠倒）",
-                "source_sentence": "...accomplished less than those given monthly goals, who were much more motivated and adaptable.",
-                "source_translation": "……完成的任务比那些给予月度目标的学生更少，后者表现出更强的动力和适应性。",
+                "source_sentence": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students. Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.",
+                "source_translation": "虽然研究人员假设结构良好的每日计划在执行任务时最有效，但他们错了：详细的每日计划挫伤了学生的积极性。哈福德认为，不可避免的干扰往往会使每日待办事项清单失效，而在这样的清单中留出即兴发挥的空间可以获得最佳效果。",
                 "locator_comparison": "选项B声称“学生很难受到月度目标的激励（students are hardly motivated by monthly goals）”。原文明确指出，正是那些被赋予了宽泛“月度目标（monthly goals）”的学生，由于拥有自主支配时间的缓冲空间，展现出了更强的动力和适应力（accomplished more, much more motivated）。选项B使用否定词 hardly motivated（几乎不受激励），把实验中表现优异的对照组直接黑白颠倒，纯属低级事实颠倒项。",
                 "writing_perspective": "作者用月度目标的成功来对比每日计划的溃败，B选项把赢家说成输家，使得整组科学对照实验失去了立论逻辑支撑，荒谬不堪。",
                 "theme_validation": "文章支持给心智留出余白与宏观掌控感，B项彻底违背心理学事实。",
@@ -7097,8 +7097,8 @@
               "analysis": {
                 "practice_status": "对照 researchers assumed most effective 与 accomplished less，选C",
                 "option_nature": "正确项（反转归纳/同义转述）",
-                "source_sentence": "While the researchers assumed that the well-structured daily plans would be most effective... they found that students given daily plans were severely demoralized and accomplished less...",
-                "source_translation": "虽然研究人员原以为结构严谨的每日计划在执行任务时最有效，但他们发现，制定了每日计划的学生士气严重低落，完成的事情反而更少……",
+                "source_sentence": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students. Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.",
+                "source_translation": "虽然研究人员假设结构良好的每日计划在执行任务时最有效，但他们错了：详细的每日计划挫伤了学生的积极性。哈福德认为，不可避免的干扰往往会使每日待办事项清单失效，而在这样的清单中留出即兴发挥的空间可以获得最佳效果。",
                 "locator_comparison": "选项C指出实验表明“详尽的计划可能并不像预期的那样富有成效（detailed plans may not be as fruitful as expected）”。定位句通过让步结构 While 展示了巨大的预期落差：研究人员原本预设（assumed / as expected）结构精密的每日计划（well-structured / detailed plans）会是最有效的（most effective）；但实际结果却是学生深受打击、产出更少（accomplished less / not as fruitful）。C选项精妙地提炼了这一心理学预期与现实的戏剧性反差，完全忠于原文。",
                 "writing_perspective": "作者通过这个经典的“反直觉科学结论”，巧妙引导读者反思自己日常中制定的那些精密到分钟的无用时间表，为下文提出“拥抱发呆偷懒”做好了绝佳的逻辑铺垫，选C严丝合缝地承接了这一论述转折。",
                 "theme_validation": "全文反思过犹不及的机械控制，提倡高质量的节奏感，C项准确切中全篇核心洞见。",
@@ -7114,8 +7114,8 @@
               "analysis": {
                 "practice_status": "分心破坏深度工作，文章从未说分心能提高效率，荒谬常识错误，排除",
                 "option_nature": "干扰项（荒谬反常识/脱离文旨）",
-                "source_sentence": "...to combat constant interruptions and get more done in less time...",
-                "source_translation": "……为了对抗持续的干扰打断，并在更少时间内完成更多事情……",
+                "source_sentence": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students. Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.",
+                "source_translation": "虽然研究人员假设结构良好的每日计划在执行任务时最有效，但他们错了：详细的每日计划挫伤了学生的积极性。哈福德认为，不可避免的干扰往往会使每日待办事项清单失效，而在这样的清单中留出即兴发挥的空间可以获得最佳效果。",
                 "locator_comparison": "选项D认为实验显示“分心实际上可能提高效率（distractions may actually increase efficiency）”。全书及全文开篇立论的根本敌人就是“distractions / constant interruptions（外界的频繁分心与打扰）”，深度工作（deep work）的一切规则都是为了消灭分心。声称分心能提高效率，在常理和文旨上均荒谬绝伦。文中探讨的是计划过于严密导致的问题，与分心毫无关联。D项完全脱靶。",
                 "writing_perspective": "若分心能提高效率，Cal Newport 的《深度工作》整本书都不复存在，D选项直接挑战全书的公理基础，属于送命题式的滑稽选项。",
                 "theme_validation": "文章致力于在碎片化世界中守护专注，D项的反动观点极其荒谬。",
@@ -7139,7 +7139,7 @@
           "type": "段落推理题",
           "locate_pid": 6,
           "locate_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
-          "locate_sentence_cn": "他辩称：“闲暇不仅仅是度假、放纵或恶习；它对大脑的重要性就像维生素D对身体一样必不可少……矛盾的是，[闲暇]对于完成任何工作都是必需的。”",
+          "locate_sentence_cn": "他认为：“闲暇不仅仅是度假、放纵或恶习；它对大脑而言，就像维生素D对身体一样不可或缺……自相矛盾的是，闲暇是完成任何工作的必要条件。”",
           "options": [
             {
               "key": "A",
@@ -7150,8 +7150,8 @@
               "analysis": {
                 "practice_status": "在定位句末尾直接看到原句 an essential factor in accomplishing any work，秒定A",
                 "option_nature": "正确项（原句重现/核心定性）",
-                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body, and paradoxical though it may seem, it is an essential factor in accomplishing any work.”",
-                "source_translation": "“闲暇不仅是一次度假、一种放纵或一项恶习；它对大脑而言，就像维生素D对身体一样必不可少；而且尽管这看起来很矛盾，但它实际上是完成任何工作所不可或缺的一个关键要素。”",
+                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+                "source_translation": "他认为：“闲暇不仅仅是度假、放纵或恶习；它对大脑而言，就像维生素D对身体一样不可或缺……自相矛盾的是，闲暇是完成任何工作的必要条件。”",
                 "locator_comparison": "选项A指出 Newport 认为闲暇是“完成任何工作不可或缺的要素（an essential factor in accomplishing any work）”。定位句破折号后明确以并列结论给出定性：“paradoxical though it may seem, it is an essential factor in accomplishing any work”。A选项与原文完全一字不差地精准吻合，高保真还原了作者颠覆传统认知的深刻论断：真正的卓越产出，必须依赖大脑在闲暇时的后台沉淀与能量恢复。毫无争议的标准答案。",
                 "writing_perspective": "作者在此完成了全篇最震撼的心智翻转：发呆不仅不是罪恶，反而是深度工作的燃料；选A精准锁定了作者这一惊世骇俗却符合认知神经科学的真知灼见。",
                 "theme_validation": "全文论证高效工作必须劳逸结合、动静相生，闲暇（idleness）被赋予了最高维度的生产力地位，A项与该立论完全统一。",
@@ -7167,8 +7167,8 @@
               "analysis": {
                 "practice_status": "闲暇是为了恢复心智大脑，非省时省力的取巧技巧，排除",
                 "option_nature": "干扰项（偷换概念/功利化曲解）",
-                "source_sentence": "...it is as indispensable to the brain as Vitamin D is to the body...",
-                "source_translation": "……它对大脑而言，就像维生素D对身体一样必不可少……",
+                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+                "source_translation": "他认为：“闲暇不仅仅是度假、放纵或恶习；它对大脑而言，就像维生素D对身体一样不可或缺……自相矛盾的是，闲暇是完成任何工作的必要条件。”",
                 "locator_comparison": "选项B认为闲暇是“一种节约时间和精力的有效方式（an effective way to save time and energy）”。闲暇发呆本身是在消耗客观物理时间（休息停工），其根本目的在于滋养神经元、恢复大脑认知能量，以便在工作时爆发高浓度专注，这与偷懒“节约时间（save time）”的功利化小聪明毫无关系。B项用世俗的节约技巧曲解了大脑生理休息的本质功能。",
                 "writing_perspective": "作者推崇闲暇是出于对生命节律的敬畏，若将其解释为投机取巧省时间，则彻底流于庸俗时间管理小窍门，B选项格调低下。",
                 "theme_validation": "文章主旨是探索深度心智规律，B项将神经科学的营养补给误读为节省时间，偏离本质。",
@@ -7184,8 +7184,8 @@
               "analysis": {
                 "practice_status": "维生素D对身体是明喻修辞，本体是对大脑健康不可或缺，混淆喻体，排除",
                 "option_nature": "干扰项（喻体与本体混淆/张冠李戴）",
-                "source_sentence": "...it is as indispensable to the brain as Vitamin D is to the body...",
-                "source_translation": "……它对大脑而言，就像维生素D对身体一样必不可少……",
+                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+                "source_translation": "他认为：“闲暇不仅仅是度假、放纵或恶习；它对大脑而言，就像维生素D对身体一样不可或缺……自相矛盾的是，闲暇是完成任何工作的必要条件。”",
                 "locator_comparison": "选项C认为闲暇是“身体健康的主要促进因素（a major contributor to physical health）”。定位句运用了经典的明喻修辞：“as indispensable to the brain as Vitamin D is to the body”。喻体是“维生素D保障身体健康”，而作者真正论述的本体是“闲暇对于大脑/心智（brain）不可或缺”。选项C把作为打比方的喻体（body/physical health），张冠李戴替换成了本体，犯了考研英语极具迷惑性的修辞喻体混同错误。",
                 "writing_perspective": "本文讨论的是认知神经科学与脑力工作者的思维模式，讨论重心在于大脑认知回路，若泛化为肉体健康，文章就沦为了养生保健指南，C选项混淆论题领域。",
                 "theme_validation": "文章始终聚焦脑力（mental/brain）的高效产出，C项把心智滋养矮化为身体健康，果断排除。",
@@ -7201,8 +7201,8 @@
               "analysis": {
                 "practice_status": "发呆不仅是令人渴望的心理状态，更是完成工作的客观必需要素，排除",
                 "option_nature": "干扰项（以偏概全/弱化客观刚需）",
-                "source_sentence": "...it is an essential factor in accomplishing any work.",
-                "source_translation": "……它是完成任何工作所不可或缺的要素。",
+                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+                "source_translation": "他认为：“闲暇不仅仅是度假、放纵或恶习；它对大脑而言，就像维生素D对身体一样不可或缺……自相矛盾的是，闲暇是完成任何工作的必要条件。”",
                 "locator_comparison": "选项D认为闲暇是“忙碌人群所渴望的一种心理状态（a desirable mental state for busy people）”。闲暇发呆可能会让人心生向往（desirable），但作者强调的绝不仅仅是一种主观的情绪享受（not just an indulgence/vacation），而是强调它对任何想要达成工作目标的人具有冷酷硬核的“客观刚需性（essential factor / indispensable）”。D项将至关重要的客观生产力必备要素，降格为可有可无的主观心理渴望，大大削弱了作者的立论硬度。",
                 "writing_perspective": "作者在句首就用“not just a vacation, an indulgence”排除了这种单纯的享乐视角，D选项把作者排除的浅层感知又重新包装出来，违背作者由表及里的论述层次。",
                 "theme_validation": "文章是在从神经机理层面为闲暇赋予刚性地位，D项主观软化了这一硬核结论。",
@@ -7226,7 +7226,7 @@
           "type": "词义/例证题",
           "locate_pid": 7,
           "locate_sentence": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
-          "locate_sentence_cn": "当我们的大脑在对某项任务保持专注与不专注之间切换时，往往效率更高。",
+          "locate_sentence_cn": "当我们的大脑在专注和非专注状态之间切换时，它们往往更有效率。",
           "options": [
             {
               "key": "A",
@@ -7237,8 +7237,8 @@
               "analysis": {
                 "practice_status": "虽然有益身心，但实验指出的直接收益是更高的工作效率，排除",
                 "option_nature": "干扰项（过度发散/偷换核心收益）",
-                "source_sentence": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient...",
-                "source_translation": "当我们的大脑在一项任务上专注与非专注之间进行切换时，它们往往效率更高……",
+                "source_sentence": "Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity may be due to the way our brains operate. When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+                "source_translation": "哈佛大学医学院精神病学助理教授斯里尼·皮莱认为，停工休息时间与生产力之间这种有违直觉的联系可能是由于我们大脑的运作方式。当我们的大脑在专注和非专注状态之间切换时，它们往往更有效率。",
                 "locator_comparison": "选项A认为大脑回路切换“能够导致心理健康（can result in psychological well-being）”。Pillay 作为精神病学教授，在此处探讨的焦点完全在于认知生产力机制，明确指出大脑在专注与非专注之间切换的直接后果是“tend to be more efficient（效率更高）”以实现任务的高效完成。通篇并未把这一机制的结论指向广义的“心理幸福/心理健康（psychological well-being）”。A项属于擅自外延发散的泛化干扰项。",
                 "writing_perspective": "作者全篇在论述如何“get more done in less time”，神经科学证据是为高效办事服务的硬核理论支持，若转向心理疗愈，则偏离了全篇的方法论主轴，A选项脱靶。",
                 "theme_validation": "全文聚焦深度工作与生产力革命，心理健康并非本段的因果结论，A项不符文意。",
@@ -7254,8 +7254,8 @@
               "analysis": {
                 "practice_status": "精准捕捉 switch between focused and unfocused 与 more efficient，选B",
                 "option_nature": "正确项（同义替换/神经科学结论）",
-                "source_sentence": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient... use both focus and unfocus circuits...",
-                "source_translation": "当我们的大脑在一项任务的专注与走神之间切换时，它们往往更有效率……同时调用专注与非专注回路……",
+                "source_sentence": "Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity may be due to the way our brains operate. When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+                "source_translation": "哈佛大学医学院精神病学助理教授斯里尼·皮莱认为，停工休息时间与生产力之间这种有违直觉的联系可能是由于我们大脑的运作方式。当我们的大脑在专注和非专注状态之间切换时，它们往往更有效率。",
                 "locator_comparison": "选项B指出大脑在专注与非专注之间切换“能够带来更高的效率（can bring about greater efficiency）”。定位句主干明载：“When our brains switch between being focused and unfocused... they tend to be more efficient”。题干 brains' shift 严格对应 brains switch；B选项用 bring about greater efficiency 完美同义转换 tend to be more efficient。动宾搭配与因果逻辑完全百分之百重合，精准无误。",
                 "writing_perspective": "作者在此借哈佛顶级脑科学家之口，为全文的核心观点提供了无可辩驳的现代脑科学底层证据：只会蛮力专注的人注定低效，懂得以逸待劳、让大脑两个回路交替运转的人才是真正的高手，选B深刻传递了全篇最具含金量的科学认知。",
                 "theme_validation": "“在更少时间内干完更多事情（more done in less time）”是全文破题的唯一总纲，B项牢牢扣死效率总纲。",
@@ -7271,8 +7271,8 @@
               "analysis": {
                 "practice_status": "回路切换是大脑的生理运作规律，并非旨在平衡工作的主观意图，排除",
                 "option_nature": "干扰项（主观意图曲解/概念混淆）",
-                "source_sentence": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient...",
-                "source_translation": "当我们的大脑在任务上于专注与非专注之间切换时，它们往往更有效率……",
+                "source_sentence": "Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity may be due to the way our brains operate. When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+                "source_translation": "哈佛大学医学院精神病学助理教授斯里尼·皮莱认为，停工休息时间与生产力之间这种有违直觉的联系可能是由于我们大脑的运作方式。当我们的大脑在专注和非专注状态之间切换时，它们往往更有效率。",
                 "locator_comparison": "选项C认为回路切换“旨在实现工作中更好的平衡（is aimed at better balance in work）”。大脑在专注与走神回路之间的切换，是人类神经系统在进化过程中形成的客观生理机制与工作节律，其客观产出是带来高效率。选项C使用带有强烈主观目的色彩的短语“is aimed at（旨在/目的是为了）”，把生理神经运行机制曲解为了职场人追求“工作生活平衡（balance in work）”的个人主观目的。C项在属性界定上彻底混淆。",
                 "writing_perspective": "科学家阐释的是“大脑运作规律（how it works）”，而非人力资源部门倡导的“平衡口号”，C选项严重庸俗化了脑科学原理。",
                 "theme_validation": "文章强调利用大脑机制达成高效，而非讨论泛泛的职场平衡，C项偏离要旨。",
@@ -7288,8 +7288,8 @@
               "analysis": {
                 "practice_status": "回路切换是人脑固有的认知节律，非任务紧迫度逼出来的，排除",
                 "option_nature": "干扰项（无中生有/动因错置）",
-                "source_sentence": "When our brains switch between being focused and unfocused on a task...",
-                "source_translation": "当我们的大脑在任务的专注与走神之间切换时……",
+                "source_sentence": "Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity may be due to the way our brains operate. When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+                "source_translation": "哈佛大学医学院精神病学助理教授斯里尼·皮莱认为，停工休息时间与生产力之间这种有违直觉的联系可能是由于我们大脑的运作方式。当我们的大脑在专注和非专注状态之间切换时，它们往往更有效率。",
                 "locator_comparison": "选项D声称回路切换“是由任务的紧迫性驱动的（is driven by task urgency）”。神经科学研究表明，大脑专注与非专注回路的交替属于大脑自身维持稳态与发散联想的底层生理特征。当面临极度紧迫的任务时（task urgency），人们往往反而会陷入过度紧绷的单一专注死胡同，压抑非专注回路。文中从未提及任务紧迫性是推动回路切换的驱动力。D项毫无科学与文本依据。",
                 "writing_perspective": "作者在全篇倡导主动给大脑放风，反对被外界的紧急事务牵着鼻子走，D选项引入紧急驱动，与自主掌控心智的论述初衷背道而驰。",
                 "theme_validation": "文章旨在打破外界打扰与催逼的被动循环，D项动因颠倒，无法成立。",
