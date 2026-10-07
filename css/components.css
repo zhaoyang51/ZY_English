@@ -1919,3 +1919,197 @@ body.theme-dark .vocab-book-sentence {
   gap: 8px;
   margin-top: 10px;
 }
+
+/* ==========================================================================
+   Vocab Book 5-Dimensional Authentic Exam Subsections (五维真题考点拓展)
+   ========================================================================== */
+.vocab-relation-subsections {
+  margin: 10px 0 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.vocab-rel-block {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm, 6px);
+  padding: 8px 12px;
+  transition: all 0.15s ease;
+}
+body.theme-dark .vocab-rel-block {
+  background: rgba(255, 255, 255, 0.03);
+}
+.vocab-rel-block:hover {
+  border-color: rgba(37, 99, 235, 0.35);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+.vocab-rel-header {
+  font-size: 0.82em;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  letter-spacing: 0.02em;
+}
+.vocab-rel-header.lookalikes { color: #7c3aed; }
+.vocab-rel-header.phrases { color: #0d9488; }
+.vocab-rel-header.synonyms { color: #2563eb; }
+.vocab-rel-header.antonyms { color: #e11d48; }
+.vocab-rel-header.sentences { color: #d97706; }
+body.theme-dark .vocab-rel-header.lookalikes { color: #a78bfa; }
+body.theme-dark .vocab-rel-header.phrases { color: #2dd4bf; }
+body.theme-dark .vocab-rel-header.synonyms { color: #60a5fa; }
+body.theme-dark .vocab-rel-header.antonyms { color: #fb7185; }
+body.theme-dark .vocab-rel-header.sentences { color: #fbbf24; }
+
+.vocab-rel-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.vocab-rel-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  transition: all 0.12s ease;
+  line-height: 1.4;
+}
+.vocab-rel-pill:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.vocab-rel-pill .pill-word {
+  font-weight: 700;
+  color: var(--ink);
+}
+.vocab-rel-pill .pill-def {
+  color: var(--muted);
+  font-size: 0.9em;
+}
+.vocab-rel-pill .pill-prov {
+  font-size: 0.76em;
+  color: var(--accent);
+  background: rgba(37, 99, 235, 0.07);
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+.vocab-rel-pill .pill-speak {
+  cursor: pointer;
+  opacity: 0.65;
+  font-size: 0.95em;
+  padding: 0 2px;
+}
+.vocab-rel-pill .pill-speak:hover {
+  opacity: 1;
+}
+
+.vocab-rel-phrase-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px;
+  font-size: 0.84em;
+  padding: 4px 8px;
+  background: rgba(13, 148, 136, 0.04);
+  border-left: 2px solid #0d9488;
+  border-radius: 3px;
+  margin-bottom: 4px;
+}
+body.theme-dark .vocab-rel-phrase-item {
+  background: rgba(13, 148, 136, 0.12);
+  border-left-color: #2dd4bf;
+}
+.vocab-rel-phrase-item:last-child {
+  margin-bottom: 0;
+}
+.vocab-rel-phrase-item .phrase-en {
+  font-weight: 700;
+  color: var(--ink);
+}
+.vocab-rel-phrase-item .phrase-def {
+  color: var(--muted);
+  flex: 1;
+  margin: 0 8px;
+}
+.vocab-rel-phrase-item .phrase-prov {
+  font-size: 0.78em;
+  color: #0d9488;
+  font-weight: 600;
+}
+body.theme-dark .vocab-rel-phrase-item .phrase-prov {
+  color: #2dd4bf;
+}
+
+.vocab-rel-sentence-item {
+  background: rgba(217, 119, 6, 0.04);
+  border-left: 3px solid #d97706;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  font-size: 0.86em;
+  line-height: 1.55;
+}
+body.theme-dark .vocab-rel-sentence-item {
+  background: rgba(217, 119, 6, 0.12);
+  border-left-color: #fbbf24;
+}
+.vocab-rel-sentence-item:last-child {
+  margin-bottom: 0;
+}
+.vocab-rel-sentence-en {
+  color: var(--ink);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.vocab-rel-sentence-zh {
+  color: var(--muted);
+  font-size: 0.94em;
+  margin-bottom: 6px;
+}
+.vocab-rel-sentence-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8em;
+  color: var(--muted);
+}
+.vocab-rel-sentence-prov {
+  font-weight: 700;
+  color: #d97706;
+}
+body.theme-dark .vocab-rel-sentence-prov {
+  color: #fbbf24;
+}
+.vocab-btn-locate-sent {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid rgba(217, 119, 6, 0.3);
+  color: #d97706;
+  font-size: 0.9em;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: all 0.12s ease;
+}
+.vocab-btn-locate-sent:hover {
+  background: #d97706;
+  color: #fff;
+}
+body.theme-dark .vocab-btn-locate-sent {
+  border-color: rgba(251, 191, 36, 0.4);
+  color: #fbbf24;
+}
+body.theme-dark .vocab-btn-locate-sent:hover {
+  background: #fbbf24;
+  color: #000;
+}
+

@@ -1091,6 +1091,18 @@
   }
   window.jumpToArticleSentence = jumpToArticleSentence;
 
+  function getVocabRelations(w) {
+    if (!window.KAOYAN_VOCAB_RELATIONS || !w) return null;
+    const wLow = String(w).toLowerCase().trim();
+    return window.KAOYAN_VOCAB_RELATIONS[wLow] ||
+           window.KAOYAN_VOCAB_RELATIONS[String(w).trim()] ||
+           window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/s$/, '')] ||
+           window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/ed$/, '')] ||
+           window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/ing$/, '')] ||
+           null;
+  }
+  window.getVocabRelations = getVocabRelations;
+
   function renderVocabBookModal(filterSearch = '') {
     const body = document.getElementById('vocabBookModalBody');
     if (!body) return;
@@ -1111,49 +1123,233 @@
     }
 
     const sLower = filterSearch.toLowerCase().trim();
-    const filtered = sLower ? list.filter(item =>
-      item.word.toLowerCase().includes(sLower) ||
-      (item.def && item.def.toLowerCase().includes(sLower)) ||
-      (item.sentence && item.sentence.toLowerCase().includes(sLower))
-    ) : list;
+    const filtered = sLower ? list.filter(item => {
+      if (item.word.toLowerCase().includes(sLower)) return true;
+      if (item.def && item.def.toLowerCase().includes(sLower)) return true;
+      if (item.sentence && item.sentence.toLowerCase().includes(sLower)) return true;
+      const rel = getVocabRelations(item.word);
+      if (rel) {
+        if (rel.lookalikes && rel.lookalikes.some(l => l.word.toLowerCase().includes(sLower) || (l.def && l.def.includes(sLower)))) return true;
+        if (rel.phrases && rel.phrases.some(p => p.phrase.toLowerCase().includes(sLower) || (p.def && p.def.includes(sLower)))) return true;
+        if (rel.synonyms && rel.synonyms.some(s => s.word.toLowerCase().includes(sLower) || (s.def && s.def.includes(sLower)))) return true;
+        if (rel.antonyms && rel.antonyms.some(a => a.word.toLowerCase().includes(sLower) || (a.def && a.def.includes(sLower)))) return true;
+        if (rel.sentences && rel.sentences.some(st => st.text.toLowerCase().includes(sLower) || (st.translation && st.translation.includes(sLower)))) return true;
+      }
+      return false;
+    }) : list;
 
     // Sort by latest added first
     const sorted = [...filtered].sort((a, b) => (b.time || 0) - (a.time || 0));
 
     let html = `
       <div style="margin-bottom:14px;display:flex;gap:10px;align-items:center">
-        <input type="text" id="vocabBookSearchInput" class="vocab-search-input" style="flex:1" placeholder="🔍 检索生词、考研释义或真题原句..." value="${filterSearch}">
+        <input type="text" id="vocabBookSearchInput" class="vocab-search-input" style="flex:1" placeholder="🔍 检索生词、大纲释义、形近词、真题词组或原句..." value="${escapeAttr(filterSearch)}">
       </div>
       <div class="vocab-book-list">
     `;
 
     if (sorted.length === 0) {
-      html += `<div style="text-align:center;padding:24px;color:var(--muted)">未找到匹配 "${filterSearch}" 的生词</div>`;
+      html += `<div style="text-align:center;padding:24px;color:var(--muted)">未找到匹配 "${escapeAttr(filterSearch)}" 的生词或拓展考点</div>`;
     } else {
       sorted.forEach(item => {
         const prov = item.year ? `${item.year} 年 · Text ${item.textId}` : '考研真题';
-        let sentHtml = item.sentence || '';
-        if (sentHtml && item.word) {
-          try {
-            const re = new RegExp(`\\b(${item.word.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')})\\b`, 'gi');
-            sentHtml = sentHtml.replace(re, '<span class="vocab-highlight">$1</span>');
-          } catch(e) {}
-        }
+        const cleanWord = item.word.trim();
+        const relData = getVocabRelations(cleanWord);
 
-        html += `
-          <div class="vocab-book-card" data-word="${escapeAttr(item.word)}">
-            <div class="vocab-book-header">
-              <span class="vocab-book-word">${item.word}</span>
-              <div class="vocab-book-meta">
-                <span style="font-size:0.8em;background:rgba(37,99,235,0.08);color:var(--primary);font-weight:700;padding:2px 8px;border-radius:4px">${prov}</span>
+        // Highlight helper
+        const highlightWord = (sentenceText, targetW) => {
+          if (!sentenceText) return '';
+          try {
+            const re = new RegExp(`\\b(${targetW.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}[a-zA-Z]*)\\b`, 'gi');
+            return sentenceText.replace(re, '<span class="vocab-highlight">$1</span>');
+          } catch(e) {
+            return escapeAttr(sentenceText);
+          }
+        };
+
+        // 1. 形近词 (Lookalikes)
+        let lookalikesHtml = '';
+        if (relData && relData.lookalikes && relData.lookalikes.length > 0) {
+          lookalikesHtml = `
+            <div class="vocab-rel-block">
+              <div class="vocab-rel-header lookalikes">
+                <span>🔍 真题形近词辨析</span>
+                <span style="font-size:0.85em;font-weight:normal;opacity:0.8">英二高频拼写易混</span>
+              </div>
+              <div class="vocab-rel-pills">
+                ${relData.lookalikes.map(lk => `
+                  <div class="vocab-rel-pill" title="${escapeAttr(lk.prov)}: ${escapeAttr(lk.def)}">
+                    <span class="pill-word">${escapeAttr(lk.word)}</span>
+                    <span class="pill-def">${escapeAttr(lk.def)}</span>
+                    <span class="pill-prov">${escapeAttr(lk.prov)}</span>
+                    <span class="pill-speak btn-speak-word" data-word="${escapeAttr(lk.word)}" title="朗读该形近词">🔊</span>
+                  </div>
+                `).join('')}
               </div>
             </div>
-            <div class="vocab-book-def">${item.def || (window.KAOYAN_VOCAB_DICT && window.KAOYAN_VOCAB_DICT[item.word.toLowerCase().trim()] && window.KAOYAN_VOCAB_DICT[item.word.toLowerCase().trim()].def) || '真题重点考查词汇'}</div>
-            ${sentHtml ? `<div class="vocab-book-sentence"><strong>真题原句：</strong>${sentHtml}</div>` : ''}
+          `;
+        }
+
+        // 2. 词组 (Phrases)
+        let phrasesHtml = '';
+        if (relData && relData.phrases && relData.phrases.length > 0) {
+          phrasesHtml = `
+            <div class="vocab-rel-block">
+              <div class="vocab-rel-header phrases">
+                <span>🔗 真题搭配词组</span>
+                <span style="font-size:0.85em;font-weight:normal;opacity:0.8">考场高频固定搭配</span>
+              </div>
+              <div>
+                ${relData.phrases.map(ph => `
+                  <div class="vocab-rel-phrase-item">
+                    <span class="phrase-en">${escapeAttr(ph.phrase)}</span>
+                    <span class="phrase-def">${escapeAttr(ph.def)}</span>
+                    <span class="phrase-prov">${escapeAttr(ph.prov)}</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        }
+
+        // 3. 近义词 (Synonyms)
+        let synonymsHtml = '';
+        if (relData && relData.synonyms && relData.synonyms.length > 0) {
+          synonymsHtml = `
+            <div class="vocab-rel-block">
+              <div class="vocab-rel-header synonyms">
+                <span>🔄 考点近义词</span>
+                <span style="font-size:0.85em;font-weight:normal;opacity:0.8">命题同义改写置换</span>
+              </div>
+              <div class="vocab-rel-pills">
+                ${relData.synonyms.map(syn => `
+                  <div class="vocab-rel-pill" title="${escapeAttr(syn.prov)}: ${escapeAttr(syn.def)}">
+                    <span class="pill-word">${escapeAttr(syn.word)}</span>
+                    <span class="pill-def">${escapeAttr(syn.def)}</span>
+                    <span class="pill-prov">${escapeAttr(syn.prov)}</span>
+                    <span class="pill-speak btn-speak-word" data-word="${escapeAttr(syn.word)}" title="朗读该近义词">🔊</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        }
+
+        // 4. 反义词 (Antonyms)
+        let antonymsHtml = '';
+        if (relData && relData.antonyms && relData.antonyms.length > 0) {
+          antonymsHtml = `
+            <div class="vocab-rel-block">
+              <div class="vocab-rel-header antonyms">
+                <span>⚖️ 对立反义词</span>
+                <span style="font-size:0.85em;font-weight:normal;opacity:0.8">正反论证态度对立</span>
+              </div>
+              <div class="vocab-rel-pills">
+                ${relData.antonyms.map(ant => `
+                  <div class="vocab-rel-pill" title="${escapeAttr(ant.prov)}: ${escapeAttr(ant.def)}">
+                    <span class="pill-word">${escapeAttr(ant.word)}</span>
+                    <span class="pill-def">${escapeAttr(ant.def)}</span>
+                    <span class="pill-prov">${escapeAttr(ant.prov)}</span>
+                    <span class="pill-speak btn-speak-word" data-word="${escapeAttr(ant.word)}" title="朗读该反义词">🔊</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        }
+
+        // 5. 真题原句 (Exam Sentences)
+        // 合并收藏时记录的原句与库中收录的权威原句
+        const combinedSentences = [];
+        const seenSentTexts = new Set();
+
+        if (item.sentence && item.sentence.trim()) {
+          seenSentTexts.add(item.sentence.trim().toLowerCase());
+          combinedSentences.push({
+            text: item.sentence.trim(),
+            translation: '',
+            prov: prov,
+            year: item.year,
+            textId: item.textId,
+            sid: item.sid,
+            pid: item.pid
+          });
+        }
+
+        if (relData && relData.sentences && relData.sentences.length > 0) {
+          relData.sentences.forEach(st => {
+            const rawT = st.text.trim();
+            if (!seenSentTexts.has(rawT.toLowerCase()) && combinedSentences.length < 3) {
+              seenSentTexts.add(rawT.toLowerCase());
+              combinedSentences.push(st);
+            }
+          });
+        }
+
+        let sentencesHtml = '';
+        if (combinedSentences.length > 0) {
+          sentencesHtml = `
+            <div class="vocab-rel-block">
+              <div class="vocab-rel-header sentences">
+                <span>📖 历年真题原句</span>
+                <span style="font-size:0.85em;font-weight:normal;opacity:0.8">真实语境与定位剖析</span>
+              </div>
+              <div>
+                ${combinedSentences.map(sent => {
+                  const highlightedEn = highlightWord(sent.text, cleanWord);
+                  const isLocatable = sent.year && sent.textId;
+                  return `
+                    <div class="vocab-rel-sentence-item">
+                      <div class="vocab-rel-sentence-en">${highlightedEn}</div>
+                      ${sent.translation ? `<div class="vocab-rel-sentence-zh">${escapeAttr(sent.translation)}</div>` : ''}
+                      <div class="vocab-rel-sentence-footer">
+                        <span class="vocab-rel-sentence-prov">📌 ${escapeAttr(sent.prov || `${sent.year} 年 · Text ${sent.textId}`)}</span>
+                        ${isLocatable ? `
+                          <button class="vocab-btn-locate-sent btn-jump-article"
+                            data-year="${escapeAttr(sent.year)}"
+                            data-text="${escapeAttr(sent.textId)}"
+                            data-word="${escapeAttr(cleanWord)}"
+                            data-sentence="${escapeAttr(sent.text)}"
+                            data-sid="${sent.sid !== undefined && sent.sid !== null ? sent.sid : ''}"
+                            data-pid="${sent.pid !== undefined && sent.pid !== null ? sent.pid : ''}"
+                            title="一键跳转至真题文章精确定位本句">
+                            📖 原文定位
+                          </button>
+                        ` : ''}
+                      </div>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          `;
+        }
+
+        // 主释义
+        const mainDef = item.def || (window.KAOYAN_VOCAB_DICT && window.KAOYAN_VOCAB_DICT[cleanWord.toLowerCase()] && window.KAOYAN_VOCAB_DICT[cleanWord.toLowerCase()].def) || '真题重点考查词汇';
+
+        html += `
+          <div class="vocab-book-card" data-word="${escapeAttr(cleanWord)}">
+            <div class="vocab-book-header">
+              <span class="vocab-book-word">${escapeAttr(cleanWord)}</span>
+              <div class="vocab-book-meta">
+                <span style="font-size:0.8em;background:rgba(37,99,235,0.08);color:var(--primary);font-weight:700;padding:2px 8px;border-radius:4px">${escapeAttr(prov)}</span>
+              </div>
+            </div>
+            <div class="vocab-book-def">${escapeAttr(mainDef)}</div>
+            
+            <div class="vocab-relation-subsections">
+              ${lookalikesHtml}
+              ${phrasesHtml}
+              ${synonymsHtml}
+              ${antonymsHtml}
+              ${sentencesHtml}
+            </div>
+
             <div class="vocab-book-actions">
-              <button class="toolbar-btn btn-speak-word" data-word="${escapeAttr(item.word)}" style="padding:3px 10px;font-size:0.82em" title="发音朗读">🔊 朗读</button>
-              ${item.year ? `<button class="toolbar-btn btn-jump-article" data-year="${escapeAttr(item.year)}" data-text="${escapeAttr(item.textId)}" data-word="${escapeAttr(item.word)}" data-sentence="${escapeAttr(item.sentence || '')}" data-sid="${item.sid !== undefined && item.sid !== null ? item.sid : ''}" data-pid="${item.pid !== undefined && item.pid !== null ? item.pid : ''}" style="padding:3px 10px;font-size:0.82em;color:var(--primary)" title="跳转到真题文章并精确定位原句">📖 跳转真题</button>` : ''}
-              <button class="toolbar-btn btn-del-word" data-word="${escapeAttr(item.word)}" style="padding:3px 10px;font-size:0.82em;color:#ef4444" title="移出生词本">🗑️ 移除</button>
+              <button class="toolbar-btn btn-speak-word" data-word="${escapeAttr(cleanWord)}" style="padding:3px 10px;font-size:0.82em" title="发音朗读">🔊 朗读</button>
+              ${item.year ? `<button class="toolbar-btn btn-jump-article" data-year="${escapeAttr(item.year)}" data-text="${escapeAttr(item.textId)}" data-word="${escapeAttr(cleanWord)}" data-sentence="${escapeAttr(item.sentence || '')}" data-sid="${item.sid !== undefined && item.sid !== null ? item.sid : ''}" data-pid="${item.pid !== undefined && item.pid !== null ? item.pid : ''}" style="padding:3px 10px;font-size:0.82em;color:var(--primary)" title="跳转到真题文章并精确定位原句">📖 跳转真题</button>` : ''}
+              <button class="toolbar-btn btn-del-word" data-word="${escapeAttr(cleanWord)}" style="padding:3px 10px;font-size:0.82em;color:#ef4444" title="移出生词本">🗑️ 移除</button>
             </div>
           </div>
         `;
@@ -1176,7 +1372,8 @@
     }
 
     body.querySelectorAll('.btn-speak-word').forEach(btn => {
-      btn.onclick = () => {
+      btn.onclick = (e) => {
+        e.stopPropagation();
         const w = btn.getAttribute('data-word');
         if (w && 'speechSynthesis' in window) {
           window.speechSynthesis.cancel();

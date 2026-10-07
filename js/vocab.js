@@ -335,6 +335,9 @@
                   <div class="vocab-sentence-en" id="vocabSentenceEn"></div>
                   <div class="vocab-sentence-zh" id="vocabSentenceZh"></div>
                 </div>
+
+                <!-- 5-Dimensional Authentic Exam Subsections Container -->
+                <div class="vocab-relations-container" id="vocabRelationsContainer" style="margin-top:8px"></div>
               </div>
 
               <div class="vocab-assessment-area">
@@ -444,6 +447,7 @@
         sentenceBox: document.getElementById('vocabSentenceBox'),
         sentenceEn: document.getElementById('vocabSentenceEn'),
         sentenceZh: document.getElementById('vocabSentenceZh'),
+        relationsContainer: document.getElementById('vocabRelationsContainer'),
 
         btnForgotFront: document.getElementById('vocabBtnForgotFront'),
         btnHardFront: document.getElementById('vocabBtnHardFront'),
@@ -926,6 +930,115 @@
       // Render Back
       els.wordBack.textContent = word;
       els.defBack.innerHTML = `<span style="color:var(--accent);font-weight:800;margin-right:6px">[${posText}]</span> ${cleanDef}`;
+
+      // Render 5-Dimensional Authentic Exam Subsections on Back
+      if (els.relationsContainer) {
+        const getRel = (w) => {
+          if (!window.KAOYAN_VOCAB_RELATIONS || !w) return null;
+          const wLow = String(w).toLowerCase().trim();
+          return window.KAOYAN_VOCAB_RELATIONS[wLow] ||
+                 window.KAOYAN_VOCAB_RELATIONS[String(w).trim()] ||
+                 window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/s$/, '')] ||
+                 window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/ed$/, '')] ||
+                 window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/ing$/, '')] || null;
+        };
+        const relData = getRel(word);
+        let relHtml = '';
+        if (relData) {
+          if (relData.lookalikes && relData.lookalikes.length > 0) {
+            relHtml += `
+              <div class="vocab-rel-block">
+                <div class="vocab-rel-header lookalikes">
+                  <span>🔍 真题形近词辨析</span>
+                  <span style="font-size:0.82em;font-weight:normal;opacity:0.8">考研高频易混</span>
+                </div>
+                <div class="vocab-rel-pills">
+                  ${relData.lookalikes.map(lk => `
+                    <div class="vocab-rel-pill" title="${lk.prov}: ${lk.def}">
+                      <span class="pill-word">${lk.word}</span>
+                      <span class="pill-def">${lk.def}</span>
+                      <span class="pill-prov">${lk.prov}</span>
+                      <span class="pill-speak vocab-inline-speak" data-word="${lk.word}" title="发音">🔊</span>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `;
+          }
+          if (relData.phrases && relData.phrases.length > 0) {
+            relHtml += `
+              <div class="vocab-rel-block">
+                <div class="vocab-rel-header phrases">
+                  <span>🔗 真题搭配词组</span>
+                  <span style="font-size:0.82em;font-weight:normal;opacity:0.8">高频固定搭配</span>
+                </div>
+                <div>
+                  ${relData.phrases.map(ph => `
+                    <div class="vocab-rel-phrase-item">
+                      <span class="phrase-en">${ph.phrase}</span>
+                      <span class="phrase-def">${ph.def}</span>
+                      <span class="phrase-prov">${ph.prov}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `;
+          }
+          if (relData.synonyms && relData.synonyms.length > 0) {
+            relHtml += `
+              <div class="vocab-rel-block">
+                <div class="vocab-rel-header synonyms">
+                  <span>🔄 考点近义词</span>
+                  <span style="font-size:0.82em;font-weight:normal;opacity:0.8">同义置换核心</span>
+                </div>
+                <div class="vocab-rel-pills">
+                  ${relData.synonyms.map(syn => `
+                    <div class="vocab-rel-pill" title="${syn.prov}: ${syn.def}">
+                      <span class="pill-word">${syn.word}</span>
+                      <span class="pill-def">${syn.def}</span>
+                      <span class="pill-prov">${syn.prov}</span>
+                      <span class="pill-speak vocab-inline-speak" data-word="${syn.word}" title="发音">🔊</span>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `;
+          }
+          if (relData.antonyms && relData.antonyms.length > 0) {
+            relHtml += `
+              <div class="vocab-rel-block">
+                <div class="vocab-rel-header antonyms">
+                  <span>⚖️ 对立反义词</span>
+                  <span style="font-size:0.82em;font-weight:normal;opacity:0.8">正反论证对立</span>
+                </div>
+                <div class="vocab-rel-pills">
+                  ${relData.antonyms.map(ant => `
+                    <div class="vocab-rel-pill" title="${ant.prov}: ${ant.def}">
+                      <span class="pill-word">${ant.word}</span>
+                      <span class="pill-def">${ant.def}</span>
+                      <span class="pill-prov">${ant.prov}</span>
+                      <span class="pill-speak vocab-inline-speak" data-word="${ant.word}" title="发音">🔊</span>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `;
+          }
+        }
+        els.relationsContainer.innerHTML = relHtml ? `<div class="vocab-relation-subsections">${relHtml}</div>` : '';
+        els.relationsContainer.querySelectorAll('.vocab-inline-speak').forEach(btn => {
+          btn.onclick = (e) => {
+            e.stopPropagation();
+            const spkW = btn.getAttribute('data-word');
+            if (spkW && 'speechSynthesis' in window) {
+              window.speechSynthesis.cancel();
+              const u = new SpeechSynthesisUtterance(spkW);
+              u.lang = 'en-US';
+              window.speechSynthesis.speak(u);
+            }
+          };
+        });
+      }
 
       // Update only context after an async load: do not flip the card or restart audio.
       const updateContext = sentence => {
