@@ -103,3 +103,28 @@ test('Vocabulary Book 5-Dimensional Relations: 100% Exam Provenance Verification
     });
   }
 });
+
+test('Vocabulary Disambiguation: means is verified as verb 3rd person singular (意味着) in 2016 Text 3 and dictionary', () => {
+  // 1. Verify 2016.json text3 para2 vocabulary has means as verb '意味着'
+  const d2016 = JSON.parse(fs.readFileSync('data/2016.json', 'utf8'));
+  const text3 = d2016.texts.find(t => t.text_id === 3 || t.text_id === '3');
+  assert.ok(text3, '2016 Text 3 should exist');
+  const para3 = text3.paragraphs.find(p => p.text && p.text.includes('Thinking of time as a resource to be maximised means'));
+  assert.ok(para3, 'Paragraph containing "maximised means" should exist');
+  const meansVocab = (para3.vocabulary || []).find(v => v.word && v.word.toLowerCase() === 'means');
+  assert.ok(meansVocab, 'means should be in paragraph vocabulary');
+  assert.equal(meansVocab.pos, 'v.', 'means in this context must be verb pos');
+  assert.ok(meansVocab.definition.includes('意味着'), 'means in this context must mean 意味着');
+
+  // 2. Verify vocab_dict has means as verb / noun with mean 3rd person singular
+  const dictCode = fs.readFileSync('data/vocab_dict.js', 'utf8').replace(/^window\.KAOYAN_VOCAB_DICT\s*=\s*/, '').replace(/;\s*$/, '');
+  const dict = JSON.parse(dictCode);
+  assert.ok(dict['means'], 'dict should have means entry');
+  assert.ok(dict['means'].def.includes('意味着'), 'dict means def should include 意味着');
+  assert.ok(dict['means'].def.includes('mean'), 'dict means def should reference root verb mean');
+
+  // 3. Verify relations['means'] has authentic lookalikes and synonyms
+  assert.ok(relations['means'], 'relations should have means');
+  const meansSyns = relations['means'].synonyms.map(s => s.word.toLowerCase());
+  assert.ok(meansSyns.includes('indicate') || meansSyns.includes('signify') || meansSyns.includes('imply') || meansSyns.includes('mean'), 'means synonyms should include verb synonyms');
+});

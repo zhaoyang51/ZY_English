@@ -2399,11 +2399,28 @@
   }
   window.jumpToReviewQuestion = jumpToReviewQuestion;
 
-  function getWordInfo(word) {
+  function getWordInfo(word, sentenceContext) {
     if (!word) return null;
     const dict = window.KAOYAN_VOCAB_DICT || {};
     const wClean = word.toLowerCase().trim().replace(/’/g, "'");
     const baseClean = wClean.replace(/'s$/, '').replace(/^[“"']|[”"']$/g, '');
+
+    // Context-sensitive grammatical overrides for easily confused inflected forms (e.g. means -> mean 3rd-person singular)
+    if (baseClean === 'means') {
+      const sContext = sentenceContext ? String(sentenceContext).toLowerCase() : '';
+      const isNounMeans = sContext && (
+        /\b(by\s+means\s+of|as\s+a\s+means\s+to|via\s+\w+\s+means|financial\s+means|ways\s+and\s+means)\b/i.test(sContext)
+      );
+      if (!isNounMeans) {
+        return {
+          pos: 'v.',
+          def: 'v. 意味着；意指；打算（动词 mean 的第三人称单数形式）',
+          full: '动词 mean 的第三人称单数形式：意味着；意指；打算',
+          baseForm: 'mean',
+          grammarNote: '动词 mean 的第三人称单数形式，本句意为“意味着”，作谓语动词'
+        };
+      }
+    }
 
     // 1. Direct match
     if (dict[baseClean]) return { ...dict[baseClean] };
@@ -2490,7 +2507,7 @@
       }
     }
 
-    const wordInfo = getWordInfo(word);
+    const wordInfo = getWordInfo(word, sentenceContext);
     const info = wordInfo ? { ...wordInfo } : {
       pos: customPos || "词汇",
       def: customDef || `${word}（真题重点考查词汇）`,
@@ -2518,6 +2535,12 @@
       `;
     }
 
+    const grammarNoteHtml = info.grammarNote ? `
+      <div class="vocab-grammar-note" style="margin:4px 0 6px 0;padding:4px 8px;background:rgba(37,99,235,0.08);border-left:3px solid var(--accent);border-radius:4px;font-size:0.83em;color:var(--ink);line-height:1.45">
+        💡 <strong>考点提示：</strong>${info.grammarNote}
+      </div>
+    ` : '';
+
     const isBookmarked = window.StorageModule.isBookmarked(wClean);
 
     popup.innerHTML = `
@@ -2529,6 +2552,7 @@
         <span class="vocab-pos">${info.pos}</span>
       </div>
       ${signpostHtml}
+      ${grammarNoteHtml}
       <div class="vocab-def">${info.def}</div>
       <div class="vocab-actions" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
         <button id="bookmarkBtn" class="toolbar-btn ${isBookmarked ? 'active' : ''}">${isBookmarked ? '★ 已在生词本' : '☆ 收藏生词'}</button>
