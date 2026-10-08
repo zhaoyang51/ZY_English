@@ -262,6 +262,150 @@
       category: '全面总结短语 (All in All)',
       focus: '👉 重点聚焦于【全盘考量后的终极判定】！',
       strategy: '权衡利弊后作者做出的最终价值判断。'
+    },
+    // 7. 条件假设与范围限定 (Condition & Scope)
+    'as long as': {
+      category: '充分条件标志短语 (Condition)',
+      focus: '👉 重点聚焦于【as long as 之后的核心前提支撑】！',
+      strategy: '意为“只要……就……”，引出后续行动或正向结果得以实现的基石前提。考研常在条件细节题中考查该前提是否成立，缺少此前提则结论落空。'
+    },
+    'so long as': {
+      category: '充分条件标志短语 (Condition)',
+      focus: '👉 重点聚焦于【前提条件与后文主句的紧密绑定】！',
+      strategy: '功能同 as long as，强调某项结论或趋势只在特定约束条件下成立。'
+    },
+    'in so far as': {
+      category: '限定与范围从句标志 (Scope & Extent)',
+      focus: '👉 重点聚焦于【作者界定的适用范围与成立边界】！',
+      strategy: '意为“在……范围内；就……而言；只要”，用于对前文论断进行严密的学术限定，强调不能无限泛化，题干常围绕论断的适用范围设题。'
+    },
+    'so far as': {
+      category: '限定与范围从句标志 (Scope & Extent)',
+      focus: '👉 重点聚焦于【从句划定的边界限制】！',
+      strategy: '功能同 in so far as，常构成 so far as ... is concerned 或 so far as it advances...，重点在范围界定。'
+    },
+    'as far as': {
+      category: '范围限定标志短语 (Scope & Extent)',
+      focus: '👉 重点聚焦于【as far as 引出的观察视角与认知范围】！',
+      strategy: '常见于 as far as I know / as far as ... goes，表明陈述仅在已知事实范围内有效。'
+    },
+    'providing': {
+      category: '前提条件引导连词 (Condition)',
+      focus: '👉 重点聚焦于【providing 之后的必备操作或触发条件】！',
+      strategy: '相当于 if / only if（只要；假如），引出某种举措或策略奏效的关键依托，真题常考查正面举措的生效前提。'
+    },
+    'providing that': {
+      category: '前提条件引导短语 (Condition)',
+      focus: '👉 重点聚焦于【that 从句陈述的底线条件】！',
+      strategy: '同 providing，书面语色彩更浓，强调达成既定目标的必要契机。'
+    },
+    'provided': {
+      category: '前提条件引导词 (Condition)',
+      focus: '👉 重点聚焦于【provided 之后设立的前提条款】！',
+      strategy: '意为“倘若；在……条件下”，是假设与条件题的关键定位词。'
+    },
+    'provided that': {
+      category: '法定/严密条件短语 (Condition)',
+      focus: '👉 重点聚焦于【制度或规则成立的严格前提】！',
+      strategy: '常用于法律、监管或经济体制讨论，强调规则落地的前置标准。'
+    },
+    'unless': {
+      category: '否定条件引导词 (Negative Condition)',
+      focus: '👉 重点聚焦于【unless 之后的唯一挽救手段（= if not）】！',
+      strategy: '考研顶级“逆向设题点”！意为“除非，如果不”。命题人最喜欢通过正反转换命制正解：若不采取 unless 后的行动，灾难必然发生；反之，采取该行动是避免恶果的唯一途径。'
+    },
+    'only if': {
+      category: '唯一必要条件标志 (Necessary Condition)',
+      focus: '👉 重点聚焦于【only if 之后的独一无二前提】！',
+      strategy: '置于句首时主句必须部分倒装！强调排除其他一切可能性，只有该条件具备时结果才会出现。'
+    },
+    'if only': {
+      category: '虚拟愿望与遗憾感叹 (Wish & Regret)',
+      focus: '👉 重点聚焦于【未竟愿望与现实矛盾】！',
+      strategy: '后接虚拟语气，表达对现实困境的无奈或对理想状态的强烈期盼。'
+    },
+    'on condition that': {
+      category: '附加条件短语 (Conditional Constraint)',
+      focus: '👉 重点聚焦于【双方博弈或政策实施的附加约束】！',
+      strategy: '强调权利与义务的对等性，考查在特定约束下的决策逻辑。'
+    },
+    // 8. 目的与结果 (Purpose & Result)
+    'so that': {
+      category: '结果与目的状语从句标志 (Purpose & Result)',
+      focus: '👉 重点聚焦于【so that 之后的最终达成效果或预期目的】！',
+      strategy: '引导目的状语从句（为了，以便）或结果状语从句（以致于，从而使得）。主句为手段方法，so that 之后为最终意图或客观连锁反应，是“因果细节题”与“目的意图题”的双重题眼！'
+    },
+    'so as to': {
+      category: '目的不定式短语 (In order to)',
+      focus: '👉 重点聚焦于【行为主体采取举措的直指目标】！',
+      strategy: '不引导从句，直接接动词原形，表行为的目的指向。'
+    },
+    'in order that': {
+      category: '庄重目的状语从句 (Purpose)',
+      focus: '👉 重点聚焦于【政策设计或战略推行的终极诉求】！',
+      strategy: '从句中常含 may, might, can, could 等情态动词，是战略意图考查的定位高地。'
+    },
+    'in order to': {
+      category: '目的动词不定式短语 (Purpose)',
+      focus: '👉 重点聚焦于【动词原形表达的核心目标】！',
+      strategy: '阅读中最基础且高频的目的表达，直接回答“Why”类设问。'
+    },
+    // 9. 特殊因果与理据 (Special Causal Links)
+    'in that': {
+      category: '深层理据引导词 (Deep Reason / Nature)',
+      focus: '👉 重点聚焦于【in that 所揭示的事物本质机理】！',
+      strategy: '考研极高频书面因果词！意为“因为；在于；原因在于”。前文陈述表面悖论或复杂现象，in that 之后直接刺破核心机理，常作为正解的精准同义改写源！'
+    },
+    'now that': {
+      category: '既成事实前提因果词 (Given Reality)',
+      focus: '👉 重点聚焦于【新背景下必然产生的新要求/新格局】！',
+      strategy: '意为“既然；由于（现实已经改变）”。强调旧时代已终结，后文引出必须适应的新事实。'
+    },
+    'given that': {
+      category: '客观前提假定引导词 (Established Premise)',
+      focus: '👉 重点聚焦于【given that 引出的既定公认背景】！',
+      strategy: '以此为不争的前提展开严密推导，考查基于既定现实做出的合理预期。'
+    },
+    'so': {
+      category: '并列因果推论连词 (Causal Inference)',
+      focus: '👉 重点聚焦于【so 之后得出的自然推断或行动响应】！',
+      strategy: '作为连词连接分句时表“因此，所以”，前句为起因，so 之后为直接引出的推论或顺应发生的行动。'
+    },
+    // 10. 方式与假设 (Manner & Parallel)
+    'as if': {
+      category: '方式与虚拟假设引导词 (Hypothetical Manner)',
+      focus: '👉 重点聚焦于【生动比喻所映射的现实本质】！',
+      strategy: '意为“仿佛，好像”，常用于具象化比喻。选项常考查比喻背后的真实寓意，而非字面假象。'
+    },
+    'as though': {
+      category: '方式与虚拟假设引导词 (Hypothetical Manner)',
+      focus: '👉 重点聚焦于【比喻背后的深层心理或社会表象】！',
+      strategy: '同 as if，常揭示当事人的认知偏差或社会的虚假繁荣。'
+    },
+    'as well as': {
+      category: '并列递进与主次衬托短语 (Addition & Emphasis)',
+      focus: '👉 重点聚焦于【as well as 前项（重点在前者）或并列双项】！',
+      strategy: '意为“不仅……而且；以及”。语法上重在强调前面的主体，兼顾后面的陪衬项；但在信息考查时两者均为关键事实。'
+    },
+    'in particular': {
+      category: '特指聚焦标志短语 (Specific Focus)',
+      focus: '👉 重点聚焦于【特指点名的典型代表或关键病灶】！',
+      strategy: '从宏观泛泛讨论迅速收拢聚焦到最突出的矛盾体，极易成为细节题考查点。'
+    },
+    'particularly': {
+      category: '程度加深与特指标志 (Particularly)',
+      focus: '👉 重点聚焦于【最具代表性的个案或群体】！',
+      strategy: '同 in particular，重点落在修饰的具体对象上。'
+    },
+    'above all': {
+      category: '首要核心标志短语 (Supreme Priority)',
+      focus: '👉 重点聚焦于【排序第一的决定性因素】！',
+      strategy: '意为“最重要的是；首要的是”。在多项原因或措施中，作者用 above all 标记最关键的命脉，必然是正解核心！'
+    },
+    'what is more': {
+      category: '加码递进短语 (Progressive Addition)',
+      focus: '👉 重点聚焦于【论证进一步深化的新层级】！',
+      strategy: '层层递进，推向更深刻的结论。'
     }
   };
 

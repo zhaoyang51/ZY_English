@@ -135,7 +135,7 @@ test('all 340 questions across 68 passages support word tokenization and complet
   // Test word tokenization with contractions and connectors
   const sample = C.formatQuestionText("In the first paragraph, Damien Hirst’s sale was referred to because .");
   assert.match(sample, /data-word="Hirst’s"/);
-  assert.match(sample, /class="exam-connector" data-connector="because"/);
+  assert.match(sample, /class="exam-connector(?:\s+[^"]*)?" data-connector="because"/);
 });
 
 test('Section 3 question overview cards contain specific option analysis and no generic boilerplate', () => {

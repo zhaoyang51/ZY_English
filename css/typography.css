@@ -201,6 +201,24 @@ body.theme-dark .exam-sent:hover {
   font-family: var(--font-base);
 }
 
+.transition-condition {
+  background: #dcfce7;
+  color: #166534;
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: var(--font-base);
+}
+
+.transition-purpose {
+  background: #cffafe;
+  color: #155e75;
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: var(--font-base);
+}
+
 body.theme-dark .transition-turn {
   background: #78350f;
   color: #fef3c7;
@@ -214,6 +232,16 @@ body.theme-dark .transition-cause {
 body.theme-dark .transition-summary {
   background: #312e81;
   color: #e0e7ff;
+}
+
+body.theme-dark .transition-condition {
+  background: #064e3b;
+  color: #d1fae5;
+}
+
+body.theme-dark .transition-purpose {
+  background: #164e63;
+  color: #cffafe;
 }
 
 /* Inline Chinese Sentence Translation */

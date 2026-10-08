@@ -72,29 +72,75 @@
   }
   const LOGIC_CONNECTORS = {
     turn: [
-      'on the other hand', 'on the contrary', 'even though', 'in spite of', 'by contrast', 'instead of',
-      'rather than', 'nevertheless', 'nonetheless', 'in contrast', 'although', 'however', 'whereas',
-      'despite', 'even if', 'instead', 'though', 'while', 'yet', 'but'
+      'on the other hand', 'on the contrary', 'even though', 'in spite of', 'by contrast', 'in contrast',
+      'instead of', 'rather than', 'nevertheless', 'nonetheless', 'although', 'however', 'whereas',
+      'despite', 'even if', 'instead', 'though', 'while', 'as if', 'as though', 'yet', 'but'
+    ],
+    condition: [
+      'on condition that', 'supposing that', 'providing that', 'provided that', 'in so far as',
+      'as long as', 'so long as', 'suppose that', 'so far as', 'as far as', 'providing', 'provided',
+      'only if', 'if only', 'unless'
+    ],
+    purpose: [
+      'in order that', 'in order to', 'so that', 'so as to'
     ],
     cause: [
-      'consequently', 'as a result', 'result from', 'result in', 'therefore', 'owing to', 'because',
-      'due to', 'hence', 'since', 'thus', 'so'
+      'for this reason', 'consequently', 'on account of', 'as a result', 'result from', 'result in',
+      'given that', 'therefore', 'owing to', 'because', 'due to', 'now that', 'in that', 'hence', 'since', 'thus'
     ],
     summary: [
-      'as a matter of fact', 'in conclusion', 'for instance', 'for example', 'furthermore',
-      'in addition', 'in summary', 'all in all', 'to sum up', 'actually', 'moreover', 'in fact',
+      'as a matter of fact', 'not only ... but also', 'in particular', 'particularly', 'in conclusion',
+      'for instance', 'for example', 'furthermore', 'what is more', 'in addition', 'in summary',
+      'all in all', 'to sum up', 'as well as', 'above all', 'actually', 'moreover', 'in fact',
       'in short', 'finally', 'besides', 'indeed'
     ]
   };
+
+  const ORDERED_LOGIC_CONNECTORS = [];
+  Object.keys(LOGIC_CONNECTORS).forEach(type => {
+    LOGIC_CONNECTORS[type].forEach(phrase => {
+      ORDERED_LOGIC_CONNECTORS.push({ phrase, type });
+    });
+  });
+  ORDERED_LOGIC_CONNECTORS.sort((a, b) => b.phrase.length - a.phrase.length);
 
   function safeReplaceText(html, word, wrapFn) {
     if (!word) return html;
     const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const regex = new RegExp(`\\b(${escaped})\\b`, 'gi');
     const parts = html.split(/(<[^>]+>)/g);
-    for (let i = 0; i < parts.length; i += 2) {
-      if (parts[i]) {
-        parts[i] = parts[i].replace(regex, wrapFn);
+    let inProtected = 0;
+    for (let i = 0; i < parts.length; i++) {
+      if (i % 2 === 1) {
+        if (/^<span\b[^>]*\bclass=["'][^"']*\b(?:exam-connector|exam-vocab)\b/i.test(parts[i])) {
+          inProtected++;
+        } else if (/^<\/span>/i.test(parts[i]) && inProtected > 0) {
+          inProtected--;
+        }
+      } else {
+        if (parts[i] && inProtected === 0) {
+          parts[i] = parts[i].replace(regex, wrapFn);
+        }
+      }
+    }
+    return parts.join('');
+  }
+
+  function safeReplaceTextWithRegex(html, regex, wrapFn) {
+    if (!regex) return html;
+    const parts = html.split(/(<[^>]+>)/g);
+    let inProtected = 0;
+    for (let i = 0; i < parts.length; i++) {
+      if (i % 2 === 1) {
+        if (/^<span\b[^>]*\bclass=["'][^"']*\b(?:exam-connector|exam-vocab)\b/i.test(parts[i])) {
+          inProtected++;
+        } else if (/^<\/span>/i.test(parts[i]) && inProtected > 0) {
+          inProtected--;
+        }
+      } else {
+        if (parts[i] && inProtected === 0) {
+          parts[i] = parts[i].replace(regex, wrapFn);
+        }
       }
     }
     return parts.join('');
@@ -104,15 +150,15 @@
     if (!rawText) return '';
     let text = String(rawText);
 
-    // 1. Logic connectors
-    LOGIC_CONNECTORS.turn.forEach(w => {
-      text = safeReplaceText(text, w, `<span class="exam-connector" data-connector="$1" title="🧭 点击查看逻辑功能与考点定位">$1</span>`);
+    // 1. Logic connectors ordered by longest first
+    ORDERED_LOGIC_CONNECTORS.forEach(({ phrase, type }) => {
+      text = safeReplaceText(text, phrase, `<span class="exam-connector transition-${type}" data-connector="$1" title="🧭 点击查看逻辑功能与考点定位">$1</span>`);
     });
-    LOGIC_CONNECTORS.cause.forEach(w => {
-      text = safeReplaceText(text, w, `<span class="exam-connector" data-connector="$1" title="🧭 点击查看逻辑功能与考点定位">$1</span>`);
-    });
-    LOGIC_CONNECTORS.summary.forEach(w => {
-      text = safeReplaceText(text, w, `<span class="exam-connector" data-connector="$1" title="🧭 点击查看逻辑功能与考点定位">$1</span>`);
+
+    // 2. Safe replacement for causal coordinating conjunction 'so'
+    const causalSoRegex = /(^|[;,.?!—]\s*)(so)\b(?!\s+(?:that|far|as|long|much|many|few|little|[a-zA-Z]+ly\b|[a-zA-Z]+ed\b|[a-zA-Z]+ing\b))/gi;
+    text = safeReplaceTextWithRegex(text, causalSoRegex, (match, prefix, soWord) => {
+      return `${prefix}<span class="exam-connector transition-cause" data-connector="${soWord}" title="🧭 点击查看逻辑功能与考点定位">${soWord}</span>`;
     });
 
     // 2. Custom vocab words/phrases
