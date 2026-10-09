@@ -108,6 +108,7 @@
     },
 
     syncWithAppState() {
+      if (appState.filters.source === 'bookmarked') return;
       if (window.AppState) {
         const y = String(window.AppState.year);
         const t = `Text ${window.AppState.textId}`;
@@ -163,16 +164,15 @@
             <input type="text" id="vocabSearchInput" class="vocab-search-input" placeholder="搜索考研重点词汇或释义...">
           </div>
 
-          <!-- Study Mode Switcher -->
-          <div class="vocab-mode-group" id="vocabModeGroup">
-            <button class="vocab-mode-pill ${appState.studyMode === 'en-zh' ? 'active' : ''}" data-mode="en-zh" title="识别模式：看英文回忆中文释义">🔤 英➔中</button>
-            <button class="vocab-mode-pill ${appState.studyMode === 'zh-en' ? 'active' : ''}" data-mode="zh-en" title="拼写模式：看中文回忆英文单词">🀄 中➔英</button>
-            <button class="vocab-mode-pill ${appState.studyMode === 'cloze' ? 'active' : ''}" data-mode="cloze" title="完形模式：考研真题原句挖空推导">📝 语境挖空</button>
+          <!-- Module Badge -->
+          <div class="vocab-brand-badge" title="考研英二核心词汇·艾宾浩斯智能记忆">
+            <span class="vocab-brand-icon">⚡</span>
+            <span class="vocab-brand-text">真题精背</span>
           </div>
 
           <!-- Actions: Auto Audio & Filter Drawer Toggle -->
           <div class="vocab-top-actions">
-            <button class="vocab-action-pill-btn ${appState.autoAudio ? 'active' : ''}" id="vocabToggleAudioBtn" title="切换翻卡/切词时是否自动朗读">
+            <button class="vocab-action-pill-btn ${appState.autoAudio ? 'active' : ''}" id="vocabToggleAudioBtn" title="切换展开/切词时是否自动朗读">
               <span>🔊</span> 自动发音
             </button>
             <button class="vocab-action-pill-btn" id="vocabToggleDrawerBtn" title="展开/收起年份、篇章与策略筛选面板">
@@ -283,7 +283,7 @@
                 <h2 class="vocab-word-large" id="vocabWordFront">Loading...</h2>
                 <div class="vocab-cloze-box" id="vocabClozeBoxFront" style="display:none"></div>
                 <div class="vocab-flip-hint">
-                  <span>👆 点击卡片翻转 或 按 <span class="vocab-keycap">Space</span> 查看真题语境与详释 ↷</span>
+                  <span>👆 点击卡片展开 或 按 <span class="vocab-keycap">Space</span> 查看真题语境与详释 ↷</span>
                 </div>
               </div>
 
@@ -358,7 +358,7 @@
 
                 <div class="vocab-sub-actions">
                   <button class="vocab-sub-btn" id="vocabBtnUndo" title="撤销上次评分 (快捷键: Z)">↩ 撤销 (Z)</button>
-                  <button class="vocab-sub-btn" id="vocabBtnFlipBack" title="翻回正面 (快捷键: 空格)">↻ 翻回正面</button>
+                  <button class="vocab-sub-btn" id="vocabBtnFlipBack" title="收起详解 (快捷键: 空格)">↻ 收起详解</button>
                   <button class="vocab-sub-btn" id="vocabBtnNext" style="color:var(--accent);font-weight:800" title="继续下一个 (快捷键: →)">继续下一个 ▶</button>
                 </div>
               </div>
@@ -369,14 +369,13 @@
 
         <!-- Keyboard HUD -->
         <div class="vocab-kbd-hud">
-          <span><span class="vocab-keycap">Space</span> 翻转</span>
+          <span><span class="vocab-keycap">Space</span> 展开/收起</span>
           <span><span class="vocab-keycap">1 / ←</span> 忘光</span>
           <span><span class="vocab-keycap">2 / ↓</span> 模糊</span>
           <span><span class="vocab-keycap">3 / →</span> 熟练</span>
           <span><span class="vocab-keycap">A</span> 发音</span>
           <span><span class="vocab-keycap">S</span> 收藏</span>
           <span><span class="vocab-keycap">Z</span> 撤销</span>
-          <span><span class="vocab-keycap">M</span> 换模式</span>
         </div>
 
         <!-- Empty State -->
@@ -396,8 +395,6 @@
       els = {
         topBar: document.querySelector('.vocab-top-bar'),
         searchInput: document.getElementById('vocabSearchInput'),
-        modeGroup: document.getElementById('vocabModeGroup'),
-        modePills: document.querySelectorAll('.vocab-mode-pill'),
         btnToggleAudio: document.getElementById('vocabToggleAudioBtn'),
         btnToggleDrawer: document.getElementById('vocabToggleDrawerBtn'),
 
@@ -500,41 +497,44 @@
     },
 
     bindEvents() {
-      // 1. Study Mode Switch
-      els.modePills.forEach(pill => {
-        pill.onclick = () => {
-          const m = pill.getAttribute('data-mode');
-          if (m && m !== appState.studyMode) {
-            appState.studyMode = m;
-            els.modePills.forEach(p => p.classList.toggle('active', p.getAttribute('data-mode') === m));
-            this.saveSettings();
-            this.showToast(`已切换至：${pill.textContent}`);
-            this.renderCurrentCard();
-          }
+      // 1. Auto Audio Toggle
+      if (els.btnToggleAudio) {
+        els.btnToggleAudio.onclick = () => {
+          appState.autoAudio = !appState.autoAudio;
+          els.btnToggleAudio.classList.toggle('active', appState.autoAudio);
+          this.saveSettings();
+          this.showToast(appState.autoAudio ? '🔊 自动发音已开启' : '🔈 自动发音已关闭');
         };
-      });
+      }
 
-      // 2. Auto Audio Toggle
-      els.btnToggleAudio.onclick = () => {
-        appState.autoAudio = !appState.autoAudio;
-        els.btnToggleAudio.classList.toggle('active', appState.autoAudio);
-        this.saveSettings();
-        this.showToast(appState.autoAudio ? '🔊 自动发音已开启' : '🔈 自动发音已关闭');
+      // 2. Filter Drawer Toggle
+      if (els.btnToggleDrawer) {
+        els.btnToggleDrawer.onclick = () => {
+          appState.filterDrawerOpen = !appState.filterDrawerOpen;
+          els.filterDrawer.classList.toggle('is-open', appState.filterDrawerOpen);
+          els.btnToggleDrawer.classList.toggle('active', appState.filterDrawerOpen);
+        };
+      }
+
+      // 3. Source / Year / Text / State / Sort Selects
+      const handleSourceChange = () => {
+        const val = els.sourceSelect.value;
+        appState.filters.source = val;
+        if (val === 'bookmarked') {
+          // 生词本属于全局跨年份跨篇章收藏库，默认展示全部已收藏词汇
+          els.yearSelect.value = 'all';
+          appState.filters.year = 'all';
+          this.updateTextDropdown();
+          els.textSelect.value = 'all';
+          appState.filters.text = 'all';
+        }
+        this.applyFiltersAndRender();
+        this.showToast(val === 'bookmarked' ? '已切至：⭐ 我的生词本' : '已切至：📚 全真题词库');
       };
 
-      // 3. Filter Drawer Toggle
-      els.btnToggleDrawer.onclick = () => {
-        appState.filterDrawerOpen = !appState.filterDrawerOpen;
-        els.filterDrawer.classList.toggle('is-open', appState.filterDrawerOpen);
-        els.btnToggleDrawer.classList.toggle('active', appState.filterDrawerOpen);
-      };
-
-      // 4. Source / Year / Text / State / Sort Selects
       if (els.sourceSelect) {
-        els.sourceSelect.onchange = () => {
-          appState.filters.source = els.sourceSelect.value;
-          this.applyFiltersAndRender();
-        };
+        els.sourceSelect.onchange = handleSourceChange;
+        els.sourceSelect.oninput = handleSourceChange;
       }
 
       els.yearSelect.onchange = () => {
@@ -559,7 +559,7 @@
         this.applyFiltersAndRender();
       };
 
-      // 5. Search with debounce
+      // 4. Search with debounce
       let debounceTimer = null;
       els.searchInput.oninput = () => {
         clearTimeout(debounceTimer);
@@ -569,7 +569,7 @@
         }, 200);
       };
 
-      // 6. Stats Ribbon Quick Filter
+      // 5. Stats Ribbon Quick Filter
       els.statChips.forEach(chip => {
         chip.onclick = () => {
           const filterState = chip.getAttribute('data-filter');
@@ -582,11 +582,11 @@
         };
       });
 
-      // 7. Card 3D Flip
+      // 6. Card Expand / Flip
       els.faceFront.onclick = () => this.flipCard(true);
       els.btnFlipBack.onclick = () => this.flipCard(false);
 
-      // 8. Audio Buttons
+      // 7. Audio Buttons
       [els.btnAudioFront, els.btnAudioBack].forEach(btn => {
         if (btn) {
           btn.onclick = (e) => {
@@ -596,7 +596,7 @@
         }
       });
 
-      // 9. Bookmark Star Buttons
+      // 8. Bookmark Star Buttons
       [els.btnStarFront, els.btnStarBack].forEach(btn => {
         if (btn) {
           btn.onclick = (e) => {
@@ -606,7 +606,7 @@
         }
       });
 
-      // 10. Rating Buttons (Front & Back)
+      // 9. Rating Buttons (Front & Back)
       const bindGradeButtons = (btnForgot, btnHard, btnGood) => {
         btnForgot.onclick = (e) => { e.stopPropagation(); this.gradeWord('forgot'); };
         btnHard.onclick = (e) => { e.stopPropagation(); this.gradeWord('hard'); };
@@ -615,15 +615,18 @@
       bindGradeButtons(els.btnForgotFront, els.btnHardFront, els.btnGoodFront);
       bindGradeButtons(els.btnForgotBack, els.btnHardBack, els.btnGoodBack);
 
-      // 11. Sub-actions
+      // 10. Sub-actions
       els.btnUndo.onclick = () => this.undoLastGrade();
       els.btnNext.onclick = () => this.goToNextCard();
-      document.getElementById('vocabBtnNextFront').onclick = e => {
-        e.stopPropagation();
-        this.goToNextCard();
-      };
+      const btnNextFront = document.getElementById('vocabBtnNextFront');
+      if (btnNextFront) {
+        btnNextFront.onclick = e => {
+          e.stopPropagation();
+          this.goToNextCard();
+        };
+      }
 
-      // 12. Reset Current Scope
+      // 11. Reset Current Scope
       if (els.btnResetFilter) {
         els.btnResetFilter.onclick = () => {
           if (confirm('确认重置当前范围下所有单词的艾宾浩斯复习进度吗？')) {
@@ -637,7 +640,7 @@
         };
       }
 
-      // 13. Empty State Reset
+      // 12. Empty State Reset
       if (els.btnEmptyReset) {
         els.btnEmptyReset.onclick = () => {
           els.sourceSelect.value = 'all';
@@ -654,6 +657,17 @@
           this.applyFiltersAndRender();
         };
       }
+
+      // 13. Sync bookmark changes from global storage
+      window.addEventListener('vocabBookUpdated', () => {
+        if (appState.filters.source === 'bookmarked') {
+          this.applyFiltersAndRender();
+        } else if (els.sourceSelect) {
+          const list = (window.StorageModule && window.StorageModule.getVocabBook) ? window.StorageModule.getVocabBook() : [];
+          const bOpt = els.sourceSelect.querySelector('option[value="bookmarked"]');
+          if (bOpt) bOpt.textContent = `⭐ 我的生词本 (${list.length}词)`;
+        }
+      });
 
       // 14. Keyboard Shortcuts Flow
       window.addEventListener('keydown', (e) => {
@@ -685,22 +699,8 @@
         } else if (e.key === 'z' || e.key === 'Z') {
           e.preventDefault();
           this.undoLastGrade();
-        } else if (e.key === 'm' || e.key === 'M') {
-          e.preventDefault();
-          this.cycleStudyMode();
         }
       });
-    },
-
-    cycleStudyMode() {
-      const modes = ['en-zh', 'zh-en', 'cloze'];
-      const nextIdx = (modes.indexOf(appState.studyMode) + 1) % modes.length;
-      appState.studyMode = modes[nextIdx];
-      els.modePills.forEach(p => p.classList.toggle('active', p.getAttribute('data-mode') === appState.studyMode));
-      this.saveSettings();
-      const currentPill = Array.from(els.modePills).find(p => p.getAttribute('data-mode') === appState.studyMode);
-      this.showToast(`切换至：${currentPill ? currentPill.textContent : appState.studyMode}`);
-      this.renderCurrentCard();
     },
 
     flipCard(toFlipped) {
@@ -717,21 +717,37 @@
       const { source, year, text, state, sort, search } = appState.filters;
       const now = Date.now();
 
+      // Update dynamic bookmark count in dropdown
+      const bookmarks = (window.StorageModule && window.StorageModule.getVocabBook) ? window.StorageModule.getVocabBook() : [];
+      if (els.sourceSelect) {
+        const bOpt = els.sourceSelect.querySelector('option[value="bookmarked"]');
+        if (bOpt) {
+          bOpt.textContent = `⭐ 我的生词本 (${bookmarks.length}词)`;
+        }
+      }
+
       let sourceList = appState.rawVocabData;
       if (source === 'bookmarked') {
-        const bookmarks = (window.StorageModule && window.StorageModule.getVocabBook) ? window.StorageModule.getVocabBook() : [];
-        sourceList = bookmarks.map(b => ({
-          year: b.year ? String(b.year) : '收藏',
-          text: b.textId ? (b.textId.startsWith('Text') ? b.textId : `Text ${b.textId}`) : '自选',
-          word: String(b.word),
-          meaning: String(b.def || '考研大纲核心词汇'),
-          sentence: b.sentence || ''
-        }));
+        sourceList = bookmarks.map(b => {
+          const w = String(b.word || '').trim();
+          let def = b.def || '';
+          if (!def && window.KAOYAN_VOCAB_DICT) {
+            const dObj = window.KAOYAN_VOCAB_DICT[w] || window.KAOYAN_VOCAB_DICT[w.toLowerCase()];
+            if (dObj && dObj.def) def = (dObj.pos ? `${dObj.pos} ` : '') + dObj.def;
+          }
+          return {
+            year: b.year ? String(b.year) : '收藏',
+            text: b.textId ? (String(b.textId).startsWith('Text') ? String(b.textId) : `Text ${b.textId}`) : '自选',
+            word: w,
+            meaning: def || '考研大纲核心词汇',
+            sentence: b.sentence || ''
+          };
+        }).filter(item => item.word.length > 0);
       }
 
       let filtered = sourceList.filter(item => {
-        const matchYear = year === 'all' || item.year === year;
-        const matchText = text === 'all' || item.text === text;
+        const matchYear = year === 'all' || item.year === year || (source === 'bookmarked' && item.year === '收藏');
+        const matchText = text === 'all' || item.text === text || (source === 'bookmarked' && item.text === '自选');
         const searchLower = search.toLowerCase();
         const matchSearch = search === '' ||
           item.word.toLowerCase().includes(searchLower) ||
@@ -898,34 +914,14 @@
         provenance: provText
       } : this.findExamSentence(word, currentWordObj.year, currentWordObj.text);
 
-      // Render Front by Mode
+      // Render Front
       els.posBadgeFront.textContent = posText;
       els.posBadgeBack.textContent = posText;
 
-      if (appState.studyMode === 'zh-en') {
-        // 中 ➔ 英 模式
-        els.wordFront.textContent = cleanDef;
-        els.wordFront.style.fontSize = '1.8em';
-        els.clozeBoxFront.style.display = 'block';
-        els.clozeBoxFront.innerHTML = `💡 回忆英文拼写：<span class="vocab-cloze-blank">${word.slice(0, 1)}... (${word.length} 字母)</span>`;
-      } else if (appState.studyMode === 'cloze') {
-        // 语境挖空 模式
-        els.wordFront.textContent = `[ ______ ] (${posText})`;
-        els.wordFront.style.fontSize = '2em';
-        els.clozeBoxFront.style.display = 'block';
-        if (contextSentence) {
-          const cleanW = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-          const clozeHtml = contextSentence.text.replace(new RegExp(`\\b${cleanW}\\b`, 'gi'), `<span class="vocab-cloze-blank">[ ______ ]</span>`);
-          els.clozeBoxFront.innerHTML = `<strong>真题语境空缺：</strong><br>${clozeHtml}`;
-        } else {
-          els.clozeBoxFront.innerHTML = `💡 释义线索：<strong>${cleanDef}</strong>`;
-        }
-      } else {
-        // 标准 英 ➔ 中 模式
-        els.wordFront.textContent = word;
-        els.wordFront.style.fontSize = '2.8em';
-        els.clozeBoxFront.style.display = 'none';
-      }
+      // 标准专注模式：英文大字展示，回忆释义
+      els.wordFront.textContent = word;
+      els.wordFront.style.fontSize = '2.8em';
+      if (els.clozeBoxFront) els.clozeBoxFront.style.display = 'none';
 
       // Render Back
       els.wordBack.textContent = word;
@@ -1044,11 +1040,6 @@
       const updateContext = sentence => {
         if (contextSequence !== this.contextSequence) return;
         const cleanW = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        if (appState.studyMode === 'cloze') {
-          els.clozeBoxFront.innerHTML = sentence
-            ? `<strong>真题语境空缺：</strong><br>${sentence.text.replace(new RegExp(`\\b${cleanW}\\b`, 'gi'), '<span class="vocab-cloze-blank">[ ______ ]</span>')}`
-            : `💡 释义线索：<strong>${cleanDef}</strong>`;
-        }
         els.sentenceBox.style.display = sentence?.text ? 'block' : 'none';
         if (sentence?.text) {
           els.sentenceEn.innerHTML = sentence.text.replace(new RegExp(`(${cleanW})`, 'gi'), '<mark class="vocab-kw">$1</mark>');
@@ -1254,23 +1245,27 @@
 
     updateStats() {
       const now = Date.now();
-      const total = appState.rawVocabData.length;
+      const currentItems = appState.currentList || [];
+      const total = currentItems.length;
       let mastered = 0;
       let due = 0;
       let learning = 0;
 
-      for (let word in appState.progress) {
+      for (let i = 0; i < currentItems.length; i++) {
+        const word = currentItems[i].word;
         const rec = appState.progress[word];
-        if (rec.status === 'mastered') mastered++;
-        else if (rec.status === 'learning') {
-          learning++;
-          if (rec.nextReviewTime <= now) due++;
+        if (rec) {
+          if (rec.status === 'mastered') mastered++;
+          else if (rec.status === 'learning') {
+            learning++;
+            if (rec.nextReviewTime <= now) due++;
+          }
         }
       }
 
       const freshNew = Math.max(0, total - (mastered + learning));
 
-      if (els.statTotal) els.statTotal.textContent = appState.currentList.length;
+      if (els.statTotal) els.statTotal.textContent = total;
       if (els.statDue) els.statDue.textContent = due;
       if (els.statNew) els.statNew.textContent = freshNew;
       if (els.statLearning) els.statLearning.textContent = learning;
@@ -1291,7 +1286,13 @@
       if (els.sourceSelect) {
         els.sourceSelect.value = 'bookmarked';
         appState.filters.source = 'bookmarked';
+        if (els.yearSelect) els.yearSelect.value = 'all';
+        appState.filters.year = 'all';
+        this.updateTextDropdown();
+        if (els.textSelect) els.textSelect.value = 'all';
+        appState.filters.text = 'all';
         this.applyFiltersAndRender();
+        this.showToast('已切换至：⭐ 我的生词本');
       }
     }
   };

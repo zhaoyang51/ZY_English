@@ -348,43 +348,45 @@ body.theme-dark .vocab-progress-bar {
 /* ==========================================================================
    5. 3D Flip Card Container & Architecture
    ========================================================================== */
+/* ==========================================================================
+   5. Adaptive Streamlined Study Board (Auto-Height, No 3D Truncation)
+   ========================================================================== */
 .vocab-card-scene {
-  perspective: 1200px;
+  perspective: none;
   width: 100%;
-  max-width: 680px;
-  margin: 0 auto 16px auto;
-  min-height: 440px;
+  max-width: 760px;
+  margin: 0 auto 20px auto;
+  min-height: 0;
 }
 
 .vocab-card-flipper {
   position: relative;
   width: 100%;
-  min-height: 440px;
-  transform-style: preserve-3d;
-  transition: transform 0.5s cubic-bezier(0.34, 1.35, 0.64, 1);
+  min-height: 0;
+  transform: none;
+  transition: none;
 }
 
 .vocab-card-flipper.is-flipped {
-  transform: rotateY(180deg);
+  transform: none;
 }
 
 .vocab-face {
-  position: absolute;
-  inset: 0;
+  position: relative;
+  inset: auto;
   width: 100%;
-  min-height: 440px;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  border-radius: 22px;
+  min-height: 0;
+  border-radius: 20px;
   background: var(--panel-bg);
   border: 1px solid var(--border);
-  box-shadow: 0 10px 30px -6px rgba(0, 0, 0, 0.08), 0 4px 10px -2px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 10px 30px -6px rgba(0, 0, 0, 0.08), 0 4px 10px -2px rgba(0, 0, 0, 0.03);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 20px 24px;
+  padding: 22px 26px;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: visible;
+  gap: 14px;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
 }
 
 body.theme-dark .vocab-face {
@@ -396,47 +398,70 @@ body.theme-parchment .vocab-face {
   box-shadow: 0 10px 25px -5px rgba(60, 45, 25, 0.08);
 }
 
+/* Natural toggle: Front is active when unrevealed; Back is active when revealed */
 .vocab-face-front {
-  z-index: 2;
-  transform: rotateY(0deg);
   cursor: pointer;
 }
 
-.vocab-face-back {
-  transform: rotateY(180deg);
+.vocab-card-flipper:not(.is-flipped) .vocab-face-front {
+  display: flex;
+}
+
+.vocab-card-flipper:not(.is-flipped) .vocab-face-back {
+  display: none;
+}
+
+.vocab-card-flipper.is-flipped .vocab-face-front {
+  display: none;
+}
+
+.vocab-card-flipper.is-flipped .vocab-face-back {
+  display: flex;
+  overflow-y: visible;
+}
+
+/* Ensure outer page flows smoothly without inner scroll trap */
+body.mode-vocab {
+  height: auto;
+  min-height: 100vh;
   overflow-y: auto;
 }
 
-/* Keep long definitions from shrinking the controls inside desktop cards. */
-.vocab-face > * { flex-shrink: 0; }
-.vocab-face-front { pointer-events: auto; }
-.vocab-face-back { pointer-events: none; }
-.is-flipped .vocab-face-front { pointer-events: none; }
-.is-flipped .vocab-face-back { pointer-events: auto; }
+body.mode-vocab .vocab-section {
+  height: auto;
+  overflow: visible;
+  padding-bottom: 40px;
+}
 
-/* Touch layouts use a single, naturally sized face instead of a nested 3D scroller. */
-@media (max-width: 1024px), (pointer: coarse) {
-  body.mode-vocab { height: auto; overflow-y: auto; }
-  body.mode-vocab .vocab-section { height: auto; overflow: visible; }
-  .vocab-card-scene { perspective: none; }
-  .vocab-card-flipper, .vocab-card-flipper.is-flipped { transform: none; min-height: 0; }
-  .vocab-card-scene .vocab-face {
-    position: relative;
-    inset: auto;
-    transform: none;
-    min-height: 0;
-    overflow: visible;
-    display: none;
-    padding: 16px;
-    gap: 16px;
+/* Brand tag */
+.vocab-brand-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  font-size: 0.82em;
+  font-weight: 800;
+  color: var(--accent);
+  user-select: none;
+}
+
+body.theme-dark .vocab-brand-badge {
+  color: #2dd4bf;
+}
+
+@media (max-width: 640px) {
+  .vocab-face {
+    padding: 16px 18px;
+    gap: 12px;
   }
-  .vocab-card-flipper:not(.is-flipped) .vocab-face-front,
-  .vocab-card-flipper.is-flipped .vocab-face-back { display: flex; }
   .vocab-assessment-area { width: 100%; }
   .vocab-sub-actions { flex-wrap: wrap; }
-  .vocab-card-scene .vocab-sub-btn { min-height: 44px; flex: 1 1 auto; }
-  .vocab-card-scene .vocab-grade-btn { min-height: 48px; }
-  .vocab-section .vocab-kbd-hud { display: none; }
+  .vocab-sub-btn { min-height: 42px; flex: 1 1 auto; }
+  .vocab-grade-btn { min-height: 46px; }
+  .vocab-kbd-hud { display: none; }
 }
 
 /* Card Topbar */
