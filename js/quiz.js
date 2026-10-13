@@ -182,7 +182,7 @@
           analysisHtml = `
             <div style="margin-top:16px;padding-top:14px;border-top:1px dashed var(--border)">
               <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
-                <span style="font-weight:700">【官方标准正解】：<strong style="color:var(--success)">${corrKey}</strong></span>
+                <span style="font-weight:700">【正确答案】：<strong style="color:var(--success)">${corrKey}</strong></span>
                 <span style="font-size:0.85em;color:var(--muted)">题型：${q.type} ｜ 定位：第 ${q.locate_pid + 1} 段</span>
               </div>
               <p style="font-size:0.92em;color:var(--muted);margin-bottom:10px"><strong>题干释义：</strong>${q.stem_cn}</p>

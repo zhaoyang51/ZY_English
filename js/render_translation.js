@@ -251,7 +251,7 @@
           <div id="transComparisonSection" style="display:${showTrans || savedDraft || mode === 'review' ? 'block' : 'none'}">
             <div class="trans-reference-box">
               <h3 style="font-size:1.05em;font-weight:800;color:var(--accent);margin-top:0;margin-bottom:8px">
-                📜 官方 / 权威标准参考译文
+                📜 权威标准参考译文
               </h3>
               <p style="font-size:1.02em;line-height:1.8;color:var(--ink);margin:0 0 12px 0;background:var(--surface);padding:12px;border-radius:6px;border:1px solid var(--border)">
                 ${data.reference_translation || '（暂无参考译文）'}

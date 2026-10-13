@@ -626,7 +626,7 @@ test('Part B Review Mode provides sentence breakdown, word tokens, per-paragraph
 
   // 5 Detailed Question Review Cards
   assert.ok(reviewWsHtml.includes('matching-review-card') && reviewWsHtml.includes('id="matching-review-card-41"'), 'Review workbench must render review cards');
-  assert.ok(reviewWsHtml.includes('★ 官方正解: [ F ]'), 'Q41 review card must display official correct answer F');
+  assert.ok(reviewWsHtml.includes('★ 正确答案: [ F ]'), 'Q41 review card must display correct answer F');
   assert.ok(reviewWsHtml.includes('💡 命题逻辑与解题线索：'), 'Review cards must provide pedagogical matching rationale');
 
   // Locate buttons

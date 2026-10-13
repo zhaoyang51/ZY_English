@@ -338,7 +338,7 @@
           <div class="partb-questions-panel">
             <h3 style="font-size:1.15em;font-weight:700;margin:28px 0 14px;color:var(--ink);display:flex;align-items:center;gap:8px">
               <span>${sectionTitle}</span>
-              <span style="font-size:0.75em;color:var(--muted);font-weight:normal">${isReviewMode ? '（官方正解与原文出处对照）' : '（点击题目快速联动右侧工作台）'}</span>
+              <span style="font-size:0.75em;color:var(--muted);font-weight:normal">${isReviewMode ? '（答案与原文出处对照）' : '（点击题目快速联动右侧工作台）'}</span>
             </h3>
             <div class="partb-exam-items-list">
               ${(data.items || []).map(item => {
@@ -388,15 +388,11 @@
         `;
       }
 
-      const modeTitle = isReviewMode ? '深度复盘模式' : '实战做题模式';
-      const modeBadgeColor = isReviewMode ? '#059669' : '#7c3aed';
-
       examPaper.innerHTML = `
         <div class="reader-toolbar">
           <div class="toolbar-group">
             <span style="font-size:0.82em;font-weight:700;color:var(--muted)">题型:</span>
             <span class="badge" style="background:#7c3aed;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.82em">Section II Part B 新题型 (10分)</span>
-            <span class="badge" style="background:${modeBadgeColor};color:#fff;padding:2px 8px;border-radius:4px;font-size:0.82em">${modeTitle}</span>
           </div>
           <div class="toolbar-group" style="margin-left:auto;display:flex;align-items:center;gap:8px">
             <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnTogglePartBTrans" title="切换全文与选项中文对照">🌐 全文对照</button>
@@ -745,7 +741,7 @@
             <div class="matching-review-header">
               <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
                 <span class="partb-review-qid-badge">第 ${qid} 题</span>
-                <span class="partb-review-key-badge">★ 官方正解: [ ${ansKey} ]</span>
+                <span class="partb-review-key-badge">★ 正确答案: [ ${ansKey} ]</span>
                 ${userPick ? (userPick === ansKey ? '<span class="partb-user-status correct">✔ 你的作答正确 (+2分)</span>' : `<span class="partb-user-status wrong">✖ 你的作答: [ ${userPick} ] (错误)</span>`) : ''}
               </div>
               <button type="button" class="btn-locate-para" data-qid="${qid}" data-para="${item.locate_para !== undefined ? item.locate_para : ''}">📍 定位原文出处</button>
@@ -829,8 +825,8 @@
           <!-- Review Header -->
           <div class="cloze-card-header" style="border-bottom:1px solid var(--border);padding-bottom:10px">
             <div>
-              <span style="font-size:1.1em;font-weight:800;color:var(--ink)">🧩 新题型深度复盘工作台 (41-45 题)</span>
-              <div style="font-size:0.82em;color:var(--muted);margin-top:3px">官方正解对照 · 命题线索揭秘 · 干扰项深度避坑</div>
+              <span style="font-size:1.1em;font-weight:800;color:var(--ink)">🧩 新题型复盘工作台 (41-45 题)</span>
+              <div style="font-size:0.82em;color:var(--muted);margin-top:3px">答案对照 · 命题线索揭秘 · 干扰项避坑</div>
             </div>
             <div style="display:flex;align-items:center;gap:8px">
               <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnTogglePartBTransReview" style="font-size:0.8em;padding:2px 8px" title="切换全文与选项中文对照">🌐 全文对照</button>
@@ -850,8 +846,7 @@
               </div>
             ` : `
               <div style="font-size:0.92em;color:var(--ink);display:flex;align-items:center;gap:8px">
-                <span class="badge" style="background:#059669;color:#fff;padding:2px 8px;border-radius:4px">官方复盘</span>
-                <span>本篇共 5 道题（满分 10 分），请结合左侧原文及右侧考点线索进行深度复盘研读。</span>
+                <span>本篇共 5 道题（满分 10 分），请结合左侧原文及右侧考点线索进行复盘研读。</span>
               </div>
             `}
           </div>
