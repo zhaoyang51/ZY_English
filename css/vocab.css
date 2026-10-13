@@ -13,11 +13,29 @@
   box-sizing: border-box;
 }
 
+body.mode-vocab {
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+body.mode-vocab .topbar {
+  flex-shrink: 0 !important;
+  z-index: 50;
+}
+
 body.mode-vocab .vocab-section {
   display: block !important;
-  height: calc(100vh - 85px);
-  overflow-y: auto;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  height: 0 !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  padding: 14px 18px 80px 18px;
 }
 
 body.mode-vocab .layout,
@@ -420,17 +438,22 @@ body.theme-parchment .vocab-face {
   overflow-y: visible;
 }
 
-/* Ensure outer page flows smoothly without inner scroll trap */
-body.mode-vocab {
-  height: auto;
-  min-height: 100vh;
-  overflow-y: auto;
+/* Scrollbar aesthetics for vocab-section */
+.vocab-section::-webkit-scrollbar {
+  width: 8px;
 }
 
-body.mode-vocab .vocab-section {
-  height: auto;
-  overflow: visible;
-  padding-bottom: 40px;
+.vocab-section::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.vocab-section::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 999px;
+}
+
+.vocab-section::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
 }
 
 /* Brand tag */

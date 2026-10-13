@@ -228,9 +228,10 @@ test('Vocab Recite: No zh-en or cloze buttons in top bar, pure and focused UI', 
   assert.strictEqual(vocabJs.includes('vocabModeGroup'), false, 'Must not include vocabModeGroup switcher');
 });
 
-test('Vocab CSS: Natural flow panel layout without 3D flip truncation', () => {
+test('Vocab CSS: Natural flow panel layout without 3D flip truncation and smooth scrollable section', () => {
   const vocabCss = fs.readFileSync(path.join(__dirname, '../css/vocab.css'), 'utf8');
   assert.ok(vocabCss.includes('perspective: none'), 'Card scene must not use 3D perspective');
   assert.ok(vocabCss.includes('.vocab-card-flipper.is-flipped .vocab-face-back'), 'Must support natural reveal');
   assert.ok(vocabCss.includes('overflow-y: visible'), 'Back face must have overflow-y: visible to avoid truncation');
+  assert.ok(vocabCss.includes('body.mode-vocab .vocab-section') && vocabCss.includes('overflow-y: auto !important'), 'vocab-section must be scrollable with overflow-y: auto !important');
 });
