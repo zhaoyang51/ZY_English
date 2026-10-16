@@ -1286,8 +1286,8 @@
     const sorted = [...filtered].sort((a, b) => (b.time || 0) - (a.time || 0));
 
     let html = `
-      <div style="margin-bottom:14px;display:flex;gap:10px;align-items:center">
-        <input type="text" id="vocabBookSearchInput" class="vocab-search-input" style="flex:1" placeholder="🔍 检索生词、大纲释义、形近词、真题词组或原句..." value="${escapeAttr(filterSearch)}">
+      <div style="margin-bottom:16px;display:flex;gap:12px;align-items:center">
+        <input type="text" id="vocabBookSearchInput" class="vocab-search-input" style="flex:1;font-size:1.02em;padding:9px 14px 9px 36px;border-radius:10px" placeholder="🔍 检索生词、大纲释义、形近词、真题词组或原句..." value="${escapeAttr(filterSearch)}">
       </div>
       <div class="vocab-book-list">
     `;
@@ -1477,7 +1477,7 @@
             <div class="vocab-book-header">
               <span class="vocab-book-word">${escapeAttr(cleanWord)}</span>
               <div class="vocab-book-meta">
-                <span style="font-size:0.8em;background:rgba(37,99,235,0.08);color:var(--primary);font-weight:700;padding:2px 8px;border-radius:4px">${escapeAttr(prov)}</span>
+                <span style="font-size:0.9em;background:rgba(37,99,235,0.08);color:var(--primary);font-weight:700;padding:4px 10px;border-radius:6px">${escapeAttr(prov)}</span>
               </div>
             </div>
             <div class="vocab-book-def">${escapeAttr(mainDef)}</div>
@@ -1491,9 +1491,9 @@
             </div>
 
             <div class="vocab-book-actions">
-              <button class="toolbar-btn btn-speak-word" data-word="${escapeAttr(cleanWord)}" style="padding:3px 10px;font-size:0.82em" title="发音朗读">🔊 朗读</button>
-              ${item.year ? `<button class="toolbar-btn btn-jump-article" data-year="${escapeAttr(item.year)}" data-text="${escapeAttr(item.textId)}" data-word="${escapeAttr(cleanWord)}" data-sentence="${escapeAttr(item.sentence || '')}" data-sid="${item.sid !== undefined && item.sid !== null ? item.sid : ''}" data-pid="${item.pid !== undefined && item.pid !== null ? item.pid : ''}" style="padding:3px 10px;font-size:0.82em;color:var(--primary)" title="跳转到真题文章并精确定位原句">📖 跳转真题</button>` : ''}
-              <button class="toolbar-btn btn-del-word" data-word="${escapeAttr(cleanWord)}" style="padding:3px 10px;font-size:0.82em;color:#ef4444" title="移出生词本">🗑️ 移除</button>
+              <button class="toolbar-btn btn-speak-word" data-word="${escapeAttr(cleanWord)}" style="padding:6px 14px;font-size:0.92em;font-weight:600" title="发音朗读">🔊 朗读</button>
+              ${item.year ? `<button class="toolbar-btn btn-jump-article" data-year="${escapeAttr(item.year)}" data-text="${escapeAttr(item.textId)}" data-word="${escapeAttr(cleanWord)}" data-sentence="${escapeAttr(item.sentence || '')}" data-sid="${item.sid !== undefined && item.sid !== null ? item.sid : ''}" data-pid="${item.pid !== undefined && item.pid !== null ? item.pid : ''}" style="padding:6px 14px;font-size:0.92em;font-weight:600;color:var(--primary)" title="跳转到真题文章并精确定位原句">📖 跳转真题</button>` : ''}
+              <button class="toolbar-btn btn-del-word" data-word="${escapeAttr(cleanWord)}" style="padding:6px 14px;font-size:0.92em;font-weight:600;color:#ef4444" title="移出生词本">🗑️ 移除</button>
             </div>
           </div>
         `;

@@ -1858,13 +1858,13 @@ body.theme-dark .signpost-strategy {
 .vocab-book-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
 }
 .vocab-book-card {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 14px 16px;
+  border-radius: var(--radius-md, 12px);
+  padding: 20px 24px;
   box-shadow: var(--shadow-sm);
   transition: all 0.15s ease;
 }
@@ -1876,64 +1876,75 @@ body.theme-dark .signpost-strategy {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 .vocab-book-word {
-  font-size: 1.2em;
+  font-size: 1.65em;
   font-weight: 800;
   color: var(--ink);
+  letter-spacing: -0.02em;
 }
 .vocab-book-meta {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 .vocab-book-def {
-  font-size: 0.95em;
+  font-size: 1.2em;
   color: var(--ink);
-  margin-bottom: 8px;
-  font-weight: 600;
+  margin-bottom: 12px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 .vocab-book-sentence {
-  font-size: 0.88em;
-  color: var(--muted);
-  line-height: 1.5;
-  background: rgba(37, 99, 235, 0.04);
-  border-left: 3px solid var(--accent);
-  padding: 8px 12px;
-  border-radius: 4px;
-  margin-top: 6px;
+  font-size: 1.08em;
+  color: var(--ink);
+  line-height: 1.7;
+  background: rgba(37, 99, 235, 0.05);
+  border-left: 4px solid var(--accent);
+  padding: 12px 18px;
+  border-radius: 6px;
+  margin-top: 8px;
 }
 body.theme-dark .vocab-book-sentence {
-  background: rgba(37, 99, 235, 0.12);
+  background: rgba(37, 99, 235, 0.14);
 }
 .vocab-highlight {
   color: var(--accent);
   font-weight: 800;
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .vocab-book-actions {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 8px;
-  margin-top: 10px;
+  gap: 10px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--line, var(--border));
+}
+.vocab-book-actions .toolbar-btn {
+  font-size: 0.92em !important;
+  padding: 6px 14px !important;
+  font-weight: 600;
+  border-radius: 6px;
 }
 
 /* ==========================================================================
    Vocab Book 5-Dimensional Authentic Exam Subsections (五维真题考点拓展)
    ========================================================================== */
 .vocab-relation-subsections {
-  margin: 10px 0 6px;
+  margin: 12px 0 8px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 .vocab-rel-block {
   background: rgba(0, 0, 0, 0.02);
   border: 1px solid var(--border);
-  border-radius: var(--radius-sm, 6px);
-  padding: 8px 12px;
+  border-radius: var(--radius-sm, 8px);
+  padding: 12px 16px;
   transition: all 0.15s ease;
 }
 body.theme-dark .vocab-rel-block {
@@ -1944,12 +1955,12 @@ body.theme-dark .vocab-rel-block {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
 }
 .vocab-rel-header {
-  font-size: 0.82em;
+  font-size: 0.95em;
   font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   letter-spacing: 0.02em;
 }
 .vocab-rel-header.lookalikes { color: #7c3aed; }
@@ -1966,45 +1977,46 @@ body.theme-dark .vocab-rel-header.sentences { color: #fbbf24; }
 .vocab-rel-pills {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
 }
 .vocab-rel-pill {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  font-size: 0.82em;
-  padding: 3px 8px;
-  border-radius: 4px;
+  gap: 7px;
+  font-size: 0.92em;
+  padding: 5px 12px;
+  border-radius: 6px;
   background: var(--surface);
   border: 1px solid var(--border);
   color: var(--ink);
   transition: all 0.12s ease;
-  line-height: 1.4;
+  line-height: 1.45;
 }
 .vocab-rel-pill:hover {
   border-color: var(--accent);
   transform: translateY(-1px);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 .vocab-rel-pill .pill-word {
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 1.05em;
   color: var(--ink);
 }
 .vocab-rel-pill .pill-def {
   color: var(--muted);
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
 .vocab-rel-pill .pill-prov {
-  font-size: 0.76em;
+  font-size: 0.84em;
   color: var(--accent);
-  background: rgba(37, 99, 235, 0.07);
-  padding: 1px 4px;
-  border-radius: 3px;
+  background: rgba(37, 99, 235, 0.08);
+  padding: 2px 6px;
+  border-radius: 4px;
 }
 .vocab-rel-pill .pill-speak {
   cursor: pointer;
-  opacity: 0.65;
-  font-size: 0.95em;
+  opacity: 0.75;
+  font-size: 1.05em;
   padding: 0 2px;
 }
 .vocab-rel-pill .pill-speak:hover {
@@ -2016,50 +2028,53 @@ body.theme-dark .vocab-rel-header.sentences { color: #fbbf24; }
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
-  gap: 6px;
-  font-size: 0.84em;
-  padding: 4px 8px;
-  background: rgba(13, 148, 136, 0.04);
-  border-left: 2px solid #0d9488;
-  border-radius: 3px;
-  margin-bottom: 4px;
+  gap: 8px;
+  font-size: 0.95em;
+  padding: 8px 12px;
+  background: rgba(13, 148, 136, 0.05);
+  border-left: 3px solid #0d9488;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  line-height: 1.55;
 }
 body.theme-dark .vocab-rel-phrase-item {
-  background: rgba(13, 148, 136, 0.12);
+  background: rgba(13, 148, 136, 0.15);
   border-left-color: #2dd4bf;
 }
 .vocab-rel-phrase-item:last-child {
   margin-bottom: 0;
 }
 .vocab-rel-phrase-item .phrase-en {
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 1.05em;
   color: var(--ink);
 }
 .vocab-rel-phrase-item .phrase-def {
   color: var(--muted);
   flex: 1;
-  margin: 0 8px;
+  font-size: 0.96em;
+  margin: 0 10px;
 }
 .vocab-rel-phrase-item .phrase-prov {
-  font-size: 0.78em;
+  font-size: 0.86em;
   color: #0d9488;
-  font-weight: 600;
+  font-weight: 700;
 }
 body.theme-dark .vocab-rel-phrase-item .phrase-prov {
   color: #2dd4bf;
 }
 
 .vocab-rel-sentence-item {
-  background: rgba(217, 119, 6, 0.04);
-  border-left: 3px solid #d97706;
-  padding: 8px 12px;
-  border-radius: 4px;
-  margin-bottom: 6px;
-  font-size: 0.86em;
-  line-height: 1.55;
+  background: rgba(217, 119, 6, 0.05);
+  border-left: 4px solid #d97706;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: 1.0em;
+  line-height: 1.65;
 }
 body.theme-dark .vocab-rel-sentence-item {
-  background: rgba(217, 119, 6, 0.12);
+  background: rgba(217, 119, 6, 0.14);
   border-left-color: #fbbf24;
 }
 .vocab-rel-sentence-item:last-child {
@@ -2067,19 +2082,22 @@ body.theme-dark .vocab-rel-sentence-item {
 }
 .vocab-rel-sentence-en {
   color: var(--ink);
-  font-weight: 500;
-  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 1.08em;
+  line-height: 1.7;
+  margin-bottom: 6px;
 }
 .vocab-rel-sentence-zh {
   color: var(--muted);
-  font-size: 0.94em;
-  margin-bottom: 6px;
+  font-size: 1.0em;
+  line-height: 1.65;
+  margin-bottom: 8px;
 }
 .vocab-rel-sentence-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 0.8em;
+  font-size: 0.88em;
   color: var(--muted);
 }
 .vocab-rel-sentence-prov {
@@ -2092,11 +2110,11 @@ body.theme-dark .vocab-rel-sentence-prov {
 .vocab-btn-locate-sent {
   cursor: pointer;
   background: transparent;
-  border: 1px solid rgba(217, 119, 6, 0.3);
+  border: 1px solid rgba(217, 119, 6, 0.35);
   color: #d97706;
-  font-size: 0.9em;
-  padding: 1px 6px;
-  border-radius: 3px;
+  font-size: 0.95em;
+  padding: 3px 10px;
+  border-radius: 4px;
   font-weight: 600;
   transition: all 0.12s ease;
 }

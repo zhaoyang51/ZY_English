@@ -7,9 +7,9 @@
 .vocab-section {
   display: none;
   width: 100%;
-  max-width: 860px;
+  max-width: 980px;
   margin: 0 auto;
-  padding: 14px 18px 48px 18px;
+  padding: 16px 20px 52px 20px;
   box-sizing: border-box;
 }
 
@@ -83,9 +83,9 @@ body.theme-dark .vocab-top-bar {
 
 .vocab-search-input {
   width: 100%;
-  padding: 7px 12px 7px 32px;
+  padding: 9px 14px 9px 36px;
   font-family: var(--font-base);
-  font-size: 0.88em;
+  font-size: 0.98em;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -159,9 +159,9 @@ body.theme-dark .vocab-mode-pill.active {
 .vocab-action-pill-btn {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  padding: 6px 11px;
-  font-size: 0.8em;
+  gap: 6px;
+  padding: 7px 14px;
+  font-size: 0.88em;
   font-weight: 700;
   color: var(--ink);
   background: var(--bg);
@@ -242,7 +242,7 @@ body.theme-dark .vocab-filter-drawer {
 }
 
 .vocab-filter-label {
-  font-size: 0.74em;
+  font-size: 0.82em;
   font-weight: 700;
   color: var(--muted);
   text-transform: uppercase;
@@ -251,9 +251,9 @@ body.theme-dark .vocab-filter-drawer {
 
 .vocab-select {
   width: 100%;
-  padding: 7px 9px;
+  padding: 8px 12px;
   font-family: var(--font-base);
-  font-size: 0.85em;
+  font-size: 0.92em;
   font-weight: 600;
   background: var(--bg);
   color: var(--ink);
@@ -298,12 +298,12 @@ body.theme-dark .vocab-filter-drawer {
 .vocab-stat-chip {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: 0.82em;
+  gap: 7px;
+  font-size: 0.9em;
   font-weight: 600;
   color: var(--muted);
-  padding: 3px 8px;
-  border-radius: 7px;
+  padding: 4px 10px;
+  border-radius: 8px;
   cursor: pointer;
   transition: background 0.15s, transform 0.15s;
 }
@@ -315,7 +315,7 @@ body.theme-dark .vocab-filter-drawer {
 
 .vocab-stat-num {
   font-weight: 800;
-  font-size: 1.1em;
+  font-size: 1.18em;
 }
 
 .stat-chip-total .vocab-stat-num { color: var(--ink); }
@@ -372,7 +372,7 @@ body.theme-dark .vocab-progress-bar {
 .vocab-card-scene {
   perspective: none;
   width: 100%;
-  max-width: 760px;
+  max-width: 900px;
   margin: 0 auto 20px auto;
   min-height: 0;
 }
@@ -400,10 +400,10 @@ body.theme-dark .vocab-progress-bar {
   box-shadow: 0 10px 30px -6px rgba(0, 0, 0, 0.08), 0 4px 10px -2px rgba(0, 0, 0, 0.03);
   display: flex;
   flex-direction: column;
-  padding: 22px 26px;
+  padding: 26px 32px;
   box-sizing: border-box;
   overflow: visible;
-  gap: 14px;
+  gap: 16px;
   transition: border-color 0.18s ease, box-shadow 0.18s ease;
 }
 
@@ -606,26 +606,26 @@ body.theme-dark .badge-mastered { background: rgba(52, 211, 153, 0.2); color: #3
 
 .vocab-word-large {
   font-family: var(--font-base);
-  font-size: 2.8em;
+  font-size: 3.4em;
   font-weight: 800;
   color: var(--ink);
   letter-spacing: -0.5px;
-  margin: 0 0 10px 0;
+  margin: 0 0 12px 0;
   line-height: 1.15;
   transition: color 0.15s;
 }
 
 @media (max-width: 640px) {
   .vocab-word-large {
-    font-size: 2.2em;
+    font-size: 2.5em;
   }
 }
 
 .vocab-pos-badge {
   display: inline-block;
-  font-size: 0.82em;
+  font-size: 0.92em;
   font-weight: 700;
-  padding: 3px 10px;
+  padding: 4px 12px;
   background: var(--bg);
   color: var(--accent);
   border: 1px solid var(--border);
@@ -641,10 +641,10 @@ body.theme-dark .vocab-pos-badge {
   background: var(--bg);
   border: 1px dashed var(--border);
   border-radius: 12px;
-  padding: 16px;
-  margin-top: 10px;
-  font-size: 1.05em;
-  line-height: 1.7;
+  padding: 18px 22px;
+  margin-top: 12px;
+  font-size: 1.18em;
+  line-height: 1.8;
   color: var(--ink);
   text-align: left;
 }
@@ -693,26 +693,26 @@ body.theme-dark .vocab-pos-badge {
 }
 
 .vocab-back-word {
-  font-size: 1.8em;
+  font-size: 2.2em;
   font-weight: 800;
   color: var(--ink);
 }
 
 .vocab-definition-text {
-  font-size: 1.22em;
+  font-size: 1.38em;
   font-weight: 700;
   color: var(--ink);
-  line-height: 1.6;
-  margin-bottom: 16px;
+  line-height: 1.65;
+  margin-bottom: 18px;
 }
 
 /* Authentic Exam Sentence Box (Highlight in Context) */
 .vocab-sentence-box {
   background: var(--bg);
   border-left: 4px solid var(--accent);
-  border-radius: 0 12px 12px 0;
-  padding: 12px 16px;
-  margin-bottom: 14px;
+  border-radius: 0 14px 14px 0;
+  padding: 14px 18px;
+  margin-bottom: 16px;
   text-align: left;
 }
 
@@ -725,12 +725,12 @@ body.theme-dark .vocab-sentence-box {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 0.76em;
+  font-size: 0.86em;
   font-weight: 800;
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 body.theme-dark .vocab-sentence-header {
@@ -739,10 +739,10 @@ body.theme-dark .vocab-sentence-header {
 
 .vocab-sentence-en {
   font-family: var(--font-serif);
-  font-size: 1.05em;
-  line-height: 1.65;
+  font-size: 1.16em;
+  line-height: 1.75;
   color: var(--ink);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .vocab-kw {
@@ -761,8 +761,8 @@ body.theme-dark .vocab-kw {
 }
 
 .vocab-sentence-zh {
-  font-size: 0.88em;
-  line-height: 1.6;
+  font-size: 1.02em;
+  line-height: 1.65;
   color: var(--muted);
 }
 
@@ -784,8 +784,8 @@ body.theme-dark .vocab-kw {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 12px 6px;
-  border-radius: 12px;
+  padding: 14px 10px;
+  border-radius: 14px;
   cursor: pointer;
   border: 1px solid transparent;
   transition: all 0.16s ease;
@@ -829,13 +829,13 @@ body.theme-dark .vocab-kw {
 }
 
 .grade-title {
-  font-size: 0.98em;
+  font-size: 1.15em;
   font-weight: 800;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 .grade-subtitle {
-  font-size: 0.72em;
+  font-size: 0.84em;
   opacity: 0.85;
   font-weight: 600;
 }
@@ -849,8 +849,8 @@ body.theme-dark .vocab-kw {
 }
 
 .vocab-sub-btn {
-  padding: 7px 12px;
-  font-size: 0.8em;
+  padding: 8px 16px;
+  font-size: 0.88em;
   font-weight: 700;
   background: var(--bg);
   border: 1px solid var(--border);
@@ -873,10 +873,10 @@ body.theme-dark .vocab-kw {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 8px;
-  font-size: 0.78em;
+  gap: 10px;
+  font-size: 0.86em;
   color: var(--muted);
-  padding: 8px 12px;
+  padding: 10px 14px;
 }
 
 .vocab-keycap {
