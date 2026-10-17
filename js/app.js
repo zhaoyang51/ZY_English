@@ -1266,12 +1266,28 @@
       return;
     }
 
+    const onlyWithSentences = localStorage.getItem('kaoyan_vocab_book_only_sentences') === 'true';
+    let fontSize = Number(localStorage.getItem('kaoyan_vocab_book_font_size')) || 17;
+    let modulesState = { sentences: true, lookalikes: true, phrases: true, synAnt: true };
+    try {
+      const savedMods = JSON.parse(localStorage.getItem('kaoyan_vocab_book_modules'));
+      if (savedMods && typeof savedMods === 'object') {
+        modulesState = { ...modulesState, ...savedMods };
+      }
+    } catch(e) {}
+
     const sLower = filterSearch.toLowerCase().trim();
-    const filtered = sLower ? list.filter(item => {
+    const filtered = list.filter(item => {
+      const cleanWord = item.word.trim();
+      const rel = getVocabRelations(cleanWord);
+      if (onlyWithSentences) {
+        const hasSent = Boolean((item.sentence && item.sentence.trim()) || (rel && rel.sentences && rel.sentences.length > 0));
+        if (!hasSent) return false;
+      }
+      if (!sLower) return true;
       if (item.word.toLowerCase().includes(sLower)) return true;
       if (item.def && item.def.toLowerCase().includes(sLower)) return true;
       if (item.sentence && item.sentence.toLowerCase().includes(sLower)) return true;
-      const rel = getVocabRelations(item.word);
       if (rel) {
         if (rel.lookalikes && rel.lookalikes.some(l => l.word.toLowerCase().includes(sLower) || (l.def && l.def.includes(sLower)))) return true;
         if (rel.phrases && rel.phrases.some(p => p.phrase.toLowerCase().includes(sLower) || (p.def && p.def.includes(sLower)))) return true;
@@ -1280,16 +1296,70 @@
         if (rel.sentences && rel.sentences.some(st => st.text.toLowerCase().includes(sLower) || (st.translation && st.translation.includes(sLower)))) return true;
       }
       return false;
-    }) : list;
+    });
+
+    if (countEl) {
+      if (filtered.length !== list.length) {
+        countEl.innerHTML = `${list.length} 个重点生词 <span style="font-size:0.85em;color:var(--muted);font-weight:normal">(当前展示 <strong>${filtered.length}</strong> 词)</span>`;
+      } else {
+        countEl.textContent = `${list.length}`;
+      }
+    }
 
     // Sort by latest added first
     const sorted = [...filtered].sort((a, b) => (b.time || 0) - (a.time || 0));
 
+    const hideClasses = [];
+    if (!modulesState.sentences) hideClasses.push('hide-sentences');
+    if (!modulesState.lookalikes) hideClasses.push('hide-lookalikes');
+    if (!modulesState.phrases) hideClasses.push('hide-phrases');
+    if (!modulesState.synAnt) hideClasses.push('hide-synant');
+
     let html = `
-      <div style="margin-bottom:16px;display:flex;gap:12px;align-items:center">
-        <input type="text" id="vocabBookSearchInput" class="vocab-search-input" style="flex:1;font-size:1.02em;padding:9px 14px 9px 36px;border-radius:10px" placeholder="🔍 检索生词、大纲释义、形近词、真题词组或原句..." value="${escapeAttr(filterSearch)}">
+      <div class="vocab-book-toolbar-container">
+        <div class="vocab-book-search-row">
+          <div style="position:relative;flex:1;min-width:260px">
+            <input type="text" id="vocabBookSearchInput" class="vocab-search-input" style="width:100%;font-size:1.02em;padding:9px 14px 9px 36px;border-radius:10px" placeholder="🔍 检索生词、大纲释义、形近词、真题词组或原句..." value="${escapeAttr(filterSearch)}">
+            <span class="vocab-search-icon" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--muted)">🔍</span>
+          </div>
+
+          <div class="vocab-book-font-control">
+            <span class="vbf-label">字号:</span>
+            <button class="toolbar-btn vbf-btn" id="btnVocabBookFontDec" title="缩小生词本字号 (A-)">A-</button>
+            <span class="font-size-badge vbf-badge" id="vocabBookFontBadge">${fontSize}px</span>
+            <button class="toolbar-btn vbf-btn" id="btnVocabBookFontInc" title="放大生词本字号 (A+)">A+</button>
+            <button class="toolbar-btn vbf-btn" id="btnVocabBookFontReset" title="恢复默认字号 (17px)" style="font-size:0.8em;padding:2px 7px">默认</button>
+          </div>
+        </div>
+
+        <div class="vocab-book-filter-row">
+          <div class="vbf-modules-group">
+            <span class="vbf-filter-label">显示模块:</span>
+            <button class="vbf-module-pill ${modulesState.sentences ? 'active' : ''}" data-module="sentences" title="点击展开/隐藏 历年真题原句">
+              <span class="vbf-check-icon">${modulesState.sentences ? '✔' : '➕'}</span> 📖 真题原句
+            </button>
+            <button class="vbf-module-pill ${modulesState.lookalikes ? 'active' : ''}" data-module="lookalikes" title="点击展开/隐藏 真题形近词辨析">
+              <span class="vbf-check-icon">${modulesState.lookalikes ? '✔' : '➕'}</span> 🔍 形近词辨析
+            </button>
+            <button class="vbf-module-pill ${modulesState.phrases ? 'active' : ''}" data-module="phrases" title="点击展开/隐藏 真题搭配词组">
+              <span class="vbf-check-icon">${modulesState.phrases ? '✔' : '➕'}</span> 🔗 搭配词组
+            </button>
+            <button class="vbf-module-pill ${modulesState.synAnt ? 'active' : ''}" data-module="synAnt" title="点击展开/隐藏 考点近义词与对立反义词">
+              <span class="vbf-check-icon">${modulesState.synAnt ? '✔' : '➕'}</span> 🔄 近/反义词
+            </button>
+          </div>
+
+          <div class="vbf-quick-actions">
+            <button class="vbf-quick-btn" id="btnVocabBookSentencesOnly" title="仅显示真题原句，隐藏其他拓展">仅看原句</button>
+            <button class="vbf-quick-btn" id="btnVocabBookSelectAllModules" title="显示所有拓展模块">全部显示</button>
+            <label class="vbf-only-sentences-label" title="勾选后只展示包含真题原句的词汇">
+              <input type="checkbox" id="chkOnlyWithSentences" ${onlyWithSentences ? 'checked' : ''}>
+              <span>仅含原句词</span>
+            </label>
+          </div>
+        </div>
       </div>
-      <div class="vocab-book-list">
+      <div class="vocab-book-list ${hideClasses.join(' ')}" style="font-size:${fontSize}px">
     `;
 
     if (sorted.length === 0) {
@@ -1315,7 +1385,7 @@
         let lookalikesHtml = '';
         if (relData && relData.lookalikes && relData.lookalikes.length > 0) {
           lookalikesHtml = `
-            <div class="vocab-rel-block">
+            <div class="vocab-rel-block block-lookalikes">
               <div class="vocab-rel-header lookalikes">
                 <span>🔍 真题形近词辨析</span>
                 <span style="font-size:0.85em;font-weight:normal;opacity:0.8">英二高频拼写易混</span>
@@ -1338,7 +1408,7 @@
         let phrasesHtml = '';
         if (relData && relData.phrases && relData.phrases.length > 0) {
           phrasesHtml = `
-            <div class="vocab-rel-block">
+            <div class="vocab-rel-block block-phrases">
               <div class="vocab-rel-header phrases">
                 <span>🔗 真题搭配词组</span>
                 <span style="font-size:0.85em;font-weight:normal;opacity:0.8">考场高频固定搭配</span>
@@ -1360,7 +1430,7 @@
         let synonymsHtml = '';
         if (relData && relData.synonyms && relData.synonyms.length > 0) {
           synonymsHtml = `
-            <div class="vocab-rel-block">
+            <div class="vocab-rel-block block-synonyms">
               <div class="vocab-rel-header synonyms">
                 <span>🔄 考点近义词</span>
                 <span style="font-size:0.85em;font-weight:normal;opacity:0.8">命题同义改写置换</span>
@@ -1383,7 +1453,7 @@
         let antonymsHtml = '';
         if (relData && relData.antonyms && relData.antonyms.length > 0) {
           antonymsHtml = `
-            <div class="vocab-rel-block">
+            <div class="vocab-rel-block block-antonyms">
               <div class="vocab-rel-header antonyms">
                 <span>⚖️ 对立反义词</span>
                 <span style="font-size:0.85em;font-weight:normal;opacity:0.8">正反论证态度对立</span>
@@ -1433,7 +1503,7 @@
         let sentencesHtml = '';
         if (combinedSentences.length > 0) {
           sentencesHtml = `
-            <div class="vocab-rel-block">
+            <div class="vocab-rel-block block-sentences">
               <div class="vocab-rel-header sentences">
                 <span>📖 历年真题原句</span>
                 <span style="font-size:0.85em;font-weight:normal;opacity:0.8">真实语境与定位剖析</span>
@@ -1512,6 +1582,95 @@
           newInp.focus();
           newInp.selectionStart = newInp.selectionEnd = newInp.value.length;
         }
+      };
+    }
+
+    // Font size controls
+    const fontBadge = document.getElementById('vocabBookFontBadge');
+    const listEl = body.querySelector('.vocab-book-list');
+
+    const updateFontSize = (newFs) => {
+      fontSize = newFs;
+      localStorage.setItem('kaoyan_vocab_book_font_size', String(fontSize));
+      if (fontBadge) fontBadge.textContent = `${fontSize}px`;
+      if (listEl) listEl.style.fontSize = `${fontSize}px`;
+      body.style.setProperty('--vocab-book-fs', `${fontSize}px`);
+    };
+
+    const btnDec = document.getElementById('btnVocabBookFontDec');
+    if (btnDec) {
+      btnDec.onclick = () => {
+        if (fontSize > 13) {
+          updateFontSize(Math.max(13, Number((fontSize - 1.5).toFixed(1))));
+        }
+      };
+    }
+    const btnInc = document.getElementById('btnVocabBookFontInc');
+    if (btnInc) {
+      btnInc.onclick = () => {
+        if (fontSize < 28) {
+          updateFontSize(Math.min(28, Number((fontSize + 1.5).toFixed(1))));
+        }
+      };
+    }
+    const btnReset = document.getElementById('btnVocabBookFontReset');
+    if (btnReset) {
+      btnReset.onclick = () => {
+        updateFontSize(17);
+      };
+    }
+
+    // Module display filters
+    const applyModuleClasses = () => {
+      if (!listEl) return;
+      listEl.classList.toggle('hide-sentences', !modulesState.sentences);
+      listEl.classList.toggle('hide-lookalikes', !modulesState.lookalikes);
+      listEl.classList.toggle('hide-phrases', !modulesState.phrases);
+      listEl.classList.toggle('hide-synant', !modulesState.synAnt);
+      localStorage.setItem('kaoyan_vocab_book_modules', JSON.stringify(modulesState));
+
+      body.querySelectorAll('.vbf-module-pill').forEach(pill => {
+        const m = pill.getAttribute('data-module');
+        const isActive = Boolean(modulesState[m]);
+        pill.classList.toggle('active', isActive);
+        const icon = pill.querySelector('.vbf-check-icon');
+        if (icon) icon.textContent = isActive ? '✔' : '➕';
+      });
+    };
+
+    body.querySelectorAll('.vbf-module-pill').forEach(pill => {
+      pill.onclick = () => {
+        const m = pill.getAttribute('data-module');
+        if (m) {
+          modulesState[m] = !modulesState[m];
+          applyModuleClasses();
+        }
+      };
+    });
+
+    const btnSentOnly = document.getElementById('btnVocabBookSentencesOnly');
+    if (btnSentOnly) {
+      btnSentOnly.onclick = () => {
+        modulesState = { sentences: true, lookalikes: false, phrases: false, synAnt: false };
+        applyModuleClasses();
+        showToast('已切换：仅显示真题原句');
+      };
+    }
+
+    const btnAllMods = document.getElementById('btnVocabBookSelectAllModules');
+    if (btnAllMods) {
+      btnAllMods.onclick = () => {
+        modulesState = { sentences: true, lookalikes: true, phrases: true, synAnt: true };
+        applyModuleClasses();
+        showToast('已开启全部显示模块');
+      };
+    }
+
+    const chkSentences = document.getElementById('chkOnlyWithSentences');
+    if (chkSentences) {
+      chkSentences.onchange = () => {
+        localStorage.setItem('kaoyan_vocab_book_only_sentences', String(chkSentences.checked));
+        renderVocabBookModal(searchInput ? searchInput.value : filterSearch);
       };
     }
 

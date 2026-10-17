@@ -1859,6 +1859,7 @@ body.theme-dark .signpost-strategy {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  font-size: var(--vocab-book-fs, 17px);
 }
 .vocab-book-card {
   background: var(--surface);
@@ -2129,5 +2130,191 @@ body.theme-dark .vocab-btn-locate-sent {
 body.theme-dark .vocab-btn-locate-sent:hover {
   background: #fbbf24;
   color: #000;
+}
+
+/* ==========================================================================
+   Vocab Book Toolbar & Module Filters
+   ========================================================================== */
+.vocab-book-toolbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--surface);
+  padding: 0 0 14px 0;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.vocab-book-search-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.vocab-book-font-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--bg);
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  user-select: none;
+}
+
+.vbf-label {
+  font-size: 0.85em;
+  font-weight: 700;
+  color: var(--muted);
+  margin-right: 3px;
+}
+
+.vbf-btn {
+  padding: 4px 10px !important;
+  font-size: 0.85em !important;
+  font-weight: 700 !important;
+  line-height: 1.2;
+  border-radius: 5px;
+  cursor: pointer;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  transition: all 0.15s ease;
+}
+
+.vbf-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.vbf-badge {
+  font-size: 0.88em;
+  font-weight: 800;
+  color: var(--primary);
+  min-width: 44px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.vocab-book-filter-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.vbf-modules-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.vbf-filter-label {
+  font-size: 0.85em;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.vbf-module-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  font-size: 0.88em;
+  font-weight: 700;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.vbf-module-pill:hover {
+  color: var(--ink);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.vbf-module-pill.active {
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+body.theme-dark .vbf-module-pill.active {
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  border-color: #38bdf8;
+}
+
+.vbf-check-icon {
+  font-size: 0.85em;
+  font-weight: 800;
+}
+
+.vbf-quick-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.vbf-quick-btn {
+  padding: 4px 10px;
+  font-size: 0.82em;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.vbf-quick-btn:hover {
+  color: var(--ink);
+  border-color: var(--accent);
+}
+
+.vbf-only-sentences-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.85em;
+  font-weight: 700;
+  color: var(--ink);
+  cursor: pointer;
+  user-select: none;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
+.vbf-only-sentences-label input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: var(--primary);
+}
+
+/* Visibility Rules */
+.vocab-book-list.hide-sentences .block-sentences {
+  display: none !important;
+}
+.vocab-book-list.hide-lookalikes .block-lookalikes {
+  display: none !important;
+}
+.vocab-book-list.hide-phrases .block-phrases {
+  display: none !important;
+}
+.vocab-book-list.hide-synant .block-synonyms,
+.vocab-book-list.hide-synant .block-antonyms {
+  display: none !important;
 }
 
