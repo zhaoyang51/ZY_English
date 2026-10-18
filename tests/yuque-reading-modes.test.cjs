@@ -50,4 +50,18 @@ test('Yuque Reading Manifest and HTML integration tests', () => {
   assert.ok(css.includes('.yuque-container'), 'css should define .yuque-container');
   assert.ok(css.includes('.yuque-frame'), 'css should define .yuque-frame');
   assert.ok(css.includes('.yuque-empty-card'), 'css should define .yuque-empty-card');
+
+  // 5. Verify practice mode files have enlarged layout and zoom controls
+  const samplePractice = read('英二做题和复盘模式/2017_text1_做题模式.html');
+  assert.ok(samplePractice.includes('grid-template-columns:minmax(520px,1.25fr) minmax(420px,1fr)'), 'Practice file layout should allocate wider space for left article');
+  assert.ok(samplePractice.includes('max-width:1150px'), 'Practice pageWrap should allow larger max width');
+  assert.ok(samplePractice.includes('id="zoomIn"'), 'Practice file should contain zoomIn button');
+  assert.ok(samplePractice.includes('id="zoomOut"'), 'Practice file should contain zoomOut button');
+  assert.ok(samplePractice.includes('applyZoom'), 'Practice file should contain applyZoom logic');
+
+  // 6. Verify app.js removes redundant labels and hides disabled step controls in yuque mode
+  const appJs = read('js/app.js');
+  assert.ok(!appJs.includes("progressText.textContent = `${AppState.year} Text ${AppState.textId} (${modeLabel})`"), 'Redundant mode label in progressText should be removed');
+  assert.ok(appJs.includes("if (stepNavGroup) stepNavGroup.style.display = 'none';"), 'Disabled step controls should be hidden in yuque mode');
 });
+

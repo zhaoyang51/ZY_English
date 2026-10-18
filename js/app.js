@@ -663,6 +663,23 @@
         const pFile = window.YuqueManifest && window.YuqueManifest.practice && window.YuqueManifest.practice[readingKey];
         if (pFile) {
           yuqueContainer.innerHTML = `<iframe id="yuquePracticeFrame" class="yuque-frame" src="${encodeURI('英二做题和复盘模式/' + pFile)}" title="${year} ${textName} 做题模式"></iframe>`;
+          const frame = document.getElementById('yuquePracticeFrame');
+          if (frame) {
+            frame.addEventListener('load', () => {
+              try {
+                const doc = frame.contentDocument || (frame.contentWindow && frame.contentWindow.document);
+                if (doc && !doc.getElementById('appInjectedZoomStyle')) {
+                  const style = doc.createElement('style');
+                  style.id = 'appInjectedZoomStyle';
+                  style.textContent = `
+                    .layout { grid-template-columns: minmax(520px, 1.25fr) minmax(420px, 1fr) !important; }
+                    .pageWrap { width: 100% !important; max-width: 1150px !important; }
+                  `;
+                  doc.head.appendChild(style);
+                }
+              } catch (e) {}
+            });
+          }
         } else {
           yuqueContainer.innerHTML = `
             <div class="yuque-empty-card">
@@ -957,20 +974,31 @@
 
     const isYuqueActive = !isSpecial && !isVocab && (AppState.mode === 'practice' || (AppState.mode === 'review' && AppState.reviewSubmode === 'mode2'));
 
+    const jumpSelect = document.getElementById('jumpSelect');
+    const stepNavGroup = prevBtn ? prevBtn.parentElement : null;
+
     if (isYuqueActive) {
       if (prevBtn) prevBtn.disabled = true;
       if (nextBtn) nextBtn.disabled = true;
       if (floatPrevBtn) floatPrevBtn.disabled = true;
       if (floatNextBtn) floatNextBtn.disabled = true;
+      if (stepNavGroup) stepNavGroup.style.display = 'none';
+      if (jumpSelect) jumpSelect.style.display = 'none';
       if (floatingNavBar) floatingNavBar.style.display = 'none';
       if (toggleAllBtn) toggleAllBtn.style.display = 'none';
       if (submodeContainer) submodeContainer.style.display = 'none';
-      const modeLabel = AppState.mode === 'practice' ? '语雀做题模式' : '大观复盘模式 2';
-      if (progressText) progressText.textContent = `${AppState.year} Text ${AppState.textId} (${modeLabel})`;
-      if (floatProgressText) floatProgressText.textContent = `${AppState.year} Text ${AppState.textId}`;
+      if (progressText) {
+        progressText.textContent = '';
+        progressText.style.display = 'none';
+      }
+      if (floatProgressText) floatProgressText.textContent = '';
       saveState();
       return;
     }
+
+    if (stepNavGroup) stepNavGroup.style.display = '';
+    if (jumpSelect) jumpSelect.style.display = '';
+    if (progressText) progressText.style.display = '';
 
     if (submodeContainer) {
       submodeContainer.style.display = (AppState.mode === 'practice') ? 'inline-flex' : 'none';
