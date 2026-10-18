@@ -2318,3 +2318,51 @@ body.theme-dark .vbf-module-pill.active {
   display: none !important;
 }
 
+/* Yuque Reading Container & Frame */
+.yuque-container {
+  width: 100%;
+  height: calc(100vh - 60px);
+  position: relative;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.yuque-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+  background: #ffffff;
+}
+
+.yuque-empty-card {
+  max-width: 520px;
+  margin: 90px auto;
+  padding: 40px 30px;
+  text-align: center;
+  background: var(--card-bg, #ffffff);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: var(--radius-lg, 12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.yuque-empty-card .empty-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.yuque-empty-card h3 {
+  margin: 0 0 12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--ink, #1e293b);
+}
+
+.yuque-empty-card p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--muted, #64748b);
+  font-size: 15px;
+}
+
+

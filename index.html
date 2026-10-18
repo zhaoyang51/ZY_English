@@ -46,6 +46,12 @@
         <button id="submodeStepBtn" class="btn active" title="逐题推演随读随测">🔍 逐题精读</button>
         <button id="submodeMockBtn" class="btn" title="隐藏答案全卷模考">📝 盲做模考</button>
       </div>
+
+      <!-- Review Submode Switcher (模式1 vs 模式2) -->
+      <div class="btn-group" id="reviewSubmodeGroup" style="display:none">
+        <button id="reviewMode1Btn" class="btn active" title="系统现有的精细复盘模式">模式 1 (系统复盘)</button>
+        <button id="reviewMode2Btn" class="btn" title="语雀大观官方复盘模式 HTML">模式 2 (大观复盘)</button>
+      </div>
       
       <!-- Chapter Jump Select -->
       <select id="jumpSelect" class="select-control" title="章节跳转">
@@ -129,6 +135,9 @@
       </div>
     </section>
   </main>
+
+  <!-- Standalone Yuque Reading Workspace Container (for Practice Mode & Review Mode 2) -->
+  <section id="yuqueContainer" class="yuque-container" style="display:none"></section>
 
   <!-- Dedicated Vocabulary Memorization Section (Ebbinghaus Spaced Repetition) -->
   <section class="vocab-section" id="vocabSection"></section>
@@ -550,6 +559,7 @@
 
   <!-- Pure Structured JSON Database Bridge & In-Browser Dictionary -->
   <script src="data/manifest.js?v=20260914_lazy_v1"></script>
+  <script src="js/yuque_manifest.js"></script>
   <script src="js/data_loader.js?v=20260914_lazy_v1"></script>
   <script src="data/vocab_dict.js"></script>
   <script src="data/vocab_bank.js"></script>

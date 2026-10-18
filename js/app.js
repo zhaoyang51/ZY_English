@@ -8,6 +8,9 @@
     textId: 1,
     mode: 'practice', // 'practice' | 'review'
     practiceSubmode: 'step', // 'mock' | 'step'
+    reviewSubmode: (function() {
+      try { return localStorage.getItem('kaoyan_review_submode') || 'mode1'; } catch(e) { return 'mode1'; }
+    })(),
     stepIndex: 0,
     savedStepIndex: null,
     isFullMode: false,
@@ -421,6 +424,7 @@
       if (saved.textId) AppState.textId = isNaN(Number(saved.textId)) ? saved.textId : Number(saved.textId);
       if (saved.mode === 'practice' || saved.mode === 'review' || saved.mode === 'vocab') AppState.mode = saved.mode;
       if (saved.practiceSubmode === 'mock' || saved.practiceSubmode === 'step') AppState.practiceSubmode = saved.practiceSubmode;
+      if (saved.reviewSubmode === 'mode1' || saved.reviewSubmode === 'mode2') AppState.reviewSubmode = saved.reviewSubmode;
       if (typeof saved.stepIndex === 'number') AppState.savedStepIndex = saved.stepIndex;
       if (saved.theme) AppState.theme = saved.theme;
       if (typeof saved.isFullMode === 'boolean') AppState.isFullMode = saved.isFullMode;
@@ -592,20 +596,20 @@
     if (reviewBtn) reviewBtn.classList.toggle('active', AppState.mode === 'review');
     if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
 
-    // Update Submode toggle visibility
+    const yuqueContainer = document.getElementById('yuqueContainer');
+    const reviewSubmodeGroup = document.getElementById('reviewSubmodeGroup');
+    const mainLayout = document.getElementById('mainLayout');
+    const mobileTabsBar = document.getElementById('mobileTabsBar');
+    const floatingNavBar = document.getElementById('floatingNavBar');
     const submodeContainer = document.getElementById('submodeContainer');
-    if (submodeContainer) {
-      submodeContainer.style.display = (AppState.mode === 'practice' && !isSpecialSection) ? 'inline-flex' : 'none';
-      const mockBtn = document.getElementById('submodeMockBtn');
-      const stepBtn = document.getElementById('submodeStepBtn');
-      if (mockBtn && stepBtn) {
-        mockBtn.classList.toggle('active', AppState.practiceSubmode === 'mock');
-        stepBtn.classList.toggle('active', AppState.practiceSubmode === 'step');
-      }
-    }
 
-    // Special section rendering delegation
+    // Special section rendering delegation (完形, 新题型, 翻译)
     if (isSpecialSection) {
+      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (reviewSubmodeGroup) reviewSubmodeGroup.style.display = 'none';
+      if (submodeContainer) submodeContainer.style.display = 'none';
+      if (mainLayout) mainLayout.style.display = '';
+
       if (textId === 'use_of_english' && window.ClozeRenderer) {
         window.ClozeRenderer.render(AppState.textData, year, AppState.mode);
       } else if (textId === 'part_b' && window.MatchingRenderer) {
@@ -629,6 +633,11 @@
     }
 
     if (AppState.mode === 'vocab') {
+      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (reviewSubmodeGroup) reviewSubmodeGroup.style.display = 'none';
+      if (submodeContainer) submodeContainer.style.display = 'none';
+      if (mainLayout) mainLayout.style.display = 'none';
+
       if (window.VocabModule) {
         window.VocabModule.init('vocabSection');
       }
@@ -637,23 +646,89 @@
       return;
     }
 
-    // Render left panel authentic exam paper
-    window.ReaderModule.renderExamPaper(AppState.textData, 'examPaper');
+    // --- Reading Comprehension (考研英语二阅读理解) ---
+    const readingKey = `${year}_text${textId}`;
+    const textName = `Text ${textId}`;
 
-    // Handle Mock Mode vs Step Mode
-    if (AppState.mode === 'practice' && AppState.practiceSubmode === 'mock') {
-      window.QuizModule.renderMockExam(AppState.textData, 'workspaceContent');
+    // 1. 阅读做题模式：直接替换为语雀做题模式 HTML，删除原做题模式
+    if (AppState.mode === 'practice') {
+      if (submodeContainer) submodeContainer.style.display = 'none';
+      if (reviewSubmodeGroup) reviewSubmodeGroup.style.display = 'none';
+      if (mainLayout) mainLayout.style.display = 'none';
+      if (mobileTabsBar) mobileTabsBar.style.display = 'none';
+      if (floatingNavBar) floatingNavBar.style.display = 'none';
+
+      if (yuqueContainer) {
+        yuqueContainer.style.display = 'block';
+        const pFile = window.YuqueManifest && window.YuqueManifest.practice && window.YuqueManifest.practice[readingKey];
+        if (pFile) {
+          yuqueContainer.innerHTML = `<iframe id="yuquePracticeFrame" class="yuque-frame" src="${encodeURI('英二做题和复盘模式/' + pFile)}" title="${year} ${textName} 做题模式"></iframe>`;
+        } else {
+          yuqueContainer.innerHTML = `
+            <div class="yuque-empty-card">
+              <div class="empty-icon">📖</div>
+              <h3>本篇待更新</h3>
+              <p>语雀开源大观暂未收录【${year} 年 ${textName}】的做题模式 HTML 文件。</p>
+              <p style="margin-top:10px;font-size:13px;color:var(--muted)">你可以选择其他已收录年份与篇目（如 2010 Text 1/3/4、2012 全四篇等）进行练习。</p>
+            </div>
+          `;
+        }
+      }
       updateUIControls();
       saveState();
       return;
     }
 
-    // Build steps dynamically from pure JSON via QuizModule
-    if (AppState.mode === 'practice') {
-      AppState.steps = window.QuizModule.buildPracticeSteps(AppState.textData);
-    } else {
-      AppState.steps = window.QuizModule.buildReviewSteps(AppState.textData);
+    // 2. 阅读复盘模式：分为模式 1（网站现有复盘）与模式 2（语雀复盘 HTML）
+    if (AppState.mode === 'review') {
+      if (submodeContainer) submodeContainer.style.display = 'none';
+      if (reviewSubmodeGroup) {
+        reviewSubmodeGroup.style.display = 'inline-flex';
+        const r1Btn = document.getElementById('reviewMode1Btn');
+        const r2Btn = document.getElementById('reviewMode2Btn');
+        if (r1Btn) r1Btn.classList.toggle('active', AppState.reviewSubmode === 'mode1');
+        if (r2Btn) r2Btn.classList.toggle('active', AppState.reviewSubmode === 'mode2');
+      }
+
+      // 复盘模式 2：语雀复盘 HTML
+      if (AppState.reviewSubmode === 'mode2') {
+        if (mainLayout) mainLayout.style.display = 'none';
+        if (mobileTabsBar) mobileTabsBar.style.display = 'none';
+        if (floatingNavBar) floatingNavBar.style.display = 'none';
+
+        if (yuqueContainer) {
+          yuqueContainer.style.display = 'block';
+          const rFile = window.YuqueManifest && window.YuqueManifest.review && window.YuqueManifest.review[readingKey];
+          if (rFile) {
+            yuqueContainer.innerHTML = `<iframe id="yuqueReviewFrame" class="yuque-frame" src="${encodeURI('英二做题和复盘模式/' + rFile)}" title="${year} ${textName} 复盘模式2"></iframe>`;
+          } else {
+            yuqueContainer.innerHTML = `
+              <div class="yuque-empty-card">
+                <div class="empty-icon">📑</div>
+                <h3>本篇复盘模式 2 待更新</h3>
+                <p>语雀开源大观暂未收录【${year} 年 ${textName}】的复盘模式 2 HTML 文件。</p>
+                <p style="margin-top:10px;font-size:13px;color:var(--muted)">建议切换至【模式 1 (系统复盘)】继续研读，或选择其他年份篇目。</p>
+              </div>
+            `;
+          }
+        }
+        updateUIControls();
+        saveState();
+        return;
+      }
+
+      // 复盘模式 1：网站现有的系统精细复盘模式
+      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (mainLayout) mainLayout.style.display = '';
+      if (mobileTabsBar) mobileTabsBar.style.display = '';
+      if (floatingNavBar) floatingNavBar.style.display = 'flex';
     }
+
+    // Render left panel authentic exam paper for Mode 1 review
+    window.ReaderModule.renderExamPaper(AppState.textData, 'examPaper');
+
+    // Build review steps dynamically from pure JSON via QuizModule
+    AppState.steps = window.QuizModule.buildReviewSteps(AppState.textData);
 
     let jumpTargetSentence = null;
     let targetWord = null;
@@ -880,6 +955,23 @@
       return;
     }
 
+    const isYuqueActive = !isSpecial && !isVocab && (AppState.mode === 'practice' || (AppState.mode === 'review' && AppState.reviewSubmode === 'mode2'));
+
+    if (isYuqueActive) {
+      if (prevBtn) prevBtn.disabled = true;
+      if (nextBtn) nextBtn.disabled = true;
+      if (floatPrevBtn) floatPrevBtn.disabled = true;
+      if (floatNextBtn) floatNextBtn.disabled = true;
+      if (floatingNavBar) floatingNavBar.style.display = 'none';
+      if (toggleAllBtn) toggleAllBtn.style.display = 'none';
+      if (submodeContainer) submodeContainer.style.display = 'none';
+      const modeLabel = AppState.mode === 'practice' ? '语雀做题模式' : '大观复盘模式 2';
+      if (progressText) progressText.textContent = `${AppState.year} Text ${AppState.textId} (${modeLabel})`;
+      if (floatProgressText) floatProgressText.textContent = `${AppState.year} Text ${AppState.textId}`;
+      saveState();
+      return;
+    }
+
     if (submodeContainer) {
       submodeContainer.style.display = (AppState.mode === 'practice') ? 'inline-flex' : 'none';
     }
@@ -950,6 +1042,7 @@
       textId: AppState.textId,
       mode: AppState.mode,
       practiceSubmode: AppState.practiceSubmode,
+      reviewSubmode: AppState.reviewSubmode,
       stepIndex: AppState.stepIndex,
       theme: AppState.theme,
       isFullMode: AppState.isFullMode
@@ -2628,15 +2721,26 @@
     if (!qid || !AppState.textData) return;
     const targetQidStr = String(qid);
 
-    // If currently not in review mode, switch to review mode seamlessly
-    if (AppState.mode !== 'review') {
+    // If currently not in review mode or in review mode 2, switch to review mode 1 seamlessly
+    if (AppState.mode !== 'review' || AppState.reviewSubmode !== 'mode1') {
       AppState.mode = 'review';
+      AppState.reviewSubmode = 'mode1';
+      try { localStorage.setItem('kaoyan_review_submode', 'mode1'); } catch(e) {}
       const reviewBtn = document.getElementById('reviewModeBtn');
       const practiceBtn = document.getElementById('practiceModeBtn');
       const vocabBtn = document.getElementById('vocabModeBtn');
+      const r1Btn = document.getElementById('reviewMode1Btn');
+      const r2Btn = document.getElementById('reviewMode2Btn');
       if (reviewBtn) reviewBtn.classList.add('active');
       if (practiceBtn) practiceBtn.classList.remove('active');
       if (vocabBtn) vocabBtn.classList.remove('active');
+      if (r1Btn) r1Btn.classList.add('active');
+      if (r2Btn) r2Btn.classList.remove('active');
+      const yuqueContainer = document.getElementById('yuqueContainer');
+      const mainLayout = document.getElementById('mainLayout');
+      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (mainLayout) mainLayout.style.display = '';
+      window.ReaderModule.renderExamPaper(AppState.textData, 'examPaper');
       AppState.steps = window.QuizModule.buildReviewSteps(AppState.textData);
       updateJumpDropdown();
     }
@@ -3086,6 +3190,30 @@
         AppState.practiceSubmode = 'step';
         stepBtn.classList.add('active');
         mockBtn.classList.remove('active');
+        loadCurrentText();
+      });
+    }
+
+    // 5. Review Submode Toggle (Mode 1 vs Mode 2)
+    const reviewMode1Btn = document.getElementById('reviewMode1Btn');
+    const reviewMode2Btn = document.getElementById('reviewMode2Btn');
+
+    if (reviewMode1Btn && reviewMode2Btn) {
+      reviewMode1Btn.addEventListener('click', () => {
+        if (AppState.reviewSubmode === 'mode1') return;
+        AppState.reviewSubmode = 'mode1';
+        try { localStorage.setItem('kaoyan_review_submode', 'mode1'); } catch(e) {}
+        reviewMode1Btn.classList.add('active');
+        reviewMode2Btn.classList.remove('active');
+        loadCurrentText();
+      });
+
+      reviewMode2Btn.addEventListener('click', () => {
+        if (AppState.reviewSubmode === 'mode2') return;
+        AppState.reviewSubmode = 'mode2';
+        try { localStorage.setItem('kaoyan_review_submode', 'mode2'); } catch(e) {}
+        reviewMode2Btn.classList.add('active');
+        reviewMode1Btn.classList.remove('active');
         loadCurrentText();
       });
     }
