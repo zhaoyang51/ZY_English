@@ -972,6 +972,11 @@
       return;
     }
 
+    for (const id of ['resetBtn', 'toggleAllBtn', 'jumpSelect', 'btnExpCurrentAnki', 'btnExpNotesMd']) {
+      const control = document.getElementById(id);
+      if (control) control.disabled = unavailable;
+    }
+
     const isYuqueActive = !isSpecial && !isVocab && (AppState.mode === 'practice' || (AppState.mode === 'review' && AppState.reviewSubmode === 'mode2'));
 
     const jumpSelect = document.getElementById('jumpSelect');
@@ -1002,11 +1007,6 @@
 
     if (submodeContainer) {
       submodeContainer.style.display = (AppState.mode === 'practice') ? 'inline-flex' : 'none';
-    }
-
-    for (const id of ['resetBtn', 'toggleAllBtn', 'jumpSelect', 'btnExpCurrentAnki', 'btnExpNotesMd']) {
-      const control = document.getElementById(id);
-      if (control) control.disabled = unavailable;
     }
 
     if (floatingNavBar) {
@@ -1044,7 +1044,6 @@
     }
 
     // Dynamic Module Tracker
-    const jumpSelect = document.getElementById('jumpSelect');
     if (jumpSelect && jumpSelect.options.length > 1) {
       let matchedVal = '';
       for (let i = 1; i < jumpSelect.options.length; i++) {
