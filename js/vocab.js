@@ -230,38 +230,40 @@
           </div>
         </div>
 
-        <!-- Stats Ribbon (High Density) -->
+        <!-- Stats Ribbon (High Density with Inline Progress) -->
         <div class="vocab-stats-ribbon" id="vocabStatsRibbon">
-          <div class="vocab-stat-chip stat-chip-total" data-filter="all" title="查看当前范围全部词汇">
-            <span>📚 范围词汇</span>
-            <span class="vocab-stat-num" id="vocabStatTotal">0</span>
+          <div class="vocab-stats-chips-group">
+            <div class="vocab-stat-chip stat-chip-total" data-filter="all" title="查看当前范围全部词汇">
+              <span>📚 范围</span>
+              <span class="vocab-stat-num" id="vocabStatTotal">0</span>
+            </div>
+            <div class="vocab-stat-chip stat-chip-due" data-filter="due" title="点击仅复习今日到期词汇">
+              <span>🔥 待办</span>
+              <span class="vocab-stat-num" id="vocabStatDue">0</span>
+            </div>
+            <div class="vocab-stat-chip stat-chip-new" data-filter="new" title="点击查看尚未学习新词">
+              <span>🌱 未学</span>
+              <span class="vocab-stat-num" id="vocabStatNew">0</span>
+            </div>
+            <div class="vocab-stat-chip stat-chip-learning" data-filter="all" title="处于艾宾浩斯记忆周期中">
+              <span>📖 记忆</span>
+              <span class="vocab-stat-num" id="vocabStatLearning">0</span>
+            </div>
+            <div class="vocab-stat-chip stat-chip-mastered" data-filter="mastered" title="点击查看已永久掌握词汇">
+              <span>🏆 掌握</span>
+              <span class="vocab-stat-num" id="vocabStatMastered">0</span>
+            </div>
           </div>
-          <div class="vocab-stat-chip stat-chip-due" data-filter="due" title="点击仅复习今日到期词汇">
-            <span>🔥 今日待办</span>
-            <span class="vocab-stat-num" id="vocabStatDue">0</span>
-          </div>
-          <div class="vocab-stat-chip stat-chip-new" data-filter="new" title="点击查看尚未学习新词">
-            <span>🌱 尚未学习</span>
-            <span class="vocab-stat-num" id="vocabStatNew">0</span>
-          </div>
-          <div class="vocab-stat-chip stat-chip-learning" data-filter="all" title="处于艾宾浩斯记忆周期中">
-            <span>📖 记忆中</span>
-            <span class="vocab-stat-num" id="vocabStatLearning">0</span>
-          </div>
-          <div class="vocab-stat-chip stat-chip-mastered" data-filter="mastered" title="点击查看已永久掌握词汇">
-            <span>🏆 永久掌握</span>
-            <span class="vocab-stat-num" id="vocabStatMastered">0</span>
-          </div>
-        </div>
 
-        <!-- Session Progress Bar -->
-        <div class="vocab-progress-container" id="vocabProgressContainer">
-          <div class="vocab-progress-header">
-            <span>本次学习进度：<strong id="vocabSessionProgressText" style="color:var(--ink)">0 / 0</strong></span>
-            <span id="vocabSessionPercent">0%</span>
-          </div>
-          <div class="vocab-progress-track">
-            <div class="vocab-progress-bar" id="vocabProgressBar"></div>
+          <!-- Session Progress Bar (Inline) -->
+          <div class="vocab-progress-container" id="vocabProgressContainer">
+            <div class="vocab-progress-header">
+              <span>进度：<strong id="vocabSessionProgressText" style="color:var(--ink)">0 / 0</strong></span>
+              <span id="vocabSessionPercent">0%</span>
+            </div>
+            <div class="vocab-progress-track">
+              <div class="vocab-progress-bar" id="vocabProgressBar"></div>
+            </div>
           </div>
         </div>
 
@@ -322,33 +324,39 @@
               </div>
 
               <div class="vocab-card-back-content">
-                <div class="vocab-back-word-title">
-                  <span class="vocab-back-word" id="vocabWordBack">Word</span>
-                  <span class="vocab-pos-badge" id="vocabPosBadgeBack">n. 名词</span>
-                </div>
-
-                <div class="vocab-definition-text" id="vocabDefBack"></div>
-
-                <!-- Yuque Mind Chain / 构词推导 Box -->
-                <div class="vocab-mindchain-box" id="vocabMindChainBox" style="display:none">
-                  <div class="vocab-mindchain-header" id="vocabMindChainHeader">
-                    <span>🧠 思维链路与构词推导</span>
+                <!-- LEFT COLUMN: Word, Definition, Mind Chain / Mnemonic -->
+                <div class="vocab-back-col vocab-back-col-left">
+                  <div class="vocab-back-word-title">
+                    <span class="vocab-back-word" id="vocabWordBack">Word</span>
+                    <span class="vocab-pos-badge" id="vocabPosBadgeBack">n. 名词</span>
                   </div>
-                  <div class="vocab-mindchain-content" id="vocabMindChainContent"></div>
-                </div>
 
-                <!-- Authentic Exam Context Sentence Box -->
-                <div class="vocab-sentence-box" id="vocabSentenceBox">
-                  <div class="vocab-sentence-header" id="vocabSentenceHeader">
-                    <span>📖 真题语境原句与考场释义</span>
+                  <div class="vocab-definition-text" id="vocabDefBack"></div>
+
+                  <!-- Yuque Mind Chain / 构词推导 Box -->
+                  <div class="vocab-mindchain-box" id="vocabMindChainBox" style="display:none">
+                    <div class="vocab-mindchain-header" id="vocabMindChainHeader">
+                      <span>🧠 思维链路与构词推导</span>
+                    </div>
+                    <div class="vocab-mindchain-content" id="vocabMindChainContent"></div>
                   </div>
-                  <div class="vocab-sentence-en" id="vocabSentenceEn"></div>
-                  <div class="vocab-sentence-zh" id="vocabSentenceZh"></div>
-                  <div class="vocab-sentence-custom" id="vocabSentenceCustom" style="display:none"></div>
                 </div>
 
-                <!-- 5-Dimensional Authentic Exam Subsections Container -->
-                <div class="vocab-relations-container" id="vocabRelationsContainer" style="margin-top:8px"></div>
+                <!-- RIGHT COLUMN: Authentic Exam Sentences / Daxue Words / Relations -->
+                <div class="vocab-back-col vocab-back-col-right">
+                  <!-- Authentic Exam Context Sentence Box -->
+                  <div class="vocab-sentence-box" id="vocabSentenceBox">
+                    <div class="vocab-sentence-header" id="vocabSentenceHeader">
+                      <span>📖 真题语境原句与考场释义</span>
+                    </div>
+                    <div class="vocab-sentence-en" id="vocabSentenceEn"></div>
+                    <div class="vocab-sentence-zh" id="vocabSentenceZh"></div>
+                    <div class="vocab-sentence-custom" id="vocabSentenceCustom" style="display:none"></div>
+                  </div>
+
+                  <!-- 5-Dimensional Authentic Exam Subsections Container -->
+                  <div class="vocab-relations-container" id="vocabRelationsContainer"></div>
+                </div>
               </div>
 
               <div class="vocab-assessment-area">

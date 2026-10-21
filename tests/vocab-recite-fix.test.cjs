@@ -235,3 +235,20 @@ test('Vocab CSS: Natural flow panel layout without 3D flip truncation and smooth
   assert.ok(vocabCss.includes('overflow-y: visible'), 'Back face must have overflow-y: visible to avoid truncation');
   assert.ok(vocabCss.includes('body.mode-vocab .vocab-section') && vocabCss.includes('overflow-y: auto !important'), 'vocab-section must be scrollable with overflow-y: auto !important');
 });
+
+test('Vocab Layout: Responsive two-column zero-scroll card architecture', () => {
+  const vocabJs = fs.readFileSync(path.join(__dirname, '../js/vocab.js'), 'utf8');
+  const vocabCss = fs.readFileSync(path.join(__dirname, '../css/vocab.css'), 'utf8');
+
+  // Verify JS DOM structure has left and right columns
+  assert.ok(vocabJs.includes('vocab-back-col-left'), 'Card back must contain left column for word/def/mindchain');
+  assert.ok(vocabJs.includes('vocab-back-col-right'), 'Card back must contain right column for sentence/exam relations');
+  assert.ok(vocabJs.includes('id="vocabProgressContainer"'), 'Progress bar container must exist in DOM');
+
+  // Verify CSS grid and scroll constraints
+  assert.ok(vocabCss.includes('max-width: 1280px'), 'Section and card scene must support wide desktop layout');
+  assert.ok(vocabCss.includes('grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr)'), 'Card back must use 2-column grid on desktop');
+  assert.ok(vocabCss.includes('max-height: calc(100vh - 280px)'), 'Columns must have viewport-capped height to prevent page scrolling');
+  assert.ok(vocabCss.includes('.vocab-back-col-left') && vocabCss.includes('border-right: 1px dashed'), 'Left column must have subtle dashed border separator');
+});
+

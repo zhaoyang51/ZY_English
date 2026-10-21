@@ -7,9 +7,9 @@
 .vocab-section {
   display: none;
   width: 100%;
-  max-width: 980px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 16px 20px 52px 20px;
+  padding: 10px 18px 24px 18px;
   box-sizing: border-box;
 }
 
@@ -35,7 +35,7 @@ body.mode-vocab .vocab-section {
   overflow-x: hidden !important;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
-  padding: 14px 18px 80px 18px;
+  padding: 8px 18px 20px 18px;
 }
 
 body.mode-vocab .layout,
@@ -285,24 +285,31 @@ body.theme-dark .vocab-filter-drawer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: 12px;
   padding: 6px 14px;
   background: var(--panel-bg);
   border: 1px solid var(--border);
   border-radius: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   flex-wrap: wrap;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+.vocab-stats-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
 }
 
 .vocab-stat-chip {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  font-size: 0.9em;
+  gap: 6px;
+  font-size: 0.86em;
   font-weight: 600;
   color: var(--muted);
-  padding: 4px 10px;
+  padding: 3px 8px;
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.15s, transform 0.15s;
@@ -315,7 +322,7 @@ body.theme-dark .vocab-filter-drawer {
 
 .vocab-stat-num {
   font-weight: 800;
-  font-size: 1.18em;
+  font-size: 1.1em;
 }
 
 .stat-chip-total .vocab-stat-num { color: var(--ink); }
@@ -325,26 +332,37 @@ body.theme-dark .vocab-filter-drawer {
 .stat-chip-mastered .vocab-stat-num { color: #059669; }
 
 /* ==========================================================================
-   4. Session Progress Bar
+   4. Session Progress Bar (Inline in Ribbon)
    ========================================================================== */
 .vocab-progress-container {
-  margin-bottom: 14px;
+  min-width: 170px;
+  max-width: 250px;
+  flex: 0 1 230px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .vocab-progress-container {
+    width: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
 }
 
 .vocab-progress-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.78em;
+  font-size: 0.76em;
   font-weight: 700;
   color: var(--muted);
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   padding: 0 2px;
 }
 
 .vocab-progress-track {
   width: 100%;
-  height: 6px;
+  height: 5px;
   background: var(--line);
   border-radius: 999px;
   overflow: hidden;
@@ -364,16 +382,13 @@ body.theme-dark .vocab-progress-bar {
 }
 
 /* ==========================================================================
-   5. 3D Flip Card Container & Architecture
-   ========================================================================== */
-/* ==========================================================================
-   5. Adaptive Streamlined Study Board (Auto-Height, No 3D Truncation)
+   5. Adaptive Streamlined Study Board (Auto-Height, Zero-Scroll)
    ========================================================================== */
 .vocab-card-scene {
   perspective: none;
   width: 100%;
-  max-width: 900px;
-  margin: 0 auto 20px auto;
+  max-width: 1280px;
+  margin: 0 auto 10px auto;
   min-height: 0;
 }
 
@@ -394,26 +409,26 @@ body.theme-dark .vocab-progress-bar {
   inset: auto;
   width: 100%;
   min-height: 0;
-  border-radius: 20px;
+  border-radius: 16px;
   background: var(--panel-bg);
   border: 1px solid var(--border);
-  box-shadow: 0 10px 30px -6px rgba(0, 0, 0, 0.08), 0 4px 10px -2px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 6px 20px -4px rgba(0, 0, 0, 0.06), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
   display: flex;
   flex-direction: column;
-  padding: 26px 32px;
+  padding: 16px 22px;
   box-sizing: border-box;
   overflow: visible;
-  gap: 16px;
+  gap: 10px;
   transition: border-color 0.18s ease, box-shadow 0.18s ease;
 }
 
 body.theme-dark .vocab-face {
-  box-shadow: 0 12px 32px -4px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 10px 28px -4px rgba(0, 0, 0, 0.45);
   border-color: #334155;
 }
 
 body.theme-parchment .vocab-face {
-  box-shadow: 0 10px 25px -5px rgba(60, 45, 25, 0.08);
+  box-shadow: 0 8px 20px -5px rgba(60, 45, 25, 0.08);
 }
 
 /* Natural toggle: Front is active when unrevealed; Back is active when revealed */
@@ -679,40 +694,88 @@ body.theme-dark .vocab-pos-badge {
 
 /* Card Center Display (Back) */
 .vocab-card-back-content {
-  padding: 14px 4px 10px 4px;
+  padding: 6px 0 4px 0;
   flex: 1;
+}
+
+@media (min-width: 860px) {
+  .vocab-card-back-content {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+    gap: 20px;
+    align-items: stretch;
+  }
+
+  .vocab-back-col {
+    max-height: calc(100vh - 280px);
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 8px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  .vocab-back-col::-webkit-scrollbar {
+    width: 5px;
+  }
+  .vocab-back-col::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 999px;
+  }
+  .vocab-back-col::-webkit-scrollbar-thumb:hover {
+    background: var(--muted);
+  }
+
+  .vocab-back-col-left {
+    border-right: 1px dashed var(--line);
+    padding-right: 18px;
+  }
+}
+
+@media (max-width: 859px) {
+  .vocab-card-back-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .vocab-back-col-left {
+    border-right: none;
+    padding-right: 0;
+  }
 }
 
 .vocab-back-word-title {
   display: flex;
   align-items: baseline;
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 8px;
+  margin-bottom: 8px;
   border-bottom: 1px dashed var(--line);
-  padding-bottom: 8px;
+  padding-bottom: 6px;
 }
 
 .vocab-back-word {
-  font-size: 2.2em;
+  font-size: 1.9em;
   font-weight: 800;
   color: var(--ink);
+  line-height: 1.2;
 }
 
 .vocab-definition-text {
-  font-size: 1.38em;
+  font-size: 1.2em;
   font-weight: 700;
   color: var(--ink);
-  line-height: 1.65;
-  margin-bottom: 18px;
+  line-height: 1.6;
+  margin-bottom: 12px;
 }
 
 /* Authentic Exam Sentence Box (Highlight in Context) */
 .vocab-sentence-box {
   background: var(--bg);
-  border-left: 4px solid var(--accent);
-  border-radius: 0 14px 14px 0;
-  padding: 14px 18px;
-  margin-bottom: 16px;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 12px 12px 0;
+  padding: 10px 14px;
+  margin-bottom: 10px;
   text-align: left;
 }
 
@@ -725,12 +788,12 @@ body.theme-dark .vocab-sentence-box {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 0.86em;
+  font-size: 0.82em;
   font-weight: 800;
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 body.theme-dark .vocab-sentence-header {
@@ -739,10 +802,10 @@ body.theme-dark .vocab-sentence-header {
 
 .vocab-sentence-en {
   font-family: var(--font-serif);
-  font-size: 1.16em;
-  line-height: 1.75;
+  font-size: 1.05em;
+  line-height: 1.65;
   color: var(--ink);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .vocab-kw {
@@ -761,22 +824,23 @@ body.theme-dark .vocab-kw {
 }
 
 .vocab-sentence-zh {
-  font-size: 1.02em;
-  line-height: 1.65;
+  font-size: 0.94em;
+  line-height: 1.55;
   color: var(--muted);
 }
 
 /* Assessment Grade Buttons */
 .vocab-assessment-area {
-  padding-top: 10px;
+  padding-top: 8px;
   border-top: 1px solid var(--line);
+  flex-shrink: 0;
 }
 
 .vocab-grade-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .vocab-grade-btn {
@@ -784,8 +848,9 @@ body.theme-dark .vocab-kw {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 14px 10px;
-  border-radius: 14px;
+  padding: 8px 10px;
+  min-height: 46px;
+  border-radius: 10px;
   cursor: pointer;
   border: 1px solid transparent;
   transition: all 0.16s ease;
@@ -794,8 +859,8 @@ body.theme-dark .vocab-kw {
 }
 
 .vocab-grade-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
 }
 
 .grade-btn-forgot {
@@ -829,13 +894,13 @@ body.theme-dark .vocab-kw {
 }
 
 .grade-title {
-  font-size: 1.15em;
+  font-size: 1.02em;
   font-weight: 800;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .grade-subtitle {
-  font-size: 0.84em;
+  font-size: 0.78em;
   opacity: 0.85;
   font-weight: 600;
 }
@@ -849,8 +914,8 @@ body.theme-dark .vocab-kw {
 }
 
 .vocab-sub-btn {
-  padding: 8px 16px;
-  font-size: 0.88em;
+  padding: 6px 12px;
+  font-size: 0.82em;
   font-weight: 700;
   background: var(--bg);
   border: 1px solid var(--border);
@@ -873,10 +938,10 @@ body.theme-dark .vocab-kw {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
-  font-size: 0.86em;
+  gap: 8px;
+  font-size: 0.8em;
   color: var(--muted);
-  padding: 10px 14px;
+  padding: 6px 10px 0 10px;
 }
 
 .vocab-keycap {
@@ -969,9 +1034,9 @@ body.theme-dark .vocab-kw {
 .vocab-mindchain-box {
   background: rgba(16, 185, 129, 0.05);
   border: 1px solid rgba(16, 185, 129, 0.22);
-  border-radius: 12px;
-  padding: 14px 18px;
-  margin-bottom: 16px;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
   text-align: left;
 }
 
@@ -989,10 +1054,10 @@ body.theme-parchment .vocab-mindchain-box {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 0.88em;
+  font-size: 0.84em;
   font-weight: 800;
   color: #059669;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 body.theme-dark .vocab-mindchain-header {
@@ -1000,8 +1065,8 @@ body.theme-dark .vocab-mindchain-header {
 }
 
 .vocab-mindchain-content {
-  font-size: 0.98em;
-  line-height: 1.75;
+  font-size: 0.94em;
+  line-height: 1.65;
   color: var(--ink);
   white-space: pre-wrap;
 }
@@ -1011,8 +1076,8 @@ body.theme-dark .vocab-mindchain-header {
   background: var(--bg);
   border-left: 3px solid var(--accent);
   border-radius: 0 10px 10px 0;
-  padding: 10px 14px;
-  margin-bottom: 10px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
   text-align: left;
 }
 
@@ -1025,7 +1090,7 @@ body.theme-dark .vocab-exam-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   flex-wrap: wrap;
   gap: 6px;
 }
@@ -1033,7 +1098,7 @@ body.theme-dark .vocab-exam-item {
 .vocab-exam-item-def {
   font-weight: 700;
   color: var(--accent);
-  font-size: 0.96em;
+  font-size: 0.92em;
 }
 
 body.theme-dark .vocab-exam-item-def {
@@ -1041,37 +1106,37 @@ body.theme-dark .vocab-exam-item-def {
 }
 
 .vocab-exam-item-freq {
-  font-size: 0.76em;
+  font-size: 0.74em;
   font-weight: 800;
   background: rgba(225, 29, 72, 0.1);
   color: #e11d48;
-  padding: 2px 7px;
-  border-radius: 6px;
+  padding: 2px 6px;
+  border-radius: 5px;
 }
 
 .vocab-exam-item-sen {
   font-family: var(--font-serif);
-  font-size: 1.05em;
-  line-height: 1.7;
+  font-size: 0.98em;
+  line-height: 1.6;
   color: var(--ink);
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .vocab-exam-item-src {
-  font-size: 0.8em;
+  font-size: 0.78em;
   color: var(--muted);
 }
 
 /* Daxue Root Card Styling */
 .vocab-daxue-info-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 8px;
   background: var(--bg);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 12px 16px;
-  margin-bottom: 14px;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
   text-align: left;
 }
 
@@ -1082,13 +1147,13 @@ body.theme-dark .vocab-exam-item-def {
 }
 
 .vocab-daxue-info-label {
-  font-size: 0.76em;
+  font-size: 0.74em;
   font-weight: 700;
   color: var(--muted);
 }
 
 .vocab-daxue-info-val {
-  font-size: 0.94em;
+  font-size: 0.92em;
   font-weight: 600;
   color: var(--ink);
 }
@@ -1096,9 +1161,9 @@ body.theme-dark .vocab-exam-item-def {
 .vocab-daxue-mnemonic {
   background: rgba(245, 158, 11, 0.08);
   border: 1px solid rgba(245, 158, 11, 0.25);
-  border-radius: 12px;
-  padding: 14px 18px;
-  margin-bottom: 16px;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
   text-align: left;
 }
 
@@ -1111,10 +1176,10 @@ body.theme-dark .vocab-daxue-mnemonic {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 0.88em;
+  font-size: 0.84em;
   font-weight: 800;
   color: #d97706;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 body.theme-dark .vocab-daxue-mnemonic-title {
@@ -1122,8 +1187,8 @@ body.theme-dark .vocab-daxue-mnemonic-title {
 }
 
 .vocab-daxue-mnemonic-body {
-  font-size: 0.98em;
-  line-height: 1.75;
+  font-size: 0.94em;
+  line-height: 1.65;
   color: var(--ink);
   white-space: pre-wrap;
 }
@@ -1132,20 +1197,20 @@ body.theme-dark .vocab-daxue-mnemonic-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 0.92em;
+  font-size: 0.88em;
   font-weight: 800;
   color: var(--ink);
-  margin: 16px 0 10px 0;
+  margin: 12px 0 8px 0;
   border-bottom: 1px dashed var(--line);
-  padding-bottom: 6px;
+  padding-bottom: 4px;
 }
 
 .vocab-daxue-word-card {
   background: var(--bg);
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 12px 14px;
-  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
   text-align: left;
 }
 
