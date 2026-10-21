@@ -663,23 +663,6 @@
         const pFile = window.YuqueManifest && window.YuqueManifest.practice && window.YuqueManifest.practice[readingKey];
         if (pFile) {
           yuqueContainer.innerHTML = `<iframe id="yuquePracticeFrame" class="yuque-frame" src="${encodeURI('英二做题和复盘模式/' + pFile)}" title="${year} ${textName} 做题模式"></iframe>`;
-          const frame = document.getElementById('yuquePracticeFrame');
-          if (frame) {
-            frame.addEventListener('load', () => {
-              try {
-                const doc = frame.contentDocument || (frame.contentWindow && frame.contentWindow.document);
-                if (doc && !doc.getElementById('appInjectedZoomStyle')) {
-                  const style = doc.createElement('style');
-                  style.id = 'appInjectedZoomStyle';
-                  style.textContent = `
-                    .layout { grid-template-columns: minmax(520px, 1.25fr) minmax(420px, 1fr) !important; }
-                    .pageWrap { width: 100% !important; max-width: 1150px !important; }
-                  `;
-                  doc.head.appendChild(style);
-                }
-              } catch (e) {}
-            });
-          }
         } else {
           yuqueContainer.innerHTML = `
             <div class="yuque-empty-card">

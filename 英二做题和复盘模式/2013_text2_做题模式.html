@@ -3,7 +3,7 @@
 *{box-sizing:border-box}html,body{margin:0;background:#f2f4f7;color:var(--ink);font-family:"Times New Roman","Microsoft YaHei","微软雅黑",sans-serif;font-weight:400}
 .topbar{position:sticky;top:0;z-index:80;display:flex;justify-content:flex-end;align-items:center;gap:10px;padding:8px 14px;border-bottom:1px solid var(--line);background:rgba(255,255,255,.98);backdrop-filter:blur(8px);flex-wrap:wrap}
 .btn,select{border:1px solid #c9d0da;background:#fff;border-radius:8px;padding:8px 12px;cursor:pointer;font-size:14px;font-family:inherit;font-weight:400}.btn.primary{background:#111827;color:#fff;border-color:#111827}.btn:disabled,select:disabled{opacity:.45;cursor:not-allowed}.progress{font-variant-numeric:tabular-nums;color:#374151;font-size:13px;min-width:92px;text-align:right}
-.layout{display:grid;grid-template-columns:minmax(520px,1.25fr) minmax(420px,1fr);grid-template-areas:"left right";gap:14px;padding:14px;height:var(--paneH);min-height:0}.panel{min-height:0;height:100%;border:1px solid var(--line);border-radius:14px;background:#fff;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.04);position:relative}.leftPanel{grid-area:left}.rightPanel{grid-area:right}.scroll{height:100%;overflow:auto;scroll-behavior:smooth}.pdfScroll{padding:12px}.leftDocBlock+.leftDocBlock{margin-top:26px;padding-top:14px;border-top:1px solid var(--line)}.pageWrap{position:relative;margin:0 auto;width:100%;max-width:1150px;line-height:0}.pageWrap img{display:block;width:100%;height:auto;user-select:none}.hl{position:absolute;border:0;background:rgba(255,235,59,.42);border-radius:3px;pointer-events:none;mix-blend-mode:multiply}
+.layout{display:grid;grid-template-columns:minmax(520px,1.25fr) minmax(420px,1fr);grid-template-areas:"left right";gap:14px;padding:14px;height:var(--paneH);min-height:0}.panel{min-height:0;height:100%;border:1px solid var(--line);border-radius:14px;background:#fff;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.04);position:relative}.leftPanel{grid-area:left}.rightPanel{grid-area:right}.scroll{height:100%;overflow:auto;scroll-behavior:smooth}.pdfScroll{padding:12px}.leftDocBlock{width:max-content;min-width:100%}.leftDocBlock+.leftDocBlock{margin-top:26px;padding-top:14px;border-top:1px solid var(--line)}.pageWrap{position:relative;margin:0 auto;width:100%;max-width:1150px;line-height:0}.pageWrap img{display:block;width:100%;height:auto;user-select:none}.hl{position:absolute;border:0;background:rgba(255,235,59,.42);border-radius:3px;pointer-events:none;mix-blend-mode:multiply}
 .whitepaper{min-height:100%;padding:30px 40px;background:#fff;color:#000;font-family:inherit;font-weight:400}#combined{font-size:19px;line-height:1.72}#combined.analysisMode{font-size:17px;line-height:1.68}.onlyStep{width:100%;max-width:100%}.mask{font-weight:600;background:#e5e7eb;color:#334155;padding:0 4px;border-radius:3px}strong,b{font-weight:650}h1,h2,h3,h4{font-weight:650;margin:.8em 0 .48em}h1{font-size:1.38em}h2{font-size:1.25em}h3{font-size:1.15em}h4{font-size:1.07em}p{margin:.48em 0}blockquote{margin:.65em 0;padding:.48em .8em;border-left:3px solid #d1d5db;background:#f6f7f9;color:#111827}blockquote p{margin:.25em 0}ul,ol{margin:.42em 0 .75em 1.45em;padding:0}li{margin:.25em 0}hr{border:0;border-top:1px dashed #d1d5db;margin:1em 0}table{border-collapse:collapse;margin:.8em 0;width:100%;font-size:.93em}th,td{border:1px solid #cbd5e1;padding:.45em .58em;vertical-align:top;font-weight:400}th{background:#f8fafc}code{font-family:inherit;background:#eef1f5;border-radius:3px;padding:.05em .25em;color:#1f2937;overflow-wrap:anywhere}
 .coarseStack{width:100%}.coarsePara{margin:0 0 1.15em 0}.coarsePara p{margin:0}.coarseDone{color:#111}.currentFocus{scroll-margin-block:45%}.caret{display:inline-block;width:3px;height:1.15em;background:#111827;margin-left:5px;vertical-align:-.12em;animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
 .modeBtn.active{background:#0f766e;color:#fff;border-color:#0f766e}.fullContent{max-width:1120px;margin:0 auto;padding-bottom:80px}.fullContent h1{margin-top:1.3em}.fullContent h2{margin-top:1.15em}.fullContent h3{font-weight:700}.optionStep>.optionTitle,.optionStep>h3:first-of-type{font-size:1.24em;border-bottom:2px solid #e5e7eb;padding-bottom:.35em;margin-top:.05em}
@@ -34,14 +34,16 @@ function applyZoom(val){
   try{localStorage.setItem('reading_article_zoom',String(zoomLevel));}catch(e){}
   const zVal=document.getElementById('zoomVal');
   if(zVal)zVal.textContent=zoomLevel+'%';
+  const baseW=Math.max(500,(leftPane.clientWidth||800)-24);
+  const targetW=Math.round(baseW*(zoomLevel/100));
   const wraps=document.querySelectorAll('.pageWrap');
   wraps.forEach(w=>{
     if(zoomLevel===100){
       w.style.width='100%';
       w.style.maxWidth='1150px';
     }else{
-      w.style.width=zoomLevel+'%';
-      w.style.maxWidth=Math.round(1150*(zoomLevel/100))+'px';
+      w.style.setProperty('width',targetW+'px','important');
+      w.style.setProperty('max-width','none','important');
     }
   });
   if(typeof ready==='undefined'||ready){
@@ -56,6 +58,6 @@ document.getElementById('zoomIn').onclick=()=>applyZoom(zoomLevel+15);
 document.getElementById('zoomOut').onclick=()=>applyZoom(zoomLevel-15);
 document.getElementById('zoomReset').onclick=()=>applyZoom(100);
 setTimeout(()=>applyZoom(zoomLevel),60);
-const jump=document.getElementById('jump');const FIXED_JUMP_SECTIONS=DATA.jumpSections;if(!Array.isArray(FIXED_JUMP_SECTIONS))throw new Error('missing compiler-frozen jumpSections');FIXED_JUMP_SECTIONS.forEach(sec=>{const o=document.createElement('option');o.value=sec;o.textContent=sec;jump.appendChild(o)});jump.onchange=()=>{if(fullMode)return;const i=DATA.steps.findIndex(s=>s.section===jump.value);if(i>=0){idx=i;render()}};window.addEventListener('resize',()=>{if(ready&&!fullMode)render()});
-Promise.all([waitImage(articleImg,DATA.articleSize),waitImage(questionImg,DATA.questionSize)]).then(()=>{ready=true;setControls();render()}).catch(err=>{combined.innerHTML='<div style="color:#b91c1c">页面图载入失败：'+String(err.message||err)+'</div>';console.error(err)});render();
+const jump=document.getElementById('jump');const FIXED_JUMP_SECTIONS=DATA.jumpSections;if(!Array.isArray(FIXED_JUMP_SECTIONS))throw new Error('missing compiler-frozen jumpSections');FIXED_JUMP_SECTIONS.forEach(sec=>{const o=document.createElement('option');o.value=sec;o.textContent=sec;jump.appendChild(o)});jump.onchange=()=>{if(fullMode)return;const i=DATA.steps.findIndex(s=>s.section===jump.value);if(i>=0){idx=i;render()}};window.addEventListener('resize',()=>{if((typeof ready==='undefined'||ready)&&!fullMode){if(zoomLevel!==100)applyZoom(zoomLevel);render()}});
+Promise.all([waitImage(articleImg,DATA.articleSize),waitImage(questionImg,DATA.questionSize)]).then(()=>{ready=true;if(zoomLevel!==100)applyZoom(zoomLevel);setControls();render()}).catch(err=>{combined.innerHTML='<div style="color:#b91c1c">页面图载入失败：'+String(err.message||err)+'</div>';console.error(err)});render();
 </script></body></html>
