@@ -3330,6 +3330,27 @@
         }
       }
 
+      // Practice mode: forward keyboard shortcuts to iframe
+      if (AppState.mode === 'practice') {
+        const frame = document.getElementById('yuquePracticeFrame');
+        if (frame) {
+          try {
+            const doc = frame.contentDocument || (frame.contentWindow && frame.contentWindow.document);
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+              e.preventDefault();
+              const nextBtn = doc && doc.getElementById('next');
+              if (nextBtn && !nextBtn.disabled) nextBtn.click();
+              return;
+            } else if (e.key === 'ArrowLeft') {
+              e.preventDefault();
+              const prevBtn = doc && doc.getElementById('prev');
+              if (prevBtn && !prevBtn.disabled) prevBtn.click();
+              return;
+            }
+          } catch (err) {}
+        }
+      }
+
       if (e.key === 'ArrowRight' || e.key === ' ') {
         e.preventDefault();
         const floatNext = document.getElementById('floatNextBtn');

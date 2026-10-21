@@ -3,3 +3,4 @@ scratch/
 .gemini/
 __pycache__/
 *.pyc
+.vscode/

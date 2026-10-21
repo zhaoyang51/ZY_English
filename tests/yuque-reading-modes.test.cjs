@@ -63,5 +63,10 @@ test('Yuque Reading Manifest and HTML integration tests', () => {
   const appJs = read('js/app.js');
   assert.ok(!appJs.includes("progressText.textContent = `${AppState.year} Text ${AppState.textId} (${modeLabel})`"), 'Redundant mode label in progressText should be removed');
   assert.ok(appJs.includes("if (stepNavGroup) stepNavGroup.style.display = 'none';"), 'Disabled step controls should be hidden in yuque mode');
+
+  // 7. Verify keyboard shortcuts (ArrowLeft / ArrowRight) in practice files and app.js
+  assert.ok(samplePractice.includes("e.key==='ArrowRight'"), 'Practice file should handle ArrowRight shortcut');
+  assert.ok(samplePractice.includes("e.key==='ArrowLeft'"), 'Practice file should handle ArrowLeft shortcut');
+  assert.ok(appJs.includes("const frame = document.getElementById('yuquePracticeFrame');"), 'app.js should forward shortcuts to yuquePracticeFrame');
 });
 
