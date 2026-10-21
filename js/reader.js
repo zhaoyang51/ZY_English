@@ -353,20 +353,14 @@
       if (decBtn) {
         decBtn.onclick = (e) => {
           e.preventDefault();
-          if (this.settings.fontSize > 13) {
-            this.settings.fontSize = Math.max(13, Number((this.settings.fontSize - 1.5).toFixed(1)));
-            this.applySettings();
-          }
+          if (this.settings.fontSize > 12) { const step = Math.max(0.5, Number((this.settings.fontSize * 0.05).toFixed(1))); this.settings.fontSize = Math.max(12, Number((this.settings.fontSize - step).toFixed(1))); this.applySettings(); }
         };
       }
 
       if (incBtn) {
         incBtn.onclick = (e) => {
           e.preventDefault();
-          if (this.settings.fontSize < 28) {
-            this.settings.fontSize = Math.min(28, Number((this.settings.fontSize + 1.5).toFixed(1)));
-            this.applySettings();
-          }
+          if (this.settings.fontSize < 32) { const step = Math.max(0.5, Number((this.settings.fontSize * 0.05).toFixed(1))); this.settings.fontSize = Math.min(32, Number((this.settings.fontSize + step).toFixed(1))); this.applySettings(); }
         };
       }
 

@@ -51,13 +51,28 @@ test('Yuque Reading Manifest and HTML integration tests', () => {
   assert.ok(css.includes('.yuque-frame'), 'css should define .yuque-frame');
   assert.ok(css.includes('.yuque-empty-card'), 'css should define .yuque-empty-card');
 
-  // 5. Verify practice mode files have enlarged layout and zoom controls
+  // 5. Verify practice mode files have enlarged layout and zoom controls (5% step)
   const samplePractice = read('英二做题和复盘模式/2017_text1_做题模式.html');
   assert.ok(samplePractice.includes('grid-template-columns:minmax(520px,1.25fr) minmax(420px,1fr)'), 'Practice file layout should allocate wider space for left article');
   assert.ok(samplePractice.includes('max-width:1150px'), 'Practice pageWrap should allow larger max width');
   assert.ok(samplePractice.includes('id="zoomIn"'), 'Practice file should contain zoomIn button');
   assert.ok(samplePractice.includes('id="zoomOut"'), 'Practice file should contain zoomOut button');
   assert.ok(samplePractice.includes('applyZoom'), 'Practice file should contain applyZoom logic');
+  assert.ok(samplePractice.includes('applyZoom(zoomLevel+5)'), 'Practice file should adjust zoom by +5%');
+  assert.ok(samplePractice.includes('applyZoom(zoomLevel-5)'), 'Practice file should adjust zoom by -5%');
+
+  // 5b. Verify review mode 2 files have zoom controls (5% step)
+  const sampleReview = read('英二做题和复盘模式/2017_text1_复盘模式.html');
+  assert.ok(sampleReview.includes('id="zoomIn"'), 'Review file should contain zoomIn button');
+  assert.ok(sampleReview.includes('id="zoomOut"'), 'Review file should contain zoomOut button');
+  assert.ok(sampleReview.includes('id="zoomVal"'), 'Review file should contain zoomVal indicator');
+  assert.ok(sampleReview.includes('applyZoom'), 'Review file should contain applyZoom logic');
+  assert.ok(sampleReview.includes('applyZoom(zoomLevel+5)'), 'Review file should adjust zoom by +5%');
+  assert.ok(sampleReview.includes('applyZoom(zoomLevel-5)'), 'Review file should adjust zoom by -5%');
+
+  const sampleReview2025 = read('英二做题和复盘模式/2025_text2_复盘模式.html');
+  assert.ok(sampleReview2025.includes('id="zoomIn"'), '2025 Review file should contain zoomIn button');
+  assert.ok(sampleReview2025.includes('applyZoom(zoomLevel+5)'), '2025 Review file should adjust zoom by +5%');
 
   // 6. Verify app.js removes redundant labels and hides disabled step controls in yuque mode
   const appJs = read('js/app.js');
@@ -67,6 +82,12 @@ test('Yuque Reading Manifest and HTML integration tests', () => {
   // 7. Verify keyboard shortcuts (ArrowLeft / ArrowRight) in practice files and app.js
   assert.ok(samplePractice.includes("e.key==='ArrowRight'"), 'Practice file should handle ArrowRight shortcut');
   assert.ok(samplePractice.includes("e.key==='ArrowLeft'"), 'Practice file should handle ArrowLeft shortcut');
-  assert.ok(appJs.includes("const frame = document.getElementById('yuquePracticeFrame');"), 'app.js should forward shortcuts to yuquePracticeFrame');
+  assert.ok(appJs.includes("yuquePracticeFrame"), 'app.js should reference yuquePracticeFrame');
+  assert.ok(appJs.includes("yuqueReviewFrame"), 'app.js should reference yuqueReviewFrame');
+  assert.ok(appJs.includes("AppState.mode === 'practice' ? 'yuquePracticeFrame' : 'yuqueReviewFrame'"), 'app.js should forward shortcuts to active yuque iframe');
+
+  // 8. Verify reader.js 5% step zoom
+  const readerJs = read('js/reader.js');
+  assert.ok(readerJs.includes('this.settings.fontSize * 0.05'), 'Reader font adjustment should be 5% per step');
 });
 

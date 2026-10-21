@@ -50,7 +50,7 @@ function applyZoom(val){
     }
   }
 }
-document.getElementById('zoomIn').onclick=()=>applyZoom(zoomLevel+15);
-document.getElementById('zoomOut').onclick=()=>applyZoom(zoomLevel-15);
+document.getElementById('zoomIn').onclick=()=>applyZoom(zoomLevel+5);
+document.getElementById('zoomOut').onclick=()=>applyZoom(zoomLevel-5);
 document.getElementById('zoomReset').onclick=()=>applyZoom(100);
 setTimeout(()=>applyZoom(zoomLevel),60);const jump=document.getElementById('jump');[...new Set(DATA.steps.map(s=>s.section).filter(Boolean))].forEach(sec=>{const o=document.createElement('option');o.value=sec;o.textContent=sec;jump.appendChild(o)});jump.onchange=()=>{if(fullMode)return;const i=DATA.steps.findIndex(s=>s.section===jump.value);if(i>=0){idx=i;render()}};window.addEventListener('resize',()=>{if((typeof ready==='undefined'||ready)&&!fullMode){if(zoomLevel!==100)applyZoom(zoomLevel);render()}});if(zoomLevel!==100)applyZoom(zoomLevel);render();</script></body></html>

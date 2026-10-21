@@ -10,7 +10,7 @@
 button,select{font:13px/1.2 "Microsoft YaHei";border:1px solid #cfd6df;background:#fff;color:#1f2937;border-radius:8px;padding:7px 11px;cursor:pointer}button:hover,select:hover{background:#f8fafc}.primary{background:#111827;color:#fff;border-color:#111827}.primary:hover{background:#253044}.ghost.active{background:#fff7db;border-color:#e9b949;color:#754c00}.progress{font:12px/1.2 "Microsoft YaHei";color:#667085;min-width:76px;text-align:right}
 .layout{height:calc(100vh - 48px);padding:10px;display:grid;gap:10px;min-height:0;transition:grid-template-columns .18s ease}.layout.single{grid-template-columns:1fr}.layout.split{grid-template-columns:minmax(420px,45%) minmax(620px,55%)}
 .panel{height:100%;min-height:0;background:#fff;border:1px solid var(--line);border-radius:13px;overflow:hidden;box-shadow:0 2px 10px rgba(15,23,42,.045)}.leftPanel[hidden]{display:none}.rightPanel{min-width:0}.scroll{height:100%;overflow:auto;scroll-behavior:smooth}
-.leftStage{min-height:100%;background:#f5f7fa;padding:10px}.annotatedPage{position:relative;width:min(100%,780px);margin:0 auto;background:#fff;box-shadow:0 2px 12px rgba(15,23,42,.06);line-height:0}.annotatedPage img{display:block;width:100%;height:auto;user-select:none}.scrollPad{width:1px;pointer-events:none}
+.leftStage{min-height:100%;background:#f5f7fa;padding:10px;width:max-content;min-width:100%}.annotatedPage{position:relative;width:min(100%,780px);margin:0 auto;background:#fff;box-shadow:0 2px 12px rgba(15,23,42,.06);line-height:0}.annotatedPage img{display:block;width:100%;height:auto;user-select:none}.scrollPad{width:1px;pointer-events:none}
 .newtypeStage{background:#eef2f6;padding:12px}.newtypePaper{width:min(100%,900px);margin:0 auto;background:#fff;padding:28px 32px 70px;border:1px solid #dce2ea;border-radius:10px;box-shadow:0 3px 14px rgba(15,23,42,.055);font:22px/1.64 "Times New Roman","Microsoft YaHei","微软雅黑",sans-serif;color:#1f2937}.newtypePaper p{margin:.62em 0}.newtypePaper strong{font-weight:700}.newtypePaper h2{font:700 31px/1.35 "Times New Roman";text-align:center;margin:24px 0}.newtypePaper h3{font:700 24px/1.4 "Times New Roman"}.newtype-qblock{padding:14px 16px;margin:14px 0;border:1px solid transparent;border-radius:9px}.newtype-qblock.current{background:#fff8d8;border-color:#e7bd4e;box-shadow:0 0 0 3px rgba(255,226,120,.24)}
 .rightScroll{background:#fff;overflow-anchor:none;scroll-behavior:auto}.stage{min-height:100%;padding:34px 46px 72px;background:#fff;max-width:1480px;margin:0 auto}.stage.centered{display:flex;flex-direction:column;justify-content:center}.stageHeader{border-bottom:1px solid #e4e8ee;padding-bottom:15px;margin-bottom:22px}.stepTitle{font:700 27px/1.32 "Microsoft YaHei";margin:0;color:#111827}.lectureBody{font:16.5px/1.72 "Microsoft YaHei";color:#243044}.lectureBody p{margin:.62em 0}.lectureBody strong{font-weight:700;color:#101828}.lectureBody em{color:#475467}.lectureBody h1,.lectureBody h2,.lectureBody h3,.lectureBody h4{font-family:"Microsoft YaHei"}.lectureBody blockquote{margin:.85em 0;padding:.55em .85em;border-left:4px solid #cbd5e1;background:#f8fafc;color:#344054}.lectureBody code{font-family:"Times New Roman","Microsoft YaHei";background:#eef2f6;border-radius:4px;padding:0 4px;color:#344054}.lectureBody ul,.lectureBody ol{padding-left:1.45em}.lectureBody li{margin:.35em 0}.table-wrap{overflow:auto;margin:16px 0}.lectureBody table{width:100%;border-collapse:collapse;font-size:14px}.lectureBody th,.lectureBody td{border:1px solid #d8dee7;padding:9px 11px;text-align:left;vertical-align:top}.lectureBody th{background:#f4f6f9;font-weight:700}.media-card{margin:18px auto;border:1px solid #dde3eb;border-radius:11px;padding:10px;background:#f8fafc;max-width:920px}.media-card img{display:block;max-width:100%;max-height:58vh;margin:auto;object-fit:contain}.media-card figcaption{display:none}.mask{font-weight:700;background:#e7ebf0;color:#344054;padding:0 4px;border-radius:3px}.longScrollTail{height:52vh;min-height:420px;pointer-events:none}.allMode .longScrollTail{display:none}.revealPart{padding:0 0 18px;margin:0 0 20px;border-bottom:1px dashed #d8dee7}.revealPart:last-child{border-bottom:0;margin-bottom:0}.revealPart h3{font:700 19px/1.45 "Microsoft YaHei";margin:0 0 12px;color:#1f2937}.sourceSectionTitle{font:700 22px/1.45 "Microsoft YaHei";margin:28px 0 12px;padding-top:8px;border-top:1px solid #e4e8ee}
 .allMode .layout{grid-template-columns:1fr}.allMode .leftPanel{display:none}.allMode .stage{min-height:auto;border-bottom:1px solid #e4e8ee}.allMode .rightScroll{scroll-behavior:auto}
@@ -19,7 +19,7 @@ button,select{font:13px/1.2 "Microsoft YaHei";border:1px solid #cfd6df;backgroun
 .wholeArticleLogic{font-size:16px;line-height:1.76}.wholeArticleLogic .logicParagraph{margin:0 0 1.15em;padding:0 0 1.05em;border-bottom:1px dashed #d8dee7}.wholeArticleLogic .logicParagraph:last-child{border-bottom:0}.wholeArticleLogic p{margin:0}.logicEnglish{font-family:"Times New Roman","Microsoft YaHei","微软雅黑",sans-serif}.logicChinese{font-family:"Microsoft YaHei","微软雅黑","Times New Roman",sans-serif}.lectureBody table td strong{font-weight:800;color:#0f172a}.lectureBody table tr:has(td strong){background:#fffbea}
 </style></head>
 <body>
-<div class="topbar"><div class="spacer"></div><button id="toggleAll" class="ghost">显示全部</button><button id="prev">上一步</button><button id="next" class="primary">下一步</button><button id="reset">重置</button><select id="jump"><option value="">章节跳转</option></select><div id="progress" class="progress"></div></div>
+<div class="topbar"><div class="zoomControls" style="display:inline-flex;align-items:center;gap:6px;margin-right:auto"><span style="font-size:13px;color:var(--muted);font-weight:600">🔍 文章:</span><button id="zoomOut" class="btn" title="缩小文章 (A-)" style="padding:4px 9px;font-size:12px;line-height:1">A -</button><span id="zoomVal" style="font-size:12px;font-weight:700;color:var(--ink);min-width:38px;text-align:center">100%</span><button id="zoomIn" class="btn" title="放大文章 (A+)" style="padding:4px 9px;font-size:12px;line-height:1">A +</button><button id="zoomReset" class="btn" title="还原默认大小" style="padding:4px 8px;font-size:12px;line-height:1">↺</button></div><button id="toggleAll" class="ghost">显示全部</button><button id="prev">上一步</button><button id="next" class="primary">下一步</button><button id="reset">重置</button><select id="jump"><option value="">章节跳转</option></select><div id="progress" class="progress"></div></div>
 <div id="layout" class="layout single">
 <section id="leftPanel" class="panel leftPanel" hidden><div id="leftScroll" class="scroll"><div id="leftStage" class="leftStage"></div></div></section>
 <section class="panel rightPanel"><div id="rightScroll" class="scroll rightScroll"><div id="rightContent"></div></div></section>
@@ -36,8 +36,8 @@ function renderImage(asset,focus,size){
   leftStage.className='leftStage';
   const pad=Math.max(40,leftScroll.clientHeight/2);
   leftStage.innerHTML=`<div class="scrollPad" style="height:${pad}px"></div><div class="annotatedPage" id="annotatedPage"><img id="leftImg" alt=""><div id="focusAnchor" aria-hidden="true"></div></div><div class="scrollPad" style="height:${pad}px"></div>`;
-  const img=$('#leftImg'),page=$('#annotatedPage'),anchor=$('#focusAnchor'); img.src=DATA.assets[asset];
-  const place=()=>{
+  const img=$('#leftImg'),page=$('#annotatedPage'),anchor=$('#focusAnchor'); img.src=DATA.assets[asset];if(zoomLevel!==100)applyZoom(zoomLevel);
+  const place=()=>{currentPlace=place;
     if(!focus){leftScroll.scrollTop=0;return}
     const w=(size&&size[0])||(asset==='reviewQuestions'?1080:DATA.annotatedSize[0]);
     const scale=img.clientWidth/w, top=page.offsetTop+focus[1]*scale, height=Math.max(2,focus[3]*scale), view=leftScroll.clientHeight;
@@ -52,7 +52,7 @@ function renderImage(asset,focus,size){
 }
 function renderAnnotated(st){const c=st.context||{};const asset='annotated';const focus=Array.isArray(c.focus)?c.focus:null;renderImage(asset,focus,DATA.annotatedSize)}
 function newTypeMode(st){return st.newTypeMode||'small'}
-function renderNewType(st){const mode=newTypeMode(st),current=st.newTypeCurrent||'';leftStage.className='leftStage newtypeStage';leftStage.innerHTML=`<div class="newtypePaper">${mode==='sorting'?DATA.newType.sorting:DATA.newType.smallTitle}</div>`;if(mode==='small'&&current){const el=leftStage.querySelector(`[data-q="${CSS.escape(current)}"]`);if(el){el.classList.add('current');requestAnimationFrame(()=>{leftScroll.scrollTop=Math.max(0,el.offsetTop-leftScroll.clientHeight*.2)})}else leftScroll.scrollTop=0}else leftScroll.scrollTop=0}
+function renderNewType(st){const mode=newTypeMode(st),current=st.newTypeCurrent||'';leftStage.className='leftStage newtypeStage';leftStage.innerHTML=`<div class="newtypePaper">${mode==='sorting'?DATA.newType.sorting:DATA.newType.smallTitle}</div>`;if(zoomLevel!==100)applyZoom(zoomLevel);if(mode==='small'&&current){const el=leftStage.querySelector(`[data-q="${CSS.escape(current)}"]`);if(el){el.classList.add('current');requestAnimationFrame(()=>{leftScroll.scrollTop=Math.max(0,el.offsetTop-leftScroll.clientHeight*.2)})}else leftScroll.scrollTop=0}else leftScroll.scrollTop=0}
 function setLayout(st){const split=[1,2,3,4,5].includes(st.section)&&!allMode;layout.className='layout '+(split?'split':'single');leftPanel.hidden=!split;if(!split)return;if(st.section===4)renderNewType(st);else renderAnnotated(st)}
 function centerRight(st){
   const stage=rightContent.querySelector('.stage');if(!stage)return;stage.classList.remove('centered');
@@ -106,5 +106,50 @@ function renderAll(){document.body.classList.add('allMode');layout.className='la
 prev.onclick=()=>{if(!allMode&&idx>0){idx--;render()}};next.onclick=()=>{if(!allMode&&idx<DATA.steps.length-1){idx++;render()}};reset.onclick=()=>{if(!allMode){idx=0;render()}};
 toggle.onclick=()=>{if(!allMode){saved={idx,left:leftScroll.scrollTop,right:rightScroll.scrollTop};allMode=true;toggle.textContent='返回交互';toggle.classList.add('active');renderAll()}else{allMode=false;toggle.textContent='显示全部';toggle.classList.remove('active');prev.disabled=next.disabled=reset.disabled=jump.disabled=false;idx=saved.idx;render();requestAnimationFrame(()=>{leftScroll.scrollTop=saved.left;rightScroll.scrollTop=saved.right})}};
 DATA.jumpTargets.forEach(j=>{const o=document.createElement('option');o.value=j.index;o.textContent=j.label;jump.appendChild(o)});jump.onchange=()=>{if(jump.value!==''){idx=Number(jump.value);render()}};
-document.addEventListener('keydown',e=>{if(allMode)return;if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();next.click()}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();prev.click()}});render();
+document.addEventListener('keydown',e=>{if(allMode)return;if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();next.click()}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();prev.click()}});
+let zoomLevel=Number(localStorage.getItem('reading_review_zoom')||localStorage.getItem('reading_article_zoom')||100);
+if(isNaN(zoomLevel)||zoomLevel<70||zoomLevel>240)zoomLevel=100;
+let currentPlace=null;
+function applyZoom(val){
+  zoomLevel=Math.max(70,Math.min(240,val));
+  try{
+    localStorage.setItem('reading_review_zoom',String(zoomLevel));
+    localStorage.setItem('reading_article_zoom',String(zoomLevel));
+  }catch(e){}
+  const zVal=document.getElementById('zoomVal');
+  if(zVal)zVal.textContent=zoomLevel+'%';
+  const page=document.getElementById('focusPage')||document.getElementById('annotatedPage');
+  if(page){
+    const baseW=Math.max(500,(leftScroll.clientWidth||800)-24);
+    const targetW=Math.round(baseW*(zoomLevel/100));
+    if(zoomLevel===100){
+      page.style.width='';
+      page.style.maxWidth='';
+    }else{
+      page.style.setProperty('width',targetW+'px','important');
+      page.style.setProperty('max-width','none','important');
+    }
+  }
+  const paper=leftStage?leftStage.querySelector('.newtypePaper'):null;
+  if(paper){
+    if(zoomLevel===100){
+      paper.style.fontSize='';
+      paper.style.width='';
+      paper.style.maxWidth='';
+    }else{
+      paper.style.fontSize=(20*(zoomLevel/100)).toFixed(1)+'px';
+      const baseW=Math.max(500,(leftScroll.clientWidth||800)-24);
+      paper.style.setProperty('width',Math.round(baseW*(zoomLevel/100))+'px','important');
+      paper.style.setProperty('max-width','none','important');
+    }
+  }
+}
+const zIn=document.getElementById('zoomIn');
+if(zIn)zIn.onclick=()=>{applyZoom(zoomLevel+5);if(currentPlace)currentPlace();};
+const zOut=document.getElementById('zoomOut');
+if(zOut)zOut.onclick=()=>{applyZoom(zoomLevel-5);if(currentPlace)currentPlace();};
+const zReset=document.getElementById('zoomReset');
+if(zReset)zReset.onclick=()=>{applyZoom(100);if(currentPlace)currentPlace();};
+setTimeout(()=>applyZoom(zoomLevel),60);
+render();
 </script></body></html>

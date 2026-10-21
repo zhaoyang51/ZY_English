@@ -3331,8 +3331,7 @@
       }
 
       // Practice mode: forward keyboard shortcuts to iframe
-      if (AppState.mode === 'practice') {
-        const frame = document.getElementById('yuquePracticeFrame');
+      if (AppState.mode === 'practice' || (AppState.mode === 'review' && AppState.reviewSubmode === 'mode2')) { const frame = document.getElementById(AppState.mode === 'practice' ? 'yuquePracticeFrame' : 'yuqueReviewFrame');
         if (frame) {
           try {
             const doc = frame.contentDocument || (frame.contentWindow && frame.contentWindow.document);
