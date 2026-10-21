@@ -962,3 +962,258 @@ body.theme-dark .vocab-kw {
   line-height: 1.6;
   margin-bottom: 20px;
 }
+
+/* ==========================================================================
+   9. Yuque Vocab Expansion (速成版思维链路 & 大雪深埋版词根矩阵)
+   ========================================================================== */
+.vocab-mindchain-box {
+  background: rgba(16, 185, 129, 0.05);
+  border: 1px solid rgba(16, 185, 129, 0.22);
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+body.theme-dark .vocab-mindchain-box {
+  background: rgba(16, 185, 129, 0.1);
+  border-color: rgba(52, 211, 153, 0.3);
+}
+
+body.theme-parchment .vocab-mindchain-box {
+  background: rgba(180, 150, 100, 0.1);
+  border-color: rgba(180, 150, 100, 0.3);
+}
+
+.vocab-mindchain-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88em;
+  font-weight: 800;
+  color: #059669;
+  margin-bottom: 10px;
+}
+
+body.theme-dark .vocab-mindchain-header {
+  color: #34d399;
+}
+
+.vocab-mindchain-content {
+  font-size: 0.98em;
+  line-height: 1.75;
+  color: var(--ink);
+  white-space: pre-wrap;
+}
+
+/* Exam multi-usage list */
+.vocab-exam-item {
+  background: var(--bg);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 10px 10px 0;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+body.theme-dark .vocab-exam-item {
+  border-left-color: #2dd4bf;
+  background: rgba(30, 41, 59, 0.6);
+}
+
+.vocab-exam-item-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.vocab-exam-item-def {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 0.96em;
+}
+
+body.theme-dark .vocab-exam-item-def {
+  color: #2dd4bf;
+}
+
+.vocab-exam-item-freq {
+  font-size: 0.76em;
+  font-weight: 800;
+  background: rgba(225, 29, 72, 0.1);
+  color: #e11d48;
+  padding: 2px 7px;
+  border-radius: 6px;
+}
+
+.vocab-exam-item-sen {
+  font-family: var(--font-serif);
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+
+.vocab-exam-item-src {
+  font-size: 0.8em;
+  color: var(--muted);
+}
+
+/* Daxue Root Card Styling */
+.vocab-daxue-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+.vocab-daxue-info-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.vocab-daxue-info-label {
+  font-size: 0.76em;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.vocab-daxue-info-val {
+  font-size: 0.94em;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.vocab-daxue-mnemonic {
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+body.theme-dark .vocab-daxue-mnemonic {
+  background: rgba(245, 158, 11, 0.12);
+  border-color: rgba(251, 191, 36, 0.3);
+}
+
+.vocab-daxue-mnemonic-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88em;
+  font-weight: 800;
+  color: #d97706;
+  margin-bottom: 8px;
+}
+
+body.theme-dark .vocab-daxue-mnemonic-title {
+  color: #fbbf24;
+}
+
+.vocab-daxue-mnemonic-body {
+  font-size: 0.98em;
+  line-height: 1.75;
+  color: var(--ink);
+  white-space: pre-wrap;
+}
+
+.vocab-daxue-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.92em;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 16px 0 10px 0;
+  border-bottom: 1px dashed var(--line);
+  padding-bottom: 6px;
+}
+
+.vocab-daxue-word-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.vocab-daxue-word-card-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.vocab-daxue-word-name {
+  font-size: 1.25em;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+body.theme-dark .vocab-daxue-word-name {
+  color: #2dd4bf;
+}
+
+.vocab-daxue-word-formula {
+  font-size: 0.88em;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.vocab-daxue-word-derivation {
+  font-size: 0.92em;
+  line-height: 1.65;
+  color: var(--ink);
+}
+
+.vocab-daxue-add-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.vocab-daxue-add-pill {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.86em;
+}
+
+.vocab-daxue-add-pill strong {
+  color: var(--accent);
+}
+
+.vocab-svg-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-size: 0.82em;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.vocab-svg-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+

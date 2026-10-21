@@ -108,7 +108,7 @@
     },
 
     syncWithAppState() {
-      if (appState.filters.source === 'bookmarked') return;
+      if (appState.filters.source !== 'all') return;
       if (window.AppState) {
         const y = String(window.AppState.year);
         const t = `Text ${window.AppState.textId}`;
@@ -188,17 +188,19 @@
               <label class="vocab-filter-label">词库来源</label>
               <select id="vocabSourceSelect" class="vocab-select" style="font-weight:700;color:var(--accent)">
                 <option value="all">📚 全真题词库 (3,199词)</option>
+                <option value="yuque_sucheng">⚡ 单词大观·2-4天速成版 (2,868词)</option>
+                <option value="yuque_daxue">❄️ 单词大观·大雪深埋版 (876词根)</option>
                 <option value="bookmarked">⭐ 我的生词本 (已收藏词汇)</option>
               </select>
             </div>
             <div class="vocab-filter-item">
-              <label class="vocab-filter-label">定位年份</label>
+              <label class="vocab-filter-label" id="vocabFilterLabel1">定位年份</label>
               <select id="vocabYearSelect" class="vocab-select">
                 <option value="all">全量年份 (2010-2026)</option>
               </select>
             </div>
             <div class="vocab-filter-item">
-              <label class="vocab-filter-label">定位篇章</label>
+              <label class="vocab-filter-label" id="vocabFilterLabel2">定位篇章</label>
               <select id="vocabTextSelect" class="vocab-select">
                 <option value="all">全量篇章</option>
               </select>
@@ -327,13 +329,22 @@
 
                 <div class="vocab-definition-text" id="vocabDefBack"></div>
 
+                <!-- Yuque Mind Chain / 构词推导 Box -->
+                <div class="vocab-mindchain-box" id="vocabMindChainBox" style="display:none">
+                  <div class="vocab-mindchain-header" id="vocabMindChainHeader">
+                    <span>🧠 思维链路与构词推导</span>
+                  </div>
+                  <div class="vocab-mindchain-content" id="vocabMindChainContent"></div>
+                </div>
+
                 <!-- Authentic Exam Context Sentence Box -->
                 <div class="vocab-sentence-box" id="vocabSentenceBox">
-                  <div class="vocab-sentence-header">
+                  <div class="vocab-sentence-header" id="vocabSentenceHeader">
                     <span>📖 真题语境原句与考场释义</span>
                   </div>
                   <div class="vocab-sentence-en" id="vocabSentenceEn"></div>
                   <div class="vocab-sentence-zh" id="vocabSentenceZh"></div>
+                  <div class="vocab-sentence-custom" id="vocabSentenceCustom" style="display:none"></div>
                 </div>
 
                 <!-- 5-Dimensional Authentic Exam Subsections Container -->
@@ -399,6 +410,8 @@
         btnToggleDrawer: document.getElementById('vocabToggleDrawerBtn'),
 
         filterDrawer: document.getElementById('vocabFilterDrawer'),
+        filterLabel1: document.getElementById('vocabFilterLabel1'),
+        filterLabel2: document.getElementById('vocabFilterLabel2'),
         sourceSelect: document.getElementById('vocabSourceSelect'),
         yearSelect: document.getElementById('vocabYearSelect'),
         textSelect: document.getElementById('vocabTextSelect'),
@@ -441,9 +454,14 @@
         wordBack: document.getElementById('vocabWordBack'),
         posBadgeBack: document.getElementById('vocabPosBadgeBack'),
         defBack: document.getElementById('vocabDefBack'),
+        mindChainBox: document.getElementById('vocabMindChainBox'),
+        mindChainHeader: document.getElementById('vocabMindChainHeader'),
+        mindChainContent: document.getElementById('vocabMindChainContent'),
         sentenceBox: document.getElementById('vocabSentenceBox'),
+        sentenceHeader: document.getElementById('vocabSentenceHeader'),
         sentenceEn: document.getElementById('vocabSentenceEn'),
         sentenceZh: document.getElementById('vocabSentenceZh'),
+        sentenceCustom: document.getElementById('vocabSentenceCustom'),
         relationsContainer: document.getElementById('vocabRelationsContainer'),
 
         btnForgotFront: document.getElementById('vocabBtnForgotFront'),
@@ -474,26 +492,92 @@
     },
 
     populateDropdowns() {
-      const years = [...new Set(appState.rawVocabData.map(item => item.year))].sort();
-      els.yearSelect.innerHTML = '<option value="all">全量年份 (2010-2026)</option>' +
-        years.map(y => `<option value="${y}">${y} 年</option>`).join('');
+      const source = appState.filters.source;
+      if (source === 'all') {
+        if (els.filterLabel1) els.filterLabel1.textContent = '定位年份';
+        if (els.filterLabel2) els.filterLabel2.textContent = '定位篇章';
+        const years = [...new Set(appState.rawVocabData.map(item => item.year))].sort();
+        if (els.yearSelect) {
+          els.yearSelect.innerHTML = '<option value="all">全量年份 (2010-2026)</option>' +
+            years.map(y => `<option value="${y}">${y} 年</option>`).join('');
+        }
+      } else if (source === 'yuque_sucheng') {
+        if (els.filterLabel1) els.filterLabel1.textContent = '构词分类';
+        if (els.filterLabel2) els.filterLabel2.textContent = '分册定位';
+        const cats = ['词根构词型', '独立词型', '直接背型'];
+        if (els.yearSelect) {
+          els.yearSelect.innerHTML = '<option value="all">全部分类 (2,868词)</option>' +
+            cats.map(c => {
+              const count = c === '词根构词型' ? 2087 : (c === '独立词型' ? 192 : 594);
+              return `<option value="${c}">${c} (${count}词)</option>`;
+            }).join('');
+        }
+      } else if (source === 'yuque_daxue') {
+        if (els.filterLabel1) els.filterLabel1.textContent = '考频分层';
+        if (els.filterLabel2) els.filterLabel2.textContent = '细分单元';
+        const data = window.YUQUE_DAXUE_VOCAB || [];
+        const foundTiers = [...new Set(data.map(d => d.freqTier))];
+        if (els.yearSelect) {
+          els.yearSelect.innerHTML = '<option value="all">全量考频 (876词根)</option>' +
+            foundTiers.map(t => `<option value="${t}">${t}</option>`).join('');
+        }
+      } else if (source === 'bookmarked') {
+        if (els.filterLabel1) els.filterLabel1.textContent = '年份筛选';
+        if (els.filterLabel2) els.filterLabel2.textContent = '篇章筛选';
+        if (els.yearSelect) {
+          els.yearSelect.innerHTML = '<option value="all">全部收藏年份</option>';
+        }
+      }
       this.updateTextDropdown();
     },
 
     updateTextDropdown() {
-      const selectedYear = els.yearSelect.value;
+      const source = appState.filters.source;
+      const selectedYear = els.yearSelect ? els.yearSelect.value : 'all';
       let texts = [];
-      if (selectedYear === 'all') {
-        texts = [...new Set(appState.rawVocabData.map(item => item.text))].sort();
-      } else {
-        const filteredData = appState.rawVocabData.filter(item => item.year === selectedYear);
-        texts = [...new Set(filteredData.map(item => item.text))].sort();
+
+      if (source === 'all') {
+        if (selectedYear === 'all') {
+          texts = [...new Set(appState.rawVocabData.map(item => item.text))].sort();
+        } else {
+          const filteredData = appState.rawVocabData.filter(item => item.year === selectedYear);
+          texts = [...new Set(filteredData.map(item => item.text))].sort();
+        }
+        const prevText = els.textSelect ? els.textSelect.value : 'all';
+        if (els.textSelect) {
+          els.textSelect.innerHTML = '<option value="all">全量篇章</option>' +
+            texts.map(t => `<option value="${t}">${t}</option>`).join('');
+          if (texts.includes(prevText)) els.textSelect.value = prevText;
+          else els.textSelect.value = 'all';
+        }
+      } else if (source === 'yuque_sucheng') {
+        const data = window.YUQUE_SUCHENG_VOCAB || [];
+        const filtered = selectedYear === 'all' ? data : data.filter(d => d.category === selectedYear);
+        texts = [...new Set(filtered.map(d => d.subbook))];
+        const prevText = els.textSelect ? els.textSelect.value : 'all';
+        if (els.textSelect) {
+          els.textSelect.innerHTML = '<option value="all">全量分册</option>' +
+            texts.map(t => `<option value="${t}">${t}</option>`).join('');
+          if (texts.includes(prevText)) els.textSelect.value = prevText;
+          else els.textSelect.value = 'all';
+        }
+      } else if (source === 'yuque_daxue') {
+        const data = window.YUQUE_DAXUE_VOCAB || [];
+        const filtered = selectedYear === 'all' ? data : data.filter(d => d.freqTier === selectedYear);
+        texts = [...new Set(filtered.map(d => d.subbook))];
+        const prevText = els.textSelect ? els.textSelect.value : 'all';
+        if (els.textSelect) {
+          els.textSelect.innerHTML = '<option value="all">全量单元</option>' +
+            texts.map(t => `<option value="${t}">${t}</option>`).join('');
+          if (texts.includes(prevText)) els.textSelect.value = prevText;
+          else els.textSelect.value = 'all';
+        }
+      } else if (source === 'bookmarked') {
+        if (els.textSelect) {
+          els.textSelect.innerHTML = '<option value="all">全部收藏篇章</option>';
+          els.textSelect.value = 'all';
+        }
       }
-      const prevText = els.textSelect.value;
-      els.textSelect.innerHTML = '<option value="all">全量篇章</option>' +
-        texts.map(t => `<option value="${t}">${t}</option>`).join('');
-      if (texts.includes(prevText)) els.textSelect.value = prevText;
-      else els.textSelect.value = 'all';
     },
 
     bindEvents() {
@@ -520,16 +604,17 @@
       const handleSourceChange = () => {
         const val = els.sourceSelect.value;
         appState.filters.source = val;
-        if (val === 'bookmarked') {
-          // 生词本属于全局跨年份跨篇章收藏库，默认展示全部已收藏词汇
-          els.yearSelect.value = 'all';
-          appState.filters.year = 'all';
-          this.updateTextDropdown();
-          els.textSelect.value = 'all';
-          appState.filters.text = 'all';
-        }
+        this.populateDropdowns();
+        if (els.yearSelect) els.yearSelect.value = 'all';
+        appState.filters.year = 'all';
+        if (els.textSelect) els.textSelect.value = 'all';
+        appState.filters.text = 'all';
         this.applyFiltersAndRender();
-        this.showToast(val === 'bookmarked' ? '已切至：⭐ 我的生词本' : '已切至：📚 全真题词库');
+        let toastName = '📚 全真题词库';
+        if (val === 'yuque_sucheng') toastName = '⚡ 单词大观·2-4天速成版 (2,868词)';
+        else if (val === 'yuque_daxue') toastName = '❄️ 单词大观·大雪深埋版 (876词根)';
+        else if (val === 'bookmarked') toastName = '⭐ 我的生词本';
+        this.showToast(`已切至：${toastName}`);
       };
 
       if (els.sourceSelect) {
@@ -726,8 +811,24 @@
         }
       }
 
-      let sourceList = appState.rawVocabData;
-      if (source === 'bookmarked') {
+      let sourceList = [];
+      if (source === 'all') {
+        sourceList = appState.rawVocabData;
+      } else if (source === 'yuque_sucheng') {
+        sourceList = (window.YUQUE_SUCHENG_VOCAB || []).map(item => ({
+          ...item,
+          year: item.category,
+          text: item.subbook
+        }));
+      } else if (source === 'yuque_daxue') {
+        sourceList = (window.YUQUE_DAXUE_VOCAB || []).map(item => ({
+          ...item,
+          word: item.root,
+          year: item.freqTier,
+          text: item.subbook,
+          meaning: item.rootInfo ? item.rootInfo.split('\n').slice(0, 3).join(' ') : '词根构词与推导'
+        }));
+      } else if (source === 'bookmarked') {
         sourceList = bookmarks.map(b => {
           const w = String(b.word || '').trim();
           let def = b.def || '';
@@ -748,12 +849,23 @@
       let filtered = sourceList.filter(item => {
         const matchYear = year === 'all' || item.year === year || (source === 'bookmarked' && item.year === '收藏');
         const matchText = text === 'all' || item.text === text || (source === 'bookmarked' && item.text === '自选');
-        const searchLower = search.toLowerCase();
-        const matchSearch = search === '' ||
-          item.word.toLowerCase().includes(searchLower) ||
-          item.meaning.includes(searchLower) ||
-          (item.sentence && item.sentence.toLowerCase().includes(searchLower));
-        return matchYear && matchText && matchSearch;
+        if (!matchYear || !matchText) return false;
+
+        const searchLower = (search || '').toLowerCase().trim();
+        if (searchLower) {
+          const wLow = (item.word || '').toLowerCase();
+          const mLow = (item.meaning || '').toLowerCase();
+          if (wLow.includes(searchLower) || mLow.includes(searchLower)) return true;
+          if (item.mindChain && item.mindChain.toLowerCase().includes(searchLower)) return true;
+          if (item.sentence && item.sentence.toLowerCase().includes(searchLower)) return true;
+          if (item.mnemonic && item.mnemonic.toLowerCase().includes(searchLower)) return true;
+          if (item.allWords && item.allWords.some(w => (w || '').toLowerCase().includes(searchLower))) return true;
+          if (item.coreWords && item.coreWords.some(cw => (cw.word || '').toLowerCase().includes(searchLower) || (cw.derivation || '').toLowerCase().includes(searchLower))) return true;
+          if (item.additionalWords && item.additionalWords.some(aw => (aw.word || '').toLowerCase().includes(searchLower) || (aw.info || '').toLowerCase().includes(searchLower))) return true;
+          return false;
+        }
+
+        return true;
       });
 
       if (state !== 'all') {
@@ -849,6 +961,115 @@
       return { posText, cleanDef };
     },
 
+    renderRelations(word) {
+      if (!els.relationsContainer) return;
+      const getRel = (w) => {
+        if (!window.KAOYAN_VOCAB_RELATIONS || !w) return null;
+        const wLow = String(w).toLowerCase().trim();
+        return window.KAOYAN_VOCAB_RELATIONS[wLow] ||
+               window.KAOYAN_VOCAB_RELATIONS[String(w).trim()] ||
+               window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/s$/, '')] ||
+               window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/ed$/, '')] ||
+               window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/ing$/, '')] || null;
+      };
+      const relData = getRel(word);
+      let relHtml = '';
+      if (relData) {
+        if (relData.lookalikes && relData.lookalikes.length > 0) {
+          relHtml += `
+            <div class="vocab-rel-block">
+              <div class="vocab-rel-header lookalikes">
+                <span>🔍 真题形近词辨析</span>
+                <span style="font-size:0.82em;font-weight:normal;opacity:0.8">考研高频易混</span>
+              </div>
+              <div class="vocab-rel-pills">
+                ${relData.lookalikes.map(lk => `
+                  <div class="vocab-rel-pill" title="${lk.prov}: ${lk.def}">
+                    <span class="pill-word">${lk.word}</span>
+                    <span class="pill-def">${lk.def}</span>
+                    <span class="pill-prov">${lk.prov}</span>
+                    <span class="pill-speak vocab-inline-speak" data-word="${lk.word}" title="发音">🔊</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        }
+        if (relData.phrases && relData.phrases.length > 0) {
+          relHtml += `
+            <div class="vocab-rel-block">
+              <div class="vocab-rel-header phrases">
+                <span>🔗 真题搭配词组</span>
+                <span style="font-size:0.82em;font-weight:normal;opacity:0.8">高频固定搭配</span>
+              </div>
+              <div>
+                ${relData.phrases.map(ph => `
+                  <div class="vocab-rel-phrase-item">
+                    <span class="phrase-en">${ph.phrase}</span>
+                    <span class="phrase-def">${ph.def}</span>
+                    <span class="phrase-prov">${ph.prov}</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        }
+        if (relData.synonyms && relData.synonyms.length > 0) {
+          relHtml += `
+            <div class="vocab-rel-block">
+              <div class="vocab-rel-header synonyms">
+                <span>🔄 考点近义词</span>
+                <span style="font-size:0.82em;font-weight:normal;opacity:0.8">同义置换核心</span>
+              </div>
+              <div class="vocab-rel-pills">
+                ${relData.synonyms.map(syn => `
+                  <div class="vocab-rel-pill" title="${syn.prov}: ${syn.def}">
+                    <span class="pill-word">${syn.word}</span>
+                    <span class="pill-def">${syn.def}</span>
+                    <span class="pill-prov">${syn.prov}</span>
+                    <span class="pill-speak vocab-inline-speak" data-word="${syn.word}" title="发音">🔊</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        }
+        if (relData.antonyms && relData.antonyms.length > 0) {
+          relHtml += `
+            <div class="vocab-rel-block">
+              <div class="vocab-rel-header antonyms">
+                <span>⚖️ 对立反义词</span>
+                <span style="font-size:0.82em;font-weight:normal;opacity:0.8">正反论证对立</span>
+              </div>
+              <div class="vocab-rel-pills">
+                ${relData.antonyms.map(ant => `
+                  <div class="vocab-rel-pill" title="${ant.prov}: ${ant.def}">
+                    <span class="pill-word">${ant.word}</span>
+                    <span class="pill-def">${ant.def}</span>
+                    <span class="pill-prov">${ant.prov}</span>
+                    <span class="pill-speak vocab-inline-speak" data-word="${ant.word}" title="发音">🔊</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        }
+      }
+      els.relationsContainer.innerHTML = relHtml ? `<div class="vocab-relation-subsections">${relHtml}</div>` : '';
+      els.relationsContainer.querySelectorAll('.vocab-inline-speak').forEach(btn => {
+        btn.onclick = (e) => {
+          e.stopPropagation();
+          const spkW = btn.getAttribute('data-word');
+          if (spkW && 'speechSynthesis' in window) {
+            window.speechSynthesis.cancel();
+            const u = new SpeechSynthesisUtterance(spkW);
+            u.lang = 'en-US';
+            window.speechSynthesis.speak(u);
+          }
+        };
+      });
+    },
+
     renderCurrentCard() {
       const contextSequence = this.contextSequence = (this.contextSequence || 0) + 1;
       const total = appState.currentList.length;
@@ -907,167 +1128,230 @@
         }
       });
 
-      // Find Authentic Context Sentence
-      let contextSentence = currentWordObj.sentence ? {
-        text: currentWordObj.sentence,
-        translation: '',
-        provenance: provText
-      } : this.findExamSentence(word, currentWordObj.year, currentWordObj.text);
+      const isSucheng = appState.filters.source === 'yuque_sucheng';
+      const isDaxue = appState.filters.source === 'yuque_daxue';
 
       // Render Front
-      els.posBadgeFront.textContent = posText;
-      els.posBadgeBack.textContent = posText;
+      els.posBadgeFront.textContent = isSucheng ? `考频 ${currentWordObj.freq || 1}次` : (isDaxue ? `词根 ${currentWordObj.rank || 1}/876` : posText);
+      els.posBadgeBack.textContent = isSucheng ? `考频 ${currentWordObj.freq || 1}次` : (isDaxue ? `词根 ${currentWordObj.rank || 1}/876` : posText);
 
       // 标准专注模式：英文大字展示，回忆释义
       els.wordFront.textContent = word;
-      els.wordFront.style.fontSize = '2.8em';
+      els.wordFront.style.fontSize = isDaxue ? '2.4em' : '2.8em';
       if (els.clozeBoxFront) els.clozeBoxFront.style.display = 'none';
 
-      // Render Back
+      // Render Back Word
       els.wordBack.textContent = word;
-      els.defBack.innerHTML = `<span style="color:var(--accent);font-weight:800;margin-right:6px">[${posText}]</span> ${cleanDef}`;
 
-      // Render 5-Dimensional Authentic Exam Subsections on Back
-      if (els.relationsContainer) {
-        const getRel = (w) => {
-          if (!window.KAOYAN_VOCAB_RELATIONS || !w) return null;
-          const wLow = String(w).toLowerCase().trim();
-          return window.KAOYAN_VOCAB_RELATIONS[wLow] ||
-                 window.KAOYAN_VOCAB_RELATIONS[String(w).trim()] ||
-                 window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/s$/, '')] ||
-                 window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/ed$/, '')] ||
-                 window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/ing$/, '')] || null;
-        };
-        const relData = getRel(word);
-        let relHtml = '';
-        if (relData) {
-          if (relData.lookalikes && relData.lookalikes.length > 0) {
-            relHtml += `
-              <div class="vocab-rel-block">
-                <div class="vocab-rel-header lookalikes">
-                  <span>🔍 真题形近词辨析</span>
-                  <span style="font-size:0.82em;font-weight:normal;opacity:0.8">考研高频易混</span>
-                </div>
-                <div class="vocab-rel-pills">
-                  ${relData.lookalikes.map(lk => `
-                    <div class="vocab-rel-pill" title="${lk.prov}: ${lk.def}">
-                      <span class="pill-word">${lk.word}</span>
-                      <span class="pill-def">${lk.def}</span>
-                      <span class="pill-prov">${lk.prov}</span>
-                      <span class="pill-speak vocab-inline-speak" data-word="${lk.word}" title="发音">🔊</span>
-                    </div>
-                  `).join('')}
-                </div>
-              </div>
-            `;
-          }
-          if (relData.phrases && relData.phrases.length > 0) {
-            relHtml += `
-              <div class="vocab-rel-block">
-                <div class="vocab-rel-header phrases">
-                  <span>🔗 真题搭配词组</span>
-                  <span style="font-size:0.82em;font-weight:normal;opacity:0.8">高频固定搭配</span>
-                </div>
-                <div>
-                  ${relData.phrases.map(ph => `
-                    <div class="vocab-rel-phrase-item">
-                      <span class="phrase-en">${ph.phrase}</span>
-                      <span class="phrase-def">${ph.def}</span>
-                      <span class="phrase-prov">${ph.prov}</span>
-                    </div>
-                  `).join('')}
-                </div>
-              </div>
-            `;
-          }
-          if (relData.synonyms && relData.synonyms.length > 0) {
-            relHtml += `
-              <div class="vocab-rel-block">
-                <div class="vocab-rel-header synonyms">
-                  <span>🔄 考点近义词</span>
-                  <span style="font-size:0.82em;font-weight:normal;opacity:0.8">同义置换核心</span>
-                </div>
-                <div class="vocab-rel-pills">
-                  ${relData.synonyms.map(syn => `
-                    <div class="vocab-rel-pill" title="${syn.prov}: ${syn.def}">
-                      <span class="pill-word">${syn.word}</span>
-                      <span class="pill-def">${syn.def}</span>
-                      <span class="pill-prov">${syn.prov}</span>
-                      <span class="pill-speak vocab-inline-speak" data-word="${syn.word}" title="发音">🔊</span>
-                    </div>
-                  `).join('')}
-                </div>
-              </div>
-            `;
-          }
-          if (relData.antonyms && relData.antonyms.length > 0) {
-            relHtml += `
-              <div class="vocab-rel-block">
-                <div class="vocab-rel-header antonyms">
-                  <span>⚖️ 对立反义词</span>
-                  <span style="font-size:0.82em;font-weight:normal;opacity:0.8">正反论证对立</span>
-                </div>
-                <div class="vocab-rel-pills">
-                  ${relData.antonyms.map(ant => `
-                    <div class="vocab-rel-pill" title="${ant.prov}: ${ant.def}">
-                      <span class="pill-word">${ant.word}</span>
-                      <span class="pill-def">${ant.def}</span>
-                      <span class="pill-prov">${ant.prov}</span>
-                      <span class="pill-speak vocab-inline-speak" data-word="${ant.word}" title="发音">🔊</span>
-                    </div>
-                  `).join('')}
-                </div>
-              </div>
-            `;
-          }
-        }
-        els.relationsContainer.innerHTML = relHtml ? `<div class="vocab-relation-subsections">${relHtml}</div>` : '';
-        els.relationsContainer.querySelectorAll('.vocab-inline-speak').forEach(btn => {
-          btn.onclick = (e) => {
-            e.stopPropagation();
-            const spkW = btn.getAttribute('data-word');
-            if (spkW && 'speechSynthesis' in window) {
-              window.speechSynthesis.cancel();
-              const u = new SpeechSynthesisUtterance(spkW);
-              u.lang = 'en-US';
-              window.speechSynthesis.speak(u);
+      if (isSucheng) {
+        // --- 1. SUCHENG CARD RENDERING ---
+        els.defBack.innerHTML = `<span style="color:var(--accent);font-weight:800;margin-right:6px">[核心释义]</span> ${cleanDef}`;
+
+        // Mind Chain (思维链路)
+        if (els.mindChainBox) {
+          if (currentWordObj.mindChain) {
+            els.mindChainBox.style.display = 'block';
+            if (els.mindChainHeader) els.mindChainHeader.innerHTML = '<span>🧠 单词大观思维链路与构词推导</span>';
+            if (els.mindChainContent) {
+              const formatted = currentWordObj.mindChain
+                .replace(/^构词[：:]/m, '<strong style="color:#059669">【构词】</strong>')
+                .replace(/^推导[：:]/m, '<strong style="color:#059669">【推导】</strong>');
+              els.mindChainContent.innerHTML = formatted;
             }
-          };
-        });
-      }
-
-      // Update only context after an async load: do not flip the card or restart audio.
-      const updateContext = sentence => {
-        if (contextSequence !== this.contextSequence) return;
-        const cleanW = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        els.sentenceBox.style.display = sentence?.text ? 'block' : 'none';
-        if (sentence?.text) {
-          els.sentenceEn.innerHTML = sentence.text.replace(new RegExp(`(${cleanW})`, 'gi'), '<mark class="vocab-kw">$1</mark>');
-          els.sentenceZh.textContent = sentence.translation || '（点击精读模式查看长难句精准分层剖析）';
+          } else {
+            els.mindChainBox.style.display = 'none';
+          }
         }
-      };
-      updateContext(contextSentence);
-      const contextYear = Number(currentWordObj.year);
-      if (!contextSentence && window.DataLoader && !window.DataLoader.peek(contextYear) &&
-          (window.KAOYAN_MANIFEST || []).some(item => item.year === contextYear)) {
-        const loadContext = () => {
-          if (contextSequence !== this.contextSequence) return;
+
+        // Exam uses list
+        if (els.sentenceBox) {
+          if (currentWordObj.examUses && currentWordObj.examUses.length > 0) {
+            els.sentenceBox.style.display = 'block';
+            if (els.sentenceHeader) {
+              els.sentenceHeader.innerHTML = `<span>📖 历年考研真题考场例句与考点释义 (${currentWordObj.examUses.length}处)</span>`;
+            }
+            if (els.sentenceEn) els.sentenceEn.style.display = 'none';
+            if (els.sentenceZh) els.sentenceZh.style.display = 'none';
+            if (els.sentenceCustom) {
+              els.sentenceCustom.style.display = 'block';
+              const cleanW = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+              els.sentenceCustom.innerHTML = currentWordObj.examUses.map(u => {
+                const highlighted = (u.sentence || '').replace(new RegExp(`(${cleanW})`, 'gi'), '<mark class="vocab-kw">$1</mark>');
+                return `
+                  <div class="vocab-exam-item">
+                    <div class="vocab-exam-item-head">
+                      <span class="vocab-exam-item-def">${u.posAndDef}</span>
+                      <span class="vocab-exam-item-freq">考频 ${u.freq}次</span>
+                    </div>
+                    <div class="vocab-exam-item-sen">${highlighted}</div>
+                    <div class="vocab-exam-item-src">出处：${u.source}</div>
+                  </div>
+                `;
+              }).join('');
+            }
+          } else {
+            els.sentenceBox.style.display = 'none';
+          }
+        }
+
+        // Render Relations if available
+        this.renderRelations(word);
+
+      } else if (isDaxue) {
+        // --- 2. DAXUE ROOT CARD RENDERING ---
+        // Back Face Def: Root Info grid
+        if (els.defBack) {
+          const lines = (currentWordObj.rootInfo || '').split('\n').filter(Boolean);
+          els.defBack.innerHTML = `
+            <div class="vocab-daxue-info-grid">
+              ${lines.map(line => {
+                const parts = line.split(/[：:]/);
+                const k = parts[0] ? parts[0].trim() : '';
+                const v = parts.slice(1).join('：').trim();
+                return `
+                  <div class="vocab-daxue-info-row">
+                    <span class="vocab-daxue-info-label">${k}</span>
+                    <span class="vocab-daxue-info-val">${v}</span>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          `;
+        }
+
+        // Mnemonic in mindChainBox
+        if (els.mindChainBox) {
+          if (currentWordObj.mnemonic) {
+            els.mindChainBox.style.display = 'block';
+            if (els.mindChainHeader) els.mindChainHeader.innerHTML = '<span>🔥 词根记忆焚诀</span>';
+            if (els.mindChainContent) els.mindChainContent.textContent = currentWordObj.mnemonic;
+          } else {
+            els.mindChainBox.style.display = 'none';
+          }
+        }
+
+        // Core Words + Additional Words + SVG link in sentenceBox
+        if (els.sentenceBox) {
           els.sentenceBox.style.display = 'block';
-          els.sentenceEn.textContent = '正在加载原文例句…';
-          els.sentenceZh.textContent = '';
-          window.DataLoader.loadYear(contextYear).then(() => {
-            updateContext(this.findExamSentence(word, contextYear, currentWordObj.text));
-          }).catch(() => {
-            if (contextSequence !== this.contextSequence) return;
-            els.sentenceEn.textContent = '原文例句加载失败，词义仍可正常查看。';
-            const retry = document.createElement('button');
-            retry.className = 'btn';
-            retry.textContent = '重试例句';
-            retry.onclick = e => { e.stopPropagation(); loadContext(); };
-            els.sentenceZh.replaceChildren(retry);
-          });
+          if (els.sentenceHeader) {
+            els.sentenceHeader.innerHTML = `<span>🌟 考研核心主词 (${currentWordObj.coreWords?.length || 0}个 · 构词与推导)</span>`;
+          }
+          if (els.sentenceEn) els.sentenceEn.style.display = 'none';
+          if (els.sentenceZh) els.sentenceZh.style.display = 'none';
+          if (els.sentenceCustom) {
+            els.sentenceCustom.style.display = 'block';
+            let customHtml = '';
+            (currentWordObj.coreWords || []).forEach(cw => {
+              customHtml += `
+                <div class="vocab-daxue-word-card">
+                  <div class="vocab-daxue-word-card-head">
+                    <span class="vocab-daxue-word-name">${cw.word}</span>
+                    <button class="vocab-inline-speak" data-word="${cw.word}" title="播放单词发音">🔊</button>
+                    <span class="vocab-daxue-word-formula">${cw.construction}</span>
+                  </div>
+                  <div class="vocab-daxue-word-derivation">${cw.derivation}</div>
+                </div>
+              `;
+            });
+
+            if (currentWordObj.additionalWords && currentWordObj.additionalWords.length > 0) {
+              customHtml += `
+                <div class="vocab-daxue-section-title" style="margin-top:14px">
+                  <span>🌿 附加派生词 (${currentWordObj.additionalWords.length}个)</span>
+                </div>
+                <div class="vocab-daxue-add-grid">
+                  ${currentWordObj.additionalWords.map(aw => `
+                    <div class="vocab-daxue-add-pill">
+                      <strong>${aw.word}</strong>
+                      <button class="vocab-inline-speak" data-word="${aw.word}" title="发音">🔊</button>
+                      <span>${aw.info}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              `;
+            }
+
+            if (currentWordObj.svgUrl) {
+              customHtml += `
+                <div style="margin-top:14px;display:flex;justify-content:flex-end">
+                  <a href="${currentWordObj.svgUrl}" target="_blank" rel="noopener noreferrer" class="vocab-svg-link">🖼️ 查看官方大雪深埋版原始高清矢量图解 ↗</a>
+                </div>
+              `;
+            }
+
+            els.sentenceCustom.innerHTML = customHtml;
+            // Bind speech for inline speak buttons
+            els.sentenceCustom.querySelectorAll('.vocab-inline-speak').forEach(btn => {
+              btn.onclick = (e) => {
+                e.stopPropagation();
+                const spkW = btn.getAttribute('data-word');
+                if (spkW && 'speechSynthesis' in window) {
+                  window.speechSynthesis.cancel();
+                  const u = new SpeechSynthesisUtterance(spkW);
+                  u.lang = 'en-US';
+                  window.speechSynthesis.speak(u);
+                }
+              };
+            });
+          }
+        }
+
+        if (els.relationsContainer) {
+          els.relationsContainer.innerHTML = '';
+        }
+
+      } else {
+        // --- 3. STANDARD (ALL / BOOKMARKED) CARD RENDERING ---
+        if (els.mindChainBox) els.mindChainBox.style.display = 'none';
+        els.defBack.innerHTML = `<span style="color:var(--accent);font-weight:800;margin-right:6px">[${posText}]</span> ${cleanDef}`;
+        if (els.sentenceHeader) els.sentenceHeader.innerHTML = '<span>📖 真题语境原句与考场释义</span>';
+        if (els.sentenceEn) els.sentenceEn.style.display = 'block';
+        if (els.sentenceZh) els.sentenceZh.style.display = 'block';
+        if (els.sentenceCustom) els.sentenceCustom.style.display = 'none';
+
+        // Find Authentic Context Sentence
+        let contextSentence = currentWordObj.sentence ? {
+          text: currentWordObj.sentence,
+          translation: '',
+          provenance: provText
+        } : this.findExamSentence(word, currentWordObj.year, currentWordObj.text);
+
+        // Render 5-Dimensional Authentic Exam Subsections on Back
+        this.renderRelations(word);
+
+        // Update only context after an async load: do not flip the card or restart audio.
+        const updateContext = sentence => {
+          if (contextSequence !== this.contextSequence) return;
+          const cleanW = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          els.sentenceBox.style.display = sentence?.text ? 'block' : 'none';
+          if (sentence?.text) {
+            els.sentenceEn.innerHTML = sentence.text.replace(new RegExp(`(${cleanW})`, 'gi'), '<mark class="vocab-kw">$1</mark>');
+            els.sentenceZh.textContent = sentence.translation || '（点击精读模式查看长难句精准分层剖析）';
+          }
         };
-        loadContext();
+        updateContext(contextSentence);
+        const contextYear = Number(currentWordObj.year);
+        if (!contextSentence && window.DataLoader && !window.DataLoader.peek(contextYear) &&
+            (window.KAOYAN_MANIFEST || []).some(item => item.year === contextYear)) {
+          const loadContext = () => {
+            if (contextSequence !== this.contextSequence) return;
+            els.sentenceBox.style.display = 'block';
+            els.sentenceEn.textContent = '正在加载原文例句…';
+            els.sentenceZh.textContent = '';
+            window.DataLoader.loadYear(contextYear).then(() => {
+              updateContext(this.findExamSentence(word, contextYear, currentWordObj.text));
+            }).catch(() => {
+              if (contextSequence !== this.contextSequence) return;
+              els.sentenceEn.textContent = '原文例句加载失败，词义仍可正常查看。';
+              const retry = document.createElement('button');
+              retry.className = 'btn';
+              retry.textContent = '重试例句';
+              retry.onclick = e => { e.stopPropagation(); loadContext(); };
+              els.sentenceZh.replaceChildren(retry);
+            });
+          };
+          loadContext();
+        }
       }
 
       // Auto Audio Trigger
@@ -1224,8 +1508,13 @@
 
     playAudio() {
       if (appState.currentIndex >= appState.currentList.length) return;
-      const word = appState.currentList[appState.currentIndex].word;
-      if (!('speechSynthesis' in window)) return;
+      const cur = appState.currentList[appState.currentIndex];
+      let word = cur.word;
+      if (appState.filters.source === 'yuque_daxue') {
+        const cleanRoot = (word || '').replace(/[-/].*$/, '').trim();
+        word = cleanRoot || (cur.coreWords && cur.coreWords[0] ? cur.coreWords[0].word : word);
+      }
+      if (!word || !('speechSynthesis' in window)) return;
 
       window.speechSynthesis.cancel();
       const utter = new SpeechSynthesisUtterance(word);
