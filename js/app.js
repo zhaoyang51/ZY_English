@@ -663,6 +663,7 @@
         const pFile = window.YuqueManifest && window.YuqueManifest.practice && window.YuqueManifest.practice[readingKey];
         if (pFile) {
           yuqueContainer.innerHTML = `<iframe id="yuquePracticeFrame" class="yuque-frame" src="${encodeURI('英二做题和复盘模式/' + pFile)}" title="${year} ${textName} 做题模式"></iframe>`;
+          attachYuqueFrameShortcuts(document.getElementById('yuquePracticeFrame'));
         } else {
           yuqueContainer.innerHTML = `
             <div class="yuque-empty-card">
@@ -701,6 +702,7 @@
           const rFile = window.YuqueManifest && window.YuqueManifest.review && window.YuqueManifest.review[readingKey];
           if (rFile) {
             yuqueContainer.innerHTML = `<iframe id="yuqueReviewFrame" class="yuque-frame" src="${encodeURI('英二做题和复盘模式/' + rFile)}" title="${year} ${textName} 复盘模式2"></iframe>`;
+            attachYuqueFrameShortcuts(document.getElementById('yuqueReviewFrame'));
           } else {
             yuqueContainer.innerHTML = `
               <div class="yuque-empty-card">
@@ -3309,6 +3311,35 @@
     }
   }
 
+  function attachYuqueFrameShortcuts(frame) {
+    if (!frame) return;
+    const bind = () => {
+      try {
+        const win = frame.contentWindow;
+        const doc = frame.contentDocument || (win && win.document);
+        if (!win || !doc) return;
+        if (win.__yuqueShortcuts) win.removeEventListener('keydown', win.__yuqueShortcuts);
+        win.__yuqueShortcuts = e => {
+          const tag = (e.target && e.target.tagName) || '';
+          if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA' || (e.target && e.target.isContentEditable)) return;
+          if (e.altKey || e.ctrlKey || e.metaKey) return;
+          if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') {
+            e.preventDefault();
+            const nextBtn = doc.getElementById('next');
+            if (nextBtn && !nextBtn.disabled) nextBtn.click();
+          } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+            e.preventDefault();
+            const prevBtn = doc.getElementById('prev');
+            if (prevBtn && !prevBtn.disabled) prevBtn.click();
+          }
+        };
+        win.addEventListener('keydown', win.__yuqueShortcuts);
+      } catch (err) {}
+    };
+    frame.addEventListener('load', bind);
+    bind();
+  }
+
   function setupKeyboardShortcuts() {
     window.addEventListener('keydown', e => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') return;
@@ -3331,16 +3362,17 @@
       }
 
       // Practice mode: forward keyboard shortcuts to iframe
-      if (AppState.mode === 'practice' || (AppState.mode === 'review' && AppState.reviewSubmode === 'mode2')) { const frame = document.getElementById(AppState.mode === 'practice' ? 'yuquePracticeFrame' : 'yuqueReviewFrame');
+      if (AppState.mode === 'practice' || (AppState.mode === 'review' && AppState.reviewSubmode === 'mode2')) {
+        const frame = document.getElementById(AppState.mode === 'practice' ? 'yuquePracticeFrame' : 'yuqueReviewFrame');
         if (frame) {
           try {
             const doc = frame.contentDocument || (frame.contentWindow && frame.contentWindow.document);
-            if (e.key === 'ArrowRight' || e.key === ' ') {
+            if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') {
               e.preventDefault();
               const nextBtn = doc && doc.getElementById('next');
               if (nextBtn && !nextBtn.disabled) nextBtn.click();
               return;
-            } else if (e.key === 'ArrowLeft') {
+            } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
               e.preventDefault();
               const prevBtn = doc && doc.getElementById('prev');
               if (prevBtn && !prevBtn.disabled) prevBtn.click();

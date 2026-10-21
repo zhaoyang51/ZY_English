@@ -19,7 +19,7 @@ button,select{font:13px/1.2 "Microsoft YaHei";border:1px solid #cfd6df;backgroun
 .wholeArticleLogic{font-size:16px;line-height:1.76}.wholeArticleLogic .logicParagraph{margin:0 0 1.15em;padding:0 0 1.05em;border-bottom:1px dashed #d8dee7}.wholeArticleLogic .logicParagraph:last-child{border-bottom:0}.wholeArticleLogic p{margin:0}.logicEnglish{font-family:"Times New Roman","Microsoft YaHei","微软雅黑",sans-serif}.logicChinese{font-family:"Microsoft YaHei","微软雅黑","Times New Roman",sans-serif}.lectureBody table td strong{font-weight:800;color:#0f172a}.lectureBody table tr:has(td strong){background:#fffbea}
 </style></head>
 <body>
-<div class="topbar"><div class="zoomControls" style="display:inline-flex;align-items:center;gap:6px;margin-right:auto"><span style="font-size:13px;color:var(--muted);font-weight:600">🔍 文章:</span><button id="zoomOut" class="btn" title="缩小文章 (A-)" style="padding:4px 9px;font-size:12px;line-height:1">A -</button><span id="zoomVal" style="font-size:12px;font-weight:700;color:var(--ink);min-width:38px;text-align:center">100%</span><button id="zoomIn" class="btn" title="放大文章 (A+)" style="padding:4px 9px;font-size:12px;line-height:1">A +</button><button id="zoomReset" class="btn" title="还原默认大小" style="padding:4px 8px;font-size:12px;line-height:1">↺</button></div><button id="toggleAll" class="ghost">显示全部</button><button id="prev">上一步</button><button id="next" class="primary">下一步</button><button id="reset">重置</button><select id="jump"><option value="">章节跳转</option></select><div id="progress" class="progress"></div></div>
+<div class="topbar"><div class="zoomControls" style="display:inline-flex;align-items:center;gap:6px;margin-right:auto"><span style="font-size:13px;color:var(--muted);font-weight:600">🔍 文章:</span><button id="zoomOut" class="btn" title="缩小文章 (A-)" style="padding:4px 9px;font-size:12px;line-height:1">A -</button><span id="zoomVal" style="font-size:12px;font-weight:700;color:var(--ink);min-width:38px;text-align:center">100%</span><button id="zoomIn" class="btn" title="放大文章 (A+)" style="padding:4px 9px;font-size:12px;line-height:1">A +</button><button id="zoomReset" class="btn" title="还原默认大小" style="padding:4px 8px;font-size:12px;line-height:1">↺</button></div><button id="toggleAll" class="ghost">显示全部</button><button id="prev" title="上一步 (快捷键: ←)">上一步</button><button id="next" class="primary" title="下一步 (快捷键: →)">下一步</button><button id="reset">重置</button><select id="jump"><option value="">章节跳转</option></select><div id="progress" class="progress"></div></div>
 <div id="layout" class="layout single">
 <section id="leftPanel" class="panel leftPanel" hidden><div id="leftScroll" class="scroll"><div id="leftStage" class="leftStage"></div></div></section>
 <section class="panel rightPanel"><div id="rightScroll" class="scroll rightScroll"><div id="rightContent"></div></div></section>
@@ -106,7 +106,13 @@ function renderAll(){document.body.classList.add('allMode');layout.className='la
 prev.onclick=()=>{if(!allMode&&idx>0){idx--;render()}};next.onclick=()=>{if(!allMode&&idx<DATA.steps.length-1){idx++;render()}};reset.onclick=()=>{if(!allMode){idx=0;render()}};
 toggle.onclick=()=>{if(!allMode){saved={idx,left:leftScroll.scrollTop,right:rightScroll.scrollTop};allMode=true;toggle.textContent='返回交互';toggle.classList.add('active');renderAll()}else{allMode=false;toggle.textContent='显示全部';toggle.classList.remove('active');prev.disabled=next.disabled=reset.disabled=jump.disabled=false;idx=saved.idx;render();requestAnimationFrame(()=>{leftScroll.scrollTop=saved.left;rightScroll.scrollTop=saved.right})}};
 DATA.jumpTargets.forEach(j=>{const o=document.createElement('option');o.value=j.index;o.textContent=j.label;jump.appendChild(o)});jump.onchange=()=>{if(jump.value!==''){idx=Number(jump.value);render()}};
-document.addEventListener('keydown',e=>{if(allMode)return;if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();next.click()}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();prev.click()}});
+window.addEventListener('keydown',e=>{
+ if(allMode||e.altKey||e.ctrlKey||e.metaKey)return;
+ const tag=(e.target&&e.target.tagName)||'';
+ if(tag==='INPUT'||tag==='SELECT'||tag==='TEXTAREA'||(e.target&&e.target.isContentEditable))return;
+ if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();if(!next.disabled)next.click();}
+ else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();if(!prev.disabled)prev.click();}
+});
 let zoomLevel=Number(localStorage.getItem('reading_review_zoom')||localStorage.getItem('reading_article_zoom')||100);
 if(isNaN(zoomLevel)||zoomLevel<70||zoomLevel>240)zoomLevel=100;
 let currentPlace=null;

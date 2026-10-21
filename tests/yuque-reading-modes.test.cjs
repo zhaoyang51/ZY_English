@@ -79,11 +79,17 @@ test('Yuque Reading Manifest and HTML integration tests', () => {
   assert.ok(!appJs.includes("progressText.textContent = `${AppState.year} Text ${AppState.textId} (${modeLabel})`"), 'Redundant mode label in progressText should be removed');
   assert.ok(appJs.includes("if (stepNavGroup) stepNavGroup.style.display = 'none';"), 'Disabled step controls should be hidden in yuque mode');
 
-  // 7. Verify keyboard shortcuts (ArrowLeft / ArrowRight) in practice files and app.js
+  // 7. Verify keyboard shortcuts (ArrowLeft / ArrowRight) in practice, review files and app.js
   assert.ok(samplePractice.includes("e.key==='ArrowRight'"), 'Practice file should handle ArrowRight shortcut');
   assert.ok(samplePractice.includes("e.key==='ArrowLeft'"), 'Practice file should handle ArrowLeft shortcut');
+  assert.ok(sampleReview.includes("e.key==='ArrowRight'"), 'Review file should handle ArrowRight shortcut');
+  assert.ok(sampleReview.includes("e.key==='ArrowLeft'"), 'Review file should handle ArrowLeft shortcut');
+  assert.ok(!sampleReview.includes("closest('input,textarea,select,button"), 'Review file should not block shortcuts when button has focus');
+  assert.ok(sampleReview2025.includes("e.key==='ArrowRight'"), '2025 Review file should handle ArrowRight shortcut');
+  assert.ok(sampleReview2025.includes("e.key==='ArrowLeft'"), '2025 Review file should handle ArrowLeft shortcut');
   assert.ok(appJs.includes("yuquePracticeFrame"), 'app.js should reference yuquePracticeFrame');
   assert.ok(appJs.includes("yuqueReviewFrame"), 'app.js should reference yuqueReviewFrame');
+  assert.ok(appJs.includes("attachYuqueFrameShortcuts"), 'app.js should attach shortcuts handler to yuque frames');
   assert.ok(appJs.includes("AppState.mode === 'practice' ? 'yuquePracticeFrame' : 'yuqueReviewFrame'"), 'app.js should forward shortcuts to active yuque iframe');
 
   // 8. Verify reader.js 5% step zoom
