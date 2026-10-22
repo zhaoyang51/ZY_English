@@ -603,9 +603,11 @@ test('Part B Review Mode provides sentence breakdown, word tokens, per-paragraph
   assert.ok(paperHtml.includes('data-sid="1"') && paperHtml.includes('data-sid="2"'), 'Sentences must include data-sid attributes');
   assert.ok(paperHtml.includes('exam-word-token'), 'Sentence text must contain .exam-word-token elements');
 
-  // Verify per-paragraph translation toggle button
-  assert.ok(paperHtml.includes('partb-trans-toggle-btn'), 'Every paragraph must have a per-paragraph translation toggle button');
-  assert.ok(paperHtml.includes('title="展开/收起本段译文"'), 'Translation toggle button must have tooltip');
+  // Verify NO per-paragraph translation toggle buttons (only top full-text toggle)
+  assert.ok(!paperHtml.includes('partb-trans-toggle-btn'), 'Part B must NOT have per-paragraph translation toggle button');
+  assert.ok(paperHtml.includes('id="btnTogglePartBTrans"'), 'Top full-text translation toggle button must exist');
+  assert.ok(paperHtml.includes('id="btnFontDec"') && paperHtml.includes('id="btnFontInc"'), 'Article toolbar must have font size controls');
+  assert.ok(paperHtml.includes('id="readerFontBadge"'), 'Article toolbar must have font size badge');
 
   // 2. Review Mode verification
   context.window.MatchingRenderer.render(pb2025, 2025, 'review');
@@ -750,6 +752,12 @@ test('Part B New Type Question Layout: No paragraph markers, Title separated fro
       // Ensure the title is not duplicated as a body paragraph
       assert.ok(!paperHtml.includes(`id="partb-para-0">${pb.article_title}`), `Year ${yr} Part B body paragraph 0 must not be raw title`);
     }
+
+    // 5. No per-paragraph translation toggle buttons & Top toolbar has font size controls and full-text toggle
+    assert.ok(!paperHtml.includes('partb-trans-toggle-btn'), `Year ${yr} Part B must not include per-paragraph translation toggle button`);
+    assert.ok(paperHtml.includes('id="btnFontDec"') && paperHtml.includes('id="btnFontInc"'), `Year ${yr} Part B must include article font size controls`);
+    assert.ok(paperHtml.includes('id="readerFontBadge"'), `Year ${yr} Part B must include font size badge`);
+    assert.ok(paperHtml.includes('id="btnTogglePartBTrans"'), `Year ${yr} Part B must include top btnTogglePartBTrans`);
   }
 });
 

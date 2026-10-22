@@ -884,39 +884,19 @@ body.theme-dark .cloze-nav-chip.picked {
 }
 
 /* Part B Paragraph Sentences & Translation Drawers */
-.partb-para-header {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-bottom: 4px;
-}
 .exam-article-section .partb-exam-para .para-text,
 .partb-para-body {
   display: block;
   text-indent: 2em;
   text-align: justify;
+  font-size: inherit;
+  line-height: inherit;
 }
 .partb-para-trans .partb-trans-text {
   display: block;
   text-indent: 2em;
   text-align: justify;
   margin-top: 4px;
-}
-.partb-trans-toggle-btn {
-  font-size: 0.76em;
-  padding: 1px 7px;
-  border-radius: 4px;
-  border: 1px solid var(--border, #cbd5e1);
-  background: var(--surface, #ffffff);
-  color: var(--muted, #64748b);
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-.partb-trans-toggle-btn:hover,
-.partb-trans-toggle-btn.active {
-  border-color: var(--accent, #7c3aed);
-  color: var(--accent, #7c3aed);
-  background: rgba(124, 58, 237, 0.08);
 }
 .partb-sent {
   cursor: pointer;

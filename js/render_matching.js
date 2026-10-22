@@ -341,10 +341,7 @@
 
           parasHtml += `
             <div class="exam-para partb-exam-para" id="partb-para-${pPid}" data-pid="${pPid}">
-              <div class="partb-para-header">
-                <button type="button" class="partb-trans-toggle-btn ${showTrans ? 'active' : ''}" data-pid="${pPid}" title="展开/收起本段译文">🌐 译文</button>
-              </div>
-              <div class="para-text partb-para-body" style="font-size:${fs}px;line-height:${lh}">${paraSentsHtml.trim()}</div>
+              <div class="para-text partb-para-body">${paraSentsHtml.trim()}</div>
               ${showTrans && p.translation ? `
                 <div class="partb-para-trans show" id="partb-para-trans-${pPid}">
                   <span class="partb-trans-badge">译文</span>
@@ -416,10 +413,22 @@
       }
 
       examPaper.innerHTML = `
-        <div class="reader-toolbar">
+        <div class="reader-toolbar" id="readerToolbar">
           <div class="toolbar-group">
             <span style="font-size:0.82em;font-weight:700;color:var(--muted)">题型:</span>
             <span class="badge" style="background:#7c3aed;color:#fff;padding:2px 8px;border-radius:4px;font-size:0.82em">Section II Part B 新题型 (10分)</span>
+          </div>
+          <div class="toolbar-group">
+            <span style="font-size:0.82em;font-weight:700;color:var(--muted)">字号:</span>
+            <button class="toolbar-btn" id="btnFontDec" title="缩小文章字号 (每次 5%)">A-</button>
+            <span class="font-size-badge" id="readerFontBadge">${fs}px</span>
+            <button class="toolbar-btn" id="btnFontInc" title="放大文章字号 (每次 5%)">A+</button>
+          </div>
+          <div class="toolbar-group">
+            <span style="font-size:0.82em;font-weight:700;color:var(--muted)">行距:</span>
+            <button class="toolbar-btn ${lh === 1.6 ? 'active' : ''}" data-lh="1.6" id="btnLhTight">紧凑</button>
+            <button class="toolbar-btn ${lh === 1.85 ? 'active' : ''}" data-lh="1.85" id="btnLhNormal">舒适</button>
+            <button class="toolbar-btn ${lh === 2.2 ? 'active' : ''}" data-lh="2.2" id="btnLhLoose">宽松</button>
           </div>
           <div class="toolbar-group" style="margin-left:auto;display:flex;align-items:center;gap:8px">
             <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnTogglePartBTrans" title="切换全文与选项中文对照">🌐 全文对照</button>
@@ -449,6 +458,11 @@
         leftScroll.scrollTop = prevScrollTop;
       }
 
+      // Sync active toolbar states if ReaderModule is present
+      if (window.ReaderModule?.updateToolbarActiveStates) {
+        window.ReaderModule.updateToolbarActiveStates();
+      }
+
       // Bind events in left panel
       const toggleBtn = examPaper.querySelector('#btnTogglePartBTrans');
       if (toggleBtn) {
@@ -459,30 +473,65 @@
         });
       }
 
+      // Left panel article font size adjustment (5% per step)
+      const decBtn = examPaper.querySelector('#btnFontDec');
+      const incBtn = examPaper.querySelector('#btnFontInc');
 
-      // Individual paragraph translation toggle buttons
-      examPaper.querySelectorAll('.partb-trans-toggle-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          const pid = Number(btn.getAttribute('data-pid'));
-          let transDrawer = document.getElementById(`partb-para-trans-${pid}`);
-          if (!transDrawer) {
-            const pObj = (data.paragraphs || []).find((pr, pIdx) => (pr.pid !== undefined ? pr.pid : pIdx) === pid);
-            if (pObj && pObj.translation) {
-              transDrawer = document.createElement('div');
-              transDrawer.className = 'partb-para-trans show';
-              transDrawer.id = `partb-para-trans-${pid}`;
-              transDrawer.innerHTML = `
-                <span class="partb-trans-badge">译文</span>
-                <div class="partb-trans-text">${pObj.translation}</div>
-              `;
-              const paraEl = document.getElementById(`partb-para-${pid}`);
-              if (paraEl) paraEl.appendChild(transDrawer);
-              btn.classList.add('active');
+      if (decBtn) {
+        decBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (window.ReaderModule) {
+            if (window.ReaderModule.settings.fontSize > 12) {
+              const step = Math.max(0.5, Number((window.ReaderModule.settings.fontSize * 0.05).toFixed(1)));
+              window.ReaderModule.settings.fontSize = Math.max(12, Number((window.ReaderModule.settings.fontSize - step).toFixed(1)));
+              window.ReaderModule.applySettings();
             }
           } else {
-            transDrawer.classList.toggle('show');
-            btn.classList.toggle('active', transDrawer.classList.contains('show'));
+            const badge = examPaper.querySelector('#readerFontBadge');
+            let current = parseFloat(badge?.textContent) || 17.5;
+            if (current > 12) {
+              const step = Math.max(0.5, Number((current * 0.05).toFixed(1)));
+              current = Math.max(12, Number((current - step).toFixed(1)));
+              if (badge) badge.textContent = `${current}px`;
+              examPaper.style.fontSize = `${current}px`;
+            }
+          }
+        });
+      }
+
+      if (incBtn) {
+        incBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (window.ReaderModule) {
+            if (window.ReaderModule.settings.fontSize < 32) {
+              const step = Math.max(0.5, Number((window.ReaderModule.settings.fontSize * 0.05).toFixed(1)));
+              window.ReaderModule.settings.fontSize = Math.min(32, Number((window.ReaderModule.settings.fontSize + step).toFixed(1)));
+              window.ReaderModule.applySettings();
+            }
+          } else {
+            const badge = examPaper.querySelector('#readerFontBadge');
+            let current = parseFloat(badge?.textContent) || 17.5;
+            if (current < 32) {
+              const step = Math.max(0.5, Number((current * 0.05).toFixed(1)));
+              current = Math.min(32, Number((current + step).toFixed(1)));
+              if (badge) badge.textContent = `${current}px`;
+              examPaper.style.fontSize = `${current}px`;
+            }
+          }
+        });
+      }
+
+      // Left panel article line height adjustment
+      examPaper.querySelectorAll('[data-lh]').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const lhVal = Number(btn.getAttribute('data-lh'));
+          if (window.ReaderModule) {
+            window.ReaderModule.settings.lineHeight = lhVal;
+            window.ReaderModule.applySettings();
+          } else {
+            examPaper.style.lineHeight = `${lhVal}`;
+            examPaper.querySelectorAll('[data-lh]').forEach(b => b.classList.toggle('active', b === btn));
           }
         });
       });
