@@ -8373,7 +8373,8 @@
       {
         "pid": 0,
         "text": "How to Get Active Again",
-        "translation": "如何科学重拾运动活力。"
+        "translation": "如何科学重拾运动活力。",
+        "is_title": true
       },
       {
         "pid": 1,
@@ -8495,7 +8496,10 @@
       "E": "细心倾听身体发出的真实反馈 (Listen to Your Body)",
       "F": "借助模拟动作逐步激活机体记忆 (Go Through the Motions)",
       "G": "丰富锻炼方式，完善日常锻炼方案 (Round Out Your Routine)"
-    }
+    },
+    "directions_cn": "阅读下列短文，从选项 A-G 中为编号段落（41-45）选出最合适的小标题。选项中有两个多余的小标题无需使用。请将答案填涂在答题卡上。（共 10 分）",
+    "article_title": "How to Get Active Again",
+    "article_title_cn": "如何科学重拾运动活力"
   },
   "translation": {
     "title": "2022 年考研英语（二）英译汉 Translation",

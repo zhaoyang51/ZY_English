@@ -7671,7 +7671,8 @@
       {
         "pid": 0,
         "text": "Five Ways to Win Over Everyone in the Office",
-        "translation": "职场中赢得所有人好感的五大法则。"
+        "translation": "职场中赢得所有人好感的五大法则。",
+        "is_title": true
       },
       {
         "pid": 1,
@@ -7793,7 +7794,10 @@
       "E": "坦诚透明公开信息，切忌遮遮掩掩 (Reveal, don't hide, information)",
       "F": "放慢心绪节奏，学会专注倾听 (Slow down and listen)",
       "G": "换位思考，设身处地站在他人立场 (Put yourselves in others' shoes)"
-    }
+    },
+    "directions_cn": "阅读下列短文，从选项 A-G 中为编号段落（41-45）选出最合适的小标题。选项中有两个多余的小标题无需使用。请将答案填涂在答题卡上。（共 10 分）",
+    "article_title": "Five Ways to Win Over Everyone in the Office",
+    "article_title_cn": "职场中赢得所有人好感的五大法则"
   },
   "translation": {
     "title": "2020 年考研英语（二）英译汉 Translation",

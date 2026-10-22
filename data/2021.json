@@ -7995,7 +7995,8 @@
       {
         "pid": 0,
         "text": "How to disagree with someone more powerful than you",
-        "translation": "如何与比你更有权势的人得体地表达不同意见。"
+        "translation": "如何与比你更有权势的人得体地表达不同意见。",
+        "is_title": true
       },
       {
         "pid": 1,
@@ -8117,7 +8118,10 @@
       "E": "切勿草率对他人做出道德评判 (Don't make judgements)",
       "F": "确立双方共同的奋斗目标 (Identify a shared goal)",
       "G": "礼貌征得对方同意再表达异议 (Ask permission to disagree)"
-    }
+    },
+    "directions_cn": "阅读下列短文，从选项 A-G 中为编号段落（41-45）选出最合适的小标题。选项中有两个多余的小标题无需使用。请将答案填涂在答题卡上。（共 10 分）",
+    "article_title": "How to disagree with someone more powerful than you",
+    "article_title_cn": "如何与比你更有权势的人得体地表达不同意见"
   },
   "translation": {
     "title": "2021 年考研英语（二）英译汉 Translation",

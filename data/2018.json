@@ -8005,7 +8005,8 @@
       {
         "pid": 0,
         "text": "Five ways to make conversation with anyone",
-        "translation": "无论与谁交谈都能侃侃而谈的五种沟通法。"
+        "translation": "无论与谁交谈都能侃侃而谈的五种沟通法。",
+        "is_title": true
       },
       {
         "pid": 1,
@@ -8167,7 +8168,10 @@
       "E": "寻找彼此的“我也是”共鸣点 (Find the \"me too\"s)",
       "F": "果断跳过毫无营养的寒暄套话 (Skip the small talk)",
       "G": "诚恳征询对方的看法意见 (Ask for an opinion)"
-    }
+    },
+    "directions_cn": "阅读下列短文，从选项 A-G 中为编号段落（41-45）选出最合适的小标题。选项中有两个多余的小标题无需使用。请将答案填涂在答题卡上。（共 10 分）",
+    "article_title": "Five ways to make conversation with anyone",
+    "article_title_cn": "无论与谁交谈都能侃侃而谈的五种沟通法"
   },
   "translation": {
     "title": "2018 年考研英语（二）英译汉 Translation",

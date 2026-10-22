@@ -7637,8 +7637,8 @@
     "paragraphs": [
       {
         "pid": 0,
-        "text": "Copying Birds May Save Aircraft Fuel\nBoth Boeing and Airbus have trumpeted the efficiency of their newest aircraft, the 787 and A350 respectively. Their clever designs and lightweight composites certainly make a difference. But a group of researchers at Stanford University, led by Ilan Kroo, has suggested that airlines could take a more naturalistic approach to cutting jet-fuel use and it would not require them to buy new aircraft.",
-        "translation": "仿鸟飞行或可节省客机燃油。波音和空客都大肆宣传其下一代飞机的燃油效率。但斯坦福大学航空航天学教授伊兰·克鲁指出，通过一种极为简便的方式就能节省更多燃油：效仿鸟类编队飞行。"
+        "text": "Both Boeing and Airbus have trumpeted the efficiency of their newest aircraft, the 787 and A350 respectively. Their clever designs and lightweight composites certainly make a difference. But a group of researchers at Stanford University, led by Ilan Kroo, has suggested that airlines could take a more naturalistic approach to cutting jet-fuel use and it would not require them to buy new aircraft.",
+        "translation": "波音和空客都大肆宣传其下一代飞机的燃油效率。但斯坦福大学航空航天学教授伊兰·克鲁指出，通过一种极为简便的方式就能节省更多燃油：效仿鸟类编队飞行。"
       },
       {
         "pid": 1,
@@ -7709,7 +7709,10 @@
     "options_cn": {
       "T": "正确 (True)",
       "F": "错误 (False)"
-    }
+    },
+    "directions_cn": "阅读下列短文，并判断各项陈述的正误。若陈述符合原文，选 T（正确）；若不符合，选 F（错误）。请将答案填涂在答题卡 1 上。（共 10 分）",
+    "article_title": "Copying Birds May Save Aircraft Fuel",
+    "article_title_cn": "仿鸟飞行或可节省客机燃油"
   },
   "translation": {
     "title": "2010 年考研英语（二）英译汉 Translation",

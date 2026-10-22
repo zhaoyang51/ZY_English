@@ -8345,7 +8345,8 @@
       {
         "pid": 0,
         "text": "Net-Zero Rules Set to Send Cost of New Homes and Extensions Soaring",
-        "translation": "净零碳排放新规或将导致新建房屋及扩建成本大幅飙升。"
+        "translation": "净零碳排放新规或将导致新建房屋及扩建成本大幅飙升。",
+        "is_title": true
       },
       {
         "pid": 1,
@@ -8467,7 +8468,10 @@
       "E": "许多人觉得目前房屋售价已经超出了他们的承受能力。",
       "F": "新规将影响到房屋扩建方案中包含大面积玻璃的业主。",
       "G": "规则变动最终将让广大房屋业主切实受益。"
-    }
+    },
+    "directions_cn": "阅读下列短文，将左栏中编号的项目与右栏中对应的信息进行配对。右栏中有两个多余选项。请将答案填涂在答题卡上。（共 10 分）",
+    "article_title": "Net-Zero Rules Set to Send Cost of New Homes and Extensions Soaring",
+    "article_title_cn": "净零碳排放新规或将导致新建房屋及扩建成本大幅飙升"
   },
   "translation": {
     "title": "2023 年考研英语（二）英译汉 Translation",

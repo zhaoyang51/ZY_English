@@ -6069,12 +6069,14 @@
       {
         "pid": 0,
         "text": "Five Steps to Suggesting a Change at Work",
-        "translation": "在工作中提出革新建议并真正获得重视的五个步骤。"
+        "translation": "在工作中提出革新建议并真正获得重视的五个步骤。",
+        "is_title": true
       },
       {
         "pid": 1,
         "text": "That'll Actually Get Taken Seriously",
-        "translation": "如何让你的好点子不再石沉大海。"
+        "translation": "如何让你的好点子不再石沉大海。",
+        "is_title": true
       },
       {
         "pid": 2,
@@ -6196,7 +6198,10 @@
       "E": "坦然面对并主动包容外界的抵触阻力 (Invite resistance)",
       "F": "像推销员一样极力推销你的产品 (Be a salesman)",
       "G": "虚怀若谷，保持低调谦逊 (Be humble)"
-    }
+    },
+    "directions_cn": "阅读下列短文，从选项 A-G 中为编号段落（41-45）选出最合适的小标题。选项中有两个多余的小标题无需使用。请将答案填涂在答题卡上。（共 10 分）",
+    "article_title": "Five Steps to Suggesting a Change at Work That'll Actually Get Taken Seriously",
+    "article_title_cn": "在工作中提出革新建议并真正获得重视的五个步骤——如何让你的好点子不再石沉大海"
   },
   "translation": {
     "title": "2025 年考研英语（二）英译汉 Translation",

@@ -7638,7 +7638,8 @@
       {
         "pid": 0,
         "text": "Some Old Truths to Help You Overcome Tough Times",
-        "translation": "助你渡过难关的人生箴言。"
+        "translation": "助你渡过难关的人生箴言。",
+        "is_title": true
       },
       {
         "pid": 1,
@@ -7765,7 +7766,10 @@
       "E": "专注聚焦于当下这一刻 (Think about the present moment)",
       "F": "别害怕为自己的整个人生负责 (Don't fear responsibility for your life)",
       "G": "仍有诸多美好值得心怀感恩 (There are many things to be grateful for)"
-    }
+    },
+    "directions_cn": "阅读下列短文，从选项 A-G 中为编号段落（41-45）选出最合适的小标题。选项中有两个多余的小标题无需使用。请将答案填涂在答题卡上。（共 10 分）",
+    "article_title": "Some Old Truths to Help You Overcome Tough Times",
+    "article_title_cn": "助你渡过难关的人生箴言"
   },
   "translation": {
     "title": "2015 年考研英语（二）英译汉 Translation",

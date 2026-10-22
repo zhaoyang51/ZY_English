@@ -7651,7 +7651,8 @@
       {
         "pid": 0,
         "text": "Act Your Shoe Size, Not Your Age",
-        "translation": "活出你的童心，而不是你的实际岁数。"
+        "translation": "活出你的童心，而不是你的实际岁数。",
+        "is_title": true
       },
       {
         "pid": 1,
@@ -7773,7 +7774,10 @@
       "E": "顺其自然，别胡思乱想 (Don't overthink it)",
       "F": "容易满足，知足常乐 (Be easily pleased)",
       "G": "细心留意身边的微小事物 (Notice things)"
-    }
+    },
+    "directions_cn": "阅读下列短文，从选项 A-G 中为编号段落（41-45）选出最合适的小标题。选项中有两个多余的小标题无需使用。请将答案填涂在答题卡上。（共 10 分）",
+    "article_title": "Act Your Shoe Size, Not Your Age",
+    "article_title_cn": "活出你的童心，而不是你的实际岁数"
   },
   "translation": {
     "title": "2016 年考研英语（二）英译汉 Translation",

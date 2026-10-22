@@ -65,6 +65,15 @@
     isSimpleWord,
     currentMode: 'practice',
 
+    getDirectionsCn: function(subtype) {
+      const map = {
+        true_false: '阅读下列短文，并判断各项陈述的正误。若陈述符合原文，选 T（正确）；若不符合，选 F（错误）。请将答案填涂在答题卡 1 上。（共 10 分）',
+        multiple_matching: '阅读下列短文，将左栏中编号的项目与右栏中对应的信息进行配对。右栏中有两个多余选项。请将答案填涂在答题卡上。（共 10 分）',
+        heading_matching: '阅读下列短文，从选项 A-G 中为编号段落（41-45）选出最合适的小标题。选项中有两个多余的小标题无需使用。请将答案填涂在答题卡上。（共 10 分）'
+      };
+      return map[subtype] || map.multiple_matching;
+    },
+
     getShowTrans: function() {
       if (window.ReaderModule?.settings?.showTrans !== undefined) {
         return window.ReaderModule.settings.showTrans;
@@ -118,6 +127,8 @@
         const pText = (typeof para === 'string' ? para : para.text) || '';
         // Skip heading slot placeholders like "(41)______"
         if (/^\(?\s*(4[1-5])\s*\)?\s*[_—]+/.test(pText)) return;
+        // Skip title paragraphs
+        if (para.is_title || (data.article_title && (pText === data.article_title || data.article_title.startsWith(pText)))) return;
 
         const sents = (pText.match(/[^.!?]+[.!?]+(?:['"”’]+)?|[^.!?]+$/g) || [pText]).map(s => s.trim()).filter(Boolean);
         const pTrans = (typeof para === 'object' ? para.translation : '') || '';
@@ -251,9 +262,26 @@
       const isReviewMode = this.currentMode === 'review';
       const answers = data.answers || {};
 
+      let articleTitleHtml = '';
+      if (data.article_title) {
+        articleTitleHtml = `
+          <div class="partb-article-title-block">
+            <h3 class="partb-article-title">${this.tokenizeWords(data.article_title)}</h3>
+            ${showTrans && data.article_title_cn ? `
+              <div class="partb-article-title-cn">💡 ${data.article_title_cn}</div>
+            ` : ''}
+          </div>
+        `;
+      }
+
       let parasHtml = '';
       (data.paragraphs || []).forEach((p, idx) => {
         const pText = (typeof p === 'string' ? p : p.text) || '';
+        // Skip title paragraphs from body
+        if (p.is_title || (data.article_title && (pText === data.article_title || data.article_title.startsWith(pText)))) {
+          return;
+        }
+
         const mBlank = pText.match(/^\(?\s*(4[1-5])\s*\)?\s*[_—]+/);
 
         if (mBlank) {
@@ -312,16 +340,15 @@
           }
 
           parasHtml += `
-            <div class="exam-para" id="partb-para-${pPid}" data-pid="${pPid}">
+            <div class="exam-para partb-exam-para" id="partb-para-${pPid}" data-pid="${pPid}">
               <div class="partb-para-header">
-                <span class="para-badge">[Para ${idx + 1}]</span>
                 <button type="button" class="partb-trans-toggle-btn ${showTrans ? 'active' : ''}" data-pid="${pPid}" title="展开/收起本段译文">🌐 译文</button>
               </div>
-              <span class="para-text" style="font-size:${fs}px;line-height:${lh}">${paraSentsHtml}</span>
+              <div class="para-text partb-para-body" style="font-size:${fs}px;line-height:${lh}">${paraSentsHtml.trim()}</div>
               ${showTrans && p.translation ? `
                 <div class="partb-para-trans show" id="partb-para-trans-${pPid}">
                   <span class="partb-trans-badge">译文</span>
-                  <span class="partb-trans-text">${p.translation}</span>
+                  <div class="partb-trans-text">${p.translation}</div>
                 </div>
               ` : ''}
             </div>
@@ -404,11 +431,15 @@
           Section II Reading Comprehension Part B ｜ 41-45 题（满分 10 分） ｜ <span style="color:var(--accent);font-weight:600">💡 点击句子查长难句拆解，点击单词即查生词</span>
         </div>
 
-        <div class="matching-banner" style="margin-bottom:18px">
-          <strong>Directions:</strong> ${data.directions || 'Read the following text and match each of the numbered items in the left column to its corresponding information in the right column. There are two extra choices in the right column. (10 points)'}
+        <div class="matching-banner partb-directions-card" style="margin-bottom:18px">
+          <div class="directions-en"><strong>Directions:</strong> ${this.tokenizeWords(data.directions || 'Read the following text and answer the questions. (10 points)')}</div>
+          <div class="directions-cn" style="margin-top:7px;padding-top:7px;border-top:1px dashed rgba(124,58,237,0.18);color:var(--muted);font-size:0.92em;line-height:1.6">
+            💡 <strong>【题目要求】</strong>${data.directions_cn || this.getDirectionsCn(data.subtype)}
+          </div>
         </div>
 
         <div class="exam-article-section">
+          ${articleTitleHtml}
           ${parasHtml}
           ${questionsSectionHtml}
         </div>
@@ -442,8 +473,8 @@
               transDrawer.className = 'partb-para-trans show';
               transDrawer.id = `partb-para-trans-${pid}`;
               transDrawer.innerHTML = `
-                <span class="partb-trans-badge">段落译文</span>
-                <span class="partb-trans-text">${pObj.translation}</span>
+                <span class="partb-trans-badge">译文</span>
+                <div class="partb-trans-text">${pObj.translation}</div>
               `;
               const paraEl = document.getElementById(`partb-para-${pid}`);
               if (paraEl) paraEl.appendChild(transDrawer);

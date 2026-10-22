@@ -723,5 +723,35 @@ test('showVocabPopup does not render context sentence div in popup card', () => 
   assert.ok(!appJs.includes('<strong>真题语境原句：</strong>'), 'showVocabPopup must not include context sentence div');
 });
 
+test('Part B New Type Question Layout: No paragraph markers, Title separated from body, Indented paragraphs, and Directions translation', () => {
+  const { context, document } = setupDOM();
+
+  for (let yr = 2010; yr <= 2026; yr++) {
+    const data = JSON.parse(read(`data/${yr}.json`));
+    const pb = data.part_b;
+    context.window.MatchingRenderer.render(pb, yr, 'practice');
+    const paperHtml = document.getElementById('examPaper').innerHTML;
+
+    // 1. No paragraph badges [Para X] in Part B
+    assert.ok(!paperHtml.includes('[Para '), `Year ${yr} Part B must not include paragraph badge [Para X]`);
+    assert.ok(!paperHtml.includes('class="para-badge"'), `Year ${yr} Part B must not include .para-badge`);
+
+    // 2. Directions translated
+    assert.ok(paperHtml.includes('【题目要求】'), `Year ${yr} Part B must include Directions Chinese translation`);
+    assert.ok(pb.directions_cn && pb.directions_cn.length > 10, `Year ${yr} pb.directions_cn must be valid`);
+
+    // 3. Paragraphs have indent class
+    assert.ok(paperHtml.includes('partb-para-body'), `Year ${yr} Part B paragraphs must use partb-para-body class`);
+
+    // 4. Title-bearing years render article title block and do not treat title as body paragraph
+    if ([2010, 2015, 2016, 2018, 2020, 2021, 2022, 2023, 2025].includes(yr)) {
+      assert.ok(paperHtml.includes('partb-article-title-block'), `Year ${yr} Part B must render partb-article-title-block`);
+      assert.ok(paperHtml.includes('class="partb-article-title"'), `Year ${yr} Part B must have .partb-article-title`);
+      // Ensure the title is not duplicated as a body paragraph
+      assert.ok(!paperHtml.includes(`id="partb-para-0">${pb.article_title}`), `Year ${yr} Part B body paragraph 0 must not be raw title`);
+    }
+  }
+});
+
 
 

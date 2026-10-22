@@ -839,12 +839,68 @@ body.theme-dark .cloze-nav-chip.picked {
   border-top: 1px dashed var(--border, #e2e8f0);
 }
 
+/* Part B Article Title Block */
+.partb-article-title-block {
+  text-align: center;
+  margin: 14px 0 22px;
+  padding: 14px 18px;
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: var(--radius-md, 8px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+.partb-article-title {
+  font-size: 1.32em;
+  font-weight: 800;
+  color: var(--ink, #0f172a);
+  line-height: 1.42;
+  margin: 0;
+  text-indent: 0 !important;
+}
+.partb-article-title-cn {
+  font-size: 0.94em;
+  font-weight: 600;
+  color: var(--accent, #7c3aed);
+  margin-top: 6px;
+  line-height: 1.5;
+  text-indent: 0 !important;
+}
+
+/* Part B Directions Card */
+.partb-directions-card {
+  padding: 14px 16px;
+  background: var(--surface, #ffffff);
+  border: 1.5px solid var(--border, #e2e8f0);
+  border-radius: var(--radius-md, 8px);
+}
+.partb-directions-card .directions-en {
+  font-size: 0.95em;
+  color: var(--ink, #1e293b);
+  line-height: 1.6;
+}
+.partb-directions-card .directions-cn {
+  font-size: 0.91em;
+  line-height: 1.6;
+}
+
 /* Part B Paragraph Sentences & Translation Drawers */
 .partb-para-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 6px;
+  justify-content: flex-end;
+  margin-bottom: 4px;
+}
+.exam-article-section .partb-exam-para .para-text,
+.partb-para-body {
+  display: block;
+  text-indent: 2em;
+  text-align: justify;
+}
+.partb-para-trans .partb-trans-text {
+  display: block;
+  text-indent: 2em;
+  text-align: justify;
+  margin-top: 4px;
 }
 .partb-trans-toggle-btn {
   font-size: 0.76em;
