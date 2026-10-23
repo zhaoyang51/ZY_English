@@ -329,7 +329,7 @@
                 <span class="card-title">Learn</span>
                 <span class="card-badge">新学</span>
               </div>
-              <div class="card-count" id="vocabHomeCountLearn">284</div>
+              <div class="card-count" id="vocabHomeCountLearn">0</div>
               <div class="card-sub">待学习单词</div>
             </div>
 
@@ -338,24 +338,9 @@
                 <span class="card-title">Review</span>
                 <span class="card-badge">复习</span>
               </div>
-              <div class="card-count" id="vocabHomeCountReview">455</div>
+              <div class="card-count" id="vocabHomeCountReview">0</div>
               <div class="card-sub">待巩固复习</div>
             </div>
-          </div>
-
-          <div class="vocab-home-bottom-nav">
-            <button class="vocab-nav-item" id="vocabHomeNavDict" title="切换词库">
-              <span class="nav-icon">📚</span>
-              <span class="nav-label">词书</span>
-            </button>
-            <button class="vocab-nav-item active" id="vocabHomeNavDeck" title="今日背诵主页">
-              <span class="nav-icon">🗂️</span>
-              <span class="nav-label">卡片</span>
-            </button>
-            <button class="vocab-nav-item" id="vocabHomeNavStats" title="复习进度与统计">
-              <span class="nav-icon">📈</span>
-              <span class="nav-label">统计</span>
-            </button>
           </div>
         </div>
 
@@ -1342,14 +1327,17 @@
       const now = Date.now();
       if (state === 'due') {
         list = list.filter(w => {
-          const rec = appState.progress[w.word];
-          return rec && rec.status !== 'mastered' && rec.nextReviewTime <= now;
+          const rec = appState.progress[w.word || w.root];
+          return rec && rec.status !== 'mastered' && (typeof rec.nextReviewTime === 'number') && rec.nextReviewTime <= now;
         });
       } else if (state === 'new') {
-        list = list.filter(w => !appState.progress[w.word]);
+        list = list.filter(w => {
+          const rec = appState.progress[w.word || w.root];
+          return !rec || rec.status === 'new';
+        });
       } else if (state === 'mastered') {
         list = list.filter(w => {
-          const rec = appState.progress[w.word];
+          const rec = appState.progress[w.word || w.root];
           return rec && rec.status === 'mastered';
         });
       }
@@ -1524,33 +1512,65 @@
     },
 
     renderCurrentCard() {
-      if (appState.currentList.length === 0) {
-        if (els.momoWord) els.momoWord.textContent = '🎉 词库已学完';
+      const isRev = appState.studyMode === 'review';
+      const isNew = appState.studyMode === 'new';
+
+      if (appState.currentList.length === 0 || appState.currentIndex >= appState.currentList.length) {
+        if (els.momoWord) els.momoWord.textContent = isRev ? '🎉 复习已全部完成！' : '🎉 新词已全部学完！';
         if (els.momoSkeletons) els.momoSkeletons.style.display = 'none';
-        if (els.momoDefinitions) els.momoDefinitions.style.display = 'none';
+        if (els.momoDefinitions) {
+          els.momoDefinitions.style.display = 'block';
+          els.momoDefinitions.innerHTML = `
+            <div class="momo-finish-card" style="text-align:center;padding:32px 16px">
+              <div style="font-size:48px;margin-bottom:12px">🏆</div>
+              <div style="font-size:17px;font-weight:700;color:var(--momo-text-main);margin-bottom:8px">
+                ${isRev ? '本次到期复习单词已全部巩固完毕！' : '当前所选词书的新词已全部学完！'}
+              </div>
+              <p style="font-size:13px;color:var(--momo-text-muted);line-height:1.6;margin-bottom:18px">
+                ${isRev ? '按艾宾浩斯记忆曲线及时复习，抗遗忘效果最佳。' : '遵循记忆曲线定期复习，真正化为长期记忆！'}
+              </p>
+              <button class="btn momo-finish-btn" id="vocabMomoBtnFinishHome" style="background:#0f766e;color:#fff;border-radius:999px;padding:9px 26px;font-size:14px;cursor:pointer;border:none">返回背诵主页</button>
+            </div>
+          `;
+          const btn = document.getElementById('vocabMomoBtnFinishHome');
+          if (btn) btn.onclick = () => this.showHomeView();
+        }
         if (els.cardSentence) els.cardSentence.style.display = 'none';
         if (els.cardRelations) els.cardRelations.style.display = 'none';
         if (els.unrevealedWrap) els.unrevealedWrap.style.display = 'none';
         if (els.revealedWrap) els.revealedWrap.style.display = 'none';
-        if (els.momoProgress) els.momoProgress.textContent = '0/0';
+        if (els.momoProgress) {
+          els.momoProgress.textContent = isRev ? '复习完成' : '学习完成';
+        }
         return;
       }
 
       const total = appState.currentList.length;
       let idx = appState.currentIndex;
-      if (idx >= total) {
-        idx = Math.max(0, total - 1);
-        appState.currentIndex = idx;
-      }
       const cur = appState.currentList[idx];
       if (!cur) return;
       const word = cur.word || cur.root || '';
 
       this.saveLastPosition();
 
-      // Update Topbar Progress (e.g. 9/10)
-      const progStr = `${idx + 1}/${total}`;
-      if (els.momoProgress) els.momoProgress.textContent = progStr;
+      // Update Topbar Progress (e.g. 剩余未学 / 剩余复习)
+      const remaining = Math.max(0, total - idx);
+      let progStr = `${idx + 1}/${total}`;
+      if (isNew) {
+        progStr = `未学剩余 ${remaining}`;
+      } else if (isRev) {
+        progStr = `复习剩余 ${remaining}`;
+      }
+
+      if (els.momoProgress) {
+        if (isNew) {
+          els.momoProgress.innerHTML = `<span class="momo-prog-tag tag-new">新学</span> 剩余 <strong class="momo-prog-num">${remaining}</strong>`;
+        } else if (isRev) {
+          els.momoProgress.innerHTML = `<span class="momo-prog-tag tag-review">复习</span> 剩余 <strong class="momo-prog-num">${remaining}</strong>`;
+        } else {
+          els.momoProgress.textContent = progStr;
+        }
+      }
       if (els.sessionProgressText) els.sessionProgressText.textContent = `${idx + 1} / ${total}`;
 
       // Star status
@@ -2123,31 +2143,44 @@
 
     showHomeView() {
       appState.currentView = 'home';
+      appState.studyMode = null;
+      appState.filters.state = 'all';
+      if (els.stateSelect) els.stateSelect.value = 'all';
       if (els.homeFrame) els.homeFrame.style.display = 'flex';
       if (els.frame) els.frame.style.display = 'none';
       this.updateHomeView();
     },
 
     showStudyView(mode) {
+      if (mode === 'new') {
+        appState.studyMode = 'new';
+        appState.filters.state = 'new';
+        if (els.stateSelect) els.stateSelect.value = 'new';
+        this.targetResumeWord = null;
+        this.applyFiltersAndRender();
+        if (appState.currentList.length === 0) {
+          this.showToast('🎉 当前词书所有单词已全部学完！请点击「复习」进行巩固');
+          return;
+        }
+        appState.currentIndex = 0;
+      } else if (mode === 'review') {
+        appState.studyMode = 'review';
+        appState.filters.state = 'due';
+        if (els.stateSelect) els.stateSelect.value = 'due';
+        this.targetResumeWord = null;
+        this.applyFiltersAndRender();
+        if (appState.currentList.length === 0) {
+          this.showToast('🎉 当前词书暂无到期急需复习单词，已按记忆曲线全部巩固！');
+          return;
+        }
+        appState.currentIndex = 0;
+      } else if (!appState.studyMode) {
+        appState.studyMode = 'all';
+      }
+
       appState.currentView = 'study';
       if (els.homeFrame) els.homeFrame.style.display = 'none';
       if (els.frame) els.frame.style.display = 'flex';
-
-      if (mode === 'new') {
-        const idx = appState.currentList.findIndex(item => {
-          const w = item.word || item.root;
-          return !appState.progress[w];
-        });
-        if (idx >= 0) appState.currentIndex = idx;
-      } else if (mode === 'review') {
-        const now = Date.now();
-        const idx = appState.currentList.findIndex(item => {
-          const w = item.word || item.root;
-          const rec = appState.progress[w];
-          return rec && rec.status !== 'mastered' && rec.nextReviewTime <= now;
-        });
-        if (idx >= 0) appState.currentIndex = idx;
-      }
 
       this.renderCurrentCard();
     },
@@ -2181,19 +2214,16 @@
       fullItems.forEach(item => {
         const w = item.word || item.root;
         const rec = appState.progress[w];
-        if (!rec) newCount++;
+        if (!rec || rec.status === 'new') newCount++;
         else if (rec.status === 'mastered') masteredCount++;
         else {
           learningCount++;
-          if (rec.nextReviewTime <= now) dueCount++;
+          if (typeof rec.nextReviewTime === 'number' && rec.nextReviewTime <= now) dueCount++;
         }
       });
 
-      const learnDisplay = newCount > 0 ? newCount : (fullItems.length - masteredCount);
-      const reviewDisplay = dueCount > 0 ? dueCount : (learningCount > 0 ? learningCount : Math.min(fullItems.length, 20));
-
-      if (els.homeCountLearn) els.homeCountLearn.textContent = String(learnDisplay);
-      if (els.homeCountReview) els.homeCountReview.textContent = String(reviewDisplay);
+      if (els.homeCountLearn) els.homeCountLearn.textContent = String(newCount);
+      if (els.homeCountReview) els.homeCountReview.textContent = String(dueCount);
     },
 
     pickRandomHomeWord() {

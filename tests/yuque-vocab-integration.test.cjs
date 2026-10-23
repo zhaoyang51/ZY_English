@@ -50,6 +50,16 @@ function setupTestEnv() {
 
   // Pre-create all elements referenced in cacheDomElements
   createElement('vocabSection');
+  createElement('vocabHomeFrame');
+  createElement('vocabHomeCardLearn');
+  createElement('vocabHomeCountLearn');
+  createElement('vocabHomeCardReview');
+  createElement('vocabHomeCountReview');
+  createElement('vocabHomeWord');
+  createElement('vocabHomeMeaning');
+  createElement('vocabHomeBtnRefresh');
+  createElement('vocabHomePhonetic');
+  createElement('vocabHomePhoneticText');
   createElement('vocabSearchInput', 'input');
   createElement('vocabToggleAudioBtn', 'button');
   createElement('vocabToggleDrawerBtn', 'button');
@@ -384,4 +394,53 @@ test('Vocab Recite: Sort Strategy supports Frequency sorting (high frequency fir
   const secondFreqNum = parseInt(secondBadge.replace(/\D/g, '')) || 0;
   assert.ok(firstFreqNum >= secondFreqNum, `Frequency sort order must be descending: ${firstFreqNum} >= ${secondFreqNum}`);
 });
+
+test('Vocab Recite: Learn and Review queues filter correctly and top-left shows remaining count', () => {
+  const { elements, storage } = setupTestEnv();
+
+  // Clear progress
+  storage['KAOYAN_VOCAB_PROGRESS_V2'] = JSON.stringify({});
+
+  global.window.VocabModule.init('vocabSection');
+  elements.vocabSourceSelect.value = 'all';
+  elements.vocabSourceSelect.onchange();
+
+  // 1. Verify bottom 3 nav buttons removed from home page template
+  const homeHtml = elements.vocabSection.innerHTML;
+  assert.strictEqual(homeHtml.includes('vocab-home-bottom-nav'), false, 'Home page must not include bottom nav buttons');
+
+  // 2. Click Learn -> should study unlearned words and show remaining unlearned count in top-left
+  elements.vocabHomeCardLearn.onclick();
+  assert.ok(elements.vocabMomoProgress.textContent.includes('未学剩余') || elements.vocabMomoProgress.textContent.includes('新学'), 'Top-left must indicate unlearned remaining');
+  const initialUnlearned = parseInt(elements.vocabMomoProgress.textContent.replace(/\D/g, '')) || 0;
+  assert.ok(initialUnlearned > 0, 'Must have unlearned words');
+
+  // Advance card
+  global.window.VocabModule.goToNextCard();
+  const nextUnlearned = parseInt(elements.vocabMomoProgress.textContent.replace(/\D/g, '')) || 0;
+  assert.strictEqual(nextUnlearned, initialUnlearned - 1, 'Remaining unlearned count must decrement by 1');
+
+  // Return to home
+  elements.vocabMomoBtnBack.onclick();
+
+  // 3. Mark 2 words as due for review
+  const now = Date.now();
+  const w1 = elements.vocabWordFront.textContent || 'threat';
+  const progress = {
+    [w1]: { status: 'learning', nextReviewTime: now - 1000, level: 1 }
+  };
+  storage['KAOYAN_VOCAB_PROGRESS_V2'] = JSON.stringify(progress);
+  global.window.VocabModule.loadProgress();
+  global.window.VocabModule.updateHomeView();
+
+  // Review card on home should show dueCount
+  assert.strictEqual(elements.vocabHomeCountReview.textContent, '1', 'Review count on home page must reflect due count (1)');
+
+  // Click Review -> should study due review words and show remaining due count in top-left
+  elements.vocabHomeCardReview.onclick();
+  assert.ok(elements.vocabMomoProgress.textContent.includes('复习剩余') || elements.vocabMomoProgress.textContent.includes('复习'), 'Top-left must indicate review remaining');
+  assert.ok(elements.vocabMomoProgress.textContent.includes('1'), 'Remaining review count must be 1');
+  assert.strictEqual(elements.vocabMomoWord.textContent, w1, 'Must review the due word');
+});
+
 

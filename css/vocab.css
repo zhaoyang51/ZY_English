@@ -488,10 +488,39 @@ body.mode-vocab .vocab-section {
 
 .momo-progress-text {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--momo-text-main);
   letter-spacing: 0.3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.momo-prog-tag {
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.momo-prog-tag.tag-new {
+  background: rgba(16, 185, 129, 0.15);
+  color: #047857;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.momo-prog-tag.tag-review {
+  background: rgba(245, 158, 11, 0.15);
+  color: #b45309;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.momo-prog-num {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--momo-text-main);
 }
 
 .momo-topbar-right {
