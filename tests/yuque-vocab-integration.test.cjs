@@ -143,6 +143,30 @@ function setupTestEnv() {
   createElement('vocabBtnEmptyReset', 'button');
   createElement('vocabToast');
 
+  createElement('vocabMomoWord');
+  createElement('vocabMomoCheckmark');
+  createElement('vocabMomoFreqBadge');
+  createElement('vocabMomoProgress');
+  createElement('vocabMomoPhoneticPill');
+  createElement('vocabMomoPhoneticText');
+  createElement('vocabMomoSkeletons');
+  createElement('vocabMomoDefinitions');
+  createElement('vocabMomoCardSentence');
+  createElement('vocabMomoCardRelations');
+  createElement('vocabMomoCollocList');
+  createElement('vocabMomoTabsList');
+  createElement('vocabMomoBtnBack', 'button');
+  createElement('vocabMomoBtnUndo', 'button');
+  createElement('vocabMomoBtnStar', 'button');
+  createElement('vocabMomoBtnMastered', 'button');
+  createElement('vocabMomoBtnSpelling', 'button');
+  createElement('vocabMomoBtnMore', 'button');
+  createElement('vocabMomoBtnGood', 'button');
+  createElement('vocabMomoBtnHard', 'button');
+  createElement('vocabMomoBtnForgot', 'button');
+  createElement('vocabMomoBtnContinue', 'button');
+  createElement('vocabMomoBtnWrong', 'button');
+
   const dom = {
     classes: new Set(),
     body: {
@@ -264,4 +288,58 @@ test('Yuque Vocab Integration: Daxue dataset loads 876 roots, renders root card,
   assert.ok(match, 'Search for bullet should find its root card');
   assert.strictEqual(match.root, 'bull-/boul-');
   assert.ok(match.mnemonic.includes('ball'));
+});
+
+test('Vocab Recite: Remembers and seamlessly restores last wordbook and word position upon re-entry and reload', () => {
+  const { elements, storage } = setupTestEnv();
+
+  // 1. Initial load
+  global.window.VocabModule.init('vocabSection');
+
+  // 2. Switch to yuque_sucheng
+  elements.vocabSourceSelect.value = 'yuque_sucheng';
+  elements.vocabSourceSelect.onchange();
+
+  // Advance cards
+  global.window.VocabModule.goToNextCard(); // to index 1
+  const word1 = elements.vocabWordFront.textContent;
+  assert.ok(word1.length > 0, 'Must have rendered word at index 1');
+
+  // Check that last position was persisted in storage
+  const savedJson = storage['KAOYAN_VOCAB_LAST_POSITION_V2'];
+  assert.ok(savedJson, 'KAOYAN_VOCAB_LAST_POSITION_V2 must be saved in localStorage');
+  const posObj = JSON.parse(savedJson);
+  assert.strictEqual(posObj.source, 'yuque_sucheng');
+  assert.strictEqual(posObj.lastWord, word1);
+
+  // 3. Simulate re-entering vocab mode (e.g., from reading practice without page refresh)
+  global.window.VocabModule.init('vocabSection');
+  assert.strictEqual(elements.vocabWordFront.textContent, word1, 'Re-entry without refresh must stay on last word');
+
+  // 4. Simulate page refresh (new environment, preserving storage)
+  const env2 = setupTestEnv();
+  // Copy previous storage
+  Object.assign(env2.storage, storage);
+  env2.storage['KAOYAN_VOCAB_LAST_POSITION_V2'] = savedJson;
+
+  global.window.VocabModule.init('vocabSection');
+  assert.strictEqual(env2.elements.vocabSourceSelect.value, 'yuque_sucheng', 'Restores wordbook on refresh');
+  assert.strictEqual(env2.elements.vocabWordFront.textContent, word1, 'Restores word on refresh');
+
+  // 5. Switch to yuque_daxue
+  env2.elements.vocabSourceSelect.value = 'yuque_daxue';
+  env2.elements.vocabSourceSelect.onchange();
+  global.window.VocabModule.goToNextCard();
+  const daxueWord = env2.elements.vocabWordFront.textContent;
+  assert.notStrictEqual(daxueWord, word1);
+
+  // Switch back to yuque_sucheng -> should resume word1
+  env2.elements.vocabSourceSelect.value = 'yuque_sucheng';
+  env2.elements.vocabSourceSelect.onchange();
+  assert.strictEqual(env2.elements.vocabWordFront.textContent, word1, 'Switching back to yuque_sucheng resumes word1');
+
+  // Switch back to yuque_daxue -> should resume daxueWord
+  env2.elements.vocabSourceSelect.value = 'yuque_daxue';
+  env2.elements.vocabSourceSelect.onchange();
+  assert.strictEqual(env2.elements.vocabWordFront.textContent, daxueWord, 'Switching back to yuque_daxue resumes daxueWord');
 });

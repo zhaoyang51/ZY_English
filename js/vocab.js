@@ -12,6 +12,7 @@
 (function() {
   const STORAGE_KEY = 'KAOYAN_VOCAB_PROGRESS_V2';
   const SETTINGS_KEY = 'KAOYAN_VOCAB_USER_SETTINGS_V1';
+  const LAST_POSITION_KEY = 'KAOYAN_VOCAB_LAST_POSITION_V2';
 
   // 艾宾浩斯 9 级复习周期 (毫秒)
   // [5分钟, 30分钟, 12小时, 1天, 2天, 4天, 7天, 15天, 30天]
@@ -110,6 +111,9 @@
   let toastTimer = null;
 
   window.VocabModule = {
+    lastPosition: null,
+    targetResumeWord: null,
+
     init(containerId) {
       const container = document.getElementById(containerId || 'vocabSection');
       if (!container) return;
@@ -138,6 +142,20 @@
           if (typeof cfg.spellingMode === 'boolean') appState.spellingMode = cfg.spellingMode;
         }
       } catch (e) {}
+
+      try {
+        const posSaved = localStorage.getItem(LAST_POSITION_KEY);
+        if (posSaved) {
+          this.lastPosition = JSON.parse(posSaved);
+          if (this.lastPosition) {
+            if (this.lastPosition.source) appState.filters.source = this.lastPosition.source;
+            if (this.lastPosition.year) appState.filters.year = this.lastPosition.year;
+            if (this.lastPosition.text) appState.filters.text = this.lastPosition.text;
+            if (this.lastPosition.state) appState.filters.state = this.lastPosition.state;
+            if (this.lastPosition.sort) appState.filters.sort = this.lastPosition.sort;
+          }
+        }
+      } catch (e) {}
     },
 
     saveSettings() {
@@ -150,7 +168,52 @@
       } catch (e) {}
     },
 
+    saveLastPosition() {
+      if (!appState.currentList || appState.currentList.length === 0) return;
+      const idx = appState.currentIndex;
+      const cur = appState.currentList[idx];
+      if (!cur) return;
+      const word = String(cur.word || cur.root || '').trim();
+      const src = appState.filters.source || 'all';
+
+      if (!this.lastPosition) {
+        this.lastPosition = {
+          source: src,
+          year: appState.filters.year,
+          text: appState.filters.text,
+          state: appState.filters.state,
+          sort: appState.filters.sort,
+          lastWord: word,
+          lastIndex: idx,
+          sourcePositions: {}
+        };
+      }
+
+      this.lastPosition.source = src;
+      this.lastPosition.year = appState.filters.year;
+      this.lastPosition.text = appState.filters.text;
+      this.lastPosition.state = appState.filters.state;
+      this.lastPosition.sort = appState.filters.sort;
+      this.lastPosition.lastWord = word;
+      this.lastPosition.lastIndex = idx;
+
+      if (!this.lastPosition.sourcePositions) {
+        this.lastPosition.sourcePositions = {};
+      }
+      this.lastPosition.sourcePositions[src] = {
+        word: word,
+        index: idx,
+        year: appState.filters.year,
+        text: appState.filters.text
+      };
+
+      try {
+        localStorage.setItem(LAST_POSITION_KEY, JSON.stringify(this.lastPosition));
+      } catch (e) {}
+    },
+
     syncWithAppState() {
+      if (this.lastPosition && this.lastPosition.source) return;
       if (appState.filters.source !== 'all') return;
       if (window.AppState) {
         const y = String(window.AppState.year);
@@ -682,11 +745,19 @@
       const handleSourceChange = () => {
         const val = els.sourceSelect.value;
         appState.filters.source = val;
+
+        const savedSrcPos = this.lastPosition?.sourcePositions?.[val];
+        if (savedSrcPos) {
+          appState.filters.year = savedSrcPos.year || 'all';
+          appState.filters.text = savedSrcPos.text || 'all';
+          this.targetResumeWord = savedSrcPos.word;
+        } else {
+          appState.filters.year = 'all';
+          appState.filters.text = 'all';
+          this.targetResumeWord = null;
+        }
+
         this.populateDropdowns();
-        if (els.yearSelect) els.yearSelect.value = 'all';
-        appState.filters.year = 'all';
-        if (els.textSelect) els.textSelect.value = 'all';
-        appState.filters.text = 'all';
         this.applyFiltersAndRender();
         let toastName = '📚 全真题词库';
         if (val === 'yuque_sucheng') toastName = '⚡ 单词大观·2-4天速成版 (2,868词)';
@@ -847,6 +918,10 @@
     populateDropdowns() {
       const source = appState.filters.source;
 
+      if (els.sourceSelect) {
+        els.sourceSelect.value = source;
+      }
+
       if (source === 'yuque_sucheng') {
         if (els.filterLabel1) els.filterLabel1.textContent = '构词分类';
         if (els.filterLabel2) els.filterLabel2.textContent = '分册定位';
@@ -857,11 +932,6 @@
             <option value="独立词型">独立词型 (839词)</option>
             <option value="直接背型">直接背型 (354词)</option>
           `;
-          els.yearSelect.value = 'all';
-        }
-        if (els.textSelect) {
-          els.textSelect.innerHTML = '<option value="all">全量分册</option>';
-          els.textSelect.value = 'all';
         }
       } else if (source === 'yuque_daxue') {
         if (els.filterLabel1) els.filterLabel1.textContent = '考频分层';
@@ -874,22 +944,12 @@
             <option value="考频3-4次">考频3-4次 (94词根)</option>
             <option value="考频5次以上">考频5次以上 (60词根)</option>
           `;
-          els.yearSelect.value = 'all';
-        }
-        if (els.textSelect) {
-          els.textSelect.innerHTML = '<option value="all">全量单元</option>';
-          els.textSelect.value = 'all';
         }
       } else if (source === 'bookmarked') {
         if (els.filterLabel1) els.filterLabel1.textContent = '定位年份';
         if (els.filterLabel2) els.filterLabel2.textContent = '定位篇章';
         if (els.yearSelect) {
           els.yearSelect.innerHTML = '<option value="all">全部收藏年份</option>';
-          els.yearSelect.value = 'all';
-        }
-        if (els.textSelect) {
-          els.textSelect.innerHTML = '<option value="all">全部收藏篇章</option>';
-          els.textSelect.value = 'all';
         }
       } else {
         // Standard All Exam Bank
@@ -899,9 +959,38 @@
           const years = Array.from(new Set(appState.rawVocabData.map(w => w.year))).sort((a,b) => b-a);
           els.yearSelect.innerHTML = '<option value="all">全量年份 (2010-2026)</option>' +
             years.map(y => `<option value="${y}">${y} 年真题</option>`).join('');
-          els.yearSelect.value = 'all';
         }
-        this.updateTextDropdown();
+      }
+
+      // Restore yearSelect value
+      const targetYear = appState.filters.year || 'all';
+      if (els.yearSelect) {
+        if (Array.from(els.yearSelect.options).some(o => o.value === targetYear)) {
+          els.yearSelect.value = targetYear;
+        } else {
+          els.yearSelect.value = 'all';
+          appState.filters.year = 'all';
+        }
+      }
+
+      this.updateTextDropdown();
+
+      // Restore textSelect value
+      const targetText = appState.filters.text || 'all';
+      if (els.textSelect) {
+        if (Array.from(els.textSelect.options).some(o => o.value === targetText)) {
+          els.textSelect.value = targetText;
+        } else {
+          els.textSelect.value = 'all';
+          appState.filters.text = 'all';
+        }
+      }
+
+      if (els.stateSelect && appState.filters.state) {
+        els.stateSelect.value = appState.filters.state;
+      }
+      if (els.sortSelect && appState.filters.sort) {
+        els.sortSelect.value = appState.filters.sort;
       }
     },
 
@@ -1041,8 +1130,44 @@
         }
       }
 
+      // Resolve resume position
+      let targetIndex = 0;
+      const targetWord = (this.targetResumeWord !== undefined && this.targetResumeWord !== null) ?
+        this.targetResumeWord :
+        (this.lastPosition && this.lastPosition.source === source ? this.lastPosition.lastWord :
+         (this.lastPosition?.sourcePositions?.[source]?.word || null));
+      this.targetResumeWord = undefined;
+
+      const norm = s => String(s || '').trim().toLowerCase();
+
+      if (search) {
+        if (targetWord) {
+          const foundIdx = list.findIndex(w => norm(w.word || w.root) === norm(targetWord));
+          if (foundIdx !== -1) targetIndex = foundIdx;
+          else targetIndex = 0;
+        }
+      } else if (targetWord) {
+        const foundIdx = list.findIndex(w => norm(w.word || w.root) === norm(targetWord));
+        if (foundIdx !== -1) {
+          targetIndex = foundIdx;
+        } else {
+          const savedIdx = (this.lastPosition && this.lastPosition.source === source) ?
+            this.lastPosition.lastIndex :
+            (this.lastPosition?.sourcePositions?.[source]?.index ?? 0);
+          if (savedIdx >= 0 && savedIdx < list.length) {
+            targetIndex = savedIdx;
+          }
+        }
+      }
+
+      if (list.length > 0) {
+        targetIndex = Math.min(Math.max(0, targetIndex), list.length - 1);
+      } else {
+        targetIndex = 0;
+      }
+
       appState.currentList = list;
-      appState.currentIndex = 0;
+      appState.currentIndex = targetIndex;
       appState.isFlipped = false;
 
       this.updateStats();
@@ -1149,9 +1274,16 @@
       }
 
       const total = appState.currentList.length;
-      const idx = appState.currentIndex;
+      let idx = appState.currentIndex;
+      if (idx >= total) {
+        idx = Math.max(0, total - 1);
+        appState.currentIndex = idx;
+      }
       const cur = appState.currentList[idx];
-      const word = cur.word;
+      if (!cur) return;
+      const word = cur.word || cur.root || '';
+
+      this.saveLastPosition();
 
       // Update Topbar Progress (e.g. 9/10)
       const progStr = `${idx + 1}/${total}`;
