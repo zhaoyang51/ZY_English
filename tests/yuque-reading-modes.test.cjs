@@ -20,8 +20,10 @@ test('Yuque Reading Manifest and HTML integration tests', () => {
   assert.strictEqual(manifest.practice['2010_text1'], '2010_text1_做题模式.html');
   assert.strictEqual(manifest.review['2010_text1'], '2010_text1_复盘模式.html');
 
-  // Verify missing篇目 correctly evaluate to undefined
-  assert.strictEqual(manifest.practice['2010_text2'], undefined, '2010 Text 2 should not exist in Yuque');
+  // Verify 2010_text2 is present and missing篇目 correctly evaluate to undefined
+  assert.strictEqual(manifest.practice['2010_text2'], '2010_text2_做题模式.html');
+  assert.strictEqual(manifest.review['2010_text2'], '2010_text2_复盘模式.html');
+  assert.strictEqual(manifest.practice['2015_text1'], undefined, '2015 Text 1 should not exist in Yuque');
   assert.strictEqual(manifest.practice['2022_text1'], undefined, '2022 Text 1 should not exist in Yuque');
 
   // 2. Verify all files in manifest physically exist on disk
@@ -88,6 +90,15 @@ test('Yuque Reading Manifest and HTML integration tests', () => {
   assert.ok(sampleReview2025.includes('id="panCenter"'), '2025 Review file should contain panCenter button');
   assert.ok(sampleReview2025.includes('centerHorizontal'), '2025 Review file should contain centerHorizontal logic');
   assert.ok(sampleReview2025.includes('setupDragToPan'), '2025 Review file should support drag-to-pan');
+
+  // Verify newly added files (e.g. 2010_text2) have full zoom and centering enhancements
+  const samplePracticeNew = read('英二做题和复盘模式/2010_text2_做题模式.html');
+  assert.ok(samplePracticeNew.includes('applyZoom(zoomLevel+5)'), 'New practice file 2010_text2 should have zoom logic');
+  assert.ok(samplePracticeNew.includes('id="panCenter"'), 'New practice file 2010_text2 should have panCenter button');
+
+  const sampleReviewNew = read('英二做题和复盘模式/2010_text2_复盘模式.html');
+  assert.ok(sampleReviewNew.includes('applyZoom(zoomLevel+5)'), 'New review file 2010_text2 should have zoom logic');
+  assert.ok(sampleReviewNew.includes('id="panCenter"'), 'New review file 2010_text2 should have panCenter button');
 
   // 6. Verify app.js removes redundant labels and hides disabled step controls in yuque mode
   const appJs = read('js/app.js');
