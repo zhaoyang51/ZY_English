@@ -17,9 +17,9 @@ button,select{font:13px/1.2 "Microsoft YaHei";border:1px solid #cfd6df;backgroun
 @media(max-width:1100px){body{overflow:auto}.layout,.layout.split,.layout.single{height:auto;grid-template-columns:1fr}.leftPanel,.rightPanel{height:72vh}.leftPanel[hidden]{display:none}.stage{padding:26px 25px 58px}.stepTitle{font-size:23px}.lectureBody{font-size:15.5px}.newtypePaper{padding:20px 20px 48px;font-size:17px}}
 
 .wholeArticleLogic{font-size:16px;line-height:1.76}.wholeArticleLogic .logicParagraph{margin:0 0 1.15em;padding:0 0 1.05em;border-bottom:1px dashed #d8dee7}.wholeArticleLogic .logicParagraph:last-child{border-bottom:0}.wholeArticleLogic p{margin:0}.logicEnglish{font-family:"Times New Roman","Microsoft YaHei","微软雅黑",sans-serif}.logicChinese{font-family:"Microsoft YaHei","微软雅黑","Times New Roman",sans-serif}.lectureBody table td strong{font-weight:800;color:#0f172a}.lectureBody table tr:has(td strong){background:#fffbea}
-</style></head>
+#leftScroll{overflow-x:auto!important;overflow-y:auto!important}#leftScroll::-webkit-scrollbar{width:8px;height:8px}#leftScroll::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:4px}#leftScroll::-webkit-scrollbar-thumb:hover{background:#94a3b8}#leftScroll img{user-select:none;-webkit-user-drag:none}</style></head>
 <body>
-<div class="topbar"><div class="zoomControls" style="display:inline-flex;align-items:center;gap:6px;margin-right:auto"><span style="font-size:13px;color:var(--muted);font-weight:600">🔍 文章:</span><button id="zoomOut" class="btn" title="缩小文章 (A-)" style="padding:4px 9px;font-size:12px;line-height:1">A -</button><span id="zoomVal" style="font-size:12px;font-weight:700;color:var(--ink);min-width:38px;text-align:center">100%</span><button id="zoomIn" class="btn" title="放大文章 (A+)" style="padding:4px 9px;font-size:12px;line-height:1">A +</button><button id="zoomReset" class="btn" title="还原默认大小" style="padding:4px 8px;font-size:12px;line-height:1">↺</button></div><button id="toggleAll" class="ghost">显示全部</button><button id="prev" title="上一步 (快捷键: ←)">上一步</button><button id="next" class="primary" title="下一步 (快捷键: →)">下一步</button><button id="reset">重置</button><select id="jump"><option value="">章节跳转</option></select><div id="progress" class="progress"></div></div>
+<div class="topbar"><div class="zoomControls" style="display:inline-flex;align-items:center;gap:5px;margin-right:auto"><span style="font-size:13px;color:var(--muted);font-weight:600">🔍 文章:</span><button id="zoomOut" class="btn" title="缩小文章 (A-)" style="padding:4px 8px;font-size:12px;line-height:1">A -</button><span id="zoomVal" style="font-size:12px;font-weight:700;color:var(--ink);min-width:38px;text-align:center">100%</span><button id="zoomIn" class="btn" title="放大文章 (A+)" style="padding:4px 8px;font-size:12px;line-height:1">A +</button><button id="zoomReset" class="btn" title="还原默认大小" style="padding:4px 7px;font-size:12px;line-height:1">↺</button><span style="color:#d1d5db;font-size:12px;margin:0 1px">|</span><button id="panLeft" class="btn" title="向左平移画布 (也可直接按住鼠标拖拽)" style="padding:4px 7px;font-size:12px;line-height:1">◀</button><button id="panCenter" class="btn" title="恢复水平居中" style="padding:4px 8px;font-size:12px;line-height:1">居中</button><button id="panRight" class="btn" title="向右平移画布 (也可直接按住鼠标拖拽)" style="padding:4px 7px;font-size:12px;line-height:1">▶</button></div><button id="toggleAll" class="ghost">显示全部</button><button id="prev" title="上一步 (快捷键: ←)">上一步</button><button id="next" class="primary" title="下一步 (快捷键: →)">下一步</button><button id="reset">重置</button><select id="jump"><option value="">章节跳转</option></select><div id="progress" class="progress"></div></div>
 <div id="layout" class="layout single">
 <section id="leftPanel" class="panel leftPanel" hidden><div id="leftScroll" class="scroll"><div id="leftStage" class="leftStage"></div></div></section>
 <section class="panel rightPanel"><div id="rightScroll" class="scroll rightScroll"><div id="rightContent"></div></div></section>
@@ -116,6 +116,57 @@ window.addEventListener('keydown',e=>{
 let zoomLevel=Number(localStorage.getItem('reading_review_zoom')||localStorage.getItem('reading_article_zoom')||100);
 if(isNaN(zoomLevel)||zoomLevel<70||zoomLevel>240)zoomLevel=100;
 let currentPlace=null;
+function centerHorizontal(){
+  requestAnimationFrame(()=>{
+    if(!leftScroll)return;
+    if(zoomLevel>100&&leftScroll.scrollWidth>leftScroll.clientWidth){
+      leftScroll.scrollLeft=Math.max(0,Math.round((leftScroll.scrollWidth-leftScroll.clientWidth)/2));
+    }else{
+      leftScroll.scrollLeft=0;
+    }
+    updateDragCursor();
+  });
+}
+function updateDragCursor(){
+  if(!leftScroll)return;
+  if(zoomLevel>100&&(leftScroll.scrollWidth>leftScroll.clientWidth||leftScroll.scrollHeight>leftScroll.clientHeight)){
+    leftScroll.style.cursor='grab';
+  }else{
+    leftScroll.style.cursor='';
+  }
+}
+function setupDragToPan(scrollEl){
+  if(!scrollEl)return;
+  let isDown=false,startX=0,startY=0,sl=0,st=0;
+  scrollEl.addEventListener('mousedown',e=>{
+    if(e.button!==0)return;
+    const tag=(e.target&&e.target.tagName)||'';
+    if(tag==='BUTTON'||tag==='SELECT'||tag==='INPUT'||tag==='A')return;
+    if(zoomLevel<=100&&scrollEl.scrollWidth<=scrollEl.clientWidth&&scrollEl.scrollHeight<=scrollEl.clientHeight)return;
+    isDown=true;
+    startX=e.clientX;
+    startY=e.clientY;
+    sl=scrollEl.scrollLeft;
+    st=scrollEl.scrollTop;
+    scrollEl.style.cursor='grabbing';
+    scrollEl.style.userSelect='none';
+    e.preventDefault();
+  });
+  window.addEventListener('mousemove',e=>{
+    if(!isDown)return;
+    scrollEl.scrollLeft=sl-(e.clientX-startX);
+    scrollEl.scrollTop=st-(e.clientY-startY);
+  });
+  const up=()=>{
+    if(!isDown)return;
+    isDown=false;
+    scrollEl.style.userSelect='';
+    updateDragCursor();
+  };
+  window.addEventListener('mouseup',up);
+  window.addEventListener('mouseleave',up);
+  scrollEl.querySelectorAll('img').forEach(img=>{img.setAttribute('draggable','false');img.style.userSelect='none';});
+}
 function applyZoom(val){
   zoomLevel=Math.max(70,Math.min(240,val));
   try{
@@ -149,6 +200,7 @@ function applyZoom(val){
       paper.style.setProperty('max-width','none','important');
     }
   }
+  centerHorizontal();
 }
 const zIn=document.getElementById('zoomIn');
 if(zIn)zIn.onclick=()=>{applyZoom(zoomLevel+5);if(currentPlace)currentPlace();};
@@ -156,6 +208,13 @@ const zOut=document.getElementById('zoomOut');
 if(zOut)zOut.onclick=()=>{applyZoom(zoomLevel-5);if(currentPlace)currentPlace();};
 const zReset=document.getElementById('zoomReset');
 if(zReset)zReset.onclick=()=>{applyZoom(100);if(currentPlace)currentPlace();};
+const pLeft=document.getElementById('panLeft');
+if(pLeft)pLeft.onclick=()=>{if(leftScroll)leftScroll.scrollLeft=Math.max(0,leftScroll.scrollLeft-120);};
+const pRight=document.getElementById('panRight');
+if(pRight)pRight.onclick=()=>{if(leftScroll)leftScroll.scrollLeft=Math.min(leftScroll.scrollWidth-leftScroll.clientWidth,leftScroll.scrollLeft+120);};
+const pCenter=document.getElementById('panCenter');
+if(pCenter)pCenter.onclick=()=>centerHorizontal();
+setupDragToPan(document.getElementById('leftScroll'));
 setTimeout(()=>applyZoom(zoomLevel),60);
 render();
 </script></body></html>

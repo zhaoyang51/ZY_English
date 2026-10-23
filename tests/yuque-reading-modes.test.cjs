@@ -60,6 +60,12 @@ test('Yuque Reading Manifest and HTML integration tests', () => {
   assert.ok(samplePractice.includes('applyZoom'), 'Practice file should contain applyZoom logic');
   assert.ok(samplePractice.includes('applyZoom(zoomLevel+5)'), 'Practice file should adjust zoom by +5%');
   assert.ok(samplePractice.includes('applyZoom(zoomLevel-5)'), 'Practice file should adjust zoom by -5%');
+  assert.ok(samplePractice.includes('id="panLeft"'), 'Practice file should contain panLeft button');
+  assert.ok(samplePractice.includes('id="panCenter"'), 'Practice file should contain panCenter button');
+  assert.ok(samplePractice.includes('id="panRight"'), 'Practice file should contain panRight button');
+  assert.ok(samplePractice.includes('centerHorizontal'), 'Practice file should contain centerHorizontal logic');
+  assert.ok(samplePractice.includes('setupDragToPan'), 'Practice file should support drag-to-pan');
+  assert.ok(samplePractice.includes('#leftPane{overflow-x:auto!important'), 'Practice file should support horizontal scroll');
 
   // 5b. Verify review mode 2 files have zoom controls (5% step)
   const sampleReview = read('英二做题和复盘模式/2017_text1_复盘模式.html');
@@ -69,10 +75,19 @@ test('Yuque Reading Manifest and HTML integration tests', () => {
   assert.ok(sampleReview.includes('applyZoom'), 'Review file should contain applyZoom logic');
   assert.ok(sampleReview.includes('applyZoom(zoomLevel+5)'), 'Review file should adjust zoom by +5%');
   assert.ok(sampleReview.includes('applyZoom(zoomLevel-5)'), 'Review file should adjust zoom by -5%');
+  assert.ok(sampleReview.includes('id="panLeft"'), 'Review file should contain panLeft button');
+  assert.ok(sampleReview.includes('id="panCenter"'), 'Review file should contain panCenter button');
+  assert.ok(sampleReview.includes('id="panRight"'), 'Review file should contain panRight button');
+  assert.ok(sampleReview.includes('centerHorizontal'), 'Review file should contain centerHorizontal logic');
+  assert.ok(sampleReview.includes('setupDragToPan'), 'Review file should support drag-to-pan');
+  assert.ok(sampleReview.includes('#leftScroll{overflow-x:auto!important'), 'Review file should support horizontal scroll');
 
   const sampleReview2025 = read('英二做题和复盘模式/2025_text2_复盘模式.html');
   assert.ok(sampleReview2025.includes('id="zoomIn"'), '2025 Review file should contain zoomIn button');
   assert.ok(sampleReview2025.includes('applyZoom(zoomLevel+5)'), '2025 Review file should adjust zoom by +5%');
+  assert.ok(sampleReview2025.includes('id="panCenter"'), '2025 Review file should contain panCenter button');
+  assert.ok(sampleReview2025.includes('centerHorizontal'), '2025 Review file should contain centerHorizontal logic');
+  assert.ok(sampleReview2025.includes('setupDragToPan'), '2025 Review file should support drag-to-pan');
 
   // 6. Verify app.js removes redundant labels and hides disabled step controls in yuque mode
   const appJs = read('js/app.js');
