@@ -71,6 +71,12 @@ function setupTestEnv() {
   const stateSelect = createElement('vocabStateSelect', 'select');
   stateSelect.value = 'all';
   const sortSelect = createElement('vocabSortSelect', 'select');
+  sortSelect.options = [
+    { value: 'default', textContent: '真题顺序' },
+    { value: 'frequency', textContent: '🔥 考频降序 (高频优先)' },
+    { value: 'urgency', textContent: '🚨 遗忘紧迫优先' },
+    { value: 'random', textContent: '🔀 随机打乱' }
+  ];
   sortSelect.value = 'default';
 
   createElement('vocabCurrentListCount');
@@ -343,3 +349,39 @@ test('Vocab Recite: Remembers and seamlessly restores last wordbook and word pos
   env2.elements.vocabSourceSelect.onchange();
   assert.strictEqual(env2.elements.vocabWordFront.textContent, daxueWord, 'Switching back to yuque_daxue resumes daxueWord');
 });
+
+test('Vocab Recite: Sort Strategy supports Frequency sorting (high frequency first)', () => {
+  const { elements } = setupTestEnv();
+
+  // Initialize with Sucheng dataset (already loaded in setupTestEnv)
+  global.window.VocabModule.init('vocabSection');
+  elements.vocabSourceSelect.value = 'yuque_sucheng';
+  elements.vocabSourceSelect.onchange();
+
+  // Verify sort select exists and has frequency option
+  const hasFreqOpt = elements.vocabSortSelect.options.some(o => o.value === 'frequency');
+  assert.ok(hasFreqOpt, 'vocabSortSelect must contain frequency option');
+
+  // Change sort to frequency
+  elements.vocabSortSelect.value = 'frequency';
+  elements.vocabSortSelect.onchange();
+
+  // Show study view to render first card
+  global.window.VocabModule.showStudyView();
+
+  // Get first word under frequency sort
+  const firstWord = elements.vocabMomoWord.textContent;
+  const firstBadge = elements.vocabMomoFreqBadge.textContent;
+  const firstFreqNum = parseInt(firstBadge.replace(/\D/g, '')) || 0;
+
+  // The first word in yuque_sucheng should have high frequency (>= 30)
+  assert.ok(firstFreqNum >= 30, `Expected first word under frequency sort to have frequency >= 30, got ${firstFreqNum} (${firstWord})`);
+
+  // Move to next word, its frequency must be <= firstFreqNum
+  global.window.VocabModule.goToNextCard();
+  const secondWord = elements.vocabMomoWord.textContent;
+  const secondBadge = elements.vocabMomoFreqBadge.textContent;
+  const secondFreqNum = parseInt(secondBadge.replace(/\D/g, '')) || 0;
+  assert.ok(firstFreqNum >= secondFreqNum, `Frequency sort order must be descending: ${firstFreqNum} >= ${secondFreqNum}`);
+});
+

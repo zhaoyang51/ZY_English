@@ -261,13 +261,22 @@
 
     getWordFrequency(word, cur) {
       if (cur) {
-        if (cur.freq) return { text: `考频 ${cur.freq}次`, num: cur.freq };
+        if (cur.freq) return { text: `考频 ${cur.freq}次`, num: Number(cur.freq) };
         if (cur.freqTier) return { text: cur.freqTier, num: parseInt(String(cur.freqTier).replace(/\D/g, '')) || 1 };
       }
       const wLow = String(word || '').toLowerCase().trim();
       if (window.YUQUE_SUCHENG_VOCAB) {
         const found = window.YUQUE_SUCHENG_VOCAB.find(x => x.word && x.word.toLowerCase() === wLow);
-        if (found && found.freq) return { text: `考频 ${found.freq}次`, num: found.freq };
+        if (found && found.freq) return { text: `考频 ${found.freq}次`, num: Number(found.freq) };
+      }
+      if (window.KAOYAN_VOCAB_RELATIONS && window.KAOYAN_VOCAB_RELATIONS[wLow]) {
+        const rel = window.KAOYAN_VOCAB_RELATIONS[wLow];
+        if (rel.sentences && rel.sentences.length > 0) {
+          const sentCount = rel.sentences.length;
+          const bankCount = (this.freqMap && this.freqMap[wLow]) || 1;
+          const maxCount = Math.max(sentCount, bankCount);
+          return { text: `考频 ${maxCount}次`, num: maxCount };
+        }
       }
       const count = (this.freqMap && this.freqMap[wLow]) || 1;
       return { text: `考频 ${count}次`, num: count };
@@ -527,6 +536,7 @@
                 <label class="vocab-filter-label">背诵策略</label>
                 <select id="vocabSortSelect" class="vocab-select">
                   <option value="default">真题顺序</option>
+                  <option value="frequency">🔥 考频降序 (高频优先)</option>
                   <option value="urgency">🚨 遗忘紧迫优先</option>
                   <option value="random">🔀 随机打乱</option>
                 </select>
@@ -991,7 +1001,22 @@
       if (els.sortSelect) {
         els.sortSelect.onchange = () => {
           appState.filters.sort = els.sortSelect.value;
+          this.targetResumeWord = null;
+          appState.currentIndex = 0;
+          if (this.lastPosition) {
+            this.lastPosition.lastWord = null;
+            this.lastPosition.lastIndex = 0;
+            if (this.lastPosition.sourcePositions && this.lastPosition.sourcePositions[appState.filters.source]) {
+              this.lastPosition.sourcePositions[appState.filters.source].word = null;
+              this.lastPosition.sourcePositions[appState.filters.source].index = 0;
+            }
+          }
           this.applyFiltersAndRender();
+          let sName = '真题顺序';
+          if (appState.filters.sort === 'frequency') sName = '🔥 考频降序 (高频优先)';
+          else if (appState.filters.sort === 'urgency') sName = '🚨 遗忘紧迫优先';
+          else if (appState.filters.sort === 'random') sName = '🔀 随机打乱';
+          this.showToast(`已切换背诵策略：${sName}`);
         };
       }
 
@@ -1344,11 +1369,22 @@
       // Sorting Strategy
       if (sort === 'urgency') {
         list.sort((a, b) => {
-          const recA = appState.progress[a.word];
-          const recB = appState.progress[b.word];
+          const recA = appState.progress[a.word || a.root];
+          const recB = appState.progress[b.word || b.root];
           const timeA = recA ? recA.nextReviewTime : 0;
           const timeB = recB ? recB.nextReviewTime : 0;
           return timeA - timeB;
+        });
+      } else if (sort === 'frequency') {
+        list.sort((a, b) => {
+          const freqA = this.getWordFrequency(a.word || a.root, a).num || 1;
+          const freqB = this.getWordFrequency(b.word || b.root, b).num || 1;
+          if (freqB !== freqA) {
+            return freqB - freqA; // 降序：高频优先
+          }
+          const wordA = String(a.word || a.root || '').toLowerCase();
+          const wordB = String(b.word || b.root || '').toLowerCase();
+          return wordA.localeCompare(wordB);
         });
       } else if (sort === 'random') {
         for (let i = list.length - 1; i > 0; i--) {
