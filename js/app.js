@@ -6,7 +6,8 @@
   const AppState = {
     year: 2010,
     textId: 1,
-    mode: 'practice', // 'practice' | 'review'
+    mode: 'practice', // 'practice' | 'review' | 'vocab'
+    lastReadingMode: 'practice',
     practiceSubmode: 'step', // 'mock' | 'step'
     reviewSubmode: (function() {
       try { return localStorage.getItem('kaoyan_review_submode') || 'mode1'; } catch(e) { return 'mode1'; }
@@ -422,7 +423,15 @@
     if (saved) {
       if (saved.year) AppState.year = Number(saved.year);
       if (saved.textId) AppState.textId = isNaN(Number(saved.textId)) ? saved.textId : Number(saved.textId);
-      if (saved.mode === 'practice' || saved.mode === 'review' || saved.mode === 'vocab') AppState.mode = saved.mode;
+      if (saved.mode === 'practice' || saved.mode === 'review' || saved.mode === 'vocab') {
+        AppState.mode = saved.mode;
+        if (saved.mode !== 'vocab') {
+          AppState.lastReadingMode = saved.mode;
+        }
+      }
+      if (saved.lastReadingMode === 'practice' || saved.lastReadingMode === 'review') {
+        AppState.lastReadingMode = saved.lastReadingMode;
+      }
       if (saved.practiceSubmode === 'mock' || saved.practiceSubmode === 'step') AppState.practiceSubmode = saved.practiceSubmode;
       if (saved.reviewSubmode === 'mode1' || saved.reviewSubmode === 'mode2') AppState.reviewSubmode = saved.reviewSubmode;
       if (typeof saved.stepIndex === 'number') AppState.savedStepIndex = saved.stepIndex;
@@ -1081,6 +1090,7 @@
       year: AppState.year,
       textId: AppState.textId,
       mode: AppState.mode,
+      lastReadingMode: AppState.lastReadingMode || 'practice',
       practiceSubmode: AppState.practiceSubmode,
       reviewSubmode: AppState.reviewSubmode,
       stepIndex: AppState.stepIndex,
@@ -3199,6 +3209,7 @@
 
     practiceBtn.addEventListener('click', () => {
       if (AppState.mode === 'practice') return;
+      AppState.lastReadingMode = 'practice';
       AppState.mode = 'practice';
       AppState.savedStepIndex = 0;
       loadCurrentText();
@@ -3206,6 +3217,7 @@
 
     reviewBtn.addEventListener('click', () => {
       if (AppState.mode === 'review') return;
+      AppState.lastReadingMode = 'review';
       AppState.mode = 'review';
       AppState.savedStepIndex = 0;
       loadCurrentText();
@@ -3214,10 +3226,22 @@
     if (vocabBtn) {
       vocabBtn.addEventListener('click', () => {
         if (AppState.mode === 'vocab') return;
+        if (AppState.mode !== 'vocab') {
+          AppState.lastReadingMode = AppState.mode;
+        }
         AppState.mode = 'vocab';
         loadCurrentText();
       });
     }
+
+    window.exitVocabMode = function() {
+      const targetMode = (AppState.lastReadingMode && AppState.lastReadingMode !== 'vocab')
+        ? AppState.lastReadingMode
+        : 'practice';
+      AppState.mode = targetMode;
+      AppState.savedStepIndex = 0;
+      loadCurrentText();
+    };
 
     // 4. Submode Toggle (Mock vs Step)
     const mockBtn = document.getElementById('submodeMockBtn');

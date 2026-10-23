@@ -51,6 +51,7 @@ function setupTestEnv() {
   // Pre-create all elements referenced in cacheDomElements
   createElement('vocabSection');
   createElement('vocabHomeFrame');
+  createElement('vocabHomeBtnBack');
   createElement('vocabHomeCardLearn');
   createElement('vocabHomeCountLearn');
   createElement('vocabHomeCardReview');
@@ -442,5 +443,27 @@ test('Vocab Recite: Learn and Review queues filter correctly and top-left shows 
   assert.ok(elements.vocabMomoProgress.textContent.includes('1'), 'Remaining review count must be 1');
   assert.strictEqual(elements.vocabMomoWord.textContent, w1, 'Must review the due word');
 });
+
+test('Vocab Recite: Back button in top-left exits vocab mode and dict selector is positioned in top-right', () => {
+  const { elements } = setupTestEnv();
+
+  let exitCalled = false;
+  global.window.exitVocabMode = () => {
+    exitCalled = true;
+  };
+
+  global.window.VocabModule.init('vocabSection');
+  global.window.VocabModule.showHomeView();
+
+  const homeHtml = elements.vocabSection.innerHTML;
+  assert.ok(homeHtml.includes('vocab-home-btn-back'), 'Home topbar must contain back button in top-left');
+  assert.ok(homeHtml.includes('vocab-home-topbar-right'), 'Home topbar must group dict selector in top-right');
+  assert.ok(homeHtml.includes('vocabHomeDictPill'), 'Dict selector must be present in top-right group');
+
+  // Click top-left back button
+  elements.vocabHomeBtnBack.onclick();
+  assert.strictEqual(exitCalled, true, 'Clicking top-left back button must trigger exitVocabMode to return to reading');
+});
+
 
 

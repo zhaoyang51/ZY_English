@@ -24,6 +24,7 @@
           year: state.year,
           textId: state.textId,
           mode: state.mode,
+          lastReadingMode: state.lastReadingMode || 'practice',
           practiceSubmode: state.practiceSubmode || 'step',
           stepIndex: state.stepIndex,
           theme: state.theme,

@@ -303,12 +303,19 @@
         <!-- MoMo Vocab Home Page (Matching User Figure 1: Pastoral Tree & Learn/Review Cards) -->
         <div class="vocab-home-frame" id="vocabHomeFrame">
           <div class="vocab-home-topbar">
-            <div class="vocab-home-dict-pill" id="vocabHomeDictPill" title="点击切换词书">
-              <span class="dict-icon">📖</span>
-              <span class="dict-name" id="vocabHomeDictName">历年真题核心词库</span>
-              <span class="dict-caret">▼</span>
+            <div class="vocab-home-topbar-left">
+              <button class="vocab-home-btn-back" id="vocabHomeBtnBack" title="返回做题/阅读等界面" aria-label="返回阅读界面">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+              </button>
             </div>
-            <button class="vocab-home-btn-settings" id="vocabHomeBtnSettings" title="词书设置与生词管理">···</button>
+            <div class="vocab-home-topbar-right">
+              <div class="vocab-home-dict-pill" id="vocabHomeDictPill" title="点击切换词书">
+                <span class="dict-icon">📖</span>
+                <span class="dict-name" id="vocabHomeDictName">历年真题核心词库</span>
+                <span class="dict-caret">▼</span>
+              </div>
+              <button class="vocab-home-btn-settings" id="vocabHomeBtnSettings" title="词书设置与生词管理">···</button>
+            </div>
           </div>
 
           <div class="vocab-home-center-stage" id="vocabHomeCenterStage">
@@ -636,6 +643,7 @@
       els = {
         // Home Frame elements
         homeFrame: document.getElementById('vocabHomeFrame'),
+        homeBtnBack: document.getElementById('vocabHomeBtnBack'),
         homeDictPill: document.getElementById('vocabHomeDictPill'),
         homeDictName: document.getElementById('vocabHomeDictName'),
         homeBtnSettings: document.getElementById('vocabHomeBtnSettings'),
@@ -781,6 +789,13 @@
       if (els.btnBack) {
         els.btnBack.onclick = () => {
           this.showHomeView();
+        };
+      }
+
+      // Home Page Back Button (Returns to Reading / Practice / Review Mode)
+      if (els.homeBtnBack) {
+        els.homeBtnBack.onclick = () => {
+          this.exitToReadingMode();
         };
       }
 
@@ -1081,6 +1096,15 @@
         } else if (e.key === 'z' || e.key === 'Z') {
           e.preventDefault();
           this.undoLastGrade();
+        } else if (e.key === 'Escape') {
+          e.preventDefault();
+          if (els.sheetModal && els.sheetModal.classList.contains('is-open')) {
+            this.toggleSettingsSheet(false);
+          } else if (appState.currentView === 'study') {
+            this.showHomeView();
+          } else {
+            this.exitToReadingMode();
+          }
         }
       });
     },
@@ -2139,6 +2163,17 @@
 
     hideCitationsModal() {
       if (els.citationsModal) els.citationsModal.style.display = 'none';
+    },
+
+    exitToReadingMode() {
+      if (typeof window !== 'undefined' && typeof window.exitVocabMode === 'function') {
+        window.exitVocabMode();
+        return;
+      }
+      const practiceBtn = document.getElementById('practiceModeBtn');
+      const reviewBtn = document.getElementById('reviewModeBtn');
+      if (practiceBtn) practiceBtn.click();
+      else if (reviewBtn) reviewBtn.click();
     },
 
     showHomeView() {
