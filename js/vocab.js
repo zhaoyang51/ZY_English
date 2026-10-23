@@ -313,7 +313,6 @@
 
           <div class="vocab-home-center-stage" id="vocabHomeCenterStage">
             <div class="vocab-home-word-card" id="vocabHomeWordCard" title="点击发音">
-              <div class="vocab-home-tag" id="vocabHomeWordTag">★ 收藏生词本</div>
               <h1 class="vocab-home-word" id="vocabHomeWord">Pastoral</h1>
               <div class="vocab-home-phonetic" id="vocabHomePhonetic" title="朗读发音">
                 <span class="phonetic-audio-btn">🔊</span>
@@ -2224,7 +2223,8 @@
       if (els.homeWord) els.homeWord.textContent = w;
       if (els.homeMeaning) els.homeMeaning.textContent = meaning || '暂无释义';
       if (els.homeWordTag) {
-        els.homeWordTag.textContent = isFromBookmarks ? '★ 收藏生词本' : '★ 考研核心精选';
+        els.homeWordTag.textContent = '';
+        els.homeWordTag.style.display = 'none';
       }
 
       const phon = this.getWordPhonetic(w);
