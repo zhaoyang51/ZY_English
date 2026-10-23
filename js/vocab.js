@@ -170,6 +170,7 @@
     loadRawData() {
       const bank = window.KAOYAN_VOCAB_BANK || [];
       appState.rawVocabData = [];
+      this.freqMap = {};
       bank.forEach(([year, text, words]) => {
         words.forEach(([word, meaning]) => {
           appState.rawVocabData.push({
@@ -178,8 +179,24 @@
             word: String(word),
             meaning: String(meaning)
           });
+          const low = String(word || '').toLowerCase().trim();
+          this.freqMap[low] = (this.freqMap[low] || 0) + 1;
         });
       });
+    },
+
+    getWordFrequency(word, cur) {
+      if (cur) {
+        if (cur.freq) return { text: `考频 ${cur.freq}次`, num: cur.freq };
+        if (cur.freqTier) return { text: cur.freqTier, num: parseInt(String(cur.freqTier).replace(/\D/g, '')) || 1 };
+      }
+      const wLow = String(word || '').toLowerCase().trim();
+      if (window.YUQUE_SUCHENG_VOCAB) {
+        const found = window.YUQUE_SUCHENG_VOCAB.find(x => x.word && x.word.toLowerCase() === wLow);
+        if (found && found.freq) return { text: `考频 ${found.freq}次`, num: found.freq };
+      }
+      const count = (this.freqMap && this.freqMap[wLow]) || 1;
+      return { text: `考频 ${count}次`, num: count };
     },
 
     loadProgress() {
@@ -226,6 +243,7 @@
               <div class="momo-word-title-row">
                 <h1 class="momo-word" id="vocabMomoWord">Loading...</h1>
                 <span class="momo-checkmark" id="vocabMomoCheckmark" style="display:none">✓</span>
+                <span class="momo-freq-badge" id="vocabMomoFreqBadge" style="display:none">考频 1次</span>
               </div>
 
               <!-- Spelling Mode Input Line -->
@@ -468,6 +486,7 @@
         frame: document.getElementById('vocabMomoFrame'),
         momoWord: document.getElementById('vocabMomoWord'),
         momoCheckmark: document.getElementById('vocabMomoCheckmark'),
+        momoFreqBadge: document.getElementById('vocabMomoFreqBadge'),
         momoProgress: document.getElementById('vocabMomoProgress'),
         momoPhoneticPill: document.getElementById('vocabMomoPhoneticPill'),
         momoPhoneticText: document.getElementById('vocabMomoPhoneticText'),
@@ -1149,11 +1168,23 @@
       if (els.btnStarFront) els.btnStarFront.textContent = isStarred ? '★' : '☆';
       if (els.btnStarBack) els.btnStarBack.textContent = isStarred ? '★' : '☆';
 
-      // Phonetic Resolution
+      // Phonetic Resolution & Cleaning
       const ph = this.getWordPhonetic(word);
-      const ipa = ph.uk || ph.us || (cur.isRoot ? '' : `/'${word}/`);
+      let ipa = ph.uk || ph.us || (cur.isRoot ? '' : `/'${word}/`);
+      if (ipa) {
+        ipa = ipa.replace(/\"/g, "'").replace(/\/+/g, '/').replace(/^\/+|\/+$/g, '');
+        ipa = `/'${ipa.replace(/^'+|'+$/g, '')}/`;
+      }
       if (els.momoPhoneticText) {
         els.momoPhoneticText.textContent = ipa ? `英 🔊 ${ipa}` : `🔊 发音`;
+      }
+
+      // Exam Frequency Badge on the right of the word
+      const freqInfo = this.getWordFrequency(word, cur);
+      if (els.momoFreqBadge) {
+        els.momoFreqBadge.textContent = freqInfo.text;
+        els.momoFreqBadge.classList.toggle('high-freq', freqInfo.num >= 3);
+        els.momoFreqBadge.style.display = 'inline-flex';
       }
 
       // Word Title with Syllables
@@ -1346,7 +1377,7 @@
         }
       } else if (tab === 'mindchain') {
         if (mindChain) {
-          html = `<div style="font-size:14px;line-height:1.65;color:var(--momo-text-main);white-space:pre-wrap">${mindChain}</div>`;
+          html = `<div class="momo-mindchain-text">${mindChain}</div>`;
         } else {
           html = '<div style="color:var(--momo-text-muted);font-size:13.5px;padding:8px 0">暂无思维链路推导，可点击右侧 ✎+ 自定义助记</div>';
         }

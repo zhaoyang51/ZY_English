@@ -129,6 +129,7 @@ body.mode-vocab .vocab-section {
 
 @media (min-width: 768px) {
   .vocab-momo-frame {
+    max-width: 520px;
     height: 100vh;
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.06);
   }
@@ -233,9 +234,10 @@ body.mode-vocab .vocab-section {
    ========================================================================== */
 .vocab-momo-stage {
   flex: 1 1 auto;
+  min-height: 0;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 10px 20px 20px 20px;
+  padding: 10px 20px 8px 20px;
   -webkit-overflow-scrolling: touch;
   display: flex;
   flex-direction: column;
@@ -290,6 +292,50 @@ body.mode-vocab .vocab-section {
   font-weight: 800;
   box-shadow: 0 2px 8px rgba(13, 148, 136, 0.35);
   animation: momoPopIn 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Exam Frequency Badge */
+.momo-freq-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--momo-text-muted);
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+  vertical-align: middle;
+  user-select: none;
+  animation: momoPopIn 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+body.theme-dark .momo-freq-badge {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #a2b7a8;
+}
+
+body.theme-parchment .momo-freq-badge {
+  background: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.8);
+  color: #554838;
+}
+
+.momo-freq-badge.high-freq {
+  color: #d97706;
+  border-color: rgba(217, 119, 6, 0.35);
+  background: rgba(254, 243, 199, 0.7);
+}
+
+body.theme-dark .momo-freq-badge.high-freq {
+  color: #fbbf24;
+  border-color: rgba(251, 191, 36, 0.35);
+  background: rgba(251, 191, 36, 0.12);
 }
 
 @keyframes momoPopIn {
@@ -474,20 +520,48 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
   transform: scale(1.1);
 }
 
-/* Collocations & Relations Card */
+/* Collocations & Relations Card (Expands to bottom) */
 .vocab-momo-card-relations {
   margin-top: 14px;
+  margin-bottom: 2px;
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 240px;
+  box-sizing: border-box;
 }
 
 .momo-colloc-list {
   display: flex;
   flex-direction: column;
-  gap: 7px;
-  max-height: 220px;
+  gap: 8px;
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: none;
   overflow-y: auto;
-  padding-right: 4px;
+  padding-right: 6px;
+}
+
+.momo-colloc-list::-webkit-scrollbar {
+  width: 5px;
+}
+.momo-colloc-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.momo-colloc-list::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+body.theme-dark .momo-colloc-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.momo-mindchain-text {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--momo-text-main);
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .momo-colloc-row {
@@ -514,9 +588,11 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 14px;
+  margin-top: auto;
   padding-top: 10px;
   border-top: 1px solid rgba(255, 255, 255, 0.35);
+  flex-shrink: 0;
+}
 }
 
 body.theme-dark .momo-relations-tabs-bar {
@@ -576,7 +652,7 @@ body.theme-dark .momo-tab-pill.active {
    ========================================================================== */
 .vocab-momo-bottombar {
   flex-shrink: 0;
-  padding: 12px 20px 24px 20px;
+  padding: 8px 20px 20px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;

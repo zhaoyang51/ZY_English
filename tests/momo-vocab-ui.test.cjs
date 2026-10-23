@@ -23,8 +23,13 @@ test('MoMo Vocab UI: Stylesheet has Morandi mist gradient, serif typography, fro
   assert.ok(css.includes('.bar-amber'), 'Must contain .bar-amber');
   assert.ok(css.includes('.bar-red'), 'Must contain .bar-red');
 
-  // 5. Checkmark badge
+  // 5. Checkmark badge and frequency badge
   assert.ok(css.includes('.momo-checkmark'), 'Must contain .momo-checkmark badge class');
+  assert.ok(css.includes('.momo-freq-badge'), 'Must contain .momo-freq-badge class');
+
+  // 6. Relations card expanded to bottom
+  assert.ok(css.includes('.vocab-momo-card-relations') && css.includes('flex: 1 1 auto'), 'Relations card must expand to bottom with flex: 1 1 auto');
+  assert.ok(css.includes('.momo-colloc-list') && css.includes('flex: 1 1 auto'), 'Collocations list must fill available vertical space');
 });
 
 test('MoMo Vocab UI: JS Engine generates syllables, phonetics, and matches both Unrevealed and Revealed states', () => {
@@ -57,6 +62,10 @@ test('MoMo Vocab UI: JS Engine generates syllables, phonetics, and matches both 
 
   // 6. Settings Modal Sheet
   assert.ok(vocabJs.includes('vocabFilterModal'), 'Must have Settings Modal Sheet');
+
+  // 7. Exam Frequency Badge & Calculation
+  assert.ok(vocabJs.includes('vocabMomoFreqBadge'), 'Must have frequency badge element ID');
+  assert.ok(vocabJs.includes('getWordFrequency'), 'Must have getWordFrequency function');
 });
 
 test('MoMo Vocab UI: Word phonetics dictionary is bundled with 3,500+ authentic entries', () => {
