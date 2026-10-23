@@ -27,9 +27,9 @@ test('MoMo Vocab UI: Stylesheet has Morandi mist gradient, serif typography, fro
   assert.ok(css.includes('.momo-checkmark'), 'Must contain .momo-checkmark badge class');
   assert.ok(css.includes('.momo-freq-badge'), 'Must contain .momo-freq-badge class');
 
-  // 6. Relations card expanded to bottom
-  assert.ok(css.includes('.vocab-momo-card-relations') && css.includes('flex: 1 1 auto'), 'Relations card must expand to bottom with flex: 1 1 auto');
-  assert.ok(css.includes('.momo-colloc-list') && css.includes('flex: 1 1 auto'), 'Collocations list must fill available vertical space');
+  // 6. Relations card expanded to bottom and content scrolls inside white card
+  assert.ok(css.includes('.vocab-momo-card-relations') && css.includes('flex: 1 1 0'), 'Relations card must expand to bottom with flex: 1 1 0');
+  assert.ok(css.includes('.momo-colloc-list') && css.includes('overflow-y: auto'), 'Collocations list must scroll inside white card');
 });
 
 test('MoMo Vocab UI: JS Engine generates syllables, phonetics, and matches both Unrevealed and Revealed states', () => {

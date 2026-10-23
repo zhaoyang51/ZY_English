@@ -233,15 +233,26 @@ body.mode-vocab .vocab-section {
    2. MoMo Central Stage Area
    ========================================================================== */
 .vocab-momo-stage {
-  flex: 1 1 auto;
+  flex: 1 1 0;
   min-height: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding: 10px 20px 8px 20px;
+  height: 0;
+  overflow: hidden;
+  padding: 10px 20px 6px 20px;
   -webkit-overflow-scrolling: touch;
   display: flex;
   flex-direction: column;
   user-select: text;
+}
+
+@media (max-height: 560px) {
+  .vocab-momo-stage {
+    overflow-y: auto;
+  }
+  .vocab-momo-card-relations {
+    min-height: 180px !important;
+    height: auto !important;
+    flex: none !important;
+  }
 }
 
 /* Custom subtle scrollbar */
@@ -520,14 +531,16 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
   transform: scale(1.1);
 }
 
-/* Collocations & Relations Card (Expands to bottom) */
+/* Collocations & Relations Card (Expands to bottom, content scrolls inside white area) */
 .vocab-momo-card-relations {
-  margin-top: 14px;
+  margin-top: 12px;
   margin-bottom: 2px;
   display: flex;
   flex-direction: column;
-  flex: 1 1 auto;
-  min-height: 240px;
+  flex: 1 1 0;
+  min-height: 0;
+  height: 0;
+  overflow: hidden;
   box-sizing: border-box;
 }
 
@@ -535,25 +548,32 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  flex: 1 1 auto;
+  flex: 1 1 0;
   min-height: 0;
+  height: 0;
   max-height: none;
   overflow-y: auto;
+  overflow-x: hidden;
   padding-right: 6px;
+  -webkit-overflow-scrolling: touch;
 }
 
 .momo-colloc-list::-webkit-scrollbar {
   width: 5px;
 }
 .momo-colloc-list::-webkit-scrollbar-track {
-  background: transparent;
-}
-.momo-colloc-list::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 4px;
 }
+.momo-colloc-list::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.momo-colloc-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.35);
+}
 body.theme-dark .momo-colloc-list::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.22);
 }
 
 .momo-mindchain-text {
