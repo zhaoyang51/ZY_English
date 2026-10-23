@@ -134,6 +134,14 @@
       if (!appState.currentView || appState.currentView === 'home') {
         this.showHomeView();
       }
+
+      if (typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabRelations && !window.KAOYAN_VOCAB_RELATIONS) {
+        window.DataLoader.loadVocabRelations().then(() => {
+          if (appState.currentView === 'study' && appState.currentList && appState.currentList[appState.currentIndex]) {
+            this.renderMomoCard(appState.currentList[appState.currentIndex]);
+          }
+        }).catch(() => {});
+      }
     },
 
     loadSettings() {
@@ -1225,11 +1233,39 @@
       this.showStudyView();
     },
 
+    ensureDatasetLoading(source) {
+      if (this._datasetLoading === source) return;
+      this._datasetLoading = source;
+      const isSucheng = source === 'yuque_sucheng';
+      const name = isSucheng ? '⚡ 2-4天速成词库 (2,868词)' : '❄️ 大雪深埋词根 (876词根)';
+      this.showToast(`正在加载 ${name}...`);
+
+      const p = isSucheng
+        ? window.DataLoader.loadVocabSucheng()
+        : window.DataLoader.loadVocabDaxue();
+
+      p.then(() => {
+        this._datasetLoading = null;
+        this.populateDropdowns();
+        this.applyFiltersAndRender();
+        this.updateHomeView();
+        this.showToast(`已加载：${name}`);
+      }).catch(err => {
+        this._datasetLoading = null;
+        this.showToast(`词库加载失败，请检查网络后刷新重试`);
+        console.error(err);
+      });
+    },
+
     applyFiltersAndRender() {
       const { source, year, text, state, sort, search } = appState.filters;
       let list = [];
 
       if (source === 'yuque_sucheng') {
+        if (!window.YUQUE_SUCHENG_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabSucheng) {
+          this.ensureDatasetLoading('yuque_sucheng');
+          return;
+        }
         list = (window.YUQUE_SUCHENG_VOCAB || []).map(item => ({
           word: item.word,
           meaning: item.meaning,
@@ -1245,6 +1281,10 @@
         if (year !== 'all') list = list.filter(w => w.year === year);
         if (text !== 'all') list = list.filter(w => w.text === text);
       } else if (source === 'yuque_daxue') {
+        if (!window.YUQUE_DAXUE_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabDaxue) {
+          this.ensureDatasetLoading('yuque_daxue');
+          return;
+        }
         list = (window.YUQUE_DAXUE_VOCAB || []).map(item => ({
           word: item.root,
           meaning: item.rootInfo || item.meaning,
@@ -2088,9 +2128,17 @@
       this.pickRandomHomeWord();
 
       let fullItems = [];
-      if (src === 'yuque_sucheng') fullItems = window.YUQUE_SUCHENG_VOCAB || [];
-      else if (src === 'yuque_daxue') fullItems = window.YUQUE_DAXUE_VOCAB || [];
-      else if (src === 'bookmarked') fullItems = window.StorageModule ? window.StorageModule.getVocabBook() : [];
+      if (src === 'yuque_sucheng') {
+        if (!window.YUQUE_SUCHENG_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabSucheng) {
+          this.ensureDatasetLoading('yuque_sucheng');
+        }
+        fullItems = window.YUQUE_SUCHENG_VOCAB || [];
+      } else if (src === 'yuque_daxue') {
+        if (!window.YUQUE_DAXUE_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabDaxue) {
+          this.ensureDatasetLoading('yuque_daxue');
+        }
+        fullItems = window.YUQUE_DAXUE_VOCAB || [];
+      } else if (src === 'bookmarked') fullItems = window.StorageModule ? window.StorageModule.getVocabBook() : [];
       else fullItems = appState.rawVocabData;
 
       const now = Date.now();

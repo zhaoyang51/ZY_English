@@ -2366,3 +2366,33 @@ body.theme-dark .vbf-module-pill.active {
 }
 
 
+
+.yuque-loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg, #f8fafc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  z-index: 10;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.yuque-loading-spinner {
+  width: 36px;
+  height: 36px;
+  border: 3.5px solid rgba(15, 118, 110, 0.18);
+  border-top-color: var(--primary, #0f766e);
+  border-radius: 50%;
+  animation: yuqueSpin 0.75s linear infinite;
+}
+
+@keyframes yuqueSpin {
+  to { transform: rotate(360deg); }
+}

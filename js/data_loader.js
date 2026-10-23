@@ -44,5 +44,60 @@
     pending.set(year, tracked);
     return tracked;
   }
-  window.DataLoader = { loadYear, registerYear, peek: year => cache[Number(year)] || null };
+
+  const vocabPending = new Map();
+  function loadDataScript(filename, version, checkFn) {
+    if (checkFn && checkFn()) return Promise.resolve(true);
+    if (vocabPending.has(filename)) return vocabPending.get(filename);
+    const task = new Promise((resolve, reject) => {
+      if (typeof document === 'undefined' || !document.createElement) {
+        if (checkFn && checkFn()) return resolve(true);
+        return resolve(false);
+      }
+      const dataDirBase = new URL('../data/', document.currentScript ? document.currentScript.src : window.location.href);
+      const script = document.createElement('script');
+      script.async = true;
+      const vQuery = version ? `?v=${encodeURIComponent(version)}` : '';
+      script.src = new URL(`${filename}${vQuery}`, dataDirBase).href;
+      let settled = false;
+      const finish = error => {
+        if (settled) return;
+        settled = true;
+        clearTimeout(timer);
+        script.onload = script.onerror = null;
+        if (script.remove) script.remove();
+        if (error) reject(error);
+        else resolve(true);
+      };
+      const timer = setTimeout(() => finish(new Error(`加载超时: ${filename}`)), 30000);
+      script.onload = () => {
+        if (!checkFn || checkFn()) finish(null);
+        else finish(new Error(`数据未能正确加载: ${filename}`));
+      };
+      script.onerror = () => finish(new Error(`网络加载失败: ${filename}`));
+      (document.head || document.body || document.documentElement).appendChild(script);
+    });
+    const tracked = task.finally(() => vocabPending.delete(filename));
+    vocabPending.set(filename, tracked);
+    return tracked;
+  }
+
+  function loadVocabRelations() {
+    return loadDataScript('vocab_relations.js', '20261007_v1', () => !!window.KAOYAN_VOCAB_RELATIONS);
+  }
+  function loadVocabSucheng() {
+    return loadDataScript('vocab_sucheng.js', '20261021_v1', () => !!window.YUQUE_SUCHENG_VOCAB);
+  }
+  function loadVocabDaxue() {
+    return loadDataScript('vocab_daxue.js', '20261021_v1', () => !!window.YUQUE_DAXUE_VOCAB);
+  }
+
+  window.DataLoader = {
+    loadYear,
+    registerYear,
+    peek: year => cache[Number(year)] || null,
+    loadVocabRelations,
+    loadVocabSucheng,
+    loadVocabDaxue
+  };
 })();

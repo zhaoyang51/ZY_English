@@ -78,3 +78,42 @@ test('unknown or non-numeric years never issue requests', async () => {
   await assert.rejects(s.loader.loadYear(2099), /未收录/);
   assert.equal(s.scripts.length, 0);
 });
+
+test('vocab datasets support on-demand loading and deduplicate concurrent requests', async () => {
+  const s = setup();
+  // 1. loadVocabRelations
+  const pRel1 = s.loader.loadVocabRelations();
+  const pRel2 = s.loader.loadVocabRelations();
+  assert.equal(pRel1, pRel2, 'Concurrent requests for vocab_relations must share single promise');
+  assert.equal(s.scripts.length, 1);
+  assert.match(s.scripts[0].src, /data\/vocab_relations\.js\?v=20261007_v1/);
+
+  s.context.window.KAOYAN_VOCAB_RELATIONS = { test: true };
+  s.scripts[0].onload();
+  await pRel1;
+  assert.ok(s.scripts[0].removed);
+
+  // Subsequent call resolves immediately
+  const pRel3 = s.loader.loadVocabRelations();
+  await pRel3;
+  assert.equal(s.scripts.length, 1);
+
+  // 2. loadVocabSucheng
+  const pSucheng = s.loader.loadVocabSucheng();
+  assert.equal(s.scripts.length, 2);
+  assert.match(s.scripts[1].src, /data\/vocab_sucheng\.js\?v=20261021_v1/);
+  s.context.window.YUQUE_SUCHENG_VOCAB = [{ word: 'test' }];
+  s.scripts[1].onload();
+  await pSucheng;
+  assert.ok(s.scripts[1].removed);
+
+  // 3. loadVocabDaxue
+  const pDaxue = s.loader.loadVocabDaxue();
+  assert.equal(s.scripts.length, 3);
+  assert.match(s.scripts[2].src, /data\/vocab_daxue\.js\?v=20261021_v1/);
+  s.context.window.YUQUE_DAXUE_VOCAB = [{ root: 'test' }];
+  s.scripts[2].onload();
+  await pDaxue;
+  assert.ok(s.scripts[2].removed);
+});
+

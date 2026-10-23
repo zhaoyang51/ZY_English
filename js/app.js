@@ -662,8 +662,22 @@
         yuqueContainer.style.display = 'block';
         const pFile = window.YuqueManifest && window.YuqueManifest.practice && window.YuqueManifest.practice[readingKey];
         if (pFile) {
-          yuqueContainer.innerHTML = `<iframe id="yuquePracticeFrame" class="yuque-frame" src="${encodeURI('英二做题和复盘模式/' + pFile)}" title="${year} ${textName} 做题模式"></iframe>`;
-          attachYuqueFrameShortcuts(document.getElementById('yuquePracticeFrame'));
+          yuqueContainer.innerHTML = `
+            <div id="yuqueLoadingMask" class="yuque-loading-overlay">
+              <div class="yuque-loading-spinner"></div>
+              <div style="font-size:14px;color:var(--muted);font-weight:600">正在载入 ${year} ${textName} 做题卷...</div>
+            </div>
+            <iframe id="yuquePracticeFrame" class="yuque-frame" src="${encodeURI('英二做题和复盘模式/' + pFile)}" title="${year} ${textName} 做题模式"></iframe>
+          `;
+          const frame = document.getElementById('yuquePracticeFrame');
+          const mask = document.getElementById('yuqueLoadingMask');
+          if (frame && mask) {
+            frame.onload = () => {
+              mask.style.opacity = '0';
+              setTimeout(() => { if (mask && mask.parentNode) mask.parentNode.removeChild(mask); }, 300);
+            };
+          }
+          attachYuqueFrameShortcuts(frame);
         } else {
           yuqueContainer.innerHTML = `
             <div class="yuque-empty-card">
@@ -701,8 +715,22 @@
           yuqueContainer.style.display = 'block';
           const rFile = window.YuqueManifest && window.YuqueManifest.review && window.YuqueManifest.review[readingKey];
           if (rFile) {
-            yuqueContainer.innerHTML = `<iframe id="yuqueReviewFrame" class="yuque-frame" src="${encodeURI('英二做题和复盘模式/' + rFile)}" title="${year} ${textName} 复盘模式2"></iframe>`;
-            attachYuqueFrameShortcuts(document.getElementById('yuqueReviewFrame'));
+            yuqueContainer.innerHTML = `
+              <div id="yuqueReviewLoadingMask" class="yuque-loading-overlay">
+                <div class="yuque-loading-spinner"></div>
+                <div style="font-size:14px;color:var(--muted);font-weight:600">正在载入 ${year} ${textName} 大观复盘卷...</div>
+              </div>
+              <iframe id="yuqueReviewFrame" class="yuque-frame" src="${encodeURI('英二做题和复盘模式/' + rFile)}" title="${year} ${textName} 复盘模式2"></iframe>
+            `;
+            const frame = document.getElementById('yuqueReviewFrame');
+            const mask = document.getElementById('yuqueReviewLoadingMask');
+            if (frame && mask) {
+              frame.onload = () => {
+                mask.style.opacity = '0';
+                setTimeout(() => { if (mask && mask.parentNode) mask.parentNode.removeChild(mask); }, 300);
+              };
+            }
+            attachYuqueFrameShortcuts(frame);
           } else {
             yuqueContainer.innerHTML = `
               <div class="yuque-empty-card">
@@ -1355,6 +1383,13 @@
   function renderVocabBookModal(filterSearch = '') {
     const body = document.getElementById('vocabBookModalBody');
     if (!body) return;
+
+    if (!window.KAOYAN_VOCAB_RELATIONS && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabRelations) {
+      window.DataLoader.loadVocabRelations().then(() => {
+        const input = document.getElementById('vocabBookSearchInput');
+        renderVocabBookModal(input ? input.value : filterSearch);
+      }).catch(() => {});
+    }
 
     const list = window.StorageModule.getVocabBook();
     const countEl = document.getElementById('vocabBookTotalCount');

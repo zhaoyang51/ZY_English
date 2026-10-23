@@ -557,27 +557,44 @@
     </div>
   </div>
 
-  <!-- Pure Structured JSON Database Bridge & In-Browser Dictionary -->
-  <script src="data/manifest.js?v=20260914_lazy_v1"></script>
-  <script src="js/yuque_manifest.js"></script>
-  <script src="js/data_loader.js?v=20260914_lazy_v1"></script>
-  <script src="data/vocab_dict.js"></script>
-  <script src="data/vocab_bank.js"></script>
-  <script src="data/vocab_phonetics.js"></script>
-  <script src="data/vocab_relations.js?v=20261007_v1"></script>
-  <script src="data/vocab_sucheng.js?v=20261021_v1" defer></script>
-  <script src="data/vocab_daxue.js?v=20261021_v1" defer></script>
+  <!-- Pure Structured JSON Database Bridge & In-Browser Dictionary (Deferred for Instant Mobile First-Paint) -->
+  <script src="data/manifest.js?v=20260914_lazy_v1" defer></script>
+  <script src="js/yuque_manifest.js" defer></script>
+  <script src="js/data_loader.js?v=20260914_lazy_v1" defer></script>
+  <script src="data/vocab_dict.js" defer></script>
+  <script src="data/vocab_bank.js" defer></script>
+  <script src="data/vocab_phonetics.js" defer></script>
   
   <!-- Modular JS Application Components -->
-  <script src="js/storage.js"></script>
-  <script src="js/review_content.js?v=20260918_qtrans_v1"></script>
-  <script src="js/exporter.js?v=20260914_reading_v1"></script>
-  <script src="js/reader.js?v=20260918_qtrans_v1"></script>
-  <script src="js/quiz.js?v=20260918_qtrans_v1"></script>
-  <script src="js/vocab.js?v=20260915_touch_v1"></script>
-  <script src="js/render_cloze.js?v=20260924_v1"></script>
-  <script src="js/render_matching.js?v=20260924_v1"></script>
-  <script src="js/render_translation.js?v=20260924_v1"></script>
-  <script src="js/app.js?v=20260918_qtrans_v1"></script>
+  <script src="js/storage.js" defer></script>
+  <script src="js/review_content.js?v=20260918_qtrans_v1" defer></script>
+  <script src="js/exporter.js?v=20260914_reading_v1" defer></script>
+  <script src="js/reader.js?v=20260918_qtrans_v1" defer></script>
+  <script src="js/quiz.js?v=20260918_qtrans_v1" defer></script>
+  <script src="js/vocab.js?v=20260915_touch_v1" defer></script>
+  <script src="js/render_cloze.js?v=20260924_v1" defer></script>
+  <script src="js/render_matching.js?v=20260924_v1" defer></script>
+  <script src="js/render_translation.js?v=20260924_v1" defer></script>
+  <script src="js/app.js?v=20260918_qtrans_v1" defer></script>
+
+  <!-- Idle Background Prefetch for Heavy Vocab Graph (Non-blocking) -->
+  <script>
+    (function() {
+      function prefetchVocab() {
+        if (window.DataLoader && window.DataLoader.loadVocabRelations) {
+          window.DataLoader.loadVocabRelations().catch(function() {});
+        }
+      }
+      if ('requestIdleCallback' in window) {
+        window.addEventListener('load', function() {
+          window.requestIdleCallback(prefetchVocab, { timeout: 3500 });
+        });
+      } else {
+        window.addEventListener('load', function() {
+          setTimeout(prefetchVocab, 2000);
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

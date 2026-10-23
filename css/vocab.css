@@ -152,6 +152,7 @@ body.mode-vocab .vocab-section {
   justify-content: space-between;
   padding: 18px 18px 20px 18px;
   background-image: url('../images/vocab_home_bg.jpg');
+  background-image: image-set(url('../images/vocab_home_bg.webp') type('image/webp'), url('../images/vocab_home_bg.jpg') type('image/jpeg'));
   background-size: cover;
   background-position: center bottom;
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.08);
