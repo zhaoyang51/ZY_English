@@ -136,6 +136,310 @@ body.mode-vocab .vocab-section {
 }
 
 /* ==========================================================================
+   MoMo Vocab Home Page (Matching User Figure 1: Pastoral Tree & Learn/Review Cards)
+   ========================================================================== */
+.vocab-home-frame {
+  width: 100%;
+  max-width: 480px;
+  height: 100vh;
+  max-height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px 18px 20px 18px;
+  background-image: url('../images/vocab_home_bg.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.08);
+}
+
+@media (min-width: 768px) {
+  .vocab-home-frame {
+    max-width: 520px;
+    height: 100vh;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.vocab-home-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 2px;
+  z-index: 10;
+}
+
+.vocab-home-dict-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.58);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #1e3323;
+  font-weight: 600;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s;
+}
+.vocab-home-dict-pill:hover {
+  background: rgba(255, 255, 255, 0.8);
+  transform: translateY(-1px);
+}
+.vocab-home-dict-pill .dict-caret {
+  font-size: 9px;
+  opacity: 0.6;
+}
+
+.vocab-home-btn-settings {
+  background: rgba(255, 255, 255, 0.58);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 800;
+  color: #1e3323;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s;
+}
+.vocab-home-btn-settings:hover {
+  background: rgba(255, 255, 255, 0.8);
+  transform: translateY(-1px);
+}
+
+.vocab-home-center-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+  z-index: 10;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.vocab-home-word-card {
+  width: 100%;
+  max-width: 380px;
+  background: rgba(255, 255, 255, 0.42);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 22px;
+  padding: 22px 20px 18px 20px;
+  text-align: center;
+  box-shadow: 0 10px 32px rgba(25, 45, 29, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  transition: transform 0.2s;
+}
+
+.vocab-home-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  color: #275231;
+  background: rgba(255, 255, 255, 0.78);
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
+}
+
+.vocab-home-word {
+  font-family: Georgia, "Newsreader", "Times New Roman", serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #142817;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+}
+
+.vocab-home-phonetic {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: #3b5a41;
+  background: rgba(255, 255, 255, 0.55);
+  padding: 2px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: all 0.15s;
+}
+.vocab-home-phonetic:hover {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.vocab-home-meaning {
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: #1e3323;
+  font-weight: 600;
+  margin-bottom: 14px;
+  padding: 0 8px;
+}
+
+.vocab-home-btn-refresh {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 999px;
+  padding: 4px 14px;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #275231;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s;
+}
+.vocab-home-btn-refresh:hover {
+  background: rgba(255, 255, 255, 0.95);
+  transform: translateY(-1px);
+}
+
+.vocab-home-actions-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+  z-index: 10;
+  width: 100%;
+}
+
+.vocab-home-card {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.68);
+  border-radius: 18px;
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.vocab-home-card:hover {
+  background: rgba(255, 255, 255, 0.72);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.vocab-home-card:active {
+  transform: scale(0.98);
+}
+
+.vocab-home-card-learn:hover {
+  border-color: rgba(16, 185, 129, 0.45);
+}
+
+.vocab-home-card-review:hover {
+  border-color: rgba(245, 158, 11, 0.45);
+}
+
+.vocab-home-card .card-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.vocab-home-card .card-title {
+  font-family: Georgia, serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #1e3323;
+}
+
+.vocab-home-card .card-badge {
+  font-size: 10.5px;
+  font-weight: 600;
+  color: #4b6651;
+  background: rgba(255, 255, 255, 0.65);
+  padding: 1px 6px;
+  border-radius: 5px;
+}
+
+.vocab-home-card .card-count {
+  font-size: 26px;
+  font-weight: 800;
+  color: #e65100;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.2;
+}
+
+.vocab-home-card .card-sub {
+  font-size: 11px;
+  color: #556e5a;
+  margin-top: 1px;
+}
+
+.vocab-home-bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.38);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  z-index: 10;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.vocab-nav-item {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+  padding: 4px 14px;
+  border-radius: 10px;
+  color: #324b36;
+  transition: all 0.15s;
+}
+.vocab-nav-item:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+.vocab-nav-item.active {
+  background: rgba(255, 255, 255, 0.65);
+  color: #162a19;
+  font-weight: 700;
+}
+.vocab-nav-item .nav-icon {
+  font-size: 17px;
+  line-height: 1;
+}
+.vocab-nav-item .nav-label {
+  font-size: 10.5px;
+}
+
+/* ==========================================================================
    1. MoMo Top Bar
    ========================================================================== */
 .vocab-momo-topbar {
@@ -533,24 +837,37 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
 
 /* Collocations & Relations Card (Expands to bottom, content scrolls inside white area) */
 .vocab-momo-card-relations {
-  margin-top: 12px;
+  margin-top: 10px;
   margin-bottom: 2px;
   display: flex;
   flex-direction: column;
   flex: 1 1 0;
-  min-height: 0;
-  height: 0;
+  min-height: 140px;
   overflow: hidden;
   box-sizing: border-box;
+}
+
+.momo-relations-tabs-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  flex-shrink: 0;
+}
+
+body.theme-dark .momo-relations-tabs-bar {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
 }
 
 .momo-colloc-list {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  flex: 1 1 0;
-  min-height: 0;
-  height: 0;
+  flex: 1 1 auto;
+  min-height: 60px;
   max-height: none;
   overflow-y: auto;
   overflow-x: hidden;
@@ -604,21 +921,6 @@ body.theme-dark .momo-colloc-list::-webkit-scrollbar-thumb {
   color: var(--momo-text-muted);
 }
 
-.momo-relations-tabs-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: auto;
-  padding-top: 10px;
-  border-top: 1px solid rgba(255, 255, 255, 0.35);
-  flex-shrink: 0;
-}
-}
-
-body.theme-dark .momo-relations-tabs-bar {
-  border-top-color: rgba(255, 255, 255, 0.08);
-}
-
 .momo-tabs-left {
   display: flex;
   align-items: center;
@@ -660,7 +962,219 @@ body.theme-dark .momo-tab-pill.active {
   color: var(--momo-text-muted);
   cursor: pointer;
   padding: 3px;
+  transition: all 0.15s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.momo-tab-tool-btn:hover {
+  opacity: 0.7;
+}
+
+.momo-tab-tool-btn.has-note {
+  color: var(--momo-green, #10b981) !important;
+  position: relative;
+}
+
+.momo-tab-tool-btn.has-note::after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 5px;
+  height: 5px;
+  background: var(--momo-green, #10b981);
+  border-radius: 50%;
+}
+
+/* Personal Note Editor & Display */
+.momo-note-editor-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 6px;
+  padding: 10px 12px;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px dashed rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+body.theme-dark .momo-note-editor-box {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.momo-note-textarea {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-family: inherit;
+  resize: none;
+  box-sizing: border-box;
+  outline: none;
+  background: #ffffff;
+  color: var(--momo-text-main);
+  transition: border-color 0.2s;
+}
+body.theme-dark .momo-note-textarea {
+  background: rgba(30, 41, 59, 0.8);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.momo-note-textarea:focus {
+  border-color: var(--momo-green, #10b981);
+}
+
+.momo-note-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.momo-note-btn-cancel {
+  border: none;
+  background: transparent;
+  color: var(--momo-text-muted);
+  font-size: 12px;
+  padding: 4px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.momo-note-btn-save {
+  border: none;
+  background: var(--momo-green, #10b981);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 14px;
+  cursor: pointer;
+  border-radius: 6px;
   transition: opacity 0.15s;
+}
+.momo-note-btn-save:hover {
+  opacity: 0.9;
+}
+
+.momo-user-note-card {
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+}
+.momo-user-note-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #047857;
+  margin-bottom: 4px;
+}
+body.theme-dark .momo-user-note-title {
+  color: #34d399;
+}
+.momo-note-mini-btn {
+  border: none;
+  background: transparent;
+  font-size: 11.5px;
+  color: #047857;
+  cursor: pointer;
+  padding: 1px 6px;
+  border-radius: 4px;
+  text-decoration: underline;
+}
+.momo-user-note-text {
+  font-size: 13.5px;
+  color: var(--momo-text-main);
+  line-height: 1.55;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Citations Modal Drawer (查看更多考点关联) */
+.momo-citations-sheet {
+  background: #ffffff;
+  border-radius: 20px 20px 0 0;
+  max-width: 480px;
+  width: 100%;
+  max-height: 82vh;
+  margin: auto auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.18);
+  animation: momoSlideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+body.theme-dark .momo-citations-sheet {
+  background: #1e293b;
+}
+
+.momo-citations-body {
+  padding: 14px 18px 24px 18px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.vocab-citation-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+body.theme-dark .vocab-citation-card {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.vocab-citation-prov {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #0284c7;
+  background: #e0f2fe;
+  padding: 2px 8px;
+  border-radius: 999px;
+  align-self: flex-start;
+}
+body.theme-dark .vocab-citation-prov {
+  color: #38bdf8;
+  background: rgba(2, 132, 199, 0.2);
+}
+
+.vocab-citation-en {
+  font-family: Georgia, serif;
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: #1e293b;
+}
+body.theme-dark .vocab-citation-en {
+  color: #f1f5f9;
+}
+
+.vocab-citation-zh {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #64748b;
+}
+body.theme-dark .vocab-citation-zh {
+  color: #94a3b8;
+}
+
+.vocab-exam-hl {
+  color: #0d9488;
+  font-weight: 700;
+  text-decoration: underline dotted #0d9488;
+  text-underline-offset: 3px;
 }
 
 .momo-tab-tool-btn:hover {

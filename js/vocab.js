@@ -131,6 +131,9 @@
 
       this.syncWithAppState();
       this.applyFiltersAndRender();
+      if (!appState.currentView || appState.currentView === 'home') {
+        this.showHomeView();
+      }
     },
 
     loadSettings() {
@@ -280,12 +283,72 @@
 
     renderHtmlStructure(container) {
       container.innerHTML = `
-        <div class="vocab-momo-frame" id="vocabMomoFrame">
+        <!-- MoMo Vocab Home Page (Matching User Figure 1: Pastoral Tree & Learn/Review Cards) -->
+        <div class="vocab-home-frame" id="vocabHomeFrame">
+          <div class="vocab-home-topbar">
+            <div class="vocab-home-dict-pill" id="vocabHomeDictPill" title="点击切换词书">
+              <span class="dict-icon">📖</span>
+              <span class="dict-name" id="vocabHomeDictName">历年真题核心词库</span>
+              <span class="dict-caret">▼</span>
+            </div>
+            <button class="vocab-home-btn-settings" id="vocabHomeBtnSettings" title="词书设置与生词管理">···</button>
+          </div>
+
+          <div class="vocab-home-center-stage" id="vocabHomeCenterStage">
+            <div class="vocab-home-word-card" id="vocabHomeWordCard" title="点击发音">
+              <div class="vocab-home-tag" id="vocabHomeWordTag">★ 收藏生词本</div>
+              <h1 class="vocab-home-word" id="vocabHomeWord">Pastoral</h1>
+              <div class="vocab-home-phonetic" id="vocabHomePhonetic" title="朗读发音">
+                <span class="phonetic-audio-btn">🔊</span>
+                <span class="phonetic-text" id="vocabHomePhoneticText">/ˈpɑːstərəl/</span>
+              </div>
+              <div class="vocab-home-meaning" id="vocabHomeMeaning">adj. 田园的；乡村生活的；牧人的</div>
+              <button class="vocab-home-btn-refresh" id="vocabHomeBtnRefresh" title="随机换一个单词">↻ 随机换词</button>
+            </div>
+          </div>
+
+          <div class="vocab-home-actions-row">
+            <div class="vocab-home-card vocab-home-card-learn" id="vocabHomeCardLearn" title="点击开始新学">
+              <div class="card-meta">
+                <span class="card-title">Learn</span>
+                <span class="card-badge">新学</span>
+              </div>
+              <div class="card-count" id="vocabHomeCountLearn">284</div>
+              <div class="card-sub">待学习单词</div>
+            </div>
+
+            <div class="vocab-home-card vocab-home-card-review" id="vocabHomeCardReview" title="点击开始复习">
+              <div class="card-meta">
+                <span class="card-title">Review</span>
+                <span class="card-badge">复习</span>
+              </div>
+              <div class="card-count" id="vocabHomeCountReview">455</div>
+              <div class="card-sub">待巩固复习</div>
+            </div>
+          </div>
+
+          <div class="vocab-home-bottom-nav">
+            <button class="vocab-nav-item" id="vocabHomeNavDict" title="切换词库">
+              <span class="nav-icon">📚</span>
+              <span class="nav-label">词书</span>
+            </button>
+            <button class="vocab-nav-item active" id="vocabHomeNavDeck" title="今日背诵主页">
+              <span class="nav-icon">🗂️</span>
+              <span class="nav-label">卡片</span>
+            </button>
+            <button class="vocab-nav-item" id="vocabHomeNavStats" title="复习进度与统计">
+              <span class="nav-icon">📈</span>
+              <span class="nav-label">统计</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="vocab-momo-frame" id="vocabMomoFrame" style="display:none">
           
           <!-- MoMo Top Bar -->
           <header class="vocab-momo-topbar">
             <div class="momo-topbar-left">
-              <button class="momo-icon-btn momo-back-btn" id="vocabMomoBtnBack" title="返回做题模式">‹</button>
+              <button class="momo-icon-btn momo-back-btn" id="vocabMomoBtnBack" title="返回主页">‹</button>
               <span class="momo-progress-text" id="vocabMomoProgress">1/1</span>
             </div>
 
@@ -336,10 +399,8 @@
               <button class="momo-btn-speak-sentence" id="vocabMomoBtnSpeakSentence" title="朗读真题例句">🔊</button>
             </section>
 
-            <!-- Card 2: Collocations, Synonyms & MindChain Card -->
+            <!-- Card 2: Collocations, Synonyms & MindChain Card (Tabs at Top, Content Below) -->
             <section class="vocab-momo-card vocab-momo-card-relations" id="vocabMomoCardRelations" style="display:none">
-              <div class="momo-colloc-list" id="vocabMomoCollocList"></div>
-              
               <div class="momo-relations-tabs-bar">
                 <div class="momo-tabs-left" id="vocabMomoTabsList">
                   <button class="momo-tab-pill active" data-tab="phrases">词组搭配</button>
@@ -350,6 +411,17 @@
                 <div class="momo-tabs-right">
                   <button class="momo-tab-tool-btn" id="vocabMomoBtnNote" title="添加/编辑个人助记笔记">✎+</button>
                   <button class="momo-tab-tool-btn" id="vocabMomoBtnRelMore" title="查看更多考点关联">≡</button>
+                </div>
+              </div>
+
+              <div class="momo-colloc-list" id="vocabMomoCollocList"></div>
+
+              <!-- Personal Note Editor Box (Toggled by ✎+) -->
+              <div class="momo-note-editor-box" id="vocabMomoNoteEditorBox" style="display:none">
+                <textarea class="momo-note-textarea" id="vocabMomoNoteInput" placeholder="记录你对这个词的独特联想、易混点或助记口诀..." rows="3"></textarea>
+                <div class="momo-note-actions">
+                  <button class="momo-note-btn-cancel" id="vocabMomoNoteBtnCancel">取消</button>
+                  <button class="momo-note-btn-save" id="vocabMomoNoteBtnSave">保存笔记</button>
                 </div>
               </div>
             </section>
@@ -476,6 +548,20 @@
           </div>
         </div>
 
+        <!-- Exam Citations Modal Sheet (Triggered by ≡) -->
+        <div class="vocab-momo-sheet-overlay" id="vocabCitationsModal" style="display:none">
+          <div class="momo-citations-sheet" id="vocabCitationsSheet">
+            <div class="momo-sheet-header">
+              <div class="momo-sheet-title">
+                <span id="vocabCitationsTitle">考点关联 · 历年真题出处</span>
+                <span style="font-size:12px;font-weight:normal;color:var(--momo-text-muted);margin-left:8px" id="vocabCitationsCount">共 3 处收录</span>
+              </div>
+              <button class="momo-sheet-close-btn" id="vocabCitationsBtnClose">✕</button>
+            </div>
+            <div class="momo-citations-body" id="vocabCitationsBody"></div>
+          </div>
+        </div>
+
         <!-- Toast Feedback -->
         <div class="vocab-toast" id="vocabToast"></div>
 
@@ -546,6 +632,26 @@
 
     cacheDomElements() {
       els = {
+        // Home Frame elements
+        homeFrame: document.getElementById('vocabHomeFrame'),
+        homeDictPill: document.getElementById('vocabHomeDictPill'),
+        homeDictName: document.getElementById('vocabHomeDictName'),
+        homeBtnSettings: document.getElementById('vocabHomeBtnSettings'),
+        homeWordCard: document.getElementById('vocabHomeWordCard'),
+        homeWordTag: document.getElementById('vocabHomeWordTag'),
+        homeWord: document.getElementById('vocabHomeWord'),
+        homePhonetic: document.getElementById('vocabHomePhonetic'),
+        homePhoneticText: document.getElementById('vocabHomePhoneticText'),
+        homeMeaning: document.getElementById('vocabHomeMeaning'),
+        homeBtnRefresh: document.getElementById('vocabHomeBtnRefresh'),
+        homeCardLearn: document.getElementById('vocabHomeCardLearn'),
+        homeCountLearn: document.getElementById('vocabHomeCountLearn'),
+        homeCardReview: document.getElementById('vocabHomeCardReview'),
+        homeCountReview: document.getElementById('vocabHomeCountReview'),
+        homeNavDict: document.getElementById('vocabHomeNavDict'),
+        homeNavDeck: document.getElementById('vocabHomeNavDeck'),
+        homeNavStats: document.getElementById('vocabHomeNavStats'),
+
         frame: document.getElementById('vocabMomoFrame'),
         momoWord: document.getElementById('vocabMomoWord'),
         momoCheckmark: document.getElementById('vocabMomoCheckmark'),
@@ -567,6 +673,19 @@
         collocList: document.getElementById('vocabMomoCollocList'),
         relationsTabs: document.getElementById('vocabMomoTabsList'),
         btnNote: document.getElementById('vocabMomoBtnNote'),
+        btnRelMore: document.getElementById('vocabMomoBtnRelMore'),
+
+        noteEditorBox: document.getElementById('vocabMomoNoteEditorBox'),
+        noteInput: document.getElementById('vocabMomoNoteInput'),
+        noteBtnSave: document.getElementById('vocabMomoNoteBtnSave'),
+        noteBtnCancel: document.getElementById('vocabMomoNoteBtnCancel'),
+
+        citationsModal: document.getElementById('vocabCitationsModal'),
+        citationsSheet: document.getElementById('vocabCitationsSheet'),
+        citationsTitle: document.getElementById('vocabCitationsTitle'),
+        citationsCount: document.getElementById('vocabCitationsCount'),
+        citationsBody: document.getElementById('vocabCitationsBody'),
+        citationsBtnClose: document.getElementById('vocabCitationsBtnClose'),
 
         unrevealedWrap: document.getElementById('vocabMomoUnrevealedWrap'),
         revealedWrap: document.getElementById('vocabMomoRevealedWrap'),
@@ -656,15 +775,82 @@
     },
 
     bindEvents() {
-      // 1. Top bar: Back Button
+      // 1. Top bar: Back Button (Returns to Home Page)
       if (els.btnBack) {
         els.btnBack.onclick = () => {
-          if (window.AppState && window.AppState.setMode) {
-            window.AppState.setMode('practice');
-          } else {
-            const btn = document.getElementById('practiceModeBtn');
-            if (btn) btn.click();
-          }
+          this.showHomeView();
+        };
+      }
+
+      // Home Page Events
+      if (els.homeBtnRefresh) {
+        els.homeBtnRefresh.onclick = (e) => {
+          e.stopPropagation();
+          this.pickRandomHomeWord();
+        };
+      }
+      if (els.homePhonetic) {
+        els.homePhonetic.onclick = (e) => {
+          e.stopPropagation();
+          this.speakWord(this.currentHomeWord || 'Pastoral');
+        };
+      }
+      if (els.homeWordCard) {
+        els.homeWordCard.onclick = () => {
+          this.speakWord(this.currentHomeWord || 'Pastoral');
+        };
+      }
+
+      if (els.homeCardLearn) {
+        els.homeCardLearn.onclick = () => {
+          this.showStudyView('new');
+        };
+      }
+      if (els.homeCardReview) {
+        els.homeCardReview.onclick = () => {
+          this.showStudyView('review');
+        };
+      }
+
+      if (els.homeDictPill) {
+        els.homeDictPill.onclick = () => this.toggleSettingsSheet(true);
+      }
+      if (els.homeBtnSettings) {
+        els.homeBtnSettings.onclick = () => this.toggleSettingsSheet(true);
+      }
+      if (els.homeNavDict) {
+        els.homeNavDict.onclick = () => this.toggleSettingsSheet(true);
+      }
+      if (els.homeNavDeck) {
+        els.homeNavDeck.onclick = () => this.showHomeView();
+      }
+      if (els.homeNavStats) {
+        els.homeNavStats.onclick = () => this.toggleSettingsSheet(true);
+      }
+
+      // Personal Note Events
+      if (els.btnNote) {
+        els.btnNote.onclick = () => this.toggleNoteEditor();
+      }
+      if (els.noteBtnSave) {
+        els.noteBtnSave.onclick = () => this.saveCurrentNote();
+      }
+      if (els.noteBtnCancel) {
+        els.noteBtnCancel.onclick = () => {
+          if (els.noteEditorBox) els.noteEditorBox.style.display = 'none';
+        };
+      }
+
+      // Citations Modal Events
+      if (els.btnRelMore) {
+        els.btnRelMore.onclick = () => this.showCitationsModal();
+      }
+      if (els.citationsBtnClose) {
+        els.citationsBtnClose.onclick = () => this.hideCitationsModal();
+      }
+      if (els.citationsModal) {
+        els.citationsModal.onclick = (e) => {
+          if (e.target === els.citationsModal) this.hideCitationsModal();
         };
       }
 
@@ -1036,6 +1222,7 @@
         els.sourceSelect.value = 'bookmarked';
         els.sourceSelect.onchange();
       }
+      this.showStudyView();
     },
 
     applyFiltersAndRender() {
@@ -1171,6 +1358,7 @@
       appState.isFlipped = false;
 
       this.updateStats();
+      this.updateHomeView();
       this.renderCurrentCard();
     },
 
@@ -1319,7 +1507,7 @@
         els.momoFreqBadge.style.display = 'inline-flex';
       }
 
-      // Word Title with Syllables
+      // Word Title (Do not split syllables per user request)
       const syllabified = formatWordWithSyllables(word);
       if (appState.spellingMode && !appState.isFlipped) {
         if (els.momoWord) els.momoWord.textContent = word.replace(/[a-zA-Z]/g, '_ ');
@@ -1333,9 +1521,15 @@
       } else {
         if (els.momoSpellingBox) els.momoSpellingBox.style.display = 'none';
         if (els.momoWord) {
-          els.momoWord.textContent = appState.isFlipped ? syllabified : word;
+          els.momoWord.textContent = word;
         }
       }
+
+      // Personal Note indicator update
+      const userNotes = this.loadUserNotes();
+      const hasNote = Boolean(userNotes[word.toLowerCase()]);
+      if (els.btnNote) els.btnNote.classList.toggle('has-note', hasNote);
+      if (els.noteEditorBox) els.noteEditorBox.style.display = 'none';
 
       // Green Checkmark icon when revealed
       if (els.momoCheckmark) {
@@ -1474,8 +1668,15 @@
 
     updateRelationsTabDisplay() {
       if (!els.collocList || !appState.currentRelationsData) return;
-      const { phrases, synonyms, lookalikes, mindChain } = appState.currentRelationsData;
+      const { phrases, synonyms, lookalikes, mindChain, cur } = appState.currentRelationsData;
       const tab = appState.activeRelationTab;
+      const word = (cur && (cur.word || cur.root)) || '';
+      const userNotes = this.loadUserNotes();
+      const userNote = userNotes[word.toLowerCase()] || '';
+
+      if (els.btnNote) {
+        els.btnNote.classList.toggle('has-note', Boolean(userNote));
+      }
 
       // Update tab button active states
       if (els.relationsTabs) {
@@ -1508,10 +1709,24 @@
           html = '<div style="color:var(--momo-text-muted);font-size:13.5px;padding:8px 0">暂无同义置换词收录</div>';
         }
       } else if (tab === 'mindchain') {
+        let notePart = '';
+        if (userNote) {
+          notePart = `
+            <div class="momo-user-note-card">
+              <div class="momo-user-note-title">
+                <span>📝 我的专属笔记</span>
+                <button class="momo-note-mini-btn" id="vocabMomoBtnEditNote">编辑</button>
+              </div>
+              <div class="momo-user-note-text">${this.escapeHtml(userNote)}</div>
+            </div>
+          `;
+        }
         if (mindChain) {
-          html = `<div class="momo-mindchain-text">${mindChain}</div>`;
+          html = `${notePart}<div class="momo-mindchain-text">${mindChain}</div>`;
+        } else if (userNote) {
+          html = notePart;
         } else {
-          html = '<div style="color:var(--momo-text-muted);font-size:13.5px;padding:8px 0">暂无思维链路推导，可点击右侧 ✎+ 自定义助记</div>';
+          html = '<div style="color:var(--momo-text-muted);font-size:13.5px;padding:8px 0">暂无思维链路推导，可点击右上角 ✎+ 添加专属笔记</div>';
         }
       } else if (tab === 'lookalikes') {
         if (lookalikes.length > 0) {
@@ -1527,9 +1742,17 @@
       }
 
       els.collocList.innerHTML = html;
+
+      const editBtn = els.collocList.querySelector('#vocabMomoBtnEditNote');
+      if (editBtn) {
+        editBtn.onclick = () => this.toggleNoteEditor();
+      }
     },
 
     flipCard(showBack) {
+      if (appState.currentView !== 'study' && els.frame && els.frame.style.display === 'none') {
+        this.showStudyView();
+      }
       appState.isFlipped = !!showBack;
       if (els.cardFlipper) els.cardFlipper.classList.toggle('is-flipped', appState.isFlipped);
       this.renderCurrentCard();
@@ -1651,6 +1874,9 @@
     },
 
     goToNextCard() {
+      if (appState.currentView !== 'study' && els.frame && els.frame.style.display === 'none') {
+        this.showStudyView();
+      }
       appState.currentIndex++;
       appState.isFlipped = false;
       this.renderCurrentCard();
@@ -1673,6 +1899,266 @@
       if (els.btnStarBack) els.btnStarBack.textContent = isStarred ? '★' : '☆';
 
       this.showToast(isStarred ? '⭐ 已加入生词本' : '🗑️ 已移出生词本');
+    },
+
+    escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    },
+
+    loadUserNotes() {
+      try {
+        const raw = localStorage.getItem('KAOYAN_VOCAB_USER_NOTES_V1');
+        return raw ? JSON.parse(raw) : {};
+      } catch (e) {
+        return {};
+      }
+    },
+
+    saveUserNotes(notes) {
+      try {
+        localStorage.setItem('KAOYAN_VOCAB_USER_NOTES_V1', JSON.stringify(notes || {}));
+      } catch (e) {}
+    },
+
+    toggleNoteEditor() {
+      if (!els.noteEditorBox) return;
+      const isVisible = els.noteEditorBox.style.display !== 'none';
+      if (isVisible) {
+        els.noteEditorBox.style.display = 'none';
+      } else {
+        const cur = appState.currentList[appState.currentIndex];
+        const word = (cur && (cur.word || cur.root)) || '';
+        const notes = this.loadUserNotes();
+        if (els.noteInput) {
+          els.noteInput.value = notes[word.toLowerCase()] || '';
+        }
+        els.noteEditorBox.style.display = 'flex';
+        if (els.noteInput) {
+          setTimeout(() => els.noteInput.focus(), 80);
+        }
+      }
+    },
+
+    saveCurrentNote() {
+      if (!els.noteInput) return;
+      const cur = appState.currentList[appState.currentIndex];
+      const word = (cur && (cur.word || cur.root)) || '';
+      if (!word) return;
+
+      const txt = els.noteInput.value.trim();
+      const notes = this.loadUserNotes();
+      if (txt) {
+        notes[word.toLowerCase()] = txt;
+      } else {
+        delete notes[word.toLowerCase()];
+      }
+      this.saveUserNotes(notes);
+      this.showToast(txt ? '📝 个人笔记已保存' : '已清除个人笔记');
+      if (els.noteEditorBox) els.noteEditorBox.style.display = 'none';
+      this.updateRelationsTabDisplay();
+    },
+
+    showCitationsModal() {
+      if (!appState.currentList || appState.currentList.length === 0) return;
+      const cur = appState.currentList[appState.currentIndex];
+      if (!cur) return;
+      const word = String(cur.word || cur.root || '').trim();
+      const low = word.toLowerCase();
+
+      if (els.citationsTitle) els.citationsTitle.textContent = `考点关联 · ${word}`;
+
+      const rel = (window.KAOYAN_VOCAB_RELATIONS && window.KAOYAN_VOCAB_RELATIONS[low]) || {};
+      const sentences = rel.sentences || [];
+      const occurrences = (appState.rawVocabData || []).filter(item => {
+        return (item.word || '').toLowerCase() === low;
+      });
+      const phrases = rel.phrases || [];
+
+      let totalCount = Math.max(sentences.length, occurrences.length);
+      if (els.citationsCount) {
+        els.citationsCount.textContent = `历年真题收录 ${totalCount} 处`;
+      }
+
+      let html = '';
+
+      if (sentences.length > 0) {
+        html += `<div style="font-size:13px;font-weight:700;color:var(--momo-text-muted);margin:4px 0 8px 0">📖 真题考查原句与语境</div>`;
+        const cleanWord = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const re = new RegExp(`(\\b${cleanWord}\\b|\\b${cleanWord}s\\b|\\b${cleanWord}ed\\b|\\b${cleanWord}ing\\b)`, 'gi');
+
+        sentences.forEach(s => {
+          const highlightedEn = (s.text || '').replace(re, '<span class="vocab-exam-hl">$1</span>');
+          html += `
+            <div class="vocab-citation-card">
+              <div class="vocab-citation-prov">🏛️ ${s.prov || (s.year + ' 年 · Text ' + s.textId)}</div>
+              <div class="vocab-citation-en">${highlightedEn}</div>
+              <div class="vocab-citation-zh">${s.translation || ''}</div>
+            </div>
+          `;
+        });
+      }
+
+      if (occurrences.length > 0) {
+        const otherOccs = occurrences.filter(occ => !sentences.some(s => String(s.year) === String(occ.year) && String(s.textId) === String(occ.text.replace(/\D/g, ''))));
+        if (otherOccs.length > 0) {
+          html += `<div style="font-size:13px;font-weight:700;color:var(--momo-text-muted);margin:12px 0 8px 0">📌 历年真题试卷考点分布</div>`;
+          html += `<div style="display:flex;flex-wrap:wrap;gap:8px">`;
+          otherOccs.forEach(occ => {
+            html += `
+              <div style="background:rgba(0,0,0,0.04);border-radius:8px;padding:6px 10px;font-size:12.5px;color:var(--momo-text-main)">
+                <strong style="color:#0284c7">${occ.year} 年 ${occ.text}</strong>: ${occ.meaning}
+              </div>
+            `;
+          });
+          html += `</div>`;
+        }
+      }
+
+      if (phrases.length > 0) {
+        html += `<div style="font-size:13px;font-weight:700;color:var(--momo-text-muted);margin:12px 0 8px 0">🔗 真题高频核心搭配</div>`;
+        html += `<div style="display:flex;flex-direction:column;gap:6px">`;
+        phrases.forEach(p => {
+          html += `
+            <div style="display:flex;justify-content:space-between;padding:6px 10px;background:rgba(0,0,0,0.03);border-radius:8px;font-size:13px">
+              <span style="font-family:Georgia,serif;font-weight:700;color:#0d9488">${p.phrase}</span>
+              <span style="color:var(--momo-text-muted)">${p.def || ''} ${p.prov ? `(${p.prov})` : ''}</span>
+            </div>
+          `;
+        });
+        html += `</div>`;
+      }
+
+      if (!html) {
+        html = '<div style="text-align:center;color:var(--momo-text-muted);padding:30px 0">暂无更多真题关联语料</div>';
+      }
+
+      if (els.citationsBody) els.citationsBody.innerHTML = html;
+      if (els.citationsModal) els.citationsModal.style.display = 'flex';
+    },
+
+    hideCitationsModal() {
+      if (els.citationsModal) els.citationsModal.style.display = 'none';
+    },
+
+    showHomeView() {
+      appState.currentView = 'home';
+      if (els.homeFrame) els.homeFrame.style.display = 'flex';
+      if (els.frame) els.frame.style.display = 'none';
+      this.updateHomeView();
+    },
+
+    showStudyView(mode) {
+      appState.currentView = 'study';
+      if (els.homeFrame) els.homeFrame.style.display = 'none';
+      if (els.frame) els.frame.style.display = 'flex';
+
+      if (mode === 'new') {
+        const idx = appState.currentList.findIndex(item => {
+          const w = item.word || item.root;
+          return !appState.progress[w];
+        });
+        if (idx >= 0) appState.currentIndex = idx;
+      } else if (mode === 'review') {
+        const now = Date.now();
+        const idx = appState.currentList.findIndex(item => {
+          const w = item.word || item.root;
+          const rec = appState.progress[w];
+          return rec && rec.status !== 'mastered' && rec.nextReviewTime <= now;
+        });
+        if (idx >= 0) appState.currentIndex = idx;
+      }
+
+      this.renderCurrentCard();
+    },
+
+    updateHomeView() {
+      const src = appState.filters.source;
+      let dictTitle = '📚 历年真题核心词库';
+      if (src === 'yuque_sucheng') dictTitle = '⚡ 2-4天速成词库';
+      else if (src === 'yuque_daxue') dictTitle = '❄️ 大雪深埋词根';
+      else if (src === 'bookmarked') dictTitle = '⭐ 我的生词本';
+      if (els.homeDictName) els.homeDictName.textContent = dictTitle;
+
+      this.pickRandomHomeWord();
+
+      let fullItems = [];
+      if (src === 'yuque_sucheng') fullItems = window.YUQUE_SUCHENG_VOCAB || [];
+      else if (src === 'yuque_daxue') fullItems = window.YUQUE_DAXUE_VOCAB || [];
+      else if (src === 'bookmarked') fullItems = window.StorageModule ? window.StorageModule.getVocabBook() : [];
+      else fullItems = appState.rawVocabData;
+
+      const now = Date.now();
+      let dueCount = 0, newCount = 0, learningCount = 0, masteredCount = 0;
+      fullItems.forEach(item => {
+        const w = item.word || item.root;
+        const rec = appState.progress[w];
+        if (!rec) newCount++;
+        else if (rec.status === 'mastered') masteredCount++;
+        else {
+          learningCount++;
+          if (rec.nextReviewTime <= now) dueCount++;
+        }
+      });
+
+      const learnDisplay = newCount > 0 ? newCount : (fullItems.length - masteredCount);
+      const reviewDisplay = dueCount > 0 ? dueCount : (learningCount > 0 ? learningCount : Math.min(fullItems.length, 20));
+
+      if (els.homeCountLearn) els.homeCountLearn.textContent = String(learnDisplay);
+      if (els.homeCountReview) els.homeCountReview.textContent = String(reviewDisplay);
+    },
+
+    pickRandomHomeWord() {
+      const bookmarked = (window.StorageModule && window.StorageModule.getVocabBook()) || [];
+      let targetWord = null;
+      let isFromBookmarks = false;
+
+      if (bookmarked.length > 0) {
+        const randIdx = Math.floor(Math.random() * bookmarked.length);
+        targetWord = bookmarked[randIdx];
+        isFromBookmarks = true;
+      } else if (appState.rawVocabData && appState.rawVocabData.length > 0) {
+        const randIdx = Math.floor(Math.random() * appState.rawVocabData.length);
+        targetWord = appState.rawVocabData[randIdx];
+      }
+
+      if (!targetWord) {
+        targetWord = { word: 'Pastoral', meaning: 'adj. 田园的；乡村生活的；牧人的' };
+      }
+
+      const w = String(targetWord.word || targetWord.root || 'Pastoral');
+      let meaning = targetWord.meaning || targetWord.def || '';
+      if (!meaning && window.KAOYAN_VOCAB_DICT && window.KAOYAN_VOCAB_DICT[w.toLowerCase()]) {
+        meaning = `${window.KAOYAN_VOCAB_DICT[w.toLowerCase()].pos || ''} ${window.KAOYAN_VOCAB_DICT[w.toLowerCase()].def || ''}`;
+      }
+
+      if (els.homeWord) els.homeWord.textContent = w;
+      if (els.homeMeaning) els.homeMeaning.textContent = meaning || '暂无释义';
+      if (els.homeWordTag) {
+        els.homeWordTag.textContent = isFromBookmarks ? '★ 收藏生词本' : '★ 考研核心精选';
+      }
+
+      const phon = this.getWordPhonetic(w);
+      const phonStr = phon.us || phon.uk || (window.KAOYAN_VOCAB_DICT && window.KAOYAN_VOCAB_DICT[w.toLowerCase()]?.phonetic) || '';
+      if (els.homePhoneticText) {
+        els.homePhoneticText.textContent = phonStr ? (phonStr.startsWith('/') ? phonStr : `/${phonStr}/`) : '/ˈpɑːstərəl/';
+      }
+
+      this.currentHomeWord = w;
+    },
+
+    speakWord(word) {
+      if (!word || !('speechSynthesis' in window)) return;
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(word);
+      utter.lang = 'en-US';
+      utter.rate = 0.92;
+      window.speechSynthesis.speak(utter);
     },
 
     playAudio() {
