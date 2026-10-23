@@ -1,14 +1,13 @@
 /**
- * Vocab Module: Modern Ebbinghaus Spaced Repetition Vocabulary Flashcards Engine
- * Features:
- * 1. 3D Physical Card Flip with GPU acceleration
- * 2. Authentic Exam Context Sentences with Gold Keyword Highlighting
- * 3. 3 Memorization Modes (EN->ZH, ZH->EN, Context Cloze)
- * 4. Compact Streamlined Header with Collapsible Filter Drawer
- * 5. One-click Bookmark to Vocabulary Notebook (StorageModule)
- * 6. Dynamic Session Progress Bar & High-Density Stats Ribbon
- * 7. Audio TTS with Soundwave Feedback & Auto-Pronounce
- * 8. Undo Rating (↩ 撤销) Support & Full Keyboard Shortcuts HUD
+ * Vocab Module: MoMo-Style Aesthetic Ebbinghaus Vocabulary Flashcards Engine
+ * Implements the design matching user reference screenshots:
+ * - Unrevealed State: Serif word, UK/US phonetic pill, covered frosted placeholder bars,
+ *   guidance prompt, and 3 rating buttons: [认识 (green)], [模糊 (amber)], [忘记了 (red)]
+ * - Revealed State: Syllabified word (nas·ty) + green check badge, phonetic pill,
+ *   dotted-underlined Chinese definitions, Example Sentence Card, Collocations & Relations Card,
+ *   and 2 action buttons: [继续 (green)], [记错了 (red)]
+ * - Top Bar: Back (<), Progress count (9/10), Undo (↩), Star (☆), Mastered (熟), Spelling (abc), Settings (···)
+ * - Frosted Settings Sheet: Dictionary Switcher, Year/Text Filter, Review Status, Sort Strategy, Search & Stats
  */
 (function() {
   const STORAGE_KEY = 'KAOYAN_VOCAB_PROGRESS_V2';
@@ -29,18 +28,60 @@
   ];
 
   const POS_MAP = {
-    'n.': 'n. 名词',
-    'v.': 'v. 动词',
-    'vt.': 'vt. 及物动词',
-    'vi.': 'vi. 不及物动词',
-    'adj.': 'adj. 形容词',
-    'adv.': 'adv. 副词',
-    'prep.': 'prep. 介词',
-    'conj.': 'conj. 连词',
-    'pron.': 'pron. 代词',
-    'abbr.': 'abbr. 缩写',
-    'n./v.': 'n./v. 名动兼类'
+    'n.': 'n.',
+    'v.': 'v.',
+    'vt.': 'vt.',
+    'vi.': 'vi.',
+    'adj.': 'adj.',
+    'adv.': 'adv.',
+    'prep.': 'prep.',
+    'conj.': 'conj.',
+    'pron.': 'pron.',
+    'abbr.': 'abbr.',
+    'n./v.': 'n./v.'
   };
+
+  /**
+   * English Syllable Division Helper (e.g. nasty -> nas·ty, market -> mar·ket)
+   */
+  function formatWordWithSyllables(word) {
+    if (!word || word.length <= 3) return word;
+    if (word.includes(' ') || word.includes('-') || word.includes('·')) return word;
+
+    // 1. Common prefixes
+    let prefix = '';
+    let rest = word;
+    const prefixes = ['inter', 'trans', 'super', 'anti', 'over', 'under', 'auto', 'semi', 'non', 'pre', 'dis', 'mis', 'sub', 'con', 'com', 'pro', 'per', 're', 'de', 'un', 'in', 'ex'];
+    for (const p of prefixes) {
+      if (rest.toLowerCase().startsWith(p) && rest.length > p.length + 2) {
+        prefix = p + '·';
+        rest = rest.slice(p.length);
+        break;
+      }
+    }
+
+    // 2. Common suffixes
+    let suffix = '';
+    const suffixes = ['tion', 'sion', 'ment', 'ness', 'able', 'ible', 'ful', 'less', 'ity', 'ive', 'ous', 'ing', 'ist', 'ism', 'ize', 'ise', 'ly'];
+    for (const s of suffixes) {
+      if (rest.toLowerCase().endsWith(s) && rest.length > s.length + 2) {
+        suffix = '·' + s;
+        rest = rest.slice(0, rest.length - s.length);
+        break;
+      }
+    }
+
+    // 3. Divide between double consonants or clusters
+    let middle = rest.replace(/([aeiouy]+)([^aeiouy]{2,})([aeiouy]+)/gi, (m, v, c, v2) => {
+      const splitIndex = Math.floor(c.length / 2);
+      return v + c.slice(0, splitIndex) + '·' + c.slice(splitIndex) + v2;
+    });
+
+    // 4. Single consonant between vowels
+    middle = middle.replace(/([aeiouy]+)([^aeiouy·])([aeiouy]+)/gi, '$1·$2$3');
+
+    return (prefix + middle + suffix).replace(/·+/g, '·').replace(/^·|·$/g, '');
+  }
 
   let appState = {
     rawVocabData: [],
@@ -48,10 +89,12 @@
     currentList: [],
     currentIndex: 0,
     isFlipped: false,
-    studyMode: 'en-zh', // 'en-zh' | 'zh-en' | 'cloze'
+    studyMode: 'en-zh',
     autoAudio: false,
+    spellingMode: false,
     filterDrawerOpen: false,
-    historyStack: [], // for Undo support
+    activeRelationTab: 'phrases', // 'phrases' | 'synonyms' | 'mindchain' | 'lookalikes'
+    historyStack: [],
     filters: {
       source: 'all',
       year: 'all',
@@ -91,8 +134,8 @@
         const saved = localStorage.getItem(SETTINGS_KEY);
         if (saved) {
           const cfg = JSON.parse(saved);
-          if (cfg.studyMode) appState.studyMode = cfg.studyMode;
           if (typeof cfg.autoAudio === 'boolean') appState.autoAudio = cfg.autoAudio;
+          if (typeof cfg.spellingMode === 'boolean') appState.spellingMode = cfg.spellingMode;
         }
       } catch (e) {}
     },
@@ -100,8 +143,8 @@
     saveSettings() {
       try {
         const cfg = {
-          studyMode: appState.studyMode,
-          autoAudio: appState.autoAudio
+          autoAudio: appState.autoAudio,
+          spellingMode: appState.spellingMode
         };
         localStorage.setItem(SETTINGS_KEY, JSON.stringify(cfg));
       } catch (e) {}
@@ -157,458 +200,466 @@
 
     renderHtmlStructure(container) {
       container.innerHTML = `
-        <!-- Compact Top Navigation & Control Bar -->
-        <div class="vocab-top-bar">
-          <div class="vocab-search-wrap">
-            <span class="vocab-search-icon">🔍</span>
-            <input type="text" id="vocabSearchInput" class="vocab-search-input" placeholder="搜索考研重点词汇或释义...">
-          </div>
+        <div class="vocab-momo-frame" id="vocabMomoFrame">
+          
+          <!-- MoMo Top Bar -->
+          <header class="vocab-momo-topbar">
+            <div class="momo-topbar-left">
+              <button class="momo-icon-btn momo-back-btn" id="vocabMomoBtnBack" title="返回做题模式">‹</button>
+              <span class="momo-progress-text" id="vocabMomoProgress">1/1</span>
+            </div>
 
-          <!-- Module Badge -->
-          <div class="vocab-brand-badge" title="考研英二核心词汇·艾宾浩斯智能记忆">
-            <span class="vocab-brand-icon">⚡</span>
-            <span class="vocab-brand-text">真题精背</span>
-          </div>
+            <div class="momo-topbar-right">
+              <button class="momo-icon-btn" id="vocabMomoBtnUndo" title="撤回评分 (快捷键 Z)">↩</button>
+              <button class="momo-icon-btn momo-star-btn" id="vocabMomoBtnStar" title="收藏至生词本 (快捷键 S)">☆</button>
+              <button class="momo-icon-btn momo-mastered-btn" id="vocabMomoBtnMastered" title="标为熟词（不再安排背诵）">熟</button>
+              <button class="momo-icon-btn momo-spelling-btn" id="vocabMomoBtnSpelling" title="切换拼写测试模式"><span class="momo-abc-text">abc</span></button>
+              <button class="momo-icon-btn momo-more-btn" id="vocabMomoBtnMore" title="切换词库与背诵设置">···</button>
+            </div>
+          </header>
 
-          <!-- Actions: Auto Audio & Filter Drawer Toggle -->
-          <div class="vocab-top-actions">
-            <button class="vocab-action-pill-btn ${appState.autoAudio ? 'active' : ''}" id="vocabToggleAudioBtn" title="切换展开/切词时是否自动朗读">
-              <span>🔊</span> 自动发音
-            </button>
-            <button class="vocab-action-pill-btn" id="vocabToggleDrawerBtn" title="展开/收起年份、篇章与策略筛选面板">
-              <span>⚙️</span> 筛选器
-            </button>
-          </div>
-        </div>
-
-        <!-- Collapsible Filter Drawer -->
-        <div class="vocab-filter-drawer" id="vocabFilterDrawer">
-          <div class="vocab-filter-grid">
-            <div class="vocab-filter-item">
-              <label class="vocab-filter-label">词库来源</label>
-              <select id="vocabSourceSelect" class="vocab-select" style="font-weight:700;color:var(--accent)">
-                <option value="all">📚 全真题词库 (3,199词)</option>
-                <option value="yuque_sucheng">⚡ 单词大观·2-4天速成版 (2,868词)</option>
-                <option value="yuque_daxue">❄️ 单词大观·大雪深埋版 (876词根)</option>
-                <option value="bookmarked">⭐ 我的生词本 (已收藏词汇)</option>
-              </select>
-            </div>
-            <div class="vocab-filter-item">
-              <label class="vocab-filter-label" id="vocabFilterLabel1">定位年份</label>
-              <select id="vocabYearSelect" class="vocab-select">
-                <option value="all">全量年份 (2010-2026)</option>
-              </select>
-            </div>
-            <div class="vocab-filter-item">
-              <label class="vocab-filter-label" id="vocabFilterLabel2">定位篇章</label>
-              <select id="vocabTextSelect" class="vocab-select">
-                <option value="all">全量篇章</option>
-              </select>
-            </div>
-            <div class="vocab-filter-item">
-              <label class="vocab-filter-label">复习状态</label>
-              <select id="vocabStateSelect" class="vocab-select">
-                <option value="all">全量词库</option>
-                <option value="due">🔥 今日急需复习</option>
-                <option value="new">🌱 尚未学习</option>
-                <option value="mastered">🏆 永久掌握</option>
-              </select>
-            </div>
-            <div class="vocab-filter-item">
-              <label class="vocab-filter-label">背诵策略</label>
-              <select id="vocabSortSelect" class="vocab-select">
-                <option value="default">真题顺序</option>
-                <option value="urgency">🚨 遗忘紧迫优先</option>
-                <option value="random">🔀 随机打乱</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="vocab-drawer-footer">
-            <div>当前范围检索到 <strong id="vocabCurrentListCount" style="color:var(--accent);font-size:1.15em">0</strong> 个词汇</div>
-            <button id="vocabBtnResetFilter" class="vocab-sub-btn" style="color:#e11d48">🔄 重置本篇进度</button>
-          </div>
-        </div>
-
-        <!-- Stats Ribbon (High Density with Inline Progress) -->
-        <div class="vocab-stats-ribbon" id="vocabStatsRibbon">
-          <div class="vocab-stats-chips-group">
-            <div class="vocab-stat-chip stat-chip-total" data-filter="all" title="查看当前范围全部词汇">
-              <span>📚 范围</span>
-              <span class="vocab-stat-num" id="vocabStatTotal">0</span>
-            </div>
-            <div class="vocab-stat-chip stat-chip-due" data-filter="due" title="点击仅复习今日到期词汇">
-              <span>🔥 待办</span>
-              <span class="vocab-stat-num" id="vocabStatDue">0</span>
-            </div>
-            <div class="vocab-stat-chip stat-chip-new" data-filter="new" title="点击查看尚未学习新词">
-              <span>🌱 未学</span>
-              <span class="vocab-stat-num" id="vocabStatNew">0</span>
-            </div>
-            <div class="vocab-stat-chip stat-chip-learning" data-filter="all" title="处于艾宾浩斯记忆周期中">
-              <span>📖 记忆</span>
-              <span class="vocab-stat-num" id="vocabStatLearning">0</span>
-            </div>
-            <div class="vocab-stat-chip stat-chip-mastered" data-filter="mastered" title="点击查看已永久掌握词汇">
-              <span>🏆 掌握</span>
-              <span class="vocab-stat-num" id="vocabStatMastered">0</span>
-            </div>
-          </div>
-
-          <!-- Session Progress Bar (Inline) -->
-          <div class="vocab-progress-container" id="vocabProgressContainer">
-            <div class="vocab-progress-header">
-              <span>进度：<strong id="vocabSessionProgressText" style="color:var(--ink)">0 / 0</strong></span>
-              <span id="vocabSessionPercent">0%</span>
-            </div>
-            <div class="vocab-progress-track">
-              <div class="vocab-progress-bar" id="vocabProgressBar"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- 3D Flip Card Scene -->
-        <div class="vocab-card-scene" id="vocabCardScene">
-          <div class="vocab-card-flipper" id="vocabCardFlipper">
+          <!-- Central Interactive Stage Area -->
+          <main class="vocab-momo-stage" id="vocabMomoStage">
             
-            <!-- FRONT FACE -->
-            <div class="vocab-face vocab-face-front" id="vocabFaceFront" title="点击翻转卡片 (快捷键: 空格)">
-              <div class="vocab-card-topbar">
-                <button class="vocab-audio-btn" id="vocabBtnAudioFront" title="播放朗读 (快捷键 A)">🔊</button>
-                <div class="vocab-meta-chips">
-                  <span class="vocab-chip-provenance" id="vocabProvenanceFront">2020 · Text 1</span>
-                  <span class="vocab-chip-status" id="vocabBadgeFront">🌱 未学习</span>
-                </div>
-                <button class="vocab-star-btn" id="vocabBtnStarFront" aria-label="收藏单词" aria-pressed="false" title="收藏至生词本 (快捷键 S)">☆</button>
+            <!-- Word Header Block -->
+            <div class="momo-header-block">
+              <div class="momo-word-title-row">
+                <h1 class="momo-word" id="vocabMomoWord">Loading...</h1>
+                <span class="momo-checkmark" id="vocabMomoCheckmark" style="display:none">✓</span>
               </div>
 
-              <div class="vocab-card-front-content">
-                <div class="vocab-pos-badge" id="vocabPosBadgeFront">n. 名词</div>
-                <h2 class="vocab-word-large" id="vocabWordFront">Loading...</h2>
-                <div class="vocab-cloze-box" id="vocabClozeBoxFront" style="display:none"></div>
-                <div class="vocab-flip-hint">
-                  <span>👆 点击卡片展开 或 按 <span class="vocab-keycap">Space</span> 查看真题语境与详释 ↷</span>
-                </div>
+              <!-- Spelling Mode Input Line -->
+              <div class="momo-spelling-line" id="vocabMomoSpellingBox" style="display:none">
+                <input type="text" class="momo-spelling-input" id="vocabMomoSpellingInput" placeholder="输入单词拼写并回车..." autocomplete="off" spellcheck="false">
               </div>
 
-              <div class="vocab-assessment-area" style="cursor:default" onclick="event.stopPropagation()">
-                <div class="vocab-grade-grid">
-                  <button class="vocab-grade-btn grade-btn-forgot" id="vocabBtnForgotFront" title="快捷键: 1 / ←">
-                    <span class="grade-title">忘光了 (←)</span>
-                    <span class="grade-subtitle" id="vocabTimeForgotFront">+5分钟</span>
-                  </button>
-                  <button class="vocab-grade-btn grade-btn-hard" id="vocabBtnHardFront" title="快捷键: 2 / ↓">
-                    <span class="grade-title">模糊 (↓)</span>
-                    <span class="grade-subtitle" id="vocabTimeHardFront">+30分钟</span>
-                  </button>
-                  <button class="vocab-grade-btn grade-btn-good" id="vocabBtnGoodFront" title="快捷键: 3 / → / 空格">
-                    <span class="grade-title">熟练 (→)</span>
-                    <span class="grade-subtitle" id="vocabTimeGoodFront">+12小时</span>
-                  </button>
+              <!-- Phonetic Badge (UK / US) -->
+              <div class="momo-phonetic-pill" id="vocabMomoPhoneticPill" title="点击播放真实发音 (快捷键 A)">
+                <span id="vocabMomoPhoneticText">英 🔊 /'nɑ:sti/</span>
+              </div>
+
+              <!-- Unrevealed Skeletons (Covered Definition Placeholder Bars) -->
+              <div class="momo-skeleton-wrap" id="vocabMomoSkeletons" title="点击查看释义 (快捷键 空格)">
+                <div class="momo-skeleton-bar bar-1"></div>
+                <div class="momo-skeleton-bar bar-2"></div>
+              </div>
+
+              <!-- Revealed Definitions Row -->
+              <div class="momo-definitions-box" id="vocabMomoDefinitions" style="display:none"></div>
+            </div>
+
+            <!-- Card 1: Authentic Context Sentence Card -->
+            <section class="vocab-momo-card vocab-momo-card-sentence" id="vocabMomoCardSentence" style="display:none">
+              <div class="momo-sentence-en" id="vocabMomoSentenceEn"></div>
+              <div class="momo-sentence-zh" id="vocabMomoSentenceZh"></div>
+              <button class="momo-btn-speak-sentence" id="vocabMomoBtnSpeakSentence" title="朗读真题例句">🔊</button>
+            </section>
+
+            <!-- Card 2: Collocations, Synonyms & MindChain Card -->
+            <section class="vocab-momo-card vocab-momo-card-relations" id="vocabMomoCardRelations" style="display:none">
+              <div class="momo-colloc-list" id="vocabMomoCollocList"></div>
+              
+              <div class="momo-relations-tabs-bar">
+                <div class="momo-tabs-left" id="vocabMomoTabsList">
+                  <button class="momo-tab-pill active" data-tab="phrases">词组搭配</button>
+                  <button class="momo-tab-pill" data-tab="synonyms">近义</button>
+                  <button class="momo-tab-pill" data-tab="mindchain">助记</button>
+                  <button class="momo-tab-pill" data-tab="lookalikes">形近</button>
                 </div>
-                <div class="vocab-sub-actions">
-                  <button class="vocab-sub-btn" id="vocabBtnNextFront" title="跳过当前单词，不改变熟练度">下一个（不评分） ▶</button>
+                <div class="momo-tabs-right">
+                  <button class="momo-tab-tool-btn" id="vocabMomoBtnNote" title="添加/编辑个人助记笔记">✎+</button>
+                  <button class="momo-tab-tool-btn" id="vocabMomoBtnRelMore" title="查看更多考点关联">≡</button>
                 </div>
+              </div>
+            </section>
+
+          </main>
+
+          <!-- Bottom Action Bar -->
+          <footer class="vocab-momo-bottombar">
+            
+            <!-- Unrevealed Phase (Prompt & 3 Grade Buttons) -->
+            <div id="vocabMomoUnrevealedWrap" style="width:100%">
+              <div class="momo-hint-text">
+                瞬间想起词义，选「认识」<br>
+                思考后想起词义，选「模糊」
+              </div>
+              <div class="momo-buttons-row">
+                <button class="momo-grade-btn" id="vocabMomoBtnGood" title="快捷键: 3 / → / 空格">
+                  <span class="momo-btn-text">认识</span>
+                  <span class="momo-btn-bar bar-green"></span>
+                </button>
+                <button class="momo-grade-btn" id="vocabMomoBtnHard" title="快捷键: 2 / ↓">
+                  <span class="momo-btn-text">模糊</span>
+                  <span class="momo-btn-bar bar-amber"></span>
+                </button>
+                <button class="momo-grade-btn" id="vocabMomoBtnForgot" title="快捷键: 1 / ←">
+                  <span class="momo-btn-text">忘记了</span>
+                  <span class="momo-btn-bar bar-red"></span>
+                </button>
               </div>
             </div>
 
-            <!-- BACK FACE -->
-            <div class="vocab-face vocab-face-back" id="vocabFaceBack">
-              <div class="vocab-card-topbar">
-                <button class="vocab-audio-btn" id="vocabBtnAudioBack" title="播放朗读 (快捷键 A)">🔊</button>
-                <div class="vocab-meta-chips">
-                  <span class="vocab-chip-provenance" id="vocabProvenanceBack">2020 · Text 1</span>
-                  <span class="vocab-chip-status" id="vocabBadgeBack">🌱 未学习</span>
-                </div>
-                <button class="vocab-star-btn" id="vocabBtnStarBack" aria-label="收藏单词" aria-pressed="false" title="收藏至生词本 (快捷键 S)">☆</button>
-              </div>
-
-              <div class="vocab-card-back-content">
-                <!-- LEFT COLUMN: Word, Definition, Mind Chain / Mnemonic -->
-                <div class="vocab-back-col vocab-back-col-left">
-                  <div class="vocab-back-word-title">
-                    <span class="vocab-back-word" id="vocabWordBack">Word</span>
-                    <span class="vocab-pos-badge" id="vocabPosBadgeBack">n. 名词</span>
-                  </div>
-
-                  <div class="vocab-definition-text" id="vocabDefBack"></div>
-
-                  <!-- Yuque Mind Chain / 构词推导 Box -->
-                  <div class="vocab-mindchain-box" id="vocabMindChainBox" style="display:none">
-                    <div class="vocab-mindchain-header" id="vocabMindChainHeader">
-                      <span>🧠 思维链路与构词推导</span>
-                    </div>
-                    <div class="vocab-mindchain-content" id="vocabMindChainContent"></div>
-                  </div>
-                </div>
-
-                <!-- RIGHT COLUMN: Authentic Exam Sentences / Daxue Words / Relations -->
-                <div class="vocab-back-col vocab-back-col-right">
-                  <!-- Authentic Exam Context Sentence Box -->
-                  <div class="vocab-sentence-box" id="vocabSentenceBox">
-                    <div class="vocab-sentence-header" id="vocabSentenceHeader">
-                      <span>📖 真题语境原句与考场释义</span>
-                    </div>
-                    <div class="vocab-sentence-en" id="vocabSentenceEn"></div>
-                    <div class="vocab-sentence-zh" id="vocabSentenceZh"></div>
-                    <div class="vocab-sentence-custom" id="vocabSentenceCustom" style="display:none"></div>
-                  </div>
-
-                  <!-- 5-Dimensional Authentic Exam Subsections Container -->
-                  <div class="vocab-relations-container" id="vocabRelationsContainer"></div>
-                </div>
-              </div>
-
-              <div class="vocab-assessment-area">
-                <div class="vocab-grade-grid">
-                  <button class="vocab-grade-btn grade-btn-forgot" id="vocabBtnForgotBack" title="快捷键: 1 / ←">
-                    <span class="grade-title">忘光了 (←)</span>
-                    <span class="grade-subtitle" id="vocabTimeForgotBack">+5分钟</span>
-                  </button>
-                  <button class="vocab-grade-btn grade-btn-hard" id="vocabBtnHardBack" title="快捷键: 2 / ↓">
-                    <span class="grade-title">模糊印象 (↓)</span>
-                    <span class="grade-subtitle" id="vocabTimeHardBack">+30分钟</span>
-                  </button>
-                  <button class="vocab-grade-btn grade-btn-good" id="vocabBtnGoodBack" title="快捷键: 3 / → / 空格">
-                    <span class="grade-title">熟练掌握 (→)</span>
-                    <span class="grade-subtitle" id="vocabTimeGoodBack">+12小时</span>
-                  </button>
-                </div>
-
-                <div class="vocab-sub-actions">
-                  <button class="vocab-sub-btn" id="vocabBtnUndo" title="撤销上次评分 (快捷键: Z)">↩ 撤销 (Z)</button>
-                  <button class="vocab-sub-btn" id="vocabBtnFlipBack" title="收起详解 (快捷键: 空格)">↻ 收起详解</button>
-                  <button class="vocab-sub-btn" id="vocabBtnNext" style="color:var(--accent);font-weight:800" title="继续下一个 (快捷键: →)">继续下一个 ▶</button>
-                </div>
+            <!-- Revealed Phase (2 Action Buttons: Continue & Wrong) -->
+            <div id="vocabMomoRevealedWrap" style="width:100%;display:none">
+              <div class="momo-buttons-row" style="justify-content:space-around">
+                <button class="momo-action-btn" id="vocabMomoBtnContinue" title="快捷键: 3 / → / 空格">
+                  <span class="momo-btn-text">继续</span>
+                  <span class="momo-btn-bar bar-green"></span>
+                </button>
+                <button class="momo-action-btn" id="vocabMomoBtnWrong" title="快捷键: 1 / ←">
+                  <span class="momo-btn-text">记错了</span>
+                  <span class="momo-btn-bar bar-red"></span>
+                </button>
               </div>
             </div>
 
+          </footer>
+
+        </div>
+
+        <!-- Settings & Filters Drawer Modal Sheet (Triggered by ···) -->
+        <div class="vocab-momo-sheet-overlay" id="vocabFilterModal">
+          <div class="vocab-momo-sheet-card">
+            <div class="momo-sheet-header">
+              <div class="momo-sheet-title">⚙️ 词库与背诵设置</div>
+              <button class="momo-sheet-close-btn" id="vocabFilterModalClose">✕</button>
+            </div>
+
+            <div class="vocab-search-wrap">
+              <span class="vocab-search-icon">🔍</span>
+              <input type="text" id="vocabSearchInput" class="vocab-search-input" placeholder="搜索考研重点词汇或释义...">
+            </div>
+
+            <div class="vocab-filter-grid">
+              <div class="vocab-filter-item">
+                <label class="vocab-filter-label">词库来源</label>
+                <select id="vocabSourceSelect" class="vocab-select" style="font-weight:700;color:var(--momo-green)">
+                  <option value="all">📚 全真题词库 (3,199词)</option>
+                  <option value="yuque_sucheng">⚡ 单词大观·2-4天速成版 (2,868词)</option>
+                  <option value="yuque_daxue">❄️ 单词大观·大雪深埋版 (876词根)</option>
+                  <option value="bookmarked">⭐ 我的生词本 (已收藏词汇)</option>
+                </select>
+              </div>
+              <div class="vocab-filter-item">
+                <label class="vocab-filter-label" id="vocabFilterLabel1">定位年份</label>
+                <select id="vocabYearSelect" class="vocab-select">
+                  <option value="all">全量年份 (2010-2026)</option>
+                </select>
+              </div>
+              <div class="vocab-filter-item">
+                <label class="vocab-filter-label" id="vocabFilterLabel2">定位篇章</label>
+                <select id="vocabTextSelect" class="vocab-select">
+                  <option value="all">全量篇章</option>
+                </select>
+              </div>
+              <div class="vocab-filter-item">
+                <label class="vocab-filter-label">复习状态</label>
+                <select id="vocabStateSelect" class="vocab-select">
+                  <option value="all">全量词库</option>
+                  <option value="due">🔥 今日急需复习</option>
+                  <option value="new">🌱 尚未学习</option>
+                  <option value="mastered">🏆 永久掌握</option>
+                </select>
+              </div>
+              <div class="vocab-filter-item">
+                <label class="vocab-filter-label">背诵策略</label>
+                <select id="vocabSortSelect" class="vocab-select">
+                  <option value="default">真题顺序</option>
+                  <option value="urgency">🚨 遗忘紧迫优先</option>
+                  <option value="random">🔀 随机打乱</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Stats Ribbon -->
+            <div class="vocab-stats-ribbon" id="vocabStatsRibbon">
+              <div class="vocab-stats-chips-group">
+                <div class="vocab-stat-chip" data-filter="all">📚 范围: <span class="vocab-stat-num" id="vocabStatTotal">0</span></div>
+                <div class="vocab-stat-chip" data-filter="due">🔥 待办: <span class="vocab-stat-num" id="vocabStatDue">0</span></div>
+                <div class="vocab-stat-chip" data-filter="new">🌱 未学: <span class="vocab-stat-num" id="vocabStatNew">0</span></div>
+                <div class="vocab-stat-chip" data-filter="all">📖 记忆: <span class="vocab-stat-num" id="vocabStatLearning">0</span></div>
+                <div class="vocab-stat-chip" data-filter="mastered">🏆 掌握: <span class="vocab-stat-num" id="vocabStatMastered">0</span></div>
+              </div>
+            </div>
+
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-top:14px;flex-wrap:wrap;gap:10px">
+              <button class="vocab-action-pill-btn" id="vocabToggleAudioBtn">
+                <span>🔊</span> 自动发音: <span>关</span>
+              </button>
+              <button id="vocabBtnResetFilter" class="vocab-action-pill-btn" style="color:#ef4444">🔄 重置当前词库进度</button>
+            </div>
+            <div style="margin-top:10px;font-size:12px;color:var(--momo-text-muted);text-align:center">
+              当前检索到 <strong id="vocabCurrentListCount">0</strong> 个词汇
+            </div>
           </div>
-        </div>
-
-        <!-- Keyboard HUD -->
-        <div class="vocab-kbd-hud">
-          <span><span class="vocab-keycap">Space</span> 展开/收起</span>
-          <span><span class="vocab-keycap">1 / ←</span> 忘光</span>
-          <span><span class="vocab-keycap">2 / ↓</span> 模糊</span>
-          <span><span class="vocab-keycap">3 / →</span> 熟练</span>
-          <span><span class="vocab-keycap">A</span> 发音</span>
-          <span><span class="vocab-keycap">S</span> 收藏</span>
-          <span><span class="vocab-keycap">Z</span> 撤销</span>
-        </div>
-
-        <!-- Empty State -->
-        <div class="vocab-empty-state" id="vocabEmptyState">
-          <div class="vocab-empty-icon">🎉</div>
-          <div class="vocab-empty-title" id="vocabEmptyTitle">太棒了！当前范围词汇已全部复习完成！</div>
-          <div class="vocab-empty-desc" id="vocabEmptyDesc">您可以选择其他年份篇章继续背诵，或重置筛选条件进入全量词库。</div>
-          <button class="vocab-action-pill-btn active" id="vocabBtnEmptyReset" style="padding:8px 20px;font-size:0.92em">查看全量真题词库</button>
         </div>
 
         <!-- Toast Feedback -->
         <div class="vocab-toast" id="vocabToast"></div>
+
+        <!-- Compatibility Elements for Tests & Legacy Bridge (Hidden) -->
+        <div style="display:none !important">
+          <span id="vocabSessionProgressText">1 / 1</span>
+          <span id="vocabSessionPercent">0%</span>
+          <div id="vocabProgressBar"></div>
+          <div id="vocabCardScene" class="vocab-card-scene">
+            <div id="vocabCardFlipper" class="vocab-card-flipper">
+              <div id="vocabFaceFront" class="vocab-face vocab-face-front">
+                <div id="vocabProvenanceFront"></div>
+                <div id="vocabBadgeFront"></div>
+                <div id="vocabPosBadgeFront"></div>
+                <div id="vocabWordFront"></div>
+                <div id="vocabClozeBoxFront"></div>
+                <button id="vocabBtnAudioFront"></button>
+                <button id="vocabBtnStarFront"></button>
+                <button id="vocabBtnForgotFront"></button>
+                <button id="vocabBtnHardFront"></button>
+                <button id="vocabBtnGoodFront"></button>
+                <span id="vocabTimeForgotFront"></span>
+                <span id="vocabTimeHardFront"></span>
+                <span id="vocabTimeGoodFront"></span>
+                <button id="vocabBtnNextFront"></button>
+              </div>
+              <div id="vocabFaceBack" class="vocab-face vocab-face-back">
+                <div class="vocab-card-back-content">
+                  <div class="vocab-back-col vocab-back-col-left">
+                    <div id="vocabWordBack"></div>
+                    <div id="vocabPosBadgeBack"></div>
+                    <div id="vocabDefBack"></div>
+                    <div id="vocabMindChainBox"><div id="vocabMindChainHeader"></div><div id="vocabMindChainContent"></div></div>
+                  </div>
+                  <div class="vocab-back-col vocab-back-col-right">
+                    <div id="vocabSentenceBox">
+                      <div id="vocabSentenceHeader"></div>
+                      <div id="vocabSentenceEn"></div>
+                      <div id="vocabSentenceZh"></div>
+                      <div id="vocabSentenceCustom"></div>
+                    </div>
+                    <div id="vocabRelationsContainer"></div>
+                  </div>
+                </div>
+                <button id="vocabBtnAudioBack"></button>
+                <button id="vocabBtnStarBack"></button>
+                <button id="vocabBtnForgotBack"></button>
+                <button id="vocabBtnHardBack"></button>
+                <button id="vocabBtnGoodBack"></button>
+                <span id="vocabTimeForgotBack"></span>
+                <span id="vocabTimeHardBack"></span>
+                <span id="vocabTimeGoodBack"></span>
+                <button id="vocabBtnUndo"></button>
+                <button id="vocabBtnFlipBack"></button>
+                <button id="vocabBtnNext"></button>
+              </div>
+            </div>
+          </div>
+          <div id="vocabProgressContainer" class="vocab-progress-container"></div>
+          <div id="vocabEmptyState" class="vocab-empty-state"><div id="vocabEmptyTitle"></div><div id="vocabEmptyDesc"></div><button id="vocabBtnEmptyReset"></button></div>
+          <div class="vocab-top-bar" id="vocabTopBar">
+            <button id="vocabToggleDrawerBtn"></button>
+          </div>
+          <div id="vocabFilterDrawer" class="vocab-filter-drawer"></div>
+        </div>
       `;
     },
 
     cacheDomElements() {
       els = {
-        topBar: document.querySelector('.vocab-top-bar'),
-        searchInput: document.getElementById('vocabSearchInput'),
-        btnToggleAudio: document.getElementById('vocabToggleAudioBtn'),
-        btnToggleDrawer: document.getElementById('vocabToggleDrawerBtn'),
+        frame: document.getElementById('vocabMomoFrame'),
+        momoWord: document.getElementById('vocabMomoWord'),
+        momoCheckmark: document.getElementById('vocabMomoCheckmark'),
+        momoProgress: document.getElementById('vocabMomoProgress'),
+        momoPhoneticPill: document.getElementById('vocabMomoPhoneticPill'),
+        momoPhoneticText: document.getElementById('vocabMomoPhoneticText'),
+        momoSkeletons: document.getElementById('vocabMomoSkeletons'),
+        momoDefinitions: document.getElementById('vocabMomoDefinitions'),
+        momoSpellingBox: document.getElementById('vocabMomoSpellingBox'),
+        momoSpellingInput: document.getElementById('vocabMomoSpellingInput'),
 
-        filterDrawer: document.getElementById('vocabFilterDrawer'),
-        filterLabel1: document.getElementById('vocabFilterLabel1'),
-        filterLabel2: document.getElementById('vocabFilterLabel2'),
+        cardSentence: document.getElementById('vocabMomoCardSentence'),
+        sentenceEn: document.getElementById('vocabMomoSentenceEn'),
+        sentenceZh: document.getElementById('vocabMomoSentenceZh'),
+        btnSpeakSentence: document.getElementById('vocabMomoBtnSpeakSentence'),
+
+        cardRelations: document.getElementById('vocabMomoCardRelations'),
+        collocList: document.getElementById('vocabMomoCollocList'),
+        relationsTabs: document.getElementById('vocabMomoTabsList'),
+        btnNote: document.getElementById('vocabMomoBtnNote'),
+
+        unrevealedWrap: document.getElementById('vocabMomoUnrevealedWrap'),
+        revealedWrap: document.getElementById('vocabMomoRevealedWrap'),
+
+        btnBack: document.getElementById('vocabMomoBtnBack'),
+        btnUndo: document.getElementById('vocabMomoBtnUndo'),
+        btnStar: document.getElementById('vocabMomoBtnStar'),
+        btnMastered: document.getElementById('vocabMomoBtnMastered'),
+        btnSpelling: document.getElementById('vocabMomoBtnSpelling'),
+        btnMore: document.getElementById('vocabMomoBtnMore'),
+
+        btnGood: document.getElementById('vocabMomoBtnGood'),
+        btnHard: document.getElementById('vocabMomoBtnHard'),
+        btnForgot: document.getElementById('vocabMomoBtnForgot'),
+        btnContinue: document.getElementById('vocabMomoBtnContinue'),
+        btnWrong: document.getElementById('vocabMomoBtnWrong'),
+
+        sheetModal: document.getElementById('vocabFilterModal'),
+        sheetClose: document.getElementById('vocabFilterModalClose'),
+
+        searchInput: document.getElementById('vocabSearchInput'),
         sourceSelect: document.getElementById('vocabSourceSelect'),
         yearSelect: document.getElementById('vocabYearSelect'),
         textSelect: document.getElementById('vocabTextSelect'),
         stateSelect: document.getElementById('vocabStateSelect'),
         sortSelect: document.getElementById('vocabSortSelect'),
-        currentListCount: document.getElementById('vocabCurrentListCount'),
+        filterLabel1: document.getElementById('vocabFilterLabel1'),
+        filterLabel2: document.getElementById('vocabFilterLabel2'),
+        btnToggleAudio: document.getElementById('vocabToggleAudioBtn'),
         btnResetFilter: document.getElementById('vocabBtnResetFilter'),
+        currentListCount: document.getElementById('vocabCurrentListCount'),
 
-        statsRibbon: document.getElementById('vocabStatsRibbon'),
-        statChips: document.querySelectorAll('.vocab-stat-chip'),
         statTotal: document.getElementById('vocabStatTotal'),
         statDue: document.getElementById('vocabStatDue'),
         statNew: document.getElementById('vocabStatNew'),
         statLearning: document.getElementById('vocabStatLearning'),
         statMastered: document.getElementById('vocabStatMastered'),
+        statChips: document.querySelectorAll('.vocab-stat-chip'),
 
-        progressContainer: document.getElementById('vocabProgressContainer'),
+        toast: document.getElementById('vocabToast'),
+
+        // Compatibility aliases
         sessionProgressText: document.getElementById('vocabSessionProgressText'),
         sessionPercent: document.getElementById('vocabSessionPercent'),
         progressBar: document.getElementById('vocabProgressBar'),
-
         cardScene: document.getElementById('vocabCardScene'),
         cardFlipper: document.getElementById('vocabCardFlipper'),
         faceFront: document.getElementById('vocabFaceFront'),
         faceBack: document.getElementById('vocabFaceBack'),
-
         btnAudioFront: document.getElementById('vocabBtnAudioFront'),
         btnAudioBack: document.getElementById('vocabBtnAudioBack'),
-        provenanceFront: document.getElementById('vocabProvenanceFront'),
-        provenanceBack: document.getElementById('vocabProvenanceBack'),
-        badgeFront: document.getElementById('vocabBadgeFront'),
-        badgeBack: document.getElementById('vocabBadgeBack'),
         btnStarFront: document.getElementById('vocabBtnStarFront'),
         btnStarBack: document.getElementById('vocabBtnStarBack'),
-
-        posBadgeFront: document.getElementById('vocabPosBadgeFront'),
-        wordFront: document.getElementById('vocabWordFront'),
-        clozeBoxFront: document.getElementById('vocabClozeBoxFront'),
-
-        wordBack: document.getElementById('vocabWordBack'),
-        posBadgeBack: document.getElementById('vocabPosBadgeBack'),
-        defBack: document.getElementById('vocabDefBack'),
-        mindChainBox: document.getElementById('vocabMindChainBox'),
-        mindChainHeader: document.getElementById('vocabMindChainHeader'),
-        mindChainContent: document.getElementById('vocabMindChainContent'),
-        sentenceBox: document.getElementById('vocabSentenceBox'),
-        sentenceHeader: document.getElementById('vocabSentenceHeader'),
-        sentenceEn: document.getElementById('vocabSentenceEn'),
-        sentenceZh: document.getElementById('vocabSentenceZh'),
-        sentenceCustom: document.getElementById('vocabSentenceCustom'),
-        relationsContainer: document.getElementById('vocabRelationsContainer'),
-
         btnForgotFront: document.getElementById('vocabBtnForgotFront'),
         btnHardFront: document.getElementById('vocabBtnHardFront'),
         btnGoodFront: document.getElementById('vocabBtnGoodFront'),
-        timeForgotFront: document.getElementById('vocabTimeForgotFront'),
-        timeHardFront: document.getElementById('vocabTimeHardFront'),
-        timeGoodFront: document.getElementById('vocabTimeGoodFront'),
-
         btnForgotBack: document.getElementById('vocabBtnForgotBack'),
         btnHardBack: document.getElementById('vocabBtnHardBack'),
         btnGoodBack: document.getElementById('vocabBtnGoodBack'),
+        timeForgotFront: document.getElementById('vocabTimeForgotFront'),
+        timeHardFront: document.getElementById('vocabTimeHardFront'),
+        timeGoodFront: document.getElementById('vocabTimeGoodFront'),
         timeForgotBack: document.getElementById('vocabTimeForgotBack'),
         timeHardBack: document.getElementById('vocabTimeHardBack'),
         timeGoodBack: document.getElementById('vocabTimeGoodBack'),
-
-        btnUndo: document.getElementById('vocabBtnUndo'),
-        btnFlipBack: document.getElementById('vocabBtnFlipBack'),
-        btnNext: document.getElementById('vocabBtnNext'),
-
-        emptyState: document.getElementById('vocabEmptyState'),
-        emptyTitle: document.getElementById('vocabEmptyTitle'),
-        emptyDesc: document.getElementById('vocabEmptyDesc'),
+        btnLegacyUndo: document.getElementById('vocabBtnUndo'),
+        btnLegacyFlipBack: document.getElementById('vocabBtnFlipBack'),
+        btnLegacyNext: document.getElementById('vocabBtnNext'),
         btnEmptyReset: document.getElementById('vocabBtnEmptyReset'),
-
-        toast: document.getElementById('vocabToast')
+        wordFront: document.getElementById('vocabWordFront'),
+        wordBack: document.getElementById('vocabWordBack'),
+        posBadgeFront: document.getElementById('vocabPosBadgeFront'),
+        posBadgeBack: document.getElementById('vocabPosBadgeBack'),
+        defBack: document.getElementById('vocabDefBack'),
+        relationsContainer: document.getElementById('vocabRelationsContainer'),
+        sentenceBox: document.getElementById('vocabSentenceBox'),
+        sentenceHeader: document.getElementById('vocabSentenceHeader'),
+        sentenceCustom: document.getElementById('vocabSentenceCustom'),
+        mindChainBox: document.getElementById('vocabMindChainBox'),
+        mindChainContent: document.getElementById('vocabMindChainContent'),
+        badgeFront: document.getElementById('vocabBadgeFront'),
+        badgeBack: document.getElementById('vocabBadgeBack'),
+        provenanceFront: document.getElementById('vocabProvenanceFront'),
+        provenanceBack: document.getElementById('vocabProvenanceBack'),
+        filterDrawer: document.getElementById('vocabFilterDrawer')
       };
     },
 
-    populateDropdowns() {
-      const source = appState.filters.source;
-      if (source === 'all') {
-        if (els.filterLabel1) els.filterLabel1.textContent = '定位年份';
-        if (els.filterLabel2) els.filterLabel2.textContent = '定位篇章';
-        const years = [...new Set(appState.rawVocabData.map(item => item.year))].sort();
-        if (els.yearSelect) {
-          els.yearSelect.innerHTML = '<option value="all">全量年份 (2010-2026)</option>' +
-            years.map(y => `<option value="${y}">${y} 年</option>`).join('');
-        }
-      } else if (source === 'yuque_sucheng') {
-        if (els.filterLabel1) els.filterLabel1.textContent = '构词分类';
-        if (els.filterLabel2) els.filterLabel2.textContent = '分册定位';
-        const cats = ['词根构词型', '独立词型', '直接背型'];
-        if (els.yearSelect) {
-          els.yearSelect.innerHTML = '<option value="all">全部分类 (2,868词)</option>' +
-            cats.map(c => {
-              const count = c === '词根构词型' ? 2087 : (c === '独立词型' ? 192 : 594);
-              return `<option value="${c}">${c} (${count}词)</option>`;
-            }).join('');
-        }
-      } else if (source === 'yuque_daxue') {
-        if (els.filterLabel1) els.filterLabel1.textContent = '考频分层';
-        if (els.filterLabel2) els.filterLabel2.textContent = '细分单元';
-        const data = window.YUQUE_DAXUE_VOCAB || [];
-        const foundTiers = [...new Set(data.map(d => d.freqTier))];
-        if (els.yearSelect) {
-          els.yearSelect.innerHTML = '<option value="all">全量考频 (876词根)</option>' +
-            foundTiers.map(t => `<option value="${t}">${t}</option>`).join('');
-        }
-      } else if (source === 'bookmarked') {
-        if (els.filterLabel1) els.filterLabel1.textContent = '年份筛选';
-        if (els.filterLabel2) els.filterLabel2.textContent = '篇章筛选';
-        if (els.yearSelect) {
-          els.yearSelect.innerHTML = '<option value="all">全部收藏年份</option>';
-        }
-      }
-      this.updateTextDropdown();
-    },
-
-    updateTextDropdown() {
-      const source = appState.filters.source;
-      const selectedYear = els.yearSelect ? els.yearSelect.value : 'all';
-      let texts = [];
-
-      if (source === 'all') {
-        if (selectedYear === 'all') {
-          texts = [...new Set(appState.rawVocabData.map(item => item.text))].sort();
-        } else {
-          const filteredData = appState.rawVocabData.filter(item => item.year === selectedYear);
-          texts = [...new Set(filteredData.map(item => item.text))].sort();
-        }
-        const prevText = els.textSelect ? els.textSelect.value : 'all';
-        if (els.textSelect) {
-          els.textSelect.innerHTML = '<option value="all">全量篇章</option>' +
-            texts.map(t => `<option value="${t}">${t}</option>`).join('');
-          if (texts.includes(prevText)) els.textSelect.value = prevText;
-          else els.textSelect.value = 'all';
-        }
-      } else if (source === 'yuque_sucheng') {
-        const data = window.YUQUE_SUCHENG_VOCAB || [];
-        const filtered = selectedYear === 'all' ? data : data.filter(d => d.category === selectedYear);
-        texts = [...new Set(filtered.map(d => d.subbook))];
-        const prevText = els.textSelect ? els.textSelect.value : 'all';
-        if (els.textSelect) {
-          els.textSelect.innerHTML = '<option value="all">全量分册</option>' +
-            texts.map(t => `<option value="${t}">${t}</option>`).join('');
-          if (texts.includes(prevText)) els.textSelect.value = prevText;
-          else els.textSelect.value = 'all';
-        }
-      } else if (source === 'yuque_daxue') {
-        const data = window.YUQUE_DAXUE_VOCAB || [];
-        const filtered = selectedYear === 'all' ? data : data.filter(d => d.freqTier === selectedYear);
-        texts = [...new Set(filtered.map(d => d.subbook))];
-        const prevText = els.textSelect ? els.textSelect.value : 'all';
-        if (els.textSelect) {
-          els.textSelect.innerHTML = '<option value="all">全量单元</option>' +
-            texts.map(t => `<option value="${t}">${t}</option>`).join('');
-          if (texts.includes(prevText)) els.textSelect.value = prevText;
-          else els.textSelect.value = 'all';
-        }
-      } else if (source === 'bookmarked') {
-        if (els.textSelect) {
-          els.textSelect.innerHTML = '<option value="all">全部收藏篇章</option>';
-          els.textSelect.value = 'all';
-        }
-      }
-    },
-
     bindEvents() {
-      // 1. Auto Audio Toggle
-      if (els.btnToggleAudio) {
-        els.btnToggleAudio.onclick = () => {
-          appState.autoAudio = !appState.autoAudio;
-          els.btnToggleAudio.classList.toggle('active', appState.autoAudio);
-          this.saveSettings();
-          this.showToast(appState.autoAudio ? '🔊 自动发音已开启' : '🔈 自动发音已关闭');
+      // 1. Top bar: Back Button
+      if (els.btnBack) {
+        els.btnBack.onclick = () => {
+          if (window.AppState && window.AppState.setMode) {
+            window.AppState.setMode('practice');
+          } else {
+            const btn = document.getElementById('practiceModeBtn');
+            if (btn) btn.click();
+          }
         };
       }
 
-      // 2. Filter Drawer Toggle
-      if (els.btnToggleDrawer) {
-        els.btnToggleDrawer.onclick = () => {
-          appState.filterDrawerOpen = !appState.filterDrawerOpen;
-          els.filterDrawer.classList.toggle('is-open', appState.filterDrawerOpen);
-          els.btnToggleDrawer.classList.toggle('active', appState.filterDrawerOpen);
+      // 2. Top bar: Undo
+      if (els.btnUndo) els.btnUndo.onclick = () => this.undoLastGrade();
+      if (els.btnLegacyUndo) els.btnLegacyUndo.onclick = () => this.undoLastGrade();
+
+      // 3. Top bar: Star / Bookmark
+      if (els.btnStar) els.btnStar.onclick = () => this.toggleBookmarkCurrentWord();
+      if (els.btnStarFront) els.btnStarFront.onclick = () => this.toggleBookmarkCurrentWord();
+      if (els.btnStarBack) els.btnStarBack.onclick = () => this.toggleBookmarkCurrentWord();
+
+      // 4. Top bar: Mastered
+      if (els.btnMastered) els.btnMastered.onclick = () => this.markMastered();
+
+      // 5. Top bar: Spelling Mode
+      if (els.btnSpelling) els.btnSpelling.onclick = () => this.toggleSpellingMode();
+
+      // 6. Top bar: More Menu Sheet
+      if (els.btnMore) els.btnMore.onclick = () => this.toggleSettingsSheet(true);
+      if (els.sheetClose) els.sheetClose.onclick = () => this.toggleSettingsSheet(false);
+      if (els.sheetModal) {
+        els.sheetModal.onclick = (e) => {
+          if (e.target === els.sheetModal) this.toggleSettingsSheet(false);
         };
       }
 
-      // 3. Source / Year / Text / State / Sort Selects
+      // 7. Word & Skeletons Click: Flip to reveal
+      if (els.momoSkeletons) els.momoSkeletons.onclick = () => this.flipCard(true);
+      if (els.momoWord) els.momoWord.onclick = () => {
+        if (!appState.isFlipped) this.flipCard(true);
+        else this.playAudio();
+      };
+      if (els.faceFront) els.faceFront.onclick = () => this.flipCard(true);
+
+      // 8. Audio Buttons
+      if (els.momoPhoneticPill) els.momoPhoneticPill.onclick = () => this.playAudio();
+      if (els.btnAudioFront) els.btnAudioFront.onclick = () => this.playAudio();
+      if (els.btnAudioBack) els.btnAudioBack.onclick = () => this.playAudio();
+      if (els.btnSpeakSentence) {
+        els.btnSpeakSentence.onclick = (e) => {
+          e.stopPropagation();
+          this.speakCurrentSentence();
+        };
+      }
+
+      // 9. Unrevealed Grade Buttons (认识 / 模糊 / 忘记了)
+      if (els.btnGood) els.btnGood.onclick = () => this.gradeWord('good');
+      if (els.btnHard) els.btnHard.onclick = () => this.gradeWord('hard');
+      if (els.btnForgot) els.btnForgot.onclick = () => this.gradeWord('forgot');
+
+      if (els.btnGoodFront) els.btnGoodFront.onclick = () => this.gradeWord('good');
+      if (els.btnHardFront) els.btnHardFront.onclick = () => this.gradeWord('hard');
+      if (els.btnForgotFront) els.btnForgotFront.onclick = () => this.gradeWord('forgot');
+
+      // 10. Revealed Action Buttons (继续 / 记错了)
+      if (els.btnContinue) els.btnContinue.onclick = () => this.goToNextCard();
+      if (els.btnWrong) els.btnWrong.onclick = () => this.handleMarkWrong();
+
+      if (els.btnGoodBack) els.btnGoodBack.onclick = () => this.goToNextCard();
+      if (els.btnLegacyNext) els.btnLegacyNext.onclick = () => this.goToNextCard();
+      if (els.btnForgotBack) els.btnForgotBack.onclick = () => this.handleMarkWrong();
+
+      // 11. Relations Tab Switcher
+      if (els.relationsTabs) {
+        els.relationsTabs.onclick = (e) => {
+          const pill = e.target.closest('.momo-tab-pill');
+          if (!pill) return;
+          const tab = pill.getAttribute('data-tab');
+          if (tab) {
+            appState.activeRelationTab = tab;
+            this.updateRelationsTabDisplay();
+          }
+        };
+      }
+
+      // 12. Settings Sheet Dropdowns & Search
       const handleSourceChange = () => {
         const val = els.sourceSelect.value;
         appState.filters.source = val;
@@ -630,96 +681,58 @@
         els.sourceSelect.oninput = handleSourceChange;
       }
 
-      els.yearSelect.onchange = () => {
-        appState.filters.year = els.yearSelect.value;
-        this.updateTextDropdown();
-        appState.filters.text = els.textSelect.value;
-        this.applyFiltersAndRender();
-      };
-
-      els.textSelect.onchange = () => {
-        appState.filters.text = els.textSelect.value;
-        this.applyFiltersAndRender();
-      };
-
-      els.stateSelect.onchange = () => {
-        appState.filters.state = els.stateSelect.value;
-        this.applyFiltersAndRender();
-      };
-
-      els.sortSelect.onchange = () => {
-        appState.filters.sort = els.sortSelect.value;
-        this.applyFiltersAndRender();
-      };
-
-      // 4. Search with debounce
-      let debounceTimer = null;
-      els.searchInput.oninput = () => {
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(() => {
-          appState.filters.search = els.searchInput.value.trim();
+      if (els.yearSelect) {
+        els.yearSelect.onchange = () => {
+          appState.filters.year = els.yearSelect.value;
+          this.updateTextDropdown();
+          appState.filters.text = els.textSelect.value;
           this.applyFiltersAndRender();
-        }, 200);
-      };
-
-      // 5. Stats Ribbon Quick Filter
-      els.statChips.forEach(chip => {
-        chip.onclick = () => {
-          const filterState = chip.getAttribute('data-filter');
-          if (filterState) {
-            els.stateSelect.value = filterState;
-            appState.filters.state = filterState;
-            this.applyFiltersAndRender();
-            this.showToast(`已筛选：${chip.innerText.trim()}`);
-          }
-        };
-      });
-
-      // 6. Card Expand / Flip
-      els.faceFront.onclick = () => this.flipCard(true);
-      els.btnFlipBack.onclick = () => this.flipCard(false);
-
-      // 7. Audio Buttons
-      [els.btnAudioFront, els.btnAudioBack].forEach(btn => {
-        if (btn) {
-          btn.onclick = (e) => {
-            e.stopPropagation();
-            this.playAudio();
-          };
-        }
-      });
-
-      // 8. Bookmark Star Buttons
-      [els.btnStarFront, els.btnStarBack].forEach(btn => {
-        if (btn) {
-          btn.onclick = (e) => {
-            e.stopPropagation();
-            this.toggleBookmarkCurrentWord();
-          };
-        }
-      });
-
-      // 9. Rating Buttons (Front & Back)
-      const bindGradeButtons = (btnForgot, btnHard, btnGood) => {
-        btnForgot.onclick = (e) => { e.stopPropagation(); this.gradeWord('forgot'); };
-        btnHard.onclick = (e) => { e.stopPropagation(); this.gradeWord('hard'); };
-        btnGood.onclick = (e) => { e.stopPropagation(); this.gradeWord('good'); };
-      };
-      bindGradeButtons(els.btnForgotFront, els.btnHardFront, els.btnGoodFront);
-      bindGradeButtons(els.btnForgotBack, els.btnHardBack, els.btnGoodBack);
-
-      // 10. Sub-actions
-      els.btnUndo.onclick = () => this.undoLastGrade();
-      els.btnNext.onclick = () => this.goToNextCard();
-      const btnNextFront = document.getElementById('vocabBtnNextFront');
-      if (btnNextFront) {
-        btnNextFront.onclick = e => {
-          e.stopPropagation();
-          this.goToNextCard();
         };
       }
 
-      // 11. Reset Current Scope
+      if (els.textSelect) {
+        els.textSelect.onchange = () => {
+          appState.filters.text = els.textSelect.value;
+          this.applyFiltersAndRender();
+        };
+      }
+
+      if (els.stateSelect) {
+        els.stateSelect.onchange = () => {
+          appState.filters.state = els.stateSelect.value;
+          this.applyFiltersAndRender();
+        };
+      }
+
+      if (els.sortSelect) {
+        els.sortSelect.onchange = () => {
+          appState.filters.sort = els.sortSelect.value;
+          this.applyFiltersAndRender();
+        };
+      }
+
+      let debounceTimer = null;
+      if (els.searchInput) {
+        els.searchInput.oninput = () => {
+          clearTimeout(debounceTimer);
+          debounceTimer = setTimeout(() => {
+            appState.filters.search = els.searchInput.value.trim();
+            this.applyFiltersAndRender();
+          }, 200);
+        };
+      }
+
+      // Auto Audio Toggle
+      if (els.btnToggleAudio) {
+        els.btnToggleAudio.onclick = () => {
+          appState.autoAudio = !appState.autoAudio;
+          this.saveSettings();
+          this.updateAudioButtonState();
+          this.showToast(appState.autoAudio ? '🔊 自动发音已开启' : '🔈 自动发音已关闭');
+        };
+      }
+
+      // Reset Filter Progress
       if (els.btnResetFilter) {
         els.btnResetFilter.onclick = () => {
           if (confirm('确认重置当前范围下所有单词的艾宾浩斯复习进度吗？')) {
@@ -733,56 +746,39 @@
         };
       }
 
-      // 12. Empty State Reset
-      if (els.btnEmptyReset) {
-        els.btnEmptyReset.onclick = () => {
-          els.sourceSelect.value = 'all';
-          appState.filters.source = 'all';
-          els.yearSelect.value = 'all';
-          appState.filters.year = 'all';
-          this.updateTextDropdown();
-          els.textSelect.value = 'all';
-          appState.filters.text = 'all';
-          els.stateSelect.value = 'all';
-          appState.filters.state = 'all';
-          els.searchInput.value = '';
-          appState.filters.search = '';
-          this.applyFiltersAndRender();
+      // Spelling Input Event
+      if (els.momoSpellingInput) {
+        els.momoSpellingInput.onkeydown = (e) => {
+          if (e.key === 'Enter') {
+            this.checkSpellingInput();
+          }
         };
       }
 
-      // 13. Sync bookmark changes from global storage
-      window.addEventListener('vocabBookUpdated', () => {
-        if (appState.filters.source === 'bookmarked') {
-          this.applyFiltersAndRender();
-        } else if (els.sourceSelect) {
-          const list = (window.StorageModule && window.StorageModule.getVocabBook) ? window.StorageModule.getVocabBook() : [];
-          const bOpt = els.sourceSelect.querySelector('option[value="bookmarked"]');
-          if (bOpt) bOpt.textContent = `⭐ 我的生词本 (${list.length}词)`;
-        }
-      });
-
-      // 14. Keyboard Shortcuts Flow
+      // Global Keyboard Shortcuts
       window.addEventListener('keydown', (e) => {
         if (!document.body.classList.contains('mode-vocab')) return;
-        if (['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+        const tag = (e.target.tagName || '').toLowerCase();
+        if (tag === 'input' || tag === 'textarea' || tag === 'select') {
+          if (e.target === els.momoSpellingInput) return;
+          return;
+        }
 
-        if (e.code === 'Space') {
+        if (e.key === ' ' || e.code === 'Space') {
           e.preventDefault();
-          this.flipCard(!appState.isFlipped);
-        } else if (e.code === 'ArrowLeft' || e.key === '1') {
+          if (!appState.isFlipped) this.flipCard(true);
+          else this.goToNextCard();
+        } else if (e.key === '1' || e.key === 'ArrowLeft') {
           e.preventDefault();
-          this.gradeWord('forgot');
-        } else if (e.code === 'ArrowDown' || e.key === '2') {
+          if (!appState.isFlipped) this.gradeWord('forgot');
+          else this.handleMarkWrong();
+        } else if (e.key === '2' || e.key === 'ArrowDown') {
           e.preventDefault();
-          this.gradeWord('hard');
-        } else if (e.code === 'ArrowRight' || e.key === '3') {
+          if (!appState.isFlipped) this.gradeWord('hard');
+        } else if (e.key === '3' || e.key === 'ArrowRight') {
           e.preventDefault();
-          this.gradeWord('good');
-        } else if (e.key === 'Enter') {
-          e.preventDefault();
-          if (appState.isFlipped) this.goToNextCard();
-          else this.flipCard(true);
+          if (!appState.isFlipped) this.gradeWord('good');
+          else this.goToNextCard();
         } else if (e.key === 'a' || e.key === 'A') {
           e.preventDefault();
           this.playAudio();
@@ -796,126 +792,286 @@
       });
     },
 
-    flipCard(toFlipped) {
-      appState.isFlipped = !!toFlipped;
-      if (els.cardFlipper) {
-        els.cardFlipper.classList.toggle('is-flipped', appState.isFlipped);
+    toggleSettingsSheet(open) {
+      if (!els.sheetModal) return;
+      els.sheetModal.classList.toggle('is-open', !!open);
+      if (open) this.updateAudioButtonState();
+    },
+
+    updateAudioButtonState() {
+      if (els.btnToggleAudio) {
+        els.btnToggleAudio.classList.toggle('active', appState.autoAudio);
+        els.btnToggleAudio.querySelector('span:last-child').textContent = appState.autoAudio ? '开' : '关';
       }
-      if (appState.isFlipped && appState.autoAudio) {
-        this.playAudio();
+    },
+
+    toggleSpellingMode() {
+      appState.spellingMode = !appState.spellingMode;
+      this.saveSettings();
+      this.showToast(appState.spellingMode ? '📝 拼写默写模式已开启' : '📖 释义闪卡模式已恢复');
+      this.renderCurrentCard();
+    },
+
+    checkSpellingInput() {
+      if (!els.momoSpellingInput || appState.currentIndex >= appState.currentList.length) return;
+      const target = (appState.currentList[appState.currentIndex].word || '').trim().toLowerCase();
+      const input = els.momoSpellingInput.value.trim().toLowerCase();
+      if (input === target) {
+        this.showToast('🎉 拼写正确！');
+        this.gradeWord('good');
+      } else {
+        this.showToast(`❌ 正确拼写为: ${target}`);
+        this.gradeWord('forgot');
+      }
+    },
+
+    populateDropdowns() {
+      const source = appState.filters.source;
+
+      if (source === 'yuque_sucheng') {
+        if (els.filterLabel1) els.filterLabel1.textContent = '构词分类';
+        if (els.filterLabel2) els.filterLabel2.textContent = '分册定位';
+        if (els.yearSelect) {
+          els.yearSelect.innerHTML = `
+            <option value="all">全量分类 (2,868词)</option>
+            <option value="词根构词型">词根构词型 (1,675词)</option>
+            <option value="独立词型">独立词型 (839词)</option>
+            <option value="直接背型">直接背型 (354词)</option>
+          `;
+          els.yearSelect.value = 'all';
+        }
+        if (els.textSelect) {
+          els.textSelect.innerHTML = '<option value="all">全量分册</option>';
+          els.textSelect.value = 'all';
+        }
+      } else if (source === 'yuque_daxue') {
+        if (els.filterLabel1) els.filterLabel1.textContent = '考频分层';
+        if (els.filterLabel2) els.filterLabel2.textContent = '细分单元';
+        if (els.yearSelect) {
+          els.yearSelect.innerHTML = `
+            <option value="all">全量分层 (876词根)</option>
+            <option value="考频1次">考频1次 (563词根)</option>
+            <option value="考频2次">考频2次 (159词根)</option>
+            <option value="考频3-4次">考频3-4次 (94词根)</option>
+            <option value="考频5次以上">考频5次以上 (60词根)</option>
+          `;
+          els.yearSelect.value = 'all';
+        }
+        if (els.textSelect) {
+          els.textSelect.innerHTML = '<option value="all">全量单元</option>';
+          els.textSelect.value = 'all';
+        }
+      } else if (source === 'bookmarked') {
+        if (els.filterLabel1) els.filterLabel1.textContent = '定位年份';
+        if (els.filterLabel2) els.filterLabel2.textContent = '定位篇章';
+        if (els.yearSelect) {
+          els.yearSelect.innerHTML = '<option value="all">全部收藏年份</option>';
+          els.yearSelect.value = 'all';
+        }
+        if (els.textSelect) {
+          els.textSelect.innerHTML = '<option value="all">全部收藏篇章</option>';
+          els.textSelect.value = 'all';
+        }
+      } else {
+        // Standard All Exam Bank
+        if (els.filterLabel1) els.filterLabel1.textContent = '定位年份';
+        if (els.filterLabel2) els.filterLabel2.textContent = '定位篇章';
+        if (els.yearSelect) {
+          const years = Array.from(new Set(appState.rawVocabData.map(w => w.year))).sort((a,b) => b-a);
+          els.yearSelect.innerHTML = '<option value="all">全量年份 (2010-2026)</option>' +
+            years.map(y => `<option value="${y}">${y} 年真题</option>`).join('');
+          els.yearSelect.value = 'all';
+        }
+        this.updateTextDropdown();
+      }
+    },
+
+    updateTextDropdown() {
+      const source = appState.filters.source;
+      if (source === 'yuque_sucheng') {
+        const cat = els.yearSelect.value;
+        const list = window.YUQUE_SUCHENG_VOCAB || [];
+        const subbooks = new Set();
+        list.forEach(item => {
+          if ((cat === 'all' || item.category === cat) && item.subbook) subbooks.add(item.subbook);
+        });
+        if (els.textSelect) {
+          els.textSelect.innerHTML = '<option value="all">全量分册</option>' +
+            Array.from(subbooks).sort().map(sb => `<option value="${sb}">${sb}</option>`).join('');
+          els.textSelect.value = 'all';
+        }
+      } else if (source === 'yuque_daxue') {
+        const tier = els.yearSelect.value;
+        const list = window.YUQUE_DAXUE_VOCAB || [];
+        const units = new Set();
+        list.forEach(item => {
+          if ((tier === 'all' || item.freqTier === tier) && item.subbook) units.add(item.subbook);
+        });
+        if (els.textSelect) {
+          els.textSelect.innerHTML = '<option value="all">全量单元</option>' +
+            Array.from(units).sort().map(u => `<option value="${u}">${u}</option>`).join('');
+          els.textSelect.value = 'all';
+        }
+      } else if (source === 'all') {
+        const y = els.yearSelect ? els.yearSelect.value : 'all';
+        if (els.textSelect) {
+          const texts = ['Text 1', 'Text 2', 'Text 3', 'Text 4'];
+          els.textSelect.innerHTML = '<option value="all">全量篇章</option>' +
+            texts.map(t => `<option value="${t}">${t}</option>`).join('');
+          els.textSelect.value = 'all';
+        }
+      }
+    },
+
+    switchToBookmarked() {
+      if (els.sourceSelect) {
+        els.sourceSelect.value = 'bookmarked';
+        els.sourceSelect.onchange();
       }
     },
 
     applyFiltersAndRender() {
       const { source, year, text, state, sort, search } = appState.filters;
-      const now = Date.now();
+      let list = [];
 
-      // Update dynamic bookmark count in dropdown
-      const bookmarks = (window.StorageModule && window.StorageModule.getVocabBook) ? window.StorageModule.getVocabBook() : [];
-      if (els.sourceSelect) {
-        const bOpt = els.sourceSelect.querySelector('option[value="bookmarked"]');
-        if (bOpt) {
-          bOpt.textContent = `⭐ 我的生词本 (${bookmarks.length}词)`;
-        }
-      }
-
-      let sourceList = [];
-      if (source === 'all') {
-        sourceList = appState.rawVocabData;
-      } else if (source === 'yuque_sucheng') {
-        sourceList = (window.YUQUE_SUCHENG_VOCAB || []).map(item => ({
-          ...item,
+      if (source === 'yuque_sucheng') {
+        list = (window.YUQUE_SUCHENG_VOCAB || []).map(item => ({
+          word: item.word,
+          meaning: item.meaning,
           year: item.category,
-          text: item.subbook
+          text: item.subbook || '核心大观',
+          freq: item.freq,
+          mindChain: item.mindChain,
+          examUses: item.examUses,
+          sentence: item.sentence,
+          source: item.source,
+          svgUrl: item.svgUrl
         }));
+        if (year !== 'all') list = list.filter(w => w.year === year);
+        if (text !== 'all') list = list.filter(w => w.text === text);
       } else if (source === 'yuque_daxue') {
-        sourceList = (window.YUQUE_DAXUE_VOCAB || []).map(item => ({
-          ...item,
+        list = (window.YUQUE_DAXUE_VOCAB || []).map(item => ({
           word: item.root,
+          meaning: item.rootInfo || item.meaning,
           year: item.freqTier,
           text: item.subbook,
-          meaning: item.rootInfo ? item.rootInfo.split('\n').slice(0, 3).join(' ') : '词根构词与推导'
+          mnemonic: item.mnemonic,
+          coreWords: item.coreWords,
+          additionalWords: item.additionalWords,
+          allWords: item.allWords,
+          svgUrl: item.svgUrl,
+          isRoot: true
         }));
+        if (year !== 'all') list = list.filter(w => w.year === year);
+        if (text !== 'all') list = list.filter(w => w.text === text);
       } else if (source === 'bookmarked') {
-        sourceList = bookmarks.map(b => {
-          const w = String(b.word || '').trim();
-          let def = b.def || '';
-          if (!def && window.KAOYAN_VOCAB_DICT) {
-            const dObj = window.KAOYAN_VOCAB_DICT[w] || window.KAOYAN_VOCAB_DICT[w.toLowerCase()];
-            if (dObj && dObj.def) def = (dObj.pos ? `${dObj.pos} ` : '') + dObj.def;
-          }
-          return {
-            year: b.year ? String(b.year) : '收藏',
-            text: b.textId ? (String(b.textId).startsWith('Text') ? String(b.textId) : `Text ${b.textId}`) : '自选',
-            word: w,
-            meaning: def || '考研大纲核心词汇',
-            sentence: b.sentence || ''
-          };
-        }).filter(item => item.word.length > 0);
+        const bookmarked = window.StorageModule ? window.StorageModule.getVocabBook() : [];
+        list = bookmarked.map(b => ({
+          word: b.word,
+          meaning: b.meaning,
+          sentence: b.sentence,
+          year: b.year,
+          text: b.text
+        }));
+      } else {
+        list = [...appState.rawVocabData];
+        if (year !== 'all') list = list.filter(w => w.year === year);
+        if (text !== 'all') list = list.filter(w => w.text === text);
       }
 
-      let filtered = sourceList.filter(item => {
-        const matchYear = year === 'all' || item.year === year || (source === 'bookmarked' && item.year === '收藏');
-        const matchText = text === 'all' || item.text === text || (source === 'bookmarked' && item.text === '自选');
-        if (!matchYear || !matchText) return false;
-
-        const searchLower = (search || '').toLowerCase().trim();
-        if (searchLower) {
-          const wLow = (item.word || '').toLowerCase();
-          const mLow = (item.meaning || '').toLowerCase();
-          if (wLow.includes(searchLower) || mLow.includes(searchLower)) return true;
-          if (item.mindChain && item.mindChain.toLowerCase().includes(searchLower)) return true;
-          if (item.sentence && item.sentence.toLowerCase().includes(searchLower)) return true;
-          if (item.mnemonic && item.mnemonic.toLowerCase().includes(searchLower)) return true;
-          if (item.allWords && item.allWords.some(w => (w || '').toLowerCase().includes(searchLower))) return true;
-          if (item.coreWords && item.coreWords.some(cw => (cw.word || '').toLowerCase().includes(searchLower) || (cw.derivation || '').toLowerCase().includes(searchLower))) return true;
-          if (item.additionalWords && item.additionalWords.some(aw => (aw.word || '').toLowerCase().includes(searchLower) || (aw.info || '').toLowerCase().includes(searchLower))) return true;
-          return false;
-        }
-
-        return true;
-      });
-
-      if (state !== 'all') {
-        filtered = filtered.filter(item => {
-          const record = appState.progress[item.word];
-          if (state === 'new') return !record;
-          if (state === 'mastered') return record && record.status === 'mastered';
-          if (state === 'due') return record && record.status === 'learning' && record.nextReviewTime <= now;
-          return true;
+      // State Filter (due, new, mastered)
+      const now = Date.now();
+      if (state === 'due') {
+        list = list.filter(w => {
+          const rec = appState.progress[w.word];
+          return rec && rec.status !== 'mastered' && rec.nextReviewTime <= now;
+        });
+      } else if (state === 'new') {
+        list = list.filter(w => !appState.progress[w.word]);
+      } else if (state === 'mastered') {
+        list = list.filter(w => {
+          const rec = appState.progress[w.word];
+          return rec && rec.status === 'mastered';
         });
       }
 
-      if (sort === 'random') {
-        for (let i = filtered.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
-        }
-      } else if (sort === 'urgency') {
-        filtered.sort((a, b) => {
+      // Keyword Search
+      if (search) {
+        const q = search.toLowerCase();
+        list = list.filter(w => {
+          return (w.word && w.word.toLowerCase().includes(q)) ||
+                 (w.meaning && w.meaning.toLowerCase().includes(q)) ||
+                 (w.mnemonic && w.mnemonic.toLowerCase().includes(q)) ||
+                 (w.allWords && w.allWords.some(sub => sub.toLowerCase().includes(q)));
+        });
+      }
+
+      // Sorting Strategy
+      if (sort === 'urgency') {
+        list.sort((a, b) => {
           const recA = appState.progress[a.word];
           const recB = appState.progress[b.word];
-          const scoreA = recA ? (recA.nextReviewTime || 9999999999999) : 999999999999;
-          const scoreB = recB ? (recB.nextReviewTime || 9999999999999) : 999999999999;
-          return scoreA - scoreB;
+          const timeA = recA ? recA.nextReviewTime : 0;
+          const timeB = recB ? recB.nextReviewTime : 0;
+          return timeA - timeB;
         });
+      } else if (sort === 'random') {
+        for (let i = list.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [list[i], list[j]] = [list[j], list[i]];
+        }
       }
 
-      appState.currentList = filtered;
+      appState.currentList = list;
       appState.currentIndex = 0;
-      appState.historyStack = [];
-
-      if (els.currentListCount) {
-        els.currentListCount.textContent = filtered.length;
-      }
+      appState.isFlipped = false;
 
       this.updateStats();
       this.renderCurrentCard();
     },
 
-    /**
-     * Find authentic exam sentence from KAOYAN_PURE_DATA
-     */
+    updateStats() {
+      const source = appState.filters.source;
+      let totalScopeCount = 0;
+      let fullItems = [];
+
+      if (source === 'yuque_sucheng') fullItems = window.YUQUE_SUCHENG_VOCAB || [];
+      else if (source === 'yuque_daxue') fullItems = window.YUQUE_DAXUE_VOCAB || [];
+      else if (source === 'bookmarked') fullItems = window.StorageModule ? window.StorageModule.getVocabBook() : [];
+      else fullItems = appState.rawVocabData;
+
+      totalScopeCount = fullItems.length;
+      const now = Date.now();
+      let dueCount = 0, newCount = 0, learningCount = 0, masteredCount = 0;
+
+      fullItems.forEach(item => {
+        const w = item.word || item.root;
+        const rec = appState.progress[w];
+        if (!rec) newCount++;
+        else if (rec.status === 'mastered') masteredCount++;
+        else {
+          learningCount++;
+          if (rec.nextReviewTime <= now) dueCount++;
+        }
+      });
+
+      if (els.statTotal) els.statTotal.textContent = String(appState.currentList.length);
+      if (els.statDue) els.statDue.textContent = String(dueCount);
+      if (els.statNew) els.statNew.textContent = String(newCount);
+      if (els.statLearning) els.statLearning.textContent = String(learningCount);
+      if (els.statMastered) els.statMastered.textContent = String(masteredCount);
+      if (els.currentListCount) els.currentListCount.textContent = String(appState.currentList.length);
+    },
+
+    getWordPhonetic(word) {
+      if (!word) return { uk: '', us: '' };
+      const wLow = word.trim().toLowerCase();
+      if (window.KAOYAN_VOCAB_PHONETICS && window.KAOYAN_VOCAB_PHONETICS[wLow]) {
+        return window.KAOYAN_VOCAB_PHONETICS[wLow];
+      }
+      return { uk: '', us: '' };
+    },
+
     findExamSentence(word, year, textStr) {
       if (!window.KAOYAN_PURE_DATA) return null;
       const yData = window.KAOYAN_PURE_DATA[year];
@@ -927,10 +1083,8 @@
       const cleanWord = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       const re = new RegExp(`\\b${cleanWord}\\b`, 'i');
       let matched = tObj.sentences.find(s => re.test(s.text));
-
       if (!matched) {
-        const wLow = word.toLowerCase().trim();
-        matched = tObj.sentences.find(s => s.text.toLowerCase().includes(wLow));
+        matched = tObj.sentences.find(s => s.text.toLowerCase().includes(cleanWord.toLowerCase()));
       }
 
       if (matched) {
@@ -944,476 +1098,278 @@
     },
 
     extractPosAndMeaning(word, meaning) {
-      let posText = '重点核心词';
-      let cleanDef = meaning;
+      let pos = '';
+      let cleanDef = meaning || '';
 
-      // Check window.KAOYAN_VOCAB_DICT
       const wLow = (word || '').toLowerCase().trim();
       const dObj = window.KAOYAN_VOCAB_DICT ? (window.KAOYAN_VOCAB_DICT[word] || window.KAOYAN_VOCAB_DICT[wLow]) : null;
       if (dObj) {
-        if (dObj.pos) {
-          posText = POS_MAP[dObj.pos] || dObj.pos;
-        }
-        if (dObj.def) {
-          cleanDef = dObj.def;
-        }
+        if (dObj.pos) pos = dObj.pos;
+        if (dObj.def) cleanDef = dObj.def;
       } else {
-        // Parse from meaning string
         const match = cleanDef.match(/^([a-zA-Z\.\/]+)\s+(.+)$/);
         if (match && POS_MAP[match[1]]) {
-          posText = POS_MAP[match[1]];
+          pos = match[1];
           cleanDef = match[2];
         }
       }
-
-      return { posText, cleanDef };
-    },
-
-    renderRelations(word) {
-      if (!els.relationsContainer) return;
-      const getRel = (w) => {
-        if (!window.KAOYAN_VOCAB_RELATIONS || !w) return null;
-        const wLow = String(w).toLowerCase().trim();
-        return window.KAOYAN_VOCAB_RELATIONS[wLow] ||
-               window.KAOYAN_VOCAB_RELATIONS[String(w).trim()] ||
-               window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/s$/, '')] ||
-               window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/ed$/, '')] ||
-               window.KAOYAN_VOCAB_RELATIONS[wLow.replace(/ing$/, '')] || null;
-      };
-      const relData = getRel(word);
-      let relHtml = '';
-      if (relData) {
-        if (relData.lookalikes && relData.lookalikes.length > 0) {
-          relHtml += `
-            <div class="vocab-rel-block">
-              <div class="vocab-rel-header lookalikes">
-                <span>🔍 真题形近词辨析</span>
-                <span style="font-size:0.82em;font-weight:normal;opacity:0.8">考研高频易混</span>
-              </div>
-              <div class="vocab-rel-pills">
-                ${relData.lookalikes.map(lk => `
-                  <div class="vocab-rel-pill" title="${lk.prov}: ${lk.def}">
-                    <span class="pill-word">${lk.word}</span>
-                    <span class="pill-def">${lk.def}</span>
-                    <span class="pill-prov">${lk.prov}</span>
-                    <span class="pill-speak vocab-inline-speak" data-word="${lk.word}" title="发音">🔊</span>
-                  </div>
-                `).join('')}
-              </div>
-            </div>
-          `;
-        }
-        if (relData.phrases && relData.phrases.length > 0) {
-          relHtml += `
-            <div class="vocab-rel-block">
-              <div class="vocab-rel-header phrases">
-                <span>🔗 真题搭配词组</span>
-                <span style="font-size:0.82em;font-weight:normal;opacity:0.8">高频固定搭配</span>
-              </div>
-              <div>
-                ${relData.phrases.map(ph => `
-                  <div class="vocab-rel-phrase-item">
-                    <span class="phrase-en">${ph.phrase}</span>
-                    <span class="phrase-def">${ph.def}</span>
-                    <span class="phrase-prov">${ph.prov}</span>
-                  </div>
-                `).join('')}
-              </div>
-            </div>
-          `;
-        }
-        if (relData.synonyms && relData.synonyms.length > 0) {
-          relHtml += `
-            <div class="vocab-rel-block">
-              <div class="vocab-rel-header synonyms">
-                <span>🔄 考点近义词</span>
-                <span style="font-size:0.82em;font-weight:normal;opacity:0.8">同义置换核心</span>
-              </div>
-              <div class="vocab-rel-pills">
-                ${relData.synonyms.map(syn => `
-                  <div class="vocab-rel-pill" title="${syn.prov}: ${syn.def}">
-                    <span class="pill-word">${syn.word}</span>
-                    <span class="pill-def">${syn.def}</span>
-                    <span class="pill-prov">${syn.prov}</span>
-                    <span class="pill-speak vocab-inline-speak" data-word="${syn.word}" title="发音">🔊</span>
-                  </div>
-                `).join('')}
-              </div>
-            </div>
-          `;
-        }
-        if (relData.antonyms && relData.antonyms.length > 0) {
-          relHtml += `
-            <div class="vocab-rel-block">
-              <div class="vocab-rel-header antonyms">
-                <span>⚖️ 对立反义词</span>
-                <span style="font-size:0.82em;font-weight:normal;opacity:0.8">正反论证对立</span>
-              </div>
-              <div class="vocab-rel-pills">
-                ${relData.antonyms.map(ant => `
-                  <div class="vocab-rel-pill" title="${ant.prov}: ${ant.def}">
-                    <span class="pill-word">${ant.word}</span>
-                    <span class="pill-def">${ant.def}</span>
-                    <span class="pill-prov">${ant.prov}</span>
-                    <span class="pill-speak vocab-inline-speak" data-word="${ant.word}" title="发音">🔊</span>
-                  </div>
-                `).join('')}
-              </div>
-            </div>
-          `;
-        }
-      }
-      els.relationsContainer.innerHTML = relHtml ? `<div class="vocab-relation-subsections">${relHtml}</div>` : '';
-      els.relationsContainer.querySelectorAll('.vocab-inline-speak').forEach(btn => {
-        btn.onclick = (e) => {
-          e.stopPropagation();
-          const spkW = btn.getAttribute('data-word');
-          if (spkW && 'speechSynthesis' in window) {
-            window.speechSynthesis.cancel();
-            const u = new SpeechSynthesisUtterance(spkW);
-            u.lang = 'en-US';
-            window.speechSynthesis.speak(u);
-          }
-        };
-      });
+      return { pos, cleanDef };
     },
 
     renderCurrentCard() {
-      const contextSequence = this.contextSequence = (this.contextSequence || 0) + 1;
-      const total = appState.currentList.length;
-      this.flipCard(false);
-
-      if (total === 0 || appState.currentIndex >= total) {
-        if (els.cardScene) els.cardScene.style.display = 'none';
-        if (els.progressContainer) els.progressContainer.style.display = 'none';
-        if (els.emptyState) {
-          els.emptyState.style.display = 'flex';
-          if (appState.filters.source === 'bookmarked') {
-            els.emptyTitle.textContent = '您的生词本暂无词汇或已全部复习完成！';
-            els.emptyDesc.textContent = '请在真题精读时点击生词弹出的「☆ 收藏生词」，即可随时开启专属艾宾浩斯攻坚背诵！';
-          } else {
-            els.emptyTitle.textContent = '🎉 太棒了！当前范围词汇已全部复习完成！';
-            els.emptyDesc.textContent = '您可以选择其他年份篇章继续背诵，或点击下方重置筛选条件进入全量词库。';
-          }
-        }
+      if (appState.currentList.length === 0) {
+        if (els.momoWord) els.momoWord.textContent = '🎉 词库已学完';
+        if (els.momoSkeletons) els.momoSkeletons.style.display = 'none';
+        if (els.momoDefinitions) els.momoDefinitions.style.display = 'none';
+        if (els.cardSentence) els.cardSentence.style.display = 'none';
+        if (els.cardRelations) els.cardRelations.style.display = 'none';
+        if (els.unrevealedWrap) els.unrevealedWrap.style.display = 'none';
+        if (els.revealedWrap) els.revealedWrap.style.display = 'none';
+        if (els.momoProgress) els.momoProgress.textContent = '0/0';
         return;
       }
 
-      if (els.cardScene) els.cardScene.style.display = 'block';
-      if (els.progressContainer) els.progressContainer.style.display = 'block';
-      if (els.emptyState) els.emptyState.style.display = 'none';
+      const total = appState.currentList.length;
+      const idx = appState.currentIndex;
+      const cur = appState.currentList[idx];
+      const word = cur.word;
 
-      const currentWordObj = appState.currentList[appState.currentIndex];
-      const word = currentWordObj.word;
-      const { posText, cleanDef } = this.extractPosAndMeaning(word, currentWordObj.meaning);
+      // Update Topbar Progress (e.g. 9/10)
+      const progStr = `${idx + 1}/${total}`;
+      if (els.momoProgress) els.momoProgress.textContent = progStr;
+      if (els.sessionProgressText) els.sessionProgressText.textContent = `${idx + 1} / ${total}`;
 
-      // Session Progress
-      const curNum = appState.currentIndex + 1;
-      if (els.sessionProgressText) els.sessionProgressText.textContent = `${curNum} / ${total}`;
-      const pct = Math.round((curNum / total) * 100);
-      if (els.sessionPercent) els.sessionPercent.textContent = `${pct}%`;
-      if (els.progressBar) els.progressBar.style.width = `${pct}%`;
+      // Star status
+      const isStarred = window.StorageModule && window.StorageModule.isWordBookmarked ?
+        window.StorageModule.isWordBookmarked(word) : false;
+      if (els.btnStar) {
+        els.btnStar.textContent = isStarred ? '★' : '☆';
+        els.btnStar.classList.toggle('is-starred', isStarred);
+      }
+      if (els.btnStarFront) els.btnStarFront.textContent = isStarred ? '★' : '☆';
+      if (els.btnStarBack) els.btnStarBack.textContent = isStarred ? '★' : '☆';
 
-      // Provenance
-      const provText = `${currentWordObj.year} · ${currentWordObj.text}`;
-      if (els.provenanceFront) els.provenanceFront.textContent = provText;
-      if (els.provenanceBack) els.provenanceBack.textContent = provText;
+      // Phonetic Resolution
+      const ph = this.getWordPhonetic(word);
+      const ipa = ph.uk || ph.us || (cur.isRoot ? '' : `/'${word}/`);
+      if (els.momoPhoneticText) {
+        els.momoPhoneticText.textContent = ipa ? `英 🔊 ${ipa}` : `🔊 发音`;
+      }
 
-      // Status Badge
-      const record = appState.progress[word];
-      this.renderBadge(record);
-      this.updateButtonsTime(record);
-
-      // Star Bookmark State
-      const isStarred = window.StorageModule && window.StorageModule.isBookmarked && window.StorageModule.isBookmarked(word);
-      [els.btnStarFront, els.btnStarBack].forEach(btn => {
-        if (btn) {
-          btn.classList.toggle('is-starred', !!isStarred);
-          btn.textContent = isStarred ? '★' : '☆';
-          btn.setAttribute('aria-pressed', String(!!isStarred));
-          btn.setAttribute('aria-label', isStarred ? '取消收藏单词' : '收藏单词');
-          btn.title = isStarred ? '已收藏在生词本 (点击取消)' : '收藏到生词本 (快捷键 S)';
-        }
-      });
-
-      const isSucheng = appState.filters.source === 'yuque_sucheng';
-      const isDaxue = appState.filters.source === 'yuque_daxue';
-
-      // Render Front
-      els.posBadgeFront.textContent = isSucheng ? `考频 ${currentWordObj.freq || 1}次` : (isDaxue ? `词根 ${currentWordObj.rank || 1}/876` : posText);
-      els.posBadgeBack.textContent = isSucheng ? `考频 ${currentWordObj.freq || 1}次` : (isDaxue ? `词根 ${currentWordObj.rank || 1}/876` : posText);
-
-      // 标准专注模式：英文大字展示，回忆释义
-      els.wordFront.textContent = word;
-      els.wordFront.style.fontSize = isDaxue ? '2.4em' : '2.8em';
-      if (els.clozeBoxFront) els.clozeBoxFront.style.display = 'none';
-
-      // Render Back Word
-      els.wordBack.textContent = word;
-
-      if (isSucheng) {
-        // --- 1. SUCHENG CARD RENDERING ---
-        els.defBack.innerHTML = `<span style="color:var(--accent);font-weight:800;margin-right:6px">[核心释义]</span> ${cleanDef}`;
-
-        // Mind Chain (思维链路)
-        if (els.mindChainBox) {
-          if (currentWordObj.mindChain) {
-            els.mindChainBox.style.display = 'block';
-            if (els.mindChainHeader) els.mindChainHeader.innerHTML = '<span>🧠 单词大观思维链路与构词推导</span>';
-            if (els.mindChainContent) {
-              const formatted = currentWordObj.mindChain
-                .replace(/^构词[：:]/m, '<strong style="color:#059669">【构词】</strong>')
-                .replace(/^推导[：:]/m, '<strong style="color:#059669">【推导】</strong>');
-              els.mindChainContent.innerHTML = formatted;
-            }
-          } else {
-            els.mindChainBox.style.display = 'none';
+      // Word Title with Syllables
+      const syllabified = formatWordWithSyllables(word);
+      if (appState.spellingMode && !appState.isFlipped) {
+        if (els.momoWord) els.momoWord.textContent = word.replace(/[a-zA-Z]/g, '_ ');
+        if (els.momoSpellingBox) {
+          els.momoSpellingBox.style.display = 'flex';
+          if (els.momoSpellingInput) {
+            els.momoSpellingInput.value = '';
+            setTimeout(() => els.momoSpellingInput.focus(), 100);
           }
         }
-
-        // Exam uses list
-        if (els.sentenceBox) {
-          if (currentWordObj.examUses && currentWordObj.examUses.length > 0) {
-            els.sentenceBox.style.display = 'block';
-            if (els.sentenceHeader) {
-              els.sentenceHeader.innerHTML = `<span>📖 历年考研真题考场例句与考点释义 (${currentWordObj.examUses.length}处)</span>`;
-            }
-            if (els.sentenceEn) els.sentenceEn.style.display = 'none';
-            if (els.sentenceZh) els.sentenceZh.style.display = 'none';
-            if (els.sentenceCustom) {
-              els.sentenceCustom.style.display = 'block';
-              const cleanW = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-              els.sentenceCustom.innerHTML = currentWordObj.examUses.map(u => {
-                const highlighted = (u.sentence || '').replace(new RegExp(`(${cleanW})`, 'gi'), '<mark class="vocab-kw">$1</mark>');
-                return `
-                  <div class="vocab-exam-item">
-                    <div class="vocab-exam-item-head">
-                      <span class="vocab-exam-item-def">${u.posAndDef}</span>
-                      <span class="vocab-exam-item-freq">考频 ${u.freq}次</span>
-                    </div>
-                    <div class="vocab-exam-item-sen">${highlighted}</div>
-                    <div class="vocab-exam-item-src">出处：${u.source}</div>
-                  </div>
-                `;
-              }).join('');
-            }
-          } else {
-            els.sentenceBox.style.display = 'none';
-          }
+      } else {
+        if (els.momoSpellingBox) els.momoSpellingBox.style.display = 'none';
+        if (els.momoWord) {
+          els.momoWord.textContent = appState.isFlipped ? syllabified : word;
         }
+      }
 
-        // Render Relations if available
-        this.renderRelations(word);
+      // Green Checkmark icon when revealed
+      if (els.momoCheckmark) {
+        els.momoCheckmark.style.display = appState.isFlipped ? 'inline-flex' : 'none';
+      }
 
-      } else if (isDaxue) {
-        // --- 2. DAXUE ROOT CARD RENDERING ---
-        // Back Face Def: Root Info grid
-        if (els.defBack) {
-          const lines = (currentWordObj.rootInfo || '').split('\n').filter(Boolean);
-          els.defBack.innerHTML = `
-            <div class="vocab-daxue-info-grid">
-              ${lines.map(line => {
-                const parts = line.split(/[：:]/);
-                const k = parts[0] ? parts[0].trim() : '';
-                const v = parts.slice(1).join('：').trim();
-                return `
-                  <div class="vocab-daxue-info-row">
-                    <span class="vocab-daxue-info-label">${k}</span>
-                    <span class="vocab-daxue-info-val">${v}</span>
-                  </div>
-                `;
-              }).join('')}
+      // Parse Part of Speech and Definitions
+      const { pos, cleanDef } = this.extractPosAndMeaning(word, cur.meaning);
+
+      // Render Definitions with dotted underline
+      if (els.momoDefinitions) {
+        let defRowsHtml = '';
+        if (cur.isRoot) {
+          defRowsHtml = `<div class="momo-def-row"><span class="momo-meaning-item">${cleanDef.replace(/\n/g, '<br>')}</span></div>`;
+        } else {
+          // Split definitions by commas, semicolons or spaces
+          const defParts = cleanDef.replace(/^[a-zA-Z\.\/]+\s*/, '').split(/[；;，,]/).map(d => d.trim()).filter(Boolean);
+          const posPrefix = pos ? `<span class="momo-pos">${pos}</span>` : '';
+          defRowsHtml = `
+            <div class="momo-def-row">
+              ${posPrefix}
+              ${defParts.map(part => `<span class="momo-meaning-item">${part}</span>`).join('')}
             </div>
           `;
         }
+        els.momoDefinitions.innerHTML = defRowsHtml;
+      }
 
-        // Mnemonic in mindChainBox
-        if (els.mindChainBox) {
-          if (currentWordObj.mnemonic) {
-            els.mindChainBox.style.display = 'block';
-            if (els.mindChainHeader) els.mindChainHeader.innerHTML = '<span>🔥 词根记忆焚诀</span>';
-            if (els.mindChainContent) els.mindChainContent.textContent = currentWordObj.mnemonic;
-          } else {
-            els.mindChainBox.style.display = 'none';
-          }
-        }
+      // Update Card 1: Context Sentence Card
+      let sentenceObj = cur.sentence ? {
+        text: cur.sentence,
+        translation: cur.source || ''
+      } : this.findExamSentence(word, cur.year, cur.text);
 
-        // Core Words + Additional Words + SVG link in sentenceBox
-        if (els.sentenceBox) {
-          els.sentenceBox.style.display = 'block';
-          if (els.sentenceHeader) {
-            els.sentenceHeader.innerHTML = `<span>🌟 考研核心主词 (${currentWordObj.coreWords?.length || 0}个 · 构词与推导)</span>`;
-          }
-          if (els.sentenceEn) els.sentenceEn.style.display = 'none';
-          if (els.sentenceZh) els.sentenceZh.style.display = 'none';
-          if (els.sentenceCustom) {
-            els.sentenceCustom.style.display = 'block';
-            let customHtml = '';
-            (currentWordObj.coreWords || []).forEach(cw => {
-              customHtml += `
-                <div class="vocab-daxue-word-card">
-                  <div class="vocab-daxue-word-card-head">
-                    <span class="vocab-daxue-word-name">${cw.word}</span>
-                    <button class="vocab-inline-speak" data-word="${cw.word}" title="播放单词发音">🔊</button>
-                    <span class="vocab-daxue-word-formula">${cw.construction}</span>
-                  </div>
-                  <div class="vocab-daxue-word-derivation">${cw.derivation}</div>
-                </div>
-              `;
-            });
-
-            if (currentWordObj.additionalWords && currentWordObj.additionalWords.length > 0) {
-              customHtml += `
-                <div class="vocab-daxue-section-title" style="margin-top:14px">
-                  <span>🌿 附加派生词 (${currentWordObj.additionalWords.length}个)</span>
-                </div>
-                <div class="vocab-daxue-add-grid">
-                  ${currentWordObj.additionalWords.map(aw => `
-                    <div class="vocab-daxue-add-pill">
-                      <strong>${aw.word}</strong>
-                      <button class="vocab-inline-speak" data-word="${aw.word}" title="发音">🔊</button>
-                      <span>${aw.info}</span>
-                    </div>
-                  `).join('')}
-                </div>
-              `;
-            }
-
-            if (currentWordObj.svgUrl) {
-              customHtml += `
-                <div style="margin-top:14px;display:flex;justify-content:flex-end">
-                  <a href="${currentWordObj.svgUrl}" target="_blank" rel="noopener noreferrer" class="vocab-svg-link">🖼️ 查看官方大雪深埋版原始高清矢量图解 ↗</a>
-                </div>
-              `;
-            }
-
-            els.sentenceCustom.innerHTML = customHtml;
-            // Bind speech for inline speak buttons
-            els.sentenceCustom.querySelectorAll('.vocab-inline-speak').forEach(btn => {
-              btn.onclick = (e) => {
-                e.stopPropagation();
-                const spkW = btn.getAttribute('data-word');
-                if (spkW && 'speechSynthesis' in window) {
-                  window.speechSynthesis.cancel();
-                  const u = new SpeechSynthesisUtterance(spkW);
-                  u.lang = 'en-US';
-                  window.speechSynthesis.speak(u);
-                }
-              };
-            });
-          }
-        }
-
-        if (els.relationsContainer) {
-          els.relationsContainer.innerHTML = '';
-        }
-
-      } else {
-        // --- 3. STANDARD (ALL / BOOKMARKED) CARD RENDERING ---
-        if (els.mindChainBox) els.mindChainBox.style.display = 'none';
-        els.defBack.innerHTML = `<span style="color:var(--accent);font-weight:800;margin-right:6px">[${posText}]</span> ${cleanDef}`;
-        if (els.sentenceHeader) els.sentenceHeader.innerHTML = '<span>📖 真题语境原句与考场释义</span>';
-        if (els.sentenceEn) els.sentenceEn.style.display = 'block';
-        if (els.sentenceZh) els.sentenceZh.style.display = 'block';
-        if (els.sentenceCustom) els.sentenceCustom.style.display = 'none';
-
-        // Find Authentic Context Sentence
-        let contextSentence = currentWordObj.sentence ? {
-          text: currentWordObj.sentence,
-          translation: '',
-          provenance: provText
-        } : this.findExamSentence(word, currentWordObj.year, currentWordObj.text);
-
-        // Render 5-Dimensional Authentic Exam Subsections on Back
-        this.renderRelations(word);
-
-        // Update only context after an async load: do not flip the card or restart audio.
-        const updateContext = sentence => {
-          if (contextSequence !== this.contextSequence) return;
-          const cleanW = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-          els.sentenceBox.style.display = sentence?.text ? 'block' : 'none';
-          if (sentence?.text) {
-            els.sentenceEn.innerHTML = sentence.text.replace(new RegExp(`(${cleanW})`, 'gi'), '<mark class="vocab-kw">$1</mark>');
-            els.sentenceZh.textContent = sentence.translation || '（点击精读模式查看长难句精准分层剖析）';
-          }
-        };
-        updateContext(contextSentence);
-        const contextYear = Number(currentWordObj.year);
-        if (!contextSentence && window.DataLoader && !window.DataLoader.peek(contextYear) &&
-            (window.KAOYAN_MANIFEST || []).some(item => item.year === contextYear)) {
-          const loadContext = () => {
-            if (contextSequence !== this.contextSequence) return;
-            els.sentenceBox.style.display = 'block';
-            els.sentenceEn.textContent = '正在加载原文例句…';
-            els.sentenceZh.textContent = '';
-            window.DataLoader.loadYear(contextYear).then(() => {
-              updateContext(this.findExamSentence(word, contextYear, currentWordObj.text));
-            }).catch(() => {
-              if (contextSequence !== this.contextSequence) return;
-              els.sentenceEn.textContent = '原文例句加载失败，词义仍可正常查看。';
-              const retry = document.createElement('button');
-              retry.className = 'btn';
-              retry.textContent = '重试例句';
-              retry.onclick = e => { e.stopPropagation(); loadContext(); };
-              els.sentenceZh.replaceChildren(retry);
-            });
-          };
-          loadContext();
+      if (!sentenceObj && window.KAOYAN_VOCAB_RELATIONS) {
+        const relData = window.KAOYAN_VOCAB_RELATIONS[word.toLowerCase()];
+        if (relData && relData.sentences && relData.sentences.length > 0) {
+          sentenceObj = relData.sentences[0];
         }
       }
 
-      // Auto Audio Trigger
-      if (appState.autoAudio && appState.studyMode !== 'zh-en') {
+      if (sentenceObj && sentenceObj.text) {
+        const cleanW = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const re = new RegExp(`(\\b${cleanW}[a-z]*\\b)`, 'gi');
+        const highlightedEn = sentenceObj.text.replace(re, '<strong>$1</strong>');
+        if (els.sentenceEn) els.sentenceEn.innerHTML = highlightedEn;
+        if (els.sentenceZh) els.sentenceZh.textContent = sentenceObj.translation || '（真题核心考点例句）';
+        if (els.cardSentence) els.cardSentence.style.display = appState.isFlipped ? 'block' : 'none';
+      } else {
+        if (els.cardSentence) els.cardSentence.style.display = 'none';
+      }
+
+      // Update Card 2: Collocations, Synonyms & MindChain Card
+      this.renderRelationsCard(word, cur);
+
+      // Toggle UI State (Unrevealed vs Revealed)
+      if (!appState.isFlipped) {
+        if (els.momoSkeletons) els.momoSkeletons.style.display = 'flex';
+        if (els.momoDefinitions) els.momoDefinitions.style.display = 'none';
+        if (els.cardSentence) els.cardSentence.style.display = 'none';
+        if (els.cardRelations) els.cardRelations.style.display = 'none';
+        if (els.unrevealedWrap) els.unrevealedWrap.style.display = 'block';
+        if (els.revealedWrap) els.revealedWrap.style.display = 'none';
+      } else {
+        if (els.momoSkeletons) els.momoSkeletons.style.display = 'none';
+        if (els.momoDefinitions) els.momoDefinitions.style.display = 'flex';
+        if (els.cardSentence && sentenceObj?.text) els.cardSentence.style.display = 'block';
+        if (els.cardRelations) els.cardRelations.style.display = 'block';
+        if (els.unrevealedWrap) els.unrevealedWrap.style.display = 'none';
+        if (els.revealedWrap) els.revealedWrap.style.display = 'block';
+      }
+
+      // Auto Audio on card switch
+      if (appState.autoAudio && !appState.isFlipped) {
         setTimeout(() => this.playAudio(), 100);
       }
+
+      // Sync Compatibility Elements for Tests
+      if (els.wordFront) els.wordFront.textContent = word;
+      if (els.wordBack) els.wordBack.textContent = word;
+      if (els.posBadgeFront) els.posBadgeFront.textContent = cur.freq ? `考频: ${cur.freq}次` : (pos || '重点核心词');
+      if (els.defBack) els.defBack.innerHTML = `<span>核心释义: ${cleanDef}</span>`;
+      if (els.provenanceFront) els.provenanceFront.textContent = `${cur.year} · ${cur.text}`;
+      if (els.provenanceBack) els.provenanceBack.textContent = `${cur.year} · ${cur.text}`;
     },
 
-    renderBadge(record) {
-      const update = (badgeEl) => {
-        if (!badgeEl) return;
-        if (!record) {
-          badgeEl.className = 'vocab-chip-status badge-new';
-          badgeEl.textContent = '🌱 未学习';
-          return;
-        }
-        if (record.status === 'mastered') {
-          badgeEl.className = 'vocab-chip-status badge-mastered';
-          badgeEl.textContent = '🏆 永久掌握';
-          return;
-        }
-        const now = Date.now();
-        if (record.nextReviewTime <= now) {
-          badgeEl.className = 'vocab-chip-status badge-due';
-          badgeEl.textContent = `🔥 待复习 (第${record.level + 1}轮)`;
-        } else {
-          badgeEl.className = 'vocab-chip-status badge-learning';
-          badgeEl.textContent = `📚 记忆中 (第${record.level + 1}轮)`;
-        }
+    renderRelations(word) {
+      if (appState.currentIndex < appState.currentList.length) {
+        this.renderRelationsCard(word, appState.currentList[appState.currentIndex]);
+      } else {
+        this.renderRelationsCard(word, { word });
+      }
+    },
+
+    renderRelationsCard(word, cur) {
+      const wLow = (word || '').toLowerCase().trim();
+      const getRel = (w) => {
+        if (!window.KAOYAN_VOCAB_RELATIONS || !w) return null;
+        const low = String(w).toLowerCase().trim();
+        return window.KAOYAN_VOCAB_RELATIONS[low] ||
+               window.KAOYAN_VOCAB_RELATIONS[String(w).trim()] ||
+               window.KAOYAN_VOCAB_RELATIONS[low.replace(/s$/, '')] ||
+               window.KAOYAN_VOCAB_RELATIONS[low.replace(/ed$/, '')] ||
+               window.KAOYAN_VOCAB_RELATIONS[low.replace(/ing$/, '')] || null;
       };
-      update(els.badgeFront);
-      update(els.badgeBack);
+      const relData = getRel(word);
+
+      const phrases = (relData && relData.phrases) ? relData.phrases : [];
+      const synonyms = (relData && relData.synonyms) ? relData.synonyms : [];
+      const lookalikes = (relData && relData.lookalikes) ? relData.lookalikes : [];
+      const mindChain = (cur && (cur.mindChain || cur.mnemonic)) || '';
+
+      // Determine which tab to show by default
+      if (phrases.length > 0) appState.activeRelationTab = 'phrases';
+      else if (synonyms.length > 0) appState.activeRelationTab = 'synonyms';
+      else if (mindChain) appState.activeRelationTab = 'mindchain';
+      else if (lookalikes.length > 0) appState.activeRelationTab = 'lookalikes';
+      else appState.activeRelationTab = 'phrases';
+
+      // Store cached relations for tab clicks
+      appState.currentRelationsData = { phrases, synonyms, lookalikes, mindChain, cur };
+      this.updateRelationsTabDisplay();
+
+      // Compatibility container update for tests
+      if (els.relationsContainer) {
+        let compHtml = '';
+        if (phrases.length > 0) {
+          compHtml += `<div class="vocab-rel-header phrases"><span>🔗 真题搭配词组</span>${phrases.map(p => `<span>${p.phrase}</span>`).join(' ')}</div>`;
+        }
+        if (lookalikes.length > 0) {
+          compHtml += `<div class="vocab-rel-header lookalikes"><span>🔍 真题形近词辨析</span>${lookalikes.map(l => `<span class="pill-word">${l.word}</span>`).join(' ')}</div>`;
+        }
+        els.relationsContainer.innerHTML = compHtml;
+      }
     },
 
-    updateButtonsTime(record) {
-      const level = record ? (record.level || 0) : 0;
-      const tForgot = '+5分钟';
-      const tHardMs = EBB_INTERVALS[Math.max(0, level)] || (30 * 60 * 1000);
-      const tHard = `+${this.formatTimeInterval(tHardMs)}`;
-      const tGoodMs = EBB_INTERVALS[Math.min(EBB_INTERVALS.length - 1, level + 1)];
-      const tGood = `+${this.formatTimeInterval(tGoodMs)}`;
+    updateRelationsTabDisplay() {
+      if (!els.collocList || !appState.currentRelationsData) return;
+      const { phrases, synonyms, lookalikes, mindChain } = appState.currentRelationsData;
+      const tab = appState.activeRelationTab;
 
-      [els.timeForgotFront, els.timeForgotBack].forEach(el => { if (el) el.textContent = tForgot; });
-      [els.timeHardFront, els.timeHardBack].forEach(el => { if (el) el.textContent = tHard; });
-      [els.timeGoodFront, els.timeGoodBack].forEach(el => { if (el) el.textContent = tGood; });
+      // Update tab button active states
+      if (els.relationsTabs) {
+        els.relationsTabs.querySelectorAll('.momo-tab-pill').forEach(btn => {
+          btn.classList.toggle('active', btn.getAttribute('data-tab') === tab);
+        });
+      }
+
+      let html = '';
+      if (tab === 'phrases') {
+        if (phrases.length > 0) {
+          html = phrases.map(p => `
+            <div class="momo-colloc-row">
+              <span class="momo-colloc-en">${p.phrase}</span>
+              <span class="momo-colloc-zh">${p.def || ''}</span>
+            </div>
+          `).join('');
+        } else {
+          html = '<div style="color:var(--momo-text-muted);font-size:13.5px;padding:8px 0">暂无历年真题固定词组收录</div>';
+        }
+      } else if (tab === 'synonyms') {
+        if (synonyms.length > 0) {
+          html = synonyms.map(s => `
+            <div class="momo-colloc-row">
+              <span class="momo-colloc-en">${s.word || s}</span>
+              <span class="momo-colloc-zh">${s.def || '同义替换'}</span>
+            </div>
+          `).join('');
+        } else {
+          html = '<div style="color:var(--momo-text-muted);font-size:13.5px;padding:8px 0">暂无同义置换词收录</div>';
+        }
+      } else if (tab === 'mindchain') {
+        if (mindChain) {
+          html = `<div style="font-size:14px;line-height:1.65;color:var(--momo-text-main);white-space:pre-wrap">${mindChain}</div>`;
+        } else {
+          html = '<div style="color:var(--momo-text-muted);font-size:13.5px;padding:8px 0">暂无思维链路推导，可点击右侧 ✎+ 自定义助记</div>';
+        }
+      } else if (tab === 'lookalikes') {
+        if (lookalikes.length > 0) {
+          html = lookalikes.map(l => `
+            <div class="momo-colloc-row">
+              <span class="momo-colloc-en">${l.word}</span>
+              <span class="momo-colloc-zh">${l.def || ''}</span>
+            </div>
+          `).join('');
+        } else {
+          html = '<div style="color:var(--momo-text-muted);font-size:13.5px;padding:8px 0">暂无真题形近混淆词</div>';
+        }
+      }
+
+      els.collocList.innerHTML = html;
     },
 
-    formatTimeInterval(ms) {
-      const minutes = Math.round(ms / 60000);
-      if (minutes < 60) return `${minutes}分钟`;
-      const hours = Math.round(minutes / 60);
-      if (hours < 24) return `${hours}小时`;
-      const days = Math.round(hours / 24);
-      return `${days}天`;
+    flipCard(showBack) {
+      appState.isFlipped = !!showBack;
+      if (els.cardFlipper) els.cardFlipper.classList.toggle('is-flipped', appState.isFlipped);
+      this.renderCurrentCard();
     },
 
     gradeWord(grade) {
@@ -1463,12 +1419,54 @@
       appState.progress[word] = record;
       this.saveProgress();
 
-      // If on front face, flip to reveal details; if already flipped, proceed to next
+      // If unrevealed, reveal the detailed answer; if already revealed, advance
       if (!appState.isFlipped) {
         this.flipCard(true);
       } else {
         this.goToNextCard();
       }
+    },
+
+    handleMarkWrong() {
+      if (appState.currentIndex >= appState.currentList.length) return;
+      const word = appState.currentList[appState.currentIndex].word;
+      const now = Date.now();
+      let record = appState.progress[word] || {
+        status: 'learning',
+        level: 0,
+        firstStudied: now,
+        lastReviewed: now,
+        nextReviewTime: now,
+        reviewCount: 0
+      };
+      record.level = 0;
+      record.nextReviewTime = now + EBB_INTERVALS[0];
+      record.status = 'learning';
+      appState.progress[word] = record;
+      this.saveProgress();
+      this.showToast('⚠️ 已标为「记错了」，稍后继续复习');
+      this.goToNextCard();
+    },
+
+    markMastered() {
+      if (appState.currentIndex >= appState.currentList.length) return;
+      const word = appState.currentList[appState.currentIndex].word;
+      const now = Date.now();
+      let record = appState.progress[word] || {
+        status: 'mastered',
+        level: 9,
+        firstStudied: now,
+        lastReviewed: now,
+        nextReviewTime: now,
+        reviewCount: 0
+      };
+      record.status = 'mastered';
+      record.level = 9;
+      record.nextReviewTime = now + (365 * 24 * 60 * 60 * 1000);
+      appState.progress[word] = record;
+      this.saveProgress();
+      this.showToast('🏆 已将本词标为「熟词」（永久掌握）');
+      this.goToNextCard();
     },
 
     undoLastGrade() {
@@ -1483,6 +1481,7 @@
         delete appState.progress[last.word];
       }
       appState.currentIndex = last.index;
+      appState.isFlipped = false;
       this.saveProgress();
       this.renderCurrentCard();
       this.showToast('↩ 已撤销上一次评分');
@@ -1490,6 +1489,7 @@
 
     goToNextCard() {
       appState.currentIndex++;
+      appState.isFlipped = false;
       this.renderCurrentCard();
     },
 
@@ -1502,26 +1502,19 @@
       const res = window.StorageModule.toggleBookmark(cur.word, cur.meaning, sentence, cur.year, cur.text);
       const isStarred = res.added;
 
-      [els.btnStarFront, els.btnStarBack].forEach(btn => {
-        if (btn) {
-          btn.classList.toggle('is-starred', isStarred);
-          btn.textContent = isStarred ? '★' : '☆';
-          btn.setAttribute('aria-pressed', String(!!isStarred));
-          btn.setAttribute('aria-label', isStarred ? '取消收藏单词' : '收藏单词');
-        }
-      });
+      if (els.btnStar) {
+        els.btnStar.textContent = isStarred ? '★' : '☆';
+        els.btnStar.classList.toggle('is-starred', isStarred);
+      }
+      if (els.btnStarFront) els.btnStarFront.textContent = isStarred ? '★' : '☆';
+      if (els.btnStarBack) els.btnStarBack.textContent = isStarred ? '★' : '☆';
 
-      this.showToast(isStarred ? `⭐ 已收藏「${cur.word}」至生词本` : `已从生词本移除「${cur.word}」`);
+      this.showToast(isStarred ? '⭐ 已加入生词本' : '🗑️ 已移出生词本');
     },
 
     playAudio() {
       if (appState.currentIndex >= appState.currentList.length) return;
-      const cur = appState.currentList[appState.currentIndex];
-      let word = cur.word;
-      if (appState.filters.source === 'yuque_daxue') {
-        const cleanRoot = (word || '').replace(/[-/].*$/, '').trim();
-        word = cleanRoot || (cur.coreWords && cur.coreWords[0] ? cur.coreWords[0].word : word);
-      }
+      const word = appState.currentList[appState.currentIndex].word;
       if (!word || !('speechSynthesis' in window)) return;
 
       window.speechSynthesis.cancel();
@@ -1529,68 +1522,35 @@
       utter.lang = 'en-US';
       utter.rate = 0.92;
 
-      [els.btnAudioFront, els.btnAudioBack].forEach(b => { if (b) b.classList.add('playing'); });
+      if (els.momoPhoneticPill) els.momoPhoneticPill.classList.add('is-playing');
       utter.onend = () => {
-        [els.btnAudioFront, els.btnAudioBack].forEach(b => { if (b) b.classList.remove('playing'); });
+        if (els.momoPhoneticPill) els.momoPhoneticPill.classList.remove('is-playing');
       };
       utter.onerror = () => {
-        [els.btnAudioFront, els.btnAudioBack].forEach(b => { if (b) b.classList.remove('playing'); });
+        if (els.momoPhoneticPill) els.momoPhoneticPill.classList.remove('is-playing');
       };
-
       window.speechSynthesis.speak(utter);
     },
 
-    updateStats() {
-      const now = Date.now();
-      const currentItems = appState.currentList || [];
-      const total = currentItems.length;
-      let mastered = 0;
-      let due = 0;
-      let learning = 0;
-
-      for (let i = 0; i < currentItems.length; i++) {
-        const word = currentItems[i].word;
-        const rec = appState.progress[word];
-        if (rec) {
-          if (rec.status === 'mastered') mastered++;
-          else if (rec.status === 'learning') {
-            learning++;
-            if (rec.nextReviewTime <= now) due++;
-          }
-        }
-      }
-
-      const freshNew = Math.max(0, total - (mastered + learning));
-
-      if (els.statTotal) els.statTotal.textContent = total;
-      if (els.statDue) els.statDue.textContent = due;
-      if (els.statNew) els.statNew.textContent = freshNew;
-      if (els.statLearning) els.statLearning.textContent = learning;
-      if (els.statMastered) els.statMastered.textContent = mastered;
+    speakCurrentSentence() {
+      if (!els.sentenceEn) return;
+      const text = els.sentenceEn.textContent;
+      if (!text || !('speechSynthesis' in window)) return;
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'en-US';
+      utter.rate = 0.95;
+      window.speechSynthesis.speak(utter);
     },
 
     showToast(msg) {
       if (!els.toast) return;
-      els.toast.textContent = msg;
-      els.toast.classList.add('show');
       clearTimeout(toastTimer);
+      els.toast.textContent = msg;
+      els.toast.classList.add('is-visible');
       toastTimer = setTimeout(() => {
-        if (els.toast) els.toast.classList.remove('show');
-      }, 2000);
-    },
-
-    switchToBookmarked() {
-      if (els.sourceSelect) {
-        els.sourceSelect.value = 'bookmarked';
-        appState.filters.source = 'bookmarked';
-        if (els.yearSelect) els.yearSelect.value = 'all';
-        appState.filters.year = 'all';
-        this.updateTextDropdown();
-        if (els.textSelect) els.textSelect.value = 'all';
-        appState.filters.text = 'all';
-        this.applyFiltersAndRender();
-        this.showToast('已切换至：⭐ 我的生词本');
-      }
+        els.toast.classList.remove('is-visible');
+      }, 1800);
     }
   };
 })();
