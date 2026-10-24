@@ -465,5 +465,17 @@ test('Vocab Recite: Back button in top-left exits vocab mode and dict selector i
   assert.strictEqual(exitCalled, true, 'Clicking top-left back button must trigger exitVocabMode to return to reading');
 });
 
+test('Vocab DataLoader: Subpath URL resolution correctly targets repository data folder', () => {
+  // Read and verify data_loader.js logic
+  const loaderCode = fs.readFileSync(path.join(__dirname, '../js/data_loader.js'), 'utf8');
+  assert.ok(loaderCode.includes('vocabBase'), 'DataLoader must define vocabBase');
+  assert.ok(!loaderCode.includes("new URL('../data/', document.currentScript ? document.currentScript.src : window.location.href)"), 'Must not have broken ../ relative to window.location.href');
+
+  // Verify CSS background points to vocab_home_bg.jpg
+  const cssCode = fs.readFileSync(path.join(__dirname, '../css/vocab.css'), 'utf8');
+  assert.ok(cssCode.includes('vocab_home_bg.jpg'), 'vocab.css must reference vocab_home_bg.jpg');
+});
+
+
 
 

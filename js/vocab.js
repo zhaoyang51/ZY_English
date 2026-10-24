@@ -1267,9 +1267,15 @@
     },
 
     ensureDatasetLoading(source) {
-      if (this._datasetLoading === source) return;
-      this._datasetLoading = source;
       const isSucheng = source === 'yuque_sucheng';
+      if (isSucheng && window.YUQUE_SUCHENG_VOCAB) return Promise.resolve(true);
+      if (!isSucheng && window.YUQUE_DAXUE_VOCAB) return Promise.resolve(true);
+
+      if (this._datasetPromises && this._datasetPromises[source]) {
+        return this._datasetPromises[source];
+      }
+      this._datasetPromises = this._datasetPromises || {};
+
       const name = isSucheng ? '⚡ 2-4天速成词库 (2,868词)' : '❄️ 大雪深埋词根 (876词根)';
       this.showToast(`正在加载 ${name}...`);
 
@@ -1277,17 +1283,22 @@
         ? window.DataLoader.loadVocabSucheng()
         : window.DataLoader.loadVocabDaxue();
 
-      p.then(() => {
-        this._datasetLoading = null;
+      const task = p.then(() => {
+        delete this._datasetPromises[source];
         this.populateDropdowns();
         this.applyFiltersAndRender();
         this.updateHomeView();
         this.showToast(`已加载：${name}`);
+        return true;
       }).catch(err => {
-        this._datasetLoading = null;
+        delete this._datasetPromises[source];
         this.showToast(`词库加载失败，请检查网络后刷新重试`);
         console.error(err);
+        throw err;
       });
+
+      this._datasetPromises[source] = task;
+      return task;
     },
 
     applyFiltersAndRender() {
@@ -1352,7 +1363,7 @@
       if (state === 'due') {
         list = list.filter(w => {
           const rec = appState.progress[w.word || w.root];
-          return rec && rec.status !== 'mastered' && (typeof rec.nextReviewTime === 'number') && rec.nextReviewTime <= now;
+          return rec && rec.status !== 'mastered' && (!rec.nextReviewTime || rec.nextReviewTime <= now);
         });
       } else if (state === 'new') {
         list = list.filter(w => {
@@ -1536,8 +1547,8 @@
     },
 
     renderCurrentCard() {
-      const isRev = appState.studyMode === 'review';
-      const isNew = appState.studyMode === 'new';
+      const isRev = appState.studyMode === 'review' || appState.filters.state === 'due';
+      const isNew = appState.studyMode === 'new' || appState.filters.state === 'new';
 
       if (appState.currentList.length === 0 || appState.currentIndex >= appState.currentList.length) {
         if (els.momoWord) els.momoWord.textContent = isRev ? '🎉 复习已全部完成！' : '🎉 新词已全部学完！';
@@ -1577,20 +1588,20 @@
 
       this.saveLastPosition();
 
-      // Update Topbar Progress (e.g. 剩余未学 / 剩余复习)
+      // Update Topbar Progress (待复习剩余 / 未学剩余)
       const remaining = Math.max(0, total - idx);
       let progStr = `${idx + 1}/${total}`;
       if (isNew) {
         progStr = `未学剩余 ${remaining}`;
       } else if (isRev) {
-        progStr = `复习剩余 ${remaining}`;
+        progStr = `待复习剩余 ${remaining}`;
       }
 
       if (els.momoProgress) {
         if (isNew) {
           els.momoProgress.innerHTML = `<span class="momo-prog-tag tag-new">新学</span> 剩余 <strong class="momo-prog-num">${remaining}</strong>`;
         } else if (isRev) {
-          els.momoProgress.innerHTML = `<span class="momo-prog-tag tag-review">复习</span> 剩余 <strong class="momo-prog-num">${remaining}</strong>`;
+          els.momoProgress.innerHTML = `<span class="momo-prog-tag tag-review">待复习</span> 剩余 <strong class="momo-prog-num">${remaining}</strong>`;
         } else {
           els.momoProgress.textContent = progStr;
         }
@@ -1880,7 +1891,7 @@
     gradeWord(grade) {
       if (appState.currentIndex >= appState.currentList.length) return;
       const currentWordObj = appState.currentList[appState.currentIndex];
-      const word = currentWordObj.word;
+      const word = currentWordObj.word || currentWordObj.root;
       const now = Date.now();
 
       let previousRecord = appState.progress[word] ? JSON.parse(JSON.stringify(appState.progress[word])) : null;
@@ -1934,7 +1945,8 @@
 
     handleMarkWrong() {
       if (appState.currentIndex >= appState.currentList.length) return;
-      const word = appState.currentList[appState.currentIndex].word;
+      const cur = appState.currentList[appState.currentIndex];
+      const word = cur.word || cur.root;
       const now = Date.now();
       let record = appState.progress[word] || {
         status: 'learning',
@@ -1955,7 +1967,8 @@
 
     markMastered() {
       if (appState.currentIndex >= appState.currentList.length) return;
-      const word = appState.currentList[appState.currentIndex].word;
+      const cur = appState.currentList[appState.currentIndex];
+      const word = cur.word || cur.root;
       const now = Date.now();
       let record = appState.progress[word] || {
         status: 'mastered',
@@ -2187,10 +2200,26 @@
     },
 
     showStudyView(mode) {
+      const src = appState.filters.source;
+      const isSucheng = src === 'yuque_sucheng';
+      const isDaxue = src === 'yuque_daxue';
+      const needsLoad = (isSucheng && !window.YUQUE_SUCHENG_VOCAB) || (isDaxue && !window.YUQUE_DAXUE_VOCAB);
+
+      if (needsLoad && typeof window !== 'undefined' && window.DataLoader) {
+        this.ensureDatasetLoading(src).then(() => {
+          this.showStudyView(mode);
+        }).catch(() => {});
+        return;
+      }
+
       if (mode === 'new') {
         appState.studyMode = 'new';
         appState.filters.state = 'new';
+        appState.filters.year = 'all';
+        appState.filters.text = 'all';
         if (els.stateSelect) els.stateSelect.value = 'new';
+        if (els.yearSelect) els.yearSelect.value = 'all';
+        if (els.textSelect) els.textSelect.value = 'all';
         this.targetResumeWord = null;
         this.applyFiltersAndRender();
         if (appState.currentList.length === 0) {
@@ -2201,7 +2230,11 @@
       } else if (mode === 'review') {
         appState.studyMode = 'review';
         appState.filters.state = 'due';
+        appState.filters.year = 'all';
+        appState.filters.text = 'all';
         if (els.stateSelect) els.stateSelect.value = 'due';
+        if (els.yearSelect) els.yearSelect.value = 'all';
+        if (els.textSelect) els.textSelect.value = 'all';
         this.targetResumeWord = null;
         this.applyFiltersAndRender();
         if (appState.currentList.length === 0) {
@@ -2253,7 +2286,7 @@
         else if (rec.status === 'mastered') masteredCount++;
         else {
           learningCount++;
-          if (typeof rec.nextReviewTime === 'number' && rec.nextReviewTime <= now) dueCount++;
+          if (!rec.nextReviewTime || rec.nextReviewTime <= now) dueCount++;
         }
       });
 

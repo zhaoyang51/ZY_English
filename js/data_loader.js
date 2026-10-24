@@ -2,7 +2,16 @@
 (function () {
   const cache = window.KAOYAN_PURE_DATA = window.KAOYAN_PURE_DATA || {};
   const pending = new Map();
-  const base = new URL('../data/years/', document.currentScript.src);
+  const scriptSelfSrc = (typeof document !== 'undefined' && document.currentScript && document.currentScript.src) ? document.currentScript.src : null;
+  const pageBase = (typeof window !== 'undefined' && window.location && window.location.href)
+    ? window.location.href.replace(/\/[^\/]*$/, '/')
+    : 'http://localhost/';
+  const base = scriptSelfSrc
+    ? new URL('../data/years/', scriptSelfSrc)
+    : new URL('data/years/', pageBase);
+  const vocabBase = scriptSelfSrc
+    ? new URL('../data/', scriptSelfSrc)
+    : new URL('data/', pageBase);
   function entry(year) {
     return (window.KAOYAN_MANIFEST || []).find(item => item.year === Number(year));
   }
@@ -54,11 +63,10 @@
         if (checkFn && checkFn()) return resolve(true);
         return resolve(false);
       }
-      const dataDirBase = new URL('../data/', document.currentScript ? document.currentScript.src : window.location.href);
       const script = document.createElement('script');
       script.async = true;
       const vQuery = version ? `?v=${encodeURIComponent(version)}` : '';
-      script.src = new URL(`${filename}${vQuery}`, dataDirBase).href;
+      script.src = new URL(`${filename}${vQuery}`, vocabBase).href;
       let settled = false;
       const finish = error => {
         if (settled) return;
