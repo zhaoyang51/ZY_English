@@ -2480,9 +2480,10 @@
 
     showStudyView(mode) {
       const src = appState.filters.source;
+      const isNanxiao = src === 'nanxiao_sushua';
       const isSucheng = src === 'yuque_sucheng';
       const isDaxue = src === 'yuque_daxue';
-      const needsLoad = (isSucheng && !window.YUQUE_SUCHENG_VOCAB) || (isDaxue && !window.YUQUE_DAXUE_VOCAB);
+      const needsLoad = (isNanxiao && !window.NANXIAO_SUSHUA_VOCAB) || (isSucheng && !window.YUQUE_SUCHENG_VOCAB) || (isDaxue && !window.YUQUE_DAXUE_VOCAB);
 
       if (needsLoad && typeof window !== 'undefined' && window.DataLoader) {
         this.ensureDatasetLoading(src).then(() => {

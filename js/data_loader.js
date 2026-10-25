@@ -2,10 +2,30 @@
 (function () {
   const cache = window.KAOYAN_PURE_DATA = window.KAOYAN_PURE_DATA || {};
   const pending = new Map();
-  const scriptSelfSrc = (typeof document !== 'undefined' && document.currentScript && document.currentScript.src) ? document.currentScript.src : null;
-  const pageBase = (typeof window !== 'undefined' && window.location && window.location.href)
-    ? window.location.href.replace(/\/[^\/]*$/, '/')
-    : 'http://localhost/';
+  let scriptSelfSrc = (typeof document !== 'undefined' && document.currentScript && document.currentScript.src) ? document.currentScript.src : null;
+  if (!scriptSelfSrc && typeof document !== 'undefined' && document.getElementsByTagName) {
+    const scripts = document.getElementsByTagName('script');
+    for (let i = 0; i < scripts.length; i++) {
+      const s = scripts[i];
+      if (s && s.src && s.src.includes('data_loader.js')) {
+        scriptSelfSrc = s.src;
+        break;
+      }
+    }
+  }
+
+  let pageBase = 'http://localhost/';
+  if (typeof window !== 'undefined' && window.location && window.location.href) {
+    const cleanUrl = window.location.href.split('#')[0].split('?')[0];
+    if (cleanUrl.endsWith('/')) {
+      pageBase = cleanUrl;
+    } else if (/\.[a-zA-Z0-9]+$/.test(cleanUrl)) {
+      pageBase = cleanUrl.substring(0, cleanUrl.lastIndexOf('/') + 1);
+    } else {
+      pageBase = cleanUrl + '/';
+    }
+  }
+
   const base = scriptSelfSrc
     ? new URL('../data/years/', scriptSelfSrc)
     : new URL('data/years/', pageBase);
@@ -63,27 +83,62 @@
         if (checkFn && checkFn()) return resolve(true);
         return resolve(false);
       }
-      const script = document.createElement('script');
-      script.async = true;
       const vQuery = version ? `?v=${encodeURIComponent(version)}` : '';
-      script.src = new URL(`${filename}${vQuery}`, vocabBase).href;
-      let settled = false;
-      const finish = error => {
-        if (settled) return;
-        settled = true;
-        clearTimeout(timer);
-        script.onload = script.onerror = null;
-        if (script.remove) script.remove();
-        if (error) reject(error);
-        else resolve(true);
-      };
-      const timer = setTimeout(() => finish(new Error(`加载超时: ${filename}`)), 30000);
-      script.onload = () => {
-        if (!checkFn || checkFn()) finish(null);
-        else finish(new Error(`数据未能正确加载: ${filename}`));
-      };
-      script.onerror = () => finish(new Error(`网络加载失败: ${filename}`));
-      (document.head || document.body || document.documentElement).appendChild(script);
+      const primaryUrl = new URL(`${filename}${vQuery}`, vocabBase).href;
+      const cdnUrl = `https://cdn.jsdelivr.net/gh/zhaoyang51/ZY_English@main/data/${filename}${vQuery}`;
+      const fastlyCdnUrl = `https://fastly.jsdelivr.net/gh/zhaoyang51/ZY_English@main/data/${filename}${vQuery}`;
+      const candidateUrls = [primaryUrl, cdnUrl, fastlyCdnUrl];
+
+      let attempt = 0;
+      let activeScript = null;
+      let timer = null;
+
+      function tryNext() {
+        if (timer) clearTimeout(timer);
+        if (activeScript) {
+          activeScript.onload = activeScript.onerror = null;
+          if (activeScript.remove) activeScript.remove();
+          activeScript = null;
+        }
+
+        if (checkFn && checkFn()) {
+          resolve(true);
+          return;
+        }
+
+        if (attempt >= candidateUrls.length) {
+          reject(new Error(`网络加载失败: ${filename}`));
+          return;
+        }
+
+        const currentUrl = candidateUrls[attempt++];
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = currentUrl;
+        activeScript = script;
+
+        script.onload = () => {
+          if (timer) clearTimeout(timer);
+          if (!checkFn || checkFn()) {
+            if (activeScript && activeScript.remove) activeScript.remove();
+            resolve(true);
+          } else {
+            tryNext();
+          }
+        };
+
+        script.onerror = () => {
+          tryNext();
+        };
+
+        timer = setTimeout(() => {
+          tryNext();
+        }, attempt === 1 ? 12000 : 25000);
+
+        (document.head || document.body || document.documentElement).appendChild(script);
+      }
+
+      tryNext();
     });
     const tracked = task.finally(() => vocabPending.delete(filename));
     vocabPending.set(filename, tracked);
