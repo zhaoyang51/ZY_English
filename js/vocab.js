@@ -1819,7 +1819,6 @@
               <div class="momo-acc-list">
           `;
           normalizedUses.forEach((use, i) => {
-            const isFirst = i === 0;
             const freqClass = use.freq >= 20 ? 'freq-ultra' : use.freq >= 5 ? 'freq-high' : use.freq >= 2 ? 'freq-mid' : 'freq-low';
             const freqIcon = use.freq >= 20 ? '🔥 ' : use.freq >= 5 ? '⚡ ' : '';
             const freqBadge = use.freq ? `
@@ -1831,7 +1830,7 @@
             const hasSentence = Boolean(use.sentence);
 
             accHtml += `
-              <div class="momo-acc-item ${isFirst ? 'is-expanded' : ''}" data-acc-idx="${i}">
+              <div class="momo-acc-item" data-acc-idx="${i}">
                 <div class="momo-acc-header" data-toggle-acc="${i}">
                   <span class="momo-acc-index">${use.num}</span>
                   ${posHtml}
@@ -1840,7 +1839,7 @@
                   ${hasSentence ? '<span class="momo-acc-chevron">▾</span>' : ''}
                 </div>
                 ${hasSentence ? `
-                  <div class="momo-acc-body" style="${isFirst ? '' : 'display:none'}">
+                  <div class="momo-acc-body" style="display:none">
                     <div class="momo-acc-sentence-card">
                       ${use.source ? `<div class="momo-acc-prov">🏛️ ${this.escapeHtml(use.source)}</div>` : ''}
                       <div class="momo-acc-en">${use.highlightedEn}</div>

@@ -647,12 +647,15 @@ body.mode-vocab .vocab-section {
   margin-top: 6px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .momo-word-title-row {
   display: flex;
   align-items: center;
+  align-self: flex-start;
   gap: 10px;
   flex-wrap: wrap;
   margin-bottom: 6px;
@@ -737,6 +740,7 @@ body.theme-dark .momo-freq-badge.high-freq {
 .momo-phonetic-pill {
   display: inline-flex;
   align-items: center;
+  align-self: flex-start;
   gap: 6px;
   padding: 4px 12px;
   border-radius: 999px;
@@ -824,6 +828,8 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
   font-size: 16px;
   color: var(--momo-text-main);
   line-height: 1.5;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .momo-def-row {
@@ -854,7 +860,8 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
    ========================================================================== */
 .momo-freq-accordion {
   width: 100%;
-  margin-top: 10px;
+  box-sizing: border-box;
+  margin-top: 8px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -885,6 +892,8 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
 }
 
 .momo-acc-list {
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 7px;
@@ -903,6 +912,8 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
 }
 
 .momo-acc-item {
+  width: 100%;
+  box-sizing: border-box;
   background: rgba(255, 255, 255, 0.55);
   border: 1px solid rgba(0, 0, 0, 0.07);
   border-radius: 10px;
@@ -927,6 +938,8 @@ body.dark-mode .momo-acc-item.is-expanded {
 }
 
 .momo-acc-header {
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   padding: 8px 12px;
@@ -1025,6 +1038,8 @@ body.dark-mode .momo-acc-pos {
 }
 
 .momo-acc-body {
+  width: 100%;
+  box-sizing: border-box;
   padding: 0 12px 10px 12px;
   border-top: 1px dashed rgba(4, 120, 87, 0.12);
   background: rgba(4, 120, 87, 0.02);

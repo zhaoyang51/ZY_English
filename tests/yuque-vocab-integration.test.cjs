@@ -518,7 +518,7 @@ test('Vocab PDF Dataset: Nanxiao Sushua 2,872 words wordbook integration', () =>
   assert.ok(defHtml.includes('momo-freq-accordion'), 'Definitions must render as frequency-folded accordion stream');
   assert.strictEqual(defHtml.includes('考研真题考频义项与例句'), false, 'Redundant title must be removed per user request');
   assert.ok(defHtml.includes('201次'), 'Includes highest frequency badge (201次)');
-  assert.ok(defHtml.includes('is-expanded'), 'Item 0 is expanded by default for instant speed-running');
+  assert.strictEqual(defHtml.includes('is-expanded'), false, 'By default, no example sentences are expanded per user request');
   assert.ok(defHtml.includes('disruptive'), 'Item 0 contains authentic sentence from 2015');
   assert.ok(defHtml.includes('vocabAccToggleAll'), 'Includes toggle-all button');
   assert.strictEqual(elements.vocabMomoCardSentence.style.display, 'none', 'Duplicate bottom sentence card is hidden when accordion is active');
