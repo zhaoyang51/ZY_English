@@ -14,6 +14,20 @@
   <link rel="stylesheet" href="css/sections.css?v=20260924_v1">
 </head>
 <body class="mode-practice">
+  <script>
+    (function() {
+      try {
+        var s = JSON.parse(localStorage.getItem('KAOYAN_USER_PROGRESS_V4') || '{}');
+        if (s && s.mode === 'vocab') {
+          document.body.classList.remove('mode-practice');
+          document.body.classList.add('mode-vocab');
+        } else if (s && s.mode === 'review') {
+          document.body.classList.remove('mode-practice');
+          document.body.classList.add('mode-review');
+        }
+      } catch(e) {}
+    })();
+  </script>
 
   <!-- Top Navigation Bar -->
   <header class="topbar" id="mainTopbar">

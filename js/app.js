@@ -23,11 +23,14 @@
   let textLoadSequence = 0;
 
   // Study Time Tracker (Heartbeat every 5 seconds)
-  setInterval(() => {
+  const heartbeatTimer = setInterval(() => {
     if (AppState.textData && !document.hidden) {
       window.StorageModule.recordTimeSpent(AppState.year, AppState.textId, 5);
     }
   }, 5000);
+  if (heartbeatTimer && typeof heartbeatTimer.unref === 'function') {
+    heartbeatTimer.unref();
+  }
 
   // 考研语篇逻辑连接词定位与解题指南库 (Discourse & Question Positioning Signposts)
   const LOGIC_SIGNPOST_DICT = {
@@ -530,6 +533,74 @@
     const year = AppState.year;
     const textId = AppState.textId;
     applyTheme(AppState.theme);
+
+    // 优先启动与全自动记忆：若上次退出或当前处于【单词背诵】模式，彻底解耦真题试卷网络加载，0ms 直接启动词库
+    if (AppState.mode === 'vocab') {
+      AppState.textData = null;
+      AppState.steps = [];
+      AppState.stepIndex = 0;
+      updateTextDropdown();
+      updateJumpDropdown();
+      updateUIControls();
+
+      const status = document.getElementById('dataLoadStatus');
+      const layout = document.getElementById('mainLayout');
+      const vocab = document.getElementById('vocabSection');
+      const yuqueContainer = document.getElementById('yuqueContainer');
+      const reviewSubmodeGroup = document.getElementById('reviewSubmodeGroup');
+      const submodeContainer = document.getElementById('submodeContainer');
+      const mobileTabsBar = document.getElementById('mobileTabsBar');
+      const floatingNavBar = document.getElementById('floatingNavBar');
+
+      if (status) status.hidden = true;
+      if (layout) {
+        layout.inert = false;
+        layout.setAttribute('aria-busy', 'false');
+        layout.style.display = 'none';
+      }
+      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (reviewSubmodeGroup) reviewSubmodeGroup.style.display = 'none';
+      if (submodeContainer) submodeContainer.style.display = 'none';
+      if (mobileTabsBar) mobileTabsBar.style.display = 'none';
+      if (floatingNavBar) floatingNavBar.style.display = 'none';
+
+      document.body.className = '';
+      if (AppState.theme === 'parchment') document.body.classList.add('theme-parchment');
+      if (AppState.theme === 'dark') document.body.classList.add('theme-dark');
+      document.body.classList.add('mode-vocab');
+
+      const practiceBtn = document.getElementById('practiceModeBtn');
+      const reviewBtn = document.getElementById('reviewModeBtn');
+      const vocabBtn = document.getElementById('vocabModeBtn');
+      if (practiceBtn) practiceBtn.classList.remove('active');
+      if (reviewBtn) reviewBtn.classList.remove('active');
+      if (vocabBtn) vocabBtn.classList.add('active');
+
+      if (vocab) {
+        vocab.inert = false;
+        vocab.style.visibility = '';
+        vocab.style.display = '';
+      }
+
+      if (window.VocabModule) {
+        window.VocabModule.init('vocabSection');
+      }
+
+      updateUIControls();
+      saveState();
+
+      // 在后台空闲时静默预加载当年真题，用户后续切回做题时直接秒开
+      if (typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadYear) {
+        const idlePrefetch = () => window.DataLoader.loadYear(year).catch(() => {});
+        if ('requestIdleCallback' in window) {
+          window.requestIdleCallback(idlePrefetch, { timeout: 3500 });
+        } else {
+          setTimeout(idlePrefetch, 1500);
+        }
+      }
+      return;
+    }
+
     AppState.textData = null;
     AppState.steps = [];
     AppState.stepIndex = 0;
@@ -1085,7 +1156,7 @@
   }
 
   function saveState() {
-    if (!AppState.textData) return;
+    if (!AppState.textData && AppState.mode !== 'vocab') return;
     window.StorageModule.saveProgress({
       year: AppState.year,
       textId: AppState.textId,
@@ -3212,6 +3283,7 @@
       AppState.lastReadingMode = 'practice';
       AppState.mode = 'practice';
       AppState.savedStepIndex = 0;
+      saveState();
       loadCurrentText();
     });
 
@@ -3220,6 +3292,7 @@
       AppState.lastReadingMode = 'review';
       AppState.mode = 'review';
       AppState.savedStepIndex = 0;
+      saveState();
       loadCurrentText();
     });
 
@@ -3230,6 +3303,7 @@
           AppState.lastReadingMode = AppState.mode;
         }
         AppState.mode = 'vocab';
+        saveState();
         loadCurrentText();
       });
     }
@@ -3240,6 +3314,7 @@
         : 'practice';
       AppState.mode = targetMode;
       AppState.savedStepIndex = 0;
+      saveState();
       loadCurrentText();
     };
 

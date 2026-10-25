@@ -70,6 +70,7 @@ body.mode-vocab .topbar {
 
 body.mode-vocab .layout,
 body.mode-vocab #mainLayout,
+body.mode-vocab #dataLoadStatus,
 body.mode-vocab #mobileTabsBar,
 body.mode-vocab .floating-nav-bar,
 body.mode-vocab #submodeContainer,
