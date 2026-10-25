@@ -1814,7 +1814,6 @@
           let accHtml = `
             <div class="momo-freq-accordion" id="vocabMomoAccordion">
               <div class="momo-acc-toolbar">
-                <span class="momo-acc-title">🎯 考研真题考频义项与例句 (${normalizedUses.length}项)</span>
                 <button type="button" class="momo-acc-toggle-all-btn" id="vocabAccToggleAll" title="一键展开/折叠所有义项例句">全部展开</button>
               </div>
               <div class="momo-acc-list">
@@ -1926,7 +1925,8 @@
         if (els.momoSkeletons) els.momoSkeletons.style.display = 'none';
         if (els.momoDefinitions) els.momoDefinitions.style.display = 'flex';
         if (els.cardSentence && sentenceObj?.text) els.cardSentence.style.display = hasAccordion ? 'none' : 'block';
-        if (els.cardRelations) els.cardRelations.style.display = 'block';
+        const hideRelations = hasAccordion || appState.filters.source === 'nanxiao_sushua';
+        if (els.cardRelations) els.cardRelations.style.display = hideRelations ? 'none' : 'block';
         if (els.unrevealedWrap) els.unrevealedWrap.style.display = 'none';
         if (els.revealedWrap) els.revealedWrap.style.display = 'block';
       }

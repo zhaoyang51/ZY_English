@@ -615,7 +615,7 @@ body.mode-vocab .vocab-section {
   flex: 1 1 0;
   min-height: 0;
   height: 0;
-  overflow: hidden;
+  overflow-y: auto;
   padding: 10px 20px 6px 20px;
   -webkit-overflow-scrolling: touch;
   display: flex;
@@ -862,16 +862,9 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
 
 .momo-acc-toolbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 0 2px 4px 2px;
-}
-
-.momo-acc-title {
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--momo-text-muted);
-  letter-spacing: 0.3px;
 }
 
 .momo-acc-toggle-all-btn {
@@ -895,9 +888,9 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
   display: flex;
   flex-direction: column;
   gap: 7px;
-  max-height: calc(100vh - 360px);
   overflow-y: auto;
   padding-right: 4px;
+  padding-bottom: 24px;
 }
 
 .momo-acc-list::-webkit-scrollbar {
