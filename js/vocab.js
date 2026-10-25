@@ -497,6 +497,7 @@
                 <label class="vocab-filter-label">词库来源</label>
                 <select id="vocabSourceSelect" class="vocab-select" style="font-weight:700;color:var(--momo-green)">
                   <option value="all">📚 全真题词库 (3,199词)</option>
+                  <option value="nanxiao_sushua">📑 英语二高频速刷词库 (2,872词)</option>
                   <option value="yuque_sucheng">⚡ 单词大观·2-4天速成版 (2,868词)</option>
                   <option value="yuque_daxue">❄️ 单词大观·大雪深埋版 (876词根)</option>
                   <option value="bookmarked">⭐ 我的生词本 (已收藏词汇)</option>
@@ -963,7 +964,8 @@
         this.populateDropdowns();
         this.applyFiltersAndRender();
         let toastName = '📚 全真题词库';
-        if (val === 'yuque_sucheng') toastName = '⚡ 单词大观·2-4天速成版 (2,868词)';
+        if (val === 'nanxiao_sushua') toastName = '📑 英语二高频速刷词库 (2,872词)';
+        else if (val === 'yuque_sucheng') toastName = '⚡ 单词大观·2-4天速成版 (2,868词)';
         else if (val === 'yuque_daxue') toastName = '❄️ 单词大观·大雪深埋版 (876词根)';
         else if (val === 'bookmarked') toastName = '⭐ 我的生词本';
         this.showToast(`已切至：${toastName}`);
@@ -1149,7 +1151,20 @@
         els.sourceSelect.value = source;
       }
 
-      if (source === 'yuque_sucheng') {
+      if (source === 'nanxiao_sushua') {
+        if (els.filterLabel1) els.filterLabel1.textContent = '考频分层';
+        if (els.filterLabel2) els.filterLabel2.textContent = '频次细分';
+        if (els.yearSelect) {
+          els.yearSelect.innerHTML = `
+            <option value="all">全量考频 (2,872词)</option>
+            <option value="核心高频 (20次以上)">核心高频 (20次以上 · 155词)</option>
+            <option value="高频考词 (10-19次)">高频考词 (10-19次 · 296词)</option>
+            <option value="中频考词 (5-9次)">中频考词 (5-9次 · 515词)</option>
+            <option value="低频速刷 (2-4次)">低频速刷 (2-4次 · 1,058词)</option>
+            <option value="偶考词汇 (1次)">偶考词汇 (1次 · 848词)</option>
+          `;
+        }
+      } else if (source === 'yuque_sucheng') {
         if (els.filterLabel1) els.filterLabel1.textContent = '构词分类';
         if (els.filterLabel2) els.filterLabel2.textContent = '分册定位';
         if (els.yearSelect) {
@@ -1223,7 +1238,23 @@
 
     updateTextDropdown() {
       const source = appState.filters.source;
-      if (source === 'yuque_sucheng') {
+      if (source === 'nanxiao_sushua') {
+        const cat = els.yearSelect ? els.yearSelect.value : 'all';
+        const list = window.NANXIAO_SUSHUA_VOCAB || [];
+        const subbooks = new Set();
+        list.forEach(item => {
+          if ((cat === 'all' || item.category === cat) && item.subbook) subbooks.add(item.subbook);
+        });
+        if (els.textSelect) {
+          els.textSelect.innerHTML = '<option value="all">全量频次</option>' +
+            Array.from(subbooks).sort((a, b) => {
+              const numA = parseInt(a.replace(/\D/g, '')) || 0;
+              const numB = parseInt(b.replace(/\D/g, '')) || 0;
+              return numB - numA;
+            }).map(sb => `<option value="${sb}">${sb}</option>`).join('');
+          els.textSelect.value = 'all';
+        }
+      } else if (source === 'yuque_sucheng') {
         const cat = els.yearSelect.value;
         const list = window.YUQUE_SUCHENG_VOCAB || [];
         const subbooks = new Set();
@@ -1267,21 +1298,29 @@
     },
 
     ensureDatasetLoading(source) {
-      const isSucheng = source === 'yuque_sucheng';
-      if (isSucheng && window.YUQUE_SUCHENG_VOCAB) return Promise.resolve(true);
-      if (!isSucheng && window.YUQUE_DAXUE_VOCAB) return Promise.resolve(true);
+      if (source === 'nanxiao_sushua' && window.NANXIAO_SUSHUA_VOCAB) return Promise.resolve(true);
+      if (source === 'yuque_sucheng' && window.YUQUE_SUCHENG_VOCAB) return Promise.resolve(true);
+      if (source === 'yuque_daxue' && window.YUQUE_DAXUE_VOCAB) return Promise.resolve(true);
 
       if (this._datasetPromises && this._datasetPromises[source]) {
         return this._datasetPromises[source];
       }
       this._datasetPromises = this._datasetPromises || {};
 
-      const name = isSucheng ? '⚡ 2-4天速成词库 (2,868词)' : '❄️ 大雪深埋词根 (876词根)';
-      this.showToast(`正在加载 ${name}...`);
+      let name = '📚 词库';
+      let p = null;
+      if (source === 'nanxiao_sushua') {
+        name = '📑 英语二高频速刷词库 (2,872词)';
+        p = window.DataLoader.loadVocabNanxiao();
+      } else if (source === 'yuque_sucheng') {
+        name = '⚡ 2-4天速成词库 (2,868词)';
+        p = window.DataLoader.loadVocabSucheng();
+      } else {
+        name = '❄️ 大雪深埋词根 (876词根)';
+        p = window.DataLoader.loadVocabDaxue();
+      }
 
-      const p = isSucheng
-        ? window.DataLoader.loadVocabSucheng()
-        : window.DataLoader.loadVocabDaxue();
+      this.showToast(`正在加载 ${name}...`);
 
       const task = p.then(() => {
         delete this._datasetPromises[source];
@@ -1305,7 +1344,28 @@
       const { source, year, text, state, sort, search } = appState.filters;
       let list = [];
 
-      if (source === 'yuque_sucheng') {
+      if (source === 'nanxiao_sushua') {
+        if (!window.NANXIAO_SUSHUA_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabNanxiao) {
+          this.ensureDatasetLoading('nanxiao_sushua');
+          return;
+        }
+        list = (window.NANXIAO_SUSHUA_VOCAB || []).map(item => ({
+          word: item.word,
+          meaning: item.meaning,
+          year: item.category,
+          text: item.subbook || '核心速刷',
+          freq: item.freq,
+          morphology: item.morphology,
+          sentence: item.sentence,
+          sentenceZh: item.sentenceZh,
+          provenance: item.provenance,
+          source: item.provenance ? `${item.provenance} [${item.sentenceZh || ''}]` : (item.sentenceZh || ''),
+          examUses: item.examUses,
+          examples: item.examples
+        }));
+        if (year !== 'all') list = list.filter(w => w.year === year);
+        if (text !== 'all') list = list.filter(w => w.text === text);
+      } else if (source === 'yuque_sucheng') {
         if (!window.YUQUE_SUCHENG_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabSucheng) {
           this.ensureDatasetLoading('yuque_sucheng');
           return;
@@ -1851,10 +1911,19 @@
             </div>
           `;
         }
+        let morphPart = '';
+        if (cur && cur.morphology) {
+          morphPart = `
+            <div class="momo-mindchain-box" style="margin-bottom:8px;padding:8px 12px;background:rgba(4,120,87,0.06);border-left:3px solid #047857;border-radius:4px">
+              <div style="font-size:11px;font-weight:700;color:#047857;margin-bottom:2px">🧩 词根构词拆解</div>
+              <div style="font-size:13.5px;color:var(--momo-text-main);font-weight:600">${this.escapeHtml(cur.morphology)}</div>
+            </div>
+          `;
+        }
         if (mindChain) {
-          html = `${notePart}<div class="momo-mindchain-text">${mindChain}</div>`;
-        } else if (userNote) {
-          html = notePart;
+          html = `${notePart}${morphPart}<div class="momo-mindchain-text">${mindChain}</div>`;
+        } else if (morphPart || userNote) {
+          html = `${notePart}${morphPart}`;
         } else {
           html = '<div style="color:var(--momo-text-muted);font-size:13.5px;padding:8px 0">暂无思维链路推导，可点击右上角 ✎+ 添加专属笔记</div>';
         }
@@ -2166,6 +2235,19 @@
         html += `</div>`;
       }
 
+      if (cur && cur.examples && cur.examples.length > 0) {
+        html += `<div style="font-size:13px;font-weight:700;color:var(--momo-text-muted);margin:12px 0 8px 0">🎯 PDF速刷真题全量例句与考点 (${cur.examples.length}处)</div>`;
+        cur.examples.forEach(ex => {
+          html += `
+            <div class="vocab-citation-card">
+              <div class="vocab-citation-prov" style="font-weight:700;color:#047857">🏛️ ${ex.provenance || ''}</div>
+              <div class="vocab-citation-en">${ex.en || ''}</div>
+              <div class="vocab-citation-zh">${ex.zh || ''}</div>
+            </div>
+          `;
+        });
+      }
+
       if (!html) {
         html = '<div style="text-align:center;color:var(--momo-text-muted);padding:30px 0">暂无更多真题关联语料</div>';
       }
@@ -2256,7 +2338,8 @@
     updateHomeView() {
       const src = appState.filters.source;
       let dictTitle = '📚 历年真题核心词库';
-      if (src === 'yuque_sucheng') dictTitle = '⚡ 2-4天速成词库';
+      if (src === 'nanxiao_sushua') dictTitle = '📑 考频速刷词库';
+      else if (src === 'yuque_sucheng') dictTitle = '⚡ 2-4天速成词库';
       else if (src === 'yuque_daxue') dictTitle = '❄️ 大雪深埋词根';
       else if (src === 'bookmarked') dictTitle = '⭐ 我的生词本';
       if (els.homeDictName) els.homeDictName.textContent = dictTitle;
@@ -2264,7 +2347,12 @@
       this.pickRandomHomeWord();
 
       let fullItems = [];
-      if (src === 'yuque_sucheng') {
+      if (src === 'nanxiao_sushua') {
+        if (!window.NANXIAO_SUSHUA_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabNanxiao) {
+          this.ensureDatasetLoading('nanxiao_sushua');
+        }
+        fullItems = window.NANXIAO_SUSHUA_VOCAB || [];
+      } else if (src === 'yuque_sucheng') {
         if (!window.YUQUE_SUCHENG_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabSucheng) {
           this.ensureDatasetLoading('yuque_sucheng');
         }
@@ -2295,6 +2383,7 @@
     },
 
     pickRandomHomeWord() {
+      const src = appState.filters.source;
       const bookmarked = (window.StorageModule && window.StorageModule.getVocabBook()) || [];
       let targetWord = null;
       let isFromBookmarks = false;
@@ -2303,6 +2392,12 @@
         const randIdx = Math.floor(Math.random() * bookmarked.length);
         targetWord = bookmarked[randIdx];
         isFromBookmarks = true;
+      } else if (src === 'nanxiao_sushua' && window.NANXIAO_SUSHUA_VOCAB && window.NANXIAO_SUSHUA_VOCAB.length > 0) {
+        const randIdx = Math.floor(Math.random() * window.NANXIAO_SUSHUA_VOCAB.length);
+        targetWord = window.NANXIAO_SUSHUA_VOCAB[randIdx];
+      } else if (src === 'yuque_sucheng' && window.YUQUE_SUCHENG_VOCAB && window.YUQUE_SUCHENG_VOCAB.length > 0) {
+        const randIdx = Math.floor(Math.random() * window.YUQUE_SUCHENG_VOCAB.length);
+        targetWord = window.YUQUE_SUCHENG_VOCAB[randIdx];
       } else if (appState.rawVocabData && appState.rawVocabData.length > 0) {
         const randIdx = Math.floor(Math.random() * appState.rawVocabData.length);
         targetWord = appState.rawVocabData[randIdx];

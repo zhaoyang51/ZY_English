@@ -52,6 +52,7 @@ function setupTestEnv() {
   createElement('vocabSection');
   createElement('vocabHomeFrame');
   createElement('vocabHomeBtnBack');
+  createElement('vocabHomeDictName');
   createElement('vocabHomeCardLearn');
   createElement('vocabHomeCountLearn');
   createElement('vocabHomeCardReview');
@@ -71,6 +72,7 @@ function setupTestEnv() {
   const sourceSelect = createElement('vocabSourceSelect', 'select');
   sourceSelect.options = [
     { value: 'all', textContent: '全真题词库' },
+    { value: 'nanxiao_sushua', textContent: '考研英语二·真题高效速刷词库' },
     { value: 'yuque_sucheng', textContent: '单词大观·速成版' },
     { value: 'yuque_daxue', textContent: '单词大观·大雪深埋版' },
     { value: 'bookmarked', textContent: '我的生词本' }
@@ -169,6 +171,8 @@ function setupTestEnv() {
   createElement('vocabMomoSkeletons');
   createElement('vocabMomoDefinitions');
   createElement('vocabMomoCardSentence');
+  createElement('vocabMomoSentenceEn');
+  createElement('vocabMomoSentenceZh');
   createElement('vocabMomoCardRelations');
   createElement('vocabMomoCollocList');
   createElement('vocabMomoTabsList');
@@ -475,6 +479,41 @@ test('Vocab DataLoader: Subpath URL resolution correctly targets repository data
   const cssCode = fs.readFileSync(path.join(__dirname, '../css/vocab.css'), 'utf8');
   assert.ok(cssCode.includes('vocab_home_bg.jpg'), 'vocab.css must reference vocab_home_bg.jpg');
 });
+
+test('Vocab PDF Dataset: Nanxiao Sushua 2,872 words wordbook integration', () => {
+  const { elements, storage } = setupTestEnv();
+
+  // Load the dataset
+  const nanxiaoData = fs.readFileSync(path.join(__dirname, '../data/vocab_nanxiao.js'), 'utf8');
+  eval(nanxiaoData);
+  assert.strictEqual(Array.isArray(global.window.NANXIAO_SUSHUA_VOCAB), true);
+  assert.strictEqual(global.window.NANXIAO_SUSHUA_VOCAB.length, 2872, 'Must contain 2,872 words from PDF');
+
+  // Initialize VocabModule and switch to nanxiao_sushua
+  global.window.VocabModule.init('vocabSection');
+  elements.vocabSourceSelect.value = 'nanxiao_sushua';
+  elements.vocabSourceSelect.onchange();
+
+  // Check home title
+  assert.strictEqual(elements.vocabHomeDictName.textContent, '📑 考频速刷词库', 'Home header should show correct dict title');
+
+  // Check counts
+  const learnNum = parseInt(elements.vocabHomeCountLearn.textContent, 10);
+  assert.strictEqual(learnNum, 2872, 'All 2,872 words initially unlearned');
+
+  // Click Learn
+  elements.vocabHomeCardLearn.onclick();
+  assert.ok(elements.vocabMomoProgress.textContent.includes('2872'), 'Top left shows 2872 remaining');
+
+  // Check first word card
+  assert.strictEqual(elements.vocabMomoWord.textContent, 'will', 'First word in frequency order is will');
+  assert.strictEqual(elements.vocabMomoFreqBadge.textContent, '考频 209次', 'Frequency badge shows 209');
+
+  // Reveal card and check sentence
+  global.window.VocabModule.flipCard(true);
+  assert.ok(elements.vocabMomoSentenceEn.textContent.includes('disruptive'), 'Example sentence from PDF rendered');
+});
+
 
 
 
