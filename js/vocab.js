@@ -1606,6 +1606,83 @@
       return { pos, cleanDef };
     },
 
+    getNormalizedExamUses(cur) {
+      if (!cur || !cur.examUses || !Array.isArray(cur.examUses) || cur.examUses.length === 0) {
+        return [];
+      }
+      const list = [];
+      const word = cur.word || '';
+      const cleanW = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const re = cleanW ? new RegExp(`(\\b${cleanW}[a-z]*\\b)`, 'gi') : null;
+
+      cur.examUses.forEach((u, idx) => {
+        if (!u) return;
+        // String entry (e.g. from nanxiao_sushua)
+        if (typeof u === 'string') {
+          let s = u.trim();
+          let num = idx + 1;
+          const numMatch = s.match(/^(\d+)\.\s*/);
+          if (numMatch) {
+            num = parseInt(numMatch[1], 10);
+            s = s.substring(numMatch[0].length);
+          }
+          let freq = 0;
+          let extraText = '';
+          const freqMatch = s.match(/[（\(]\s*(\d+)\s*[）\)]/);
+          if (freqMatch) {
+            freq = parseInt(freqMatch[1], 10);
+            extraText = s.substring(freqMatch.index + freqMatch[0].length).trim();
+            s = s.substring(0, freqMatch.index).trim();
+          }
+          let pos = '';
+          const posMatch = s.match(/^([a-zA-Z\.\/\s]+)\s+/);
+          if (posMatch) {
+            pos = posMatch[1].trim();
+            s = s.substring(posMatch[0].length).trim();
+          }
+          if (!freq && !pos && s.length < 15 && (!cur.examples || !cur.examples[idx])) {
+            return;
+          }
+          const ex = (cur.examples && cur.examples[idx]) ? cur.examples[idx] : null;
+          let sentence = ex ? (ex.en || '') : extraText;
+          let sentenceZh = ex ? (ex.zh || '') : '';
+          let source = ex ? (ex.provenance || '') : '真题语料';
+
+          list.push({
+            num,
+            pos,
+            def: s,
+            freq,
+            sentence,
+            sentenceZh,
+            source,
+            highlightedEn: (re && sentence) ? sentence.replace(re, '<strong>$1</strong>') : sentence
+          });
+        } else if (typeof u === 'object') {
+          // Object entry (e.g. from yuque_sucheng)
+          let posAndDef = u.posAndDef || '';
+          let pos = '';
+          const posMatch = posAndDef.match(/^([a-zA-Z\.\/\s]+)\s+/);
+          if (posMatch) {
+            pos = posMatch[1].trim();
+            posAndDef = posAndDef.substring(posMatch[0].length).trim();
+          }
+          const sentence = u.sentence || '';
+          list.push({
+            num: u.itemNum || idx + 1,
+            pos,
+            def: posAndDef,
+            freq: u.freq || 0,
+            sentence,
+            sentenceZh: '',
+            source: u.source || '',
+            highlightedEn: (re && sentence) ? sentence.replace(re, '<strong>$1</strong>') : sentence
+          });
+        }
+      });
+      return list;
+    },
+
     renderCurrentCard() {
       const isRev = appState.studyMode === 'review' || appState.filters.state === 'due';
       const isNew = appState.studyMode === 'new' || appState.filters.state === 'new';
@@ -1728,24 +1805,86 @@
 
       // Parse Part of Speech and Definitions
       const { pos, cleanDef } = this.extractPosAndMeaning(word, cur.meaning);
+      const normalizedUses = this.getNormalizedExamUses(cur);
+      const hasAccordion = normalizedUses.length > 1;
 
-      // Render Definitions with dotted underline
+      // Render Definitions with dotted underline OR Frequency-Folded Accordion
       if (els.momoDefinitions) {
-        let defRowsHtml = '';
-        if (cur.isRoot) {
-          defRowsHtml = `<div class="momo-def-row"><span class="momo-meaning-item">${cleanDef.replace(/\n/g, '<br>')}</span></div>`;
+        if (hasAccordion) {
+          let accHtml = `
+            <div class="momo-freq-accordion" id="vocabMomoAccordion">
+              <div class="momo-acc-toolbar">
+                <span class="momo-acc-title">🎯 考研真题考频义项与例句 (${normalizedUses.length}项)</span>
+                <button type="button" class="momo-acc-toggle-all-btn" id="vocabAccToggleAll" title="一键展开/折叠所有义项例句">全部展开</button>
+              </div>
+              <div class="momo-acc-list">
+          `;
+          normalizedUses.forEach((use, i) => {
+            const isFirst = i === 0;
+            const freqClass = use.freq >= 20 ? 'freq-ultra' : use.freq >= 5 ? 'freq-high' : use.freq >= 2 ? 'freq-mid' : 'freq-low';
+            const freqIcon = use.freq >= 20 ? '🔥 ' : use.freq >= 5 ? '⚡ ' : '';
+            const freqBadge = use.freq ? `
+              <span class="momo-acc-freq-badge ${freqClass}">
+                ${freqIcon}${use.freq}次
+              </span>
+            ` : '';
+            const posHtml = use.pos ? `<span class="momo-acc-pos">${this.escapeHtml(use.pos)}</span>` : '';
+            const hasSentence = Boolean(use.sentence);
+
+            accHtml += `
+              <div class="momo-acc-item ${isFirst ? 'is-expanded' : ''}" data-acc-idx="${i}">
+                <div class="momo-acc-header" data-toggle-acc="${i}">
+                  <span class="momo-acc-index">${use.num}</span>
+                  ${posHtml}
+                  <span class="momo-acc-def">${this.escapeHtml(use.def)}</span>
+                  ${freqBadge}
+                  ${hasSentence ? '<span class="momo-acc-chevron">▾</span>' : ''}
+                </div>
+                ${hasSentence ? `
+                  <div class="momo-acc-body" style="${isFirst ? '' : 'display:none'}">
+                    <div class="momo-acc-sentence-card">
+                      ${use.source ? `<div class="momo-acc-prov">🏛️ ${this.escapeHtml(use.source)}</div>` : ''}
+                      <div class="momo-acc-en">${use.highlightedEn}</div>
+                      ${use.sentenceZh ? `<div class="momo-acc-zh">${this.escapeHtml(use.sentenceZh)}</div>` : ''}
+                      <div class="momo-acc-actions">
+                        <button type="button" class="momo-acc-btn-speak" data-speak-en="${encodeURIComponent(use.sentence)}" title="朗读该义项真题例句">🔊 听例句</button>
+                      </div>
+                    </div>
+                  </div>
+                ` : ''}
+              </div>
+            `;
+          });
+          accHtml += `
+              </div>
+            </div>
+          `;
+          els.momoDefinitions.innerHTML = accHtml;
+          this.bindAccordionEvents();
+        } else if (normalizedUses.length === 1) {
+          const u0 = normalizedUses[0];
+          const posPrefix = u0.pos ? `<span class="momo-pos">${this.escapeHtml(u0.pos)}</span>` : (pos ? `<span class="momo-pos">${pos}</span>` : '');
+          const freqBadge = u0.freq ? `<span class="momo-acc-freq-badge freq-single">考频 ${u0.freq}次</span>` : '';
+          els.momoDefinitions.innerHTML = `
+            <div class="momo-def-row" style="align-items:center">
+              ${posPrefix}
+              <span class="momo-meaning-item">${this.escapeHtml(u0.def)}</span>
+              ${freqBadge}
+            </div>
+          `;
+        } else if (cur.isRoot) {
+          els.momoDefinitions.innerHTML = `<div class="momo-def-row"><span class="momo-meaning-item">${cleanDef.replace(/\n/g, '<br>')}</span></div>`;
         } else {
           // Split definitions by commas, semicolons or spaces
           const defParts = cleanDef.replace(/^[a-zA-Z\.\/]+\s*/, '').split(/[；;，,]/).map(d => d.trim()).filter(Boolean);
           const posPrefix = pos ? `<span class="momo-pos">${pos}</span>` : '';
-          defRowsHtml = `
+          els.momoDefinitions.innerHTML = `
             <div class="momo-def-row">
               ${posPrefix}
               ${defParts.map(part => `<span class="momo-meaning-item">${part}</span>`).join('')}
             </div>
           `;
         }
-        els.momoDefinitions.innerHTML = defRowsHtml;
       }
 
       // Update Card 1: Context Sentence Card
@@ -1767,7 +1906,7 @@
         const highlightedEn = sentenceObj.text.replace(re, '<strong>$1</strong>');
         if (els.sentenceEn) els.sentenceEn.innerHTML = highlightedEn;
         if (els.sentenceZh) els.sentenceZh.textContent = sentenceObj.translation || '（真题核心考点例句）';
-        if (els.cardSentence) els.cardSentence.style.display = appState.isFlipped ? 'block' : 'none';
+        if (els.cardSentence) els.cardSentence.style.display = (appState.isFlipped && !hasAccordion) ? 'block' : 'none';
       } else {
         if (els.cardSentence) els.cardSentence.style.display = 'none';
       }
@@ -1786,7 +1925,7 @@
       } else {
         if (els.momoSkeletons) els.momoSkeletons.style.display = 'none';
         if (els.momoDefinitions) els.momoDefinitions.style.display = 'flex';
-        if (els.cardSentence && sentenceObj?.text) els.cardSentence.style.display = 'block';
+        if (els.cardSentence && sentenceObj?.text) els.cardSentence.style.display = hasAccordion ? 'none' : 'block';
         if (els.cardRelations) els.cardRelations.style.display = 'block';
         if (els.unrevealedWrap) els.unrevealedWrap.style.display = 'none';
         if (els.revealedWrap) els.revealedWrap.style.display = 'block';
@@ -1804,6 +1943,65 @@
       if (els.defBack) els.defBack.innerHTML = `<span>核心释义: ${cleanDef}</span>`;
       if (els.provenanceFront) els.provenanceFront.textContent = `${cur.year} · ${cur.text}`;
       if (els.provenanceBack) els.provenanceBack.textContent = `${cur.year} · ${cur.text}`;
+    },
+
+    bindAccordionEvents() {
+      if (typeof document === 'undefined') return;
+      const acc = document.getElementById('vocabMomoAccordion');
+      if (!acc) return;
+
+      // Toggle individual items
+      const headers = acc.querySelectorAll('[data-toggle-acc]');
+      for (let i = 0; i < headers.length; i++) {
+        const header = headers[i];
+        header.onclick = (e) => {
+          if (e && e.stopPropagation) e.stopPropagation();
+          const item = header.closest ? header.closest('.momo-acc-item') : header.parentElement;
+          if (!item) return;
+          const body = item.querySelector ? item.querySelector('.momo-acc-body') : null;
+          if (!body) return;
+          const isExp = item.classList.contains('is-expanded');
+          if (isExp) {
+            item.classList.remove('is-expanded');
+            body.style.display = 'none';
+          } else {
+            item.classList.add('is-expanded');
+            body.style.display = 'block';
+          }
+        };
+      }
+
+      // Toggle all items
+      const toggleAllBtn = document.getElementById('vocabAccToggleAll');
+      if (toggleAllBtn) {
+        toggleAllBtn.onclick = (e) => {
+          if (e && e.stopPropagation) e.stopPropagation();
+          const items = acc.querySelectorAll('.momo-acc-item');
+          const isAnyCollapsed = Array.from(items).some(it => !it.classList.contains('is-expanded'));
+          items.forEach(it => {
+            const body = it.querySelector ? it.querySelector('.momo-acc-body') : null;
+            if (isAnyCollapsed) {
+              it.classList.add('is-expanded');
+              if (body) body.style.display = 'block';
+            } else {
+              it.classList.remove('is-expanded');
+              if (body) body.style.display = 'none';
+            }
+          });
+          toggleAllBtn.textContent = isAnyCollapsed ? '全部折叠' : '全部展开';
+        };
+      }
+
+      // Speak sentence buttons
+      const speakBtns = acc.querySelectorAll('[data-speak-en]');
+      for (let i = 0; i < speakBtns.length; i++) {
+        const btn = speakBtns[i];
+        btn.onclick = (e) => {
+          if (e && e.stopPropagation) e.stopPropagation();
+          const txt = decodeURIComponent(btn.getAttribute('data-speak-en') || '');
+          this.speakSentence(txt);
+        };
+      }
     },
 
     renderRelations(word) {

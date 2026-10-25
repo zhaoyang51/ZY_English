@@ -850,6 +850,261 @@ body.theme-dark .momo-skeleton-bar.bar-2 {
 }
 
 /* ==========================================================================
+   MoMo Frequency-Folded Accordion Stream (考频折叠手风琴流)
+   ========================================================================== */
+.momo-freq-accordion {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.momo-acc-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2px 4px 2px;
+}
+
+.momo-acc-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--momo-text-muted);
+  letter-spacing: 0.3px;
+}
+
+.momo-acc-toggle-all-btn {
+  background: rgba(4, 120, 87, 0.08);
+  border: 1px solid rgba(4, 120, 87, 0.2);
+  color: #047857;
+  border-radius: 6px;
+  padding: 3px 9px;
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.momo-acc-toggle-all-btn:hover {
+  background: #047857;
+  color: #ffffff;
+}
+
+.momo-acc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  max-height: calc(100vh - 360px);
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.momo-acc-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.momo-acc-list::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.momo-acc-item {
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+body.dark-mode .momo-acc-item {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.momo-acc-item.is-expanded {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(4, 120, 87, 0.35);
+  box-shadow: 0 2px 8px rgba(4, 120, 87, 0.08);
+}
+
+body.dark-mode .momo-acc-item.is-expanded {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(52, 211, 153, 0.4);
+}
+
+.momo-acc-header {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+  user-select: none;
+  gap: 8px;
+  transition: background 0.15s;
+}
+
+.momo-acc-header:hover {
+  background: rgba(4, 120, 87, 0.04);
+}
+
+.momo-acc-index {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--momo-text-muted);
+  min-width: 14px;
+}
+
+.momo-acc-pos {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #047857;
+  font-size: 13.5px;
+  white-space: nowrap;
+}
+
+body.dark-mode .momo-acc-pos {
+  color: #34d399;
+}
+
+.momo-acc-def {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--momo-text-main);
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.momo-acc-freq-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 10px;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+}
+
+.momo-acc-freq-badge.freq-ultra {
+  background: rgba(239, 68, 68, 0.12);
+  color: #dc2626;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  font-weight: 700;
+}
+
+.momo-acc-freq-badge.freq-high {
+  background: rgba(245, 158, 11, 0.12);
+  color: #d97706;
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  font-weight: 700;
+}
+
+.momo-acc-freq-badge.freq-mid {
+  background: rgba(59, 130, 246, 0.1);
+  color: #2563eb;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.momo-acc-freq-badge.freq-low {
+  background: rgba(100, 116, 139, 0.1);
+  color: #64748b;
+  border: 1px solid rgba(100, 116, 139, 0.18);
+}
+
+.momo-acc-freq-badge.freq-single {
+  background: rgba(4, 120, 87, 0.1);
+  color: #047857;
+  border: 1px solid rgba(4, 120, 87, 0.2);
+  margin-left: 8px;
+}
+
+.momo-acc-chevron {
+  font-size: 12px;
+  color: var(--momo-text-muted);
+  transition: transform 0.2s ease;
+  line-height: 1;
+}
+
+.momo-acc-item.is-expanded .momo-acc-chevron {
+  transform: rotate(180deg);
+  color: #047857;
+}
+
+.momo-acc-body {
+  padding: 0 12px 10px 12px;
+  border-top: 1px dashed rgba(4, 120, 87, 0.12);
+  background: rgba(4, 120, 87, 0.02);
+}
+
+body.dark-mode .momo-acc-body {
+  background: rgba(4, 120, 87, 0.05);
+  border-top-color: rgba(52, 211, 153, 0.15);
+}
+
+.momo-acc-sentence-card {
+  padding-top: 8px;
+}
+
+.momo-acc-prov {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #047857;
+  margin-bottom: 4px;
+}
+
+body.dark-mode .momo-acc-prov {
+  color: #34d399;
+}
+
+.momo-acc-en {
+  font-family: Georgia, serif;
+  font-size: 14.5px;
+  color: var(--momo-text-main);
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.momo-acc-en strong {
+  color: #047857;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+body.dark-mode .momo-acc-en strong {
+  color: #34d399;
+}
+
+.momo-acc-zh {
+  font-size: 13px;
+  color: var(--momo-text-muted);
+  line-height: 1.45;
+}
+
+.momo-acc-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 6px;
+}
+
+.momo-acc-btn-speak {
+  background: rgba(4, 120, 87, 0.07);
+  border: 1px solid rgba(4, 120, 87, 0.18);
+  border-radius: 6px;
+  color: #047857;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.momo-acc-btn-speak:hover {
+  background: #047857;
+  color: #ffffff;
+}
+
+/* ==========================================================================
    3. Cards: Example Sentence Card & Collocations Card
    ========================================================================== */
 .vocab-momo-card {
