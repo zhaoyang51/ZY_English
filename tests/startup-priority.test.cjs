@@ -163,3 +163,21 @@ test('Startup Priority: Exiting from Practice mode loads paper directly and save
   const updatedProgress = env.getStorageModule().loadProgress();
   assert.strictEqual(updatedProgress.mode, 'vocab', 'Switching to vocab must automatically persist mode: "vocab" to localStorage');
 });
+
+test('Vocab Wordbook Ordering & Cleanup: nanxiao_sushua is first, yuque_sucheng and yuque_daxue removed', () => {
+  const vocabJs = fs.readFileSync(path.join(__dirname, '../js/vocab.js'), 'utf8');
+  assert.ok(vocabJs.includes('<option value="nanxiao_sushua">📑 英语二高频速刷词库 (2,872词)</option>'), 'nanxiao_sushua must be present');
+  assert.ok(!vocabJs.includes('<option value="yuque_sucheng">'), 'yuque_sucheng must not be in select options');
+  assert.ok(!vocabJs.includes('<option value="yuque_daxue">'), 'yuque_daxue must not be in select options');
+
+  // Verify order in HTML
+  const optNanxiaoIdx = vocabJs.indexOf('<option value="nanxiao_sushua">');
+  const optAllIdx = vocabJs.indexOf('<option value="all">');
+  const optBookmarkedIdx = vocabJs.indexOf('<option value="bookmarked">');
+
+  assert.ok(optNanxiaoIdx !== -1, 'nanxiao_sushua option exists');
+  assert.ok(optAllIdx !== -1, 'all option exists');
+  assert.ok(optBookmarkedIdx !== -1, 'bookmarked option exists');
+  assert.ok(optNanxiaoIdx < optAllIdx, 'nanxiao_sushua must be placed before all exam vocab');
+  assert.ok(optAllIdx < optBookmarkedIdx, 'all exam vocab must be placed before bookmarked');
+});

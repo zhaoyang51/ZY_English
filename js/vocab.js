@@ -97,7 +97,7 @@
     activeRelationTab: 'phrases', // 'phrases' | 'synonyms' | 'mindchain' | 'lookalikes'
     historyStack: [],
     filters: {
-      source: 'all',
+      source: 'nanxiao_sushua',
       year: 'all',
       text: 'all',
       state: 'all',
@@ -265,6 +265,10 @@
         if (cur.freqTier) return { text: cur.freqTier, num: parseInt(String(cur.freqTier).replace(/\D/g, '')) || 1 };
       }
       const wLow = String(word || '').toLowerCase().trim();
+      if (window.NANXIAO_SUSHUA_VOCAB) {
+        const found = window.NANXIAO_SUSHUA_VOCAB.find(x => x.word && x.word.toLowerCase() === wLow);
+        if (found && found.freq) return { text: `考频 ${found.freq}次`, num: Number(found.freq) };
+      }
       if (window.YUQUE_SUCHENG_VOCAB) {
         const found = window.YUQUE_SUCHENG_VOCAB.find(x => x.word && x.word.toLowerCase() === wLow);
         if (found && found.freq) return { text: `考频 ${found.freq}次`, num: Number(found.freq) };
@@ -311,7 +315,7 @@
             <div class="vocab-home-topbar-right">
               <div class="vocab-home-dict-pill" id="vocabHomeDictPill" title="点击切换词书">
                 <span class="dict-icon">📖</span>
-                <span class="dict-name" id="vocabHomeDictName">历年真题核心词库</span>
+                <span class="dict-name" id="vocabHomeDictName">考频速刷词库</span>
                 <span class="dict-caret">▼</span>
               </div>
               <button class="vocab-home-btn-settings" id="vocabHomeBtnSettings" title="词书设置与生词管理">···</button>
@@ -496,10 +500,8 @@
               <div class="vocab-filter-item">
                 <label class="vocab-filter-label">词库来源</label>
                 <select id="vocabSourceSelect" class="vocab-select" style="font-weight:700;color:var(--momo-green)">
-                  <option value="all">📚 全真题词库 (3,199词)</option>
                   <option value="nanxiao_sushua">📑 英语二高频速刷词库 (2,872词)</option>
-                  <option value="yuque_sucheng">⚡ 单词大观·2-4天速成版 (2,868词)</option>
-                  <option value="yuque_daxue">❄️ 单词大观·大雪深埋版 (876词根)</option>
+                  <option value="all">📚 全真题词库 (3,199词)</option>
                   <option value="bookmarked">⭐ 我的生词本 (已收藏词汇)</option>
                 </select>
               </div>
@@ -963,10 +965,9 @@
 
         this.populateDropdowns();
         this.applyFiltersAndRender();
-        let toastName = '📚 全真题词库';
+        let toastName = '📑 英语二高频速刷词库 (2,872词)';
         if (val === 'nanxiao_sushua') toastName = '📑 英语二高频速刷词库 (2,872词)';
-        else if (val === 'yuque_sucheng') toastName = '⚡ 单词大观·2-4天速成版 (2,868词)';
-        else if (val === 'yuque_daxue') toastName = '❄️ 单词大观·大雪深埋版 (876词根)';
+        else if (val === 'all') toastName = '📚 全真题词库 (3,199词)';
         else if (val === 'bookmarked') toastName = '⭐ 我的生词本';
         this.showToast(`已切至：${toastName}`);
       };
@@ -1145,9 +1146,16 @@
     },
 
     populateDropdowns() {
-      const source = appState.filters.source;
+      let source = appState.filters.source;
 
       if (els.sourceSelect) {
+        if (els.sourceSelect.options && els.sourceSelect.options.length > 0) {
+          const hasOption = Array.from(els.sourceSelect.options).some(o => o.value === source);
+          if (!hasOption) {
+            source = els.sourceSelect.options[0].value;
+            appState.filters.source = source;
+          }
+        }
         els.sourceSelect.value = source;
       }
 
@@ -1525,10 +1533,12 @@
       let totalScopeCount = 0;
       let fullItems = [];
 
-      if (source === 'yuque_sucheng') fullItems = window.YUQUE_SUCHENG_VOCAB || [];
-      else if (source === 'yuque_daxue') fullItems = window.YUQUE_DAXUE_VOCAB || [];
+      if (source === 'nanxiao_sushua') fullItems = window.NANXIAO_SUSHUA_VOCAB || [];
       else if (source === 'bookmarked') fullItems = window.StorageModule ? window.StorageModule.getVocabBook() : [];
-      else fullItems = appState.rawVocabData;
+      else if (source === 'all') fullItems = appState.rawVocabData;
+      else if (source === 'yuque_sucheng') fullItems = window.YUQUE_SUCHENG_VOCAB || [];
+      else if (source === 'yuque_daxue') fullItems = window.YUQUE_DAXUE_VOCAB || [];
+      else fullItems = window.NANXIAO_SUSHUA_VOCAB || appState.rawVocabData;
 
       totalScopeCount = fullItems.length;
       const now = Date.now();
@@ -2535,10 +2545,9 @@
 
     updateHomeView() {
       const src = appState.filters.source;
-      let dictTitle = '📚 历年真题核心词库';
+      let dictTitle = '📑 考频速刷词库';
       if (src === 'nanxiao_sushua') dictTitle = '📑 考频速刷词库';
-      else if (src === 'yuque_sucheng') dictTitle = '⚡ 2-4天速成词库';
-      else if (src === 'yuque_daxue') dictTitle = '❄️ 大雪深埋词根';
+      else if (src === 'all') dictTitle = '📚 历年真题核心词库';
       else if (src === 'bookmarked') dictTitle = '⭐ 我的生词本';
       if (els.homeDictName) els.homeDictName.textContent = dictTitle;
 
