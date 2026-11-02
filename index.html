@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/vocab.css?v=20260915_touch_v1">
   <link rel="stylesheet" href="css/review-reading.css?v=20260914_reading_v1">
   <link rel="stylesheet" href="css/sections.css?v=20260924_v1">
+  <link rel="stylesheet" href="css/writing.css?v=20261102_v1">
 </head>
 <body class="mode-practice">
   <script>
@@ -24,6 +25,9 @@
         } else if (s && s.mode === 'review') {
           document.body.classList.remove('mode-practice');
           document.body.classList.add('mode-review');
+        } else if (s && s.mode === 'writing') {
+          document.body.classList.remove('mode-practice');
+          document.body.classList.add('mode-writing');
         }
       } catch(e) {}
     })();
@@ -53,6 +57,7 @@
         <button id="practiceModeBtn" class="btn active">做题模式</button>
         <button id="reviewModeBtn" class="btn">复盘模式 (一石五鸟)</button>
         <button id="vocabModeBtn" class="btn">🔤 单词背诵</button>
+        <button id="writingModeBtn" class="btn">✍️ 写作宝典</button>
       </div>
 
       <!-- Practice Submode Switcher -->
@@ -155,6 +160,9 @@
 
   <!-- Dedicated Vocabulary Memorization Section (Ebbinghaus Spaced Repetition) -->
   <section class="vocab-section" id="vocabSection"></section>
+
+  <!-- Dedicated Writing Masterclass & Templates Section -->
+  <section class="writing-section" id="writingSection" style="display:none"></section>
 
   <!-- Floating Navigation Controls -->
   <aside class="floating-nav-bar" id="floatingNavBar">
@@ -579,6 +587,7 @@
   <script src="data/vocab_bank.js" defer></script>
   <script src="data/vocab_nanxiao.js?v=20261025_v2" defer></script>
   <script src="data/vocab_phonetics.js" defer></script>
+  <script src="data/writing_data.js?v=20261102_v1" defer></script>
   
   <!-- Modular JS Application Components -->
   <script src="js/storage.js" defer></script>
@@ -587,6 +596,7 @@
   <script src="js/reader.js?v=20260918_qtrans_v1" defer></script>
   <script src="js/quiz.js?v=20260918_qtrans_v1" defer></script>
   <script src="js/vocab.js?v=20261025_mobile_fix" defer></script>
+  <script src="js/writing.js?v=20261102_v1" defer></script>
   <script src="js/render_cloze.js?v=20260924_v1" defer></script>
   <script src="js/render_matching.js?v=20260924_v1" defer></script>
   <script src="js/render_translation.js?v=20260924_v1" defer></script>

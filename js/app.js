@@ -463,6 +463,7 @@
     document.body.classList.toggle('mode-review', AppState.mode === 'review');
     document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
     document.body.classList.toggle('mode-vocab', AppState.mode === 'vocab');
+    document.body.classList.toggle('mode-writing', AppState.mode === 'writing');
 
     const themeSelect = document.getElementById('themeSelect');
     if (themeSelect) themeSelect.value = themeName || 'light';
@@ -533,6 +534,71 @@
     const year = AppState.year;
     const textId = AppState.textId;
     applyTheme(AppState.theme);
+
+    // 优先启动与全自动记忆：若上次退出或当前处于【写作宝典】模式，彻底解耦真题试卷网络加载，0ms 直接启动写作系统
+    if (AppState.mode === 'writing') {
+      AppState.textData = null;
+      AppState.steps = [];
+      AppState.stepIndex = 0;
+      updateTextDropdown();
+      updateJumpDropdown();
+      updateUIControls();
+
+      const status = document.getElementById('dataLoadStatus');
+      const layout = document.getElementById('mainLayout');
+      const vocab = document.getElementById('vocabSection');
+      const writing = document.getElementById('writingSection');
+      const yuqueContainer = document.getElementById('yuqueContainer');
+      const reviewSubmodeGroup = document.getElementById('reviewSubmodeGroup');
+      const submodeContainer = document.getElementById('submodeContainer');
+      const mobileTabsBar = document.getElementById('mobileTabsBar');
+      const floatingNavBar = document.getElementById('floatingNavBar');
+
+      if (status) status.hidden = true;
+      if (layout) {
+        layout.inert = false;
+        layout.setAttribute('aria-busy', 'false');
+        layout.style.display = 'none';
+      }
+      if (vocab) {
+        vocab.inert = true;
+        vocab.style.visibility = 'hidden';
+        vocab.style.display = 'none';
+      }
+      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (reviewSubmodeGroup) reviewSubmodeGroup.style.display = 'none';
+      if (submodeContainer) submodeContainer.style.display = 'none';
+      if (mobileTabsBar) mobileTabsBar.style.display = 'none';
+      if (floatingNavBar) floatingNavBar.style.display = 'none';
+
+      document.body.className = '';
+      if (AppState.theme === 'parchment') document.body.classList.add('theme-parchment');
+      if (AppState.theme === 'dark') document.body.classList.add('theme-dark');
+      document.body.classList.add('mode-writing');
+
+      const practiceBtn = document.getElementById('practiceModeBtn');
+      const reviewBtn = document.getElementById('reviewModeBtn');
+      const vocabBtn = document.getElementById('vocabModeBtn');
+      const writingBtn = document.getElementById('writingModeBtn');
+      if (practiceBtn) practiceBtn.classList.remove('active');
+      if (reviewBtn) reviewBtn.classList.remove('active');
+      if (vocabBtn) vocabBtn.classList.remove('active');
+      if (writingBtn) writingBtn.classList.add('active');
+
+      if (writing) {
+        writing.inert = false;
+        writing.style.visibility = '';
+        writing.style.display = '';
+      }
+
+      if (window.WritingModule) {
+        window.WritingModule.init('writingSection', AppState.year);
+      }
+
+      updateUIControls();
+      saveState();
+      return;
+    }
 
     // 优先启动与全自动记忆：若上次退出或当前处于【单词背诵】模式，彻底解耦真题试卷网络加载，0ms 直接启动词库
     if (AppState.mode === 'vocab') {
@@ -610,9 +676,14 @@
     const status = document.getElementById('dataLoadStatus');
     const layout = document.getElementById('mainLayout');
     const vocab = document.getElementById('vocabSection');
+    const writing = document.getElementById('writingSection');
     layout.inert = true;
     vocab.inert = true;
     vocab.style.visibility = 'hidden';
+    if (writing) {
+      writing.inert = true;
+      writing.style.display = 'none';
+    }
     layout.setAttribute('aria-busy', 'true');
     document.getElementById('examPaper').textContent = '';
     document.getElementById('workspaceContent').textContent = '';
@@ -667,14 +738,18 @@
     document.body.classList.toggle('mode-review', AppState.mode === 'review');
     document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
     document.body.classList.toggle('mode-vocab', AppState.mode === 'vocab');
+    document.body.classList.toggle('mode-writing', AppState.mode === 'writing');
+    document.body.classList.toggle('mode-writing', AppState.mode === 'writing');
 
     // Update Mode button active states
     const practiceBtn = document.getElementById('practiceModeBtn');
     const reviewBtn = document.getElementById('reviewModeBtn');
     const vocabBtn = document.getElementById('vocabModeBtn');
+    const writingBtn = document.getElementById('writingModeBtn');
     if (practiceBtn) practiceBtn.classList.toggle('active', AppState.mode === 'practice');
     if (reviewBtn) reviewBtn.classList.toggle('active', AppState.mode === 'review');
     if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
+    if (writingBtn) writingBtn.classList.toggle('active', AppState.mode === 'writing');
 
     const yuqueContainer = document.getElementById('yuqueContainer');
     const reviewSubmodeGroup = document.getElementById('reviewSubmodeGroup');
@@ -1042,9 +1117,24 @@
     const practiceBtn = document.getElementById('practiceModeBtn');
     const reviewBtn = document.getElementById('reviewModeBtn');
     const vocabBtn = document.getElementById('vocabModeBtn');
+    const writingBtn = document.getElementById('writingModeBtn');
     if (practiceBtn) practiceBtn.classList.toggle('active', AppState.mode === 'practice');
     if (reviewBtn) reviewBtn.classList.toggle('active', AppState.mode === 'review');
     if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
+    if (writingBtn) writingBtn.classList.toggle('active', AppState.mode === 'writing');
+
+    if (AppState.mode === 'writing') {
+      if (prevBtn) prevBtn.disabled = true;
+      if (nextBtn) nextBtn.disabled = true;
+      if (floatPrevBtn) floatPrevBtn.disabled = true;
+      if (floatNextBtn) floatNextBtn.disabled = true;
+      if (floatingNavBar) floatingNavBar.style.display = 'none';
+      if (toggleAllBtn) toggleAllBtn.style.display = 'none';
+      if (submodeContainer) submodeContainer.style.display = 'none';
+      if (progressText) progressText.textContent = '✍️ 写作宝典';
+      if (floatProgressText) floatProgressText.textContent = '✍️ 写作宝典';
+      return;
+    }
 
     if (isSpecial) {
       if (prevBtn) prevBtn.disabled = true;
@@ -1156,7 +1246,7 @@
   }
 
   function saveState() {
-    if (!AppState.textData && AppState.mode !== 'vocab') return;
+    if (!AppState.textData && AppState.mode !== 'vocab' && AppState.mode !== 'writing') return;
     window.StorageModule.saveProgress({
       year: AppState.year,
       textId: AppState.textId,
@@ -3257,6 +3347,12 @@
     // 2. Year and Text dropdowns
     document.getElementById('yearSelect').addEventListener('change', e => {
       AppState.year = Number(e.target.value);
+      if (AppState.mode === 'writing') {
+        if (window.WritingModule && window.WritingModule.onYearChange) {
+          window.WritingModule.onYearChange(AppState.year);
+        }
+        return;
+      }
       const specialSections = ['use_of_english', 'part_b', 'translation'];
       if (!specialSections.includes(String(AppState.textId))) {
         AppState.textId = 1;
@@ -3298,11 +3394,24 @@
 
     if (vocabBtn) {
       vocabBtn.addEventListener('click', () => {
-        if (AppState.mode === 'vocab') return;
+        if (AppState.mode === 'vocab' || AppState.mode === 'writing') return;
         if (AppState.mode !== 'vocab') {
           AppState.lastReadingMode = AppState.mode;
         }
         AppState.mode = 'vocab';
+        saveState();
+        loadCurrentText();
+      });
+    }
+
+    const writingBtn = document.getElementById('writingModeBtn');
+    if (writingBtn) {
+      writingBtn.addEventListener('click', () => {
+        if (AppState.mode === 'writing') return;
+        if (AppState.mode !== 'writing') {
+          AppState.lastReadingMode = AppState.mode;
+        }
+        AppState.mode = 'writing';
         saveState();
         loadCurrentText();
       });
@@ -3477,7 +3586,7 @@
   function setupKeyboardShortcuts() {
     window.addEventListener('keydown', e => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') return;
-      if (AppState.mode === 'vocab') return;
+      if (AppState.mode === 'vocab' || AppState.mode === 'writing') return;
 
       const syntaxModal = document.getElementById('syntaxModal');
       if (syntaxModal && syntaxModal.classList.contains('show')) {
