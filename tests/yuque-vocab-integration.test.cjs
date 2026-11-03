@@ -523,6 +523,23 @@ test('Vocab PDF Dataset: Nanxiao Sushua 2,872 words wordbook integration', () =>
   assert.ok(defHtml.includes('vocabAccToggleAll'), 'Includes toggle-all button');
   assert.strictEqual(elements.vocabMomoCardSentence.style.display, 'none', 'Duplicate bottom sentence card is hidden when accordion is active');
   assert.strictEqual(elements.vocabMomoCardRelations.style.display, 'none', 'Relations card must be hidden in PDF wordbook/accordion mode to avoid occluding meanings');
+
+  // Verify repaired words integrity (balance, loan, receipt, recipient)
+  const balanceItem = global.window.NANXIAO_SUSHUA_VOCAB.find(w => w.word === 'balance');
+  assert.ok(balanceItem && balanceItem.examples.length === 3, 'balance must have 3 senses and 3 examples');
+  assert.ok(balanceItem.examples[2].en.includes('College loan balances'), 'balance sense 3 has correct sentence');
+
+  const loanItem = global.window.NANXIAO_SUSHUA_VOCAB.find(w => w.word === 'loan');
+  assert.ok(loanItem && loanItem.examples.length === 1, 'loan must have 1 sense and 1 example');
+  assert.ok(loanItem.sentence.includes('College loan balances'), 'loan has correct sentence');
+
+  const receiptItem = global.window.NANXIAO_SUSHUA_VOCAB.find(w => w.word === 'receipt');
+  assert.ok(receiptItem && receiptItem.examples.length === 1, 'receipt must have 1 sense and 1 example');
+  assert.ok(receiptItem.sentence.includes('14,000 receipts'), 'receipt has correct sentence');
+
+  const recipientItem = global.window.NANXIAO_SUSHUA_VOCAB.find(w => w.word === 'recipient');
+  assert.ok(recipientItem && recipientItem.examples.length === 1, 'recipient must have 1 sense and 1 example');
+  assert.ok(recipientItem.sentence.includes('Pell Grants'), 'recipient has correct sentence');
 });
 
 

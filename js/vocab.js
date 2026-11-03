@@ -1645,7 +1645,7 @@
             s = s.substring(0, freqMatch.index).trim();
           }
           let pos = '';
-          const posMatch = s.match(/^([a-zA-Z\.\/\s]+)\s+/);
+          const posMatch = s.match(/^(前缀|后缀|短语|词组|[a-zA-Z\.\/\s]+)\s+/);
           if (posMatch) {
             pos = posMatch[1].trim();
             s = s.substring(posMatch[0].length).trim();
@@ -1669,23 +1669,37 @@
             highlightedEn: (re && sentence) ? sentence.replace(re, '<strong>$1</strong>') : sentence
           });
         } else if (typeof u === 'object') {
-          // Object entry (e.g. from yuque_sucheng)
-          let posAndDef = u.posAndDef || '';
-          let pos = '';
-          const posMatch = posAndDef.match(/^([a-zA-Z\.\/\s]+)\s+/);
+          // Object entry (e.g. from yuque_sucheng or structured datasets)
+          let posAndDef = u.posMeaning || u.posAndDef || '';
+          let num = u.itemNum || idx + 1;
+          const numMatch = posAndDef.match(/^(\d+)\.\s*/);
+          if (numMatch) {
+            num = parseInt(numMatch[1], 10);
+            posAndDef = posAndDef.substring(numMatch[0].length);
+          }
+          let freq = u.freq || 0;
+          const freqMatch = posAndDef.match(/[（\(]\s*(\d+)\s*[）\)]/);
+          if (freqMatch) {
+            freq = parseInt(freqMatch[1], 10);
+            posAndDef = posAndDef.substring(0, freqMatch.index).trim();
+          }
+          let pos = u.pos || '';
+          const posMatch = posAndDef.match(/^(前缀|后缀|短语|词组|[a-zA-Z\.\/\s]+)\s+/);
           if (posMatch) {
             pos = posMatch[1].trim();
             posAndDef = posAndDef.substring(posMatch[0].length).trim();
           }
           const sentence = u.sentence || '';
+          const sentenceZh = u.translation || u.sentenceZh || '';
+          const source = u.provenance || u.source || '';
           list.push({
-            num: u.itemNum || idx + 1,
+            num,
             pos,
             def: posAndDef,
-            freq: u.freq || 0,
+            freq,
             sentence,
-            sentenceZh: '',
-            source: u.source || '',
+            sentenceZh,
+            source,
             highlightedEn: (re && sentence) ? sentence.replace(re, '<strong>$1</strong>') : sentence
           });
         }
@@ -1816,12 +1830,24 @@
       // Parse Part of Speech and Definitions
       const { pos, cleanDef } = this.extractPosAndMeaning(word, cur.meaning);
       const normalizedUses = this.getNormalizedExamUses(cur);
-      const hasAccordion = normalizedUses.length > 1;
+      const hasAccordion = normalizedUses.length >= 1;
+
+      // Word morphology from PDF
+      let morphHtml = '';
+      if (cur && cur.morphology) {
+        morphHtml = `
+          <div class="momo-morphology-box">
+            <span class="momo-morphology-tag">🧩 构词拆解</span>
+            <span class="momo-morphology-content">${this.escapeHtml(cur.morphology)}</span>
+          </div>
+        `;
+      }
 
       // Render Definitions with dotted underline OR Frequency-Folded Accordion
       if (els.momoDefinitions) {
         if (hasAccordion) {
           let accHtml = `
+            ${morphHtml}
             <div class="momo-freq-accordion" id="vocabMomoAccordion">
               <div class="momo-acc-toolbar">
                 <button type="button" class="momo-acc-toggle-all-btn" id="vocabAccToggleAll" title="一键展开/折叠所有义项例句">全部展开</button>
@@ -1832,8 +1858,8 @@
             const freqClass = use.freq >= 20 ? 'freq-ultra' : use.freq >= 5 ? 'freq-high' : use.freq >= 2 ? 'freq-mid' : 'freq-low';
             const freqIcon = use.freq >= 20 ? '🔥 ' : use.freq >= 5 ? '⚡ ' : '';
             const freqBadge = use.freq ? `
-              <span class="momo-acc-freq-badge ${freqClass}">
-                ${freqIcon}${use.freq}次
+              <span class="momo-acc-freq-badge ${freqClass}" title="该义项真题考频: ${use.freq}次">
+                ${freqIcon}考频 ${use.freq}次
               </span>
             ` : '';
             const posHtml = use.pos ? `<span class="momo-acc-pos">${this.escapeHtml(use.pos)}</span>` : '';
@@ -1869,17 +1895,6 @@
           `;
           els.momoDefinitions.innerHTML = accHtml;
           this.bindAccordionEvents();
-        } else if (normalizedUses.length === 1) {
-          const u0 = normalizedUses[0];
-          const posPrefix = u0.pos ? `<span class="momo-pos">${this.escapeHtml(u0.pos)}</span>` : (pos ? `<span class="momo-pos">${pos}</span>` : '');
-          const freqBadge = u0.freq ? `<span class="momo-acc-freq-badge freq-single">考频 ${u0.freq}次</span>` : '';
-          els.momoDefinitions.innerHTML = `
-            <div class="momo-def-row" style="align-items:center">
-              ${posPrefix}
-              <span class="momo-meaning-item">${this.escapeHtml(u0.def)}</span>
-              ${freqBadge}
-            </div>
-          `;
         } else if (cur.isRoot) {
           els.momoDefinitions.innerHTML = `<div class="momo-def-row"><span class="momo-meaning-item">${cleanDef.replace(/\n/g, '<br>')}</span></div>`;
         } else {
@@ -1976,6 +1991,12 @@
           } else {
             item.classList.add('is-expanded');
             body.style.display = 'block';
+          }
+          const toggleAllBtn = document.getElementById('vocabAccToggleAll');
+          if (toggleAllBtn) {
+            const items = acc.querySelectorAll('.momo-acc-item');
+            const isAnyCollapsed = Array.from(items).some(it => !it.classList.contains('is-expanded'));
+            toggleAllBtn.textContent = isAnyCollapsed ? '全部展开' : '全部折叠';
           }
         };
       }

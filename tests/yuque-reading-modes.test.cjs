@@ -24,7 +24,10 @@ test('Yuque Reading Manifest and HTML integration tests', () => {
   assert.strictEqual(manifest.practice['2010_text2'], '2010_text2_做题模式.html');
   assert.strictEqual(manifest.review['2010_text2'], '2010_text2_复盘模式.html');
   assert.strictEqual(manifest.practice['2015_text1'], undefined, '2015 Text 1 should not exist in Yuque');
-  assert.strictEqual(manifest.practice['2022_text1'], undefined, '2022 Text 1 should not exist in Yuque');
+  assert.strictEqual(manifest.practice['2022_text1'], '2022_text1_做题模式.html', '2022 Text 1 should exist in Yuque');
+  assert.strictEqual(manifest.review['2022_text1'], '2022_text1_复盘模式.html', '2022 Text 1 review should exist in Yuque');
+  assert.strictEqual(manifest.practice['2022_text4'], '2022_text4_做题模式.html', '2022 Text 4 should exist in Yuque');
+  assert.strictEqual(manifest.review['2022_text4'], '2022_text4_复盘模式.html', '2022 Text 4 review should exist in Yuque');
 
   // 2. Verify all files in manifest physically exist on disk
   for (const [key, fileName] of Object.entries(manifest.practice)) {
@@ -99,6 +102,17 @@ test('Yuque Reading Manifest and HTML integration tests', () => {
   const sampleReviewNew = read('英二做题和复盘模式/2010_text2_复盘模式.html');
   assert.ok(sampleReviewNew.includes('applyZoom(zoomLevel+5)'), 'New review file 2010_text2 should have zoom logic');
   assert.ok(sampleReviewNew.includes('id="panCenter"'), 'New review file 2010_text2 should have panCenter button');
+
+  // Verify 2022 Text 1 to 4 practice and review files have full zoom and centering enhancements
+  for (let t = 1; t <= 4; t++) {
+    const p2022 = read(`英二做题和复盘模式/2022_text${t}_做题模式.html`);
+    assert.ok(p2022.includes('applyZoom(zoomLevel+5)'), `2022 Text ${t} practice file should have zoom logic`);
+    assert.ok(p2022.includes('id="panCenter"'), `2022 Text ${t} practice file should have panCenter button`);
+
+    const r2022 = read(`英二做题和复盘模式/2022_text${t}_复盘模式.html`);
+    assert.ok(r2022.includes('applyZoom(zoomLevel+5)'), `2022 Text ${t} review file should have zoom logic`);
+    assert.ok(r2022.includes('id="panCenter"'), `2022 Text ${t} review file should have panCenter button`);
+  }
 
   // 6. Verify app.js removes redundant labels and hides disabled step controls in yuque mode
   const appJs = read('js/app.js');

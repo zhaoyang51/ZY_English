@@ -155,7 +155,7 @@
     return loadDataScript('vocab_daxue.js', '20261021_v1', () => !!window.YUQUE_DAXUE_VOCAB);
   }
   function loadVocabNanxiao() {
-    return loadDataScript('vocab_nanxiao.js', '20261024_v1', () => !!window.NANXIAO_SUSHUA_VOCAB);
+    return loadDataScript('vocab_nanxiao.js', '20261103_v1', () => !!window.NANXIAO_SUSHUA_VOCAB);
   }
 
   window.DataLoader = {
