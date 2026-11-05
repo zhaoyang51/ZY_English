@@ -2208,7 +2208,6 @@
       record.status = 'learning';
       appState.progress[word] = record;
       this.saveProgress();
-      this.showToast('⚠️ 已标为「记错了」，稍后继续复习');
       this.goToNextCard();
     },
 
@@ -2230,7 +2229,6 @@
       record.nextReviewTime = now + (365 * 24 * 60 * 60 * 1000);
       appState.progress[word] = record;
       this.saveProgress();
-      this.showToast('🏆 已将本词标为「熟词」（永久掌握）');
       this.goToNextCard();
     },
 
