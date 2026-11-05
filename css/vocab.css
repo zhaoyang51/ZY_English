@@ -6,7 +6,7 @@
  * 3. British / American Phonetic Badges with Native Speech Pronunciation
  * 4. Frosted Glass Translucent Cards for Context Sentences & Collocations
  * 5. Distinct Recall Phase (认识 / 模糊 / 忘记了) & Review Phase (继续 / 记错了)
- * 6. Top Bar: Back, Progress Count (9/10), Undo (↩), Star (☆), Mastered (熟), Spelling (abc), Settings (···)
+ * 6. Top Bar: Back, Progress Count (9/10), Undo (↩), Star (☆), Mastered (熟), Settings (···)
  * 7. Frosted Settings Modal Sheet for Dictionary Switcher & Ebbinghaus Filters
  */
 
@@ -588,17 +588,6 @@ body.mode-vocab .vocab-section {
   font-size: 16.5px !important;
 }
 
-.momo-spelling-btn {
-  font-family: "Georgia", serif;
-  font-weight: 700;
-  font-size: 16px !important;
-}
-
-.momo-abc-text {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
 .momo-star-btn.is-starred {
   color: #eab308 !important;
 }
@@ -771,6 +760,66 @@ body.theme-dark .momo-phonetic-pill {
 .momo-phonetic-pill.is-playing {
   animation: momoPulse 0.5s ease-in-out infinite alternate;
   border-color: var(--momo-green);
+}
+
+.momo-audio-pills-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.momo-meaning-audio-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(14, 165, 233, 0.12);
+  border: 1px solid rgba(14, 165, 233, 0.28);
+  color: #0284c7;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.15s ease;
+  line-height: 1.4;
+}
+
+body.theme-dark .momo-meaning-audio-pill {
+  background: rgba(14, 165, 233, 0.2);
+  border-color: rgba(14, 165, 233, 0.4);
+  color: #38bdf8;
+}
+
+.momo-meaning-audio-pill:hover {
+  background: rgba(14, 165, 233, 0.22);
+  transform: scale(1.02);
+}
+
+.momo-meaning-audio-pill.is-playing {
+  animation: momoPulse 0.5s ease-in-out infinite alternate;
+  border-color: #0284c7;
+  color: #0369a1;
+}
+
+.momo-acc-speak-zh-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 4px;
+  font-size: 12px;
+  color: #0284c7;
+  opacity: 0.75;
+  transition: all 0.15s;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.momo-acc-speak-zh-icon:hover {
+  opacity: 1;
+  transform: scale(1.15);
 }
 
 @keyframes momoPulse {
@@ -1131,6 +1180,7 @@ body.dark-mode .momo-acc-en strong {
 .momo-acc-actions {
   display: flex;
   justify-content: flex-end;
+  gap: 8px;
   margin-top: 6px;
 }
 
@@ -1148,6 +1198,23 @@ body.dark-mode .momo-acc-en strong {
 
 .momo-acc-btn-speak:hover {
   background: #047857;
+  color: #ffffff;
+}
+
+.momo-acc-btn-speak-meaning {
+  background: rgba(14, 165, 233, 0.08);
+  border: 1px solid rgba(14, 165, 233, 0.22);
+  border-radius: 6px;
+  color: #0284c7;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.momo-acc-btn-speak-meaning:hover {
+  background: #0284c7;
   color: #ffffff;
 }
 
@@ -1867,26 +1934,6 @@ body.theme-dark .vocab-stat-chip {
   transform: translateX(-50%) translateY(0);
 }
 
-/* Spelling Input Line */
-.momo-spelling-line {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  width: 100%;
-}
-
-.momo-spelling-input {
-  flex: 1;
-  padding: 8px 14px;
-  border-radius: 10px;
-  border: 1px solid var(--momo-card-border);
-  background: rgba(255, 255, 255, 0.6);
-  font-family: Georgia, serif;
-  font-size: 18px;
-  color: var(--momo-text-main);
-  outline: none;
-}
 
 /* ==========================================================================
    Compatibility & Fallback Rules (Guarantees all test suites pass)

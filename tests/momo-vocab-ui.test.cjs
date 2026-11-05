@@ -51,14 +51,17 @@ test('MoMo Vocab UI: JS Engine generates syllables, phonetics, and matches both 
   assert.ok(vocabJs.includes('vocabMomoBtnContinue') && vocabJs.includes('继续'), 'Must have 继续 button');
   assert.ok(vocabJs.includes('vocabMomoBtnWrong') && vocabJs.includes('记错了'), 'Must have 记错了 button');
 
-  // 5. Top bar controls: Back, Progress, Undo, Star, Mastered, Spelling, More
+  // 5. Top bar controls: Back, Progress, Undo, Star, Mastered, More (Spelling removed per user request)
   assert.ok(vocabJs.includes('vocabMomoBtnBack'), 'Must have Back button');
   assert.ok(vocabJs.includes('vocabMomoProgress'), 'Must have Progress text');
   assert.ok(vocabJs.includes('vocabMomoBtnUndo'), 'Must have Undo button');
   assert.ok(vocabJs.includes('vocabMomoBtnStar'), 'Must have Star button');
   assert.ok(vocabJs.includes('vocabMomoBtnMastered'), 'Must have 熟 Mastered button');
-  assert.ok(vocabJs.includes('vocabMomoBtnSpelling'), 'Must have abc Spelling button');
+  assert.strictEqual(vocabJs.includes('vocabMomoBtnSpelling'), false, 'Must not have abc Spelling button (removed per user request)');
   assert.ok(vocabJs.includes('vocabMomoBtnMore'), 'Must have ··· More button');
+  assert.ok(vocabJs.includes('vocabMomoMeaningAudioPill'), 'Must have Chinese Meaning Audio pill');
+  assert.ok(vocabJs.includes('speakMeaning'), 'Must have speakMeaning function');
+  assert.ok(vocabJs.includes('playWordAudio'), 'Must have playWordAudio function');
 
   // 6. Settings Modal Sheet
   assert.ok(vocabJs.includes('vocabFilterModal'), 'Must have Settings Modal Sheet');

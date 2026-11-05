@@ -2061,12 +2061,49 @@
   }
   window.showToast = showToast;
 
+  let globalWordAudio = null;
   function speakWord(w) {
-    if (w && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utter = new SpeechSynthesisUtterance(w);
-      utter.lang = 'en-US';
-      window.speechSynthesis.speak(utter);
+    if (!w) return;
+    const cleanWord = String(w).trim().replace(/[^a-zA-Z\s\-']/g, '');
+    if (!cleanWord) return;
+
+    try {
+      if (globalWordAudio) {
+        try {
+          globalWordAudio.pause();
+          globalWordAudio.currentTime = 0;
+        } catch (e) {}
+        globalWordAudio = null;
+      }
+      // Natural human pronunciation from Youdao audio API (type=2 US)
+      const audio = new Audio(`https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanWord)}&type=2`);
+      globalWordAudio = audio;
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+          if ('speechSynthesis' in window) {
+            window.speechSynthesis.cancel();
+            const utter = new SpeechSynthesisUtterance(cleanWord);
+            utter.lang = 'en-US';
+            window.speechSynthesis.speak(utter);
+          }
+        });
+      }
+      audio.onerror = () => {
+        if ('speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+          const utter = new SpeechSynthesisUtterance(cleanWord);
+          utter.lang = 'en-US';
+          window.speechSynthesis.speak(utter);
+        }
+      };
+    } catch (err) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utter = new SpeechSynthesisUtterance(cleanWord);
+        utter.lang = 'en-US';
+        window.speechSynthesis.speak(utter);
+      }
     }
   }
   window.speakWord = speakWord;

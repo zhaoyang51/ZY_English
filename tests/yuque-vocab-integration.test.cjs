@@ -180,7 +180,8 @@ function setupTestEnv() {
   createElement('vocabMomoBtnUndo', 'button');
   createElement('vocabMomoBtnStar', 'button');
   createElement('vocabMomoBtnMastered', 'button');
-  createElement('vocabMomoBtnSpelling', 'button');
+  createElement('vocabMomoMeaningAudioPill', 'button');
+  createElement('vocabToggleAudioMeaningBtn', 'button');
   createElement('vocabMomoBtnMore', 'button');
   createElement('vocabMomoBtnGood', 'button');
   createElement('vocabMomoBtnHard', 'button');
