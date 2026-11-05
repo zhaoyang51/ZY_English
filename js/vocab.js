@@ -459,13 +459,13 @@
             <!-- Revealed Phase (2 Action Buttons: Continue & Wrong) -->
             <div id="vocabMomoRevealedWrap" style="width:100%;display:none">
               <div class="momo-buttons-row" style="justify-content:space-around">
-                <button class="momo-action-btn" id="vocabMomoBtnContinue" title="快捷键: 3 / → / 空格">
-                  <span class="momo-btn-text">继续</span>
-                  <span class="momo-btn-bar bar-green"></span>
-                </button>
                 <button class="momo-action-btn" id="vocabMomoBtnWrong" title="快捷键: 1 / ←">
                   <span class="momo-btn-text">记错了</span>
                   <span class="momo-btn-bar bar-red"></span>
+                </button>
+                <button class="momo-action-btn" id="vocabMomoBtnContinue" title="快捷键: 3 / → / 空格">
+                  <span class="momo-btn-text">继续</span>
+                  <span class="momo-btn-bar bar-green"></span>
                 </button>
               </div>
             </div>
