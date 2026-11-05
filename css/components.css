@@ -218,13 +218,14 @@ html, body {
   border-color: var(--mode-color);
 }
 
-/* Main Dual-Panel Layout */
+/* Main Dual-Panel Layout with Resizable Columns */
 .layout {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
   width: 100%;
   height: calc(100vh - 90px);
   overflow: hidden;
+  position: relative;
 }
 
 .panel {
@@ -236,7 +237,92 @@ html, body {
 }
 
 .panel.left-panel {
-  border-right: 1px solid var(--line);
+  flex: 0 0 var(--main-split-left, 50%);
+  width: var(--main-split-left, 50%);
+  min-width: 280px;
+  max-width: calc(100% - 280px);
+  border-right: none;
+}
+
+.split-resizer {
+  flex: 0 0 10px;
+  width: 10px;
+  margin: 0 -5px;
+  z-index: 25;
+  cursor: col-resize;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  background: transparent;
+  transition: background-color 0.15s ease;
+}
+
+.split-resizer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  background: var(--line);
+  transition: background-color 0.15s ease, width 0.15s ease, box-shadow 0.15s ease;
+}
+
+.split-resizer:hover::before,
+.split-resizer.is-dragging::before {
+  background: var(--mode-color);
+  width: 2px;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.35);
+}
+
+.split-resizer-handle {
+  width: 4px;
+  height: 38px;
+  border-radius: 999px;
+  background: var(--muted);
+  opacity: 0.35;
+  transition: opacity 0.15s, background-color 0.15s, height 0.15s, transform 0.15s;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.split-resizer:hover .split-resizer-handle,
+.split-resizer.is-dragging .split-resizer-handle {
+  opacity: 0.95;
+  background: var(--mode-color);
+  height: 52px;
+  transform: scaleX(1.3);
+}
+
+.split-resizer:focus-visible {
+  outline: 2px solid var(--mode-color);
+  outline-offset: -2px;
+}
+
+.panel.right-panel {
+  flex: 1 1 0%;
+  min-width: 280px;
+}
+
+body.is-split-resizing {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  cursor: col-resize !important;
+}
+
+body.is-split-resizing * {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  cursor: col-resize !important;
+}
+
+body.is-split-resizing iframe {
+  pointer-events: none !important;
 }
 
 .scroll-container {
@@ -245,6 +331,180 @@ html, body {
   overflow-x: hidden;
   padding: 22px 26px;
   -webkit-overflow-scrolling: touch;
+}
+
+/* ==========================================================================
+   Universal Sleek & Subtle Scrollbars (Non-intrusive, zero clunky borders)
+   ========================================================================== */
+.scroll-container::-webkit-scrollbar,
+.workspace::-webkit-scrollbar,
+.panel::-webkit-scrollbar,
+.scroll::-webkit-scrollbar,
+.exam-paper::-webkit-scrollbar,
+.article-panel::-webkit-scrollbar,
+.review-workbench::-webkit-scrollbar,
+#leftScroll::-webkit-scrollbar,
+#rightScroll::-webkit-scrollbar,
+#leftPane::-webkit-scrollbar,
+#rightPane::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.scroll-container::-webkit-scrollbar-track,
+.workspace::-webkit-scrollbar-track,
+.panel::-webkit-scrollbar-track,
+.scroll::-webkit-scrollbar-track,
+.exam-paper::-webkit-scrollbar-track,
+.article-panel::-webkit-scrollbar-track,
+.review-workbench::-webkit-scrollbar-track,
+#leftScroll::-webkit-scrollbar-track,
+#rightScroll::-webkit-scrollbar-track,
+#leftPane::-webkit-scrollbar-track,
+#rightPane::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+.scroll-container::-webkit-scrollbar-thumb,
+.workspace::-webkit-scrollbar-thumb,
+.panel::-webkit-scrollbar-thumb,
+.scroll::-webkit-scrollbar-thumb,
+.exam-paper::-webkit-scrollbar-thumb,
+.article-panel::-webkit-scrollbar-thumb,
+.review-workbench::-webkit-scrollbar-thumb,
+#leftScroll::-webkit-scrollbar-thumb,
+#rightScroll::-webkit-scrollbar-thumb,
+#leftPane::-webkit-scrollbar-thumb,
+#rightPane::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 999px;
+  transition: background-color 0.2s ease;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover,
+.workspace::-webkit-scrollbar-thumb:hover,
+.panel::-webkit-scrollbar-thumb:hover,
+.scroll::-webkit-scrollbar-thumb:hover,
+.exam-paper::-webkit-scrollbar-thumb:hover,
+.article-panel::-webkit-scrollbar-thumb:hover,
+.review-workbench::-webkit-scrollbar-thumb:hover,
+#leftScroll::-webkit-scrollbar-thumb:hover,
+#rightScroll::-webkit-scrollbar-thumb:hover,
+#leftPane::-webkit-scrollbar-thumb:hover,
+#rightPane::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.30);
+}
+
+.scroll-container::-webkit-scrollbar-button,
+.workspace::-webkit-scrollbar-button,
+.panel::-webkit-scrollbar-button,
+.scroll::-webkit-scrollbar-button,
+.exam-paper::-webkit-scrollbar-button,
+.article-panel::-webkit-scrollbar-button,
+.review-workbench::-webkit-scrollbar-button,
+#leftScroll::-webkit-scrollbar-button,
+#rightScroll::-webkit-scrollbar-button,
+#leftPane::-webkit-scrollbar-button,
+#rightPane::-webkit-scrollbar-button {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.scroll-container::-webkit-scrollbar-corner,
+.workspace::-webkit-scrollbar-corner,
+.panel::-webkit-scrollbar-corner,
+.scroll::-webkit-scrollbar-corner {
+  background: transparent !important;
+}
+
+/* Firefox standard scrollbars */
+.scroll-container,
+.workspace,
+.panel,
+.scroll,
+.exam-paper,
+.article-panel,
+.review-workbench,
+#leftScroll,
+#rightScroll,
+#leftPane,
+#rightPane {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.12) transparent;
+}
+
+/* Theme Adaptive Colors for Subtle Scrollbars */
+body.theme-parchment .scroll-container::-webkit-scrollbar-thumb,
+body.theme-parchment .workspace::-webkit-scrollbar-thumb,
+body.theme-parchment .panel::-webkit-scrollbar-thumb,
+body.theme-parchment .scroll::-webkit-scrollbar-thumb,
+body.theme-parchment .exam-paper::-webkit-scrollbar-thumb,
+body.theme-parchment .article-panel::-webkit-scrollbar-thumb,
+body.theme-parchment .review-workbench::-webkit-scrollbar-thumb,
+body.theme-parchment #leftScroll::-webkit-scrollbar-thumb,
+body.theme-parchment #rightScroll::-webkit-scrollbar-thumb {
+  background: rgba(140, 110, 80, 0.16);
+}
+
+body.theme-parchment .scroll-container::-webkit-scrollbar-thumb:hover,
+body.theme-parchment .workspace::-webkit-scrollbar-thumb:hover,
+body.theme-parchment .panel::-webkit-scrollbar-thumb:hover,
+body.theme-parchment .scroll::-webkit-scrollbar-thumb:hover,
+body.theme-parchment .exam-paper::-webkit-scrollbar-thumb:hover,
+body.theme-parchment .article-panel::-webkit-scrollbar-thumb:hover,
+body.theme-parchment .review-workbench::-webkit-scrollbar-thumb:hover,
+body.theme-parchment #leftScroll::-webkit-scrollbar-thumb:hover,
+body.theme-parchment #rightScroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(140, 110, 80, 0.35);
+}
+
+body.theme-parchment .scroll-container,
+body.theme-parchment .workspace,
+body.theme-parchment .panel,
+body.theme-parchment .scroll,
+body.theme-parchment .exam-paper,
+body.theme-parchment .article-panel,
+body.theme-parchment .review-workbench,
+body.theme-parchment #leftScroll,
+body.theme-parchment #rightScroll {
+  scrollbar-color: rgba(140, 110, 80, 0.16) transparent;
+}
+
+body.theme-dark .scroll-container::-webkit-scrollbar-thumb,
+body.theme-dark .workspace::-webkit-scrollbar-thumb,
+body.theme-dark .panel::-webkit-scrollbar-thumb,
+body.theme-dark .scroll::-webkit-scrollbar-thumb,
+body.theme-dark .exam-paper::-webkit-scrollbar-thumb,
+body.theme-dark .article-panel::-webkit-scrollbar-thumb,
+body.theme-dark .review-workbench::-webkit-scrollbar-thumb,
+body.theme-dark #leftScroll::-webkit-scrollbar-thumb,
+body.theme-dark #rightScroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+body.theme-dark .scroll-container::-webkit-scrollbar-thumb:hover,
+body.theme-dark .workspace::-webkit-scrollbar-thumb:hover,
+body.theme-dark .panel::-webkit-scrollbar-thumb:hover,
+body.theme-dark .scroll::-webkit-scrollbar-thumb:hover,
+body.theme-dark .exam-paper::-webkit-scrollbar-thumb:hover,
+body.theme-dark .article-panel::-webkit-scrollbar-thumb:hover,
+body.theme-dark .review-workbench::-webkit-scrollbar-thumb:hover,
+body.theme-dark #leftScroll::-webkit-scrollbar-thumb:hover,
+body.theme-dark #rightScroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+body.theme-dark .scroll-container,
+body.theme-dark .workspace,
+body.theme-dark .panel,
+body.theme-dark .scroll,
+body.theme-dark .exam-paper,
+body.theme-dark .article-panel,
+body.theme-dark .review-workbench,
+body.theme-dark #leftScroll,
+body.theme-dark #rightScroll {
+  scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
 }
 
 /* Right Panel Workspace Bottom Clearance:
@@ -744,6 +1004,14 @@ body.theme-dark .vocab-tip {
     display: none !important;
     height: auto !important;
     border-right: none !important;
+    flex: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .split-resizer {
+    display: none !important;
   }
 
   .layout.show-left .panel.left-panel {

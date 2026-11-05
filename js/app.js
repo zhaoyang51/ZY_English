@@ -451,6 +451,7 @@
     setupKeyboardShortcuts();
     setupSentenceAndVocabInteractions();
     setupDashboardAndExportModals();
+    setupMainSplitResizer();
 
     // 4. Load initial text
     loadCurrentText();
@@ -3642,10 +3643,381 @@
           }
         };
         win.addEventListener('keydown', win.__yuqueShortcuts);
+
+        // Enhance Yuque frame with subtle minimalist scrollbars and resizable columns
+        setupYuqueIframeSplitAndScroll(win, doc);
       } catch (err) {}
     };
     frame.addEventListener('load', bind);
     bind();
+  }
+
+  function setStyleVar(el, prop, val) {
+    if (!el || !el.style) return;
+    if (typeof el.style.setProperty === 'function') {
+      el.style.setProperty(prop, val);
+    } else {
+      el.style[prop] = val;
+    }
+  }
+
+  function getStyleVar(el, prop) {
+    if (!el || !el.style) return '';
+    if (typeof el.style.getPropertyValue === 'function') {
+      return el.style.getPropertyValue(prop);
+    }
+    return el.style[prop] || '';
+  }
+
+  function setupMainSplitResizer() {
+    const mainLayout = document.getElementById('mainLayout');
+    const resizer = document.getElementById('mainSplitResizer');
+    if (!mainLayout || !resizer) return;
+    const leftPanel = (typeof mainLayout.querySelector === 'function')
+      ? mainLayout.querySelector('.panel.left-panel')
+      : (document.querySelector?.('.panel.left-panel') || null);
+    const rightPanel = (typeof mainLayout.querySelector === 'function')
+      ? mainLayout.querySelector('.panel.right-panel')
+      : (document.querySelector?.('.panel.right-panel') || null);
+    if (!leftPanel || !rightPanel) return;
+
+    const storageKey = 'KAOYAN_MAIN_SPLIT_RATIO';
+    const defaultPct = 50;
+
+    let savedPct = 50;
+    try {
+      savedPct = parseFloat(localStorage.getItem(storageKey) || defaultPct.toString());
+    } catch(e) {}
+    const initialRatio = (!isNaN(savedPct) && savedPct >= 20 && savedPct <= 80) ? savedPct : defaultPct;
+    setStyleVar(mainLayout, '--main-split-left', `${initialRatio}%`);
+
+    let isDragging = false;
+    let startX = 0;
+    let startWidth = 0;
+    let containerWidth = 0;
+
+    const onPointerDown = (e) => {
+      if (e.preventDefault) e.preventDefault();
+      isDragging = true;
+      if (resizer.classList?.add) resizer.classList.add('is-dragging');
+      if (document.body?.classList?.add) document.body.classList.add('is-split-resizing');
+
+      const rect = (typeof mainLayout.getBoundingClientRect === 'function')
+        ? mainLayout.getBoundingClientRect()
+        : { width: 1000, left: 0 };
+      containerWidth = rect.width;
+      startX = e.clientX || 0;
+      startWidth = (typeof leftPanel.getBoundingClientRect === 'function')
+        ? leftPanel.getBoundingClientRect().width
+        : (containerWidth * initialRatio / 100);
+
+      const onPointerMove = (moveEvt) => {
+        if (!isDragging || containerWidth <= 0) return;
+        const deltaX = (moveEvt.clientX || 0) - startX;
+        let newWidth = startWidth + deltaX;
+        const minPx = Math.max(280, containerWidth * 0.20);
+        const maxPx = Math.min(containerWidth - 280, containerWidth * 0.80);
+        newWidth = Math.max(minPx, Math.min(maxPx, newWidth));
+        const pct = (newWidth / containerWidth) * 100;
+        setStyleVar(mainLayout, '--main-split-left', `${pct.toFixed(2)}%`);
+      };
+
+      const onPointerUp = () => {
+        if (!isDragging) return;
+        isDragging = false;
+        if (resizer.classList?.remove) resizer.classList.remove('is-dragging');
+        if (document.body?.classList?.remove) document.body.classList.remove('is-split-resizing');
+
+        window.removeEventListener('pointermove', onPointerMove);
+        window.removeEventListener('pointerup', onPointerUp);
+        window.removeEventListener('pointercancel', onPointerUp);
+
+        if (containerWidth > 0 && typeof leftPanel.getBoundingClientRect === 'function') {
+          const finalPct = ((leftPanel.getBoundingClientRect().width / containerWidth) * 100).toFixed(2);
+          try { localStorage.setItem(storageKey, finalPct); } catch(e) {}
+        }
+      };
+
+      window.addEventListener('pointermove', onPointerMove);
+      window.addEventListener('pointerup', onPointerUp);
+      window.addEventListener('pointercancel', onPointerUp);
+    };
+
+    if (resizer.addEventListener) {
+      resizer.addEventListener('pointerdown', onPointerDown);
+
+      resizer.addEventListener('dblclick', () => {
+        setStyleVar(mainLayout, '--main-split-left', `${defaultPct}%`);
+        try { localStorage.setItem(storageKey, defaultPct.toString()); } catch(e) {}
+      });
+
+      resizer.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+          if (e.preventDefault) e.preventDefault();
+          const currentPct = parseFloat(getStyleVar(mainLayout, '--main-split-left')) || defaultPct;
+          const delta = e.key === 'ArrowLeft' ? -2 : 2;
+          const newPct = Math.max(20, Math.min(80, currentPct + delta));
+          setStyleVar(mainLayout, '--main-split-left', `${newPct.toFixed(2)}%`);
+          try { localStorage.setItem(storageKey, newPct.toFixed(2)); } catch(e) {}
+        }
+      });
+    }
+  }
+
+  function setupYuqueIframeSplitAndScroll(win, doc) {
+    if (!win || !doc || !doc.head) return;
+
+    if (!doc.getElementById('__yuque_enhanced_styles')) {
+      const style = doc.createElement('style');
+      style.id = '__yuque_enhanced_styles';
+      style.textContent = `
+        /* Universal sleek & subtle scrollbars in iframe */
+        *::-webkit-scrollbar,
+        #leftPane::-webkit-scrollbar,
+        #rightPane::-webkit-scrollbar,
+        #leftScroll::-webkit-scrollbar,
+        #rightScroll::-webkit-scrollbar,
+        .scroll::-webkit-scrollbar {
+          width: 5px !important;
+          height: 5px !important;
+        }
+        *::-webkit-scrollbar-track,
+        #leftPane::-webkit-scrollbar-track,
+        #rightPane::-webkit-scrollbar-track,
+        #leftScroll::-webkit-scrollbar-track,
+        #rightScroll::-webkit-scrollbar-track,
+        .scroll::-webkit-scrollbar-track {
+          background: transparent !important;
+        }
+        *::-webkit-scrollbar-thumb,
+        #leftPane::-webkit-scrollbar-thumb,
+        #rightPane::-webkit-scrollbar-thumb,
+        #leftScroll::-webkit-scrollbar-thumb,
+        #rightScroll::-webkit-scrollbar-thumb,
+        .scroll::-webkit-scrollbar-thumb {
+          background: rgba(0, 0, 0, 0.14) !important;
+          border-radius: 999px !important;
+          border: none !important;
+          transition: background-color 0.2s ease !important;
+        }
+        *::-webkit-scrollbar-thumb:hover,
+        #leftPane::-webkit-scrollbar-thumb:hover,
+        #rightPane::-webkit-scrollbar-thumb:hover,
+        #leftScroll::-webkit-scrollbar-thumb:hover,
+        #rightScroll::-webkit-scrollbar-thumb:hover,
+        .scroll::-webkit-scrollbar-thumb:hover {
+          background: rgba(0, 0, 0, 0.32) !important;
+        }
+        *::-webkit-scrollbar-button {
+          display: none !important;
+          width: 0 !important;
+          height: 0 !important;
+        }
+        * {
+          scrollbar-width: thin !important;
+          scrollbar-color: rgba(0, 0, 0, 0.14) transparent !important;
+        }
+
+        /* Resizable Split Layout */
+        .layout.has-resizer {
+          display: flex !important;
+          flex-direction: row !important;
+          gap: 0 !important;
+          position: relative !important;
+          overflow: hidden !important;
+          width: 100% !important;
+          box-sizing: border-box !important;
+        }
+        .layout.has-resizer > .panel:first-child,
+        .layout.has-resizer > #leftPanel,
+        .layout.has-resizer > .leftPanel {
+          flex: 0 0 var(--yuque-split-left, 52%) !important;
+          width: var(--yuque-split-left, 52%) !important;
+          min-width: 260px !important;
+          max-width: calc(100% - 260px) !important;
+          box-sizing: border-box !important;
+        }
+        .layout.has-resizer > .panel:last-child,
+        .layout.has-resizer > .rightPanel {
+          flex: 1 1 0% !important;
+          min-width: 260px !important;
+          box-sizing: border-box !important;
+        }
+        .split-resizer {
+          flex: 0 0 10px !important;
+          width: 10px !important;
+          margin: 0 -5px !important;
+          z-index: 50 !important;
+          cursor: col-resize !important;
+          position: relative !important;
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          user-select: none !important;
+          -webkit-user-select: none !important;
+          touch-action: none !important;
+          background: transparent !important;
+        }
+        .split-resizer::before {
+          content: '' !important;
+          position: absolute !important;
+          top: 0 !important;
+          bottom: 0 !important;
+          left: 50% !important;
+          transform: translateX(-50%) !important;
+          width: 1px !important;
+          background: #cbd5e1 !important;
+          transition: background-color 0.15s ease, width 0.15s ease !important;
+        }
+        .split-resizer:hover::before,
+        .split-resizer.is-dragging::before {
+          background: #2563eb !important;
+          width: 2px !important;
+        }
+        .split-resizer-handle {
+          width: 4px !important;
+          height: 38px !important;
+          border-radius: 999px !important;
+          background: #94a3b8 !important;
+          opacity: 0.4 !important;
+          transition: opacity 0.15s, background-color 0.15s, height 0.15s !important;
+          pointer-events: none !important;
+        }
+        .split-resizer:hover .split-resizer-handle,
+        .split-resizer.is-dragging .split-resizer-handle {
+          opacity: 1 !important;
+          background: #2563eb !important;
+          height: 52px !important;
+        }
+        body.is-split-resizing {
+          user-select: none !important;
+          -webkit-user-select: none !important;
+          cursor: col-resize !important;
+        }
+        body.is-split-resizing * {
+          user-select: none !important;
+          -webkit-user-select: none !important;
+          cursor: col-resize !important;
+        }
+      `;
+      doc.head.appendChild(style);
+    }
+
+    const layout = doc.querySelector('.layout');
+    if (!layout) return;
+
+    const leftPanel = layout.querySelector('.leftPanel') || layout.querySelector('#leftPanel') || layout.firstElementChild;
+    const rightPanel = layout.querySelector('.rightPanel') || layout.querySelector('#rightPanel') || layout.lastElementChild;
+    if (!leftPanel || !rightPanel || leftPanel === rightPanel) return;
+
+    let resizer = doc.getElementById('yuqueSplitResizer');
+    if (!resizer) {
+      resizer = doc.createElement('div');
+      resizer.className = 'split-resizer';
+      resizer.id = 'yuqueSplitResizer';
+      resizer.setAttribute('role', 'separator');
+      resizer.setAttribute('aria-orientation', 'vertical');
+      resizer.setAttribute('tabindex', '0');
+      resizer.title = '拖动调整左右分栏比例，双击恢复默认';
+      resizer.innerHTML = '<div class="split-resizer-handle"></div>';
+      layout.insertBefore(resizer, rightPanel);
+    }
+
+    const isReviewMode = !!doc.getElementById('leftStage') || layout.classList.contains('split') || layout.classList.contains('single');
+    const storageKey = isReviewMode ? 'KAOYAN_YUQUE_REVIEW_SPLIT_RATIO' : 'KAOYAN_YUQUE_PRACTICE_SPLIT_RATIO';
+    const defaultPct = isReviewMode ? 46 : 52;
+
+    const syncSplitMode = () => {
+      if (layout.classList.contains('single') || leftPanel.hasAttribute('hidden') || leftPanel.style.display === 'none') {
+        resizer.style.display = 'none';
+        layout.classList.remove('has-resizer');
+      } else {
+        resizer.style.display = 'flex';
+        layout.classList.add('has-resizer');
+      }
+    };
+
+    syncSplitMode();
+
+    if (win.MutationObserver && !layout.__hasSplitObserver) {
+      layout.__hasSplitObserver = true;
+      const observer = new win.MutationObserver(() => {
+        syncSplitMode();
+      });
+      observer.observe(layout, { attributes: true, attributeFilter: ['class'] });
+      observer.observe(leftPanel, { attributes: true, attributeFilter: ['hidden', 'style'] });
+    }
+
+    const savedPct = parseFloat(localStorage.getItem(storageKey) || defaultPct.toString());
+    const initialRatio = (!isNaN(savedPct) && savedPct >= 20 && savedPct <= 80) ? savedPct : defaultPct;
+    layout.style.setProperty('--yuque-split-left', `${initialRatio}%`);
+
+    if (!resizer.__resizerBound) {
+      resizer.__resizerBound = true;
+      let isDragging = false;
+      let startX = 0;
+      let startWidth = 0;
+      let containerWidth = 0;
+
+      const onPointerDown = (e) => {
+        e.preventDefault();
+        isDragging = true;
+        resizer.classList.add('is-dragging');
+        doc.body.classList.add('is-split-resizing');
+        document.body.classList.add('is-split-resizing');
+
+        const rect = layout.getBoundingClientRect();
+        containerWidth = rect.width;
+        startX = e.clientX;
+        startWidth = leftPanel.getBoundingClientRect().width;
+
+        const onPointerMove = (moveEvt) => {
+          if (!isDragging || containerWidth <= 0) return;
+          const currentX = moveEvt.clientX;
+          const deltaX = currentX - startX;
+          let newWidth = startWidth + deltaX;
+          const minPx = Math.max(260, containerWidth * 0.20);
+          const maxPx = Math.min(containerWidth - 260, containerWidth * 0.80);
+          newWidth = Math.max(minPx, Math.min(maxPx, newWidth));
+          const pct = (newWidth / containerWidth) * 100;
+          layout.style.setProperty('--yuque-split-left', `${pct.toFixed(2)}%`);
+        };
+
+        const onPointerUp = () => {
+          if (!isDragging) return;
+          isDragging = false;
+          resizer.classList.remove('is-dragging');
+          doc.body.classList.remove('is-split-resizing');
+          document.body.classList.remove('is-split-resizing');
+
+          win.removeEventListener('pointermove', onPointerMove);
+          win.removeEventListener('pointerup', onPointerUp);
+          win.removeEventListener('pointercancel', onPointerUp);
+          window.removeEventListener('pointermove', onPointerMove);
+          window.removeEventListener('pointerup', onPointerUp);
+          window.removeEventListener('pointercancel', onPointerUp);
+
+          if (containerWidth > 0) {
+            const finalPct = ((leftPanel.getBoundingClientRect().width / containerWidth) * 100).toFixed(2);
+            localStorage.setItem(storageKey, finalPct);
+          }
+        };
+
+        win.addEventListener('pointermove', onPointerMove);
+        win.addEventListener('pointerup', onPointerUp);
+        win.addEventListener('pointercancel', onPointerUp);
+        window.addEventListener('pointermove', onPointerMove);
+        window.addEventListener('pointerup', onPointerUp);
+        window.addEventListener('pointercancel', onPointerUp);
+      };
+
+      resizer.addEventListener('pointerdown', onPointerDown);
+
+      resizer.addEventListener('dblclick', () => {
+        layout.style.setProperty('--yuque-split-left', `${defaultPct}%`);
+        localStorage.setItem(storageKey, defaultPct.toString());
+      });
+    }
   }
 
   function setupKeyboardShortcuts() {
