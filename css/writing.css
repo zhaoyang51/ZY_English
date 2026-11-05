@@ -28,7 +28,21 @@ body.mode-writing .topbar {
 }
 
 /* 全宽外层可滚动视口：确保鼠标无论在屏幕正中还是最边缘空白处都能顺畅捕获滚轮 */
-.writing-section {
+body.mode-writing .vocab-section,
+body.mode-writing #vocabSection,
+body.mode-writing .layout,
+body.mode-writing #mainLayout,
+body.mode-writing #yuqueContainer {
+  display: none !important;
+}
+
+body:not(.mode-writing) .writing-section,
+body:not(.mode-writing) #writingSection {
+  display: none !important;
+}
+
+/* 全宽外层可滚动视口：确保鼠标无论在屏幕正中还是最边缘空白处都能顺畅捕获滚轮 */
+body.mode-writing .writing-section {
   display: block !important;
   flex: 1 1 auto !important;
   min-height: 0 !important;

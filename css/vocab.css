@@ -82,7 +82,9 @@ body.mode-vocab #progressText,
 body.mode-vocab #toggleAllBtn,
 body.mode-vocab .workspace-toolbar,
 body.mode-vocab .workspace-font-toolbar,
-body.mode-vocab #yuqueContainer {
+body.mode-vocab #yuqueContainer,
+body.mode-vocab .writing-section,
+body.mode-vocab #writingSection {
   display: none !important;
 }
 
