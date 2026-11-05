@@ -593,6 +593,7 @@
         writing.inert = false;
         writing.style.visibility = '';
         writing.style.display = '';
+        writing.scrollTop = 0;
       }
 
       if (window.WritingModule) {

@@ -56,7 +56,8 @@
 
     renderShell() {
       this.container.innerHTML = `
-        <!-- Header Banner -->
+        <div class="writing-inner-container">
+          <!-- Header Banner -->
         <div class="writing-header-banner">
           <div class="writing-header-title">
             <span style="font-size:2.2em;line-height:1">✍️</span>
@@ -103,6 +104,7 @@
         <div class="writing-tab-panel" id="panelPastExams" role="tabpanel"></div>
         <div class="writing-tab-panel" id="panelThemeKeywords" role="tabpanel"></div>
         <div class="writing-tab-panel" id="panelMaterials" role="tabpanel"></div>
+        </div>
       `;
 
       this.renderGuide();
@@ -136,6 +138,9 @@
       const targetPanel = this.container.querySelector(`#panel${tabKey.charAt(0).toUpperCase() + tabKey.slice(1)}`);
       if (targetPanel) {
         targetPanel.classList.add('active');
+      }
+      if (this.container) {
+        this.container.scrollTop = 0;
       }
 
       if (tabKey === 'pastExams') {

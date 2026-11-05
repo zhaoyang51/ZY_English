@@ -4,15 +4,56 @@
  * Supports: Light (default), Parchment (羊皮纸护眼), and Dark (深色夜间)
  */
 
+/* ==========================================================================
+   Full-page Viewport & Scroll Container for Writing Masterclass
+   ========================================================================== */
+
+/* 锁定 body 高度为 100vh 垂直弹性盒，顶栏固定，下方通畅全屏滚动 */
+body.mode-writing {
+  width: 100% !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body.mode-writing .topbar {
+  flex: 0 0 auto !important;
+  position: relative !important;
+  top: 0 !important;
+  z-index: 100 !important;
+}
+
+/* 全宽外层可滚动视口：确保鼠标无论在屏幕正中还是最边缘空白处都能顺畅捕获滚轮 */
 .writing-section {
+  display: block !important;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch !important;
+  overscroll-behavior-y: contain;
+  scroll-behavior: smooth;
+  font-family: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif);
+  color: var(--ink, #1f2937);
+  background: var(--bg-main, transparent);
+}
+
+/* 内层最大宽度限制与自适应居中容器 */
+.writing-inner-container {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 16px 20px 60px;
+  padding: 16px 20px 120px;
   box-sizing: border-box;
-  font-family: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif);
-  color: var(--ink, #1f2937);
-  min-height: calc(100vh - 120px);
 }
 
 /* Header Banner */
@@ -427,6 +468,7 @@ body.theme-parchment .writing-section {
   --border: #e6dfcf;
   --line: #ede6d6;
   --code-bg: #f4eee0;
+  background: #fbf7ee;
 }
 
 body.theme-parchment .history-table th {
@@ -446,6 +488,7 @@ body.theme-dark .writing-section {
   --border: #374151;
   --line: #2d3748;
   --code-bg: #111827;
+  background: #111827;
 }
 
 body.theme-dark .history-table th {
@@ -468,8 +511,8 @@ body.theme-dark .history-table tr:hover td {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .writing-section {
-    padding: 10px 12px 60px;
+  .writing-inner-container {
+    padding: 12px 14px 100px;
   }
   .writing-header-banner {
     padding: 14px 16px;
