@@ -1,19 +1,18 @@
 # -*- coding: utf-8 -*-
 """
-Generate js/writing.js for ZY_English
+Generate robust, complete js/writing.js matching the real WRITING_DATA structure
 """
 
-content = r'''/**
- * ZY_English Writing Masterclass Module
- * 考研英语高分写作宝典交互系统
- * Integrates:
- * 1. 写作起步全流程与 AI 智能换词咒语
- * 2. 英语二历年小作文考情对照表 (2010-2025)
- * 3. 17 套中英对照三段式小作文模板 (10种基础 + 7种混合)
- * 4. 大作文段落功能句库 (首段3大类、第二段6大专题、第三段正反通用 + 110+精选功能句)
- * 5. 2010-2026 英语一 & 英语二全量 34 篇真题套用范文与逐句来源拆解
- * 6. 2010-2026 历年真题核心主题词矩阵与避坑提醒
- * 7. 5 份原版 PDF 资料在线预览与下载
+js_code = r'''/**
+ * ZY_English Writing Masterclass Module (考研英语高分写作宝典交互系统)
+ * Strictly matches window.WRITING_DATA schema:
+ * - guide: 01 结构拆解, 02 套用四步法, 03 AI换词咒语, 04 避坑指南
+ * - smallEssayHistory: 2010-2025 英语二历年考情对照表 (带推荐模板一键直达)
+ * - smallEssayTemplates: 17 套中英对照三段式小作文模板 (10基础 + 7混合)
+ * - bigEssaySections: 首段(3类)、次段(6大专题)、末段(正反2类)及80+高分例句
+ * - pastExams: 2010-2026 英语一(17篇) + 英语二(17篇)共34篇真题套用范文
+ * - themeKeywords: 历年主题词3选1矩阵、角色替换词库与避坑提醒
+ * - materialsDownload: 5份原版PDF资料在线预览与下载
  */
 
 (function(window) {
@@ -23,38 +22,44 @@ content = r'''/**
     initialized: false,
     container: null,
     currentTab: 'guide',
-    selectedExamSubject: 'english2',
-    selectedExamYear: '2025',
+    selectedExamSubject: '英语二',
+    selectedExamYear: 2025,
+    selectedKeywordSubject: '英语二',
     smallEssayFilter: 'all',
+
+    getData() {
+      return window.WRITING_DATA || window.WritingData || {};
+    },
 
     init(containerId, initialYear) {
       this.container = document.getElementById(containerId);
       if (!this.container) return;
 
       if (initialYear) {
-        this.selectedExamYear = String(initialYear);
+        const y = parseInt(initialYear, 10);
+        if (!isNaN(y)) this.selectedExamYear = y;
       }
 
-      if (!this.initialized) {
-        this.renderShell();
-        this.bindEvents();
-        this.initialized = true;
-      }
+      this.renderShell();
+      this.bindTabEvents();
+      this.initialized = true;
 
       this.switchTab(this.currentTab);
     },
 
     onYearChange(year) {
-      this.selectedExamYear = String(year);
-      if (this.currentTab === 'pastExams') {
-        const yearSelect = document.getElementById('examYearSelect');
-        if (yearSelect) yearSelect.value = String(year);
-        this.renderExamArticle();
+      const y = parseInt(year, 10);
+      if (!isNaN(y)) {
+        this.selectedExamYear = y;
+        if (this.currentTab === 'pastExams') {
+          const yearSelect = document.getElementById('examYearSelect');
+          if (yearSelect) yearSelect.value = String(y);
+          this.renderExamArticle();
+        }
       }
     },
 
     renderShell() {
-      const data = window.WritingData || {};
       this.container.innerHTML = `
         <!-- Header Banner -->
         <div class="writing-header-banner">
@@ -113,10 +118,10 @@ content = r'''/**
       this.renderMaterials();
     },
 
-    bindEvents() {
+    bindTabEvents() {
       const tabs = this.container.querySelectorAll('.writing-tab-btn');
       tabs.forEach(btn => {
-        btn.addEventListener('click', (e) => {
+        btn.addEventListener('click', () => {
           const tabKey = btn.dataset.tab;
           if (tabKey) this.switchTab(tabKey);
         });
@@ -131,175 +136,126 @@ content = r'''/**
       });
 
       const panels = this.container.querySelectorAll('.writing-tab-panel');
-      panels.forEach(p => {
-        p.classList.remove('active');
-      });
+      panels.forEach(p => p.classList.remove('active'));
 
       const targetPanel = this.container.querySelector(`#panel${tabKey.charAt(0).toUpperCase() + tabKey.slice(1)}`);
       if (targetPanel) {
         targetPanel.classList.add('active');
       }
 
-      // If switching to pastExams, sync year
       if (tabKey === 'pastExams') {
         const yearSelect = document.getElementById('examYearSelect');
         if (yearSelect && this.selectedExamYear) {
-          yearSelect.value = this.selectedExamYear;
+          yearSelect.value = String(this.selectedExamYear);
           this.renderExamArticle();
         }
       }
     },
 
     /* ==========================================================================
-       Tab 1: 写作起步与流程 (Guide)
+       Tab 1: 🚀 起步与流程 (Guide)
        ========================================================================== */
     renderGuide() {
       const panel = this.container.querySelector('#panelGuide');
-      const data = (window.WritingData && window.WritingData.guide) || {};
+      const data = this.getData();
+      const guide = data.guide || {};
+      const sections = guide.sections || [];
       if (!panel) return;
 
       panel.innerHTML = `
-        <div class="writing-grid-2">
-          <!-- 小作文起步 -->
-          <div class="writing-card">
-            <div class="writing-card-header">
-              <h3 class="writing-card-title">
-                <span>✉️</span> ${data.smallEssaySteps ? data.smallEssaySteps.title : '小作文起步三步走'}
-              </h3>
-              <span class="writing-badge badge-primary">保7争8分</span>
-            </div>
-            <div class="writing-card-body">
-              <p style="color:var(--muted);font-size:0.92em;margin-top:0">
-                ${data.smallEssaySteps ? data.smallEssaySteps.description : ''}
-              </p>
-              <div class="steps-list">
-                ${(data.smallEssaySteps && data.smallEssaySteps.steps ? data.smallEssaySteps.steps : []).map(s => `
-                  <div class="step-item" style="margin-bottom:14px;padding:12px 14px;background:rgba(37,99,235,0.04);border-left:3px solid var(--accent);border-radius:4px">
-                    <strong style="color:var(--accent);display:block;margin-bottom:4px">${s.step}：${s.name}</strong>
-                    <div style="font-size:0.92em;line-height:1.6;color:var(--ink)">${s.detail}</div>
-                  </div>
-                `).join('')}
-              </div>
-            </div>
-          </div>
-
-          <!-- 大作文起步 -->
-          <div class="writing-card">
-            <div class="writing-card-header">
-              <h3 class="writing-card-title">
-                <span>📊</span> ${data.bigEssaySteps ? data.bigEssaySteps.title : '大作文套用全流程'}
-              </h3>
-              <span class="writing-badge badge-success">保12争13+分</span>
-            </div>
-            <div class="writing-card-body">
-              <p style="color:var(--muted);font-size:0.92em;margin-top:0">
-                ${data.bigEssaySteps ? data.bigEssaySteps.description : ''}
-              </p>
-              <div class="steps-list">
-                ${(data.bigEssaySteps && data.bigEssaySteps.steps ? data.bigEssaySteps.steps : []).map(s => `
-                  <div class="step-item" style="margin-bottom:14px;padding:12px 14px;background:rgba(16,185,129,0.04);border-left:3px solid var(--success);border-radius:4px">
-                    <strong style="color:var(--success);display:block;margin-bottom:4px">${s.step}：${s.name}</strong>
-                    <div style="font-size:0.92em;line-height:1.6;color:var(--ink)">${s.detail}</div>
-                  </div>
-                `).join('')}
-              </div>
-            </div>
-          </div>
+        <div class="guide-header-tip" style="margin-bottom:20px;padding:14px 18px;background:rgba(37,99,235,0.06);border-left:4px solid var(--accent);border-radius:6px;font-size:0.95em;line-height:1.7;color:var(--ink)">
+          💡 <strong>核心理念：</strong>${guide.title || '考研英语作文模板使用全流程指南'}（${guide.author || '秘密哥 / 苦瓜学长'}）<br>
+          模板不是一字不差地死记硬背，而是掌握标准的三段式骨架、段落功能句搭配以及精准换词策略，做到“结构稳健、行文地道、自然点题、绝无雷同”。
         </div>
 
-        <!-- AI 换词咒语 -->
-        <div class="writing-card" style="border-left:4px solid #8b5cf6">
-          <div class="writing-card-header">
-            <div style="display:flex;align-items:center;gap:10px">
-              <span style="font-size:1.4em">🤖</span>
-              <h3 class="writing-card-title" style="margin:0">${data.aiPrompt ? data.aiPrompt.title : 'AI 智能换词咒语 (防雷同提分神器)'}</h3>
-            </div>
-            <button class="writing-copy-btn" id="copyAiPromptBtn">📋 一键复制提示词</button>
-          </div>
-          <div class="writing-card-body">
-            <p style="color:var(--muted);font-size:0.92em;margin-top:0">
-              ${data.aiPrompt ? data.aiPrompt.description : ''}
-            </p>
-            <div style="background:var(--code-bg, #1e293b);color:#f8fafc;padding:16px 20px;border-radius:8px;font-family:monospace;font-size:0.9em;line-height:1.7;white-space:pre-wrap;overflow-x:auto" id="aiPromptContent">${data.aiPrompt ? data.aiPrompt.promptText : ''}</div>
-          </div>
-        </div>
-
-        <!-- 规范与常见问题 -->
-        <div class="writing-grid-2">
-          <!-- 字数与格式规范 -->
-          <div class="writing-card">
-            <div class="writing-card-header">
-              <h3 class="writing-card-title">
-                <span>📏</span> ${data.formatRules ? data.formatRules.title : '答卷排版与字数黄金法则'}
-              </h3>
-            </div>
-            <div class="writing-card-body">
-              <ul style="padding-left:18px;margin:0;line-height:1.8;font-size:0.92em;color:var(--ink)">
-                ${(data.formatRules && data.formatRules.rules ? data.formatRules.rules : []).map(r => `
-                  <li style="margin-bottom:10px">${r}</li>
-                `).join('')}
-              </ul>
-            </div>
-          </div>
-
-          <!-- 常见问题答疑 -->
-          <div class="writing-card">
-            <div class="writing-card-header">
-              <h3 class="writing-card-title">
-                <span>💡</span> 常见疑问解答 (FAQ)
-              </h3>
-            </div>
-            <div class="writing-card-body">
-              ${(data.faq || []).map((f, idx) => `
-                <div style="margin-bottom:12px;padding-bottom:12px;border-bottom:1px dashed var(--line)">
-                  <strong style="color:var(--ink);display:block;font-size:0.94em;margin-bottom:4px">
-                    Q${idx+1}: ${f.question}
-                  </strong>
-                  <div style="color:var(--muted);font-size:0.9em;line-height:1.6">
-                    A: ${f.answer}
+        <div class="guide-sections-list">
+          ${sections.map(sec => {
+            const isAi = sec.id === 'ai_prompt';
+            return `
+              <div class="writing-card" id="guide-${sec.id}">
+                <div class="writing-card-header">
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <span style="font-size:1.4em">${sec.icon || '📌'}</span>
+                    <h3 class="writing-card-title" style="margin:0">${sec.title}</h3>
                   </div>
+                  ${isAi ? `<button class="writing-copy-btn" id="copyAiInstructionBtn">📋 一键复制AI换词指令</button>` : ''}
                 </div>
-              `).join('')}
-            </div>
-          </div>
+                <div class="writing-card-body">
+                  ${(sec.content || []).map(item => `
+                    <div class="guide-item" style="margin-bottom:18px">
+                      <h4 style="margin:0 0 8px 0;font-size:1.02em;color:var(--accent);display:flex;align-items:center;gap:6px">
+                        <span>▶</span> ${item.subtitle}
+                      </h4>
+                      <div class="guide-text" style="font-size:0.94em;line-height:1.75;color:var(--ink)">
+                        ${this.formatGuideText(item.text, isAi && item.subtitle.includes('换词指令'))}
+                      </div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `;
+          }).join('')}
         </div>
       `;
 
-      const copyBtn = panel.querySelector('#copyAiPromptBtn');
+      // Bind AI copy button
+      const copyBtn = panel.querySelector('#copyAiInstructionBtn');
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
-          const content = panel.querySelector('#aiPromptContent');
-          if (content) {
-            this.copyToClipboard(content.textContent, copyBtn);
-          }
+          const aiBlock = panel.querySelector('#aiPromptBox');
+          const promptText = aiBlock ? aiBlock.innerText : `请根据以下考研英语作文题目：[填写题目]，对给出的模板进行同义换词处理。要求：\n1. 黑色固定句架绝对保持不变，切勿改动核心语法与句式结构；\n2. 仅将中文和英文中的可替换内容（局部修饰词/宾语/动词短语）替换为与题目切合的词汇；\n3. 填入题目相关词（点题核心词）；\n4. 将替换前后的中英文逐句对照展示，并在替换处加粗；\n5. 最后输出一整段润色后的完整段落汇总。`;
+          this.copyToClipboard(promptText, copyBtn);
         });
       }
     },
 
+    formatGuideText(text, isAiPromptBlock) {
+      if (!text) return '';
+      // Escape HTML
+      let formatted = text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+
+      // Format bold **...**
+      formatted = formatted.replace(/\*\*([^*]+)\*\*/g, '<strong style="color:var(--accent)">$1</strong>');
+
+      // Check if it's AI prompt text block
+      if (isAiPromptBlock || text.includes('【换词指令】')) {
+        const parts = formatted.split('【换词指令】：');
+        if (parts.length > 1) {
+          return `${parts[0]}<div class="code-block" id="aiPromptBox" style="margin-top:10px;padding:16px 20px;background:var(--card-bg, #f8fafc);border:1px solid var(--border);border-left:4px solid #8b5cf6;border-radius:6px;font-family:monospace;white-space:pre-wrap;line-height:1.8;color:var(--ink)"><strong>【换词指令】：</strong>\n${parts[1].trim()}</div>`;
+        }
+      }
+
+      // Convert line breaks and bullet points
+      formatted = formatted.replace(/\n/g, '<br>');
+      return formatted;
+    },
+
     /* ==========================================================================
-       Tab 2: 小作文模板库 (Small Essay Templates & History Table)
+       Tab 2: ✉️ 小作文模板库 (Small Essay Templates & History)
        ========================================================================== */
     renderSmallEssay() {
       const panel = this.container.querySelector('#panelSmallEssay');
-      const data = window.WritingData || {};
+      const data = this.getData();
       const historyList = data.smallEssayHistory || [];
-      const templateList = data.smallEssayTemplates || [];
       if (!panel) return;
 
       panel.innerHTML = `
-        <!-- Section 1: 历年考情对照表 (来自用户上传的图片与真题档案) -->
+        <!-- Section 1: 历年考情对照表 -->
         <div class="writing-card" style="border-top:3px solid var(--accent)">
           <div class="writing-card-header">
             <div style="display:flex;align-items:center;gap:10px">
               <span style="font-size:1.3em">📋</span>
               <div>
                 <h3 class="writing-card-title" style="margin:0">英语二小作文历年形式与作文主题表 (2010—2025 全量考情对照)</h3>
-                <div style="font-size:0.85em;color:var(--muted);margin-top:2px">
-                  全面收录历年英语二应用文题型形态分布，点击“推荐模板”可直达下方精准对应三段式模板
+                <div style="font-size:0.86em;color:var(--muted);margin-top:3px">
+                  涵盖历年真实考题形式与写作要点，点击右侧“推荐模板”按钮可直接直达下方对应的中英三段式模板
                 </div>
               </div>
             </div>
-            <span class="writing-badge badge-primary">2010—2025 共 16 篇</span>
+            <span class="writing-badge badge-primary">2010—2025 连续 16 年</span>
           </div>
           <div class="writing-card-body" style="padding:0">
             <div class="history-table-container">
@@ -307,22 +263,23 @@ content = r'''/**
                 <thead>
                   <tr>
                     <th style="width:75px">年份</th>
-                    <th style="width:110px">类型/形式</th>
-                    <th>真题作文主题</th>
-                    <th style="width:160px">推荐精准匹配模板</th>
+                    <th style="width:130px">题型形式</th>
+                    <th>真题作文主题与写作要点</th>
+                    <th style="width:180px">推荐精准匹配模板</th>
                   </tr>
                 </thead>
                 <tbody>
                   ${historyList.map(item => `
                     <tr>
                       <td style="font-weight:700;color:var(--accent)">${item.year}</td>
+                      <td><span class="history-type-badge">${item.form}</span></td>
                       <td>
-                        <span class="history-type-badge">${item.type}</span>
+                        <div style="font-weight:600;color:var(--ink);margin-bottom:3px">${item.topic}</div>
+                        <div style="font-size:0.85em;color:var(--muted);line-height:1.5">${item.points || ''}</div>
                       </td>
-                      <td style="line-height:1.5">${item.topic}</td>
                       <td>
-                        <button class="template-jump-btn" data-tid="${item.recommendedTemplateId}">
-                          👉 ${item.recommendedTemplate}
+                        <button class="template-jump-btn" data-match="${item.matchTemplate}">
+                          👉 ${item.matchTemplate}
                         </button>
                       </td>
                     </tr>
@@ -333,19 +290,17 @@ content = r'''/**
           </div>
         </div>
 
-        <!-- Section 2: 17 套中英对照小作文模板 -->
-        <div class="filter-bar" style="margin-top:26px">
+        <!-- Section 2: 17 套中英对照模板库 -->
+        <div class="filter-bar" style="margin-top:28px">
           <div class="filter-group">
             <span style="font-weight:700;font-size:0.92em;color:var(--muted)">模板分类筛选:</span>
             <button class="filter-btn active" data-filter="all">全部 (17套)</button>
-            <button class="filter-btn" data-filter="basic">10 种基础类型</button>
+            <button class="filter-btn" data-filter="basic">10 种基本类型</button>
             <button class="filter-btn" data-filter="mixed">7 种混合类型</button>
           </div>
         </div>
 
-        <div class="templates-container" id="templatesContainer" style="margin-top:16px">
-          <!-- Dynamically populated -->
-        </div>
+        <div class="templates-container" id="templatesContainer" style="margin-top:16px"></div>
       `;
 
       this.renderTemplateCards();
@@ -354,7 +309,7 @@ content = r'''/**
 
     renderTemplateCards() {
       const container = this.container.querySelector('#templatesContainer');
-      const templates = (window.WritingData && window.WritingData.smallEssayTemplates) || [];
+      const templates = (this.getData().smallEssayTemplates) || [];
       if (!container) return;
 
       const filter = this.smallEssayFilter;
@@ -370,41 +325,51 @@ content = r'''/**
             <div>
               <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
                 <span class="writing-badge ${t.category === 'mixed' ? 'badge-warning' : 'badge-primary'}">
-                  ${t.categoryName}
+                  ${t.categoryName || (t.category === 'mixed' ? '混合类型' : '基本类型')}
                 </span>
                 <h3 class="writing-card-title" style="margin:0">${t.title}</h3>
-                <span style="font-size:0.85em;color:var(--muted)">（${t.sentenceCount} 句三段式）</span>
+                <span style="font-size:0.85em;color:var(--muted)">（句数结构：${t.sentencesCount || '2 / 4 / 2'}）</span>
               </div>
-              <div style="font-size:0.85em;color:var(--muted);margin-top:4px">
-                📌 适用场景：${t.scenario} | 来源：${t.source}
+              <div style="font-size:0.85em;color:var(--muted);margin-top:5px">
+                📌 来源组成：${t.origin || '经典功能句组合'}
               </div>
             </div>
-            <button class="writing-copy-btn copy-template-btn" data-content="${encodeURIComponent(t.englishTemplate)}">
+            <button class="writing-copy-btn copy-template-btn" data-id="${t.id}">
               📋 复制英文模板
             </button>
           </div>
           <div class="writing-card-body">
+            <!-- 英文模板 -->
             <div class="template-content-block">
-              <strong style="color:var(--accent);display:block;margin-bottom:6px;font-size:0.92em">【英文模板 (带填空变量)】</strong>
-              <div style="line-height:1.75;font-size:0.94em;color:var(--ink)">
-                ${this.highlightPlaceholders(t.englishTemplate)}
-              </div>
+              <strong style="color:var(--accent);display:block;margin-bottom:6px;font-size:0.92em">【英文三段式模板】</strong>
+              <div style="line-height:1.8;font-size:0.95em;color:var(--ink);white-space:pre-wrap" class="en-template-text" id="tpl-en-${t.id}">${this.highlightPlaceholders(t.enTemplate)}</div>
             </div>
-            <div class="template-zh-block" style="margin-top:12px">
-              <strong style="color:var(--muted);display:block;margin-bottom:6px;font-size:0.92em">【中文对照与变量解析】</strong>
-              <div style="line-height:1.7;font-size:0.9em;color:var(--muted)">
-                ${t.chineseTranslation}
-              </div>
+
+            <!-- 中文对照与变量说明 -->
+            <div class="template-zh-block" style="margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)">
+              <strong style="color:var(--muted);display:block;margin-bottom:6px;font-size:0.92em">【中文对照翻译】</strong>
+              <div style="line-height:1.75;font-size:0.92em;color:var(--muted);white-space:pre-wrap">${t.cnTranslation}</div>
             </div>
+
+            <!-- 可替换变量清单 -->
+            ${Array.isArray(t.variables) && t.variables.length > 0 ? `
+              <div style="margin-top:12px;display:flex;align-items:center;gap:6px;flex-wrap:wrap">
+                <span style="font-size:0.82em;font-weight:700;color:var(--muted)">填空变量提示：</span>
+                ${t.variables.map(v => `<span class="template-variable" style="font-size:0.82em;padding:2px 6px">${v}</span>`).join('')}
+              </div>
+            ` : ''}
           </div>
         </div>
       `).join('');
 
       // Bind copy buttons
       container.querySelectorAll('.copy-template-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-          const raw = decodeURIComponent(btn.dataset.content);
-          this.copyToClipboard(raw, btn);
+        btn.addEventListener('click', () => {
+          const id = parseInt(btn.dataset.id, 10);
+          const tpl = templates.find(item => item.id === id);
+          if (tpl) {
+            this.copyToClipboard(tpl.enTemplate, btn);
+          }
         });
       });
     },
@@ -426,14 +391,17 @@ content = r'''/**
       // Jump buttons in history table
       panel.querySelectorAll('.template-jump-btn').forEach(btn => {
         btn.addEventListener('click', () => {
-          const tid = btn.dataset.tid;
-          if (tid) this.scrollToTemplate(tid);
+          const matchStr = btn.dataset.match || '';
+          // Extract first template number e.g. "模版 16" -> 16, or "模版 1" -> 1
+          const m = matchStr.match(/模版\s*(\d+)/);
+          if (m && m[1]) {
+            this.scrollToTemplate(parseInt(m[1], 10));
+          }
         });
       });
     },
 
     scrollToTemplate(templateId) {
-      // Switch filter to all if needed
       if (this.smallEssayFilter !== 'all') {
         this.smallEssayFilter = 'all';
         const panel = this.container.querySelector('#panelSmallEssay');
@@ -449,207 +417,200 @@ content = r'''/**
         const target = document.getElementById(`template-${templateId}`);
         if (target) {
           target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          target.style.transition = 'outline 0.3s ease, box-shadow 0.3s ease';
+          target.style.transition = 'all 0.3s ease';
           target.style.outline = '2px solid var(--accent)';
-          target.style.boxShadow = '0 0 15px rgba(37,99,235,0.3)';
+          target.style.boxShadow = '0 0 16px rgba(37,99,235,0.35)';
           setTimeout(() => {
             target.style.outline = '';
             target.style.boxShadow = '';
-          }, 2000);
+          }, 2400);
         }
       }, 100);
     },
 
     highlightPlaceholders(text) {
-      // Replace [ ... ] with highlighted spans
-      return text.replace(/\[([^\]]+)\]/g, '<span class="template-variable">[$1]</span>');
+      if (!text) return '';
+      // Escape HTML
+      let s = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      // Highlight bracketed variables e.g. [要做的事] or 题目相关词
+      s = s.replace(/(\[[^\]]+\])/g, '<span class="template-variable">$1</span>');
+      s = s.replace(/(题目相关词)/g, '<span class="template-variable" style="background:rgba(239,68,68,0.1);color:#ef4444;border-color:rgba(239,68,68,0.3)">$1</span>');
+      return s;
     },
 
     /* ==========================================================================
-       Tab 3: 大作文功能句库 (Big Essay Paragraphs & Sentences)
+       Tab 3: 📊 大作文功能句库 (Big Essay Paragraphs & Sentences)
        ========================================================================== */
     renderBigEssay() {
       const panel = this.container.querySelector('#panelBigEssay');
-      const data = (window.WritingData && window.WritingData.bigEssaySections) || {};
+      const data = this.getData();
+      const sections = data.bigEssaySections || {};
+      const first = sections.firstParagraph || [];
+      const second = sections.secondParagraph || [];
+      const third = sections.thirdParagraph || [];
       if (!panel) return;
 
-      const p1 = data.paragraph1 || [];
-      const p2 = data.paragraph2 || [];
-      const p3 = data.paragraph3 || [];
-      const sentences = data.highScoringSentences || [];
-
       panel.innerHTML = `
-        <!-- 第一段：图表/图画首段套用 -->
-        <div class="writing-card">
+        <!-- 第一段：首段引题与描绘 -->
+        <div class="writing-card" style="border-top:3px solid var(--accent)">
           <div class="writing-card-header">
             <div style="display:flex;align-items:center;gap:10px">
               <span style="font-size:1.3em">📈</span>
-              <h3 class="writing-card-title" style="margin:0">第一段：首段引出与数据/图画描绘模板 (3 大题型分类)</h3>
+              <div>
+                <h3 class="writing-card-title" style="margin:0">第一段：引题与图画/图表描述模板 (3 大题型分类)</h3>
+                <div style="font-size:0.86em;color:var(--muted);margin-top:3px">
+                  包含图画类首段、静态图表类首段与动态图表类首段，附带万能套用模板与逐句替换功能句库
+                </div>
+              </div>
             </div>
-            <span class="writing-badge badge-primary">静态 · 动态 · 图画</span>
+            <span class="writing-badge badge-primary">3大首段分类</span>
           </div>
           <div class="writing-card-body">
-            <div class="writing-grid-3">
-              ${p1.map(item => `
-                <div style="background:var(--surface-hover, rgba(0,0,0,0.02));border:1px solid var(--border);border-radius:8px;padding:14px">
-                  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-                    <strong style="color:var(--accent)">${item.type}</strong>
-                    <button class="writing-copy-btn copy-block-btn" data-content="${encodeURIComponent(item.template)}" style="font-size:0.75em;padding:2px 8px">复制</button>
-                  </div>
-                  <div style="font-size:0.85em;color:var(--muted);margin-bottom:8px">适用：${item.applicableTo}</div>
-                  <div style="font-size:0.9em;line-height:1.6;color:var(--ink);background:var(--surface);padding:8px 10px;border-radius:6px;border:1px solid var(--line);margin-bottom:8px">
-                    ${this.highlightPlaceholders(item.template)}
-                  </div>
-                  <div style="font-size:0.82em;color:var(--muted);line-height:1.5">
-                    译：${item.chinese}
-                  </div>
-                </div>
-              `).join('')}
-            </div>
+            ${first.map(item => this.renderBigEssaySectionBlock(item, 'p1')).join('')}
           </div>
         </div>
 
-        <!-- 第二段：6 大常考专题模板 -->
-        <div class="writing-card">
+        <!-- 第二段：核心原因论述 (6大专题) -->
+        <div class="writing-card" style="border-top:3px solid var(--success);margin-top:24px">
           <div class="writing-card-header">
             <div style="display:flex;align-items:center;gap:10px">
               <span style="font-size:1.3em">🎯</span>
-              <h3 class="writing-card-title" style="margin:0">第二段：核心原因与论述 (6 大常考专题归类)</h3>
+              <div>
+                <h3 class="writing-card-title" style="margin:0">第二段：核心原因与多维论述 (6 大常考母题专题)</h3>
+                <div style="font-size:0.86em;color:var(--muted);margin-top:3px">
+                  全面覆盖考研大作文核心专题：经济生活、校园品质、体育健康、生态环境、文化自信、社会民生
+                </div>
+              </div>
             </div>
-            <span class="writing-badge badge-success">考研核心 6 大母题</span>
+            <span class="writing-badge badge-success">6大母题归类</span>
           </div>
           <div class="writing-card-body">
-            <div class="writing-grid-2">
-              ${p2.map(item => `
-                <div style="background:var(--surface-hover, rgba(0,0,0,0.02));border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:12px">
-                  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
-                    <strong style="color:var(--ink);font-size:1.02em">${item.topic}</strong>
-                    <button class="writing-copy-btn copy-block-btn" data-content="${encodeURIComponent(item.template)}" style="font-size:0.75em;padding:2px 8px">复制模板</button>
-                  </div>
-                  <div style="font-size:0.84em;color:var(--muted);margin-bottom:8px">
-                    历年考频：${item.frequency} | 适用真题：${item.applicableYears}
-                  </div>
-                  <div style="font-size:0.9em;line-height:1.65;color:var(--ink);background:var(--surface);padding:10px 12px;border-radius:6px;border:1px solid var(--line);margin-bottom:8px">
-                    ${this.highlightPlaceholders(item.template)}
-                  </div>
-                  <div style="font-size:0.84em;color:var(--muted);line-height:1.5">
-                    <strong>套用思路：</strong>${item.logicExplain}
-                  </div>
-                </div>
-              `).join('')}
-            </div>
+            ${second.map(item => this.renderBigEssaySectionBlock(item, 'p2')).join('')}
           </div>
         </div>
 
         <!-- 第三段：总结建议与展望 -->
-        <div class="writing-card">
+        <div class="writing-card" style="border-top:3px solid var(--warning);margin-top:24px">
           <div class="writing-card-header">
             <div style="display:flex;align-items:center;gap:10px">
               <span style="font-size:1.3em">🏁</span>
-              <h3 class="writing-card-title" style="margin:0">第三段：总结建议与未来展望模板 (正向支持 / 反面引导)</h3>
+              <div>
+                <h3 class="writing-card-title" style="margin:0">第三段：归纳建议与未来展望 (正向支持 / 反面引导)</h3>
+                <div style="font-size:0.86em;color:var(--muted);margin-top:3px">
+                  根据主题词的褒贬色彩灵活抉择：正面提倡支持，反面警示防范与协同治理
+                </div>
+              </div>
             </div>
             <span class="writing-badge badge-warning">正反两套速通</span>
           </div>
           <div class="writing-card-body">
-            <div class="writing-grid-2">
-              ${p3.map(item => `
-                <div style="background:var(--surface-hover, rgba(0,0,0,0.02));border:1px solid var(--border);border-radius:8px;padding:16px">
-                  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
-                    <strong style="color:var(--accent);font-size:1.02em">${item.type}</strong>
-                    <button class="writing-copy-btn copy-block-btn" data-content="${encodeURIComponent(item.template)}" style="font-size:0.75em;padding:2px 8px">复制</button>
-                  </div>
-                  <div style="font-size:0.85em;color:var(--muted);margin-bottom:8px">适用：${item.applicableTo}</div>
-                  <div style="font-size:0.9em;line-height:1.65;color:var(--ink);background:var(--surface);padding:10px 12px;border-radius:6px;border:1px solid var(--line);margin-bottom:8px">
-                    ${this.highlightPlaceholders(item.template)}
-                  </div>
-                  <div style="font-size:0.84em;color:var(--muted);line-height:1.5">
-                    译：${item.chinese}
-                  </div>
-                </div>
-              `).join('')}
-            </div>
-          </div>
-        </div>
-
-        <!-- 精选 110+ 高分功能句库 -->
-        <div class="writing-card">
-          <div class="writing-card-header">
-            <div style="display:flex;align-items:center;gap:10px">
-              <span style="font-size:1.3em">💎</span>
-              <h3 class="writing-card-title" style="margin:0">精选 110+ 高分功能句与情境替换库</h3>
-            </div>
-            <span class="writing-badge badge-primary">自由组装 · 告别模板感</span>
-          </div>
-          <div class="writing-card-body">
-            <p style="color:var(--muted);font-size:0.9em;margin-top:0">
-              按作文段落与行文功能梳理的黄金表达，考试时可根据主题词自由拆分与组合。
-            </p>
-            <div class="sentence-list">
-              ${sentences.map((cat, idx) => `
-                <div style="margin-bottom:20px;border-bottom:1px solid var(--line);padding-bottom:16px">
-                  <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
-                    <span class="writing-badge badge-primary">${cat.section}</span>
-                    <strong style="color:var(--ink);font-size:1.02em">${cat.category}</strong>
-                  </div>
-                  ${(cat.items || []).map((sent, sIdx) => `
-                    <div class="sentence-item" style="padding:8px 12px;margin-bottom:6px;background:var(--surface);border-radius:6px;display:flex;justify-content:space-between;align-items:center;gap:10px">
-                      <div style="flex:1">
-                        <div style="font-size:0.92em;color:var(--ink);line-height:1.5">${sent.en}</div>
-                        <div style="font-size:0.82em;color:var(--muted);margin-top:2px">${sent.zh}</div>
-                      </div>
-                      <button class="writing-copy-btn copy-sentence-btn" data-content="${encodeURIComponent(sent.en)}" style="font-size:0.75em;padding:2px 8px;flex-shrink:0">复制</button>
-                    </div>
-                  `).join('')}
-                </div>
-              `).join('')}
-            </div>
+            ${third.map(item => this.renderBigEssaySectionBlock(item, 'p3')).join('')}
           </div>
         </div>
       `;
 
-      // Bind copy buttons
-      panel.querySelectorAll('.copy-block-btn, .copy-sentence-btn').forEach(btn => {
+      // Bind copy buttons for templates and sentence items
+      panel.querySelectorAll('.copy-text-btn').forEach(btn => {
         btn.addEventListener('click', () => {
-          const raw = decodeURIComponent(btn.dataset.content);
+          const raw = decodeURIComponent(btn.dataset.text || '');
           this.copyToClipboard(raw, btn);
         });
       });
     },
 
+    renderBigEssaySectionBlock(item, prefix) {
+      const sentences = item.sentences || [];
+      return `
+        <div class="big-section-box" style="margin-bottom:20px;padding:16px 18px;background:var(--card-bg, #fbfbfb);border:1px solid var(--border);border-radius:8px">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px">
+            <div>
+              <strong style="color:var(--ink);font-size:1.05em">${item.name}</strong>
+              <span style="font-size:0.85em;color:var(--muted);margin-left:8px">（${item.chartType || item.category || ''}）</span>
+            </div>
+            <button class="writing-copy-btn copy-text-btn" data-text="${encodeURIComponent(item.mainTemplate ? item.mainTemplate.en : '')}" style="font-size:0.8em;padding:3px 10px">
+              📋 复制本段模板
+            </button>
+          </div>
+
+          <!-- 段落万能模板 -->
+          <div style="background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin-bottom:14px">
+            <div style="font-size:0.92em;line-height:1.75;color:var(--ink);margin-bottom:6px">
+              ${this.highlightPlaceholders(item.mainTemplate ? item.mainTemplate.en : '')}
+            </div>
+            <div style="font-size:0.86em;color:var(--muted);line-height:1.6">
+              <strong>中文译文：</strong>${item.mainTemplate ? item.mainTemplate.cn : ''}
+            </div>
+          </div>
+
+          <!-- 逐句功能句库 -->
+          ${sentences.length > 0 ? `
+            <details style="margin-top:10px">
+              <summary style="font-size:0.88em;font-weight:700;color:var(--accent);cursor:pointer;user-select:none;padding:6px 0">
+                🔍 查看该模块精选逐句功能句 (${sentences.length} 句)
+              </summary>
+              <div class="sentences-table" style="margin-top:10px">
+                ${sentences.map(s => `
+                  <div class="sentence-item" style="padding:10px 12px;margin-bottom:8px;background:var(--surface);border:1px solid var(--line);border-radius:6px">
+                    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px">
+                      <div style="flex:1">
+                        <div style="font-weight:700;font-size:0.92em;color:var(--ink);line-height:1.5">
+                          <span style="color:var(--accent);margin-right:6px">${s.num}</span>${this.highlightPlaceholders(s.pattern)}
+                        </div>
+                        <div style="font-size:0.85em;color:var(--muted);margin:4px 0 6px 0">${s.cn}</div>
+                        ${s.example ? `
+                          <div style="font-size:0.84em;background:rgba(37,99,235,0.03);padding:6px 10px;border-radius:4px;border-left:2px solid var(--accent);color:var(--ink);line-height:1.5">
+                            <strong>真题高分例句：</strong>${s.example}<br>
+                            <span style="color:var(--muted)">${s.exampleCn || ''}</span>
+                          </div>
+                        ` : ''}
+                      </div>
+                      <button class="writing-copy-btn copy-text-btn" data-text="${encodeURIComponent(s.pattern)}" style="font-size:0.75em;padding:2px 8px;flex-shrink:0">
+                        复制
+                      </button>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            </details>
+          ` : ''}
+        </div>
+      `;
+    },
+
     /* ==========================================================================
-       Tab 4: 历年真题套用范文 (Past Exams 2010-2026)
+       Tab 4: 🏆 历年真题套用范文 (Past Exams 2010-2026)
        ========================================================================== */
     renderPastExams() {
       const panel = this.container.querySelector('#panelPastExams');
-      const pastData = (window.WritingData && window.WritingData.pastExams) || {};
+      const data = this.getData();
+      const pastList = data.pastExams || [];
       if (!panel) return;
 
-      const e2List = pastData.english2 || [];
-      const years = e2List.map(item => item.year).reverse(); // 2026 -> 2010
+      // Extract available years for current subject
+      const years = Array.from(new Set(pastList.map(item => item.year))).sort((a, b) => b - a); // 2026 down to 2010
 
       panel.innerHTML = `
         <div class="exam-header" style="margin-bottom:20px">
           <div class="filter-bar" style="border:none;padding:0;margin:0">
             <!-- 科目切换 -->
             <div class="filter-group">
-              <span style="font-weight:700;font-size:0.92em;color:var(--muted)">试卷科目:</span>
-              <button class="filter-btn active" id="btnSubjectE2">英语二 (图表作文)</button>
-              <button class="filter-btn" id="btnSubjectE1">英语一 (图画作文)</button>
+              <span style="font-weight:700;font-size:0.92em;color:var(--muted)">科目选择:</span>
+              <button class="filter-btn ${this.selectedExamSubject === '英语二' ? 'active' : ''}" id="btnExamE2">英语二 (图表类 17篇)</button>
+              <button class="filter-btn ${this.selectedExamSubject === '英语一' ? 'active' : ''}" id="btnExamE1">英语一 (图画类 17篇)</button>
             </div>
 
             <!-- 年份选择 -->
-            <div class="filter-group" style="margin-left:auto">
-              <span style="font-weight:700;font-size:0.92em;color:var(--muted)">选择年份:</span>
+            <div class="filter-group" style="margin-left:auto;display:flex;align-items:center;gap:6px">
+              <button class="filter-btn" id="btnPrevExamYear" title="上一年" style="padding:4px 10px">◀</button>
               <select id="examYearSelect" class="select-control" style="padding:6px 14px;font-weight:700;border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--ink)">
-                ${years.map(y => `<option value="${y}" ${String(y) === String(this.selectedExamYear) ? 'selected' : ''}>${y} 年真题</option>`).join('')}
+                ${years.map(y => `<option value="${y}" ${y === this.selectedExamYear ? 'selected' : ''}>${y} 年全真范文</option>`).join('')}
               </select>
+              <button class="filter-btn" id="btnNextExamYear" title="下一年" style="padding:4px 10px">▶</button>
             </div>
           </div>
         </div>
 
-        <div id="examArticleContainer">
-          <!-- Dynamically populated -->
-        </div>
+        <div id="examArticleContainer"></div>
       `;
 
       this.renderExamArticle();
@@ -658,16 +619,19 @@ content = r'''/**
 
     renderExamArticle() {
       const container = this.container.querySelector('#examArticleContainer');
-      const pastData = (window.WritingData && window.WritingData.pastExams) || {};
+      const data = this.getData();
+      const pastList = data.pastExams || [];
       if (!container) return;
 
-      const subjectKey = this.selectedExamSubject;
-      const list = pastData[subjectKey] || [];
-      const currentYear = this.selectedExamYear;
+      const subject = this.selectedExamSubject;
+      const year = this.selectedExamYear;
 
-      const exam = list.find(item => String(item.year) === String(currentYear)) || list[list.length - 1];
+      const exam = pastList.find(item => item.exam === subject && item.year === year) 
+                || pastList.find(item => item.exam === subject) 
+                || pastList[0];
+
       if (!exam) {
-        container.innerHTML = `<div style="padding:30px;text-align:center;color:var(--muted)">暂无该年份作文范文</div>`;
+        container.innerHTML = `<div style="padding:40px;text-align:center;color:var(--muted)">暂无 ${year} 年 ${subject} 真题范文</div>`;
         return;
       }
 
@@ -676,264 +640,248 @@ content = r'''/**
           <div class="writing-card-header">
             <div>
               <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-                <span class="writing-badge badge-primary">${subjectKey === 'english2' ? '英语二' : '英语一'} · ${exam.year} 年真题</span>
-                <h3 class="writing-card-title" style="margin:0">${exam.topic}</h3>
+                <span class="writing-badge badge-primary">${exam.exam} · ${exam.year} 年真题</span>
+                <h3 class="writing-card-title" style="margin:0">${exam.title}</h3>
+                ${exam.wordCount ? `<span style="font-size:0.86em;color:var(--muted)">（约 ${exam.wordCount} 词 · 齐头式排版）</span>` : ''}
               </div>
               <div style="font-size:0.88em;color:var(--muted);margin-top:6px">
-                🏷️ 核心主题词：<strong style="color:var(--accent)">${exam.themeKeyword}</strong> | 题型类别：${exam.chartType || '图表/图画'}
+                📌 题材形式：<strong style="color:var(--accent)">${exam.chartType || '图表/图画'}</strong>
               </div>
             </div>
-            <button class="writing-copy-btn" id="copyFullEssayBtn">
+            <button class="writing-copy-btn" id="copyFullExamEssayBtn">
               📋 一键复制整篇范文
             </button>
           </div>
 
           <div class="writing-card-body">
-            <!-- 套用逻辑说明 -->
-            <div style="background:rgba(37,99,235,0.05);border-radius:6px;padding:12px 16px;margin-bottom:18px;border:1px dashed var(--accent)">
-              <div style="font-size:0.92em;color:var(--ink);line-height:1.6">
-                <strong>💡 秘密哥套用思路：</strong>${exam.logic}
+            <!-- 套用逻辑策略 -->
+            ${exam.strategy ? `
+              <div style="background:rgba(37,99,235,0.05);border-radius:6px;padding:12px 16px;margin-bottom:18px;border:1px dashed var(--accent)">
+                <div style="font-size:0.92em;color:var(--ink);line-height:1.65">
+                  <strong>💡 秘密哥套用思路：</strong>${exam.strategy}
+                </div>
               </div>
-              ${exam.wordCount ? `<div style="font-size:0.85em;color:var(--muted);margin-top:4px">字数统计：约 ${exam.wordCount} 词（黄金字数区间，齐头式排版无涂改）</div>` : ''}
+            ` : ''}
+
+            <!-- 英文范文 -->
+            <div class="essay-english-box" style="margin-bottom:18px">
+              <strong style="color:var(--accent);display:block;margin-bottom:8px;font-size:0.95em">【标准三段式高分范文 (英文)】</strong>
+              <div style="font-size:0.96em;line-height:1.8;color:var(--ink);background:var(--surface);padding:14px 18px;border-radius:6px;border:1px solid var(--line);white-space:pre-wrap" id="examFullEn">${exam.enText || ''}</div>
             </div>
 
-            <!-- 三段范文及逐句解析 -->
-            <div class="essay-sections">
-              <!-- Paragraph 1 -->
-              <div class="essay-p-block" style="margin-bottom:18px">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
-                  <span class="writing-badge badge-primary">第一段：引出与描绘</span>
-                  <button class="writing-copy-btn copy-para-btn" data-content="${encodeURIComponent(exam.fullEnglish ? exam.fullEnglish.p1 : '')}" style="font-size:0.75em;padding:2px 8px">复制本段</button>
-                </div>
-                <div style="font-size:0.95em;line-height:1.75;color:var(--ink);background:var(--surface);padding:12px 14px;border-radius:6px;border:1px solid var(--line);margin-bottom:6px">
-                  ${exam.fullEnglish ? exam.fullEnglish.p1 : ''}
-                </div>
-                <div style="font-size:0.88em;color:var(--muted);line-height:1.6">
-                  <strong>译文：</strong>${exam.fullChinese ? exam.fullChinese.p1 : ''}
-                </div>
-                ${exam.breakdown && exam.breakdown.p1 ? `
-                  <div style="margin-top:6px;font-size:0.82em;color:var(--muted);background:var(--surface-hover, rgba(0,0,0,0.02));padding:8px 10px;border-radius:4px">
-                    ${exam.breakdown.p1.map((b, i) => `<div>第${i+1}句：${b.role} ➔ <span style="color:var(--accent)">${b.origin}</span></div>`).join('')}
-                  </div>
-                ` : ''}
-              </div>
-
-              <!-- Paragraph 2 -->
-              <div class="essay-p-block" style="margin-bottom:18px">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
-                  <span class="writing-badge badge-success">第二段：核心原因论述</span>
-                  <button class="writing-copy-btn copy-para-btn" data-content="${encodeURIComponent(exam.fullEnglish ? exam.fullEnglish.p2 : '')}" style="font-size:0.75em;padding:2px 8px">复制本段</button>
-                </div>
-                <div style="font-size:0.95em;line-height:1.75;color:var(--ink);background:var(--surface);padding:12px 14px;border-radius:6px;border:1px solid var(--line);margin-bottom:6px">
-                  ${exam.fullEnglish ? exam.fullEnglish.p2 : ''}
-                </div>
-                <div style="font-size:0.88em;color:var(--muted);line-height:1.6">
-                  <strong>译文：</strong>${exam.fullChinese ? exam.fullChinese.p2 : ''}
-                </div>
-                ${exam.breakdown && exam.breakdown.p2 ? `
-                  <div style="margin-top:6px;font-size:0.82em;color:var(--muted);background:var(--surface-hover, rgba(0,0,0,0.02));padding:8px 10px;border-radius:4px">
-                    ${exam.breakdown.p2.map((b, i) => `<div>第${i+1}句：${b.role} ➔ <span style="color:var(--success)">${b.origin}</span></div>`).join('')}
-                  </div>
-                ` : ''}
-              </div>
-
-              <!-- Paragraph 3 -->
-              <div class="essay-p-block" style="margin-bottom:14px">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
-                  <span class="writing-badge badge-warning">第三段：总结与建议</span>
-                  <button class="writing-copy-btn copy-para-btn" data-content="${encodeURIComponent(exam.fullEnglish ? exam.fullEnglish.p3 : '')}" style="font-size:0.75em;padding:2px 8px">复制本段</button>
-                </div>
-                <div style="font-size:0.95em;line-height:1.75;color:var(--ink);background:var(--surface);padding:12px 14px;border-radius:6px;border:1px solid var(--line);margin-bottom:6px">
-                  ${exam.fullEnglish ? exam.fullEnglish.p3 : ''}
-                </div>
-                <div style="font-size:0.88em;color:var(--muted);line-height:1.6">
-                  <strong>译文：</strong>${exam.fullChinese ? exam.fullChinese.p3 : ''}
-                </div>
-                ${exam.breakdown && exam.breakdown.p3 ? `
-                  <div style="margin-top:6px;font-size:0.82em;color:var(--muted);background:var(--surface-hover, rgba(0,0,0,0.02));padding:8px 10px;border-radius:4px">
-                    ${exam.breakdown.p3.map((b, i) => `<div>第${i+1}句：${b.role} ➔ <span style="color:var(--warning)">${b.origin}</span></div>`).join('')}
-                  </div>
-                ` : ''}
-              </div>
+            <!-- 中文对照 -->
+            <div class="essay-chinese-box" style="margin-bottom:18px">
+              <strong style="color:var(--muted);display:block;margin-bottom:8px;font-size:0.95em">【范文参考译文 (中文)】</strong>
+              <div style="font-size:0.92em;line-height:1.75;color:var(--muted);background:var(--surface);padding:14px 18px;border-radius:6px;border:1px solid var(--line);white-space:pre-wrap">${exam.cnText || ''}</div>
             </div>
+
+            <!-- 逐句来源与功能句组合 -->
+            ${exam.origins ? `
+              <div class="essay-origins-box" style="background:var(--card-bg, #f8fafc);border:1px solid var(--border);border-radius:6px;padding:12px 16px">
+                <strong style="color:var(--ink);display:block;margin-bottom:6px;font-size:0.9em">🔍 逐句来源与功能句拆解：</strong>
+                <div style="font-size:0.86em;color:var(--muted);line-height:1.7;white-space:pre-wrap">${exam.origins}</div>
+              </div>
+            ` : ''}
           </div>
         </div>
       `;
 
-      // Bind full essay copy
-      const copyAllBtn = container.querySelector('#copyFullEssayBtn');
-      if (copyAllBtn) {
-        copyAllBtn.addEventListener('click', () => {
-          const text = [
-            exam.fullEnglish ? exam.fullEnglish.p1 : '',
-            exam.fullEnglish ? exam.fullEnglish.p2 : '',
-            exam.fullEnglish ? exam.fullEnglish.p3 : ''
-          ].join('\n\n');
-          this.copyToClipboard(text, copyAllBtn);
+      // Copy full essay
+      const copyBtn = container.querySelector('#copyFullExamEssayBtn');
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          this.copyToClipboard(exam.enText || '', copyBtn);
         });
       }
-
-      // Bind paragraph copy
-      container.querySelectorAll('.copy-para-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-          const raw = decodeURIComponent(btn.dataset.content);
-          this.copyToClipboard(raw, btn);
-        });
-      });
     },
 
     bindPastExamEvents() {
       const panel = this.container.querySelector('#panelPastExams');
       if (!panel) return;
 
-      const e2Btn = panel.querySelector('#btnSubjectE2');
-      const e1Btn = panel.querySelector('#btnSubjectE1');
+      const e2Btn = panel.querySelector('#btnExamE2');
+      const e1Btn = panel.querySelector('#btnExamE1');
       const yearSelect = panel.querySelector('#examYearSelect');
+      const prevBtn = panel.querySelector('#btnPrevExamYear');
+      const nextBtn = panel.querySelector('#btnNextExamYear');
 
       if (e2Btn && e1Btn) {
         e2Btn.addEventListener('click', () => {
           e2Btn.classList.add('active');
           e1Btn.classList.remove('active');
-          this.selectedExamSubject = 'english2';
+          this.selectedExamSubject = '英语二';
           this.renderExamArticle();
         });
 
         e1Btn.addEventListener('click', () => {
           e1Btn.classList.add('active');
           e2Btn.classList.remove('active');
-          this.selectedExamSubject = 'english1';
+          this.selectedExamSubject = '英语一';
           this.renderExamArticle();
         });
       }
 
       if (yearSelect) {
         yearSelect.addEventListener('change', (e) => {
-          this.selectedExamYear = e.target.value;
+          this.selectedExamYear = parseInt(e.target.value, 10);
           this.renderExamArticle();
+        });
+      }
+
+      if (prevBtn && yearSelect) {
+        prevBtn.addEventListener('click', () => {
+          if (yearSelect.selectedIndex < yearSelect.options.length - 1) {
+            yearSelect.selectedIndex += 1;
+            this.selectedExamYear = parseInt(yearSelect.value, 10);
+            this.renderExamArticle();
+          }
+        });
+      }
+
+      if (nextBtn && yearSelect) {
+        nextBtn.addEventListener('click', () => {
+          if (yearSelect.selectedIndex > 0) {
+            yearSelect.selectedIndex -= 1;
+            this.selectedExamYear = parseInt(yearSelect.value, 10);
+            this.renderExamArticle();
+          }
         });
       }
     },
 
     /* ==========================================================================
-       Tab 5: 主题词与换词矩阵 (Theme Keywords & Traps)
+       Tab 5: 🏷️ 主题词与换词矩阵 (Theme Keywords & Traps)
        ========================================================================== */
     renderThemeKeywords() {
       const panel = this.container.querySelector('#panelThemeKeywords');
-      const data = (window.WritingData && window.WritingData.themeKeywords) || {};
+      const data = this.getData();
+      const themeData = data.themeKeywords || {};
+      const allYears = themeData.years || [];
       if (!panel) return;
 
-      const e2Keywords = data.english2 || [];
-      const e1Keywords = data.english1 || [];
-      const traps = data.avoidingTraps || [];
-
       panel.innerHTML = `
-        <!-- 避坑指南 -->
-        <div class="writing-card" style="border-left:4px solid #ef4444">
+        <div class="filter-bar" style="margin-bottom:20px">
+          <div class="filter-group">
+            <span style="font-weight:700;font-size:0.92em;color:var(--muted)">科目选择:</span>
+            <button class="filter-btn ${this.selectedKeywordSubject === '英语二' ? 'active' : ''}" id="btnKwE2">英语二 历年核心词矩阵</button>
+            <button class="filter-btn ${this.selectedKeywordSubject === '英语一' ? 'active' : ''}" id="btnKwE1">英语一 历年核心词矩阵</button>
+          </div>
+        </div>
+
+        <div id="keywordsListContainer"></div>
+      `;
+
+      this.renderKeywordsList();
+      this.bindThemeKeywordsEvents();
+    },
+
+    renderKeywordsList() {
+      const container = this.container.querySelector('#keywordsListContainer');
+      const data = this.getData();
+      const themeData = data.themeKeywords || {};
+      const allYears = themeData.years || [];
+      if (!container) return;
+
+      const subject = this.selectedKeywordSubject;
+      const list = allYears.filter(item => item.exam === subject).sort((a, b) => b.year - a.year);
+
+      container.innerHTML = list.map(item => `
+        <div class="writing-card" style="margin-bottom:20px;border-left:4px solid ${subject === '英语二' ? 'var(--accent)' : 'var(--success)'}">
           <div class="writing-card-header">
-            <div style="display:flex;align-items:center;gap:10px">
-              <span style="font-size:1.3em">⚠️</span>
-              <h3 class="writing-card-title" style="margin:0">秘密哥考场避坑指南与扣分警示</h3>
+            <div>
+              <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+                <span class="writing-badge ${subject === '英语二' ? 'badge-primary' : 'badge-success'}">${item.year} 年 ${item.exam}</span>
+                <h3 class="writing-card-title" style="margin:0">${item.topic}</h3>
+              </div>
             </div>
-            <span class="writing-badge badge-warning">阅卷现场实测避坑</span>
           </div>
           <div class="writing-card-body">
-            <div class="writing-grid-2">
-              ${traps.map(item => `
-                <div style="background:rgba(239,68,68,0.03);border:1px solid rgba(239,68,68,0.2);border-radius:6px;padding:12px 14px;margin-bottom:10px">
-                  <strong style="color:#ef4444;display:block;margin-bottom:4px">🚫 ${item.trap}</strong>
-                  <div style="font-size:0.9em;color:var(--ink);line-height:1.6">${item.solution}</div>
+            <!-- 3 选 1 核心主题词 -->
+            <div style="margin-bottom:14px">
+              <strong style="color:var(--ink);font-size:0.92em;display:block;margin-bottom:6px">🎯 核心主题词 3 选 1（防全篇单调重复）：</strong>
+              <div style="display:flex;gap:8px;flex-wrap:wrap">
+                ${(item.themeOptions || []).map(opt => `
+                  <code style="background:rgba(37,99,235,0.08);color:var(--accent);padding:4px 10px;border-radius:4px;font-size:0.92em;font-weight:700">${opt}</code>
+                `).join('')}
+              </div>
+            </div>
+
+            <!-- 角色替换词库表格 -->
+            ${Array.isArray(item.replacements) && item.replacements.length > 0 ? `
+              <div style="margin-bottom:14px">
+                <strong style="color:var(--muted);font-size:0.9em;display:block;margin-bottom:6px">📋 角色与语境替换矩阵表：</strong>
+                <div class="history-table-container">
+                  <table class="history-table" style="font-size:0.9em">
+                    <thead>
+                      <tr>
+                        <th style="width:90px">句子成分</th>
+                        <th style="width:180px">中文含义</th>
+                        <th>地道英文表达</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      ${item.replacements.map(r => `
+                        <tr>
+                          <td><span class="writing-badge badge-primary" style="font-size:0.75em">${r.role}</span></td>
+                          <td>${r.cn}</td>
+                          <td><code>${r.en}</code></td>
+                        </tr>
+                      `).join('')}
+                    </tbody>
+                  </table>
                 </div>
-              `).join('')}
-            </div>
-          </div>
-        </div>
+              </div>
+            ` : ''}
 
-        <!-- 英语二 历年主题词 3 选 1 替换矩阵 -->
-        <div class="writing-card">
-          <div class="writing-card-header">
-            <div style="display:flex;align-items:center;gap:10px">
-              <span style="font-size:1.3em">📊</span>
-              <h3 class="writing-card-title" style="margin:0">英语二 历年真题核心主题词矩阵 (2010—2026 全量 3 选 1 换词)</h3>
-            </div>
-            <span class="writing-badge badge-primary">防重复高频替换</span>
-          </div>
-          <div class="writing-card-body" style="padding:0">
-            <div class="history-table-container">
-              <table class="history-table">
-                <thead>
-                  <tr>
-                    <th style="width:70px">年份</th>
-                    <th style="width:140px">真题题目</th>
-                    <th>核心主题词 (首选)</th>
-                    <th>替换词 Option 1</th>
-                    <th>替换词 Option 2</th>
-                    <th style="width:180px">套用锦囊与换词建议</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${e2Keywords.map(k => `
-                    <tr>
-                      <td style="font-weight:700;color:var(--accent)">${k.year}</td>
-                      <td style="font-weight:600">${k.topic}</td>
-                      <td><code style="background:rgba(37,99,235,0.08);color:var(--accent);padding:2px 6px;border-radius:4px;font-weight:700">${k.keyword}</code></td>
-                      <td><code>${k.alt1 || '-'}</code></td>
-                      <td><code>${k.alt2 || '-'}</code></td>
-                      <td style="font-size:0.88em;color:var(--muted)">${k.tip || '保持首段与次段词汇丰富度，避免全篇单调重复'}</td>
-                    </tr>
-                  `).join('')}
-                </tbody>
-              </table>
+            <!-- 套用思路与避坑提醒 -->
+            <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:12px;margin-top:12px">
+              ${item.approach ? `
+                <div style="padding:10px 14px;background:rgba(37,99,235,0.04);border-radius:6px;border-left:3px solid var(--accent);font-size:0.88em;line-height:1.6">
+                  <strong>💡 套用思路：</strong>${item.approach}
+                </div>
+              ` : ''}
+              ${item.tips ? `
+                <div style="padding:10px 14px;background:rgba(239,68,68,0.04);border-radius:6px;border-left:3px solid #ef4444;font-size:0.88em;line-height:1.6">
+                  <strong>⚠️ 避坑提醒：</strong>${item.tips}
+                </div>
+              ` : ''}
             </div>
           </div>
         </div>
+      `).join('');
+    },
 
-        <!-- 英语一 历年主题词 3 选 1 替换矩阵 -->
-        <div class="writing-card">
-          <div class="writing-card-header">
-            <div style="display:flex;align-items:center;gap:10px">
-              <span style="font-size:1.3em">🎨</span>
-              <h3 class="writing-card-title" style="margin:0">英语一 历年图画真题核心主题词矩阵 (2010—2026 全量)</h3>
-            </div>
-            <span class="writing-badge badge-success">英语一经典图画</span>
-          </div>
-          <div class="writing-card-body" style="padding:0">
-            <div class="history-table-container">
-              <table class="history-table">
-                <thead>
-                  <tr>
-                    <th style="width:70px">年份</th>
-                    <th style="width:140px">真题题目</th>
-                    <th>核心主题词 (首选)</th>
-                    <th>替换词 Option 1</th>
-                    <th>替换词 Option 2</th>
-                    <th style="width:180px">套用锦囊与寓意阐述</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${e1Keywords.map(k => `
-                    <tr>
-                      <td style="font-weight:700;color:var(--success)">${k.year}</td>
-                      <td style="font-weight:600">${k.topic}</td>
-                      <td><code style="background:rgba(16,185,129,0.08);color:var(--success);padding:2px 6px;border-radius:4px;font-weight:700">${k.keyword}</code></td>
-                      <td><code>${k.alt1 || '-'}</code></td>
-                      <td><code>${k.alt2 || '-'}</code></td>
-                      <td style="font-size:0.88em;color:var(--muted)">${k.tip || '图画寓意深远，需紧扣首段象征意义'}</td>
-                    </tr>
-                  `).join('')}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      `;
+    bindThemeKeywordsEvents() {
+      const panel = this.container.querySelector('#panelThemeKeywords');
+      if (!panel) return;
+
+      const e2Btn = panel.querySelector('#btnKwE2');
+      const e1Btn = panel.querySelector('#btnKwE1');
+
+      if (e2Btn && e1Btn) {
+        e2Btn.addEventListener('click', () => {
+          e2Btn.classList.add('active');
+          e1Btn.classList.remove('active');
+          this.selectedKeywordSubject = '英语二';
+          this.renderKeywordsList();
+        });
+
+        e1Btn.addEventListener('click', () => {
+          e1Btn.classList.add('active');
+          e2Btn.classList.remove('active');
+          this.selectedKeywordSubject = '英语一';
+          this.renderKeywordsList();
+        });
+      }
     },
 
     /* ==========================================================================
-       Tab 6: 原始资料与下载 (Materials & PDF Previews)
+       Tab 6: 📥 原始资料与下载 (Materials & PDF Previews)
        ========================================================================== */
     renderMaterials() {
       const panel = this.container.querySelector('#panelMaterials');
-      const data = (window.WritingData && window.WritingData.materialsDownload) || [];
+      const data = this.getData();
+      const list = data.materialsDownload || [];
       if (!panel) return;
 
       panel.innerHTML = `
@@ -943,7 +891,7 @@ content = r'''/**
               <span style="font-size:1.3em">📦</span>
               <div>
                 <h3 class="writing-card-title" style="margin:0">原版写作高分资料电子书与 PDF 下载库</h3>
-                <div style="font-size:0.85em;color:var(--muted);margin-top:2px">
+                <div style="font-size:0.86em;color:var(--muted);margin-top:3px">
                   系统已将 5 份核心高价值写作资料原件完整归档，支持直接在浏览器中打开预览或一键下载离线备考
                 </div>
               </div>
@@ -952,7 +900,7 @@ content = r'''/**
           </div>
           <div class="writing-card-body">
             <div class="pdf-grid">
-              ${data.map(item => `
+              ${list.map(item => `
                 <div class="pdf-card">
                   <div style="display:flex;gap:14px;align-items:flex-start">
                     <span class="pdf-icon">📄</span>
@@ -960,11 +908,11 @@ content = r'''/**
                       <div class="pdf-title">${item.title}</div>
                       <div class="pdf-meta">
                         <span>大小: ${item.size}</span>
-                        <span>页数: ${item.pages}</span>
-                        <span class="writing-badge badge-primary" style="font-size:0.75em;padding:1px 6px">${item.badge}</span>
+                        <span>页数: ${item.pages} 页</span>
+                        <span class="writing-badge badge-primary" style="font-size:0.75em;padding:1px 6px">PDF 原版</span>
                       </div>
-                      <div style="font-size:0.88em;color:var(--muted);line-height:1.5;margin-bottom:12px">
-                        ${item.description}
+                      <div style="font-size:0.88em;color:var(--muted);line-height:1.55;margin-bottom:14px">
+                        ${item.desc || ''}
                       </div>
                       <div class="pdf-actions">
                         <a href="${item.path}" target="_blank" rel="noopener noreferrer" class="pdf-btn pdf-btn-preview">
@@ -1035,5 +983,5 @@ content = r'''/**
 '''
 
 with open('js/writing.js', 'w', encoding='utf-8') as f:
-    f.write(content.strip() + '\n')
-print(f"js/writing.js created successfully, length: {len(content)}")
+    f.write(js_code.strip() + '\n')
+print(f"js/writing.js successfully generated, size: {len(js_code)}")

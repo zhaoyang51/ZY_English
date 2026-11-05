@@ -6,7 +6,7 @@
  * - Revealed State: Syllabified word (nas·ty) + green check badge, phonetic pill,
  *   dotted-underlined Chinese definitions, Example Sentence Card, Collocations & Relations Card,
  *   and 2 action buttons: [继续 (green)], [记错了 (red)]
- * - Top Bar: Back (<), Progress count (9/10), Undo (↩), Star (☆), Mastered (熟), Spelling (abc), Settings (···)
+ * - Top Bar: Back (<), Progress count (9/10), Undo (↩), Star (☆), Mastered (熟), Settings (···)
  * - Frosted Settings Sheet: Dictionary Switcher, Year/Text Filter, Review Status, Sort Strategy, Search & Stats
  */
 (function() {
@@ -92,7 +92,7 @@
     isFlipped: false,
     studyMode: 'en-zh',
     autoAudio: false,
-    spellingMode: false,
+    autoAudioMeaning: false,
     filterDrawerOpen: false,
     activeRelationTab: 'phrases', // 'phrases' | 'synonyms' | 'mindchain' | 'lookalikes'
     historyStack: [],
@@ -150,7 +150,7 @@
         if (saved) {
           const cfg = JSON.parse(saved);
           if (typeof cfg.autoAudio === 'boolean') appState.autoAudio = cfg.autoAudio;
-          if (typeof cfg.spellingMode === 'boolean') appState.spellingMode = cfg.spellingMode;
+          if (typeof cfg.autoAudioMeaning === 'boolean') appState.autoAudioMeaning = cfg.autoAudioMeaning;
         }
       } catch (e) {}
 
@@ -173,7 +173,7 @@
       try {
         const cfg = {
           autoAudio: appState.autoAudio,
-          spellingMode: appState.spellingMode
+          autoAudioMeaning: appState.autoAudioMeaning
         };
         localStorage.setItem(SETTINGS_KEY, JSON.stringify(cfg));
       } catch (e) {}
@@ -368,7 +368,6 @@
               <button class="momo-icon-btn" id="vocabMomoBtnUndo" title="撤回评分 (快捷键 Z)">↩</button>
               <button class="momo-icon-btn momo-star-btn" id="vocabMomoBtnStar" title="收藏至生词本 (快捷键 S)">☆</button>
               <button class="momo-icon-btn momo-mastered-btn" id="vocabMomoBtnMastered" title="标为熟词（不再安排背诵）">熟</button>
-              <button class="momo-icon-btn momo-spelling-btn" id="vocabMomoBtnSpelling" title="切换拼写测试模式"><span class="momo-abc-text">abc</span></button>
               <button class="momo-icon-btn momo-more-btn" id="vocabMomoBtnMore" title="切换词库与背诵设置">···</button>
             </div>
           </header>
@@ -384,14 +383,14 @@
                 <span class="momo-freq-badge" id="vocabMomoFreqBadge" style="display:none">考频 1次</span>
               </div>
 
-              <!-- Spelling Mode Input Line -->
-              <div class="momo-spelling-line" id="vocabMomoSpellingBox" style="display:none">
-                <input type="text" class="momo-spelling-input" id="vocabMomoSpellingInput" placeholder="输入单词拼写并回车..." autocomplete="off" spellcheck="false">
-              </div>
-
-              <!-- Phonetic Badge (UK / US) -->
-              <div class="momo-phonetic-pill" id="vocabMomoPhoneticPill" title="点击播放真实发音 (快捷键 A)">
-                <span id="vocabMomoPhoneticText">英 🔊 /'nɑ:sti/</span>
+              <!-- Audio & Phonetic Pills (UK/US + Chinese Meaning) -->
+              <div class="momo-audio-pills-row">
+                <div class="momo-phonetic-pill" id="vocabMomoPhoneticPill" title="点击播放英文真人生词发音 (快捷键 A)">
+                  <span id="vocabMomoPhoneticText">英 🔊 /'nɑ:sti/</span>
+                </div>
+                <button type="button" class="momo-meaning-audio-pill" id="vocabMomoMeaningAudioPill" title="点击朗读中文释义" style="display:none">
+                  <span>📢 读释义</span>
+                </button>
               </div>
 
               <!-- Unrevealed Skeletons (Covered Definition Placeholder Bars) -->
@@ -552,7 +551,13 @@
               <button class="vocab-action-pill-btn" id="vocabToggleAudioBtn">
                 <span>🔊</span> 自动发音: <span>关</span>
               </button>
+              <button class="vocab-action-pill-btn" id="vocabToggleAudioMeaningBtn">
+                <span>📢</span> 连读释义: <span>关</span>
+              </button>
               <button id="vocabBtnResetFilter" class="vocab-action-pill-btn" style="color:#ef4444">🔄 重置当前词库进度</button>
+            </div>
+            <div style="margin-top:12px;padding:8px 12px;background:rgba(217,119,6,0.08);border:1px solid rgba(217,119,6,0.2);border-radius:8px;font-size:12px;color:#b45309;line-height:1.5">
+              💡 手机发音提示：若无声音，请检查手机是否开启侧边静音开关（iPhone静音键），并将媒体音量调大。
             </div>
             <div style="margin-top:10px;font-size:12px;color:var(--momo-text-muted);text-align:center">
               当前检索到 <strong id="vocabCurrentListCount">0</strong> 个词汇
@@ -672,10 +677,9 @@
         momoProgress: document.getElementById('vocabMomoProgress'),
         momoPhoneticPill: document.getElementById('vocabMomoPhoneticPill'),
         momoPhoneticText: document.getElementById('vocabMomoPhoneticText'),
+        momoMeaningAudioPill: document.getElementById('vocabMomoMeaningAudioPill'),
         momoSkeletons: document.getElementById('vocabMomoSkeletons'),
         momoDefinitions: document.getElementById('vocabMomoDefinitions'),
-        momoSpellingBox: document.getElementById('vocabMomoSpellingBox'),
-        momoSpellingInput: document.getElementById('vocabMomoSpellingInput'),
 
         cardSentence: document.getElementById('vocabMomoCardSentence'),
         sentenceEn: document.getElementById('vocabMomoSentenceEn'),
@@ -707,7 +711,6 @@
         btnUndo: document.getElementById('vocabMomoBtnUndo'),
         btnStar: document.getElementById('vocabMomoBtnStar'),
         btnMastered: document.getElementById('vocabMomoBtnMastered'),
-        btnSpelling: document.getElementById('vocabMomoBtnSpelling'),
         btnMore: document.getElementById('vocabMomoBtnMore'),
 
         btnGood: document.getElementById('vocabMomoBtnGood'),
@@ -728,6 +731,7 @@
         filterLabel1: document.getElementById('vocabFilterLabel1'),
         filterLabel2: document.getElementById('vocabFilterLabel2'),
         btnToggleAudio: document.getElementById('vocabToggleAudioBtn'),
+        btnToggleAudioMeaning: document.getElementById('vocabToggleAudioMeaningBtn'),
         btnResetFilter: document.getElementById('vocabBtnResetFilter'),
         currentListCount: document.getElementById('vocabCurrentListCount'),
 
@@ -886,10 +890,7 @@
       // 4. Top bar: Mastered
       if (els.btnMastered) els.btnMastered.onclick = () => this.markMastered();
 
-      // 5. Top bar: Spelling Mode
-      if (els.btnSpelling) els.btnSpelling.onclick = () => this.toggleSpellingMode();
-
-      // 6. Top bar: More Menu Sheet
+      // 5. Top bar: More Menu Sheet
       if (els.btnMore) els.btnMore.onclick = () => this.toggleSettingsSheet(true);
       if (els.sheetClose) els.sheetClose.onclick = () => this.toggleSettingsSheet(false);
       if (els.sheetModal) {
@@ -898,7 +899,7 @@
         };
       }
 
-      // 7. Word & Skeletons Click: Flip to reveal
+      // 6. Word & Skeletons Click: Flip to reveal
       if (els.momoSkeletons) els.momoSkeletons.onclick = () => this.flipCard(true);
       if (els.momoWord) els.momoWord.onclick = () => {
         if (!appState.isFlipped) this.flipCard(true);
@@ -906,8 +907,14 @@
       };
       if (els.faceFront) els.faceFront.onclick = () => this.flipCard(true);
 
-      // 8. Audio Buttons
+      // 7. Audio Buttons
       if (els.momoPhoneticPill) els.momoPhoneticPill.onclick = () => this.playAudio();
+      if (els.momoMeaningAudioPill) {
+        els.momoMeaningAudioPill.onclick = (e) => {
+          if (e && e.stopPropagation) e.stopPropagation();
+          this.speakCurrentMeaning();
+        };
+      }
       if (els.btnAudioFront) els.btnAudioFront.onclick = () => this.playAudio();
       if (els.btnAudioBack) els.btnAudioBack.onclick = () => this.playAudio();
       if (els.btnSpeakSentence) {
@@ -1039,7 +1046,17 @@
           appState.autoAudio = !appState.autoAudio;
           this.saveSettings();
           this.updateAudioButtonState();
-          this.showToast(appState.autoAudio ? '🔊 自动发音已开启' : '🔈 自动发音已关闭');
+          this.showToast(appState.autoAudio ? '🔊 英文发音已开启' : '🔈 英文发音已关闭');
+        };
+      }
+
+      // Auto Audio Meaning Toggle
+      if (els.btnToggleAudioMeaning) {
+        els.btnToggleAudioMeaning.onclick = () => {
+          appState.autoAudioMeaning = !appState.autoAudioMeaning;
+          this.saveSettings();
+          this.updateAudioButtonState();
+          this.showToast(appState.autoAudioMeaning ? '📢 连读释义已开启' : '🔈 连读释义已关闭');
         };
       }
 
@@ -1057,21 +1074,11 @@
         };
       }
 
-      // Spelling Input Event
-      if (els.momoSpellingInput) {
-        els.momoSpellingInput.onkeydown = (e) => {
-          if (e.key === 'Enter') {
-            this.checkSpellingInput();
-          }
-        };
-      }
-
       // Global Keyboard Shortcuts
       window.addEventListener('keydown', (e) => {
         if (!document.body.classList.contains('mode-vocab')) return;
         const tag = (e.target.tagName || '').toLowerCase();
         if (tag === 'input' || tag === 'textarea' || tag === 'select') {
-          if (e.target === els.momoSpellingInput) return;
           return;
         }
 
@@ -1121,27 +1128,13 @@
     updateAudioButtonState() {
       if (els.btnToggleAudio) {
         els.btnToggleAudio.classList.toggle('active', appState.autoAudio);
-        els.btnToggleAudio.querySelector('span:last-child').textContent = appState.autoAudio ? '开' : '关';
+        const stateSpan = els.btnToggleAudio.querySelector('span:last-child');
+        if (stateSpan) stateSpan.textContent = appState.autoAudio ? '开' : '关';
       }
-    },
-
-    toggleSpellingMode() {
-      appState.spellingMode = !appState.spellingMode;
-      this.saveSettings();
-      this.showToast(appState.spellingMode ? '📝 拼写默写模式已开启' : '📖 释义闪卡模式已恢复');
-      this.renderCurrentCard();
-    },
-
-    checkSpellingInput() {
-      if (!els.momoSpellingInput || appState.currentIndex >= appState.currentList.length) return;
-      const target = (appState.currentList[appState.currentIndex].word || '').trim().toLowerCase();
-      const input = els.momoSpellingInput.value.trim().toLowerCase();
-      if (input === target) {
-        this.showToast('🎉 拼写正确！');
-        this.gradeWord('good');
-      } else {
-        this.showToast(`❌ 正确拼写为: ${target}`);
-        this.gradeWord('forgot');
+      if (els.btnToggleAudioMeaning) {
+        els.btnToggleAudioMeaning.classList.toggle('active', appState.autoAudioMeaning);
+        const stateSpan = els.btnToggleAudioMeaning.querySelector('span:last-child');
+        if (stateSpan) stateSpan.textContent = appState.autoAudioMeaning ? '开' : '关';
       }
     },
 
@@ -1799,21 +1792,13 @@
       }
 
       // Word Title (Do not split syllables per user request)
-      const syllabified = formatWordWithSyllables(word);
-      if (appState.spellingMode && !appState.isFlipped) {
-        if (els.momoWord) els.momoWord.textContent = word.replace(/[a-zA-Z]/g, '_ ');
-        if (els.momoSpellingBox) {
-          els.momoSpellingBox.style.display = 'flex';
-          if (els.momoSpellingInput) {
-            els.momoSpellingInput.value = '';
-            setTimeout(() => els.momoSpellingInput.focus(), 100);
-          }
-        }
-      } else {
-        if (els.momoSpellingBox) els.momoSpellingBox.style.display = 'none';
-        if (els.momoWord) {
-          els.momoWord.textContent = word;
-        }
+      if (els.momoWord) {
+        els.momoWord.textContent = word;
+      }
+
+      // Chinese Meaning Audio Pill (Visible when flipped/revealed)
+      if (els.momoMeaningAudioPill) {
+        els.momoMeaningAudioPill.style.display = appState.isFlipped ? 'inline-flex' : 'none';
       }
 
       // Personal Note indicator update
@@ -1872,6 +1857,7 @@
                   ${posHtml}
                   <span class="momo-acc-def">${this.escapeHtml(use.def)}</span>
                   ${freqBadge}
+                  <button type="button" class="momo-acc-speak-zh-icon" data-speak-zh="${encodeURIComponent(use.def)}" title="朗读该义项中文释义">📢</button>
                   ${hasSentence ? '<span class="momo-acc-chevron">▾</span>' : ''}
                 </div>
                 ${hasSentence ? `
@@ -1882,6 +1868,7 @@
                       ${use.sentenceZh ? `<div class="momo-acc-zh">${this.escapeHtml(use.sentenceZh)}</div>` : ''}
                       <div class="momo-acc-actions">
                         <button type="button" class="momo-acc-btn-speak" data-speak-en="${encodeURIComponent(use.sentence)}" title="朗读该义项真题例句">🔊 听例句</button>
+                        <button type="button" class="momo-acc-btn-speak-meaning" data-speak-zh="${encodeURIComponent(use.def)}" title="朗读该义项中文释义">📢 读释义</button>
                       </div>
                     </div>
                   </div>
@@ -2030,6 +2017,17 @@
           if (e && e.stopPropagation) e.stopPropagation();
           const txt = decodeURIComponent(btn.getAttribute('data-speak-en') || '');
           this.speakSentence(txt);
+        };
+      }
+
+      // Speak Chinese meaning buttons in accordion
+      const speakZhBtns = acc.querySelectorAll('[data-speak-zh]');
+      for (let i = 0; i < speakZhBtns.length; i++) {
+        const btn = speakZhBtns[i];
+        btn.onclick = (e) => {
+          if (e && e.stopPropagation) e.stopPropagation();
+          const txt = decodeURIComponent(btn.getAttribute('data-speak-zh') || '');
+          this.speakMeaning(txt);
         };
       }
     },
@@ -2183,6 +2181,11 @@
       appState.isFlipped = !!showBack;
       if (els.cardFlipper) els.cardFlipper.classList.toggle('is-flipped', appState.isFlipped);
       this.renderCurrentCard();
+
+      // If user flipped to reveal and autoAudioMeaning is enabled, automatically speak Chinese meaning
+      if (appState.isFlipped && appState.autoAudioMeaning && !appState.autoAudio) {
+        setTimeout(() => this.speakCurrentMeaning(), 120);
+      }
     },
 
     gradeWord(grade) {
@@ -2657,44 +2660,187 @@
       this.currentHomeWord = w;
     },
 
-    speakWord(word) {
-      if (!word || !('speechSynthesis' in window)) return;
-      window.speechSynthesis.cancel();
-      const utter = new SpeechSynthesisUtterance(word);
-      utter.lang = 'en-US';
-      utter.rate = 0.92;
-      window.speechSynthesis.speak(utter);
+    formatMeaningForSpeech(rawDef) {
+      if (!rawDef) return '';
+      return String(rawDef)
+        .replace(/<[^>]+>/g, '')
+        .replace(/\[[^\]]*\]/g, '')
+        .replace(/\b(n|v|vt|vi|adj|adv|prep|conj|pron|art|num|int)\.\s*/gi, (m, p) => {
+          const map = {
+            n: '名词', v: '动词', vt: '及物动词', vi: '不及物动词',
+            adj: '形容词', adv: '副词', prep: '介词', conj: '连词', pron: '代词'
+          };
+          return (map[p.toLowerCase()] || p) + '，';
+        })
+        .replace(/[；;]/g, '，')
+        .replace(/\s+/g, ' ')
+        .trim();
     },
 
-    playAudio() {
-      if (appState.currentIndex >= appState.currentList.length) return;
-      const word = appState.currentList[appState.currentIndex].word;
-      if (!word || !('speechSynthesis' in window)) return;
-
-      window.speechSynthesis.cancel();
-      const utter = new SpeechSynthesisUtterance(word);
-      utter.lang = 'en-US';
-      utter.rate = 0.92;
+    playWordAudio(word, onEnd) {
+      if (!word) {
+        if (typeof onEnd === 'function') onEnd();
+        return;
+      }
+      const cleanWord = String(word).trim().replace(/[^a-zA-Z\s\-']/g, '');
+      if (!cleanWord) {
+        if (typeof onEnd === 'function') onEnd();
+        return;
+      }
 
       if (els.momoPhoneticPill) els.momoPhoneticPill.classList.add('is-playing');
-      utter.onend = () => {
+
+      let ended = false;
+      const handleEnd = () => {
+        if (ended) return;
+        ended = true;
         if (els.momoPhoneticPill) els.momoPhoneticPill.classList.remove('is-playing');
+        if (typeof onEnd === 'function') onEnd();
       };
-      utter.onerror = () => {
-        if (els.momoPhoneticPill) els.momoPhoneticPill.classList.remove('is-playing');
-      };
-      window.speechSynthesis.speak(utter);
+
+      try {
+        if (this._currentAudio) {
+          try {
+            this._currentAudio.pause();
+            this._currentAudio.currentTime = 0;
+          } catch (e) {}
+          this._currentAudio = null;
+        }
+
+        // Online natural human pronunciation from Youdao audio API (type=2 US / type=1 UK)
+        // Works on 100% of mobile browsers without requiring Google TTS packages
+        const audioUrl = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanWord)}&type=2`;
+        const audio = new Audio(audioUrl);
+        this._currentAudio = audio;
+
+        audio.onended = handleEnd;
+        audio.onerror = () => {
+          this.speakText(cleanWord, 'en-US', handleEnd);
+        };
+
+        const playPromise = audio.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {
+            this.speakText(cleanWord, 'en-US', handleEnd);
+          });
+        }
+      } catch (err) {
+        this.speakText(cleanWord, 'en-US', handleEnd);
+      }
+    },
+
+    speakMeaning(text, onEnd) {
+      const clean = this.formatMeaningForSpeech(text);
+      if (!clean) {
+        if (typeof onEnd === 'function') onEnd();
+        return;
+      }
+
+      if (els.momoMeaningAudioPill) els.momoMeaningAudioPill.classList.add('is-playing');
+      this.speakText(clean, 'zh-CN', () => {
+        if (els.momoMeaningAudioPill) els.momoMeaningAudioPill.classList.remove('is-playing');
+        if (typeof onEnd === 'function') onEnd();
+      });
+    },
+
+    speakCurrentMeaning(onEnd) {
+      if (appState.currentIndex >= appState.currentList.length) {
+        if (typeof onEnd === 'function') onEnd();
+        return;
+      }
+      const item = appState.currentList[appState.currentIndex];
+      let text = '';
+      if (item.uses && Array.isArray(item.uses) && item.uses.length > 0) {
+        text = item.uses.map(u => `${u.pos || ''} ${u.def || ''}`).join('；');
+      } else if (item.def) {
+        text = item.def;
+      } else if (item.meaning) {
+        text = item.meaning;
+      }
+
+      if (text) {
+        this.speakMeaning(text, onEnd);
+      } else if (typeof onEnd === 'function') {
+        onEnd();
+      }
+    },
+
+    speakSentence(text, onEnd) {
+      if (!text) {
+        if (typeof onEnd === 'function') onEnd();
+        return;
+      }
+      const clean = String(text).replace(/<[^>]+>/g, '').trim();
+      this.speakText(clean, 'en-US', onEnd);
     },
 
     speakCurrentSentence() {
       if (!els.sentenceEn) return;
       const text = els.sentenceEn.textContent;
-      if (!text || !('speechSynthesis' in window)) return;
-      window.speechSynthesis.cancel();
-      const utter = new SpeechSynthesisUtterance(text);
-      utter.lang = 'en-US';
-      utter.rate = 0.95;
-      window.speechSynthesis.speak(utter);
+      if (!text) return;
+      this.speakSentence(text);
+    },
+
+    speakWord(word) {
+      this.playWordAudio(word);
+    },
+
+    playAudio() {
+      if (appState.currentIndex >= appState.currentList.length) return;
+      const item = appState.currentList[appState.currentIndex];
+      const word = item.word || item.root;
+      if (!word) return;
+
+      this.playWordAudio(word, () => {
+        if (appState.autoAudioMeaning) {
+          setTimeout(() => this.speakCurrentMeaning(), 250);
+        }
+      });
+    },
+
+    speakText(text, lang, onEnd) {
+      if (!text || typeof window === 'undefined' || !('speechSynthesis' in window)) {
+        if (typeof onEnd === 'function') onEnd();
+        return;
+      }
+
+      try {
+        if (window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+        }
+        window.speechSynthesis.cancel();
+      } catch (e) {}
+
+      let ended = false;
+      const done = () => {
+        if (ended) return;
+        ended = true;
+        if (typeof onEnd === 'function') onEnd();
+      };
+
+      try {
+        const utter = new SpeechSynthesisUtterance(text);
+        utter.lang = lang || 'zh-CN';
+        utter.rate = (lang && lang.startsWith('zh')) ? 1.0 : 0.92;
+
+        const maxDuration = Math.max(2500, text.length * 350);
+        const timer = setTimeout(done, maxDuration);
+
+        utter.onend = () => {
+          clearTimeout(timer);
+          done();
+        };
+        utter.onerror = (e) => {
+          clearTimeout(timer);
+          console.warn('[TTS] Synthesis utterance error:', e);
+          done();
+        };
+
+        window.speechSynthesis.speak(utter);
+      } catch (err) {
+        console.warn('[TTS] Synthesis speak threw error:', err);
+        done();
+      }
     },
 
     showToast(msg) {

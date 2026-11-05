@@ -2,7 +2,7 @@
  * ZY_English Writing Master Data Center (考研英语高分写作宝典数据中心)
  * Automatically compiled and structured for 2010-2026 English I & English II
  */
-window.WRITING_DATA = {
+window.WRITING_DATA = window.WritingData = {
   guide: {
   "title": "考研英语作文模板使用全流程指南",
   "author": "秘密哥 / 苦瓜学长",
@@ -3702,3 +3702,8 @@ window.WRITING_DATA = {
   }
 ]
 };
+
+window.WritingData = window.WRITING_DATA;
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = window.WRITING_DATA;
+}

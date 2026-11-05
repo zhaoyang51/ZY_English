@@ -566,6 +566,10 @@
         vocab.style.display = 'none';
       }
       if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (writing) {
+        writing.inert = true;
+        writing.style.display = 'none';
+      }
       if (reviewSubmodeGroup) reviewSubmodeGroup.style.display = 'none';
       if (submodeContainer) submodeContainer.style.display = 'none';
       if (mobileTabsBar) mobileTabsBar.style.display = 'none';
@@ -612,6 +616,7 @@
       const status = document.getElementById('dataLoadStatus');
       const layout = document.getElementById('mainLayout');
       const vocab = document.getElementById('vocabSection');
+      const writing = document.getElementById('writingSection');
       const yuqueContainer = document.getElementById('yuqueContainer');
       const reviewSubmodeGroup = document.getElementById('reviewSubmodeGroup');
       const submodeContainer = document.getElementById('submodeContainer');
@@ -625,6 +630,10 @@
         layout.style.display = 'none';
       }
       if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (writing) {
+        writing.inert = true;
+        writing.style.display = 'none';
+      }
       if (reviewSubmodeGroup) reviewSubmodeGroup.style.display = 'none';
       if (submodeContainer) submodeContainer.style.display = 'none';
       if (mobileTabsBar) mobileTabsBar.style.display = 'none';
@@ -761,6 +770,10 @@
     // Special section rendering delegation (完形, 新题型, 翻译)
     if (isSpecialSection) {
       if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (writing) {
+        writing.inert = true;
+        writing.style.display = 'none';
+      }
       if (reviewSubmodeGroup) reviewSubmodeGroup.style.display = 'none';
       if (submodeContainer) submodeContainer.style.display = 'none';
       if (mainLayout) mainLayout.style.display = '';
@@ -789,6 +802,10 @@
 
     if (AppState.mode === 'vocab') {
       if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (writing) {
+        writing.inert = true;
+        writing.style.display = 'none';
+      }
       if (reviewSubmodeGroup) reviewSubmodeGroup.style.display = 'none';
       if (submodeContainer) submodeContainer.style.display = 'none';
       if (mainLayout) mainLayout.style.display = 'none';
@@ -904,6 +921,10 @@
 
       // 复盘模式 1：网站现有的系统精细复盘模式
       if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (writing) {
+        writing.inert = true;
+        writing.style.display = 'none';
+      }
       if (mainLayout) mainLayout.style.display = '';
       if (mobileTabsBar) mobileTabsBar.style.display = '';
       if (floatingNavBar) floatingNavBar.style.display = 'flex';
@@ -1123,17 +1144,22 @@
     if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
     if (writingBtn) writingBtn.classList.toggle('active', AppState.mode === 'writing');
 
+    const textSelect = document.getElementById('textSelect');
+    const jumpSelect = document.getElementById('jumpSelect');
+    const stepNavGroup = prevBtn ? prevBtn.parentElement : null;
+
     if (AppState.mode === 'writing') {
-      if (prevBtn) prevBtn.disabled = true;
-      if (nextBtn) nextBtn.disabled = true;
-      if (floatPrevBtn) floatPrevBtn.disabled = true;
-      if (floatNextBtn) floatNextBtn.disabled = true;
+      if (textSelect) textSelect.style.display = 'none';
+      if (jumpSelect) jumpSelect.style.display = 'none';
+      if (stepNavGroup) stepNavGroup.style.display = 'none';
       if (floatingNavBar) floatingNavBar.style.display = 'none';
       if (toggleAllBtn) toggleAllBtn.style.display = 'none';
       if (submodeContainer) submodeContainer.style.display = 'none';
-      if (progressText) progressText.textContent = '✍️ 写作宝典';
-      if (floatProgressText) floatProgressText.textContent = '✍️ 写作宝典';
+      if (progressText) progressText.style.display = 'none';
+      if (floatProgressText) floatProgressText.style.display = 'none';
       return;
+    } else {
+      if (textSelect) textSelect.style.display = '';
     }
 
     if (isSpecial) {
@@ -1161,9 +1187,6 @@
     }
 
     const isYuqueActive = !isSpecial && !isVocab && (AppState.mode === 'practice' || (AppState.mode === 'review' && AppState.reviewSubmode === 'mode2'));
-
-    const jumpSelect = document.getElementById('jumpSelect');
-    const stepNavGroup = prevBtn ? prevBtn.parentElement : null;
 
     if (isYuqueActive) {
       if (prevBtn) prevBtn.disabled = true;
@@ -2957,6 +2980,10 @@
       const yuqueContainer = document.getElementById('yuqueContainer');
       const mainLayout = document.getElementById('mainLayout');
       if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (writing) {
+        writing.inert = true;
+        writing.style.display = 'none';
+      }
       if (mainLayout) mainLayout.style.display = '';
       window.ReaderModule.renderExamPaper(AppState.textData, 'examPaper');
       AppState.steps = window.QuizModule.buildReviewSteps(AppState.textData);
