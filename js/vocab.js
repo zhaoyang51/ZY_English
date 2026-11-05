@@ -92,7 +92,6 @@
     isFlipped: false,
     studyMode: 'en-zh',
     autoAudio: false,
-    autoAudioMeaning: false,
     filterDrawerOpen: false,
     activeRelationTab: 'phrases', // 'phrases' | 'synonyms' | 'mindchain' | 'lookalikes'
     historyStack: [],
@@ -150,7 +149,6 @@
         if (saved) {
           const cfg = JSON.parse(saved);
           if (typeof cfg.autoAudio === 'boolean') appState.autoAudio = cfg.autoAudio;
-          if (typeof cfg.autoAudioMeaning === 'boolean') appState.autoAudioMeaning = cfg.autoAudioMeaning;
         }
       } catch (e) {}
 
@@ -172,8 +170,7 @@
     saveSettings() {
       try {
         const cfg = {
-          autoAudio: appState.autoAudio,
-          autoAudioMeaning: appState.autoAudioMeaning
+          autoAudio: appState.autoAudio
         };
         localStorage.setItem(SETTINGS_KEY, JSON.stringify(cfg));
       } catch (e) {}
@@ -383,14 +380,9 @@
                 <span class="momo-freq-badge" id="vocabMomoFreqBadge" style="display:none">考频 1次</span>
               </div>
 
-              <!-- Audio & Phonetic Pills (UK/US + Chinese Meaning) -->
-              <div class="momo-audio-pills-row">
-                <div class="momo-phonetic-pill" id="vocabMomoPhoneticPill" title="点击播放英文真人生词发音 (快捷键 A)">
-                  <span id="vocabMomoPhoneticText">英 🔊 /'nɑ:sti/</span>
-                </div>
-                <button type="button" class="momo-meaning-audio-pill" id="vocabMomoMeaningAudioPill" title="点击朗读中文释义" style="display:none">
-                  <span>📢 读释义</span>
-                </button>
+              <!-- Phonetic Badge (UK / US) -->
+              <div class="momo-phonetic-pill" id="vocabMomoPhoneticPill" title="点击播放英文真人生词发音 (快捷键 A)">
+                <span id="vocabMomoPhoneticText">英 🔊 /'nɑ:sti/</span>
               </div>
 
               <!-- Unrevealed Skeletons (Covered Definition Placeholder Bars) -->
@@ -551,9 +543,6 @@
               <button class="vocab-action-pill-btn" id="vocabToggleAudioBtn">
                 <span>🔊</span> 自动发音: <span>关</span>
               </button>
-              <button class="vocab-action-pill-btn" id="vocabToggleAudioMeaningBtn">
-                <span>📢</span> 连读释义: <span>关</span>
-              </button>
               <button id="vocabBtnResetFilter" class="vocab-action-pill-btn" style="color:#ef4444">🔄 重置当前词库进度</button>
             </div>
             <div style="margin-top:12px;padding:8px 12px;background:rgba(217,119,6,0.08);border:1px solid rgba(217,119,6,0.2);border-radius:8px;font-size:12px;color:#b45309;line-height:1.5">
@@ -677,7 +666,6 @@
         momoProgress: document.getElementById('vocabMomoProgress'),
         momoPhoneticPill: document.getElementById('vocabMomoPhoneticPill'),
         momoPhoneticText: document.getElementById('vocabMomoPhoneticText'),
-        momoMeaningAudioPill: document.getElementById('vocabMomoMeaningAudioPill'),
         momoSkeletons: document.getElementById('vocabMomoSkeletons'),
         momoDefinitions: document.getElementById('vocabMomoDefinitions'),
 
@@ -731,7 +719,6 @@
         filterLabel1: document.getElementById('vocabFilterLabel1'),
         filterLabel2: document.getElementById('vocabFilterLabel2'),
         btnToggleAudio: document.getElementById('vocabToggleAudioBtn'),
-        btnToggleAudioMeaning: document.getElementById('vocabToggleAudioMeaningBtn'),
         btnResetFilter: document.getElementById('vocabBtnResetFilter'),
         currentListCount: document.getElementById('vocabCurrentListCount'),
 
@@ -909,12 +896,6 @@
 
       // 7. Audio Buttons
       if (els.momoPhoneticPill) els.momoPhoneticPill.onclick = () => this.playAudio();
-      if (els.momoMeaningAudioPill) {
-        els.momoMeaningAudioPill.onclick = (e) => {
-          if (e && e.stopPropagation) e.stopPropagation();
-          this.speakCurrentMeaning();
-        };
-      }
       if (els.btnAudioFront) els.btnAudioFront.onclick = () => this.playAudio();
       if (els.btnAudioBack) els.btnAudioBack.onclick = () => this.playAudio();
       if (els.btnSpeakSentence) {
@@ -1050,15 +1031,6 @@
         };
       }
 
-      // Auto Audio Meaning Toggle
-      if (els.btnToggleAudioMeaning) {
-        els.btnToggleAudioMeaning.onclick = () => {
-          appState.autoAudioMeaning = !appState.autoAudioMeaning;
-          this.saveSettings();
-          this.updateAudioButtonState();
-          this.showToast(appState.autoAudioMeaning ? '📢 连读释义已开启' : '🔈 连读释义已关闭');
-        };
-      }
 
       // Reset Filter Progress
       if (els.btnResetFilter) {
@@ -1130,11 +1102,6 @@
         els.btnToggleAudio.classList.toggle('active', appState.autoAudio);
         const stateSpan = els.btnToggleAudio.querySelector('span:last-child');
         if (stateSpan) stateSpan.textContent = appState.autoAudio ? '开' : '关';
-      }
-      if (els.btnToggleAudioMeaning) {
-        els.btnToggleAudioMeaning.classList.toggle('active', appState.autoAudioMeaning);
-        const stateSpan = els.btnToggleAudioMeaning.querySelector('span:last-child');
-        if (stateSpan) stateSpan.textContent = appState.autoAudioMeaning ? '开' : '关';
       }
     },
 
@@ -1796,10 +1763,6 @@
         els.momoWord.textContent = word;
       }
 
-      // Chinese Meaning Audio Pill (Visible when flipped/revealed)
-      if (els.momoMeaningAudioPill) {
-        els.momoMeaningAudioPill.style.display = appState.isFlipped ? 'inline-flex' : 'none';
-      }
 
       // Personal Note indicator update
       const userNotes = this.loadUserNotes();
@@ -1857,7 +1820,6 @@
                   ${posHtml}
                   <span class="momo-acc-def">${this.escapeHtml(use.def)}</span>
                   ${freqBadge}
-                  <button type="button" class="momo-acc-speak-zh-icon" data-speak-zh="${encodeURIComponent(use.def)}" title="朗读该义项中文释义">📢</button>
                   ${hasSentence ? '<span class="momo-acc-chevron">▾</span>' : ''}
                 </div>
                 ${hasSentence ? `
@@ -1868,7 +1830,6 @@
                       ${use.sentenceZh ? `<div class="momo-acc-zh">${this.escapeHtml(use.sentenceZh)}</div>` : ''}
                       <div class="momo-acc-actions">
                         <button type="button" class="momo-acc-btn-speak" data-speak-en="${encodeURIComponent(use.sentence)}" title="朗读该义项真题例句">🔊 听例句</button>
-                        <button type="button" class="momo-acc-btn-speak-meaning" data-speak-zh="${encodeURIComponent(use.def)}" title="朗读该义项中文释义">📢 读释义</button>
                       </div>
                     </div>
                   </div>
@@ -2020,16 +1981,6 @@
         };
       }
 
-      // Speak Chinese meaning buttons in accordion
-      const speakZhBtns = acc.querySelectorAll('[data-speak-zh]');
-      for (let i = 0; i < speakZhBtns.length; i++) {
-        const btn = speakZhBtns[i];
-        btn.onclick = (e) => {
-          if (e && e.stopPropagation) e.stopPropagation();
-          const txt = decodeURIComponent(btn.getAttribute('data-speak-zh') || '');
-          this.speakMeaning(txt);
-        };
-      }
     },
 
     renderRelations(word) {
@@ -2182,10 +2133,6 @@
       if (els.cardFlipper) els.cardFlipper.classList.toggle('is-flipped', appState.isFlipped);
       this.renderCurrentCard();
 
-      // If user flipped to reveal and autoAudioMeaning is enabled, automatically speak Chinese meaning
-      if (appState.isFlipped && appState.autoAudioMeaning && !appState.autoAudio) {
-        setTimeout(() => this.speakCurrentMeaning(), 120);
-      }
     },
 
     gradeWord(grade) {
@@ -2660,23 +2607,6 @@
       this.currentHomeWord = w;
     },
 
-    formatMeaningForSpeech(rawDef) {
-      if (!rawDef) return '';
-      return String(rawDef)
-        .replace(/<[^>]+>/g, '')
-        .replace(/\[[^\]]*\]/g, '')
-        .replace(/\b(n|v|vt|vi|adj|adv|prep|conj|pron|art|num|int)\.\s*/gi, (m, p) => {
-          const map = {
-            n: '名词', v: '动词', vt: '及物动词', vi: '不及物动词',
-            adj: '形容词', adv: '副词', prep: '介词', conj: '连词', pron: '代词'
-          };
-          return (map[p.toLowerCase()] || p) + '，';
-        })
-        .replace(/[；;]/g, '，')
-        .replace(/\s+/g, ' ')
-        .trim();
-    },
-
     playWordAudio(word, onEnd) {
       if (!word) {
         if (typeof onEnd === 'function') onEnd();
@@ -2729,42 +2659,6 @@
       }
     },
 
-    speakMeaning(text, onEnd) {
-      const clean = this.formatMeaningForSpeech(text);
-      if (!clean) {
-        if (typeof onEnd === 'function') onEnd();
-        return;
-      }
-
-      if (els.momoMeaningAudioPill) els.momoMeaningAudioPill.classList.add('is-playing');
-      this.speakText(clean, 'zh-CN', () => {
-        if (els.momoMeaningAudioPill) els.momoMeaningAudioPill.classList.remove('is-playing');
-        if (typeof onEnd === 'function') onEnd();
-      });
-    },
-
-    speakCurrentMeaning(onEnd) {
-      if (appState.currentIndex >= appState.currentList.length) {
-        if (typeof onEnd === 'function') onEnd();
-        return;
-      }
-      const item = appState.currentList[appState.currentIndex];
-      let text = '';
-      if (item.uses && Array.isArray(item.uses) && item.uses.length > 0) {
-        text = item.uses.map(u => `${u.pos || ''} ${u.def || ''}`).join('；');
-      } else if (item.def) {
-        text = item.def;
-      } else if (item.meaning) {
-        text = item.meaning;
-      }
-
-      if (text) {
-        this.speakMeaning(text, onEnd);
-      } else if (typeof onEnd === 'function') {
-        onEnd();
-      }
-    },
-
     speakSentence(text, onEnd) {
       if (!text) {
         if (typeof onEnd === 'function') onEnd();
@@ -2791,11 +2685,7 @@
       const word = item.word || item.root;
       if (!word) return;
 
-      this.playWordAudio(word, () => {
-        if (appState.autoAudioMeaning) {
-          setTimeout(() => this.speakCurrentMeaning(), 250);
-        }
-      });
+      this.playWordAudio(word);
     },
 
     speakText(text, lang, onEnd) {

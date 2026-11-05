@@ -59,8 +59,8 @@ test('MoMo Vocab UI: JS Engine generates syllables, phonetics, and matches both 
   assert.ok(vocabJs.includes('vocabMomoBtnMastered'), 'Must have 熟 Mastered button');
   assert.strictEqual(vocabJs.includes('vocabMomoBtnSpelling'), false, 'Must not have abc Spelling button (removed per user request)');
   assert.ok(vocabJs.includes('vocabMomoBtnMore'), 'Must have ··· More button');
-  assert.ok(vocabJs.includes('vocabMomoMeaningAudioPill'), 'Must have Chinese Meaning Audio pill');
-  assert.ok(vocabJs.includes('speakMeaning'), 'Must have speakMeaning function');
+  assert.strictEqual(vocabJs.includes('vocabMomoMeaningAudioPill'), false, 'Must not have Chinese Meaning Audio pill');
+  assert.strictEqual(vocabJs.includes('speakMeaning'), false, 'Must not have speakMeaning function');
   assert.ok(vocabJs.includes('playWordAudio'), 'Must have playWordAudio function');
 
   // 6. Settings Modal Sheet
