@@ -3818,38 +3818,30 @@
           scrollbar-color: rgba(0, 0, 0, 0.14) transparent !important;
         }
 
-        /* Resizable Split Layout */
-        .layout.has-resizer {
-          display: flex !important;
-          flex-direction: row !important;
-          gap: 0 !important;
+        /* Pure CSS Grid Split Columns (Zero layout disruption & zero MutationObserver) */
+        .layout {
           position: relative !important;
-          overflow: hidden !important;
-          width: 100% !important;
-          box-sizing: border-box !important;
         }
-        .layout.has-resizer > .panel:first-child,
-        .layout.has-resizer > #leftPanel,
-        .layout.has-resizer > .leftPanel {
-          flex: 0 0 var(--yuque-split-left, 52%) !important;
-          width: var(--yuque-split-left, 52%) !important;
-          min-width: 260px !important;
-          max-width: calc(100% - 260px) !important;
-          box-sizing: border-box !important;
+        .layout.single {
+          grid-template-columns: 1fr !important;
         }
-        .layout.has-resizer > .panel:last-child,
-        .layout.has-resizer > .rightPanel {
-          flex: 1 1 0% !important;
-          min-width: 260px !important;
-          box-sizing: border-box !important;
+        .layout.split {
+          grid-template-columns: minmax(280px, var(--yuque-split-left, 44%)) minmax(320px, 1fr) !important;
         }
+        .layout:not(.single):not(.split) {
+          grid-template-columns: minmax(280px, var(--yuque-split-left, 52%)) minmax(320px, 1fr) !important;
+        }
+
+        /* Floating Divider Resizer Bar */
         .split-resizer {
-          flex: 0 0 10px !important;
-          width: 10px !important;
-          margin: 0 -5px !important;
+          position: absolute !important;
+          top: 10px !important;
+          bottom: 10px !important;
+          left: calc(var(--yuque-split-left, 44%) + 5px) !important;
+          width: 14px !important;
+          margin-left: -7px !important;
           z-index: 50 !important;
           cursor: col-resize !important;
-          position: relative !important;
           display: flex !important;
           align-items: center !important;
           justify-content: center !important;
@@ -3858,6 +3850,10 @@
           touch-action: none !important;
           background: transparent !important;
         }
+        .layout.single .split-resizer,
+        .leftPanel[hidden] ~ .split-resizer {
+          display: none !important;
+        }
         .split-resizer::before {
           content: '' !important;
           position: absolute !important;
@@ -3865,21 +3861,21 @@
           bottom: 0 !important;
           left: 50% !important;
           transform: translateX(-50%) !important;
-          width: 1px !important;
-          background: #cbd5e1 !important;
+          width: 2px !important;
+          background: rgba(0, 0, 0, 0.12) !important;
           transition: background-color 0.15s ease, width 0.15s ease !important;
         }
         .split-resizer:hover::before,
         .split-resizer.is-dragging::before {
           background: #2563eb !important;
-          width: 2px !important;
+          width: 3px !important;
         }
         .split-resizer-handle {
           width: 4px !important;
           height: 38px !important;
           border-radius: 999px !important;
           background: #94a3b8 !important;
-          opacity: 0.4 !important;
+          opacity: 0.5 !important;
           transition: opacity 0.15s, background-color 0.15s, height 0.15s !important;
           pointer-events: none !important;
         }
@@ -3920,33 +3916,12 @@
       resizer.setAttribute('tabindex', '0');
       resizer.title = '拖动调整左右分栏比例，双击恢复默认';
       resizer.innerHTML = '<div class="split-resizer-handle"></div>';
-      layout.insertBefore(resizer, rightPanel);
+      layout.appendChild(resizer);
     }
 
     const isReviewMode = !!doc.getElementById('leftStage') || layout.classList.contains('split') || layout.classList.contains('single');
     const storageKey = isReviewMode ? 'KAOYAN_YUQUE_REVIEW_SPLIT_RATIO' : 'KAOYAN_YUQUE_PRACTICE_SPLIT_RATIO';
-    const defaultPct = isReviewMode ? 46 : 52;
-
-    const syncSplitMode = () => {
-      if (layout.classList.contains('single') || leftPanel.hasAttribute('hidden') || leftPanel.style.display === 'none') {
-        resizer.style.display = 'none';
-        layout.classList.remove('has-resizer');
-      } else {
-        resizer.style.display = 'flex';
-        layout.classList.add('has-resizer');
-      }
-    };
-
-    syncSplitMode();
-
-    if (win.MutationObserver && !layout.__hasSplitObserver) {
-      layout.__hasSplitObserver = true;
-      const observer = new win.MutationObserver(() => {
-        syncSplitMode();
-      });
-      observer.observe(layout, { attributes: true, attributeFilter: ['class'] });
-      observer.observe(leftPanel, { attributes: true, attributeFilter: ['hidden', 'style'] });
-    }
+    const defaultPct = isReviewMode ? 44 : 52;
 
     const savedPct = parseFloat(localStorage.getItem(storageKey) || defaultPct.toString());
     const initialRatio = (!isNaN(savedPct) && savedPct >= 20 && savedPct <= 80) ? savedPct : defaultPct;
@@ -3960,20 +3935,24 @@
       let containerWidth = 0;
 
       const onPointerDown = (e) => {
-        e.preventDefault();
+        if (e.preventDefault) e.preventDefault();
         isDragging = true;
-        resizer.classList.add('is-dragging');
-        doc.body.classList.add('is-split-resizing');
-        document.body.classList.add('is-split-resizing');
+        if (resizer.classList?.add) resizer.classList.add('is-dragging');
+        if (doc.body?.classList?.add) doc.body.classList.add('is-split-resizing');
+        if (document.body?.classList?.add) document.body.classList.add('is-split-resizing');
 
-        const rect = layout.getBoundingClientRect();
+        const rect = (typeof layout.getBoundingClientRect === 'function')
+          ? layout.getBoundingClientRect()
+          : { width: 1000, left: 0 };
         containerWidth = rect.width;
-        startX = e.clientX;
-        startWidth = leftPanel.getBoundingClientRect().width;
+        startX = e.clientX || 0;
+        startWidth = (typeof leftPanel.getBoundingClientRect === 'function')
+          ? leftPanel.getBoundingClientRect().width
+          : (containerWidth * initialRatio / 100);
 
         const onPointerMove = (moveEvt) => {
           if (!isDragging || containerWidth <= 0) return;
-          const currentX = moveEvt.clientX;
+          const currentX = moveEvt.clientX || 0;
           const deltaX = currentX - startX;
           let newWidth = startWidth + deltaX;
           const minPx = Math.max(260, containerWidth * 0.20);
@@ -3986,9 +3965,9 @@
         const onPointerUp = () => {
           if (!isDragging) return;
           isDragging = false;
-          resizer.classList.remove('is-dragging');
-          doc.body.classList.remove('is-split-resizing');
-          document.body.classList.remove('is-split-resizing');
+          if (resizer.classList?.remove) resizer.classList.remove('is-dragging');
+          if (doc.body?.classList?.remove) doc.body.classList.remove('is-split-resizing');
+          if (document.body?.classList?.remove) document.body.classList.remove('is-split-resizing');
 
           win.removeEventListener('pointermove', onPointerMove);
           win.removeEventListener('pointerup', onPointerUp);
@@ -3997,9 +3976,9 @@
           window.removeEventListener('pointerup', onPointerUp);
           window.removeEventListener('pointercancel', onPointerUp);
 
-          if (containerWidth > 0) {
+          if (containerWidth > 0 && typeof leftPanel.getBoundingClientRect === 'function') {
             const finalPct = ((leftPanel.getBoundingClientRect().width / containerWidth) * 100).toFixed(2);
-            localStorage.setItem(storageKey, finalPct);
+            try { localStorage.setItem(storageKey, finalPct); } catch(e) {}
           }
         };
 
@@ -4015,7 +3994,7 @@
 
       resizer.addEventListener('dblclick', () => {
         layout.style.setProperty('--yuque-split-left', `${defaultPct}%`);
-        localStorage.setItem(storageKey, defaultPct.toString());
+        try { localStorage.setItem(storageKey, defaultPct.toString()); } catch(e) {}
       });
     }
   }

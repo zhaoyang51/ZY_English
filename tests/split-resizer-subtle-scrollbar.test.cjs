@@ -59,4 +59,8 @@ test('Split Resizer & Scrollbar: js/app.js logic & iframe enhancement', () => {
   assert.ok(appJs.includes('yuqueSplitResizer'), 'iframe enhancer must create yuqueSplitResizer element');
   assert.ok(appJs.includes('KAOYAN_YUQUE_PRACTICE_SPLIT_RATIO'), 'practice mode must persist ratio in localStorage');
   assert.ok(appJs.includes('KAOYAN_YUQUE_REVIEW_SPLIT_RATIO'), 'review mode must persist ratio in localStorage');
+
+  // 4. Freeze prevention: Must NOT observe layout class mutations (causes infinite loop with Yuque internal render())
+  assert.ok(!appJs.includes('__hasSplitObserver'), 'iframe split resizer must not use MutationObserver to prevent UI lockup');
+  assert.ok(appJs.includes('layout.split'), 'pure CSS grid rules must style .layout.split without JavaScript layout thrashing');
 });
