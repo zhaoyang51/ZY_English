@@ -1703,6 +1703,43 @@ body.theme-dark .vocab-citation-zh {
   background: var(--momo-red);
 }
 
+.momo-swap-link-wrap {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.momo-quick-swap-link {
+  background: transparent;
+  border: 1px dashed rgba(0, 0, 0, 0.15);
+  color: var(--momo-text-muted);
+  font-size: 11.5px;
+  cursor: pointer;
+  padding: 3px 12px;
+  border-radius: 999px;
+  opacity: 0.65;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  user-select: none;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+}
+
+body.theme-dark .momo-quick-swap-link {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.momo-quick-swap-link:hover {
+  opacity: 1;
+  color: var(--momo-green);
+  border-color: var(--momo-green);
+  background: rgba(46, 125, 50, 0.06);
+}
+
+.momo-quick-swap-link:active {
+  transform: scale(0.95);
+}
+
 /* ==========================================================================
    5. Settings & Filters Drawer Modal Sheet
    ========================================================================== */

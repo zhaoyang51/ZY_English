@@ -92,6 +92,8 @@
     isFlipped: false,
     studyMode: 'en-zh',
     autoAudio: false,
+    unrevealedButtonOrder: 'good_hard_forgot', // 'good_hard_forgot' | 'forgot_hard_good'
+    revealedButtonOrder: 'wrong_continue',     // 'wrong_continue' | 'continue_wrong'
     filterDrawerOpen: false,
     activeRelationTab: 'phrases', // 'phrases' | 'synonyms' | 'mindchain' | 'lookalikes'
     historyStack: [],
@@ -125,6 +127,7 @@
         this.loadProgress();
         this.populateDropdowns();
         this.bindEvents();
+        this.applyButtonOrder();
         appState.isInitialized = true;
       }
 
@@ -149,6 +152,12 @@
         if (saved) {
           const cfg = JSON.parse(saved);
           if (typeof cfg.autoAudio === 'boolean') appState.autoAudio = cfg.autoAudio;
+          if (cfg.unrevealedButtonOrder === 'good_hard_forgot' || cfg.unrevealedButtonOrder === 'forgot_hard_good') {
+            appState.unrevealedButtonOrder = cfg.unrevealedButtonOrder;
+          }
+          if (cfg.revealedButtonOrder === 'wrong_continue' || cfg.revealedButtonOrder === 'continue_wrong') {
+            appState.revealedButtonOrder = cfg.revealedButtonOrder;
+          }
         }
       } catch (e) {}
 
@@ -170,7 +179,9 @@
     saveSettings() {
       try {
         const cfg = {
-          autoAudio: appState.autoAudio
+          autoAudio: appState.autoAudio,
+          unrevealedButtonOrder: appState.unrevealedButtonOrder,
+          revealedButtonOrder: appState.revealedButtonOrder
         };
         localStorage.setItem(SETTINGS_KEY, JSON.stringify(cfg));
       } catch (e) {}
@@ -440,8 +451,8 @@
                 瞬间想起词义，选「认识」<br>
                 思考后想起词义，选「模糊」
               </div>
-              <div class="momo-buttons-row">
-                <button class="momo-grade-btn" id="vocabMomoBtnGood" title="快捷键: 3 / → / 空格">
+              <div class="momo-buttons-row" id="vocabMomoUnrevealedRow">
+                <button class="momo-grade-btn" id="vocabMomoBtnGood" title="快捷键: 1 / ← / 空格">
                   <span class="momo-btn-text">认识</span>
                   <span class="momo-btn-bar bar-green"></span>
                 </button>
@@ -449,16 +460,19 @@
                   <span class="momo-btn-text">模糊</span>
                   <span class="momo-btn-bar bar-amber"></span>
                 </button>
-                <button class="momo-grade-btn" id="vocabMomoBtnForgot" title="快捷键: 1 / ←">
+                <button class="momo-grade-btn" id="vocabMomoBtnForgot" title="快捷键: 3 / →">
                   <span class="momo-btn-text">忘记了</span>
                   <span class="momo-btn-bar bar-red"></span>
                 </button>
+              </div>
+              <div class="momo-swap-link-wrap">
+                <button type="button" class="momo-quick-swap-link" id="vocabQuickSwapUnrevealed" title="切换「认识 / 模糊 / 忘记」左右按键顺序">⇄ 切换左右顺序</button>
               </div>
             </div>
 
             <!-- Revealed Phase (2 Action Buttons: Continue & Wrong) -->
             <div id="vocabMomoRevealedWrap" style="width:100%;display:none">
-              <div class="momo-buttons-row" style="justify-content:space-around">
+              <div class="momo-buttons-row" id="vocabMomoRevealedRow" style="justify-content:space-around">
                 <button class="momo-action-btn" id="vocabMomoBtnWrong" title="快捷键: 1 / ←">
                   <span class="momo-btn-text">记错了</span>
                   <span class="momo-btn-bar bar-red"></span>
@@ -467,6 +481,9 @@
                   <span class="momo-btn-text">继续</span>
                   <span class="momo-btn-bar bar-green"></span>
                 </button>
+              </div>
+              <div class="momo-swap-link-wrap">
+                <button type="button" class="momo-quick-swap-link" id="vocabQuickSwapRevealed" title="切换「记错了 / 继续」左右按键顺序">⇄ 切换左右顺序</button>
               </div>
             </div>
 
@@ -524,6 +541,20 @@
                   <option value="frequency">🔥 考频降序 (高频优先)</option>
                   <option value="urgency">🚨 遗忘紧迫优先</option>
                   <option value="random">🔀 随机打乱</option>
+                </select>
+              </div>
+              <div class="vocab-filter-item">
+                <label class="vocab-filter-label">评级按钮顺序 (未翻牌)</label>
+                <select id="vocabUnrevealedOrderSelect" class="vocab-select">
+                  <option value="good_hard_forgot">认识 · 模糊 · 忘记 (默认)</option>
+                  <option value="forgot_hard_good">忘记 · 模糊 · 认识</option>
+                </select>
+              </div>
+              <div class="vocab-filter-item">
+                <label class="vocab-filter-label">结算按钮顺序 (翻牌后)</label>
+                <select id="vocabRevealedOrderSelect" class="vocab-select">
+                  <option value="wrong_continue">记错了 · 继续 (默认)</option>
+                  <option value="continue_wrong">继续 · 记错了</option>
                 </select>
               </div>
             </div>
@@ -718,6 +749,12 @@
         sortSelect: document.getElementById('vocabSortSelect'),
         filterLabel1: document.getElementById('vocabFilterLabel1'),
         filterLabel2: document.getElementById('vocabFilterLabel2'),
+        unrevealedOrderSelect: document.getElementById('vocabUnrevealedOrderSelect'),
+        revealedOrderSelect: document.getElementById('vocabRevealedOrderSelect'),
+        quickSwapUnrevealed: document.getElementById('vocabQuickSwapUnrevealed'),
+        quickSwapRevealed: document.getElementById('vocabQuickSwapRevealed'),
+        unrevealedRow: document.getElementById('vocabMomoUnrevealedRow'),
+        revealedRow: document.getElementById('vocabMomoRevealedRow'),
         btnToggleAudio: document.getElementById('vocabToggleAudioBtn'),
         btnResetFilter: document.getElementById('vocabBtnResetFilter'),
         currentListCount: document.getElementById('vocabCurrentListCount'),
@@ -918,6 +955,49 @@
       if (els.btnContinue) els.btnContinue.onclick = () => this.goToNextCard();
       if (els.btnWrong) els.btnWrong.onclick = () => this.handleMarkWrong();
 
+      // Button Order Customization & Quick Swap
+      if (els.unrevealedOrderSelect) {
+        els.unrevealedOrderSelect.onchange = () => {
+          appState.unrevealedButtonOrder = els.unrevealedOrderSelect.value;
+          this.saveSettings();
+          this.applyButtonOrder();
+          const isForgotFirst = appState.unrevealedButtonOrder === 'forgot_hard_good';
+          this.showToast(isForgotFirst ? '已设为：忘记 · 模糊 · 认识' : '已设为：认识 · 模糊 · 忘记');
+        };
+      }
+
+      if (els.revealedOrderSelect) {
+        els.revealedOrderSelect.onchange = () => {
+          appState.revealedButtonOrder = els.revealedOrderSelect.value;
+          this.saveSettings();
+          this.applyButtonOrder();
+          const isContinueFirst = appState.revealedButtonOrder === 'continue_wrong';
+          this.showToast(isContinueFirst ? '已设为：继续 · 记错了' : '已设为：记错了 · 继续');
+        };
+      }
+
+      if (els.quickSwapUnrevealed) {
+        els.quickSwapUnrevealed.onclick = (e) => {
+          if (e && e.stopPropagation) e.stopPropagation();
+          appState.unrevealedButtonOrder = (appState.unrevealedButtonOrder === 'good_hard_forgot') ? 'forgot_hard_good' : 'good_hard_forgot';
+          this.saveSettings();
+          this.applyButtonOrder();
+          const isForgotFirst = appState.unrevealedButtonOrder === 'forgot_hard_good';
+          this.showToast(isForgotFirst ? '已换为：忘记 · 模糊 · 认识' : '已换为：认识 · 模糊 · 忘记');
+        };
+      }
+
+      if (els.quickSwapRevealed) {
+        els.quickSwapRevealed.onclick = (e) => {
+          if (e && e.stopPropagation) e.stopPropagation();
+          appState.revealedButtonOrder = (appState.revealedButtonOrder === 'wrong_continue') ? 'continue_wrong' : 'wrong_continue';
+          this.saveSettings();
+          this.applyButtonOrder();
+          const isContinueFirst = appState.revealedButtonOrder === 'continue_wrong';
+          this.showToast(isContinueFirst ? '已换为：继续 · 记错了' : '已换为：记错了 · 继续');
+        };
+      }
+
       if (els.btnGoodBack) els.btnGoodBack.onclick = () => this.goToNextCard();
       if (els.btnLegacyNext) els.btnLegacyNext.onclick = () => this.goToNextCard();
       if (els.btnForgotBack) els.btnForgotBack.onclick = () => this.handleMarkWrong();
@@ -1060,15 +1140,37 @@
           else this.goToNextCard();
         } else if (e.key === '1' || e.key === 'ArrowLeft') {
           e.preventDefault();
-          if (!appState.isFlipped) this.gradeWord('forgot');
-          else this.handleMarkWrong();
+          if (!appState.isFlipped) {
+            if (appState.unrevealedButtonOrder === 'good_hard_forgot') {
+              this.gradeWord('good');
+            } else {
+              this.gradeWord('forgot');
+            }
+          } else {
+            if (appState.revealedButtonOrder === 'continue_wrong') {
+              this.goToNextCard();
+            } else {
+              this.handleMarkWrong();
+            }
+          }
         } else if (e.key === '2' || e.key === 'ArrowDown') {
           e.preventDefault();
           if (!appState.isFlipped) this.gradeWord('hard');
         } else if (e.key === '3' || e.key === 'ArrowRight') {
           e.preventDefault();
-          if (!appState.isFlipped) this.gradeWord('good');
-          else this.goToNextCard();
+          if (!appState.isFlipped) {
+            if (appState.unrevealedButtonOrder === 'good_hard_forgot') {
+              this.gradeWord('forgot');
+            } else {
+              this.gradeWord('good');
+            }
+          } else {
+            if (appState.revealedButtonOrder === 'continue_wrong') {
+              this.handleMarkWrong();
+            } else {
+              this.goToNextCard();
+            }
+          }
         } else if (e.key === 'a' || e.key === 'A') {
           e.preventDefault();
           this.playAudio();
@@ -1095,6 +1197,49 @@
       if (!els.sheetModal) return;
       els.sheetModal.classList.toggle('is-open', !!open);
       if (open) this.updateAudioButtonState();
+    },
+
+    applyButtonOrder() {
+      const unrevealedRow = els.unrevealedRow || (typeof document !== 'undefined' ? document.getElementById('vocabMomoUnrevealedRow') : null);
+      if (unrevealedRow && els.btnGood && els.btnHard && els.btnForgot && typeof unrevealedRow.appendChild === 'function') {
+        if (appState.unrevealedButtonOrder === 'forgot_hard_good') {
+          unrevealedRow.appendChild(els.btnForgot);
+          unrevealedRow.appendChild(els.btnHard);
+          unrevealedRow.appendChild(els.btnGood);
+          if (typeof els.btnForgot.setAttribute === 'function') els.btnForgot.setAttribute('title', '快捷键: 1 / ←');
+          if (typeof els.btnHard.setAttribute === 'function') els.btnHard.setAttribute('title', '快捷键: 2 / ↓');
+          if (typeof els.btnGood.setAttribute === 'function') els.btnGood.setAttribute('title', '快捷键: 3 / → / 空格');
+        } else {
+          unrevealedRow.appendChild(els.btnGood);
+          unrevealedRow.appendChild(els.btnHard);
+          unrevealedRow.appendChild(els.btnForgot);
+          if (typeof els.btnGood.setAttribute === 'function') els.btnGood.setAttribute('title', '快捷键: 1 / ← / 空格');
+          if (typeof els.btnHard.setAttribute === 'function') els.btnHard.setAttribute('title', '快捷键: 2 / ↓');
+          if (typeof els.btnForgot.setAttribute === 'function') els.btnForgot.setAttribute('title', '快捷键: 3 / →');
+        }
+      }
+
+      const revealedRow = els.revealedRow || (typeof document !== 'undefined' ? document.getElementById('vocabMomoRevealedRow') : null);
+      if (revealedRow && els.btnWrong && els.btnContinue && typeof revealedRow.appendChild === 'function') {
+        if (appState.revealedButtonOrder === 'continue_wrong') {
+          revealedRow.appendChild(els.btnContinue);
+          revealedRow.appendChild(els.btnWrong);
+          if (typeof els.btnContinue.setAttribute === 'function') els.btnContinue.setAttribute('title', '快捷键: 1 / ← / 空格');
+          if (typeof els.btnWrong.setAttribute === 'function') els.btnWrong.setAttribute('title', '快捷键: 3 / →');
+        } else {
+          revealedRow.appendChild(els.btnWrong);
+          revealedRow.appendChild(els.btnContinue);
+          if (typeof els.btnWrong.setAttribute === 'function') els.btnWrong.setAttribute('title', '快捷键: 1 / ←');
+          if (typeof els.btnContinue.setAttribute === 'function') els.btnContinue.setAttribute('title', '快捷键: 3 / → / 空格');
+        }
+      }
+
+      if (els.unrevealedOrderSelect) {
+        els.unrevealedOrderSelect.value = appState.unrevealedButtonOrder || 'good_hard_forgot';
+      }
+      if (els.revealedOrderSelect) {
+        els.revealedOrderSelect.value = appState.revealedButtonOrder || 'wrong_continue';
+      }
     },
 
     updateAudioButtonState() {
@@ -2509,6 +2654,7 @@
       if (els.homeFrame) els.homeFrame.style.display = 'none';
       if (els.frame) els.frame.style.display = 'flex';
 
+      this.applyButtonOrder();
       this.renderCurrentCard();
     },
 
