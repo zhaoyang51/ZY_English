@@ -130,3 +130,19 @@ test('Vocab Recite: Button Order DOM reordering, localStorage persistence and ke
   assert.strictEqual(loaded.unrevealedButtonOrder, 'forgot_hard_good');
   assert.strictEqual(loaded.revealedButtonOrder, 'continue_wrong');
 });
+
+test('Vocab Recite: Checkmark Badge adapts to grade (forgot -> ✕, hard -> ～, good -> ✓)', () => {
+  const vocabJs = fs.readFileSync(path.join(root, 'js/vocab.js'), 'utf8');
+  const vocabCss = fs.readFileSync(path.join(root, 'css/vocab.css'), 'utf8');
+
+  // CSS definitions
+  assert.ok(vocabCss.includes('.momo-checkmark.grade-good'), 'CSS must define .grade-good');
+  assert.ok(vocabCss.includes('.momo-checkmark.grade-hard'), 'CSS must define .grade-hard');
+  assert.ok(vocabCss.includes('.momo-checkmark.grade-forgot'), 'CSS must define .grade-forgot');
+
+  // JS logic
+  assert.ok(vocabJs.includes("els.momoCheckmark.textContent = '✕'"), "Forgot must set checkmark text to '✕'");
+  assert.ok(vocabJs.includes("els.momoCheckmark.textContent = '～'"), "Hard must set checkmark text to '～'");
+  assert.ok(vocabJs.includes("els.momoCheckmark.textContent = '✓'"), "Good must set checkmark text to '✓'");
+  assert.ok(vocabJs.includes("appState.lastGrade = grade"), "gradeWord must record lastGrade");
+});

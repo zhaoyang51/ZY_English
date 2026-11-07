@@ -90,6 +90,7 @@
     currentList: [],
     currentIndex: 0,
     isFlipped: false,
+    lastGrade: null, // 'good' | 'hard' | 'forgot' | null
     studyMode: 'en-zh',
     autoAudio: false,
     unrevealedButtonOrder: 'good_hard_forgot', // 'good_hard_forgot' | 'forgot_hard_good'
@@ -1915,9 +1916,42 @@
       if (els.btnNote) els.btnNote.classList.toggle('has-note', hasNote);
       if (els.noteEditorBox) els.noteEditorBox.style.display = 'none';
 
-      // Green Checkmark icon when revealed
+      // Rating badge icon next to word when revealed:
+      // 'good' -> ✓ (绿勾), 'hard' -> ～ (黄波浪), 'forgot' -> ✕ (红叉)
       if (els.momoCheckmark) {
-        els.momoCheckmark.style.display = appState.isFlipped ? 'inline-flex' : 'none';
+        if (appState.isFlipped) {
+          els.momoCheckmark.style.display = 'inline-flex';
+          if (typeof els.momoCheckmark.classList?.remove === 'function') {
+            els.momoCheckmark.classList.remove('grade-good', 'grade-hard', 'grade-forgot');
+          }
+          if (appState.lastGrade === 'forgot') {
+            els.momoCheckmark.textContent = '✕';
+            if (typeof els.momoCheckmark.classList?.add === 'function') {
+              els.momoCheckmark.classList.add('grade-forgot');
+            }
+            if (typeof els.momoCheckmark.setAttribute === 'function') {
+              els.momoCheckmark.setAttribute('title', '忘记了');
+            }
+          } else if (appState.lastGrade === 'hard') {
+            els.momoCheckmark.textContent = '～';
+            if (typeof els.momoCheckmark.classList?.add === 'function') {
+              els.momoCheckmark.classList.add('grade-hard');
+            }
+            if (typeof els.momoCheckmark.setAttribute === 'function') {
+              els.momoCheckmark.setAttribute('title', '模糊');
+            }
+          } else {
+            els.momoCheckmark.textContent = '✓';
+            if (typeof els.momoCheckmark.classList?.add === 'function') {
+              els.momoCheckmark.classList.add('grade-good');
+            }
+            if (typeof els.momoCheckmark.setAttribute === 'function') {
+              els.momoCheckmark.setAttribute('title', '认识');
+            }
+          }
+        } else {
+          els.momoCheckmark.style.display = 'none';
+        }
       }
 
       // Parse Part of Speech and Definitions
@@ -2282,6 +2316,7 @@
 
     gradeWord(grade) {
       if (appState.currentIndex >= appState.currentList.length) return;
+      appState.lastGrade = grade;
       const currentWordObj = appState.currentList[appState.currentIndex];
       const word = currentWordObj.word || currentWordObj.root;
       const now = Date.now();
@@ -2337,6 +2372,7 @@
 
     handleMarkWrong() {
       if (appState.currentIndex >= appState.currentList.length) return;
+      appState.lastGrade = 'forgot';
       const cur = appState.currentList[appState.currentIndex];
       const word = cur.word || cur.root;
       const now = Date.now();
@@ -2390,6 +2426,7 @@
       }
       appState.currentIndex = last.index;
       appState.isFlipped = false;
+      appState.lastGrade = null;
       this.saveProgress();
       this.renderCurrentCard();
       this.showToast('↩ 已撤销上一次评分');
@@ -2401,6 +2438,7 @@
       }
       appState.currentIndex++;
       appState.isFlipped = false;
+      appState.lastGrade = null;
       this.renderCurrentCard();
     },
 

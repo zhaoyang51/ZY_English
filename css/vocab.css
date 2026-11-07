@@ -677,6 +677,40 @@ body.mode-vocab .vocab-section {
   font-weight: 800;
   box-shadow: 0 2px 8px rgba(13, 148, 136, 0.35);
   animation: momoPopIn 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  user-select: none;
+  line-height: 1;
+}
+
+.momo-checkmark.grade-good {
+  background: var(--momo-green);
+  box-shadow: 0 2px 8px rgba(13, 148, 136, 0.35);
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.momo-checkmark.grade-hard {
+  background: var(--momo-amber);
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.35);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 900;
+  transform: translateY(-0.5px);
+}
+
+.momo-checkmark.grade-forgot {
+  background: var(--momo-red);
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.35);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+body.theme-dark .momo-checkmark.grade-hard {
+  box-shadow: 0 2px 8px rgba(251, 191, 36, 0.35);
+}
+
+body.theme-dark .momo-checkmark.grade-forgot {
+  box-shadow: 0 2px 8px rgba(248, 113, 113, 0.35);
 }
 
 /* Exam Frequency Badge */
