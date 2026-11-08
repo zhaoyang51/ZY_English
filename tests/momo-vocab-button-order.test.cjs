@@ -146,3 +146,22 @@ test('Vocab Recite: Checkmark Badge adapts to grade (forgot -> ✕, hard -> ～,
   assert.ok(vocabJs.includes("els.momoCheckmark.textContent = '✓'"), "Good must set checkmark text to '✓'");
   assert.ok(vocabJs.includes("appState.lastGrade = grade"), "gradeWord must record lastGrade");
 });
+
+test('Vocab Recite: Audio Accent defaults to US pronunciation (美音)', () => {
+  const vocabJs = fs.readFileSync(path.join(root, 'js/vocab.js'), 'utf8');
+
+  // 1. Default state is 'us'
+  assert.ok(vocabJs.includes("audioAccent: 'us'"), 'appState must default audioAccent to us');
+
+  // 2. HTML and card rendering displays 美 🔊
+  assert.ok(vocabJs.includes('美 🔊'), 'Must display 美 🔊 for US accent');
+  assert.ok(vocabJs.includes('ph.us || ph.uk'), 'Must prioritize US phonetics (ph.us || ph.uk)');
+
+  // 3. Audio stream uses type=2 (Youdao US accent)
+  assert.ok(vocabJs.includes('type=${type}'), 'Must pass type variable to Youdao API');
+  assert.ok(vocabJs.includes('type = isUS ? 2 : 1'), 'US accent must map to type=2');
+
+  // 4. Settings Drawer has Audio Accent select
+  assert.ok(vocabJs.includes('id="vocabAudioAccentSelect"'), 'Settings must include vocabAudioAccentSelect');
+  assert.ok(vocabJs.includes('cfg.audioAccent'), 'loadSettings must restore audioAccent');
+});

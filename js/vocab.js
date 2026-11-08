@@ -93,6 +93,7 @@
     lastGrade: null, // 'good' | 'hard' | 'forgot' | null
     studyMode: 'en-zh',
     autoAudio: false,
+    audioAccent: 'us', // 'us' (美音, 默认) | 'uk' (英音)
     unrevealedButtonOrder: 'good_hard_forgot', // 'good_hard_forgot' | 'forgot_hard_good'
     revealedButtonOrder: 'wrong_continue',     // 'wrong_continue' | 'continue_wrong'
     filterDrawerOpen: false,
@@ -153,6 +154,9 @@
         if (saved) {
           const cfg = JSON.parse(saved);
           if (typeof cfg.autoAudio === 'boolean') appState.autoAudio = cfg.autoAudio;
+          if (cfg.audioAccent === 'us' || cfg.audioAccent === 'uk') {
+            appState.audioAccent = cfg.audioAccent;
+          }
           if (cfg.unrevealedButtonOrder === 'good_hard_forgot' || cfg.unrevealedButtonOrder === 'forgot_hard_good') {
             appState.unrevealedButtonOrder = cfg.unrevealedButtonOrder;
           }
@@ -181,6 +185,7 @@
       try {
         const cfg = {
           autoAudio: appState.autoAudio,
+          audioAccent: appState.audioAccent || 'us',
           unrevealedButtonOrder: appState.unrevealedButtonOrder,
           revealedButtonOrder: appState.revealedButtonOrder
         };
@@ -393,8 +398,8 @@
               </div>
 
               <!-- Phonetic Badge (UK / US) -->
-              <div class="momo-phonetic-pill" id="vocabMomoPhoneticPill" title="点击播放英文真人生词发音 (快捷键 A)">
-                <span id="vocabMomoPhoneticText">英 🔊 /'nɑ:sti/</span>
+              <div class="momo-phonetic-pill" id="vocabMomoPhoneticPill" title="点击播放纯正美音 (快捷键 A)">
+                <span id="vocabMomoPhoneticText">美 🔊 /'nɑ:sti/</span>
               </div>
 
               <!-- Unrevealed Skeletons (Covered Definition Placeholder Bars) -->
@@ -556,6 +561,13 @@
                 <select id="vocabRevealedOrderSelect" class="vocab-select">
                   <option value="wrong_continue">记错了 · 继续 (默认)</option>
                   <option value="continue_wrong">继续 · 记错了</option>
+                </select>
+              </div>
+              <div class="vocab-filter-item">
+                <label class="vocab-filter-label">发音偏好</label>
+                <select id="vocabAudioAccentSelect" class="vocab-select">
+                  <option value="us">🇺🇸 纯正美音 (默认)</option>
+                  <option value="uk">🇬🇧 纯正英音</option>
                 </select>
               </div>
             </div>
@@ -752,6 +764,7 @@
         filterLabel2: document.getElementById('vocabFilterLabel2'),
         unrevealedOrderSelect: document.getElementById('vocabUnrevealedOrderSelect'),
         revealedOrderSelect: document.getElementById('vocabRevealedOrderSelect'),
+        audioAccentSelect: document.getElementById('vocabAudioAccentSelect'),
         quickSwapUnrevealed: document.getElementById('vocabQuickSwapUnrevealed'),
         quickSwapRevealed: document.getElementById('vocabQuickSwapRevealed'),
         unrevealedRow: document.getElementById('vocabMomoUnrevealedRow'),
@@ -974,6 +987,18 @@
           this.applyButtonOrder();
           const isContinueFirst = appState.revealedButtonOrder === 'continue_wrong';
           this.showToast(isContinueFirst ? '已设为：继续 · 记错了' : '已设为：记错了 · 继续');
+        };
+      }
+
+      if (els.audioAccentSelect) {
+        els.audioAccentSelect.value = appState.audioAccent || 'us';
+        els.audioAccentSelect.onchange = () => {
+          appState.audioAccent = els.audioAccentSelect.value;
+          this.saveSettings();
+          if (appState.currentView === 'study' && appState.currentList && appState.currentList[appState.currentIndex]) {
+            this.renderCurrentCard();
+          }
+          this.showToast(appState.audioAccent === 'us' ? '已切至：🇺🇸 纯正美音' : '已切至：🇬🇧 纯正英音');
         };
       }
 
@@ -1885,15 +1910,21 @@
       if (els.btnStarFront) els.btnStarFront.textContent = isStarred ? '★' : '☆';
       if (els.btnStarBack) els.btnStarBack.textContent = isStarred ? '★' : '☆';
 
-      // Phonetic Resolution & Cleaning
+      // Phonetic Resolution & Cleaning (defaults to US pronunciation)
+      const isUS = appState.audioAccent !== 'uk';
       const ph = this.getWordPhonetic(word);
-      let ipa = ph.uk || ph.us || (cur.isRoot ? '' : `/'${word}/`);
+      let ipa = isUS ? (ph.us || ph.uk) : (ph.uk || ph.us);
+      if (!ipa && !cur.isRoot) ipa = `/'${word}/`;
       if (ipa) {
         ipa = ipa.replace(/\"/g, "'").replace(/\/+/g, '/').replace(/^\/+|\/+$/g, '');
         ipa = `/'${ipa.replace(/^'+|'+$/g, '')}/`;
       }
       if (els.momoPhoneticText) {
-        els.momoPhoneticText.textContent = ipa ? `英 🔊 ${ipa}` : `🔊 发音`;
+        const prefix = isUS ? '美 🔊' : '英 🔊';
+        els.momoPhoneticText.textContent = ipa ? `${prefix} ${ipa}` : (isUS ? '🔊 美音' : '🔊 英音');
+      }
+      if (els.momoPhoneticPill) {
+        els.momoPhoneticPill.title = isUS ? '点击播放纯正美音 (快捷键 A)' : '点击播放纯正英音 (快捷键 A)';
       }
 
       // Exam Frequency Badge on the right of the word
@@ -2820,20 +2851,23 @@
         }
 
         // Online natural human pronunciation from Youdao audio API (type=2 US / type=1 UK)
-        // Works on 100% of mobile browsers without requiring Google TTS packages
-        const audioUrl = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanWord)}&type=2`;
+        // Defaults to US American accent (type=2) per user request
+        const isUS = appState.audioAccent !== 'uk';
+        const type = isUS ? 2 : 1;
+        const langCode = isUS ? 'en-US' : 'en-GB';
+        const audioUrl = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanWord)}&type=${type}`;
         const audio = new Audio(audioUrl);
         this._currentAudio = audio;
 
         audio.onended = handleEnd;
         audio.onerror = () => {
-          this.speakText(cleanWord, 'en-US', handleEnd);
+          this.speakText(cleanWord, langCode, handleEnd);
         };
 
         const playPromise = audio.play();
         if (playPromise !== undefined) {
           playPromise.catch(() => {
-            this.speakText(cleanWord, 'en-US', handleEnd);
+            this.speakText(cleanWord, langCode, handleEnd);
           });
         }
       } catch (err) {
