@@ -88,3 +88,106 @@ test('Vocab Personal Notes & Exam Citations Modal features', () => {
   assert.ok(js.includes('showCitationsModal'), 'Must implement showCitationsModal()');
   assert.ok(js.includes('hideCitationsModal'), 'Must implement hideCitationsModal()');
 });
+
+test('Vocab Home Page: Today Newly Learned and Reviewed Counters', () => {
+  const css = fs.readFileSync(path.join(__dirname, '../css/vocab.css'), 'utf8');
+  const js = fs.readFileSync(path.join(__dirname, '../js/vocab.js'), 'utf8');
+
+  // 1. Structure and labels
+  assert.ok(js.includes('id="vocabHomeTodayLearn"'), 'Must have #vocabHomeTodayLearn');
+  assert.ok(js.includes('id="vocabHomeTodayReview"'), 'Must have #vocabHomeTodayReview');
+  assert.ok(js.includes('id="vocabHomeTodayLearnCount"'), 'Must have #vocabHomeTodayLearnCount');
+  assert.ok(js.includes('id="vocabHomeTodayReviewCount"'), 'Must have #vocabHomeTodayReviewCount');
+  assert.ok(js.includes('今日已新学'), 'Must display 今日已新学');
+  assert.ok(js.includes('今日已复习'), 'Must display 今日已复习');
+
+  // 2. CSS rules
+  assert.ok(css.includes('.vocab-home-card .card-today-stat'), 'Must style .card-today-stat');
+  assert.ok(css.includes('.vocab-home-card .card-today-stat .stat-label'), 'Must style .stat-label');
+  assert.ok(css.includes('.vocab-home-card .card-today-stat .stat-num'), 'Must style .stat-num');
+  assert.ok(css.includes('body.theme-dark .vocab-home-card .card-today-stat'), 'Must have dark theme styles');
+
+  // 3. Methods & Persistence
+  assert.ok(js.includes('KAOYAN_VOCAB_DAILY_LOG_V1'), 'Must use KAOYAN_VOCAB_DAILY_LOG_V1 storage key');
+  assert.ok(js.includes('getDailyLog()'), 'Must implement getDailyLog()');
+  assert.ok(js.includes('recordDailyActivity('), 'Must implement recordDailyActivity()');
+  assert.ok(js.includes('undoDailyActivity('), 'Must implement undoDailyActivity()');
+  assert.ok(js.includes('updateTodayStatsUI()'), 'Must implement updateTodayStatsUI()');
+
+  // 4. Interactive Simulation with VM
+  const vm = require('node:vm');
+  const storage = {};
+  const mockLocalStorage = {
+    getItem: (k) => storage[k] || null,
+    setItem: (k, v) => { storage[k] = String(v); },
+    removeItem: (k) => { delete storage[k]; }
+  };
+
+  const elements = {};
+  const mockDocument = {
+    getElementById: (id) => {
+      if (!elements[id]) {
+        elements[id] = {
+          id,
+          textContent: '',
+          innerHTML: '',
+          classList: { add: () => {}, remove: () => {}, toggle: () => {} },
+          style: {},
+          onclick: null
+        };
+      }
+      return elements[id];
+    },
+    createElement: () => ({ style: {}, classList: { add: () => {} }, appendChild: () => {} }),
+    body: { classList: { contains: () => false, add: () => {}, remove: () => {} } }
+  };
+
+  const context = {
+    window: {
+      localStorage: mockLocalStorage,
+      addEventListener: () => {},
+      speechSynthesis: { speak: () => {}, cancel: () => {} },
+      location: { href: 'http://localhost/' }
+    },
+    document: mockDocument,
+    localStorage: mockLocalStorage,
+    console,
+    Date,
+    Math,
+    setTimeout: (fn) => setTimeout(fn, 0),
+    clearTimeout: () => {}
+  };
+  context.window.window = context.window;
+  context.window.document = mockDocument;
+
+  vm.createContext(context);
+  vm.runInContext(js, context);
+
+  const VocabModule = context.window.VocabModule;
+  assert.ok(VocabModule, 'VocabModule must be exposed');
+
+  // Initial daily log should be 0
+  const initialLog = VocabModule.getDailyLog();
+  assert.strictEqual(initialLog.newLearned.length, 0);
+  assert.strictEqual(initialLog.reviewed.length, 0);
+
+  // Record a newly learned word
+  VocabModule.recordDailyActivity('testword', 'new');
+  const afterNew = VocabModule.getDailyLog();
+  assert.strictEqual(afterNew.newLearned.length, 1);
+  assert.strictEqual(afterNew.newLearned[0], 'testword');
+  assert.strictEqual(afterNew.reviewed.length, 0);
+
+  // Record a reviewed word
+  VocabModule.recordDailyActivity('reviewword', 'review');
+  const afterReview = VocabModule.getDailyLog();
+  assert.strictEqual(afterReview.newLearned.length, 1);
+  assert.strictEqual(afterReview.reviewed.length, 1);
+  assert.strictEqual(afterReview.reviewed[0], 'reviewword');
+
+  // Undo newly learned word
+  VocabModule.undoDailyActivity('testword', true);
+  const afterUndo = VocabModule.getDailyLog();
+  assert.strictEqual(afterUndo.newLearned.length, 0);
+  assert.strictEqual(afterUndo.reviewed.length, 1);
+});

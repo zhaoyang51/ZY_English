@@ -444,6 +444,53 @@ body.mode-vocab .vocab-section {
   margin-top: 1px;
 }
 
+.vocab-home-card .card-today-stat {
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1px dashed rgba(30, 51, 35, 0.16);
+  font-size: 11.5px;
+  color: #3b5a41;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.3;
+}
+
+.vocab-home-card .card-today-stat .stat-label {
+  font-size: 11px;
+  color: #436349;
+  font-weight: 500;
+}
+
+.vocab-home-card .card-today-stat .stat-num {
+  font-weight: 700;
+  font-size: 13px;
+  color: #15803d;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.vocab-home-card-review .card-today-stat .stat-num {
+  color: #b45309;
+}
+
+body.theme-dark .vocab-home-card .card-today-stat {
+  border-top-color: rgba(255, 255, 255, 0.14);
+  color: #a7c5b0;
+}
+
+body.theme-dark .vocab-home-card .card-today-stat .stat-label {
+  color: #9cb5a3;
+}
+
+body.theme-dark .vocab-home-card .card-today-stat .stat-num {
+  color: #4ade80;
+}
+
+body.theme-dark .vocab-home-card-review .card-today-stat .stat-num {
+  color: #fbbf24;
+}
+
 .vocab-home-bottom-nav {
   display: flex;
   justify-content: space-around;

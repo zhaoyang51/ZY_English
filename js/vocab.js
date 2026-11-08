@@ -13,6 +13,7 @@
   const STORAGE_KEY = 'KAOYAN_VOCAB_PROGRESS_V2';
   const SETTINGS_KEY = 'KAOYAN_VOCAB_USER_SETTINGS_V1';
   const LAST_POSITION_KEY = 'KAOYAN_VOCAB_LAST_POSITION_V2';
+  const DAILY_LOG_KEY = 'KAOYAN_VOCAB_DAILY_LOG_V1';
 
   // 艾宾浩斯 9 级复习周期 (毫秒)
   // [5分钟, 30分钟, 12小时, 1天, 2天, 4天, 7天, 15天, 30天]
@@ -316,6 +317,131 @@
       this.updateStats();
     },
 
+    getTodayKey() {
+      const d = new Date();
+      const year = d.getFullYear();
+      const month = String(d.getMonth() + 1).padStart(2, '0');
+      const day = String(d.getDate()).padStart(2, '0');
+      return `${year}-${month}-${day}`;
+    },
+
+    getDailyLog() {
+      const today = this.getTodayKey();
+      let log = { date: today, newLearned: [], reviewed: [], history: {} };
+      try {
+        const raw = localStorage.getItem(DAILY_LOG_KEY);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          if (parsed && typeof parsed === 'object') {
+            const hist = parsed.history && typeof parsed.history === 'object' ? parsed.history : {};
+            if (parsed.date === today) {
+              log = {
+                date: today,
+                newLearned: Array.isArray(parsed.newLearned) ? parsed.newLearned : [],
+                reviewed: Array.isArray(parsed.reviewed) ? parsed.reviewed : [],
+                history: hist
+              };
+            } else if (parsed.date) {
+              // Archive previous day's summary
+              hist[parsed.date] = {
+                newCount: Array.isArray(parsed.newLearned) ? parsed.newLearned.length : 0,
+                reviewCount: Array.isArray(parsed.reviewed) ? parsed.reviewed.length : 0
+              };
+              log = {
+                date: today,
+                newLearned: [],
+                reviewed: [],
+                history: hist
+              };
+            }
+          }
+        }
+      } catch (e) {}
+
+      // Cross-check with appState.progress so activities today are never missed even on fresh tabs
+      const todayStart = new Date();
+      todayStart.setHours(0, 0, 0, 0);
+      const todayStartTs = todayStart.getTime();
+
+      const newSet = new Set(log.newLearned);
+      const reviewSet = new Set(log.reviewed);
+
+      if (appState && appState.progress) {
+        Object.keys(appState.progress).forEach(w => {
+          const rec = appState.progress[w];
+          if (!rec) return;
+          if (rec.firstStudied && rec.firstStudied >= todayStartTs) {
+            newSet.add(w);
+          }
+          if (rec.lastReviewed && rec.lastReviewed >= todayStartTs) {
+            if (!rec.firstStudied || rec.firstStudied < todayStartTs || (rec.reviewCount && rec.reviewCount > 1)) {
+              reviewSet.add(w);
+            }
+          }
+        });
+      }
+
+      log.newLearned = Array.from(newSet);
+      log.reviewed = Array.from(reviewSet);
+      return log;
+    },
+
+    saveDailyLog(log) {
+      try {
+        localStorage.setItem(DAILY_LOG_KEY, JSON.stringify(log));
+      } catch (e) {}
+    },
+
+    recordDailyActivity(word, type) {
+      if (!word) return;
+      const log = this.getDailyLog();
+      let changed = false;
+      if (type === 'new') {
+        if (!log.newLearned.includes(word)) {
+          log.newLearned.push(word);
+          changed = true;
+        }
+      } else if (type === 'review') {
+        if (!log.reviewed.includes(word)) {
+          log.reviewed.push(word);
+          changed = true;
+        }
+      }
+      if (changed) {
+        this.saveDailyLog(log);
+      }
+      this.updateTodayStatsUI();
+    },
+
+    undoDailyActivity(word, wasNew) {
+      if (!word) return;
+      const log = this.getDailyLog();
+      let changed = false;
+      if (wasNew) {
+        if (log.newLearned.includes(word)) {
+          log.newLearned = log.newLearned.filter(w => w !== word);
+          changed = true;
+        }
+      } else {
+        if (log.reviewed.includes(word)) {
+          log.reviewed = log.reviewed.filter(w => w !== word);
+          changed = true;
+        }
+      }
+      if (changed) {
+        this.saveDailyLog(log);
+      }
+      this.updateTodayStatsUI();
+    },
+
+    updateTodayStatsUI() {
+      const log = this.getDailyLog();
+      const newCount = log.newLearned ? log.newLearned.length : 0;
+      const reviewCount = log.reviewed ? log.reviewed.length : 0;
+      if (els.homeTodayLearnCount) els.homeTodayLearnCount.textContent = String(newCount);
+      if (els.homeTodayReviewCount) els.homeTodayReviewCount.textContent = String(reviewCount);
+    },
+
     renderHtmlStructure(container) {
       container.innerHTML = `
         <!-- MoMo Vocab Home Page (Matching User Figure 1: Pastoral Tree & Learn/Review Cards) -->
@@ -356,6 +482,10 @@
               </div>
               <div class="card-count" id="vocabHomeCountLearn">0</div>
               <div class="card-sub">待学习单词</div>
+              <div class="card-today-stat" id="vocabHomeTodayLearn" title="今日已新学单词数">
+                <span class="stat-label">今日已新学</span>
+                <span class="stat-num" id="vocabHomeTodayLearnCount">0</span>
+              </div>
             </div>
 
             <div class="vocab-home-card vocab-home-card-review" id="vocabHomeCardReview" title="点击开始复习">
@@ -365,6 +495,10 @@
               </div>
               <div class="card-count" id="vocabHomeCountReview">0</div>
               <div class="card-sub">待巩固复习</div>
+              <div class="card-today-stat" id="vocabHomeTodayReview" title="今日已复习单词数">
+                <span class="stat-label">今日已复习</span>
+                <span class="stat-num" id="vocabHomeTodayReviewCount">0</span>
+              </div>
             </div>
           </div>
         </div>
@@ -697,8 +831,12 @@
         homeBtnRefresh: document.getElementById('vocabHomeBtnRefresh'),
         homeCardLearn: document.getElementById('vocabHomeCardLearn'),
         homeCountLearn: document.getElementById('vocabHomeCountLearn'),
+        homeTodayLearn: document.getElementById('vocabHomeTodayLearn'),
+        homeTodayLearnCount: document.getElementById('vocabHomeTodayLearnCount'),
         homeCardReview: document.getElementById('vocabHomeCardReview'),
         homeCountReview: document.getElementById('vocabHomeCountReview'),
+        homeTodayReview: document.getElementById('vocabHomeTodayReview'),
+        homeTodayReviewCount: document.getElementById('vocabHomeTodayReviewCount'),
         homeNavDict: document.getElementById('vocabHomeNavDict'),
         homeNavDeck: document.getElementById('vocabHomeNavDeck'),
         homeNavStats: document.getElementById('vocabHomeNavStats'),
@@ -2393,6 +2531,16 @@
       appState.progress[word] = record;
       this.saveProgress();
 
+      let isNewActivity = false;
+      if (appState.studyMode === 'new') {
+        isNewActivity = true;
+      } else if (appState.studyMode === 'review') {
+        isNewActivity = false;
+      } else {
+        isNewActivity = !previousRecord || previousRecord.status === 'new';
+      }
+      this.recordDailyActivity(word, isNewActivity ? 'new' : 'review');
+
       // If unrevealed, reveal the detailed answer; if already revealed, advance
       if (!appState.isFlipped) {
         this.flipCard(true);
@@ -2428,7 +2576,8 @@
       const cur = appState.currentList[appState.currentIndex];
       const word = cur.word || cur.root;
       const now = Date.now();
-      let record = appState.progress[word] || {
+      let previousRecord = appState.progress[word] ? JSON.parse(JSON.stringify(appState.progress[word])) : null;
+      let record = previousRecord || {
         status: 'mastered',
         level: 9,
         firstStudied: now,
@@ -2438,9 +2587,21 @@
       };
       record.status = 'mastered';
       record.level = 9;
+      record.lastReviewed = now;
       record.nextReviewTime = now + (365 * 24 * 60 * 60 * 1000);
       appState.progress[word] = record;
       this.saveProgress();
+
+      let isNewActivity = false;
+      if (appState.studyMode === 'new') {
+        isNewActivity = true;
+      } else if (appState.studyMode === 'review') {
+        isNewActivity = false;
+      } else {
+        isNewActivity = !previousRecord || previousRecord.status === 'new';
+      }
+      this.recordDailyActivity(word, isNewActivity ? 'new' : 'review');
+
       this.goToNextCard();
     },
 
@@ -2450,11 +2611,13 @@
         return;
       }
       const last = appState.historyStack.pop();
+      const wasNew = !last.previousRecord || last.previousRecord.status === 'new';
       if (last.previousRecord) {
         appState.progress[last.word] = last.previousRecord;
       } else {
         delete appState.progress[last.word];
       }
+      this.undoDailyActivity(last.word, wasNew);
       appState.currentIndex = last.index;
       appState.isFlipped = false;
       appState.lastGrade = null;
@@ -2771,6 +2934,7 @@
 
       if (els.homeCountLearn) els.homeCountLearn.textContent = String(newCount);
       if (els.homeCountReview) els.homeCountReview.textContent = String(dueCount);
+      this.updateTodayStatsUI();
     },
 
     pickRandomHomeWord() {
