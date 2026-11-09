@@ -1618,3 +1618,451 @@ body.theme-dark .cloze-opt-letter {
   border-radius: 0 4px 4px 0;
 }
 
+
+
+/* ============================================================
+   Authentic Exam Paper Simulation Typography & Layout (真题排版)
+   Applicable to Part B (新题型), Translation (英译汉), Small Essay (小作文), & Big Essay (大作文)
+   ============================================================ */
+.authentic-exam-sheet {
+  font-family: "Times New Roman", Times, Georgia, "Songti SC", SimSun, serif;
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 8px;
+  padding: 32px 36px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+}
+
+body.theme-dark .authentic-exam-sheet {
+  background: var(--surface, #1e293b);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.authentic-exam-header {
+  text-align: center;
+  margin-bottom: 24px;
+  user-select: none;
+}
+
+.authentic-exam-header .exam-header-super {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--muted, #64748b);
+  margin-bottom: 6px;
+}
+
+.authentic-exam-header .exam-header-title {
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  color: var(--ink, #0f172a);
+  margin: 0 0 10px 0;
+}
+
+.authentic-exam-header .exam-header-meta-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 13px;
+  color: var(--muted, #64748b);
+  margin-bottom: 12px;
+}
+
+.authentic-exam-header .exam-header-rule {
+  height: 2px;
+  background: var(--ink, #0f172a);
+  margin: 8px auto 18px auto;
+  width: 100%;
+  position: relative;
+}
+
+body.theme-dark .authentic-exam-header .exam-header-rule {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.authentic-exam-header .exam-header-section-title {
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: var(--ink, #0f172a);
+  margin-bottom: 4px;
+}
+
+.authentic-exam-header .exam-header-part-title {
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ink, #0f172a);
+  letter-spacing: 1px;
+}
+
+.authentic-directions-box {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.015);
+  border-left: 3.5px solid var(--accent, #2563eb);
+  padding: 14px 18px;
+  border-radius: 4px;
+}
+
+body.theme-dark .authentic-directions-box {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.authentic-question-num {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 1.15em;
+  color: var(--ink, #0f172a);
+  line-height: 1.5;
+}
+
+.authentic-directions-content {
+  flex: 1;
+}
+
+.authentic-directions-content .directions-en-text {
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: var(--ink, #0f172a);
+}
+
+.authentic-directions-content .directions-en-text strong {
+  font-weight: 800;
+}
+
+.authentic-prompt-cn-box {
+  margin-top: 14px;
+  padding: 12px 16px;
+  background: rgba(2, 132, 199, 0.04);
+  border: 1px dashed rgba(2, 132, 199, 0.35);
+  border-radius: 6px;
+  font-size: 0.9em;
+  line-height: 1.7;
+}
+
+.authentic-prompt-cn-box .prompt-cn-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  color: #0284c7;
+  margin-bottom: 8px;
+}
+
+.authentic-prompt-cn-box .prompt-cn-title {
+  color: var(--ink, #0f172a);
+  margin-bottom: 6px;
+}
+
+.authentic-prompt-cn-box .prompt-cn-points {
+  color: var(--muted, #64748b);
+  margin-bottom: 6px;
+}
+
+.authentic-prompt-cn-box .prompt-cn-template {
+  color: #b45309;
+  font-weight: 600;
+}
+
+/* Authentic Chart Box for Part B Writing */
+.authentic-chart-wrapper {
+  margin: 20px 0;
+  padding: 18px;
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 8px;
+  text-align: center;
+}
+
+body.theme-dark .authentic-chart-wrapper {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.chart-wrapper-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.chart-caption-tag {
+  font-size: 12px;
+  font-weight: 700;
+  background: #0284c7;
+  color: #fff;
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
+.chart-caption-title {
+  font-size: 16px;
+  color: var(--ink, #0f172a);
+  letter-spacing: 0.5px;
+}
+
+.chart-caption-badge {
+  font-size: 12px;
+  color: var(--muted, #64748b);
+  border: 1px solid var(--border, #e2e8f0);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.chart-img-container {
+  display: inline-block;
+  max-width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  background: #ffffff;
+}
+
+.authentic-chart-img {
+  max-width: 100%;
+  max-height: 400px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.chart-data-notes {
+  margin-top: 14px;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--muted, #64748b);
+  text-align: left;
+  background: rgba(2, 132, 199, 0.04);
+  padding: 10px 14px;
+  border-radius: 6px;
+  border-left: 3px solid #0284c7;
+}
+
+/* Authentic Answer Sheet 2 Simulation */
+.authentic-answer-sheet-container {
+  background: var(--surface, #ffffff);
+  border: 1.5px solid var(--border, #cbd5e1);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+body.theme-dark .authentic-answer-sheet-container {
+  background: var(--surface, #1e293b);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.answer-sheet-official-header {
+  border-bottom: 2px solid var(--ink, #0f172a);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+body.theme-dark .answer-sheet-official-header {
+  border-bottom-color: rgba(255, 255, 255, 0.6);
+}
+
+.sheet-top-notice {
+  font-size: 12px;
+  font-weight: 800;
+  color: #dc2626;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+.sheet-main-title {
+  font-size: 19px;
+  font-weight: 800;
+  color: var(--ink, #0f172a);
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.sheet-meta-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 13px;
+  color: var(--muted, #64748b);
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.sheet-instruction-text {
+  font-size: 11.5px;
+  color: var(--muted, #64748b);
+  font-style: italic;
+}
+
+.answer-sheet-canvas-box {
+  margin-bottom: 18px;
+}
+
+.canvas-status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.live-count-badge {
+  font-weight: 600;
+  color: var(--ink, #0f172a);
+}
+
+.target-hint {
+  font-size: 12px;
+  color: var(--muted, #64748b);
+  margin-left: 6px;
+}
+
+.target-hint.hit {
+  color: var(--success, #10b981);
+  font-weight: 700;
+}
+
+.authentic-answer-sheet-textarea {
+  width: 100%;
+  min-height: 240px;
+  padding: 14px 16px;
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: 17px;
+  line-height: 1.85;
+  color: var(--ink, #0f172a);
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #cbd5e1);
+  border-radius: 6px;
+  box-sizing: border-box;
+  resize: vertical;
+  background-image: repeating-linear-gradient(transparent, transparent 31px, rgba(0, 0, 0, 0.05) 31px, rgba(0, 0, 0, 0.05) 32px);
+  background-attachment: local;
+}
+
+body.theme-dark .authentic-answer-sheet-textarea {
+  background: #0f172a;
+  color: #f1f5f9;
+  border-color: rgba(255, 255, 255, 0.2);
+  background-image: repeating-linear-gradient(transparent, transparent 31px, rgba(255, 255, 255, 0.08) 31px, rgba(255, 255, 255, 0.08) 32px);
+}
+
+.canvas-action-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+/* Model essay comparison card */
+.model-essay-card {
+  background: var(--card-bg, #fbfbfb);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 16px;
+}
+
+body.theme-dark .model-essay-card {
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.model-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(2, 132, 199, 0.06);
+  border-bottom: 1px solid var(--border, #e2e8f0);
+}
+
+body.theme-dark .model-card-header {
+  background: rgba(2, 132, 199, 0.12);
+}
+
+.model-card-body {
+  padding: 16px;
+}
+
+.model-strategy-callout {
+  background: rgba(37, 99, 235, 0.05);
+  border-radius: 6px;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border-left: 3px solid var(--accent, #2563eb);
+  font-size: 0.9em;
+  color: var(--ink, #0f172a);
+  line-height: 1.65;
+}
+
+.model-box-label {
+  display: block;
+  font-size: 0.92em;
+  color: #0284c7;
+  margin-bottom: 8px;
+}
+
+.model-en-text {
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: 1.02em;
+  line-height: 1.8;
+  color: var(--ink, #0f172a);
+  background: var(--surface, #ffffff);
+  padding: 14px 16px;
+  border-radius: 6px;
+  border: 1px solid var(--border, #e2e8f0);
+  white-space: pre-wrap;
+  margin-bottom: 14px;
+}
+
+body.theme-dark .model-en-text {
+  background: #0f172a;
+}
+
+.model-cn-text {
+  font-size: 0.94em;
+  line-height: 1.75;
+  color: var(--muted, #64748b);
+  background: var(--surface, #ffffff);
+  padding: 12px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--border, #e2e8f0);
+  white-space: pre-wrap;
+  margin-bottom: 14px;
+}
+
+body.theme-dark .model-cn-text {
+  background: #0f172a;
+}
+
+.model-origins-box {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 6px;
+  padding: 12px 14px;
+}
+
+body.theme-dark .model-origins-box {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* Authentic text indentation and layout */
+.authentic-trans-article .exam-para,
+.authentic-partb-article .exam-para {
+  text-indent: 2em;
+  margin-bottom: 1.1em;
+  text-align: justify;
+}

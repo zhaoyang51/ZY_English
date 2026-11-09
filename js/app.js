@@ -527,6 +527,23 @@
     if (String(AppState.textId) === 'translation') optTrans.selected = true;
     textSelect.appendChild(optTrans);
 
+    // 5. Section IV Writing (写作 Part A & Part B)
+    const grpWriting = document.createElement('optgroup');
+    grpWriting.label = '✍️ Section IV 写作 (Part A & Part B · 25分)';
+    const optWritingA = document.createElement('option');
+    optWritingA.value = 'writing_a';
+    optWritingA.textContent = '✉️ Part A 小作文 (47题 · 10分)';
+    if (String(AppState.textId) === 'writing_a') optWritingA.selected = true;
+    grpWriting.appendChild(optWritingA);
+
+    const optWritingB = document.createElement('option');
+    optWritingB.value = 'writing_b';
+    optWritingB.textContent = '📊 Part B 大作文 (48题 · 15分)';
+    if (String(AppState.textId) === 'writing_b') optWritingB.selected = true;
+    grpWriting.appendChild(optWritingB);
+
+    textSelect.appendChild(grpWriting);
+
     textSelect.value = String(AppState.textId);
   }
 
@@ -722,6 +739,9 @@
         if (!transData) throw new Error('该年份尚未配置翻译数据');
         AppState.textData = transData;
         isSpecialSection = true;
+      } else if (textId === 'writing_a' || textId === 'writing_b') {
+        AppState.textData = { text_id: textId, year: year };
+        isSpecialSection = true;
       } else {
         const text = yData.texts.find(t => String(t.text_id) === String(textId));
         if (!text) throw new Error('未找到该篇阅读资料');
@@ -796,6 +816,8 @@
           }
           AppState.targetSentenceInfo = null;
         }
+      } else if ((textId === 'writing_a' || textId === 'writing_b') && window.WritingRenderer) {
+        window.WritingRenderer.render(year, textId, AppState.mode);
       }
       updateUIControls();
       saveState();
@@ -3420,8 +3442,11 @@
         return;
       }
       const specialSections = ['use_of_english', 'part_b', 'translation'];
+      const writingSections = ['writing_a', 'writing_b'];
       if (!specialSections.includes(String(AppState.textId))) {
-        AppState.textId = 1;
+        if (!writingSections.includes(String(AppState.textId))) {
+          AppState.textId = 1;
+        }
       }
       updateTextDropdown();
       AppState.savedStepIndex = 0;
