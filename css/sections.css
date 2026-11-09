@@ -2066,3 +2066,8 @@ body.theme-dark .model-origins-box {
   margin-bottom: 1.1em;
   text-align: justify;
 }
+
+.authentic-trans-article .para-text {
+  font-size: inherit;
+  line-height: inherit;
+}
