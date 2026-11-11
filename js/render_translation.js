@@ -154,14 +154,6 @@
 
         <div class="authentic-exam-sheet" style="font-size:${fs}px;line-height:${lh}">
           <div class="authentic-exam-header">
-            <div class="exam-header-super">${year} 年全国硕士研究生招生考试</div>
-            <h1 class="exam-header-title">英 语（二）试 题</h1>
-            <div class="exam-header-meta-row">
-              <span>（科目代码：204）</span>
-              <span>考试时间：180 分钟</span>
-              <span>满分：100 分</span>
-            </div>
-            <div class="exam-header-rule"></div>
             <div class="exam-header-section-title">Section III  Translation</div>
           </div>
 
