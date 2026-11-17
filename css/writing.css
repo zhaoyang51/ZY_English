@@ -929,10 +929,6 @@ body.mode-writing.theme-dark .pr-var.is-prompt-data .pr-var-tag {
 /* ==========================================================================
    Practice Essay Left-Right Split Layout (Prompt Left / Practice Right)
    ========================================================================== */
-.writing-inner-container:has(#opPanel_opPractice.active .pr-split-layout) {
-  max-width: 1440px;
-}
-
 .pr-split-layout {
   display: grid;
   grid-template-columns: minmax(340px, 0.88fr) minmax(0, 1.32fr);
@@ -940,15 +936,72 @@ body.mode-writing.theme-dark .pr-var.is-prompt-data .pr-var-tag {
   align-items: start;
 }
 
-.pr-split-left {
-  position: sticky;
-  top: 16px;
-  max-height: calc(100vh - 36px);
-  overflow-y: auto;
-}
-
+.pr-split-left,
 .pr-split-right {
   min-width: 0;
+}
+
+@media (min-width: 961px) {
+  .writing-section:has(#opPanel_opPractice.active .pr-split-layout) {
+    display: flex !important;
+    flex-direction: column !important;
+    overflow-y: hidden !important;
+  }
+
+  .writing-inner-container:has(#opPanel_opPractice.active .pr-split-layout) {
+    flex: 1 1 auto;
+    min-height: 0;
+    height: 100%;
+    max-width: 1440px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .writing-inner-container:has(#opPanel_opPractice.active .pr-split-layout) > .writing-minimal-header {
+    flex: 0 0 auto;
+  }
+
+  #onePageSystemContainer:has(#opPanel_opPractice.active .pr-split-layout) {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #onePageSystemContainer:has(#opPanel_opPractice.active .pr-split-layout) > .writing-nav-tabs {
+    flex: 0 0 auto;
+  }
+
+  #opPanel_opPractice.writing-tab-panel.active:has(.pr-split-layout) {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #opPanel_opPractice.writing-tab-panel.active:has(.pr-split-layout) > .writing-inline-bar {
+    flex: 0 0 auto;
+  }
+
+  .pr-split-layout {
+    flex: 1 1 auto;
+    min-height: 0;
+    height: 100%;
+    align-items: stretch;
+  }
+
+  .pr-split-left,
+  .pr-split-right {
+    height: 100%;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-bottom: 24px;
+    padding-right: 4px;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+  }
 }
 
 .pr-prompt-sheet .paper-toolbar {
@@ -985,10 +1038,5 @@ body.mode-writing.theme-dark .pr-var.is-prompt-data .pr-var-tag {
 @media (max-width: 960px) {
   .pr-split-layout {
     grid-template-columns: 1fr;
-  }
-  .pr-split-left {
-    position: static;
-    max-height: none;
-    overflow-y: visible;
   }
 }
