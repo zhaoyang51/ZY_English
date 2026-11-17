@@ -458,6 +458,7 @@
   }
 
   function applyTheme(themeName) {
+    const hadWritingB = document.body.classList.contains('has-writing-b');
     document.body.className = '';
     if (themeName === 'parchment') document.body.classList.add('theme-parchment');
     if (themeName === 'dark') document.body.classList.add('theme-dark');
@@ -465,6 +466,9 @@
     document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
     document.body.classList.toggle('mode-vocab', AppState.mode === 'vocab');
     document.body.classList.toggle('mode-writing', AppState.mode === 'writing');
+    if (hadWritingB && AppState.textId === 'writing_b' && AppState.mode !== 'vocab' && AppState.mode !== 'writing') {
+      document.body.classList.add('has-writing-b');
+    }
 
     const themeSelect = document.getElementById('themeSelect');
     if (themeSelect) themeSelect.value = themeName || 'light';

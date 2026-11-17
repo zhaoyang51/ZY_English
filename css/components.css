@@ -2667,22 +2667,31 @@ body.theme-dark .vbf-module-pill.active {
 
 /* Part B Interactive Essay Workspace (大作文套写 HTML Embed) */
 body.has-writing-b {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  height: 100dvh;
-  overflow: hidden;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  overflow: hidden !important;
 }
 
 body.has-writing-b .topbar {
-  flex: 0 0 auto;
+  flex: 0 0 auto !important;
+}
+
+body.has-writing-b #writingSection,
+body.has-writing-b .writing-section,
+body.has-writing-b #vocabSection,
+body.has-writing-b #mainLayout,
+body.has-writing-b #mobileTabsBar,
+body.has-writing-b #floatingNavBar {
+  display: none !important;
 }
 
 .yuque-container.writing-b-mode {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  min-height: 0;
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 0% !important;
+  min-height: 0 !important;
   height: auto !important;
   background: var(--bg, #f1f5f9);
 }
@@ -2755,11 +2764,19 @@ body.theme-dark .writing-b-tier-btn.active {
 }
 
 .writing-b-frame-wrap {
-  flex: 1 1 auto;
+  flex: 1 1 0%;
   min-height: 0;
+  height: 100%;
   position: relative;
   overflow: hidden;
   background: #ffffff;
+}
+
+.writing-b-frame-wrap > .yuque-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .writing-b-year-jumps {
