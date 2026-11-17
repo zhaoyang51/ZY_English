@@ -518,6 +518,45 @@
     yuqueContainer.style.display = 'none';
   }
 
+  function attachWritingBFrameShortcuts(frame) {
+    if (!frame) return;
+    try {
+      const win = frame.contentWindow;
+      const doc = frame.contentDocument || (win && win.document);
+      if (!win || !doc) return;
+
+      const prevBtn = doc.getElementById('prevButton');
+      const nextBtn = doc.getElementById('nextButton');
+      if (prevBtn) prevBtn.title = '快捷键: ←';
+      if (nextBtn) nextBtn.title = '快捷键: →';
+
+      if (win.__writingBShortcuts) {
+        win.removeEventListener('keydown', win.__writingBShortcuts, true);
+      }
+      win.__writingBShortcuts = (e) => {
+        if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+        const dialog = doc.getElementById('questionDialog');
+        if (dialog && dialog.open) return;
+        const target = e.target;
+        if (target && target.closest) {
+          if (target.closest('input,select,textarea,[contenteditable="true"],[role="separator"]')) return;
+        }
+        if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+          const nb = doc.getElementById('nextButton');
+          if (nb && !nb.disabled) nb.click();
+        } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+          const pb = doc.getElementById('prevButton');
+          if (pb && !pb.disabled) pb.click();
+        }
+      };
+      win.addEventListener('keydown', win.__writingBShortcuts, true);
+    } catch (err) {}
+  }
+
   function renderWritingBWorkspace(year) {
     const yNum = Number(year);
     const yuqueContainer = document.getElementById('yuqueContainer');
@@ -602,10 +641,13 @@
     const frame = document.getElementById('writingBFrame');
     const bindMask = () => {
       const mask = document.getElementById('writingBLoadingMask');
-      if (frame && mask) {
+      if (frame) {
         frame.onload = () => {
-          mask.style.opacity = '0';
-          setTimeout(() => { if (mask && mask.parentNode) mask.parentNode.removeChild(mask); }, 250);
+          attachWritingBFrameShortcuts(frame);
+          if (mask) {
+            mask.style.opacity = '0';
+            setTimeout(() => { if (mask && mask.parentNode) mask.parentNode.removeChild(mask); }, 250);
+          }
         };
       }
     };
@@ -3608,8 +3650,16 @@
     }
 
     // 2. Year and Text dropdowns
+    ['yearSelect', 'textSelect'].forEach(id => {
+      const sel = document.getElementById(id);
+      if (!sel) return;
+      sel.addEventListener('pointerdown', () => { sel.__fromPointer = Date.now(); });
+    });
+
     document.getElementById('yearSelect').addEventListener('change', e => {
-      AppState.year = Number(e.target.value);
+      const sel = e.target;
+      if (sel && (Date.now() - (sel.__fromPointer || 0) < 4000)) sel.blur();
+      AppState.year = Number(sel.value);
       if (AppState.mode === 'writing') {
         if (window.WritingModule && window.WritingModule.onYearChange) {
           window.WritingModule.onYearChange(AppState.year);
@@ -3629,7 +3679,9 @@
     });
 
     document.getElementById('textSelect').addEventListener('change', e => {
-      const val = e.target.value;
+      const sel = e.target;
+      if (sel && (Date.now() - (sel.__fromPointer || 0) < 4000)) sel.blur();
+      const val = sel.value;
       AppState.textId = isNaN(Number(val)) ? val : Number(val);
       AppState.savedStepIndex = 0;
       loadCurrentText();
@@ -4218,6 +4270,30 @@
           closeSyntaxModal();
           return;
         }
+      }
+
+      // Part B writing iframe: ArrowLeft (上一步) / ArrowRight (下一步)
+      if (AppState.textId === 'writing_b') {
+        const wbFrame = document.getElementById('writingBFrame');
+        if (wbFrame) {
+          try {
+            const doc = wbFrame.contentDocument || (wbFrame.contentWindow && wbFrame.contentWindow.document);
+            const dialog = doc && doc.getElementById('questionDialog');
+            if (dialog && dialog.open) return;
+            if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+              e.preventDefault();
+              const nextBtn = doc && doc.getElementById('nextButton');
+              if (nextBtn && !nextBtn.disabled) nextBtn.click();
+              return;
+            } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+              e.preventDefault();
+              const prevBtn = doc && doc.getElementById('prevButton');
+              if (prevBtn && !prevBtn.disabled) prevBtn.click();
+              return;
+            }
+          } catch (err) {}
+        }
+        return;
       }
 
       // Practice mode: forward keyboard shortcuts to iframe
