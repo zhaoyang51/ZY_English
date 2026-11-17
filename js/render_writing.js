@@ -1,10 +1,8 @@
 /**
- * Writing Renderer: Section IV Writing (小作文 & 大作文)
+ * Writing Renderer: Section IV Part A (应用文小作文)
  * High-Fidelity Authentic Exam Paper Layout (模仿真题排版)
  * - Part A: 47题 (应用文小作文 · 10分 · 约100词)
- * - Part B: 48题 (短文大作文 · 15分 · 约150词)
- * Interactive ANSWER SHEET 2 Workstation with live word count, draft auto-save,
- * official prompts, authentic chart inspection, and model essay comparison.
+ * Note: Part B (48题 · 大作文) uses the dedicated interactive HTML workspace in `大作文套写/`.
  */
 (function() {
   'use strict';
@@ -49,20 +47,24 @@
     },
 
     getPromptData(year, partKey) {
+      if (partKey === 'writing_b') return {};
       const data = this.getPrompts();
-      if (partKey === 'writing_a') {
-        const pool = data.e2_part_a || {};
-        return pool[year] || pool[2025] || {};
-      } else {
-        const pool = data.e2_part_b || {};
-        return pool[year] || pool[2025] || {};
-      }
+      const pool = data.e2_part_a || {};
+      return pool[year] || pool[2025] || {};
     },
 
     render(year, partKey, mode) {
       this.currentYear = parseInt(year, 10) || 2025;
       this.currentPart = partKey || 'writing_a';
       this.currentMode = mode || (window.AppState ? window.AppState.mode : 'practice') || 'practice';
+
+      if (this.currentPart === 'writing_b') {
+        const examPaper = document.getElementById('examPaper');
+        const container = document.getElementById('workspaceContent');
+        if (examPaper) examPaper.innerHTML = '';
+        if (container) container.innerHTML = '';
+        return;
+      }
 
       const promptData = this.getPromptData(this.currentYear, this.currentPart);
 
@@ -140,24 +142,7 @@
                 ${this.tokenizeWords(data.directionsEn || (isPartA ? '47. Directions:\nWrite an essay on the ANSWER SHEET. (10 points)' : '48. Directions:\nWrite an essay based on the chart below. (15 points)'))}
               </div>
 
-              <!-- Part B Authentic Chart Image Block -->
-              ${!isPartA && data.chartImage ? `
-                <div class="authentic-chart-wrapper">
-                  <div class="chart-wrapper-header">
-                    <span class="chart-caption-tag">【真题图表】</span>
-                    <strong class="chart-caption-title">${data.title || `${year} 年图表作文`}</strong>
-                    <span class="chart-caption-badge">${data.chartType || '图表类'}</span>
-                  </div>
-                  <div class="chart-img-container">
-                    <img src="${data.chartImage}" alt="${data.title || '考研真题图表'}" class="authentic-chart-img" id="examChartImage" title="点击查看大图" onerror="this.style.display='none'" />
-                  </div>
-                  ${data.summary ? `
-                    <div class="chart-data-notes">
-                      <strong>📊 图表核心信息提要：</strong>${data.summary}
-                    </div>
-                  ` : ''}
-                </div>
-              ` : ''}
+
 
               <!-- Collapsible Chinese Translation & Strategy Box -->
               <div class="authentic-prompt-cn-box" id="writingPromptCnBox" style="display:${this.showTrans ? 'block' : 'none'}">

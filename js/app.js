@@ -487,6 +487,157 @@
     updateTextDropdown();
   }
 
+
+  const WRITING_B_YEARS = [2020, 2021, 2022, 2023, 2024, 2025, 2026];
+  const WRITING_B_TIERS = [
+    { key: '满分版', label: '满分版' },
+    { key: '简化版', label: '简化版' },
+    { key: '速通版_标准版', label: '速通版 · 标准版' },
+    { key: '速通版_无脑版', label: '速通版 · 无脑版' }
+  ];
+
+  function getWritingBTier() {
+    try {
+      const saved = localStorage.getItem('KAOYAN_WRITING_B_TIER');
+      if (saved && WRITING_B_TIERS.some(t => t.key === saved)) return saved;
+    } catch (e) {}
+    return '满分版';
+  }
+
+  function hideYuqueAndWritingB(yuqueContainer) {
+    document.body.classList.remove('has-writing-b');
+    if (!yuqueContainer) return;
+    yuqueContainer.classList.remove('writing-b-mode');
+    if (yuqueContainer.querySelector('#writingBFrame') || yuqueContainer.querySelector('.writing-b-tier-bar')) {
+      yuqueContainer.innerHTML = '';
+    }
+    yuqueContainer.style.display = 'none';
+  }
+
+  function renderWritingBWorkspace(year) {
+    const yNum = Number(year);
+    const yuqueContainer = document.getElementById('yuqueContainer');
+    const mainLayout = document.getElementById('mainLayout');
+    const mobileTabsBar = document.getElementById('mobileTabsBar');
+    const floatingNavBar = document.getElementById('floatingNavBar');
+    const reviewSubmodeGroup = document.getElementById('reviewSubmodeGroup');
+    const submodeContainer = document.getElementById('submodeContainer');
+    const writing = document.getElementById('writingSection');
+
+    if (writing) {
+      writing.inert = true;
+      writing.style.display = 'none';
+    }
+    if (reviewSubmodeGroup) reviewSubmodeGroup.style.display = 'none';
+    if (submodeContainer) submodeContainer.style.display = 'none';
+    if (mainLayout) mainLayout.style.display = 'none';
+    if (mobileTabsBar) mobileTabsBar.style.display = 'none';
+    if (floatingNavBar) floatingNavBar.style.display = 'none';
+
+    const examPaper = document.getElementById('examPaper');
+    const workspaceContent = document.getElementById('workspaceContent');
+    if (examPaper) examPaper.innerHTML = '';
+    if (workspaceContent) workspaceContent.innerHTML = '';
+
+    if (!yuqueContainer) return;
+
+    document.body.classList.add('has-writing-b');
+    yuqueContainer.classList.add('writing-b-mode');
+    yuqueContainer.style.display = 'flex';
+
+    if (!WRITING_B_YEARS.includes(yNum)) {
+      yuqueContainer.innerHTML = `
+        <div class="yuque-empty-card">
+          <div class="empty-icon">📊</div>
+          <h3>${yNum} 年 Part B 大作文交互套写暂未收录</h3>
+          <p>《大作文套写》交互版目前收录 2020–2026 年考研英语二真题（含满分版、简化版、速通标准版、速通无脑版）。</p>
+          <div class="writing-b-year-jumps">
+            ${[2026, 2025, 2024, 2023, 2022, 2021, 2020].map(y => `
+              <button type="button" class="writing-b-year-btn" data-year="${y}">前往 ${y} 年</button>
+            `).join('')}
+          </div>
+        </div>
+      `;
+      yuqueContainer.querySelectorAll('.writing-b-year-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const targetYear = Number(btn.dataset.year);
+          AppState.year = targetYear;
+          AppState.savedStepIndex = 0;
+          const yearSelect = document.getElementById('yearSelect');
+          if (yearSelect) yearSelect.value = String(targetYear);
+          loadCurrentText();
+        });
+      });
+      return;
+    }
+
+    let currentTier = getWritingBTier();
+    const fileUrl = (tierKey) => encodeURI(`大作文套写/英二_${yNum}_${tierKey}.html`);
+
+    yuqueContainer.innerHTML = `
+      <div class="writing-b-tier-bar" role="toolbar" aria-label="大作文套写版本切换">
+        <div class="writing-b-tier-info">
+          <span>📊 ${yNum} 年 Part B 大作文套写</span>
+          <span class="writing-b-tier-badge">交互式逐句套写</span>
+        </div>
+        <div class="writing-b-tier-tabs">
+          ${WRITING_B_TIERS.map(t => `
+            <button type="button" class="writing-b-tier-btn ${t.key === currentTier ? 'active' : ''}" data-tier="${t.key}">${t.label}</button>
+          `).join('')}
+        </div>
+      </div>
+      <div class="writing-b-frame-wrap">
+        <div id="writingBLoadingMask" class="yuque-loading-overlay">
+          <div class="yuque-loading-spinner"></div>
+          <div style="font-size:14px;color:var(--muted);font-weight:600">正在载入 ${yNum} 年 Part B 大作文套写（${currentTier.replace('_', ' · ')}）...</div>
+        </div>
+        <iframe id="writingBFrame" class="yuque-frame" src="${fileUrl(currentTier)}" title="${yNum} 年考研英语二 Part B 大作文套写 (${currentTier})"></iframe>
+      </div>
+    `;
+
+    const frame = document.getElementById('writingBFrame');
+    const bindMask = () => {
+      const mask = document.getElementById('writingBLoadingMask');
+      if (frame && mask) {
+        frame.onload = () => {
+          mask.style.opacity = '0';
+          setTimeout(() => { if (mask && mask.parentNode) mask.parentNode.removeChild(mask); }, 250);
+        };
+      }
+    };
+    bindMask();
+
+    yuqueContainer.querySelectorAll('.writing-b-tier-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const nextTier = btn.dataset.tier;
+        if (!nextTier || nextTier === currentTier) return;
+        currentTier = nextTier;
+        try { localStorage.setItem('KAOYAN_WRITING_B_TIER', currentTier); } catch (e) {}
+        yuqueContainer.querySelectorAll('.writing-b-tier-btn').forEach(b => {
+          b.classList.toggle('active', b.dataset.tier === currentTier);
+        });
+        const wrap = yuqueContainer.querySelector('.writing-b-frame-wrap');
+        if (wrap) {
+          let oldMask = document.getElementById('writingBLoadingMask');
+          if (!oldMask) {
+            oldMask = document.createElement('div');
+            oldMask.id = 'writingBLoadingMask';
+            oldMask.className = 'yuque-loading-overlay';
+            oldMask.innerHTML = `<div class="yuque-loading-spinner"></div><div style="font-size:14px;color:var(--muted);font-weight:600">正在切换至 ${currentTier.replace('_', ' · ')}...</div>`;
+            wrap.insertBefore(oldMask, frame);
+          } else {
+            oldMask.style.opacity = '1';
+          }
+        }
+        if (frame) {
+          frame.title = `${yNum} 年考研英语二 Part B 大作文套写 (${currentTier})`;
+          frame.src = fileUrl(currentTier);
+          bindMask();
+        }
+      });
+    });
+  }
+
   function updateTextDropdown() {
     const textSelect = document.getElementById('textSelect');
     const yItem = (window.KAOYAN_MANIFEST || []).find(m => m.year === AppState.year);
@@ -583,7 +734,7 @@
         vocab.style.visibility = 'hidden';
         vocab.style.display = 'none';
       }
-      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      hideYuqueAndWritingB(yuqueContainer);
       if (writing) {
         writing.inert = true;
         writing.style.display = 'none';
@@ -648,7 +799,7 @@
         layout.setAttribute('aria-busy', 'false');
         layout.style.display = 'none';
       }
-      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      hideYuqueAndWritingB(yuqueContainer);
       if (writing) {
         writing.inert = true;
         writing.style.display = 'none';
@@ -789,9 +940,16 @@
     const floatingNavBar = document.getElementById('floatingNavBar');
     const submodeContainer = document.getElementById('submodeContainer');
 
-    // Special section rendering delegation (完形, 新题型, 翻译)
+    // Special section rendering delegation (完形, 新题型, 翻译, Part A 小作文, Part B 大作文)
     if (isSpecialSection) {
-      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      if (textId === 'writing_b') {
+        renderWritingBWorkspace(year);
+        updateUIControls();
+        saveState();
+        return;
+      }
+
+      hideYuqueAndWritingB(yuqueContainer);
       if (writing) {
         writing.inert = true;
         writing.style.display = 'none';
@@ -816,8 +974,8 @@
           }
           AppState.targetSentenceInfo = null;
         }
-      } else if ((textId === 'writing_a' || textId === 'writing_b') && window.WritingRenderer) {
-        window.WritingRenderer.render(year, textId, AppState.mode);
+      } else if (textId === 'writing_a' && window.WritingRenderer) {
+        window.WritingRenderer.render(year, 'writing_a', AppState.mode);
       }
       updateUIControls();
       saveState();
@@ -825,7 +983,7 @@
     }
 
     if (AppState.mode === 'vocab') {
-      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      hideYuqueAndWritingB(yuqueContainer);
       if (writing) {
         writing.inert = true;
         writing.style.display = 'none';
@@ -855,6 +1013,8 @@
       if (floatingNavBar) floatingNavBar.style.display = 'none';
 
       if (yuqueContainer) {
+        document.body.classList.remove('has-writing-b');
+        yuqueContainer.classList.remove('writing-b-mode');
         yuqueContainer.style.display = 'block';
         const pFile = window.YuqueManifest && window.YuqueManifest.practice && window.YuqueManifest.practice[readingKey];
         if (pFile) {
@@ -908,6 +1068,8 @@
         if (floatingNavBar) floatingNavBar.style.display = 'none';
 
         if (yuqueContainer) {
+          document.body.classList.remove('has-writing-b');
+          yuqueContainer.classList.remove('writing-b-mode');
           yuqueContainer.style.display = 'block';
           const rFile = window.YuqueManifest && window.YuqueManifest.review && window.YuqueManifest.review[readingKey];
           if (rFile) {
@@ -944,7 +1106,7 @@
       }
 
       // 复盘模式 1：网站现有的系统精细复盘模式
-      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      hideYuqueAndWritingB(yuqueContainer);
       if (writing) {
         writing.inert = true;
         writing.style.display = 'none';
@@ -1156,7 +1318,8 @@
 
     const isMock = AppState.mode === 'practice' && AppState.practiceSubmode === 'mock';
     const isVocab = AppState.mode === 'vocab';
-    const isSpecial = typeof AppState.textId === 'string' && ['use_of_english', 'part_b', 'translation'].includes(AppState.textId);
+    const isWritingPart = AppState.textId === 'writing_a' || AppState.textId === 'writing_b';
+    const isSpecial = typeof AppState.textId === 'string' && ['use_of_english', 'part_b', 'translation', 'writing_a', 'writing_b'].includes(AppState.textId);
     const submodeContainer = document.getElementById('submodeContainer');
     const unavailable = !AppState.textData;
     const practiceBtn = document.getElementById('practiceModeBtn');
@@ -1191,17 +1354,25 @@
       if (nextBtn) nextBtn.disabled = true;
       if (floatPrevBtn) floatPrevBtn.disabled = true;
       if (floatNextBtn) floatNextBtn.disabled = true;
+      if (stepNavGroup) stepNavGroup.style.display = isWritingPart ? 'none' : '';
+      if (jumpSelect) jumpSelect.style.display = isWritingPart ? 'none' : '';
       if (floatingNavBar) floatingNavBar.style.display = 'none';
       if (toggleAllBtn) toggleAllBtn.style.display = 'none';
       if (submodeContainer) submodeContainer.style.display = 'none';
       const labelMap = {
         'use_of_english': '完形填空 (1-20题)',
         'part_b': '新题型 (41-45题)',
-        'translation': '英译汉 (46题)'
+        'translation': '英译汉 (46题)',
+        'writing_a': 'Part A 小作文 (47题)',
+        'writing_b': 'Part B 大作文 (48题)'
       };
       const secLabel = labelMap[AppState.textId] || '专项试卷';
-      if (progressText) progressText.textContent = secLabel;
+      if (progressText) {
+        progressText.style.display = isWritingPart ? 'none' : '';
+        progressText.textContent = secLabel;
+      }
       if (floatProgressText) floatProgressText.textContent = secLabel;
+      saveState();
       return;
     }
 
@@ -3040,7 +3211,7 @@
       if (r2Btn) r2Btn.classList.remove('active');
       const yuqueContainer = document.getElementById('yuqueContainer');
       const mainLayout = document.getElementById('mainLayout');
-      if (yuqueContainer) yuqueContainer.style.display = 'none';
+      hideYuqueAndWritingB(yuqueContainer);
       if (writing) {
         writing.inert = true;
         writing.style.display = 'none';

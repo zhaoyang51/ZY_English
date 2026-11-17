@@ -2664,3 +2664,126 @@ body.theme-dark .vbf-module-pill.active {
 @keyframes yuqueSpin {
   to { transform: rotate(360deg); }
 }
+
+/* Part B Interactive Essay Workspace (大作文套写 HTML Embed) */
+body.has-writing-b {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+body.has-writing-b .topbar {
+  flex: 0 0 auto;
+}
+
+.yuque-container.writing-b-mode {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  height: auto !important;
+  background: var(--bg, #f1f5f9);
+}
+
+.writing-b-tier-bar {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  padding: 8px 16px;
+  background: var(--panel-bg, #ffffff);
+  border-bottom: 1px solid var(--line, #e2e8f0);
+}
+
+.writing-b-tier-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink, #0f172a);
+}
+
+.writing-b-tier-badge {
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--accent-light, #eff6ff);
+  color: var(--accent, #2563eb);
+  border: 1px solid var(--border, #cbd5e1);
+}
+
+.writing-b-tier-tabs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.writing-b-tier-btn {
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border, #cbd5e1);
+  background: var(--surface, #ffffff);
+  color: var(--muted, #475569);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.writing-b-tier-btn:hover {
+  border-color: var(--ink, #0f172a);
+  color: var(--ink, #0f172a);
+}
+
+.writing-b-tier-btn.active {
+  background: var(--ink, #0f172a);
+  border-color: var(--ink, #0f172a);
+  color: #ffffff;
+}
+
+body.theme-dark .writing-b-tier-btn.active {
+  background: #38bdf8;
+  border-color: #38bdf8;
+  color: #0b0f19;
+}
+
+.writing-b-frame-wrap {
+  flex: 1 1 auto;
+  min-height: 0;
+  position: relative;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.writing-b-year-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.writing-b-year-btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border, #cbd5e1);
+  background: var(--surface, #ffffff);
+  color: var(--ink, #0f172a);
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.writing-b-year-btn:hover {
+  background: var(--ink, #0f172a);
+  border-color: var(--ink, #0f172a);
+  color: #ffffff;
+}

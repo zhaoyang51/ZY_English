@@ -1045,7 +1045,7 @@
                       <strong style="font-size:0.96em">真题原题 · ${item.year} 年</strong>
                     </div>
                     <div class="paper-toolbar-right">
-                      <button class="paper-text-btn" id="opPrMockExamBtn" data-year="${item.year}">进入答题卡模考</button>
+                      <button class="paper-text-btn" id="opPrMockExamBtn" data-year="${item.year}">进入大作文套写</button>
                     </div>
                   </div>
                   <div class="paper-section">
