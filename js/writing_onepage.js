@@ -131,6 +131,7 @@
     corpusSearch: '',
     practiceYear: 2026,
     practiceTier: 'full',
+    practiceShowHighlight: true,
     practiceShowPrompt: true,
     practiceShowCn: false,
     practiceShowAnalysis: false,
@@ -857,6 +858,146 @@
     /* ==========================================================================
        3. 2020-2026 英语二四档实操 (极简纸面排版)
        ========================================================================== */
+    highlightPracticeParagraph(text, paraIdx, tierKey) {
+      const esc = (s) => this.escapeHtml(String(s || ''));
+      const spanVar = (tag, val, isPromptData = false) =>
+        `<span class="pr-var${isPromptData ? ' is-prompt-data' : ''}"><span class="pr-var-tag">${esc(tag)}</span>${esc(val)}</span>`;
+
+      // P1: Introduction
+      if (paraIdx === 0) {
+        let m = text.match(/^Though deceptively simple, this (.+?) conveys a meaningful message:\s*(.+?)\.\s*It serves as a compelling testament to the significance of (.+?)\.$/);
+        if (m) {
+          return (
+            'Though deceptively simple, this ' +
+            spanVar('材料载体', m[1], true) +
+            ' conveys a meaningful message: ' +
+            spanVar('题面数据/描述', m[2], true) +
+            '. It serves as a compelling testament to the significance of ' +
+            spanVar('主题词', m[3], false) +
+            '.'
+          );
+        }
+        m = text.match(/^The figures in the (.+?) reveal notable (changes|differences) concerning (.+?)\.\s*(.+)$/);
+        if (m) {
+          return (
+            'The figures in the ' +
+            spanVar('图表类型', m[1], true) +
+            ' reveal notable ' +
+            esc(m[2]) +
+            ' concerning ' +
+            spanVar('主题词', m[3], false) +
+            '. ' +
+            spanVar('图表数据描述', m[4], true)
+          );
+        }
+        return esc(text);
+      }
+
+      // P2: Body
+      if (paraIdx === 1) {
+        if (tierKey === 'full') {
+          const m = text.match(/^(.+?) has attracted attention, not least because of its far-reaching implications\.\s*At the individual level, it is reflected in the way people (.+?), ultimately contributing to (.+?)\.\s*National policies on (.+?) likewise focus on empowering individuals to (.+?)\.\s*Beyond personal advancement, this principle can strengthen communities by (.+?), laying the groundwork for sustainable progress\.\s*This is in line with national strategies for (.+?):\s*as this principle takes root, (.+?)\.$/);
+          if (m) {
+            return (
+              spanVar('主题词', m[1]) +
+              ' has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people ' +
+              spanVar('具体行为', m[2]) +
+              ', ultimately contributing to ' +
+              spanVar('可见成果', m[3]) +
+              '. National policies on ' +
+              spanVar('相关领域', m[4]) +
+              ' likewise focus on empowering individuals to ' +
+              spanVar('个人能力/行为', m[5]) +
+              '. Beyond personal advancement, this principle can strengthen communities by ' +
+              spanVar('社会效果', m[6]) +
+              ', laying the groundwork for sustainable progress. This is in line with national strategies for ' +
+              spanVar('相关战略', m[7]) +
+              ': as this principle takes root, ' +
+              spanVar('社会变化', m[8]) +
+              '.'
+            );
+          }
+        } else if (tierKey === 'simplified') {
+          const m = text.match(/^(.+?) has attracted attention, not least because of its far-reaching implications\.\s*At the individual level, it is reflected in the way people (.+?), ultimately contributing to personal development and well-being\.\s*National policies on (.+?) likewise focus on empowering individuals to achieve their full potential\.\s*Beyond personal advancement, this principle can strengthen communities by (.+?), laying the groundwork for sustainable progress\.\s*As this principle takes root across society, it creates a ripple effect that benefits social harmony and long-term prosperity\.$/);
+          if (m) {
+            return (
+              spanVar('主题词', m[1]) +
+              ' has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people ' +
+              spanVar('具体行为', m[2]) +
+              ', ultimately contributing to personal development and well-being. National policies on ' +
+              spanVar('相关领域', m[3]) +
+              ' likewise focus on empowering individuals to achieve their full potential. Beyond personal advancement, this principle can strengthen communities by ' +
+              spanVar('社会效果', m[4]) +
+              ', laying the groundwork for sustainable progress. As this principle takes root across society, it creates a ripple effect that benefits social harmony and long-term prosperity.'
+            );
+          }
+        } else {
+          let rem = text;
+          let out = '';
+
+          let s1 = rem.match(/^To begin with, experience suggests that (.+?) finds direct expression in phenomena exemplified by the way people (.+?)\.\s*/);
+          if (s1) {
+            out += 'To begin with, experience suggests that ' + spanVar('主题词', s1[1]) + ' finds direct expression in phenomena exemplified by the way people ' + spanVar('具体行为', s1[2]) + '. ';
+            rem = rem.slice(s1[0].length);
+          } else {
+            s1 = rem.match(/^To begin with, experience suggests that this (trend|pattern) can be explained in part by people's desire to (.+?)\.\s*/);
+            if (!s1) return esc(text);
+            out += "To begin with, experience suggests that this " + esc(s1[1]) + " can be explained in part by people's desire to " + spanVar('具体行为', s1[2]) + '. ';
+            rem = rem.slice(s1[0].length);
+          }
+
+          const s23 = rem.match(/^(This is hardly surprising, as people tend to favour behaviour they believe will have desirable consequences\.|Those who value such practices are exemplars of self-improvement and higher achievement\.)\s*(However, we should recognise that social conditions fundamentally shape the choices available to individuals\.)\s*/);
+          if (!s23) return esc(text);
+          out += esc(s23[1]) + ' ' + esc(s23[2]) + ' ';
+          rem = rem.slice(s23[0].length);
+
+          let s4 = rem.match(/^From this perspective, it is the promotion of national strategies for (.+?) that provides impetus for these developments\.\s*/);
+          if (s4) {
+            out += 'From this perspective, it is the promotion of national strategies for ' + spanVar('相关战略', s4[1]) + ' that provides impetus for these developments. ';
+            rem = rem.slice(s4[0].length);
+          } else {
+            s4 = rem.match(/^From this perspective, a shared commitment to (.+?) can create the conditions for communities and nations to flourish in harmony, laying the groundwork for sustainable progress\.\s*/);
+            if (!s4) return esc(text);
+            out += 'From this perspective, a shared commitment to ' + spanVar('相关战略', s4[1]) + ' can create the conditions for communities and nations to flourish in harmony, laying the groundwork for sustainable progress. ';
+            rem = rem.slice(s4[0].length);
+          }
+
+          let s5 = rem.match(/^(A study|An article) published by (.+?) lends support to the view that (.+?) plays an important role in (driving this trend|fostering community prosperity)\.$/);
+          if (s5) {
+            out += esc(s5[1]) + ' published by ' + spanVar('权威机构/期刊', s5[2]) + ' lends support to the view that ' + spanVar('主题词', s5[3]) + ' plays an important role in ' + esc(s5[4]) + '.';
+            return out;
+          }
+          s5 = rem.match(/^(A study|An article) published by (.+?) lends support to the view that societies placing greater emphasis on (.+?) enjoy higher levels of vitality and prosperity, a pattern consistent across multiple indicators\.$/);
+          if (s5) {
+            out += esc(s5[1]) + ' published by ' + spanVar('权威机构/期刊', s5[2]) + ' lends support to the view that societies placing greater emphasis on ' + spanVar('主题词', s5[3]) + ' enjoy higher levels of vitality and prosperity, a pattern consistent across multiple indicators.';
+            return out;
+          }
+        }
+        return esc(text);
+      }
+
+      // P3: Conclusion
+      if (paraIdx === 2) {
+        const m = text.match(/^In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when (.+?) guides action\. Promoting this principle is therefore not merely advisable but essential for holistic development\.$/);
+        if (m) {
+          return (
+            'In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when ' +
+            spanVar('主题词', m[1]) +
+            ' guides action. Promoting this principle is therefore not merely advisable but essential for holistic development.'
+          );
+        }
+      }
+      return esc(text);
+    },
+
+    escapeHtml(str) {
+      return String(str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    },
+
     renderPracticePanel() {
       const panel = this.container.querySelector('#opPanel_opPractice');
       const list = this.getData().practiceE2 || [];
@@ -903,6 +1044,10 @@
               </div>
               <div class="paper-toolbar-right">
                 <label class="w-switch-label">
+                  <input type="checkbox" id="opPrHighlightToggle" ${this.practiceShowHighlight ? 'checked' : ''}>
+                  <span>标注替换</span>
+                </label>
+                <label class="w-switch-label">
                   <input type="checkbox" class="w-switch-input" id="opPrPromptToggle" ${this.practiceShowPrompt ? 'checked' : ''}>
                   <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
                   <span>真题题目</span>
@@ -919,6 +1064,12 @@
                 </label>
               </div>
             </div>
+            ${this.practiceShowHighlight ? `
+              <div class="pr-legend-bar" role="note" aria-label="模板结构图例">
+                <span class="pr-legend-item"><span class="pr-legend-sample-fixed">常规字体</span> = 模板固定骨架</span>
+                <span class="pr-legend-item"><span class="pr-var"><span class="pr-var-tag">主题/语料</span>蓝框高亮</span> = 语料与主题替换部分</span>
+                <span class="pr-legend-item"><span class="pr-var is-prompt-data"><span class="pr-var-tag">题面/数据</span>绿框高亮</span> = 首段需结合题目自写部分</span>
+              </div>` : ''}
 
             ${this.practiceShowPrompt ? `
               <div class="paper-section">
@@ -939,7 +1090,7 @@
                   <span class="paper-section-title">${paraNames[idx] || ('第' + (idx+1) + '段')}</span>
                   <button class="paper-swap-btn op-copy-pr-para" data-raw="${encodeURIComponent(ep)}" title="复制本段">⇄</button>
                 </div>
-                <div class="paper-en-text">${ep}</div>
+                <div class="paper-en-text">${this.practiceShowHighlight ? this.highlightPracticeParagraph(ep, idx, item.tierKey) : this.escapeHtml(ep)}</div>
                 ${this.practiceShowCn && cnParas[idx] ? `<div class="paper-cn-text">${cnParas[idx]}</div>` : ''}
               </div>
             `).join('')}
@@ -977,6 +1128,9 @@
           this.renderPracticePanel();
         });
       });
+
+      const hlT = panel.querySelector('#opPrHighlightToggle');
+      if (hlT) hlT.addEventListener('change', (e) => { this.practiceShowHighlight = !!e.target.checked; this.renderPracticePanel(); });
 
       const prT = panel.querySelector('#opPrPromptToggle');
       if (prT) prT.addEventListener('change', (e) => { this.practiceShowPrompt = !!e.target.checked; this.renderPracticePanel(); });

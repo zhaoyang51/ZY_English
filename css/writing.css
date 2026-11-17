@@ -846,3 +846,82 @@ body.mode-writing.theme-dark {
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================================================
+   Practice Essay Variable vs Fixed Skeleton Highlighting
+   ========================================================================== */
+.pr-legend-bar {
+  padding: 10px 28px;
+  border-bottom: 1px solid var(--w-line);
+  font-size: 0.86em;
+  color: var(--w-muted);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.pr-var {
+  display: inline;
+  background: rgba(37, 99, 235, 0.08);
+  border-bottom: 1.5px solid var(--w-accent);
+  color: var(--w-ink);
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.pr-var-tag {
+  display: inline-block;
+  font-size: 0.72em;
+  font-weight: 700;
+  color: var(--w-accent);
+  background: rgba(37, 99, 235, 0.12);
+  padding: 0 5px;
+  margin-right: 4px;
+  border-radius: 3px;
+  vertical-align: 1px;
+  line-height: 1.45;
+  user-select: none;
+}
+
+.pr-var.is-prompt-data {
+  background: rgba(16, 185, 129, 0.09);
+  border-bottom-color: #059669;
+}
+
+.pr-var.is-prompt-data .pr-var-tag {
+  color: #059669;
+  background: rgba(16, 185, 129, 0.14);
+}
+
+body.mode-writing.theme-parchment .pr-var {
+  background: rgba(154, 91, 19, 0.09);
+}
+
+body.mode-writing.theme-parchment .pr-var-tag {
+  background: rgba(154, 91, 19, 0.15);
+}
+
+body.mode-writing.theme-dark .pr-var {
+  background: rgba(96, 165, 250, 0.16);
+}
+
+body.mode-writing.theme-dark .pr-var-tag {
+  background: rgba(96, 165, 250, 0.22);
+}
+
+body.mode-writing.theme-dark .pr-var.is-prompt-data {
+  background: rgba(52, 211, 153, 0.14);
+  border-bottom-color: #34d399;
+}
+
+body.mode-writing.theme-dark .pr-var.is-prompt-data .pr-var-tag {
+  color: #34d399;
+  background: rgba(52, 211, 153, 0.2);
+}
+
+@media (max-width: 768px) {
+  .pr-legend-bar {
+    padding: 10px 18px;
+  }
+}
