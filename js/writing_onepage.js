@@ -196,6 +196,8 @@
       this.renderPanel(tabKey);
       const scrollHost = document.getElementById('writingSection');
       if (scrollHost) scrollHost.scrollTop = 0;
+      const activePanel = this.container.querySelector('#opPanel_' + tabKey);
+      if (activePanel) activePanel.scrollTop = 0;
     },
 
     render() {
@@ -806,6 +808,7 @@
         btn.addEventListener('click', () => {
           this.corpusFilterId = btn.dataset.vid;
           this.renderCorpusPanel();
+          panel.scrollTop = 0;
         });
       });
 
@@ -1358,9 +1361,8 @@
 
       if (scrollTopOnStep) {
         const scrollHost = typeof document.getElementById === 'function' ? document.getElementById('writingSection') : null;
-        if (scrollHost && scrollHost.scrollTop > 120) {
-          scrollHost.scrollTop = 0;
-        }
+        if (scrollHost && scrollHost.scrollTop > 80) scrollHost.scrollTop = 0;
+        if (panel && panel.scrollTop > 0) panel.scrollTop = 0;
       }
     }
   };

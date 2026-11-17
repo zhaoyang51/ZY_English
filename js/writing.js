@@ -214,6 +214,9 @@
       if (this.container) {
         this.container.scrollTop = 0;
       }
+      if (targetPanel) {
+        targetPanel.scrollTop = 0;
+      }
 
       if (tabKey === 'pastExams') {
         const yearSelect = document.getElementById('examYearSelect');
