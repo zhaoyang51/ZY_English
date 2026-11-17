@@ -25,7 +25,7 @@ body.mode-writing .topbar {
   z-index: 100 !important;
 }
 
-.writing-section {
+body.mode-writing {
   --w-bg: #f6f5f1;
   --w-paper: #fcfbfa;
   --w-ink: #1f2937;
@@ -36,7 +36,35 @@ body.mode-writing .topbar {
   --w-slot-line: #374151;
   --w-hover: rgba(0, 0, 0, 0.03);
   --w-pill-bg: #efede7;
+}
 
+body.mode-writing.theme-parchment {
+  --w-bg: #f4eee0;
+  --w-paper: #faf5e9;
+  --w-ink: #382d21;
+  --w-muted: #7a6d5a;
+  --w-line: #e8e0ce;
+  --w-border: #dfd6c3;
+  --w-accent: #9a5b13;
+  --w-slot-line: #5c4932;
+  --w-hover: rgba(90, 60, 20, 0.04);
+  --w-pill-bg: #ebe2ce;
+}
+
+body.mode-writing.theme-dark {
+  --w-bg: #0f172a;
+  --w-paper: #161f30;
+  --w-ink: #e5e7eb;
+  --w-muted: #9ca3af;
+  --w-line: #243044;
+  --w-border: #2c3a52;
+  --w-accent: #60a5fa;
+  --w-slot-line: #9ca3af;
+  --w-hover: rgba(255, 255, 255, 0.04);
+  --w-pill-bg: #1e293b;
+}
+
+.writing-section {
   display: block !important;
   flex: 1 1 auto !important;
   min-height: 0 !important;
@@ -53,32 +81,6 @@ body.mode-writing .topbar {
   background: var(--w-bg);
   color: var(--w-ink);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-}
-
-body.theme-parchment .writing-section {
-  --w-bg: #f4eee0;
-  --w-paper: #faf5e9;
-  --w-ink: #382d21;
-  --w-muted: #7a6d5a;
-  --w-line: #e8e0ce;
-  --w-border: #dfd6c3;
-  --w-accent: #9a5b13;
-  --w-slot-line: #5c4932;
-  --w-hover: rgba(90, 60, 20, 0.04);
-  --w-pill-bg: #ebe2ce;
-}
-
-body.theme-dark .writing-section {
-  --w-bg: #0f172a;
-  --w-paper: #161f30;
-  --w-ink: #e5e7eb;
-  --w-muted: #9ca3af;
-  --w-line: #243044;
-  --w-border: #2c3a52;
-  --w-accent: #60a5fa;
-  --w-slot-line: #9ca3af;
-  --w-hover: rgba(255, 255, 255, 0.04);
-  --w-pill-bg: #1e293b;
 }
 
 .writing-inner-container {
@@ -534,23 +536,49 @@ body.theme-dark .writing-section {
   position: fixed;
   inset: 0;
   z-index: 2500;
-  background: rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(1px);
 }
 
 .slot-popover {
   position: fixed;
   z-index: 2501;
-  width: 420px;
+  width: 460px;
   max-width: calc(100vw - 24px);
-  max-height: 75vh;
+  max-height: 78vh;
   display: flex;
   flex-direction: column;
-  background: var(--w-paper);
-  border: 1px solid var(--w-border);
-  border-radius: 10px;
-  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.16);
+  background-color: var(--w-paper, #fcfbfa);
+  color: var(--w-ink, #1f2937);
+  border: 1px solid var(--w-border, #e2dfd7);
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
   overflow: hidden;
   animation: writingFadeIn 0.14s ease-out;
+}
+
+.popover-val-pills {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin: 8px 0 6px;
+}
+
+.popover-val-pill {
+  background: transparent;
+  border: 1px solid var(--w-border, #e2dfd7);
+  color: var(--w-muted, #6b7280);
+  font-size: 0.78em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.popover-val-pill.active {
+  background: var(--w-ink, #1f2937);
+  color: var(--w-paper, #fcfbfa);
+  border-color: var(--w-ink, #1f2937);
+  font-weight: 600;
 }
 
 .slot-popover-head {

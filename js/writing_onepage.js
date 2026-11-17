@@ -358,7 +358,7 @@
                 <option value="${c.id}" ${st.selectedValue === c.id ? 'selected' : ''}>价值观语料库：${c.index}. ${c.name}</option>
               `).join('')}
             </select>
-            <button class="paper-text-btn" id="opFillDemoBtn" title="填入当前价值观真题套写示范">填入示范</button>
+            <button class="paper-text-btn" id="opFillDemoBtn" title="填入当前价值观真题套写示范">填入【${(corpus.find(c => c.id === st.selectedValue) || { name: '示范' }).name}】示范</button>
             <button class="paper-text-btn" id="opClearSlotsBtn" title="还原为纯虚线填空模板">清空空位</button>
           </div>
         </div>
@@ -371,7 +371,7 @@
                 ${this.isFullscreen ? '✕ 退出' : '⤢'}
               </button>
               <span style="font-size:0.84em;color:var(--w-muted)">
-                ${st.tier === 'fast' ? '全题型通用' : MATERIAL_NAMES[st.materialType]} · 点击文中虚线直接填词
+                ${st.tier === 'fast' ? '全题型通用' : MATERIAL_NAMES[st.materialType]} · 当前语料【${(corpus.find(c => c.id === st.selectedValue) || { name: '和谐' }).name}】 · 点击文中虚线填词
               </span>
             </div>
             <div class="paper-toolbar-right">
@@ -443,7 +443,23 @@
       const valSel = panel.querySelector('#opPaperValueSelect');
       if (valSel) {
         valSel.addEventListener('change', (e) => {
-          this.builderState.selectedValue = e.target.value;
+          const newVal = e.target.value;
+          this.builderState.selectedValue = newVal;
+          const valObj = corpus.find(c => c.id === newVal);
+          const vName = valObj ? valObj.name : newVal;
+          const hasFilled = !!(this.builderState.slots.theme || this.builderState.slots.behavior || this.builderState.slots.strategy);
+          if (hasFilled && VALUE_PRESETS[newVal]) {
+            this.builderState.slots = Object.assign({}, VALUE_PRESETS[newVal]);
+            this.builderState.materialType = VALUE_PRESETS[newVal].chartType === 'scene' ? 'picture' : (newVal === 'prosperity' ? 'dynamic_chart' : 'static_chart');
+            if (typeof window.showToast === 'function') {
+              window.showToast(`已切换并填入【${vName}】示范搭配`);
+            }
+          } else {
+            if (typeof window.showToast === 'function') {
+              window.showToast(`已切换语料库为【${vName}】，点击文中虚线可选词`);
+            }
+          }
+          this.renderPaperPanel();
         });
       }
 
@@ -531,8 +547,8 @@
       const meta = SLOT_LABELS[slotKey] || { name: slotKey, hint: '' };
       const corpus = this.getData().corpus || [];
       const curValObj = corpus.find(c => c.id === this.builderState.selectedValue) || corpus[0];
+      const supportsValuesSwitch = !!(meta.corpusKey || slotKey === 'theme');
 
-      // Gather corpus options for this slot across selected value (and all values if needed)
       let options = [];
       if (meta.corpusKey && curValObj && curValObj.slots && curValObj.slots[meta.corpusKey]) {
         options = curValObj.slots[meta.corpusKey].filter(x => x.en);
@@ -542,7 +558,8 @@
           { en: 'line chart', zh: '折线图' },
           { en: 'pie chart', zh: '饼图' },
           { en: 'table', zh: '表格' },
-          { en: 'scene', zh: '图画场景' }
+          { en: 'scene', zh: '图画场景' },
+          { en: 'passage', zh: '文本评论材料' }
         ];
       } else if (slotKey === 'authority') {
         options = [
@@ -552,8 +569,14 @@
           { en: 'China Daily', zh: '中国日报' },
           { en: 'Guangming Daily', zh: '光明日报' }
         ];
+      } else if (slotKey === 'desc') {
+        options = [
+          { en: 'by the river, an elderly resident who seems delighted watches a dragon boat race, saying that the event in the village is becoming livelier', zh: '单主语图画公式（示例：23英一龙舟赛）' },
+          { en: 'at a desk, a girl who is working attentively wants to finish early, while a boy sits back at another desk, saying that he will not start until the last minute', zh: '双主语对比图画公式（示例：20英一习惯）' },
+          { en: 'in a survey of [调查对象], [最大类别] accounts for the largest share, at [50%], followed by [类别2] and [类别3] at [30%] and [20%] respectively', zh: '静态图表占比公式（饼图/单年柱图/表）' },
+          { en: 'between [2014] and [2023], the proportion of [类别1] rose from about [20%] to around [65%], while that of [类别2] increased slightly from roughly [15%] to approximately [25%]', zh: '动态图表趋势公式（多年份折线/柱图）' }
+        ];
       } else if (slotKey === 'theme' && curValObj) {
-        // Offer preset theme + top strategies as theme candidates
         const preset = VALUE_PRESETS[curValObj.id];
         if (preset) options.push({ en: preset.theme, zh: '推荐核心主题词' });
         ((curValObj.slots && curValObj.slots.strategy) || []).slice(0, 6).forEach(stItem => {
@@ -570,20 +593,34 @@
       pop.id = 'opSlotPopover';
 
       const curVal = this.builderState.slots[slotKey] || '';
+      const isMulti = slotKey === 'desc';
+
       pop.innerHTML = `
         <div class="slot-popover-head">
           <strong>填写【${meta.name}】</strong>
           <button class="paper-icon-btn" id="opPopoverClose">✕</button>
         </div>
         <div class="slot-popover-body">
-          <div style="font-size:0.8em;color:var(--w-muted);margin-bottom:8px">${meta.hint}</div>
-          <input type="text" class="slot-popover-input" id="opPopoverInput" value="${curVal.replace(/"/g, '&quot;')}" placeholder="直接输入英文，按 Enter 确认...">
+          <div style="font-size:0.8em;color:var(--w-muted);margin-bottom:8px;line-height:1.5">${meta.hint}</div>
+          ${isMulti
+            ? `<textarea class="slot-popover-input" id="opPopoverInput" rows="3" placeholder="直接输入英文描述，按 Ctrl+Enter 或点击确认...">${curVal.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</textarea>`
+            : `<input type="text" class="slot-popover-input" id="opPopoverInput" value="${curVal.replace(/"/g, '&quot;')}" placeholder="直接输入英文，按 Enter 确认...">`
+          }
           <div style="display:flex;justify-content:flex-end;gap:8px">
             <button class="paper-text-btn" id="opPopoverClear">清除</button>
             <button class="paper-text-btn" id="opPopoverSave" style="background:var(--w-ink);color:var(--w-paper);border-color:var(--w-ink)">确认填入</button>
           </div>
+          ${supportsValuesSwitch ? `
+            <div class="popover-val-pills">
+              ${corpus.filter(c => c.index <= 7).map(c => `
+                <button class="popover-val-pill ${this.builderState.selectedValue === c.id ? 'active' : ''}" data-vid="${c.id}">${c.index}.${c.name}</button>
+              `).join('')}
+            </div>
+          ` : ''}
           ${options.length > 0 ? `
-            <div style="font-size:0.8em;color:var(--w-muted);margin-top:12px">点击下方【${curValObj ? curValObj.name : ''}】语料直接填入：</div>
+            <div style="font-size:0.8em;color:var(--w-muted);margin-top:6px">
+              ${slotKey === 'desc' ? '点击下方万能句型公式填入模板并改写细节：' : `点击下方【${curValObj ? curValObj.name : ''}】语料直接填入：`}
+            </div>
             <div class="slot-popover-opts">
               ${options.map(o => `
                 <button class="slot-popover-opt" data-en="${encodeURIComponent(o.en)}">
@@ -599,15 +636,14 @@
       document.body.appendChild(backdrop);
       document.body.appendChild(pop);
 
-      // Position near anchorEl safely within viewport
       const rect = anchorEl.getBoundingClientRect();
-      const popW = Math.min(420, window.innerWidth - 24);
+      const popW = Math.min(460, window.innerWidth - 24);
       let left = rect.left;
       if (left + popW > window.innerWidth - 12) left = window.innerWidth - popW - 12;
       if (left < 12) left = 12;
       let top = rect.bottom + 8;
-      if (top + 320 > window.innerHeight) {
-        top = Math.max(12, rect.top - 330);
+      if (top + 380 > window.innerHeight) {
+        top = Math.max(12, rect.top - 390);
       }
       pop.style.left = left + 'px';
       pop.style.top = top + 'px';
@@ -615,9 +651,10 @@
       const inp = document.getElementById('opPopoverInput');
       if (inp) {
         inp.focus();
-        inp.select();
+        if (!isMulti) inp.select();
         inp.addEventListener('keydown', (e) => {
-          if (e.key === 'Enter') {
+          if (e.key === 'Enter' && (!isMulti || e.ctrlKey || e.metaKey)) {
+            e.preventDefault();
             this.builderState.slots[slotKey] = inp.value.trim();
             this.closeSlotPopover();
             this.renderPaperPanel();
@@ -642,11 +679,34 @@
         this.renderPaperPanel();
       });
 
+      pop.querySelectorAll('.popover-val-pill').forEach(vBtn => {
+        vBtn.addEventListener('click', () => {
+          this.builderState.selectedValue = vBtn.dataset.vid;
+          this.renderPaperPanel();
+          // Re-open popover anchored at the refreshed slot element
+          const refreshedPanel = this.container.querySelector('#opPanel_opPaper');
+          const refreshedSpan = refreshedPanel && refreshedPanel.querySelector(`.slot-blank[data-slot="${slotKey}"]`);
+          if (refreshedSpan) {
+            this.openSlotPopover(refreshedSpan, slotKey);
+          } else {
+            this.closeSlotPopover();
+          }
+        });
+      });
+
       pop.querySelectorAll('.slot-popover-opt').forEach(optBtn => {
         optBtn.addEventListener('click', () => {
-          this.builderState.slots[slotKey] = decodeURIComponent(optBtn.dataset.en || '');
-          this.closeSlotPopover();
-          this.renderPaperPanel();
+          const picked = decodeURIComponent(optBtn.dataset.en || '');
+          if (slotKey === 'desc') {
+            if (inp) {
+              inp.value = picked;
+              inp.focus();
+            }
+          } else {
+            this.builderState.slots[slotKey] = picked;
+            this.closeSlotPopover();
+            this.renderPaperPanel();
+          }
         });
       });
     },
