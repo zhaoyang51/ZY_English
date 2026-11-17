@@ -39,8 +39,6 @@ button,select{touch-action:manipulation}
 .writingPaper,.prelude,.decisionLines,.themeStrip{overflow-wrap:break-word}
 .themeEn{overflow-wrap:anywhere}
 .mobileReferenceNav{display:none}
-.lessonWatermark{position:fixed;left:50%;top:50%;z-index:1000;transform:translate(-50%,-50%) rotate(-30deg);width:max-content;max-width:88vw;pointer-events:none;user-select:none;-webkit-user-select:none;color:rgba(0,0,0,.095);font-family:var(--zh);font-size:26px;font-size:clamp(16px,2.5vw,34px);font-weight:700;line-height:1.7;text-align:center;white-space:nowrap;letter-spacing:.06em}
-.lessonWatermark span{display:block}
 dialog{max-height:90vh;max-height:calc(var(--app-height,100vh) - 24px);width:min(1000px,94vw)}
 .dialogHead button{min-width:64px;min-height:44px;font-size:16px}
 .dialogImage{max-height:calc(var(--app-height,100vh) - 100px);padding:10px}
@@ -122,8 +120,7 @@ dialog.fallbackDialog[open]{display:block;position:fixed;inset:50% auto auto 50%
  .introTitle{font-size:24px;margin-bottom:10px}
  .analysisBlock{margin-bottom:18px}
  .analysisBlock.current{margin-left:-9px;padding-left:7px}
- .lessonWatermark{font-size:clamp(16px,4.2vw,26px);letter-spacing:0;line-height:1.7}
- .dialogHead{padding:6px 10px}.dialogHead h2{font-size:17px}
+  .dialogHead{padding:6px 10px}.dialogHead h2{font-size:17px}
 }
 @media(max-height:500px) and (min-width:520px){
  .topbar{min-height:50px;padding-top:4px;padding-bottom:4px}
@@ -136,8 +133,7 @@ dialog.fallbackDialog[open]{display:block;position:fixed;inset:50% auto auto 50%
  html,body{height:auto;overflow:visible}
  .layout,.writingPanel,.writingScroll{height:auto;display:block;overflow:visible;padding:0;margin:0;border:0}
  .topbar,.referenceColumn,.columnDivider,.writingHead,.mobileReferenceNav{display:none!important}
- .lessonWatermark{position:fixed;color:rgba(0,0,0,.095);font-size:28px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-}
+ }
 </style>
 <script id="mobile-watermark-compat">
 /* Small DOM compatibility fallback; no network requests or external assets. */
@@ -322,7 +318,7 @@ function openQuestion(){$('questionDialog').showModal();}
 $('openQuestion').onclick=openQuestion;$('questionViewport').onclick=openQuestion;$('questionViewport').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();openQuestion();}};$('closeQuestion').onclick=()=>$('questionDialog').close();
 document.addEventListener('keydown',e=>{if(allMode||$('questionDialog').open||e.altKey||e.ctrlKey||e.metaKey||e.shiftKey||e.target.closest('button,select,input,textarea,[role="button"],[role="separator"],[contenteditable="true"]'))return;if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();go(index+1);}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(index-1);}});
 initializeContent();setZoom(1);render({position:false});
-</script><div id="lessonWatermark" class="lessonWatermark" aria-hidden="true"><span>南萧时刻自信冷静</span><span>南萧极简考研</span></div>
+</script>
 <script id="mobile-watermark-runtime">
 /* Presentation extension: the approved lesson plan and lesson-data are unchanged. */
 (function(){
@@ -331,8 +327,7 @@ initializeContent();setZoom(1);render({position:false});
  const ref=document.getElementById('referenceColumn'),question=document.getElementById('questionPanel');
  const writingHead=document.querySelector('.writingHead'),theme=document.getElementById('themeStrip');
  const divider=document.getElementById('columnDivider'),dialog=document.getElementById('questionDialog');
- const watermark=document.getElementById('lessonWatermark');
- const media=window.matchMedia('(max-width:519px), (max-width:700px) and (min-height:501px)');
+  const media=window.matchMedia('(max-width:519px), (max-width:700px) and (min-height:501px)');
  let mobileView='question',mobileCollapsed=false,mobileRatio=.38,screenMode=null,resizeFrame=0,savedMobile=null;
  const nav=document.createElement('div');nav.className='mobileReferenceNav';nav.setAttribute('aria-label','题目与材料');
  const tabs={};
@@ -434,11 +429,10 @@ initializeContent();setZoom(1);render({position:false});
  function closeQuestion(){
    if(nativeDialog)dialog.close();else{dialog.removeAttribute('open');dialog.open=false;finishClose();}
  }
- function finishClose(){shade.hidden=true;if(!nativeDialog){layout.inert=false;document.querySelector('.topbar').inert=false;}document.body.appendChild(watermark);if(returnFocus&&returnFocus.focus)returnFocus.focus();}
+ function finishClose(){shade.hidden=true;if(!nativeDialog){layout.inert=false;document.querySelector('.topbar').inert=false;}if(returnFocus&&returnFocus.focus)returnFocus.focus();}
  openQuestion=function(){
    if(dialog.open)return;returnFocus=document.activeElement;
-   dialog.appendChild(watermark);
-   if(nativeDialog)dialog.showModal();else{shade.hidden=false;layout.inert=true;document.querySelector('.topbar').inert=true;dialog.classList.add('fallbackDialog');dialog.setAttribute('open','');dialog.setAttribute('role','dialog');dialog.setAttribute('aria-modal','true');dialog.open=true;}
+      if(nativeDialog)dialog.showModal();else{shade.hidden=false;layout.inert=true;document.querySelector('.topbar').inert=true;dialog.classList.add('fallbackDialog');dialog.setAttribute('open','');dialog.setAttribute('role','dialog');dialog.setAttribute('aria-modal','true');dialog.open=true;}
    document.getElementById('closeQuestion').focus();
  };
  document.getElementById('openQuestion').onclick=openQuestion;

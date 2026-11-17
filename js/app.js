@@ -576,7 +576,7 @@
     }
 
     let currentTier = getWritingBTier();
-    const fileUrl = (tierKey) => encodeURI(`大作文套写/英二_${yNum}_${tierKey}.html`);
+    const fileUrl = (tierKey) => encodeURI(`大作文套写/英二_${yNum}_${tierKey}.html`) + '?v=20261117_nowm_v1';
 
     yuqueContainer.innerHTML = `
       <div class="writing-b-tier-bar" role="toolbar" aria-label="大作文套写版本切换">
