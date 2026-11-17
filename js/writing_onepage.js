@@ -1282,19 +1282,10 @@
           <div class="guide-progress-track" aria-hidden="true">
             <div class="guide-progress-fill" style="width:${pct}%"></div>
           </div>
-          ${!this.guideShowAll ? `
-            <div class="guide-step-pills" role="tablist" aria-label="步骤快速跳转">
-              ${sections.map((sec, idx) => {
-                const shortTitle = (sec.title || '').replace(/^(\d+\s+)/, '$1').split('：')[0];
-                const stateCls = idx === cur ? 'active' : (idx < cur ? 'done' : '');
-                return `<button type="button" class="guide-step-pill ${stateCls}" data-step="${idx}" title="${this.escapeHtml(sec.title)}">${this.escapeHtml(shortTitle)}</button>`;
-              }).join('')}
-            </div>
-          ` : ''}
           ${visibleSections.map(sec => `
             <div class="paper-section">
               <div class="paper-section-head">
-                <span class="paper-section-title">${sec.icon ? sec.icon + ' ' : ''}${sec.title}</span>
+                <span class="paper-section-title">${sec.title}</span>
               </div>
               ${(sec.items || []).map(it => `
                 <div class="guide-item-block">
@@ -1310,8 +1301,8 @@
             </div>
             <div class="guide-stepper-controls">
               ${!this.guideShowAll ? `
-                <button type="button" class="guide-ctrl-btn" id="opGuideFooterPrevBtn" ${cur <= 0 ? 'disabled' : ''}>← 上一步</button>
-                <button type="button" class="guide-ctrl-btn primary" id="opGuideFooterNextBtn" ${cur >= total - 1 ? 'disabled' : ''}>${cur >= total - 1 ? '已至最后一步' : '下一步 →'}</button>
+                <button type="button" class="guide-ctrl-btn" id="opGuideFooterPrevBtn" ${cur <= 0 ? 'disabled' : ''}>上一步</button>
+                <button type="button" class="guide-ctrl-btn primary" id="opGuideFooterNextBtn" ${cur >= total - 1 ? 'disabled' : ''}>${cur >= total - 1 ? '已至最后一步' : '下一步'}</button>
               ` : `
                 <button type="button" class="guide-ctrl-btn primary" id="opGuideFooterBackStepBtn">回到第 ${cur + 1} 步精学</button>
               `}
@@ -1364,9 +1355,6 @@
           goStep(Number(e.target.value));
         });
       }
-      panel.querySelectorAll('.guide-step-pill').forEach(btn => {
-        btn.addEventListener('click', () => goStep(Number(btn.dataset.step)));
-      });
 
       if (scrollTopOnStep) {
         const scrollHost = typeof document.getElementById === 'function' ? document.getElementById('writingSection') : null;

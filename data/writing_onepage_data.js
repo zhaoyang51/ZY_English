@@ -2002,7 +2002,6 @@ window.WRITING_ONEPAGE_DATA = {
     "sections": [
       {
         "id": "step0_truth",
-        "icon": "🎯",
         "title": "01 考纲真相：为什么必须“宏大叙事化”？",
         "items": [
           {
@@ -2013,7 +2012,6 @@ window.WRITING_ONEPAGE_DATA = {
       },
       {
         "id": "step1_stance",
-        "icon": "🧭",
         "title": "02 第一步：确定立意（正面积极 + 多图归一）",
         "items": [
           {
@@ -2028,7 +2026,6 @@ window.WRITING_ONEPAGE_DATA = {
       },
       {
         "id": "step2_theme",
-        "icon": "⚖️",
         "title": "03 主题词定调：向上对齐价值观，向下具体化",
         "items": [
           {
@@ -2039,7 +2036,6 @@ window.WRITING_ONEPAGE_DATA = {
       },
       {
         "id": "step3_p1_frames",
-        "icon": "📐",
         "title": "04 第二步：选择第一段写法（高级版 vs 简速通用版）",
         "items": [
           {
@@ -2054,7 +2050,6 @@ window.WRITING_ONEPAGE_DATA = {
       },
       {
         "id": "step4_p1_picture",
-        "icon": "🎨",
         "title": "05 第三步（图画类）：描述万能公式与表情动作库",
         "items": [
           {
@@ -2073,7 +2068,6 @@ window.WRITING_ONEPAGE_DATA = {
       },
       {
         "id": "step5_p1_chart_mix",
-        "icon": "📊",
         "title": "06 第三步（图表/文本/混合类）：万能公式与应急救命句",
         "items": [
           {
@@ -2092,7 +2086,6 @@ window.WRITING_ONEPAGE_DATA = {
       },
       {
         "id": "step6_p2_full",
-        "icon": "🏛️",
         "title": "07 第四步（第二段·满分/高级版）：五句框架与 9 类填空表",
         "items": [
           {
@@ -2107,7 +2100,6 @@ window.WRITING_ONEPAGE_DATA = {
       },
       {
         "id": "step7_p2_lite_fast",
-        "icon": "⚡",
         "title": "08 第四步（第二段·简化版 & 速通版）：减负 5 类填空",
         "items": [
           {
@@ -2122,7 +2114,6 @@ window.WRITING_ONEPAGE_DATA = {
       },
       {
         "id": "step8_p3_checklist",
-        "icon": "✅",
         "title": "09 第五步：第三段收束与考前最小背诵清单",
         "items": [
           {
@@ -2137,7 +2128,6 @@ window.WRITING_ONEPAGE_DATA = {
       },
       {
         "id": "step9_variants",
-        "icon": "🔄",
         "title": "10 进阶防撞车：第二段高分句式同义替换库",
         "items": [
           {
