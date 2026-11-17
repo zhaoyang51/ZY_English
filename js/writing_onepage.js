@@ -131,6 +131,7 @@
     corpusSearch: '',
     practiceYear: 2026,
     practiceTier: 'full',
+    practiceShowPrompt: true,
     practiceShowCn: false,
     practiceShowAnalysis: false,
     builderState: {
@@ -876,6 +877,9 @@
       const cnParas = item ? item.cnEssay.split('\n\n') : [];
       const paraNames = ['第一段 · 材料与主题', '第二段 · 分析与论证', '第三段 · 总结与措施'];
 
+      const promptObj = (window.WRITING_PROMPTS && window.WRITING_PROMPTS.e2_part_b && window.WRITING_PROMPTS.e2_part_b[this.practiceYear]) || {};
+      const directionsEn = promptObj.directionsEn || `48. Directions:\nWrite an essay based on the chart below. In your essay, you should\n1) describe and interpret the chart, and\n2) give your comments.\nWrite your answer in about 150 words on the ANSWER SHEET. (15 points)`;
+
       panel.innerHTML = `
         <div class="writing-inline-bar">
           <div class="filter-group">
@@ -899,6 +903,11 @@
               </div>
               <div class="paper-toolbar-right">
                 <label class="w-switch-label">
+                  <input type="checkbox" class="w-switch-input" id="opPrPromptToggle" ${this.practiceShowPrompt ? 'checked' : ''}>
+                  <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
+                  <span>真题题目</span>
+                </label>
+                <label class="w-switch-label">
                   <input type="checkbox" class="w-switch-input" id="opPrCnToggle" ${this.practiceShowCn ? 'checked' : ''}>
                   <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
                   <span>中英对照</span>
@@ -910,6 +919,19 @@
                 </label>
               </div>
             </div>
+
+            ${this.practiceShowPrompt ? `
+              <div class="paper-section">
+                <div class="paper-section-head">
+                  <span class="paper-section-title">真题原题 · 48. Directions</span>
+                  <button class="paper-text-btn" id="opPrMockExamBtn" data-year="${item.year}">进入答题卡模考</button>
+                </div>
+                <div class="paper-en-text no-indent" style="white-space:pre-wrap;font-size:0.94em;line-height:1.75;margin-bottom:16px">${directionsEn}</div>
+                <div style="text-align:center;background:#ffffff;padding:12px;border-radius:8px;border:1px solid var(--w-line)">
+                  <img src="images/charts/chart_${item.year}.jpg" alt="${item.year}年英语二大作文真题图表：${item.title}" style="max-width:580px;width:100%;height:auto;display:block;margin:0 auto" onerror="this.parentElement.style.display='none'" />
+                </div>
+              </div>
+            ` : ''}
 
             ${enParas.map((ep, idx) => `
               <div class="paper-section">
@@ -956,11 +978,23 @@
         });
       });
 
+      const prT = panel.querySelector('#opPrPromptToggle');
+      if (prT) prT.addEventListener('change', (e) => { this.practiceShowPrompt = !!e.target.checked; this.renderPracticePanel(); });
+
       const cnT = panel.querySelector('#opPrCnToggle');
       if (cnT) cnT.addEventListener('change', (e) => { this.practiceShowCn = !!e.target.checked; this.renderPracticePanel(); });
 
       const anaT = panel.querySelector('#opPrAnaToggle');
       if (anaT) anaT.addEventListener('change', (e) => { this.practiceShowAnalysis = !!e.target.checked; this.renderPracticePanel(); });
+
+      const mockBtn = panel.querySelector('#opPrMockExamBtn');
+      if (mockBtn) {
+        mockBtn.addEventListener('click', () => {
+          if (window.loadSectionFromWriting) {
+            window.loadSectionFromWriting('writing_b', mockBtn.dataset.year);
+          }
+        });
+      }
 
       panel.querySelectorAll('.op-copy-pr-para, #opPrCopyAllBtn').forEach(btn => {
         btn.addEventListener('click', () => this.copyText(decodeURIComponent(btn.dataset.raw || ''), btn));
