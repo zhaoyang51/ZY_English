@@ -591,8 +591,7 @@
     if (!WRITING_B_YEARS.includes(yNum)) {
       yuqueContainer.innerHTML = `
         <div class="yuque-empty-card">
-          <div class="empty-icon">📊</div>
-          <h3>${yNum} 年 Part B 大作文交互套写暂未收录</h3>
+          <h3>${yNum} 年 Part B 大作文套写暂未收录</h3>
           <p>《大作文套写》交互版目前收录 2020–2026 年考研英语二真题（含满分版、简化版、速通标准版、速通无脑版）。</p>
           <div class="writing-b-year-jumps">
             ${[2026, 2025, 2024, 2023, 2022, 2021, 2020].map(y => `
@@ -620,8 +619,7 @@
     yuqueContainer.innerHTML = `
       <div class="writing-b-tier-bar" role="toolbar" aria-label="大作文套写版本切换">
         <div class="writing-b-tier-info">
-          <span>📊 ${yNum} 年 Part B 大作文套写</span>
-          <span class="writing-b-tier-badge">交互式逐句套写</span>
+          <span>${yNum} 年 Part B 大作文套写</span>
         </div>
         <div class="writing-b-tier-tabs">
           ${WRITING_B_TIERS.map(t => `

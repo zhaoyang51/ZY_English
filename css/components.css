@@ -2717,16 +2717,6 @@ body.has-writing-b #floatingNavBar {
   color: var(--ink, #0f172a);
 }
 
-.writing-b-tier-badge {
-  font-size: 11.5px;
-  font-weight: 600;
-  padding: 2px 7px;
-  border-radius: 999px;
-  background: var(--accent-light, #eff6ff);
-  color: var(--accent, #2563eb);
-  border: 1px solid var(--border, #cbd5e1);
-}
-
 .writing-b-tier-tabs {
   display: flex;
   align-items: center;
