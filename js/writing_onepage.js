@@ -1,11 +1,6 @@
 /**
- * ZY_English One-Page Essay Module (27届大作文一页纸 · 南萧核心价值观体系)
- * Provides:
- * 1. opTemplates: 三档万能模板 (满分/简化/速通) & 首段公式
- * 2. opCorpus: 七类核心价值观语料库 + 搜索过滤 + 点击复制 / 一键填入套写器
- * 3. opBuilder: 实时交互套写器 (档位切换 + 材料类型 + 语料联动快选 + 词数统计 + 高亮预览 + 一键复制)
- * 4. opPractice: 2020-2026 英语二 28 篇四档套写实操 & 横向同屏对比
- * 5. opGuide: 宏大叙事化考纲真相、多图审题法、动作表情高频词库
+ * ZY_English One-Page Essay Module (Minimalist Paper Edition)
+ * 27届大作文一页纸 · 极简纸感交互稿纸版
  */
 
 (function(window) {
@@ -105,25 +100,57 @@
     }
   };
 
+  const SLOT_LABELS = {
+    theme: { name: '主题词', hint: '贯穿全文的核心名词或动名词短语，如 fostering well-rounded development' },
+    chartType: { name: '图表名称', hint: 'bar chart / line chart / pie chart / table' },
+    desc: { name: '题面描述', hint: '第一段对图画人物动作、图表起止/占比数据或文段核心观点的英文描述' },
+    behavior: { name: '具体行为', hint: '接在 the way people / desire to 后，填动词原形短语', corpusKey: 'behavior' },
+    outcome: { name: '可见成果', hint: '接在 contributing to 后，填名词或动名词短语', corpusKey: 'outcome' },
+    domain: { name: '相关领域', hint: '接在 National policies on 后，填名词短语', corpusKey: 'domain' },
+    ability: { name: '个人能力/行为', hint: '接在 empowering individuals to 后，填动词原形短语', corpusKey: 'ability' },
+    socialEffect: { name: '社会效果', hint: '接在 by 后，填 V-ing 动名词短语', corpusKey: 'socialEffect' },
+    strategy: { name: '相关战略', hint: '接在 national strategies for / commitment to 后，填名词短语', corpusKey: 'strategy' },
+    socialChange: { name: '社会变化', hint: '接在 as this principle takes root, 后，填完整主谓小句', corpusKey: 'socialChange' },
+    authority: { name: '权威机构/期刊', hint: '如 Beijing Normal University / Peking University / China Daily' }
+  };
+
+  const MATERIAL_ORDER = ['picture', 'static_chart', 'dynamic_chart', 'passage'];
+  const MATERIAL_NAMES = {
+    picture: '图画题',
+    static_chart: '静态图表',
+    dynamic_chart: '动态图表',
+    passage: '文本评论'
+  };
+
   const WritingOnePageModule = {
     container: null,
-    currentSubTab: 'opTemplates',
-    activeTemplateTier: 'full',
+    currentSubTab: 'opPaper',
+    showBilingual: false,
+    isFullscreen: false,
     corpusFilterId: 'all',
     corpusSearch: '',
     practiceYear: 2026,
     practiceTier: 'full',
+    practiceShowCn: false,
+    practiceShowAnalysis: false,
     builderState: {
-      tier: 'full',
-      materialType: 'static_chart',
+      tier: 'full', // full | simplified | fast
+      materialType: 'picture',
       fastCarrier: 'bar chart',
-      selectedValue: 'civilization',
-      slots: Object.assign({}, VALUE_PRESETS.civilization),
-      fastBranches: {
-        s1: 'theme',
-        s2: 'reason',
-        s4: 'impetus',
-        s5: 'role'
+      selectedValue: 'harmony',
+      fastMode: 'theme', // theme (图画/通用倾向) | trend (图表趋势倾向)
+      slots: {
+        theme: '',
+        chartType: 'bar chart',
+        desc: '',
+        behavior: '',
+        outcome: '',
+        domain: '',
+        ability: '',
+        socialEffect: '',
+        strategy: '',
+        socialChange: '',
+        authority: 'Beijing Normal University'
       }
     },
 
@@ -168,26 +195,14 @@
     render() {
       this.container.innerHTML = `
         <nav class="writing-nav-tabs op-nav-tabs" role="tablist">
-          <button class="writing-tab-btn op-tab-btn ${this.currentSubTab === 'opTemplates' ? 'active' : ''}" data-optab="opTemplates" role="tab">
-            <span>📄</span> 三档万能模板
-          </button>
-          <button class="writing-tab-btn op-tab-btn ${this.currentSubTab === 'opCorpus' ? 'active' : ''}" data-optab="opCorpus" role="tab">
-            <span>🧭</span> 七类核心价值观语料库
-          </button>
-          <button class="writing-tab-btn op-tab-btn ${this.currentSubTab === 'opBuilder' ? 'active' : ''}" data-optab="opBuilder" role="tab">
-            <span>⚡</span> 实时交互套写器
-          </button>
-          <button class="writing-tab-btn op-tab-btn ${this.currentSubTab === 'opPractice' ? 'active' : ''}" data-optab="opPractice" role="tab">
-            <span>📝</span> 20-26英二四档实操
-          </button>
-          <button class="writing-tab-btn op-tab-btn ${this.currentSubTab === 'opGuide' ? 'active' : ''}" data-optab="opGuide" role="tab">
-            <span>💡</span> 宏大叙事与使用说明
-          </button>
+          <button class="writing-tab-btn op-tab-btn ${this.currentSubTab === 'opPaper' ? 'active' : ''}" data-optab="opPaper" role="tab">模板与套写稿纸</button>
+          <button class="writing-tab-btn op-tab-btn ${this.currentSubTab === 'opCorpus' ? 'active' : ''}" data-optab="opCorpus" role="tab">七类价值观语料</button>
+          <button class="writing-tab-btn op-tab-btn ${this.currentSubTab === 'opPractice' ? 'active' : ''}" data-optab="opPractice" role="tab">20-26英二实操</button>
+          <button class="writing-tab-btn op-tab-btn ${this.currentSubTab === 'opGuide' ? 'active' : ''}" data-optab="opGuide" role="tab">考纲与使用说明</button>
         </nav>
 
-        <div class="op-tab-panel writing-tab-panel ${this.currentSubTab === 'opTemplates' ? 'active' : ''}" id="opPanel_opTemplates"></div>
+        <div class="op-tab-panel writing-tab-panel ${this.currentSubTab === 'opPaper' ? 'active' : ''}" id="opPanel_opPaper"></div>
         <div class="op-tab-panel writing-tab-panel ${this.currentSubTab === 'opCorpus' ? 'active' : ''}" id="opPanel_opCorpus"></div>
-        <div class="op-tab-panel writing-tab-panel ${this.currentSubTab === 'opBuilder' ? 'active' : ''}" id="opPanel_opBuilder"></div>
         <div class="op-tab-panel writing-tab-panel ${this.currentSubTab === 'opPractice' ? 'active' : ''}" id="opPanel_opPractice"></div>
         <div class="op-tab-panel writing-tab-panel ${this.currentSubTab === 'opGuide' ? 'active' : ''}" id="opPanel_opGuide"></div>
       `;
@@ -200,18 +215,10 @@
     },
 
     renderPanel(tabKey) {
-      if (tabKey === 'opTemplates') this.renderTemplatesPanel();
+      if (tabKey === 'opPaper') this.renderPaperPanel();
       else if (tabKey === 'opCorpus') this.renderCorpusPanel();
-      else if (tabKey === 'opBuilder') this.renderBuilderPanel();
       else if (tabKey === 'opPractice') this.renderPracticePanel();
       else if (tabKey === 'opGuide') this.renderGuidePanel();
-    },
-
-    highlightSlots(text) {
-      if (!text) return '';
-      return String(text)
-        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-        .replace(/(【[^】]+】)/g, '<span class="template-variable">$1</span>');
     },
 
     copyText(text, btnEl) {
@@ -221,202 +228,434 @@
     },
 
     /* ==========================================================================
-       1. 三档万能模板 (满分版 / 简化版 / 速通版)
+       1. 极简一页纸模板与所见即所得点填套写工作台 (复刻截图风格)
        ========================================================================== */
-    renderTemplatesPanel() {
-      const panel = this.container.querySelector('#opPanel_opTemplates');
-      const data = this.getData().templates || {};
-      const p1Formulas = data.firstParagraphFormulas || [];
-      const tiers = data.tiers || [];
+    renderPaperPanel() {
+      const panel = this.container.querySelector('#opPanel_opPaper');
       if (!panel) return;
+      const st = this.builderState;
+      const s = st.slots;
+      const corpus = this.getData().corpus || [];
 
-      const currentTier = tiers.find(t => t.key === this.activeTemplateTier) || tiers[0];
+      const capFirst = (str) => {
+        if (!str) return '';
+        const t = str.trim();
+        return t.charAt(0).toUpperCase() + t.slice(1);
+      };
+
+      const renderSlot = (key, defaultLabel, forceCap = false) => {
+        const raw = (s[key] || '').trim();
+        if (!raw) {
+          return `<span class="slot-blank" data-slot="${key}" title="点击填写或选用语料">【${defaultLabel}】</span>`;
+        }
+        const safe = (forceCap ? capFirst(raw) : raw).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        return `<span class="slot-blank is-filled" data-slot="${key}" title="点击修改【${defaultLabel}】">${safe}</span>`;
+      };
+
+      const plainSlot = (key, defaultLabel, forceCap = false) => {
+        const raw = (s[key] || '').trim();
+        if (!raw) return `【${defaultLabel}】`;
+        return forceCap ? capFirst(raw) : raw;
+      };
+
+      // Build Paragraphs
+      let p1Html = '', p1Plain = '', p1Cn = '';
+      let p2Html = '', p2Plain = '', p2Cn = '';
+      let p3Html = '', p3Plain = '', p3Cn = '';
+
+      if (st.tier === 'fast') {
+        p1Html = `Though deceptively simple, this ${renderSlot('chartType', st.fastCarrier || '图表/画面名称')} conveys a meaningful message: ${renderSlot('desc', '图画／图表／文本描述')}. It serves as a compelling testament to the significance of ${renderSlot('theme', '主题词')}.`;
+        p1Plain = `Though deceptively simple, this ${plainSlot('chartType', st.fastCarrier || 'scene/chart')} conveys a meaningful message: ${plainSlot('desc', '图画／图表／文本描述')}. It serves as a compelling testament to the significance of ${plainSlot('theme', '主题词')}.`;
+        p1Cn = `尽管画面／【图表名称】／文本看似简单，却传递出深刻的寓意／信息：【图画／图表／文本描述】。它有力地证明了【主题词】的重要性。`;
+
+        const isTrend = st.fastMode === 'trend';
+        const s1H = isTrend
+          ? `To begin with, experience suggests that this trend/pattern can be explained in part by people's desire to ${renderSlot('behavior', '具体行为')}.`
+          : `To begin with, experience suggests that ${renderSlot('theme', '主题词')} finds direct expression in phenomena exemplified by the way people ${renderSlot('behavior', '具体行为')}.`;
+        const s1P = isTrend
+          ? `To begin with, experience suggests that this trend/pattern can be explained in part by people's desire to ${plainSlot('behavior', '具体行为')}.`
+          : `To begin with, experience suggests that ${plainSlot('theme', '主题词')} finds direct expression in phenomena exemplified by the way people ${plainSlot('behavior', '具体行为')}.`;
+
+        const s2 = isTrend
+          ? `This is hardly surprising, as people tend to favour behaviour they believe will have desirable consequences.`
+          : `Those who value such practices are exemplars of self-improvement and higher achievement.`;
+        const s3 = `However, we should recognise that social conditions fundamentally shape the choices available to individuals.`;
+
+        const s4H = isTrend
+          ? `From this perspective, it is the promotion of national strategies for ${renderSlot('strategy', '相关战略')} that provides impetus for these developments.`
+          : `From this perspective, a shared commitment to ${renderSlot('strategy', '相关战略')} can create the conditions for communities and nations to flourish in harmony, laying the groundwork for sustainable progress.`;
+        const s4P = isTrend
+          ? `From this perspective, it is the promotion of national strategies for ${plainSlot('strategy', '相关战略')} that provides impetus for these developments.`
+          : `From this perspective, a shared commitment to ${plainSlot('strategy', '相关战略')} can create the conditions for communities and nations to flourish in harmony, laying the groundwork for sustainable progress.`;
+
+        const s5H = isTrend
+          ? `A study published by ${renderSlot('authority', '权威机构／期刊')} lends support to the view that ${renderSlot('theme', '主题词')} plays an important role in driving this trend.`
+          : `An article published by ${renderSlot('authority', '权威机构／期刊')} lends support to the view that societies placing greater emphasis on ${renderSlot('theme', '主题词')} enjoy higher levels of vitality and prosperity, a pattern consistent across multiple indicators.`;
+        const s5P = isTrend
+          ? `A study published by ${plainSlot('authority', '权威机构／期刊')} lends support to the view that ${plainSlot('theme', '主题词')} plays an important role in driving this trend.`
+          : `An article published by ${plainSlot('authority', '权威机构／期刊')} lends support to the view that societies placing greater emphasis on ${plainSlot('theme', '主题词')} enjoy higher levels of vitality and prosperity, a pattern consistent across multiple indicators.`;
+
+        p2Html = `${s1H} ${s2} ${s3} ${s4H} ${s5H}`;
+        p2Plain = `${s1P} ${s2} ${s3} ${s4P} ${s5P}`;
+        p2Cn = isTrend
+          ? `首先，从经验上讲，这一趋势可以部分归因于人们【具体行为】的愿望。这并不令人意外，因为人们倾向于选择自己认为会带来理想结果的行为。然而，我们应该认识到，社会条件从根本上塑造了个人能够作出的选择。基于这一认识，正是国家在【相关战略】方面的战略倡导与推广，为这些发展变化提供了动力。【权威机构】刊载的一项研究支持这样一种观点，即【主题词】在推动这一趋势方面发挥着重要作用。`
+          : `首先，从经验上讲，【主题词】直接体现在以人们【具体行为】为代表的现象之中。重视这类做法的人，是自我完善和更高成就的典范。然而，我们应该认识到，社会条件从根本上塑造了个人能够作出的选择。基于这一认识，对【相关战略】的共同坚持能够为社区和国家在和谐中蓬勃发展创造条件，为可持续进步奠定基础。【权威机构】刊载的一篇文章支持这种观点，即更重视【主题词】的社会拥有更高水平的活力与繁荣。`;
+      } else {
+        if (st.materialType === 'picture') {
+          p1Html = `Though deceptively simple, this scene conveys a meaningful message: ${renderSlot('desc', '图画描述')}. It serves as a compelling testament to the significance of ${renderSlot('theme', '主题词')}.`;
+          p1Plain = `Though deceptively simple, this scene conveys a meaningful message: ${plainSlot('desc', '图画描述')}. It serves as a compelling testament to the significance of ${plainSlot('theme', '主题词')}.`;
+          p1Cn = `尽管画面看似简单，却传递出深刻的寓意：【图画描述】。它有力地证明了【主题词】的重要性。`;
+        } else if (st.materialType === 'passage') {
+          p1Html = `${renderSlot('theme', '主题词', true)} has long been a subject of public debate. The passage offers a fresh perspective on this issue, arguing that ${renderSlot('desc', '提炼文段大意')}. While this view may not convince everyone, I find it original and illuminating, and I agree with it wholeheartedly.`;
+          p1Plain = `${plainSlot('theme', '主题词', true)} has long been a subject of public debate. The passage offers a fresh perspective on this issue, arguing that ${plainSlot('desc', '提炼文段大意')}. While this view may not convince everyone, I find it original and illuminating, and I agree with it wholeheartedly.`;
+          p1Cn = `长期以来，【主题词】一直是公众讨论的议题。上述文段为这一问题提供了新的视角，主张【提炼文段大意】。虽然这一观点未必能说服所有人，但我认为它新颖而富有启发性，并完全赞同。`;
+        } else {
+          const noun = st.materialType === 'dynamic_chart' ? 'changes' : 'differences';
+          const defaultDesc = st.materialType === 'dynamic_chart'
+            ? 'Between 【起始时间】 and 【终止时间】, the proportion of 【类别一】 rose from about 【数据1】 to around 【数据2】'
+            : '【类别一】 accounts for the largest share, at 【最大比例】, followed by 【类别二】 and 【类别三】 at 【第二比例】 and 【第三比例】 respectively';
+          p1Html = `The figures in the ${renderSlot('chartType', '图表类型')} reveal notable ${noun} concerning ${renderSlot('theme', '主题词')}. ${renderSlot('desc', st.materialType === 'dynamic_chart' ? '动态趋势数据描述' : '静态占比数据描述', true)}.`;
+          p1Plain = `The figures in the ${plainSlot('chartType', '图表类型')} reveal notable ${noun} concerning ${plainSlot('theme', '主题词')}. ${plainSlot('desc', defaultDesc, true)}.`;
+          p1Cn = `图表中的数据揭示了有关【主题词】的显著${st.materialType === 'dynamic_chart' ? '变化' : '差异'}。${st.materialType === 'dynamic_chart' ? '从【起始时间】到【终止时间】，【类别一】从【数据1】变化至【数据2】。' : '【类别一】占比最高，随后是【类别二】、【类别三】。'}`;
+        }
+
+        if (st.tier === 'full') {
+          p2Html = `${renderSlot('theme', '主题词', true)} has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people ${renderSlot('behavior', '具体行为')}, ultimately contributing to ${renderSlot('outcome', '可见成果')}. National policies on ${renderSlot('domain', '相关领域')} likewise focus on empowering individuals to ${renderSlot('ability', '个人能力/行为')}. Beyond personal advancement, this principle can strengthen communities by ${renderSlot('socialEffect', '社会效果')}, laying the groundwork for sustainable progress. This is in line with national strategies for ${renderSlot('strategy', '相关战略')}: as this principle takes root, ${renderSlot('socialChange', '社会变化')}.`;
+          p2Plain = `${plainSlot('theme', '主题词', true)} has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people ${plainSlot('behavior', '具体行为')}, ultimately contributing to ${plainSlot('outcome', '可见成果')}. National policies on ${plainSlot('domain', '相关领域')} likewise focus on empowering individuals to ${plainSlot('ability', '个人能力/行为')}. Beyond personal advancement, this principle can strengthen communities by ${plainSlot('socialEffect', '社会效果')}, laying the groundwork for sustainable progress. This is in line with national strategies for ${plainSlot('strategy', '相关战略')}: as this principle takes root, ${plainSlot('socialChange', '社会变化')}.`;
+          p2Cn = `【主题词】受到关注，一个重要原因是其影响深远。在个人层面，它体现在人们【具体行为】的方式之中，最终有助于【可见成果】。国家在【相关领域】方面的政策，同样着重于使个人能够【个人能力/行为】。除个人发展之外，这一原则还可以通过【社会效果】增强社区，为可持续进步奠定基础。这与国家的【相关战略】相契合：随着这一理念逐渐扎根，【社会变化】。`;
+        } else {
+          p2Html = `${renderSlot('theme', '主题词', true)} has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people ${renderSlot('behavior', '具体行为')}, ultimately contributing to personal development and well-being. National policies on ${renderSlot('domain', '相关领域')} likewise focus on empowering individuals to achieve their full potential. Beyond personal advancement, this principle can strengthen communities by ${renderSlot('socialEffect', '社会效果')}, laying the groundwork for sustainable progress. As this principle takes root across society, it creates a ripple effect that benefits social harmony and long-term prosperity.`;
+          p2Plain = `${plainSlot('theme', '主题词', true)} has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people ${plainSlot('behavior', '具体行为')}, ultimately contributing to personal development and well-being. National policies on ${plainSlot('domain', '相关领域')} likewise focus on empowering individuals to achieve their full potential. Beyond personal advancement, this principle can strengthen communities by ${plainSlot('socialEffect', '社会效果')}, laying the groundwork for sustainable progress. As this principle takes root across society, it creates a ripple effect that benefits social harmony and long-term prosperity.`;
+          p2Cn = `【主题词】受到关注，一个重要原因是其影响深远。在个人层面，它体现在人们【具体行为】的方式之中，最终有助于个人发展与福祉。国家在【相关领域】方面的政策，同样着重于使个人能够充分发挥自身潜能。除个人发展之外，这一原则还可以通过【社会效果】增强社区，为可持续进步奠定基础。随着这一理念在全社会逐渐扎根，它会产生连锁效应，促进社会和谐与长期繁荣。`;
+        }
+      }
+
+      p3Html = `In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when ${renderSlot('theme', '主题词')} guides action. Promoting this principle is therefore not merely advisable but essential for holistic development.`;
+      p3Plain = `In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when ${plainSlot('theme', '主题词')} guides action. Promoting this principle is therefore not merely advisable but essential for holistic development.`;
+      p3Cn = `总之，人们已经形成一种基于理性认识的共识，即当【主题词】指导行动时，个人与社区都能获得不可估量的益处。因此，倡导这一原则不仅可取，而且是全面发展的必要条件。`;
+
+      const cleanDots = (str) => str.replace(/\.\./g, '.');
+      p1Html = cleanDots(p1Html); p1Plain = cleanDots(p1Plain);
+      const fullPlain = `${p1Plain}\n\n${p2Plain}\n\n${p3Plain}`;
+
+      // Count pure English scaffold/filled words (excluding 【...】 placeholders)
+      const pureEnglish = fullPlain.replace(/【[^】]+】/g, ' ');
+      const wordCount = (pureEnglish.match(/[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*/g) || []).length;
+      const blankCount = (fullPlain.match(/【[^】]+】/g) || []).length;
+      const totalSlotsCount = st.tier === 'full' ? 10 : (st.tier === 'simplified' ? 6 : 6);
 
       panel.innerHTML = `
-        <div class="writing-card" style="border-left:4px solid var(--accent)">
-          <div class="writing-card-header">
-            <div>
-              <h3 class="writing-card-title" style="margin:0">📌 27届大作文一页纸体系总览</h3>
-              <div style="font-size:0.88em;color:var(--muted);margin-top:4px">${data.intro || ''}</div>
-            </div>
-            <button class="writing-copy-btn op-go-builder-btn" style="background:var(--accent);color:#fff;border-color:var(--accent)">
-              ⚡ 打开实时交互套写器
-            </button>
-          </div>
-        </div>
-
-        <!-- 首段 4 类通用公式 -->
-        <div class="writing-card">
-          <div class="writing-card-header">
-            <h3 class="writing-card-title" style="margin:0">🖼️ 第一段：四大题型起手万能公式（图画 / 动态图 / 静态图 / 文本评论）</h3>
-            <span class="writing-badge badge-primary">英一 & 英二通用</span>
-          </div>
-          <div class="writing-card-body">
-            <div class="op-grid-2">
-              ${p1Formulas.map(f => `
-                <div class="op-subcard">
-                  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;gap:8px">
-                    <div>
-                      <strong style="color:var(--accent);font-size:1.02em">${f.name}</strong>
-                      <span class="writing-badge badge-primary" style="margin-left:6px">${f.badge}</span>
-                    </div>
-                    <button class="writing-copy-btn op-copy-raw" data-raw="${encodeURIComponent(f.en)}">📋 复制</button>
-                  </div>
-                  <div class="op-en-box">${this.highlightSlots(f.en)}</div>
-                  <div class="op-cn-box">${this.highlightSlots(f.cn)}</div>
-                  <div style="font-size:0.84em;color:var(--muted);margin-top:8px;line-height:1.55">
-                    💡 <strong>套用要点：</strong>${f.tips}
-                  </div>
-                </div>
-              `).join('')}
-            </div>
-          </div>
-        </div>
-
-        <!-- 三档通用模板切换 -->
-        <div class="filter-bar" style="margin-top:22px">
+        <!-- Top Lightweight Controls -->
+        <div class="writing-inline-bar">
           <div class="filter-group">
-            <span style="font-weight:700;font-size:0.92em;color:var(--muted)">选择模板档位对比：</span>
-            ${tiers.map(t => `
-              <button class="filter-btn op-tier-btn ${t.key === this.activeTemplateTier ? 'active' : ''}" data-tier="${t.key}">
-                ${t.name} (${t.slotCount}个空)
-              </button>
-            `).join('')}
+            <button class="filter-btn op-paper-tier ${st.tier === 'full' ? 'active' : ''}" data-tier="full">满分版</button>
+            <button class="filter-btn op-paper-tier ${st.tier === 'simplified' ? 'active' : ''}" data-tier="simplified">简化版</button>
+            <button class="filter-btn op-paper-tier ${st.tier === 'fast' ? 'active' : ''}" data-tier="fast">速通版</button>
+          </div>
+          <div class="filter-group">
+            <select id="opPaperValueSelect" class="w-select" title="选择配套语料核心价值观">
+              ${corpus.filter(c => c.index <= 7).map(c => `
+                <option value="${c.id}" ${st.selectedValue === c.id ? 'selected' : ''}>价值观语料库：${c.index}. ${c.name}</option>
+              `).join('')}
+            </select>
+            <button class="paper-text-btn" id="opFillDemoBtn" title="填入当前价值观真题套写示范">填入示范</button>
+            <button class="paper-text-btn" id="opClearSlotsBtn" title="还原为纯虚线填空模板">清空空位</button>
           </div>
         </div>
 
-        ${currentTier ? this.renderTierDetailCard(currentTier) : ''}
+        <!-- Minimalist Paper Sheet (Matches Reference Image) -->
+        <div class="paper-sheet ${this.isFullscreen ? 'is-fullscreen' : ''}" id="opMainPaperSheet">
+          <div class="paper-toolbar">
+            <div class="paper-toolbar-left">
+              <button class="paper-icon-btn" id="opToggleFullscreenBtn" title="${this.isFullscreen ? '退出全屏' : '展开聚焦'}">
+                ${this.isFullscreen ? '✕ 退出' : '⤢'}
+              </button>
+              <span style="font-size:0.84em;color:var(--w-muted)">
+                ${st.tier === 'fast' ? '全题型通用' : MATERIAL_NAMES[st.materialType]} · 点击文中虚线直接填词
+              </span>
+            </div>
+            <div class="paper-toolbar-right">
+              <label class="w-switch-label">
+                <input type="checkbox" class="w-switch-input" id="opBilingualToggle" ${this.showBilingual ? 'checked' : ''}>
+                <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
+                <span>中英对照</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Paragraph 1 -->
+          <div class="paper-section">
+            <div class="paper-section-head">
+              <span class="paper-section-title">第一段 · 材料与主题</span>
+              <button class="paper-swap-btn" id="opSwapP1Btn" title="切换首段材料类型（图画 / 静态图 / 动态图 / 文本）">
+                <span class="swap-hint">${st.tier === 'fast' ? '速通起手' : MATERIAL_NAMES[st.materialType]}</span> ⇄
+              </button>
+            </div>
+            <div class="paper-en-text">${p1Html}</div>
+            ${this.showBilingual ? `<div class="paper-cn-text">${p1Cn}</div>` : ''}
+          </div>
+
+          <!-- Paragraph 2 -->
+          <div class="paper-section">
+            <div class="paper-section-head">
+              <span class="paper-section-title">第二段 · 分析与论证</span>
+              ${st.tier === 'fast' ? `
+                <button class="paper-swap-btn" id="opSwapP2Btn" title="切换速通版逻辑分支">
+                  <span class="swap-hint">${st.fastMode === 'trend' ? '图表趋势分支' : '图画/主题分支'}</span> ⇄
+                </button>
+              ` : `
+                <button class="paper-swap-btn op-copy-para" data-raw="${encodeURIComponent(p2Plain)}" title="复制第二段">⇄</button>
+              `}
+            </div>
+            <div class="paper-en-text">${p2Html}</div>
+            ${this.showBilingual ? `<div class="paper-cn-text">${p2Cn}</div>` : ''}
+          </div>
+
+          <!-- Paragraph 3 -->
+          <div class="paper-section">
+            <div class="paper-section-head">
+              <span class="paper-section-title">第三段 · 总结与措施</span>
+              <button class="paper-swap-btn op-copy-para" data-raw="${encodeURIComponent(p3Plain)}" title="复制第三段">⇄</button>
+            </div>
+            <div class="paper-en-text">${p3Html}</div>
+            ${this.showBilingual ? `<div class="paper-cn-text">${p3Cn}</div>` : ''}
+          </div>
+
+          <!-- Footer Bar -->
+          <div class="paper-footer">
+            <div class="paper-footer-stats">
+              <span>英文词数 <strong>${wordCount}</strong></span>
+              <span>${blankCount > 0 ? `<strong>${blankCount}</strong> 个可替换位置` : `全部空位已填完（共 ${totalSlotsCount} 处）`}</span>
+            </div>
+            <button class="paper-text-btn" id="opCopyWholePaperBtn">复制全文</button>
+          </div>
+        </div>
       `;
 
-      panel.querySelectorAll('.op-tier-btn').forEach(btn => {
+      // Bind Paper Events
+      panel.querySelectorAll('.op-paper-tier').forEach(btn => {
         btn.addEventListener('click', () => {
-          this.activeTemplateTier = btn.dataset.tier;
-          this.renderTemplatesPanel();
+          this.builderState.tier = btn.dataset.tier;
+          this.renderPaperPanel();
         });
       });
 
-      panel.querySelectorAll('.op-copy-raw').forEach(btn => {
+      const valSel = panel.querySelector('#opPaperValueSelect');
+      if (valSel) {
+        valSel.addEventListener('change', (e) => {
+          this.builderState.selectedValue = e.target.value;
+        });
+      }
+
+      const demoBtn = panel.querySelector('#opFillDemoBtn');
+      if (demoBtn) {
+        demoBtn.addEventListener('click', () => {
+          const vid = this.builderState.selectedValue;
+          if (VALUE_PRESETS[vid]) {
+            this.builderState.slots = Object.assign({}, VALUE_PRESETS[vid]);
+            this.builderState.materialType = VALUE_PRESETS[vid].chartType === 'scene' ? 'picture' : (vid === 'prosperity' ? 'dynamic_chart' : 'static_chart');
+            this.renderPaperPanel();
+          }
+        });
+      }
+
+      const clearBtn = panel.querySelector('#opClearSlotsBtn');
+      if (clearBtn) {
+        clearBtn.addEventListener('click', () => {
+          Object.keys(this.builderState.slots).forEach(k => {
+            this.builderState.slots[k] = k === 'authority' ? 'Beijing Normal University' : (k === 'chartType' ? 'bar chart' : '');
+          });
+          this.builderState.slots.chartType = '';
+          this.builderState.slots.authority = '';
+          this.renderPaperPanel();
+        });
+      }
+
+      const fsBtn = panel.querySelector('#opToggleFullscreenBtn');
+      if (fsBtn) {
+        fsBtn.addEventListener('click', () => {
+          this.isFullscreen = !this.isFullscreen;
+          this.renderPaperPanel();
+        });
+      }
+
+      const biToggle = panel.querySelector('#opBilingualToggle');
+      if (biToggle) {
+        biToggle.addEventListener('change', (e) => {
+          this.showBilingual = !!e.target.checked;
+          this.renderPaperPanel();
+        });
+      }
+
+      const swapP1 = panel.querySelector('#opSwapP1Btn');
+      if (swapP1) {
+        swapP1.addEventListener('click', () => {
+          const idx = MATERIAL_ORDER.indexOf(this.builderState.materialType);
+          this.builderState.materialType = MATERIAL_ORDER[(idx + 1) % MATERIAL_ORDER.length];
+          this.renderPaperPanel();
+        });
+      }
+
+      const swapP2 = panel.querySelector('#opSwapP2Btn');
+      if (swapP2) {
+        swapP2.addEventListener('click', () => {
+          this.builderState.fastMode = this.builderState.fastMode === 'trend' ? 'theme' : 'trend';
+          this.renderPaperPanel();
+        });
+      }
+
+      panel.querySelectorAll('.op-copy-para').forEach(btn => {
         btn.addEventListener('click', () => {
           this.copyText(decodeURIComponent(btn.dataset.raw || ''), btn);
         });
       });
 
-      const goBuilder = panel.querySelector('.op-go-builder-btn');
-      if (goBuilder) {
-        goBuilder.addEventListener('click', () => this.switchSubTab('opBuilder'));
-      }
-
-      const tryTierBtn = panel.querySelector('.op-try-tier-btn');
-      if (tryTierBtn) {
-        tryTierBtn.addEventListener('click', () => {
-          this.builderState.tier = tryTierBtn.dataset.tier;
-          this.switchSubTab('opBuilder');
+      const copyAll = panel.querySelector('#opCopyWholePaperBtn');
+      if (copyAll) {
+        copyAll.addEventListener('click', () => {
+          this.copyText(fullPlain, copyAll);
         });
       }
+
+      // Clickable dashed blanks inside paper
+      panel.querySelectorAll('.slot-blank').forEach(span => {
+        span.addEventListener('click', (e) => {
+          e.stopPropagation();
+          this.openSlotPopover(span, span.dataset.slot);
+        });
+      });
     },
 
-    renderTierDetailCard(tier) {
-      let enBodyHtml = '';
-      let copyFullText = '';
+    openSlotPopover(anchorEl, slotKey) {
+      this.closeSlotPopover();
+      const meta = SLOT_LABELS[slotKey] || { name: slotKey, hint: '' };
+      const corpus = this.getData().corpus || [];
+      const curValObj = corpus.find(c => c.id === this.builderState.selectedValue) || corpus[0];
 
-      if (tier.key === 'fast') {
-        const b = tier.en.p2_branches;
-        copyFullText = `${tier.en.p1_all}\n\n${b.s1_theme} ${b.s2_reason} ${b.s3_social} ${b.s4_impetus} ${b.s5_role}\n\n${tier.en.p3}`;
-        enBodyHtml = `
-          <div class="op-para-block">
-            <div class="op-para-label">第一段（万能通用起手）</div>
-            <div class="op-en-box">${this.highlightSlots(tier.en.p1_all)}</div>
-          </div>
-          <div class="op-para-block">
-            <div class="op-para-label">第二段（五句推进 · 支持双分支自由拼装）</div>
-            <div class="op-branch-list">
-              <div class="op-branch-item"><span class="writing-badge badge-primary">句① 主流分支(图画优先)</span> ${this.highlightSlots(b.s1_theme)}</div>
-              <div class="op-branch-item"><span class="writing-badge badge-warning">句① 趋势分支(图表优先)</span> ${this.highlightSlots(b.s1_trend)}</div>
-              <div class="op-branch-item"><span class="writing-badge badge-primary">句② 动机解释</span> ${this.highlightSlots(b.s2_reason)}</div>
-              <div class="op-branch-item"><span class="writing-badge badge-warning">句② 典范人物(备选)</span> ${this.highlightSlots(b.s2_exemplar)}</div>
-              <div class="op-branch-item"><span class="writing-badge badge-success">句③ 转入社会条件(固定)</span> ${this.highlightSlots(b.s3_social)}</div>
-              <div class="op-branch-item"><span class="writing-badge badge-primary">句④ 战略推动(图表优先)</span> ${this.highlightSlots(b.s4_impetus)}</div>
-              <div class="op-branch-item"><span class="writing-badge badge-warning">句④ 和谐共生(图画优先)</span> ${this.highlightSlots(b.s4_harmony)}</div>
-              <div class="op-branch-item"><span class="writing-badge badge-primary">句⑤ 权威研究引证A</span> ${this.highlightSlots(b.s5_role)}</div>
-              <div class="op-branch-item"><span class="writing-badge badge-warning">句⑤ 活力繁荣引证B</span> ${this.highlightSlots(b.s5_vitality)}</div>
-            </div>
-          </div>
-          <div class="op-para-block">
-            <div class="op-para-label">第三段（通用收束）</div>
-            <div class="op-en-box">${this.highlightSlots(tier.en.p3)}</div>
-          </div>
-        `;
-      } else {
-        copyFullText = `${tier.en.p1_picture}\n\n${tier.en.p2}\n\n${tier.en.p3}`;
-        enBodyHtml = `
-          <div class="op-para-block">
-            <div class="op-para-label">第一段（以图画起手为例，图表/文本可按上方公式切换）</div>
-            <div class="op-en-box">${this.highlightSlots(tier.en.p1_picture)}</div>
-          </div>
-          <div class="op-para-block">
-            <div class="op-para-label">第二段中心段落</div>
-            <div class="op-en-box">${this.highlightSlots(tier.en.p2)}</div>
-          </div>
-          <div class="op-para-block">
-            <div class="op-para-label">第三段总结</div>
-            <div class="op-en-box">${this.highlightSlots(tier.en.p3)}</div>
-          </div>
-        `;
+      // Gather corpus options for this slot across selected value (and all values if needed)
+      let options = [];
+      if (meta.corpusKey && curValObj && curValObj.slots && curValObj.slots[meta.corpusKey]) {
+        options = curValObj.slots[meta.corpusKey].filter(x => x.en);
+      } else if (slotKey === 'chartType') {
+        options = [
+          { en: 'bar chart', zh: '柱状图 / 条形图' },
+          { en: 'line chart', zh: '折线图' },
+          { en: 'pie chart', zh: '饼图' },
+          { en: 'table', zh: '表格' },
+          { en: 'scene', zh: '图画场景' }
+        ];
+      } else if (slotKey === 'authority') {
+        options = [
+          { en: 'Beijing Normal University', zh: '北京师范大学' },
+          { en: 'Peking University', zh: '北京大学' },
+          { en: "People's Daily", zh: '人民日报' },
+          { en: 'China Daily', zh: '中国日报' },
+          { en: 'Guangming Daily', zh: '光明日报' }
+        ];
+      } else if (slotKey === 'theme' && curValObj) {
+        // Offer preset theme + top strategies as theme candidates
+        const preset = VALUE_PRESETS[curValObj.id];
+        if (preset) options.push({ en: preset.theme, zh: '推荐核心主题词' });
+        ((curValObj.slots && curValObj.slots.strategy) || []).slice(0, 6).forEach(stItem => {
+          if (stItem.en) options.push({ en: stItem.en, zh: stItem.zh + '（战略词汇用作主题）' });
+        });
       }
 
-      return `
-        <div class="writing-card" style="border-top:3px solid var(--accent)">
-          <div class="writing-card-header">
-            <div>
-              <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
-                <h3 class="writing-card-title" style="margin:0">${tier.name}</h3>
-                <span class="writing-badge badge-success">${tier.badge}</span>
-              </div>
-              <div style="font-size:0.88em;color:var(--muted);margin-top:4px">${tier.summary}</div>
-            </div>
-            <div style="display:flex;gap:8px;flex-wrap:wrap">
-              <button class="writing-copy-btn op-try-tier-btn" data-tier="${tier.key}" style="background:rgba(16,185,129,0.1);border-color:rgba(16,185,129,0.35);color:#059669">
-                ⚡ 用此模板开始套写
-              </button>
-              <button class="writing-copy-btn op-copy-raw" data-raw="${encodeURIComponent(copyFullText)}">
-                📋 复制完整英文模板
-              </button>
-            </div>
-          </div>
-          <div class="writing-card-body">
-            ${enBodyHtml}
+      const backdrop = document.createElement('div');
+      backdrop.className = 'slot-popover-backdrop';
+      backdrop.id = 'opSlotBackdrop';
 
-            <div class="op-para-block" style="margin-top:16px;padding-top:14px;border-top:1px dashed var(--line)">
-              <div class="op-para-label">【完整中文参考对照】</div>
-              <div class="op-cn-box" style="white-space:pre-wrap">${this.highlightSlots(tier.cn.p1 + '\n\n' + tier.cn.p2 + '\n\n' + tier.cn.p3)}</div>
-            </div>
+      const pop = document.createElement('div');
+      pop.className = 'slot-popover';
+      pop.id = 'opSlotPopover';
 
-            <div style="margin-top:18px">
-              <strong style="display:block;margin-bottom:8px;font-size:0.94em">🔍 需准备的填空类型（共 ${tier.slotCount} 类）：</strong>
-              <div class="history-table-container">
-                <table class="history-table">
-                  <thead>
-                    <tr>
-                      <th style="width:170px">槽位名称</th>
-                      <th style="width:190px">语料来源</th>
-                      <th>语法形式要求</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    ${(tier.slotsInfo || []).map(s => `
-                      <tr>
-                        <td><span class="template-variable">${s.slot}</span></td>
-                        <td>${s.from}</td>
-                        <td style="color:var(--muted)">${s.grammar}</td>
-                      </tr>
-                    `).join('')}
-                  </tbody>
-                </table>
-              </div>
-            </div>
+      const curVal = this.builderState.slots[slotKey] || '';
+      pop.innerHTML = `
+        <div class="slot-popover-head">
+          <strong>填写【${meta.name}】</strong>
+          <button class="paper-icon-btn" id="opPopoverClose">✕</button>
+        </div>
+        <div class="slot-popover-body">
+          <div style="font-size:0.8em;color:var(--w-muted);margin-bottom:8px">${meta.hint}</div>
+          <input type="text" class="slot-popover-input" id="opPopoverInput" value="${curVal.replace(/"/g, '&quot;')}" placeholder="直接输入英文，按 Enter 确认...">
+          <div style="display:flex;justify-content:flex-end;gap:8px">
+            <button class="paper-text-btn" id="opPopoverClear">清除</button>
+            <button class="paper-text-btn" id="opPopoverSave" style="background:var(--w-ink);color:var(--w-paper);border-color:var(--w-ink)">确认填入</button>
           </div>
+          ${options.length > 0 ? `
+            <div style="font-size:0.8em;color:var(--w-muted);margin-top:12px">点击下方【${curValObj ? curValObj.name : ''}】语料直接填入：</div>
+            <div class="slot-popover-opts">
+              ${options.map(o => `
+                <button class="slot-popover-opt" data-en="${encodeURIComponent(o.en)}">
+                  <span class="opt-en">${o.en}</span>
+                  ${o.zh ? `<span class="opt-zh">${o.zh}</span>` : ''}
+                </button>
+              `).join('')}
+            </div>
+          ` : ''}
         </div>
       `;
+
+      document.body.appendChild(backdrop);
+      document.body.appendChild(pop);
+
+      // Position near anchorEl safely within viewport
+      const rect = anchorEl.getBoundingClientRect();
+      const popW = Math.min(420, window.innerWidth - 24);
+      let left = rect.left;
+      if (left + popW > window.innerWidth - 12) left = window.innerWidth - popW - 12;
+      if (left < 12) left = 12;
+      let top = rect.bottom + 8;
+      if (top + 320 > window.innerHeight) {
+        top = Math.max(12, rect.top - 330);
+      }
+      pop.style.left = left + 'px';
+      pop.style.top = top + 'px';
+
+      const inp = document.getElementById('opPopoverInput');
+      if (inp) {
+        inp.focus();
+        inp.select();
+        inp.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter') {
+            this.builderState.slots[slotKey] = inp.value.trim();
+            this.closeSlotPopover();
+            this.renderPaperPanel();
+          } else if (e.key === 'Escape') {
+            this.closeSlotPopover();
+          }
+        });
+      }
+
+      document.getElementById('opPopoverClose').addEventListener('click', () => this.closeSlotPopover());
+      backdrop.addEventListener('click', () => this.closeSlotPopover());
+
+      document.getElementById('opPopoverSave').addEventListener('click', () => {
+        this.builderState.slots[slotKey] = inp ? inp.value.trim() : '';
+        this.closeSlotPopover();
+        this.renderPaperPanel();
+      });
+
+      document.getElementById('opPopoverClear').addEventListener('click', () => {
+        this.builderState.slots[slotKey] = '';
+        this.closeSlotPopover();
+        this.renderPaperPanel();
+      });
+
+      pop.querySelectorAll('.slot-popover-opt').forEach(optBtn => {
+        optBtn.addEventListener('click', () => {
+          this.builderState.slots[slotKey] = decodeURIComponent(optBtn.dataset.en || '');
+          this.closeSlotPopover();
+          this.renderPaperPanel();
+        });
+      });
+    },
+
+    closeSlotPopover() {
+      const b = document.getElementById('opSlotBackdrop');
+      const p = document.getElementById('opSlotPopover');
+      if (b) b.remove();
+      if (p) p.remove();
     },
 
     /* ==========================================================================
@@ -428,94 +667,73 @@
       if (!panel) return;
 
       const slotMeta = [
-        { key: 'behavior', label: '【具体行为】个人行为 (the way people + 动词原形)' },
-        { key: 'outcome', label: '【可见成果】个人成果 (contributing to + 名词/动名词)' },
-        { key: 'domain', label: '【相关领域】政策领域 (National policies on + 名词)' },
-        { key: 'ability', label: '【个人能力/行为】政策能力 (empowering individuals to + 动词原形)' },
-        { key: 'socialEffect', label: '【社会效果】社会效果 (strengthen communities by + V-ing)' },
-        { key: 'strategy', label: '【相关战略】国家政策与核心概念 (strategies for + 名词/动名词)' },
-        { key: 'socialChange', label: '【社会变化】宏观结果 (as this principle takes root, + 完整小句)' }
+        { key: 'behavior', label: '具体行为 (the way people + 动词原形)' },
+        { key: 'outcome', label: '可见成果 (contributing to + 名词/动名词)' },
+        { key: 'domain', label: '相关领域 (National policies on + 名词)' },
+        { key: 'ability', label: '政策能力 (empowering individuals to + 动词原形)' },
+        { key: 'socialEffect', label: '社会效果 (strengthen communities by + V-ing)' },
+        { key: 'strategy', label: '相关战略 (strategies for + 名词/动名词)' },
+        { key: 'socialChange', label: '社会变化 (as this principle takes root, + 完整小句)' }
       ];
 
       const q = (this.corpusSearch || '').trim().toLowerCase();
       const filteredVals = corpus.filter(v => this.corpusFilterId === 'all' || v.id === this.corpusFilterId);
 
       panel.innerHTML = `
-        <div class="filter-bar" style="gap:10px">
-          <div class="filter-group" style="flex:1;min-width:240px">
-            <button class="filter-btn op-val-btn ${this.corpusFilterId === 'all' ? 'active' : ''}" data-vid="all">全部 (8类)</button>
+        <div class="writing-inline-bar">
+          <div class="filter-group">
+            <button class="filter-btn op-val-btn ${this.corpusFilterId === 'all' ? 'active' : ''}" data-vid="all">全部</button>
             ${corpus.map(v => `
               <button class="filter-btn op-val-btn ${this.corpusFilterId === v.id ? 'active' : ''}" data-vid="${v.id}">
-                ${v.index <= 7 ? v.index + '. ' : ''}${v.name}${v.isKey ? ' ★' : ''}
+                ${v.index <= 7 ? v.index + '. ' : ''}${v.name}
               </button>
             `).join('')}
           </div>
-          <div class="filter-group">
-            <input type="text" id="opCorpusSearchInput" value="${this.corpusSearch.replace(/"/g, '&quot;')}"
-              placeholder="🔍 搜中/英文短语或真题年份..." class="op-search-input">
-          </div>
+          <input type="text" id="opCorpusSearchInput" value="${this.corpusSearch.replace(/"/g, '&quot;')}" placeholder="搜索短语或年份..." class="w-input">
         </div>
 
-        <div id="opCorpusContent">
-          ${filteredVals.map(val => {
-            // Check slots matching search query
-            const renderedSlots = slotMeta.map(sm => {
-              const items = (val.slots && val.slots[sm.key]) || [];
-              const matched = q ? items.filter(it => (it.en + ' ' + it.zh).toLowerCase().includes(q)) : items;
-              if (!matched.length) return '';
-              return `
-                <div class="op-slot-group">
-                  <div class="op-slot-group-title">${sm.label}</div>
-                  <div class="op-phrase-grid">
-                    ${matched.map(it => {
-                      const fillVal = it.en || it.zh;
-                      return `
-                        <div class="op-phrase-item">
-                          <div class="op-phrase-text">
-                            ${it.en ? `<div class="op-phrase-en">${it.en}</div>` : ''}
-                            ${it.zh ? `<div class="op-phrase-zh">${it.zh}</div>` : ''}
-                          </div>
-                          <div class="op-phrase-actions">
-                            <button class="writing-copy-btn op-copy-phrase" data-raw="${encodeURIComponent(fillVal)}" title="复制英文短语">复制</button>
-                            ${it.en ? `<button class="writing-copy-btn op-fill-slot" data-slot="${sm.key}" data-val="${encodeURIComponent(it.en)}" data-vid="${val.id}" title="直接填入实时交互套写器对应槽位" style="color:var(--accent);border-color:rgba(37,99,235,0.35)">⚡ 填入</button>` : ''}
-                          </div>
-                        </div>
-                      `;
-                    }).join('')}
-                  </div>
-                </div>
-              `;
-            }).join('');
-
-            if (q && !renderedSlots && !(val.topics + val.exams + val.name).toLowerCase().includes(q)) {
-              return '';
-            }
-
+        ${filteredVals.map(val => {
+          const sectionsHtml = slotMeta.map(sm => {
+            const items = (val.slots && val.slots[sm.key]) || [];
+            const matched = q ? items.filter(it => (it.en + ' ' + it.zh).toLowerCase().includes(q)) : items;
+            if (!matched.length) return '';
             return `
-              <div class="writing-card" style="border-left:4px solid ${val.isKey ? 'var(--accent)' : 'var(--success)'}">
-                <div class="writing-card-header">
-                  <div>
-                    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
-                      <h3 class="writing-card-title" style="margin:0">${val.index <= 7 ? val.index + '. ' : ''}${val.name} (${val.enName})</h3>
-                      ${val.isKey ? '<span class="writing-badge badge-warning">★ 高频重点</span>' : ''}
+              <div style="margin-bottom:18px">
+                <div style="font-size:0.86em;font-weight:700;color:var(--w-muted);margin-bottom:8px">${sm.label}</div>
+                <div class="clean-phrase-list">
+                  ${matched.map(it => `
+                    <div class="clean-phrase-row op-copy-phrase" data-raw="${encodeURIComponent(it.en || it.zh)}" title="点击复制">
+                      <div>
+                        ${it.en ? `<div class="clean-phrase-en">${it.en}</div>` : ''}
+                        ${it.zh ? `<div class="clean-phrase-zh">${it.zh}</div>` : ''}
+                      </div>
+                      ${it.en ? `<button class="clean-link-btn op-fill-slot" data-slot="${sm.key}" data-val="${encodeURIComponent(it.en)}" data-vid="${val.id}" style="flex-shrink:0">填入</button>` : ''}
                     </div>
-                    <div style="font-size:0.86em;color:var(--muted);margin-top:4px">
-                      📌 适用主题：${val.topics || '-'} &nbsp;|&nbsp; 📅 真题覆盖：${val.exams || '通用'}
-                    </div>
-                  </div>
-                  ${VALUE_PRESETS[val.id] ? `
-                    <button class="writing-copy-btn op-use-value-preset" data-vid="${val.id}" style="background:rgba(37,99,235,0.08);color:var(--accent);border-color:rgba(37,99,235,0.3)">
-                      ⚡ 一键带入此价值观套写
-                    </button>
-                  ` : ''}
-                </div>
-                <div class="writing-card-body">
-                  ${renderedSlots || '<div style="color:var(--muted);padding:10px">无匹配条目</div>'}
+                  `).join('')}
                 </div>
               </div>
             `;
-          }).join('')}
-        </div>
+          }).join('');
+
+          if (q && !sectionsHtml && !(val.topics + val.exams + val.name).toLowerCase().includes(q)) {
+            return '';
+          }
+
+          return `
+            <div class="paper-sheet">
+              <div class="paper-toolbar">
+                <div class="paper-toolbar-left">
+                  <strong style="font-size:1.02em">${val.index <= 7 ? val.index + '. ' : ''}${val.name} · ${val.enName}</strong>
+                  <span style="font-size:0.84em;color:var(--w-muted)">${val.topics || ''} ${val.exams ? '｜' + val.exams : ''}</span>
+                </div>
+                ${VALUE_PRESETS[val.id] ? `<button class="paper-text-btn op-use-value-preset" data-vid="${val.id}">套用此主题词示范</button>` : ''}
+              </div>
+              <div class="paper-section" style="border-bottom:none">
+                ${sectionsHtml || '<div style="color:var(--w-muted)">无匹配条目</div>'}
+              </div>
+            </div>
+          `;
+        }).join('')}
       `;
 
       panel.querySelectorAll('.op-val-btn').forEach(btn => {
@@ -529,24 +747,19 @@
       if (searchEl) {
         searchEl.addEventListener('input', (e) => {
           this.corpusSearch = e.target.value;
-          const curPos = searchEl.selectionStart;
+          const pos = searchEl.selectionStart;
           this.renderCorpusPanel();
-          const newInput = this.container.querySelector('#opCorpusSearchInput');
-          if (newInput) {
-            newInput.focus();
-            try { newInput.setSelectionRange(curPos, curPos); } catch (_) {}
+          const newInp = this.container.querySelector('#opCorpusSearchInput');
+          if (newInp) {
+            newInp.focus();
+            try { newInp.setSelectionRange(pos, pos); } catch (_) {}
           }
         });
       }
 
-      panel.querySelectorAll('.op-copy-phrase').forEach(btn => {
-        btn.addEventListener('click', () => {
-          this.copyText(decodeURIComponent(btn.dataset.raw || ''), btn);
-        });
-      });
-
       panel.querySelectorAll('.op-fill-slot').forEach(btn => {
-        btn.addEventListener('click', () => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
           const slot = btn.dataset.slot;
           const valStr = decodeURIComponent(btn.dataset.val || '');
           const vid = btn.dataset.vid;
@@ -554,10 +767,16 @@
             this.builderState.slots[slot] = valStr;
             if (vid && VALUE_PRESETS[vid]) this.builderState.selectedValue = vid;
             if (typeof window.showToast === 'function') {
-              window.showToast(`⚡ 已填入【${slot}】，即将为您跳转至实时套写器！`);
+              window.showToast(`已填入【${(SLOT_LABELS[slot] && SLOT_LABELS[slot].name) || slot}】`);
             }
-            this.switchSubTab('opBuilder');
+            this.switchSubTab('opPaper');
           }
+        });
+      });
+
+      panel.querySelectorAll('.op-copy-phrase').forEach(row => {
+        row.addEventListener('click', () => {
+          this.copyText(decodeURIComponent(row.dataset.raw || ''), null);
         });
       });
 
@@ -567,402 +786,15 @@
           if (vid && VALUE_PRESETS[vid]) {
             this.builderState.selectedValue = vid;
             this.builderState.slots = Object.assign({}, VALUE_PRESETS[vid]);
-            this.builderState.materialType = VALUE_PRESETS[vid].chartType === 'scene' ? 'picture' : 'static_chart';
-            this.switchSubTab('opBuilder');
+            this.builderState.materialType = VALUE_PRESETS[vid].chartType === 'scene' ? 'picture' : (vid === 'prosperity' ? 'dynamic_chart' : 'static_chart');
+            this.switchSubTab('opPaper');
           }
         });
       });
     },
 
     /* ==========================================================================
-       3. ⚡ 一页纸实时交互套写器 (Interactive Essay Builder)
-       ========================================================================== */
-    renderBuilderPanel() {
-      const panel = this.container.querySelector('#opPanel_opBuilder');
-      const corpus = this.getData().corpus || [];
-      if (!panel) return;
-
-      const st = this.builderState;
-      const activeValObj = corpus.find(c => c.id === st.selectedValue) || corpus[0] || { slots: {} };
-
-      const getOptionsForSlot = (slotKey) => {
-        // Combine options from selectedValue first, plus indicate source
-        const items = (activeValObj.slots && activeValObj.slots[slotKey]) || [];
-        return items.filter(it => it.en);
-      };
-
-      const renderSlotControl = (slotKey, label, hint, isTextarea) => {
-        const opts = getOptionsForSlot(slotKey);
-        const val = st.slots[slotKey] || '';
-        return `
-          <div class="op-builder-field">
-            <div class="op-builder-field-head">
-              <label><strong>${label}</strong> <span class="op-field-hint">(${hint})</span></label>
-              ${opts.length > 0 ? `
-                <select class="op-quick-pick" data-target-slot="${slotKey}">
-                  <option value="">✨ 从【${activeValObj.name}】语料快选...</option>
-                  ${opts.map(o => `<option value="${encodeURIComponent(o.en)}">${o.zh ? o.zh + ' — ' : ''}${o.en}</option>`).join('')}
-                </select>
-              ` : ''}
-            </div>
-            ${isTextarea ? `
-              <textarea class="op-builder-input op-builder-textarea" data-slot="${slotKey}" rows="3" placeholder="请输入${label}...">${val}</textarea>
-            ` : `
-              <input type="text" class="op-builder-input" data-slot="${slotKey}" value="${val.replace(/"/g, '&quot;')}" placeholder="请输入${label}...">
-            `}
-          </div>
-        `;
-      };
-
-      const isFull = st.tier === 'full';
-      const isSimp = st.tier === 'simplified';
-      const isFast = st.tier === 'fast';
-
-      panel.innerHTML = `
-        <div class="op-builder-layout">
-          <!-- 左侧：交互配置与填槽面板 -->
-          <div class="op-builder-controls writing-card">
-            <div class="writing-card-header" style="margin-bottom:12px">
-              <h3 class="writing-card-title" style="margin:0">⚡ 实时交互套写工作台</h3>
-              <button class="writing-copy-btn" id="opBuilderResetBtn">🔄 清空重填</button>
-            </div>
-
-            <!-- 1. 快速示例/价值观导入 -->
-            <div class="op-builder-section">
-              <div class="op-builder-sec-title">1. 选择核心价值观底色（同步加载右侧语料下拉库）</div>
-              <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px">
-                ${corpus.filter(c => c.index <= 7).map(c => `
-                  <button class="filter-btn op-builder-val-pill ${st.selectedValue === c.id ? 'active' : ''}" data-vid="${c.id}">
-                    ${c.index}. ${c.name}
-                  </button>
-                `).join('')}
-              </div>
-              <button class="writing-copy-btn" id="opApplyPresetBtn" style="font-size:0.8em;color:var(--accent);border-color:rgba(37,99,235,0.35)">
-                🪄 一键填入当前价值观满分真题示范
-              </button>
-            </div>
-
-            <!-- 2. 模板档位与题型设置 -->
-            <div class="op-builder-section">
-              <div class="op-builder-sec-title">2. 选择模板档位与第一段材料类型</div>
-              <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px">
-                <button class="filter-btn op-builder-tier-pill ${isFull ? 'active' : ''}" data-tier="full">满分版 (9槽位)</button>
-                <button class="filter-btn op-builder-tier-pill ${isSimp ? 'active' : ''}" data-tier="simplified">简化版 (5槽位)</button>
-                <button class="filter-btn op-builder-tier-pill ${isFast ? 'active' : ''}" data-tier="fast">速通版 (全能起手+双分支)</button>
-              </div>
-              ${!isFast ? `
-                <div style="display:flex;gap:6px;flex-wrap:wrap">
-                  <button class="filter-btn op-builder-mat-pill ${st.materialType === 'picture' ? 'active' : ''}" data-mat="picture">🖼️ 图画</button>
-                  <button class="filter-btn op-builder-mat-pill ${st.materialType === 'static_chart' ? 'active' : ''}" data-mat="static_chart">📊 静态图表</button>
-                  <button class="filter-btn op-builder-mat-pill ${st.materialType === 'dynamic_chart' ? 'active' : ''}" data-mat="dynamic_chart">📈 动态图表</button>
-                  <button class="filter-btn op-builder-mat-pill ${st.materialType === 'passage' ? 'active' : ''}" data-mat="passage">📄 文本评论</button>
-                </div>
-              ` : `
-                <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
-                  <span style="font-size:0.85em;color:var(--muted)">首段材料载体：</span>
-                  <select id="opFastCarrierSelect" class="op-quick-pick" style="max-width:220px">
-                    <option value="scene" ${st.fastCarrier === 'scene' ? 'selected' : ''}>scene (图画)</option>
-                    <option value="bar chart" ${st.fastCarrier === 'bar chart' ? 'selected' : ''}>bar chart (柱状图)</option>
-                    <option value="line chart" ${st.fastCarrier === 'line chart' ? 'selected' : ''}>line chart (折线图)</option>
-                    <option value="pie chart" ${st.fastCarrier === 'pie chart' ? 'selected' : ''}>pie chart (饼图)</option>
-                    <option value="table" ${st.fastCarrier === 'table' ? 'selected' : ''}>table (表格)</option>
-                    <option value="passage" ${st.fastCarrier === 'passage' ? 'selected' : ''}>passage (文本材料)</option>
-                  </select>
-                </div>
-              `}
-            </div>
-
-            <!-- 3. 逐槽位输入与快选 -->
-            <div class="op-builder-section">
-              <div class="op-builder-sec-title">3. 填写核心内容与调用语料槽位</div>
-              ${renderSlotControl('theme', '【主题词】', '贯穿1-3段，名词或V-ing短语', false)}
-              ${(!isFast && (st.materialType === 'static_chart' || st.materialType === 'dynamic_chart')) ? renderSlotControl('chartType', '【图表名称】', 'bar chart / pie chart / line chart / table', false) : ''}
-              ${renderSlotControl('desc', '【题面/图画/数据/文段描述】', '第一段客观描述语句，注意时态与句首小写/大写', true)}
-              ${renderSlotControl('behavior', '【具体行为】', '接在 the way people / desire to 后，填动词原形短语', false)}
-              ${isFull ? renderSlotControl('outcome', '【可见成果】', '接在 contributing to 后，填名词/动名词短语', false) : ''}
-              ${(isFull || isSimp) ? renderSlotControl('domain', '【相关领域】', '接在 National policies on 后，填名词短语', false) : ''}
-              ${isFull ? renderSlotControl('ability', '【个人能力/行为】', '接在 empowering individuals to 后，填动词原形短语', false) : ''}
-              ${(isFull || isSimp) ? renderSlotControl('socialEffect', '【社会效果】', '接在 by 后，填 V-ing 动名词短语', false) : ''}
-              ${(isFull || isFast) ? renderSlotControl('strategy', '【相关战略】', '接在 strategies for / commitment to 后，填名词短语', false) : ''}
-              ${isFull ? renderSlotControl('socialChange', '【社会变化】', '接在 takes root, 后，填完整主谓小句', false) : ''}
-              ${isFast ? `
-                ${renderSlotControl('authority', '【权威机构/期刊】', '如 Beijing Normal University / Peking University / China Daily', false)}
-                <div class="op-builder-field" style="background:rgba(37,99,235,0.04);padding:10px 12px;border-radius:6px">
-                  <div style="font-weight:700;font-size:0.86em;margin-bottom:6px;color:var(--accent)">速通版第二段句型分支微调：</div>
-                  <div class="op-branch-toggles">
-                    <label>句①：<select class="op-fast-br" data-br="s1">
-                      <option value="theme" ${st.fastBranches.s1 === 'theme' ? 'selected' : ''}>主题体现分支 (图画优先)</option>
-                      <option value="trend" ${st.fastBranches.s1 === 'trend' ? 'selected' : ''}>趋势动机分支 (图表优先)</option>
-                    </select></label>
-                    <label>句②：<select class="op-fast-br" data-br="s2">
-                      <option value="reason" ${st.fastBranches.s2 === 'reason' ? 'selected' : ''}>趋利合理性解释</option>
-                      <option value="exemplar" ${st.fastBranches.s2 === 'exemplar' ? 'selected' : ''}>自我完善典范人物</option>
-                    </select></label>
-                    <label>句④：<select class="op-fast-br" data-br="s4">
-                      <option value="impetus" ${st.fastBranches.s4 === 'impetus' ? 'selected' : ''}>国家战略提供动力 (图表优先)</option>
-                      <option value="harmony" ${st.fastBranches.s4 === 'harmony' ? 'selected' : ''}>社会与国家和谐蓬勃 (图画优先)</option>
-                    </select></label>
-                    <label>句⑤：<select class="op-fast-br" data-br="s5">
-                      <option value="role" ${st.fastBranches.s5 === 'role' ? 'selected' : ''}>推动趋势与社区繁荣</option>
-                      <option value="vitality" ${st.fastBranches.s5 === 'vitality' ? 'selected' : ''}>多项指标下的活力与繁荣</option>
-                    </select></label>
-                  </div>
-                </div>
-              ` : ''}
-            </div>
-          </div>
-
-          <!-- 右侧：实时生成结果与词数监控 -->
-          <div class="op-builder-preview writing-card" id="opBuilderPreviewCard">
-            <!-- Dynamically updated by updateBuilderPreview() -->
-          </div>
-        </div>
-      `;
-
-      this.updateBuilderPreview();
-      this.bindBuilderEvents();
-    },
-
-    buildComposedEssay() {
-      const st = this.builderState;
-      const s = st.slots;
-      const capFirst = (str) => {
-        if (!str) return '';
-        const t = str.trim();
-        return t.charAt(0).toUpperCase() + t.slice(1);
-      };
-      const slotHtml = (key, fallback, forceCap = false) => {
-        const raw = (s[key] || '').trim();
-        if (!raw) {
-          return { html: `<span class="op-slot-empty">[待填: ${fallback}]</span>`, plain: `[${fallback}]` };
-        }
-        const txt = forceCap ? capFirst(raw) : raw;
-        const safe = txt.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-        return { html: `<mark class="op-slot-filled">${safe}</mark>`, plain: txt };
-      };
-
-      const theme = slotHtml('theme', '主题词');
-      const themeCap = slotHtml('theme', '主题词', true);
-      const desc = slotHtml('desc', '题面描述', st.materialType === 'static_chart' || st.materialType === 'dynamic_chart');
-      const descRaw = slotHtml('desc', '题面/图画描述');
-      const chartType = slotHtml('chartType', 'bar chart');
-      const behavior = slotHtml('behavior', '具体行为');
-      const outcome = slotHtml('outcome', '可见成果');
-      const domain = slotHtml('domain', '相关领域');
-      const ability = slotHtml('ability', '个人能力/行为');
-      const socialEffect = slotHtml('socialEffect', '社会效果');
-      const strategy = slotHtml('strategy', '相关战略');
-      const socialChange = slotHtml('socialChange', '社会变化');
-      const authority = slotHtml('authority', '权威机构');
-
-      let p1H = '', p1P = '';
-      let p2H = '', p2P = '';
-      let p3H = '', p3P = '';
-
-      if (st.tier === 'fast') {
-        const carrier = st.fastCarrier || 'bar chart';
-        p1H = `Though deceptively simple, this <mark class="op-slot-filled">${carrier}</mark> conveys a meaningful message: ${descRaw.html}. It serves as a compelling testament to the significance of ${theme.html}.`;
-        p1P = `Though deceptively simple, this ${carrier} conveys a meaningful message: ${descRaw.plain}. It serves as a compelling testament to the significance of ${theme.plain}.`;
-
-        const br = st.fastBranches;
-        const s1H = br.s1 === 'trend'
-          ? `To begin with, experience suggests that this trend/pattern can be explained in part by people's desire to ${behavior.html}.`
-          : `To begin with, experience suggests that ${theme.html} finds direct expression in phenomena exemplified by the way people ${behavior.html}.`;
-        const s1P = br.s1 === 'trend'
-          ? `To begin with, experience suggests that this trend/pattern can be explained in part by people's desire to ${behavior.plain}.`
-          : `To begin with, experience suggests that ${theme.plain} finds direct expression in phenomena exemplified by the way people ${behavior.plain}.`;
-
-        const s2 = br.s2 === 'exemplar'
-          ? `Those who value such practices are exemplars of self-improvement and higher achievement.`
-          : `This is hardly surprising, as people tend to favour behaviour they believe will have desirable consequences.`;
-
-        const s3 = `However, we should recognise that social conditions fundamentally shape the choices available to individuals.`;
-
-        const s4H = br.s4 === 'harmony'
-          ? `From this perspective, a shared commitment to ${strategy.html} can create the conditions for communities and nations to flourish in harmony, laying the groundwork for sustainable progress.`
-          : `From this perspective, it is the promotion of national strategies for ${strategy.html} that provides impetus for these developments.`;
-        const s4P = br.s4 === 'harmony'
-          ? `From this perspective, a shared commitment to ${strategy.plain} can create the conditions for communities and nations to flourish in harmony, laying the groundwork for sustainable progress.`
-          : `From this perspective, it is the promotion of national strategies for ${strategy.plain} that provides impetus for these developments.`;
-
-        const s5H = br.s5 === 'vitality'
-          ? `A study published by ${authority.html} lends support to the view that societies placing greater emphasis on ${theme.html} enjoy higher levels of vitality and prosperity, a pattern consistent across multiple indicators.`
-          : `An article published by ${authority.html} lends support to the view that ${theme.html} plays an important role in fostering community prosperity.`;
-        const s5P = br.s5 === 'vitality'
-          ? `A study published by ${authority.plain} lends support to the view that societies placing greater emphasis on ${theme.plain} enjoy higher levels of vitality and prosperity, a pattern consistent across multiple indicators.`
-          : `An article published by ${authority.plain} lends support to the view that ${theme.plain} plays an important role in fostering community prosperity.`;
-
-        p2H = `${s1H} ${s2} ${s3} ${s4H} ${s5H}`;
-        p2P = `${s1P} ${s2} ${s3} ${s4P} ${s5P}`;
-      } else {
-        if (st.materialType === 'picture') {
-          p1H = `Though deceptively simple, this scene conveys a meaningful message: ${descRaw.html}. It serves as a compelling testament to the significance of ${theme.html}.`;
-          p1P = `Though deceptively simple, this scene conveys a meaningful message: ${descRaw.plain}. It serves as a compelling testament to the significance of ${theme.plain}.`;
-        } else if (st.materialType === 'passage') {
-          p1H = `${themeCap.html} has long been a subject of public debate. The passage offers a fresh perspective on this issue, arguing that ${descRaw.html}. While this view may not convince everyone, I find it original and illuminating, and I agree with it wholeheartedly.`;
-          p1P = `${themeCap.plain} has long been a subject of public debate. The passage offers a fresh perspective on this issue, arguing that ${descRaw.plain}. While this view may not convince everyone, I find it original and illuminating, and I agree with it wholeheartedly.`;
-        } else {
-          const word = st.materialType === 'dynamic_chart' ? 'changes' : 'differences';
-          p1H = `The figures in the ${chartType.html} reveal notable ${word} concerning ${theme.html}. ${desc.html}.`;
-          p1P = `The figures in the ${chartType.plain} reveal notable ${word} concerning ${theme.plain}. ${desc.plain}.`;
-        }
-
-        if (st.tier === 'full') {
-          p2H = `${themeCap.html} has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people ${behavior.html}, ultimately contributing to ${outcome.html}. National policies on ${domain.html} likewise focus on empowering individuals to ${ability.html}. Beyond personal advancement, this principle can strengthen communities by ${socialEffect.html}, laying the groundwork for sustainable progress. This is in line with national strategies for ${strategy.html}: as this principle takes root, ${socialChange.html}.`;
-          p2P = `${themeCap.plain} has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people ${behavior.plain}, ultimately contributing to ${outcome.plain}. National policies on ${domain.plain} likewise focus on empowering individuals to ${ability.plain}. Beyond personal advancement, this principle can strengthen communities by ${socialEffect.plain}, laying the groundwork for sustainable progress. This is in line with national strategies for ${strategy.plain}: as this principle takes root, ${socialChange.plain}.`;
-        } else {
-          p2H = `${themeCap.html} has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people ${behavior.html}, ultimately contributing to personal development and well-being. National policies on ${domain.html} likewise focus on empowering individuals to achieve their full potential. Beyond personal advancement, this principle can strengthen communities by ${socialEffect.html}, laying the groundwork for sustainable progress. As this principle takes root across society, it creates a ripple effect that benefits social harmony and long-term prosperity.`;
-          p2P = `${themeCap.plain} has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people ${behavior.plain}, ultimately contributing to personal development and well-being. National policies on ${domain.plain} likewise focus on empowering individuals to achieve their full potential. Beyond personal advancement, this principle can strengthen communities by ${socialEffect.plain}, laying the groundwork for sustainable progress. As this principle takes root across society, it creates a ripple effect that benefits social harmony and long-term prosperity.`;
-        }
-      }
-
-      p3H = `In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when ${theme.html} guides action. Promoting this principle is therefore not merely advisable but essential for holistic development.`;
-      p3P = `In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when ${theme.plain} guides action. Promoting this principle is therefore not merely advisable but essential for holistic development.`;
-
-      const cleanDots = (str) => str.replace(/\.\./g, '.');
-      p1H = cleanDots(p1H); p1P = cleanDots(p1P);
-
-      const countW = (txt) => (txt.match(/[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*/g) || []).length;
-      const wc1 = countW(p1P), wc2 = countW(p2P), wc3 = countW(p3P);
-      const totalWc = wc1 + wc2 + wc3;
-
-      return {
-        htmlParas: [p1H, p2H, p3H],
-        plainText: `${p1P}\n\n${p2P}\n\n${p3P}`,
-        wordCounts: { total: totalWc, p1: wc1, p2: wc2, p3: wc3 }
-      };
-    },
-
-    updateBuilderPreview() {
-      const card = this.container.querySelector('#opBuilderPreviewCard');
-      if (!card) return;
-      const res = this.buildComposedEssay();
-      const wc = res.wordCounts.total;
-      let statusBadge = `<span class="writing-badge badge-success">✅ 黄金篇幅 (160-210词完美区间)</span>`;
-      if (wc < 145) statusBadge = `<span class="writing-badge badge-warning">⚠️ 偏短 (&lt;150词)，请充实首段或槽位</span>`;
-      else if (wc > 225) statusBadge = `<span class="writing-badge badge-warning">⚠️ 略长 (&gt;220词)，注意考场时间分配</span>`;
-
-      card.innerHTML = `
-        <div class="writing-card-header">
-          <div>
-            <h3 class="writing-card-title" style="margin:0">📝 实时生成结果预览</h3>
-            <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:6px">
-              <strong style="color:var(--accent);font-size:1.05em">总词数：${wc} 词</strong>
-              <span style="font-size:0.82em;color:var(--muted)">(首段 ${res.wordCounts.p1} · 次段 ${res.wordCounts.p2} · 尾段 ${res.wordCounts.p3})</span>
-              ${statusBadge}
-            </div>
-          </div>
-          <button class="writing-copy-btn" id="opCopyComposedBtn" style="background:var(--accent);color:#fff;border-color:var(--accent)">
-            📋 复制纯净英文全文
-          </button>
-        </div>
-        <div class="writing-card-body">
-          <div class="op-preview-paper">
-            <p>${res.htmlParas[0]}</p>
-            <p>${res.htmlParas[1]}</p>
-            <p>${res.htmlParas[2]}</p>
-          </div>
-          <div style="font-size:0.83em;color:var(--muted);margin-top:12px;line-height:1.6">
-            💡 <strong>对齐与检查提示：</strong>蓝色高亮为您的自填/选词部分，请核对紧邻骨架介词后的词性是否匹配（如 <code>the way people + 动词原形</code>、<code>by + 动名词</code>、<code>takes root, + 完整主谓小句</code>）。复制的纯文本为标准三段齐头式格式。
-          </div>
-        </div>
-      `;
-
-      const copyBtn = card.querySelector('#opCopyComposedBtn');
-      if (copyBtn) {
-        copyBtn.addEventListener('click', () => this.copyText(res.plainText, copyBtn));
-      }
-    },
-
-    bindBuilderEvents() {
-      const panel = this.container.querySelector('#opPanel_opBuilder');
-      if (!panel) return;
-
-      panel.querySelectorAll('.op-builder-val-pill').forEach(btn => {
-        btn.addEventListener('click', () => {
-          this.builderState.selectedValue = btn.dataset.vid;
-          this.renderBuilderPanel();
-        });
-      });
-
-      const presetBtn = panel.querySelector('#opApplyPresetBtn');
-      if (presetBtn) {
-        presetBtn.addEventListener('click', () => {
-          const vid = this.builderState.selectedValue;
-          if (VALUE_PRESETS[vid]) {
-            this.builderState.slots = Object.assign({}, VALUE_PRESETS[vid]);
-            this.builderState.materialType = VALUE_PRESETS[vid].chartType === 'scene' ? 'picture' : 'static_chart';
-            this.renderBuilderPanel();
-            if (typeof window.showToast === 'function') {
-              window.showToast('🪄 已套入该价值观的标准示范搭配！');
-            }
-          }
-        });
-      }
-
-      const resetBtn = panel.querySelector('#opBuilderResetBtn');
-      if (resetBtn) {
-        resetBtn.addEventListener('click', () => {
-          Object.keys(this.builderState.slots).forEach(k => {
-            if (k !== 'chartType' && k !== 'authority') this.builderState.slots[k] = '';
-          });
-          this.renderBuilderPanel();
-        });
-      }
-
-      panel.querySelectorAll('.op-builder-tier-pill').forEach(btn => {
-        btn.addEventListener('click', () => {
-          this.builderState.tier = btn.dataset.tier;
-          this.renderBuilderPanel();
-        });
-      });
-
-      panel.querySelectorAll('.op-builder-mat-pill').forEach(btn => {
-        btn.addEventListener('click', () => {
-          this.builderState.materialType = btn.dataset.mat;
-          this.renderBuilderPanel();
-        });
-      });
-
-      const carrierSel = panel.querySelector('#opFastCarrierSelect');
-      if (carrierSel) {
-        carrierSel.addEventListener('change', (e) => {
-          this.builderState.fastCarrier = e.target.value;
-          this.updateBuilderPreview();
-        });
-      }
-
-      panel.querySelectorAll('.op-builder-input').forEach(inp => {
-        inp.addEventListener('input', (e) => {
-          const slot = e.target.dataset.slot;
-          this.builderState.slots[slot] = e.target.value;
-          this.updateBuilderPreview();
-        });
-      });
-
-      panel.querySelectorAll('.op-quick-pick[data-target-slot]').forEach(sel => {
-        sel.addEventListener('change', (e) => {
-          const slot = sel.dataset.targetSlot;
-          const val = decodeURIComponent(e.target.value || '');
-          if (val && slot) {
-            this.builderState.slots[slot] = val;
-            const inputEl = panel.querySelector(`.op-builder-input[data-slot="${slot}"]`);
-            if (inputEl) inputEl.value = val;
-            this.updateBuilderPreview();
-          }
-        });
-      });
-
-      panel.querySelectorAll('.op-fast-br').forEach(sel => {
-        sel.addEventListener('change', (e) => {
-          this.builderState.fastBranches[sel.dataset.br] = e.target.value;
-          this.updateBuilderPreview();
-        });
-      });
-    },
-
-    /* ==========================================================================
-       4. 2020-2026 英语二四档实操 (28 篇)
+       3. 2020-2026 英语二四档实操 (极简纸面排版)
        ========================================================================== */
     renderPracticePanel() {
       const panel = this.container.querySelector('#opPanel_opPractice');
@@ -971,98 +803,83 @@
 
       const years = [2026, 2025, 2024, 2023, 2022, 2021, 2020];
       const yearItems = list.filter(x => x.year === this.practiceYear);
-      const topicTitle = yearItems[0] ? yearItems[0].title : '';
+      const item = yearItems.find(x => x.tierKey === this.practiceTier) || yearItems[0];
 
       const tiers = [
         { key: 'full', label: '满分版' },
         { key: 'simplified', label: '简化版' },
-        { key: 'fast_std', label: '速通·标准套写' },
-        { key: 'fast_ez', label: '速通·无脑套写' },
-        { key: 'compare', label: '📊 四档同屏对比' }
+        { key: 'fast_std', label: '速通·标准' },
+        { key: 'fast_ez', label: '速通·无脑' }
       ];
 
-      let contentHtml = '';
-      if (this.practiceTier === 'compare') {
-        contentHtml = `
-          <div class="op-grid-2">
-            ${yearItems.map(item => `
-              <div class="writing-card" style="border-top:3px solid var(--accent)">
-                <div class="writing-card-header">
-                  <div>
-                    <strong style="color:var(--accent);font-size:1.05em">${item.tier}</strong>
-                    <span style="font-size:0.84em;color:var(--muted);margin-left:8px">${item.wordCount} 词</span>
-                    <div style="font-size:0.84em;color:var(--muted);margin-top:4px">核心主题：<code>${item.coreTheme}</code></div>
-                  </div>
-                  <button class="writing-copy-btn op-copy-practice" data-raw="${encodeURIComponent(item.enEssay)}">📋 复制范文</button>
-                </div>
-                <div class="writing-card-body">
-                  <div class="op-en-box" style="white-space:pre-wrap;font-size:0.9em">${item.enEssay}</div>
-                  <details style="margin-top:10px">
-                    <summary style="cursor:pointer;font-size:0.86em;font-weight:700;color:var(--muted)">查看中文对照与写作解析</summary>
-                    <div class="op-cn-box" style="white-space:pre-wrap;margin-top:8px">${item.cnEssay}</div>
-                    <div class="op-analysis-box" style="white-space:pre-wrap;margin-top:8px">${item.analysis}</div>
-                  </details>
-                </div>
-              </div>
-            `).join('')}
-          </div>
-        `;
-      } else {
-        const item = yearItems.find(x => x.tierKey === this.practiceTier) || yearItems[0];
-        if (item) {
-          contentHtml = `
-            <div class="writing-card" style="border-left:4px solid var(--accent)">
-              <div class="writing-card-header">
-                <div>
-                  <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
-                    <span class="writing-badge badge-primary">${item.year}年 英语二 · ${item.tier}</span>
-                    <h3 class="writing-card-title" style="margin:0">${item.title}</h3>
-                    <span class="writing-badge badge-success">${item.wordCount} 词</span>
-                  </div>
-                  <div style="font-size:0.88em;color:var(--muted);margin-top:6px">
-                    🎯 核心主题词：<strong style="color:var(--accent)">${item.coreTheme}</strong>
-                  </div>
-                </div>
-                <button class="writing-copy-btn op-copy-practice" data-raw="${encodeURIComponent(item.enEssay)}">📋 一键复制整篇英文范文</button>
-              </div>
-              <div class="writing-card-body">
-                <div style="margin-bottom:16px">
-                  <strong style="color:var(--accent);display:block;margin-bottom:6px">【标准三段式英文范文】</strong>
-                  <div class="op-en-box" style="white-space:pre-wrap">${item.enEssay}</div>
-                </div>
-                <div style="margin-bottom:16px">
-                  <strong style="color:var(--muted);display:block;margin-bottom:6px">【参考中文对照】</strong>
-                  <div class="op-cn-box" style="white-space:pre-wrap">${item.cnEssay}</div>
-                </div>
-                <div>
-                  <strong style="color:var(--ink);display:block;margin-bottom:6px">🔍 审题思路、填槽拆解与语料取用解析：</strong>
-                  <div class="op-analysis-box" style="white-space:pre-wrap">${item.analysis}</div>
-                </div>
-              </div>
-            </div>
-          `;
-        }
-      }
+      const enParas = item ? item.enEssay.split('\n\n') : [];
+      const cnParas = item ? item.cnEssay.split('\n\n') : [];
+      const paraNames = ['第一段 · 材料与主题', '第二段 · 分析与论证', '第三段 · 总结与措施'];
 
       panel.innerHTML = `
-        <div class="filter-bar" style="justify-content:space-between;gap:12px">
+        <div class="writing-inline-bar">
           <div class="filter-group">
-            <span style="font-weight:700;font-size:0.9em;color:var(--muted)">真题年份：</span>
             ${years.map(y => `
               <button class="filter-btn op-pr-year ${y === this.practiceYear ? 'active' : ''}" data-year="${y}">${y}</button>
             `).join('')}
           </div>
           <div class="filter-group">
-            <span style="font-weight:700;font-size:0.9em;color:var(--muted)">套写档位：</span>
             ${tiers.map(t => `
               <button class="filter-btn op-pr-tier ${t.key === this.practiceTier ? 'active' : ''}" data-tier="${t.key}">${t.label}</button>
             `).join('')}
           </div>
         </div>
-        <div style="margin-bottom:14px;font-size:0.92em;color:var(--muted)">
-          📌 当前题目：<strong style="color:var(--ink)">${this.practiceYear} 年英语二 —— ${topicTitle}</strong>
-        </div>
-        ${contentHtml}
+
+        ${item ? `
+          <div class="paper-sheet">
+            <div class="paper-toolbar">
+              <div class="paper-toolbar-left">
+                <strong style="font-size:1em">${item.year} 年英语二 · ${item.title}</strong>
+                <span style="font-size:0.84em;color:var(--w-muted)">${item.coreTheme}</span>
+              </div>
+              <div class="paper-toolbar-right">
+                <label class="w-switch-label">
+                  <input type="checkbox" class="w-switch-input" id="opPrCnToggle" ${this.practiceShowCn ? 'checked' : ''}>
+                  <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
+                  <span>中英对照</span>
+                </label>
+                <label class="w-switch-label">
+                  <input type="checkbox" class="w-switch-input" id="opPrAnaToggle" ${this.practiceShowAnalysis ? 'checked' : ''}>
+                  <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
+                  <span>写作解析</span>
+                </label>
+              </div>
+            </div>
+
+            ${enParas.map((ep, idx) => `
+              <div class="paper-section">
+                <div class="paper-section-head">
+                  <span class="paper-section-title">${paraNames[idx] || ('第' + (idx+1) + '段')}</span>
+                  <button class="paper-swap-btn op-copy-pr-para" data-raw="${encodeURIComponent(ep)}" title="复制本段">⇄</button>
+                </div>
+                <div class="paper-en-text">${ep}</div>
+                ${this.practiceShowCn && cnParas[idx] ? `<div class="paper-cn-text">${cnParas[idx]}</div>` : ''}
+              </div>
+            `).join('')}
+
+            ${this.practiceShowAnalysis ? `
+              <div class="paper-section">
+                <div class="paper-section-head">
+                  <span class="paper-section-title">写作解析与语料拆解</span>
+                </div>
+                <div class="paper-note-text" style="white-space:pre-wrap">${item.analysis}</div>
+              </div>
+            ` : ''}
+
+            <div class="paper-footer">
+              <div class="paper-footer-stats">
+                <span>英文词数 <strong>${item.wordCount}</strong></span>
+                <span>档位 <strong>${item.tier}</strong></span>
+              </div>
+              <button class="paper-text-btn" id="opPrCopyAllBtn" data-raw="${encodeURIComponent(item.enEssay)}">复制全文</button>
+            </div>
+          </div>
+        ` : ''}
       `;
 
       panel.querySelectorAll('.op-pr-year').forEach(btn => {
@@ -1079,15 +896,19 @@
         });
       });
 
-      panel.querySelectorAll('.op-copy-practice').forEach(btn => {
-        btn.addEventListener('click', () => {
-          this.copyText(decodeURIComponent(btn.dataset.raw || ''), btn);
-        });
+      const cnT = panel.querySelector('#opPrCnToggle');
+      if (cnT) cnT.addEventListener('change', (e) => { this.practiceShowCn = !!e.target.checked; this.renderPracticePanel(); });
+
+      const anaT = panel.querySelector('#opPrAnaToggle');
+      if (anaT) anaT.addEventListener('change', (e) => { this.practiceShowAnalysis = !!e.target.checked; this.renderPracticePanel(); });
+
+      panel.querySelectorAll('.op-copy-pr-para, #opPrCopyAllBtn').forEach(btn => {
+        btn.addEventListener('click', () => this.copyText(decodeURIComponent(btn.dataset.raw || ''), btn));
       });
     },
 
     /* ==========================================================================
-       5. 宏大叙事与使用说明
+       4. 考纲与使用说明
        ========================================================================== */
     renderGuidePanel() {
       const panel = this.container.querySelector('#opPanel_opGuide');
@@ -1096,29 +917,26 @@
       if (!panel) return;
 
       panel.innerHTML = `
-        <div class="writing-card" style="border-left:4px solid var(--accent)">
-          <div class="writing-card-header">
-            <h3 class="writing-card-title" style="margin:0">💡 ${guide.title || '宏大叙事与使用指南'}</h3>
-          </div>
-          <div class="writing-card-body" style="color:var(--muted);font-size:0.92em">
-            先吃透命题组的底层“宏大叙事化”逻辑，再背熟三档中的任意一套骨架与核心价值观语料，即可举一反三、以不变应万变。
-          </div>
-        </div>
-        ${sections.map(sec => `
-          <div class="writing-card">
-            <div class="writing-card-header">
-              <h3 class="writing-card-title" style="margin:0"><span>${sec.icon || '📌'}</span> ${sec.title}</h3>
+        <div class="paper-sheet">
+          <div class="paper-toolbar">
+            <div class="paper-toolbar-left">
+              <strong>${guide.title || '宏大叙事考纲与使用说明'}</strong>
             </div>
-            <div class="writing-card-body">
+          </div>
+          ${sections.map(sec => `
+            <div class="paper-section">
+              <div class="paper-section-head">
+                <span class="paper-section-title">${sec.title}</span>
+              </div>
               ${(sec.items || []).map(it => `
-                <div style="margin-bottom:16px">
-                  <h4 style="margin:0 0 6px;color:var(--accent);font-size:1em">▶ ${it.subtitle}</h4>
-                  <div style="white-space:pre-wrap;line-height:1.8;font-size:0.94em">${it.content.replace(/\*\*([^*]+)\*\*/g, '<strong style="color:var(--accent)">$1</strong>')}</div>
+                <div style="margin-bottom:14px">
+                  <div style="font-weight:600;font-size:0.92em;color:var(--w-ink);margin-bottom:4px">${it.subtitle}</div>
+                  <div class="paper-note-text" style="white-space:pre-wrap;margin-top:0">${it.content.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')}</div>
                 </div>
               `).join('')}
             </div>
-          </div>
-        `).join('')}
+          `).join('')}
+        </div>
       `;
     }
   };
