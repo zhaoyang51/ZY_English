@@ -1998,50 +1998,155 @@ window.WRITING_ONEPAGE_DATA = {
     }
   ],
   "guideAndMethods": {
-    "title": "27届大作文一页纸 · 宏大叙事化考纲真相与实操宝典",
+    "title": "27届大作文一页纸 · 模板思路解析与使用步骤",
     "sections": [
       {
-        "id": "exam_truth",
+        "id": "step0_truth",
         "icon": "🎯",
-        "title": "01 考纲真相：为什么必须走向“宏大叙事化”？",
+        "title": "01 考纲真相：为什么必须“宏大叙事化”？",
         "items": [
           {
             "subtitle": "三大核心阅卷情报（出自教育部官方《试题分析》）",
-            "content": "1. 题型彻底打通：从 23 年考纲改革起，英一、英二均可能出现【图画 / 图表 / 文本】以及混合考察（如 24 英一考了图画+图表，25 英一考了纯图表）。绝不能抱“英一一定图画、英二一定图表”的侥幸心理。\n2. 阅卷节奏与得分档：老师批阅一篇大作文往往仅十几秒到几十秒，决定档次的第一眼是书写、辞藻与结构，而决定能否在旱区冲进高分档的是**思辨高度（价值取向）、论证严密与具体论据**。\n3. 命题趋势宏大叙事化：无论是以人为本发展科技、老龄化、劳动教育、乡村振兴、宜居城市还是国民素养，全部立足于国家发展与民生福祉（利他/社会视角），而不是只停留在个人小情绪的“看图写话”。"
-          },
-          {
-            "subtitle": "避坑铁律：立意必须正面，且绝不“双边跑偏”",
-            "content": "• 正向主题词原则：无论是正面现象、负面现象（如不自信、乱扔垃圾、拖延），还是有争议的双图表，都必须从**正面积极的做法**提炼主题词（例如图画讽刺拖延，主题词写“立刻行动/自律”；图表对科技有争论，直接站在支持“以人为本发展科技”一边）。\n• 多图/混合图审题法：无论题目给多少幅图或多少组数据，命题人要你表达的核心永远只有**一个中心大主题**！两幅图要么全是表面现象，要么一表一里，各用一句话描述信息后，迅速收束到同一个宏大主题词上。"
+            "content": "1. **题型彻底打通**：自 23 年考纲改革起，英一、英二均可能出现【图画 / 图表 / 文本】及混合考察（如 24 英一图画+图表，25 英一纯图表），切忌抱“英一必图画、英二必图表”的侥幸心理。\n2. **阅卷节奏与得分档**：批阅一篇大作文往往仅十余秒到几十秒，第一眼看书写、辞藻与三段式结构；决定能否在旱区冲进高分档的核心，是**思辨高度（价值取向）、论证严密与具体支撑**。\n3. **命题趋势宏大叙事化**：无论是科技、老龄化、劳动教育、公园建设还是国民素养，全部立足**国家战略与民生福祉（利他/社会视角）**，切勿停留在个人小情绪的“看图写话”。"
           }
         ]
       },
       {
-        "id": "theme_selection",
+        "id": "step1_stance",
         "icon": "🧭",
-        "title": "02 主题词定调：向上对标价值观，向下具体化落地",
+        "title": "02 第一步：确定立意（正面积极 + 多图归一）",
         "items": [
           {
-            "subtitle": "两步定位法（防止拔高假大空）",
-            "content": "• 向上对齐：拿到题目，先思考“7 大核心价值观”（和谐、富强、文明、敬业、友善、爱国、诚信）中最贴近哪一类，以及国家为此推出了什么战略政策（语料库【相关战略】中的短语往往可直接拿来做主题词）。\n• 向下细化：若直接写宏大词汇显得生硬拔高（如 2020 年考研坚持/习惯、2021 年锻炼方式），则顺藤摸瓜“向下细化”——例如把“敬业”落地为“脚踏实地、克服拖延”，把“健康中国”落地为“养成规律锻炼习惯”，既紧扣题面，又顺理成章接上第二段的政策与战略支撑。"
+            "subtitle": "条件反射思维：国家做了什么 / 会做什么？",
+            "content": "拿到任何题目，先问自己：**“国家做了什么才出现这种成果，或看到这个现象国家会推动什么？”**\n• **正向主题词铁律**：无论图画/图表展示正面、负面还是争议话题，**立意与主题词一律写正面积极的正确做法**。\n  - 图画不自信 → 主题词写`自信`；乱扔垃圾 → 写`保护环境`；讽刺拖延/逃避 → 写`立刻行动 / 脚踏实地`。\n  - 图表呈现社会争论（如养老机器人）→ 不纠结正反争议，只要契合国家大力推动的科技与民生方向，直接站在**支持与规范发展**一边。"
+          },
+          {
+            "subtitle": "文本评论 & 多图/混合题审题铁律",
+            "content": "• **文本评论**：无论原作者态度是支持、反对还是中立，都从正面角度切入，直接赞同或提炼其中积极合理的部分。\n• **多图 / 双表 / 混合考察（切忌双边跑偏）**：不管题目给出多少幅图或多少组数据，命题人要表达的核心永远只有**一个中心大主题**！两幅图要么同为表面现象，要么一表一里，各自一句话交代后，迅速收束到同一个中心主题上。"
           }
         ]
       },
       {
-        "id": "vocab_helper",
-        "icon": "🎭",
-        "title": "03 首段图画描写速成：动作与表情高频词库",
+        "id": "step2_theme",
+        "icon": "⚖️",
+        "title": "03 主题词定调：向上对齐价值观，向下具体化",
         "items": [
           {
-            "subtitle": "单主语与双主语描写万能公式",
-            "content": "• 单主语：地点状语 + 主语 + 定语从句 (who seems + 表情 / who is + 动作) + 谓宾, doing…（如：By the river, an elderly resident who seems delighted watches a dragon boat race, saying that the event is becoming livelier.）\n• 双主语对比：地点状语 + 主语1 + 动作, while + 主语2 + 动作。（注意：人物动作用一般现在时，主谓单复数保持一致。）"
+            "subtitle": "两步定位法（防止生硬拔高 / 假大空）",
+            "content": "• **向上对齐**：先对应「七类核心价值观」（**和谐、富强、文明、敬业、友善、爱国、诚信**）及国家政策词库，`【相关战略】`里的短语经常可直接用作主题词。\n• **向下顺藤摸瓜**：若直接用宏观大词略显空泛，就往具体行为细化一层——例如 2020 英一可将“敬业”细化为“克服拖延、养成规律习惯”，2021 英二可将“健康中国”细化为“坚持日常体育锻炼”，既贴题面，又能自然接上第二段政策与战略支撑。\n• **全篇一贯原则**：确定主题词短语后，第一段末尾、第二段开头（或⑤句）及第三段尽量使用**同一英文短语**，保持全文首尾呼应。"
+          }
+        ]
+      },
+      {
+        "id": "step3_p1_frames",
+        "icon": "📐",
+        "title": "04 第二步：选择第一段写法（高级版 vs 简速通用版）",
+        "items": [
+          {
+            "subtitle": "高级版 / 满分版（按题型分立句架）",
+            "content": "**1. 图画题**\n[formula]Though deceptively simple, this scene conveys a meaningful message: 【图画描述】. It serves as a compelling testament to the significance of 【主题词】.[/formula]\n**2. 图表题（总起句 + 数据描述句）**\n[formula]The figures in the bar chart/line chart/pie chart/table reveal notable changes/differences concerning 【主题词】.[/formula]\n**3. 文本评论**\n[formula]【主题词】 has long been a subject of public debate. The passage offers a fresh perspective on this issue, arguing that 【提炼文段大意】. While this view may not convince everyone, I find it original and illuminating, and I agree with it wholeheartedly.[/formula]"
           },
           {
-            "subtitle": "考场常用表情词汇（接在 seem / look 后）",
-            "content": "• 高兴/欣喜：joyful / delighted / cheerful\n• 吃惊/困惑：shocked / surprised / confused / puzzled\n• 疲惫/失望：tired / exhausted / sad / depressed / disappointed / frustrated\n• 专注投入：concentrate fully on sth / be absorbed in sth"
+            "subtitle": "简化版 & 速通版（同一句架通杀图画/图表/文本）",
+            "content": "若希望一套到底不换句架，直接背下面这句通用框架（替换载体名称即可）：\n[formula]Though deceptively simple, this scene / this 【图表名称】 / this passage conveys a meaningful message: 【图画／图表／文本描述】. It serves as a compelling testament to the significance of 【主题词】.[/formula]\n其中 `【图表名称】` 对应填写 `bar chart`（条形图）/ `line chart`（折线图）/ `pie chart`（饼图）/ `table`（表格）。"
+          }
+        ]
+      },
+      {
+        "id": "step4_p1_picture",
+        "icon": "🎨",
+        "title": "05 第三步（图画类）：描述万能公式与表情动作库",
+        "items": [
+          {
+            "subtitle": "第一类：单主语图画万能公式",
+            "content": "[formula]地点状语, 主语 + 定语从句 (who seems 表情 / who is 动作) + 谓宾, doing…（补充伴随动作或结果）.[/formula]\n• **示例（23 英一·龙舟赛）**：`By the river, an elderly resident who seems delighted watches a dragon boat race, saying that the event in the village is becoming livelier.`\n• **三步操作**：① 找主体人物（`an elderly resident`） → ② 填地点与主动作（`By the river` + `watches a dragon boat race`，并用 `who seems delighted` 补表情；写不出定语从句可直接删掉） → ③ 用 `saying that…` / `doing…` 补图中文字或伴随状态（用**一般现在时**，注意主谓单复数一致）。"
           },
           {
-            "subtitle": "考场常用动作与图表应急表达",
-            "content": "• 常用动作：stand（站）、sit（坐）、lie / lying（躺）、walk（走）、run（跑）、curl up（蜷缩）、say to oneself（自言自语）、imagine（想象）、decide to do sth（决定做某事）。\n• 图表应急救命句：万一图表中某个专业类别词实在不会拼写，可用 **the first category / the second category**（第一类/第二类）指代，宁可笼统指代也绝不胡乱生造错误单词！"
+            "subtitle": "第二类：双主语对比 / 双幅图万能公式",
+            "content": "[formula]句1, while 句2.\n句1 = 地点 + 主语1 + 定语从句 + 主要动作\n句2 = 地点 + 主语2 + 主要动作, doing…[/formula]\n• **示例（20 英一·习惯对比）**：`At a desk, a girl who is working attentively wants to finish early, while a boy sits back at another desk, saying that he will not start until the last minute.`\n• **三步操作**：① 分开提炼左/右或两人物的对比核心 → ② 用 `while` 并列对比连接 → ③ 各补一个定语或 `saying that…` 细节。"
+          },
+          {
+            "subtitle": "考场高频表情与动作速查词库",
+            "content": "• **表情（接 `seem / look`）**：高兴 `joyful / delighted`；吃惊 `shocked / surprised`；困惑 `confused / puzzled`；疲惫 `tired / exhausted`；沮丧失望 `sad / depressed / disappointed / frustrated`；专注 `concentrate fully on sth / be absorbed in sth`。\n• **高频动作**：`stand`（站）、`sit`（坐）、`lie / lying`（躺）、`walk`（走）、`run`（跑）、`curl up`（蜷缩）、`say to oneself`（自言自语）、`think aloud`（说出想法）、`imagine`（想象）、`decide to do sth`（决定做某事）。"
+          }
+        ]
+      },
+      {
+        "id": "step5_p1_chart_mix",
+        "icon": "📊",
+        "title": "06 第三步（图表/文本/混合类）：万能公式与应急救命句",
+        "items": [
+          {
+            "subtitle": "动态图万能公式 + 应急救命句",
+            "content": "[formula]Between 【起始时间】 and 【终止时间】, the number/proportion of 【类别一】 rose/fell from about 【数据1】 to around 【数据2】, while that of 【类别二】 increased/decreased slightly/sharply from roughly 【数据3】 to approximately 【数据4】. By contrast, the figure for 【类别三】 remained broadly stable at around 【数据5】.[/formula]\n• **要点**：只填起止年份，不必罗列中间年份；数量用 `number`，比例用 `proportion`；若无稳定项，末句改为 `The figure for … also rose/fell, from … to …`。\n• **救命句（类别英文不会拼时）**：`Between 【起始时间】 and 【终止时间】, the figure for the first category rose/fell from 【数据1】 to 【数据2】.`（绝不胡乱造词）。"
+          },
+          {
+            "subtitle": "静态图万能公式 + 多选注记 + 应急救命句",
+            "content": "[formula]【类别一】 accounts for the largest share, at 【最大比例】, followed by 【类别二】, 【类别三】 and 【类别四】 at 【第二比例】, 【第三比例】 and 【第四比例】 respectively.[/formula]\n• **注**：若题目是**多选调查**（各百分比之和不等于 100%），把 `accounts for the largest share` 换成 `has the highest percentage`。\n• **救命句（类别不会拼时）**：`The largest share is 【最大比例】, while the second-largest is 【第二比例】.` 或直接用 `the first category / the second category` 指代。"
+          },
+          {
+            "subtitle": "文本评论 & 多材料混合考察公式",
+            "content": "• **文本评论万能公式**：`【主题词/某种做法】 can help us (to) 【达到某种结果】.`（例：`Acknowledging uncertainty and admitting mistakes can help us build trust.`；先抓高频词，再看 `But / studies found` 后的作者认可点）。\n• **混合考察（图画+图表 / 双图 / 文本+图）**：按单材料公式各写 1 句，再用并列（`and` / `In addition,`）或对比（`while` / `By contrast,`）衔接；切换材料载体时直接用 `The accompanying chart/table shows that…` 或 `The passage states that…` 引出。\n• **混合示例（24 英一）**：`In a newly built park, residents are walking and exercising, with one praising the park near his home. The accompanying bar chart shows that the number of parks in a city rose from 406 in 2020 to 670 in 2022.`"
+          }
+        ]
+      },
+      {
+        "id": "step6_p2_full",
+        "icon": "🏛️",
+        "title": "07 第四步（第二段·满分/高级版）：五句框架与 9 类填空表",
+        "items": [
+          {
+            "subtitle": "五句宏观逻辑架构（总述 → 个人+政策 → 社会+战略）",
+            "content": "[formula]① 【主题词】 has attracted attention, not least because of its far-reaching implications.\n② At the individual level, it is reflected in the way people 【具体行为】, ultimately contributing to 【可见成果】.\n③ National policies on 【相关领域】 likewise focus on empowering individuals to 【个人能力/行为】.\n④ Beyond personal advancement, this principle can strengthen communities by 【社会效果】, laying the groundwork for sustainable progress.\n⑤ This is in line with national strategies for 【相关战略】: as this principle takes root, 【社会变化】.[/formula]"
+          },
+          {
+            "subtitle": "高级版 9 类填空清单与语法形式速查",
+            "content": "[table]\n序号 | 填空项 | 从哪里找 | 语法要求\n1 | 【图画/题面描述】 | 结合题面自己写 | 完整句或表数据描述\n2 | 【主题词】 | 7选1或向下细化（全篇一致） | 名词/动名词短语\n3 | 【具体行为】 | 语料包「个人行为」（也可自拟） | 动词原形短语（接 the way people 后）\n4 | 【可见成果】 | 语料包「个人成果」（建议背诵） | 名词或动名词短语（接 to 后）\n5 | 【相关领域】 | 语料包「政策领域」（如 education） | 名词或动名词短语（接 on 后）\n6 | 【个人能力/行为】 | 语料包「政策能力」（直接背） | 动词原形短语（接 empowering…to 后）\n7 | 【社会效果】 | 语料包「社会效果」（直接背） | 动名词短语（接 by 后）\n8 | 【相关战略】 | 语料包「相关战略」（直接背） | 名词或动名词短语（接 for 后）\n9 | 【社会变化】 | 语料包「社会变化」（直接背） | 完整主谓小句\n[/table]"
+          }
+        ]
+      },
+      {
+        "id": "step7_p2_lite_fast",
+        "icon": "⚡",
+        "title": "08 第四步（第二段·简化版 & 速通版）：减负 5 类填空",
+        "items": [
+          {
+            "subtitle": "简化版（共 5 类填空，背诵量减半，结构同样严密）",
+            "content": "相比满分版，简化版将②的成果固定为 `personal development and well-being`、③的能力固定为 `achieve their full potential`、⑤固定为社会和谐连锁效应句，因此**只需准备 5 类填空**：`【图画/题面描述】`、`【主题词】`、`【具体行为】`、`【相关领域】`、`【社会效果】`。\n[formula]⑤ 固定宏观收束：As this principle takes root across society, it creates a ripple effect that benefits social harmony and long-term prosperity.[/formula]"
+          },
+          {
+            "subtitle": "速通版（共 5 类填空，按材料优先级选句，考场极速默写）",
+            "content": "速通版第二段**只需 5 项填空**（`【题面描述】`、`【主题词】`、`【具体行为】`、`【相关战略】`、`【权威机构/期刊】`），按材料特征从左至右选分支：\n• **①句（二选一）**：图画偏`主题体现`（`…that 【主题词】 finds direct expression in phenomena exemplified by the way people 【具体行为】.`）；图表偏`趋势/分布动机`（`…that this trend/pattern can be explained in part by people's desire to 【具体行为】.`）。\n• **②句（零填空任选其一）**：`This is hardly surprising, as people tend to favour behaviour they believe will have desirable consequences.` 或 `Those who value such practices are exemplars of self-improvement and higher achievement.`\n• **③句（固定转向）**：`However, we should recognise that social conditions fundamentally shape the choices available to individuals.`\n• **④句（按 `【相关战略】` 二选一）**：图表优先 `it is the promotion of national strategies for 【相关战略】 that provides impetus for these developments.`；图画优先 `a shared commitment to 【相关战略】 can create the conditions for communities and nations to flourish in harmony, laying the groundwork for sustainable progress.`（若偏个人成长难以挂战略，可填入契合的价值观）。\n• **⑤句（权威出处回扣主题）**：`A study / An article published by 【权威机构/期刊】 lends support to the view that 【主题词】 plays an important role in driving this trend / fostering community prosperity.`（或替换为 `societies placing greater emphasis on 【主题词】 enjoy higher levels of vitality and prosperity, a pattern consistent across multiple indicators.`）。"
+          }
+        ]
+      },
+      {
+        "id": "step8_p3_checklist",
+        "icon": "✅",
+        "title": "09 第五步：第三段收束与考前最小背诵清单",
+        "items": [
+          {
+            "subtitle": "第三段万能总结（高级版 / 简化版 / 速通版三档统一）",
+            "content": "[formula]In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when 【主题词】 guides action. Promoting this principle is therefore not merely advisable but essential for holistic development.[/formula]\n注意：此处填入的 `【主题词】` 在句中作从句主语，需与 `guides`（单数谓语）保持语法搭配一致（不可数名词或动名词短语均天然契合）。"
+          },
+          {
+            "subtitle": "考前最小背诵包 & 四步提分训练法",
+            "content": "**最小背诵包（背透这三样即可上考场）**：\n1. 至少背熟 **3 个最高频价值观**（推荐：**文明、和谐、敬业**，可覆盖绝大多数真题）。\n2. 每个价值观记住 **2–3 个【具体行为】**。\n3. 选定版本对应记忆：高级版/速通版背熟对应**【相关战略】**；简化版背熟**【相关领域】**与**【社会效果】**。\n\n**肌肉记忆练习节奏**：\n① 先在「模板与套写稿纸」熟悉每空语法角色 → ② 用「20-26英二实操」或「Part B 大作文」看真题先自己**用中文按步理清思路** → ③ 再用英文套写全篇 → ④ 可交给 AI（如 DeepSeek / Kimi）按「任务完成度 + 逻辑 + 语言」三维度打分润色，练透几篇即可考场 **20 分钟默写全篇**。"
+          }
+        ]
+      },
+      {
+        "id": "step9_variants",
+        "icon": "🔄",
+        "title": "10 进阶防撞车：第二段高分句式同义替换库",
+        "items": [
+          {
+            "subtitle": "高级版 / 简化版 ①–⑤ 句同义替换变体",
+            "content": "• **① 主题受关注**：\n  - `The far-reaching implications of 【主题词】 have helped bring it to centre stage.`\n  - `Interest in 【主题词】 stems in no small part from the breadth of its implications.`\n• **② 个人行为与成果**：\n  - `At the individual level, the way people 【具体行为】 gives expression to it, ultimately contributing to 【可见成果】.`\n  - `At the individual level, it manifests itself in how people 【具体行为】, ultimately contributing to 【可见成果】.`\n• **③ 政策与个人能力**：\n  - `National policies on 【相关领域】 are likewise geared towards empowering individuals to 【个人能力/行为】.`\n  - `At the heart of national policies on 【相关领域】 is the same concern with enabling individuals to 【个人能力/行为】.`\n• **④ 扩展到社会效果**：\n  - `The benefits of this principle extend beyond personal advancement: by 【社会效果】, it can strengthen communities and lay the groundwork for sustainable progress.`\n  - `Beyond personal advancement, this principle can help build stronger communities through 【社会效果】, thereby creating a foundation for sustainable progress.`\n• **⑤ 战略契合 / 宏观收束**：\n  - 高级版：`This reflects the priorities of national strategies for 【相关战略】; as this principle takes hold, 【社会变化】.`\n  - 简化版：`As this principle becomes established across society, it sets in motion a chain of effects that benefits social harmony and long-term prosperity.`"
+          },
+          {
+            "subtitle": "速通版 ①–⑤ 句核心同义替换变体",
+            "content": "• **①A/①B 体现或动机**：\n  - `To begin with, experience suggests that 【主题词】 is directly reflected in a range of phenomena; a case in point is the way people 【具体行为】.`\n  - `To begin with, experience suggests that part of the explanation for this trend/pattern lies in people's desire to 【具体行为】.`\n• **②A/②B 固定句替换**：\n  - `This is readily understandable: the prospect of desirable consequences tends to make a course of action more appealing.`\n  - `In those who value such practices, we find exemplars of self-improvement and higher achievement.`\n• **③ 转向社会条件**：\n  - `Yet the choices available to individuals are themselves shaped by social conditions, whose fundamental influence we should recognise.`\n• **④A/④B 战略推动/和谐繁荣**：\n  - `Seen in this light, the promotion of national strategies for 【相关战略】 acts as a catalyst for these developments.`\n  - `From this perspective, a shared commitment to 【相关战略】 can foster an environment in which communities and nations flourish in harmony, paving the way for sustainable progress.`\n• **⑤ 权威研究支持**：\n  - `The view that 【主题词】 plays an important role in driving this trend / fostering community prosperity finds support in a study / an article published by 【权威机构/期刊】.`\n  - `A study / An article published by 【权威机构/期刊】 lends support to a consistent pattern across multiple indicators: societies in which 【主题词】 carries greater weight enjoy higher levels of vitality and prosperity.`"
           }
         ]
       }

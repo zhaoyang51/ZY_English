@@ -135,6 +135,9 @@
     practiceShowPrompt: true,
     practiceShowCn: false,
     practiceShowAnalysis: false,
+    guideStepIndex: 0,
+    guideShowAll: false,
+    _guideKbdBound: false,
     builderState: {
       tier: 'full', // full | simplified | fast
       materialType: 'picture',
@@ -167,6 +170,7 @@
       if (initialYear && initialYear >= 2020 && initialYear <= 2026) {
         this.practiceYear = Number(initialYear);
       }
+      this.bindGuideKeyboardOnce();
       this.render();
     },
 
@@ -1172,36 +1176,204 @@
     },
 
     /* ==========================================================================
-       4. 考纲与使用说明
+       4. 考纲与使用说明（分步交互导学）
        ========================================================================== */
-    renderGuidePanel() {
+    formatGuideContent(raw) {
+      const esc = (s) => this.escapeHtml(String(s || ''));
+      const renderInline = (str) => esc(str)
+        .replace(/`([^`]+)`/g, '<code class="guide-inline-code">$1</code>')
+        .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+
+      const renderTable = (block) => {
+        const lines = block.trim().split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+        if (lines.length < 2) return renderInline(block);
+        const headers = lines[0].split('|').map(c => c.trim());
+        const rows = lines.slice(1).map(l => l.split('|').map(c => c.trim()));
+        return `
+          <div class="clean-table-wrap guide-table-wrap">
+            <table class="clean-table">
+              <thead><tr>${headers.map(h => `<th>${renderInline(h)}</th>`).join('')}</tr></thead>
+              <tbody>
+                ${rows.map(r => `<tr>${r.map(c => `<td>${renderInline(c)}</td>`).join('')}</tr>`).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+      };
+
+      const tokens = String(raw || '').split(/(\[formula\][\s\S]*?\[\/formula\]|\[table\][\s\S]*?\[\/table\])/g);
+      return tokens.map(tok => {
+        if (tok.startsWith('[formula]') && tok.endsWith('[/formula]')) {
+          const inner = tok.slice(9, -10).trim();
+          return `<div class="guide-formula-box">${renderInline(inner)}</div>`;
+        }
+        if (tok.startsWith('[table]') && tok.endsWith('[/table]')) {
+          const inner = tok.slice(7, -8).trim();
+          return renderTable(inner);
+        }
+        return renderInline(tok.replace(/^\n+|\n+$/g, (m) => (m.length ? '\n' : '')));
+      }).join('');
+    },
+
+    bindGuideKeyboardOnce() {
+      if (this._guideKbdBound || typeof window === 'undefined' || !window.addEventListener) return;
+      this._guideKbdBound = true;
+      window.addEventListener('keydown', (e) => {
+        if (!document.body || !document.body.classList.contains('mode-writing')) return;
+        if (window.WritingModule && window.WritingModule.activeSystem !== 'onepage') return;
+        if (this.currentSubTab !== 'opGuide' || this.guideShowAll) return;
+        if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+        const tag = (e.target && e.target.tagName) || '';
+        if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA' || (e.target && e.target.isContentEditable)) return;
+        if (document.getElementById('slotPopover')) return;
+
+        const sections = (this.getData().guideAndMethods && this.getData().guideAndMethods.sections) || [];
+        if (!sections.length) return;
+        if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          if (this.guideStepIndex < sections.length - 1) {
+            this.guideStepIndex++;
+            this.renderGuidePanel(true);
+          }
+        } else if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          if (this.guideStepIndex > 0) {
+            this.guideStepIndex--;
+            this.renderGuidePanel(true);
+          }
+        }
+      });
+    },
+
+    renderGuidePanel(scrollTopOnStep) {
       const panel = this.container.querySelector('#opPanel_opGuide');
       const guide = this.getData().guideAndMethods || {};
       const sections = guide.sections || [];
       if (!panel) return;
 
+      const total = sections.length;
+      if (!total) return;
+      if (this.guideStepIndex < 0) this.guideStepIndex = 0;
+      if (this.guideStepIndex >= total) this.guideStepIndex = total - 1;
+
+      const cur = this.guideStepIndex;
+      const pct = this.guideShowAll ? 100 : Math.round(((cur + 1) / total) * 100);
+      const visibleSections = this.guideShowAll ? sections : [sections[cur]];
+
       panel.innerHTML = `
         <div class="paper-sheet">
-          <div class="paper-toolbar">
+          <div class="paper-toolbar guide-stepper-toolbar">
             <div class="paper-toolbar-left">
               <strong>${guide.title || '宏大叙事考纲与使用说明'}</strong>
+              <span class="guide-progress-pill" id="opGuideProgress">${this.guideShowAll ? `全部 ${total} 步` : `${cur + 1} / ${total}`}</span>
+            </div>
+            <div class="guide-stepper-controls">
+              <select class="w-select" id="opGuideChapterSelect" aria-label="选择章节步骤">
+                ${sections.map((sec, idx) => `
+                  <option value="${idx}" ${idx === cur ? 'selected' : ''}>${sec.title}</option>
+                `).join('')}
+              </select>
+              <button type="button" class="guide-ctrl-btn" id="opGuideAllBtn">${this.guideShowAll ? '返回分步' : '显示全部'}</button>
+              <button type="button" class="guide-ctrl-btn" id="opGuidePrevBtn" ${this.guideShowAll || cur <= 0 ? 'disabled' : ''} title="快捷键: ←">上一步</button>
+              <button type="button" class="guide-ctrl-btn primary" id="opGuideNextBtn" ${this.guideShowAll || cur >= total - 1 ? 'disabled' : ''} title="快捷键: →">下一步</button>
+              <button type="button" class="guide-ctrl-btn" id="opGuideResetBtn">重置</button>
             </div>
           </div>
-          ${sections.map(sec => `
+          <div class="guide-progress-track" aria-hidden="true">
+            <div class="guide-progress-fill" style="width:${pct}%"></div>
+          </div>
+          ${!this.guideShowAll ? `
+            <div class="guide-step-pills" role="tablist" aria-label="步骤快速跳转">
+              ${sections.map((sec, idx) => {
+                const shortTitle = (sec.title || '').replace(/^(\d+\s+)/, '$1').split('：')[0];
+                const stateCls = idx === cur ? 'active' : (idx < cur ? 'done' : '');
+                return `<button type="button" class="guide-step-pill ${stateCls}" data-step="${idx}" title="${this.escapeHtml(sec.title)}">${this.escapeHtml(shortTitle)}</button>`;
+              }).join('')}
+            </div>
+          ` : ''}
+          ${visibleSections.map(sec => `
             <div class="paper-section">
               <div class="paper-section-head">
-                <span class="paper-section-title">${sec.title}</span>
+                <span class="paper-section-title">${sec.icon ? sec.icon + ' ' : ''}${sec.title}</span>
               </div>
               ${(sec.items || []).map(it => `
-                <div style="margin-bottom:14px">
-                  <div style="font-weight:600;font-size:0.92em;color:var(--w-ink);margin-bottom:4px">${it.subtitle}</div>
-                  <div class="paper-note-text" style="white-space:pre-wrap;margin-top:0">${it.content.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')}</div>
+                <div class="guide-item-block">
+                  <div class="guide-item-subtitle">${this.escapeHtml(it.subtitle)}</div>
+                  <div class="guide-item-body">${this.formatGuideContent(it.content)}</div>
                 </div>
               `).join('')}
             </div>
           `).join('')}
+          <div class="paper-footer">
+            <div class="paper-footer-stats">
+              <span>${this.guideShowAll ? `已展开全部 ${total} 个核心模块` : `当前进度 <strong>${cur + 1} / ${total}</strong> · 支持键盘 ← / → 翻步`}</span>
+            </div>
+            <div class="guide-stepper-controls">
+              ${!this.guideShowAll ? `
+                <button type="button" class="guide-ctrl-btn" id="opGuideFooterPrevBtn" ${cur <= 0 ? 'disabled' : ''}>← 上一步</button>
+                <button type="button" class="guide-ctrl-btn primary" id="opGuideFooterNextBtn" ${cur >= total - 1 ? 'disabled' : ''}>${cur >= total - 1 ? '已至最后一步' : '下一步 →'}</button>
+              ` : `
+                <button type="button" class="guide-ctrl-btn primary" id="opGuideFooterBackStepBtn">回到第 ${cur + 1} 步精学</button>
+              `}
+            </div>
+          </div>
         </div>
       `;
+
+      const goStep = (nextIdx) => {
+        this.guideStepIndex = Math.max(0, Math.min(total - 1, nextIdx));
+        this.guideShowAll = false;
+        this.renderGuidePanel(true);
+      };
+
+      const prevBtn = panel.querySelector('#opGuidePrevBtn');
+      const nextBtn = panel.querySelector('#opGuideNextBtn');
+      const fPrevBtn = panel.querySelector('#opGuideFooterPrevBtn');
+      const fNextBtn = panel.querySelector('#opGuideFooterNextBtn');
+      const allBtn = panel.querySelector('#opGuideAllBtn');
+      const resetBtn = panel.querySelector('#opGuideResetBtn');
+      const chapSel = panel.querySelector('#opGuideChapterSelect');
+      const backStepBtn = panel.querySelector('#opGuideFooterBackStepBtn');
+
+      if (prevBtn) prevBtn.addEventListener('click', () => goStep(this.guideStepIndex - 1));
+      if (fPrevBtn) fPrevBtn.addEventListener('click', () => goStep(this.guideStepIndex - 1));
+      if (nextBtn) nextBtn.addEventListener('click', () => goStep(this.guideStepIndex + 1));
+      if (fNextBtn) fNextBtn.addEventListener('click', () => goStep(this.guideStepIndex + 1));
+
+      if (allBtn) {
+        allBtn.addEventListener('click', () => {
+          this.guideShowAll = !this.guideShowAll;
+          this.renderGuidePanel(true);
+        });
+      }
+      if (backStepBtn) {
+        backStepBtn.addEventListener('click', () => {
+          this.guideShowAll = false;
+          this.renderGuidePanel(true);
+        });
+      }
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          this.guideShowAll = false;
+          this.guideStepIndex = 0;
+          this.renderGuidePanel(true);
+        });
+      }
+      if (chapSel) {
+        chapSel.addEventListener('change', (e) => {
+          goStep(Number(e.target.value));
+        });
+      }
+      panel.querySelectorAll('.guide-step-pill').forEach(btn => {
+        btn.addEventListener('click', () => goStep(Number(btn.dataset.step)));
+      });
+
+      if (scrollTopOnStep) {
+        const scrollHost = typeof document.getElementById === 'function' ? document.getElementById('writingSection') : null;
+        if (scrollHost && scrollHost.scrollTop > 120) {
+          scrollHost.scrollTop = 0;
+        }
+      }
     }
   };
 

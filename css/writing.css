@@ -1040,3 +1040,203 @@ body.mode-writing.theme-dark .pr-var.is-prompt-data .pr-var-tag {
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================================================
+   Interactive Guide Stepper (考纲与使用说明 · 分步交互)
+   ========================================================================== */
+.guide-stepper-toolbar {
+  padding: 14px 24px;
+  gap: 10px 14px;
+}
+
+.guide-stepper-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.guide-ctrl-btn {
+  background: var(--w-paper);
+  border: 1px solid var(--w-border);
+  color: var(--w-ink);
+  font-size: 0.84em;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.14s ease;
+  font-family: inherit;
+}
+
+.guide-ctrl-btn:hover:not(:disabled) {
+  border-color: var(--w-ink);
+  background: var(--w-hover);
+}
+
+.guide-ctrl-btn:disabled {
+  opacity: 0.38;
+  cursor: default;
+}
+
+.guide-ctrl-btn.primary {
+  background: var(--w-ink);
+  border-color: var(--w-ink);
+  color: var(--w-paper);
+}
+
+.guide-ctrl-btn.primary:hover:not(:disabled) {
+  opacity: 0.88;
+  background: var(--w-ink);
+}
+
+.guide-progress-pill {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: var(--w-accent);
+  background: rgba(37, 99, 235, 0.08);
+  padding: 2px 9px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.guide-progress-track {
+  width: 100%;
+  height: 3px;
+  background: var(--w-line);
+  overflow: hidden;
+}
+
+.guide-progress-fill {
+  height: 100%;
+  background: var(--w-accent);
+  transition: width 0.22s ease;
+}
+
+.guide-step-pills {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 10px 24px;
+  border-bottom: 1px solid var(--w-line);
+  background: rgba(0, 0, 0, 0.012);
+}
+
+.guide-step-pill {
+  background: transparent;
+  border: 1px solid var(--w-line);
+  color: var(--w-muted);
+  font-size: 0.78em;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.14s ease;
+  font-family: inherit;
+}
+
+.guide-step-pill:hover {
+  border-color: var(--w-ink);
+  color: var(--w-ink);
+}
+
+.guide-step-pill.active {
+  background: var(--w-ink);
+  border-color: var(--w-ink);
+  color: var(--w-paper);
+}
+
+.guide-step-pill.done {
+  border-color: var(--w-accent);
+  color: var(--w-accent);
+}
+
+.guide-item-block {
+  margin-bottom: 18px;
+}
+
+.guide-item-block:last-child {
+  margin-bottom: 0;
+}
+
+.guide-item-subtitle {
+  font-weight: 700;
+  font-size: 0.94em;
+  color: var(--w-ink);
+  margin-bottom: 8px;
+}
+
+.guide-item-body {
+  font-size: 0.92em;
+  line-height: 1.85;
+  color: var(--w-muted);
+  white-space: pre-wrap;
+}
+
+.guide-item-body strong {
+  color: var(--w-ink);
+  font-weight: 700;
+}
+
+.guide-formula-box {
+  margin: 8px 0 10px;
+  padding: 12px 16px;
+  background: rgba(37, 99, 235, 0.045);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-left: 3.5px solid var(--w-accent);
+  border-radius: 8px;
+  font-family: "Times New Roman", Times, Georgia, "PingFang SC", "Microsoft YaHei", serif;
+  font-size: 1.03em;
+  line-height: 1.85;
+  color: var(--w-ink);
+  white-space: pre-wrap;
+}
+
+body.mode-writing.theme-parchment .guide-formula-box {
+  background: rgba(154, 91, 19, 0.055);
+  border-color: rgba(154, 91, 19, 0.25);
+}
+
+body.mode-writing.theme-dark .guide-formula-box {
+  background: rgba(96, 165, 250, 0.09);
+  border-color: rgba(96, 165, 250, 0.28);
+}
+
+.guide-inline-code {
+  font-family: "Times New Roman", Times, Georgia, "PingFang SC", "Microsoft YaHei", serif;
+  font-size: 0.98em;
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--w-ink);
+  padding: 1px 6px;
+  border-radius: 4px;
+  border-bottom: 1px dashed rgba(37, 99, 235, 0.4);
+}
+
+body.mode-writing.theme-parchment .guide-inline-code {
+  background: rgba(154, 91, 19, 0.09);
+  border-bottom-color: rgba(154, 91, 19, 0.45);
+}
+
+body.mode-writing.theme-dark .guide-inline-code {
+  background: rgba(96, 165, 250, 0.14);
+  border-bottom-color: rgba(96, 165, 250, 0.5);
+}
+
+.guide-table-wrap {
+  margin: 10px 0 4px;
+}
+
+.guide-table-wrap .clean-table {
+  font-size: 0.9em;
+  white-space: normal;
+}
+
+@media (max-width: 768px) {
+  .guide-stepper-toolbar {
+    padding: 12px 16px;
+  }
+  .guide-step-pills {
+    padding: 8px 16px;
+  }
+}
