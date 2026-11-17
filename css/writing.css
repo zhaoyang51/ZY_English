@@ -925,3 +925,70 @@ body.mode-writing.theme-dark .pr-var.is-prompt-data .pr-var-tag {
     padding: 10px 18px;
   }
 }
+
+/* ==========================================================================
+   Practice Essay Left-Right Split Layout (Prompt Left / Practice Right)
+   ========================================================================== */
+.writing-inner-container:has(#opPanel_opPractice.active .pr-split-layout) {
+  max-width: 1440px;
+}
+
+.pr-split-layout {
+  display: grid;
+  grid-template-columns: minmax(340px, 0.88fr) minmax(0, 1.32fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.pr-split-left {
+  position: sticky;
+  top: 16px;
+  max-height: calc(100vh - 36px);
+  overflow-y: auto;
+}
+
+.pr-split-right {
+  min-width: 0;
+}
+
+.pr-prompt-sheet .paper-toolbar {
+  padding: 14px 20px;
+}
+
+.pr-prompt-sheet .paper-section {
+  padding: 16px 20px;
+}
+
+.pr-prompt-directions {
+  white-space: pre-wrap;
+  font-size: 0.88em;
+  line-height: 1.68;
+  margin: 0 0 14px 0;
+}
+
+.pr-prompt-chart-box {
+  text-align: center;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--w-line);
+}
+
+.pr-prompt-chart-box img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .pr-split-layout {
+    grid-template-columns: 1fr;
+  }
+  .pr-split-left {
+    position: static;
+    max-height: none;
+    overflow-y: visible;
+  }
+}

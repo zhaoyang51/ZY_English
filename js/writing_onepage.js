@@ -1036,82 +1036,98 @@
         </div>
 
         ${item ? `
-          <div class="paper-sheet">
-            <div class="paper-toolbar">
-              <div class="paper-toolbar-left">
-                <strong style="font-size:1em">${item.year} 年英语二 · ${item.title}</strong>
-                <span style="font-size:0.9em;color:var(--w-muted)">${item.coreTheme}</span>
-              </div>
-              <div class="paper-toolbar-right">
-                <label class="w-switch-label">
-                  <input type="checkbox" id="opPrHighlightToggle" ${this.practiceShowHighlight ? 'checked' : ''}>
-                  <span>标注替换</span>
-                </label>
-                <label class="w-switch-label">
-                  <input type="checkbox" class="w-switch-input" id="opPrPromptToggle" ${this.practiceShowPrompt ? 'checked' : ''}>
-                  <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
-                  <span>真题题目</span>
-                </label>
-                <label class="w-switch-label">
-                  <input type="checkbox" class="w-switch-input" id="opPrCnToggle" ${this.practiceShowCn ? 'checked' : ''}>
-                  <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
-                  <span>中英对照</span>
-                </label>
-                <label class="w-switch-label">
-                  <input type="checkbox" class="w-switch-input" id="opPrAnaToggle" ${this.practiceShowAnalysis ? 'checked' : ''}>
-                  <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
-                  <span>写作解析</span>
-                </label>
-              </div>
-            </div>
-            ${this.practiceShowHighlight ? `
-              <div class="pr-legend-bar" role="note" aria-label="模板结构图例">
-                <span class="pr-legend-item"><span class="pr-legend-sample-fixed">常规字体</span> = 模板固定骨架</span>
-                <span class="pr-legend-item"><span class="pr-var"><span class="pr-var-tag">主题/语料</span>蓝框高亮</span> = 语料与主题替换部分</span>
-                <span class="pr-legend-item"><span class="pr-var is-prompt-data"><span class="pr-var-tag">题面/数据</span>绿框高亮</span> = 首段需结合题目自写部分</span>
-              </div>` : ''}
-
+          ${this.practiceShowPrompt ? '<div class="pr-split-layout">' : ''}
             ${this.practiceShowPrompt ? `
-              <div class="paper-section">
-                <div class="paper-section-head">
-                  <span class="paper-section-title">真题原题 · 48. Directions</span>
-                  <button class="paper-text-btn" id="opPrMockExamBtn" data-year="${item.year}">进入答题卡模考</button>
+              <aside class="pr-split-left" aria-label="真题原题面板">
+                <div class="paper-sheet pr-prompt-sheet">
+                  <div class="paper-toolbar">
+                    <div class="paper-toolbar-left">
+                      <strong style="font-size:0.96em">真题原题 · ${item.year} 年</strong>
+                    </div>
+                    <div class="paper-toolbar-right">
+                      <button class="paper-text-btn" id="opPrMockExamBtn" data-year="${item.year}">进入答题卡模考</button>
+                    </div>
+                  </div>
+                  <div class="paper-section">
+                    <div class="paper-section-head" style="margin-bottom:10px">
+                      <span class="paper-section-title">48. Directions</span>
+                    </div>
+                    <div class="paper-en-text no-indent pr-prompt-directions">${directionsEn}</div>
+                    <div class="pr-prompt-chart-box">
+                      <img src="images/charts/chart_${item.year}.jpg" alt="${item.year}年英语二大作文真题图表：${item.title}" onerror="this.parentElement.style.display='none'" />
+                    </div>
+                  </div>
                 </div>
-                <div class="paper-en-text no-indent" style="white-space:pre-wrap;font-size:0.94em;line-height:1.75;margin-bottom:16px">${directionsEn}</div>
-                <div style="text-align:center;background:#ffffff;padding:12px;border-radius:8px;border:1px solid var(--w-line)">
-                  <img src="images/charts/chart_${item.year}.jpg" alt="${item.year}年英语二大作文真题图表：${item.title}" style="max-width:580px;width:100%;height:auto;display:block;margin:0 auto" onerror="this.parentElement.style.display='none'" />
-                </div>
-              </div>
+              </aside>
             ` : ''}
 
-            ${enParas.map((ep, idx) => `
-              <div class="paper-section">
-                <div class="paper-section-head">
-                  <span class="paper-section-title">${paraNames[idx] || ('第' + (idx+1) + '段')}</span>
-                  <button class="paper-swap-btn op-copy-pr-para" data-raw="${encodeURIComponent(ep)}" title="复制本段">⇄</button>
+            <div class="${this.practiceShowPrompt ? 'pr-split-right' : ''}">
+              <div class="paper-sheet">
+                <div class="paper-toolbar">
+                  <div class="paper-toolbar-left">
+                    <strong style="font-size:1em">${item.year} 年英语二 · ${item.title}</strong>
+                    <span style="font-size:0.9em;color:var(--w-muted)">${item.coreTheme}</span>
+                  </div>
+                  <div class="paper-toolbar-right">
+                    <label class="w-switch-label">
+                      <input type="checkbox" class="w-switch-input" id="opPrHighlightToggle" ${this.practiceShowHighlight ? 'checked' : ''}>
+                      <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
+                      <span>标注替换</span>
+                    </label>
+                    <label class="w-switch-label">
+                      <input type="checkbox" class="w-switch-input" id="opPrPromptToggle" ${this.practiceShowPrompt ? 'checked' : ''}>
+                      <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
+                      <span>真题题目</span>
+                    </label>
+                    <label class="w-switch-label">
+                      <input type="checkbox" class="w-switch-input" id="opPrCnToggle" ${this.practiceShowCn ? 'checked' : ''}>
+                      <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
+                      <span>中英对照</span>
+                    </label>
+                    <label class="w-switch-label">
+                      <input type="checkbox" class="w-switch-input" id="opPrAnaToggle" ${this.practiceShowAnalysis ? 'checked' : ''}>
+                      <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
+                      <span>写作解析</span>
+                    </label>
+                  </div>
                 </div>
-                <div class="paper-en-text">${this.practiceShowHighlight ? this.highlightPracticeParagraph(ep, idx, item.tierKey) : this.escapeHtml(ep)}</div>
-                ${this.practiceShowCn && cnParas[idx] ? `<div class="paper-cn-text">${cnParas[idx]}</div>` : ''}
-              </div>
-            `).join('')}
+                ${this.practiceShowHighlight ? `
+                  <div class="pr-legend-bar" role="note" aria-label="模板结构图例">
+                    <span class="pr-legend-item"><span class="pr-legend-sample-fixed">常规字体</span> = 模板固定骨架</span>
+                    <span class="pr-legend-item"><span class="pr-var"><span class="pr-var-tag">主题/语料</span>蓝框高亮</span> = 语料与主题替换部分</span>
+                    <span class="pr-legend-item"><span class="pr-var is-prompt-data"><span class="pr-var-tag">题面/数据</span>绿框高亮</span> = 首段需结合题目自写部分</span>
+                  </div>` : ''}
 
-            ${this.practiceShowAnalysis ? `
-              <div class="paper-section">
-                <div class="paper-section-head">
-                  <span class="paper-section-title">写作解析与语料拆解</span>
+                ${enParas.map((ep, idx) => `
+                  <div class="paper-section">
+                    <div class="paper-section-head">
+                      <span class="paper-section-title">${paraNames[idx] || ('第' + (idx+1) + '段')}</span>
+                      <button class="paper-swap-btn op-copy-pr-para" data-raw="${encodeURIComponent(ep)}" title="复制本段">⇄</button>
+                    </div>
+                    <div class="paper-en-text">${this.practiceShowHighlight ? this.highlightPracticeParagraph(ep, idx, item.tierKey) : this.escapeHtml(ep)}</div>
+                    ${this.practiceShowCn && cnParas[idx] ? `<div class="paper-cn-text">${cnParas[idx]}</div>` : ''}
+                  </div>
+                `).join('')}
+
+                ${this.practiceShowAnalysis ? `
+                  <div class="paper-section">
+                    <div class="paper-section-head">
+                      <span class="paper-section-title">写作解析与语料拆解</span>
+                    </div>
+                    <div class="paper-note-text" style="white-space:pre-wrap">${item.analysis}</div>
+                  </div>
+                ` : ''}
+
+                <div class="paper-footer">
+                  <div class="paper-footer-stats">
+                    <span>英文词数 <strong>${item.wordCount}</strong></span>
+                    <span>档位 <strong>${item.tier}</strong></span>
+                  </div>
+                  <button class="paper-text-btn" id="opPrCopyAllBtn" data-raw="${encodeURIComponent(item.enEssay)}">复制全文</button>
                 </div>
-                <div class="paper-note-text" style="white-space:pre-wrap">${item.analysis}</div>
               </div>
-            ` : ''}
-
-            <div class="paper-footer">
-              <div class="paper-footer-stats">
-                <span>英文词数 <strong>${item.wordCount}</strong></span>
-                <span>档位 <strong>${item.tier}</strong></span>
-              </div>
-              <button class="paper-text-btn" id="opPrCopyAllBtn" data-raw="${encodeURIComponent(item.enEssay)}">复制全文</button>
             </div>
-          </div>
+          ${this.practiceShowPrompt ? '</div>' : ''}
         ` : ''}
       `;
 
