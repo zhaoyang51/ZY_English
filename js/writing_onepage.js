@@ -370,7 +370,7 @@
               <button class="paper-icon-btn" id="opToggleFullscreenBtn" title="${this.isFullscreen ? '退出全屏' : '展开聚焦'}">
                 ${this.isFullscreen ? '✕ 退出' : '⤢'}
               </button>
-              <span style="font-size:0.84em;color:var(--w-muted)">
+              <span style="font-size:0.9em;color:var(--w-muted)">
                 ${st.tier === 'fast' ? '全题型通用' : MATERIAL_NAMES[st.materialType]} · 当前语料【${(corpus.find(c => c.id === st.selectedValue) || { name: '和谐' }).name}】 · 点击文中虚线填词
               </span>
             </div>
@@ -601,7 +601,7 @@
           <button class="paper-icon-btn" id="opPopoverClose">✕</button>
         </div>
         <div class="slot-popover-body">
-          <div style="font-size:0.8em;color:var(--w-muted);margin-bottom:8px;line-height:1.5">${meta.hint}</div>
+          <div style="font-size:0.88em;color:var(--w-muted);margin-bottom:8px;line-height:1.5">${meta.hint}</div>
           ${isMulti
             ? `<textarea class="slot-popover-input" id="opPopoverInput" rows="3" placeholder="直接输入英文描述，按 Ctrl+Enter 或点击确认...">${curVal.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</textarea>`
             : `<input type="text" class="slot-popover-input" id="opPopoverInput" value="${curVal.replace(/"/g, '&quot;')}" placeholder="直接输入英文，按 Enter 确认...">`
@@ -618,7 +618,7 @@
             </div>
           ` : ''}
           ${options.length > 0 ? `
-            <div style="font-size:0.8em;color:var(--w-muted);margin-top:6px">
+            <div style="font-size:0.88em;color:var(--w-muted);margin-top:6px">
               ${slotKey === 'desc' ? '点击下方万能句型公式填入模板并改写细节：' : `点击下方【${curValObj ? curValObj.name : ''}】语料直接填入：`}
             </div>
             <div class="slot-popover-opts">
@@ -759,7 +759,7 @@
             if (!matched.length) return '';
             return `
               <div style="margin-bottom:18px">
-                <div style="font-size:0.86em;font-weight:700;color:var(--w-muted);margin-bottom:8px">${sm.label}</div>
+                <div style="font-size:0.9em;font-weight:700;color:var(--w-muted);margin-bottom:8px">${sm.label}</div>
                 <div class="clean-phrase-list">
                   ${matched.map(it => `
                     <div class="clean-phrase-row op-copy-phrase" data-raw="${encodeURIComponent(it.en || it.zh)}" title="点击复制">
@@ -784,7 +784,7 @@
               <div class="paper-toolbar">
                 <div class="paper-toolbar-left">
                   <strong style="font-size:1.02em">${val.index <= 7 ? val.index + '. ' : ''}${val.name} · ${val.enName}</strong>
-                  <span style="font-size:0.84em;color:var(--w-muted)">${val.topics || ''} ${val.exams ? '｜' + val.exams : ''}</span>
+                  <span style="font-size:0.9em;color:var(--w-muted)">${val.topics || ''} ${val.exams ? '｜' + val.exams : ''}</span>
                 </div>
                 ${VALUE_PRESETS[val.id] ? `<button class="paper-text-btn op-use-value-preset" data-vid="${val.id}">套用此主题词示范</button>` : ''}
               </div>
@@ -895,7 +895,7 @@
             <div class="paper-toolbar">
               <div class="paper-toolbar-left">
                 <strong style="font-size:1em">${item.year} 年英语二 · ${item.title}</strong>
-                <span style="font-size:0.84em;color:var(--w-muted)">${item.coreTheme}</span>
+                <span style="font-size:0.9em;color:var(--w-muted)">${item.coreTheme}</span>
               </div>
               <div class="paper-toolbar-right">
                 <label class="w-switch-label">

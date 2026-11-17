@@ -14,6 +14,12 @@
     activeSystem: (function() {
       try { return (window.localStorage && window.localStorage.getItem('ZY_WRITING_ACTIVE_SYSTEM')) || 'onepage'; } catch (e) { return 'onepage'; }
     })(),
+    fontSize: (function() {
+      try {
+        const s = parseInt(window.localStorage && window.localStorage.getItem('ZY_WRITING_FONT_SIZE'), 10);
+        return (s >= 14 && s <= 26) ? s : 18;
+      } catch (e) { return 18; }
+    })(),
     currentTab: 'guide',
     selectedExamSubject: '英语二',
     selectedExamYear: 2025,
@@ -43,7 +49,24 @@
         this.initialized = true;
       }
 
+      this.applyFontSize(this.fontSize, true);
       this.switchSystem(this.activeSystem, true);
+    },
+
+    applyFontSize(px, skipSave) {
+      const clamped = Math.max(14, Math.min(26, Number(px) || 18));
+      this.fontSize = clamped;
+      if (document.body && document.body.style && document.body.style.setProperty) {
+        document.body.style.setProperty('--w-font-size', clamped + 'px');
+      }
+      if (this.container && this.container.style && this.container.style.setProperty) {
+        this.container.style.setProperty('--w-font-size', clamped + 'px');
+      }
+      const badge = document.getElementById('writingFontVal');
+      if (badge) badge.textContent = clamped + 'px';
+      if (!skipSave) {
+        try { localStorage.setItem('ZY_WRITING_FONT_SIZE', String(clamped)); } catch (e) {}
+      }
     },
 
     onYearChange(year) {
@@ -101,13 +124,20 @@
               <h2>写作宝典</h2>
               <span>三段式模板 · 语料库 · 真题套写</span>
             </div>
-            <div class="writing-segmented-control" role="group" aria-label="写作体系切换">
-              <button class="system-switch-btn ${this.activeSystem === 'onepage' ? 'active' : ''}" data-system="onepage">
-                大作文一页纸
-              </button>
-              <button class="system-switch-btn ${this.activeSystem === 'classic' ? 'active' : ''}" data-system="classic">
-                功能句与真题范文库
-              </button>
+            <div class="writing-header-actions">
+              <div class="writing-font-control" role="group" aria-label="写作字号调节">
+                <button class="font-step-btn" id="writingFontDecBtn" title="缩小字体">A-</button>
+                <span class="font-size-val" id="writingFontVal" title="点击恢复默认大小 (18px)">${this.fontSize}px</span>
+                <button class="font-step-btn" id="writingFontIncBtn" title="放大字体">A+</button>
+              </div>
+              <div class="writing-segmented-control" role="group" aria-label="写作体系切换">
+                <button class="system-switch-btn ${this.activeSystem === 'onepage' ? 'active' : ''}" data-system="onepage">
+                  大作文一页纸
+                </button>
+                <button class="system-switch-btn ${this.activeSystem === 'classic' ? 'active' : ''}" data-system="classic">
+                  功能句与真题范文库
+                </button>
+              </div>
             </div>
           </div>
 
@@ -144,6 +174,13 @@
     },
 
     bindTabEvents() {
+      const decBtn = this.container.querySelector('#writingFontDecBtn');
+      const incBtn = this.container.querySelector('#writingFontIncBtn');
+      const valBadge = this.container.querySelector('#writingFontVal');
+      if (decBtn) decBtn.addEventListener('click', () => this.applyFontSize(this.fontSize - 1));
+      if (incBtn) incBtn.addEventListener('click', () => this.applyFontSize(this.fontSize + 1));
+      if (valBadge) valBadge.addEventListener('click', () => this.applyFontSize(18));
+
       this.container.querySelectorAll('.system-switch-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           const sys = btn.dataset.system;
@@ -201,7 +238,7 @@
           <div class="paper-toolbar">
             <div class="paper-toolbar-left">
               <strong>${guide.title || '考研英语作文模板使用全流程指南'}</strong>
-              <span style="font-size:0.84em;color:var(--w-muted)">${guide.author || '秘密哥 / 苦瓜学长'}</span>
+              <span style="font-size:0.9em;color:var(--w-muted)">${guide.author || '秘密哥 / 苦瓜学长'}</span>
             </div>
           </div>
           ${sections.map(sec => {
@@ -305,7 +342,7 @@
                     <td>${item.form}</td>
                     <td>
                       <div style="font-weight:600;color:var(--w-ink)">${item.title}</div>
-                      ${item.pointsSummary ? `<div style="font-size:0.84em;color:var(--w-muted);margin-top:3px">${item.pointsSummary}</div>` : ''}
+                      ${item.pointsSummary ? `<div style="font-size:0.9em;color:var(--w-muted);margin-top:3px">${item.pointsSummary}</div>` : ''}
                     </td>
                     <td>
                       ${item.matchTemplate ? `<button class="clean-link-btn template-jump-btn" data-match="${item.matchTemplate}">${item.matchTemplate}</button>` : ''}
@@ -344,7 +381,7 @@
             <div class="paper-toolbar">
               <div class="paper-toolbar-left">
                 <strong style="font-size:1em">${t.title}</strong>
-                <span style="font-size:0.84em;color:var(--w-muted)">${t.categoryName || ''} · 句数 ${t.sentencesCount || '2/4/2'}</span>
+                <span style="font-size:0.9em;color:var(--w-muted)">${t.categoryName || ''} · 句数 ${t.sentencesCount || '2/4/2'}</span>
               </div>
               <button class="paper-text-btn copy-template-btn" data-id="${t.id}">复制模板</button>
             </div>
@@ -472,7 +509,7 @@
                 <div class="paper-section-head">
                   <div>
                     <span class="paper-section-title">${item.name}</span>
-                    <span style="font-size:0.84em;color:var(--w-muted);margin-left:8px">${item.chartType || item.category || ''}</span>
+                    <span style="font-size:0.9em;color:var(--w-muted);margin-left:8px">${item.chartType || item.category || ''}</span>
                   </div>
                   <button class="paper-text-btn copy-text-btn" data-text="${encodeURIComponent(item.mainTemplate ? item.mainTemplate.en : '')}">复制整段</button>
                 </div>
@@ -480,14 +517,14 @@
                 <div class="paper-cn-text" style="text-indent:0">${item.mainTemplate ? item.mainTemplate.cn : ''}</div>
                 ${sentences.length > 0 ? `
                   <details style="margin-top:12px">
-                    <summary style="font-size:0.86em;font-weight:600;color:var(--w-accent);cursor:pointer">查看逐句功能句与真题例句 (${sentences.length}句)</summary>
+                    <summary style="font-size:0.9em;font-weight:600;color:var(--w-accent);cursor:pointer">查看逐句功能句与真题例句 (${sentences.length}句)</summary>
                     <div style="margin-top:10px;display:flex;flex-direction:column;gap:8px">
                       ${sentences.map(s => `
                         <div class="clean-phrase-row copy-text-btn" data-text="${encodeURIComponent(s.pattern)}" title="点击复制该句模板">
                           <div style="flex:1">
                             <div class="clean-phrase-en">${s.num} ${this.highlightPlaceholders(s.pattern)}</div>
                             <div class="clean-phrase-zh">${s.cn}</div>
-                            ${s.example ? `<div style="font-size:0.82em;color:var(--w-muted);margin-top:4px">例：${s.example}（${s.exampleCn || ''}）</div>` : ''}
+                            ${s.example ? `<div style="font-size:0.9em;color:var(--w-muted);margin-top:4px">例：${s.example}（${s.exampleCn || ''}）</div>` : ''}
                           </div>
                         </div>
                       `).join('')}
@@ -558,7 +595,7 @@
           <div class="paper-toolbar">
             <div class="paper-toolbar-left">
               <strong>${exam.year}年 ${exam.exam} · ${exam.title}</strong>
-              <span style="font-size:0.84em;color:var(--w-muted)">${exam.chartType || ''}</span>
+              <span style="font-size:0.9em;color:var(--w-muted)">${exam.chartType || ''}</span>
             </div>
             <div class="paper-toolbar-right">
               <label class="w-switch-label">
@@ -713,7 +750,7 @@
             </div>
           </div>
           <div class="paper-section">
-            <div style="font-size:0.86em;color:var(--w-muted);margin-bottom:8px">核心主题词 3 选 1</div>
+            <div style="font-size:0.9em;color:var(--w-muted);margin-bottom:8px">核心主题词 3 选 1</div>
             <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
               ${(item.themeOptions || []).map(opt => `<span class="slot-blank" style="cursor:default">${opt}</span>`).join('')}
             </div>
@@ -778,9 +815,9 @@
                   <tr>
                     <td>
                       <div style="font-weight:600;color:var(--w-ink)">${item.title}</div>
-                      <div style="font-size:0.84em;color:var(--w-muted);margin-top:3px">${item.desc || ''}</div>
+                      <div style="font-size:0.9em;color:var(--w-muted);margin-top:3px">${item.desc || ''}</div>
                     </td>
-                    <td style="font-size:0.86em;color:var(--w-muted)">${item.size} · ${item.pages}页</td>
+                    <td style="font-size:0.9em;color:var(--w-muted)">${item.size} · ${item.pages}页</td>
                     <td>
                       <a href="${item.path}" target="_blank" rel="noopener noreferrer" class="clean-link-btn">预览</a>
                       <a href="${item.path}" download="${item.title}.pdf" class="clean-link-btn" style="margin-left:10px">下载</a>

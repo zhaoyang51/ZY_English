@@ -26,6 +26,7 @@ body.mode-writing .topbar {
 }
 
 body.mode-writing {
+  --w-font-size: 18px;
   --w-bg: #f6f5f1;
   --w-paper: #fcfbfa;
   --w-ink: #1f2937;
@@ -80,6 +81,7 @@ body.mode-writing.theme-dark {
   scroll-behavior: smooth;
   background: var(--w-bg);
   color: var(--w-ink);
+  font-size: var(--w-font-size, 18px);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 
@@ -120,6 +122,51 @@ body.mode-writing.theme-dark {
 .writing-minimal-title span {
   font-size: 0.85em;
   color: var(--w-muted);
+}
+
+.writing-header-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.writing-font-control {
+  display: inline-flex;
+  align-items: center;
+  background: var(--w-pill-bg);
+  padding: 2px;
+  border-radius: 8px;
+  gap: 2px;
+}
+
+.font-step-btn {
+  background: transparent;
+  border: none;
+  padding: 5px 9px;
+  border-radius: 6px;
+  font-size: 0.78em;
+  font-weight: 700;
+  color: var(--w-ink);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.font-step-btn:hover {
+  background: var(--w-paper);
+}
+
+.font-size-val {
+  font-size: 0.76em;
+  font-weight: 600;
+  color: var(--w-muted);
+  padding: 0 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.font-size-val:hover {
+  color: var(--w-ink);
 }
 
 .writing-segmented-control {
@@ -449,8 +496,8 @@ body.mode-writing.theme-dark {
 
 /* Essay Typography & Dashed Interactive Slots */
 .paper-en-text {
-  font-size: 16px;
-  line-height: 2.25;
+  font-size: 1em;
+  line-height: 2.2;
   color: var(--w-ink);
   text-indent: 2em;
   word-spacing: 0.04em;
@@ -489,19 +536,19 @@ body.mode-writing.theme-dark {
 }
 
 .paper-cn-text {
-  margin-top: 12px;
-  padding-top: 10px;
+  margin-top: 14px;
+  padding-top: 12px;
   border-top: 1px dashed var(--w-line);
-  font-size: 14.2px;
-  line-height: 1.85;
+  font-size: 0.96em;
+  line-height: 1.9;
   color: var(--w-muted);
   text-indent: 2em;
 }
 
 .paper-note-text {
   margin-top: 10px;
-  font-size: 13.5px;
-  line-height: 1.75;
+  font-size: 0.94em;
+  line-height: 1.82;
   color: var(--w-muted);
 }
 
@@ -543,13 +590,14 @@ body.mode-writing.theme-dark {
 .slot-popover {
   position: fixed;
   z-index: 2501;
-  width: 460px;
+  width: 480px;
   max-width: calc(100vw - 24px);
   max-height: 78vh;
   display: flex;
   flex-direction: column;
   background-color: var(--w-paper, #fcfbfa);
   color: var(--w-ink, #1f2937);
+  font-size: var(--w-font-size, 18px);
   border: 1px solid var(--w-border, #e2dfd7);
   border-radius: 12px;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
@@ -642,17 +690,17 @@ body.mode-writing.theme-dark {
 }
 
 .slot-popover-opt .opt-en {
-  font-size: 0.88em;
+  font-size: 0.92em;
   font-weight: 600;
   color: var(--w-ink);
   display: block;
 }
 
 .slot-popover-opt .opt-zh {
-  font-size: 0.78em;
+  font-size: 0.88em;
   color: var(--w-muted);
   display: block;
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 /* ==========================================================================
@@ -667,7 +715,7 @@ body.mode-writing.theme-dark {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
-  font-size: 0.9em;
+  font-size: 0.94em;
 }
 
 .clean-table th {
@@ -675,14 +723,14 @@ body.mode-writing.theme-dark {
   font-weight: 600;
   color: var(--w-muted);
   border-bottom: 1px solid var(--w-line);
-  font-size: 0.88em;
+  font-size: 0.9em;
 }
 
 .clean-table td {
   padding: 12px 14px;
   border-bottom: 1px solid var(--w-line);
   vertical-align: top;
-  line-height: 1.6;
+  line-height: 1.68;
 }
 
 .clean-table tr:last-child td {
@@ -698,7 +746,7 @@ body.mode-writing.theme-dark {
   border: none;
   color: var(--w-accent);
   font-weight: 600;
-  font-size: 0.88em;
+  font-size: 0.9em;
   cursor: pointer;
   padding: 2px 4px;
   text-decoration: underline;
@@ -707,7 +755,7 @@ body.mode-writing.theme-dark {
 
 .clean-phrase-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   gap: 8px;
 }
 
@@ -716,7 +764,7 @@ body.mode-writing.theme-dark {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding: 9px 12px;
+  padding: 10px 14px;
   border: 1px solid var(--w-line);
   border-radius: 6px;
   cursor: pointer;
@@ -729,16 +777,17 @@ body.mode-writing.theme-dark {
 }
 
 .clean-phrase-en {
-  font-size: 0.9em;
+  font-size: 0.94em;
   font-weight: 600;
   color: var(--w-ink);
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .clean-phrase-zh {
-  font-size: 0.82em;
+  font-size: 0.9em;
   color: var(--w-muted);
-  margin-top: 2px;
+  margin-top: 3px;
+  line-height: 1.5;
 }
 
 .clean-code-box {
@@ -747,8 +796,8 @@ body.mode-writing.theme-dark {
   border-radius: 8px;
   padding: 14px 18px;
   font-family: Consolas, Monaco, monospace;
-  font-size: 0.88em;
-  line-height: 1.75;
+  font-size: 0.9em;
+  line-height: 1.8;
   color: var(--w-ink);
   white-space: pre-wrap;
   margin-top: 8px;
@@ -759,7 +808,7 @@ body.mode-writing.theme-dark {
   background: transparent;
   border: 1px solid var(--w-border);
   color: var(--w-ink);
-  font-size: 0.82em;
+  font-size: 0.85em;
   font-weight: 600;
   padding: 4px 10px;
   border-radius: 6px;
@@ -787,8 +836,11 @@ body.mode-writing.theme-dark {
     padding: 12px 18px;
   }
   .paper-en-text {
-    font-size: 15px;
+    font-size: 0.96em;
     line-height: 2.1;
+  }
+  .paper-cn-text {
+    font-size: 0.92em;
   }
   .clean-phrase-list {
     grid-template-columns: 1fr;
