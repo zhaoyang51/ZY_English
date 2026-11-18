@@ -1,19 +1,57 @@
 /**
- * ZY_English New Simplified 5-Template Interactive Workspace
- * 写作宝典体系三：新简化版5套万能模板（2020-2026英二全适配）
+ * ZY_English Fine-Tuned Simplified 5-Template Interactive Workspace
+ * 写作宝典体系三：基于 HTML 简化版微调的 5 套万能模板（2020-2026全套写 · 替换英文用【】标出）
  */
 (function(window) {
   'use strict';
 
+  const SLOT_LABELS = {
+    chartType: '图表类型',
+    relation: '比较关系',
+    theme: '主题词',
+    themeCap: '主题词',
+    behavior: '具体行为',
+    domain: '相关领域',
+    surveyTarget: '调查对象',
+    topItem: '最大类别',
+    topPct: '最大比例',
+    item2: '第二类别',
+    item3: '第三类别',
+    item4: '第四类别',
+    item5: '第五类别',
+    pct2: '第二比例',
+    pct3: '第三比例',
+    pct4: '第四比例',
+    pct5: '第五比例',
+    startYear: '起始年份',
+    endYear: '终止年份',
+    metric: '统计指标',
+    subject: '统计对象',
+    trendVerb: '变化方向',
+    startVal: '起始比例',
+    endVal: '终止比例',
+    trendNote: '总体增幅',
+    item1: '类别一',
+    verb1: '变化一',
+    start1: '起点一',
+    end1: '终点一',
+    verb2: '变化二',
+    degree2: '幅度',
+    start2: '起点二',
+    end2: '终点二'
+  };
+
+  const CORE_BLUE_SLOTS = new Set(['theme', 'themeCap', 'behavior', 'domain']);
+
   const WritingSimplified5Module = {
     container: null,
     activeTab: 's5_t1', // 's5_t1'..'s5_t5' | 's5_matrix'
-    viewScope: 'all', // 'all' (空白模板 + 20-26全部7年套用) | 'blank' | 'exam' (单年精练)
+    viewScope: 'all', // 'all' (空白模板 + 20-26全部7年套用) | 'blank' | 'exam'
     selectedYear: 2026,
     showHighlight: true,
     showCn: false,
     showPrompt: false,
-    customSlots: {}, // optional user overrides keyed by 'blank' or year string
+    customSlots: {},
 
     getData() {
       return window.WRITING_SIMPLIFIED5_DATA || { templates: [], examMappings: {}, slotsMeta: [] };
@@ -95,6 +133,14 @@
       }
     },
 
+    getP1Template(tpl, scopeKey) {
+      if (scopeKey === 'blank') return tpl.p1_blank;
+      const data = this.getData();
+      const mapping = (data.examMappings && data.examMappings[Number(scopeKey)]) || {};
+      const lead = tpl.p1Lead || 'The figures in the {{chartType}} reveal notable {{relation}} concerning {{theme}}.';
+      return mapping.p1BodyTpl ? `${lead} ${mapping.p1BodyTpl}` : tpl.p1_blank;
+    },
+
     getSlotsForScope(scopeKey) {
       const data = this.getData();
       const isBlank = scopeKey === 'blank';
@@ -108,53 +154,31 @@
       return merged;
     },
 
-    /**
-     * Build plain text for copying. When wrapBrackets is true, substituted values are enclosed in 【...】.
-     */
     buildPlainParagraph(tplText, slots, wrapBrackets) {
-      const labels = {
-        chartType: '【图表类型】',
-        relation: '【changes/differences】',
-        theme: '【主题词】',
-        themeCap: '【主题词】',
-        dataDesc: '【图表数据描述】',
-        behavior: '【具体行为】'
-      };
       return String(tplText || '').replace(/\{\{(\w+)\}\}/g, (_, k) => {
         const val = (slots[k] || '').trim();
-        if (!val) return labels[k] || `【${k}】`;
+        if (!val) return `【${SLOT_LABELS[k] || k}】`;
         return wrapBrackets ? `【${val}】` : val;
       });
     },
 
-    /**
-     * Render paragraph HTML. Filled exam slots always display 【...】 around the substituted English.
-     */
     buildRenderedParagraph(tplText, slots, scopeKey) {
       const esc = (s) => this.escapeHtml(s);
-      const slotLabels = {
-        chartType: '图表类型',
-        relation: '趋势/差异',
-        theme: '主题词',
-        themeCap: '主题词',
-        dataDesc: '图表数据描述',
-        behavior: '具体行为'
-      };
-      const promptKeys = new Set(['chartType', 'relation', 'dataDesc']);
-
       return esc(String(tplText || '')).replace(/\{\{(\w+)\}\}/g, (_, key) => {
         const baseKey = key === 'themeCap' ? 'theme' : key;
         const val = (slots[key] || '').trim();
-        const label = slotLabels[key] || key;
-        const isPrompt = promptKeys.has(baseKey);
+        const label = SLOT_LABELS[key] || key;
+        const isPromptData = !CORE_BLUE_SLOTS.has(baseKey);
+        const canEdit = CORE_BLUE_SLOTS.has(baseKey) || baseKey === 'chartType' || baseKey === 'relation';
 
         if (!val) {
-          return `<span class="slot-blank s5-slot-trigger" data-scope="${esc(scopeKey)}" data-slot="${baseKey}" title="点击填入或参考20-26真题表达">【${esc(label)}】</span>`;
+          return `<span class="slot-blank ${canEdit ? 's5-slot-trigger' : ''}" data-scope="${esc(scopeKey)}" data-slot="${baseKey}" title="${canEdit ? '点击填入或试填历年表达' : esc(label)}">【${esc(label)}】</span>`;
         }
+        const clickableCls = canEdit ? 's5-slot-trigger' : '';
         if (this.showHighlight) {
-          return `<span class="pr-var s5-slot-trigger ${isPrompt ? 'is-prompt-data' : ''}" data-scope="${esc(scopeKey)}" data-slot="${baseKey}" title="点击修改【${esc(label)}】"><span class="pr-var-tag">${esc(label)}</span>【${esc(val)}】</span>`;
+          return `<span class="pr-var ${clickableCls} ${isPromptData ? 'is-prompt-data' : ''}" data-scope="${esc(scopeKey)}" data-slot="${baseKey}" ${canEdit ? `title="点击修改【${esc(label)}】"` : ''}><span class="pr-var-tag">${esc(label)}</span>【${esc(val)}】</span>`;
         }
-        return `<span class="s5-slot-trigger" data-scope="${esc(scopeKey)}" data-slot="${baseKey}" style="cursor:pointer;font-weight:600" title="点击修改【${esc(label)}】">【${esc(val)}】</span>`;
+        return `<span class="${clickableCls}" data-scope="${esc(scopeKey)}" data-slot="${baseKey}" style="${canEdit ? 'cursor:pointer;' : ''}font-weight:600">【${esc(val)}】</span>`;
       });
     },
 
@@ -164,23 +188,25 @@
       const yearNum = Number(scopeKey);
       const examInfo = (!isBlank && data.examMappings && data.examMappings[yearNum]) || {};
       const slots = this.getSlotsForScope(scopeKey);
+      const p1Tpl = this.getP1Template(tpl, scopeKey);
 
-      const p1Plain = this.buildPlainParagraph(tpl.p1, slots, false);
+      const p1Plain = this.buildPlainParagraph(p1Tpl, slots, false);
       const p2Plain = this.buildPlainParagraph(tpl.p2, slots, false);
       const p3Plain = this.buildPlainParagraph(tpl.p3, slots, false);
       const fullPlain = `${p1Plain}\n\n${p2Plain}\n\n${p3Plain}`;
 
       const fullMarked = [
-        this.buildPlainParagraph(tpl.p1, slots, true),
+        this.buildPlainParagraph(p1Tpl, slots, true),
         this.buildPlainParagraph(tpl.p2, slots, true),
         this.buildPlainParagraph(tpl.p3, slots, true)
       ].join('\n\n');
 
       const wordCount = fullPlain.trim().split(/\s+/).filter(Boolean).length;
+      const needsDomain = tpl.p2.includes('{{domain}}');
 
       const paraItems = [
-        { title: '第一段 · 图表描述与点题', html: this.buildRenderedParagraph(tpl.p1, slots, scopeKey), plain: this.buildPlainParagraph(tpl.p1, slots, !isBlank), cn: tpl.cn.p1 },
-        { title: '第二段 · 个人与社会双层论证', html: this.buildRenderedParagraph(tpl.p2, slots, scopeKey), plain: this.buildPlainParagraph(tpl.p2, slots, !isBlank), cn: tpl.cn.p2 },
+        { title: '第一段 · 图表数据与主题', html: this.buildRenderedParagraph(p1Tpl, slots, scopeKey), plain: this.buildPlainParagraph(p1Tpl, slots, !isBlank), cn: tpl.cn.p1 },
+        { title: '第二段 · 个人行为与政策社会论证', html: this.buildRenderedParagraph(tpl.p2, slots, scopeKey), plain: this.buildPlainParagraph(tpl.p2, slots, !isBlank), cn: tpl.cn.p2 },
         { title: '第三段 · 总结与倡导', html: this.buildRenderedParagraph(tpl.p3, slots, scopeKey), plain: this.buildPlainParagraph(tpl.p3, slots, !isBlank), cn: tpl.cn.p3 }
       ];
 
@@ -191,12 +217,12 @@
         <div class="paper-sheet s5-essay-card" data-year="${isBlank ? 'blank' : yearNum}">
           <div class="paper-toolbar">
             <div class="paper-toolbar-left">
-              <strong style="font-size:0.98em">${isBlank ? `${tpl.name} · 空白模板` : `${yearNum} 年英语二实操 · ${examInfo.title || ''}`}</strong>
+              <strong style="font-size:0.98em">${isBlank ? `${tpl.name}` : `${yearNum} 年英语二套写 · ${examInfo.title || ''}`}</strong>
               <span style="font-size:0.86em;color:var(--w-muted)">${isBlank ? tpl.badge : `${examInfo.topicZh || ''} ｜ ${examInfo.chartInfo || ''}`}</span>
             </div>
             <div class="paper-toolbar-right">
               ${isBlank ? `
-                <button class="paper-text-btn s5-reset-scope-btn" data-scope="blank" title="清空自定义试填">清空试填</button>
+                <button class="paper-text-btn s5-reset-scope-btn" data-scope="blank">清空试填</button>
               ` : `
                 <button class="paper-text-btn s5-copy-marked-btn" data-raw="${encodeURIComponent(fullMarked)}" title="复制带【】标注的英文套写">复制带【】版</button>
                 <button class="paper-text-btn s5-copy-clean-btn" data-raw="${encodeURIComponent(fullPlain)}" title="复制纯英文范文">复制纯英文</button>
@@ -207,7 +233,7 @@
           ${isBlank ? `
             <div class="paper-section" style="padding-top:14px;padding-bottom:14px">
               <div class="paper-note-text" style="margin-top:0">
-                <strong>模板特点：</strong>${this.escapeHtml(tpl.summary)}<br>
+                <strong>相比原 HTML 简化版的微调说明：</strong>${this.escapeHtml(tpl.tweakNote)}<br>
                 <strong>填空语法：</strong>${this.escapeHtml(tpl.grammarNote)}
               </div>
             </div>
@@ -238,8 +264,8 @@
 
           <div class="paper-footer">
             <div class="paper-footer-stats">
-              <span>${isBlank ? '待填词槽 <strong>3 类核心【】</strong>' : `英文词数 <strong>${wordCount}</strong>`}</span>
-              <span>${isBlank ? '点击任意【】空白可试填或挑选历年真题表达' : '英文中【】部分即为本篇替换内容'}</span>
+              <span>${isBlank ? `P2/P3 核心【】槽位 <strong>${needsDomain ? '3 个（主题词/具体行为/相关领域）' : '仅 2 个（主题词/具体行为）'}</strong>` : `英文词数 <strong>${wordCount}</strong>`}</span>
+              <span>${isBlank ? '点击任意【主题词】或【具体行为】可试填' : '英文中【】部分即为套写替换内容'}</span>
             </div>
             ${isBlank ? `<button class="paper-text-btn s5-copy-clean-btn" data-raw="${encodeURIComponent(fullPlain)}">复制空白模板</button>` : ''}
           </div>
@@ -261,7 +287,6 @@
       } else if (this.viewScope === 'exam') {
         sheetsHtml = this.renderEssaySheetHtml(tpl, String(this.selectedYear));
       } else {
-        // 'all': blank template card at top + all 7 real exams (2026 -> 2020) applied directly below
         sheetsHtml = this.renderEssaySheetHtml(tpl, 'blank') +
           years.map(y => this.renderEssaySheetHtml(tpl, String(y))).join('');
       }
@@ -269,7 +294,7 @@
       host.innerHTML = `
         <div class="writing-inline-bar">
           <div class="filter-group">
-            <button class="filter-btn s5-scope-btn ${this.viewScope === 'all' ? 'active' : ''}" data-scope="all">模板 + 20-26全部使用</button>
+            <button class="filter-btn s5-scope-btn ${this.viewScope === 'all' ? 'active' : ''}" data-scope="all">模板 + 20-26全套实操</button>
             <button class="filter-btn s5-scope-btn ${this.viewScope === 'blank' ? 'active' : ''}" data-scope="blank">仅看空白模板</button>
           </div>
           <div class="filter-group">
@@ -293,7 +318,7 @@
             <label class="w-switch-label">
               <input type="checkbox" class="w-switch-input" id="s5CnToggle" ${this.showCn ? 'checked' : ''}>
               <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
-              <span>中文翻译</span>
+              <span>中文参考</span>
             </label>
           </div>
         </div>
@@ -353,7 +378,7 @@
       if (existingPop) existingPop.remove();
 
       const data = this.getData();
-      const meta = (data.slotsMeta || []).find(m => m.key === slotKey) || { key: slotKey, label: slotKey, hint: '' };
+      const meta = (data.slotsMeta || []).find(m => m.key === slotKey) || { key: slotKey, label: SLOT_LABELS[slotKey] || slotKey, hint: '' };
       const curSlots = this.getSlotsForScope(scopeKey);
       const currentVal = curSlots[slotKey] || '';
       const years = [2026, 2025, 2024, 2023, 2022, 2021, 2020];
@@ -392,7 +417,7 @@
             <input type="text" class="w-input" id="s5PopInput" value="${this.escapeHtml(currentVal)}" placeholder="输入自定义英文表达（留空则恢复默认）" style="flex:1">
             <button class="paper-text-btn" id="s5PopApply">应用</button>
           </div>
-          <div style="font-size:0.82em;font-weight:700;color:var(--w-muted);margin-bottom:8px">点击快速填入历年真题参考表达：</div>
+          <div style="font-size:0.82em;font-weight:700;color:var(--w-muted);margin-bottom:8px">点击快速填入历年真题表达：</div>
           <div class="slot-popover-list">
             ${options.map(opt => `
               <button type="button" class="slot-popover-opt s5-pop-opt" data-val="${encodeURIComponent(opt.val)}">
@@ -450,8 +475,8 @@
         <div class="paper-sheet">
           <div class="paper-toolbar">
             <div class="paper-toolbar-left">
-              <strong>2020–2026 年英语二大作文 · 3 类核心替换槽位速查表</strong>
-              <span style="font-size:0.88em;color:var(--w-muted)">背熟 5 套模板中任意 1 套，只需按此表替换【主题词】【具体行为】与【首段数据】即可全覆盖</span>
+              <strong>2020–2026 年英语二大作文 · HTML 简化版微调核心替换速查表</strong>
+              <span style="font-size:0.88em;color:var(--w-muted)">微调模板 1–4 只需记忆【主题词】与【具体行为】（首段看图填写）；微调模板 5 仅多 1 个超短【相关领域】</span>
             </div>
           </div>
           <div class="paper-section" style="border-bottom:none">
@@ -459,11 +484,12 @@
               <table class="clean-table">
                 <thead>
                   <tr>
-                    <th style="width:15%">年份与题目</th>
-                    <th style="width:20%">【主题词】</th>
-                    <th style="width:27%">【具体行为】（接 people/to 后）</th>
-                    <th style="width:28%">首段【图表类型 + 数据描述】</th>
-                    <th style="width:10%">操作</th>
+                    <th style="width:14%">年份与题目</th>
+                    <th style="width:21%">【主题词】</th>
+                    <th style="width:27%">【具体行为】（接 people 后）</th>
+                    <th style="width:16%">【相关领域】（仅微调5）</th>
+                    <th style="width:14%">首段图表类型</th>
+                    <th style="width:8%">操作</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -481,12 +507,13 @@
                           <span style="font-size:0.85em;color:var(--w-muted)">${this.escapeHtml(m.topicZh || '')}</span>
                         </td>
                         <td>【${this.escapeHtml(s.behavior || '')}】</td>
+                        <td>【${this.escapeHtml(s.domain || '')}】</td>
                         <td style="font-size:0.9em">
-                          <span style="font-weight:600">【${this.escapeHtml(s.chartType || '')}】 / 【${this.escapeHtml(s.relation || '')}】</span><br>
-                          <span style="color:var(--w-muted)">【${this.escapeHtml(s.dataDesc || '')}】</span>
+                          <strong>【${this.escapeHtml(s.chartType || '')}】</strong><br>
+                          <span style="color:var(--w-muted)">【${this.escapeHtml(s.relation || '')}】</span>
                         </td>
                         <td>
-                          <button type="button" class="clean-link-btn s5-jump-exam" data-year="${y}">单独查看</button>
+                          <button type="button" class="clean-link-btn s5-jump-exam" data-year="${y}">查看套写</button>
                         </td>
                       </tr>
                     `;
