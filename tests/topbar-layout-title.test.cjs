@@ -30,6 +30,8 @@ test('Topbar removes brand header row and simplifies controls, grouping, theme, 
   // Verify concise button labels & separate button groups
   assert.ok(html.includes('>做题</button>'), 'Practice button text must be 做题');
   assert.ok(html.includes('>复盘</button>'), 'Review button text must be 复盘');
+  assert.ok(html.includes('>模式1</button>'), 'Review submode 1 button text must be 模式1');
+  assert.ok(html.includes('>模式2</button>'), 'Review submode 2 button text must be 模式2');
   assert.ok(html.includes('>写作宝典</button>'), 'Writing button must not have leading icon');
   assert.ok(!html.includes('✍️ 写作宝典'), 'Writing button icon must be removed');
 
