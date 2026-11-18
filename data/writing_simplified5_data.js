@@ -1,107 +1,80 @@
 /**
- * ZY_English Fine-Tuned Simplified 5-Template Suite
- * 基于《大作文套写》HTML 简化版模板微调生成的 5 套高通用模板（2020-2026英二全套写适配）
+ * ZY_English Fine-Tuned Simplified 3-Template Suite
+ * 基于 HTML《简化版》原模板微调的 3 套同义模板：
+ * 保留全部可替换【】槽位不多不少（图表、数据、主题词、具体行为、相关领域、社会效果），
+ * 仅对模板固定句的用词与句式做同义微调，保持每句原意不变，全适配 2020–2026 真题。
  */
 window.WRITING_SIMPLIFIED5_DATA = {
   meta: {
-    title: '新简化版5套微调模板（基于HTML简化版 · 2020–2026全适配）',
-    subtitle: '严格保留原 HTML 简化版核心骨架，仅做局部固化与防撞车微调 · 极大减少需要背诵的【】槽位'
+    title: '新简化版3套微调模板（基于HTML简化版 · 同槽位同大意微调）',
+    subtitle: '严格保留原 HTML《简化版》全部【】槽位（不多也不少），仅对固定骨架进行词汇与句式微调 · 2020–2026 全适配'
   },
 
   slotsMeta: [
     { key: 'chartType', label: '图表类型', hint: 'pie chart / bar chart / line chart / table' },
-    { key: 'relation', label: '比较关系', hint: 'differences（静态占比对比）/ changes（动态趋势变化）' },
-    { key: 'theme', label: '主题词', hint: '名词或动名词短语（第一、二、三段保持同一表达）' },
-    { key: 'behavior', label: '具体行为', hint: '动词原形短语（接在 people / how people 后）' },
-    { key: 'domain', label: '相关领域', hint: '仅模板5需要：education / public health / urban-rural integration 等' }
+    { key: 'relation', label: '比较关系', hint: 'differences（静态对比）/ changes（动态变化）' },
+    { key: 'theme', label: '主题词', hint: '名词或动名词短语（第一、二、三段保持一致）' },
+    { key: 'behavior', label: '具体行为', hint: '动词原形短语（接在 people / they 后）' },
+    { key: 'domain', label: '相关领域', hint: '名词短语（接在 on / in 后）' },
+    { key: 'socialEffect', label: '社会效果', hint: '动名词短语 V-ing（接在 by / through 后）' }
   ],
 
   templates: [
     {
       id: 's5_t1',
-      shortName: '微调 1 · 极简固化版',
-      name: '微调模板一：HTML简化版 · 双槽极简固化版',
-      badge: 'P2/P3 仅填【主题词】【具体行为】',
-      tweakNote: '在 HTML 简化版原句基础上，将原 S05【相关领域】固化为 public livelihoods and social services，原 S06【社会效果】固化为 improving quality of life and strengthening social cohesion，其余句子逐字保留，P2/P3 仅需替换 2 个【】。',
-      grammarNote: '【具体行为】接在 the way people 后，填动词原形短语；【主题词】用单数名词或动名词短语。',
-      p1_blank: 'The figures in the {{chartType}} reveal notable {{relation}} concerning {{theme}}. Among {{surveyTarget}}, {{topItem}} accounts for the largest share, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
-      p1Cn_blank: '【图表类型】中的数据揭示了有关【主题词】的显著【比较关系】。在【调查对象】中，【最大类别】占比最高，达【最大比例】，其次是【第二类别】、【第三类别】和【第四类别】，分别占【第二比例】、【第三比例】和【第四比例】（动态图按起止年份写变化）。',
-      p1CnLead: '{{chartType}}中的数据揭示了有关{{theme}}的显著{{relation}}。',
-      p2: '{{themeCap}} has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people {{behavior}}, ultimately contributing to personal development and well-being. National policies on public livelihoods and social services likewise focus on empowering individuals to achieve their full potential. Beyond personal advancement, this principle can strengthen communities by improving quality of life and strengthening social cohesion, laying the groundwork for sustainable progress. As this principle takes root across society, it creates a ripple effect that benefits social harmony and long-term prosperity.',
-      p3: 'In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when {{theme}} guides action. Promoting this principle is therefore not merely advisable but essential for holistic development.',
+      shortName: '微调 1 · 温和换词版',
+      name: '微调模板一：HTML简化版 · 温和词汇微调版',
+      badge: '相同【】槽位 · 同义词微调防撞车',
+      tweakNote: '保留原 HTML《简化版》全部【】位置与全篇句意，仅将固定词微调为 figures→data、reveal→show、notable→clear、attracted→drawn growing、reflected→seen、contributing to→aiding、likewise focus on→similarly aim to、Beyond→Apart from、takes root→spreads、Promoting→Encouraging。',
+      grammarNote: '【】语法要求与原 HTML《简化版》完全一致：【具体行为】用动词原形，【相关领域】用名词短语，【社会效果】用 V-ing 动名词短语。',
+      p1_blank: 'The data in the {{chartType}} show clear {{relation}} regarding {{theme}}. Among {{surveyTarget}}, {{topItem}} holds the largest share, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
+      p1Cn_blank: '【图表类型】中的数据展现出有关【主题词】的明显【比较关系】。在【调查对象】中，【最大类别】占据最大份额，为【最大比例】，其次是【第二类别】、【第三类别】和【第四类别】，分别占【第二比例】、【第三比例】和【第四比例】。',
+      p1Lead: 'The data in the {{chartType}} show clear {{relation}} regarding {{theme}}.',
+      p1CnLead: '{{chartType}}中的数据展现出有关{{theme}}的明显{{relation}}。',
+      p1StaticVerb: 'holds the largest share',
+      p2: '{{themeCap}} has drawn growing attention, largely because of its far-reaching impact. On an individual level, it is seen in how people {{behavior}}, ultimately aiding personal growth and well-being. Government policies on {{domain}} similarly aim to enable individuals to realise their full potential. Apart from personal progress, this idea can strengthen communities by {{socialEffect}}, paving the way for lasting development. As this value spreads across society, it produces a ripple effect that promotes social harmony and enduring prosperity.',
+      p3: 'To sum up, a broad consensus has formed that both individuals and communities benefit greatly when {{theme}} guides action. Encouraging this principle is therefore not only sensible but vital for well-rounded development.',
       cn: {
-        p2: '{{theme}}受到关注，一个重要原因就是其影响深远。在个人层面，它体现在人们{{behavior}}的方式之中，最终有助于个人发展与福祉。国家在改善民生与公共服务方面的政策，同样着重于使个人能够充分发挥自身潜能。除个人发展之外，这一原则还可以通过提升生活质量、增强社会凝聚力来增强社区，为可持续进步奠定基础。随着这一理念在全社会逐渐扎根，它会产生连锁效应，促进社会和谐与长期繁荣。',
-        p3: '总之，人们已经形成一种基于理性认识的共识，即当{{theme}}指导行动时，个人与社区都能获得不可估量的益处。因此，倡导这一原则不仅可取，而且是全面发展的必要条件。'
+        p2: '{{theme}}引发了越来越多的关注，很大程度上在于其深远影响。在个人层面，它体现在人们如何{{behavior}}之中，最终助力个人成长与身心福祉。政府在{{domain}}方面的政策同样旨在使个人能够充分发挥潜能。除了个人进步之外，这一理念还能通过{{socialEffect}}来增强社区，为持久发展铺平道路。随着这一价值观在全社会传播，它产生连锁效应，促进社会和谐与持久繁荣。',
+        p3: '综上所述，社会已形成广泛共识：当{{theme}}指导行动时，个人与社区都将大受裨益。因此，鼓励这一原则不仅明智，而且对全面发展至关重要。'
       }
     },
     {
       id: 's5_t2',
-      shortName: '微调 2 · 公共服务版',
-      name: '微调模板二：HTML简化版 · 教育民生同义微调版',
-      badge: '轻度润色 · 适配学习/健康/城乡/养老',
-      tweakNote: '保持 HTML 简化版全部句序不变，微调 S01(reveal→show)、S03(attracted→attracted growing, not least→largely)、S05 固化为 education and public services、S06 固化为 fostering mutual support and shared progress、S09(Promoting→Advocating)。',
-      grammarNote: '【具体行为】接在 the way people 后，填动词原形短语；首尾【主题词】保持一致。',
-      p1_blank: 'The figures in the {{chartType}} show notable {{relation}} concerning {{theme}}. Among {{surveyTarget}}, {{topItem}} accounts for the largest share, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
-      p1Cn_blank: '【图表类型】中的数据显示出有关【主题词】的显著【比较关系】。在【调查对象】中，【最大类别】占比最高，达【最大比例】，其次是【第二类别】、【第三类别】和【第四类别】，分别占【第二比例】、【第三比例】和【第四比例】。',
-      p1Lead: 'The figures in the {{chartType}} show notable {{relation}} concerning {{theme}}.',
-      p1CnLead: '{{chartType}}中的数据显示出有关{{theme}}的显著{{relation}}。',
-      p2: '{{themeCap}} has attracted growing attention, largely because of its far-reaching implications. At the individual level, it is reflected in the way people {{behavior}}, ultimately contributing to personal development and well-being. National policies on education and public services likewise focus on empowering individuals to achieve their full potential. Beyond personal advancement, this principle can strengthen communities by fostering mutual support and shared progress, laying the groundwork for sustainable progress. As this principle takes root across society, it creates a ripple effect that benefits social harmony and long-term prosperity.',
-      p3: 'In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when {{theme}} guides action. Advocating this principle is therefore not merely advisable but essential for holistic development.',
+      shortName: '微调 2 · 大观同义版',
+      name: '微调模板二：HTML简化版 · 官方同义句微调版',
+      badge: '相同【】槽位 · 高阶同义表达',
+      tweakNote: '严格保留原 HTML《简化版》所有【】槽位与段落大意，将固定句干微调为配套《大观》同义句式（reveal→illustrate marked、attracted attention→bring it to centre stage、manifests itself in、At the heart of national policies on…、generates a cascade of benefits for…、indispensable for comprehensive development）。',
+      grammarNote: '【具体行为】接在 the way people 后填动词原形；【相关领域】接在 on 后；【社会效果】接在 by 后填 V-ing。',
+      p1_blank: 'The figures in the {{chartType}} illustrate marked {{relation}} concerning {{theme}}. Among {{surveyTarget}}, {{topItem}} accounts for the largest proportion, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
+      p1Cn_blank: '【图表类型】中的数字说明了有关【主题词】的显著【比较关系】。在【调查对象】中，【最大类别】占最大比例，为【最大比例】，其次是【第二类别】、【第三类别】和【第四类别】，分别占【第二比例】、【第三比例】和【第四比例】。',
+      p1Lead: 'The figures in the {{chartType}} illustrate marked {{relation}} concerning {{theme}}.',
+      p1CnLead: '{{chartType}}中的数字说明了有关{{theme}}的显著{{relation}}。',
+      p1StaticVerb: 'accounts for the largest proportion',
+      p2: 'The far-reaching implications of {{theme}} have helped bring it to centre stage. At the personal level, it manifests itself in the way people {{behavior}}, eventually contributing to individual development and well-being. At the heart of national policies on {{domain}} is the same concern with empowering individuals to reach their full potential. The benefits of this principle extend beyond personal advancement: by {{socialEffect}}, it can build stronger communities and lay a solid foundation for sustainable progress. As this principle becomes established across society, it generates a cascade of benefits for social harmony and long-term prosperity.',
+      p3: 'All in all, a clear consensus has emerged that both individuals and communities gain immeasurably when {{theme}} directs daily practice. Advocating this principle is thus not merely desirable but indispensable for comprehensive development.',
       cn: {
-        p2: '{{theme}}受到越来越广泛的关注，很大程度上是因为其深远影响。在个人层面，它体现在人们{{behavior}}的方式之中，最终有助于个人发展与福祉。国家在教育与公共服务方面的政策，同样着重于使个人能够充分发挥自身潜能。除个人发展之外，这一原则还可以通过促进互助与共同进步增强社区，为可持续进步奠定基础。随着这一理念在全社会逐渐扎根，它会产生连锁效应，促进社会和谐与长期繁荣。',
-        p3: '总之，人们已经形成一种基于理性认识的共识，即当{{theme}}指导行动时，个人与社区都能获得不可估量的益处。因此，倡导这一原则不仅可取，而且是全面发展的必要条件。'
+        p2: '{{theme}}的深远影响促使其成为关注焦点。在个人层面，它体现在人们{{behavior}}的方式之中，最终有助于个人发展与福祉。国家在{{domain}}方面政策的核心，同样在于赋能个人充分发挥自身潜能。这一原则的益处不止于个人成长：通过{{socialEffect}}，它能够建设更有韧性的社区，并为可持续进步奠定坚实基础。随着这一原则在全社会确立，它带来层层积极效应，促进社会和谐与长期繁荣。',
+        p3: '总而言之，各界已形成明确共识：当{{theme}}指导日常实践时，个人与社区都能获得不可估量的收益。因此，倡导这一原则不仅可取，更是全面发展不可或缺的条件。'
       }
     },
     {
       id: 's5_t3',
-      shortName: '微调 3 · 社会发展版',
-      name: '微调模板三：HTML简化版 · 社会活力精简微调版',
-      badge: '极稳句式 · 零额外领域词',
-      tweakNote: '几乎完全延续 HTML 简化版原句，仅将 S05【相关领域】固化为 social development（社会发展）、S06【社会效果】固化为 encouraging active participation and improving daily life（鼓励积极参与并改善日常生活），S09 holistic→all-round development。',
-      grammarNote: '【具体行为】接在 the way people 后，填动词原形短语；结构与 HTML 简化版 1:1 对应。',
-      p1_blank: 'The figures in the {{chartType}} reveal notable {{relation}} concerning {{theme}}. Among {{surveyTarget}}, {{topItem}} accounts for the largest share, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
-      p1Cn_blank: '【图表类型】中的数据揭示了有关【主题词】的显著【比较关系】。在【调查对象】中，【最大类别】占比最高，达【最大比例】，其次是【第二类别】、【第三类别】和【第四类别】，分别占【第二比例】、【第三比例】和【第四比例】。',
-      p1CnLead: '{{chartType}}中的数据揭示了有关{{theme}}的显著{{relation}}。',
-      p2: '{{themeCap}} has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people {{behavior}}, ultimately contributing to personal development and well-being. National policies on social development likewise focus on empowering individuals to achieve their full potential. Beyond personal advancement, this principle can strengthen communities by encouraging active participation and improving daily life, laying the groundwork for sustainable progress. As this principle takes root across society, it creates a ripple effect that benefits social harmony and long-term prosperity.',
-      p3: 'In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when {{theme}} guides action. Promoting this principle is therefore not merely advisable but essential for all-round development.',
+      shortName: '微调 3 · 语序换装版',
+      name: '微调模板三：HTML简化版 · 自然语序微调版',
+      badge: '相同【】槽位 · 全句低重合改写',
+      tweakNote: '完全不增减【】槽位且严格保持每句大意一致，将固定骨架调整为更自然的语序与词汇搭配（highlight distinct…with respect to、makes up the largest share、Interest in…stems from、when they 【具体行为】、initiatives in 【相关领域】、through 【社会效果】、Upholding this principle）。',
+      grammarNote: '【具体行为】接在 when they 后仍填动词原形；【相关领域】接在 in 后；【社会效果】接在 through 后填 V-ing。',
+      p1_blank: 'The statistics in the {{chartType}} highlight distinct {{relation}} with respect to {{theme}}. Among {{surveyTarget}}, {{topItem}} makes up the largest share, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
+      p1Cn_blank: '【图表类型】中的统计数据凸显了关于【主题词】的明显【比较关系】。在【调查对象】中，【最大类别】构成最大比重，为【最大比例】，其次是【第二类别】、【第三类别】和【第四类别】，分别占【第二比例】、【第三比例】和【第四比例】。',
+      p1Lead: 'The statistics in the {{chartType}} highlight distinct {{relation}} with respect to {{theme}}.',
+      p1CnLead: '{{chartType}}中的统计数据凸显了关于{{theme}}的明显{{relation}}。',
+      p1StaticVerb: 'makes up the largest share',
+      p2: 'Interest in {{theme}} stems in no small part from the breadth of its implications. In daily life, people give expression to this idea when they {{behavior}}, which in turn fosters personal growth and well-being. National initiatives in {{domain}} reflect the same priority: equipping citizens to achieve their full potential. More than just aiding personal advancement, this principle can enrich communities through {{socialEffect}}, creating fertile ground for sustainable progress. Once widely embraced throughout society, this principle sets in motion positive effects that foster social harmony and sustained prosperity.',
+      p3: 'On the whole, people widely recognise that both individuals and communities thrive immeasurably when {{theme}} shapes action. Upholding this principle is therefore not just advisable but essential for all-round development.',
       cn: {
-        p2: '{{theme}}受到关注，一个重要原因就是其影响深远。在个人层面，它体现在人们{{behavior}}的方式之中，最终有助于个人发展与福祉。国家在社会发展方面的政策，同样着重于使个人能够充分发挥自身潜能。除个人发展之外，这一原则还可以通过鼓励积极参与和改善日常生活增强社区，为可持续进步奠定基础。随着这一理念在全社会逐渐扎根，它会产生连锁效应，促进社会和谐与长期繁荣。',
-        p3: '总之，人们已经形成一种基于理性认识的共识，即当{{theme}}指导行动时，个人与社区都能获得不可估量的益处。因此，倡导这一原则不仅可取，而且是全面发展的必要条件。'
-      }
-    },
-    {
-      id: 's5_t4',
-      shortName: '微调 4 · 官方替换版',
-      name: '微调模板四：HTML简化版 · 同义高亮防撞车微调版',
-      badge: '官方同义句微调 · 高识别度',
-      tweakNote: '将 HTML 简化版的 S03/S04/S07 微调为配套《大观》同义替换句（bring it to centre stage / manifests itself in how people / generates a cascade of benefits for…），S05 固化为 public well-being，S06 固化为 creating supportive environments and raising living standards。',
-      grammarNote: '【具体行为】接在 in how people 后，填动词原形短语；【主题词】全篇使用同一短语。',
-      p1_blank: 'The figures in the {{chartType}} illustrate notable {{relation}} concerning {{theme}}. Among {{surveyTarget}}, {{topItem}} accounts for the largest share, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
-      p1Cn_blank: '【图表类型】中的数据说明了有关【主题词】的显著【比较关系】。在【调查对象】中，【最大类别】占比最高，达【最大比例】，其次是【第二类别】、【第三类别】和【第四类别】，分别占【第二比例】、【第三比例】和【第四比例】。',
-      p1Lead: 'The figures in the {{chartType}} illustrate notable {{relation}} concerning {{theme}}.',
-      p1CnLead: '{{chartType}}中的数据说明了有关{{theme}}的显著{{relation}}。',
-      p2: 'The far-reaching implications of {{theme}} have helped bring it to centre stage. At the individual level, it manifests itself in how people {{behavior}}, ultimately contributing to personal development and well-being. National policies on public well-being likewise focus on empowering individuals to achieve their full potential. Beyond personal advancement, this principle can strengthen communities by creating supportive environments and raising living standards, laying the groundwork for sustainable progress. As this principle becomes established across society, it generates a cascade of benefits for social harmony and long-term prosperity.',
-      p3: 'In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when {{theme}} guides action. Promoting this principle is therefore not merely advisable but essential for holistic development.',
-      cn: {
-        p2: '{{theme}}的深远影响促使其成为关注焦点。在个人层面，它体现在人们如何{{behavior}}之中，最终有助于个人发展与福祉。国家在公共福祉方面的政策，同样着重于使个人能够充分发挥自身潜能。除个人发展之外，这一原则还可以通过营造支持性环境、提高生活水平来增强社区，为可持续进步奠定基础。随着这一理念在全社会逐步确立，它带来层层积极效应，有利于社会和谐与长期繁荣。',
-        p3: '总之，人们已经形成一种基于理性认识的共识，即当{{theme}}指导行动时，个人与社区都能获得不可估量的益处。因此，倡导这一原则不仅可取，而且是全面发展的必要条件。'
-      }
-    },
-    {
-      id: 's5_t5',
-      shortName: '微调 5 · 贴题3槽版',
-      name: '微调模板五：HTML简化版 · 轻度贴题微调版（保留【相关领域】）',
-      badge: '贴题度最高 · 仅多1个短词槽',
-      tweakNote: '在微调模板的基础上仅多保留 1 个极短的【相关领域】（如 quality education / public health / urban-rural integration），将 S05 微调为官方同义句 At the heart of national policies on 【相关领域】 is the same concern with...，并把 S06 固化为 enhancing social vitality and public well-being。',
-      grammarNote: '【相关领域】填 2-3 个英文名词短语即可；【具体行为】填动词原形短语。',
-      p1_blank: 'The figures in the {{chartType}} reveal notable {{relation}} concerning {{theme}}. Among {{surveyTarget}}, {{topItem}} accounts for the largest share, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
-      p1Cn_blank: '【图表类型】中的数据揭示了有关【主题词】的显著【比较关系】。在【调查对象】中，【最大类别】占比最高，达【最大比例】，其次是【第二类别】、【第三类别】和【第四类别】，分别占【第二比例】、【第三比例】和【第四比例】。',
-      p1CnLead: '{{chartType}}中的数据揭示了有关{{theme}}的显著{{relation}}。',
-      p2: '{{themeCap}} has attracted attention, not least because of its far-reaching implications. At the individual level, it is reflected in the way people {{behavior}}, ultimately contributing to personal development and well-being. At the heart of national policies on {{domain}} is the same concern with empowering individuals to achieve their full potential. Beyond personal advancement, this principle can strengthen communities by enhancing social vitality and public well-being, laying the groundwork for sustainable progress. As this principle takes root across society, it creates a ripple effect that benefits social harmony and long-term prosperity.',
-      p3: 'In conclusion, a rational consensus has emerged that both individuals and communities benefit immeasurably when {{theme}} guides action. Promoting this principle is therefore not merely advisable but essential for holistic development.',
-      cn: {
-        p2: '{{theme}}受到关注，一个重要原因就是其影响深远。在个人层面，它体现在人们{{behavior}}的方式之中，最终有助于个人发展与福祉。国家在{{domain}}方面政策的核心同样在于赋能个人充分发挥自身潜能。除个人发展之外，这一原则还可以通过增强社会活力与公共福祉来增强社区，为可持续进步奠定基础。随着这一理念在全社会逐渐扎根，它会产生连锁效应，促进社会和谐与长期繁荣。',
-        p3: '总之，人们已经形成一种基于理性认识的共识，即当{{theme}}指导行动时，个人与社区都能获得不可估量的益处。因此，倡导这一原则不仅可取，而且是全面发展的必要条件。'
+        p2: '人们对{{theme}}的关注很大程度上源于其影响的广度。在日常生活中，当人们{{behavior}}时便体现了这一理念，进而促进个人成长与身心健康。国家在{{domain}}方面的举措体现了同样的重点：赋予民众充分发挥潜能的条件。这一原则不仅有助于个人进步，还能通过{{socialEffect}}充实社区生活，为可持续进步创造沃土。一旦这一原则在全社会得到广泛认同，便会激发积极效应，促进社会和谐与持续繁荣。',
+        p3: '总体而言，人们普遍认识到：当{{theme}}引领行动时，个人与社区都将繁荣发展并获益匪浅。因此，秉持这一原则不仅可取，更是实现全面发展的必要条件。'
       }
     }
   ],
@@ -112,7 +85,7 @@ window.WRITING_SIMPLIFIED5_DATA = {
       title: '儿童户外活动四方面看法',
       topicZh: '促进儿童全面发展',
       chartInfo: '静态条形图：好奇心 54.6% · 观察力 54.5% · 体质 37.2% · 亲子互动 33.2%',
-      p1BodyTpl: 'In {{surveyTarget}}, {{topItem}} accounts for the largest share, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
+      p1BodyTpl: 'In {{surveyTarget}}, {{topItem}} {{staticVerb}}, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
       p1CnBodyTpl: '在一项关于{{surveyTarget}}中，{{topItem}}占比最高，达{{topPct}}，其次是{{item2}}、{{item3}}和{{item4}}，分别占{{pct2}}、{{pct3}}和{{pct4}}。',
       slots: {
         chartType: 'bar chart',
@@ -129,7 +102,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         pct3: '37.2%',
         pct4: '33.2%',
         behavior: 'take children outdoors to explore and exercise',
-        domain: 'quality education'
+        domain: 'quality education',
+        socialEffect: 'developing practical skills and a cooperative spirit'
       },
       cnSlots: {
         chartType: '条形图',
@@ -145,7 +119,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         pct3: '37.2%',
         pct4: '33.2%',
         behavior: '带孩子到户外探索和锻炼',
-        domain: '素质教育'
+        domain: '素质教育',
+        socialEffect: '培养实践能力与合作精神'
       }
     },
     2025: {
@@ -153,7 +128,7 @@ window.WRITING_SIMPLIFIED5_DATA = {
       title: '某社区老年人五种日常休闲活动',
       topicZh: '促进老年人身心健康与全面发展',
       chartInfo: '静态条形图：看电视 90.8% · 散步 68.3% · 养花 34.7% · 阅读 31.8% · 下棋 18.4%',
-      p1BodyTpl: 'Among {{surveyTarget}}, {{topItem}} accounts for the largest share, at {{topPct}}, followed by {{item2}}, {{item3}}, {{item4}} and {{item5}} at {{pct2}}, {{pct3}}, {{pct4}} and {{pct5}} respectively.',
+      p1BodyTpl: 'Among {{surveyTarget}}, {{topItem}} {{staticVerb}}, at {{topPct}}, followed by {{item2}}, {{item3}}, {{item4}} and {{item5}} at {{pct2}}, {{pct3}}, {{pct4}} and {{pct5}} respectively.',
       p1CnBodyTpl: '在{{surveyTarget}}中，{{topItem}}占比最高，达{{topPct}}，其次是{{item2}}、{{item3}}、{{item4}}和{{item5}}，分别占{{pct2}}、{{pct3}}、{{pct4}}和{{pct5}}。',
       slots: {
         chartType: 'bar chart',
@@ -172,7 +147,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         pct4: '31.8%',
         pct5: '18.4%',
         behavior: 'pursue healthy lifestyles',
-        domain: 'public health and well-being'
+        domain: 'public health and well-being',
+        socialEffect: 'creating livable environments and improving quality of life'
       },
       cnSlots: {
         chartType: '条形图',
@@ -190,7 +166,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         pct4: '31.8%',
         pct5: '18.4%',
         behavior: '追求健康的生活方式',
-        domain: '公共健康与福祉'
+        domain: '公共健康与福祉',
+        socialEffect: '创造宜居环境并提升生活质量'
       }
     },
     2024: {
@@ -198,7 +175,7 @@ window.WRITING_SIMPLIFIED5_DATA = {
       title: '某高校劳动实践课学生主要收获',
       topicZh: '全面素质教育',
       chartInfo: '静态条形图：知识 91.3% · 动手能力 84.8% · 放松 54.4% · 合作 32.6%',
-      p1BodyTpl: 'Among {{surveyTarget}}, {{topItem}} accounts for the largest share, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
+      p1BodyTpl: 'Among {{surveyTarget}}, {{topItem}} {{staticVerb}}, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
       p1CnBodyTpl: '在{{surveyTarget}}中，{{topItem}}占比最高，达{{topPct}}，其次是{{item2}}、{{item3}}和{{item4}}，分别占{{pct2}}、{{pct3}}和{{pct4}}。',
       slots: {
         chartType: 'bar chart',
@@ -215,7 +192,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         pct3: '54.4%',
         pct4: '32.6%',
         behavior: 'bridge the gap between knowing and doing through labour practice',
-        domain: 'quality education'
+        domain: 'quality education',
+        socialEffect: 'fostering cooperation and strengthening the social fabric'
       },
       cnSlots: {
         chartType: '条形图',
@@ -231,7 +209,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         pct3: '54.4%',
         pct4: '32.6%',
         behavior: '通过劳动实践弥合知与行之间的差距',
-        domain: '素质教育'
+        domain: '素质教育',
+        socialEffect: '促进合作并增强社会凝聚力'
       }
     },
     2023: {
@@ -255,7 +234,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         endVal: '25.4%',
         trendNote: 'nearly tripling during this period',
         behavior: 'learn about health and share useful knowledge with others',
-        domain: 'public health and well-being'
+        domain: 'public health and well-being',
+        socialEffect: 'improving quality of life and encouraging mutual assistance'
       },
       cnSlots: {
         chartType: '折线图',
@@ -270,7 +250,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         endVal: '25.4%',
         trendNote: '在此期间几乎翻了三倍',
         behavior: '学习健康知识并与他人分享实用信息',
-        domain: '公共健康与福祉'
+        domain: '公共健康与福祉',
+        socialEffect: '提升生活质量并鼓励互助'
       }
     },
     2022: {
@@ -298,7 +279,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         start2: '12 billion',
         end2: '30 billion',
         behavior: 'use delivery services to buy and sell goods in rural areas',
-        domain: 'urban-rural integration'
+        domain: 'urban-rural integration',
+        socialEffect: 'improving productivity and service quality'
       },
       cnSlots: {
         chartType: '条形图',
@@ -317,7 +299,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         start2: '120亿件',
         end2: '300亿件',
         behavior: '利用快递服务在农村地区买卖商品',
-        domain: '城乡融合'
+        domain: '城乡融合',
+        socialEffect: '提高生产效率与服务质量'
       }
     },
     2021: {
@@ -325,7 +308,7 @@ window.WRITING_SIMPLIFIED5_DATA = {
       title: '某市居民四种锻炼方式比例',
       topicZh: '更强的健康意识',
       chartInfo: '静态条形图：独自锻炼 54.3% · 和朋友 47.7% · 和家人 23.9% · 参加团体 15.8%',
-      p1BodyTpl: 'Among {{surveyTarget}}, {{topItem}} accounts for the largest share, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
+      p1BodyTpl: 'Among {{surveyTarget}}, {{topItem}} {{staticVerb}}, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
       p1CnBodyTpl: '在{{surveyTarget}}中，{{topItem}}占比最高，达{{topPct}}，其次是{{item2}}、{{item3}}和{{item4}}，分别占{{pct2}}、{{pct3}}和{{pct4}}。',
       slots: {
         chartType: 'bar chart',
@@ -342,7 +325,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         pct3: '23.9%',
         pct4: '15.8%',
         behavior: 'exercise alone or with others to maintain their health',
-        domain: 'public health and well-being'
+        domain: 'public health and well-being',
+        socialEffect: 'fostering neighborhood ties and mutual support'
       },
       cnSlots: {
         chartType: '条形图',
@@ -358,7 +342,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         pct3: '23.9%',
         pct4: '15.8%',
         behavior: '独自或与他人一起锻炼以保持健康',
-        domain: '公共健康与福祉'
+        domain: '公共健康与福祉',
+        socialEffect: '增进邻里纽带与相互支持'
       }
     },
     2020: {
@@ -366,7 +351,7 @@ window.WRITING_SIMPLIFIED5_DATA = {
       title: '某高校学生手机阅读四类目的',
       topicZh: '终身学习',
       chartInfo: '静态饼图：学习知识 59.5% · 消磨时间 21.3% · 获取信息 17.0% · 其他目的 2.2%',
-      p1BodyTpl: 'In {{surveyTarget}}, {{topItem}} accounts for the largest share, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
+      p1BodyTpl: 'In {{surveyTarget}}, {{topItem}} {{staticVerb}}, at {{topPct}}, followed by {{item2}}, {{item3}} and {{item4}} at {{pct2}}, {{pct3}} and {{pct4}} respectively.',
       p1CnBodyTpl: '在一项关于{{surveyTarget}}的调查中，{{topItem}}占比最高，达{{topPct}}，其次是{{item2}}、{{item3}}和{{item4}}，分别占{{pct2}}、{{pct3}}和{{pct4}}。',
       slots: {
         chartType: 'pie chart',
@@ -383,7 +368,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         pct3: '17.0%',
         pct4: '2.2%',
         behavior: 'use mobile phones to acquire knowledge through reading',
-        domain: 'quality education'
+        domain: 'quality education',
+        socialEffect: 'enriching cultural life and fostering creative expression'
       },
       cnSlots: {
         chartType: '饼图',
@@ -399,7 +385,8 @@ window.WRITING_SIMPLIFIED5_DATA = {
         pct3: '17.0%',
         pct4: '2.2%',
         behavior: '用手机通过阅读获取知识',
-        domain: '素质教育'
+        domain: '素质教育',
+        socialEffect: '丰富文化生活并促进创意表达'
       }
     }
   }

@@ -1,6 +1,6 @@
 /**
- * ZY_English Fine-Tuned Simplified 5-Template Interactive Workspace
- * 写作宝典体系三：基于 HTML 简化版微调的 5 套万能模板（左题右练独立分栏 · 替换英文用【】标出）
+ * ZY_English Fine-Tuned Simplified 3-Template Interactive Workspace
+ * 写作宝典体系三：基于 HTML 简化版微调的 3 套万能模板（左题右练独立分栏 · 替换英文用【】标出）
  */
 (function(window) {
   'use strict';
@@ -12,6 +12,7 @@
     themeCap: '主题词',
     behavior: '具体行为',
     domain: '相关领域',
+    socialEffect: '社会效果',
     surveyTarget: '调查对象',
     topItem: '最大类别',
     topPct: '最大比例',
@@ -41,11 +42,11 @@
     end2: '终点二'
   };
 
-  const CORE_BLUE_SLOTS = new Set(['theme', 'themeCap', 'behavior', 'domain']);
+  const CORE_BLUE_SLOTS = new Set(['theme', 'themeCap', 'behavior', 'domain', 'socialEffect']);
 
   const WritingSimplified5Module = {
     container: null,
-    activeTab: 's5_t1', // 's5_t1'..'s5_t5' | 's5_matrix'
+    activeTab: 's5_t1', // 's5_t1'..'s5_t3' | 's5_matrix'
     viewScope: 'exam', // 'blank' | 'exam'
     selectedYear: 2026,
     showHighlight: true,
@@ -148,7 +149,8 @@
       const data = this.getData();
       const mapping = (data.examMappings && data.examMappings[Number(scopeKey)]) || {};
       const lead = tpl.p1Lead || 'The figures in the {{chartType}} reveal notable {{relation}} concerning {{theme}}.';
-      return mapping.p1BodyTpl ? `${lead} ${mapping.p1BodyTpl}` : tpl.p1_blank;
+      const body = (mapping.p1BodyTpl || '').replace(/\{\{staticVerb\}\}/g, tpl.p1StaticVerb || 'accounts for the largest share');
+      return body ? `${lead} ${body}` : tpl.p1_blank;
     },
 
     getP1CnTemplate(tpl, scopeKey) {
@@ -307,7 +309,6 @@
       const p3Plain = this.buildPlainParagraph(tpl.p3, slots);
       const fullPlain = `${p1Plain}\n\n${p2Plain}\n\n${p3Plain}`;
       const wordCount = fullPlain.trim().split(/\s+/).filter(Boolean).length;
-      const needsDomain = tpl.p2.includes('{{domain}}');
 
       const paraItems = [
         { title: '第一段 · 图表数据与主题', html: this.buildRenderedParagraph(p1Tpl, slots, scopeKey), plain: p1Plain, cnHtml: this.buildCnParagraphHtml(p1CnTpl, cnSlots) },
@@ -350,8 +351,8 @@
 
           <div class="paper-footer">
             <div class="paper-footer-stats">
-              <span>${isBlank ? `P2/P3 核心【】槽位 <strong>${needsDomain ? '3 个（主题词/具体行为/相关领域）' : '仅 2 个（主题词/具体行为）'}</strong>` : `英文词数 <strong>${wordCount}</strong>`}</span>
-              <span>${isBlank ? '点击【主题词】或【具体行为】可试填（可对照左侧真题图表）' : '英文与中文中【】部分即为对应替换内容'}</span>
+              <span>${isBlank ? 'P2/P3 核心【】槽位 <strong>4 个（主题词 / 具体行为 / 相关领域 / 社会效果）</strong>' : `英文词数 <strong>${wordCount}</strong>`}</span>
+              <span>${isBlank ? '点击任意蓝色【】槽位可试填（可对照左侧真题图表）' : '英文与中文中【】部分即为对应替换内容'}</span>
             </div>
             <button class="paper-text-btn s5-copy-clean-btn" data-raw="${encodeURIComponent(fullPlain)}">复制</button>
           </div>
@@ -568,7 +569,7 @@
           <div class="paper-toolbar">
             <div class="paper-toolbar-left">
               <strong>2020–2026 年英语二大作文 · HTML 简化版微调核心替换速查表</strong>
-              <span style="font-size:0.88em;color:var(--w-muted)">微调模板 1–4 只需记忆【主题词】与【具体行为】（首段看图填写）；微调模板 5 仅多 1 个超短【相关领域】</span>
+              <span style="font-size:0.88em;color:var(--w-muted)">全部 3 套模板均完整保留原 HTML《简化版》4 个核心【】槽位（可替换【】不多也不少）</span>
             </div>
           </div>
           <div class="paper-section" style="border-bottom:none">
@@ -576,11 +577,11 @@
               <table class="clean-table">
                 <thead>
                   <tr>
-                    <th style="width:14%">年份与题目</th>
-                    <th style="width:22%">【主题词】</th>
-                    <th style="width:28%">【具体行为】（接 people 后）</th>
-                    <th style="width:16%">【相关领域】（仅微调5）</th>
-                    <th style="width:12%">首段图表类型</th>
+                    <th style="width:13%">年份与题目</th>
+                    <th style="width:18%">【主题词】</th>
+                    <th style="width:24%">【具体行为】</th>
+                    <th style="width:14%">【相关领域】</th>
+                    <th style="width:23%">【社会效果】</th>
                     <th style="width:8%">操作</th>
                   </tr>
                 </thead>
@@ -607,9 +608,9 @@
                           【${this.escapeHtml(s.domain || '')}】<br>
                           <span style="font-size:0.85em;color:var(--w-muted)">【${this.escapeHtml(c.domain || '')}】</span>
                         </td>
-                        <td style="font-size:0.9em">
-                          <strong>【${this.escapeHtml(s.chartType || '')}】</strong><br>
-                          <span style="color:var(--w-muted)">【${this.escapeHtml(c.chartType || '')}】</span>
+                        <td>
+                          【${this.escapeHtml(s.socialEffect || '')}】<br>
+                          <span style="font-size:0.85em;color:var(--w-muted)">【${this.escapeHtml(c.socialEffect || '')}】</span>
                         </td>
                         <td>
                           <button type="button" class="clean-link-btn s5-jump-exam" data-year="${y}">查看套写</button>

@@ -155,7 +155,7 @@
                   大作文一页纸
                 </button>
                 <button class="system-switch-btn ${this.activeSystem === 'simplified5' ? 'active' : ''}" data-system="simplified5">
-                  新简化版5套模板
+                  新简化版3套模板
                 </button>
                 <button class="system-switch-btn ${this.activeSystem === 'classic' ? 'active' : ''}" data-system="classic">
                   功能句与真题范文库
@@ -186,7 +186,7 @@
           <!-- 体系二容器 (大作文一页纸) -->
           <div id="onePageSystemContainer" style="display:none"></div>
 
-          <!-- 体系三容器 (20-26新简化版5套模板) -->
+          <!-- 体系三容器 (20-26新简化版3套模板) -->
           <div id="simplified5SystemContainer" style="display:none"></div>
         </div>
       `;
