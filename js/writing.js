@@ -12,7 +12,10 @@
     initialized: false,
     container: null,
     activeSystem: (function() {
-      try { return (window.localStorage && window.localStorage.getItem('ZY_WRITING_ACTIVE_SYSTEM')) || 'onepage'; } catch (e) { return 'onepage'; }
+      try {
+        const s = window.localStorage && window.localStorage.getItem('ZY_WRITING_ACTIVE_SYSTEM');
+        return (s === 'onepage' || s === 'classic' || s === 'simplified5') ? s : 'onepage';
+      } catch (e) { return 'onepage'; }
     })(),
     fontSize: (function() {
       try {
@@ -77,6 +80,10 @@
           window.WritingOnePageModule.onYearChange(y);
           return;
         }
+        if (this.activeSystem === 'simplified5' && window.WritingSimplified5Module) {
+          window.WritingSimplified5Module.onYearChange(y);
+          return;
+        }
         if (this.currentTab === 'pastExams') {
           const yearSelect = document.getElementById('examYearSelect');
           if (yearSelect) yearSelect.value = String(y);
@@ -86,19 +93,23 @@
     },
 
     switchSystem(sysKey, skipSave) {
-      this.activeSystem = (sysKey === 'onepage') ? 'onepage' : 'classic';
+      this.activeSystem = (sysKey === 'onepage' || sysKey === 'simplified5') ? sysKey : 'classic';
       if (!skipSave) {
         try { localStorage.setItem('ZY_WRITING_ACTIVE_SYSTEM', this.activeSystem); } catch (e) {}
       }
 
       const classicBox = this.container.querySelector('#classicSystemContainer');
       const onepageBox = this.container.querySelector('#onePageSystemContainer');
+      const s5Box = this.container.querySelector('#simplified5SystemContainer');
       this.container.querySelectorAll('.system-switch-btn').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.system === this.activeSystem);
       });
 
+      if (classicBox) classicBox.style.display = 'none';
+      if (onepageBox) onepageBox.style.display = 'none';
+      if (s5Box) s5Box.style.display = 'none';
+
       if (this.activeSystem === 'onepage') {
-        if (classicBox) classicBox.style.display = 'none';
         if (onepageBox) {
           onepageBox.style.display = '';
           if (window.WritingOnePageModule && !onepageBox.dataset.mounted) {
@@ -106,8 +117,15 @@
             onepageBox.dataset.mounted = '1';
           }
         }
+      } else if (this.activeSystem === 'simplified5') {
+        if (s5Box) {
+          s5Box.style.display = '';
+          if (window.WritingSimplified5Module && !s5Box.dataset.mounted) {
+            window.WritingSimplified5Module.mount(s5Box, this.selectedExamYear);
+            s5Box.dataset.mounted = '1';
+          }
+        }
       } else {
-        if (onepageBox) onepageBox.style.display = 'none';
         if (classicBox) classicBox.style.display = '';
         this.switchTab(this.currentTab);
       }
@@ -133,6 +151,9 @@
               <div class="writing-segmented-control" role="group" aria-label="写作体系切换">
                 <button class="system-switch-btn ${this.activeSystem === 'onepage' ? 'active' : ''}" data-system="onepage">
                   大作文一页纸
+                </button>
+                <button class="system-switch-btn ${this.activeSystem === 'simplified5' ? 'active' : ''}" data-system="simplified5">
+                  新简化版5套模板
                 </button>
                 <button class="system-switch-btn ${this.activeSystem === 'classic' ? 'active' : ''}" data-system="classic">
                   功能句与真题范文库
@@ -162,6 +183,9 @@
 
           <!-- 体系二容器 (大作文一页纸) -->
           <div id="onePageSystemContainer" style="display:none"></div>
+
+          <!-- 体系三容器 (20-26新简化版5套模板) -->
+          <div id="simplified5SystemContainer" style="display:none"></div>
         </div>
       `;
 

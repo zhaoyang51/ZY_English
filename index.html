@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>考研英语二 (2010-2026) 真题精读、模考与长难句复盘系统</title>
+  <title>ZY考研英二系统</title>
+  <meta name="description" content="ZY考研英二系统">
   
   <!-- Modular Stylesheets -->
   <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/typography.css?v=20260918_qtrans_v1">
-  <link rel="stylesheet" href="css/components.css?v=20261117_writingb_v3">
+  <link rel="stylesheet" href="css/components.css?v=20261118_topbar_v1">
   <link rel="stylesheet" href="css/vocab.css?v=20261105_full_v2">
   <link rel="stylesheet" href="css/review-reading.css?v=20260914_reading_v1">
   <link rel="stylesheet" href="css/sections.css?v=20260924_v1">
-  <link rel="stylesheet" href="css/writing.css?v=20261117_fixedtop_v1">
+  <link rel="stylesheet" href="css/writing.css?v=20261118_s5_v1">
 </head>
 <body class="mode-practice">
   <script>
@@ -35,16 +36,6 @@
 
   <!-- Top Navigation Bar -->
   <header class="topbar" id="mainTopbar">
-    <div class="topbar-header-row">
-      <div class="topbar-brand">
-        <span>📖 考研英语二真题系统</span>
-        <span class="badge">2010-2026 全量</span>
-      </div>
-      <button id="toggleTopbarBtn" class="topbar-toggle-btn" title="收起/展开功能区">
-        ▲ 收起功能栏
-      </button>
-    </div>
-    
     <div class="topbar-controls" id="topbarControls">
       <!-- Year Select -->
       <select id="yearSelect" class="select-control" title="选择年份"></select>
@@ -100,6 +91,10 @@
         <option value="dark">🌙 深色夜间</option>
       </select>
     </div>
+
+    <button id="toggleTopbarBtn" class="topbar-toggle-btn" title="收起/展开功能区">
+      ▲ 收起功能栏
+    </button>
   </header>
 
   <div id="dataLoadStatus" role="status" aria-live="polite" style="padding:12px 20px;color:var(--mode-color);background:var(--card-bg)">正在加载阅读资料…如果长时间没有显示内容，请检查网络后刷新页面。</div>
@@ -595,6 +590,7 @@
   <script src="data/writing_data.js?v=20261105_scroll_v1" defer></script>
   <script src="data/writing_prompts.js?v=20261109_v1" defer></script>
   <script src="data/writing_onepage_data.js?v=20261117_guide_v2" defer></script>
+  <script src="data/writing_simplified5_data.js?v=20261118_s5_v1" defer></script>
   
   <!-- Modular JS Application Components -->
   <script src="js/storage.js" defer></script>
@@ -604,7 +600,8 @@
   <script src="js/quiz.js?v=20260918_qtrans_v1" defer></script>
   <script src="js/vocab.js?v=20261105_v3" defer></script>
   <script src="js/writing_onepage.js?v=20261117_fixedtop_v1" defer></script>
-  <script src="js/writing.js?v=20261117_fixedtop_v1" defer></script>
+  <script src="js/writing_simplified5.js?v=20261118_s5_v1" defer></script>
+  <script src="js/writing.js?v=20261118_s5_v1" defer></script>
   <script src="js/render_cloze.js?v=20260924_v1" defer></script>
   <script src="js/render_matching.js?v=20260924_v1" defer></script>
   <script src="js/render_translation.js?v=20260924_v1" defer></script>
