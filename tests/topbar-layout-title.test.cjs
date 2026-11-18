@@ -67,5 +67,6 @@ test('Topbar removes brand header row and simplifies controls, grouping, theme, 
   // Verify CSS positions topbar as a horizontal flex row with toggle button aligned right
   assert.match(css, /\.topbar\s*\{[\s\S]*?flex-direction:\s*row;/, '.topbar must use flex-direction: row');
   assert.match(css, /\.topbar-toggle-btn\s*\{[\s\S]*?margin-left:\s*auto;/, '.topbar-toggle-btn must push to far right via margin-left: auto');
-  assert.match(css, /\.topbar\.controls-collapsed\s*\{[\s\S]*?justify-content:\s*flex-end;/, '.topbar.controls-collapsed must keep toggle button on far right');
+  assert.match(css, /\.topbar\.controls-collapsed\s*\{[\s\S]*?height:\s*0\s*!important;/, '.topbar.controls-collapsed must collapse height to 0');
+  assert.match(css, /\.topbar\.controls-collapsed\s+\.topbar-toggle-btn\s*\{[\s\S]*?position:\s*fixed;[\s\S]*?right:\s*16px;/, 'Collapsed toggle tab must float compactly at top-right');
 });

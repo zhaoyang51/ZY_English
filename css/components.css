@@ -29,8 +29,12 @@ html, body {
 }
 
 .topbar.controls-collapsed {
-  padding: 4px 18px;
-  justify-content: flex-end;
+  height: 0 !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  overflow: visible !important;
 }
 
 .topbar.controls-collapsed .topbar-controls {
@@ -38,26 +42,58 @@ html, body {
 }
 
 .topbar-toggle-btn {
-  padding: 5px 12px;
-  font-size: 0.84em;
-  font-weight: 700;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  background: var(--card-bg);
-  color: var(--mode-color);
+  padding: 3px 6px;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  justify-content: center;
   flex-shrink: 0;
   margin-left: auto;
   white-space: nowrap;
-  transition: all 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease;
 }
 
 .topbar-toggle-btn:hover {
+  background: rgba(0, 0, 0, 0.06);
+  color: var(--ink);
+}
+
+body.theme-dark .topbar-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.topbar.controls-collapsed .topbar-toggle-btn {
+  position: fixed;
+  top: 0;
+  right: 16px;
+  z-index: 120;
+  height: 18px;
+  padding: 0 10px;
+  font-size: 10px;
   background: var(--surface);
-  border-color: var(--mode-color);
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  opacity: 0.78;
+}
+
+.topbar.controls-collapsed .topbar-toggle-btn:hover {
+  opacity: 1;
+  color: var(--mode-color);
+  background: var(--card-bg);
+}
+
+.topbar.controls-collapsed ~ .layout {
+  height: 100vh;
 }
 
 .topbar-controls {
