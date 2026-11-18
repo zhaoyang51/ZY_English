@@ -67,6 +67,8 @@
       }
       const badge = document.getElementById('writingFontVal');
       if (badge) badge.textContent = clamped + 'px';
+      const s5Badge = document.getElementById('s5FontVal');
+      if (s5Badge) s5Badge.textContent = clamped + 'px';
       if (!skipSave) {
         try { localStorage.setItem('ZY_WRITING_FONT_SIZE', String(clamped)); } catch (e) {}
       }

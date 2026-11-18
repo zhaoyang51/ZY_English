@@ -872,6 +872,7 @@ body.mode-writing .writing-section {
 
 .pr-var-tag {
   display: inline-block;
+  text-indent: 0;
   font-size: 0.72em;
   font-weight: 700;
   color: var(--w-accent);
@@ -942,13 +943,15 @@ body.mode-writing.theme-dark .pr-var.is-prompt-data .pr-var-tag {
 }
 
 @media (min-width: 961px) {
-  .writing-section:has(#opPanel_opPractice.active .pr-split-layout) {
+  .writing-section:has(#opPanel_opPractice.active .pr-split-layout),
+  .writing-section:has(#s5PanelHost.active .pr-split-layout) {
     display: flex !important;
     flex-direction: column !important;
     overflow-y: hidden !important;
   }
 
-  .writing-inner-container:has(#opPanel_opPractice.active .pr-split-layout) {
+  .writing-inner-container:has(#opPanel_opPractice.active .pr-split-layout),
+  .writing-inner-container:has(#s5PanelHost.active .pr-split-layout) {
     flex: 1 1 auto;
     min-height: 0;
     height: 100%;
@@ -958,22 +961,26 @@ body.mode-writing.theme-dark .pr-var.is-prompt-data .pr-var-tag {
     flex-direction: column;
   }
 
-  .writing-inner-container:has(#opPanel_opPractice.active .pr-split-layout) > .writing-minimal-header {
+  .writing-inner-container:has(#opPanel_opPractice.active .pr-split-layout) > .writing-minimal-header,
+  .writing-inner-container:has(#s5PanelHost.active .pr-split-layout) > .writing-minimal-header {
     flex: 0 0 auto;
   }
 
-  #onePageSystemContainer:has(#opPanel_opPractice.active .pr-split-layout) {
+  #onePageSystemContainer:has(#opPanel_opPractice.active .pr-split-layout),
+  #simplified5SystemContainer:has(#s5PanelHost.active .pr-split-layout) {
     flex: 1 1 auto;
     min-height: 0;
     display: flex;
     flex-direction: column;
   }
 
-  #onePageSystemContainer:has(#opPanel_opPractice.active .pr-split-layout) > .writing-nav-tabs {
+  #onePageSystemContainer:has(#opPanel_opPractice.active .pr-split-layout) > .writing-nav-tabs,
+  #simplified5SystemContainer:has(#s5PanelHost.active .pr-split-layout) > .writing-nav-tabs {
     flex: 0 0 auto;
   }
 
-  #opPanel_opPractice.writing-tab-panel.active:has(.pr-split-layout) {
+  #opPanel_opPractice.writing-tab-panel.active:has(.pr-split-layout),
+  #s5PanelHost.writing-tab-panel.active:has(.pr-split-layout) {
     flex: 1 1 auto;
     min-height: 0;
     display: flex;
@@ -982,7 +989,8 @@ body.mode-writing.theme-dark .pr-var.is-prompt-data .pr-var-tag {
     padding-bottom: 0 !important;
   }
 
-  #opPanel_opPractice.writing-tab-panel.active:has(.pr-split-layout) > .writing-inline-bar {
+  #opPanel_opPractice.writing-tab-panel.active:has(.pr-split-layout) > .writing-inline-bar,
+  #s5PanelHost.writing-tab-panel.active:has(.pr-split-layout) > .writing-inline-bar {
     flex: 0 0 auto;
     position: static;
   }
@@ -1309,4 +1317,23 @@ body.mode-writing .writing-inline-bar .w-select {
     background: var(--w-paper);
     border-radius: 12px 12px 0 0;
   }
+}
+
+.s5-inline-font {
+  display: inline-flex;
+  align-items: center;
+  background: var(--w-pill-bg);
+  padding: 2px;
+  border-radius: 6px;
+  gap: 2px;
+}
+
+.s5-inline-font .font-step-btn {
+  padding: 3px 8px;
+  font-size: 12.5px;
+}
+
+.s5-inline-font .font-size-val {
+  font-size: 12.5px;
+  padding: 0 4px;
 }

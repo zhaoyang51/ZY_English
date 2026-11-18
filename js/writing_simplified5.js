@@ -1,6 +1,6 @@
 /**
  * ZY_English Fine-Tuned Simplified 5-Template Interactive Workspace
- * 写作宝典体系三：基于 HTML 简化版微调的 5 套万能模板（2020-2026全套写 · 替换英文用【】标出）
+ * 写作宝典体系三：基于 HTML 简化版微调的 5 套万能模板（左题右练独立分栏 · 替换英文用【】标出）
  */
 (function(window) {
   'use strict';
@@ -46,11 +46,10 @@
   const WritingSimplified5Module = {
     container: null,
     activeTab: 's5_t1', // 's5_t1'..'s5_t5' | 's5_matrix'
-    viewScope: 'all', // 'all' (空白模板 + 20-26全部7年套用) | 'blank' | 'exam'
+    viewScope: 'exam', // 'blank' | 'exam'
     selectedYear: 2026,
     showHighlight: true,
-    showCn: false,
-    showPrompt: false,
+    showCn: true,
     customSlots: {},
 
     getData() {
@@ -85,6 +84,17 @@
       const s = String(str || '').trim();
       if (!s) return '';
       return s.charAt(0).toUpperCase() + s.slice(1);
+    },
+
+    getFontSize() {
+      return (window.WritingModule && window.WritingModule.fontSize) || 18;
+    },
+
+    stepFontSize(delta) {
+      if (window.WritingModule && window.WritingModule.applyFontSize) {
+        if (delta === 0) window.WritingModule.applyFontSize(18);
+        else window.WritingModule.applyFontSize(this.getFontSize() + delta);
+      }
     },
 
     copyText(text, btnEl) {
@@ -141,6 +151,14 @@
       return mapping.p1BodyTpl ? `${lead} ${mapping.p1BodyTpl}` : tpl.p1_blank;
     },
 
+    getP1CnTemplate(tpl, scopeKey) {
+      if (scopeKey === 'blank') return tpl.p1Cn_blank;
+      const data = this.getData();
+      const mapping = (data.examMappings && data.examMappings[Number(scopeKey)]) || {};
+      const lead = tpl.p1CnLead || '{{chartType}}中的数据揭示了有关{{theme}}的显著{{relation}}。';
+      return mapping.p1CnBodyTpl ? `${lead}${mapping.p1CnBodyTpl}` : tpl.p1Cn_blank;
+    },
+
     getSlotsForScope(scopeKey) {
       const data = this.getData();
       const isBlank = scopeKey === 'blank';
@@ -154,11 +172,66 @@
       return merged;
     },
 
-    buildPlainParagraph(tplText, slots, wrapBrackets) {
+    getCnSlotsForScope(scopeKey) {
+      const data = this.getData();
+      const isBlank = scopeKey === 'blank';
+      const mapping = (!isBlank && data.examMappings && data.examMappings[Number(scopeKey)]) || {};
+      const baseCn = (!isBlank && mapping.cnSlots) ? Object.assign({}, mapping.cnSlots) : {};
+      const baseEn = (!isBlank && mapping.slots) ? mapping.slots : {};
+      const overrides = this.customSlots[scopeKey] || {};
+      const out = Object.assign({}, baseCn);
+
+      // If user edited a slot with custom text or picked a preset from another year, reflect it in Chinese
+      Object.keys(overrides).forEach(k => {
+        const val = (overrides[k] || '').trim();
+        if (!val) {
+          delete out[k];
+          return;
+        }
+        if (val === baseEn[k] && baseCn[k]) {
+          out[k] = baseCn[k];
+          return;
+        }
+        // Try matching preset Chinese translation across all years
+        let matchedCn = '';
+        if (k === 'chartType') {
+          const map = { 'bar chart': '条形图', 'pie chart': '饼图', 'line chart': '折线图', 'table': '表格' };
+          matchedCn = map[val] || val;
+        } else if (k === 'relation') {
+          const map = { differences: '差异', changes: '变化' };
+          matchedCn = map[val] || val;
+        } else {
+          Object.keys(data.examMappings || {}).some(y => {
+            const m = data.examMappings[y];
+            if (m && m.slots && m.slots[k] === val && m.cnSlots && m.cnSlots[k]) {
+              matchedCn = m.cnSlots[k];
+              return true;
+            }
+            return false;
+          });
+        }
+        out[k] = matchedCn || val;
+      });
+      return out;
+    },
+
+    buildPlainParagraph(tplText, slots) {
       return String(tplText || '').replace(/\{\{(\w+)\}\}/g, (_, k) => {
         const val = (slots[k] || '').trim();
-        if (!val) return `【${SLOT_LABELS[k] || k}】`;
-        return wrapBrackets ? `【${val}】` : val;
+        return val || `【${SLOT_LABELS[k] || k}】`;
+      });
+    },
+
+    buildCnParagraphHtml(cnTplText, cnSlots) {
+      const esc = (s) => this.escapeHtml(s);
+      return esc(String(cnTplText || '')).replace(/\{\{(\w+)\}\}/g, (_, key) => {
+        const baseKey = key === 'themeCap' ? 'theme' : key;
+        const val = (cnSlots[baseKey] || '').trim();
+        const label = SLOT_LABELS[key] || key;
+        if (!val) {
+          return `<span style="color:var(--w-ink);font-weight:600">【${esc(label)}】</span>`;
+        }
+        return `<span style="color:var(--w-ink);font-weight:600">【${esc(val)}】</span>`;
       });
     },
 
@@ -182,51 +255,76 @@
       });
     },
 
+    renderLeftPromptHtml(yearNum) {
+      const data = this.getData();
+      const examInfo = (data.examMappings && data.examMappings[yearNum]) || {};
+      const promptObj = (window.WRITING_PROMPTS && window.WRITING_PROMPTS.e2_part_b && window.WRITING_PROMPTS.e2_part_b[yearNum]) || {};
+      const directionsEn = promptObj.directionsEn || `48. Directions:\nWrite an essay based on the chart below. In your essay, you should\n1) describe and interpret the chart, and\n2) give your comments.\nWrite your answer in about 150 words on the ANSWER SHEET. (15 points)`;
+
+      return `
+        <aside class="pr-split-left" aria-label="真题原题面板">
+          <div class="paper-sheet pr-prompt-sheet">
+            <div class="paper-toolbar">
+              <div class="paper-toolbar-left">
+                <strong style="font-size:0.96em">真题原题 · ${yearNum} 年</strong>
+                <span style="font-size:0.84em;color:var(--w-muted)">${this.escapeHtml(examInfo.title || '')}</span>
+              </div>
+              <div class="paper-toolbar-right">
+                <button class="paper-text-btn" id="s5MockExamBtn" data-year="${yearNum}">进入大作文套写</button>
+              </div>
+            </div>
+            <div class="paper-section">
+              <div class="paper-section-head" style="margin-bottom:10px">
+                <span class="paper-section-title">48. Directions</span>
+              </div>
+              <div class="paper-en-text no-indent pr-prompt-directions">${this.escapeHtml(directionsEn)}</div>
+              <div class="pr-prompt-chart-box">
+                <img src="images/charts/chart_${yearNum}.jpg" alt="${yearNum}年英语二大作文真题图表：${this.escapeHtml(examInfo.title || '')}" onerror="this.parentElement.style.display='none'" />
+              </div>
+              ${examInfo.chartInfo ? `
+                <div class="paper-note-text" style="margin-top:12px;font-size:0.86em">
+                  <strong>图表要点：</strong>${this.escapeHtml(examInfo.chartInfo)}
+                </div>
+              ` : ''}
+            </div>
+          </div>
+        </aside>
+      `;
+    },
+
     renderEssaySheetHtml(tpl, scopeKey) {
       const data = this.getData();
       const isBlank = scopeKey === 'blank';
       const yearNum = Number(scopeKey);
       const examInfo = (!isBlank && data.examMappings && data.examMappings[yearNum]) || {};
       const slots = this.getSlotsForScope(scopeKey);
+      const cnSlots = this.getCnSlotsForScope(scopeKey);
       const p1Tpl = this.getP1Template(tpl, scopeKey);
+      const p1CnTpl = this.getP1CnTemplate(tpl, scopeKey);
 
-      const p1Plain = this.buildPlainParagraph(p1Tpl, slots, false);
-      const p2Plain = this.buildPlainParagraph(tpl.p2, slots, false);
-      const p3Plain = this.buildPlainParagraph(tpl.p3, slots, false);
+      const p1Plain = this.buildPlainParagraph(p1Tpl, slots);
+      const p2Plain = this.buildPlainParagraph(tpl.p2, slots);
+      const p3Plain = this.buildPlainParagraph(tpl.p3, slots);
       const fullPlain = `${p1Plain}\n\n${p2Plain}\n\n${p3Plain}`;
-
-      const fullMarked = [
-        this.buildPlainParagraph(p1Tpl, slots, true),
-        this.buildPlainParagraph(tpl.p2, slots, true),
-        this.buildPlainParagraph(tpl.p3, slots, true)
-      ].join('\n\n');
-
       const wordCount = fullPlain.trim().split(/\s+/).filter(Boolean).length;
       const needsDomain = tpl.p2.includes('{{domain}}');
 
       const paraItems = [
-        { title: '第一段 · 图表数据与主题', html: this.buildRenderedParagraph(p1Tpl, slots, scopeKey), plain: this.buildPlainParagraph(p1Tpl, slots, !isBlank), cn: tpl.cn.p1 },
-        { title: '第二段 · 个人行为与政策社会论证', html: this.buildRenderedParagraph(tpl.p2, slots, scopeKey), plain: this.buildPlainParagraph(tpl.p2, slots, !isBlank), cn: tpl.cn.p2 },
-        { title: '第三段 · 总结与倡导', html: this.buildRenderedParagraph(tpl.p3, slots, scopeKey), plain: this.buildPlainParagraph(tpl.p3, slots, !isBlank), cn: tpl.cn.p3 }
+        { title: '第一段 · 图表数据与主题', html: this.buildRenderedParagraph(p1Tpl, slots, scopeKey), plain: p1Plain, cnHtml: this.buildCnParagraphHtml(p1CnTpl, cnSlots) },
+        { title: '第二段 · 个人行为与政策社会论证', html: this.buildRenderedParagraph(tpl.p2, slots, scopeKey), plain: p2Plain, cnHtml: this.buildCnParagraphHtml(tpl.cn.p2, cnSlots) },
+        { title: '第三段 · 总结与倡导', html: this.buildRenderedParagraph(tpl.p3, slots, scopeKey), plain: p3Plain, cnHtml: this.buildCnParagraphHtml(tpl.cn.p3, cnSlots) }
       ];
-
-      const promptObj = (!isBlank && window.WRITING_PROMPTS && window.WRITING_PROMPTS.e2_part_b && window.WRITING_PROMPTS.e2_part_b[yearNum]) || {};
-      const directionsEn = promptObj.directionsEn || '';
 
       return `
         <div class="paper-sheet s5-essay-card" data-year="${isBlank ? 'blank' : yearNum}">
           <div class="paper-toolbar">
             <div class="paper-toolbar-left">
               <strong style="font-size:0.98em">${isBlank ? `${tpl.name}` : `${yearNum} 年英语二套写 · ${examInfo.title || ''}`}</strong>
-              <span style="font-size:0.86em;color:var(--w-muted)">${isBlank ? tpl.badge : `${examInfo.topicZh || ''} ｜ ${examInfo.chartInfo || ''}`}</span>
+              <span style="font-size:0.86em;color:var(--w-muted)">${isBlank ? tpl.badge : `${examInfo.topicZh || ''}`}</span>
             </div>
             <div class="paper-toolbar-right">
-              ${isBlank ? `
-                <button class="paper-text-btn s5-reset-scope-btn" data-scope="blank">清空试填</button>
-              ` : `
-                <button class="paper-text-btn s5-copy-marked-btn" data-raw="${encodeURIComponent(fullMarked)}" title="复制带【】标注的英文套写">复制带【】版</button>
-                <button class="paper-text-btn s5-copy-clean-btn" data-raw="${encodeURIComponent(fullPlain)}" title="复制纯英文范文">复制纯英文</button>
-              `}
+              ${isBlank ? `<button class="paper-text-btn s5-reset-scope-btn" data-scope="blank">清空试填</button>` : ''}
+              <button class="paper-text-btn s5-copy-clean-btn" data-raw="${encodeURIComponent(fullPlain)}">复制</button>
             </div>
           </div>
 
@@ -239,18 +337,6 @@
             </div>
           ` : ''}
 
-          ${!isBlank && this.showPrompt ? `
-            <div class="paper-section">
-              <div class="paper-section-head">
-                <span class="paper-section-title">${yearNum} 年真题原题 · 48. Directions</span>
-              </div>
-              ${directionsEn ? `<div class="paper-en-text no-indent" style="white-space:pre-wrap;font-size:0.9em;line-height:1.7;margin-bottom:12px">${this.escapeHtml(directionsEn)}</div>` : ''}
-              <div class="pr-prompt-chart-box" style="max-width:500px;margin:0 auto">
-                <img src="images/charts/chart_${yearNum}.jpg" alt="${yearNum}年真题图表" onerror="this.parentElement.style.display='none'" />
-              </div>
-            </div>
-          ` : ''}
-
           ${paraItems.map(p => `
             <div class="paper-section">
               <div class="paper-section-head">
@@ -258,16 +344,16 @@
                 <button class="paper-swap-btn s5-copy-para" data-raw="${encodeURIComponent(p.plain)}" title="复制本段">⇄</button>
               </div>
               <div class="paper-en-text">${p.html}</div>
-              ${this.showCn ? `<div class="paper-cn-text">${this.escapeHtml(p.cn)}</div>` : ''}
+              ${this.showCn ? `<div class="paper-cn-text">${p.cnHtml}</div>` : ''}
             </div>
           `).join('')}
 
           <div class="paper-footer">
             <div class="paper-footer-stats">
               <span>${isBlank ? `P2/P3 核心【】槽位 <strong>${needsDomain ? '3 个（主题词/具体行为/相关领域）' : '仅 2 个（主题词/具体行为）'}</strong>` : `英文词数 <strong>${wordCount}</strong>`}</span>
-              <span>${isBlank ? '点击任意【主题词】或【具体行为】可试填' : '英文中【】部分即为套写替换内容'}</span>
+              <span>${isBlank ? '点击【主题词】或【具体行为】可试填（可对照左侧真题图表）' : '英文与中文中【】部分即为对应替换内容'}</span>
             </div>
-            ${isBlank ? `<button class="paper-text-btn s5-copy-clean-btn" data-raw="${encodeURIComponent(fullPlain)}">复制空白模板</button>` : ''}
+            <button class="paper-text-btn s5-copy-clean-btn" data-raw="${encodeURIComponent(fullPlain)}">复制</button>
           </div>
         </div>
       `;
@@ -280,41 +366,30 @@
       if (!tpl) return;
 
       const years = [2026, 2025, 2024, 2023, 2022, 2021, 2020];
-      let sheetsHtml = '';
-
-      if (this.viewScope === 'blank') {
-        sheetsHtml = this.renderEssaySheetHtml(tpl, 'blank');
-      } else if (this.viewScope === 'exam') {
-        sheetsHtml = this.renderEssaySheetHtml(tpl, String(this.selectedYear));
-      } else {
-        sheetsHtml = this.renderEssaySheetHtml(tpl, 'blank') +
-          years.map(y => this.renderEssaySheetHtml(tpl, String(y))).join('');
-      }
+      const scopeKey = this.viewScope === 'blank' ? 'blank' : String(this.selectedYear);
+      const fontSize = this.getFontSize();
 
       host.innerHTML = `
         <div class="writing-inline-bar">
           <div class="filter-group">
-            <button class="filter-btn s5-scope-btn ${this.viewScope === 'all' ? 'active' : ''}" data-scope="all">模板 + 20-26全套实操</button>
-            <button class="filter-btn s5-scope-btn ${this.viewScope === 'blank' ? 'active' : ''}" data-scope="blank">仅看空白模板</button>
+            <button class="filter-btn s5-scope-btn ${this.viewScope === 'blank' ? 'active' : ''}" data-scope="blank">空白模板</button>
           </div>
           <div class="filter-group">
             ${years.map(y => `
               <button class="filter-btn s5-year-btn ${this.viewScope === 'exam' && this.selectedYear === y ? 'active' : ''}" data-year="${y}">${y}</button>
             `).join('')}
           </div>
-          <div class="filter-group" style="margin-left:auto;gap:12px">
+          <div class="filter-group" style="margin-left:auto;gap:10px">
+            <div class="s5-inline-font" role="group" aria-label="调整字体大小">
+              <button type="button" class="font-step-btn" id="s5FontDecBtn" title="缩小字体">A-</button>
+              <span class="font-size-val" id="s5FontVal" title="点击恢复默认 18px">${fontSize}px</span>
+              <button type="button" class="font-step-btn" id="s5FontIncBtn" title="放大字体">A+</button>
+            </div>
             <label class="w-switch-label">
               <input type="checkbox" class="w-switch-input" id="s5HighlightToggle" ${this.showHighlight ? 'checked' : ''}>
               <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
               <span>高亮标签</span>
             </label>
-            ${this.viewScope !== 'blank' ? `
-              <label class="w-switch-label">
-                <input type="checkbox" class="w-switch-input" id="s5PromptToggle" ${this.showPrompt ? 'checked' : ''}>
-                <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
-                <span>真题题目</span>
-              </label>
-            ` : ''}
             <label class="w-switch-label">
               <input type="checkbox" class="w-switch-input" id="s5CnToggle" ${this.showCn ? 'checked' : ''}>
               <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
@@ -323,14 +398,18 @@
           </div>
         </div>
 
-        ${sheetsHtml}
+        <div class="pr-split-layout s5-split-layout">
+          ${this.renderLeftPromptHtml(this.selectedYear)}
+          <div class="pr-split-right">
+            ${this.renderEssaySheetHtml(tpl, scopeKey)}
+          </div>
+        </div>
       `;
 
       host.querySelectorAll('.s5-scope-btn').forEach(btn => {
         btn.addEventListener('click', () => {
-          this.viewScope = btn.dataset.scope;
+          this.viewScope = 'blank';
           this.renderTemplatePanel(host);
-          host.scrollTop = 0;
         });
       });
 
@@ -339,18 +418,30 @@
           this.selectedYear = Number(btn.dataset.year);
           this.viewScope = 'exam';
           this.renderTemplatePanel(host);
-          host.scrollTop = 0;
         });
       });
+
+      const fDec = host.querySelector('#s5FontDecBtn');
+      const fInc = host.querySelector('#s5FontIncBtn');
+      const fVal = host.querySelector('#s5FontVal');
+      if (fDec) fDec.addEventListener('click', () => this.stepFontSize(-1));
+      if (fInc) fInc.addEventListener('click', () => this.stepFontSize(1));
+      if (fVal) fVal.addEventListener('click', () => this.stepFontSize(0));
 
       const hlT = host.querySelector('#s5HighlightToggle');
       if (hlT) hlT.addEventListener('change', (e) => { this.showHighlight = !!e.target.checked; this.renderTemplatePanel(host); });
 
-      const prT = host.querySelector('#s5PromptToggle');
-      if (prT) prT.addEventListener('change', (e) => { this.showPrompt = !!e.target.checked; this.renderTemplatePanel(host); });
-
       const cnT = host.querySelector('#s5CnToggle');
       if (cnT) cnT.addEventListener('change', (e) => { this.showCn = !!e.target.checked; this.renderTemplatePanel(host); });
+
+      const mockBtn = host.querySelector('#s5MockExamBtn');
+      if (mockBtn) {
+        mockBtn.addEventListener('click', () => {
+          if (window.loadSectionFromWriting) {
+            window.loadSectionFromWriting('writing_b', mockBtn.dataset.year);
+          }
+        });
+      }
 
       host.querySelectorAll('.s5-reset-scope-btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -359,7 +450,7 @@
         });
       });
 
-      host.querySelectorAll('.s5-copy-para, .s5-copy-marked-btn, .s5-copy-clean-btn').forEach(btn => {
+      host.querySelectorAll('.s5-copy-para, .s5-copy-clean-btn').forEach(btn => {
         btn.addEventListener('click', () => this.copyText(decodeURIComponent(btn.dataset.raw || ''), btn));
       });
 
@@ -392,7 +483,8 @@
         years.forEach(y => {
           const m = data.examMappings && data.examMappings[y];
           if (m && m.slots && m.slots[slotKey]) {
-            options.push({ label: `${y} 年 · ${m.title}`, val: m.slots[slotKey] });
+            const cnHint = (m.cnSlots && m.cnSlots[slotKey]) ? `（${m.cnSlots[slotKey]}）` : '';
+            options.push({ label: `${y} 年 · ${m.title}${cnHint}`, val: m.slots[slotKey] });
           }
         });
       }
@@ -485,10 +577,10 @@
                 <thead>
                   <tr>
                     <th style="width:14%">年份与题目</th>
-                    <th style="width:21%">【主题词】</th>
-                    <th style="width:27%">【具体行为】（接 people 后）</th>
+                    <th style="width:22%">【主题词】</th>
+                    <th style="width:28%">【具体行为】（接 people 后）</th>
                     <th style="width:16%">【相关领域】（仅微调5）</th>
-                    <th style="width:14%">首段图表类型</th>
+                    <th style="width:12%">首段图表类型</th>
                     <th style="width:8%">操作</th>
                   </tr>
                 </thead>
@@ -496,6 +588,7 @@
                   ${years.map(y => {
                     const m = (data.examMappings && data.examMappings[y]) || {};
                     const s = m.slots || {};
+                    const c = m.cnSlots || {};
                     return `
                       <tr>
                         <td>
@@ -504,13 +597,19 @@
                         </td>
                         <td>
                           <strong>【${this.escapeHtml(s.theme || '')}】</strong><br>
-                          <span style="font-size:0.85em;color:var(--w-muted)">${this.escapeHtml(m.topicZh || '')}</span>
+                          <span style="font-size:0.85em;color:var(--w-muted)">【${this.escapeHtml(c.theme || m.topicZh || '')}】</span>
                         </td>
-                        <td>【${this.escapeHtml(s.behavior || '')}】</td>
-                        <td>【${this.escapeHtml(s.domain || '')}】</td>
+                        <td>
+                          【${this.escapeHtml(s.behavior || '')}】<br>
+                          <span style="font-size:0.85em;color:var(--w-muted)">【${this.escapeHtml(c.behavior || '')}】</span>
+                        </td>
+                        <td>
+                          【${this.escapeHtml(s.domain || '')}】<br>
+                          <span style="font-size:0.85em;color:var(--w-muted)">【${this.escapeHtml(c.domain || '')}】</span>
+                        </td>
                         <td style="font-size:0.9em">
                           <strong>【${this.escapeHtml(s.chartType || '')}】</strong><br>
-                          <span style="color:var(--w-muted)">【${this.escapeHtml(s.relation || '')}】</span>
+                          <span style="color:var(--w-muted)">【${this.escapeHtml(c.chartType || '')}】</span>
                         </td>
                         <td>
                           <button type="button" class="clean-link-btn s5-jump-exam" data-year="${y}">查看套写</button>
