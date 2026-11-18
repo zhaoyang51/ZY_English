@@ -15,7 +15,7 @@
     stepIndex: 0,
     savedStepIndex: null,
     isFullMode: false,
-    theme: 'light',
+    theme: 'parchment',
     textData: null,
     steps: []
   };
@@ -471,7 +471,7 @@
     }
 
     const themeSelect = document.getElementById('themeSelect');
-    if (themeSelect) themeSelect.value = themeName || 'light';
+    if (themeSelect) themeSelect.value = themeName || 'parchment';
   }
 
   function setupYearDropdown() {
@@ -727,13 +727,13 @@
     grpWriting.label = '✍️ Section IV 写作 (Part A & Part B · 25分)';
     const optWritingA = document.createElement('option');
     optWritingA.value = 'writing_a';
-    optWritingA.textContent = '✉️ Part A 小作文 (47题 · 10分)';
+    optWritingA.textContent = 'Part A 小作文 (47题 · 10分)';
     if (String(AppState.textId) === 'writing_a') optWritingA.selected = true;
     grpWriting.appendChild(optWritingA);
 
     const optWritingB = document.createElement('option');
     optWritingB.value = 'writing_b';
-    optWritingB.textContent = '📊 Part B 大作文 (48题 · 15分)';
+    optWritingB.textContent = 'Part B 大作文 (48题 · 15分)';
     if (String(AppState.textId) === 'writing_b') optWritingB.selected = true;
     grpWriting.appendChild(optWritingB);
 
@@ -3584,7 +3584,8 @@
         e.preventDefault();
         e.stopPropagation();
         const isCollapsed = mainTopbar.classList.toggle('controls-collapsed');
-        toggleTopbarBtn.textContent = isCollapsed ? '▼ 展开功能栏' : '▲ 收起功能栏';
+        toggleTopbarBtn.textContent = isCollapsed ? '▼' : '▲';
+        toggleTopbarBtn.title = isCollapsed ? '展开功能栏' : '收起功能栏';
       };
     }
 
