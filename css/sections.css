@@ -2218,7 +2218,7 @@ body.has-trans-review #mobileTabsBar {
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
   margin-bottom: 22px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .trans-paper-sheet.is-fullscreen {
@@ -2237,8 +2237,18 @@ body.has-trans-review #mobileTabsBar {
   align-items: center;
   padding: 13px 28px;
   border-bottom: 1px solid var(--tr-line);
+  border-radius: 12px 12px 0 0;
   gap: 12px;
   flex-wrap: wrap;
+}
+
+#transMainPaperSheet > .trans-paper-toolbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: var(--tr-paper);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 .trans-paper-toolbar-left,

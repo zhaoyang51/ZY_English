@@ -382,10 +382,14 @@
         const label = track ? track.closest('.trans-switch-label') : null;
         if (!label) return;
         label.addEventListener('click', () => {
+          const rightScroll = document.getElementById('rightScroll');
+          const prevScrollTop = rightScroll ? rightScroll.scrollTop : 0;
           const next = this.getReviewPrefs();
           next[key] = !next[key];
           this.saveReviewPrefs(next);
           this.renderSingleColReview(data, year);
+          const nextScroll = document.getElementById('rightScroll');
+          if (nextScroll) nextScroll.scrollTop = prevScrollTop;
         });
       };
       bindToggle('switchTransSlashes', 'showSlashes');
