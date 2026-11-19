@@ -108,8 +108,11 @@
 
     formatSlashedText: function(slashedText) {
       if (!slashedText) return '';
-      const tokenized = this.tokenizeWords(slashedText);
-      return tokenized.replace(/\s*\/\s*/g, ' <span class="trans-slash-sep" title="意群断句">/</span> ');
+      // Split by slash BEFORE tokenizing so HTML closing tags (</span>) are never corrupted
+      const chunks = String(slashedText).split(/\s*\/\s*/);
+      return chunks
+        .map(chunk => this.tokenizeWords(chunk))
+        .join(' <span class="trans-slash-sep" title="意群断句">/</span> ');
     },
 
     speakSentence: function(text) {
@@ -215,13 +218,13 @@
           <div class="trans-review-points">
             ${syntaxItemsHtml ? `
               <div class="trans-points-group">
-                <div class="trans-points-title">📐 语法结构与句式剖析</div>
+                <div class="trans-points-title">语法结构与句式剖析</div>
                 <div class="trans-points-body">${syntaxItemsHtml}</div>
               </div>
             ` : ''}
             ${vocabItemsHtml ? `
               <div class="trans-points-group">
-                <div class="trans-points-title">📖 重点词汇与词组盘点</div>
+                <div class="trans-points-title">重点词汇与词组盘点</div>
                 <div class="trans-points-body">${vocabItemsHtml}</div>
               </div>
             ` : ''}
@@ -238,9 +241,7 @@
                 <span class="trans-para-pill">第 ${paraNum} 段</span>
               </div>
               <div class="trans-section-actions">
-                <button type="button" class="trans-mini-btn btn-trans-speak" data-sid="${s.sid}" title="朗读本句英文">🔊 朗读</button>
-                <button type="button" class="trans-mini-btn btn-trans-syntax" data-sid="${s.sid}" title="打开采分点与语法弹窗">🔍 详析</button>
-                <button type="button" class="trans-mini-btn btn-trans-copy" data-sid="${s.sid}" title="复制原文与精译">📋 复制</button>
+                <button type="button" class="trans-mini-btn btn-trans-syntax" data-sid="${s.sid}" title="查看采分点详析">详析</button>
               </div>
             </div>
 
@@ -264,10 +265,10 @@
         <div class="trans-paper-sheet trans-fulltext-sheet">
           <div class="trans-paper-toolbar">
             <div class="trans-paper-toolbar-left">
-              <span class="trans-paper-heading">📜 全文参考译文对照</span>
+              <span class="trans-paper-heading">全文参考译文对照</span>
             </div>
             <div class="trans-paper-toolbar-right">
-              <button type="button" class="trans-mini-btn" id="btnCopyFullTrans">📋 复制全文精译</button>
+              <button type="button" class="trans-mini-btn" id="btnCopyFullTrans">复制全文精译</button>
             </div>
           </div>
           <div class="trans-fulltext-body">
@@ -293,7 +294,7 @@
             <div class="trans-paper-toolbar">
               <div class="trans-paper-toolbar-left">
                 <button type="button" class="trans-paper-icon-btn" id="btnTransFullscreen" title="全屏/退出全屏阅读">⤢</button>
-                <span class="trans-paper-subtitle">${year} 年考研英语（二） · Section III 英译汉深度复盘 · 点击英文单词查词</span>
+                <span class="trans-paper-subtitle">${year} 年英译汉深度复盘（共 ${sentences.length} 句 · 点击单词查词）</span>
               </div>
               <div class="trans-paper-toolbar-right">
                 <div class="trans-font-control">
@@ -366,14 +367,6 @@
         if (sheetEl) sheetEl.classList.toggle('is-fullscreen');
       });
 
-      container.querySelectorAll('.btn-trans-speak').forEach(btn => {
-        btn.addEventListener('click', () => {
-          const sid = btn.getAttribute('data-sid');
-          const sObj = sentences.find(s => String(s.sid) === String(sid));
-          if (sObj) this.speakSentence(sObj.en || sObj.text || '');
-        });
-      });
-
       container.querySelectorAll('.btn-trans-syntax').forEach(btn => {
         btn.addEventListener('click', (e) => {
           e.stopPropagation();
@@ -385,39 +378,12 @@
         });
       });
 
-      container.querySelectorAll('.btn-trans-copy').forEach(btn => {
-        btn.addEventListener('click', () => {
-          const sid = btn.getAttribute('data-sid');
-          const sObj = sentences.find(s => String(s.sid) === String(sid));
-          if (!sObj) return;
-          const text = `${sObj.en || ''}\n直译：${sObj.literal_cn || ''}\n精译：${sObj.refined_cn || sObj.cn || ''}`.trim();
-          navigator.clipboard?.writeText(text).then(() => {
-            if (typeof window.showToast === 'function') window.showToast(`📋 已复制第 ${sid} 句原文与译文`);
-          }).catch(() => {});
-        });
-      });
-
       container.querySelector('#btnCopyFullTrans')?.addEventListener('click', () => {
         if (!fullRefined) return;
         navigator.clipboard?.writeText(fullRefined).then(() => {
-          if (typeof window.showToast === 'function') window.showToast('📋 已复制全文参考精译');
+          if (typeof window.showToast === 'function') window.showToast('已复制全文参考精译');
         }).catch(() => {});
       });
-    },
-
-    getShowTrans: function() {
-      if (window.ReaderModule?.settings?.showTrans !== undefined) {
-        return window.ReaderModule.settings.showTrans;
-      }
-      return localStorage.getItem('kaoyan_trans_show_trans') === 'true';
-    },
-
-    setShowTrans: function(val) {
-      if (window.ReaderModule?.settings) {
-        window.ReaderModule.settings.showTrans = val;
-        window.StorageModule?.saveSettings(window.ReaderModule.settings);
-      }
-      localStorage.setItem('kaoyan_trans_show_trans', String(val));
     },
 
     renderLeftPanel: function(data, year) {

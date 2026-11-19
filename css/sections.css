@@ -2095,6 +2095,11 @@ body.has-trans-review {
   --tr-tag-lit-ink: #57534e;
   --tr-tag-ref-bg: rgba(37, 99, 235, 0.1);
   --tr-tag-ref-ink: #1d4ed8;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 body.has-trans-review.theme-parchment {
@@ -2129,12 +2134,21 @@ body.has-trans-review.theme-dark {
   --tr-tag-ref-ink: #93c5fd;
 }
 
+body.has-trans-review .topbar {
+  flex: 0 0 auto !important;
+}
+
 body.has-trans-review #mobileTabsBar {
   display: none !important;
 }
 
 .layout.trans-single-col-review {
-  display: block !important;
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  height: auto !important;
+  width: 100% !important;
+  display: flex !important;
+  overflow: hidden !important;
   background: var(--tr-bg) !important;
 }
 
@@ -2144,24 +2158,36 @@ body.has-trans-review #mobileTabsBar {
   display: none !important;
 }
 
-.layout.trans-single-col-review .right-panel {
+.layout.trans-single-col-review .panel.right-panel {
   width: 100% !important;
   max-width: 100% !important;
   flex: 1 1 100% !important;
   height: 100% !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
   background: var(--tr-bg) !important;
   border: none !important;
   padding: 0 !important;
-  display: block !important;
+  overflow: hidden !important;
 }
 
-.layout.trans-single-col-review #workspaceContent {
+.layout.trans-single-col-review #rightScroll {
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
   height: 100% !important;
   overflow-y: auto !important;
   overflow-x: hidden !important;
   padding: 0 !important;
   background: var(--tr-bg) !important;
   -webkit-overflow-scrolling: touch;
+}
+
+.layout.trans-single-col-review #workspaceContent {
+  height: auto !important;
+  overflow: visible !important;
+  padding: 0 !important;
+  background: transparent !important;
 }
 
 .trans-review-canvas {
@@ -2364,7 +2390,7 @@ body.has-trans-review #mobileTabsBar {
   color: var(--tr-muted);
   font-size: 0.75em;
   font-weight: 600;
-  padding: 3px 9px;
+  padding: 3px 10px;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.15s ease;
