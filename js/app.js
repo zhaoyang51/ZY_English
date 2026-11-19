@@ -797,8 +797,9 @@
       const reviewBtn = document.getElementById('reviewModeBtn');
       const vocabBtn = document.getElementById('vocabModeBtn');
       const writingBtn = document.getElementById('writingModeBtn');
-      if (practiceBtn) practiceBtn.classList.remove('active');
-      if (reviewBtn) reviewBtn.classList.remove('active');
+      if (practiceBtn && practiceBtn.parentElement) practiceBtn.parentElement.style.display = '';
+      if (practiceBtn) { practiceBtn.disabled = false; practiceBtn.classList.remove('active'); }
+      if (reviewBtn) { reviewBtn.disabled = false; reviewBtn.classList.remove('active'); }
       if (vocabBtn) vocabBtn.classList.remove('active');
       if (writingBtn) writingBtn.classList.add('active');
 
@@ -861,8 +862,9 @@
       const practiceBtn = document.getElementById('practiceModeBtn');
       const reviewBtn = document.getElementById('reviewModeBtn');
       const vocabBtn = document.getElementById('vocabModeBtn');
-      if (practiceBtn) practiceBtn.classList.remove('active');
-      if (reviewBtn) reviewBtn.classList.remove('active');
+      if (practiceBtn && practiceBtn.parentElement) practiceBtn.parentElement.style.display = '';
+      if (practiceBtn) { practiceBtn.disabled = false; practiceBtn.classList.remove('active'); }
+      if (reviewBtn) { reviewBtn.disabled = false; reviewBtn.classList.remove('active'); }
       if (vocabBtn) vocabBtn.classList.add('active');
 
       if (vocab) {
@@ -974,15 +976,15 @@
     const reviewBtn = document.getElementById('reviewModeBtn');
     const vocabBtn = document.getElementById('vocabModeBtn');
     const writingBtn = document.getElementById('writingModeBtn');
+    const modeGroup = practiceBtn ? practiceBtn.parentElement : null;
+    if (modeGroup) modeGroup.style.display = isTranslationUnified ? 'none' : '';
     if (practiceBtn) {
       practiceBtn.disabled = isTranslationUnified;
       practiceBtn.classList.toggle('active', !isTranslationUnified && AppState.mode === 'practice');
-      practiceBtn.title = isTranslationUnified ? '英译汉暂不支持切换做题/复盘模式' : '';
     }
     if (reviewBtn) {
       reviewBtn.disabled = isTranslationUnified;
       reviewBtn.classList.toggle('active', !isTranslationUnified && AppState.mode === 'review');
-      reviewBtn.title = isTranslationUnified ? '英译汉暂不支持切换做题/复盘模式' : '';
     }
     if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
     if (writingBtn) writingBtn.classList.toggle('active', AppState.mode === 'writing');
@@ -1376,12 +1378,21 @@
     const isSpecial = typeof AppState.textId === 'string' && ['use_of_english', 'part_b', 'translation', 'writing_a', 'writing_b'].includes(AppState.textId);
     const submodeContainer = document.getElementById('submodeContainer');
     const unavailable = !AppState.textData;
+    const isTranslationUnified = (AppState.textId === 'translation' && AppState.mode !== 'vocab' && AppState.mode !== 'writing');
     const practiceBtn = document.getElementById('practiceModeBtn');
     const reviewBtn = document.getElementById('reviewModeBtn');
     const vocabBtn = document.getElementById('vocabModeBtn');
     const writingBtn = document.getElementById('writingModeBtn');
-    if (practiceBtn) practiceBtn.classList.toggle('active', AppState.mode === 'practice');
-    if (reviewBtn) reviewBtn.classList.toggle('active', AppState.mode === 'review');
+    const modeGroup = practiceBtn ? practiceBtn.parentElement : null;
+    if (modeGroup) modeGroup.style.display = isTranslationUnified ? 'none' : '';
+    if (practiceBtn) {
+      practiceBtn.disabled = isTranslationUnified;
+      practiceBtn.classList.toggle('active', !isTranslationUnified && AppState.mode === 'practice');
+    }
+    if (reviewBtn) {
+      reviewBtn.disabled = isTranslationUnified;
+      reviewBtn.classList.toggle('active', !isTranslationUnified && AppState.mode === 'review');
+    }
     if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
     if (writingBtn) writingBtn.classList.toggle('active', AppState.mode === 'writing');
 
