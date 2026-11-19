@@ -7805,7 +7805,9 @@
     "points": 15,
     "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
     "source_text": "It's almost impossible to go through life without experiencing some kind of failure. But, the wonderful thing about failure is that it's entirely up to us to decide how to look at it.\n\nWe can choose to see failure as \"the end of the world\". Or, we can look at failure as the incredible learning experience that it often is. Every time we fail at something, we can choose to look for the lesson we're meant to learn. These lessons are very important; they're how we grow, and how we keep from making that same mistake again. Failures stop us only if we let them.\n\nFailure can also teach us things about ourselves that we would never have learned otherwise. For instance, failure can help you discover how strong a person you are. Failing at something can help you discover your truest friends, or help you find unexpected motivation to succeed.",
-    "reference_translation": "人的一生中几乎不可能不经历某种形式的失败。失败是人类生存体验中不可避免的一部分。\n\n我们可以选择将失败视作“世界末日”和能力的否定；或者，我们也可以将失败看作是不可多得的学习契机与人生转折点。失败能向我们揭示关于自我的真实特质——那些在顺风顺水时永远无法领悟的坚韧与勇气。",
+    "full_literal_translation": "在一生中不经历某种失败几乎是不可能的。但是，关于失败的美妙之处在于，完全由我们来决定如何看待它。\n\n我们可以选择把失败看作“世界末日”。或者，我们可以把失败看作它经常所是的那种极好的学习经历。每次我们在某件事上失败时，我们都可以选择去寻找我们应该吸取的教训。这些教训非常重要；它们是我们成长的方式，也是我们避免再犯同样错误的方式。只有当我们允许失败阻止我们时，它们才会阻止我们。\n\n失败还能教给我们关于我们自己的、否则我们永远不会学到的东西。例如，失败可以帮助你发现你是一个多么坚强的人。在某件事上失败可以帮助你发现你最真正的朋友，或者帮助你找到意想不到的成功动力。",
+    "full_refined_translation": "人这一生，几乎不可能不经历某种形式的失败。但失败的可贵之处在于，究竟如何看待它，完全取决于我们自己。\n\n我们可以选择将失败视作“世界末日”，也可以把它看作一段难能可贵的学习经历——事实上它往往正是如此。每当我们在某件事上遭遇挫败，都可以选择从中探寻我们本该汲取的教训。这些教训至关重要：它们是我们成长的阶梯，也是我们避免重蹈覆辙的关键。唯有在我们任由失败摆布时，它才会阻挡我们前行的脚步。\n\n此外，失败还能让我们认清自身，学到若非如此便无从知晓的道理。比如，失败能帮你发掘自己究竟有多坚强；某次失利也能帮你识得谁才是真正的朋友，或是帮你找到意想不到的动力去走向成功。",
+    "reference_translation": "人这一生，几乎不可能不经历某种形式的失败。但失败的可贵之处在于，究竟如何看待它，完全取决于我们自己。\n\n我们可以选择将失败视作“世界末日”，也可以把它看作一段难能可贵的学习经历——事实上它往往正是如此。每当我们在某件事上遭遇挫败，都可以选择从中探寻我们本该汲取的教训。这些教训至关重要：它们是我们成长的阶梯，也是我们避免重蹈覆辙的关键。唯有在我们任由失败摆布时，它才会阻挡我们前行的脚步。\n\n此外，失败还能让我们认清自身，学到若非如此便无从知晓的道理。比如，失败能帮你发掘自己究竟有多坚强；某次失利也能帮你识得谁才是真正的朋友，或是帮你找到意想不到的动力去走向成功。",
     "paragraphs": [
       {
         "pid": 0,
@@ -7825,345 +7827,491 @@
         "sid": 1,
         "pid": 0,
         "en": "It's almost impossible to go through life without experiencing some kind of failure.",
-        "cn": "人的一生中几乎不可能不经历某种形式的挫折与失败。",
+        "slashed_text": "It's almost impossible / to go through life / without experiencing some kind of failure.",
+        "literal_cn": "在一生中不经历某种失败几乎是不可能的。",
+        "refined_cn": "人这一生，几乎不可能不经历某种形式的失败。",
+        "cn": "人这一生，几乎不可能不经历某种形式的失败。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "It 为形式主语，is 为系动词，almost impossible 为表语，不定式短语 to go through life... 为真正主语。"
+          },
+          {
+            "label": "修饰成分",
+            "text": "without experiencing some kind of failure 为介词短语作伴随/条件状语，与前面的 impossible 构成双重否定。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "go through life",
+            "note": "走过一生，度过人生。"
+          },
+          {
+            "term": "some kind of",
+            "note": "某种（形式的）。"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "It's almost impossible to go through life",
-            "score": 1,
-            "guide": "It 为形式主语；go through life 译为‘度过一生/在人生的历程中’；almost impossible 译为‘几乎不可能’。意群精准译为‘人活一世，几乎不可能’",
+            "score": 0.5,
+            "guide": "It 作形式主语，译为“人这一生几乎不可能……”。",
             "vocab": [
-              {
-                "word": "impossible",
-                "pos": "adj.",
-                "common": "不可能的",
-                "context": "绝无可能做到的"
-              },
               {
                 "word": "go through",
                 "pos": "phr.",
-                "common": "经历；经受；穿过",
-                "context": "走过人生的整个历程"
+                "common": "经历；度过",
+                "context": "度过人生"
               }
             ]
           },
           {
             "phrase": "without experiencing some kind of failure",
-            "score": 1,
-            "guide": "without 介词后接动名词构成双重否定；some kind of 译为‘某种形式的’；failure 译为‘失败/挫折’。意群精准译为‘未曾遭遇过任何某种形式的挫折失败’",
+            "score": 1.0,
+            "guide": "without 表否定，与 impossible 构成“几乎不可能不……”。",
             "vocab": [
-              {
-                "word": "experience",
-                "pos": "v.",
-                "common": "经历；体验",
-                "context": "亲身尝到与经受"
-              },
               {
                 "word": "failure",
                 "pos": "n.",
-                "common": "失败；故障",
-                "context": "学业、事业或生活上的挫折"
+                "common": "失败",
+                "context": "某种形式的失败"
               }
             ]
           }
         ],
-        "grammar_breakdown": "It 为形式主语，is almost impossible 为表语，真正主语是不定式短语 to go through life；介词短语 without experiencing some kind of failure 构成双重否定。",
-        "reassembly_notes": "双重否定表肯定（impossible... without... 译为‘不可能不……/必然会……’）；go through life 意译为‘在人生的长途上/度过一生’，增补四字词‘挫折与失败’加强文采。"
+        "grammar_breakdown": "句子主干：It 为形式主语，不定式 to go through life... 为真正主语。without 介词短语表伴随否定。",
+        "reassembly_notes": "将“almost impossible... without...”双重否定顺译为“几乎不可能不经历……”，自然流畅。"
       },
       {
         "sid": 2,
         "pid": 0,
         "en": "But, the wonderful thing about failure is that it's entirely up to us to decide how to look at it.",
-        "cn": "但失败的绝妙之处在于：究竟如何看待它，完全取决于我们自己。",
-        "scoring_points": [
+        "slashed_text": "But, / the wonderful thing about failure / is / that it's entirely up to us / to decide how to look at it.",
+        "literal_cn": "但是，关于失败的美妙之处在于，完全由我们来决定如何看待它。",
+        "refined_cn": "但失败的可贵之处在于，究竟如何看待它，完全取决于我们自己。",
+        "cn": "但失败的可贵之处在于，究竟如何看待它，完全取决于我们自己。",
+        "syntax_points": [
           {
-            "phrase": "But, the wonderful thing about failure is",
-            "score": 0.5,
-            "guide": "wonderful thing 译为‘奇妙之处/绝妙的地方’；主系表结构引出表语从句。意群精准译为‘然而失败最具魅力的一点在于’",
-            "vocab": [
-              {
-                "word": "wonderful",
-                "pos": "adj.",
-                "common": "精彩的；绝妙的",
-                "context": "令人欣喜并富有启发性的"
-              }
-            ]
+            "label": "句子主干",
+            "text": "the wonderful thing 为主语，is 为系动词，that 引导表语从句。"
           },
           {
-            "phrase": "that it's entirely up to us",
+            "label": "从句结构",
+            "text": "表语从句中 it 为形式主语，to decide how to look at it 为真正主语；how to look at it 为“疑问词+不定式”作 decide 的宾语。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "be up to sb.",
+            "note": "由某人决定，取决于某人。"
+          },
+          {
+            "term": "look at",
+            "note": "看待，审视。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "the wonderful thing about failure",
             "score": 0.5,
-            "guide": "be up to sb 考研常考短语‘由某人决定/取决于某人’；entirely 加强程度‘完全’。意群精准译为‘我们完全拥有自主权’",
+            "guide": "wonderful thing 结合语境译为“美妙之处/可贵之处”。",
+            "vocab": []
+          },
+          {
+            "phrase": "entirely up to us to decide how to look at it",
+            "score": 1.0,
+            "guide": "up to us 译为“由我们决定/取决于我们自己”。",
             "vocab": [
               {
                 "word": "entirely",
                 "pos": "adv.",
-                "common": "完全地；彻底地",
-                "context": "百分之百地；全然"
-              }
-            ]
-          },
-          {
-            "phrase": "to decide how to look at it",
-            "score": 1,
-            "guide": "decide 动词‘决定’；how to look at it 译为‘如何看待/审视它’。意群精准译为‘去决定自己究竟该如何看待失败’",
-            "vocab": [
-              {
-                "word": "decide",
-                "pos": "v.",
-                "common": "决定；决断",
-                "context": "主动选择态度"
+                "common": "完全地",
+                "context": "完全取决于自己"
               }
             ]
           }
         ],
-        "grammar_breakdown": "主干为主系表结构：The wonderful thing about failure 为主语，is 为系动词；that 引导表语从句，从句内部 it 为形式主语，真正主语是 to decide how to look at it，be up to sb 为谓语短语。",
-        "reassembly_notes": "the wonderful thing 译为‘绝妙之处/值得庆幸的是’；be entirely up to sb 经典短语（完全取决于某人）；how to look at it 疑问词加不定式作宾语，汉语顺译为‘取决于我们如何审视它’。"
+        "grammar_breakdown": "句子主干：the wonderful thing is that...（表语从句）。从句内部使用 it's up to us to do sth. 句型。",
+        "reassembly_notes": "将表语从句中的 decide how to look at it 拆开调整语序，译为“究竟如何看待它，完全取决于我们自己”。"
       },
       {
         "sid": 3,
         "pid": 1,
         "en": "We can choose to see failure as \"the end of the world\".",
-        "cn": "我们可以选择将失败视作“世界末日”；",
-        "scoring_points": [
+        "slashed_text": "We can choose / to see failure as \"the end of the world\".",
+        "literal_cn": "我们可以选择把失败看作“世界末日”。",
+        "refined_cn": "我们可以选择将失败视作“世界末日”，",
+        "cn": "我们可以选择将失败视作“世界末日”。",
+        "syntax_points": [
           {
-            "phrase": "We can choose to see failure as \"the end of the world\"",
-            "score": 2,
-            "guide": "choose to do 选择做某事；see... as... 把……视作……；the end of the world 译为‘世界末日/彻底绝望’。意群精准译为‘我们可以选择把失败看成无可挽回的“世界末日”’",
-            "vocab": [
-              {
-                "word": "choose",
-                "pos": "v.",
-                "common": "选择；挑选",
-                "context": "主观意志上的决断"
-              },
-              {
-                "word": "world",
-                "pos": "n.",
-                "common": "世界",
-                "context": "the end of the world 灭顶之灾；绝境"
-              }
-            ]
+            "label": "句子主干",
+            "text": "We 为主语，can choose 为谓语，不定式短语 to see failure as... 为宾语。"
           }
         ],
-        "grammar_breakdown": "主谓宾补简单句：主语 We，情态谓语 can choose to see，宾语 failure，宾补 as 'the end of the world'。",
-        "reassembly_notes": "see... as... 经典搭配（把……看作……）；the end of the world 西方夸张修辞，顺译为双引号‘世界末日’，引出下文的对照。"
+        "vocab_points": [
+          {
+            "term": "see A as B",
+            "note": "把 A 视作 B，把 A 看作 B。"
+          },
+          {
+            "term": "the end of the world",
+            "note": "世界末日（比喻无可挽回的绝境）。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "see failure as \"the end of the world\"",
+            "score": 1.0,
+            "guide": "see... as... 译为“把……看作/视作……”；the end of the world 保留引号译为“世界末日”。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "简单句：choose to do sth. + see A as B 结构。",
+        "reassembly_notes": "在全文中可与下一句 Or... 合并断句，形成“可以……，也可以……”的并列选择感。"
       },
       {
         "sid": 4,
         "pid": 1,
         "en": "Or, we can look at failure as the incredible learning experience that it often is.",
-        "cn": "或者，我们也可以将失败视作一次不可多得的学习契机——而现实中它往往正是如此。",
+        "slashed_text": "Or, / we can look at failure / as the incredible learning experience / [that it often is].",
+        "literal_cn": "或者，我们可以把失败看作它经常所是的那种极好的学习经历。",
+        "refined_cn": "也可以把它看作一段难能可贵的学习经历——事实上它往往正是如此。",
+        "cn": "也可以把它看作一段难能可贵的学习经历——事实上它往往正是如此。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "we 为主语，can look at 为谓语，failure 为宾语，as... 为介词短语。"
+          },
+          {
+            "label": "修饰成分",
+            "text": "that it often is 为定语从句，修饰先行词 learning experience，关系代词 that 在从句中作表语。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "look at A as B",
+            "note": "把 A 看作 B（与前句 see A as B 对应）。"
+          },
+          {
+            "term": "incredible",
+            "note": "极好的，难能可贵的，了不起的（此处非“难以置信的”贬义，而是正向赞叹）。"
+          }
+        ],
         "scoring_points": [
           {
-            "phrase": "Or, we can look at failure as the incredible learning experience",
-            "score": 1,
-            "guide": "look at... as... 译为‘将……视为……’；incredible 考研重点词‘极好的/不可思议的’；learning experience 译为‘学习契机/吸取教训的经历’。意群精准译为‘抑或，我们也可以把失败当作一次不可多得的学习经历’",
+            "phrase": "the incredible learning experience",
+            "score": 1.0,
+            "guide": "incredible 在此意为“极好的/难能可贵的”。",
             "vocab": [
               {
                 "word": "incredible",
                 "pos": "adj.",
-                "common": "难以置信的；极妙的",
-                "context": "极其宝贵、不可多得的"
-              },
-              {
-                "word": "experience",
-                "pos": "n.",
-                "common": "经验；经历",
-                "context": "长见识的人生阅历"
+                "common": "极好的；惊人的",
+                "context": "宝贵的学习经历"
               }
             ]
           },
           {
             "phrase": "that it often is",
-            "score": 1,
-            "guide": "that 引导限制性定语从句作表语，意为‘它在绝大多数情况下本就是这样一种经历’。意群精准译为‘而事实上它往往确实就是如此’",
-            "vocab": [
-              {
-                "word": "often",
-                "pos": "adv.",
-                "common": "经常；常常",
-                "context": "在多数真实情境下"
-              }
-            ]
+            "score": 0.5,
+            "guide": "定语从句表“事实上它往往正是如此”，用破折号独立成句更符合汉语习惯。",
+            "vocab": []
           }
         ],
-        "grammar_breakdown": "Or 连接选择并列；look at failure as... 为主谓宾补；that it often is 为定语从句修饰 the incredible learning experience，关系代词 that 在从句中充当表语。",
-        "reassembly_notes": "look at... as... 与上一句的 see... as... 形成措辞呼应；incredible 考研语境引申为‘不可多得的/极有价值的’；that it often is 破折号独立拆译为‘而事实上它往往正是如此’。"
+        "grammar_breakdown": "核心难点在于句尾定语从句 that it often is（省略了表语 learning experience），直接前置修饰会非常拗口。",
+        "reassembly_notes": "采用“后置破折号分译法”处理 that it often is，译为“——事实上它往往正是如此”。"
       },
       {
         "sid": 5,
         "pid": 1,
         "en": "Every time we fail at something, we can choose to look for the lesson we're meant to learn.",
-        "cn": "每当我们在某件事上遭遇挫败时，我们都可以选择去探寻其中原本就应当汲取的经验教训。",
+        "slashed_text": "Every time we fail at something, / we can choose to look for the lesson / [we're meant to learn].",
+        "literal_cn": "每次我们在某件事上失败时，我们都可以选择去寻找我们应该吸取的教训。",
+        "refined_cn": "每当我们在某件事上遭遇挫败，都可以选择从中探寻我们本该汲取的教训。",
+        "cn": "每当我们在某件事上遭遇挫败，都可以选择从中探寻我们本该汲取的教训。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "we can choose to look for the lesson。"
+          },
+          {
+            "label": "修饰成分",
+            "text": "Every time 引导时间状语从句（“每当……”）；we're meant to learn 为省略关系代词 that/which 的定语从句，修饰 the lesson。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "fail at something",
+            "note": "在某件事上失败/遭遇挫败。"
+          },
+          {
+            "term": "be meant to do",
+            "note": "应当做，本该做，注定要……"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "Every time we fail at something",
             "score": 0.5,
-            "guide": "Every time 充当连词引导时间状语从句；fail at sth 译为‘在某事上失败/受挫’。意群精准译为‘每次我们在某些事情上失手挫败时’",
-            "vocab": [
-              {
-                "word": "fail",
-                "pos": "v.",
-                "common": "失败；不及格",
-                "context": "做事未能达成预期目的"
-              }
-            ]
+            "guide": "Every time 作连词引导时间状语从句，译为“每当……”。",
+            "vocab": []
           },
           {
-            "phrase": "we can choose to look for the lesson",
-            "score": 0.5,
-            "guide": "look for 译为‘寻找/探寻’；lesson 熟词僻义，在此译为‘经验教训’（而非课文）。意群精准译为‘我们大可以选择去寻找背后的教训’",
+            "phrase": "the lesson we're meant to learn",
+            "score": 1.0,
+            "guide": "be meant to learn 译为“本该汲取的/应该学到的”，lesson 译为“教训”。",
             "vocab": [
               {
                 "word": "lesson",
                 "pos": "n.",
-                "common": "课；功课；教训（熟词僻义）",
-                "context": "失败带给人的启发与警示"
-              }
-            ]
-          },
-          {
-            "phrase": "we're meant to learn",
-            "score": 1,
-            "guide": "be meant to do 考研高频短语‘注定要/本应当’；learn 译为‘吸取/领悟’。意群精准译为‘那些我们命中注定应当学到的宝贵东西’",
-            "vocab": [
-              {
-                "word": "meant",
-                "pos": "v.",
-                "common": "意味；打算",
-                "context": "be meant to do 理应经历并从中领悟"
+                "common": "教训；经验",
+                "context": "从失败中汲取的教训"
               }
             ]
           }
         ],
-        "grammar_breakdown": "Every time 引导时间状语从句；主句主干为 we can choose to look for the lesson；we're meant to learn 为省略 that 的定语从句修饰 the lesson。",
-        "reassembly_notes": "Every time 引导从句提前翻译为‘每当……之时’；fail at 译为‘在……上失败/受挫’；be meant to do 核心短语（注定要/本应该），定语从句提前翻译为‘理应吸取的教训’。"
+        "grammar_breakdown": "Every time 引导时间状语从句；句末为省略关系代词的定语从句。",
+        "reassembly_notes": "定语从句 we're meant to learn 前置修饰 lesson，译为“我们本该汲取的教训”。"
       },
       {
         "sid": 6,
         "pid": 1,
         "en": "These lessons are very important; they're how we grow, and how we keep from making that same mistake again.",
-        "cn": "这些教训至关重要；它们是我们成长的养分，更是我们防止重蹈覆辙的法宝。",
-        "scoring_points": [
+        "slashed_text": "These lessons are very important; / they're how we grow, / and how we keep from making that same mistake again.",
+        "literal_cn": "这些教训非常重要；它们是我们成长的方式，也是我们避免再犯同样错误的方式。",
+        "refined_cn": "这些教训至关重要：它们是我们成长的阶梯，也是我们避免重蹈覆辙的关键。",
+        "cn": "这些教训至关重要：它们是我们成长的阶梯，也是我们避免重蹈覆辙的关键。",
+        "syntax_points": [
           {
-            "phrase": "These lessons are very important;",
-            "score": 0.5,
-            "guide": "主系表结构，顺译即可。意群精准译为‘这些经验教训具有非凡的分量；’",
-            "vocab": [
-              {
-                "word": "important",
-                "pos": "adj.",
-                "common": "重要的",
-                "context": "关乎人生长远走向的"
-              }
-            ]
+            "label": "句子主干",
+            "text": "分号连接两个并列分句。后半句中 they 为主语，are 为系动词，两个并列的 how 引导表语从句。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "keep from doing sth.",
+            "note": "阻止/避免做某事（此处为避免犯错）。"
           },
+          {
+            "term": "make that same mistake again",
+            "note": "再犯同样的错误，精译可用成语“重蹈覆辙”。"
+          }
+        ],
+        "scoring_points": [
           {
             "phrase": "they're how we grow",
             "score": 0.5,
-            "guide": "how 引导表语从句，指‘成长的途径/方式’。意群精准译为‘它们恰恰是我们获得心智成熟的途径’",
-            "vocab": [
-              {
-                "word": "grow",
-                "pos": "v.",
-                "common": "生长；成长",
-                "context": "心智成熟与能力精进"
-              }
-            ]
+            "guide": "how 引导表语从句，可增译名词译为“成长的方式/阶梯”。",
+            "vocab": []
           },
           {
-            "phrase": "and how we keep from making that same mistake again",
-            "score": 1,
-            "guide": "keep from doing 考研必考短语‘防止/避免……’；make that same mistake again 结合成语翻译为‘重蹈覆辙’。意群精准译为‘也是避免我们再次重犯相同错误的不二法门’",
+            "phrase": "how we keep from making that same mistake again",
+            "score": 1.0,
+            "guide": "keep from doing 译为“避免做……”；making that same mistake again 可译为“重蹈覆辙”。",
             "vocab": [
               {
                 "word": "keep from",
                 "pos": "phr.",
-                "common": "阻止；避免",
-                "context": "防止并克制发生不良结果"
-              },
-              {
-                "word": "mistake",
-                "pos": "n.",
-                "common": "错误",
-                "context": "决策失误或判断差错"
+                "common": "阻止；克制；避免",
+                "context": "避免再次犯错"
               }
             ]
           }
         ],
-        "grammar_breakdown": "分号连接两个并列句：前句 These lessons are very important；后句包含两个并列的 how 引导的表语从句 how we grow 和 how we keep from doing...",
-        "reassembly_notes": "分号前简短强调重要性；分号后两个 how 表语从句顺译；keep from doing sth 考研必考短语（防止/避免做某事），结合 make that same mistake again 意译为成语‘重蹈覆辙’，极显文采。"
+        "grammar_breakdown": "分号前后为解释关系（可译为冒号）；how 引导两个并列表语从句。",
+        "reassembly_notes": "将抽象的 how 表语从句具象化增词为“成长的阶梯”与“避免重蹈覆辙的关键”。"
       },
       {
         "sid": 7,
         "pid": 1,
         "en": "Failures stop us only if we let them.",
-        "cn": "只有当我们向失败低头认输时，失败才会真正阻挡我们前行的脚步。",
-        "scoring_points": [
+        "slashed_text": "Failures stop us / only if we let them.",
+        "literal_cn": "只有当我们允许失败阻止我们时，它们才会阻止我们。",
+        "refined_cn": "唯有在我们任由失败摆布时，它才会阻挡我们前行的脚步。",
+        "cn": "唯有在我们任由失败摆布时，它才会阻挡我们前行的脚步。",
+        "syntax_points": [
           {
-            "phrase": "Failures stop us",
-            "score": 1,
-            "guide": "Failures 复数泛指各种失败；stop us 译为‘阻碍我们前行/击垮我们’。意群精准译为‘挫败只有在……才会阻止我们前进’",
-            "vocab": [
-              {
-                "word": "stop",
-                "pos": "v.",
-                "common": "停止；阻拦",
-                "context": "彻底阻断人的前进步伐"
-              }
-            ]
+            "label": "句子主干",
+            "text": "Failures stop us 为主句。"
           },
           {
-            "phrase": "only if we let them",
-            "score": 1,
-            "guide": "only if 考研条件连词‘唯有在……条件下’；let them (stop us) 代词还原。意群精准译为‘唯有我们自己心甘情愿任凭其摆布阻拦时’",
-            "vocab": [
-              {
-                "word": "only if",
-                "pos": "conj.",
-                "common": "只有在……的时候",
-                "context": "表达唯一充分必要条件"
-              }
-            ]
+            "label": "修饰成分",
+            "text": "only if 引导条件状语从句（“只有当……”）；let them 后省略了动词原形 stop us，避免重复。"
           }
         ],
-        "grammar_breakdown": "主句为 Failures stop us；only if 引导条件状语从句 we let them (stop us)。",
-        "reassembly_notes": "only if 条件状语从句置于句首重组‘只有当我们放任它们时，失败才会阻碍我们’；let them 意译为‘纵容它们/向失败妥协认输’。"
+        "vocab_points": [
+          {
+            "term": "only if",
+            "note": "只有当……才，唯有在……时。"
+          },
+          {
+            "term": "let them [stop us]",
+            "note": "允许/任由它们（阻止我们）。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "Failures stop us only if we let them",
+            "score": 1.5,
+            "guide": "only if 译为“只有当/唯有在……”；注意句末省略了 stop us，且汉语通常先说条件后说结果。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "only if 条件状语从句后置，且从句使用省略结构 let them (stop us)。",
+        "reassembly_notes": "汉语重条件前置，将 only if we let them 提前，译为“唯有在我们任由失败摆布时，它才会……”。"
       },
       {
         "sid": 8,
         "pid": 2,
         "en": "Failure can also teach us things about ourselves that we would never have learned otherwise.",
-        "cn": "失败还能让我们认清自己的潜能与局限——若非遭遇挫折，这些领悟我们将永远无法获得。",
+        "slashed_text": "Failure can also teach us things about ourselves / [that we would never have learned otherwise].",
+        "literal_cn": "失败还能教给我们关于我们自己的、否则我们永远不会学到的东西。",
+        "refined_cn": "此外，失败还能让我们认清自身，学到若非如此便无从知晓的道理。",
+        "cn": "此外，失败还能让我们认清自身，学到若非如此便无从知晓的道理。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "Failure can also teach us things（双宾语结构：teach sb. sth.）。"
+          },
+          {
+            "label": "修饰成分",
+            "text": "about ourselves 后置修饰 things；that 引导定语从句同样修饰 things。"
+          },
+          {
+            "label": "虚拟语气",
+            "text": "otherwise（否则/要不然）提示与过去或假设情况相反的虚拟语气 would never have learned。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "things about ourselves",
+            "note": "关于我们自己的道理/真相。"
+          },
+          {
+            "term": "otherwise",
+            "note": "否则，不然，若非如此（含虚拟条件）。"
+          }
+        ],
         "scoring_points": [
           {
-            "phrase": "Failure can also teach us things about ourselves",
-            "score": 1,
-            "guide": "teach sb sth 双宾语；things about ourselves 意译为‘关于我们自身深层认知/自身弱点与潜能’。意群精准译为‘失败还能教会我们很多关于我们自身的事情’",
-            "vocab": [
-              {
-                "word": "teach",
-                "pos": "v.",
-                "common": "教学；教导",
-                "context": "让人通过历练领悟道理"
-              }
-            ]
+            "phrase": "teach us things about ourselves",
+            "score": 0.5,
+            "guide": "译为“教给我们关于自己的东西/让我们认清自身”。",
+            "vocab": []
           },
           {
             "phrase": "that we would never have learned otherwise",
-            "score": 1,
-            "guide": "that 定语从句；would have done 虚拟语气；otherwise 考研核心副词‘否则/若非如此’。意群精准译为‘若非经历挫折，我们可能一生都无法领会的真谛’",
+            "score": 1.0,
+            "guide": "定语从句含虚拟语气，otherwise 译为“否则/若非如此”。",
             "vocab": [
               {
                 "word": "otherwise",
                 "pos": "adv.",
-                "common": "否则；在其他方面",
-                "context": "表含蓄虚拟假定：若非受挫的话"
+                "common": "否则；不然",
+                "context": "若没有经历失败的话"
               }
             ]
           }
         ],
-        "grammar_breakdown": "主干为 Failure can also teach us things about ourselves；that we would never have learned otherwise 为定语从句修饰 things，从句内部包含虚拟语气 would have done 与副词 otherwise（若非如此）。",
-        "reassembly_notes": "things about ourselves 结合语境引申为‘对自身的深刻认知’；otherwise 在此充当虚拟语气的含蓄条件（若非经历失败）；定语从句拆译为破折号补充，突显虚拟语气叹惋与感激兼具的情调。"
+        "grammar_breakdown": "things 同时被介词短语 about ourselves 和长定语从句 that... 修饰，形成双重后置定语。",
+        "reassembly_notes": "采用分译法将 teach us things about ourselves 与定语从句拆开，先说“让我们认清自身”，再说“学到若非如此便无从知晓的道理”。"
+      },
+      {
+        "sid": 9,
+        "pid": 2,
+        "en": "For instance, failure can help you discover how strong a person you are.",
+        "slashed_text": "For instance, / failure can help you discover / how strong a person you are.",
+        "literal_cn": "例如，失败可以帮助你发现你是一个多么坚强的人。",
+        "refined_cn": "比如，失败能帮你发掘自己究竟有多坚强；",
+        "cn": "比如，失败能帮你发掘自己究竟有多坚强。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "failure can help you discover...。"
+          },
+          {
+            "label": "宾语从句",
+            "text": "how strong a person you are 为感叹句语序作 discover 的宾语从句（how + adj. + a/an + n. + 主 + 谓）。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "for instance",
+            "note": "例如，比如。"
+          },
+          {
+            "term": "strong",
+            "note": "（性格、意志）坚强的，而非“强壮的”。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "how strong a person you are",
+            "score": 1.0,
+            "guide": "how + adj. + a + n. 感叹语序，strong 译为“坚强的”，译为“你是一个多么坚强的人/自己究竟有多坚强”。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "discover 后接 how 引导的感叹形式宾语从句。",
+        "reassembly_notes": "“how strong a person you are”可压缩精译为“自己究竟有多坚强”，简洁有力。"
+      },
+      {
+        "sid": 10,
+        "pid": 2,
+        "en": "Failing at something can help you discover your truest friends, or help you find unexpected motivation to succeed.",
+        "slashed_text": "Failing at something / can help you discover your truest friends, / or help you find unexpected motivation to succeed.",
+        "literal_cn": "在某件事上失败可以帮助你发现你最真正的朋友，或者帮助你找到意想不到的成功动力。",
+        "refined_cn": "某次失利也能帮你识得谁才是真正的朋友，或是帮你找到意想不到的动力去走向成功。",
+        "cn": "某次失利也能帮你识得谁才是真正的朋友，或是帮你找到意想不到的动力去走向成功。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "动名词短语 Failing at something 作主语；谓语为并列结构 can help... or help...。"
+          },
+          {
+            "label": "修饰成分",
+            "text": "不定式 to succeed 作后置定语修饰 motivation。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "truest friends",
+            "note": "最真正的朋友，患难见真情的朋友。"
+          },
+          {
+            "term": "unexpected motivation",
+            "note": "意想不到的动力。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "Failing at something",
+            "score": 0.5,
+            "guide": "动名词短语作主语，译为“在某件事上失败/某次失利”。",
+            "vocab": []
+          },
+          {
+            "phrase": "discover your truest friends",
+            "score": 0.5,
+            "guide": "truest friends 译为“最真正的朋友/谁才是真正的朋友”。",
+            "vocab": []
+          },
+          {
+            "phrase": "find unexpected motivation to succeed",
+            "score": 0.5,
+            "guide": "unexpected motivation 译为“意想不到的动力”。",
+            "vocab": [
+              {
+                "word": "motivation",
+                "pos": "n.",
+                "common": "动力；动机",
+                "context": "取得成功的动力"
+              }
+            ]
+          }
+        ],
+        "grammar_breakdown": "动名词短语作主语 + or 连接的两个并列谓语结构。",
+        "reassembly_notes": "discover your truest friends 略作润色译为“识得谁才是真正的朋友”，呼应中文表达习惯。"
       }
     ]
   }

@@ -68,8 +68,341 @@
       this.currentData = transData;
       this.currentYear = year;
       this.currentMode = mode || 'practice';
-      this.renderLeftPanel(transData, year);
-      this.renderRightPanel(transData, year, this.currentMode);
+
+      const mainLayout = document.getElementById('mainLayout');
+      const isSingleReview = (this.currentMode === 'review');
+
+      if (mainLayout) {
+        mainLayout.classList.toggle('trans-single-col-review', isSingleReview);
+      }
+      document.body.classList.toggle('has-trans-review', isSingleReview);
+
+      if (isSingleReview) {
+        this.renderSingleColReview(transData, year);
+      } else {
+        this.renderLeftPanel(transData, year);
+        this.renderRightPanel(transData, year, this.currentMode);
+      }
+    },
+
+    getReviewPrefs: function() {
+      try {
+        const raw = localStorage.getItem('kaoyan_trans_review_prefs');
+        const parsed = raw ? JSON.parse(raw) : {};
+        return {
+          showSlashes: parsed.showSlashes !== false,
+          showLiteral: parsed.showLiteral !== false,
+          showPoints: parsed.showPoints !== false,
+          fontSize: Number(parsed.fontSize) || 17
+        };
+      } catch (e) {
+        return { showSlashes: true, showLiteral: true, showPoints: true, fontSize: 17 };
+      }
+    },
+
+    saveReviewPrefs: function(prefs) {
+      try {
+        localStorage.setItem('kaoyan_trans_review_prefs', JSON.stringify(prefs));
+      } catch (e) {}
+    },
+
+    formatSlashedText: function(slashedText) {
+      if (!slashedText) return '';
+      const tokenized = this.tokenizeWords(slashedText);
+      return tokenized.replace(/\s*\/\s*/g, ' <span class="trans-slash-sep" title="意群断句">/</span> ');
+    },
+
+    speakSentence: function(text) {
+      if (!text || !('speechSynthesis' in window)) return;
+      try {
+        window.speechSynthesis.cancel();
+        const utter = new SpeechSynthesisUtterance(text);
+        utter.lang = 'en-US';
+        utter.rate = 0.95;
+        window.speechSynthesis.speak(utter);
+      } catch (e) {}
+    },
+
+    renderSingleColReview: function(data, year) {
+      const container = document.getElementById('workspaceContent');
+      if (!container) return;
+
+      const prefs = this.getReviewPrefs();
+      const sentences = Array.isArray(data.sentences) ? data.sentences : [];
+
+      const formatParas = (text) => {
+        if (!text) return '';
+        return String(text)
+          .split(/\n{2,}/)
+          .map(p => p.trim())
+          .filter(Boolean)
+          .map(p => `<p>${p}</p>`)
+          .join('');
+      };
+
+      const sentsHtml = sentences.map((s) => {
+        const rawEn = s.en || s.text || '';
+        const enDisplayHtml = (prefs.showSlashes && s.slashed_text)
+          ? this.formatSlashedText(s.slashed_text)
+          : this.tokenizeWords(rawEn);
+
+        const literalCn = s.literal_cn || '';
+        const refinedCn = s.refined_cn || s.cn || s.translation || '';
+
+        let transHtml = '';
+        if (prefs.showLiteral && literalCn) {
+          transHtml += `
+            <div class="trans-line-row is-literal">
+              <span class="trans-badge-tag tag-literal">直译</span>
+              <div class="trans-line-text">${literalCn}</div>
+            </div>
+          `;
+        }
+        if (refinedCn) {
+          transHtml += `
+            <div class="trans-line-row is-refined">
+              <span class="trans-badge-tag tag-refined">${literalCn ? '精译' : '译文'}</span>
+              <div class="trans-line-text">${refinedCn}</div>
+            </div>
+          `;
+        }
+
+        let syntaxItemsHtml = '';
+        if (Array.isArray(s.syntax_points) && s.syntax_points.length > 0) {
+          syntaxItemsHtml = s.syntax_points.map(pt => `
+            <div class="trans-point-line">
+              <span class="trans-point-label">${pt.label || '句式剖析'}：</span>
+              <span class="trans-point-val">${pt.text || ''}</span>
+            </div>
+          `).join('');
+        } else {
+          if (s.grammar_breakdown) {
+            syntaxItemsHtml += `
+              <div class="trans-point-line">
+                <span class="trans-point-label">语法剖析：</span>
+                <span class="trans-point-val">${s.grammar_breakdown}</span>
+              </div>
+            `;
+          }
+          if (s.reassembly_notes) {
+            syntaxItemsHtml += `
+              <div class="trans-point-line">
+                <span class="trans-point-label">重组技巧：</span>
+                <span class="trans-point-val">${s.reassembly_notes}</span>
+              </div>
+            `;
+          }
+        }
+
+        let vocabItemsHtml = '';
+        if (Array.isArray(s.vocab_points) && s.vocab_points.length > 0) {
+          vocabItemsHtml = s.vocab_points.map(vp => `
+            <div class="trans-point-line">
+              <span class="trans-vocab-term">${vp.term || ''}</span>
+              <span class="trans-point-val">${vp.note || ''}</span>
+            </div>
+          `).join('');
+        } else if (Array.isArray(s.scoring_points) && s.scoring_points.length > 0) {
+          vocabItemsHtml = s.scoring_points.map(sp => `
+            <div class="trans-point-line">
+              <span class="trans-vocab-term">${sp.phrase || ''} (${sp.score || 0.5}分)</span>
+              <span class="trans-point-val">${sp.guide || ''}</span>
+            </div>
+          `).join('');
+        }
+
+        const pointsBlockHtml = (prefs.showPoints && (syntaxItemsHtml || vocabItemsHtml)) ? `
+          <div class="trans-review-points">
+            ${syntaxItemsHtml ? `
+              <div class="trans-points-group">
+                <div class="trans-points-title">📐 语法结构与句式剖析</div>
+                <div class="trans-points-body">${syntaxItemsHtml}</div>
+              </div>
+            ` : ''}
+            ${vocabItemsHtml ? `
+              <div class="trans-points-group">
+                <div class="trans-points-title">📖 重点词汇与词组盘点</div>
+                <div class="trans-points-body">${vocabItemsHtml}</div>
+              </div>
+            ` : ''}
+          </div>
+        ` : '';
+
+        const paraNum = (s.pid !== undefined) ? (Number(s.pid) + 1) : 1;
+
+        return `
+          <section class="trans-paper-section" id="trans-ws-sent-${s.sid}" data-sid="${s.sid}">
+            <div class="trans-section-head">
+              <div class="trans-section-title-wrap">
+                <span class="trans-sent-num">第 ${s.sid} 句</span>
+                <span class="trans-para-pill">第 ${paraNum} 段</span>
+              </div>
+              <div class="trans-section-actions">
+                <button type="button" class="trans-mini-btn btn-trans-speak" data-sid="${s.sid}" title="朗读本句英文">🔊 朗读</button>
+                <button type="button" class="trans-mini-btn btn-trans-syntax" data-sid="${s.sid}" title="打开采分点与语法弹窗">🔍 详析</button>
+                <button type="button" class="trans-mini-btn btn-trans-copy" data-sid="${s.sid}" title="复制原文与精译">📋 复制</button>
+              </div>
+            </div>
+
+            <div class="trans-review-en-line">
+              ${enDisplayHtml}
+            </div>
+
+            <div class="trans-review-trans-block">
+              ${transHtml}
+            </div>
+
+            ${pointsBlockHtml}
+          </section>
+        `;
+      }).join('');
+
+      const fullLiteral = data.full_literal_translation || '';
+      const fullRefined = data.full_refined_translation || data.reference_translation || '';
+
+      const fullTextCardHtml = (fullLiteral || fullRefined) ? `
+        <div class="trans-paper-sheet trans-fulltext-sheet">
+          <div class="trans-paper-toolbar">
+            <div class="trans-paper-toolbar-left">
+              <span class="trans-paper-heading">📜 全文参考译文对照</span>
+            </div>
+            <div class="trans-paper-toolbar-right">
+              <button type="button" class="trans-mini-btn" id="btnCopyFullTrans">📋 复制全文精译</button>
+            </div>
+          </div>
+          <div class="trans-fulltext-body">
+            ${(prefs.showLiteral && fullLiteral) ? `
+              <div class="trans-fulltext-block">
+                <div class="trans-fulltext-label"><span class="trans-badge-tag tag-literal">全文直译</span></div>
+                <div class="trans-fulltext-paras">${formatParas(fullLiteral)}</div>
+              </div>
+            ` : ''}
+            ${fullRefined ? `
+              <div class="trans-fulltext-block">
+                <div class="trans-fulltext-label"><span class="trans-badge-tag tag-refined">${fullLiteral ? '全文精译' : '参考译文'}</span></div>
+                <div class="trans-fulltext-paras">${formatParas(fullRefined)}</div>
+              </div>
+            ` : ''}
+          </div>
+        </div>
+      ` : '';
+
+      container.innerHTML = `
+        <div class="trans-review-canvas" style="--trans-fs:${prefs.fontSize}px">
+          <div class="trans-paper-sheet" id="transMainPaperSheet">
+            <div class="trans-paper-toolbar">
+              <div class="trans-paper-toolbar-left">
+                <button type="button" class="trans-paper-icon-btn" id="btnTransFullscreen" title="全屏/退出全屏阅读">⤢</button>
+                <span class="trans-paper-subtitle">${year} 年考研英语（二） · Section III 英译汉深度复盘 · 点击英文单词查词</span>
+              </div>
+              <div class="trans-paper-toolbar-right">
+                <div class="trans-font-control">
+                  <button type="button" class="trans-font-btn" id="btnTransFontDec" title="缩小字号">A-</button>
+                  <span class="trans-font-val" id="transFontVal">${prefs.fontSize}px</span>
+                  <button type="button" class="trans-font-btn" id="btnTransFontInc" title="放大字号">A+</button>
+                </div>
+
+                <label class="trans-switch-label" title="显示或隐藏意群断句斜线 /">
+                  <span>断句切分</span>
+                  <span class="trans-switch-track ${prefs.showSlashes ? 'is-on' : ''}" id="switchTransSlashes">
+                    <span class="trans-switch-thumb"></span>
+                  </span>
+                </label>
+
+                <label class="trans-switch-label" title="显示或隐藏直译对比">
+                  <span>直译对照</span>
+                  <span class="trans-switch-track ${prefs.showLiteral ? 'is-on' : ''}" id="switchTransLiteral">
+                    <span class="trans-switch-thumb"></span>
+                  </span>
+                </label>
+
+                <label class="trans-switch-label" title="显示或隐藏语法与词汇要点">
+                  <span>语法词汇要点</span>
+                  <span class="trans-switch-track ${prefs.showPoints ? 'is-on' : ''}" id="switchTransPoints">
+                    <span class="trans-switch-thumb"></span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="trans-paper-body">
+              ${sentsHtml || '<div style="padding:32px;text-align:center;color:var(--muted)">暂无逐句解析数据</div>'}
+            </div>
+          </div>
+
+          ${fullTextCardHtml}
+        </div>
+      `;
+
+      const bindToggle = (id, key) => {
+        const track = container.querySelector(`#${id}`);
+        const label = track ? track.closest('.trans-switch-label') : null;
+        if (!label) return;
+        label.addEventListener('click', () => {
+          const next = this.getReviewPrefs();
+          next[key] = !next[key];
+          this.saveReviewPrefs(next);
+          this.renderSingleColReview(data, year);
+        });
+      };
+      bindToggle('switchTransSlashes', 'showSlashes');
+      bindToggle('switchTransLiteral', 'showLiteral');
+      bindToggle('switchTransPoints', 'showPoints');
+
+      const canvasEl = container.querySelector('.trans-review-canvas');
+      const fontValEl = container.querySelector('#transFontVal');
+      const updateFont = (delta) => {
+        const next = this.getReviewPrefs();
+        next.fontSize = Math.max(14, Math.min(24, next.fontSize + delta));
+        this.saveReviewPrefs(next);
+        if (canvasEl) canvasEl.style.setProperty('--trans-fs', `${next.fontSize}px`);
+        if (fontValEl) fontValEl.textContent = `${next.fontSize}px`;
+      };
+      container.querySelector('#btnTransFontDec')?.addEventListener('click', () => updateFont(-1));
+      container.querySelector('#btnTransFontInc')?.addEventListener('click', () => updateFont(1));
+
+      const sheetEl = container.querySelector('#transMainPaperSheet');
+      container.querySelector('#btnTransFullscreen')?.addEventListener('click', () => {
+        if (sheetEl) sheetEl.classList.toggle('is-fullscreen');
+      });
+
+      container.querySelectorAll('.btn-trans-speak').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const sid = btn.getAttribute('data-sid');
+          const sObj = sentences.find(s => String(s.sid) === String(sid));
+          if (sObj) this.speakSentence(sObj.en || sObj.text || '');
+        });
+      });
+
+      container.querySelectorAll('.btn-trans-syntax').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const sid = btn.getAttribute('data-sid');
+          const sObj = sentences.find(s => String(s.sid) === String(sid));
+          if (sObj && typeof window.showSyntaxModal === 'function') {
+            window.showSyntaxModal(sObj, sentences);
+          }
+        });
+      });
+
+      container.querySelectorAll('.btn-trans-copy').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const sid = btn.getAttribute('data-sid');
+          const sObj = sentences.find(s => String(s.sid) === String(sid));
+          if (!sObj) return;
+          const text = `${sObj.en || ''}\n直译：${sObj.literal_cn || ''}\n精译：${sObj.refined_cn || sObj.cn || ''}`.trim();
+          navigator.clipboard?.writeText(text).then(() => {
+            if (typeof window.showToast === 'function') window.showToast(`📋 已复制第 ${sid} 句原文与译文`);
+          }).catch(() => {});
+        });
+      });
+
+      container.querySelector('#btnCopyFullTrans')?.addEventListener('click', () => {
+        if (!fullRefined) return;
+        navigator.clipboard?.writeText(fullRefined).then(() => {
+          if (typeof window.showToast === 'function') window.showToast('📋 已复制全文参考精译');
+        }).catch(() => {});
+      });
     },
 
     getShowTrans: function() {

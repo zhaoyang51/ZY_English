@@ -8179,7 +8179,9 @@
     "points": 15,
     "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
     "source_text": "A fifth grader gets a homework assignment to select his future career path from a list of occupations. He ticks \"astronaut\" but quickly adds \"scientist\" to the list and selects it as well. The boy is convinced that if he reads enough, he can explore as many career paths as he likes. And so he reads – everything from encyclopedias to science fiction novels. He reads so passionately that his parents have to institute a \"no reading policy\" at the dinner table.\n\nThat boy was Bill Gates, and he hasn't stopped reading yet – not even after becoming one of the most successful people on the planet. Nowadays, his reading material has changed from science fiction and reference books: recently, he revealed that he reads at least 50 nonfiction books a year. Gates chooses nonfiction titles because they explain how the world works. \"Each book opens up new avenues of knowledge to explore\", Gates says.",
-    "reference_translation": "一个五年级的小学生接到了一个家庭作业：选择自己未来的职业，并采访一位从事该行业的专业人士。\n\n他决定采访一位当地的图书管理员。在采访过程中，他原本以为图书管理员整天只是安静地给书籍分类上架，但交流后他才惊讶地发现，现代图书馆早已演变为充满活力的社区信息中枢，馆员们正在教授编程课程、协助长者使用智能设备并策划文化沙龙。",
+    "full_literal_translation": "一名五年级学生收到一份家庭作业，要求从一份职业清单中选择他未来的职业道路。他在“宇航员”上打了勾，但很快把“科学家”添加到清单上，并且也选择了它。这个男孩深信，如果他读得足够多，他就能探索他喜欢的尽可能多的职业道路。于是他就读——从百科全书到科幻小说的一切书籍。他读得如此充满激情，以至于他的父母不得不在餐桌上制定一项“禁止阅读政策”。\n\n那个男孩就是比尔·盖茨，而且他至今还没有停止阅读——甚至在成为地球上最成功的人之一后也没有。如今，他的阅读材料已经从科幻小说和参考书发生了变化：最近，他透露他每年至少读50本非虚构类书籍。盖茨选择非虚构类书籍，因为它们解释了世界是如何运转的。“每一本书都开辟了有待探索的新知识途径”，盖茨说。",
+    "full_refined_translation": "一名五年级学生领到一项家庭作业，需要从职业清单里挑出自己未来的职业方向。他先勾选了“宇航员”，但很快又在清单上补写“科学家”并一并勾选。这男孩坚信，只要书读得够多，想探索多少种职业道路都不在话下。于是他埋头苦读，从百科全书到科幻小说，无所不涉。他读书如此痴迷，父母不得不立下规矩，禁止他在餐桌上阅读。\n\n那个男孩正是比尔·盖茨。即便如今已成为全球最成功的人士之一，他依然手不释卷。如今，他的阅读书单早已不再局限于科幻小说和工具书。他近期透露，自己每年至少阅读 50 本非虚构类书籍。盖茨偏爱非虚构类读物，因为这类书能揭示世界的运行规律。盖茨表示：“每一本书都为我开辟了探索新知的全新路径。”",
+    "reference_translation": "一名五年级学生领到一项家庭作业，需要从职业清单里挑出自己未来的职业方向。他先勾选了“宇航员”，但很快又在清单上补写“科学家”并一并勾选。这男孩坚信，只要书读得够多，想探索多少种职业道路都不在话下。于是他埋头苦读，从百科全书到科幻小说，无所不涉。他读书如此痴迷，父母不得不立下规矩，禁止他在餐桌上阅读。\n\n那个男孩正是比尔·盖茨。即便如今已成为全球最成功的人士之一，他依然手不释卷。如今，他的阅读书单早已不再局限于科幻小说和工具书。他近期透露，自己每年至少阅读 50 本非虚构类书籍。盖茨偏爱非虚构类读物，因为这类书能揭示世界的运行规律。盖茨表示：“每一本书都为我开辟了探索新知的全新路径。”",
     "paragraphs": [
       {
         "pid": 0,
@@ -8195,343 +8197,587 @@
         "sid": 1,
         "pid": 0,
         "en": "A fifth grader gets a homework assignment to select his future career path from a list of occupations.",
-        "cn": "一名五年级小学生接到了一项家庭作业：从一份职业清单中挑选出自己未来的职业规划路线。",
+        "slashed_text": "A fifth grader / gets a homework assignment / to select his future career path / from a list of occupations.",
+        "literal_cn": "一名五年级学生收到一份家庭作业，要求从一份职业清单中选择他未来的职业道路。",
+        "refined_cn": "一名五年级学生领到一项家庭作业，需要从职业清单里挑出自己未来的职业方向。",
+        "cn": "一名五年级学生领到一项家庭作业，需要从职业清单里挑出自己未来的职业方向。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "A fifth grader 为主语，gets 为谓语，a homework assignment 为宾语。"
+          },
+          {
+            "label": "修饰成分",
+            "text": "不定式短语 to select... 作后置定语，说明作业的具体内容。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "fifth grader",
+            "note": "五年级学生。"
+          },
+          {
+            "term": "career path",
+            "note": "职业道路，职业发展方向。"
+          },
+          {
+            "term": "a list of occupations",
+            "note": "职业清单（occupation 侧重具体工种与职业）。"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "A fifth grader gets a homework assignment",
-            "score": 1,
-            "guide": "fifth grader 译为‘五年级学生’；homework assignment 考研基础词汇‘家庭作业’。意群精准译为‘一名五年级的小学生领到了一项作业任务’",
+            "score": 1.0,
+            "guide": "fifth grader 译为“五年级学生”；homework assignment 译为“家庭作业”。",
             "vocab": [
               {
-                "word": "grader",
+                "word": "fifth grader",
                 "pos": "n.",
-                "common": "……年级的学生",
-                "context": "fifth grader 小学五年级学生"
+                "common": "五年级学生",
+                "context": "小学五年级学童"
               },
               {
                 "word": "assignment",
                 "pos": "n.",
-                "common": "任务；作业；分配",
-                "context": "学校布置的功课/作业"
+                "common": "作业；任务",
+                "context": "老师布置的家庭作业"
               }
             ]
           },
           {
             "phrase": "to select his future career path from a list of occupations",
-            "score": 1,
-            "guide": "to select 不定式定语；career path 译为‘职业发展路径/职业规划’；occupations 核心词‘职业’。意群精准译为‘从一份职业列表中选出自己未来的职业道路’",
+            "score": 1.0,
+            "guide": "不定式作后置定语说明作业内容；career path 译为“职业道路/方向”；a list of occupations 译为“职业清单”。",
             "vocab": [
               {
-                "word": "career",
+                "word": "career path",
                 "pos": "n.",
-                "common": "职业；生涯",
-                "context": "毕生从事的职业生涯"
+                "common": "职业道路",
+                "context": "未来的职业发展方向"
               },
               {
                 "word": "occupation",
                 "pos": "n.",
-                "common": "占领；职业",
-                "context": "社会各类行业工种"
+                "common": "职业；工作",
+                "context": "侧重具体工种与职业"
               }
             ]
           }
         ],
-        "grammar_breakdown": "主谓宾句：主语 A fifth grader，谓语 gets，宾语 a homework assignment；不定式短语 to select... 作后置定语修饰 assignment，from 介词短语表示选择的范围。",
-        "reassembly_notes": "fifth grader 译为‘五年级学生/小学生’；assignment 后接不定式作定语，顺译为冒号解释作业内容，通顺符合汉语行文。"
+        "grammar_breakdown": "句子主干：A fifth grader 为主语，gets 为谓语，a homework assignment 为宾语。修饰成分：不定式短语 to select... 作后置定语，说明作业的具体内容。",
+        "reassembly_notes": "不定式定语 to select... 顺译为“需要从职业清单里挑出……”，符合汉语叙事逻辑。"
       },
       {
         "sid": 2,
         "pid": 0,
         "en": "He ticks \"astronaut\" but quickly adds \"scientist\" to the list and selects it as well.",
-        "cn": "他在“宇航员”一栏打了勾，但很快又在清单上添加了“科学家”，并同样将其勾选。",
+        "slashed_text": "He ticks \"astronaut\" / but quickly adds \"scientist\" to the list / and selects it as well.",
+        "literal_cn": "他在“宇航员”上打了勾，但很快把“科学家”添加到清单上，并且也选择了它。",
+        "refined_cn": "他先勾选了“宇航员”，但很快又在清单上补写“科学家”并一并勾选。",
+        "cn": "他先勾选了“宇航员”，但很快又在清单上补写“科学家”并一并勾选。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "He 为主语，谓语由 ticks、adds、selects 三个动词并列构成。"
+          },
+          {
+            "label": "逻辑连接",
+            "text": "but 表转折补充，and 表动作顺承。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "tick",
+            "note": "打勾，勾选（英式常用表达，美式多用 check）。"
+          },
+          {
+            "term": "add A to B",
+            "note": "把 A 添加到 B 中。"
+          },
+          {
+            "term": "as well",
+            "note": "也，同样（通常置于肯定句句末）。"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "He ticks \"astronaut\" but quickly adds \"scientist\" to the list",
-            "score": 1,
-            "guide": "tick 动词‘打钩选定’；astronaut 译为‘宇航员/航天员’；adds... to... 译为‘把……添入清单’。意群精准译为‘他勾选了“宇航员”，但旋即又在清单上写下“科学家”’",
+            "score": 1.0,
+            "guide": "tick 动词“打勾/勾选”；add A to B 译为“把 A 添加/补写到 B 上”。",
             "vocab": [
               {
                 "word": "tick",
                 "pos": "v.",
-                "common": "滴答响；打勾标记",
-                "context": "在选项方框内打钩"
+                "common": "打勾；勾选",
+                "context": "在清单选项旁画勾"
               },
               {
                 "word": "astronaut",
                 "pos": "n.",
                 "common": "宇航员",
-                "context": "航天飞行员"
+                "context": "航天员职业"
               }
             ]
           },
           {
             "phrase": "and selects it as well",
-            "score": 1,
-            "guide": "select 动词‘选择/挑选’；as well 译为‘同样地/也’。意群精准译为‘并且同样予以选定’",
+            "score": 0.5,
+            "guide": "selects it as well 译为“并且也选择了它 / 并一并勾选”。",
             "vocab": [
               {
-                "word": "select",
-                "pos": "v.",
-                "common": "挑选；选拔",
-                "context": "慎重做出选择"
+                "word": "as well",
+                "pos": "phr.",
+                "common": "也；同样",
+                "context": "置于肯定句末表并列补充"
               }
             ]
           }
         ],
-        "grammar_breakdown": "并列谓语结构：He 为主语，ticks \"astronaut\" 与 adds... and selects... 由 but 连接构成并列动作。",
-        "reassembly_notes": "ticks 动词熟词僻义（打勾勾选）；as well 译为‘同样/也’，两个并列动作流畅连贯。"
+        "grammar_breakdown": "句子主干：He 为主语，谓语由 ticks、adds、selects 三个动词并列构成。逻辑连接：but 表转折补充，and 表动作顺承。",
+        "reassembly_notes": "三个连续动作 ticks... adds... selects... 译为“先勾选了……又补写……并一并勾选”，画面感极强。"
       },
       {
         "sid": 3,
         "pid": 0,
         "en": "The boy is convinced that if he reads enough, he can explore as many career paths as he likes.",
-        "cn": "小男孩坚信，只要自己阅读量足够丰富，他就能随心所欲地探索尽可能多的职业道路。",
+        "slashed_text": "The boy is convinced / that [if he reads enough, / he can explore as many career paths / as he likes].",
+        "literal_cn": "这个男孩深信，如果他读得足够多，他就能探索他喜欢的尽可能多的职业道路。",
+        "refined_cn": "这男孩坚信，只要书读得够多，想探索多少种职业道路都不在话下。",
+        "cn": "这男孩坚信，只要书读得够多，想探索多少种职业道路都不在话下。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "The boy 为主语，is convinced 为系表结构，that 引导宾语从句。"
+          },
+          {
+            "label": "嵌套层次",
+            "text": "宾语从句内包含 if 条件状语从句，以及 as...as 比较状语从句。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "be convinced that...",
+            "note": "深信，确信。"
+          },
+          {
+            "term": "as many + 复数名词 + as sb. likes",
+            "note": "想有多少就有多少……。"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "The boy is convinced that if he reads enough",
-            "score": 1,
-            "guide": "be convinced that 考研核心短语‘坚信……’；if reads enough 条件从句译为‘只要博览群书/阅读量足够’。意群精准译为‘小男孩深信只要自己大量阅读’",
+            "score": 1.0,
+            "guide": "be convinced that 译为“深信/坚信”；if he reads enough 译为“只要书读得够多”。",
             "vocab": [
               {
                 "word": "convinced",
                 "pos": "adj.",
-                "common": "确信的；深信不疑的",
-                "context": "内心坚信某种真理"
+                "common": "确信的；深信的",
+                "context": "be convinced that 深信不疑"
               }
             ]
           },
           {
             "phrase": "he can explore as many career paths as he likes",
-            "score": 1,
-            "guide": "explore 动词‘探索/涉足’；as many... as he likes 译为‘想探索多少就探索多少/尽情探索’。意群精准译为‘就能任意探索自己心仪的诸多职业道路’",
+            "score": 1.0,
+            "guide": "as many... as he likes 译为“他喜欢的尽可能多的 / 想探索多少种……都不在话下”。",
             "vocab": [
               {
                 "word": "explore",
                 "pos": "v.",
-                "common": "探测；探索",
-                "context": "对未知职业可能性的尝试与了解"
+                "common": "探索；探究",
+                "context": "探索未来的职业可能性"
               }
             ]
           }
         ],
-        "grammar_breakdown": "主干为 The boy is convinced that...；that 引导宾语从句；从句中嵌套 if 引导的条件状语从句；as many... as he likes 为比较同级结构。",
-        "reassembly_notes": "be convinced that 核心短语（坚信/深信不疑）；条件从句 if he reads enough 提前翻译为‘只要读得足够多’，as... as he likes 顺译为‘随心所欲/尽情’。"
+        "grammar_breakdown": "句子主干：The boy 为主语，is convinced 为系表结构，that 引导宾语从句。嵌套层次：宾语从句内包含 if 条件状语从句，以及 as...as 比较状语从句。",
+        "reassembly_notes": "as many career paths as he likes 直译“他喜欢的尽可能多的职业道路”较绕，精译为“想探索多少种职业道路都不在话下”更地道。"
       },
       {
         "sid": 4,
         "pid": 0,
         "en": "And so he reads – everything from encyclopedias to science fiction novels.",
-        "cn": "于是他博览群书——上至百科全书，下至科幻小说，无所不读。",
+        "slashed_text": "And so he reads / – everything / from encyclopedias / to science fiction novels.",
+        "literal_cn": "于是他就读——从百科全书到科幻小说的一切书籍。",
+        "refined_cn": "于是他埋头苦读，从百科全书到科幻小说，无所不涉。",
+        "cn": "于是他埋头苦读，从百科全书到科幻小说，无所不涉。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "he 为主语，reads 为不及物谓语动词。"
+          },
+          {
+            "label": "补充成分",
+            "text": "破折号后为名词短语，具体解释他阅读的广度。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "and so",
+            "note": "于是，因此（用于承接上文顺理成章的行动）。"
+          },
+          {
+            "term": "encyclopedia",
+            "note": "百科全书。"
+          },
+          {
+            "term": "science fiction novel",
+            "note": "科幻小说。"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "And so he reads –",
             "score": 0.5,
-            "guide": "And so 承接‘于是/正因如此’；reads 顺译为‘开始大量阅读’。意群精准译为‘于是他开启了阅读之旅——’",
+            "guide": "And so 译为“于是”；reads 译为“埋头苦读”。",
             "vocab": [
               {
-                "word": "reads",
-                "pos": "v.",
-                "common": "阅读",
-                "context": "如饥似渴地博览群书"
+                "word": "and so",
+                "pos": "phr.",
+                "common": "于是；因此",
+                "context": "承接上文顺理成章的行动"
               }
             ]
           },
           {
             "phrase": "everything from encyclopedias to science fiction novels",
             "score": 1.5,
-            "guide": "encyclopedias 专有名词‘百科全书’；science fiction novels 译为‘科幻小说’；from... to... 结构。意群精准译为‘从大部头的百科全书，到各类科幻小说，无所不读’",
+            "guide": "everything from A to B 译为“从 A 到 B 的一切书籍 / 从 A 到 B，无所不涉”。",
             "vocab": [
               {
                 "word": "encyclopedia",
                 "pos": "n.",
                 "common": "百科全书",
-                "context": "包罗万象的知识参考书"
+                "context": "综合性知识工具书"
               },
               {
-                "word": "fiction",
+                "word": "science fiction novel",
                 "pos": "n.",
-                "common": "虚构小说",
-                "context": "science fiction 科幻文学"
+                "common": "科幻小说",
+                "context": "科学幻想类文学作品"
               }
             ]
           }
         ],
-        "grammar_breakdown": "主干 And so he reads；破折号后 everything from A to B 作同位泛指说明阅读面之广。",
-        "reassembly_notes": "from A to B 译为‘从……到……’，增补四字短语‘博览群书’或‘无所不读’，体现读书之痴迷与广泛。"
+        "grammar_breakdown": "句子主干：he 为主语，reads 为不及物谓语动词。补充成分：破折号后为名词短语，具体解释他阅读的广度。",
+        "reassembly_notes": "everything 置后转化为四字格总结“无所不涉/无所不读”，凸显涉猎之广。"
       },
       {
         "sid": 5,
         "pid": 0,
         "en": "He reads so passionately that his parents have to institute a \"no reading policy\" at the dinner table.",
-        "cn": "他的阅读热情如此高涨，以至于父母不得不立下一项家规：在餐桌上“严禁看书”。",
+        "slashed_text": "He reads so passionately / that his parents have to institute / a \"no reading policy\" / at the dinner table.",
+        "literal_cn": "他读得如此充满激情，以至于他的父母不得不在餐桌上制定一项“禁止阅读政策”。",
+        "refined_cn": "他读书如此痴迷，父母不得不立下规矩，禁止他在餐桌上阅读。",
+        "cn": "他读书如此痴迷，父母不得不立下规矩，禁止他在餐桌上阅读。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "He 为主语，reads 为谓语。"
+          },
+          {
+            "label": "特殊句式",
+            "text": "so + 副词 + that 引导结果状语从句，强调阅读痴迷程度带来的后果。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "passionately",
+            "note": "热情地，痴迷地。"
+          },
+          {
+            "term": "institute",
+            "note": "熟词生义。作动词意为“制定，实行（制度或规定）”，切勿译为“机构”。"
+          },
+          {
+            "term": "no reading policy",
+            "note": "禁止阅读规定。"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "He reads so passionately that",
             "score": 0.5,
-            "guide": "passionately 副词‘热情充沛地/如饥似渴地’；so... that 引导结果。意群精准译为‘他的阅读劲头如此痴迷狂热’",
+            "guide": "so passionately that 译为“读得如此充满激情/如此痴迷，以至于……”。",
             "vocab": [
               {
                 "word": "passionately",
                 "pos": "adv.",
-                "common": "热情地；热烈地",
-                "context": "入迷沉醉地；狂热地"
+                "common": "热情地；狂热地",
+                "context": "读书极其痴迷投入"
               }
             ]
           },
           {
             "phrase": "his parents have to institute a \"no reading policy\" at the dinner table",
             "score": 1.5,
-            "guide": "institute 动词熟词僻义‘设立/推行规矩’；policy 转译为‘家规/禁令’；dinner table 译为‘餐桌旁’。意群精准译为‘以至于父母不得不立下一条餐桌上“不许读书”的家规’",
+            "guide": "institute 熟词生义作动词指“制定/实行（规矩）”；no reading policy 译为“禁止阅读政策/规矩”。",
             "vocab": [
               {
                 "word": "institute",
                 "pos": "v.",
-                "common": "建立；设立（熟词僻义）",
-                "context": "颁布并推行某项规矩/制度"
+                "common": "制定；建立（熟词生义）",
+                "context": "立下规矩或实行规定"
               },
               {
                 "word": "policy",
                 "pos": "n.",
-                "common": "政策；方针",
-                "context": "家庭行为准则与规矩"
+                "common": "政策；规定",
+                "context": "家庭内部的规矩"
               }
             ]
           }
         ],
-        "grammar_breakdown": "主干为 so... that... 结果状语从句结构；主句 He reads so passionately；that 从句主干 his parents have to institute a policy；at the dinner table 为地点介词短语。",
-        "reassembly_notes": "so... that... 顺译为‘如此……以至于……’；institute a policy 考研熟词僻义（动词 institute 意为‘推行/设立/制定制度’），译为‘立下一条规定/家规’。"
+        "grammar_breakdown": "句子主干：He 为主语，reads 为谓语。特殊句式：so + 副词 + that 引导结果状语从句，强调阅读痴迷程度带来的后果。",
+        "reassembly_notes": "institute a \"no reading policy\" 大词小用，带着幽默语调，精译为“立下规矩，禁止他在餐桌上阅读”。"
       },
       {
         "sid": 6,
         "pid": 1,
         "en": "That boy was Bill Gates, and he hasn't stopped reading yet – not even after becoming one of the most successful people on the planet.",
-        "cn": "那个小男孩就是比尔·盖茨，而直到今天他依然没有停止阅读——即便在成为这颗星球上最成功的人士之一后，他也依然保持着这个习惯。",
+        "slashed_text": "That boy was Bill Gates, / and he hasn't stopped reading yet / – not even after becoming / one of the most successful people on the planet.",
+        "literal_cn": "那个男孩就是比尔·盖茨，而且他至今还没有停止阅读——甚至在成为地球上最成功的人之一后也没有。",
+        "refined_cn": "那个男孩正是比尔·盖茨。即便如今已成为全球最成功的人士之一，他依然手不释卷。",
+        "cn": "那个男孩正是比尔·盖茨。即便如今已成为全球最成功的人士之一，他依然手不释卷。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "and 连接两个并列分句。前句为系表结构，后句主干为 he hasn't stopped reading。"
+          },
+          {
+            "label": "时态与补充",
+            "text": "现在完成时（hasn't stopped）表状态持续至今；破折号后强化让步语气。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "stop doing sth.",
+            "note": "停止正在做的事（区别于 stop to do 停下来去做另一件事）。"
+          },
+          {
+            "term": "on the planet",
+            "note": "地球上，全世界（比 in the world 语气更强）。"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "That boy was Bill Gates, and he hasn't stopped reading yet",
-            "score": 1,
-            "guide": "That boy was... 揭开谜底；haven't stopped doing yet 译为‘至今仍未停止阅读’。意群精准译为‘那个男孩正是比尔·盖茨，而他至今从未间断过阅读’",
+            "score": 1.0,
+            "guide": "hasn't stopped reading yet 译为“至今还没有停止阅读 / 依然手不释卷”。",
             "vocab": [
               {
-                "word": "stopped",
-                "pos": "v.",
-                "common": "停止",
-                "context": "中断终结某种长久习惯"
+                "word": "stop doing",
+                "pos": "phr.",
+                "common": "停止做某事",
+                "context": "停止长期保持的阅读习惯"
               }
             ]
           },
           {
             "phrase": "– not even after becoming one of the most successful people on the planet",
-            "score": 1,
-            "guide": "not even after 连词短语‘即便在……之后也未曾改变’；on the planet 修饰 people 译为‘全球/这颗星球上’。意群精准译为‘——哪怕是在成为了这个星球上最成功的人物之一后也是如此’",
+            "score": 1.0,
+            "guide": "not even after becoming... 强化让步；on the planet 译为“地球上/全球”。",
             "vocab": [
               {
-                "word": "successful",
-                "pos": "adj.",
-                "common": "成功的",
-                "context": "功成名就的"
-              },
-              {
-                "word": "planet",
-                "pos": "n.",
-                "common": "行星；地球",
-                "context": "on the planet 整个地球/全球范围"
+                "word": "on the planet",
+                "pos": "phr.",
+                "common": "地球上；全世界",
+                "context": "比 in the world 语气更强的全球范围"
               }
             ]
           }
         ],
-        "grammar_breakdown": "and 连接两个并列句：That boy was Bill Gates 与 he hasn't stopped reading yet；破折号后 not even after... 为介词短语作状语补充强调。",
-        "reassembly_notes": "yet 在现在完成时否定句中译为‘至今/依然’；not even after... 递进让步‘即便在……之后，也毫不例外’，人话润色自然。"
+        "grammar_breakdown": "句子主干：and 连接两个并列分句。前句为系表结构，后句主干为 he hasn't stopped reading。时态与补充：现在完成时（hasn't stopped）表状态持续至今；破折号后强化让步语气。",
+        "reassembly_notes": "破折号后的让步状语 not even after becoming... 在精译时可前置译为“即便如今已成为……，他依然手不释卷”。"
       },
       {
         "sid": 7,
         "pid": 1,
         "en": "Nowadays, his reading material has changed from science fiction and reference books: recently, he revealed that he reads at least 50 nonfiction books a year.",
-        "cn": "如今，他的阅读书目已不再局限于科幻小说与工具书：最近他透露，自己每年至少要读完50本非虚构类书籍。",
+        "slashed_text": "Nowadays, / his reading material has changed / from science fiction and reference books: / recently, / he revealed / that he reads at least 50 nonfiction books a year.",
+        "literal_cn": "如今，他的阅读材料已经从科幻小说和参考书发生了变化：最近，他透露他每年至少读50本非虚构类书籍。",
+        "refined_cn": "如今，他的阅读书单早已不再局限于科幻小说和工具书。他近期透露，自己每年至少阅读 50 本非虚构类书籍。",
+        "cn": "如今，他的阅读书单早已不再局限于科幻小说和工具书。他近期透露，自己每年至少阅读 50 本非虚构类书籍。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "冒号连接两个独立分句，后句解释前句的变化细节。"
+          },
+          {
+            "label": "从句结构",
+            "text": "后句主干为 he revealed，后接 that 引导的宾语从句。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "reading material",
+            "note": "阅读材料，书单。"
+          },
+          {
+            "term": "reference book",
+            "note": "工具书，参考书（对应前文的百科全书）。"
+          },
+          {
+            "term": "nonfiction",
+            "note": "非虚构类书籍（涵盖传记、历史、科普、商业等纪实作品）。"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "Nowadays, his reading material has changed from science fiction and reference books:",
-            "score": 1,
-            "guide": "reading material 译为‘阅读书单/读物’；reference books 译为‘参考书/工具书’。意群精准译为‘如今，他的阅读书目早已不仅限于科幻文学与参考书籍：’",
+            "score": 1.0,
+            "guide": "reading material 译为“阅读材料/书单”；reference books 译为“参考书/工具书”。",
             "vocab": [
               {
-                "word": "material",
+                "word": "reading material",
                 "pos": "n.",
-                "common": "材料；素材",
-                "context": "书籍等文字读物"
+                "common": "阅读材料",
+                "context": "日常阅读书单"
               },
               {
-                "word": "reference",
+                "word": "reference book",
                 "pos": "n.",
-                "common": "参考；提及",
-                "context": "reference books 词典百科工具书"
+                "common": "工具书；参考书",
+                "context": "对应前文的百科全书"
               }
             ]
           },
           {
             "phrase": "recently, he revealed that he reads at least 50 nonfiction books a year",
-            "score": 1,
-            "guide": "revealed 动词‘透露/公开宣布’；at least 译为‘至少’；nonfiction 核心词‘非虚构类作品’。意群精准译为‘最近他透露，自己每年至少读完50本非虚构类专著’",
+            "score": 1.0,
+            "guide": "revealed 译为“透露”；nonfiction books 译为“非虚构类书籍”。",
             "vocab": [
               {
                 "word": "reveal",
                 "pos": "v.",
-                "common": "揭露；透露",
-                "context": "向外界公开透露生活习惯"
+                "common": "透露；揭示",
+                "context": "公开透露个人习惯"
               },
               {
                 "word": "nonfiction",
-                "pos": "n./adj.",
-                "common": "非虚构类（文学）",
-                "context": "基于客观事实的社科纪实类读物"
+                "pos": "n.",
+                "common": "非虚构类读物",
+                "context": "传记、历史、科普等纪实作品"
               }
             ]
           }
         ],
-        "grammar_breakdown": "冒号前为主句 his reading material has changed from...；冒号后为展开说明分句，主谓宾包含 that 引导的宾语从句 he reads at least 50 nonfiction books a year。",
-        "reassembly_notes": "changed from... 语境引申为‘发生了转变/不再局限于……’；nonfiction books 专有名词‘非虚构类读物/纪实书籍’。"
+        "grammar_breakdown": "句子主干：冒号连接两个独立分句，后句解释前句的变化细节。从句结构：后句主干为 he revealed，后接 that 引导的宾语从句。",
+        "reassembly_notes": "has changed from A 直译“从 A 发生了变化”不通顺，增益译为“早已不再局限于 A”。"
       },
       {
         "sid": 8,
         "pid": 1,
         "en": "Gates chooses nonfiction titles because they explain how the world works.",
-        "cn": "盖茨之所以偏爱非虚构类著作，是因为这些书阐释了世界是如何运转的。",
+        "slashed_text": "Gates chooses nonfiction titles / because they explain / how the world works.",
+        "literal_cn": "盖茨选择非虚构类书籍，因为它们解释了世界是如何运转的。",
+        "refined_cn": "盖茨偏爱非虚构类读物，因为这类书能揭示世界的运行规律。",
+        "cn": "盖茨偏爱非虚构类读物，因为这类书能揭示世界的运行规律。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "Gates 为主语，chooses 为谓语，nonfiction titles 为宾语。"
+          },
+          {
+            "label": "嵌套层次",
+            "text": "because 引导原因状语从句，内嵌 how 引导的宾语从句。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "title",
+            "note": "熟词生义。在出版语境中指“书籍、刊物”，而非“标题”。"
+          },
+          {
+            "term": "how the world works",
+            "note": "世界是如何运转的，世间万物的运行规律。"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "Gates chooses nonfiction titles",
-            "score": 1,
-            "guide": "nonfiction titles 熟词僻义，title 在此代指‘书目/书籍’。意群精准译为‘盖茨之所以偏好非虚构类作品’",
+            "score": 1.0,
+            "guide": "title 在出版语境中熟词生义指“书籍、读物”，避免误译为“标题”。",
             "vocab": [
               {
                 "word": "title",
                 "pos": "n.",
-                "common": "标题；头衔；书籍单行本（熟词僻义）",
-                "context": "图书出版物"
+                "common": "标题；书籍/出版物（熟词生义）",
+                "context": "某一类书籍或刊物"
               }
             ]
           },
           {
             "phrase": "because they explain how the world works",
-            "score": 1,
-            "guide": "because 引导原因从句；explain 后接 how 引导的宾语从句‘世间万物运转的原理’。意群精准译为‘是因为它们能够阐明真实世界的运行规律’",
+            "score": 1.0,
+            "guide": "how the world works 直译“世界是如何运转的”，精译为“世界的运行规律”。",
             "vocab": [
               {
-                "word": "explain",
+                "word": "work",
                 "pos": "v.",
-                "common": "解释；说明",
-                "context": "揭示深层运作机制"
-              },
-              {
-                "word": "works",
-                "pos": "v.",
-                "common": "工作；运转",
-                "context": "社会与自然法则的运转"
+                "common": "工作；运转；运行",
+                "context": "世界与客观规律的运转"
               }
             ]
           }
         ],
-        "grammar_breakdown": "主干为主谓宾 Gates chooses nonfiction titles；because 引导原因状语从句，从句内部嵌套 how the world works 作 explain 的宾语从句。",
-        "reassembly_notes": "titles 熟词僻义（借代‘书籍书目’）；how the world works 顺译为‘世界运转的底层规律’，言简意赅。"
+        "grammar_breakdown": "句子主干：Gates 为主语，chooses 为谓语，nonfiction titles 为宾语。嵌套层次：because 引导原因状语从句，内嵌 how 引导的宾语从句。",
+        "reassembly_notes": "nonfiction titles 与上句 nonfiction books 同义替换；explain how the world works 译为“揭示世界的运行规律”凝练地道。"
+      },
+      {
+        "sid": 9,
+        "pid": 1,
+        "en": "\"Each book opens up new avenues of knowledge to explore\", Gates says.",
+        "slashed_text": "\"Each book / opens up / new avenues of knowledge / to explore\", / Gates says.",
+        "literal_cn": "“每一本书都开辟了有待探索的新知识途径”，盖茨说。",
+        "refined_cn": "盖茨表示：“每一本书都为我开辟了探索新知的全新路径。”",
+        "cn": "盖茨表示：“每一本书都为我开辟了探索新知的全新路径。”",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "直接引语作宾语，主干为 Each book opens up new avenues of knowledge。"
+          },
+          {
+            "label": "修饰成分",
+            "text": "不定式 to explore 作后置定语修饰 avenues of knowledge。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "open up",
+            "note": "开辟，打开，展现（新的机会或路径）。"
+          },
+          {
+            "term": "avenue",
+            "note": "林荫道；比喻“途径，渠道，路径”。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "\"Each book opens up new avenues of knowledge to explore\", Gates says",
+            "score": 1.5,
+            "guide": "open up 译为“开辟/打开”；avenues of knowledge 译为“知识的途径/探索新知的路径”。",
+            "vocab": [
+              {
+                "word": "open up",
+                "pos": "phr.",
+                "common": "开辟；打开",
+                "context": "开拓新的认知视野"
+              },
+              {
+                "word": "avenue",
+                "pos": "n.",
+                "common": "大街；途径/渠道（比喻义）",
+                "context": "探索知识的路径"
+              }
+            ]
+          }
+        ],
+        "grammar_breakdown": "句子主干：直接引语作宾语，主干为 Each book opens up new avenues of knowledge。修饰成分：不定式 to explore 作后置定语修饰 avenues of knowledge。",
+        "reassembly_notes": "中文叙事习惯将末尾的 Gates says 提至引语之前译为“盖茨表示：……”。"
       }
     ]
   }

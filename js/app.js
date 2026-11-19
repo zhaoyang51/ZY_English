@@ -965,7 +965,8 @@
     document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
     document.body.classList.toggle('mode-vocab', AppState.mode === 'vocab');
     document.body.classList.toggle('mode-writing', AppState.mode === 'writing');
-    document.body.classList.toggle('mode-writing', AppState.mode === 'writing');
+    if (layout) layout.classList.remove('trans-single-col-review');
+    document.body.classList.remove('has-trans-review');
 
     // Update Mode button active states
     const practiceBtn = document.getElementById('practiceModeBtn');
