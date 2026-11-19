@@ -144,17 +144,6 @@
       return `<div class="trans-aligned-flow">${colsHtml}</div>`;
     },
 
-    speakSentence: function(text) {
-      if (!text || !('speechSynthesis' in window)) return;
-      try {
-        window.speechSynthesis.cancel();
-        const utter = new SpeechSynthesisUtterance(text);
-        utter.lang = 'en-US';
-        utter.rate = 0.95;
-        window.speechSynthesis.speak(utter);
-      } catch (e) {}
-    },
-
     renderSingleColReview: function(data, year) {
       const container = document.getElementById('workspaceContent');
       if (!container) return;
@@ -276,9 +265,6 @@
               <div class="trans-section-title-wrap">
                 <span class="trans-sent-num">第 ${s.sid} 句</span>
                 <span class="trans-para-pill">第 ${paraNum} 段</span>
-              </div>
-              <div class="trans-section-actions">
-                <button type="button" class="trans-mini-btn btn-trans-syntax" data-sid="${s.sid}" title="查看采分点详析">详析</button>
               </div>
             </div>
 
@@ -412,17 +398,6 @@
       const sheetEl = container.querySelector('#transMainPaperSheet');
       container.querySelector('#btnTransFullscreen')?.addEventListener('click', () => {
         if (sheetEl) sheetEl.classList.toggle('is-fullscreen');
-      });
-
-      container.querySelectorAll('.btn-trans-syntax').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          const sid = btn.getAttribute('data-sid');
-          const sObj = sentences.find(s => String(s.sid) === String(sid));
-          if (sObj && typeof window.showSyntaxModal === 'function') {
-            window.showSyntaxModal(sObj, sentences);
-          }
-        });
       });
 
       container.querySelector('#btnCopyFullTrans')?.addEventListener('click', () => {
