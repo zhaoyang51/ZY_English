@@ -8195,7 +8195,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：My dream 为主语，has always been 为系动词，to work... 为不定式表语。修饰成分：somewhere 作地点状语，介词短语 in an area... 限定其具体范围。时态特征：现在完成时（has always been）表示梦想从过去持续至今。",
-        "reassembly_notes": "somewhere in an area between A and B 意译为“A 与 B 的交叉领域”，somewhere 弱化不翻，行文简洁地道。"
+        "reassembly_notes": "somewhere in an area between A and B 意译为“A 与 B 的交叉领域”，somewhere 弱化不翻，行文简洁地道。",
+        "chunk_translation": "我的梦想 / 一直都是 / 在某处工作 / 在介于时尚与出版之间的领域。"
       },
       {
         "sid": 2,
@@ -8275,7 +8276,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：I 为主语，took 为谓语，a sewing and design course 为宾语。修饰成分：Two years before... 作时间状语；现在分词 thinking... 作伴随状语，后接宾语从句。时态特征：过去将来时（would move on to）表示站在过去时间点对未来的打算。",
-        "reassembly_notes": "thinking that I would move on to... 顺译为“本打算日后攻读……”，准确体现过去对未来的规划。"
+        "reassembly_notes": "thinking that I would move on to... 顺译为“本打算日后攻读……”，准确体现过去对未来的规划。",
+        "chunk_translation": "中学毕业前两年， / 我选修了一门缝纫与设计课， / 心想着 / 我会继续学习服装设计课程。"
       },
       {
         "sid": 3,
@@ -8357,7 +8359,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：so 连接的并列复合句。前句主干为 I realized [that]...，后句主干为 I decided that...。修饰成分：during that course 作时间状语；realized 后的宾语从句包含结果状语结构。特殊句式：not + 形容词 + enough + to do sth.（不够优秀以至于无法做某事）。",
-        "reassembly_notes": "creative personalities 切勿直译为“创意性格”，应译为“创意人才”；not the right path for me 可灵活用正话反说译为“决定放弃这条路”。"
+        "reassembly_notes": "creative personalities 切勿直译为“创意性格”，应译为“创意人才”；not the right path for me 可灵活用正话反说译为“决定放弃这条路”。",
+        "chunk_translation": "然而， / 在那门课期间 / 我意识到 / 我在这方面不够优秀 / 未来无法与其他创意人才竞争， / 所以我决定 / 那对我来说不是正确的道路。"
       },
       {
         "sid": 4,
@@ -8430,7 +8433,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：I 为主语，told 为谓语，everyone 为间接宾语，that 从句为直接宾语。修饰成分：Before applying for university 作时间状语；because 引导原因状语从句。特殊句式：was, and still is 为插入式时态并列，通过过去与现在对比强调热爱从未改变。",
-        "reassembly_notes": "was, and still is 翻译时必须保留过去与现在的双重时间对比，译为“过去是、现在也依然是”。"
+        "reassembly_notes": "was, and still is 翻译时必须保留过去与现在的双重时间对比，译为“过去是、现在也依然是”。",
+        "chunk_translation": "在申请大学前 / 我告诉所有人 / 我会学新闻学， / 因为写作过去是， / 现在依然是， / 我最喜欢的活动之一。"
       },
       {
         "sid": 5,
@@ -8516,7 +8520,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：I 为主语，said 为谓语，it 为宾语。破折号后为补充说明分句 I knew that...。修饰成分：to be honest 作插入语；because 引导原因状语从句，内嵌 that 宾语从句。特殊句式：破折号（–）用于引出对前文心理活动的进一步解释与情绪强化。",
-        "reassembly_notes": "fashion and I together 直译“时尚和我在一起”较生硬，汉译具象化为“自己踏入时尚圈”。"
+        "reassembly_notes": "fashion and I together 直译“时尚和我在一起”较生硬，汉译具象化为“自己踏入时尚圈”。",
+        "chunk_translation": "但是， / 说实话， / 我那么说， / 是因为我认为 / 时尚和我在一起只是一个梦 / ——我知道 / 根本没人能想象我在时尚行业的样子！"
       },
       {
         "sid": 6,
@@ -8579,7 +8584,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：I 为主语，decided to look for 为谓语，some fashion-related courses 为宾语。修饰成分：that included writing 为定语从句，修饰先行词 courses。语法要点：复合形容词 fashion-related（时尚相关的）作前置定语。",
-        "reassembly_notes": "短定语从句 that included writing 前置译为“包含写作内容的”，与“时尚相关课程”组合自然。"
+        "reassembly_notes": "短定语从句 that included writing 前置译为“包含写作内容的”，与“时尚相关课程”组合自然。",
+        "chunk_translation": "因此 / 我决定寻找 / 一些与时尚相关的课程 / 包含写作内容的。"
       },
       {
         "sid": 7,
@@ -8642,7 +8648,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：This 为主语，is 为系动词，when I noticed... 为表语从句。修饰成分：\"Fashion Media & Promotion\" 为 the course 的同位语，点明具体专业名称。特殊句式：This is when...（就在那时……），用于引出关键转折节点。",
-        "reassembly_notes": "This is when... 顺译为“就在那时……”，引出全文收束的关键转折点。"
+        "reassembly_notes": "This is when... 顺译为“就在那时……”，引出全文收束的关键转折点。",
+        "chunk_translation": "就在这时 / 我注意到了 / “时尚媒体与推广”这门课程。"
       }
     ]
   }

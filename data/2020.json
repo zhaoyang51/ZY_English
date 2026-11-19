@@ -7880,7 +7880,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：It 为形式主语，不定式 to go through life... 为真正主语。without 介词短语表伴随否定。",
-        "reassembly_notes": "将“almost impossible... without...”双重否定顺译为“几乎不可能不经历……”，自然流畅。"
+        "reassembly_notes": "将“almost impossible... without...”双重否定顺译为“几乎不可能不经历……”，自然流畅。",
+        "chunk_translation": "这几乎不可能 / 走完一生 / 而不经历某种失败。"
       },
       {
         "sid": 2,
@@ -7932,7 +7933,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：the wonderful thing is that...（表语从句）。从句内部使用 it's up to us to do sth. 句型。",
-        "reassembly_notes": "将表语从句中的 decide how to look at it 拆开调整语序，译为“究竟如何看待它，完全取决于我们自己”。"
+        "reassembly_notes": "将表语从句中的 decide how to look at it 拆开调整语序，译为“究竟如何看待它，完全取决于我们自己”。",
+        "chunk_translation": "但是， / 关于失败的美妙之处 / 在于 / 这完全由我们自己决定 / 如何看待它。"
       },
       {
         "sid": 3,
@@ -7967,7 +7969,8 @@
           }
         ],
         "grammar_breakdown": "简单句：choose to do sth. + see A as B 结构。",
-        "reassembly_notes": "在全文中可与下一句 Or... 合并断句，形成“可以……，也可以……”的并列选择感。"
+        "reassembly_notes": "在全文中可与下一句 Or... 合并断句，形成“可以……，也可以……”的并列选择感。",
+        "chunk_translation": "我们可以选择 / 把失败看作“世界末日”。"
       },
       {
         "sid": 4,
@@ -8019,7 +8022,8 @@
           }
         ],
         "grammar_breakdown": "核心难点在于句尾定语从句 that it often is（省略了表语 learning experience），直接前置修饰会非常拗口。",
-        "reassembly_notes": "采用“后置破折号分译法”处理 that it often is，译为“——事实上它往往正是如此”。"
+        "reassembly_notes": "采用“后置破折号分译法”处理 that it often is，译为“——事实上它往往正是如此”。",
+        "chunk_translation": "或者， / 我们可以把失败看作 / 那种极好的学习经历 / 它经常正是如此。"
       },
       {
         "sid": 5,
@@ -8071,7 +8075,8 @@
           }
         ],
         "grammar_breakdown": "Every time 引导时间状语从句；句末为省略关系代词的定语从句。",
-        "reassembly_notes": "定语从句 we're meant to learn 前置修饰 lesson，译为“我们本该汲取的教训”。"
+        "reassembly_notes": "定语从句 we're meant to learn 前置修饰 lesson，译为“我们本该汲取的教训”。",
+        "chunk_translation": "每次我们在某件事上失败时， / 我们可以选择去寻找那个教训 / 我们本该吸取的。"
       },
       {
         "sid": 6,
@@ -8119,7 +8124,8 @@
           }
         ],
         "grammar_breakdown": "分号前后为解释关系（可译为冒号）；how 引导两个并列表语从句。",
-        "reassembly_notes": "将抽象的 how 表语从句具象化增词为“成长的阶梯”与“避免重蹈覆辙的关键”。"
+        "reassembly_notes": "将抽象的 how 表语从句具象化增词为“成长的阶梯”与“避免重蹈覆辙的关键”。",
+        "chunk_translation": "这些教训非常重要； / 它们是我们成长的方式， / 也是我们避免再犯同样错误的方式。"
       },
       {
         "sid": 7,
@@ -8158,7 +8164,8 @@
           }
         ],
         "grammar_breakdown": "only if 条件状语从句后置，且从句使用省略结构 let them (stop us)。",
-        "reassembly_notes": "汉语重条件前置，将 only if we let them 提前，译为“唯有在我们任由失败摆布时，它才会……”。"
+        "reassembly_notes": "汉语重条件前置，将 only if we let them 提前，译为“唯有在我们任由失败摆布时，它才会……”。",
+        "chunk_translation": "失败会阻止我们 / 只有当我们允许它们这么做时。"
       },
       {
         "sid": 8,
@@ -8214,7 +8221,8 @@
           }
         ],
         "grammar_breakdown": "things 同时被介词短语 about ourselves 和长定语从句 that... 修饰，形成双重后置定语。",
-        "reassembly_notes": "采用分译法将 teach us things about ourselves 与定语从句拆开，先说“让我们认清自身”，再说“学到若非如此便无从知晓的道理”。"
+        "reassembly_notes": "采用分译法将 teach us things about ourselves 与定语从句拆开，先说“让我们认清自身”，再说“学到若非如此便无从知晓的道理”。",
+        "chunk_translation": "失败还能教给我们关于我们自己的东西 / 否则我们永远不会学到的。"
       },
       {
         "sid": 9,
@@ -8253,7 +8261,8 @@
           }
         ],
         "grammar_breakdown": "discover 后接 how 引导的感叹形式宾语从句。",
-        "reassembly_notes": "“how strong a person you are”可压缩精译为“自己究竟有多坚强”，简洁有力。"
+        "reassembly_notes": "“how strong a person you are”可压缩精译为“自己究竟有多坚强”，简洁有力。",
+        "chunk_translation": "例如， / 失败可以帮助你发现 / 你是一个多么坚强的人。"
       },
       {
         "sid": 10,
@@ -8311,7 +8320,8 @@
           }
         ],
         "grammar_breakdown": "动名词短语作主语 + or 连接的两个并列谓语结构。",
-        "reassembly_notes": "discover your truest friends 略作润色译为“识得谁才是真正的朋友”，呼应中文表达习惯。"
+        "reassembly_notes": "discover your truest friends 略作润色译为“识得谁才是真正的朋友”，呼应中文表达习惯。",
+        "chunk_translation": "在某件事上失败 / 可以帮你发现你最真正的朋友， / 或者帮你找到意想不到的动力去成功。"
       }
     ]
   }

@@ -8540,7 +8540,8 @@
           }
         ],
         "grammar_breakdown": "简单句，时间状语前置，主系表 + 介词短语作后置定语。",
-        "reassembly_notes": "将 his poems about nature 调整为“描绘自然的诗作”，行文更典雅。"
+        "reassembly_notes": "将 his poems about nature 调整为“描绘自然的诗作”，行文更典雅。",
+        "chunk_translation": "18世纪末， / 威廉·华兹华斯 / 变得闻名于 / 他关于自然的诗歌。"
       },
       {
         "sid": 2,
@@ -8603,7 +8604,8 @@
           }
         ],
         "grammar_breakdown": "过去分词短语作后置定语 + 非限制性定语从句 which...。",
-        "reassembly_notes": "非限制性定语从句采用顺译法，重复先行词译为“该运动热情讴歌……”。"
+        "reassembly_notes": "非限制性定语从句采用顺译法，重复先行词译为“该运动热情讴歌……”。",
+        "chunk_translation": "而且他是创始人之一 / 一场名为浪漫主义的运动的， / 该运动赞美自然界的奇观。"
       },
       {
         "sid": 3,
@@ -8634,7 +8636,8 @@
           }
         ],
         "grammar_breakdown": "主系表三词主题句，统领第二段。",
-        "reassembly_notes": "结合文学语境，powerful 意译为“极具感染力”最为贴切。"
+        "reassembly_notes": "结合文学语境，powerful 意译为“极具感染力”最为贴切。",
+        "chunk_translation": "诗歌 / 是充满力量的。"
       },
       {
         "sid": 4,
@@ -8690,7 +8693,8 @@
           }
         ],
         "grammar_breakdown": "三连动并列谓语结构，注意单数名词 a reader 用复数代词 them 回指。",
-        "reassembly_notes": "在汉语中统一译为复数概念“读者 / 他们”，避免前后单复数突兀。"
+        "reassembly_notes": "在汉语中统一译为复数概念“读者 / 他们”，避免前后单复数突兀。",
+        "chunk_translation": "它的能量和节奏 / 可以吸引读者， / 将他们带到另一个世界 / 并让他们以不同方式看待事物。"
       },
       {
         "sid": 5,
@@ -8735,7 +8739,8 @@
           }
         ],
         "grammar_breakdown": "方式状语前置 + 主系五并列表语。",
-        "reassembly_notes": "连续五个形容词采用“或……，或……”排比四字格，极富汉语韵律美。"
+        "reassembly_notes": "连续五个形容词采用“或……，或……”排比四字格，极富汉语韵律美。",
+        "chunk_translation": "通过精心挑选的词句， / 诗歌可以是戏剧性的、有趣的、美丽的、动人的和鼓舞人心的。"
       },
       {
         "sid": 6,
@@ -8780,7 +8785,8 @@
           }
         ],
         "grammar_breakdown": "but 转折并列复合句，前半句含宾语从句，后半句含时间状语从句。",
-        "reassembly_notes": "even before people could write 用破折号引出并补充“便已存在”，呼应前句。"
+        "reassembly_notes": "even before people could write 用破折号引出并补充“便已存在”，呼应前句。",
+        "chunk_translation": "没有人确切知道 / 诗歌是何时开始的 / 但它已经存在了数千年， / 甚至在人们会写字之前。"
       },
       {
         "sid": 7,
@@ -8818,7 +8824,8 @@
           }
         ],
         "grammar_breakdown": "简单句，并列不定式作后置定语。",
-        "reassembly_notes": "“讲故事、传历史”四字对仗，自然地道。"
+        "reassembly_notes": "“讲故事、传历史”四字对仗，自然地道。",
+        "chunk_translation": "它是一种方式 / 用来讲述故事和传承历史。"
       },
       {
         "sid": 8,
@@ -8863,7 +8870,8 @@
           }
         ],
         "grammar_breakdown": "并列句，后句含状语从句省略（even when written）及被动不定式作目的状语。",
-        "reassembly_notes": "被动语态 it is created to be performed 转为汉语主动或无主句式，避免“被……被……”的翻译腔。"
+        "reassembly_notes": "被动语态 it is created to be performed 转为汉语主动或无主句式，避免“被……被……”的翻译腔。",
+        "chunk_translation": "它与歌曲密切相关 / 即使在被写下来时 / 它通常也是为了被大声表演而创作的。"
       },
       {
         "sid": 9,
@@ -8909,7 +8917,8 @@
           }
         ],
         "grammar_breakdown": "主句 + when 时间状语从句。",
-        "reassembly_notes": "先译时间从句“当诗歌被朗诵出来时”，再接主句“才真正焕发出勃勃生机”。"
+        "reassembly_notes": "先译时间从句“当诗歌被朗诵出来时”，再接主句“才真正焕发出勃勃生机”。",
+        "chunk_translation": "诗歌真正焕发生机 / 当它们被朗诵时。"
       },
       {
         "sid": 10,
@@ -8961,7 +8970,8 @@
           }
         ],
         "grammar_breakdown": "主句 + because 原因状语从句。",
-        "reassembly_notes": "将 This 明确化为“朗诵”，them 明确化为“诗意”，衔接自然。"
+        "reassembly_notes": "将 This 明确化为“朗诵”，them 明确化为“诗意”，衔接自然。",
+        "chunk_translation": "这也有助于理解它们， / 因为文字的节奏和声音 / 会变得更加清晰。"
       }
     ]
   }

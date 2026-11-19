@@ -8193,7 +8193,8 @@
           }
         ],
         "grammar_breakdown": "主谓宾从句结构，后置定语包含三个并列抽象名词。",
-        "reassembly_notes": "将 friends and family members 简明译为“亲友”，三大抽象名词顺畅对仗。"
+        "reassembly_notes": "将 friends and family members 简明译为“亲友”，三大抽象名词顺畅对仗。",
+        "chunk_translation": "我们倾向于认为 / 朋友和家人 / 是我们最大的来源 / 情感联结、欢笑和温暖的。"
       },
       {
         "sid": 2,
@@ -8266,7 +8267,8 @@
           }
         ],
         "grammar_breakdown": "While 让步状语从句 + 主句 + that 宾语从句（动名词作主语） + that 定语从句。",
-        "reassembly_notes": "定语从句 that we didn't expect 凝练为四字定语“出乎意料的”前置修饰宾语。"
+        "reassembly_notes": "定语从句 that we didn't expect 凝练为四字定语“出乎意料的”前置修饰宾语。",
+        "chunk_translation": "虽然这很可能是真的， / 但研究人员最近也发现 / 与陌生人互动 / 实际上会带来情绪提升和归属感 / 我们未曾预料到的。"
       },
       {
         "sid": 3,
@@ -8325,7 +8327,8 @@
           }
         ],
         "grammar_breakdown": "instruct sb. to do sth. 核心句型，中间插入现在分词短语作宾语后置定语。",
-        "reassembly_notes": "将 using public transportation 前置修饰 commuters，避免译文拖沓。"
+        "reassembly_notes": "将 using public transportation 前置修饰 commuters，避免译文拖沓。",
+        "chunk_translation": "在一系列研究中， / 研究人员指示乘坐公共交通的芝加哥地区通勤者 / 主动发起一次交谈 / 与他们身旁的某个人。"
       },
       {
         "sid": 4,
@@ -8370,7 +8373,8 @@
           }
         ],
         "grammar_breakdown": "对称比较结构，前后各自带一个 who 引导的定语从句。",
-        "reassembly_notes": "将 stand or sit in silence 精炼为“静立或默坐”，节奏工整。"
+        "reassembly_notes": "将 stand or sit in silence 精炼为“静立或默坐”，节奏工整。",
+        "chunk_translation": "平均而言， / 遵循这一指示的参与者 / 感觉更好 / 比那些被告知静静站着或坐着的人。"
       },
       {
         "sid": 5,
@@ -8433,7 +8437,8 @@
           }
         ],
         "grammar_breakdown": "宾语从句内嵌状语从句 + 同位语从句，属于三层嵌套长难句，是2021年真题的核心得分点。",
-        "reassembly_notes": "when... it is often due to... 处理为“之所以……往往源于……”因果句式；同位语从句用破折号顺译。"
+        "reassembly_notes": "when... it is often due to... 处理为“之所以……往往源于……”因果句式；同位语从句用破折号顺译。",
+        "chunk_translation": "研究人员还指出 / 当我们回避与陌生人的随意互动时， / 这往往源于一种无谓的焦虑 / 即他们可能不想和我们说话。"
       },
       {
         "sid": 6,
@@ -8468,7 +8473,8 @@
           }
         ],
         "grammar_breakdown": "简单句，插入语 however 需调至句首翻译。",
-        "reassembly_notes": "将 this belief is false 结合上下文润色为“这种顾虑纯属多虑”或“这种想法往往是错的”。"
+        "reassembly_notes": "将 this belief is false 结合上下文润色为“这种顾虑纯属多虑”或“这种想法往往是错的”。",
+        "chunk_translation": "很多时候， / 然而， / 这种想法是错误的。"
       },
       {
         "sid": 7,
@@ -8530,7 +8536,8 @@
           }
         ],
         "grammar_breakdown": "As it turns out 作评注性状语；破折号后不定式表原因状语。",
-        "reassembly_notes": "perfectly 在此不译为“完美地”，而作程度副词译为“非常、完全”。"
+        "reassembly_notes": "perfectly 在此不译为“完美地”，而作程度副词译为“非常、完全”。",
+        "chunk_translation": "事实证明， / 许多人实际上非常愿意交谈 / ——甚至可能会受宠若惊 / 因得到你的关注。"
       }
     ]
   }

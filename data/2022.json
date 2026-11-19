@@ -8575,7 +8575,8 @@
           }
         ],
         "grammar_breakdown": "Although 让步状语从句 + 主句 + 省略式方式状语从句 as originally planned。",
-        "reassembly_notes": "英文 Although 不与 but 连用，但译成中文“尽管……（却）……”更符合汉语语感。"
+        "reassembly_notes": "英文 Although 不与 but 连用，但译成中文“尽管……（却）……”更符合汉语语感。",
+        "chunk_translation": "尽管我们尽了最大努力， / 有时我们的画作 / 很少呈现出结果 / 如最初计划的那样。"
       },
       {
         "sid": 2,
@@ -8633,7 +8634,8 @@
           }
         ],
         "grammar_breakdown": "三并列主语 + mean + 宾语从句（内嵌 what 主语从句 + the way 定语从句），是2022年最核心的长难句。",
-        "reassembly_notes": "英语第二人称泛指 your 可根据汉语习惯适当弱化（如“你的绘画材料”略去“你的”）。"
+        "reassembly_notes": "英语第二人称泛指 your 可根据汉语习惯适当弱化（如“你的绘画材料”略去“你的”）。",
+        "chunk_translation": "光线的变化， / 你绘画材料的局限性， / 以及经验和技巧的缺乏 / 意味着 / 你一开始试图实现的效果 / 可能不会生动呈现 / 以你预期的方式。"
       },
       {
         "sid": 3,
@@ -8685,7 +8687,8 @@
           }
         ],
         "grammar_breakdown": "Although 让步状语从句 + it turns out that... 形式主语从句。",
-        "reassembly_notes": "this 指代前文“画作不如预期”这件事，可具象化译为“这种状况”。"
+        "reassembly_notes": "this 指代前文“画作不如预期”这件事，可具象化译为“这种状况”。",
+        "chunk_translation": "虽然这可能令人沮丧和失望， / 事实证明 / 这实际上可能对你有好处。"
       },
       {
         "sid": 4,
@@ -8734,7 +8737,8 @@
           }
         ],
         "grammar_breakdown": "冒号引出具体阐述，realise 后嵌套时间状语从句。",
-        "reassembly_notes": "realise that... 后增补“……的道理”使中文动词宾语更完整。"
+        "reassembly_notes": "realise that... 后增补“……的道理”使中文动词宾语更完整。",
+        "chunk_translation": "意想不到的结果有两个好处： / 你会很快学会应对失望 / 并意识到 / 当一扇门关闭时， / 另一扇门会打开。"
       },
       {
         "sid": 5,
@@ -8801,7 +8805,8 @@
           }
         ],
         "grammar_breakdown": "并列复合句，前半句含定语从句，后半句动名词作主语 + 习语表达。",
-        "reassembly_notes": "将定语从句 the painting presents 前置修饰 problems；thinking outside the box 意译为“跳出固有思维模式”。"
+        "reassembly_notes": "将定语从句 the painting presents 前置修饰 problems；thinking outside the box 意译为“跳出固有思维模式”。",
+        "chunk_translation": "你还会很快学会适应 / 并想出创造性的解决方案 / 针对画作带来的问题， / 而跳出固有思维思考 / 将会成为你的第二天性。"
       },
       {
         "sid": 6,
@@ -8857,7 +8862,8 @@
           }
         ],
         "grammar_breakdown": "介词 + 关系代词（with which）引导非限制性定语从句，且内嵌时间状语从句。",
-        "reassembly_notes": "用破折号衔接 with which 从句，并将时间状语从句 when a problem arises 移至“更有可能”之前。"
+        "reassembly_notes": "用破折号衔接 with which 从句，并将时间状语从句 when a problem arises 移至“更有可能”之前。",
+        "chunk_translation": "事实上， / 创造性解决问题的能力在日常生活中非常有用， / 凭借这种能力你更有可能找到解决方案 / 当问题出现时。"
       }
     ]
   }

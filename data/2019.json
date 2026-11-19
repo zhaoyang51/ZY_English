@@ -9064,7 +9064,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：It 为形式主语，is easy 为系表结构，不定式短语 to underestimate... 为真正主语。同位语：English writer 与 James Herriot 构成同位语，点明人物身份。",
-        "reassembly_notes": "形式主语句 It is easy to do 增补泛指主语“人们”，消除头重脚轻感。"
+        "reassembly_notes": "形式主语句 It is easy to do 增补泛指主语“人们”，消除头重脚轻感。",
+        "chunk_translation": "这很容易 / 去低估 / 英国作家詹姆斯·赫里奥特。"
       },
       {
         "sid": 2,
@@ -9137,7 +9138,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：He 为主语，had 为谓语，style 为宾语。特殊句式：such... that... 引导结果状语从句，从句内嵌省略引导词 that 的宾语从句。",
-        "reassembly_notes": "one might think 结合上文 underestimate 的语境，精译为“让人误以为”，准确传达世人的错觉。"
+        "reassembly_notes": "one might think 结合上文 underestimate 的语境，精译为“让人误以为”，准确传达世人的错觉。",
+        "chunk_translation": "他有着如此令人愉悦、可读性强的风格 / 以至于人们可能会认为 / 任何人都能模仿它。"
       },
       {
         "sid": 3,
@@ -9196,7 +9198,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：现在完成时的特殊疑问句，实质为反问句（表“无数次”）。语法要点：hear sb. do sth. 接不带 to 的不定式；haven't the time 为英式英语用法，等同于 don't have the time。",
-        "reassembly_notes": "将两句短引语合并为一句话“我也能写本书，只是没时间罢了”，口语感鲜活。"
+        "reassembly_notes": "将两句短引语合并为一句话“我也能写本书，只是没时间罢了”，口语感鲜活。",
+        "chunk_translation": "多少次 / 我听过人们说， / “我也能写一本书。 / 我只是没有时间。”"
       },
       {
         "sid": 4,
@@ -9234,7 +9237,8 @@
           }
         ],
         "grammar_breakdown": "特殊句式：省略句，完整形式为 [It is] easily said. [It is] not so easily done. 过去分词表被动含义。",
-        "reassembly_notes": "直接套用汉语熟语“说起来容易，做起来难”，简洁有力。"
+        "reassembly_notes": "直接套用汉语熟语“说起来容易，做起来难”，简洁有力。",
+        "chunk_translation": "说起来容易。 / 做起来没那么容易。"
       },
       {
         "sid": 5,
@@ -9307,7 +9311,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：James Herriot did not find it easy...（it 为形式宾语，指代后文提及的写作一事）。插入成分：contrary to popular opinion 和 as he put it 均为插入语，起补充说明作用。",
-        "reassembly_notes": "contrary to popular opinion 移至句首作全句状语；the writing game 是自谦幽默说法，译为“写作这一行”。"
+        "reassembly_notes": "contrary to popular opinion 移至句首作全句状语；the writing game 是自谦幽默说法，译为“写作这一行”。",
+        "chunk_translation": "詹姆斯·赫里奥特， / 与普遍看法相反， / 并没有觉得这很容易 / 在他早期的日子里， / 正如他所说， / “尝试写作这一行”。"
       },
       {
         "sid": 6,
@@ -9393,7 +9398,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：the final, polished work 为主语，was 为系动词，the result of... 为表语。修饰成分：While 引导让步状语从句（表“虽然，尽管”）；that he gave to the world 为定语从句，修饰先行词 work。",
-        "reassembly_notes": "定语从句 that he gave to the world 提前置于 the final, polished work 之前，译为“他最终呈现给世人的那些精雕细琢的作品”。"
+        "reassembly_notes": "定语从句 that he gave to the world 提前置于 the final, polished work 之前，译为“他最终呈现给世人的那些精雕细琢的作品”。",
+        "chunk_translation": "虽然他显然拥有丰富的天赋， / 这最终的、润色过的作品 / 他奉献给世界的 / 是……的结果 / 多年练习、重写和阅读。"
       },
       {
         "sid": 7,
@@ -9472,7 +9478,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：but 连接的并列复合句。前句主干为 he had to suffer...；后句主干为 these made him... determined...（make + 宾语 + 形容词作宾补）。修饰成分：Like the majority of authors 作比较状语；along the way 作时间/过程状语。",
-        "reassembly_notes": "rejections 结合 authors 语境精准译为“退稿”；these 增补名词译为“这些经历”。"
+        "reassembly_notes": "rejections 结合 authors 语境精准译为“退稿”；these 增补名词译为“这些经历”。",
+        "chunk_translation": "像大多数作家一样， / 他不得不遭受许多失望和拒绝 / 在一路上， / 但这些使他 / 更加决心要成功。"
       },
       {
         "sid": 8,
@@ -9541,7 +9548,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：and 连接的并列句。前句主干为 Everything was earned the hard way；后句主干为 his success was no exception。修饰成分：he achieved in life 为省略关系代词 that 的定语从句，修饰 Everything；in the literary field 作后置定语修饰 success。",
-        "reassembly_notes": "was earned the hard way 意译为成语“得来不易”，与后半句“同样也不例外”呼应，收束全篇。"
+        "reassembly_notes": "was earned the hard way 意译为成语“得来不易”，与后半句“同样也不例外”呼应，收束全篇。",
+        "chunk_translation": "他在一生中取得的一切 / 都是通过艰难方式赢得的 / 而且他在文学领域的成功 / 也不例外。"
       }
     ]
   }

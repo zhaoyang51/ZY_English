@@ -5679,7 +5679,8 @@
           }
         ],
         "grammar_breakdown": "With 复合结构作三重并列状语（分别对应嗅觉、视觉、听觉），引出主句“感官盛宴”。",
-        "reassembly_notes": "三个并列画面在中文里适合用分句铺陈（空气中……，摊位上……，耳畔……），最后用破折号引出主句。"
+        "reassembly_notes": "三个并列画面在中文里适合用分句铺陈（空气中……，摊位上……，耳畔……），最后用破折号引出主句。",
+        "chunk_translation": "空气中飘荡着咖啡和新鲜面包的香味， / 摊位上摆满色彩斑斓的蔬菜和诱人的奶酪， / 以及友好交谈的嗡嗡声， / 农贸市场是一场感官盛宴。"
       },
       {
         "sid": 2,
@@ -5735,7 +5736,8 @@
           }
         ],
         "grammar_breakdown": "an opportunity 后接三个并列不定式作定语；people 后接形容词短语作后置定语。",
-        "reassembly_notes": "破折号后的 all at the same time 意译为“可谓一举多得”，收束三个并列动作。"
+        "reassembly_notes": "破折号后的 all at the same time 意译为“可谓一举多得”，收束三个并列动作。",
+        "chunk_translation": "它们还提供了一个机会 / 去与负责种植或养殖你食物的人交谈、 / 支持你的本地经济 / 并购买新鲜的时令农产品 / ——所有这些同时进行。"
       },
       {
         "sid": 3,
@@ -5780,7 +5782,8 @@
           }
         ],
         "grammar_breakdown": "主系表 + 介词短语补充 + which 非限制性定语从句。",
-        "reassembly_notes": "将 weekly or monthly events 动词化译为“每周或每月举办一次”，更符合汉语表达习惯。"
+        "reassembly_notes": "将 weekly or monthly events 动词化译为“每周或每月举办一次”，更符合汉语表达习惯。",
+        "chunk_translation": "农贸市场通常是每周或每月的活动， / 大多数情况下设有户外摊位， / 这让农民或生产者能直接把食物卖给顾客。"
       },
       {
         "sid": 4,
@@ -5842,7 +5845,8 @@
           }
         ],
         "grammar_breakdown": "并列复合句，前半句含现在分词短语作状语。",
-        "reassembly_notes": "将 depending on... 提前至句首作条件状语“根据当地农时的不同”，使因果逻辑更顺畅。"
+        "reassembly_notes": "将 depending on... 提前至句首作条件状语“根据当地农时的不同”，使因果逻辑更顺畅。",
+        "chunk_translation": "市场的规模或举办频率 / 可能因季节而异， / 这取决于该地区的农业历法， / 而且你很可能找到不同的农产品在售 / 在一年中的不同时间。"
       },
       {
         "sid": 5,
@@ -5898,7 +5902,8 @@
           }
         ],
         "grammar_breakdown": "方式状语 + 主谓宾结构。",
-        "reassembly_notes": "secure 作动词在考研中常考“获得，保住”之意。"
+        "reassembly_notes": "secure 作动词在考研中常考“获得，保住”之意。",
+        "chunk_translation": "通过省去中间商， / 农民获得了更多利润 / 从他们的农产品中。"
       },
       {
         "sid": 6,
@@ -5943,7 +5948,8 @@
           }
         ],
         "grammar_breakdown": "介宾短语内嵌由破折号连接的双疑问词宾语从句。",
-        "reassembly_notes": "将 benefit from 放在句尾“同样从中获益”，先译具体内容“清清楚楚地知道……”，更符合汉语先因后果的节奏。"
+        "reassembly_notes": "将 benefit from 放在句尾“同样从中获益”，先译具体内容“清清楚楚地知道……”，更符合汉语先因后果的节奏。",
+        "chunk_translation": "购物者也受益于 / 清楚地看到 / 他们的钱究竟流向哪里——以及流向谁。"
       }
     ]
   }

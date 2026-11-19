@@ -5980,7 +5980,8 @@
           }
         ],
         "grammar_breakdown": "主语 + refers to + how 宾语从句（内嵌省略型定语从句 we wear）。",
-        "reassembly_notes": "thoughts, feelings, and behaviors 雅译为“思维、情绪与行为方式”。"
+        "reassembly_notes": "thoughts, feelings, and behaviors 雅译为“思维、情绪与行为方式”。",
+        "chunk_translation": "穿戴物对心理的影响 / 指的是 / 我们穿的衣服如何 / 影响我们的思想、感受和行为。"
       },
       {
         "sid": 2,
@@ -6028,7 +6029,8 @@
           }
         ],
         "grammar_breakdown": "分号连接的并列递进结构（not just...; plays a significant role in...）。",
-        "reassembly_notes": "covering our bodies 凝练译为“蔽体”，interactions with others 译为“人际互动”，简洁有力。"
+        "reassembly_notes": "covering our bodies 凝练译为“蔽体”，interactions with others 译为“人际互动”，简洁有力。",
+        "chunk_translation": "服装不仅仅是遮盖我们的身体； / 它起着重要作用 / 在塑造我们的自我认知以及与他人的互动方面。"
       },
       {
         "sid": 3,
@@ -6059,7 +6061,8 @@
           }
         ],
         "grammar_breakdown": "简单主系表句，引出第二段分论点。",
-        "reassembly_notes": "将 aspect 灵活译为“体现”，与上下文衔接更紧密。"
+        "reassembly_notes": "将 aspect 灵活译为“体现”，与上下文衔接更紧密。",
+        "chunk_translation": "这种影响的一个方面 / 是自我表达。"
       },
       {
         "sid": 4,
@@ -6094,7 +6097,8 @@
           }
         ],
         "grammar_breakdown": "主语带省略关系词的定语从句 + 谓语 + 三并列宾语。",
-        "reassembly_notes": "reflect 译为“折射出”，identity 译为“身份认同”，提升译文质感。"
+        "reassembly_notes": "reflect 译为“折射出”，identity 译为“身份认同”，提升译文质感。",
+        "chunk_translation": "我们选择的衣服 / 可以反映 / 我们的个性、情绪和身份。"
       },
       {
         "sid": 5,
@@ -6161,7 +6165,8 @@
           }
         ],
         "grammar_breakdown": "Whether... or... 让步状语从句 + 主句 + 双重宾语从句作介词 about 的宾语。",
-        "reassembly_notes": "将被动结构 how we want to be perceived 转化为主动视角“希望别人如何看待自己”，读起来更顺畅。"
+        "reassembly_notes": "将被动结构 how we want to be perceived 转化为主动视角“希望别人如何看待自己”，读起来更顺畅。",
+        "chunk_translation": "无论我们选择大胆、色彩鲜艳的服装 / 还是更喜欢低调的风格， / 我们的着装选择都传达了信息 / 关于我们是谁以及我们希望如何被看待。"
       },
       {
         "sid": 6,
@@ -6192,7 +6197,8 @@
           }
         ],
         "grammar_breakdown": "简单主谓宾句，承上启下引出第三段。",
-        "reassembly_notes": "confidence levels 译为“自信程度”比“自信水平”更符合中文表达。"
+        "reassembly_notes": "confidence levels 译为“自信程度”比“自信水平”更符合中文表达。",
+        "chunk_translation": "此外， / 服装可以影响 / 我们的自信心水平。"
       },
       {
         "sid": 7,
@@ -6244,7 +6250,8 @@
           }
         ],
         "grammar_breakdown": "When 时间状语从句（内嵌 that 定语从句）+ 主句。",
-        "reassembly_notes": "it 在翻译时无需硬译为“它”，可转化为“自尊心与整体心情都会随之……”。"
+        "reassembly_notes": "it 在翻译时无需硬译为“它”，可转化为“自尊心与整体心情都会随之……”。",
+        "chunk_translation": "当我们穿上令自己感到舒适和自信的衣服时， / 它可以积极影响 / 我们的自尊心和整体情绪。"
       },
       {
         "sid": 8,
@@ -6286,7 +6293,8 @@
           }
         ],
         "grammar_breakdown": "过渡副词 + 主谓宾 + 介词短语作状语。",
-        "reassembly_notes": "shape our dress choices 灵活译为“左右着我们的穿衣偏好”，避免与前面“塑造”重复。"
+        "reassembly_notes": "shape our dress choices 灵活译为“左右着我们的穿衣偏好”，避免与前面“塑造”重复。",
+        "chunk_translation": "此外， / 文化和社会影响 / 起着重要作用 / 在塑造我们的着装选择方面。"
       },
       {
         "sid": 9,
@@ -6355,7 +6363,8 @@
           }
         ],
         "grammar_breakdown": "主句 + 非限制性定语从句（内含省略型定语从句 people wear 与过去分词短语 attributed to them）。",
-        "reassembly_notes": "将 attributed to them 前置修饰 meanings，译为“衣物背后所承载的象征意义”，完美收官。"
+        "reassembly_notes": "将 attributed to them 前置修饰 meanings，译为“衣物背后所承载的象征意义”，完美收官。",
+        "chunk_translation": "不同的文化对着装有各自的规范和期望， / 这会影响人们穿的衣服类型 / 以及赋予它们的意义。"
       }
     ]
   }

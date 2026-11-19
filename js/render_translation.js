@@ -108,11 +108,39 @@
 
     formatSlashedText: function(slashedText) {
       if (!slashedText) return '';
-      // Split by slash BEFORE tokenizing so HTML closing tags (</span>) are never corrupted
       const chunks = String(slashedText).split(/\s*\/\s*/);
       return chunks
         .map(chunk => this.tokenizeWords(chunk))
         .join(' <span class="trans-slash-sep" title="意群断句">/</span> ');
+    },
+
+    renderAlignedChunksHtml: function(slashedText, chunkTrans) {
+      const enChunks = String(slashedText || '').split(/\s*\/\s*/).filter(Boolean);
+      const cnChunks = String(chunkTrans || '').split(/\s*\/\s*/).filter(Boolean);
+      const len = Math.max(enChunks.length, cnChunks.length);
+      if (len === 0) return '';
+
+      let colsHtml = '';
+      for (let i = 0; i < len; i++) {
+        const enPart = enChunks[i] || '';
+        const cnPart = cnChunks[i] || '';
+        const hasNext = i < len - 1;
+        const slashEn = hasNext ? '<span class="trans-slash-sep" aria-hidden="true">/</span>' : '';
+        const slashCn = hasNext ? '<span class="trans-slash-sep is-cn" aria-hidden="true">/</span>' : '';
+        const tagHtml = (i === 0 && cnPart) ? '<span class="trans-badge-tag tag-chunk">意群</span>' : '';
+
+        colsHtml += `
+          <div class="trans-chunk-col" data-chunk-idx="${i}">
+            <div class="trans-chunk-en">
+              <span class="trans-chunk-en-text">${this.tokenizeWords(enPart)}</span>${slashEn}
+            </div>
+            <div class="trans-chunk-cn">
+              ${tagHtml}<span class="trans-chunk-cn-text">${cnPart}</span>${slashCn}
+            </div>
+          </div>
+        `;
+      }
+      return `<div class="trans-aligned-flow">${colsHtml}</div>`;
     },
 
     speakSentence: function(text) {
@@ -145,9 +173,17 @@
 
       const sentsHtml = sentences.map((s) => {
         const rawEn = s.en || s.text || '';
-        const enDisplayHtml = (prefs.showSlashes && s.slashed_text)
-          ? this.formatSlashedText(s.slashed_text)
-          : this.tokenizeWords(rawEn);
+        const hasAlignedChunks = prefs.showSlashes && s.slashed_text && s.chunk_translation;
+
+        let sentenceAndChunksHtml = '';
+        if (hasAlignedChunks) {
+          sentenceAndChunksHtml = this.renderAlignedChunksHtml(s.slashed_text, s.chunk_translation);
+        } else {
+          const enDisplayHtml = (prefs.showSlashes && s.slashed_text)
+            ? this.formatSlashedText(s.slashed_text)
+            : this.tokenizeWords(rawEn);
+          sentenceAndChunksHtml = `<div class="trans-review-en-line">${enDisplayHtml}</div>`;
+        }
 
         const literalCn = s.literal_cn || '';
         const refinedCn = s.refined_cn || s.cn || s.translation || '';
@@ -245,9 +281,7 @@
               </div>
             </div>
 
-            <div class="trans-review-en-line">
-              ${enDisplayHtml}
-            </div>
+            ${sentenceAndChunksHtml}
 
             <div class="trans-review-trans-block">
               ${transHtml}
@@ -303,8 +337,8 @@
                   <button type="button" class="trans-font-btn" id="btnTransFontInc" title="放大字号">A+</button>
                 </div>
 
-                <label class="trans-switch-label" title="显示或隐藏意群断句斜线 /">
-                  <span>断句切分</span>
+                <label class="trans-switch-label" title="显示或隐藏意群断句与对齐翻译">
+                  <span>意群对齐</span>
                   <span class="trans-switch-track ${prefs.showSlashes ? 'is-on' : ''}" id="switchTransSlashes">
                     <span class="trans-switch-thumb"></span>
                   </span>

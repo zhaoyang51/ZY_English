@@ -2095,6 +2095,10 @@ body.has-trans-review {
   --tr-tag-lit-ink: #57534e;
   --tr-tag-ref-bg: rgba(37, 99, 235, 0.1);
   --tr-tag-ref-ink: #1d4ed8;
+  --tr-tag-chunk-bg: rgba(13, 148, 136, 0.11);
+  --tr-tag-chunk-ink: #0f766e;
+  --tr-chunk-cn-ink: #0f766e;
+  --tr-chunk-hover: rgba(37, 99, 235, 0.045);
   height: 100vh !important;
   max-height: 100vh !important;
   overflow: hidden !important;
@@ -2116,6 +2120,10 @@ body.has-trans-review.theme-parchment {
   --tr-tag-lit-ink: #6b5a45;
   --tr-tag-ref-bg: rgba(154, 91, 19, 0.12);
   --tr-tag-ref-ink: #8a4f0e;
+  --tr-tag-chunk-bg: rgba(120, 80, 28, 0.1);
+  --tr-tag-chunk-ink: #7c4a15;
+  --tr-chunk-cn-ink: #7c4a15;
+  --tr-chunk-hover: rgba(154, 91, 19, 0.06);
 }
 
 body.has-trans-review.theme-dark {
@@ -2132,6 +2140,10 @@ body.has-trans-review.theme-dark {
   --tr-tag-lit-ink: #9ca3af;
   --tr-tag-ref-bg: rgba(96, 165, 250, 0.15);
   --tr-tag-ref-ink: #93c5fd;
+  --tr-tag-chunk-bg: rgba(45, 212, 191, 0.14);
+  --tr-tag-chunk-ink: #5eead4;
+  --tr-chunk-cn-ink: #5eead4;
+  --tr-chunk-hover: rgba(96, 165, 250, 0.08);
 }
 
 body.has-trans-review .topbar {
@@ -2192,9 +2204,9 @@ body.has-trans-review #mobileTabsBar {
 
 .trans-review-canvas {
   width: 100%;
-  max-width: 1020px;
+  max-width: 1380px;
   margin: 0 auto;
-  padding: 20px 20px 100px;
+  padding: 20px 28px 100px;
   box-sizing: border-box;
   font-size: var(--trans-fs, 17px);
   color: var(--tr-ink);
@@ -2214,7 +2226,7 @@ body.has-trans-review #mobileTabsBar {
   inset: 16px;
   z-index: 2000;
   margin: 0 auto;
-  max-width: 1060px;
+  max-width: 1440px;
   overflow-y: auto;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
 }
@@ -2223,7 +2235,7 @@ body.has-trans-review #mobileTabsBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 13px 24px;
+  padding: 13px 28px;
   border-bottom: 1px solid var(--tr-line);
   gap: 12px;
   flex-wrap: wrap;
@@ -2339,7 +2351,7 @@ body.has-trans-review #mobileTabsBar {
 }
 
 .trans-paper-section {
-  padding: 22px 28px;
+  padding: 22px 32px;
   border-bottom: 1px solid var(--tr-line);
 }
 
@@ -2351,7 +2363,7 @@ body.has-trans-review #mobileTabsBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   gap: 8px;
   flex-wrap: wrap;
 }
@@ -2412,12 +2424,65 @@ body.has-trans-review #mobileTabsBar {
   word-break: break-word;
 }
 
+/* Aligned Interlinear Sense-Group Columns (句子与意群翻译对齐) */
+.trans-aligned-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  row-gap: 12px;
+  column-gap: 0;
+  margin-bottom: 14px;
+}
+
+.trans-chunk-col {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 4px 2px 6px;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+  max-width: 100%;
+}
+
+.trans-chunk-col:hover {
+  background: var(--tr-chunk-hover);
+}
+
+.trans-chunk-en {
+  font-family: Georgia, "Times New Roman", "Songti SC", serif;
+  font-size: 1.06em;
+  line-height: 1.55;
+  color: var(--tr-ink);
+  font-weight: 500;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed var(--tr-line);
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.trans-chunk-cn {
+  font-size: 0.87em;
+  line-height: 1.55;
+  color: var(--tr-chunk-cn-ink);
+  padding-top: 5px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
 .trans-slash-sep {
   color: var(--tr-accent);
   font-weight: 700;
-  opacity: 0.75;
-  padding: 0 3px;
+  opacity: 0.72;
+  padding: 0 7px 0 6px;
   user-select: none;
+}
+
+.trans-slash-sep.is-cn {
+  opacity: 0.45;
+  font-size: 0.92em;
 }
 
 .trans-review-trans-block {
@@ -2452,6 +2517,13 @@ body.has-trans-review #mobileTabsBar {
   border-radius: 5px;
   letter-spacing: 0.03em;
   line-height: 1.4;
+}
+
+.trans-badge-tag.tag-chunk {
+  background: var(--tr-tag-chunk-bg);
+  color: var(--tr-tag-chunk-ink);
+  font-size: 0.82em;
+  padding: 1px 6px;
 }
 
 .trans-badge-tag.tag-literal {
@@ -2519,7 +2591,7 @@ body.has-trans-review #mobileTabsBar {
 }
 
 .trans-fulltext-body {
-  padding: 22px 28px;
+  padding: 22px 32px;
   display: flex;
   flex-direction: column;
   gap: 20px;

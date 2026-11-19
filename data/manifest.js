@@ -183,7 +183,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2017,
-    "version": "6b0ab50af2f7",
+    "version": "3b1204804adf",
     "texts": [
       {
         "id": 1,
@@ -209,7 +209,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2018,
-    "version": "8777a262b4aa",
+    "version": "904741af733e",
     "texts": [
       {
         "id": 1,
@@ -235,7 +235,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2019,
-    "version": "914f7e9f4e8b",
+    "version": "313a6d3cba04",
     "texts": [
       {
         "id": 1,
@@ -261,7 +261,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2020,
-    "version": "b6a7d400e9a3",
+    "version": "314b15f2e0ec",
     "texts": [
       {
         "id": 1,
@@ -287,7 +287,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2021,
-    "version": "e81013090457",
+    "version": "20baba9edf69",
     "texts": [
       {
         "id": 1,
@@ -313,7 +313,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2022,
-    "version": "7d4bfb513d51",
+    "version": "cc07d98759df",
     "texts": [
       {
         "id": 1,
@@ -339,7 +339,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2023,
-    "version": "1e24b7158846",
+    "version": "5e24086d5222",
     "texts": [
       {
         "id": 1,
@@ -365,7 +365,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2024,
-    "version": "e7e0aeb777ce",
+    "version": "f19af0b9fc06",
     "texts": [
       {
         "id": 1,
@@ -391,7 +391,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2025,
-    "version": "133202baefe6",
+    "version": "ff0059f9d516",
     "texts": [
       {
         "id": 1,
@@ -417,7 +417,7 @@ window.KAOYAN_MANIFEST = [
   },
   {
     "year": 2026,
-    "version": "4e2ae143e272",
+    "version": "3eb6c4fcebce",
     "texts": [
       {
         "id": 1,

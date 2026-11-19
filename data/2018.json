@@ -8266,7 +8266,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：A fifth grader 为主语，gets 为谓语，a homework assignment 为宾语。修饰成分：不定式短语 to select... 作后置定语，说明作业的具体内容。",
-        "reassembly_notes": "不定式定语 to select... 顺译为“需要从职业清单里挑出……”，符合汉语叙事逻辑。"
+        "reassembly_notes": "不定式定语 to select... 顺译为“需要从职业清单里挑出……”，符合汉语叙事逻辑。",
+        "chunk_translation": "一名五年级学生 / 收到一份家庭作业 / 去选择他未来的职业道路 / 从一份职业清单中。"
       },
       {
         "sid": 2,
@@ -8335,7 +8336,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：He 为主语，谓语由 ticks、adds、selects 三个动词并列构成。逻辑连接：but 表转折补充，and 表动作顺承。",
-        "reassembly_notes": "三个连续动作 ticks... adds... selects... 译为“先勾选了……又补写……并一并勾选”，画面感极强。"
+        "reassembly_notes": "三个连续动作 ticks... adds... selects... 译为“先勾选了……又补写……并一并勾选”，画面感极强。",
+        "chunk_translation": "他在“宇航员”上打了勾 / 但很快把“科学家”添加到清单上 / 并且也选择了它。"
       },
       {
         "sid": 3,
@@ -8394,7 +8396,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：The boy 为主语，is convinced 为系表结构，that 引导宾语从句。嵌套层次：宾语从句内包含 if 条件状语从句，以及 as...as 比较状语从句。",
-        "reassembly_notes": "as many career paths as he likes 直译“他喜欢的尽可能多的职业道路”较绕，精译为“想探索多少种职业道路都不在话下”更地道。"
+        "reassembly_notes": "as many career paths as he likes 直译“他喜欢的尽可能多的职业道路”较绕，精译为“想探索多少种职业道路都不在话下”更地道。",
+        "chunk_translation": "这个男孩深信 / 如果他读得足够多， / 他就能探索尽可能多的职业道路 / 只要他喜欢的。"
       },
       {
         "sid": 4,
@@ -8463,7 +8466,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：he 为主语，reads 为不及物谓语动词。补充成分：破折号后为名词短语，具体解释他阅读的广度。",
-        "reassembly_notes": "everything 置后转化为四字格总结“无所不涉/无所不读”，凸显涉猎之广。"
+        "reassembly_notes": "everything 置后转化为四字格总结“无所不涉/无所不读”，凸显涉猎之广。",
+        "chunk_translation": "于是他就读 / ——一切书籍 / 从百科全书 / 到科幻小说。"
       },
       {
         "sid": 5,
@@ -8532,7 +8536,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：He 为主语，reads 为谓语。特殊句式：so + 副词 + that 引导结果状语从句，强调阅读痴迷程度带来的后果。",
-        "reassembly_notes": "institute a \"no reading policy\" 大词小用，带着幽默语调，精译为“立下规矩，禁止他在餐桌上阅读”。"
+        "reassembly_notes": "institute a \"no reading policy\" 大词小用，带着幽默语调，精译为“立下规矩，禁止他在餐桌上阅读”。",
+        "chunk_translation": "他读得如此充满激情 / 以至于他的父母不得不制定 / 一项“禁止阅读政策” / 在餐桌上。"
       },
       {
         "sid": 6,
@@ -8591,7 +8596,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：and 连接两个并列分句。前句为系表结构，后句主干为 he hasn't stopped reading。时态与补充：现在完成时（hasn't stopped）表状态持续至今；破折号后强化让步语气。",
-        "reassembly_notes": "破折号后的让步状语 not even after becoming... 在精译时可前置译为“即便如今已成为……，他依然手不释卷”。"
+        "reassembly_notes": "破折号后的让步状语 not even after becoming... 在精译时可前置译为“即便如今已成为……，他依然手不释卷”。",
+        "chunk_translation": "那个男孩就是比尔·盖茨， / 而且他至今还没有停止阅读 / ——甚至在成为之后 / 地球上最成功的人之一。"
       },
       {
         "sid": 7,
@@ -8666,7 +8672,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：冒号连接两个独立分句，后句解释前句的变化细节。从句结构：后句主干为 he revealed，后接 that 引导的宾语从句。",
-        "reassembly_notes": "has changed from A 直译“从 A 发生了变化”不通顺，增益译为“早已不再局限于 A”。"
+        "reassembly_notes": "has changed from A 直译“从 A 发生了变化”不通顺，增益译为“早已不再局限于 A”。",
+        "chunk_translation": "如今， / 他的阅读材料已经改变 / 从科幻小说和参考书： / 最近， / 他透露 / 他每年至少读50本非虚构类书籍。"
       },
       {
         "sid": 8,
@@ -8725,7 +8732,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：Gates 为主语，chooses 为谓语，nonfiction titles 为宾语。嵌套层次：because 引导原因状语从句，内嵌 how 引导的宾语从句。",
-        "reassembly_notes": "nonfiction titles 与上句 nonfiction books 同义替换；explain how the world works 译为“揭示世界的运行规律”凝练地道。"
+        "reassembly_notes": "nonfiction titles 与上句 nonfiction books 同义替换；explain how the world works 译为“揭示世界的运行规律”凝练地道。",
+        "chunk_translation": "盖茨选择非虚构类书籍 / 因为它们解释 / 世界是如何运转的。"
       },
       {
         "sid": 9,
@@ -8777,7 +8785,8 @@
           }
         ],
         "grammar_breakdown": "句子主干：直接引语作宾语，主干为 Each book opens up new avenues of knowledge。修饰成分：不定式 to explore 作后置定语修饰 avenues of knowledge。",
-        "reassembly_notes": "中文叙事习惯将末尾的 Gates says 提至引语之前译为“盖茨表示：……”。"
+        "reassembly_notes": "中文叙事习惯将末尾的 Gates says 提至引语之前译为“盖茨表示：……”。",
+        "chunk_translation": "“每一本书 / 都开启了 / 新的知识大道 / 去探索”， / 盖茨说道。"
       }
     ]
   }
