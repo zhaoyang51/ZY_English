@@ -7720,7 +7720,9 @@
     "points": 15,
     "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
     "source_text": "\"Sustainability\" has become a popular word these days, but to Ted Ning, the concept will always have personal meaning. Having endured a painful period of unsustainability in his own life made it clear to him that sustainability-oriented values must be expressed through everyday action and choice.\n\nNing recalls spending a confusing year in the late 1990s selling insurance. He'd been through the dot-com boom and burst and, desperate for a job, signed on with a Boulder agency.\n\nIt didn't go well. \"It was a really bad move because that's not my passion,\" says Ning, whose dilemma about the job translated, predictably, into a lack of sales. \"I was miserable. I had so much anxiety that I would wake up in the middle of the night and stare at the ceiling. I had no money and needed the job. Everyone said, 'Just wait, you'll turn the corner, give it some time.'\"",
-    "reference_translation": "“可持续性”如今已成为一个流行词汇，但对特德·宁而言，这个概念永远有着特殊的个人意义。他本人在生活中经历过一段不可持续的艰难痛苦时期，这让他深刻明白，以可持续发展为导向的价值观必须通过每天的行动与选择体现出来。\n\n宁回忆起20世纪90年代末卖保险度过的那段迷茫岁月。在经历了互联网泡沫的兴盛与破灭后，迫切渴望一份工作的他签约了博尔德的一家代理机构。\n\n但进展并不顺利。“这真是一次糟糕的抉择，因为那并不是我的热情所在，”宁说道。他在工作上的进退维谷正如预料的那样转化为业绩惨淡。“我感到痛苦不堪。我焦虑到半夜醒来呆呆盯着天花板。我身无分文却急需这份工作。每个人都说：‘等等看吧，情况总会好转的，给它一点时间。’”",
+    "full_literal_translation": "“可持续发展”如今已成为一个流行词，但对特德·宁来说，这个概念将永远具有个人意义。在自己的生活中经历了一段痛苦的不可持续时期，使他清楚地认识到，以可持续发展为导向的价值观必须通过日常行动和选择来体现。\n\n宁回忆起上世纪90年代末卖保险度过的令人困惑的一年。他经历过互联网泡沫的兴起与破灭，而且急需一份工作，于是签约了一家博尔德的代理机构。\n\n事情进展得并不顺利。“那真是一个糟糕的举动，因为那不是我的热爱所在，”宁说道，他对这份工作的进退两难不出所料地转化成了销售业绩的匮乏。“我当时非常痛苦。我如此焦虑，以至于经常在半夜醒来盯着天花板。我身无分文，又需要这份工作。每个人都说：‘再等等，你很快就会渡过难关的，多给它一点时间。’”",
+    "full_refined_translation": "如今，“可持续发展”已成了一个高频流行词，但对特德·宁而言，这一理念始终承载着深刻的个人意义。他曾在自己的人生中熬过一段痛苦的“不可持续”岁月，这段经历让他深切明白：以可持续为导向的价值观，必须落实在日常的一言一行与每一次抉择之中。\n\n宁回忆起上世纪90年代末自己推销保险的那段迷茫岁月。当时他刚经历了互联网行业的繁荣与泡沫破灭，急于谋求一份生计，便签约加入了博尔德当地的一家保险代理公司。\n\n然而一切并不顺利。“那步棋走得实在太糟了，因为我对此毫无热情可言，”宁坦言道。他对这份工作内心纠结，不出所料地直接体现在了惨淡的业绩上。“那时我痛苦不堪，焦虑到常常半夜惊醒，睁眼盯着天花板发呆。我手头拮据，偏偏又离不开这份工作。身边的人都宽慰我说：‘再忍忍，很快就会迎来转机的，多熬一段时间就好了。’”",
+    "reference_translation": "如今，“可持续发展”已成了一个高频流行词，但对特德·宁而言，这一理念始终承载着深刻的个人意义。他曾在自己的人生中熬过一段痛苦的“不可持续”岁月，这段经历让他深切明白：以可持续为导向的价值观，必须落实在日常的一言一行与每一次抉择之中。\n\n宁回忆起上世纪90年代末自己推销保险的那段迷茫岁月。当时他刚经历了互联网行业的繁荣与泡沫破灭，急于谋求一份生计，便签约加入了博尔德当地的一家保险代理公司。\n\n然而一切并不顺利。“那步棋走得实在太糟了，因为我对此毫无热情可言，”宁坦言道。他对这份工作内心纠结，不出所料地直接体现在了惨淡的业绩上。“那时我痛苦不堪，焦虑到常常半夜惊醒，睁眼盯着天花板发呆。我手头拮据，偏偏又离不开这份工作。身边的人都宽慰我说：‘再忍忍，很快就会迎来转机的，多熬一段时间就好了。’”",
     "paragraphs": [
       {
         "pid": 0,
@@ -7740,139 +7742,442 @@
         "sid": 1,
         "pid": 0,
         "en": "\"Sustainability\" has become a popular word these days, but to Ted Ning, the concept will always have personal meaning.",
-        "cn": "“可持续性”如今已成为一个流行词汇，但对特德·宁而言，这个概念永远有着特殊的个人意义。",
-        "scoring_points": [
+        "slashed_text": "\"Sustainability\" has become a popular word these days, / but to Ted Ning, / the concept will always have personal meaning.",
+        "chunk_translation": "“可持续发展”如今已成为一个流行词， / 但对特德·宁来说， / 这个概念将永远具有个人意义。",
+        "literal_cn": "“可持续发展”如今已成为一个流行词，但对特德·宁来说，这个概念将永远具有个人意义。",
+        "refined_cn": "如今，“可持续发展”已成了一个高频流行词，但对特德·宁而言，这一理念始终承载着深刻的个人意义。",
+        "cn": "如今，“可持续发展”已成了一个高频流行词，但对特德·宁而言，这一理念始终承载着深刻的个人意义。",
+        "syntax_points": [
           {
-            "phrase": "\"Sustainability\" has become a popular word these days",
-            "score": 1,
-            "guide": "现在完成时顺译为‘如今已成为一个流行词汇’"
+            "label": "句子主干",
+            "text": "but 连接的并列句。前句主干为 \"Sustainability\" has become a popular word；后句主干为 the concept will always have personal meaning。"
           },
           {
-            "phrase": "to Ted Ning, the concept will always have personal meaning",
-            "score": 1,
-            "guide": "介词短语提前，personal meaning 译为‘特殊的个人意义’"
+            "label": "修饰成分",
+            "text": "these days 作时间状语；to Ted Ning 作对象状语，提前引出特定人物视角。"
           }
         ],
-        "grammar_breakdown": "but 连接两个并列分句，主句时态为现在完成时与一般将来时。"
+        "vocab_points": [
+          {
+            "term": "Sustainability",
+            "note": "可持续发展，可持续性。"
+          },
+          {
+            "term": "personal meaning",
+            "note": "个人意义，切身含义。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "\"Sustainability\" has become a popular word",
+            "score": 0.5,
+            "guide": "sustainability 译为“可持续发展/可持续性”。",
+            "vocab": [
+              {
+                "word": "sustainability",
+                "pos": "n.",
+                "common": "可持续性；可持续发展",
+                "context": "全篇核心主题词"
+              }
+            ]
+          },
+          {
+            "phrase": "will always have personal meaning",
+            "score": 1.0,
+            "guide": "personal meaning 译为“个人意义/切身感悟”。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "but 转折并列句，前后形成大众流行词与个人深刻体悟之间的对比。",
+        "reassembly_notes": "将 these days 适当提前至句首译为“如今，……”。"
       },
       {
         "sid": 2,
         "pid": 0,
         "en": "Having endured a painful period of unsustainability in his own life made it clear to him that sustainability-oriented values must be expressed through everyday action and choice.",
-        "cn": "他本人在生活中经历过一段不可持续的艰难痛苦时期，这让他深刻明白，以可持续发展为导向的价值观必须通过每天的行动与选择体现出来。",
+        "slashed_text": "Having endured a painful period of unsustainability in his own life / made it clear to him / that sustainability-oriented values / must be expressed / through everyday action and choice.",
+        "chunk_translation": "在自己的生活中经历了一段痛苦的不可持续时期 / 使他清楚地认识到 / 以可持续发展为导向的价值观 / 必须得到体现 / 通过日常行动和选择。",
+        "literal_cn": "在自己的生活中经历了一段痛苦的不可持续时期，使他清楚地认识到，以可持续发展为导向的价值观必须通过日常行动和选择来体现。",
+        "refined_cn": "他曾在自己的人生中熬过一段痛苦的“不可持续”岁月，这段经历让他深切明白：以可持续为导向的价值观，必须落实在日常的一言一行与每一次抉择之中。",
+        "cn": "他曾在自己的人生中熬过一段痛苦的“不可持续”岁月，这段经历让他深切明白：以可持续为导向的价值观，必须落实在日常的一言一行与每一次抉择之中。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "动名词完成式短语 Having endured... 作主语；made it clear to him that... 中 it 为形式宾语，真正的宾语是 that 引导的宾语从句。"
+          },
+          {
+            "label": "被动结构",
+            "text": "从句中 must be expressed through... 为情态动词被动结构，表“必须通过……来体现/落实”。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "endure",
+            "note": "忍受，熬过，经历（痛苦之事）。"
+          },
+          {
+            "term": "unsustainability",
+            "note": "不可持续（状态），词根 sustain 加否定前缀 un-。"
+          },
+          {
+            "term": "sustainability-oriented values",
+            "note": "以可持续发展为导向的价值观。"
+          }
+        ],
         "scoring_points": [
           {
-            "phrase": "Having endured a painful period of unsustainability in his own life",
-            "score": 1.5,
-            "guide": "现在分词完成时作主语，译为‘经历过一段…痛苦时期’"
+            "phrase": "Having endured a painful period of unsustainability",
+            "score": 1.0,
+            "guide": "动名词完成式作主语，译为“在自己生活中熬过一段痛苦的不可持续时期”。",
+            "vocab": [
+              {
+                "word": "endure",
+                "pos": "v.",
+                "common": "忍受；经历",
+                "context": "熬过一段痛苦岁月"
+              }
+            ]
           },
           {
             "phrase": "made it clear to him that",
-            "score": 1,
-            "guide": "make it clear 形式宾语结构，that 从句为真正宾语，译为‘让他深刻明白’"
+            "score": 0.5,
+            "guide": "it 为形式宾语，译为“使他清楚地认识到……”。",
+            "vocab": []
           },
           {
             "phrase": "sustainability-oriented values must be expressed through everyday action and choice",
-            "score": 1.5,
-            "guide": "复合形容词 sustainability-oriented 译为‘以可持续发展为导向的’，被动语态转化为主动表达‘体现出来’"
+            "score": 1.0,
+            "guide": "-oriented 译为“以……为导向的”；be expressed through 译为“通过……来体现/表达”。",
+            "vocab": []
           }
         ],
-        "grammar_breakdown": "现在分词完成时短语作主语，谓语动词为 made，it 为形式宾语，that 引导真正宾语从句。"
+        "grammar_breakdown": "动名词完成式主语 + make it clear to sb. that...（形式宾语 + 宾语从句），是2010年核心长难句。",
+        "reassembly_notes": "将超长动名词主语拆分成独立分句“他曾在……岁月，这段经历让他深切明白：”。"
       },
       {
         "sid": 3,
         "pid": 1,
         "en": "Ning recalls spending a confusing year in the late 1990s selling insurance.",
-        "cn": "宁回忆起20世纪90年代末卖保险度过的那段迷茫岁月。",
-        "scoring_points": [
+        "slashed_text": "Ning recalls / spending a confusing year / in the late 1990s / selling insurance.",
+        "chunk_translation": "宁回忆起 / 度过令人困惑的一年 / 在上世纪90年代末 / 靠卖保险。",
+        "literal_cn": "宁回忆起上世纪90年代末卖保险度过的令人困惑的一年。",
+        "refined_cn": "宁回忆起上世纪90年代末自己推销保险的那段迷茫岁月。",
+        "cn": "宁回忆起上世纪90年代末自己推销保险的那段迷茫岁月。",
+        "syntax_points": [
           {
-            "phrase": "Ning recalls spending a confusing year in the late 1990s",
-            "score": 1,
-            "guide": "recall doing sth 结构，confusing year 译为‘迷茫岁月/困惑的一年’，in the late 1990s 译为‘在20世纪90年代末’"
+            "label": "句子主干",
+            "text": "Ning recalls spending...；recall doing sth. 回忆起做过某事。"
           },
           {
-            "phrase": "selling insurance",
-            "score": 0.5,
-            "guide": "现在分词作伴随状语，译为‘做保险推销/卖保险’"
+            "label": "搭配结构",
+            "text": "spend time (in) doing sth. 花费时间做某事（selling insurance 与 spending 构成动宾搭配）。"
           }
         ],
-        "grammar_breakdown": "recall 后接动名词短语 spending 作宾语，selling insurance 为伴随状语。"
+        "vocab_points": [
+          {
+            "term": "in the late 1990s",
+            "note": "在20世纪90年代末。"
+          },
+          {
+            "term": "selling insurance",
+            "note": "推销保险，卖保险。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "recalls spending a confusing year... selling insurance",
+            "score": 1.0,
+            "guide": "recall doing 译为“回忆起”；confusing 译为“令人困惑的/迷茫的”。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "recall doing sth. 内嵌 spend time doing sth. 结构。",
+        "reassembly_notes": "将时间状语 in the late 1990s 提到前面修饰“推销保险的迷茫岁月”。"
       },
       {
         "sid": 4,
         "pid": 1,
         "en": "He'd been through the dot-com boom and burst and, desperate for a job, signed on with a Boulder agency.",
-        "cn": "在经历了互联网泡沫的兴盛与破灭后，迫切渴望一份工作的他签约了博尔德的一家代理机构。",
+        "slashed_text": "He'd been through the dot-com boom and burst / and, / desperate for a job, / signed on with a Boulder agency.",
+        "chunk_translation": "他经历过互联网泡沫的兴起与破灭 / 而且， / 急需一份工作， / 签约了一家博尔德的代理机构。",
+        "literal_cn": "他经历过互联网泡沫的兴起与破灭，而且急需一份工作，于是签约了一家博尔德的代理机构。",
+        "refined_cn": "当时他刚经历了互联网行业的繁荣与泡沫破灭，急于谋求一份生计，便签约加入了博尔德当地的一家保险代理公司。",
+        "cn": "当时他刚经历了互联网行业的繁荣与泡沫破灭，急于谋求一份生计，便签约加入了博尔德当地的一家保险代理公司。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "He 为主语，谓语由 had been through 和 signed on 构成并列。"
+          },
+          {
+            "label": "插入状语",
+            "text": "desperate for a job 为形容词短语作原因状语，置于主谓之间起补充说明作用。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "dot-com boom and burst",
+            "note": "互联网经济的繁荣与泡沫破灭（dot-com 指网络公司）。"
+          },
+          {
+            "term": "desperate for",
+            "note": "极度渴望……，急需……。"
+          },
+          {
+            "term": "sign on with",
+            "note": "与……签约受雇。"
+          }
+        ],
         "scoring_points": [
           {
-            "phrase": "He'd been through the dot-com boom and burst",
-            "score": 1,
-            "guide": "dot-com boom and burst 准确翻译为‘互联网泡沫的繁荣与破裂/兴盛与破灭’"
+            "phrase": "dot-com boom and burst",
+            "score": 1.0,
+            "guide": "dot-com 指互联网/网络公司；boom and burst 译为“繁荣与破灭”。",
+            "vocab": [
+              {
+                "word": "boom",
+                "pos": "n.",
+                "common": "繁荣；激增",
+                "context": "互联网热潮"
+              }
+            ]
           },
           {
             "phrase": "desperate for a job, signed on with a Boulder agency",
-            "score": 1,
-            "guide": "desperate for a job 形容词短语作状语表原因‘迫切渴望工作’，signed on with 签约加盟"
+            "score": 1.0,
+            "guide": "desperate for 译为“急需/迫切想要”；sign on with 译为“签约加入”。",
+            "vocab": []
           }
         ],
-        "grammar_breakdown": "过去完成时 had been through 与一般过去时 signed 并列，desperate for a job 为形容词短语作插入状语。"
+        "grammar_breakdown": "过去完成时接并列谓语，中间插入形容词短语作原因状语。",
+        "reassembly_notes": "将 agency 结合上文语境具体译为“保险代理公司”。"
       },
       {
         "sid": 5,
         "pid": 2,
-        "en": "\"It was a really bad move because that's not my passion,\" says Ning, whose dilemma about the job translated, predictably, into a lack of sales.",
-        "cn": "“这真是一次糟糕的抉择，因为那并不是我的热情所在，”宁说道。他在工作上的进退维谷正如预料的那样转化为业绩惨淡。",
-        "scoring_points": [
+        "en": "It didn't go well.",
+        "slashed_text": "It / didn't go well.",
+        "chunk_translation": "事情 / 进展得并不顺利。",
+        "literal_cn": "事情进展得并不顺利。",
+        "refined_cn": "然而一切并不顺利。",
+        "cn": "然而一切并不顺利。",
+        "syntax_points": [
           {
-            "phrase": "It was a really bad move because that's not my passion",
-            "score": 1,
-            "guide": "bad move 译为‘糟糕的举措/抉择’，passion 译为‘热情/热爱所在’"
-          },
-          {
-            "phrase": "whose dilemma about the job translated, predictably, into a lack of sales",
-            "score": 1.5,
-            "guide": "whose 引导非限制性定语从句，translate into 转化/导致，predictably 插入语‘不出所料/正如预料的那样’"
+            "label": "句子主干",
+            "text": "主谓状简短过渡句，it 泛指工作或整体状况。"
           }
         ],
-        "grammar_breakdown": "whose 引导定语从句修饰 Ning，从句中 dilemma 为主语，translated 为谓语动词。"
+        "vocab_points": [
+          {
+            "term": "go well",
+            "note": "进展顺利。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "It didn't go well",
+            "score": 0.5,
+            "guide": "译为“事情进展得并不顺利/一切并不顺利”。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "承上启下的段落主题短句。",
+        "reassembly_notes": "可适当加连词“然而”衔接前一段。"
       },
       {
         "sid": 6,
         "pid": 2,
-        "en": "\"I was miserable. I had so much anxiety that I would wake up in the middle of the night and stare at the ceiling. I had no money and needed the job.",
-        "cn": "“我感到痛苦不堪。我焦虑到半夜醒来呆呆盯着天花板。我身无分文却急需这份工作。",
-        "scoring_points": [
+        "en": "\"It was a really bad move because that's not my passion,\" says Ning, whose dilemma about the job translated, predictably, into a lack of sales.",
+        "slashed_text": "\"It was a really bad move / because that's not my passion,\" / says Ning, / [whose dilemma about the job translated, predictably, / into a lack of sales].",
+        "chunk_translation": "“那真是一个糟糕的举动 / 因为那不是我的热爱所在，” / 宁说道， / 他对这份工作的进退两难不出所料地转化成了 / 销售业绩的匮乏。",
+        "literal_cn": "“那真是一个糟糕的举动，因为那不是我的热爱所在，”宁说道，他对这份工作的进退两难不出所料地转化成了销售业绩的匮乏。",
+        "refined_cn": "“那步棋走得实在太糟了，因为我对此毫无热情可言，”宁坦言道。他对这份工作内心纠结，不出所料地直接体现在了惨淡的业绩上。",
+        "cn": "“那步棋走得实在太糟了，因为我对此毫无热情可言，”宁坦言道。他对这份工作内心纠结，不出所料地直接体现在了惨淡的业绩上。",
+        "syntax_points": [
           {
-            "phrase": "\"I was miserable. I had so much anxiety that",
-            "score": 1,
-            "guide": "so much anxiety that 结果状语从句，译为‘我感到痛苦不堪。我焦虑到’"
+            "label": "句子主干",
+            "text": "倒装引述句 says Ning + 直接引语（含 because 原因从句）。"
           },
           {
-            "phrase": "I would wake up in the middle of the night and stare at the ceiling.",
-            "score": 1,
-            "guide": "stare at the ceiling 形象翻译为‘半夜醒来呆呆盯着天花板’"
-          },
-          {
-            "phrase": "I had no money and needed the job.\"",
-            "score": 0.5,
-            "guide": "并列句顺译为‘我身无分文却急需这份工作。’"
+            "label": "非限定从",
+            "text": "whose 引导非限制性定语从句修饰 Ning，其中 predictably 为插入副词修饰 translated into。"
           }
         ],
-        "grammar_breakdown": "so much anxiety that 引导结果状语从句，描述极度焦虑的心理状态。"
+        "vocab_points": [
+          {
+            "term": "bad move",
+            "note": "糟糕的一步棋，错误决定。"
+          },
+          {
+            "term": "dilemma",
+            "note": "进退两难的窘境，内心纠结。"
+          },
+          {
+            "term": "translate into",
+            "note": "转化为，直接导致，体现在（熟词高频搭配）。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "a really bad move because that's not my passion",
+            "score": 1.0,
+            "guide": "bad move 译为“糟糕的决定/步棋走糟了”；passion 译为“热情/热爱”。",
+            "vocab": []
+          },
+          {
+            "phrase": "whose dilemma about the job translated, predictably, into a lack of sales",
+            "score": 1.5,
+            "guide": "dilemma 译为“进退两难/纠结”；translate into 译为“转化为/导致”；a lack of sales 译为“销售业绩匮乏/惨淡”。",
+            "vocab": [
+              {
+                "word": "dilemma",
+                "pos": "n.",
+                "common": "进退两难；窘境",
+                "context": "想放弃又缺钱的纠结处境"
+              }
+            ]
+          }
+        ],
+        "grammar_breakdown": "直接引语 + 倒装主句 + whose 引导非限制性定语从句（含插入语 predictably）。",
+        "reassembly_notes": "将 whose 非限定从另起一句顺译，并将 predictably 提前。"
       },
       {
         "sid": 7,
         "pid": 2,
-        "en": "Everyone said, 'Just wait, you'll turn the corner, give it some time.'\"",
-        "cn": "每个人都说：‘等等看吧，情况总会好转的，给它一点时间。’\"",
-        "scoring_points": [
+        "en": "\"I was miserable.",
+        "slashed_text": "\"I / was miserable.",
+        "chunk_translation": "“我当时 / 非常痛苦。",
+        "literal_cn": "“我当时非常痛苦。",
+        "refined_cn": "“那时我痛苦不堪，",
+        "cn": "“那时我痛苦不堪。",
+        "syntax_points": [
           {
-            "phrase": "turn the corner",
-            "score": 1,
-            "guide": "固定习语 turn the corner，意为‘走出困境/迎来转机/情况好转’"
+            "label": "句子主干",
+            "text": "简单主系表结构，表达强烈消极情绪。"
           }
         ],
-        "grammar_breakdown": "直接引语，turn the corner 为考研核心成语表达。"
+        "vocab_points": [
+          {
+            "term": "miserable",
+            "note": "痛苦的，悲惨的，极其难受的。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "I was miserable",
+            "score": 0.5,
+            "guide": "miserable 译为“痛苦不堪/非常难受”。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "直接引语内的主系表短句。",
+        "reassembly_notes": "可顺接下一句合并断句，增强叙述连贯性。"
+      },
+      {
+        "sid": 8,
+        "pid": 2,
+        "en": "I had so much anxiety that I would wake up in the middle of the night and stare at the ceiling.",
+        "slashed_text": "I had so much anxiety / that I would wake up in the middle of the night / and stare at the ceiling.",
+        "chunk_translation": "我如此焦虑 / 以至于经常在半夜醒来 / 并盯着天花板。",
+        "literal_cn": "我如此焦虑，以至于经常在半夜醒来盯着天花板。",
+        "refined_cn": "焦虑到常常半夜惊醒，睁眼盯着天花板发呆。",
+        "cn": "我焦虑到常常半夜惊醒，睁眼盯着天花板发呆。",
+        "syntax_points": [
+          {
+            "label": "特殊句式",
+            "text": "so... that... 引导结果状语从句；would 表示过去常常发生的习惯性动作。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "anxiety",
+            "note": "焦虑，忧虑。"
+          },
+          {
+            "term": "stare at the ceiling",
+            "note": "盯着天花板（形容失眠苦恼）。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "so much anxiety that I would wake up in the middle of the night",
+            "score": 1.0,
+            "guide": "so... that... 译为“如此焦虑以至于……”；would 译出“经常/常常”。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "so... that... 结果状语从句 + 过去习惯助动词 would。",
+        "reassembly_notes": "“stare at the ceiling”适当增补“睁眼盯着天花板发呆”，画面感更强。"
+      },
+      {
+        "sid": 9,
+        "pid": 2,
+        "en": "I had no money and needed the job.",
+        "slashed_text": "I had no money / and needed the job.",
+        "chunk_translation": "我身无分文 / 又需要这份工作。",
+        "literal_cn": "我身无分文，又需要这份工作。",
+        "refined_cn": "我手头拮据，偏偏又离不开这份工作。",
+        "cn": "我手头拮据，偏偏又离不开这份工作。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "并列谓语动词 had 和 needed，交代不得不留下的现实原因。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "had no money",
+            "note": "身无分文，手头拮据。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "I had no money and needed the job",
+            "score": 0.5,
+            "guide": "译为“我手头没钱，又需要这份工作”。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "简明并列谓语句，与前文“痛苦焦虑”形成因果窘境。",
+        "reassembly_notes": "用“偏偏又”衔接，凸显现实无奈。"
+      },
+      {
+        "sid": 10,
+        "pid": 2,
+        "en": "Everyone said, 'Just wait, you'll turn the corner, give it some time.'\"",
+        "slashed_text": "Everyone said, / 'Just wait, / you'll turn the corner, / give it some time.'\"",
+        "chunk_translation": "每个人都说： / ‘再等等， / 你很快就会迎来转机的， / 多给它一点时间。’”",
+        "literal_cn": "每个人都说：‘再等等，你很快就会渡过难关的，多给它一点时间。’”",
+        "refined_cn": "身边的人都宽慰我说：‘再忍忍，很快就会迎来转机的，多熬一段时间就好了。’”",
+        "cn": "身边的人都宽慰我说：‘再忍忍，很快就会迎来转机的，多熬一段时间就好了。’”",
+        "syntax_points": [
+          {
+            "label": "引号嵌套",
+            "text": "双引号内嵌套单引号引述他人原话，包含祈使句和将来时陈述句。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "turn the corner",
+            "note": "出现转机，渡过难关，形势好转（高频习语，切忌直译“拐弯”）。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "you'll turn the corner, give it some time",
+            "score": 1.0,
+            "guide": "turn the corner 必须意译为“渡过难关/迎来转机/情况好转”。",
+            "vocab": [
+              {
+                "word": "turn the corner",
+                "pos": "idiom",
+                "common": "渡过难关；出现转机",
+                "context": "摆脱业绩低谷"
+              }
+            ]
+          }
+        ],
+        "grammar_breakdown": "双层引语结构，核心得分点在于习语 turn the corner。",
+        "reassembly_notes": "将 said 结合语境润色为“宽慰我说”。"
       }
     ]
   }

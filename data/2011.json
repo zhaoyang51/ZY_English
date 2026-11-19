@@ -8492,7 +8492,9 @@
     "points": 15,
     "directions": "Translate the following text into Chinese. Write your translation on the ANSWER SHEET. (15 points)",
     "source_text": "Who would have thought that, globally, the IT industry produces about the same volume of greenhouse gases as the world's airlines do - roughly 2 percent of all human emissions?\n\nMany everyday tasks take a surprising toll on the environment. A Google search can leak between 0.2 and 7.0 grams of CO2, depending on how many attempts are needed to get the \"right\" answer. To deliver results to its users quickly, then, Google has to maintain huge data centres around the world, packed with thousands of computers. It also needs to run air conditioning to keep them from overheating, which consumes a large amount of electricity.\n\nHowever, Google and other big tech providers monitor their efficiency closely and make improvements. Monitoring is the first step on the road to reduction, but there is much more to be done, and not just by tech companies.",
-    "reference_translation": "谁曾想到，在全球范围内，IT行业产生的温室气体排放量竟然与全球航空业相当——大约占人类排放总量的2%？\n\n许多日常活动对环境造成了令人惊讶的破坏。一次谷歌搜索会释放出0.2至7.0克二氧化碳，具体取决于获取“正确”答案所需的搜索次数。因此，为了向用户快速返回结果，谷歌必须在全球范围内运营庞大的数据中心，里面挤满了成千上万台计算机。它还需要开动空调防止计算机过热，这会消耗大量的电力。\n\n然而，谷歌和其他大型科技供应商密切监控其能效并积极加以改进。监控是走向减排道路上的第一步，但仍有大量工作需要去完成，而且不仅局限于科技公司。",
+    "full_literal_translation": "谁会想到，在全球范围内，IT行业产生的温室气体量与世界航空业大致相同——约占人类全部排放量的2%？\n\n许多日常任务都会对环境造成惊人的损害。一次谷歌搜索可能会释放0.2到7.0克二氧化碳，这取决于需要尝试多少次才能得到“正确”答案。那么，为了迅速向用户提供结果，谷歌必须在世界各地维持庞大的数据中心，里面塞满了成千上万台计算机。它还需要运行空调来防止它们过热，这会消耗大量电力。\n\n然而，谷歌和其他大型科技服务商密切监控他们的效率并作出改进。监控是走向减排之路的第一步，但还有更多事情要做，而且不仅仅是科技公司要做。",
+    "full_refined_translation": "谁能想到，放眼全球，信息技术产业排放的温室气体总量竟与世界航空业相当——大约占人类碳排放总量的2%？\n\n许多看似寻常的日常操作，实则都会对环境造成惊人的损耗。用谷歌搜索一次，就可能产生0.2至7.0克不等的二氧化碳，具体排量取决于用户需要尝试多少次才能找到“满意”的答案。相应地，为了向用户快速呈现搜索结果，谷歌不得不在世界各地维系庞大的数据中心，里面密密麻麻地装有成千上万台计算机。同时，为了防止设备过热，数据中心还必须持续开启空调降温，这无疑会消耗海量电力。\n\n不过，谷歌及其他大型科技企业都在严密监测自身的能源效率，并持续加以改进。监测固然是迈向减排的第一步，但未来仍有大量工作亟待推进——而这绝不仅仅是科技公司的责任。",
+    "reference_translation": "谁能想到，放眼全球，信息技术产业排放的温室气体总量竟与世界航空业相当——大约占人类碳排放总量的2%？\n\n许多看似寻常的日常操作，实则都会对环境造成惊人的损耗。用谷歌搜索一次，就可能产生0.2至7.0克不等的二氧化碳，具体排量取决于用户需要尝试多少次才能找到“满意”的答案。相应地，为了向用户快速呈现搜索结果，谷歌不得不在世界各地维系庞大的数据中心，里面密密麻麻地装有成千上万台计算机。同时，为了防止设备过热，数据中心还必须持续开启空调降温，这无疑会消耗海量电力。\n\n不过，谷歌及其他大型科技企业都在严密监测自身的能源效率，并持续加以改进。监测固然是迈向减排的第一步，但未来仍有大量工作亟待推进——而这绝不仅仅是科技公司的责任。",
     "paragraphs": [
       {
         "pid": 0,
@@ -8512,134 +8514,317 @@
         "sid": 1,
         "pid": 0,
         "en": "Who would have thought that, globally, the IT industry produces about the same volume of greenhouse gases as the world's airlines do - roughly 2 percent of all human emissions?",
-        "cn": "谁曾想到，在全球范围内，IT行业产生的温室气体排放量竟然与全球航空业相当——大约占人类排放总量的2%？",
-        "scoring_points": [
+        "slashed_text": "Who would have thought / that, globally, / the IT industry produces about the same volume of greenhouse gases / as the world's airlines do / - roughly 2 percent of all human emissions?",
+        "chunk_translation": "谁会想到 / 在全球范围内， / IT行业产生的温室气体量大致相同 / 与世界航空业一样 / ——约占人类全部排放量的2%？",
+        "literal_cn": "谁会想到，在全球范围内，IT行业产生的温室气体量与世界航空业大致相同——约占人类全部排放量的2%？",
+        "refined_cn": "谁能想到，放眼全球，信息技术产业排放的温室气体总量竟与世界航空业相当——大约占人类碳排放总量的2%？",
+        "cn": "谁能想到，放眼全球，信息技术产业排放的温室气体总量竟与世界航空业相当——大约占人类碳排放总量的2%？",
+        "syntax_points": [
           {
-            "phrase": "Who would have thought that, globally, the IT industry produces",
-            "score": 1,
-            "guide": "反问句型准确译为‘谁会想到/谁曾料想…’，插入语与宾语从句主干准确对齐"
+            "label": "句子主干",
+            "text": "Who would have thought that...（反问句引出宾语从句）。"
           },
           {
-            "phrase": "about the same volume of greenhouse gases as the world's airlines do",
-            "score": 1.5,
-            "guide": "the same... as 比较结构，译为‘与全球航空业相当的温室气体排放量’"
-          },
-          {
-            "phrase": "- roughly 2 percent of all human emissions?",
-            "score": 0.5,
-            "guide": "roughly 译为‘大约/约’，破折号后作同位补充说明"
+            "label": "比较与同位",
+            "text": "the same... as... 同级比较结构（do 代替前面的 produces）；破折号后为同位语，具体解释温室气体排放量的占比。"
           }
         ],
-        "grammar_breakdown": "特殊疑问句作主句，that 引导宾语从句，从句内部包含 the same... as 比较结构与破折号同位解释语。"
+        "vocab_points": [
+          {
+            "term": "greenhouse gases",
+            "note": "温室气体。"
+          },
+          {
+            "term": "do",
+            "note": "代动词，代替前文的 produces，避免重复。"
+          },
+          {
+            "term": "emissions",
+            "note": "排放物，碳排放量。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "the same volume of greenhouse gases as the world's airlines do",
+            "score": 1.5,
+            "guide": "the same... as... 译为“与……大致相同/相当”；do 代替 produces；greenhouse gases 译为“温室气体”。",
+            "vocab": []
+          },
+          {
+            "phrase": "roughly 2 percent of all human emissions",
+            "score": 0.5,
+            "guide": "roughly 译为“大约”；emissions 译为“排放量”。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "反问句 + that 宾语从句（含 globally 插入语及 the same... as... 比较结构）+ 破折号同位解释。",
+        "reassembly_notes": "do 作为代动词在中文里可直接省略或译为“相当”，无需机械译出“做”。"
       },
       {
         "sid": 2,
         "pid": 1,
         "en": "Many everyday tasks take a surprising toll on the environment.",
-        "cn": "许多日常活动对环境造成了令人惊讶的破坏。",
+        "slashed_text": "Many everyday tasks / take a surprising toll on / the environment.",
+        "chunk_translation": "许多日常任务 / 会造成惊人的损害 / 对环境。",
+        "literal_cn": "许多日常任务都会对环境造成惊人的损害。",
+        "refined_cn": "许多看似寻常的日常操作，实则都会对环境造成惊人的损耗。",
+        "cn": "许多看似寻常的日常操作，实则都会对环境造成惊人的损耗。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "Many everyday tasks 为主语，take a... toll on 为谓语动词词组，the environment 为宾语。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "take a toll on",
+            "note": "对……造成损失/损害/不良影响（考研超高频固定搭配）。"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "take a surprising toll on the environment",
             "score": 1.5,
-            "guide": "take a toll on 为考研核心短语，译为‘对…造成损失/破坏/产生不利影响’"
+            "guide": "take a toll on 译为“对……造成损害/损耗/破坏”，不可直译“收费”。",
+            "vocab": [
+              {
+                "word": "toll",
+                "pos": "n.",
+                "common": "代价；损失；伤亡人数",
+                "context": "take a toll on 对环境造成损耗"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "简单句，主干为 Many everyday tasks take a toll on the environment。"
+        "grammar_breakdown": "段落主题句，核心考察固定搭配 take a toll on。",
+        "reassembly_notes": "将 on the environment 前置译为“对环境造成惊人的损耗”。"
       },
       {
         "sid": 3,
         "pid": 1,
         "en": "A Google search can leak between 0.2 and 7.0 grams of CO2, depending on how many attempts are needed to get the \"right\" answer.",
-        "cn": "一次谷歌搜索会释放出0.2至7.0克二氧化碳，具体取决于获取“正确”答案所需的搜索次数。",
-        "scoring_points": [
+        "slashed_text": "A Google search / can leak between 0.2 and 7.0 grams of CO2, / depending on / how many attempts are needed / to get the \"right\" answer.",
+        "chunk_translation": "一次谷歌搜索 / 可能会释放0.2到7.0克二氧化碳， / 这取决于 / 需要多少次尝试 / 才能得到“正确”答案。",
+        "literal_cn": "一次谷歌搜索可能会释放0.2到7.0克二氧化碳，这取决于需要尝试多少次才能得到“正确”答案。",
+        "refined_cn": "用谷歌搜索一次，就可能产生0.2至7.0克不等的二氧化碳，具体排量取决于用户需要尝试多少次才能找到“满意”的答案。",
+        "cn": "用谷歌搜索一次，就可能产生0.2至7.0克不等的二氧化碳，具体排量取决于用户需要尝试多少次才能找到“满意”的答案。",
+        "syntax_points": [
           {
-            "phrase": "A Google search can leak between 0.2 and 7.0 grams of CO2,",
-            "score": 1,
-            "guide": "主谓宾结构：leak 引申翻译为‘释放/排放’，译为‘一次谷歌搜索会释放出0.2至7.0克二氧化碳’"
+            "label": "句子主干",
+            "text": "A Google search can leak... CO2。"
           },
           {
-            "phrase": "depending on how many attempts are needed to get the \"right\" answer.",
-            "score": 1.5,
-            "guide": "depending on 作状语，译为‘具体取决于获取“正确”答案所需的搜索尝试次数’"
+            "label": "状语成分",
+            "text": "depending on... 为现在分词短语作条件/伴随状语，后接 how many 引导的宾语从句；to get... 为目的状语。"
           }
         ],
-        "grammar_breakdown": "主句 + depending on 引导的现在分词短语作状语，内含 how many attempts are needed 宾语从句。"
+        "vocab_points": [
+          {
+            "term": "leak",
+            "note": "泄漏，释放，排出（二氧化碳）。"
+          },
+          {
+            "term": "attempts",
+            "note": "尝试，检索次数。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "leak between 0.2 and 7.0 grams of CO2",
+            "score": 1.0,
+            "guide": "leak 译为“释放/产生/排出”。",
+            "vocab": []
+          },
+          {
+            "phrase": "depending on how many attempts are needed to get the \"right\" answer",
+            "score": 1.0,
+            "guide": "depending on 译为“取决于”；被动语态可转主动“需要多少次尝试”。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "主句 + 现在分词短语作状语（内嵌 how many 宾语从句）。",
+        "reassembly_notes": "“right”带引号表示用户主观认为“合适/满意”的答案。"
       },
       {
         "sid": 4,
         "pid": 1,
         "en": "To deliver results to its users quickly, then, Google has to maintain huge data centres around the world, packed with thousands of computers.",
-        "cn": "因此，为了向用户快速返回结果，谷歌必须在全球范围内运营庞大的数据中心，里面挤满了成千上万台计算机。",
+        "slashed_text": "To deliver results to its users quickly, / then, / Google has to maintain huge data centres around the world, / [packed with thousands of computers].",
+        "chunk_translation": "为了迅速向用户提供结果， / 那么， / 谷歌必须在世界各地维持庞大的数据中心， / 里面装满了成千上万台计算机。",
+        "literal_cn": "那么，为了迅速向用户提供结果，谷歌必须在世界各地维持庞大的数据中心，里面塞满了成千上万台计算机。",
+        "refined_cn": "相应地，为了向用户快速呈现搜索结果，谷歌不得不在世界各地维系庞大的数据中心，里面密密麻麻地装有成千上万台计算机。",
+        "cn": "相应地，为了向用户快速呈现搜索结果，谷歌不得不在世界各地维系庞大的数据中心，里面密密麻麻地装有成千上万台计算机。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "Google has to maintain huge data centres around the world。"
+          },
+          {
+            "label": "修饰成分",
+            "text": "句首不定式 To deliver... 作目的状语；then 为逻辑衔接副词（“那么/相应地”）；句末过去分词短语 packed with... 作后置定语/补充状语，修饰 data centres。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "deliver results",
+            "note": "返回/呈现搜索结果。"
+          },
+          {
+            "term": "packed with",
+            "note": "塞满，装满，密布着。"
+          }
+        ],
         "scoring_points": [
           {
             "phrase": "To deliver results to its users quickly",
-            "score": 1,
-            "guide": "不定式作目的状语，译为‘为了向其用户迅速提供结果/返回结果’"
+            "score": 0.5,
+            "guide": "不定式表目的，译为“为了快速向用户呈现/提供结果”。",
+            "vocab": []
           },
           {
-            "phrase": "maintain huge data centres",
-            "score": 1,
-            "guide": "maintain 结合语境翻译为‘维持/运营/维护’"
-          },
-          {
-            "phrase": "packed with thousands of computers",
-            "score": 1,
-            "guide": "过去分词短语作后置定语，修饰 data centres，译为‘容纳/塞满了成千上万台计算机’"
+            "phrase": "maintain huge data centres around the world, packed with thousands of computers",
+            "score": 1.5,
+            "guide": "maintain 译为“维持/维护”；packed with 译为“装满/密布着……”。",
+            "vocab": [
+              {
+                "word": "packed",
+                "pos": "adj.",
+                "common": "挤满的；装满的",
+                "context": "数据中心里装满计算机"
+              }
+            ]
           }
         ],
-        "grammar_breakdown": "不定式短语放句首作目的状语，then 为插入语，packed with... 过去分词短语作后置定语。"
+        "grammar_breakdown": "目的状语前置 + 主谓宾 + 过去分词短语后置补充说明。",
+        "reassembly_notes": "then 在句中作承接副词，移至句首译为“相应地/那么”；packed with 顺译补充“里面装有……”。"
       },
       {
         "sid": 5,
         "pid": 1,
         "en": "It also needs to run air conditioning to keep them from overheating, which consumes a large amount of electricity.",
-        "cn": "它还需要开动空调防止计算机过热，这会消耗大量的电力。",
+        "slashed_text": "It also needs to run air conditioning / to keep them from overheating, / [which consumes a large amount of electricity].",
+        "chunk_translation": "它还需要运行空调 / 来防止它们过热， / 这会消耗大量电力。",
+        "literal_cn": "它还需要运行空调来防止它们过热，这会消耗大量电力。",
+        "refined_cn": "同时，为了防止设备过热，数据中心还必须持续开启空调降温，这无疑会消耗海量电力。",
+        "cn": "同时，为了防止设备过热，数据中心还必须持续开启空调降温，这无疑会消耗海量电力。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "It also needs to run air conditioning；to keep them from overheating 作目的状语。"
+          },
+          {
+            "label": "非限定从",
+            "text": "which 引导非限制性定语从句，指代前面“运行空调降温”这件事。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "keep... from overheating",
+            "note": "防止……过热（keep... from doing 阻止……发生）。"
+          },
+          {
+            "term": "consume",
+            "note": "消耗，耗费。"
+          }
+        ],
         "scoring_points": [
           {
-            "phrase": "keep them from overheating",
-            "score": 1,
-            "guide": "keep ... from doing 阻止/防止…过热"
+            "phrase": "run air conditioning to keep them from overheating",
+            "score": 1.0,
+            "guide": "run air conditioning 译为“运行空调/开启空调”；keep... from overheating 译为“防止它们/设备过热”。",
+            "vocab": []
           },
           {
             "phrase": "which consumes a large amount of electricity",
-            "score": 1,
-            "guide": "which 引导非限制性定语从句，指代整个开空调的过程，顺译为‘这消耗了大量电力’"
+            "score": 0.5,
+            "guide": "which 指代前句整件事，译为“这会消耗大量电力”。",
+            "vocab": []
           }
         ],
-        "grammar_breakdown": "which 引导非限制性定语从句，修饰前半句整个事件。"
+        "grammar_breakdown": "主句 + 目的状语 + which 引导非限制性定语从句。",
+        "reassembly_notes": "It 和 them 结合上下文具体化为“数据中心”和“设备”。"
       },
       {
         "sid": 6,
         "pid": 2,
         "en": "However, Google and other big tech providers monitor their efficiency closely and make improvements.",
-        "cn": "然而，谷歌和其他大型科技供应商密切监控其能效并积极加以改进。",
-        "scoring_points": [
+        "slashed_text": "However, / Google and other big tech providers / monitor their efficiency closely / and make improvements.",
+        "chunk_translation": "然而， / 谷歌和其他大型科技服务商 / 密切监控他们的效率 / 并作出改进。",
+        "literal_cn": "然而，谷歌和其他大型科技服务商密切监控他们的效率并作出改进。",
+        "refined_cn": "不过，谷歌及其他大型科技企业都在严密监测自身的能源效率，并持续加以改进。",
+        "cn": "不过，谷歌及其他大型科技企业都在严密监测自身的能源效率，并持续加以改进。",
+        "syntax_points": [
           {
-            "phrase": "monitor their efficiency closely",
-            "score": 1,
-            "guide": "密切监控其效率/能源利用率"
+            "label": "句子主干",
+            "text": "However 转折，主语为 Google and other big tech providers，并列谓语为 monitor 和 make。"
           }
         ],
-        "grammar_breakdown": "However 转折副词，并列谓语 monitor 与 make improvements。"
+        "vocab_points": [
+          {
+            "term": "monitor... closely",
+            "note": "严密监测，密切监控。"
+          },
+          {
+            "term": "efficiency",
+            "note": "效率（此处结合环保语境指能源利用效率）。"
+          }
+        ],
+        "scoring_points": [
+          {
+            "phrase": "monitor their efficiency closely and make improvements",
+            "score": 1.0,
+            "guide": "monitor closely 译为“密切监控/严密监测”；make improvements 译为“作出改进”。",
+            "vocab": []
+          }
+        ],
+        "grammar_breakdown": "转折并列谓语简单句。",
+        "reassembly_notes": "efficiency 结合上下文增补译为“能源效率”。"
       },
       {
         "sid": 7,
         "pid": 2,
         "en": "Monitoring is the first step on the road to reduction, but there is much more to be done, and not just by tech companies.",
-        "cn": "监控是走向减排道路上的第一步，但仍有大量工作需要去完成，而且不仅局限于科技公司。",
+        "slashed_text": "Monitoring is the first step / on the road to reduction, / but there is much more to be done, / and not just by tech companies.",
+        "chunk_translation": "监控是第一步 / 在通往减排的道路上， / 但还有更多事情要做， / 而且不仅仅由科技公司来做。",
+        "literal_cn": "监控是走向减排之路的第一步，但还有更多事情要做，而且不仅仅是科技公司要做。",
+        "refined_cn": "监测固然是迈向减排的第一步，但未来仍有大量工作亟待推进——而这绝不仅仅是科技公司的责任。",
+        "cn": "监测固然是迈向减排的第一步，但未来仍有大量工作亟待推进——而这绝不仅仅是科技公司的责任。",
+        "syntax_points": [
+          {
+            "label": "句子主干",
+            "text": "but 连接的并列句。前句为 Monitoring is the first step...；后句为 there be 句型 + 不定式被动式 to be done 作后置定语。"
+          },
+          {
+            "label": "省略收束",
+            "text": "and not just by tech companies 承前省略了 to be done，起强调范围的作用。"
+          }
+        ],
+        "vocab_points": [
+          {
+            "term": "on the road to reduction",
+            "note": "在走向减排的道路上（to 为介词）。"
+          },
+          {
+            "term": "not just by...",
+            "note": "不仅仅由……（承担/完成）。"
+          }
+        ],
         "scoring_points": [
           {
-            "phrase": "on the road to reduction",
-            "score": 1,
-            "guide": "隐喻顺译为‘走向减排的道路上’"
+            "phrase": "the first step on the road to reduction",
+            "score": 1.0,
+            "guide": "reduction 结合前文碳排放语境译为“减排”；译为“走向减排之路的第一步”。",
+            "vocab": []
           },
           {
             "phrase": "there is much more to be done, and not just by tech companies",
-            "score": 1.5,
-            "guide": "there be 句型与被动不定式，not just by 译为‘不仅限于科技公司’"
+            "score": 1.0,
+            "guide": "to be done 译为“要做/亟待推进”；not just by tech companies 译为“不仅仅需要科技公司来做”。",
+            "vocab": []
           }
         ],
-        "grammar_breakdown": "but 连接两个并列主句，后半句包含 there be 句型与省略的并列介词短语。"
+        "grammar_breakdown": "转折并列句 + there is... to be done + 省略式补充结构。",
+        "reassembly_notes": "句尾破折号引出“而这绝不仅仅是科技公司的责任”，点明全篇主旨，有力收尾。"
       }
     ]
   }

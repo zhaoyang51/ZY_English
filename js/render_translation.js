@@ -92,11 +92,12 @@
         return {
           showSlashes: parsed.showSlashes !== false,
           showLiteral: parsed.showLiteral !== false,
+          showRefined: parsed.showRefined !== false,
           showPoints: parsed.showPoints !== false,
           fontSize: Number(parsed.fontSize) || 17
         };
       } catch (e) {
-        return { showSlashes: true, showLiteral: true, showPoints: true, fontSize: 17 };
+        return { showSlashes: true, showLiteral: true, showRefined: true, showPoints: true, fontSize: 17 };
       }
     },
 
@@ -197,7 +198,7 @@
             </div>
           `;
         }
-        if (refinedCn) {
+        if (prefs.showRefined && refinedCn) {
           transHtml += `
             <div class="trans-line-row is-refined">
               <span class="trans-badge-tag tag-refined">${literalCn ? '精译' : '译文'}</span>
@@ -283,9 +284,7 @@
 
             ${sentenceAndChunksHtml}
 
-            <div class="trans-review-trans-block">
-              ${transHtml}
-            </div>
+            ${transHtml ? `<div class="trans-review-trans-block">${transHtml}</div>` : ''}
 
             ${pointsBlockHtml}
           </section>
@@ -295,24 +294,26 @@
       const fullLiteral = data.full_literal_translation || '';
       const fullRefined = data.full_refined_translation || data.reference_translation || '';
 
-      const fullTextCardHtml = (fullLiteral || fullRefined) ? `
+      const showFullLiteral = Boolean(prefs.showLiteral && fullLiteral);
+      const showFullRefined = Boolean(prefs.showRefined && fullRefined);
+      const fullTextCardHtml = (showFullLiteral || showFullRefined) ? `
         <div class="trans-paper-sheet trans-fulltext-sheet">
           <div class="trans-paper-toolbar">
             <div class="trans-paper-toolbar-left">
               <span class="trans-paper-heading">全文参考译文对照</span>
             </div>
             <div class="trans-paper-toolbar-right">
-              <button type="button" class="trans-mini-btn" id="btnCopyFullTrans">复制全文精译</button>
+              ${fullRefined ? '<button type="button" class="trans-mini-btn" id="btnCopyFullTrans">复制全文精译</button>' : ''}
             </div>
           </div>
           <div class="trans-fulltext-body">
-            ${(prefs.showLiteral && fullLiteral) ? `
+            ${showFullLiteral ? `
               <div class="trans-fulltext-block">
                 <div class="trans-fulltext-label"><span class="trans-badge-tag tag-literal">全文直译</span></div>
                 <div class="trans-fulltext-paras">${formatParas(fullLiteral)}</div>
               </div>
             ` : ''}
-            ${fullRefined ? `
+            ${showFullRefined ? `
               <div class="trans-fulltext-block">
                 <div class="trans-fulltext-label"><span class="trans-badge-tag tag-refined">${fullLiteral ? '全文精译' : '参考译文'}</span></div>
                 <div class="trans-fulltext-paras">${formatParas(fullRefined)}</div>
@@ -351,6 +352,13 @@
                   </span>
                 </label>
 
+                <label class="trans-switch-label" title="显示或隐藏精译对比">
+                  <span>精译对照</span>
+                  <span class="trans-switch-track ${prefs.showRefined ? 'is-on' : ''}" id="switchTransRefined">
+                    <span class="trans-switch-thumb"></span>
+                  </span>
+                </label>
+
                 <label class="trans-switch-label" title="显示或隐藏语法与词汇要点">
                   <span>语法词汇要点</span>
                   <span class="trans-switch-track ${prefs.showPoints ? 'is-on' : ''}" id="switchTransPoints">
@@ -382,6 +390,7 @@
       };
       bindToggle('switchTransSlashes', 'showSlashes');
       bindToggle('switchTransLiteral', 'showLiteral');
+      bindToggle('switchTransRefined', 'showRefined');
       bindToggle('switchTransPoints', 'showPoints');
 
       const canvasEl = container.querySelector('.trans-review-canvas');
