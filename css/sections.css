@@ -2641,3 +2641,10 @@ body.has-trans-review #mobileTabsBar {
     gap: 4px;
   }
 }
+
+#practiceModeBtn:disabled,
+#reviewModeBtn:disabled {
+  opacity: 0.42;
+  cursor: not-allowed;
+  pointer-events: none;
+}

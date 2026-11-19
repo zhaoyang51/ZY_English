@@ -67,22 +67,14 @@
       if (!transData) return;
       this.currentData = transData;
       this.currentYear = year;
-      this.currentMode = mode || 'practice';
+      this.currentMode = 'review';
 
       const mainLayout = document.getElementById('mainLayout');
-      const isSingleReview = (this.currentMode === 'review');
-
       if (mainLayout) {
-        mainLayout.classList.toggle('trans-single-col-review', isSingleReview);
+        mainLayout.classList.add('trans-single-col-review');
       }
-      document.body.classList.toggle('has-trans-review', isSingleReview);
-
-      if (isSingleReview) {
-        this.renderSingleColReview(transData, year);
-      } else {
-        this.renderLeftPanel(transData, year);
-        this.renderRightPanel(transData, year, this.currentMode);
-      }
+      document.body.classList.add('has-trans-review');
+      this.renderSingleColReview(transData, year);
     },
 
     getReviewPrefs: function() {
@@ -781,11 +773,11 @@
       const compSection = document.getElementById('transComparisonSection');
       if (compSection) compSection.style.display = 'block';
 
-      document.querySelectorAll('.trans-sent-row').forEach(el => el.style.background = 'transparent');
+      document.querySelectorAll('.trans-sent-row, .trans-paper-section').forEach(el => el.style.background = '');
       const targetRight = document.getElementById(`trans-ws-sent-${sid}`);
       if (targetRight) {
-        targetRight.style.background = 'var(--accent-light, #eff6ff)';
-        targetRight.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        targetRight.style.background = 'var(--tr-chunk-hover, #eff6ff)';
+        targetRight.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     },
 

@@ -969,12 +969,21 @@
     document.body.classList.remove('has-trans-review');
 
     // Update Mode button active states
+    const isTranslationUnified = (AppState.textId === 'translation' && AppState.mode !== 'vocab' && AppState.mode !== 'writing');
     const practiceBtn = document.getElementById('practiceModeBtn');
     const reviewBtn = document.getElementById('reviewModeBtn');
     const vocabBtn = document.getElementById('vocabModeBtn');
     const writingBtn = document.getElementById('writingModeBtn');
-    if (practiceBtn) practiceBtn.classList.toggle('active', AppState.mode === 'practice');
-    if (reviewBtn) reviewBtn.classList.toggle('active', AppState.mode === 'review');
+    if (practiceBtn) {
+      practiceBtn.disabled = isTranslationUnified;
+      practiceBtn.classList.toggle('active', !isTranslationUnified && AppState.mode === 'practice');
+      practiceBtn.title = isTranslationUnified ? '英译汉暂不支持切换做题/复盘模式' : '';
+    }
+    if (reviewBtn) {
+      reviewBtn.disabled = isTranslationUnified;
+      reviewBtn.classList.toggle('active', !isTranslationUnified && AppState.mode === 'review');
+      reviewBtn.title = isTranslationUnified ? '英译汉暂不支持切换做题/复盘模式' : '';
+    }
     if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
     if (writingBtn) writingBtn.classList.toggle('active', AppState.mode === 'writing');
 
@@ -3693,6 +3702,7 @@
     const vocabBtn = document.getElementById('vocabModeBtn');
 
     practiceBtn.addEventListener('click', () => {
+      if (AppState.textId === 'translation' && AppState.mode !== 'vocab' && AppState.mode !== 'writing') return;
       if (AppState.mode === 'practice') return;
       AppState.lastReadingMode = 'practice';
       AppState.mode = 'practice';
@@ -3702,6 +3712,7 @@
     });
 
     reviewBtn.addEventListener('click', () => {
+      if (AppState.textId === 'translation' && AppState.mode !== 'vocab' && AppState.mode !== 'writing') return;
       if (AppState.mode === 'review') return;
       AppState.lastReadingMode = 'review';
       AppState.mode = 'review';
