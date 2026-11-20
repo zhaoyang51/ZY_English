@@ -191,3 +191,143 @@ test('CloudSync Missing Table Handling: Gracefully explains PGRST205 error witho
   assert.strictEqual(res.ok, false);
   assert.ok(res.message.includes('user_sync_data'), 'Must surface clear setup hint for missing table');
 });
+
+test('Regression: Background cloud sync does NOT hijack active Learn queue into Review words', async () => {
+  const now = Date.now();
+  const cloudSnapshot = {
+    user_id: 'uid-learn-fix',
+    vocab_book: [],
+    progress: {
+      gap: { status: 'learning', level: 1, lastReviewTime: now - 5000, nextReviewTime: now - 1000, reviewCount: 1 }
+    },
+    last_position: {
+      source: 'nanxiao_sushua',
+      state: 'due',
+      lastWord: 'gap',
+      lastIndex: 0
+    },
+    updated_at: new Date(now - 5000).toISOString()
+  };
+
+  const mockFetch = async (url) => {
+    if (url.includes('/rest/v1/user_sync_data?user_id=eq.')) {
+      return { ok: true, status: 200, text: async () => JSON.stringify([cloudSnapshot]) };
+    }
+    if (url.includes('/rest/v1/user_sync_data?on_conflict=user_id')) {
+      return { ok: true, status: 201, text: async () => JSON.stringify([cloudSnapshot]) };
+    }
+    return { ok: true, status: 200, text: async () => '{}' };
+  };
+
+  // Minimal DOM supporting innerHTML & getElementById so VocabModule.init runs
+  const storageMap = new Map();
+  const localStorageMock = {
+    getItem: k => (storageMap.has(k) ? storageMap.get(k) : null),
+    setItem: (k, v) => storageMap.set(k, String(v)),
+    removeItem: k => storageMap.delete(k),
+    clear: () => storageMap.clear()
+  };
+  const elements = new Map();
+  const makeEl = (id, tag = 'div') => {
+    const el = {
+      id,
+      tagName: tag.toUpperCase(),
+      style: {},
+      options: [],
+      children: [],
+      value: '',
+      _html: '',
+      textContent: '',
+      classList: {
+        _set: new Set(),
+        add(c) { this._set.add(c); },
+        remove(c) { this._set.delete(c); },
+        contains(c) { return this._set.has(c); },
+        toggle(c, f) { if (f) this._set.add(c); else this._set.delete(c); }
+      },
+      set innerHTML(val) {
+        this._html = String(val);
+        // Register child ids crudely so getElementById finds them
+        const idMatches = [...this._html.matchAll(/id="([^"]+)"/g)];
+        for (const m of idMatches) {
+          if (!elements.has(m[1])) makeEl(m[1]);
+        }
+        if (this.tagName === 'SELECT') {
+          const matches = [...this._html.matchAll(/<option\s+value="([^"]*)"[^>]*>([\s\S]*?)<\/option>/g)];
+          this.options = matches.map(m => ({ value: m[1], textContent: m[2] }));
+        }
+      },
+      get innerHTML() { return this._html; },
+      addEventListener() {},
+      removeEventListener() {},
+      setAttribute() {},
+      getAttribute() { return ''; },
+      appendChild(c) { this.children.push(c); return c; },
+      querySelector() { return makeEl(''); },
+      querySelectorAll() { return []; }
+    };
+    if (id) elements.set(id, el);
+    return el;
+  };
+  makeEl('vocabSection');
+  const srcSel = makeEl('vocabSourceSelect', 'select');
+  srcSel.options = [{ value: 'nanxiao_sushua', textContent: '高频' }];
+
+  global.CustomEvent = class CustomEvent { constructor(type, detail) { this.type = type; this.detail = detail; } };
+  global.localStorage = localStorageMock;
+  global.navigator = { onLine: true };
+  global.document = {
+    hidden: false,
+    body: makeEl('body'),
+    getElementById: id => elements.get(id) || null,
+    createElement: tag => makeEl('', tag),
+    querySelectorAll: () => [],
+    addEventListener: () => {}
+  };
+  global.window = {
+    localStorage: localStorageMock,
+    document: global.document,
+    addEventListener: () => {},
+    dispatchEvent: () => {},
+    speechSynthesis: { cancel: () => {}, speak: () => {} },
+    NANXIAO_SUSHUA_VOCAB: [
+      { word: 'gap', meaning: 'n. 缺口', freq: 39, category: '核心高频 (20次以上)' },
+      { word: 'consequence', meaning: 'n. 结果', freq: 7, category: '中频考词 (5-9次)' },
+      { word: 'resilient', meaning: 'adj. 有弹性的', freq: 8, category: '中频考词 (5-9次)' }
+    ],
+    KAOYAN_VOCAB_DICT: {},
+    KAOYAN_VOCAB_BANK: [],
+    KAOYAN_VOCAB_RELATIONS: {}
+  };
+  global.fetch = mockFetch;
+
+  eval(fs.readFileSync(path.join(__dirname, '../js/storage.js'), 'utf8'));
+  eval(fs.readFileSync(path.join(__dirname, '../js/vocab.js'), 'utf8'));
+  eval(fs.readFileSync(path.join(__dirname, '../js/cloud_sync.js'), 'utf8'));
+
+  // Seed local progress: gap is ALREADY in learning/review; consequence is unlearned (new)
+  storageMap.set('KAOYAN_VOCAB_PROGRESS_V2', JSON.stringify({
+    gap: { status: 'learning', level: 1, lastReviewTime: now - 5000, nextReviewTime: now - 1000, reviewCount: 1 }
+  }));
+  storageMap.set('KAOYAN_CLOUD_SESSION_V1', JSON.stringify({
+    access_token: 'jwt-valid',
+    refresh_token: 'ref',
+    expires_at: now + 3600000,
+    user: { id: 'uid-learn-fix', email: 'a@b.com' }
+  }));
+
+  window.VocabModule.init('vocabSection');
+  // User clicks Learn ("新学")
+  window.VocabModule.showStudyView('new');
+
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, 'consequence', 'Initial Learn word must be consequence');
+  assert.ok(elements.get('vocabMomoProgress').innerHTML.includes('新学'), 'Must show 新学 tag');
+
+  // Now background cloud startup sync completes with last_position { state: 'due', lastWord: 'gap' }
+  const syncRes = await window.CloudSyncModule.syncNow({ reason: 'startup' });
+  assert.strictEqual(syncRes.ok, true);
+
+  // Must stay on consequence in Learn queue — MUST NOT switch to Review's 'gap'!
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, 'consequence', 'Background sync must NOT jump Learn word to Review word gap');
+  assert.ok(elements.get('vocabMomoProgress').innerHTML.includes('新学'), 'Must remain in 新学 mode');
+});

@@ -119,7 +119,7 @@
 
   window.VocabModule = {
     lastPosition: null,
-    targetResumeWord: null,
+    targetResumeWord: undefined,
 
     init(containerId) {
       const container = document.getElementById(containerId || 'vocabSection');
@@ -215,12 +215,16 @@
       const word = String(cur.word || cur.root || '').trim();
       const src = appState.filters.source || 'all';
 
+      const persistentState = (appState.studyMode === 'new' || appState.studyMode === 'review')
+        ? 'all'
+        : appState.filters.state;
+
       if (!this.lastPosition) {
         this.lastPosition = {
           source: src,
           year: appState.filters.year,
           text: appState.filters.text,
-          state: appState.filters.state,
+          state: persistentState,
           sort: appState.filters.sort,
           lastWord: word,
           lastIndex: idx,
@@ -231,7 +235,7 @@
       this.lastPosition.source = src;
       this.lastPosition.year = appState.filters.year;
       this.lastPosition.text = appState.filters.text;
-      this.lastPosition.state = appState.filters.state;
+      this.lastPosition.state = persistentState;
       this.lastPosition.sort = appState.filters.sort;
       this.lastPosition.lastWord = word;
       this.lastPosition.lastIndex = idx;
@@ -1810,10 +1814,13 @@
 
       // Resolve resume position
       let targetIndex = 0;
-      const targetWord = (this.targetResumeWord !== undefined && this.targetResumeWord !== null) ?
-        this.targetResumeWord :
-        (this.lastPosition && this.lastPosition.source === source ? this.lastPosition.lastWord :
-         (this.lastPosition?.sourcePositions?.[source]?.word || null));
+      const explicitResetToStart = this.targetResumeWord === null;
+      const targetWord = explicitResetToStart
+        ? null
+        : ((this.targetResumeWord !== undefined) ?
+          this.targetResumeWord :
+          (this.lastPosition && this.lastPosition.source === source ? this.lastPosition.lastWord :
+           (this.lastPosition?.sourcePositions?.[source]?.word || null)));
       this.targetResumeWord = undefined;
 
       const norm = s => String(s || '').trim().toLowerCase();
@@ -3423,8 +3430,14 @@
           } else {
             const locPos = readJson(LAST_POSITION_KEY, null);
             const impPos = parsed.lastPosition;
-            const mergedSrcPos = Object.assign({}, (locPos && locPos.sourcePositions) || {}, impPos.sourcePositions || {});
-            this.lastPosition = Object.assign({}, locPos || {}, impPos, { sourcePositions: mergedSrcPos });
+            if (!locPos) {
+              this.lastPosition = Object.assign({}, impPos, {
+                state: (impPos.state === 'new' || impPos.state === 'due') ? 'all' : (impPos.state || 'all')
+              });
+            } else {
+              const mergedSrcPos = Object.assign({}, impPos.sourcePositions || {}, locPos.sourcePositions || {});
+              this.lastPosition = Object.assign({}, impPos, locPos, { sourcePositions: mergedSrcPos });
+            }
             localStorage.setItem(LAST_POSITION_KEY, JSON.stringify(this.lastPosition));
           }
         }
@@ -3457,8 +3470,30 @@
         });
 
         if (appState.isInitialized) {
+          const wasInStudy = appState.currentView === 'study';
+          const activeStudyMode = appState.studyMode;
+          const activeFilterState = appState.filters.state;
+          const activeFilterSource = appState.filters.source;
+          const activeFilterYear = appState.filters.year;
+          const activeFilterText = appState.filters.text;
+          const activeWord = (wasInStudy && appState.currentList && appState.currentList[appState.currentIndex])
+            ? (appState.currentList[appState.currentIndex].word || appState.currentList[appState.currentIndex].root)
+            : null;
+
           this.loadSettings();
           this.loadProgress();
+
+          if (wasInStudy && mode === 'merge') {
+            appState.studyMode = activeStudyMode;
+            appState.filters.state = activeFilterState;
+            appState.filters.source = activeFilterSource;
+            appState.filters.year = activeFilterYear;
+            appState.filters.text = activeFilterText;
+            this.targetResumeWord = activeWord || null;
+          } else if (!wasInStudy) {
+            appState.filters.state = 'all';
+          }
+
           this.populateDropdowns();
           this.applyFiltersAndRender();
           this.updateStats();
