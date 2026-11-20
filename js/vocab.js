@@ -142,6 +142,9 @@
       if (!appState.currentView || appState.currentView === 'home') {
         this.showHomeView();
       }
+      if (typeof window !== 'undefined' && window.CloudSyncModule && typeof window.CloudSyncModule.refreshUI === 'function') {
+        window.CloudSyncModule.refreshUI();
+      }
 
       if (typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabRelations && !window.KAOYAN_VOCAB_RELATIONS) {
         window.DataLoader.loadVocabRelations().then(() => {
@@ -185,6 +188,12 @@
       } catch (e) {}
     },
 
+    emitDataChanged(kind) {
+      if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function' && typeof CustomEvent === 'function') {
+        window.dispatchEvent(new CustomEvent('kaoyanVocabDataChanged', { detail: { kind } }));
+      }
+    },
+
     saveSettings() {
       try {
         const cfg = {
@@ -194,6 +203,7 @@
           revealedButtonOrder: appState.revealedButtonOrder
         };
         localStorage.setItem(SETTINGS_KEY, JSON.stringify(cfg));
+        this.emitDataChanged('settings');
       } catch (e) {}
     },
 
@@ -238,6 +248,7 @@
 
       try {
         localStorage.setItem(LAST_POSITION_KEY, JSON.stringify(this.lastPosition));
+        this.emitDataChanged('lastPosition');
       } catch (e) {}
     },
 
@@ -318,6 +329,7 @@
         localStorage.setItem(STORAGE_KEY, JSON.stringify(appState.progress));
       } catch (e) {}
       this.updateStats();
+      this.emitDataChanged('progress');
     },
 
     getTodayKey() {
@@ -392,6 +404,7 @@
     saveDailyLog(log) {
       try {
         localStorage.setItem(DAILY_LOG_KEY, JSON.stringify(log));
+        this.emitDataChanged('dailyLog');
       } catch (e) {}
     },
 
@@ -450,9 +463,13 @@
         <!-- MoMo Vocab Home Page (Matching User Figure 1: Pastoral Tree & Learn/Review Cards) -->
         <div class="vocab-home-frame" id="vocabHomeFrame">
           <div class="vocab-home-topbar">
-            <div class="vocab-home-topbar-left">
+            <div class="vocab-home-topbar-left" style="display:flex;align-items:center;gap:8px">
               <button class="vocab-home-btn-back" id="vocabHomeBtnBack" title="返回做题/阅读等界面" aria-label="返回阅读界面">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+              </button>
+              <button type="button" class="vocab-home-dict-pill" id="vocabCloudSyncPill" title="点击登录云账号，多设备自动同步进度与生词本" style="font-size:12.5px;padding:6px 10px">
+                <span>☁️</span>
+                <span id="vocabCloudSyncPillText">云同步</span>
               </button>
             </div>
             <div class="vocab-home-topbar-right">
@@ -730,6 +747,7 @@
               <div style="font-size:12px;font-weight:700;color:#047857;margin-bottom:8px;display:flex;align-items:center;justify-content:space-between">
                 <span>☁️ 跨设备数据同步（背诵进度 & 生词本）</span>
               </div>
+              <button type="button" class="vocab-action-pill-btn" id="vocabBtnCloudAccount" style="width:100%;justify-content:center;font-weight:700;background:#047857;color:#fff;margin-bottom:8px;padding:8px 12px">☁️ 登录云账号自动同步（未登录）</button>
               <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
                 <button type="button" class="vocab-action-pill-btn" id="vocabBtnExportProgress" style="justify-content:center;font-size:12.5px;padding:7px 8px">📤 导出背诵进度</button>
                 <button type="button" class="vocab-action-pill-btn" id="vocabBtnImportProgress" style="justify-content:center;font-size:12.5px;padding:7px 8px">📥 导入背诵进度</button>
@@ -927,6 +945,8 @@
         btnImportProgress: document.getElementById('vocabBtnImportProgress'),
         btnExportBook: document.getElementById('vocabBtnExportBook'),
         btnImportBook: document.getElementById('vocabBtnImportBook'),
+        btnCloudAccount: document.getElementById('vocabBtnCloudAccount'),
+        cloudSyncPill: document.getElementById('vocabCloudSyncPill'),
         currentListCount: document.getElementById('vocabCurrentListCount'),
 
         statTotal: document.getElementById('vocabStatTotal'),
@@ -1318,6 +1338,13 @@
       if (els.btnImportProgress) els.btnImportProgress.onclick = () => openSync('progress', 'import');
       if (els.btnExportBook) els.btnExportBook.onclick = () => openSync('vocabBook', 'export');
       if (els.btnImportBook) els.btnImportBook.onclick = () => openSync('vocabBook', 'import');
+      const openCloud = () => {
+        if (typeof window !== 'undefined' && window.CloudSyncModule && typeof window.CloudSyncModule.openModal === 'function') {
+          window.CloudSyncModule.openModal();
+        }
+      };
+      if (els.btnCloudAccount) els.btnCloudAccount.onclick = openCloud;
+      if (els.cloudSyncPill) els.cloudSyncPill.onclick = openCloud;
 
       // Global Keyboard Shortcuts
       window.addEventListener('keydown', (e) => {
@@ -2701,6 +2728,7 @@
     saveUserNotes(notes) {
       try {
         localStorage.setItem('KAOYAN_VOCAB_USER_NOTES_V1', JSON.stringify(notes || {}));
+        this.emitDataChanged('userNotes');
       } catch (e) {}
     },
 

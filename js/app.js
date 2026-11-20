@@ -1585,6 +1585,15 @@
     const btnImportVocabBook = document.getElementById('btnImportVocabBook');
     const btnSyncOpenProgress = document.getElementById('btnSyncOpenProgress');
     const btnSyncOpenBook = document.getElementById('btnSyncOpenBook');
+    const cloudSyncBtn = document.getElementById('cloudSyncBtn');
+
+    if (cloudSyncBtn) {
+      cloudSyncBtn.onclick = () => {
+        if (window.CloudSyncModule && typeof window.CloudSyncModule.openModal === 'function') {
+          window.CloudSyncModule.openModal();
+        }
+      };
+    }
 
     if (btnExportVocabBook) {
       btnExportVocabBook.onclick = () => {
