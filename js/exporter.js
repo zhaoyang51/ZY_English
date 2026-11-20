@@ -419,7 +419,8 @@
       list.forEach(item => {
         const wordField = `<b>${item.word}</b>`;
         const defField = (item.def || '').replace(/\t/g, ' ');
-        const exampleField = (item.sentence || '').replace(new RegExp(`(${item.word})`, 'gi'), '<font color="#2563eb"><b>$1</b></font>').replace(/\t/g, ' ');
+        const safeWord = String(item.word || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const exampleField = safeWord ? (item.sentence || '').replace(new RegExp(`(${safeWord})`, 'gi'), '<font color="#2563eb"><b>$1</b></font>').replace(/[\t\r\n]/g, ' ') : (item.sentence || '').replace(/[\t\r\n]/g, ' ');
         const tagField = item.year ? `${item.year}年 英语二 Text${item.textId} 生词本` : '考研生词本';
         lines.push(`${wordField}\t${defField}\t${exampleField}\t${tagField}`);
       });

@@ -348,7 +348,7 @@
             return { ok: true, action: 'restored_from_cloud' };
           }
 
-          if (cloudRow && reason !== 'autoPushOnly') {
+          if (cloudRow && reason !== 'autoPushOnly' && reason !== 'push') {
             // Pull & smart-merge cloud into local first, preserving both devices' newest progress
             this.applyCloudSnapshot(cloudRow, 'merge');
           }

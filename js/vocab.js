@@ -2622,6 +2622,7 @@
         reviewCount: 0
       };
       record.level = 0;
+      record.lastReviewed = now;
       record.nextReviewTime = now + EBB_INTERVALS[0];
       record.status = 'learning';
       appState.progress[word] = record;
@@ -3332,8 +3333,8 @@
       const pickBetterProgress = (localRec, impRec) => {
         if (!localRec) return impRec;
         if (!impRec) return localRec;
-        const tImp = Number(impRec.lastReviewTime || 0);
-        const tLoc = Number(localRec.lastReviewTime || 0);
+        const tImp = Number(impRec.lastReviewed || impRec.lastReviewTime || impRec.firstStudied || 0);
+        const tLoc = Number(localRec.lastReviewed || localRec.lastReviewTime || localRec.firstStudied || 0);
         if (tImp > 0 && tLoc > 0 && tImp !== tLoc) {
           return tImp > tLoc ? impRec : localRec;
         }
@@ -3489,18 +3490,34 @@
             appState.filters.source = activeFilterSource;
             appState.filters.year = activeFilterYear;
             appState.filters.text = activeFilterText;
-            this.targetResumeWord = activeWord || null;
-          } else if (!wasInStudy) {
-            appState.filters.state = 'all';
-          }
 
-          this.populateDropdowns();
-          this.applyFiltersAndRender();
-          this.updateStats();
-          this.updateHomeView();
-          this.applyButtonOrder();
-          if (appState.currentView === 'study') {
-            this.renderCurrentCard();
+            if (appState.isFlipped && activeWord) {
+              // Do not flip back or rip away a revealed flashcard while the user is reading it
+              this.populateDropdowns();
+              this.updateStats();
+              this.updateHomeView();
+              this.applyButtonOrder();
+            } else {
+              this.targetResumeWord = activeWord || null;
+              this.populateDropdowns();
+              this.applyFiltersAndRender();
+              this.updateStats();
+              this.updateHomeView();
+              this.applyButtonOrder();
+              this.renderCurrentCard();
+            }
+          } else {
+            if (!wasInStudy) {
+              appState.filters.state = 'all';
+            }
+            this.populateDropdowns();
+            this.applyFiltersAndRender();
+            this.updateStats();
+            this.updateHomeView();
+            this.applyButtonOrder();
+            if (appState.currentView === 'study') {
+              this.renderCurrentCard();
+            }
           }
         }
 

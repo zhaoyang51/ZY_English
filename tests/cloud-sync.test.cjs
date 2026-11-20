@@ -330,4 +330,71 @@ test('Regression: Background cloud sync does NOT hijack active Learn queue into 
   // Must stay on consequence in Learn queue — MUST NOT switch to Review's 'gap'!
   assert.strictEqual(elements.get('vocabMomoWord').textContent, 'consequence', 'Background sync must NOT jump Learn word to Review word gap');
   assert.ok(elements.get('vocabMomoProgress').innerHTML.includes('新学'), 'Must remain in 新学 mode');
+
+  // Flipped card stability: user flips consequence (marking it 'learning'), then background sync runs
+  window.VocabModule.gradeWord('good');
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, 'consequence', 'Card flips to reveal consequence answer');
+  assert.strictEqual(elements.get('vocabMomoRevealedWrap').style.display, 'block', 'Revealed buttons must be visible');
+
+  await window.CloudSyncModule.syncNow({ reason: 'resume' });
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, 'consequence', 'Background resume sync must NOT rip away revealed card');
+  assert.strictEqual(elements.get('vocabMomoRevealedWrap').style.display, 'block', 'Revealed card must remain flipped during sync');
+});
+
+test('Regression: Local delete/unstar + push sync removes word from cloud instead of resurrecting it', async () => {
+  const now = Date.now();
+  let cloudDbRow = {
+    user_id: 'uid-del',
+    vocab_book: [
+      { word: 'resilient', def: 'adj. 有弹性的', sentence: 'S1', time: now - 10000 },
+      { word: 'abandon', def: 'v. 放弃', sentence: 'S2', time: now - 10000 }
+    ],
+    progress: {
+      resilient: { status: 'learning', level: 3, lastReviewed: now - 10000, nextReviewTime: now + 100000, reviewCount: 3 }
+    },
+    updated_at: new Date(now - 10000).toISOString()
+  };
+
+  const mockFetch = async (url, opts = {}) => {
+    if (url.includes('/rest/v1/user_sync_data?user_id=eq.')) {
+      return { ok: true, status: 200, text: async () => JSON.stringify([cloudDbRow]) };
+    }
+    if (url.includes('/rest/v1/user_sync_data?on_conflict=user_id')) {
+      cloudDbRow = JSON.parse(opts.body);
+      return { ok: true, status: 201, text: async () => JSON.stringify([cloudDbRow]) };
+    }
+    return { ok: true, status: 200, text: async () => '{}' };
+  };
+
+  const { storageMap } = setupCloudTestEnv(mockFetch);
+  storageMap.set('KAOYAN_CLOUD_SESSION_V1', JSON.stringify({
+    access_token: 'jwt-valid',
+    refresh_token: 'ref',
+    expires_at: now + 3600000,
+    user: { id: 'uid-del', email: 'a@b.com' }
+  }));
+
+  // Initial sync pulls both words and newer progress
+  await window.CloudSyncModule.syncNow({ reason: 'startup' });
+  assert.strictEqual(window.StorageModule.getVocabBook().length, 2);
+
+  // User deletes 'abandon' locally, then auto-push fires with reason: 'push'
+  window.StorageModule.removeWordFromBook('abandon');
+  assert.strictEqual(window.StorageModule.getVocabBook().length, 1);
+
+  await window.CloudSyncModule.syncNow({ reason: 'push' });
+  assert.strictEqual(window.StorageModule.getVocabBook().length, 1, 'Deleted word must stay deleted locally');
+  assert.strictEqual(cloudDbRow.vocab_book.length, 1, 'Deleted word must also be removed on cloud');
+  assert.strictEqual(cloudDbRow.vocab_book[0].word, 'resilient');
+
+  // Also verify real 'lastReviewed' field wins during merge
+  const olderImport = {
+    type: 'kaoyan_vocab_progress',
+    progress: {
+      resilient: { status: 'learning', level: 1, lastReviewed: now - 50000, reviewCount: 1 }
+    }
+  };
+  window.VocabModule.importStudyProgress(olderImport, { mode: 'merge' });
+  const localProg = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  assert.strictEqual(localProg.resilient.level, 3, 'Newer lastReviewed record must beat older lastReviewed record');
 });
