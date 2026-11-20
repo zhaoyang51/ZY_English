@@ -72,10 +72,12 @@ function setupCloudTestEnv(mockFetchImpl) {
   return { storageMap, listeners, cloudJs };
 }
 
-test('CloudSync Security: Only uses public publishable key, never embeds secret key', () => {
+test('CloudSync Security: Only uses public publishable key, never embeds secret key, includes password eye toggle', () => {
   const cloudJs = fs.readFileSync(path.join(__dirname, '../js/cloud_sync.js'), 'utf8');
   assert.ok(cloudJs.includes('sb_publishable_tCA4qx0caaXzIqV_kFmaTQ_FTeB42VZ'));
   assert.ok(!cloudJs.includes('sb_secret_'), 'Secret key must NEVER be placed in frontend code');
+  assert.ok(cloudJs.includes('id="cloudTogglePasswordBtn"'), 'Password visibility eye toggle button must exist');
+  assert.ok(cloudJs.includes('cloudEyeOpenIcon') && cloudJs.includes('cloudEyeClosedIcon'));
 });
 
 test('CloudSync Two-Way Sync: Sign-in pulls cloud row, merges with local offline progress, and pushes superset back', async () => {

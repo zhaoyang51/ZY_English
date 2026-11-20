@@ -439,7 +439,13 @@
               </p>
               <div style="display:flex;flex-direction:column;gap:8px">
                 <input type="email" id="cloudEmailInput" placeholder="输入邮箱（如 yourname@qq.com）" autocomplete="email" style="width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--border,rgba(0,0,0,0.18));font-size:14px;background:var(--bg,#fff);color:var(--ink,#1e293b)">
-                <input type="password" id="cloudPasswordInput" placeholder="输入密码（至少 6 位）" autocomplete="current-password" style="width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--border,rgba(0,0,0,0.18));font-size:14px;background:var(--bg,#fff);color:var(--ink,#1e293b)">
+                <div style="position:relative;display:flex;align-items:center">
+                  <input type="password" id="cloudPasswordInput" placeholder="输入密码（至少 6 位）" autocomplete="current-password" style="width:100%;box-sizing:border-box;padding:10px 42px 10px 12px;border-radius:10px;border:1px solid var(--border,rgba(0,0,0,0.18));font-size:14px;background:var(--bg,#fff);color:var(--ink,#1e293b)">
+                  <button type="button" id="cloudTogglePasswordBtn" aria-label="显示密码" title="显示/隐藏密码" style="position:absolute;right:8px;top:50%;transform:translateY(-50%);background:transparent;border:none;cursor:pointer;padding:4px 6px;display:inline-flex;align-items:center;justify-content:center;color:var(--muted,#64748b);line-height:1">
+                    <svg id="cloudEyeOpenIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                    <svg id="cloudEyeClosedIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+                  </button>
+                </div>
               </div>
               <button type="button" class="btn" id="cloudAuthSubmitBtn" style="background:var(--primary,#047857);color:#fff;font-weight:700;padding:10px 16px;font-size:14.5px">登录并立即云同步</button>
             </div>
@@ -484,6 +490,19 @@
       const tabSignup = overlay.querySelector('#cloudTabSignup');
       const submitBtn = overlay.querySelector('#cloudAuthSubmitBtn');
       const passInput = overlay.querySelector('#cloudPasswordInput');
+      const togglePassBtn = overlay.querySelector('#cloudTogglePasswordBtn');
+      const eyeOpen = overlay.querySelector('#cloudEyeOpenIcon');
+      const eyeClosed = overlay.querySelector('#cloudEyeClosedIcon');
+
+      if (togglePassBtn && passInput) {
+        togglePassBtn.onclick = () => {
+          const isMasked = passInput.type === 'password';
+          passInput.type = isMasked ? 'text' : 'password';
+          togglePassBtn.setAttribute('aria-label', isMasked ? '隐藏密码' : '显示密码');
+          if (eyeOpen) eyeOpen.style.display = isMasked ? 'none' : '';
+          if (eyeClosed) eyeClosed.style.display = isMasked ? '' : 'none';
+        };
+      }
 
       const updateAuthTab = () => {
         tabLogin.classList.toggle('active', authMode === 'login');
@@ -610,6 +629,14 @@
 
     openModal() {
       const overlay = this.ensureModal();
+      const passInput = overlay.querySelector('#cloudPasswordInput');
+      const eyeOpen = overlay.querySelector('#cloudEyeOpenIcon');
+      const eyeClosed = overlay.querySelector('#cloudEyeClosedIcon');
+      const togglePassBtn = overlay.querySelector('#cloudTogglePasswordBtn');
+      if (passInput) passInput.type = 'password';
+      if (eyeOpen) eyeOpen.style.display = '';
+      if (eyeClosed) eyeClosed.style.display = 'none';
+      if (togglePassBtn) togglePassBtn.setAttribute('aria-label', '显示密码');
       this.hideModalFeedback();
       this.refreshModalContent();
       overlay.classList.add('show');
