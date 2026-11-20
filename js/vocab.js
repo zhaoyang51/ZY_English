@@ -15,18 +15,21 @@
   const LAST_POSITION_KEY = 'KAOYAN_VOCAB_LAST_POSITION_V2';
   const DAILY_LOG_KEY = 'KAOYAN_VOCAB_DAILY_LOG_V1';
 
-  // 艾宾浩斯 9 级复习周期 (毫秒)
-  // [5分钟, 30分钟, 12小时, 1天, 2天, 4天, 7天, 15天, 30天]
+  // 艾宾浩斯 12 级复习周期 (Level 0 ~ Level 11, 毫秒)
+  // [5分钟, 12小时, 1天, 2天, 3天, 4天, 5天, 6天, 7天, 8天, 9天, 10天]
   const EBB_INTERVALS = [
     5 * 60 * 1000,
-    30 * 60 * 1000,
     12 * 60 * 60 * 1000,
     1 * 24 * 60 * 60 * 1000,
     2 * 24 * 60 * 60 * 1000,
+    3 * 24 * 60 * 60 * 1000,
     4 * 24 * 60 * 60 * 1000,
+    5 * 24 * 60 * 60 * 1000,
+    6 * 24 * 60 * 60 * 1000,
     7 * 24 * 60 * 60 * 1000,
-    15 * 24 * 60 * 60 * 1000,
-    30 * 24 * 60 * 60 * 1000
+    8 * 24 * 60 * 60 * 1000,
+    9 * 24 * 60 * 60 * 1000,
+    10 * 24 * 60 * 60 * 1000
   ];
 
   const POS_MAP = {
@@ -723,6 +726,17 @@
               </button>
               <button id="vocabBtnResetFilter" class="vocab-action-pill-btn" style="color:#ef4444">🔄 重置当前词库进度</button>
             </div>
+            <div class="vocab-sync-bar" style="margin-top:12px;padding:10px 12px;background:rgba(16,185,129,0.06);border:1px solid rgba(16,185,129,0.22);border-radius:12px">
+              <div style="font-size:12px;font-weight:700;color:#047857;margin-bottom:8px;display:flex;align-items:center;justify-content:space-between">
+                <span>☁️ 跨设备数据同步（背诵进度 & 生词本）</span>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+                <button type="button" class="vocab-action-pill-btn" id="vocabBtnExportProgress" style="justify-content:center;font-size:12.5px;padding:7px 8px">📤 导出背诵进度</button>
+                <button type="button" class="vocab-action-pill-btn" id="vocabBtnImportProgress" style="justify-content:center;font-size:12.5px;padding:7px 8px">📥 导入背诵进度</button>
+                <button type="button" class="vocab-action-pill-btn" id="vocabBtnExportBook" style="justify-content:center;font-size:12.5px;padding:7px 8px">📒 导出生词本</button>
+                <button type="button" class="vocab-action-pill-btn" id="vocabBtnImportBook" style="justify-content:center;font-size:12.5px;padding:7px 8px">📲 导入生词本</button>
+              </div>
+            </div>
             <div style="margin-top:12px;padding:8px 12px;background:rgba(217,119,6,0.08);border:1px solid rgba(217,119,6,0.2);border-radius:8px;font-size:12px;color:#b45309;line-height:1.5">
               💡 手机发音提示：若无声音，请检查手机是否开启侧边静音开关（iPhone静音键），并将媒体音量调大。
             </div>
@@ -909,6 +923,10 @@
         revealedRow: document.getElementById('vocabMomoRevealedRow'),
         btnToggleAudio: document.getElementById('vocabToggleAudioBtn'),
         btnResetFilter: document.getElementById('vocabBtnResetFilter'),
+        btnExportProgress: document.getElementById('vocabBtnExportProgress'),
+        btnImportProgress: document.getElementById('vocabBtnImportProgress'),
+        btnExportBook: document.getElementById('vocabBtnExportBook'),
+        btnImportBook: document.getElementById('vocabBtnImportBook'),
         currentListCount: document.getElementById('vocabCurrentListCount'),
 
         statTotal: document.getElementById('vocabStatTotal'),
@@ -1289,6 +1307,17 @@
           }
         };
       }
+
+      // Cross-device Data Sync (Progress & Vocab Book Export/Import)
+      const openSync = (kind, action) => {
+        if (typeof window !== 'undefined' && window.VocabSyncUI && typeof window.VocabSyncUI.open === 'function') {
+          window.VocabSyncUI.open(kind, action);
+        }
+      };
+      if (els.btnExportProgress) els.btnExportProgress.onclick = () => openSync('progress', 'export');
+      if (els.btnImportProgress) els.btnImportProgress.onclick = () => openSync('progress', 'import');
+      if (els.btnExportBook) els.btnExportBook.onclick = () => openSync('vocabBook', 'export');
+      if (els.btnImportBook) els.btnImportBook.onclick = () => openSync('vocabBook', 'import');
 
       // Global Keyboard Shortcuts
       window.addEventListener('keydown', (e) => {
@@ -2514,18 +2543,13 @@
         record.nextReviewTime = now + EBB_INTERVALS[0];
         record.status = 'learning';
       } else if (grade === 'hard') {
-        record.level = Math.max(0, record.level - 1);
+        record.level = Math.min(EBB_INTERVALS.length - 1, Math.max(0, record.level - 1));
         record.nextReviewTime = now + EBB_INTERVALS[record.level];
         record.status = 'learning';
       } else if (grade === 'good') {
-        record.level = record.level + 1;
-        if (record.level >= EBB_INTERVALS.length) {
-          record.status = 'mastered';
-          record.nextReviewTime = now + (365 * 24 * 60 * 60 * 1000);
-        } else {
-          record.nextReviewTime = now + EBB_INTERVALS[record.level];
-          record.status = 'learning';
-        }
+        record.level = Math.min(EBB_INTERVALS.length - 1, record.level + 1);
+        record.nextReviewTime = now + EBB_INTERVALS[record.level];
+        record.status = 'learning';
       }
 
       appState.progress[word] = record;
@@ -2579,14 +2603,14 @@
       let previousRecord = appState.progress[word] ? JSON.parse(JSON.stringify(appState.progress[word])) : null;
       let record = previousRecord || {
         status: 'mastered',
-        level: 9,
+        level: EBB_INTERVALS.length - 1,
         firstStudied: now,
         lastReviewed: now,
         nextReviewTime: now,
         reviewCount: 0
       };
       record.status = 'mastered';
-      record.level = 9;
+      record.level = EBB_INTERVALS.length - 1;
       record.lastReviewed = now;
       record.nextReviewTime = now + (365 * 24 * 60 * 60 * 1000);
       appState.progress[word] = record;
@@ -3110,6 +3134,325 @@
       } catch (err) {
         console.warn('[TTS] Synthesis speak threw error:', err);
         done();
+      }
+    },
+
+    lookupWordDetails(word) {
+      const w = String(word || '').trim();
+      const wLow = w.toLowerCase();
+      if (!wLow) return null;
+
+      let def = '';
+      let sentence = '';
+      let year = '';
+      let textId = '';
+
+      if (typeof window !== 'undefined' && Array.isArray(window.NANXIAO_SUSHUA_VOCAB)) {
+        const hit = window.NANXIAO_SUSHUA_VOCAB.find(item => item && item.word && item.word.toLowerCase() === wLow);
+        if (hit) {
+          def = hit.meaning || hit.def || '';
+          sentence = hit.sentence || '';
+          if (hit.provenance) {
+            const ym = String(hit.provenance).match(/(\d{4})/);
+            if (ym) year = ym[1];
+          }
+        }
+      }
+
+      if (!def && typeof window !== 'undefined' && window.KAOYAN_VOCAB_DICT && window.KAOYAN_VOCAB_DICT[wLow]) {
+        const d = window.KAOYAN_VOCAB_DICT[wLow];
+        def = typeof d === 'string' ? d : (d.def || d.meaning || '');
+      }
+
+      if ((!def || !sentence) && typeof window !== 'undefined' && Array.isArray(window.KAOYAN_VOCAB_BANK)) {
+        for (const [bYear, bText, words] of window.KAOYAN_VOCAB_BANK) {
+          const found = (words || []).find(([bw]) => String(bw || '').toLowerCase().trim() === wLow);
+          if (found) {
+            if (!def) def = String(found[1] || '');
+            if (!year) year = String(bYear || '');
+            if (!textId) textId = String(bText || '').replace(/\D/g, '') || String(bText || '');
+            break;
+          }
+        }
+      }
+
+      if (!sentence && typeof window !== 'undefined' && window.KAOYAN_VOCAB_RELATIONS && window.KAOYAN_VOCAB_RELATIONS[wLow]) {
+        const rel = window.KAOYAN_VOCAB_RELATIONS[wLow];
+        if (rel.sentences && rel.sentences.length > 0) {
+          sentence = rel.sentences[0].text || '';
+          if (!year && rel.sentences[0].year) year = String(rel.sentences[0].year);
+          if (!textId && rel.sentences[0].textId) textId = String(rel.sentences[0].textId);
+        }
+      }
+
+      if (!def && !sentence) return null;
+      return { def, sentence, year, textId };
+    },
+
+    exportStudyProgress(options = {}) {
+      const readJson = (key, fallback) => {
+        try {
+          const raw = localStorage.getItem(key);
+          return raw ? JSON.parse(raw) : fallback;
+        } catch (e) {
+          return fallback;
+        }
+      };
+
+      const progress = appState.isInitialized
+        ? Object.assign({}, appState.progress)
+        : readJson(STORAGE_KEY, {});
+      const lastPosition = (appState.isInitialized && this.lastPosition)
+        ? this.lastPosition
+        : readJson(LAST_POSITION_KEY, null);
+      const dailyLog = readJson(DAILY_LOG_KEY, null);
+      const userNotes = this.loadUserNotes();
+      const settings = readJson(SETTINGS_KEY, null);
+      const includeVocabBook = options.includeVocabBook !== false;
+      const vocabBook = (includeVocabBook && typeof window !== 'undefined' && window.StorageModule && window.StorageModule.getVocabBook)
+        ? window.StorageModule.getVocabBook()
+        : undefined;
+
+      let masteredCount = 0;
+      let learningCount = 0;
+      const keys = Object.keys(progress);
+      keys.forEach(k => {
+        const rec = progress[k];
+        if (!rec) return;
+        if (rec.status === 'mastered') masteredCount++;
+        else if (rec.status === 'learning') learningCount++;
+      });
+
+      return {
+        type: 'kaoyan_vocab_progress',
+        version: 1,
+        exportedAt: new Date().toISOString(),
+        summary: {
+          totalTrackedWords: keys.length,
+          masteredCount,
+          learningCount,
+          vocabBookCount: Array.isArray(vocabBook) ? vocabBook.length : 0,
+          notesCount: Object.keys(userNotes).length
+        },
+        progress,
+        lastPosition,
+        dailyLog,
+        userNotes,
+        settings,
+        vocabBook
+      };
+    },
+
+    importStudyProgress(rawInput, options = {}) {
+      const mode = options.mode === 'replace' ? 'replace' : 'merge';
+      const includeVocabBook = options.includeVocabBook !== false;
+
+      let parsed = rawInput;
+      if (typeof rawInput === 'string') {
+        const trimmed = rawInput.trim();
+        if (!trimmed) {
+          return { ok: false, message: '请输入或选择背诵进度备份文件。' };
+        }
+        try {
+          parsed = JSON.parse(trimmed);
+        } catch (e) {
+          return { ok: false, message: '背诵进度内容不是有效的 JSON 格式，请检查后重试。' };
+        }
+      }
+
+      if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+        return { ok: false, message: '未识别到有效的背诵进度数据格式。' };
+      }
+
+      if (parsed.type === 'kaoyan_vocab_book' && !parsed.progress) {
+        return { ok: false, message: '这是「生词本」备份文件，请点击「导入生词本」进行导入。' };
+      }
+
+      let impProgress = null;
+      if (parsed.progress && typeof parsed.progress === 'object' && !Array.isArray(parsed.progress)) {
+        impProgress = parsed.progress;
+      } else if (parsed.type !== 'kaoyan_vocab_progress') {
+        // Support direct progress dictionary format { word: { status, level, ... } }
+        const vals = Object.values(parsed);
+        if (vals.length > 0 && vals.every(v => v && typeof v === 'object' && ('status' in v || 'level' in v || 'nextReviewTime' in v))) {
+          impProgress = parsed;
+        }
+      } else {
+        impProgress = {};
+      }
+
+      if (!impProgress) {
+        return { ok: false, message: '备份文件中缺少背诵进度 (progress) 字段。' };
+      }
+
+      const readJson = (key, fallback) => {
+        try {
+          const raw = localStorage.getItem(key);
+          return raw ? JSON.parse(raw) : fallback;
+        } catch (e) {
+          return fallback;
+        }
+      };
+
+      const pickBetterProgress = (localRec, impRec) => {
+        if (!localRec) return impRec;
+        if (!impRec) return localRec;
+        const tImp = Number(impRec.lastReviewTime || 0);
+        const tLoc = Number(localRec.lastReviewTime || 0);
+        if (tImp > 0 && tLoc > 0 && tImp !== tLoc) {
+          return tImp > tLoc ? impRec : localRec;
+        }
+        if (impRec.status === 'mastered' && localRec.status !== 'mastered') return impRec;
+        if (localRec.status === 'mastered' && impRec.status !== 'mastered') return localRec;
+        const lvImp = Number(impRec.level || 0);
+        const lvLoc = Number(localRec.level || 0);
+        if (lvImp !== lvLoc) return lvImp > lvLoc ? impRec : localRec;
+        return Number(impRec.reviewCount || 0) >= Number(localRec.reviewCount || 0) ? impRec : localRec;
+      };
+
+      try {
+        // 1. Progress map
+        const localProgress = mode === 'replace'
+          ? {}
+          : (appState.isInitialized ? Object.assign({}, appState.progress) : readJson(STORAGE_KEY, {}));
+
+        let addedWords = 0;
+        let updatedWords = 0;
+        Object.keys(impProgress).forEach(wordKey => {
+          const impRec = impProgress[wordKey];
+          if (!impRec || typeof impRec !== 'object') return;
+          if (!localProgress[wordKey]) {
+            localProgress[wordKey] = impRec;
+            addedWords++;
+          } else if (mode === 'replace') {
+            localProgress[wordKey] = impRec;
+            updatedWords++;
+          } else {
+            const winner = pickBetterProgress(localProgress[wordKey], impRec);
+            if (winner === impRec) updatedWords++;
+            localProgress[wordKey] = winner;
+          }
+        });
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(localProgress));
+        appState.progress = localProgress;
+
+        // 2. Daily Log
+        if (parsed.dailyLog && typeof parsed.dailyLog === 'object') {
+          if (mode === 'replace') {
+            localStorage.setItem(DAILY_LOG_KEY, JSON.stringify(parsed.dailyLog));
+          } else {
+            const locLog = readJson(DAILY_LOG_KEY, { date: this.getTodayKey(), newLearned: [], reviewed: [], history: {} });
+            const impLog = parsed.dailyLog;
+            const mergedHist = Object.assign({}, locLog.history || {});
+            if (impLog.history && typeof impLog.history === 'object') {
+              Object.keys(impLog.history).forEach(d => {
+                const ih = impLog.history[d] || {};
+                const lh = mergedHist[d] || {};
+                mergedHist[d] = {
+                  newCount: Math.max(Number(lh.newCount || 0), Number(ih.newCount || 0)),
+                  reviewCount: Math.max(Number(lh.reviewCount || 0), Number(ih.reviewCount || 0))
+                };
+              });
+            }
+            const today = this.getTodayKey();
+            let finalLog = { date: today, newLearned: [], reviewed: [], history: mergedHist };
+            const locNew = locLog.date === today && Array.isArray(locLog.newLearned) ? locLog.newLearned : [];
+            const locRev = locLog.date === today && Array.isArray(locLog.reviewed) ? locLog.reviewed : [];
+            const impNew = impLog.date === today && Array.isArray(impLog.newLearned) ? impLog.newLearned : [];
+            const impRev = impLog.date === today && Array.isArray(impLog.reviewed) ? impLog.reviewed : [];
+            finalLog.newLearned = Array.from(new Set([...locNew, ...impNew]));
+            finalLog.reviewed = Array.from(new Set([...locRev, ...impRev]));
+            if (impLog.date && impLog.date !== today) {
+              const prevH = finalLog.history[impLog.date] || {};
+              finalLog.history[impLog.date] = {
+                newCount: Math.max(Number(prevH.newCount || 0), Array.isArray(impLog.newLearned) ? impLog.newLearned.length : 0),
+                reviewCount: Math.max(Number(prevH.reviewCount || 0), Array.isArray(impLog.reviewed) ? impLog.reviewed.length : 0)
+              };
+            }
+            localStorage.setItem(DAILY_LOG_KEY, JSON.stringify(finalLog));
+          }
+        }
+
+        // 3. User Notes
+        let notesAdded = 0;
+        if (parsed.userNotes && typeof parsed.userNotes === 'object') {
+          const mergedNotes = mode === 'replace' ? {} : this.loadUserNotes();
+          Object.keys(parsed.userNotes).forEach(k => {
+            const val = String(parsed.userNotes[k] || '').trim();
+            if (val) {
+              if (!mergedNotes[k]) notesAdded++;
+              mergedNotes[k] = val;
+            }
+          });
+          this.saveUserNotes(mergedNotes);
+        }
+
+        // 4. Last Position
+        if (parsed.lastPosition && typeof parsed.lastPosition === 'object') {
+          if (mode === 'replace') {
+            this.lastPosition = parsed.lastPosition;
+            localStorage.setItem(LAST_POSITION_KEY, JSON.stringify(this.lastPosition));
+          } else {
+            const locPos = readJson(LAST_POSITION_KEY, null);
+            const impPos = parsed.lastPosition;
+            const mergedSrcPos = Object.assign({}, (locPos && locPos.sourcePositions) || {}, impPos.sourcePositions || {});
+            this.lastPosition = Object.assign({}, locPos || {}, impPos, { sourcePositions: mergedSrcPos });
+            localStorage.setItem(LAST_POSITION_KEY, JSON.stringify(this.lastPosition));
+          }
+        }
+
+        // 5. Settings
+        if (parsed.settings && typeof parsed.settings === 'object') {
+          const mergedCfg = mode === 'replace'
+            ? parsed.settings
+            : Object.assign({}, readJson(SETTINGS_KEY, {}), parsed.settings);
+          localStorage.setItem(SETTINGS_KEY, JSON.stringify(mergedCfg));
+        }
+
+        // 6. Optional Vocab Book Sync
+        let vocabBookImported = 0;
+        if (includeVocabBook && Array.isArray(parsed.vocabBook) && typeof window !== 'undefined' && window.StorageModule && window.StorageModule.importVocabBookData) {
+          if (mode === 'replace' || parsed.vocabBook.length > 0) {
+            const vbRes = window.StorageModule.importVocabBookData(parsed.vocabBook, { mode });
+            if (vbRes && vbRes.ok) vocabBookImported = vbRes.added + vbRes.updated;
+          }
+        }
+
+        // 7. Refresh In-Memory & UI State
+        let masteredCount = 0;
+        let learningCount = 0;
+        const totalTracked = Object.keys(localProgress).length;
+        Object.keys(localProgress).forEach(k => {
+          const r = localProgress[k];
+          if (r && r.status === 'mastered') masteredCount++;
+          else if (r && r.status === 'learning') learningCount++;
+        });
+
+        if (appState.isInitialized) {
+          this.loadSettings();
+          this.loadProgress();
+          this.populateDropdowns();
+          this.applyFiltersAndRender();
+          this.updateStats();
+          this.updateHomeView();
+          this.applyButtonOrder();
+          if (appState.currentView === 'study') {
+            this.renderCurrentCard();
+          }
+        }
+
+        return {
+          ok: true,
+          addedWords,
+          updatedWords,
+          totalTracked,
+          masteredCount,
+          learningCount,
+          vocabBookImported,
+          notesAdded
+        };
+      } catch (e) {
+        return { ok: false, message: '导入背诵进度失败，可能是数据格式错误或存储空间不足。' };
       }
     },
 

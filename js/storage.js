@@ -233,6 +233,217 @@
       window.dispatchEvent(new CustomEvent('vocabBookUpdated', { detail: { count, list } }));
     },
 
+    exportVocabBookData(options = {}) {
+      const list = this.getVocabBook();
+      const format = options.format || 'json';
+      let notes = {};
+      try {
+        const rawNotes = localStorage.getItem('KAOYAN_VOCAB_USER_NOTES_V1');
+        if (rawNotes) {
+          const allNotes = JSON.parse(rawNotes) || {};
+          list.forEach(item => {
+            const key = String(item.word || '').toLowerCase().trim();
+            if (key && allNotes[key]) notes[key] = allNotes[key];
+          });
+        }
+      } catch (e) {}
+
+      if (format === 'txt') {
+        const lines = list.map(item => {
+          const defClean = String(item.def || '').replace(/[\t\r\n]+/g, ' ').trim();
+          const sentClean = String(item.sentence || '').replace(/[\t\r\n]+/g, ' ').trim();
+          return [item.word, defClean, sentClean].filter((v, idx) => idx === 0 || v).join('\t');
+        });
+        return {
+          type: 'kaoyan_vocab_book',
+          format: 'txt',
+          count: list.length,
+          content: lines.join('\n')
+        };
+      }
+
+      return {
+        type: 'kaoyan_vocab_book',
+        version: 1,
+        exportedAt: new Date().toISOString(),
+        count: list.length,
+        words: list,
+        notes
+      };
+    },
+
+    parseVocabBookImport(rawInput) {
+      const stripHtml = s => String(s || '').replace(/<[^>]+>/g, '').trim();
+      const normalizeItem = entry => {
+        if (!entry) return null;
+        if (typeof entry === 'string') {
+          const w = stripHtml(entry);
+          return w ? { word: w, def: '', sentence: '', year: '', textId: '', sid: null, pid: null, time: Date.now() } : null;
+        }
+        if (typeof entry === 'object') {
+          const w = stripHtml(entry.word || entry.headword || '');
+          if (!w) return null;
+          return {
+            word: w,
+            def: stripHtml(entry.def || entry.meaning || entry.definition || ''),
+            sentence: stripHtml(entry.sentence || entry.example || ''),
+            year: entry.year ? String(entry.year) : '',
+            textId: entry.textId ? String(entry.textId) : '',
+            sid: (entry.sid !== undefined && entry.sid !== null && entry.sid !== '') ? Number(entry.sid) : null,
+            pid: (entry.pid !== undefined && entry.pid !== null && entry.pid !== '') ? Number(entry.pid) : null,
+            time: Number(entry.time) || Date.now()
+          };
+        }
+        return null;
+      };
+
+      let items = [];
+      let notes = null;
+
+      if (Array.isArray(rawInput)) {
+        items = rawInput.map(normalizeItem).filter(Boolean);
+        return { items, notes };
+      }
+
+      if (rawInput && typeof rawInput === 'object') {
+        const arr = Array.isArray(rawInput.words)
+          ? rawInput.words
+          : (Array.isArray(rawInput.vocabBook) ? rawInput.vocabBook : []);
+        items = arr.map(normalizeItem).filter(Boolean);
+        if (rawInput.notes && typeof rawInput.notes === 'object') notes = rawInput.notes;
+        else if (rawInput.userNotes && typeof rawInput.userNotes === 'object') notes = rawInput.userNotes;
+        return { items, notes };
+      }
+
+      const text = String(rawInput || '').trim();
+      if (!text) return { items: [], notes: null };
+
+      if (text.startsWith('{') || text.startsWith('[')) {
+        try {
+          const parsed = JSON.parse(text);
+          return this.parseVocabBookImport(parsed);
+        } catch (e) {}
+      }
+
+      const lines = text.split(/\r?\n/);
+      for (const rawLine of lines) {
+        const line = rawLine.trim();
+        if (!line || line.startsWith('#')) continue;
+
+        let word = '';
+        let def = '';
+        let sentence = '';
+
+        if (line.includes('\t')) {
+          const cols = line.split('\t').map(stripHtml);
+          word = cols[0] || '';
+          def = cols[1] || '';
+          sentence = cols[2] || '';
+        } else if (/^[a-zA-Z][a-zA-Z\s'-]{0,48}\s*,\s*.+$/.test(line)) {
+          const parts = line.split(',').map(p => stripHtml(p.replace(/^"|"$/g, '')));
+          word = parts[0] || '';
+          def = parts[1] || '';
+          sentence = parts[2] || '';
+        } else {
+          const match = line.match(/^([a-zA-Z][a-zA-Z'-]*(?:\s+[a-zA-Z'-]+){0,2})(?:\s*(?:[-–—:|]|(?:\s{2,}))\s*(.+))?$/);
+          if (match) {
+            word = match[1].trim();
+            def = (match[2] || '').trim();
+          } else {
+            const cjkMatch = line.match(/^([a-zA-Z][a-zA-Z'-]*)\s+((?:[a-z]+\.|[\u4e00-\u9fa5]).+)$/);
+            if (cjkMatch) {
+              word = cjkMatch[1].trim();
+              def = cjkMatch[2].trim();
+            }
+          }
+        }
+
+        const norm = normalizeItem({ word, def, sentence });
+        if (norm) items.push(norm);
+      }
+
+      return { items, notes };
+    },
+
+    importVocabBookData(rawInput, options = {}) {
+      const mode = options.mode === 'replace' ? 'replace' : 'merge';
+      const enrichFn = typeof options.enrichFn === 'function'
+        ? options.enrichFn
+        : (typeof window !== 'undefined' && window.VocabModule && typeof window.VocabModule.lookupWordDetails === 'function'
+          ? w => window.VocabModule.lookupWordDetails(w)
+          : null);
+
+      const { items, notes } = this.parseVocabBookImport(rawInput);
+      if (!items || items.length === 0) {
+        return { ok: false, added: 0, updated: 0, skipped: 0, total: this.getVocabBook().length, message: '未识别到有效的生词数据，请检查文件格式或文本内容。' };
+      }
+
+      try {
+        const existing = mode === 'replace' ? [] : this.getVocabBook();
+        const indexByLower = new Map();
+        existing.forEach((item, idx) => {
+          if (item && item.word) indexByLower.set(item.word.toLowerCase().trim(), idx);
+        });
+
+        let added = 0;
+        let updated = 0;
+        let skipped = 0;
+
+        items.forEach(entry => {
+          const wLow = entry.word.toLowerCase().trim();
+          if (!wLow) return;
+
+          if ((!entry.def || !entry.sentence) && enrichFn) {
+            const enriched = enrichFn(entry.word);
+            if (enriched) {
+              if (!entry.def && enriched.def) entry.def = enriched.def;
+              if (!entry.sentence && enriched.sentence) entry.sentence = enriched.sentence;
+              if (!entry.year && enriched.year) entry.year = String(enriched.year);
+              if (!entry.textId && enriched.textId) entry.textId = String(enriched.textId);
+            }
+          }
+
+          if (indexByLower.has(wLow)) {
+            const idx = indexByLower.get(wLow);
+            const cur = existing[idx];
+            let changed = false;
+            if (!cur.def && entry.def) { cur.def = entry.def; changed = true; }
+            if (!cur.sentence && entry.sentence) { cur.sentence = entry.sentence; changed = true; }
+            if (!cur.year && entry.year) { cur.year = entry.year; changed = true; }
+            if (!cur.textId && entry.textId) { cur.textId = entry.textId; changed = true; }
+            if (changed) updated++;
+            else skipped++;
+          } else {
+            indexByLower.set(wLow, existing.length);
+            existing.push(entry);
+            added++;
+          }
+        });
+
+        localStorage.setItem(VOCAB_BOOK_KEY, JSON.stringify(existing));
+
+        if (notes && typeof notes === 'object') {
+          let mergedNotes = {};
+          if (mode !== 'replace') {
+            try {
+              const rawOld = localStorage.getItem('KAOYAN_VOCAB_USER_NOTES_V1');
+              if (rawOld) mergedNotes = JSON.parse(rawOld) || {};
+            } catch (e) {}
+          }
+          Object.keys(notes).forEach(k => {
+            const val = String(notes[k] || '').trim();
+            if (val) mergedNotes[k.toLowerCase().trim()] = val;
+          });
+          localStorage.setItem('KAOYAN_VOCAB_USER_NOTES_V1', JSON.stringify(mergedNotes));
+        }
+
+        this.updateVocabBadge();
+        return { ok: true, added, updated, skipped, total: existing.length };
+      } catch (e) {
+        return { ok: false, added: 0, updated: 0, skipped: 0, total: this.getVocabBook().length, message: '保存生词本数据失败，可能是本地存储空间不足。' };
+      }
+    },
+
     // --- Vocabulary Review Preferences (View Type & Self-Test Masking) ---
     getVocabViewPreference() {
       try {

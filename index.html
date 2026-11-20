@@ -528,9 +528,11 @@
         <button class="toolbar-btn" id="closeVocabBookBtn" style="padding:6px 14px;font-size:0.92em">✕ 关闭</button>
       </div>
       <div class="modal-body" id="vocabBookModalBody" style="flex:1;overflow-y:auto;padding:20px 24px"></div>
-      <div class="modal-footer" style="padding:14px 24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;background:var(--surface);border-radius:0 0 var(--radius-md) var(--radius-md)">
+      <div class="modal-footer" style="padding:14px 24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;background:var(--surface);border-radius:0 0 var(--radius-md) var(--radius-md)">
         <div style="font-size:1.0em;color:var(--muted)">当前共收藏 <strong id="vocabBookTotalCount" style="color:var(--primary);font-size:1.2em">0</strong> 个重点生词</div>
-        <div style="display:flex;gap:12px">
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <button id="btnExportVocabBook" class="toolbar-btn" style="padding:8px 14px;font-size:0.92em" title="导出生词本备份文件或同步文本">📤 导出生词本</button>
+          <button id="btnImportVocabBook" class="toolbar-btn" style="padding:8px 14px;font-size:0.92em" title="从备份文件或文本列表导入生词本">📥 导入生词本</button>
           <button id="btnStartVocabBookRecite" class="btn" style="background:var(--primary);color:#fff;font-weight:700;padding:8px 20px;font-size:0.95em">🎯 开始背诵生词本</button>
           <button id="btnClearVocabBook" class="toolbar-btn" style="color:#ef4444;border-color:rgba(239,68,68,0.3);padding:8px 16px;font-size:0.92em">🗑️ 清空生词本</button>
         </div>
@@ -547,6 +549,16 @@
       </div>
       <div class="modal-body">
         <div class="export-card-grid">
+          <div class="export-item-card" style="border-color:rgba(16,185,129,0.35);background:rgba(16,185,129,0.04)">
+            <div class="export-item-info">
+              <h4>☁️ 生词本与单词背诵进度同步</h4>
+              <p>导出或导入 JSON / TXT 备份（支持跨设备同步记忆曲线、笔记与生词本）</p>
+            </div>
+            <div style="display:flex;gap:6px;flex-wrap:wrap">
+              <button class="float-btn" id="btnSyncOpenProgress" style="position:static;font-size:0.85em;padding:6px 12px;background:#047857">📊 进度同步</button>
+              <button class="float-btn" id="btnSyncOpenBook" style="position:static;font-size:0.85em;padding:6px 12px">📒 生词本同步</button>
+            </div>
+          </div>
           <div class="export-item-card">
             <div class="export-item-info">
               <h4>🃏 导出当前篇章生词卡片 (Anki)</h4>
@@ -597,12 +609,12 @@
   <script src="data/writing_simplified5_data.js?v=20261119_s3_v1" defer></script>
   
   <!-- Modular JS Application Components -->
-  <script src="js/storage.js" defer></script>
+  <script src="js/storage.js?v=20261120_sync_v1" defer></script>
   <script src="js/review_content.js?v=20260918_qtrans_v1" defer></script>
-  <script src="js/exporter.js?v=20260914_reading_v1" defer></script>
+  <script src="js/exporter.js?v=20261120_sync_v1" defer></script>
   <script src="js/reader.js?v=20260918_qtrans_v1" defer></script>
   <script src="js/quiz.js?v=20260918_qtrans_v1" defer></script>
-  <script src="js/vocab.js?v=20261105_v3" defer></script>
+  <script src="js/vocab.js?v=20261120_sync_v1" defer></script>
   <script src="js/writing_onepage.js?v=20261117_fixedtop_v1" defer></script>
   <script src="js/writing_simplified5.js?v=20261119_s3_v1" defer></script>
   <script src="js/writing.js?v=20261119_s3_v1" defer></script>
@@ -610,7 +622,7 @@
   <script src="js/render_matching.js?v=20260924_v1" defer></script>
   <script src="js/render_translation.js?v=20261119_trans_v8" defer></script>
   <script src="js/render_writing.js?v=20261117_writingb_v1" defer></script>
-  <script src="js/app.js?v=20261119_trans_v9" defer></script>
+  <script src="js/app.js?v=20261120_sync_v1" defer></script>
 
   <!-- Idle Background Prefetch for Heavy Vocab Graph (Non-blocking) -->
   <script>

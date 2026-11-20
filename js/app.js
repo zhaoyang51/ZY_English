@@ -1581,6 +1581,36 @@
     const closeVocabBookBtn = document.getElementById('closeVocabBookBtn');
     const btnStartVocabBookRecite = document.getElementById('btnStartVocabBookRecite');
     const btnClearVocabBook = document.getElementById('btnClearVocabBook');
+    const btnExportVocabBook = document.getElementById('btnExportVocabBook');
+    const btnImportVocabBook = document.getElementById('btnImportVocabBook');
+    const btnSyncOpenProgress = document.getElementById('btnSyncOpenProgress');
+    const btnSyncOpenBook = document.getElementById('btnSyncOpenBook');
+
+    if (btnExportVocabBook) {
+      btnExportVocabBook.onclick = () => {
+        if (window.VocabSyncUI) window.VocabSyncUI.open('vocabBook', 'export');
+      };
+    }
+
+    if (btnImportVocabBook) {
+      btnImportVocabBook.onclick = () => {
+        if (window.VocabSyncUI) window.VocabSyncUI.open('vocabBook', 'import');
+      };
+    }
+
+    if (btnSyncOpenProgress) {
+      btnSyncOpenProgress.onclick = () => {
+        if (exportModal) exportModal.classList.remove('show');
+        if (window.VocabSyncUI) window.VocabSyncUI.open('progress', 'export');
+      };
+    }
+
+    if (btnSyncOpenBook) {
+      btnSyncOpenBook.onclick = () => {
+        if (exportModal) exportModal.classList.remove('show');
+        if (window.VocabSyncUI) window.VocabSyncUI.open('vocabBook', 'export');
+      };
+    }
 
     if (vocabBookBtn && vocabBookModal) {
       vocabBookBtn.onclick = () => {
@@ -1833,6 +1863,7 @@
            null;
   }
   window.getVocabRelations = getVocabRelations;
+  window.renderVocabBookModal = renderVocabBookModal;
 
   function renderVocabBookModal(filterSearch = '') {
     const body = document.getElementById('vocabBookModalBody');

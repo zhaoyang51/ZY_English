@@ -57,6 +57,8 @@ function createEnvironment(initialState = {}) {
       },
       setAttribute(k, v) { this[k] = v; },
       getAttribute(k) { return this[k] || null; },
+      querySelector() { return null; },
+      querySelectorAll() { return []; },
       value: '',
       hidden: false
     };
