@@ -198,6 +198,57 @@ test('8-Day Review Forecast: Computes exact daily buckets for next 8 days and re
 
   // Verify Forecast Modal renders cleanly
   window.VocabModule.openForecastModal(0, 'current');
+  assert.strictEqual(elements.get('vocabForecastBody').innerHTML.includes('vocab-fc-day-col'), true);
   assert.strictEqual(elements.get('vocabForecastModal').style.display, 'flex');
-  assert.ok(elements.get('vocabForecastBody').innerHTML.includes('vocab-fc-day-col'));
+});
+
+test('Review downgrade rules: forgot/wrong drop 2 levels (using pre-flip base on markWrong) and hard drops 1 level', () => {
+  const { storageMap } = setupForecastEnv();
+  const pastDue = Date.now() - 60000;
+  storageMap.set('KAOYAN_VOCAB_PROGRESS_V2', JSON.stringify({
+    alpha: { status: 'learning', level: 6, firstStudied: pastDue - 10000, lastReviewed: pastDue - 5000, nextReviewTime: pastDue, reviewCount: 5 },
+    bravo: { status: 'learning', level: 6, firstStudied: pastDue - 10000, lastReviewed: pastDue - 5000, nextReviewTime: pastDue, reviewCount: 5 },
+    charlie: { status: 'learning', level: 1, firstStudied: pastDue - 10000, lastReviewed: pastDue - 5000, nextReviewTime: pastDue, reviewCount: 2 },
+    delta: { status: 'learning', level: 6, firstStudied: pastDue - 10000, lastReviewed: pastDue - 5000, nextReviewTime: pastDue, reviewCount: 5 }
+  }));
+
+  window.VocabModule.init('vocabSection');
+  window.VocabModule.showStudyView('review');
+
+  const DAY = 24 * 60 * 60 * 1000;
+
+  // 1) alpha at level 6 -> 'forgot' drops 2 levels to level 4 (4 days)
+  const t1 = Date.now();
+  window.VocabModule.gradeWord('forgot'); // flips card
+  let prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  assert.strictEqual(prog.alpha.level, 4, 'forgot from level 6 should drop 2 levels to 4');
+  assert.ok(prog.alpha.nextReviewTime - t1 >= 3.99 * DAY && prog.alpha.nextReviewTime - t1 <= 4.01 * DAY);
+  window.VocabModule.goToNextCard(); // advance to bravo
+
+  // 2) bravo at level 6 -> 'hard' drops 1 level to level 5 (5 days)
+  const t2 = Date.now();
+  window.VocabModule.gradeWord('hard');
+  prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  assert.strictEqual(prog.bravo.level, 5, 'hard from level 6 should drop 1 level to 5');
+  assert.ok(prog.bravo.nextReviewTime - t2 >= 4.99 * DAY && prog.bravo.nextReviewTime - t2 <= 5.01 * DAY);
+  window.VocabModule.goToNextCard(); // advance to charlie
+
+  // 3) charlie at level 1 -> 'forgot' clamps at level 0 (12h)
+  const t3 = Date.now();
+  window.VocabModule.gradeWord('forgot');
+  prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  assert.strictEqual(prog.charlie.level, 0, 'forgot from level 1 should clamp at 0');
+  assert.ok(prog.charlie.nextReviewTime - t3 >= 11.9 * 3600 * 1000 && prog.charlie.nextReviewTime - t3 <= 12.1 * 3600 * 1000);
+  window.VocabModule.goToNextCard(); // advance to delta
+
+  // 4) delta at level 6 -> user clicks 'good' (flips card, temporarily bumps to 7) then clicks '记错了' (handleMarkWrong)
+  // Must drop 2 levels from pre-flip level 6 -> level 4 (4 days), NOT 7 - 2 = 5 and NOT reset to 0
+  const t4 = Date.now();
+  window.VocabModule.gradeWord('good');
+  prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  assert.strictEqual(prog.delta.level, 7, 'pre-check: good temporarily bumps level 6 to 7 on flip');
+  window.VocabModule.handleMarkWrong();
+  prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  assert.strictEqual(prog.delta.level, 4, 'handleMarkWrong after flip must drop 2 levels from pre-flip level 6 -> 4');
+  assert.ok(prog.delta.nextReviewTime - t4 >= 3.99 * DAY && prog.delta.nextReviewTime - t4 <= 4.01 * DAY);
 });

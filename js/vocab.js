@@ -2599,7 +2599,7 @@
         index: appState.currentIndex
       });
 
-      let record = previousRecord || {
+      let record = previousRecord ? JSON.parse(JSON.stringify(previousRecord)) : {
         status: 'learning',
         level: 0,
         firstStudied: now,
@@ -2612,15 +2612,15 @@
       record.lastReviewed = now;
 
       if (grade === 'forgot') {
-        record.level = 0;
-        record.nextReviewTime = now + EBB_INTERVALS[0];
+        record.level = Math.min(EBB_INTERVALS.length - 1, Math.max(0, (Number(record.level) || 0) - 2));
+        record.nextReviewTime = now + EBB_INTERVALS[record.level];
         record.status = 'learning';
       } else if (grade === 'hard') {
-        record.level = Math.min(EBB_INTERVALS.length - 1, Math.max(0, record.level - 1));
+        record.level = Math.min(EBB_INTERVALS.length - 1, Math.max(0, (Number(record.level) || 0) - 1));
         record.nextReviewTime = now + EBB_INTERVALS[record.level];
         record.status = 'learning';
       } else if (grade === 'good') {
-        record.level = Math.min(EBB_INTERVALS.length - 1, record.level + 1);
+        record.level = Math.min(EBB_INTERVALS.length - 1, (Number(record.level) || 0) + 1);
         record.nextReviewTime = now + EBB_INTERVALS[record.level];
         record.status = 'learning';
       }
@@ -2660,9 +2660,14 @@
         nextReviewTime: now,
         reviewCount: 0
       };
-      record.level = 0;
+      let baseLevel = Number(record.level) || 0;
+      const lastHist = appState.historyStack.length > 0 ? appState.historyStack[appState.historyStack.length - 1] : null;
+      if (appState.isFlipped && lastHist && lastHist.word === word) {
+        baseLevel = lastHist.previousRecord ? (Number(lastHist.previousRecord.level) || 0) : 0;
+      }
+      record.level = Math.min(EBB_INTERVALS.length - 1, Math.max(0, baseLevel - 2));
       record.lastReviewed = now;
-      record.nextReviewTime = now + EBB_INTERVALS[0];
+      record.nextReviewTime = now + EBB_INTERVALS[record.level];
       record.status = 'learning';
       appState.progress[word] = record;
       this.saveProgress();
@@ -2675,7 +2680,7 @@
       const word = cur.word || cur.root;
       const now = Date.now();
       let previousRecord = appState.progress[word] ? JSON.parse(JSON.stringify(appState.progress[word])) : null;
-      let record = previousRecord || {
+      let record = previousRecord ? JSON.parse(JSON.stringify(previousRecord)) : {
         status: 'mastered',
         level: EBB_INTERVALS.length - 1,
         firstStudied: now,
