@@ -25,8 +25,25 @@ body.theme-dark .en1-sheet {
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
 }
 
-/* Flush top-docked toolbars for English I dual-panel view */
-body.mode-en1 #leftScroll.scroll-container,
+/* Fixed top-docked toolbars for English I dual-panel view */
+#en1AnnotatorToolbarMount {
+  display: none;
+}
+
+body.mode-en1 #en1AnnotatorToolbarMount {
+  display: block;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+body.mode-en1 #leftScroll.scroll-container {
+  padding-top: 14px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
 body.mode-en1 #rightScroll.scroll-container {
   padding-top: 0;
   padding-left: 18px;
@@ -51,18 +68,15 @@ body.mode-en1 #workspaceToolbar.collapsed {
   border: 1px solid var(--border);
 }
 
-/* Sticky Annotation & Typography Bar */
+/* Fixed Annotation & Typography Bar */
 .en1-toolbar {
-  position: sticky;
-  top: 0;
-  z-index: 25;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 6px;
   padding: 7px 14px;
-  margin: 0 -18px 12px -18px;
-  background: rgba(255, 255, 255, 0.97);
+  margin: 0;
+  background: rgba(255, 255, 255, 0.98);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border, #e2e8f0);
   border-radius: 0;

@@ -542,6 +542,30 @@
   }
 
   function mountLeftSheet(examPaper, sheetHtml) {
+    const leftScroll = document.getElementById('leftScroll');
+    const leftPanel = typeof examPaper.closest === 'function' ? examPaper.closest('.left-panel') : null;
+
+    if (leftPanel && leftScroll && typeof document.createElement === 'function') {
+      let tbMount = document.getElementById('en1AnnotatorToolbarMount');
+      if (!tbMount || !leftPanel.contains(tbMount)) {
+        tbMount = document.createElement('div');
+        tbMount.id = 'en1AnnotatorToolbarMount';
+        tbMount.innerHTML = buildToolbarHtml();
+        leftPanel.insertBefore(tbMount, leftScroll);
+        bindToolbarEvents();
+      } else {
+        syncToolbarState();
+      }
+      let sheetMount = document.getElementById('en1LeftSheetMount');
+      if (!sheetMount || !examPaper.contains(sheetMount)) {
+        examPaper.innerHTML = `<div id="en1LeftSheetMount">${sheetHtml}</div>`;
+      } else {
+        sheetMount.innerHTML = sheetHtml;
+      }
+      return;
+    }
+
+    // Fallback for minimal DOM unit tests
     let tbMount = document.getElementById('en1AnnotatorToolbarMount');
     let sheetMount = document.getElementById('en1LeftSheetMount');
     if (!tbMount || !sheetMount || typeof examPaper.contains !== 'function' || !examPaper.contains(tbMount) || !examPaper.contains(sheetMount)) {
