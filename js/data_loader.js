@@ -1,7 +1,9 @@
 /** Year-scoped script loading works on GitHub Pages and when index.html is opened locally. */
 (function () {
   const cache = window.KAOYAN_PURE_DATA = window.KAOYAN_PURE_DATA || {};
+  const en1Cache = window.KAOYAN_EN1_DATA = window.KAOYAN_EN1_DATA || {};
   const pending = new Map();
+  const en1Pending = new Map();
   let scriptSelfSrc = (typeof document !== 'undefined' && document.currentScript && document.currentScript.src) ? document.currentScript.src : null;
   if (!scriptSelfSrc && typeof document !== 'undefined' && document.getElementsByTagName) {
     const scripts = document.getElementsByTagName('script');
@@ -29,11 +31,53 @@
   const base = scriptSelfSrc
     ? new URL('../data/years/', scriptSelfSrc)
     : new URL('data/years/', pageBase);
+  const en1Base = scriptSelfSrc
+    ? new URL('../data/en1/', scriptSelfSrc)
+    : new URL('data/en1/', pageBase);
   const vocabBase = scriptSelfSrc
     ? new URL('../data/', scriptSelfSrc)
     : new URL('data/', pageBase);
   function entry(year) {
     return (window.KAOYAN_MANIFEST || []).find(item => item.year === Number(year));
+  }
+  function entryEn1(year) {
+    return (window.KAOYAN_EN1_MANIFEST || []).find(item => item.year === Number(year));
+  }
+  function registerEn1Year(year, data) {
+    const item = entryEn1(year);
+    if (!item || Number(data?.year) !== item.year) {
+      throw new Error('英语（一）年度数据格式不完整');
+    }
+    en1Cache[item.year] = data;
+  }
+  function loadEn1Year(year) {
+    const item = entryEn1(year);
+    if (!item) return Promise.reject(new Error('未收录该英语（一）年份'));
+    year = item.year;
+    if (en1Cache[year]) return Promise.resolve(en1Cache[year]);
+    if (en1Pending.has(year)) return en1Pending.get(year);
+    const task = new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = new URL(`${year}.js?v=${encodeURIComponent(item.version)}`, en1Base).href;
+      let settled = false;
+      const finish = error => {
+        if (settled) return;
+        settled = true;
+        clearTimeout(timer);
+        script.onload = script.onerror = null;
+        script.remove();
+        if (error) reject(error);
+        else resolve(en1Cache[year]);
+      };
+      const timer = setTimeout(() => finish(new Error('加载超时，请检查网络后重试')), 20000);
+      script.onload = () => finish(en1Cache[year] ? null : new Error('英语（一）年度数据未正确加载'));
+      script.onerror = () => finish(new Error('加载失败，请检查网络后重试'));
+      document.head.appendChild(script);
+    });
+    const tracked = task.finally(() => en1Pending.delete(year));
+    en1Pending.set(year, tracked);
+    return tracked;
   }
   function registerYear(year, data) {
     const item = entry(year);
@@ -162,6 +206,9 @@
     loadYear,
     registerYear,
     peek: year => cache[Number(year)] || null,
+    loadEn1Year,
+    registerEn1Year,
+    peekEn1: year => en1Cache[Number(year)] || null,
     loadVocabRelations,
     loadVocabSucheng,
     loadVocabDaxue,

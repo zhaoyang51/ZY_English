@@ -57,6 +57,18 @@
         }
       }
       return parts.join('');
+    },
+    tokenizeAllWords: function(text) {
+      if (!text) return '';
+      const parts = String(text).split(/(<[^>]+>)/g);
+      for (let i = 0; i < parts.length; i += 2) {
+        if (parts[i]) {
+          parts[i] = parts[i].replace(/\b([a-zA-Z]+(?:['’][a-zA-Z]+)?)\b/g, (match) => {
+            return `<span class="exam-word-token" data-word="${match}" title="点击查词: ${match}">${match}</span>`;
+          });
+        }
+      }
+      return parts.join('');
     }
   };
 
@@ -195,6 +207,14 @@
       return window.TextTokenizer.tokenizeWords(text);
     },
 
+    tokenizeAllWords: function(text) {
+      return window.TextTokenizer.tokenizeAllWords(text);
+    },
+
+    escapeAttr: function(str) {
+      return String(str || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    },
+
     /**
      * Locate paragraph / slot / sentence on left panel and smooth scroll
      */
@@ -296,21 +316,21 @@
             const optCn = correctKey && data.options_cn ? data.options_cn[correctKey] : '';
             parasHtml += `
               <div class="partb-heading-slot review-key-slot ${isActive ? 'active' : ''}" data-qid="${blankQid}" id="heading-slot-${blankQid}" title="点击在右侧复盘工作台查看第 ${blankQid} 题解析与解题线索">
-                <span class="partb-heading-slot-line">(${blankQid}) ★ 标准正解 [ ${correctKey || '—'} ] ${this.tokenizeWords(optEn)}</span>
+                <span class="partb-heading-slot-line">${blankQid}. ★ 标准正解 [ ${correctKey || '—'} ] ${this.tokenizeAllWords(optEn)}</span>
                 ${optCn ? `<div class="partb-heading-trans" style="font-size:0.86em;color:var(--muted);font-weight:normal;margin-top:2px">💡 选项译文：${optCn}</div>` : ''}
               </div>
             `;
           } else {
-            // Practice Mode: Authentically match Image 2
+            // Practice Mode: Authentic Exam Paper style (42. _________________________)
             const matchedOptText = userPick && data.options ? data.options[userPick] : '';
             const matchedOptCn = userPick && data.options_cn ? data.options_cn[userPick] : '';
             parasHtml += `
-              <div class="partb-heading-slot ${userPick ? 'matched' : ''} ${isActive ? 'active' : ''}" data-qid="${blankQid}" id="heading-slot-${blankQid}" title="点击在右侧工作台配对第 ${blankQid} 题小标题">
+              <div class="partb-heading-slot ${userPick ? 'matched' : ''} ${isActive ? 'active' : ''}" data-qid="${blankQid}" id="heading-slot-${blankQid}" title="点击选中第 ${blankQid} 题并在右侧配对小标题">
                 ${userPick ? `
-                  <span class="partb-heading-slot-line">(${blankQid}) <u>[ ${userPick} ] ${this.tokenizeWords(matchedOptText)}</u></span>
+                  <span class="partb-heading-slot-line">${blankQid}. <span class="partb-blank-filled">[ ${userPick} ] ${this.tokenizeAllWords(matchedOptText)}</span></span>
                   ${showTrans && matchedOptCn ? `<div class="partb-heading-trans" style="font-size:0.86em;color:var(--muted);font-weight:normal;margin-top:2px">💡 译文：${matchedOptCn}</div>` : ''}
                 ` : `
-                  <span class="partb-heading-slot-line">(${blankQid})__________</span>
+                  <span class="partb-heading-slot-line">${blankQid}. <span class="partb-blank-underline" aria-hidden="true"></span></span>
                 `}
               </div>
             `;
@@ -368,10 +388,10 @@
                     <div class="partb-exam-item-row review-mode ${isActive ? 'active' : ''}" data-qid="${qid}" id="exam-item-row-${qid}" title="点击在右侧复盘工作台查看解析">
                       <span class="partb-exam-item-qid">${qid}.</span>
                       <div class="partb-exam-item-body">
-                        <div class="partb-exam-item-en">${this.tokenizeWords(item.title || item.stem || '')}</div>
+                        <div class="partb-exam-item-en">${this.tokenizeAllWords(item.title || item.stem || '')}</div>
                         ${item.title_cn ? `<div class="partb-exam-item-cn">💡 题意：${item.title_cn}</div>` : ''}
                         <div class="partb-exam-item-picked official">
-                          ★ 标准正解 [ <strong>${correctKey}</strong> ]: ${this.tokenizeWords(optText)}
+                          ★ 标准正解 [ <strong>${correctKey}</strong> ]: ${this.tokenizeAllWords(optText)}
                         </div>
                         ${optCn ? `<div class="partb-exam-item-opt-cn">💡 选项译文：${optCn}</div>` : ''}
                       </div>
@@ -386,9 +406,9 @@
                     <div class="partb-exam-item-row ${isActive ? 'active' : ''} ${pick ? 'matched' : ''}" data-qid="${qid}" id="exam-item-row-${qid}" title="点击在右侧工作台配对第 ${qid} 题">
                       <span class="partb-exam-item-qid">${qid}.</span>
                       <div class="partb-exam-item-body">
-                        <div class="partb-exam-item-en">${item.title || item.stem || ''}</div>
+                        <div class="partb-exam-item-en">${this.tokenizeAllWords(item.title || item.stem || '')}</div>
                         ${showTrans && item.title_cn ? `<div class="partb-exam-item-cn">💡 ${item.title_cn}</div>` : ''}
-                        ${pick ? `<div class="partb-exam-item-picked">➔ 已选 [ <strong>${pick}</strong> ]: ${optText}</div>` : ''}
+                        ${pick ? `<div class="partb-exam-item-picked">➔ 已选 [ <strong>${pick}</strong> ]: ${this.tokenizeAllWords(optText)}</div>` : ''}
                       </div>
                       <div class="partb-exam-item-match">
                         ${pick ? `<span class="partb-matched-badge">[ ${pick} ]</span>` : `<span class="partb-unmatched-badge">待配对</span>`}
@@ -549,7 +569,8 @@
 
       // Clicking heading slot activates item on right
       examPaper.querySelectorAll('.partb-heading-slot').forEach(el => {
-        el.addEventListener('click', () => {
+        el.addEventListener('click', (e) => {
+          if (e.target.closest('.exam-word-token')) return;
           const qid = Number(el.getAttribute('data-qid'));
           activeItemQid = qid;
           this.renderLeftPanel(data, year);
@@ -563,7 +584,8 @@
 
       // Clicking question row activates item on right
       examPaper.querySelectorAll('.partb-exam-item-row').forEach(el => {
-        el.addEventListener('click', () => {
+        el.addEventListener('click', (e) => {
+          if (e.target.closest('.exam-word-token')) return;
           const qid = Number(el.getAttribute('data-qid'));
           activeItemQid = qid;
           this.renderLeftPanel(data, year);
@@ -597,11 +619,29 @@
       const isSubmitted = localStorage.getItem(`kaoyan_partb_submitted_${year}`) === 'true';
       const answers = data.answers || {};
       const showTrans = this.getShowTrans();
+      const isHeading = data.subtype === 'heading_matching';
+      const optionKeys = Object.keys(data.options || {}).sort();
+
+      // Quick Answer Sheet Strip (41-45)
+      const quickStripHtml = (data.items || []).map(item => {
+        const qid = item.qid;
+        const pick = userSelections[qid] || '';
+        const isCorrect = answers[qid] ? (pick === answers[qid]) : null;
+        const isActive = Number(activeItemQid) === Number(qid);
+        const stateCls = isSubmitted ? (isCorrect ? 'correct' : 'wrong') : (pick ? 'filled' : '');
+        return `
+          <button type="button" class="partb-quick-qid-pill ${isActive ? 'active' : ''} ${stateCls}" data-qid="${qid}" title="定位并作答第 ${qid} 题">
+            <span class="pill-num">${qid}.</span>
+            <span class="pill-val">${pick || '—'}</span>
+          </button>
+        `;
+      }).join('');
 
       // 1. Items List (41-45)
       let itemsHtml = '';
       (data.items || []).forEach(item => {
         const qid = item.qid;
+        const rawTitle = item.title || item.stem || '';
         const currentChoice = userSelections[qid] || '';
         const isCorrect = answers[qid] ? (currentChoice === answers[qid]) : null;
         const isCurrentActive = activeItemQid === qid;
@@ -611,74 +651,71 @@
         let badgeHtml = '';
         if (isSubmitted) {
           if (isCorrect) {
-            badgeHtml = `<span class="matching-badge-assigned correct">✔ 匹配正确</span>`;
+            badgeHtml = `<span class="matching-badge-assigned correct">✔ 正确</span>`;
           } else {
-            badgeHtml = `<span class="matching-badge-assigned wrong">✖ 错选 [ ${currentChoice || '未选'} ] · 正解: [ ${answers[qid]} ]</span>`;
+            badgeHtml = `<span class="matching-badge-assigned wrong">✖ 错选[${currentChoice || '空'}] · 正解[${answers[qid]}]</span>`;
           }
         } else if (currentChoice) {
-          badgeHtml = `<span class="matching-badge-assigned">已配对 [ ${currentChoice} ]</span>`;
+          badgeHtml = `<span class="matching-badge-assigned">[ ${currentChoice} ]</span>`;
         } else {
-          badgeHtml = `<span style="font-size:0.82em;color:var(--muted);border:1px dashed var(--border);padding:2px 6px;border-radius:4px">待配对</span>`;
+          badgeHtml = `<span class="partb-pending-tag">待选</span>`;
         }
 
         itemsHtml += `
-          <div class="matching-item-card ${isCurrentActive ? 'active' : ''}" id="matching-item-${qid}" data-qid="${qid}">
+          <div class="matching-item-card partb-paper-item ${isCurrentActive ? 'active' : ''}" id="matching-item-${qid}" data-qid="${qid}" data-raw-title="${this.escapeAttr(rawTitle)}">
             <div class="matching-item-header">
               <div class="matching-item-title">
                 <span class="partb-item-num">${qid}.</span>
-                <span class="partb-item-text">${item.title || item.stem || ''}</span>
+                <span class="partb-item-text">${this.tokenizeAllWords(rawTitle)}</span>
                 ${showTrans && item.title_cn ? `
                   <div class="matching-item-cn">💡 ${item.title_cn}</div>
                 ` : ''}
               </div>
-              ${badgeHtml}
+              <div class="partb-item-controls-inline">
+                ${badgeHtml}
+                <select class="select-control partb-item-select" data-qid="${qid}" aria-label="第 ${qid} 题选项">
+                  <option value="">— 选择 —</option>
+                  ${optionKeys.map(key => `
+                    <option value="${key}" ${currentChoice === key ? 'selected' : ''}>[${key}] ${data.options[key] || ''}</option>
+                  `).join('')}
+                </select>
+              </div>
             </div>
 
-            ${currentChoice ? `
+            ${currentChoice && !isHeading ? `
               <div class="matching-item-selected-preview">
-                <div class="matching-preview-en"><span class="matching-preview-tag">[ ${currentChoice} ]</span> ${assignedOptText}</div>
+                <div class="matching-preview-en"><span class="matching-preview-tag">[ ${currentChoice} ]</span> ${this.tokenizeAllWords(assignedOptText)}</div>
                 ${showTrans && assignedOptCn ? `<div class="matching-preview-cn">💡 译：${assignedOptCn}</div>` : ''}
               </div>
             ` : ''}
-
-            <!-- Quick dropdown selector -->
-            <div style="display:flex;align-items:center;gap:8px;margin-top:10px">
-              <span style="font-size:0.82em;color:var(--muted)">匹配选项:</span>
-              <select class="select-control partb-item-select" data-qid="${qid}" style="font-size:0.85em;padding:4px 8px;flex:1">
-                <option value="">-- 点击选择 A-G --</option>
-                ${Object.keys(data.options || {}).sort().map(key => `
-                  <option value="${key}" ${currentChoice === key ? 'selected' : ''}>[${key}] ${data.options[key] || ''}</option>
-                `).join('')}
-              </select>
-            </div>
           </div>
         `;
       });
 
-      // 2. Options List (A-G)
+      // 2. Options List (A-G or T/F) - Every single word tokenized for instant click-to-translate
       let optionsHtml = '';
-      Object.keys(data.options || {}).sort().forEach(key => {
-        const optText = data.options[key];
+      optionKeys.forEach(key => {
+        const optText = data.options[key] || '';
         const optCn = data.options_cn ? data.options_cn[key] : '';
         const assignedQid = Object.keys(userSelections).find(q => userSelections[q] === key);
         const isAssigned = !!assignedQid;
         const isAssignedToActive = isAssigned && (Number(assignedQid) === Number(activeItemQid));
 
         optionsHtml += `
-          <div class="matching-opt-choice ${isAssigned ? 'used' : ''} ${isAssignedToActive ? 'selected' : ''}" data-opt="${key}">
-            <span class="matching-opt-tag">${key}</span>
-            <div style="flex:1">
-              <div style="color:var(--ink)">${optText}</div>
+          <div class="matching-opt-choice partb-paper-opt ${isAssigned ? 'used' : ''} ${isAssignedToActive ? 'selected' : ''}" data-opt="${key}" title="点击将 [${key}] 填入第 ${activeItemQid} 题（点击任意单词可查看释义）">
+            <span class="matching-opt-tag partb-paper-opt-label">[${key}]</span>
+            <div class="partb-paper-opt-body">
+              <div class="partb-paper-opt-en">${this.tokenizeAllWords(optText)}</div>
               ${showTrans && optCn ? `
-                <div class="matching-opt-cn">译：${optCn}</div>
+                <div class="matching-opt-cn">💡 ${optCn}</div>
               ` : ''}
-              ${isAssigned ? `<div style="font-size:0.78em;color:var(--accent);margin-top:4px">📌 当前已分配给第 <strong>${assignedQid}</strong> 题</div>` : ''}
             </div>
+            ${isAssigned ? `<span class="partb-opt-assigned-pill">第 ${assignedQid} 题</span>` : ''}
           </div>
         `;
       });
 
-      // 3. Score & Distractors (if submitted)
+      // 3. Score Report (if submitted)
       let reviewSectionHtml = '';
       if (isSubmitted) {
         let score = 0;
@@ -687,53 +724,65 @@
         });
 
         reviewSectionHtml = `
-          <div style="background:var(--surface);border:2px solid var(--accent);border-radius:10px;padding:14px;margin-top:16px">
+          <div style="background:var(--surface);border:1.5px solid var(--accent);border-radius:8px;padding:12px 14px;margin-top:14px">
             <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
               <div>
-                <strong style="font-size:1.05em">📊 本次答题得分报告：</strong>
-                <span style="font-size:1.3em;font-weight:800;color:${score >= 6 ? 'var(--success)' : 'var(--danger)'}">${score} / 10 分</span>
+                <strong style="font-size:1em">📊 本次答题得分：</strong>
+                <span style="font-size:1.25em;font-weight:800;color:${score >= 6 ? 'var(--success)' : 'var(--danger)'}">${score} / 10 分</span>
               </div>
+              <span style="font-size:0.85em;color:var(--muted)">切换顶部「复盘」模式可查看完整解析与干扰项分析</span>
             </div>
           </div>
         `;
       }
 
-      container.innerHTML = `
-        <div class="matching-container">
-          <div class="cloze-card-header" style="border-bottom:1px solid var(--border);padding-bottom:10px">
-            <div>
-              <span style="font-size:1.05em;font-weight:700">🧩 新题型匹配工作台 (41-45 题)</span>
-              <div style="font-size:0.82em;color:var(--muted);margin-top:2px">每题 2 分 · 满分 10 分 ｜ 点击单词查词</div>
-            </div>
-            <div style="display:flex;align-items:center;gap:8px">
-              <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnTogglePartBTransRight" style="font-size:0.8em;padding:2px 8px" title="切换全文与选项中文对照">🌐 全文对照</button>
-            </div>
+      const optionsBlock = `
+        <div class="partb-paper-section">
+          <div class="partb-paper-section-title">
+            <span>${data.subtype === 'true_false' ? '选项说明 (T / F)' : `Options (${optionKeys[0] || 'A'}–${optionKeys[optionKeys.length - 1] || 'G'})`}</span>
+            <span class="partb-paper-hint">当前填入第 <strong>${activeItemQid}</strong> 题 · 选项任意单词皆可点击查词</span>
           </div>
-
-          <div style="font-size:0.88em;color:var(--muted);line-height:1.5">
-            💡 <strong>解题指引：</strong>点击左侧题卡，再点击右侧选项即可快速配对；或在下拉框选择。全篇单词均支持点击即查释义与收藏。
+          <div class="matching-options-list partb-paper-options-list">
+            ${optionsHtml}
           </div>
+        </div>
+      `;
 
-          <!-- Left column: 41-45 items -->
-          <div class="matching-columns">
+      const itemsBlock = `
+        <div class="partb-paper-section">
+          <div class="partb-paper-section-title">
+            <span>${isHeading ? '答题卡 · 题号对应 (41–45)' : 'Questions (41–45)'}</span>
+            <span class="partb-paper-hint">${isHeading ? '可直接在左侧原文点击 41.–45. 横线，或在下拉框配对' : '点击题目定位，或在右侧/下拉框选出答案'}</span>
+          </div>
+          <div class="matching-columns partb-paper-items-list">
             ${itemsHtml}
           </div>
+        </div>
+      `;
 
-          <!-- Right column: Options A-G -->
-          <div style="margin-top:12px">
-            <div style="font-weight:700;font-size:0.92em;margin-bottom:8px;color:var(--ink)">
-              📋 待选信息栏 (Options A-G · 含 2 个多余干扰项)：
+      container.innerHTML = `
+        <div class="matching-container authentic-exam-sheet partb-right-sheet">
+          <div class="partb-right-paper-header">
+            <div>
+              <span class="partb-right-title">Questions 41–45</span>
+              <span class="partb-right-points">(10 points)</span>
             </div>
-            <div class="matching-options-list">
-              ${optionsHtml}
+            <div style="display:flex;align-items:center;gap:6px">
+              <button class="toolbar-btn ${showTrans ? 'active' : ''}" id="btnTogglePartBTransRight" style="font-size:0.8em;padding:3px 9px" title="切换全文与选项中文对照">🌐 全文对照</button>
             </div>
           </div>
 
-          <!-- Bottom Action Controls -->
+          <div class="partb-quick-strip" id="partbQuickStrip">
+            <span class="partb-quick-strip-label">题号:</span>
+            ${quickStripHtml}
+          </div>
+
+          ${isHeading ? optionsBlock + itemsBlock : itemsBlock + optionsBlock}
+
           <div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px;padding-top:12px;border-top:1px solid var(--border);flex-wrap:wrap;gap:8px">
             <button id="btnResetPartB" class="btn" style="font-size:0.85em">重置选择</button>
             <button id="btnSubmitPartB" class="btn" style="font-size:0.85em;background:var(--accent);color:#fff;border-color:var(--accent-dark);font-weight:700">
-              ${isSubmitted ? '重新作答' : '提交交卷并核对 (10分)'}
+              ${isSubmitted ? '重新作答' : '提交核对 (10分)'}
             </button>
           </div>
 
@@ -825,14 +874,14 @@
 
             <!-- Stem / Paragraph Title -->
             <div class="partb-review-stem-box">
-              <div class="partb-review-stem-en">${this.tokenizeWords(item.title || item.stem || '')}</div>
+              <div class="partb-review-stem-en">${this.tokenizeAllWords(item.title || item.stem || '')}</div>
               ${item.title_cn ? `<div class="partb-review-stem-cn">💡 题意概括：${item.title_cn}</div>` : ''}
             </div>
 
             <!-- Standard Matched Option -->
             <div class="partb-review-ans-box">
               <div class="partb-review-ans-tag">★ 标准匹配选项 [ ${ansKey} ]</div>
-              <div class="partb-review-ans-en">${this.tokenizeWords(optEn)}</div>
+              <div class="partb-review-ans-en">${this.tokenizeAllWords(optEn)}</div>
               ${optCn ? `<div class="partb-review-ans-cn">💡 选项译文：${optCn}</div>` : ''}
             </div>
 
@@ -858,7 +907,7 @@
               ${data.distractors.map(dKey => `
                 <div class="partb-distractor-card">
                   <div class="partb-distractor-tag">【多余干扰项 ${dKey}】</div>
-                  <div class="partb-distractor-en">${this.tokenizeWords(data.options[dKey] || '')}</div>
+                  <div class="partb-distractor-en">${this.tokenizeAllWords(data.options[dKey] || '')}</div>
                   ${data.options_cn && data.options_cn[dKey] ? `<div class="partb-distractor-cn">💡 选项译文：${data.options_cn[dKey]}</div>` : ''}
                   <div class="partb-distractor-trap">
                     <strong>⚠️ 陷阱剖析：</strong>${data.distractor_analysis?.[dKey] || '原文未提供直接依据支持此表述，为命题人制造的无中生有、过度推断或张冠李戴的干扰项。'}
@@ -995,10 +1044,22 @@
     },
 
     bindPracticeEvents: function(data, year) {
+      // 0. Quick QID strip pill click
+      document.querySelectorAll('.partb-quick-qid-pill').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const qid = Number(btn.getAttribute('data-qid'));
+          activeItemQid = qid;
+          this.renderLeftPanel(data, year);
+          this.renderRightPanel(data, year, this.currentMode);
+          const item = (data.items || []).find(it => it.qid === qid);
+          this.locateParagraph(qid, item ? item.locate_para : undefined);
+        });
+      });
+
       // 1. Item card click to set active item
       document.querySelectorAll('.matching-item-card').forEach(el => {
         el.addEventListener('click', (e) => {
-          if (e.target.tagName.toLowerCase() === 'select') return;
+          if (e.target.tagName.toLowerCase() === 'select' || e.target.closest('.exam-word-token')) return;
           const qid = Number(el.getAttribute('data-qid'));
           activeItemQid = qid;
           this.renderLeftPanel(data, year);

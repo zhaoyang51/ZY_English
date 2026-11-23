@@ -21,6 +21,7 @@
     saveProgress(state) {
       try {
         const payload = {
+          examType: state.examType || 'en2',
           year: state.year,
           textId: state.textId,
           mode: state.mode,

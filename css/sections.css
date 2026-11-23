@@ -771,21 +771,22 @@ body.theme-dark .cloze-nav-chip.picked {
   flex-shrink: 0;
 }
 
-/* Part B Authentic Heading Slots (Left Exam Paper) - imitating real exam paper like Image 2 */
+/* Part B Authentic Heading Slots (Left Exam Paper) - matching official printed paper */
 .partb-heading-slot {
   display: block;
-  font-family: inherit;
-  font-size: 1.05em;
-  font-weight: 700;
+  text-indent: 2em;
+  font-family: "Times New Roman", Times, Georgia, "Songti SC", SimSun, serif;
+  font-size: 1.02em;
+  font-weight: 400;
   color: var(--ink, #0f172a);
-  margin: 16px 0 8px 0;
+  margin: 14px 0 6px 0;
   cursor: pointer;
   user-select: none;
   background: transparent !important;
   border: none !important;
   border-radius: 0 !important;
   box-shadow: none !important;
-  padding: 4px 0 !important;
+  padding: 2px 0 !important;
   transition: color 0.15s ease;
 }
 .partb-heading-slot:hover {
@@ -799,16 +800,34 @@ body.theme-dark .cloze-nav-chip.picked {
 }
 .partb-heading-slot.review-key-slot {
   color: #7c3aed;
+  font-weight: 700;
 }
 .partb-heading-slot-line {
   font-family: "Times New Roman", Times, Georgia, "Songti SC", SimSun, serif;
-  font-size: 1.08em;
-  letter-spacing: 0.5px;
+  font-size: 1.04em;
+  letter-spacing: 0.2px;
 }
-.partb-heading-slot.active .partb-heading-slot-line {
-  text-decoration: underline;
-  text-decoration-color: var(--accent, #2563eb);
-  text-underline-offset: 4px;
+.partb-blank-underline {
+  display: inline-block;
+  width: 190px;
+  height: 0.9em;
+  border-bottom: 1.25px solid currentColor;
+  vertical-align: baseline;
+  margin-left: 4px;
+  transition: border-color 0.15s ease, border-width 0.15s ease;
+}
+.partb-heading-slot.active .partb-blank-underline,
+.partb-heading-slot:hover .partb-blank-underline {
+  border-bottom: 2px solid var(--accent, #2563eb);
+}
+.partb-blank-filled {
+  font-weight: 700;
+  border-bottom: 1.25px solid currentColor;
+  padding-bottom: 1px;
+}
+.partb-heading-slot.active .partb-blank-filled {
+  border-bottom-color: var(--accent, #2563eb);
+  color: var(--accent, #2563eb);
 }
 .partb-heading-slot-header {
   display: flex;
@@ -2647,4 +2666,240 @@ body.has-trans-review #mobileTabsBar {
   opacity: 0.42;
   cursor: not-allowed;
   pointer-events: none;
+}
+
+
+/* Part B Split Authentic Exam Paper Style */
+.partb-article-title-block {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 4px 0 10px !important;
+  margin: 8px 0 14px !important;
+}
+
+.partb-right-sheet {
+  padding: 20px 24px !important;
+  margin-bottom: 0 !important;
+  font-family: "Times New Roman", Times, Georgia, "Songti SC", SimSun, serif;
+  font-size: var(--workspace-font-size, 16px);
+  line-height: var(--workspace-line-height, 1.75);
+}
+
+.partb-right-paper-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid var(--ink, #0f172a);
+}
+
+.partb-right-title {
+  font-size: 1.12em;
+  font-weight: 800;
+  color: var(--ink, #0f172a);
+  letter-spacing: 0.4px;
+}
+
+.partb-right-points {
+  font-size: 0.92em;
+  color: var(--muted, #64748b);
+  margin-left: 6px;
+}
+
+.partb-quick-strip {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--border, #e2e8f0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", sans-serif;
+}
+
+.partb-quick-strip-label {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: var(--muted);
+  margin-right: 2px;
+}
+
+.partb-quick-qid-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 9px;
+  font-size: 0.82em;
+  font-weight: 700;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--card-bg, #f8fafc);
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.partb-quick-qid-pill:hover {
+  border-color: var(--accent, #2563eb);
+}
+
+.partb-quick-qid-pill.active {
+  background: var(--accent, #2563eb);
+  color: #ffffff;
+  border-color: var(--accent, #2563eb);
+}
+
+.partb-quick-qid-pill.filled:not(.active) {
+  border-color: var(--accent, #2563eb);
+  color: var(--accent, #2563eb);
+}
+
+.partb-quick-qid-pill.correct {
+  background: #dcfce7;
+  color: #15803d;
+  border-color: #86efac;
+}
+
+.partb-quick-qid-pill.wrong {
+  background: #fee2e2;
+  color: #b91c1c;
+  border-color: #fca5a5;
+}
+
+.partb-paper-section {
+  margin-top: 6px;
+}
+
+.partb-paper-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 0.96em;
+  color: var(--ink, #0f172a);
+  margin-bottom: 8px;
+}
+
+.partb-paper-hint {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", sans-serif;
+  font-size: 0.78em;
+  font-weight: 500;
+  color: var(--muted, #64748b);
+}
+
+.partb-paper-options-list {
+  margin-top: 4px;
+  gap: 6px;
+}
+
+.partb-paper-opt {
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom: 1px dashed rgba(148, 163, 184, 0.35);
+  border-radius: 4px;
+  padding: 7px 10px;
+  font-family: "Times New Roman", Times, Georgia, "Songti SC", SimSun, serif;
+  font-size: 1em;
+  line-height: 1.65;
+  align-items: baseline;
+}
+
+.partb-paper-opt:hover:not(.disabled) {
+  border-color: rgba(37, 99, 235, 0.35);
+  background: rgba(37, 99, 235, 0.03);
+}
+
+.partb-paper-opt.selected {
+  border-color: var(--accent, #2563eb);
+  background: rgba(37, 99, 235, 0.06);
+  font-weight: 400;
+}
+
+.partb-paper-opt.used:not(.selected) {
+  opacity: 0.72;
+  background: transparent;
+}
+
+.partb-paper-opt-label {
+  width: auto;
+  height: auto;
+  padding: 0 2px;
+  background: transparent !important;
+  color: var(--ink, #0f172a) !important;
+  font-weight: 800;
+  font-size: 1em;
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+.partb-paper-opt.selected .partb-paper-opt-label {
+  color: var(--accent, #2563eb) !important;
+}
+
+.partb-paper-opt-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.partb-paper-opt-en {
+  color: var(--ink, #0f172a);
+}
+
+.partb-opt-assigned-pill {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", sans-serif;
+  font-size: 0.74em;
+  font-weight: 700;
+  color: var(--accent, #2563eb);
+  background: rgba(37, 99, 235, 0.08);
+  padding: 2px 7px;
+  border-radius: 999px;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.partb-paper-items-list {
+  gap: 8px;
+}
+
+.partb-paper-item {
+  padding: 9px 12px;
+  border-radius: 6px;
+  border-width: 1px;
+  background: transparent;
+}
+
+.partb-paper-item .matching-item-header {
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.partb-paper-item .matching-item-title {
+  font-weight: 500;
+  font-size: 0.96em;
+  line-height: 1.55;
+  flex: 1;
+}
+
+.partb-item-controls-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", sans-serif;
+}
+
+.partb-item-controls-inline .partb-item-select {
+  font-size: 0.82em;
+  padding: 3px 24px 3px 8px;
+  max-width: 150px;
+}
+
+.partb-pending-tag {
+  font-size: 0.76em;
+  color: var(--muted);
+  border: 1px dashed var(--border);
+  padding: 2px 6px;
+  border-radius: 4px;
 }

@@ -3,7 +3,8 @@
  * Full In-depth Reading, Mock Exam, Analytics Dashboard & Multi-Format Exporter
  */
 (function() {
-  const AppState = {
+  const AppState = window.AppState = {
+    examType: 'en2', // 'en2' | 'en1'
     year: 2010,
     textId: 1,
     mode: 'practice', // 'practice' | 'review' | 'vocab'
@@ -424,6 +425,7 @@
     // 1. Restore state from localStorage
     const saved = window.StorageModule.loadProgress();
     if (saved) {
+      if (saved.examType === 'en1' || saved.examType === 'en2') AppState.examType = saved.examType;
       if (saved.year) AppState.year = Number(saved.year);
       if (saved.textId) AppState.textId = isNaN(Number(saved.textId)) ? saved.textId : Number(saved.textId);
       if (saved.mode === 'practice' || saved.mode === 'review' || saved.mode === 'vocab') {
@@ -474,10 +476,87 @@
     if (themeSelect) themeSelect.value = themeName || 'parchment';
   }
 
+  function setupEn1YearDropdown() {
+    const examSel = document.getElementById('examTypeSelect');
+    if (examSel) examSel.value = 'en1';
+    const yearSelect = document.getElementById('yearSelect');
+    const manifest = window.KAOYAN_EN1_MANIFEST || [];
+    if (!yearSelect || manifest.length === 0) return;
+
+    if (!manifest.some(m => m.year === AppState.year)) {
+      const preferred = manifest.find(m => m.year === 2020) || manifest[0];
+      AppState.year = preferred.year;
+    }
+
+    yearSelect.innerHTML = '';
+    manifest.forEach(item => {
+      const opt = document.createElement('option');
+      opt.value = item.year;
+      const tags = [];
+      if (item.texts && item.texts.length) tags.push('阅读');
+      if (item.hasPartB) tags.push('新题型');
+      opt.textContent = `${item.year} 年 (${tags.join('+')})`;
+      if (item.year === AppState.year) opt.selected = true;
+      yearSelect.appendChild(opt);
+    });
+
+    updateEn1TextDropdown();
+  }
+
+  function updateEn1TextDropdown() {
+    const textSelect = document.getElementById('textSelect');
+    const yItem = (window.KAOYAN_EN1_MANIFEST || []).find(m => m.year === AppState.year);
+    if (!textSelect || !yItem) return;
+
+    const validIds = [];
+    if (Array.isArray(yItem.texts)) {
+      yItem.texts.forEach(t => validIds.push(String(t.id)));
+    }
+    if (yItem.hasPartB) validIds.push('part_b');
+
+    if (!validIds.includes(String(AppState.textId))) {
+      if (yItem.texts && yItem.texts.length > 0) {
+        AppState.textId = yItem.texts[0].id;
+      } else if (yItem.hasPartB) {
+        AppState.textId = 'part_b';
+      }
+    }
+
+    textSelect.innerHTML = '';
+    if (yItem.texts && yItem.texts.length > 0) {
+      const grpReading = document.createElement('optgroup');
+      grpReading.label = '📖 英一阅读理解 (Text 1-4 · 40分)';
+      yItem.texts.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t.id;
+        opt.textContent = `Text ${t.id} (${t.q_range}题)`;
+        if (String(t.id) === String(AppState.textId)) opt.selected = true;
+        grpReading.appendChild(opt);
+      });
+      textSelect.appendChild(grpReading);
+    }
+
+    if (yItem.hasPartB) {
+      const optPartB = document.createElement('option');
+      optPartB.value = 'part_b';
+      optPartB.textContent = '🧩 英一新题型 (41-45题 · 10分)';
+      if (String(AppState.textId) === 'part_b') optPartB.selected = true;
+      textSelect.appendChild(optPartB);
+    }
+
+    textSelect.value = String(AppState.textId);
+  }
+
   function setupYearDropdown() {
+    const examSel = document.getElementById('examTypeSelect');
+    if (examSel) examSel.value = AppState.examType || 'en2';
+    if (AppState.examType === 'en1') return setupEn1YearDropdown();
     const yearSelect = document.getElementById('yearSelect');
     const manifest = window.KAOYAN_MANIFEST || [];
     if (!yearSelect || manifest.length === 0) return;
+    if (!manifest.some(m => m.year === AppState.year)) {
+      AppState.year = manifest[0].year;
+    }
 
     yearSelect.innerHTML = '';
     manifest.forEach(item => {
@@ -683,6 +762,7 @@
   }
 
   function updateTextDropdown() {
+    if (AppState.examType === 'en1') return updateEn1TextDropdown();
     const textSelect = document.getElementById('textSelect');
     const yItem = (window.KAOYAN_MANIFEST || []).find(m => m.year === AppState.year);
     if (!textSelect || !yItem) return;
@@ -918,7 +998,9 @@
     let isSpecialSection = false;
     try {
       // Keep switching between already loaded texts synchronous; only new years wait.
-      const yData = window.DataLoader.peek(year) || await window.DataLoader.loadYear(year);
+      const yData = AppState.examType === 'en1'
+        ? (window.DataLoader.peekEn1(year) || await window.DataLoader.loadEn1Year(year))
+        : (window.DataLoader.peek(year) || await window.DataLoader.loadYear(year));
       if (sequence !== textLoadSequence) return;
 
       if (textId === 'use_of_english') {
@@ -995,6 +1077,25 @@
     const mobileTabsBar = document.getElementById('mobileTabsBar');
     const floatingNavBar = document.getElementById('floatingNavBar');
     const submodeContainer = document.getElementById('submodeContainer');
+
+    // English I Authentic Exam Paper Mode
+    if (AppState.examType === 'en1' && window.En1PaperRenderer) {
+      hideYuqueAndWritingB(yuqueContainer);
+      if (writing) {
+        writing.inert = true;
+        writing.style.display = 'none';
+      }
+      if (reviewSubmodeGroup) reviewSubmodeGroup.style.display = 'none';
+      if (submodeContainer) submodeContainer.style.display = 'none';
+      if (floatingNavBar) floatingNavBar.style.display = 'none';
+      if (mainLayout) mainLayout.style.display = '';
+      if (mobileTabsBar) mobileTabsBar.style.display = '';
+
+      window.En1PaperRenderer.render(AppState.textData, year, textId, AppState.mode);
+      updateUIControls();
+      saveState();
+      return;
+    }
 
     // Special section rendering delegation (完形, 新题型, 翻译, Part A 小作文, Part B 大作文)
     if (isSpecialSection) {
@@ -1376,6 +1477,28 @@
     const isVocab = AppState.mode === 'vocab';
     const isWritingPart = AppState.textId === 'writing_a' || AppState.textId === 'writing_b';
     const isSpecial = typeof AppState.textId === 'string' && ['use_of_english', 'part_b', 'translation', 'writing_a', 'writing_b'].includes(AppState.textId);
+    if (AppState.examType === 'en1' && !isVocab && AppState.mode !== 'writing') {
+      const textSelect = document.getElementById('textSelect');
+      const jumpSelect = document.getElementById('jumpSelect');
+      const stepNavGroup = prevBtn ? prevBtn.parentElement : null;
+      const submodeBox = document.getElementById('submodeContainer');
+      const revSubGroup = document.getElementById('reviewSubmodeGroup');
+      if (textSelect) textSelect.style.display = '';
+      if (jumpSelect) jumpSelect.style.display = 'none';
+      if (stepNavGroup) stepNavGroup.style.display = 'none';
+      if (floatingNavBar) floatingNavBar.style.display = 'none';
+      if (toggleAllBtn) toggleAllBtn.style.display = 'none';
+      if (submodeBox) submodeBox.style.display = 'none';
+      if (revSubGroup) revSubGroup.style.display = 'none';
+      const en1Label = AppState.textId === 'part_b' ? '英一 · 新题型 (41-45)' : `英一 · Text ${AppState.textId}`;
+      if (progressText) {
+        progressText.style.display = '';
+        progressText.textContent = en1Label;
+      }
+      if (floatProgressText) floatProgressText.textContent = en1Label;
+      saveState();
+      return;
+    }
     const submodeContainer = document.getElementById('submodeContainer');
     const unavailable = !AppState.textData;
     const isTranslationUnified = (AppState.textId === 'translation' && AppState.mode !== 'vocab' && AppState.mode !== 'writing');
@@ -1531,6 +1654,7 @@
   function saveState() {
     if (!AppState.textData && AppState.mode !== 'vocab' && AppState.mode !== 'writing') return;
     window.StorageModule.saveProgress({
+      examType: AppState.examType || 'en2',
       year: AppState.year,
       textId: AppState.textId,
       mode: AppState.mode,
@@ -2458,6 +2582,7 @@
     }
 
     examPaper.addEventListener('click', e => {
+      if (AppState.examType === 'en1') return;
       const connSpan = e.target.closest('.exam-connector');
       if (connSpan) {
         e.stopPropagation();
@@ -2484,7 +2609,7 @@
       const wordTokenSpan = e.target.closest('.exam-word-token');
       if (wordTokenSpan) {
         e.stopPropagation();
-        const parentContext = wordTokenSpan.closest('.q-stem, .q-opt, .exam-sent, .exam-para');
+        const parentContext = wordTokenSpan.closest('.q-stem, .q-opt, .exam-sent, .exam-para, .partb-heading-slot, .partb-exam-item-row, .directions-en-text');
         const sentText = parentContext ? parentContext.innerText : '';
         const word = wordTokenSpan.getAttribute('data-word') || wordTokenSpan.innerText;
         const sentSpan = wordTokenSpan.closest('.exam-sent');
@@ -2577,6 +2702,7 @@
     }
 
     examPaper.addEventListener('dblclick', () => {
+      if (AppState.examType === 'en1') return;
       const selection = window.getSelection().toString().trim();
       if (selection && /^[a-zA-Z\s\-]+$/.test(selection) && selection.length < 30) {
         const range = window.getSelection().getRangeAt(0);
@@ -2589,6 +2715,7 @@
     const workspaceContent = document.getElementById('workspaceContent');
     if (workspaceContent) {
       workspaceContent.addEventListener('click', e => {
+        if (AppState.examType === 'en1') return;
         // Review Mode Question Direct Jump Pill
         const qJumpBtn = e.target.closest('.btn-review-q-jump');
         if (qJumpBtn) {
@@ -2607,7 +2734,7 @@
           e.preventDefault();
           e.stopPropagation();
           const word = wordToken.getAttribute('data-word') || wordToken.getAttribute('data-connector') || wordToken.innerText;
-          const parentContext = wordToken.closest('.mock-opt-item, .mock-q-card, .step-card, blockquote, h2, h3, p, .trans-sent-row');
+          const parentContext = wordToken.closest('.mock-opt-item, .mock-q-card, .step-card, blockquote, h2, h3, p, .trans-sent-row, .matching-opt-choice, .matching-item-card, .matching-review-card, .partb-distractor-card');
           const sentText = parentContext ? parentContext.innerText : '';
           const sentSpan = wordToken.closest('.exam-sent, [data-sid]');
           const targetSid = sentSpan ? (sentSpan.getAttribute('data-sid') || (sentSpan.dataset ? sentSpan.dataset.sid : null)) : null;
@@ -3710,7 +3837,38 @@
     }
 
     // 2. Year and Text dropdowns
-    ['yearSelect', 'textSelect'].forEach(id => {
+    const examTypeSelect = document.getElementById('examTypeSelect');
+    if (examTypeSelect) {
+      examTypeSelect.addEventListener('change', e => {
+        const sel = e.target;
+        if (sel && (Date.now() - (sel.__fromPointer || 0) < 4000)) sel.blur();
+        const nextType = sel.value === 'en1' ? 'en1' : 'en2';
+        if (AppState.examType === nextType) return;
+        AppState.examType = nextType;
+        if (AppState.mode === 'vocab' || AppState.mode === 'writing') {
+          AppState.mode = 'practice';
+        }
+        if (nextType === 'en1') {
+          const en1List = window.KAOYAN_EN1_MANIFEST || [];
+          if (!en1List.some(m => m.year === AppState.year)) {
+            const pref = en1List.find(m => m.year === 2020) || en1List[0];
+            if (pref) AppState.year = pref.year;
+          }
+          AppState.textId = 1;
+        } else {
+          const en2List = window.KAOYAN_MANIFEST || [];
+          if (!en2List.some(m => m.year === AppState.year)) {
+            if (en2List[0]) AppState.year = en2List[0].year;
+          }
+          AppState.textId = 1;
+        }
+        AppState.savedStepIndex = 0;
+        setupYearDropdown();
+        loadCurrentText();
+      });
+    }
+
+    ['examTypeSelect', 'yearSelect', 'textSelect'].forEach(id => {
       const sel = document.getElementById(id);
       if (!sel) return;
       sel.addEventListener('pointerdown', () => { sel.__fromPointer = Date.now(); });
@@ -3730,7 +3888,7 @@
       const writingSections = ['writing_a', 'writing_b'];
       if (!specialSections.includes(String(AppState.textId))) {
         if (!writingSections.includes(String(AppState.textId))) {
-          AppState.textId = 1;
+          if (AppState.examType !== 'en1') AppState.textId = 1;
         }
       }
       updateTextDropdown();
