@@ -686,6 +686,12 @@
       if (typeof document !== 'undefined') {
         document.addEventListener('visibilitychange', () => {
           if (!document.hidden && this.getSession()) {
+            if (syncState.pendingPushTimer) {
+              clearTimeout(syncState.pendingPushTimer);
+              syncState.pendingPushTimer = null;
+              this.syncNow({ reason: 'push' });
+              return;
+            }
             const now = Date.now();
             if (now - syncState.lastPullAttemptAt > 30000) {
               syncState.lastPullAttemptAt = now;

@@ -1324,6 +1324,19 @@
         };
       }
 
+      if (els.statChips && typeof els.statChips.forEach === 'function') {
+        els.statChips.forEach(chip => {
+          chip.onclick = () => {
+            const targetState = chip.getAttribute && chip.getAttribute('data-filter');
+            if (!targetState) return;
+            appState.filters.state = targetState;
+            if (els.stateSelect) els.stateSelect.value = targetState;
+            this.applyFiltersAndRender();
+            this.toggleSettingsSheet(false);
+          };
+        });
+      }
+
       if (els.sortSelect) {
         els.sortSelect.onchange = () => {
           appState.filters.sort = els.sortSelect.value;
@@ -1414,12 +1427,18 @@
         const isCitationsOpen = els.citationsModal && els.citationsModal.style.display && els.citationsModal.style.display !== 'none';
         const isForecastOpen = els.forecastModal && (els.forecastModal.classList.contains('is-open') || (els.forecastModal.style.display && els.forecastModal.style.display !== 'none'));
         const isSheetOpen = els.sheetModal && els.sheetModal.classList.contains('is-open');
-        const cloudModal = typeof document !== 'undefined' ? document.getElementById('vocabCloudSyncModal') : null;
-        const isCloudOpen = cloudModal && (cloudModal.classList.contains('is-open') || (cloudModal.style.display && cloudModal.style.display !== 'none'));
+        const cloudModal = typeof document !== 'undefined' ? document.getElementById('cloudSyncAccountModal') : null;
+        const isCloudOpen = cloudModal && cloudModal.classList && cloudModal.classList.contains('show');
+        const syncModal = typeof document !== 'undefined' ? document.getElementById('vocabSyncModal') : null;
+        const isSyncOpen = syncModal && syncModal.classList && syncModal.classList.contains('show');
 
         if (e.key === 'Escape') {
           e.preventDefault();
-          if (isCitationsOpen) {
+          if (isCloudOpen && window.CloudSyncModule && typeof window.CloudSyncModule.closeModal === 'function') {
+            window.CloudSyncModule.closeModal();
+          } else if (isSyncOpen && window.VocabSyncUI && typeof window.VocabSyncUI.close === 'function') {
+            window.VocabSyncUI.close();
+          } else if (isCitationsOpen) {
             this.hideCitationsModal();
           } else if (isForecastOpen) {
             this.closeForecastModal();
@@ -1434,7 +1453,7 @@
         }
 
         // Prevent hotkeys from grading/flipping cards behind open modals
-        if (isCitationsOpen || isForecastOpen || isSheetOpen || isCloudOpen || appState.currentView !== 'study') {
+        if (isCitationsOpen || isForecastOpen || isSheetOpen || isCloudOpen || isSyncOpen || appState.currentView !== 'study') {
           return;
         }
 
@@ -1686,6 +1705,11 @@
             Array.from(units).sort().map(u => `<option value="${u}">${u}</option>`).join('');
           els.textSelect.value = 'all';
         }
+      } else if (source === 'bookmarked') {
+        if (els.textSelect) {
+          els.textSelect.innerHTML = '<option value="all">全部收藏篇章</option>';
+          els.textSelect.value = 'all';
+        }
       } else if (source === 'all') {
         const y = els.yearSelect ? els.yearSelect.value : 'all';
         if (els.textSelect) {
@@ -1815,10 +1839,10 @@
         const bookmarked = window.StorageModule ? window.StorageModule.getVocabBook() : [];
         list = bookmarked.map(b => ({
           word: b.word,
-          meaning: b.meaning,
-          sentence: b.sentence,
-          year: b.year,
-          text: b.text
+          meaning: b.def || b.meaning || '',
+          sentence: b.sentence || '',
+          year: b.year || '',
+          text: b.textId || b.text || ''
         }));
       } else {
         list = [...appState.rawVocabData];
@@ -1976,8 +2000,11 @@
     computeScopeStats(fullItems, nowTs) {
       const now = nowTs || Date.now();
       let dueCount = 0, newCount = 0, learningCount = 0, masteredCount = 0;
+      const seen = new Set();
       (fullItems || []).forEach(item => {
-        const w = item.word || item.root;
+        const w = String(item.word || item.root || '').trim();
+        if (!w || seen.has(w)) return;
+        seen.add(w);
         const rec = appState.progress[w];
         if (isWordNewState(rec)) {
           newCount++;
@@ -2213,8 +2240,8 @@
       if (els.sessionProgressText) els.sessionProgressText.textContent = `${idx + 1} / ${total}`;
 
       // Star status
-      const isStarred = window.StorageModule && window.StorageModule.isWordBookmarked ?
-        window.StorageModule.isWordBookmarked(word) : false;
+      const isBookmarkedFn = window.StorageModule && (window.StorageModule.isBookmarked || window.StorageModule.isWordBookmarked);
+      const isStarred = isBookmarkedFn ? Boolean(isBookmarkedFn.call(window.StorageModule, word)) : false;
       if (els.btnStar) {
         els.btnStar.textContent = isStarred ? '★' : '☆';
         els.btnStar.classList.toggle('is-starred', isStarred);
@@ -2903,8 +2930,10 @@
       const cur = appState.currentList[appState.currentIndex];
       if (!window.StorageModule || !window.StorageModule.toggleBookmark) return;
 
+      const w = cur.word || cur.root;
+      if (!w) return;
       const sentence = cur.sentence || '';
-      const res = window.StorageModule.toggleBookmark(cur.word, cur.meaning, sentence, cur.year, cur.text);
+      const res = window.StorageModule.toggleBookmark(w, cur.meaning || cur.def || '', sentence, cur.year || '', cur.text || '');
       const isStarred = res.added;
 
       if (els.btnStar) {
@@ -2913,6 +2942,11 @@
       }
       if (els.btnStarFront) els.btnStarFront.textContent = isStarred ? '★' : '☆';
       if (els.btnStarBack) els.btnStarBack.textContent = isStarred ? '★' : '☆';
+
+      if (appState.filters.source === 'bookmarked') {
+        this.updateStats();
+        this.updateHomeView();
+      }
 
       this.showToast(isStarred ? '⭐ 已加入生词本' : '🗑️ 已移出生词本');
     },

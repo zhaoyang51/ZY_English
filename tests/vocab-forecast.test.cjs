@@ -328,3 +328,38 @@ test('Vocab Audit Fixes: Home vs Drawer stats consistency, Home reset scope, und
   window.VocabModule.undoLastGrade();
   assert.strictEqual(elements.get('vocabMomoWord').textContent, currentWord, 'Manual flip + handleMarkWrong must be undoable');
 });
+
+test('Vocab Audit 2 Fixes: Star icon reflects StorageModule.isBookmarked, bookmarked def/textId map cleanly, and stats deduplicate words', () => {
+  const { elements } = setupForecastEnv();
+  window.KAOYAN_VOCAB_BANK = [
+    [2018, 'Text 1', [['alpha', 'n. 阿尔法'], ['bravo', 'n. 布拉沃']]],
+    [2020, 'Text 2', [['alpha', 'n. 阿尔法（复现）']]]
+  ];
+
+  // Add alpha to vocab book BEFORE initializing vocab module
+  window.StorageModule.addWordToBook('alpha', 'n. 专属生词本释义', 'Alpha example sentence.', '2020', 'Text 2');
+  window.VocabModule.init('vocabSection');
+  elements.get('vocabSourceSelect').options = [
+    { value: 'nanxiao_sushua', textContent: '高频' },
+    { value: 'all', textContent: '全真题' },
+    { value: 'bookmarked', textContent: '生词本' }
+  ];
+  window.VocabModule.showStudyView('new');
+
+  // 1) Topbar star icon must show ★ because alpha is already bookmarked
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, 'alpha');
+  assert.strictEqual(elements.get('vocabMomoBtnStar').textContent, '★', 'Already-bookmarked word must render ★ on card load');
+
+  // 2) Switch to bookmarked source -> must read b.def as meaning & b.textId as text (not undefined)
+  elements.get('vocabSourceSelect').value = 'bookmarked';
+  elements.get('vocabSourceSelect').onchange();
+  window.VocabModule.flipCard(true);
+  assert.ok(elements.get('vocabMomoDefinitions').innerHTML.includes('专属生词本释义'), 'Bookmarked word must display its saved def');
+  assert.strictEqual(elements.get('vocabProvenanceFront').textContent, '2020 · Text 2', 'Bookmarked word must display saved textId');
+  assert.ok(elements.get('vocabTextSelect').innerHTML.includes('全部收藏篇章'), 'textSelect must reset options when switching to bookmarked');
+
+  // 3) Switch to 'all' (rawVocabData with duplicate alpha across years) -> computeScopeStats deduplicates alpha
+  elements.get('vocabSourceSelect').value = 'all';
+  elements.get('vocabSourceSelect').onchange();
+  assert.strictEqual(elements.get('vocabHomeCountLearn').textContent, '2', 'Duplicate words across years must be deduplicated in stats');
+});
