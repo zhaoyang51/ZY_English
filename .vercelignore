@@ -1,0 +1,21 @@
+# Root-level reference PDFs (keep docs/writing_materials/*.pdf)
+/*.pdf
+
+# Local dev, build, test, and scratch files
+scripts/
+tests/
+scratch/
+docs/REVIEW_CONTENT_PLAN.md
+README.md
+一键推送到GitHub.bat
+.github/
+.vscode/
+.gemini/
+__pycache__/
+*.pyc
+*.log
+
+# Unused static source archives / untracked scratch data
+英二试题/
+英二阅读词汇.html
+data/vocab_pdf*
