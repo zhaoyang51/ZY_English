@@ -468,6 +468,7 @@
     document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
     document.body.classList.toggle('mode-vocab', AppState.mode === 'vocab');
     document.body.classList.toggle('mode-writing', AppState.mode === 'writing');
+    document.body.classList.toggle('mode-en1', AppState.examType === 'en1' && AppState.mode !== 'vocab' && AppState.mode !== 'writing');
     if (hadWritingB && AppState.textId === 'writing_b' && AppState.mode !== 'vocab' && AppState.mode !== 'writing') {
       document.body.classList.add('has-writing-b');
     }
@@ -1049,6 +1050,7 @@
     document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
     document.body.classList.toggle('mode-vocab', AppState.mode === 'vocab');
     document.body.classList.toggle('mode-writing', AppState.mode === 'writing');
+    document.body.classList.toggle('mode-en1', AppState.examType === 'en1' && AppState.mode !== 'vocab' && AppState.mode !== 'writing');
     if (layout) layout.classList.remove('trans-single-col-review');
     document.body.classList.remove('has-trans-review');
 

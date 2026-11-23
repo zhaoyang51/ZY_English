@@ -32,7 +32,7 @@
     marks: [], // [{ id, side: 'left'|'right', start, end, style, color }]
     pendingRange: null,
     editingMarkId: null,
-    lastDragMarkTime: 0
+    suppressClickFromDrag: false
   };
 
   function paperKey(year, textId) {
@@ -695,7 +695,7 @@
         dragStart = { x: e.clientX, y: e.clientY };
       });
       body.addEventListener('click', e => {
-        if (Date.now() - state.lastDragMarkTime < 300) return;
+        if (state.suppressClickFromDrag) return;
         if (dragStart && Math.hypot(e.clientX - dragStart.x, e.clientY - dragStart.y) > 5) return;
         const sel = window.getSelection();
         if (sel && !sel.isCollapsed && sel.toString().trim().length > 0) return;
@@ -973,7 +973,7 @@
         dragStart = { x: e.clientX, y: e.clientY };
       });
       body.addEventListener('click', e => {
-        if (Date.now() - state.lastDragMarkTime < 300) return;
+        if (state.suppressClickFromDrag) return;
         if (dragStart && Math.hypot(e.clientX - dragStart.x, e.clientY - dragStart.y) > 5) return;
         const sel = window.getSelection();
         if (sel && !sel.isCollapsed && sel.toString().trim().length > 0) return;
@@ -1147,6 +1147,17 @@
       if (!window.AppState || window.AppState.examType !== 'en1') return;
       if (e.target.closest('#en1MarkPopover') || e.target.closest('#en1AnnotatorToolbar')) return;
 
+      const preSel = window.getSelection();
+      if (preSel && !preSel.isCollapsed && preSel.toString().trim().length > 0) {
+        const lRoot = getMarkableRoot('left');
+        const rRoot = getMarkableRoot('right');
+        const node = preSel.anchorNode;
+        if ((lRoot && lRoot.contains(node)) || (rRoot && rRoot.contains(node))) {
+          state.suppressClickFromDrag = true;
+          setTimeout(() => { state.suppressClickFromDrag = false; }, 0);
+        }
+      }
+
       setTimeout(() => {
         const sel = window.getSelection();
         if (!sel || sel.isCollapsed || !sel.rangeCount) {
@@ -1162,21 +1173,18 @@
         if (!inLeft && !inRight) return;
 
         if (state.tool === 'eraser') {
-          state.lastDragMarkTime = Date.now();
           removeMarksInRange(range);
           sel.removeAllRanges();
           hidePopover();
           return;
         }
         if (['highlight', 'wavy', 'underline', 'strike'].includes(state.tool)) {
-          state.lastDragMarkTime = Date.now();
           addMarkFromRange(range, state.tool, state.color);
           sel.removeAllRanges();
           hidePopover();
           return;
         }
         // Default: show floating selection popover
-        state.lastDragMarkTime = Date.now();
         showSelectionPopover(range, txt);
       }, 10);
     });
