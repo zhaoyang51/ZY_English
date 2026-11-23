@@ -17,6 +17,8 @@
 
   // 艾宾浩斯 11 级复习周期 (Level 0 ~ Level 10, 毫秒)
   // [12小时, 1天, 2天, 3天, 4天, 5天, 6天, 7天, 8天, 9天, 10天]
+  // 说明：Level 0 归为「新学中」(status='new')；在 0 档点「忘记了/记错了」则 5 分钟后复习
+  const LEARNING_NEW_RETRY_MS = 5 * 60 * 1000;
   const EBB_INTERVALS = [
     12 * 60 * 60 * 1000,
     1 * 24 * 60 * 60 * 1000,
@@ -30,6 +32,14 @@
     9 * 24 * 60 * 60 * 1000,
     10 * 24 * 60 * 60 * 1000
   ];
+
+  // Plan B 统一口径：未学或处于 0 档（且未标熟）均归为「新学中」
+  function isWordNewState(rec) {
+    if (!rec) return true;
+    if (rec.status === 'mastered') return false;
+    if (rec.status === 'new') return true;
+    return (Number(rec.level) || 0) === 0;
+  }
 
   const POS_MAP = {
     'n.': 'n.',
@@ -102,6 +112,7 @@
     filterDrawerOpen: false,
     activeRelationTab: 'phrases', // 'phrases' | 'synonyms' | 'mindchain' | 'lookalikes'
     historyStack: [],
+    sessionRetryMap: new Map(),
     filters: {
       source: 'nanxiao_sushua',
       year: 'all',
@@ -1362,8 +1373,11 @@
         els.btnResetFilter.onclick = () => {
           if (confirm('确认重置当前范围下所有单词的艾宾浩斯复习进度吗？')) {
             appState.currentList.forEach(w => {
-              delete appState.progress[w.word];
+              const key = w.word || w.root;
+              if (key) delete appState.progress[key];
             });
+            appState.historyStack = [];
+            if (appState.sessionRetryMap) appState.sessionRetryMap.clear();
             this.saveProgress();
             this.applyFiltersAndRender();
             this.showToast('已重置当前范围进度 🔄');
@@ -1394,6 +1408,33 @@
         if (!document.body.classList.contains('mode-vocab')) return;
         const tag = (e.target.tagName || '').toLowerCase();
         if (tag === 'input' || tag === 'textarea' || tag === 'select') {
+          return;
+        }
+
+        const isCitationsOpen = els.citationsModal && els.citationsModal.style.display && els.citationsModal.style.display !== 'none';
+        const isForecastOpen = els.forecastModal && (els.forecastModal.classList.contains('is-open') || (els.forecastModal.style.display && els.forecastModal.style.display !== 'none'));
+        const isSheetOpen = els.sheetModal && els.sheetModal.classList.contains('is-open');
+        const cloudModal = typeof document !== 'undefined' ? document.getElementById('vocabCloudSyncModal') : null;
+        const isCloudOpen = cloudModal && (cloudModal.classList.contains('is-open') || (cloudModal.style.display && cloudModal.style.display !== 'none'));
+
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          if (isCitationsOpen) {
+            this.hideCitationsModal();
+          } else if (isForecastOpen) {
+            this.closeForecastModal();
+          } else if (isSheetOpen) {
+            this.toggleSettingsSheet(false);
+          } else if (appState.currentView === 'study') {
+            this.showHomeView();
+          } else {
+            this.exitToReadingMode();
+          }
+          return;
+        }
+
+        // Prevent hotkeys from grading/flipping cards behind open modals
+        if (isCitationsOpen || isForecastOpen || isSheetOpen || isCloudOpen || appState.currentView !== 'study') {
           return;
         }
 
@@ -1443,15 +1484,6 @@
         } else if (e.key === 'z' || e.key === 'Z') {
           e.preventDefault();
           this.undoLastGrade();
-        } else if (e.key === 'Escape') {
-          e.preventDefault();
-          if (els.sheetModal && els.sheetModal.classList.contains('is-open')) {
-            this.toggleSettingsSheet(false);
-          } else if (appState.currentView === 'study') {
-            this.showHomeView();
-          } else {
-            this.exitToReadingMode();
-          }
         }
       });
     },
@@ -1716,7 +1748,7 @@
       return task;
     },
 
-    applyFiltersAndRender() {
+    applyFiltersAndRender(options = {}) {
       const { source, year, text, state, sort, search } = appState.filters;
       let list = [];
 
@@ -1799,12 +1831,12 @@
       if (state === 'due') {
         list = list.filter(w => {
           const rec = appState.progress[w.word || w.root];
-          return rec && rec.status !== 'mastered' && (!rec.nextReviewTime || rec.nextReviewTime <= now);
+          return rec && !isWordNewState(rec) && rec.status !== 'mastered' && (!rec.nextReviewTime || rec.nextReviewTime <= now);
         });
       } else if (state === 'new') {
         list = list.filter(w => {
           const rec = appState.progress[w.word || w.root];
-          return !rec || rec.status === 'new';
+          return isWordNewState(rec);
         });
       } else if (state === 'mastered') {
         list = list.filter(w => {
@@ -1851,6 +1883,38 @@
         }
       }
 
+      // Plan B：在「新学(new)」模式下，优先安排已过 5 分钟/12 小时冷却的 0 档词回炉，
+      // 其次按用户所选排序展示纯新词，仍在冷却中的 0 档词排在最后以免刚点忘记就连续弹出
+      if (state === 'new' && list.length > 1) {
+        const dueRetry = [];
+        const untouched = [];
+        const cooldown = [];
+        list.forEach(item => {
+          const rec = appState.progress[item.word || item.root];
+          if (!rec) {
+            untouched.push(item);
+          } else {
+            const dueTs = Number(rec.nextReviewTime || 0);
+            if (!dueTs || dueTs <= now) {
+              dueRetry.push(item);
+            } else {
+              cooldown.push(item);
+            }
+          }
+        });
+        dueRetry.sort((a, b) => {
+          const rA = appState.progress[a.word || a.root];
+          const rB = appState.progress[b.word || b.root];
+          return (Number(rA && rA.nextReviewTime) || 0) - (Number(rB && rB.nextReviewTime) || 0);
+        });
+        cooldown.sort((a, b) => {
+          const rA = appState.progress[a.word || a.root];
+          const rB = appState.progress[b.word || b.root];
+          return (Number(rA && rA.nextReviewTime) || 0) - (Number(rB && rB.nextReviewTime) || 0);
+        });
+        list = [...dueRetry, ...untouched, ...cooldown];
+      }
+
       // Resolve resume position
       let targetIndex = 0;
       const explicitResetToStart = this.targetResumeWord === null;
@@ -1893,38 +1957,44 @@
       appState.currentList = list;
       appState.currentIndex = targetIndex;
       appState.isFlipped = false;
+      if (!options.preserveHistory) {
+        appState.historyStack = [];
+      }
 
       this.updateStats();
-      this.updateHomeView();
-      this.renderCurrentCard();
+      if (!options.skipHomeUpdate) {
+        this.updateHomeView();
+      }
+      this._skipNextSavePosition = !!options.skipSavePosition;
+      try {
+        this.renderCurrentCard();
+      } finally {
+        this._skipNextSavePosition = false;
+      }
+    },
+
+    computeScopeStats(fullItems, nowTs) {
+      const now = nowTs || Date.now();
+      let dueCount = 0, newCount = 0, learningCount = 0, masteredCount = 0;
+      (fullItems || []).forEach(item => {
+        const w = item.word || item.root;
+        const rec = appState.progress[w];
+        if (isWordNewState(rec)) {
+          newCount++;
+        } else if (rec.status === 'mastered') {
+          masteredCount++;
+        } else {
+          learningCount++;
+          if (!rec.nextReviewTime || rec.nextReviewTime <= now) dueCount++;
+        }
+      });
+      return { dueCount, newCount, learningCount, masteredCount };
     },
 
     updateStats() {
       const source = appState.filters.source;
-      let totalScopeCount = 0;
-      let fullItems = [];
-
-      if (source === 'nanxiao_sushua') fullItems = window.NANXIAO_SUSHUA_VOCAB || [];
-      else if (source === 'bookmarked') fullItems = window.StorageModule ? window.StorageModule.getVocabBook() : [];
-      else if (source === 'all') fullItems = appState.rawVocabData;
-      else if (source === 'yuque_sucheng') fullItems = window.YUQUE_SUCHENG_VOCAB || [];
-      else if (source === 'yuque_daxue') fullItems = window.YUQUE_DAXUE_VOCAB || [];
-      else fullItems = window.NANXIAO_SUSHUA_VOCAB || appState.rawVocabData;
-
-      totalScopeCount = fullItems.length;
-      const now = Date.now();
-      let dueCount = 0, newCount = 0, learningCount = 0, masteredCount = 0;
-
-      fullItems.forEach(item => {
-        const w = item.word || item.root;
-        const rec = appState.progress[w];
-        if (!rec) newCount++;
-        else if (rec.status === 'mastered') masteredCount++;
-        else {
-          learningCount++;
-          if (rec.nextReviewTime <= now) dueCount++;
-        }
-      });
+      const fullItems = this.getSourceItems(source);
+      const { dueCount, newCount, learningCount, masteredCount } = this.computeScopeStats(fullItems, Date.now());
 
       if (els.statTotal) els.statTotal.textContent = String(appState.currentList.length);
       if (els.statDue) els.statDue.textContent = String(dueCount);
@@ -2118,7 +2188,9 @@
       if (!cur) return;
       const word = cur.word || cur.root || '';
 
-      this.saveLastPosition();
+      if (!this._skipNextSavePosition) {
+        this.saveLastPosition();
+      }
 
       // Update Topbar Progress (待复习剩余 / 未学剩余)
       const remaining = Math.max(0, total - idx);
@@ -2474,10 +2546,10 @@
       if (els.relationsContainer) {
         let compHtml = '';
         if (phrases.length > 0) {
-          compHtml += `<div class="vocab-rel-header phrases"><span>🔗 真题搭配词组</span>${phrases.map(p => `<span>${p.phrase}</span>`).join(' ')}</div>`;
+          compHtml += `<div class="vocab-rel-header phrases"><span>🔗 真题搭配词组</span>${phrases.map(p => `<span>${this.escapeHtml(p.phrase)}</span>`).join(' ')}</div>`;
         }
         if (lookalikes.length > 0) {
-          compHtml += `<div class="vocab-rel-header lookalikes"><span>🔍 真题形近词辨析</span>${lookalikes.map(l => `<span class="pill-word">${l.word}</span>`).join(' ')}</div>`;
+          compHtml += `<div class="vocab-rel-header lookalikes"><span>🔍 真题形近词辨析</span>${lookalikes.map(l => `<span class="pill-word">${this.escapeHtml(l.word)}</span>`).join(' ')}</div>`;
         }
         els.relationsContainer.innerHTML = compHtml;
       }
@@ -2507,8 +2579,8 @@
         if (phrases.length > 0) {
           html = phrases.map(p => `
             <div class="momo-colloc-row">
-              <span class="momo-colloc-en">${p.phrase}</span>
-              <span class="momo-colloc-zh">${p.def || ''}</span>
+              <span class="momo-colloc-en">${this.escapeHtml(p.phrase)}</span>
+              <span class="momo-colloc-zh">${this.escapeHtml(p.def || '')}</span>
             </div>
           `).join('');
         } else {
@@ -2518,8 +2590,8 @@
         if (synonyms.length > 0) {
           html = synonyms.map(s => `
             <div class="momo-colloc-row">
-              <span class="momo-colloc-en">${s.word || s}</span>
-              <span class="momo-colloc-zh">${s.def || '同义替换'}</span>
+              <span class="momo-colloc-en">${this.escapeHtml(s.word || s)}</span>
+              <span class="momo-colloc-zh">${this.escapeHtml(s.def || '同义替换')}</span>
             </div>
           `).join('');
         } else {
@@ -2548,7 +2620,7 @@
           `;
         }
         if (mindChain) {
-          html = `${notePart}${morphPart}<div class="momo-mindchain-text">${mindChain}</div>`;
+          html = `${notePart}${morphPart}<div class="momo-mindchain-text">${this.escapeHtml(mindChain)}</div>`;
         } else if (morphPart || userNote) {
           html = `${notePart}${morphPart}`;
         } else {
@@ -2558,8 +2630,8 @@
         if (lookalikes.length > 0) {
           html = lookalikes.map(l => `
             <div class="momo-colloc-row">
-              <span class="momo-colloc-en">${l.word}</span>
-              <span class="momo-colloc-zh">${l.def || ''}</span>
+              <span class="momo-colloc-en">${this.escapeHtml(l.word)}</span>
+              <span class="momo-colloc-zh">${this.escapeHtml(l.def || '')}</span>
             </div>
           `).join('');
         } else {
@@ -2600,7 +2672,7 @@
       });
 
       let record = previousRecord ? JSON.parse(JSON.stringify(previousRecord)) : {
-        status: 'learning',
+        status: 'new',
         level: 0,
         firstStudied: now,
         lastReviewed: now,
@@ -2608,21 +2680,31 @@
         reviewCount: 0
       };
 
+      const baseLevel = Number(record.level) || 0;
       record.reviewCount = (record.reviewCount || 0) + 1;
       record.lastReviewed = now;
 
       if (grade === 'forgot') {
-        record.level = Math.min(EBB_INTERVALS.length - 1, Math.max(0, (Number(record.level) || 0) - 2));
-        record.nextReviewTime = now + EBB_INTERVALS[record.level];
-        record.status = 'learning';
+        record.level = Math.min(EBB_INTERVALS.length - 1, Math.max(0, baseLevel - 2));
+        const intervalMs = (baseLevel === 0) ? LEARNING_NEW_RETRY_MS : EBB_INTERVALS[record.level];
+        record.nextReviewTime = now + intervalMs;
+        record.status = record.level === 0 ? 'new' : 'learning';
       } else if (grade === 'hard') {
-        record.level = Math.min(EBB_INTERVALS.length - 1, Math.max(0, (Number(record.level) || 0) - 1));
+        record.level = Math.min(EBB_INTERVALS.length - 1, Math.max(0, baseLevel - 1));
         record.nextReviewTime = now + EBB_INTERVALS[record.level];
-        record.status = 'learning';
+        record.status = record.level === 0 ? 'new' : 'learning';
       } else if (grade === 'good') {
-        record.level = Math.min(EBB_INTERVALS.length - 1, (Number(record.level) || 0) + 1);
+        record.level = Math.min(EBB_INTERVALS.length - 1, baseLevel + 1);
         record.nextReviewTime = now + EBB_INTERVALS[record.level];
         record.status = 'learning';
+      }
+
+      if (appState.sessionRetryMap) {
+        if (record.level === 0 && grade === 'forgot' && appState.studyMode === 'new') {
+          appState.sessionRetryMap.set(word, currentWordObj);
+        } else if (record.level > 0 || record.status !== 'new') {
+          appState.sessionRetryMap.delete(word);
+        }
       }
 
       appState.progress[word] = record;
@@ -2634,7 +2716,7 @@
       } else if (appState.studyMode === 'review') {
         isNewActivity = false;
       } else {
-        isNewActivity = !previousRecord || previousRecord.status === 'new';
+        isNewActivity = isWordNewState(previousRecord);
       }
       this.recordDailyActivity(word, isNewActivity ? 'new' : 'review');
 
@@ -2652,23 +2734,48 @@
       const cur = appState.currentList[appState.currentIndex];
       const word = cur.word || cur.root;
       const now = Date.now();
-      let record = appState.progress[word] || {
-        status: 'learning',
+      const rawExisting = appState.progress[word] ? JSON.parse(JSON.stringify(appState.progress[word])) : null;
+      const lastHist = appState.historyStack.length > 0 ? appState.historyStack[appState.historyStack.length - 1] : null;
+      const flippedAfterGrade = Boolean(appState.isFlipped && lastHist && lastHist.word === word);
+
+      let record = rawExisting || {
+        status: 'new',
         level: 0,
         firstStudied: now,
         lastReviewed: now,
         nextReviewTime: now,
         reviewCount: 0
       };
+
       let baseLevel = Number(record.level) || 0;
-      const lastHist = appState.historyStack.length > 0 ? appState.historyStack[appState.historyStack.length - 1] : null;
-      if (appState.isFlipped && lastHist && lastHist.word === word) {
+      if (flippedAfterGrade) {
         baseLevel = lastHist.previousRecord ? (Number(lastHist.previousRecord.level) || 0) : 0;
+      } else {
+        // User flipped manually (Space/click) without pre-grading: record history & daily activity cleanly
+        appState.historyStack.push({
+          word,
+          previousRecord: rawExisting,
+          index: appState.currentIndex
+        });
+        record.reviewCount = (record.reviewCount || 0) + 1;
+        const isNewAct = appState.studyMode === 'new' || (appState.studyMode !== 'review' && isWordNewState(rawExisting));
+        this.recordDailyActivity(word, isNewAct ? 'new' : 'review');
       }
+
       record.level = Math.min(EBB_INTERVALS.length - 1, Math.max(0, baseLevel - 2));
+      const intervalMs = (baseLevel === 0) ? LEARNING_NEW_RETRY_MS : EBB_INTERVALS[record.level];
       record.lastReviewed = now;
-      record.nextReviewTime = now + EBB_INTERVALS[record.level];
-      record.status = 'learning';
+      record.nextReviewTime = now + intervalMs;
+      record.status = record.level === 0 ? 'new' : 'learning';
+
+      if (appState.sessionRetryMap) {
+        if (record.level === 0 && appState.studyMode === 'new') {
+          appState.sessionRetryMap.set(word, cur);
+        } else if (record.level > 0) {
+          appState.sessionRetryMap.delete(word);
+        }
+      }
+
       appState.progress[word] = record;
       this.saveProgress();
       this.goToNextCard();
@@ -2680,6 +2787,14 @@
       const word = cur.word || cur.root;
       const now = Date.now();
       let previousRecord = appState.progress[word] ? JSON.parse(JSON.stringify(appState.progress[word])) : null;
+      appState.historyStack.push({
+        word,
+        previousRecord,
+        index: appState.currentIndex
+      });
+      if (appState.sessionRetryMap) {
+        appState.sessionRetryMap.delete(word);
+      }
       let record = previousRecord ? JSON.parse(JSON.stringify(previousRecord)) : {
         status: 'mastered',
         level: EBB_INTERVALS.length - 1,
@@ -2701,7 +2816,7 @@
       } else if (appState.studyMode === 'review') {
         isNewActivity = false;
       } else {
-        isNewActivity = !previousRecord || previousRecord.status === 'new';
+        isNewActivity = isWordNewState(previousRecord);
       }
       this.recordDailyActivity(word, isNewActivity ? 'new' : 'review');
 
@@ -2714,14 +2829,17 @@
         return;
       }
       const last = appState.historyStack.pop();
-      const wasNew = !last.previousRecord || last.previousRecord.status === 'new';
+      const wasNew = isWordNewState(last.previousRecord);
       if (last.previousRecord) {
         appState.progress[last.word] = last.previousRecord;
       } else {
         delete appState.progress[last.word];
       }
+      if (appState.sessionRetryMap) {
+        appState.sessionRetryMap.delete(last.word);
+      }
       this.undoDailyActivity(last.word, wasNew);
-      appState.currentIndex = last.index;
+      appState.currentIndex = Math.max(0, Math.min(last.index, Math.max(0, appState.currentList.length - 1)));
       appState.isFlipped = false;
       appState.lastGrade = null;
       this.saveProgress();
@@ -2734,6 +2852,47 @@
         this.showStudyView();
       }
       appState.currentIndex++;
+
+      // Plan B：在「新学(new)」中，若有 0 档重学词已到 5 分钟则优先插在下一张；
+      // 若本轮正常新词已滑完且仍有本轮待巩固的 0 档词，则追加到末尾避免误报“已学完”
+      if (appState.studyMode === 'new' && appState.sessionRetryMap && appState.sessionRetryMap.size > 0) {
+        const now = Date.now();
+        let dueKey = null;
+        let dueItem = null;
+        let earliestKey = null;
+        let earliestItem = null;
+        let earliestTs = Infinity;
+
+        appState.sessionRetryMap.forEach((itemObj, wKey) => {
+          const rec = appState.progress[wKey];
+          if (!rec || !isWordNewState(rec) || rec.status === 'mastered') {
+            appState.sessionRetryMap.delete(wKey);
+            return;
+          }
+          const dueTs = Number(rec.nextReviewTime || 0);
+          if (dueTs <= now && !dueKey) {
+            dueKey = wKey;
+            dueItem = itemObj;
+          }
+          if (dueTs < earliestTs) {
+            earliestTs = dueTs;
+            earliestKey = wKey;
+            earliestItem = itemObj;
+          }
+        });
+
+        const pickKey = dueKey || (appState.currentIndex >= appState.currentList.length ? earliestKey : null);
+        const pickItem = dueItem || (appState.currentIndex >= appState.currentList.length ? earliestItem : null);
+        if (pickKey && pickItem) {
+          appState.sessionRetryMap.delete(pickKey);
+          for (let i = appState.currentList.length - 1; i >= appState.currentIndex; i--) {
+            const cw = appState.currentList[i] && (appState.currentList[i].word || appState.currentList[i].root);
+            if (cw === pickKey) appState.currentList.splice(i, 1);
+          }
+          appState.currentList.splice(appState.currentIndex, 0, pickItem);
+        }
+      }
+
       appState.isFlipped = false;
       appState.lastGrade = null;
       this.renderCurrentCard();
@@ -2917,7 +3076,26 @@
       if (els.citationsModal) els.citationsModal.style.display = 'none';
     },
 
+    stopAllAudio() {
+      try {
+        if (this._currentAudio) {
+          this._currentAudio.pause();
+          this._currentAudio.currentTime = 0;
+          this._currentAudio = null;
+        }
+      } catch (e) {}
+      try {
+        if (typeof window !== 'undefined' && window.speechSynthesis && typeof window.speechSynthesis.cancel === 'function') {
+          window.speechSynthesis.cancel();
+        }
+      } catch (e) {}
+      if (els.momoPhoneticPill && els.momoPhoneticPill.classList) {
+        els.momoPhoneticPill.classList.remove('is-playing');
+      }
+    },
+
     exitToReadingMode() {
+      this.stopAllAudio();
       if (typeof window !== 'undefined' && typeof window.exitVocabMode === 'function') {
         window.exitVocabMode();
         return;
@@ -2929,12 +3107,21 @@
     },
 
     showHomeView() {
+      this.stopAllAudio();
+      const hadScopedFilter = appState.filters.state !== 'all' || Boolean(appState.filters.search);
       appState.currentView = 'home';
       appState.studyMode = null;
       appState.filters.state = 'all';
+      appState.filters.search = '';
+      appState.historyStack = [];
+      if (appState.sessionRetryMap) appState.sessionRetryMap.clear();
       if (els.stateSelect) els.stateSelect.value = 'all';
+      if (els.searchInput) els.searchInput.value = '';
       if (els.homeFrame) els.homeFrame.style.display = 'flex';
       if (els.frame) els.frame.style.display = 'none';
+      if (hadScopedFilter) {
+        this.applyFiltersAndRender({ skipSavePosition: true, skipHomeUpdate: true });
+      }
       this.updateHomeView();
     },
 
@@ -2957,13 +3144,18 @@
         appState.filters.state = 'new';
         appState.filters.year = 'all';
         appState.filters.text = 'all';
+        appState.filters.search = '';
+        appState.historyStack = [];
+        if (appState.sessionRetryMap) appState.sessionRetryMap.clear();
         if (els.stateSelect) els.stateSelect.value = 'new';
         if (els.yearSelect) els.yearSelect.value = 'all';
         if (els.textSelect) els.textSelect.value = 'all';
+        if (els.searchInput) els.searchInput.value = '';
         this.targetResumeWord = null;
         this.applyFiltersAndRender();
         if (appState.currentList.length === 0) {
           this.showToast('🎉 当前词书所有单词已全部学完！请点击「复习」进行巩固');
+          this.showHomeView();
           return;
         }
         appState.currentIndex = 0;
@@ -2972,13 +3164,18 @@
         appState.filters.state = 'due';
         appState.filters.year = 'all';
         appState.filters.text = 'all';
+        appState.filters.search = '';
+        appState.historyStack = [];
+        if (appState.sessionRetryMap) appState.sessionRetryMap.clear();
         if (els.stateSelect) els.stateSelect.value = 'due';
         if (els.yearSelect) els.yearSelect.value = 'all';
         if (els.textSelect) els.textSelect.value = 'all';
+        if (els.searchInput) els.searchInput.value = '';
         this.targetResumeWord = null;
         this.applyFiltersAndRender();
         if (appState.currentList.length === 0) {
           this.showToast('🎉 当前词书暂无到期急需复习单词，已按记忆曲线全部巩固！');
+          this.showHomeView();
           return;
         }
         appState.currentIndex = 0;
@@ -3004,37 +3201,17 @@
 
       this.pickRandomHomeWord();
 
-      let fullItems = [];
-      if (src === 'nanxiao_sushua') {
-        if (!window.NANXIAO_SUSHUA_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabNanxiao) {
-          this.ensureDatasetLoading('nanxiao_sushua');
-        }
-        fullItems = window.NANXIAO_SUSHUA_VOCAB || [];
-      } else if (src === 'yuque_sucheng') {
-        if (!window.YUQUE_SUCHENG_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabSucheng) {
-          this.ensureDatasetLoading('yuque_sucheng');
-        }
-        fullItems = window.YUQUE_SUCHENG_VOCAB || [];
-      } else if (src === 'yuque_daxue') {
-        if (!window.YUQUE_DAXUE_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabDaxue) {
-          this.ensureDatasetLoading('yuque_daxue');
-        }
-        fullItems = window.YUQUE_DAXUE_VOCAB || [];
-      } else if (src === 'bookmarked') fullItems = window.StorageModule ? window.StorageModule.getVocabBook() : [];
-      else fullItems = appState.rawVocabData;
+      if (src === 'nanxiao_sushua' && !window.NANXIAO_SUSHUA_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabNanxiao) {
+        this.ensureDatasetLoading('nanxiao_sushua');
+      } else if (src === 'yuque_sucheng' && !window.YUQUE_SUCHENG_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabSucheng) {
+        this.ensureDatasetLoading('yuque_sucheng');
+      } else if (src === 'yuque_daxue' && !window.YUQUE_DAXUE_VOCAB && typeof window !== 'undefined' && window.DataLoader && window.DataLoader.loadVocabDaxue) {
+        this.ensureDatasetLoading('yuque_daxue');
+      }
+      const fullItems = this.getSourceItems(src);
 
       const now = Date.now();
-      let dueCount = 0, newCount = 0, learningCount = 0, masteredCount = 0;
-      fullItems.forEach(item => {
-        const w = item.word || item.root;
-        const rec = appState.progress[w];
-        if (!rec || rec.status === 'new') newCount++;
-        else if (rec.status === 'mastered') masteredCount++;
-        else {
-          learningCount++;
-          if (!rec.nextReviewTime || rec.nextReviewTime <= now) dueCount++;
-        }
-      });
+      const { dueCount, newCount } = this.computeScopeStats(fullItems, now);
 
       if (els.homeCountLearn) els.homeCountLearn.textContent = String(newCount);
       if (els.homeCountReview) els.homeCountReview.textContent = String(dueCount);
@@ -3124,7 +3301,7 @@
         seenWords.add(w);
 
         const rec = appState.progress ? appState.progress[w] : null;
-        if (!rec || rec.status === 'new' || rec.status === 'mastered') return;
+        if (isWordNewState(rec) || rec.status === 'mastered') return;
 
         totalLearning++;
         const dueTs = Number(rec.nextReviewTime || 0);
@@ -3560,7 +3737,7 @@
         const rec = progress[k];
         if (!rec) return;
         if (rec.status === 'mastered') masteredCount++;
-        else if (rec.status === 'learning') learningCount++;
+        else if (!isWordNewState(rec)) learningCount++;
       });
 
       return {
@@ -3771,7 +3948,7 @@
         Object.keys(localProgress).forEach(k => {
           const r = localProgress[k];
           if (r && r.status === 'mastered') masteredCount++;
-          else if (r && r.status === 'learning') learningCount++;
+          else if (r && !isWordNewState(r)) learningCount++;
         });
 
         if (appState.isInitialized) {

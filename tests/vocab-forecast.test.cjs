@@ -118,38 +118,61 @@ function setupForecastEnv() {
   return { storageMap, elements };
 }
 
-test('Ebbinghaus Intervals: Level 0 5-minute interval is removed; minimum reset interval is 12 hours', () => {
-  const vocabSource = fs.readFileSync(path.join(__dirname, '../js/vocab.js'), 'utf8');
-  assert.ok(!vocabSource.includes('5 * 60 * 1000'), '5-minute interval must be removed from EBB_INTERVALS');
-
-  const { storageMap } = setupForecastEnv();
+test('Plan B Level 0 rules: forgot/wrong at Level 0 schedule 5 minutes and stay in Learn (新学中)', () => {
+  const { storageMap, elements } = setupForecastEnv();
   window.VocabModule.init('vocabSection');
   window.VocabModule.showStudyView('new');
 
+  // 1) alpha at Level 0 + 'forgot' -> 5 minutes later, remains status: 'new' (新学中)
   const before = Date.now();
   window.VocabModule.gradeWord('forgot');
   const progAfterForgot = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
   const deltaForgot = progAfterForgot.alpha.nextReviewTime - before;
   assert.strictEqual(progAfterForgot.alpha.level, 0);
-  assert.ok(deltaForgot >= 11.9 * 3600 * 1000 && deltaForgot <= 12.1 * 3600 * 1000, `Forgot interval must be ~12h, got ${deltaForgot}`);
+  assert.strictEqual(progAfterForgot.alpha.status, 'new');
+  assert.ok(deltaForgot >= 4.9 * 60 * 1000 && deltaForgot <= 5.1 * 60 * 1000, `Level 0 forgot interval must be ~5min, got ${deltaForgot}`);
 
-  // handleMarkWrong must also schedule ~12h instead of 5 minutes
+  // 2) handleMarkWrong on alpha after flipping must also schedule ~5min and stay status: 'new'
   window.VocabModule.handleMarkWrong();
   const progAfterWrong = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
   const deltaWrong = progAfterWrong.alpha.nextReviewTime - before;
-  assert.ok(deltaWrong >= 11.9 * 3600 * 1000 && deltaWrong <= 12.1 * 3600 * 1000, `Wrong interval must be ~12h, got ${deltaWrong}`);
+  assert.strictEqual(progAfterWrong.alpha.level, 0);
+  assert.strictEqual(progAfterWrong.alpha.status, 'new');
+  assert.ok(deltaWrong >= 4.9 * 60 * 1000 && deltaWrong <= 5.1 * 60 * 1000, `Level 0 wrong interval must be ~5min, got ${deltaWrong}`);
 
-  // Grading 'good' on level 0 advances to level 1 (1 day)
+  // 3) alpha is still counted in Learn (all 9 words in Learn, 0 in Review & Forecast)
+  window.VocabModule.showHomeView();
+  assert.strictEqual(elements.get('vocabHomeCountLearn').textContent, '9');
+  assert.strictEqual(elements.get('vocabHomeCountReview').textContent, '0');
+  const fc = window.VocabModule.getReviewForecast(8, 'current');
+  assert.strictEqual(fc.totalLearning, 0, 'Level 0 words must NOT appear in Review Forecast');
+
+  // Re-entering Learn puts cooldown alpha after untouched words, so bravo is first
   window.VocabModule.showStudyView('new');
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, 'bravo', 'Cooldown alpha should move after untouched bravo');
+
+  // Once 5 minutes elapse (nextReviewTime <= now), re-entering Learn puts alpha first
+  const stored = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  stored.alpha.nextReviewTime = Date.now() - 1000;
+  storageMap.set('KAOYAN_VOCAB_PROGRESS_V2', JSON.stringify(stored));
+  window.VocabModule.init('vocabSection');
+  const env2 = setupForecastEnv();
+  env2.storageMap.set('KAOYAN_VOCAB_PROGRESS_V2', JSON.stringify(stored));
+  window.VocabModule.init('vocabSection');
+  window.VocabModule.showStudyView('new');
+  assert.strictEqual(env2.elements.get('vocabMomoWord').textContent, 'alpha', 'Due Level 0 word must appear first after 5min cooldown');
+
+  // 4) Grading 'good' on Level 0 advances to Level 1 (1 day) & status 'learning' (graduates out of Learn)
   const beforeGood = Date.now();
   window.VocabModule.gradeWord('good');
-  const progAfterGood = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
-  assert.strictEqual(progAfterGood.bravo.level, 1);
-  const deltaGood = progAfterGood.bravo.nextReviewTime - beforeGood;
+  const progAfterGood = JSON.parse(env2.storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  assert.strictEqual(progAfterGood.alpha.level, 1);
+  assert.strictEqual(progAfterGood.alpha.status, 'learning');
+  const deltaGood = progAfterGood.alpha.nextReviewTime - beforeGood;
   assert.ok(deltaGood >= 23.9 * 3600 * 1000 && deltaGood <= 24.1 * 3600 * 1000, `Level 1 interval must be ~24h (1 day), got ${deltaGood}`);
 });
 
-test('8-Day Review Forecast: Computes exact daily buckets for next 8 days and renders modal', () => {
+test('8-Day Review Forecast: Computes exact daily buckets for next 8 days (excluding Level 0 new) and renders modal', () => {
   const { storageMap, elements } = setupForecastEnv();
   // Anchor "now" at local 10:00 AM so today +1h is still same day
   const d = new Date(2026, 10, 23, 10, 0, 0); // 2026-11-23 10:00:00
@@ -158,15 +181,15 @@ test('8-Day Review Forecast: Computes exact daily buckets for next 8 days and re
   const midnight = new Date(2026, 10, 23, 0, 0, 0).getTime();
 
   storageMap.set('KAOYAN_VOCAB_PROGRESS_V2', JSON.stringify({
-    alpha: { status: 'learning', level: 0, nextReviewTime: now - 3600000 },       // Day 0 overdue
-    bravo: { status: 'learning', level: 0, nextReviewTime: now + 3 * 3600000 },   // Day 0 later today (13:00)
+    alpha: { status: 'learning', level: 1, nextReviewTime: now - 3600000 },       // Day 0 overdue (Lv.1)
+    bravo: { status: 'learning', level: 1, nextReviewTime: now + 3 * 3600000 },   // Day 0 later today (13:00, Lv.1)
     charlie: { status: 'learning', level: 1, nextReviewTime: midnight + 1 * DAY + 9 * 3600000 }, // Day 1 (tomorrow)
     delta: { status: 'learning', level: 2, nextReviewTime: midnight + 2 * DAY + 9 * 3600000 },   // Day 2
     echo: { status: 'learning', level: 5, nextReviewTime: midnight + 5 * DAY + 9 * 3600000 },    // Day 5
     foxtrot: { status: 'learning', level: 7, nextReviewTime: midnight + 7 * DAY + 9 * 3600000 }, // Day 7
     golf: { status: 'learning', level: 9, nextReviewTime: midnight + 9 * DAY + 9 * 3600000 },    // Beyond 8 days
-    hotel: { status: 'mastered', level: 10, nextReviewTime: now - 1000 }          // Mastered -> excluded
-    // india: unlearned ('new') -> excluded
+    hotel: { status: 'mastered', level: 10, nextReviewTime: now - 1000 },         // Mastered -> excluded
+    india: { status: 'new', level: 0, nextReviewTime: now + 5 * 60 * 1000 }       // Level 0 新学中 -> excluded from Review
   }));
 
   window.VocabModule.init('vocabSection');
@@ -222,6 +245,7 @@ test('Review downgrade rules: forgot/wrong drop 2 levels (using pre-flip base on
   window.VocabModule.gradeWord('forgot'); // flips card
   let prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
   assert.strictEqual(prog.alpha.level, 4, 'forgot from level 6 should drop 2 levels to 4');
+  assert.strictEqual(prog.alpha.status, 'learning');
   assert.ok(prog.alpha.nextReviewTime - t1 >= 3.99 * DAY && prog.alpha.nextReviewTime - t1 <= 4.01 * DAY);
   window.VocabModule.goToNextCard(); // advance to bravo
 
@@ -230,14 +254,16 @@ test('Review downgrade rules: forgot/wrong drop 2 levels (using pre-flip base on
   window.VocabModule.gradeWord('hard');
   prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
   assert.strictEqual(prog.bravo.level, 5, 'hard from level 6 should drop 1 level to 5');
+  assert.strictEqual(prog.bravo.status, 'learning');
   assert.ok(prog.bravo.nextReviewTime - t2 >= 4.99 * DAY && prog.bravo.nextReviewTime - t2 <= 5.01 * DAY);
   window.VocabModule.goToNextCard(); // advance to charlie
 
-  // 3) charlie at level 1 -> 'forgot' clamps at level 0 (12h)
+  // 3) charlie at level 1 -> 'forgot' drops to level 0 (12h) and becomes status 'new' (新学中)
   const t3 = Date.now();
   window.VocabModule.gradeWord('forgot');
   prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
   assert.strictEqual(prog.charlie.level, 0, 'forgot from level 1 should clamp at 0');
+  assert.strictEqual(prog.charlie.status, 'new', 'Level 0 word under Plan B must have status new');
   assert.ok(prog.charlie.nextReviewTime - t3 >= 11.9 * 3600 * 1000 && prog.charlie.nextReviewTime - t3 <= 12.1 * 3600 * 1000);
   window.VocabModule.goToNextCard(); // advance to delta
 
@@ -251,4 +277,54 @@ test('Review downgrade rules: forgot/wrong drop 2 levels (using pre-flip base on
   prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
   assert.strictEqual(prog.delta.level, 4, 'handleMarkWrong after flip must drop 2 levels from pre-flip level 6 -> 4');
   assert.ok(prog.delta.nextReviewTime - t4 >= 3.99 * DAY && prog.delta.nextReviewTime - t4 <= 4.01 * DAY);
+});
+
+test('Vocab Audit Fixes: Home vs Drawer stats consistency, Home reset scope, undo across modes & markMastered undo', () => {
+  const { storageMap, elements } = setupForecastEnv();
+  const pastDue = Date.now() - 60000;
+  storageMap.set('KAOYAN_VOCAB_PROGRESS_V2', JSON.stringify({
+    alpha: { status: 'learning', level: 2, firstStudied: pastDue - 10000, lastReviewed: pastDue - 5000, nextReviewTime: pastDue, reviewCount: 2 },
+    bravo: { status: 'new', level: 0, firstStudied: pastDue - 10000, lastReviewed: pastDue - 5000, nextReviewTime: pastDue + 600000, reviewCount: 1 },
+    charlie: { status: 'mastered', level: 10, firstStudied: pastDue - 10000, lastReviewed: pastDue - 5000, nextReviewTime: pastDue + 99999999, reviewCount: 5 }
+  }));
+
+  window.VocabModule.init('vocabSection');
+
+  // 1) Home view counts and Settings Drawer stats must match strictly (7 new incl. Lv.0 bravo, 1 learning/due alpha, 1 mastered charlie)
+  assert.strictEqual(elements.get('vocabHomeCountLearn').textContent, '7');
+  assert.strictEqual(elements.get('vocabStatNew').textContent, '7');
+  assert.strictEqual(elements.get('vocabHomeCountReview').textContent, '1');
+  assert.strictEqual(elements.get('vocabStatDue').textContent, '1');
+  assert.strictEqual(elements.get('vocabStatLearning').textContent, '1');
+  assert.strictEqual(elements.get('vocabStatMastered').textContent, '1');
+
+  // 2) Returning Home from Review must restore full dictionary scope & clear cross-session historyStack
+  window.VocabModule.showStudyView('review');
+  assert.strictEqual(elements.get('vocabCurrentListCount').textContent, '1');
+  window.VocabModule.gradeWord('good'); // alpha moves to level 3, flips card
+  window.VocabModule.showHomeView();
+  assert.strictEqual(elements.get('vocabCurrentListCount').textContent, '9', 'Returning home must restore full list count');
+
+  // Switching to Learn and pressing undo must NOT undo alpha from the previous Review session
+  window.VocabModule.showStudyView('new');
+  window.VocabModule.undoLastGrade();
+  let prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  assert.strictEqual(prog.alpha.level, 3, 'Cross-session undo must be blocked after switching study modes');
+
+  // 3) markMastered() must support undoLastGrade(), and manual flip + handleMarkWrong() must also support undoLastGrade()
+  const currentWord = elements.get('vocabMomoWord').textContent;
+  window.VocabModule.markMastered();
+  prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  assert.strictEqual(prog[currentWord].status, 'mastered');
+  window.VocabModule.undoLastGrade();
+  prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  assert.notStrictEqual(prog[currentWord]?.status, 'mastered', 'markMastered must be undoable');
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, currentWord);
+
+  window.VocabModule.flipCard(true);
+  window.VocabModule.handleMarkWrong();
+  prog = JSON.parse(storageMap.get('KAOYAN_VOCAB_PROGRESS_V2'));
+  assert.strictEqual(prog[currentWord].level, 0);
+  window.VocabModule.undoLastGrade();
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, currentWord, 'Manual flip + handleMarkWrong must be undoable');
 });
