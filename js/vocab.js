@@ -1298,7 +1298,6 @@
 
       if (els.sourceSelect) {
         els.sourceSelect.onchange = handleSourceChange;
-        els.sourceSelect.oninput = handleSourceChange;
       }
 
       if (els.yearSelect) {
@@ -1989,11 +1988,13 @@
       if (!options.skipHomeUpdate) {
         this.updateHomeView();
       }
-      this._skipNextSavePosition = !!options.skipSavePosition;
-      try {
-        this.renderCurrentCard();
-      } finally {
-        this._skipNextSavePosition = false;
+      if (!options.skipRender) {
+        this._skipNextSavePosition = !!options.skipSavePosition;
+        try {
+          this.renderCurrentCard();
+        } finally {
+          this._skipNextSavePosition = false;
+        }
       }
     },
 
@@ -2181,6 +2182,9 @@
 
       if (appState.currentList.length === 0 || appState.currentIndex >= appState.currentList.length) {
         if (els.momoWord) els.momoWord.textContent = isRev ? '🎉 复习已全部完成！' : '🎉 新词已全部学完！';
+        if (els.momoCheckmark) els.momoCheckmark.style.display = 'none';
+        if (els.momoFreqBadge) els.momoFreqBadge.style.display = 'none';
+        if (els.momoPhoneticPill) els.momoPhoneticPill.style.display = 'none';
         if (els.momoSkeletons) els.momoSkeletons.style.display = 'none';
         if (els.momoDefinitions) {
           els.momoDefinitions.style.display = 'block';
@@ -2263,6 +2267,7 @@
         els.momoPhoneticText.textContent = ipa ? `${prefix} ${ipa}` : (isUS ? '🔊 美音' : '🔊 英音');
       }
       if (els.momoPhoneticPill) {
+        els.momoPhoneticPill.style.display = '';
         els.momoPhoneticPill.title = isUS ? '点击播放纯正美音 (快捷键 A)' : '点击播放纯正英音 (快捷键 A)';
       }
 
@@ -2675,6 +2680,7 @@
     },
 
     flipCard(showBack) {
+      if (appState.currentList.length === 0 || appState.currentIndex >= appState.currentList.length) return;
       if (appState.currentView !== 'study' && els.frame && els.frame.style.display === 'none') {
         this.showStudyView();
       }
@@ -2878,6 +2884,7 @@
       if (appState.currentView !== 'study' && els.frame && els.frame.style.display === 'none') {
         this.showStudyView();
       }
+      if (appState.currentIndex >= appState.currentList.length) return;
       appState.currentIndex++;
 
       // Plan B：在「新学(new)」中，若有 0 档重学词已到 5 分钟则优先插在下一张；
@@ -3186,7 +3193,7 @@
         if (els.textSelect) els.textSelect.value = 'all';
         if (els.searchInput) els.searchInput.value = '';
         this.targetResumeWord = null;
-        this.applyFiltersAndRender();
+        this.applyFiltersAndRender({ skipRender: true });
         if (appState.currentList.length === 0) {
           this.showToast('🎉 当前词书所有单词已全部学完！请点击「复习」进行巩固');
           this.showHomeView();
@@ -3206,7 +3213,7 @@
         if (els.textSelect) els.textSelect.value = 'all';
         if (els.searchInput) els.searchInput.value = '';
         this.targetResumeWord = null;
-        this.applyFiltersAndRender();
+        this.applyFiltersAndRender({ skipRender: true });
         if (appState.currentList.length === 0) {
           this.showToast('🎉 当前词书暂无到期急需复习单词，已按记忆曲线全部巩固！');
           this.showHomeView();
@@ -3507,6 +3514,7 @@
       if (startTodayBtn) {
         startTodayBtn.onclick = () => {
           this.closeForecastModal();
+          this.toggleSettingsSheet(false);
           this.showStudyView('review');
         };
       }

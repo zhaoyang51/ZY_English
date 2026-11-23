@@ -362,4 +362,17 @@ test('Vocab Audit 2 Fixes: Star icon reflects StorageModule.isBookmarked, bookma
   elements.get('vocabSourceSelect').value = 'all';
   elements.get('vocabSourceSelect').onchange();
   assert.strictEqual(elements.get('vocabHomeCountLearn').textContent, '2', 'Duplicate words across years must be deduplicated in stats');
+
+  // 4) Completion screen must hide previous word's phonetic pill, freq badge & checkmark
+  const env3 = setupForecastEnv();
+  env3.storageMap.set('KAOYAN_VOCAB_PROGRESS_V2', JSON.stringify({
+    alpha: { status: 'learning', level: 2, nextReviewTime: Date.now() - 1000, reviewCount: 1 }
+  }));
+  window.VocabModule.init('vocabSection');
+  window.VocabModule.showStudyView('review');
+  window.VocabModule.gradeWord('good');
+  window.VocabModule.goToNextCard(); // completes the 1-word review queue
+  assert.strictEqual(env3.elements.get('vocabMomoPhoneticPill').style.display, 'none', 'Completion screen must hide phonetic pill');
+  assert.strictEqual(env3.elements.get('vocabMomoFreqBadge').style.display, 'none', 'Completion screen must hide freq badge');
+  assert.strictEqual(env3.elements.get('vocabMomoCheckmark').style.display, 'none', 'Completion screen must hide checkmark');
 });
