@@ -375,4 +375,22 @@ test('Vocab Audit 2 Fixes: Star icon reflects StorageModule.isBookmarked, bookma
   assert.strictEqual(env3.elements.get('vocabMomoPhoneticPill').style.display, 'none', 'Completion screen must hide phonetic pill');
   assert.strictEqual(env3.elements.get('vocabMomoFreqBadge').style.display, 'none', 'Completion screen must hide freq badge');
   assert.strictEqual(env3.elements.get('vocabMomoCheckmark').style.display, 'none', 'Completion screen must hide checkmark');
+
+  // 5) Dark mode CSS must use body.theme-dark (zero body.dark-mode) & toast z-index > forecast modal (260)
+  const vocabCss = fs.readFileSync(path.join(__dirname, '../css/vocab.css'), 'utf8');
+  assert.strictEqual(vocabCss.includes('body.dark-mode'), false, 'vocab.css must use body.theme-dark instead of body.dark-mode');
+  assert.ok(vocabCss.includes('z-index: 320'), 'vocab toast z-index must exceed forecast modal z-index');
+
+  // 6) Home random word without phonetic must NOT show Pastoral phonetic
+  const env4 = setupForecastEnv();
+  window.VocabModule.init('vocabSection');
+  const homeWord = env4.elements.get('vocabHomeWord').textContent;
+  const homePhon = env4.elements.get('vocabHomePhoneticText').textContent;
+  if (homeWord.toLowerCase() !== 'pastoral') {
+    assert.notStrictEqual(homePhon, '/ˈpɑːstərəl/', 'Non-Pastoral words without phonetics must not display Pastoral IPA');
+  }
+
+  // 7) app.js must allow entering vocab mode from writing mode
+  const appJs = fs.readFileSync(path.join(__dirname, '../js/app.js'), 'utf8');
+  assert.ok(!appJs.includes("if (AppState.mode === 'vocab' || AppState.mode === 'writing') return;\r\n        if (AppState.mode !== 'vocab')"), 'vocabBtn must allow switching from writing mode');
 });

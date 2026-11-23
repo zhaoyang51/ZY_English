@@ -3934,7 +3934,7 @@
 
     if (vocabBtn) {
       vocabBtn.addEventListener('click', () => {
-        if (AppState.mode === 'vocab' || AppState.mode === 'writing') return;
+        if (AppState.mode === 'vocab') return;
         if (AppState.mode !== 'vocab') {
           AppState.lastReadingMode = AppState.mode;
         }

@@ -1383,8 +1383,16 @@
       // Reset Filter Progress
       if (els.btnResetFilter) {
         els.btnResetFilter.onclick = () => {
-          if (confirm('确认重置当前范围下所有单词的艾宾浩斯复习进度吗？')) {
-            appState.currentList.forEach(w => {
+          if (confirm('确认重置当前词库/范围下所有单词的艾宾浩斯复习进度吗？')) {
+            const { source, year, text } = appState.filters;
+            let scopeItems = this.getSourceItems(source) || [];
+            if (year !== 'all') {
+              scopeItems = scopeItems.filter(w => (w.year || w.category || w.freqTier) === year);
+            }
+            if (text !== 'all') {
+              scopeItems = scopeItems.filter(w => (w.text || w.subbook) === text);
+            }
+            scopeItems.forEach(w => {
               const key = w.word || w.root;
               if (key) delete appState.progress[key];
             });
@@ -1392,7 +1400,7 @@
             if (appState.sessionRetryMap) appState.sessionRetryMap.clear();
             this.saveProgress();
             this.applyFiltersAndRender();
-            this.showToast('已重置当前范围进度 🔄');
+            this.showToast('已重置当前词库进度 🔄');
           }
         };
       }
@@ -1865,6 +1873,17 @@
         list = list.filter(w => {
           const rec = appState.progress[w.word || w.root];
           return rec && rec.status === 'mastered';
+        });
+      }
+
+      // Deduplicate cross-year occurrences in 'all' during Learn/Review so queue count matches Home stats 1:1
+      if (source === 'all' && year === 'all' && text === 'all' && (state === 'new' || state === 'due')) {
+        const seenQueueWords = new Set();
+        list = list.filter(w => {
+          const k = String(w.word || w.root || '').trim();
+          if (!k || seenQueueWords.has(k)) return false;
+          seenQueueWords.add(k);
+          return true;
         });
       }
 
@@ -3561,7 +3580,9 @@
       const phon = this.getWordPhonetic(w);
       const phonStr = phon.us || phon.uk || (window.KAOYAN_VOCAB_DICT && window.KAOYAN_VOCAB_DICT[w.toLowerCase()]?.phonetic) || '';
       if (els.homePhoneticText) {
-        els.homePhoneticText.textContent = phonStr ? (phonStr.startsWith('/') ? phonStr : `/${phonStr}/`) : '/ˈpɑːstərəl/';
+        els.homePhoneticText.textContent = phonStr
+          ? (phonStr.startsWith('/') ? phonStr : `/${phonStr}/`)
+          : (w.toLowerCase() === 'pastoral' ? '/ˈpɑːstərəl/' : '点击发音');
       }
 
       this.currentHomeWord = w;
