@@ -15,10 +15,9 @@
   const LAST_POSITION_KEY = 'KAOYAN_VOCAB_LAST_POSITION_V2';
   const DAILY_LOG_KEY = 'KAOYAN_VOCAB_DAILY_LOG_V1';
 
-  // 艾宾浩斯 12 级复习周期 (Level 0 ~ Level 11, 毫秒)
-  // [5分钟, 12小时, 1天, 2天, 3天, 4天, 5天, 6天, 7天, 8天, 9天, 10天]
+  // 艾宾浩斯 11 级复习周期 (Level 0 ~ Level 10, 毫秒)
+  // [12小时, 1天, 2天, 3天, 4天, 5天, 6天, 7天, 8天, 9天, 10天]
   const EBB_INTERVALS = [
-    5 * 60 * 1000,
     12 * 60 * 60 * 1000,
     1 * 24 * 60 * 60 * 1000,
     2 * 24 * 60 * 60 * 1000,
@@ -525,6 +524,12 @@
               </div>
             </div>
           </div>
+
+          <button type="button" class="vocab-home-forecast-bar" id="vocabHomeForecastBar" title="查看未来8天每天待复习单词情况">
+            <span class="forecast-title">📅 未来8天待复习</span>
+            <span class="forecast-preview" id="vocabHomeForecastPreview">今日 0 · 明日 0 · 后日 0</span>
+            <span class="forecast-arrow">详情 ›</span>
+          </button>
         </div>
 
         <div class="vocab-momo-frame" id="vocabMomoFrame" style="display:none">
@@ -745,6 +750,7 @@
               <button class="vocab-action-pill-btn" id="vocabToggleAudioBtn">
                 <span>🔊</span> 自动发音: <span>关</span>
               </button>
+              <button type="button" class="vocab-action-pill-btn" id="vocabBtnReviewForecast" style="color:#0f766e">📅 未来8天复习计划</button>
               <button id="vocabBtnResetFilter" class="vocab-action-pill-btn" style="color:#ef4444">🔄 重置当前词库进度</button>
             </div>
             <div class="vocab-sync-bar" style="margin-top:12px;padding:10px 12px;background:rgba(16,185,129,0.06);border:1px solid rgba(16,185,129,0.22);border-radius:12px">
@@ -779,6 +785,17 @@
               <button class="momo-sheet-close-btn" id="vocabCitationsBtnClose">✕</button>
             </div>
             <div class="momo-citations-body" id="vocabCitationsBody"></div>
+          </div>
+        </div>
+
+        <!-- 8-Day Review Forecast Modal Sheet -->
+        <div class="vocab-momo-sheet-overlay" id="vocabForecastModal" style="display:none;z-index:260">
+          <div class="momo-citations-sheet vocab-forecast-sheet" id="vocabForecastSheet">
+            <div class="momo-sheet-header">
+              <div class="momo-sheet-title">📅 未来 8 天待复习单词计划</div>
+              <button type="button" class="momo-sheet-close-btn" id="vocabForecastBtnClose">✕</button>
+            </div>
+            <div class="vocab-forecast-body" id="vocabForecastBody"></div>
           </div>
         </div>
 
@@ -944,6 +961,7 @@
         unrevealedRow: document.getElementById('vocabMomoUnrevealedRow'),
         revealedRow: document.getElementById('vocabMomoRevealedRow'),
         btnToggleAudio: document.getElementById('vocabToggleAudioBtn'),
+        btnReviewForecast: document.getElementById('vocabBtnReviewForecast'),
         btnResetFilter: document.getElementById('vocabBtnResetFilter'),
         btnExportProgress: document.getElementById('vocabBtnExportProgress'),
         btnImportProgress: document.getElementById('vocabBtnImportProgress'),
@@ -951,6 +969,11 @@
         btnImportBook: document.getElementById('vocabBtnImportBook'),
         btnCloudAccount: document.getElementById('vocabBtnCloudAccount'),
         cloudSyncPill: document.getElementById('vocabCloudSyncPill'),
+        homeForecastBar: document.getElementById('vocabHomeForecastBar'),
+        homeForecastPreview: document.getElementById('vocabHomeForecastPreview'),
+        forecastModal: document.getElementById('vocabForecastModal'),
+        forecastBtnClose: document.getElementById('vocabForecastBtnClose'),
+        forecastBody: document.getElementById('vocabForecastBody'),
         currentListCount: document.getElementById('vocabCurrentListCount'),
 
         statTotal: document.getElementById('vocabStatTotal'),
@@ -1093,6 +1116,22 @@
       if (els.citationsModal) {
         els.citationsModal.onclick = (e) => {
           if (e.target === els.citationsModal) this.hideCitationsModal();
+        };
+      }
+
+      // 8-Day Review Forecast Events
+      if (els.homeForecastBar) {
+        els.homeForecastBar.onclick = () => this.openForecastModal(0, 'current');
+      }
+      if (els.btnReviewForecast) {
+        els.btnReviewForecast.onclick = () => this.openForecastModal(0, 'current');
+      }
+      if (els.forecastBtnClose) {
+        els.forecastBtnClose.onclick = () => this.closeForecastModal();
+      }
+      if (els.forecastModal) {
+        els.forecastModal.onclick = (e) => {
+          if (e.target === els.forecastModal) this.closeForecastModal();
         };
       }
 
@@ -2994,7 +3033,267 @@
 
       if (els.homeCountLearn) els.homeCountLearn.textContent = String(newCount);
       if (els.homeCountReview) els.homeCountReview.textContent = String(dueCount);
+      if (els.homeForecastPreview) {
+        const fc = this.getReviewForecast(3, 'current', now);
+        const d0 = fc.days[0] ? fc.days[0].count : 0;
+        const d1 = fc.days[1] ? fc.days[1].count : 0;
+        const d2 = fc.days[2] ? fc.days[2].count : 0;
+        els.homeForecastPreview.textContent = `今日 ${d0} · 明日 ${d1} · 后日 ${d2}`;
+      }
       this.updateTodayStatsUI();
+    },
+
+    getSourceItems(source) {
+      if (source === 'nanxiao_sushua') return window.NANXIAO_SUSHUA_VOCAB || [];
+      if (source === 'yuque_sucheng') return window.YUQUE_SUCHENG_VOCAB || [];
+      if (source === 'yuque_daxue') return window.YUQUE_DAXUE_VOCAB || [];
+      if (source === 'bookmarked') return window.StorageModule ? window.StorageModule.getVocabBook() : [];
+      if (source === 'all') return appState.rawVocabData || [];
+      return window.NANXIAO_SUSHUA_VOCAB || appState.rawVocabData || [];
+    },
+
+    formatIntervalLabel(level) {
+      const lv = Math.max(0, Math.min(EBB_INTERVALS.length - 1, Number(level) || 0));
+      const ms = EBB_INTERVALS[lv];
+      const hours = Math.round(ms / (60 * 60 * 1000));
+      if (hours < 24) return `${hours}小时`;
+      return `${Math.round(hours / 24)}天`;
+    },
+
+    getReviewForecast(days = 8, scope = 'current', nowOverride) {
+      const now = Number(nowOverride) || Date.now();
+      const nowDate = new Date(now);
+      const todayMidnight = new Date(nowDate.getFullYear(), nowDate.getMonth(), nowDate.getDate()).getTime();
+      const DAY_MS = 24 * 60 * 60 * 1000;
+      const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+
+      // Build day buckets [0 .. days-1]
+      const buckets = [];
+      for (let i = 0; i < days; i++) {
+        const startTs = todayMidnight + i * DAY_MS;
+        const endTs = startTs + DAY_MS;
+        const dObj = new Date(startTs);
+        const mm = dObj.getMonth() + 1;
+        const dd = dObj.getDate();
+        const wd = weekdays[dObj.getDay()];
+        let shortLabel = `${mm}/${dd}`;
+        if (i === 0) shortLabel = '今天';
+        else if (i === 1) shortLabel = '明天';
+        else if (i === 2) shortLabel = '后天';
+        buckets.push({
+          dayIndex: i,
+          shortLabel,
+          dateLabel: `${mm}月${dd}日`,
+          weekday: wd,
+          startTs,
+          endTs,
+          count: 0,
+          overdueCount: 0,
+          words: []
+        });
+      }
+
+      // Build word lookup map for meanings
+      const meaningByWord = new Map();
+      const sourceItems = this.getSourceItems(appState.filters.source);
+      sourceItems.forEach(item => {
+        const w = String(item.word || item.root || '').trim();
+        if (w && !meaningByWord.has(w)) {
+          meaningByWord.set(w, item.meaning || item.def || item.rootInfo || '');
+        }
+      });
+
+      const candidates = scope === 'all'
+        ? Object.keys(appState.progress || {}).map(w => ({ word: w }))
+        : sourceItems;
+
+      const seenWords = new Set();
+      let totalLearning = 0;
+      let overdueNow = 0;
+      let beyondWindowCount = 0;
+      const windowEnd = todayMidnight + days * DAY_MS;
+
+      candidates.forEach(item => {
+        const w = String(item.word || item.root || '').trim();
+        if (!w || seenWords.has(w)) return;
+        seenWords.add(w);
+
+        const rec = appState.progress ? appState.progress[w] : null;
+        if (!rec || rec.status === 'new' || rec.status === 'mastered') return;
+
+        totalLearning++;
+        const dueTs = Number(rec.nextReviewTime || 0);
+        const isOverdue = !dueTs || dueTs <= now;
+        if (isOverdue) overdueNow++;
+
+        let bucketIdx = -1;
+        if (dueTs < buckets[0].endTs) {
+          bucketIdx = 0;
+        } else if (dueTs < windowEnd) {
+          bucketIdx = Math.floor((dueTs - todayMidnight) / DAY_MS);
+        } else {
+          beyondWindowCount++;
+          return;
+        }
+
+        if (bucketIdx >= 0 && bucketIdx < buckets.length) {
+          let meaning = meaningByWord.get(w) || '';
+          if (!meaning && typeof this.lookupWordDetails === 'function') {
+            const detail = this.lookupWordDetails(w);
+            if (detail && detail.def) meaning = detail.def;
+          }
+          const entry = {
+            word: w,
+            meaning,
+            level: Number(rec.level) || 0,
+            intervalLabel: this.formatIntervalLabel(rec.level),
+            nextReviewTime: dueTs,
+            isOverdue
+          };
+          buckets[bucketIdx].words.push(entry);
+          buckets[bucketIdx].count++;
+          if (isOverdue) buckets[bucketIdx].overdueCount++;
+        }
+      });
+
+      // Sort words within each day: overdue first, then ascending nextReviewTime
+      buckets.forEach(b => {
+        b.words.sort((a, bWord) => (a.nextReviewTime || 0) - (bWord.nextReviewTime || 0));
+      });
+
+      return {
+        scope,
+        source: appState.filters.source,
+        daysCount: days,
+        totalLearning,
+        overdueNow,
+        beyondWindowCount,
+        days: buckets
+      };
+    },
+
+    openForecastModal(selectedDay = 0, scope = 'current') {
+      this._forecastState = {
+        selectedDay: Number(selectedDay) || 0,
+        scope: scope === 'all' ? 'all' : 'current'
+      };
+      this.renderForecastModal();
+      if (els.forecastModal) {
+        els.forecastModal.style.display = 'flex';
+        els.forecastModal.classList.add('is-open');
+      }
+    },
+
+    closeForecastModal() {
+      if (els.forecastModal) {
+        els.forecastModal.classList.remove('is-open');
+        els.forecastModal.style.display = 'none';
+      }
+    },
+
+    renderForecastModal() {
+      if (!els.forecastBody) return;
+      const st = this._forecastState || { selectedDay: 0, scope: 'current' };
+      const forecast = this.getReviewForecast(8, st.scope);
+      const maxCount = Math.max(1, ...forecast.days.map(d => d.count));
+      const total8Days = forecast.days.reduce((sum, d) => sum + d.count, 0);
+      const selectedDay = Math.max(0, Math.min(forecast.days.length - 1, st.selectedDay));
+      const curDay = forecast.days[selectedDay];
+
+      const formatDueTime = (ts, isOverdue) => {
+        if (!ts || isOverdue) return '已到期';
+        const d = new Date(ts);
+        const hh = String(d.getHours()).padStart(2, '0');
+        const mm = String(d.getMinutes()).padStart(2, '0');
+        return `${hh}:${mm}`;
+      };
+
+      const barsHtml = forecast.days.map(d => {
+        const pct = d.count === 0 ? 4 : Math.max(12, Math.round((d.count / maxCount) * 100));
+        const isSelected = d.dayIndex === selectedDay;
+        return `
+          <button type="button" class="vocab-fc-day-col ${isSelected ? 'is-selected' : ''} ${d.count === 0 ? 'is-empty' : ''}" data-day-idx="${d.dayIndex}" title="${d.dateLabel} ${d.weekday}：${d.count} 词">
+            <span class="fc-col-count">${d.count}</span>
+            <span class="fc-col-track">
+              <span class="fc-col-bar ${d.dayIndex === 0 && d.overdueCount > 0 ? 'has-overdue' : ''}" style="height:${pct}%"></span>
+            </span>
+            <span class="fc-col-label">${d.shortLabel}</span>
+            <span class="fc-col-wd">${d.dayIndex <= 2 ? d.dateLabel : d.weekday}</span>
+          </button>
+        `;
+      }).join('');
+
+      let listHtml = '';
+      if (!curDay || curDay.words.length === 0) {
+        listHtml = `<div class="vocab-fc-empty">✨ ${curDay ? `${curDay.shortLabel}（${curDay.dateLabel}）` : '当日'} 暂无待复习单词</div>`;
+      } else {
+        listHtml = curDay.words.map(item => `
+          <div class="vocab-fc-word-row">
+            <div class="fc-word-main">
+              <div class="fc-word-top">
+                <span class="fc-word-text">${this.escapeHtml(item.word)}</span>
+                <span class="fc-word-lv" title="当前记忆级别与复习间隔">Lv.${item.level} · ${item.intervalLabel}</span>
+                <button type="button" class="fc-word-audio" data-speak-word="${this.escapeHtml(item.word)}" title="朗读发音">🔊</button>
+              </div>
+              <div class="fc-word-def">${this.escapeHtml(item.meaning || '暂无简明释义')}</div>
+            </div>
+            <div class="fc-word-time ${item.isOverdue ? 'is-due' : ''}">${formatDueTime(item.nextReviewTime, item.isOverdue)}</div>
+          </div>
+        `).join('');
+      }
+
+      const startReviewBtnHtml = (selectedDay === 0 && forecast.overdueNow > 0 && st.scope === 'current')
+        ? `<button type="button" class="btn" id="vocabFcStartTodayReview" style="background:#047857;color:#fff;font-size:12px;padding:5px 12px;border-radius:999px;font-weight:700;border:none;cursor:pointer">🎯 立即复习到期 ${forecast.overdueNow} 词</button>`
+        : '';
+
+      els.forecastBody.innerHTML = `
+        <div class="vocab-fc-top-summary">
+          <div class="vocab-fc-scope-tabs">
+            <button type="button" class="fc-scope-btn ${st.scope === 'current' ? 'active' : ''}" data-fc-scope="current">当前词书</button>
+            <button type="button" class="fc-scope-btn ${st.scope === 'all' ? 'active' : ''}" data-fc-scope="all">全部记录</button>
+          </div>
+          <div class="vocab-fc-summary-text">未来8天共 <strong>${total8Days}</strong> 词${forecast.beyondWindowCount > 0 ? ` · 另有 ${forecast.beyondWindowCount} 词在8天后` : ''}</div>
+        </div>
+
+        <div class="vocab-fc-chart-grid">${barsHtml}</div>
+
+        <div class="vocab-fc-day-header">
+          <div class="fc-day-heading">
+            <strong>${curDay.shortLabel}（${curDay.dateLabel} ${curDay.weekday}）</strong>
+            <span>待复习 ${curDay.count} 词${curDay.dayIndex === 0 && curDay.overdueCount > 0 ? `（含当前已到期 ${curDay.overdueCount} 词）` : ''}</span>
+          </div>
+          ${startReviewBtnHtml}
+        </div>
+
+        <div class="vocab-fc-word-list">${listHtml}</div>
+      `;
+
+      els.forecastBody.querySelectorAll('.vocab-fc-day-col').forEach(btn => {
+        btn.onclick = () => {
+          this._forecastState.selectedDay = Number(btn.getAttribute('data-day-idx')) || 0;
+          this.renderForecastModal();
+        };
+      });
+      els.forecastBody.querySelectorAll('.fc-scope-btn').forEach(btn => {
+        btn.onclick = () => {
+          this._forecastState.scope = btn.getAttribute('data-fc-scope') === 'all' ? 'all' : 'current';
+          this.renderForecastModal();
+        };
+      });
+      els.forecastBody.querySelectorAll('.fc-word-audio').forEach(btn => {
+        btn.onclick = (e) => {
+          e.stopPropagation();
+          const w = btn.getAttribute('data-speak-word');
+          if (w) this.playWordAudio(w);
+        };
+      });
+      const startTodayBtn = els.forecastBody.querySelector('#vocabFcStartTodayReview');
+      if (startTodayBtn) {
+        startTodayBtn.onclick = () => {
+          this.closeForecastModal();
+          this.showStudyView('review');
+        };
+      }
     },
 
     pickRandomHomeWord() {

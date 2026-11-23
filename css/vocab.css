@@ -2087,3 +2087,334 @@ body.theme-dark .vocab-stat-chip {
 .vocab-progress-container {
   display: none;
 }
+
+/* ==========================================================================
+   Home Forecast Bar & 8-Day Review Forecast Modal
+   ========================================================================== */
+.vocab-home-forecast-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 9px 14px;
+  margin-top: -4px;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.68);
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  color: #1e3323;
+  font-size: 12.5px;
+  transition: all 0.2s ease;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+.vocab-home-forecast-bar:hover {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: rgba(16, 185, 129, 0.45);
+}
+
+.vocab-home-forecast-bar .forecast-title {
+  font-weight: 700;
+  color: #1e3323;
+  white-space: nowrap;
+}
+
+.vocab-home-forecast-bar .forecast-preview {
+  flex: 1;
+  text-align: center;
+  color: #3b5a41;
+  font-weight: 600;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.vocab-home-forecast-bar .forecast-arrow {
+  font-weight: 700;
+  color: #047857;
+  white-space: nowrap;
+}
+
+body.theme-dark .vocab-home-forecast-bar {
+  background: rgba(24, 34, 28, 0.62);
+  border-color: rgba(255, 255, 255, 0.14);
+  color: #edf3ee;
+}
+
+body.theme-dark .vocab-home-forecast-bar .forecast-title {
+  color: #edf3ee;
+}
+
+body.theme-dark .vocab-home-forecast-bar .forecast-preview {
+  color: #a7c5b0;
+}
+
+.vocab-forecast-sheet {
+  max-height: 86vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.vocab-forecast-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+.vocab-fc-top-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.vocab-fc-scope-tabs {
+  display: inline-flex;
+  gap: 4px;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 3px;
+  border-radius: 999px;
+}
+
+body.theme-dark .vocab-fc-scope-tabs {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.fc-scope-btn {
+  border: none;
+  background: transparent;
+  padding: 4px 11px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--momo-text-muted, #556e5a);
+}
+
+.fc-scope-btn.active {
+  background: #047857;
+  color: #fff;
+}
+
+.vocab-fc-summary-text {
+  font-size: 12.5px;
+  color: var(--momo-text-muted, #556e5a);
+}
+
+.vocab-fc-chart-grid {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 5px;
+  padding: 12px 8px 10px 8px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+body.theme-dark .vocab-fc-chart-grid {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.vocab-fc-day-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 2px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+  transition: all 0.15s ease;
+}
+
+.vocab-fc-day-col:hover {
+  background: rgba(16, 185, 129, 0.08);
+}
+
+.vocab-fc-day-col.is-selected {
+  background: rgba(16, 185, 129, 0.14);
+  border-color: rgba(4, 120, 87, 0.45);
+}
+
+.vocab-fc-day-col .fc-col-count {
+  font-size: 12px;
+  font-weight: 800;
+  color: #047857;
+}
+
+body.theme-dark .vocab-fc-day-col .fc-col-count {
+  color: #4ade80;
+}
+
+.vocab-fc-day-col.is-empty .fc-col-count {
+  color: var(--momo-text-muted, #94a3b8);
+  font-weight: 600;
+}
+
+.vocab-fc-day-col .fc-col-track {
+  width: 14px;
+  height: 64px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+body.theme-dark .vocab-fc-day-col .fc-col-track {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.vocab-fc-day-col .fc-col-bar {
+  width: 100%;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #10b981, #047857);
+  transition: height 0.25s ease;
+}
+
+.vocab-fc-day-col .fc-col-bar.has-overdue {
+  background: linear-gradient(180deg, #f59e0b, #d97706);
+}
+
+.vocab-fc-day-col.is-empty .fc-col-bar {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.vocab-fc-day-col .fc-col-label {
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.vocab-fc-day-col .fc-col-wd {
+  font-size: 10px;
+  color: var(--momo-text-muted, #64748b);
+  white-space: nowrap;
+}
+
+.vocab-fc-day-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 2px 2px;
+}
+
+.vocab-fc-day-header .fc-day-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 13px;
+}
+
+.vocab-fc-day-header .fc-day-heading span {
+  font-size: 12px;
+  color: var(--momo-text-muted, #64748b);
+}
+
+.vocab-fc-word-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 240px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+.vocab-fc-word-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+body.theme-dark .vocab-fc-word-row {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.vocab-fc-word-row .fc-word-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.vocab-fc-word-row .fc-word-top {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.vocab-fc-word-row .fc-word-text {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.vocab-fc-word-row .fc-word-lv {
+  font-size: 10.5px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(4, 120, 87, 0.1);
+  color: #047857;
+}
+
+body.theme-dark .vocab-fc-word-row .fc-word-lv {
+  background: rgba(74, 222, 128, 0.14);
+  color: #4ade80;
+}
+
+.vocab-fc-word-row .fc-word-audio {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 0 3px;
+  line-height: 1;
+}
+
+.vocab-fc-word-row .fc-word-def {
+  font-size: 12.5px;
+  color: var(--momo-text-muted, #475569);
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.vocab-fc-word-row .fc-word-time {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--momo-text-muted, #64748b);
+  white-space: nowrap;
+}
+
+.vocab-fc-word-row .fc-word-time.is-due {
+  color: #d97706;
+  font-weight: 700;
+}
+
+.vocab-fc-empty {
+  text-align: center;
+  padding: 26px 12px;
+  font-size: 13px;
+  color: var(--momo-text-muted, #64748b);
+}
