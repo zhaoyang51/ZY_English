@@ -31,7 +31,8 @@
     activePartBQid: 41,
     marks: [], // [{ id, side: 'left'|'right', start, end, style, color }]
     pendingRange: null,
-    editingMarkId: null
+    editingMarkId: null,
+    lastDragMarkTime: 0
   };
 
   function paperKey(year, textId) {
@@ -517,6 +518,13 @@
     bar.querySelectorAll('[data-en1-color]').forEach(btn => {
       btn.classList.toggle('active', btn.getAttribute('data-en1-color') === state.color);
     });
+    const fs = window.ReaderModule?.settings?.fontSize || 17.5;
+    const lh = window.ReaderModule?.settings?.lineHeight || 1.85;
+    const badge = bar.querySelector('#readerFontBadge');
+    if (badge) badge.textContent = `${fs}px`;
+    bar.querySelectorAll('[data-en1-lh]').forEach(btn => {
+      btn.classList.toggle('active', Number(btn.getAttribute('data-en1-lh')) === lh);
+    });
     updateClearButtonBadge();
   }
 
@@ -533,6 +541,18 @@
     return total;
   }
 
+  function mountLeftSheet(examPaper, sheetHtml) {
+    let tbMount = document.getElementById('en1AnnotatorToolbarMount');
+    let sheetMount = document.getElementById('en1LeftSheetMount');
+    if (!tbMount || !sheetMount || typeof examPaper.contains !== 'function' || !examPaper.contains(tbMount) || !examPaper.contains(sheetMount)) {
+      examPaper.innerHTML = `<div id="en1AnnotatorToolbarMount">${buildToolbarHtml()}</div><div id="en1LeftSheetMount">${sheetHtml}</div>`;
+      bindToolbarEvents();
+    } else {
+      sheetMount.innerHTML = sheetHtml;
+      syncToolbarState();
+    }
+  }
+
   function renderReadingLeft(textObj, year) {
     const examPaper = document.getElementById('examPaper');
     if (!examPaper) return;
@@ -544,8 +564,7 @@
       <p class="en1-para" data-pid="${p.pid}">${formatRichParagraph(p.text)}</p>
     `).join('');
 
-    examPaper.innerHTML = `
-      ${buildToolbarHtml()}
+    mountLeftSheet(examPaper, `
       <div class="en1-sheet" style="font-size:${fs}px;line-height:${lh}">
         <div class="en1-paper-header">
           <div class="en1-paper-kicker">${year} 年全国硕士研究生招生考试 · 英语（一）</div>
@@ -563,7 +582,7 @@
           <span>约 ${wordCount} 词 · 支持划词荧光笔 / 波浪线标记</span>
         </div>
       </div>
-    `;
+    `);
   }
 
   function renderReadingRight(textObj, year, mode) {
@@ -671,7 +690,13 @@
   function bindReadingRightEvents(textObj, year) {
     const body = document.getElementById('en1QuestionsBody');
     if (body) {
+      let dragStart = null;
+      body.addEventListener('mousedown', e => {
+        dragStart = { x: e.clientX, y: e.clientY };
+      });
       body.addEventListener('click', e => {
+        if (Date.now() - state.lastDragMarkTime < 300) return;
+        if (dragStart && Math.hypot(e.clientX - dragStart.x, e.clientY - dragStart.y) > 5) return;
         const sel = window.getSelection();
         if (sel && !sel.isCollapsed && sel.toString().trim().length > 0) return;
         if (e.target.closest('mark.en1-mark')) return;
@@ -779,8 +804,10 @@
       return `<p class="en1-para" data-pid="${p.pid}">${escapeHtml(p.text)}</p>`;
     }).join('');
 
-    examPaper.innerHTML = `
-      ${buildToolbarHtml()}
+    const leftScroll = document.getElementById('leftScroll');
+    const prevLeftScroll = leftScroll ? leftScroll.scrollTop : 0;
+
+    mountLeftSheet(examPaper, `
       <div class="en1-sheet" style="font-size:${fs}px;line-height:${lh}">
         <div class="en1-paper-header">
           <div class="en1-paper-kicker">${year} 年全国硕士研究生招生考试 · 英语（一）</div>
@@ -798,7 +825,9 @@
           <span>约 ${wordCount} 词 · 点击题号横线可联动右侧选框</span>
         </div>
       </div>
-    `;
+    `);
+
+    if (leftScroll && prevLeftScroll) leftScroll.scrollTop = prevLeftScroll;
 
     examPaper.querySelectorAll('[data-partb-slot]').forEach(el => {
       el.addEventListener('click', () => {
@@ -815,6 +844,8 @@
   function renderPartBRight(pb, year, mode) {
     const container = document.getElementById('workspaceContent');
     if (!container) return;
+    const rightScroll = document.getElementById('rightScroll');
+    const prevRightScroll = rightScroll ? rightScroll.scrollTop : 0;
 
     const userAns = loadUserAnswers(year, 'part_b');
     const submitted = isSubmitted(year, 'part_b');
@@ -930,13 +961,20 @@
       </div>
     `;
 
+    if (rightScroll && prevRightScroll) rightScroll.scrollTop = prevRightScroll;
     bindPartBRightEvents(pb, year);
   }
 
   function bindPartBRightEvents(pb, year) {
     const body = document.getElementById('en1QuestionsBody');
     if (body) {
+      let dragStart = null;
+      body.addEventListener('mousedown', e => {
+        dragStart = { x: e.clientX, y: e.clientY };
+      });
       body.addEventListener('click', e => {
+        if (Date.now() - state.lastDragMarkTime < 300) return;
+        if (dragStart && Math.hypot(e.clientX - dragStart.x, e.clientY - dragStart.y) > 5) return;
         const sel = window.getSelection();
         if (sel && !sel.isCollapsed && sel.toString().trim().length > 0) return;
         if (e.target.closest('mark.en1-mark')) return;
@@ -1124,18 +1162,21 @@
         if (!inLeft && !inRight) return;
 
         if (state.tool === 'eraser') {
+          state.lastDragMarkTime = Date.now();
           removeMarksInRange(range);
           sel.removeAllRanges();
           hidePopover();
           return;
         }
         if (['highlight', 'wavy', 'underline', 'strike'].includes(state.tool)) {
+          state.lastDragMarkTime = Date.now();
           addMarkFromRange(range, state.tool, state.color);
           sel.removeAllRanges();
           hidePopover();
           return;
         }
         // Default: show floating selection popover
+        state.lastDragMarkTime = Date.now();
         showSelectionPopover(range, txt);
       }, 10);
     });

@@ -118,6 +118,7 @@ test('En1PaperRenderer renders authentic split paper UI for Reading and Part B',
         contains(c) { return this._set.has(c); }
       },
       addEventListener() {},
+      contains() { return false; },
       querySelectorAll() { return []; },
       querySelector() { return null; },
       normalize() {},
