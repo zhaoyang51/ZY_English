@@ -394,3 +394,44 @@ test('Vocab Audit 2 Fixes: Star icon reflects StorageModule.isBookmarked, bookma
   const appJs = fs.readFileSync(path.join(__dirname, '../js/app.js'), 'utf8');
   assert.ok(!appJs.includes("if (AppState.mode === 'vocab' || AppState.mode === 'writing') return;\r\n        if (AppState.mode !== 'vocab')"), 'vocabBtn must allow switching from writing mode');
 });
+
+test('Frequency Sort: Strictly orders Learn (even with overdue Level 0 words) and Review by descending frequency and persists across sync', () => {
+  const { storageMap, elements } = setupForecastEnv();
+  const past = Date.now() - 600000;
+  // Seed low-freq overdue Level 0 word 'india' (freq=2) and mid-freq 'echo' (freq=6),
+  // plus high-freq untouched 'alpha' (freq=10), 'bravo' (freq=9), and due Review words at different freqs
+  storageMap.set('KAOYAN_VOCAB_PROGRESS_V2', JSON.stringify({
+    india: { status: 'new', level: 0, nextReviewTime: past, reviewCount: 1 },
+    echo: { status: 'new', level: 0, nextReviewTime: past - 5000, reviewCount: 1 },
+    golf: { status: 'learning', level: 2, nextReviewTime: past, reviewCount: 2 },   // freq 4
+    charlie: { status: 'learning', level: 2, nextReviewTime: past, reviewCount: 2 } // freq 8
+  }));
+
+  window.VocabModule.init('vocabSection');
+  elements.get('vocabSortSelect').value = 'frequency';
+  elements.get('vocabSortSelect').onchange();
+
+  // Verify persisted in SETTINGS_KEY
+  const savedSettings = JSON.parse(storageMap.get('KAOYAN_VOCAB_USER_SETTINGS_V1'));
+  assert.strictEqual(savedSettings.sort, 'frequency', 'sort preference must be saved in SETTINGS_KEY');
+
+  // 1) In Learn: alpha (freq 10) must come BEFORE overdue low-freq india (freq 2) and echo (freq 6)
+  window.VocabModule.showStudyView('new');
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, 'alpha', 'Highest-freq untouched alpha(10) must come first under frequency sort');
+  window.VocabModule.goToNextCard();
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, 'bravo', 'Second word must be bravo(9)');
+
+  // 2) In Review: charlie (freq 8) must come BEFORE golf (freq 4)
+  window.VocabModule.showStudyView('review');
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, 'charlie', 'Higher-freq review word charlie(8) must come before golf(4)');
+  window.VocabModule.goToNextCard();
+  assert.strictEqual(elements.get('vocabMomoWord').textContent, 'golf');
+
+  // 3) Background cloud sync merge with stale lastPosition.sort='default' must NOT overwrite active frequency sort
+  window.VocabModule.importStudyProgress({
+    type: 'kaoyan_vocab_progress',
+    progress: {},
+    lastPosition: { source: 'nanxiao_sushua', sort: 'default' }
+  }, { mode: 'merge' });
+  assert.strictEqual(elements.get('vocabSortSelect').value, 'frequency', 'Cloud sync merge must not clobber active frequency sort');
+});

@@ -166,6 +166,7 @@
     },
 
     loadSettings() {
+      let hasSavedSort = false;
       try {
         const saved = localStorage.getItem(SETTINGS_KEY);
         if (saved) {
@@ -180,6 +181,10 @@
           if (cfg.revealedButtonOrder === 'wrong_continue' || cfg.revealedButtonOrder === 'continue_wrong') {
             appState.revealedButtonOrder = cfg.revealedButtonOrder;
           }
+          if (cfg.sort === 'default' || cfg.sort === 'frequency' || cfg.sort === 'urgency' || cfg.sort === 'random') {
+            appState.filters.sort = cfg.sort;
+            hasSavedSort = true;
+          }
         }
       } catch (e) {}
 
@@ -192,7 +197,7 @@
             if (this.lastPosition.year) appState.filters.year = this.lastPosition.year;
             if (this.lastPosition.text) appState.filters.text = this.lastPosition.text;
             if (this.lastPosition.state) appState.filters.state = this.lastPosition.state;
-            if (this.lastPosition.sort) appState.filters.sort = this.lastPosition.sort;
+            if (!hasSavedSort && this.lastPosition.sort) appState.filters.sort = this.lastPosition.sort;
           }
         }
       } catch (e) {}
@@ -210,7 +215,8 @@
           autoAudio: appState.autoAudio,
           audioAccent: appState.audioAccent || 'us',
           unrevealedButtonOrder: appState.unrevealedButtonOrder,
-          revealedButtonOrder: appState.revealedButtonOrder
+          revealedButtonOrder: appState.revealedButtonOrder,
+          sort: appState.filters.sort || 'default'
         };
         localStorage.setItem(SETTINGS_KEY, JSON.stringify(cfg));
         this.emitDataChanged('settings');
@@ -309,12 +315,28 @@
       }
       const wLow = String(word || '').toLowerCase().trim();
       if (window.NANXIAO_SUSHUA_VOCAB) {
-        const found = window.NANXIAO_SUSHUA_VOCAB.find(x => x.word && x.word.toLowerCase() === wLow);
-        if (found && found.freq) return { text: `考频 ${found.freq}次`, num: Number(found.freq) };
+        if (!this._nanxiaoFreqMap || this._nanxiaoFreqLen !== window.NANXIAO_SUSHUA_VOCAB.length) {
+          const m = new Map();
+          window.NANXIAO_SUSHUA_VOCAB.forEach(x => {
+            if (x && x.word && x.freq) m.set(String(x.word).toLowerCase().trim(), Number(x.freq));
+          });
+          this._nanxiaoFreqMap = m;
+          this._nanxiaoFreqLen = window.NANXIAO_SUSHUA_VOCAB.length;
+        }
+        const nf = this._nanxiaoFreqMap.get(wLow);
+        if (nf) return { text: `考频 ${nf}次`, num: nf };
       }
       if (window.YUQUE_SUCHENG_VOCAB) {
-        const found = window.YUQUE_SUCHENG_VOCAB.find(x => x.word && x.word.toLowerCase() === wLow);
-        if (found && found.freq) return { text: `考频 ${found.freq}次`, num: Number(found.freq) };
+        if (!this._suchengFreqMap || this._suchengFreqLen !== window.YUQUE_SUCHENG_VOCAB.length) {
+          const m = new Map();
+          window.YUQUE_SUCHENG_VOCAB.forEach(x => {
+            if (x && x.word && x.freq) m.set(String(x.word).toLowerCase().trim(), Number(x.freq));
+          });
+          this._suchengFreqMap = m;
+          this._suchengFreqLen = window.YUQUE_SUCHENG_VOCAB.length;
+        }
+        const sf = this._suchengFreqMap.get(wLow);
+        if (sf) return { text: `考频 ${sf}次`, num: sf };
       }
       if (window.KAOYAN_VOCAB_RELATIONS && window.KAOYAN_VOCAB_RELATIONS[wLow]) {
         const rel = window.KAOYAN_VOCAB_RELATIONS[wLow];
@@ -1339,9 +1361,11 @@
       if (els.sortSelect) {
         els.sortSelect.onchange = () => {
           appState.filters.sort = els.sortSelect.value;
+          this.saveSettings();
           this.targetResumeWord = null;
           appState.currentIndex = 0;
           if (this.lastPosition) {
+            this.lastPosition.sort = appState.filters.sort;
             this.lastPosition.lastWord = null;
             this.lastPosition.lastIndex = 0;
             if (this.lastPosition.sourcePositions && this.lastPosition.sourcePositions[appState.filters.source]) {
@@ -1925,36 +1949,53 @@
         }
       }
 
-      // Plan B：在「新学(new)」模式下，优先安排已过 5 分钟/12 小时冷却的 0 档词回炉，
-      // 其次按用户所选排序展示纯新词，仍在冷却中的 0 档词排在最后以免刚点忘记就连续弹出
+      // Plan B：在「新学(new)」模式下，处理 0 档回炉词与冷却词顺序：
+      // - 若用户选了「考频降序(frequency)」，可立即学习的词（已到期回炉词 + 纯新词）严格保持考频降序，
+      //   仅将仍在冷却中的词放到末尾（且同样按考频降序），避免低频旧词顶到高频词前面
+      // - 其他策略（默认/紧迫/随机）下，已满 5 分钟/12 小时到期的 0 档词优先回炉，冷却词排最后
       if (state === 'new' && list.length > 1) {
-        const dueRetry = [];
-        const untouched = [];
-        const cooldown = [];
-        list.forEach(item => {
-          const rec = appState.progress[item.word || item.root];
-          if (!rec) {
-            untouched.push(item);
-          } else {
-            const dueTs = Number(rec.nextReviewTime || 0);
-            if (!dueTs || dueTs <= now) {
-              dueRetry.push(item);
-            } else {
+        if (sort === 'frequency') {
+          const ready = [];
+          const cooldown = [];
+          list.forEach(item => {
+            const rec = appState.progress[item.word || item.root];
+            const dueTs = rec ? Number(rec.nextReviewTime || 0) : 0;
+            if (rec && dueTs > now) {
               cooldown.push(item);
+            } else {
+              ready.push(item);
             }
-          }
-        });
-        dueRetry.sort((a, b) => {
-          const rA = appState.progress[a.word || a.root];
-          const rB = appState.progress[b.word || b.root];
-          return (Number(rA && rA.nextReviewTime) || 0) - (Number(rB && rB.nextReviewTime) || 0);
-        });
-        cooldown.sort((a, b) => {
-          const rA = appState.progress[a.word || a.root];
-          const rB = appState.progress[b.word || b.root];
-          return (Number(rA && rA.nextReviewTime) || 0) - (Number(rB && rB.nextReviewTime) || 0);
-        });
-        list = [...dueRetry, ...untouched, ...cooldown];
+          });
+          list = [...ready, ...cooldown];
+        } else {
+          const dueRetry = [];
+          const untouched = [];
+          const cooldown = [];
+          list.forEach(item => {
+            const rec = appState.progress[item.word || item.root];
+            if (!rec) {
+              untouched.push(item);
+            } else {
+              const dueTs = Number(rec.nextReviewTime || 0);
+              if (!dueTs || dueTs <= now) {
+                dueRetry.push(item);
+              } else {
+                cooldown.push(item);
+              }
+            }
+          });
+          dueRetry.sort((a, b) => {
+            const rA = appState.progress[a.word || a.root];
+            const rB = appState.progress[b.word || b.root];
+            return (Number(rA && rA.nextReviewTime) || 0) - (Number(rB && rB.nextReviewTime) || 0);
+          });
+          cooldown.sort((a, b) => {
+            const rA = appState.progress[a.word || a.root];
+            const rB = appState.progress[b.word || b.root];
+            return (Number(rA && rA.nextReviewTime) || 0) - (Number(rB && rB.nextReviewTime) || 0);
+          });
+          list = [...dueRetry, ...untouched, ...cooldown];
+        }
       }
 
       // Resolve resume position
@@ -4021,6 +4062,7 @@
           const activeFilterSource = appState.filters.source;
           const activeFilterYear = appState.filters.year;
           const activeFilterText = appState.filters.text;
+          const activeFilterSort = appState.filters.sort;
           const activeWord = (wasInStudy && appState.currentList && appState.currentList[appState.currentIndex])
             ? (appState.currentList[appState.currentIndex].word || appState.currentList[appState.currentIndex].root)
             : null;
@@ -4034,6 +4076,7 @@
             appState.filters.source = activeFilterSource;
             appState.filters.year = activeFilterYear;
             appState.filters.text = activeFilterText;
+            appState.filters.sort = activeFilterSort;
 
             if (appState.isFlipped && activeWord) {
               // Do not flip back or rip away a revealed flashcard while the user is reading it
