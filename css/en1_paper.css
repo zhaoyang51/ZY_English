@@ -263,15 +263,6 @@ body.theme-dark .en1-color-dot.active {
 }
 
 /* Inline Sentence-by-Sentence Chinese Translation */
-.en1-sent {
-  border-radius: 3px;
-  transition: background 0.14s ease;
-}
-
-.en1-sent:hover {
-  background: rgba(15, 118, 110, 0.06);
-}
-
 .en1-sent-trans {
   display: none;
   text-indent: 0;
@@ -297,18 +288,8 @@ body.theme-dark .en1-color-dot.active {
 }
 
 .en1-sheet.en1-show-trans .en1-sent-trans,
-.en1-sent-unit.trans-open .en1-sent-trans,
 .en1-sheet.en1-show-trans .en1-opt-trans {
   display: block;
-}
-
-.en1-sent-unit.trans-open .en1-sent {
-  background: rgba(15, 118, 110, 0.08);
-}
-
-body.theme-dark .en1-sent:hover,
-body.theme-dark .en1-sent-unit.trans-open .en1-sent {
-  background: rgba(45, 212, 191, 0.11);
 }
 
 body.theme-dark .en1-sent-trans {

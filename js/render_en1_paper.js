@@ -1008,7 +1008,7 @@
           </button>
         </div>
         <div class="en1-toolbar-group" style="margin-left:auto">
-          <button type="button" class="en1-tool-btn ${state.showTrans ? 'active' : ''}" id="en1ToggleTransBtn" title="显示或隐藏文章逐句中文对照（也可轻点单个英文句子查看单句译文）">
+          <button type="button" class="en1-tool-btn ${state.showTrans ? 'active' : ''}" id="en1ToggleTransBtn" title="显示或隐藏文章逐句中文对照">
             🌐 句子对照
           </button>
           <button type="button" class="en1-tool-btn" id="en1FontDec" title="缩小字号">A-</button>
@@ -1062,7 +1062,7 @@
     return pSents.map(s => {
       const sid = escapeHtml(s.sid || '');
       const cn = s.translation ? escapeHtml(s.translation) : '';
-      return `<span class="en1-sent-unit" data-sid="${sid}"><span class="en1-sent" data-sid="${sid}" title="划词弹窗模式下轻点可开关本句译文">${formatRichParagraph(s.text)}</span>${cn ? `<span class="en1-sent-trans en1-no-mark" data-sid="${sid}">${cn}</span>` : ''}</span>`;
+      return `<span class="en1-sent-unit" data-sid="${sid}"><span class="en1-sent" data-sid="${sid}">${formatRichParagraph(s.text)}</span>${cn ? `<span class="en1-sent-trans en1-no-mark" data-sid="${sid}">${cn}</span>` : ''}</span>`;
     }).join(' ');
   }
 
@@ -1141,7 +1141,7 @@
         </div>
         <div class="en1-paper-footer">
           <span>Questions ${textObj.q_range}</span>
-          <span>约 ${wordCount} 词 · 划词/手写可批注 · 轻点句子或点击「🌐 句子对照」看译文</span>
+          <span>约 ${wordCount} 词 · 划词/手写可批注 · 点击「🌐 句子对照」可切换中文译文</span>
         </div>
       </div>
     `);
@@ -1696,7 +1696,7 @@
         syncToolbarState();
         renderAllInkCanvases();
         if (window.showToast) {
-          window.showToast(state.showTrans ? '🌐 已开启英一逐句中文对照' : '🙈 已收起全文中文对照（仍可轻点单句查看）');
+          window.showToast(state.showTrans ? '🌐 已开启英一逐句中文对照' : '🙈 已隐藏中文对照');
         }
       };
     }
@@ -1841,28 +1841,17 @@
       if (sel && !sel.isCollapsed && sel.toString().trim().length > 0) return;
 
       const markEl = e.target.closest('mark.en1-mark');
-      if (markEl) {
-        const leftRoot = getMarkableRoot('left');
-        const rightRoot = getMarkableRoot('right');
-        if (!(leftRoot && leftRoot.contains(markEl)) && !(rightRoot && rightRoot.contains(markEl))) return;
+      if (!markEl) return;
+      const leftRoot = getMarkableRoot('left');
+      const rightRoot = getMarkableRoot('right');
+      if (!(leftRoot && leftRoot.contains(markEl)) && !(rightRoot && rightRoot.contains(markEl))) return;
 
-        e.stopPropagation();
-        if (state.tool === 'eraser') {
-          removeMarkById(markEl.getAttribute('data-mark-id'));
-          hidePopover();
-        } else {
-          showEditMarkPopover(markEl);
-        }
-        return;
-      }
-
-      if (state.tool === 'popover' && !state.suppressClickFromDrag && !e.target.closest('.en1-no-mark')) {
-        const sentEl = e.target.closest('.en1-sent');
-        const sentUnit = sentEl ? sentEl.closest('.en1-sent-unit') : null;
-        if (sentUnit && sentUnit.querySelector('.en1-sent-trans')) {
-          sentUnit.classList.toggle('trans-open');
-          syncCanvasResolutionAndRedraw('left');
-        }
+      e.stopPropagation();
+      if (state.tool === 'eraser') {
+        removeMarkById(markEl.getAttribute('data-mark-id'));
+        hidePopover();
+      } else {
+        showEditMarkPopover(markEl);
       }
     });
 
