@@ -56,6 +56,10 @@ test('English I manifest includes required Part B (2007, 2016, 2020) and Reading
     if (item.hasPartB) {
       assert.ok(data.part_b, `Missing part_b for ${item.year}`);
       assert.equal(Object.keys(data.part_b.options).length, 7);
+      assert.ok(data.part_b.options_cn && Object.keys(data.part_b.options_cn).length === 7, `${item.year} part_b options_cn`);
+      const pbBodyCount = data.part_b.paragraphs.filter(p => !p.is_blank && !p.is_title).length;
+      assert.ok(Array.isArray(data.part_b.sentences) && data.part_b.sentences.length >= pbBodyCount, `${item.year} part_b sentences`);
+      assert.ok(data.part_b.sentences.every(s => s.sid && s.text && /[\u4e00-\u9fff]/.test(s.translation || '')), `${item.year} part_b Chinese translations`);
       assert.equal(data.part_b.items.length, 5);
       for (let q = 41; q <= 45; q++) {
         assert.ok(['A', 'B', 'C', 'D', 'E', 'F', 'G'].includes(data.part_b.answers[q]), `${item.year} Q${q} invalid answer`);
@@ -66,6 +70,8 @@ test('English I manifest includes required Part B (2007, 2016, 2020) and Reading
       data.texts.forEach((t, idx) => {
         assert.equal(t.text_id, idx + 1);
         assert.ok(t.paragraphs.length >= 4, `${item.year} Text ${idx + 1} paragraphs`);
+        assert.ok(Array.isArray(t.sentences) && t.sentences.length >= t.paragraphs.length, `${item.year} Text ${idx + 1} sentences`);
+        assert.ok(t.sentences.every(s => s.sid && s.text && /[\u4e00-\u9fff]/.test(s.translation || '')), `${item.year} Text ${idx + 1} Chinese translations`);
         assert.equal(t.questions.length, 5);
         t.questions.forEach(q => {
           assert.equal(q.options.length, 4);
@@ -165,6 +171,8 @@ test('En1PaperRenderer renders authentic split paper UI for Reading and Part B',
   assert.ok(leftReading.includes('id="en1AutoPenToggle"'));
   assert.ok(leftReading.includes('id="en1UndoStrokeBtn"'));
   assert.ok(leftReading.includes('id="en1ClearMarksBtn"'));
+  assert.ok(leftReading.includes('id="en1ToggleTransBtn"'));
+  assert.ok(leftReading.includes('class="en1-sent-trans en1-no-mark"'));
   assert.ok(leftReading.includes('class="en1-para"'));
   assert.ok(rightReading.includes('class="en1-q-badge en1-no-mark">21</span>'));
   assert.ok(rightReading.includes('class="en1-opt-row '));

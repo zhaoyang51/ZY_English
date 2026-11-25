@@ -53,6 +53,7 @@
     color: 'yellow',
     wavyColor: 'red',
     autoPenInk: true, // When true, pointerType==='pen' draws ink automatically (palm/finger separation)
+    showTrans: false, // Sentence-by-sentence Chinese translation toggle
     revealAnswers: false,
     activePartBQid: 41,
     marks: [],   // [{ id, side: 'left'|'right', start, end, style, color }]
@@ -1007,6 +1008,9 @@
           </button>
         </div>
         <div class="en1-toolbar-group" style="margin-left:auto">
+          <button type="button" class="en1-tool-btn ${state.showTrans ? 'active' : ''}" id="en1ToggleTransBtn" title="显示或隐藏文章逐句中文对照（也可轻点单个英文句子查看单句译文）">
+            🌐 句子对照
+          </button>
           <button type="button" class="en1-tool-btn" id="en1FontDec" title="缩小字号">A-</button>
           <span class="font-size-badge" id="readerFontBadge">${fs}px</span>
           <button type="button" class="en1-tool-btn" id="en1FontInc" title="放大字号">A+</button>
@@ -1029,6 +1033,8 @@
       });
       const autoPenBtn = document.getElementById('en1AutoPenToggle');
       if (autoPenBtn) autoPenBtn.classList.toggle('active', !!state.autoPenInk);
+      const transBtn = document.getElementById('en1ToggleTransBtn');
+      if (transBtn) transBtn.classList.toggle('active', !!state.showTrans);
       const fs = window.ReaderModule?.settings?.fontSize || 17.5;
       const lh = window.ReaderModule?.settings?.lineHeight || 1.85;
       const badge = bar.querySelector('#readerFontBadge');
@@ -1038,10 +1044,27 @@
       });
     }
     syncInkBodyClass();
+    document.querySelectorAll('.en1-sheet').forEach(sheet => {
+      if (sheet && sheet.classList) sheet.classList.toggle('en1-show-trans', !!state.showTrans);
+    });
     updateClearButtonBadge();
   }
 
   // --- Left & Right Rendering ---
+
+  function renderParagraphWithSentences(para, sentencesList) {
+    const pSents = Array.isArray(sentencesList)
+      ? sentencesList.filter(s => s && s.pid === para.pid)
+      : [];
+    if (!pSents.length) {
+      return formatRichParagraph(para.text);
+    }
+    return pSents.map(s => {
+      const sid = escapeHtml(s.sid || '');
+      const cn = s.translation ? escapeHtml(s.translation) : '';
+      return `<span class="en1-sent-unit" data-sid="${sid}"><span class="en1-sent" data-sid="${sid}" title="划词弹窗模式下轻点可开关本句译文">${formatRichParagraph(s.text)}</span>${cn ? `<span class="en1-sent-trans en1-no-mark" data-sid="${sid}">${cn}</span>` : ''}</span>`;
+    }).join(' ');
+  }
 
   function countWords(paragraphs) {
     let total = 0;
@@ -1100,11 +1123,11 @@
     const wordCount = countWords(textObj.paragraphs);
 
     const parasHtml = (textObj.paragraphs || []).map(p => `
-      <p class="en1-para" data-pid="${p.pid}">${formatRichParagraph(p.text)}</p>
+      <p class="en1-para" data-pid="${p.pid}">${renderParagraphWithSentences(p, textObj.sentences)}</p>
     `).join('');
 
     mountLeftSheet(examPaper, `
-      <div class="en1-sheet" style="font-size:${fs}px;line-height:${lh}">
+      <div class="en1-sheet ${state.showTrans ? 'en1-show-trans' : ''}" style="font-size:${fs}px;line-height:${lh}">
         <div class="en1-paper-header">
           <div class="en1-paper-kicker">${year} 年全国硕士研究生招生考试 · 英语（一）</div>
           <div class="en1-paper-section">Section II &nbsp; Reading Comprehension</div>
@@ -1118,7 +1141,7 @@
         </div>
         <div class="en1-paper-footer">
           <span>Questions ${textObj.q_range}</span>
-          <span>约 ${wordCount} 词 · 支持划词荧光笔 / 波浪线标记</span>
+          <span>约 ${wordCount} 词 · 划词/手写可批注 · 轻点句子或点击「🌐 句子对照」看译文</span>
         </div>
       </div>
     `);
@@ -1341,14 +1364,14 @@
           </div>
         `;
       }
-      return `<p class="en1-para" data-pid="${p.pid}">${escapeHtml(p.text)}</p>`;
+      return `<p class="en1-para" data-pid="${p.pid}">${renderParagraphWithSentences(p, pb.sentences)}</p>`;
     }).join('');
 
     const leftScroll = document.getElementById('leftScroll');
     const prevLeftScroll = leftScroll ? leftScroll.scrollTop : 0;
 
     mountLeftSheet(examPaper, `
-      <div class="en1-sheet" style="font-size:${fs}px;line-height:${lh}">
+      <div class="en1-sheet ${state.showTrans ? 'en1-show-trans' : ''}" style="font-size:${fs}px;line-height:${lh}">
         <div class="en1-paper-header">
           <div class="en1-paper-kicker">${year} 年全国硕士研究生招生考试 · 英语（一）</div>
           <div class="en1-paper-section">Section II &nbsp; Reading Comprehension</div>
@@ -1404,10 +1427,14 @@
     const optsHtml = optKeys.map(k => {
       const assignedQid = Object.keys(userAns).find(q => userAns[q] === k);
       const isActiveAssigned = assignedQid && Number(assignedQid) === state.activePartBQid;
+      const cnOpt = pb.options_cn && pb.options_cn[k] ? pb.options_cn[k] : '';
       return `
         <div class="en1-partb-opt-row ${assignedQid ? 'used' : ''} ${isActiveAssigned ? 'selected-active' : ''}" data-pb-opt="${k}" title="点击将 [${k}] 填入第 ${state.activePartBQid} 题">
           <span class="en1-opt-letter en1-no-mark">[${k}]</span>
-          <span class="en1-opt-text">${escapeHtml(pb.options[k])}</span>
+          <div class="en1-opt-text">
+            <div>${escapeHtml(pb.options[k])}</div>
+            ${cnOpt ? `<div class="en1-opt-trans en1-no-mark">${escapeHtml(cnOpt)}</div>` : ''}
+          </div>
           ${assignedQid ? `<span class="en1-no-mark" style="font-size:11px;font-weight:700;color:var(--accent);flex-shrink:0">第${assignedQid}题</span>` : ''}
         </div>
       `;
@@ -1462,7 +1489,7 @@
     ` : '';
 
     container.innerHTML = `
-      <div class="en1-sheet">
+      <div class="en1-sheet ${state.showTrans ? 'en1-show-trans' : ''}">
         <div class="en1-right-header">
           <div>
             <span class="en1-right-title">Part B · Questions 41–45</span>
@@ -1656,6 +1683,24 @@
     const clearBtn = document.getElementById('en1ClearMarksBtn');
     if (clearBtn) clearBtn.onclick = () => clearAllMarks();
 
+    const transBtn = document.getElementById('en1ToggleTransBtn');
+    if (transBtn) {
+      transBtn.onclick = () => {
+        state.showTrans = !state.showTrans;
+        if (window.ReaderModule && window.ReaderModule.settings) {
+          window.ReaderModule.settings.showTrans = state.showTrans;
+          if (window.StorageModule && window.StorageModule.saveSettings) {
+            window.StorageModule.saveSettings(window.ReaderModule.settings);
+          }
+        }
+        syncToolbarState();
+        renderAllInkCanvases();
+        if (window.showToast) {
+          window.showToast(state.showTrans ? '🌐 已开启英一逐句中文对照' : '🙈 已收起全文中文对照（仍可轻点单句查看）');
+        }
+      };
+    }
+
     const fontDec = document.getElementById('en1FontDec');
     const fontInc = document.getElementById('en1FontInc');
     if (fontDec) {
@@ -1791,21 +1836,33 @@
 
     document.addEventListener('click', e => {
       if (!window.AppState || window.AppState.examType !== 'en1') return;
-      const markEl = e.target.closest('mark.en1-mark');
-      if (!markEl) return;
-      const leftRoot = getMarkableRoot('left');
-      const rightRoot = getMarkableRoot('right');
-      if (!(leftRoot && leftRoot.contains(markEl)) && !(rightRoot && rightRoot.contains(markEl))) return;
 
       const sel = window.getSelection();
       if (sel && !sel.isCollapsed && sel.toString().trim().length > 0) return;
 
-      e.stopPropagation();
-      if (state.tool === 'eraser') {
-        removeMarkById(markEl.getAttribute('data-mark-id'));
-        hidePopover();
-      } else {
-        showEditMarkPopover(markEl);
+      const markEl = e.target.closest('mark.en1-mark');
+      if (markEl) {
+        const leftRoot = getMarkableRoot('left');
+        const rightRoot = getMarkableRoot('right');
+        if (!(leftRoot && leftRoot.contains(markEl)) && !(rightRoot && rightRoot.contains(markEl))) return;
+
+        e.stopPropagation();
+        if (state.tool === 'eraser') {
+          removeMarkById(markEl.getAttribute('data-mark-id'));
+          hidePopover();
+        } else {
+          showEditMarkPopover(markEl);
+        }
+        return;
+      }
+
+      if (state.tool === 'popover' && !state.suppressClickFromDrag && !e.target.closest('.en1-no-mark')) {
+        const sentEl = e.target.closest('.en1-sent');
+        const sentUnit = sentEl ? sentEl.closest('.en1-sent-unit') : null;
+        if (sentUnit && sentUnit.querySelector('.en1-sent-trans')) {
+          sentUnit.classList.toggle('trans-open');
+          syncCanvasResolutionAndRedraw('left');
+        }
       }
     });
 
@@ -1828,6 +1885,7 @@
       state.data = dataObj;
       state.marks = loadMarks(state.year, state.textId);
       state.strokes = loadStrokes(state.year, state.textId);
+      state.showTrans = !!(window.ReaderModule && window.ReaderModule.settings && window.ReaderModule.settings.showTrans);
       state.revealAnswers = false;
 
       if (textId === 'part_b') {
