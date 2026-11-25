@@ -3,6 +3,7 @@
    ============================================================ */
 
 .en1-sheet {
+  position: relative;
   font-family: "Times New Roman", Times, Georgia, "Songti SC", SimSun, serif;
   background: #ffffff;
   color: #111827;
@@ -757,6 +758,47 @@ mark.en1-mark-strike.en1-color-yellow { text-decoration-color: #64748b; }
   height: 16px;
   background: rgba(255, 255, 255, 0.2);
   margin: 0 1px;
+}
+
+/* Freehand Stylus Ink Canvas Layer */
+.en1-ink-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  pointer-events: none;
+  border-radius: 8px;
+  mix-blend-mode: multiply;
+}
+
+body.theme-dark .en1-ink-canvas {
+  mix-blend-mode: normal;
+}
+
+body.en1-ink-mode .en1-sheet,
+.en1-sheet.en1-pen-drawing {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  cursor: crosshair;
+}
+
+.en1-tool-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+@media (pointer: coarse) {
+  .en1-tool-btn {
+    padding: 6px 10px;
+    min-height: 32px;
+  }
+  .en1-color-dot {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 @media (max-width: 768px) {

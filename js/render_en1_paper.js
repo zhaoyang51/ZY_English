@@ -8,6 +8,7 @@
  */
 (function () {
   const ANNOTATOR_STORAGE_KEY = 'KAOYAN_EN1_MARKS_V1';
+  const INK_STORAGE_KEY = 'KAOYAN_EN1_INK_V1';
   const ANSWERS_STORAGE_PREFIX = 'KAOYAN_EN1_ANS_V1_';
   const SUBMITTED_STORAGE_PREFIX = 'KAOYAN_EN1_SUB_V1_';
 
@@ -19,17 +20,43 @@
     { key: 'red',    label: '朱砂红', hex: '#f87171' }
   ];
 
+  const INK_PEN_COLORS = {
+    yellow: '#ca8a04',
+    green:  '#16a34a',
+    blue:   '#2563eb',
+    pink:   '#db2777',
+    red:    '#dc2626'
+  };
+
+  const INK_PEN_DARK_COLORS = {
+    yellow: '#fde047',
+    green:  '#4ade80',
+    blue:   '#60a5fa',
+    pink:   '#f472b6',
+    red:    '#f87171'
+  };
+
+  const INK_HL_COLORS = {
+    yellow: 'rgba(253, 224, 71, 0.44)',
+    green:  'rgba(134, 239, 172, 0.46)',
+    blue:   'rgba(147, 197, 253, 0.46)',
+    pink:   'rgba(249, 168, 212, 0.46)',
+    red:    'rgba(248, 113, 113, 0.42)'
+  };
+
   const state = {
     year: null,
     textId: null,
     mode: 'practice',
     data: null,
-    tool: 'popover', // 'popover' | 'highlight' | 'wavy' | 'underline' | 'strike' | 'eraser'
+    tool: 'popover', // 'popover' | 'highlight' | 'wavy' | 'underline' | 'strike' | 'ink_pen' | 'ink_hl' | 'eraser'
     color: 'yellow',
     wavyColor: 'red',
+    autoPenInk: true, // When true, pointerType==='pen' draws ink automatically (palm/finger separation)
     revealAnswers: false,
     activePartBQid: 41,
-    marks: [], // [{ id, side: 'left'|'right', start, end, style, color }]
+    marks: [],   // [{ id, side: 'left'|'right', start, end, style, color }]
+    strokes: [], // [{ id, side: 'left'|'right', kind: 'pen'|'hl', color, points: [{ x, y, p }] }]
     pendingRange: null,
     editingMarkId: null,
     suppressClickFromDrag: false
@@ -116,6 +143,28 @@
         delete all[paperKey(year, textId)];
       }
       sessionStorage.setItem(ANNOTATOR_STORAGE_KEY, JSON.stringify(all));
+    } catch (e) {}
+  }
+
+  function loadStrokes(year, textId) {
+    try {
+      const all = JSON.parse(sessionStorage.getItem(INK_STORAGE_KEY) || '{}');
+      const list = all[paperKey(year, textId)];
+      return Array.isArray(list) ? list : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveStrokes(year, textId, strokes) {
+    try {
+      const all = JSON.parse(sessionStorage.getItem(INK_STORAGE_KEY) || '{}');
+      if (strokes && strokes.length > 0) {
+        all[paperKey(year, textId)] = strokes;
+      } else {
+        delete all[paperKey(year, textId)];
+      }
+      sessionStorage.setItem(INK_STORAGE_KEY, JSON.stringify(all));
     } catch (e) {}
   }
 
@@ -320,23 +369,475 @@
     reapplyMarksForSide(target.side);
   }
 
+  function getTotalTraceCount() {
+    return state.marks.length + state.strokes.length;
+  }
+
   function clearAllMarks() {
     state.marks = [];
+    state.strokes = [];
     saveMarks(state.year, state.textId, []);
+    saveStrokes(state.year, state.textId, []);
     unwrapMarksInRoot(getMarkableRoot('left'));
     unwrapMarksInRoot(getMarkableRoot('right'));
+    renderAllInkCanvases();
     hidePopover();
     updateClearButtonBadge();
-    if (window.showToast) window.showToast('🧹 已一键清除本篇所有标记痕迹');
+    if (window.showToast) window.showToast('🧹 已一键清除本篇所有划词与手写痕迹');
   }
 
   function updateClearButtonBadge() {
-    const count = state.marks.length;
+    const count = getTotalTraceCount();
     document.querySelectorAll('.en1-clear-btn').forEach(btn => {
       btn.disabled = count === 0;
       const badge = btn.querySelector('.en1-clear-count');
       if (badge) badge.textContent = count > 0 ? ` (${count})` : '';
     });
+    const undoBtn = document.getElementById('en1UndoStrokeBtn');
+    if (undoBtn) undoBtn.disabled = state.strokes.length === 0;
+  }
+
+  // --- Stylus & Freehand Ink Canvas Layer ---
+
+  let activeInkSession = null; // { pointerId, pointerType, side, sheetEl, mode: 'draw'|'erase', pendingInteractive, startX, startY, started, stroke }
+  let sheetResizeObserver = null;
+  const observedSheets = new WeakSet();
+
+  function getSheetEl(side) {
+    if (side === 'left') {
+      return document.querySelector('#examPaper .en1-sheet');
+    }
+    return document.querySelector('#workspaceContent .en1-sheet');
+  }
+
+  function ensureResizeObserver() {
+    if (sheetResizeObserver || typeof window.ResizeObserver !== 'function') return sheetResizeObserver;
+    sheetResizeObserver = new window.ResizeObserver(entries => {
+      entries.forEach(entry => {
+        const side = entry.target?.getAttribute?.('data-ink-side');
+        if (side) syncCanvasResolutionAndRedraw(side);
+      });
+    });
+    return sheetResizeObserver;
+  }
+
+  function syncInkBodyClass() {
+    if (!document.body || !document.body.classList) return;
+    const isExplicitInk = state.tool === 'ink_pen' || state.tool === 'ink_hl';
+    document.body.classList.toggle('en1-ink-mode', isExplicitInk);
+  }
+
+  function ensureSheetInkCanvas(side) {
+    const sheetEl = getSheetEl(side);
+    if (!sheetEl || typeof document.createElement !== 'function') return null;
+
+    if (typeof sheetEl.setAttribute === 'function') {
+      sheetEl.setAttribute('data-ink-side', side);
+    }
+
+    let canvas = typeof sheetEl.querySelector === 'function'
+      ? sheetEl.querySelector(':scope > .en1-ink-canvas')
+      : null;
+
+    if (!canvas) {
+      canvas = document.createElement('canvas');
+      canvas.className = 'en1-ink-canvas';
+      canvas.setAttribute('data-ink-side', side);
+      if (typeof sheetEl.appendChild === 'function') {
+        sheetEl.appendChild(canvas);
+      }
+    }
+
+    bindSheetStylusHandlers(sheetEl, side);
+
+    const ro = ensureResizeObserver();
+    if (ro && !observedSheets.has(sheetEl)) {
+      observedSheets.add(sheetEl);
+      ro.observe(sheetEl);
+    }
+
+    syncCanvasResolutionAndRedraw(side);
+    return canvas;
+  }
+
+  function syncCanvasResolutionAndRedraw(side) {
+    const sheetEl = getSheetEl(side);
+    if (!sheetEl || typeof sheetEl.querySelector !== 'function') return;
+    const canvas = sheetEl.querySelector(':scope > .en1-ink-canvas');
+    if (!canvas || typeof sheetEl.getBoundingClientRect !== 'function') return;
+
+    const rect = sheetEl.getBoundingClientRect();
+    if (!rect || rect.width < 1 || rect.height < 1) return;
+
+    const dpr = Math.min(window.devicePixelRatio || 1, 2.5);
+    const targetW = Math.max(1, Math.round(rect.width * dpr));
+    const targetH = Math.max(1, Math.round(rect.height * dpr));
+    if (canvas.width !== targetW || canvas.height !== targetH) {
+      canvas.width = targetW;
+      canvas.height = targetH;
+    }
+    renderInkCanvas(side);
+  }
+
+  function renderSingleStroke(ctx, stroke, cssW, cssH, isDark) {
+    const pts = stroke.points;
+    if (!pts || pts.length === 0) return;
+
+    const isHl = stroke.kind === 'hl';
+    const penMap = isDark ? INK_PEN_DARK_COLORS : INK_PEN_COLORS;
+    const strokeStyle = isHl
+      ? (INK_HL_COLORS[stroke.color] || INK_HL_COLORS.yellow)
+      : (penMap[stroke.color] || penMap.blue);
+
+    ctx.save();
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    ctx.strokeStyle = strokeStyle;
+    ctx.fillStyle = strokeStyle;
+
+    if (pts.length === 1) {
+      const x = pts[0].x * cssW;
+      const y = pts[0].y * cssH;
+      const r = isHl ? 8 : Math.max(1.2, 1.4 * (0.65 + 0.7 * (pts[0].p || 0.5)));
+      ctx.beginPath();
+      ctx.arc(x, y, r, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+      return;
+    }
+
+    if (isHl) {
+      // Single path per highlighter stroke prevents alpha darkening at overlaps
+      ctx.lineWidth = 17;
+      ctx.beginPath();
+      ctx.moveTo(pts[0].x * cssW, pts[0].y * cssH);
+      for (let i = 1; i < pts.length - 1; i++) {
+        const cx = pts[i].x * cssW;
+        const cy = pts[i].y * cssH;
+        const nx = (cx + pts[i + 1].x * cssW) / 2;
+        const ny = (cy + pts[i + 1].y * cssH) / 2;
+        ctx.quadraticCurveTo(cx, cy, nx, ny);
+      }
+      const last = pts[pts.length - 1];
+      ctx.lineTo(last.x * cssW, last.y * cssH);
+      ctx.stroke();
+      ctx.restore();
+      return;
+    }
+
+    // Smooth pressure-aware pen segments using midpoints
+    for (let i = 1; i < pts.length; i++) {
+      const p0 = pts[i - 1];
+      const p1 = pts[i];
+      const p2 = pts[i + 1] || p1;
+      const x0 = p0.x * cssW;
+      const y0 = p0.y * cssH;
+      const x1 = p1.x * cssW;
+      const y1 = p1.y * cssH;
+      const mx0 = i === 1 ? x0 : (x0 + x1) / 2;
+      const my0 = i === 1 ? y0 : (y0 + y1) / 2;
+      const mx1 = i === pts.length - 1 ? p1.x * cssW : (x1 + p2.x * cssW) / 2;
+      const my1 = i === pts.length - 1 ? p1.y * cssH : (y1 + p2.y * cssH) / 2;
+      const pressure = Math.max(0.15, Math.min(1, p1.p || 0.5));
+      ctx.lineWidth = 2.2 * (0.65 + 0.7 * pressure);
+      ctx.beginPath();
+      ctx.moveTo(mx0, my0);
+      ctx.quadraticCurveTo(x1, y1, mx1, my1);
+      ctx.stroke();
+    }
+    ctx.restore();
+  }
+
+  function renderInkCanvas(side) {
+    const sheetEl = getSheetEl(side);
+    if (!sheetEl || typeof sheetEl.querySelector !== 'function') return;
+    const canvas = sheetEl.querySelector(':scope > .en1-ink-canvas');
+    if (!canvas || typeof canvas.getContext !== 'function') return;
+
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    const rect = sheetEl.getBoundingClientRect();
+    const cssW = Math.max(1, rect.width);
+    const cssH = Math.max(1, rect.height);
+    const dpr = canvas.width / cssW || 1;
+
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+    const isDark = !!(document.body && document.body.classList && document.body.classList.contains('theme-dark'));
+    state.strokes.forEach(stroke => {
+      if (stroke.side === side) {
+        renderSingleStroke(ctx, stroke, cssW, cssH, isDark);
+      }
+    });
+    if (activeInkSession && activeInkSession.started && activeInkSession.mode === 'draw' && activeInkSession.side === side && activeInkSession.stroke) {
+      renderSingleStroke(ctx, activeInkSession.stroke, cssW, cssH, isDark);
+    }
+  }
+
+  function renderAllInkCanvases() {
+    ensureSheetInkCanvas('left');
+    ensureSheetInkCanvas('right');
+    renderInkCanvas('left');
+    renderInkCanvas('right');
+  }
+
+  function undoLastStroke() {
+    if (!state.strokes.length) return false;
+    const removed = state.strokes.pop();
+    saveStrokes(state.year, state.textId, state.strokes);
+    if (removed && removed.side) renderInkCanvas(removed.side);
+    updateClearButtonBadge();
+    return true;
+  }
+
+  function distPointToSegmentSq(px, py, ax, ay, bx, by) {
+    const abx = bx - ax;
+    const aby = by - ay;
+    const lenSq = abx * abx + aby * aby;
+    if (lenSq === 0) return (px - ax) * (px - ax) + (py - ay) * (py - ay);
+    let t = ((px - ax) * abx + (py - ay) * aby) / lenSq;
+    t = Math.max(0, Math.min(1, t));
+    const cx = ax + t * abx;
+    const cy = ay + t * aby;
+    return (px - cx) * (px - cx) + (py - cy) * (py - cy);
+  }
+
+  function eraseInkNearClientPoint(side, clientX, clientY) {
+    const sheetEl = getSheetEl(side);
+    if (!sheetEl || typeof sheetEl.getBoundingClientRect !== 'function') return false;
+    const rect = sheetEl.getBoundingClientRect();
+    if (!rect || rect.width < 1 || rect.height < 1) return false;
+
+    const px = clientX - rect.left;
+    const py = clientY - rect.top;
+    const before = state.strokes.length;
+
+    state.strokes = state.strokes.filter(stroke => {
+      if (stroke.side !== side || !stroke.points || !stroke.points.length) return true;
+      const radius = stroke.kind === 'hl' ? 18 : 13;
+      const rSq = radius * radius;
+      const pts = stroke.points;
+      if (pts.length === 1) {
+        const ax = pts[0].x * rect.width;
+        const ay = pts[0].y * rect.height;
+        return (px - ax) * (px - ax) + (py - ay) * (py - ay) > rSq;
+      }
+      for (let i = 1; i < pts.length; i++) {
+        const ax = pts[i - 1].x * rect.width;
+        const ay = pts[i - 1].y * rect.height;
+        const bx = pts[i].x * rect.width;
+        const by = pts[i].y * rect.height;
+        if (distPointToSegmentSq(px, py, ax, ay, bx, by) <= rSq) {
+          return false;
+        }
+      }
+      return true;
+    });
+
+    if (state.strokes.length !== before) {
+      saveStrokes(state.year, state.textId, state.strokes);
+      renderInkCanvas(side);
+      updateClearButtonBadge();
+      return true;
+    }
+    return false;
+  }
+
+  function normalizeClientPoint(sheetEl, clientX, clientY, pressure) {
+    const rect = sheetEl.getBoundingClientRect();
+    const w = Math.max(1, rect.width);
+    const h = Math.max(1, rect.height);
+    return {
+      x: Math.max(0, Math.min(1, (clientX - rect.left) / w)),
+      y: Math.max(0, Math.min(1, (clientY - rect.top) / h)),
+      p: typeof pressure === 'number' && pressure > 0 ? Number(pressure.toFixed(3)) : 0.5
+    };
+  }
+
+  function isInteractiveTarget(target) {
+    if (!target || typeof target.closest !== 'function') return false;
+    return !!target.closest('button, a, input, select, .en1-opt-row, .en1-partb-opt-row, [data-partb-slot], .en1-no-mark');
+  }
+
+  function resolveInkActionForPointer(pointerType) {
+    const isPen = pointerType === 'pen';
+    if (state.tool === 'eraser') {
+      return isPen || pointerType === 'mouse' || pointerType === 'touch' ? { mode: 'erase' } : null;
+    }
+    if (state.tool === 'ink_pen') return { mode: 'draw', kind: 'pen' };
+    if (state.tool === 'ink_hl') return { mode: 'draw', kind: 'hl' };
+    if (isPen && state.autoPenInk) return { mode: 'draw', kind: 'pen' };
+    return null;
+  }
+
+  function eraseAtClientPoint(side, clientX, clientY) {
+    eraseInkNearClientPoint(side, clientX, clientY);
+    if (typeof document.elementFromPoint === 'function') {
+      const hit = document.elementFromPoint(clientX, clientY);
+      const markEl = hit && typeof hit.closest === 'function' ? hit.closest('mark.en1-mark') : null;
+      if (markEl) {
+        const markId = markEl.getAttribute('data-mark-id');
+        if (markId) removeMarkById(markId);
+      }
+    }
+  }
+
+  function bindSheetStylusHandlers(sheetEl, side) {
+    if (!sheetEl || sheetEl.__en1InkBound) return;
+    sheetEl.__en1InkBound = true;
+
+    // iPadOS Safari requires passive:false touch listeners checking touchType==='stylus' to block scroll during pen strokes
+    sheetEl.addEventListener('touchstart', e => {
+      if (!window.AppState || window.AppState.examType !== 'en1') return;
+      const touch = e.touches && e.touches[0];
+      const isStylusTouch = touch && touch.touchType === 'stylus';
+      const explicitInk = state.tool === 'ink_pen' || state.tool === 'ink_hl';
+      if ((isStylusTouch && (state.autoPenInk || explicitInk || state.tool === 'eraser')) || explicitInk) {
+        if (!isInteractiveTarget(e.target)) {
+          e.preventDefault();
+        }
+      }
+    }, { passive: false });
+
+    sheetEl.addEventListener('touchmove', e => {
+      if (!window.AppState || window.AppState.examType !== 'en1') return;
+      const touch = e.touches && e.touches[0];
+      const isStylusTouch = touch && touch.touchType === 'stylus';
+      const explicitInk = state.tool === 'ink_pen' || state.tool === 'ink_hl';
+      if (isStylusTouch && (state.autoPenInk || explicitInk || state.tool === 'eraser')) {
+        e.preventDefault();
+      } else if (explicitInk && activeInkSession && activeInkSession.side === side) {
+        e.preventDefault();
+      }
+    }, { passive: false });
+
+    sheetEl.addEventListener('pointerdown', e => {
+      if (!window.AppState || window.AppState.examType !== 'en1') return;
+      if (e.button !== undefined && e.button !== 0 && e.pointerType === 'mouse') return;
+
+      const action = resolveInkActionForPointer(e.pointerType || 'mouse');
+      if (!action) return;
+
+      hidePopover();
+      const interactive = isInteractiveTarget(e.target);
+      // Let buttons/links work immediately unless eraser/ink drags >= 4px over them
+      if (interactive && e.target.closest('button, a, input, select')) return;
+
+      const pt = normalizeClientPoint(sheetEl, e.clientX, e.clientY, e.pressure);
+      const startImmediately = !interactive;
+
+      activeInkSession = {
+        pointerId: e.pointerId,
+        pointerType: e.pointerType || 'mouse',
+        side,
+        sheetEl,
+        mode: action.mode,
+        pendingInteractive: interactive,
+        startX: e.clientX,
+        startY: e.clientY,
+        started: startImmediately,
+        stroke: action.mode === 'draw' ? {
+          id: `s_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+          side,
+          kind: action.kind,
+          color: state.color,
+          points: [pt]
+        } : null
+      };
+
+      if (startImmediately) {
+        if (sheetEl.classList) sheetEl.classList.add('en1-pen-drawing');
+        if (typeof sheetEl.setPointerCapture === 'function' && e.pointerId !== undefined) {
+          try { sheetEl.setPointerCapture(e.pointerId); } catch (err) {}
+        }
+        const sel = window.getSelection && window.getSelection();
+        if (sel && !sel.isCollapsed) {
+          try { sel.removeAllRanges(); } catch (err) {}
+        }
+        if (action.mode === 'erase') {
+          eraseAtClientPoint(side, e.clientX, e.clientY);
+        } else {
+          renderInkCanvas(side);
+        }
+      }
+    });
+
+    sheetEl.addEventListener('pointermove', e => {
+      if (!activeInkSession || activeInkSession.side !== side) return;
+      if (e.pointerId !== undefined && activeInkSession.pointerId !== undefined && e.pointerId !== activeInkSession.pointerId) return;
+
+      if (!activeInkSession.started) {
+        if (Math.hypot(e.clientX - activeInkSession.startX, e.clientY - activeInkSession.startY) < 4) {
+          return;
+        }
+        activeInkSession.started = true;
+        state.suppressClickFromDrag = true;
+        if (sheetEl.classList) sheetEl.classList.add('en1-pen-drawing');
+        if (typeof sheetEl.setPointerCapture === 'function' && e.pointerId !== undefined) {
+          try { sheetEl.setPointerCapture(e.pointerId); } catch (err) {}
+        }
+        const sel = window.getSelection && window.getSelection();
+        if (sel && !sel.isCollapsed) {
+          try { sel.removeAllRanges(); } catch (err) {}
+        }
+      }
+
+      if (activeInkSession.mode === 'erase') {
+        eraseAtClientPoint(side, e.clientX, e.clientY);
+        return;
+      }
+
+      const events = typeof e.getCoalescedEvents === 'function' ? e.getCoalescedEvents() : null;
+      const sampleList = (events && events.length > 0) ? events : [e];
+      const pts = activeInkSession.stroke.points;
+      sampleList.forEach(ev => {
+        const np = normalizeClientPoint(sheetEl, ev.clientX, ev.clientY, ev.pressure);
+        const prev = pts[pts.length - 1];
+        if (!prev || Math.hypot(np.x - prev.x, np.y - prev.y) > 0.0012) {
+          pts.push(np);
+        }
+      });
+      renderInkCanvas(side);
+    });
+
+    const finishInkSession = e => {
+      if (!activeInkSession || activeInkSession.side !== side) return;
+      if (e.pointerId !== undefined && activeInkSession.pointerId !== undefined && e.pointerId !== activeInkSession.pointerId) return;
+
+      const session = activeInkSession;
+      activeInkSession = null;
+      if (sheetEl.classList) sheetEl.classList.remove('en1-pen-drawing');
+      if (typeof sheetEl.releasePointerCapture === 'function' && e.pointerId !== undefined) {
+        try {
+          if (typeof sheetEl.hasPointerCapture !== 'function' || sheetEl.hasPointerCapture(e.pointerId)) {
+            sheetEl.releasePointerCapture(e.pointerId);
+          }
+        } catch (err) {}
+      }
+
+      if (session.started && session.mode === 'draw' && session.stroke && session.stroke.points.length >= 1) {
+        // Ignore accidental micro-tap < 3px on interactive rows; commit deliberate dots/lines on text
+        const moved = Math.hypot((e.clientX ?? session.startX) - session.startX, (e.clientY ?? session.startY) - session.startY);
+        if (!session.pendingInteractive || moved >= 4) {
+          state.strokes.push(session.stroke);
+          saveStrokes(state.year, state.textId, state.strokes);
+          updateClearButtonBadge();
+        }
+        if (moved >= 4) {
+          state.suppressClickFromDrag = true;
+          setTimeout(() => { state.suppressClickFromDrag = false; }, 0);
+        }
+      } else {
+        setTimeout(() => { state.suppressClickFromDrag = false; }, 0);
+      }
+      renderInkCanvas(side);
+    };
+
+    sheetEl.addEventListener('pointerup', finishInkSession);
+    sheetEl.addEventListener('pointercancel', finishInkSession);
   }
 
   // --- Floating Selection / Mark-Edit Popover ---
@@ -468,14 +969,16 @@
   function buildToolbarHtml() {
     const fs = window.ReaderModule?.settings?.fontSize || 17.5;
     const lh = window.ReaderModule?.settings?.lineHeight || 1.85;
-    const markCount = state.marks.length;
+    const markCount = getTotalTraceCount();
     const tools = [
       { id: 'popover',   label: '🖱️ 划词弹窗', title: '划词后弹出颜色与线型选择' },
-      { id: 'highlight', label: '🖍️ 荧光笔',   title: '连续涂抹荧光高亮' },
-      { id: 'wavy',      label: '〰️ 波浪线',   title: '连续划出波浪线' },
-      { id: 'underline', label: '＿ 下划线',   title: '连续划出下划线' },
-      { id: 'strike',    label: '✂️ 删除线',   title: '连续划出删除线（排除选项）' },
-      { id: 'eraser',    label: '🧽 橡皮擦',   title: '点击单条标记即可删除' }
+      { id: 'highlight', label: '🖍️ 荧光笔',   title: '划词涂抹荧光高亮' },
+      { id: 'wavy',      label: '〰️ 波浪线',   title: '划词标出波浪线' },
+      { id: 'underline', label: '＿ 下划线',   title: '划词标出下划线' },
+      { id: 'strike',    label: '✂️ 删除线',   title: '划词标出删除线（排除选项）' },
+      { id: 'ink_pen',   label: '✏️ 手写笔',   title: '自由手写笔批注（支持平板手写笔/手指/鼠标）' },
+      { id: 'ink_hl',    label: '🖌️ 手写荧光', title: '自由手写荧光涂抹' },
+      { id: 'eraser',    label: '🧽 橡皮擦',   title: '点击划词标记或擦除手写笔迹' }
     ];
 
     return `
@@ -493,7 +996,13 @@
         </div>
         <div class="en1-toolbar-sep"></div>
         <div class="en1-toolbar-group">
-          <button type="button" class="en1-tool-btn en1-clear-btn" id="en1ClearMarksBtn" ${markCount === 0 ? 'disabled' : ''} title="一键清除本篇所有荧光笔、波浪线等标记痕迹">
+          <button type="button" class="en1-tool-btn ${state.autoPenInk ? 'active' : ''}" id="en1AutoPenToggle" title="开启后，平板手写笔触碰试卷自动书写，手指滑动依然翻页（指笔分离）">
+            🖊️ 笔写
+          </button>
+          <button type="button" class="en1-tool-btn" id="en1UndoStrokeBtn" ${state.strokes.length === 0 ? 'disabled' : ''} title="撤销上一笔手写痕迹">
+            ↩️ 撤销
+          </button>
+          <button type="button" class="en1-tool-btn en1-clear-btn" id="en1ClearMarksBtn" ${markCount === 0 ? 'disabled' : ''} title="一键清除本篇所有划词与手写痕迹">
             🧹 一键清除痕迹<span class="en1-clear-count">${markCount > 0 ? ` (${markCount})` : ''}</span>
           </button>
         </div>
@@ -511,20 +1020,24 @@
 
   function syncToolbarState() {
     const bar = document.getElementById('en1AnnotatorToolbar');
-    if (!bar) return;
-    bar.querySelectorAll('[data-en1-tool]').forEach(btn => {
-      btn.classList.toggle('active', btn.getAttribute('data-en1-tool') === state.tool);
-    });
-    bar.querySelectorAll('[data-en1-color]').forEach(btn => {
-      btn.classList.toggle('active', btn.getAttribute('data-en1-color') === state.color);
-    });
-    const fs = window.ReaderModule?.settings?.fontSize || 17.5;
-    const lh = window.ReaderModule?.settings?.lineHeight || 1.85;
-    const badge = bar.querySelector('#readerFontBadge');
-    if (badge) badge.textContent = `${fs}px`;
-    bar.querySelectorAll('[data-en1-lh]').forEach(btn => {
-      btn.classList.toggle('active', Number(btn.getAttribute('data-en1-lh')) === lh);
-    });
+    if (bar) {
+      bar.querySelectorAll('[data-en1-tool]').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-en1-tool') === state.tool);
+      });
+      bar.querySelectorAll('[data-en1-color]').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-en1-color') === state.color);
+      });
+      const autoPenBtn = document.getElementById('en1AutoPenToggle');
+      if (autoPenBtn) autoPenBtn.classList.toggle('active', !!state.autoPenInk);
+      const fs = window.ReaderModule?.settings?.fontSize || 17.5;
+      const lh = window.ReaderModule?.settings?.lineHeight || 1.85;
+      const badge = bar.querySelector('#readerFontBadge');
+      if (badge) badge.textContent = `${fs}px`;
+      bar.querySelectorAll('[data-en1-lh]').forEach(btn => {
+        btn.classList.toggle('active', Number(btn.getAttribute('data-en1-lh')) === lh);
+      });
+    }
+    syncInkBodyClass();
     updateClearButtonBadge();
   }
 
@@ -562,6 +1075,7 @@
       } else {
         sheetMount.innerHTML = sheetHtml;
       }
+      ensureSheetInkCanvas('left');
       return;
     }
 
@@ -575,6 +1089,7 @@
       sheetMount.innerHTML = sheetHtml;
       syncToolbarState();
     }
+    ensureSheetInkCanvas('left');
   }
 
   function renderReadingLeft(textObj, year) {
@@ -685,8 +1200,8 @@
           </div>
           <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
             <span class="en1-progress-pill" id="en1ProgressBadge">已作答 ${answeredCount} / 5</span>
-            <button type="button" class="en1-tool-btn en1-clear-btn" id="en1ClearMarksRightBtn" ${state.marks.length === 0 ? 'disabled' : ''}>
-              🧹 清除痕迹<span class="en1-clear-count">${state.marks.length > 0 ? ` (${state.marks.length})` : ''}</span>
+            <button type="button" class="en1-tool-btn en1-clear-btn" id="en1ClearMarksRightBtn" ${getTotalTraceCount() === 0 ? 'disabled' : ''}>
+              🧹 清除痕迹<span class="en1-clear-count">${getTotalTraceCount() > 0 ? ` (${getTotalTraceCount()})` : ''}</span>
             </button>
           </div>
         </div>
@@ -709,6 +1224,7 @@
     `;
 
     bindReadingRightEvents(textObj, year);
+    ensureSheetInkCanvas('right');
   }
 
   function bindReadingRightEvents(textObj, year) {
@@ -954,8 +1470,8 @@
           </div>
           <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
             <span class="en1-progress-pill" id="en1ProgressBadge">已作答 ${answeredCount} / 5</span>
-            <button type="button" class="en1-tool-btn en1-clear-btn" id="en1ClearMarksRightBtn" ${state.marks.length === 0 ? 'disabled' : ''}>
-              🧹 清除痕迹<span class="en1-clear-count">${state.marks.length > 0 ? ` (${state.marks.length})` : ''}</span>
+            <button type="button" class="en1-tool-btn en1-clear-btn" id="en1ClearMarksRightBtn" ${getTotalTraceCount() === 0 ? 'disabled' : ''}>
+              🧹 清除痕迹<span class="en1-clear-count">${getTotalTraceCount() > 0 ? ` (${getTotalTraceCount()})` : ''}</span>
             </button>
           </div>
         </div>
@@ -987,6 +1503,7 @@
 
     if (rightScroll && prevRightScroll) rightScroll.scrollTop = prevRightScroll;
     bindPartBRightEvents(pb, year);
+    ensureSheetInkCanvas('right');
   }
 
   function bindPartBRightEvents(pb, year) {
@@ -1118,6 +1635,24 @@
       };
     });
 
+    const autoPenBtn = document.getElementById('en1AutoPenToggle');
+    if (autoPenBtn) {
+      autoPenBtn.onclick = () => {
+        state.autoPenInk = !state.autoPenInk;
+        syncToolbarState();
+        if (window.showToast) {
+          window.showToast(
+            state.autoPenInk
+              ? '🖊️ 已开启指笔分离：手写笔触屏自动书写，手指滑动翻页'
+              : '✋ 已关闭自动笔写：手写笔可作为划词光标使用'
+          );
+        }
+      };
+    }
+
+    const undoBtn = document.getElementById('en1UndoStrokeBtn');
+    if (undoBtn) undoBtn.onclick = () => undoLastStroke();
+
     const clearBtn = document.getElementById('en1ClearMarksBtn');
     if (clearBtn) clearBtn.onclick = () => clearAllMarks();
 
@@ -1133,6 +1668,7 @@
           window.ReaderModule.applySettings();
           const sheet = document.querySelector('#examPaper .en1-sheet');
           if (sheet) sheet.style.fontSize = `${window.ReaderModule.settings.fontSize}px`;
+          renderAllInkCanvases();
         }
       };
     }
@@ -1146,6 +1682,7 @@
           window.ReaderModule.applySettings();
           const sheet = document.querySelector('#examPaper .en1-sheet');
           if (sheet) sheet.style.fontSize = `${window.ReaderModule.settings.fontSize}px`;
+          renderAllInkCanvases();
         }
       };
     }
@@ -1158,18 +1695,64 @@
         const sheet = document.querySelector('#examPaper .en1-sheet');
         if (sheet) sheet.style.lineHeight = `${val}`;
         bar.querySelectorAll('[data-en1-lh]').forEach(b => b.classList.toggle('active', Number(b.getAttribute('data-en1-lh')) === val));
+        renderAllInkCanvases();
       };
     });
   }
 
+  function handleCompletedTextSelection() {
+    if (!window.AppState || window.AppState.examType !== 'en1') return;
+    if (activeInkSession && activeInkSession.started) return;
+    if (state.tool === 'ink_pen' || state.tool === 'ink_hl') return;
+
+    const sel = window.getSelection();
+    if (!sel || sel.isCollapsed || !sel.rangeCount) return;
+
+    const txt = sel.toString();
+    if (!txt || !txt.trim()) return;
+
+    const range = sel.getRangeAt(0);
+    const leftRoot = getMarkableRoot('left');
+    const rightRoot = getMarkableRoot('right');
+    const inLeft = leftRoot && leftRoot.contains(range.startContainer);
+    const inRight = rightRoot && rightRoot.contains(range.startContainer);
+    if (!inLeft && !inRight) return;
+
+    if (state.tool === 'eraser') {
+      removeMarksInRange(range);
+      sel.removeAllRanges();
+      hidePopover();
+      return;
+    }
+    if (['highlight', 'wavy', 'underline', 'strike'].includes(state.tool)) {
+      addMarkFromRange(range, state.tool, state.color);
+      sel.removeAllRanges();
+      hidePopover();
+      return;
+    }
+    showSelectionPopover(range, txt);
+  }
+
   let globalAnnotatorInitialized = false;
+  let selectionDebounceTimer = null;
+  let lastSelectionCheckAt = 0;
+
   function ensureGlobalAnnotatorListeners() {
     if (globalAnnotatorInitialized) return;
     globalAnnotatorInitialized = true;
 
-    document.addEventListener('mouseup', e => {
+    const onPointerOrMouseRelease = e => {
       if (!window.AppState || window.AppState.examType !== 'en1') return;
-      if (e.target.closest('#en1MarkPopover') || e.target.closest('#en1AnnotatorToolbar')) return;
+      if (activeInkSession && activeInkSession.started) return;
+      if (state.tool === 'ink_pen' || state.tool === 'ink_hl') return;
+      if (e.pointerType === 'pen' && state.autoPenInk) return;
+      if (e.target && typeof e.target.closest === 'function') {
+        if (e.target.closest('#en1MarkPopover') || e.target.closest('#en1AnnotatorToolbar')) return;
+      }
+
+      const now = Date.now();
+      if (now - lastSelectionCheckAt < 25) return;
+      lastSelectionCheckAt = now;
 
       const preSel = window.getSelection();
       if (preSel && !preSel.isCollapsed && preSel.toString().trim().length > 0) {
@@ -1182,35 +1765,22 @@
         }
       }
 
-      setTimeout(() => {
-        const sel = window.getSelection();
-        if (!sel || sel.isCollapsed || !sel.rangeCount) {
-          return;
-        }
-        const txt = sel.toString();
-        if (!txt || !txt.trim()) return;
-        const range = sel.getRangeAt(0);
-        const leftRoot = getMarkableRoot('left');
-        const rightRoot = getMarkableRoot('right');
-        const inLeft = leftRoot && leftRoot.contains(range.startContainer);
-        const inRight = rightRoot && rightRoot.contains(range.startContainer);
-        if (!inLeft && !inRight) return;
+      setTimeout(handleCompletedTextSelection, 16);
+    };
 
-        if (state.tool === 'eraser') {
-          removeMarksInRange(range);
-          sel.removeAllRanges();
-          hidePopover();
-          return;
-        }
-        if (['highlight', 'wavy', 'underline', 'strike'].includes(state.tool)) {
-          addMarkFromRange(range, state.tool, state.color);
-          sel.removeAllRanges();
-          hidePopover();
-          return;
-        }
-        // Default: show floating selection popover
-        showSelectionPopover(range, txt);
-      }, 10);
+    document.addEventListener('mouseup', onPointerOrMouseRelease);
+    document.addEventListener('pointerup', onPointerOrMouseRelease);
+
+    // Debounced selectionchange handles tablet long-press + handle-drag text selections cleanly
+    document.addEventListener('selectionchange', () => {
+      if (!window.AppState || window.AppState.examType !== 'en1') return;
+      clearTimeout(selectionDebounceTimer);
+      selectionDebounceTimer = setTimeout(() => {
+        if (activeInkSession && activeInkSession.started) return;
+        const sel = window.getSelection();
+        if (!sel || sel.isCollapsed || !sel.toString().trim()) return;
+        handleCompletedTextSelection();
+      }, 320);
     });
 
     document.addEventListener('mousedown', e => {
@@ -1250,12 +1820,14 @@
     render(dataObj, year, textId, mode) {
       ensureGlobalAnnotatorListeners();
       hidePopover();
+      activeInkSession = null;
 
       state.year = Number(year);
       state.textId = textId;
       state.mode = mode || 'practice';
       state.data = dataObj;
       state.marks = loadMarks(state.year, state.textId);
+      state.strokes = loadStrokes(state.year, state.textId);
       state.revealAnswers = false;
 
       if (textId === 'part_b') {
@@ -1268,13 +1840,16 @@
       }
 
       bindToolbarEvents();
+      syncToolbarState();
       reapplyAllMarks();
+      renderAllInkCanvases();
 
       const leftScroll = document.getElementById('leftScroll');
       const rightScroll = document.getElementById('rightScroll');
       if (leftScroll) leftScroll.scrollTop = 0;
       if (rightScroll) rightScroll.scrollTop = 0;
     },
-    clearAllMarks
+    clearAllMarks,
+    undoLastStroke
   };
 })();
