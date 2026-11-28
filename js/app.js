@@ -526,7 +526,7 @@
     textSelect.innerHTML = '';
     if (yItem.texts && yItem.texts.length > 0) {
       const grpReading = document.createElement('optgroup');
-      grpReading.label = '📖 英一阅读理解 (Text 1-4 · 40分)';
+      grpReading.label = '阅读理解 (Text 1-4 · 40分)';
       yItem.texts.forEach(t => {
         const opt = document.createElement('option');
         opt.value = t.id;
@@ -540,12 +540,13 @@
     if (yItem.hasPartB) {
       const optPartB = document.createElement('option');
       optPartB.value = 'part_b';
-      optPartB.textContent = '🧩 英一新题型 (41-45题 · 10分)';
+      optPartB.textContent = '新题型 (41-45题 · 10分)';
       if (String(AppState.textId) === 'part_b') optPartB.selected = true;
       textSelect.appendChild(optPartB);
     }
 
     textSelect.value = String(AppState.textId);
+    syncTextSectionPicker();
   }
 
   function setupYearDropdown() {
@@ -840,13 +841,13 @@
     // 1. Section I Use of English (完形填空)
     const optCloze = document.createElement('option');
     optCloze.value = 'use_of_english';
-    optCloze.textContent = '🧩 完形填空 (1-20题 · 10分)';
+    optCloze.textContent = '完形填空 (1-20题 · 10分)';
     if (String(AppState.textId) === 'use_of_english') optCloze.selected = true;
     textSelect.appendChild(optCloze);
 
     // 2. Section II Part A Reading Comprehension (传统阅读 Text 1-4)
     const grpReading = document.createElement('optgroup');
-    grpReading.label = '📖 传统阅读理解 (Text 1-4 · 40分)';
+    grpReading.label = '传统阅读理解 (Text 1-4 · 40分)';
     yItem.texts.forEach(t => {
       const opt = document.createElement('option');
       opt.value = t.id;
@@ -859,20 +860,20 @@
     // 3. Section II Part B Matching (新题型)
     const optPartB = document.createElement('option');
     optPartB.value = 'part_b';
-    optPartB.textContent = '🧩 新题型 (41-45题 · 10分)';
+    optPartB.textContent = '新题型 (41-45题 · 10分)';
     if (String(AppState.textId) === 'part_b') optPartB.selected = true;
     textSelect.appendChild(optPartB);
 
     // 4. Section III Translation (英译汉)
     const optTrans = document.createElement('option');
     optTrans.value = 'translation';
-    optTrans.textContent = '✍️ 英译汉 (46题 · 15分)';
+    optTrans.textContent = '英译汉 (46题 · 15分)';
     if (String(AppState.textId) === 'translation') optTrans.selected = true;
     textSelect.appendChild(optTrans);
 
     // 5. Section IV Writing (写作 Part A & Part B)
     const grpWriting = document.createElement('optgroup');
-    grpWriting.label = '✍️ Section IV 写作 (Part A & Part B · 25分)';
+    grpWriting.label = '写作 (Part A & Part B · 25分)';
     const optWritingA = document.createElement('option');
     optWritingA.value = 'writing_a';
     optWritingA.textContent = 'Part A 小作文 (47题 · 10分)';
@@ -888,6 +889,228 @@
     textSelect.appendChild(grpWriting);
 
     textSelect.value = String(AppState.textId);
+    syncTextSectionPicker();
+  }
+
+  function escapePickerHtml(str) {
+    return String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function buildTextSectionPickerGroups() {
+    if (AppState.examType === 'en1') {
+      const yItem = (window.KAOYAN_EN1_MANIFEST || []).find(m => m.year === AppState.year);
+      if (!yItem) return [];
+      const groups = [];
+      if (yItem.texts && yItem.texts.length > 0) {
+        groups.push({
+          label: '阅读理解 · Part A',
+          score: '40分',
+          layout: 'grid',
+          items: yItem.texts.map(t => ({
+            value: String(t.id),
+            title: `Text ${t.id}`,
+            meta: `${t.q_range}题`,
+            triggerLabel: `阅读 Text ${t.id} (${t.q_range}题)`
+          }))
+        });
+      }
+      if (yItem.hasPartB) {
+        groups.push({
+          label: '新题型 · Part B',
+          score: '10分',
+          layout: 'stack',
+          items: [{
+            value: 'part_b',
+            title: '新题型',
+            meta: '41-45题',
+            triggerLabel: '新题型 (41-45题)'
+          }]
+        });
+      }
+      return groups;
+    }
+
+    const yItem = (window.KAOYAN_MANIFEST || []).find(m => m.year === AppState.year);
+    if (!yItem) return [];
+    return [
+      {
+        label: 'Section I · 知识运用',
+        score: '10分',
+        layout: 'stack',
+        items: [{
+          value: 'use_of_english',
+          title: '完形填空',
+          meta: '1-20题',
+          triggerLabel: '完形填空 (1-20题)'
+        }]
+      },
+      {
+        label: 'Section II · 阅读理解',
+        score: '40分',
+        layout: 'grid',
+        items: (yItem.texts || []).map(t => ({
+          value: String(t.id),
+          title: `Text ${t.id}`,
+          meta: `${t.q_range}题`,
+          triggerLabel: `Text ${t.id} (${t.q_range}题)`
+        }))
+      },
+      {
+        label: 'Section II · 新题型',
+        score: '10分',
+        layout: 'stack',
+        items: [{
+          value: 'part_b',
+          title: '新题型',
+          meta: '41-45题',
+          triggerLabel: '新题型 (41-45题)'
+        }]
+      },
+      {
+        label: 'Section III · 翻译',
+        score: '15分',
+        layout: 'stack',
+        items: [{
+          value: 'translation',
+          title: '英译汉',
+          meta: '46题',
+          triggerLabel: '英译汉 (46题)'
+        }]
+      },
+      {
+        label: 'Section IV · 写作',
+        score: '25分',
+        layout: 'grid',
+        items: [
+          {
+            value: 'writing_a',
+            title: 'Part A 小作文',
+            meta: '47题 · 10分',
+            triggerLabel: 'Part A 小作文'
+          },
+          {
+            value: 'writing_b',
+            title: 'Part B 大作文',
+            meta: '48题 · 15分',
+            triggerLabel: 'Part B 大作文'
+          }
+        ]
+      }
+    ];
+  }
+
+  function closeTextSectionPicker() {
+    const menu = document.getElementById('textSectionMenu');
+    const btn = document.getElementById('textPickerBtn');
+    if (menu) menu.classList.remove('open');
+    if (btn) btn.setAttribute('aria-expanded', 'false');
+  }
+
+  function syncTextSectionPicker() {
+    const picker = document.getElementById('textSectionPicker');
+    const btn = document.getElementById('textPickerBtn');
+    const textSelect = document.getElementById('textSelect');
+    if (!picker || !btn || !textSelect) return;
+
+    picker.classList.add('enhanced');
+    const isHidden = textSelect.style.display === 'none';
+    picker.style.display = isHidden ? 'none' : '';
+    if (isHidden) {
+      closeTextSectionPicker();
+      return;
+    }
+
+    const groups = buildTextSectionPickerGroups();
+    const curVal = String(AppState.textId);
+    let activeTriggerLabel = '';
+
+    groups.forEach(g => {
+      g.items.forEach(it => {
+        if (it.value === curVal) activeTriggerLabel = it.triggerLabel;
+      });
+    });
+    if (!activeTriggerLabel && textSelect.selectedOptions && textSelect.selectedOptions[0]) {
+      activeTriggerLabel = textSelect.selectedOptions[0].textContent;
+    }
+    btn.textContent = activeTriggerLabel || '选择篇章';
+
+    const menu = document.getElementById('textSectionMenu');
+    if (menu) {
+      menu.innerHTML = groups.map(g => `
+        <div class="sp-group">
+          <div class="sp-group-header">
+            <span>${escapePickerHtml(g.label)}</span>
+            ${g.score ? `<span class="sp-group-score">${escapePickerHtml(g.score)}</span>` : ''}
+          </div>
+          <div class="${g.layout === 'grid' ? 'sp-grid-2' : 'sp-stack'}">
+            ${g.items.map(it => `
+              <button type="button" class="sp-item ${it.value === curVal ? 'active' : ''}" data-sp-value="${escapePickerHtml(it.value)}" role="option" aria-selected="${it.value === curVal ? 'true' : 'false'}">
+                <span class="sp-item-title">${escapePickerHtml(it.title)}</span>
+                <span class="sp-item-meta">${escapePickerHtml(it.meta)}</span>
+              </button>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+    }
+  }
+
+  function initTextSectionPicker() {
+    const btn = document.getElementById('textPickerBtn');
+    const textSelect = document.getElementById('textSelect');
+    if (!btn || !textSelect || btn.__spBound) return;
+    btn.__spBound = true;
+
+    let menu = document.getElementById('textSectionMenu');
+    if (!menu) {
+      menu = document.createElement('div');
+      menu.id = 'textSectionMenu';
+      menu.className = 'section-picker-menu';
+      menu.setAttribute('role', 'listbox');
+      document.body.appendChild(menu);
+    }
+
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const willOpen = !menu.classList.contains('open');
+      if (!willOpen) {
+        closeTextSectionPicker();
+        return;
+      }
+      syncTextSectionPicker();
+      const rect = btn.getBoundingClientRect();
+      const menuW = 316;
+      const left = Math.max(10, Math.min(window.innerWidth - menuW - 10, rect.left));
+      menu.style.left = `${left}px`;
+      menu.style.top = `${Math.round(rect.bottom + 6)}px`;
+      menu.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+    });
+
+    menu.addEventListener('click', e => {
+      const itemBtn = e.target.closest('[data-sp-value]');
+      if (!itemBtn) return;
+      const val = itemBtn.getAttribute('data-sp-value');
+      closeTextSectionPicker();
+      if (textSelect.value !== val) {
+        textSelect.value = val;
+        textSelect.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+    });
+
+    document.addEventListener('pointerdown', e => {
+      if (!menu.classList.contains('open')) return;
+      if (menu.contains(e.target) || btn.contains(e.target)) return;
+      closeTextSectionPicker();
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && menu.classList.contains('open')) {
+        closeTextSectionPicker();
+      }
+    });
+
+    window.addEventListener('resize', closeTextSectionPicker);
   }
 
   async function loadCurrentText() {
@@ -1537,6 +1760,7 @@
       const submodeBox = document.getElementById('submodeContainer');
       const revSubGroup = document.getElementById('reviewSubmodeGroup');
       if (textSelect) textSelect.style.display = '';
+      syncTextSectionPicker();
       if (jumpSelect) jumpSelect.style.display = 'none';
       if (stepNavGroup) stepNavGroup.style.display = 'none';
       if (floatingNavBar) floatingNavBar.style.display = 'none';
@@ -1563,6 +1787,7 @@
 
     if (AppState.mode === 'writing') {
       if (textSelect) textSelect.style.display = 'none';
+      syncTextSectionPicker();
       if (jumpSelect) jumpSelect.style.display = 'none';
       if (stepNavGroup) stepNavGroup.style.display = 'none';
       if (floatingNavBar) floatingNavBar.style.display = 'none';
@@ -1575,6 +1800,7 @@
       if (textSelect) textSelect.style.display = '';
     }
 
+    syncTextSectionPicker();
     if (isSpecial) {
       if (prevBtn) prevBtn.disabled = true;
       if (nextBtn) nextBtn.disabled = true;
@@ -3934,11 +4160,14 @@
       loadCurrentText();
     });
 
+    initTextSectionPicker();
+
     document.getElementById('textSelect').addEventListener('change', e => {
       const sel = e.target;
       if (sel && (Date.now() - (sel.__fromPointer || 0) < 4000)) sel.blur();
       const val = sel.value;
       AppState.textId = isNaN(Number(val)) ? val : Number(val);
+      syncTextSectionPicker();
       AppState.savedStepIndex = 0;
       loadCurrentText();
     });

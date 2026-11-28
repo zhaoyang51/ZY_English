@@ -2816,3 +2816,190 @@ body.theme-dark .writing-b-tier-btn.active {
   border-color: var(--ink, #0f172a);
   color: #ffffff;
 }
+
+
+/* Custom Minimalist Exam Section & Passage Picker */
+.section-picker {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.section-picker.enhanced > select#textSelect {
+  position: absolute;
+  inset: 0;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.section-picker:not(.enhanced) > .section-picker-trigger {
+  display: none;
+}
+
+.section-picker-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: inherit;
+  text-align: left;
+  white-space: nowrap;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.section-picker-trigger:hover,
+.section-picker-trigger[aria-expanded="true"] {
+  border-color: var(--accent, #2563eb);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.section-picker-menu {
+  position: fixed;
+  z-index: 3200;
+  width: 316px;
+  max-width: calc(100vw - 20px);
+  max-height: min(76vh, 520px);
+  overflow-y: auto;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--surface, #ffffff);
+  color: var(--ink, #0f172a);
+  border: 1px solid var(--border, #e2e8f0);
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.12), 0 2px 6px rgba(15, 23, 42, 0.05);
+  display: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+  user-select: none;
+}
+
+.section-picker-menu.open {
+  display: block;
+  animation: spMenuFade 0.14s ease-out;
+}
+
+@keyframes spMenuFade {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+body.theme-parchment .section-picker-menu {
+  background: #fffdf8;
+  border-color: rgba(120, 90, 40, 0.2);
+}
+
+body.theme-dark .section-picker-menu {
+  background: #172030;
+  border-color: rgba(255, 255, 255, 0.13);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.45);
+}
+
+.sp-group + .sp-group {
+  margin-top: 10px;
+  padding-top: 9px;
+  border-top: 1px solid rgba(100, 116, 139, 0.14);
+}
+
+body.theme-dark .sp-group + .sp-group {
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+.sp-group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: var(--muted, #64748b);
+}
+
+.sp-group-score {
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.sp-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px;
+}
+
+.sp-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sp-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: rgba(15, 23, 42, 0.025);
+  color: var(--ink, #1e293b);
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+
+body.theme-dark .sp-item {
+  background: rgba(255, 255, 255, 0.035);
+  color: #e2e8f0;
+}
+
+.sp-item:hover {
+  background: rgba(37, 99, 235, 0.06);
+  border-color: rgba(37, 99, 235, 0.18);
+}
+
+.sp-item.active {
+  background: rgba(37, 99, 235, 0.1);
+  border-color: rgba(37, 99, 235, 0.45);
+  color: var(--accent, #2563eb);
+}
+
+body.theme-dark .sp-item:hover {
+  background: rgba(59, 130, 246, 0.14);
+}
+
+body.theme-dark .sp-item.active {
+  background: rgba(59, 130, 246, 0.22);
+  border-color: rgba(96, 165, 250, 0.5);
+  color: #93c5fd;
+}
+
+.sp-item-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sp-item-meta {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted, #64748b);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.sp-item.active .sp-item-meta {
+  color: var(--accent, #2563eb);
+}
+
+body.theme-dark .sp-item-meta {
+  color: #94a3b8;
+}
+
+body.theme-dark .sp-item.active .sp-item-meta {
+  color: #bfdbfe;
+}
