@@ -166,9 +166,11 @@ test('En1PaperRenderer renders authentic split paper UI for Reading and Part B',
   const leftReading = elements.get('examPaper').innerHTML;
   const rightReading = elements.get('workspaceContent').innerHTML;
   assert.ok(leftReading.includes('id="en1AnnotatorToolbar"'));
+  assert.ok(leftReading.includes('data-en1-tool="popover"'));
   assert.ok(leftReading.includes('data-en1-tool="ink_pen"'));
   assert.ok(leftReading.includes('data-en1-tool="ink_hl"'));
-  assert.ok(leftReading.includes('id="en1AutoPenToggle"'));
+  assert.ok(leftReading.includes('data-en1-tool="eraser"'));
+  assert.ok(!leftReading.includes('data-en1-tool="wavy"'));
   assert.ok(leftReading.includes('id="en1UndoStrokeBtn"'));
   assert.ok(leftReading.includes('id="en1ClearMarksBtn"'));
   assert.ok(leftReading.includes('id="en1ToggleTransBtn"'));

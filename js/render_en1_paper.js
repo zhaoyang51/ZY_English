@@ -972,24 +972,19 @@
     const lh = window.ReaderModule?.settings?.lineHeight || 1.85;
     const markCount = getTotalTraceCount();
     const tools = [
-      { id: 'popover',   label: '🖱️ 划词弹窗', title: '划词后弹出颜色与线型选择' },
-      { id: 'highlight', label: '🖍️ 荧光笔',   title: '划词涂抹荧光高亮' },
-      { id: 'wavy',      label: '〰️ 波浪线',   title: '划词标出波浪线' },
-      { id: 'underline', label: '＿ 下划线',   title: '划词标出下划线' },
-      { id: 'strike',    label: '✂️ 删除线',   title: '划词标出删除线（排除选项）' },
-      { id: 'ink_pen',   label: '✏️ 手写笔',   title: '自由手写笔批注（支持平板手写笔/手指/鼠标）' },
-      { id: 'ink_hl',    label: '🖌️ 手写荧光', title: '自由手写荧光涂抹' },
-      { id: 'eraser',    label: '🧽 橡皮擦',   title: '点击划词标记或擦除手写笔迹' }
+      { id: 'popover', label: '划词', title: '选中文本后弹出荧光、波浪线、下划线、删除线菜单（平板触控笔落笔可直接书写）' },
+      { id: 'ink_pen', label: '手写', title: '细笔自由批注' },
+      { id: 'ink_hl',  label: '荧光', title: '荧光笔自由涂抹' },
+      { id: 'eraser',  label: '橡皮', title: '点击划词标记或擦除手写笔迹' }
     ];
 
     return `
       <div class="en1-toolbar" id="en1AnnotatorToolbar">
-        <div class="en1-toolbar-group">
+        <div class="en1-tool-seg">
           ${tools.map(t => `
             <button type="button" class="en1-tool-btn ${state.tool === t.id ? 'active' : ''}" data-en1-tool="${t.id}" title="${t.title}">${t.label}</button>
           `).join('')}
         </div>
-        <div class="en1-toolbar-sep"></div>
         <div class="en1-toolbar-group" title="选择画笔颜色">
           ${COLORS.map(c => `
             <button type="button" class="en1-color-dot ${state.color === c.key ? 'active' : ''}" data-en1-color="${c.key}" title="${c.label}"></button>
@@ -997,19 +992,16 @@
         </div>
         <div class="en1-toolbar-sep"></div>
         <div class="en1-toolbar-group">
-          <button type="button" class="en1-tool-btn ${state.autoPenInk ? 'active' : ''}" id="en1AutoPenToggle" title="开启后，平板手写笔触碰试卷自动书写，手指滑动依然翻页（指笔分离）">
-            🖊️ 笔写
-          </button>
-          <button type="button" class="en1-tool-btn" id="en1UndoStrokeBtn" ${state.strokes.length === 0 ? 'disabled' : ''} title="撤销上一笔手写痕迹">
-            ↩️ 撤销
+          <button type="button" class="en1-tool-btn" id="en1UndoStrokeBtn" ${state.strokes.length === 0 ? 'disabled' : ''} title="撤销上一笔手写">
+            ↩️
           </button>
           <button type="button" class="en1-tool-btn en1-clear-btn" id="en1ClearMarksBtn" ${markCount === 0 ? 'disabled' : ''} title="一键清除本篇所有划词与手写痕迹">
-            🧹 一键清除痕迹<span class="en1-clear-count">${markCount > 0 ? ` (${markCount})` : ''}</span>
+            清除<span class="en1-clear-count">${markCount > 0 ? ` (${markCount})` : ''}</span>
           </button>
         </div>
         <div class="en1-toolbar-group" style="margin-left:auto">
           <button type="button" class="en1-tool-btn ${state.showTrans ? 'active' : ''}" id="en1ToggleTransBtn" title="显示或隐藏文章逐句中文对照">
-            🌐 句子对照
+            🌐 译文
           </button>
           <button type="button" class="en1-tool-btn" id="en1FontDec" title="缩小字号">A-</button>
           <span class="font-size-badge" id="readerFontBadge">${fs}px</span>
@@ -1031,8 +1023,6 @@
       bar.querySelectorAll('[data-en1-color]').forEach(btn => {
         btn.classList.toggle('active', btn.getAttribute('data-en1-color') === state.color);
       });
-      const autoPenBtn = document.getElementById('en1AutoPenToggle');
-      if (autoPenBtn) autoPenBtn.classList.toggle('active', !!state.autoPenInk);
       const transBtn = document.getElementById('en1ToggleTransBtn');
       if (transBtn) transBtn.classList.toggle('active', !!state.showTrans);
       const fs = window.ReaderModule?.settings?.fontSize || 17.5;
@@ -1141,7 +1131,7 @@
         </div>
         <div class="en1-paper-footer">
           <span>Questions ${textObj.q_range}</span>
-          <span>约 ${wordCount} 词 · 划词/手写可批注 · 点击「🌐 句子对照」可切换中文译文</span>
+          <span>约 ${wordCount} 词 · 划词或使用手写笔批注 · 点击「🌐 译文」切换中文对照</span>
         </div>
       </div>
     `);
@@ -1656,26 +1646,11 @@
       btn.onclick = () => {
         state.color = btn.getAttribute('data-en1-color');
         if (state.tool === 'popover' || state.tool === 'eraser') {
-          state.tool = 'highlight';
+          state.tool = 'ink_hl';
         }
         syncToolbarState();
       };
     });
-
-    const autoPenBtn = document.getElementById('en1AutoPenToggle');
-    if (autoPenBtn) {
-      autoPenBtn.onclick = () => {
-        state.autoPenInk = !state.autoPenInk;
-        syncToolbarState();
-        if (window.showToast) {
-          window.showToast(
-            state.autoPenInk
-              ? '🖊️ 已开启指笔分离：手写笔触屏自动书写，手指滑动翻页'
-              : '✋ 已关闭自动笔写：手写笔可作为划词光标使用'
-          );
-        }
-      };
-    }
 
     const undoBtn = document.getElementById('en1UndoStrokeBtn');
     if (undoBtn) undoBtn.onclick = () => undoLastStroke();
