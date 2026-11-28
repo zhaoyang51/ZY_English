@@ -22,16 +22,17 @@ test('All 34 小作文套写 HTML files exist (2010-2026 进阶版 & 速通版) 
   }
 });
 
-test('app.js configures both writing_a and writing_b interactive workspaces and exports loadCurrentText', () => {
+test('app.js configures both writing_a (进阶版/速通版 only) and writing_b workspaces and exports loadCurrentText', () => {
   const appSrc = read('js/app.js');
   assert.ok(appSrc.includes('WRITING_WORKSPACES'), 'app.js must define WRITING_WORKSPACES');
+  assert.ok(!appSrc.includes('答题卡模考'), 'Part A writing workspace must NOT include 答题卡模考');
   assert.ok(appSrc.includes("小作文套写/英二_2010-2026_小作文_${tierKey}/英二_${yNum}_小作文_${tierKey}.html"), 'app.js must resolve 小作文套写 HTML URLs');
   assert.ok(appSrc.includes("大作文套写/英二_${yNum}_${tierKey}.html"), 'app.js must keep 大作文套写 HTML URLs');
   assert.ok(appSrc.includes('window.loadCurrentText = loadCurrentText;'), 'app.js must export window.loadCurrentText');
   assert.ok(appSrc.includes('window.setupYearDropdown = setupYearDropdown;'), 'app.js must export window.setupYearDropdown');
 });
 
-test('WritingModule and WritingRenderer support switching between 小作文套写 and 答题卡模考', () => {
+test('WritingModule.loadSectionFromWriting jumps to Part A 小作文套写 in English 2', () => {
   const elements = new Map();
   function makeEl(id) {
     const el = {
@@ -45,17 +46,14 @@ test('WritingModule and WritingRenderer support switching between 小作文套�
         _classes: new Set(),
         add(c) { this._classes.add(c); },
         remove(c) { this._classes.delete(c); },
-        toggle(c, v) { if (v !== undefined) { if (v) this._classes.add(c); else this._classes.delete(c); } else { if (this._classes.has(c)) this._classes.delete(c); else this._classes.add(c); } },
+        toggle() {},
         contains(c) { return this._classes.has(c); }
       },
       setAttribute(k, v) { this.attributes[k] = String(v); },
       getAttribute(k) { return this.attributes[k]; },
-      addEventListener(evt, fn) { this['on_' + evt] = fn; },
+      addEventListener() {},
       querySelectorAll() { return []; },
-      querySelector(sel) {
-        if (sel === '#btnEnterWritingATaoxie') return elements.get('btnEnterWritingATaoxie') || null;
-        return null;
-      },
+      querySelector() { return null; },
       dispatchEvent() {}
     };
     elements.set(id, el);
@@ -106,31 +104,13 @@ test('WritingModule and WritingRenderer support switching between 小作文套�
   context.window.setupYearDropdown = () => { setupCalls++; };
 
   vm.runInContext(read('data/writing_prompts.js'), context);
-  vm.runInContext(read('js/render_writing.js'), context);
   vm.runInContext(read('js/writing.js'), context);
 
-  // 1. Test WritingRenderer renders back-to-taoxie button on writing_a
-  const btnTaoxie = makeEl('btnEnterWritingATaoxie');
-  context.localStorage.setItem('KAOYAN_WRITING_A_LAST_INTERACTIVE_TIER', '速通版');
-  context.localStorage.setItem('KAOYAN_WRITING_A_TIER', '答题卡模考');
-  context.window.WritingRenderer.render(2025, 'writing_a', 'practice');
-  assert.ok(document.getElementById('examPaper').innerHTML.includes('btnEnterWritingATaoxie'), 'Part A exam toolbar must include btnEnterWritingATaoxie');
-  assert.ok(typeof btnTaoxie.on_click === 'function', 'btnEnterWritingATaoxie must bind click handler');
-  btnTaoxie.on_click();
-  assert.strictEqual(context.localStorage.getItem('KAOYAN_WRITING_A_TIER'), '速通版');
-  assert.strictEqual(loadCalls, 1);
-
-  // 2. Test WritingModule.loadSectionFromWriting with interactive vs exam submode
-  context.window.loadSectionFromWriting('writing_a', 2022, 'exam');
-  assert.strictEqual(context.localStorage.getItem('KAOYAN_WRITING_A_TIER'), '答题卡模考');
+  context.window.loadSectionFromWriting('writing_a', 2024);
   assert.strictEqual(context.window.AppState.examType, 'en2');
-  assert.strictEqual(context.window.AppState.year, 2022);
-  assert.strictEqual(context.window.AppState.textId, 'writing_a');
-  assert.strictEqual(setupCalls, 1);
-  assert.strictEqual(loadCalls, 2);
-
-  context.window.loadSectionFromWriting('writing_a', 2024, 'interactive');
-  assert.strictEqual(context.localStorage.getItem('KAOYAN_WRITING_A_TIER'), '速通版');
   assert.strictEqual(context.window.AppState.year, 2024);
-  assert.strictEqual(loadCalls, 3);
+  assert.strictEqual(context.window.AppState.textId, 'writing_a');
+  assert.strictEqual(context.window.AppState.mode, 'practice');
+  assert.strictEqual(setupCalls, 1);
+  assert.strictEqual(loadCalls, 1);
 });

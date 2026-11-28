@@ -577,12 +577,10 @@
       partLabel: 'Part A 小作文套写',
       years: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
       storageKey: 'KAOYAN_WRITING_A_TIER',
-      lastInteractiveKey: 'KAOYAN_WRITING_A_LAST_INTERACTIVE_TIER',
       defaultTier: '进阶版',
       tiers: [
         { key: '进阶版', label: '进阶版' },
-        { key: '速通版', label: '速通版' },
-        { key: '答题卡模考', label: '答题卡模考', isExamFallback: true }
+        { key: '速通版', label: '速通版' }
       ],
       getFileUrl: (yNum, tierKey) => encodeURI(`小作文套写/英二_2010-2026_小作文_${tierKey}/英二_${yNum}_小作文_${tierKey}.html`) + '?v=20261128_v1',
       shortcuts: { prevId: 'prev', nextId: 'next', modalId: 'questionModal', modalType: 'hidden' },
@@ -618,9 +616,7 @@
   }
 
   function isInteractiveWritingActive(partKey) {
-    if (partKey === 'writing_b') return true;
-    if (partKey === 'writing_a') return getWritingTier('writing_a') !== '答题卡模考';
-    return false;
+    return partKey === 'writing_a' || partKey === 'writing_b';
   }
 
   function isWritingFrameModalOpen(doc, shortcuts) {
@@ -737,8 +733,6 @@
     }
 
     let currentTier = getWritingTier(partKey);
-    const tierObj = cfg.tiers.find(t => t.key === currentTier);
-    if (!tierObj || tierObj.isExamFallback) currentTier = cfg.defaultTier;
     const fileUrl = (tierKey) => cfg.getFileUrl(yNum, tierKey);
 
     yuqueContainer.innerHTML = `
@@ -779,20 +773,9 @@
     yuqueContainer.querySelectorAll('.writing-b-tier-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const nextTier = btn.dataset.tier;
-        const nextMeta = cfg.tiers.find(t => t.key === nextTier);
-        if (!nextTier || !nextMeta || nextTier === currentTier) return;
+        if (!nextTier || nextTier === currentTier) return;
         currentTier = nextTier;
-        try {
-          localStorage.setItem(cfg.storageKey, currentTier);
-          if (cfg.lastInteractiveKey && !nextMeta.isExamFallback) {
-            localStorage.setItem(cfg.lastInteractiveKey, currentTier);
-          }
-        } catch (e) {}
-
-        if (nextMeta.isExamFallback) {
-          loadCurrentText();
-          return;
-        }
+        try { localStorage.setItem(cfg.storageKey, currentTier); } catch (e) {}
 
         yuqueContainer.querySelectorAll('.writing-b-tier-btn').forEach(b => {
           b.classList.toggle('active', b.dataset.tier === currentTier);

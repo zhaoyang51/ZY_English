@@ -335,7 +335,7 @@
             <button class="filter-btn ${this.smallEssayFilter === 'mixed' ? 'active' : ''}" data-filter="mixed">混合类型 (7)</button>
           </div>
           <div class="filter-group" style="display:flex;align-items:center;gap:12px">
-            <button class="paper-text-btn practice-jump-btn" data-year="${this.selectedExamYear || 2025}" data-part="writing_a" data-submode="interactive" title="打开交互式小作文套写工作台（进阶版 / 速通版）">✨ 进入小作文套写</button>
+            <button class="paper-text-btn practice-jump-btn" data-year="${this.selectedExamYear || 2025}" data-part="writing_a" title="打开交互式小作文套写工作台（进阶版 / 速通版）">✨ 进入小作文套写</button>
             <label class="w-switch-label">
               <input type="checkbox" class="w-switch-input" id="smallEssayCnToggle" ${this.smallEssayShowCn ? 'checked' : ''}>
               <span class="w-switch-track"><span class="w-switch-thumb"></span></span>
@@ -364,7 +364,7 @@
                   <th style="width:70px">年份</th>
                   <th style="width:110px">类型</th>
                   <th>真题主题与要求</th>
-                  <th style="width:255px">操作</th>
+                  <th style="width:210px">操作</th>
                 </tr>
               </thead>
               <tbody>
@@ -378,7 +378,7 @@
                     </td>
                     <td>
                       ${item.matchTemplate ? `<button class="clean-link-btn template-jump-btn" data-match="${item.matchTemplate}">${item.matchTemplate}</button>` : ''}
-                      ${sub === '英语二' ? `<button class="paper-text-btn practice-jump-btn" data-year="${item.year}" data-part="writing_a" data-submode="interactive" style="margin-left:6px">小作文套写</button><button class="paper-text-btn practice-jump-btn" data-year="${item.year}" data-part="writing_a" data-submode="exam" style="margin-left:4px">模拟作答</button>` : ''}
+                      ${sub === '英语二' ? `<button class="paper-text-btn practice-jump-btn" data-year="${item.year}" data-part="writing_a" style="margin-left:6px">进入小作文套写</button>` : ''}
                     </td>
                   </tr>
                 `).join('')}
@@ -464,11 +464,7 @@
       panel.querySelectorAll('.practice-jump-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           if (window.loadSectionFromWriting) {
-            window.loadSectionFromWriting(
-              btn.getAttribute('data-part'),
-              btn.getAttribute('data-year'),
-              btn.getAttribute('data-submode')
-            );
+            window.loadSectionFromWriting(btn.getAttribute('data-part'), btn.getAttribute('data-year'));
           }
         });
       });
@@ -903,17 +899,7 @@
     }
   };
 
-  window.loadSectionFromWriting = function(sectionId, year, subMode) {
-    if (sectionId === 'writing_a' && subMode) {
-      try {
-        if (subMode === 'exam') {
-          localStorage.setItem('KAOYAN_WRITING_A_TIER', '答题卡模考');
-        } else if (subMode === 'interactive') {
-          const prev = localStorage.getItem('KAOYAN_WRITING_A_LAST_INTERACTIVE_TIER');
-          localStorage.setItem('KAOYAN_WRITING_A_TIER', prev === '速通版' ? '速通版' : '进阶版');
-        }
-      } catch (e) {}
-    }
+  window.loadSectionFromWriting = function(sectionId, year) {
     if (window.AppState) {
       if (window.AppState.examType !== 'en2') {
         window.AppState.examType = 'en2';
