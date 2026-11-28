@@ -121,6 +121,7 @@
             <button class="toolbar-btn ${lh === 2.2 ? 'active' : ''}" data-lh="2.2" id="btnWritingLhLoose">宽松</button>
           </div>
           <div class="toolbar-group" style="margin-left:auto;display:flex;align-items:center;gap:8px">
+            ${isPartA ? `<button class="toolbar-btn" id="btnEnterWritingATaoxie" title="切换回交互式小作文套写（进阶版 / 速通版）">✨ 小作文套写</button>` : ''}
             <button class="toolbar-btn ${this.showTrans ? 'active' : ''}" id="btnToggleWritingTrans" title="切换中文翻译与题型点拨">
               🌐 中文解析
             </button>
@@ -314,6 +315,20 @@
           }
         });
       });
+
+      // Switch back to interactive 小作文套写
+      const btnTaoxie = examPaper.querySelector('#btnEnterWritingATaoxie');
+      if (btnTaoxie) {
+        btnTaoxie.addEventListener('click', () => {
+          try {
+            const prev = localStorage.getItem('KAOYAN_WRITING_A_LAST_INTERACTIVE_TIER');
+            localStorage.setItem('KAOYAN_WRITING_A_TIER', prev === '速通版' ? '速通版' : '进阶版');
+          } catch (e) {}
+          if (typeof window.loadCurrentText === 'function') {
+            window.loadCurrentText();
+          }
+        });
+      }
 
       // Toggle translation
       const btnTrans = examPaper.querySelector('#btnToggleWritingTrans');

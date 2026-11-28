@@ -469,7 +469,7 @@
     document.body.classList.toggle('mode-vocab', AppState.mode === 'vocab');
     document.body.classList.toggle('mode-writing', AppState.mode === 'writing');
     document.body.classList.toggle('mode-en1', AppState.examType === 'en1' && AppState.mode !== 'vocab' && AppState.mode !== 'writing');
-    if (hadWritingB && AppState.textId === 'writing_b' && AppState.mode !== 'vocab' && AppState.mode !== 'writing') {
+    if (hadWritingB && isInteractiveWritingActive(AppState.textId) && AppState.mode !== 'vocab' && AppState.mode !== 'writing') {
       document.body.classList.add('has-writing-b');
     }
 
@@ -572,20 +572,62 @@
   }
 
 
-  const WRITING_B_YEARS = [2020, 2021, 2022, 2023, 2024, 2025, 2026];
-  const WRITING_B_TIERS = [
-    { key: '满分版', label: '满分版' },
-    { key: '简化版', label: '简化版' },
-    { key: '速通版_标准版', label: '速通版 · 标准版' },
-    { key: '速通版_无脑版', label: '速通版 · 无脑版' }
-  ];
+  const WRITING_WORKSPACES = {
+    writing_a: {
+      partLabel: 'Part A 小作文套写',
+      years: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      storageKey: 'KAOYAN_WRITING_A_TIER',
+      lastInteractiveKey: 'KAOYAN_WRITING_A_LAST_INTERACTIVE_TIER',
+      defaultTier: '进阶版',
+      tiers: [
+        { key: '进阶版', label: '进阶版' },
+        { key: '速通版', label: '速通版' },
+        { key: '答题卡模考', label: '答题卡模考', isExamFallback: true }
+      ],
+      getFileUrl: (yNum, tierKey) => encodeURI(`小作文套写/英二_2010-2026_小作文_${tierKey}/英二_${yNum}_小作文_${tierKey}.html`) + '?v=20261128_v1',
+      shortcuts: { prevId: 'prev', nextId: 'next', modalId: 'questionModal', modalType: 'hidden' },
+      emptyDesc: '《小作文套写》交互版目前收录 2010–2026 年考研英语二真题（含进阶版、速通版）。',
+      quickYears: [2026, 2025, 2024, 2023, 2022, 2021, 2020]
+    },
+    writing_b: {
+      partLabel: 'Part B 大作文套写',
+      years: [2020, 2021, 2022, 2023, 2024, 2025, 2026],
+      storageKey: 'KAOYAN_WRITING_B_TIER',
+      defaultTier: '满分版',
+      tiers: [
+        { key: '满分版', label: '满分版' },
+        { key: '简化版', label: '简化版' },
+        { key: '速通版_标准版', label: '速通版 · 标准版' },
+        { key: '速通版_无脑版', label: '速通版 · 无脑版' }
+      ],
+      getFileUrl: (yNum, tierKey) => encodeURI(`大作文套写/英二_${yNum}_${tierKey}.html`) + '?v=20261117_nowm_v1',
+      shortcuts: { prevId: 'prevButton', nextId: 'nextButton', modalId: 'questionDialog', modalType: 'open' },
+      emptyDesc: '《大作文套写》交互版目前收录 2020–2026 年考研英语二真题（含满分版、简化版、速通标准版、速通无脑版）。',
+      quickYears: [2026, 2025, 2024, 2023, 2022, 2021, 2020]
+    }
+  };
 
-  function getWritingBTier() {
+  function getWritingTier(partKey) {
+    const cfg = WRITING_WORKSPACES[partKey];
+    if (!cfg) return '';
     try {
-      const saved = localStorage.getItem('KAOYAN_WRITING_B_TIER');
-      if (saved && WRITING_B_TIERS.some(t => t.key === saved)) return saved;
+      const saved = localStorage.getItem(cfg.storageKey);
+      if (saved && cfg.tiers.some(t => t.key === saved)) return saved;
     } catch (e) {}
-    return '满分版';
+    return cfg.defaultTier;
+  }
+
+  function isInteractiveWritingActive(partKey) {
+    if (partKey === 'writing_b') return true;
+    if (partKey === 'writing_a') return getWritingTier('writing_a') !== '答题卡模考';
+    return false;
+  }
+
+  function isWritingFrameModalOpen(doc, shortcuts) {
+    if (!doc || !shortcuts || !shortcuts.modalId) return false;
+    const el = doc.getElementById(shortcuts.modalId);
+    if (!el) return false;
+    return shortcuts.modalType === 'hidden' ? !el.hidden : Boolean(el.open);
   }
 
   function hideYuqueAndWritingB(yuqueContainer) {
@@ -598,15 +640,15 @@
     yuqueContainer.style.display = 'none';
   }
 
-  function attachWritingBFrameShortcuts(frame) {
-    if (!frame) return;
+  function attachWritingFrameShortcuts(frame, shortcuts) {
+    if (!frame || !shortcuts) return;
     try {
       const win = frame.contentWindow;
       const doc = frame.contentDocument || (win && win.document);
       if (!win || !doc) return;
 
-      const prevBtn = doc.getElementById('prevButton');
-      const nextBtn = doc.getElementById('nextButton');
+      const prevBtn = doc.getElementById(shortcuts.prevId);
+      const nextBtn = doc.getElementById(shortcuts.nextId);
       if (prevBtn) prevBtn.title = '快捷键: ←';
       if (nextBtn) nextBtn.title = '快捷键: →';
 
@@ -615,8 +657,7 @@
       }
       win.__writingBShortcuts = (e) => {
         if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
-        const dialog = doc.getElementById('questionDialog');
-        if (dialog && dialog.open) return;
+        if (isWritingFrameModalOpen(doc, shortcuts)) return;
         const target = e.target;
         if (target && target.closest) {
           if (target.closest('input,select,textarea,[contenteditable="true"],[role="separator"]')) return;
@@ -624,12 +665,12 @@
         if (e.key === 'ArrowRight' || e.key === 'PageDown') {
           e.preventDefault();
           e.stopImmediatePropagation();
-          const nb = doc.getElementById('nextButton');
+          const nb = doc.getElementById(shortcuts.nextId);
           if (nb && !nb.disabled) nb.click();
         } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
           e.preventDefault();
           e.stopImmediatePropagation();
-          const pb = doc.getElementById('prevButton');
+          const pb = doc.getElementById(shortcuts.prevId);
           if (pb && !pb.disabled) pb.click();
         }
       };
@@ -637,7 +678,9 @@
     } catch (err) {}
   }
 
-  function renderWritingBWorkspace(year) {
+  function renderWritingWorkspace(partKey, year) {
+    const cfg = WRITING_WORKSPACES[partKey];
+    if (!cfg) return;
     const yNum = Number(year);
     const yuqueContainer = document.getElementById('yuqueContainer');
     const mainLayout = document.getElementById('mainLayout');
@@ -668,13 +711,13 @@
     yuqueContainer.classList.add('writing-b-mode');
     yuqueContainer.style.display = 'flex';
 
-    if (!WRITING_B_YEARS.includes(yNum)) {
+    if (!cfg.years.includes(yNum)) {
       yuqueContainer.innerHTML = `
         <div class="yuque-empty-card">
-          <h3>${yNum} 年 Part B 大作文套写暂未收录</h3>
-          <p>《大作文套写》交互版目前收录 2020–2026 年考研英语二真题（含满分版、简化版、速通标准版、速通无脑版）。</p>
+          <h3>${yNum} 年 ${cfg.partLabel}暂未收录</h3>
+          <p>${cfg.emptyDesc}</p>
           <div class="writing-b-year-jumps">
-            ${[2026, 2025, 2024, 2023, 2022, 2021, 2020].map(y => `
+            ${cfg.quickYears.map(y => `
               <button type="button" class="writing-b-year-btn" data-year="${y}">前往 ${y} 年</button>
             `).join('')}
           </div>
@@ -693,16 +736,18 @@
       return;
     }
 
-    let currentTier = getWritingBTier();
-    const fileUrl = (tierKey) => encodeURI(`大作文套写/英二_${yNum}_${tierKey}.html`) + '?v=20261117_nowm_v1';
+    let currentTier = getWritingTier(partKey);
+    const tierObj = cfg.tiers.find(t => t.key === currentTier);
+    if (!tierObj || tierObj.isExamFallback) currentTier = cfg.defaultTier;
+    const fileUrl = (tierKey) => cfg.getFileUrl(yNum, tierKey);
 
     yuqueContainer.innerHTML = `
-      <div class="writing-b-tier-bar" role="toolbar" aria-label="大作文套写版本切换">
+      <div class="writing-b-tier-bar" role="toolbar" aria-label="${cfg.partLabel}版本切换">
         <div class="writing-b-tier-info">
-          <span>${yNum} 年 Part B 大作文套写</span>
+          <span>${yNum} 年 ${cfg.partLabel}</span>
         </div>
         <div class="writing-b-tier-tabs">
-          ${WRITING_B_TIERS.map(t => `
+          ${cfg.tiers.map(t => `
             <button type="button" class="writing-b-tier-btn ${t.key === currentTier ? 'active' : ''}" data-tier="${t.key}">${t.label}</button>
           `).join('')}
         </div>
@@ -710,9 +755,9 @@
       <div class="writing-b-frame-wrap">
         <div id="writingBLoadingMask" class="yuque-loading-overlay">
           <div class="yuque-loading-spinner"></div>
-          <div style="font-size:14px;color:var(--muted);font-weight:600">正在载入 ${yNum} 年 Part B 大作文套写（${currentTier.replace('_', ' · ')}）...</div>
+          <div style="font-size:14px;color:var(--muted);font-weight:600">正在载入 ${yNum} 年 ${cfg.partLabel}（${currentTier.replace('_', ' · ')}）...</div>
         </div>
-        <iframe id="writingBFrame" class="yuque-frame" src="${fileUrl(currentTier)}" title="${yNum} 年考研英语二 Part B 大作文套写 (${currentTier})"></iframe>
+        <iframe id="writingBFrame" class="yuque-frame" src="${fileUrl(currentTier)}" title="${yNum} 年考研英语二 ${cfg.partLabel} (${currentTier})"></iframe>
       </div>
     `;
 
@@ -721,7 +766,7 @@
       const mask = document.getElementById('writingBLoadingMask');
       if (frame) {
         frame.onload = () => {
-          attachWritingBFrameShortcuts(frame);
+          attachWritingFrameShortcuts(frame, cfg.shortcuts);
           if (mask) {
             mask.style.opacity = '0';
             setTimeout(() => { if (mask && mask.parentNode) mask.parentNode.removeChild(mask); }, 250);
@@ -734,9 +779,21 @@
     yuqueContainer.querySelectorAll('.writing-b-tier-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const nextTier = btn.dataset.tier;
-        if (!nextTier || nextTier === currentTier) return;
+        const nextMeta = cfg.tiers.find(t => t.key === nextTier);
+        if (!nextTier || !nextMeta || nextTier === currentTier) return;
         currentTier = nextTier;
-        try { localStorage.setItem('KAOYAN_WRITING_B_TIER', currentTier); } catch (e) {}
+        try {
+          localStorage.setItem(cfg.storageKey, currentTier);
+          if (cfg.lastInteractiveKey && !nextMeta.isExamFallback) {
+            localStorage.setItem(cfg.lastInteractiveKey, currentTier);
+          }
+        } catch (e) {}
+
+        if (nextMeta.isExamFallback) {
+          loadCurrentText();
+          return;
+        }
+
         yuqueContainer.querySelectorAll('.writing-b-tier-btn').forEach(b => {
           b.classList.toggle('active', b.dataset.tier === currentTier);
         });
@@ -754,7 +811,7 @@
           }
         }
         if (frame) {
-          frame.title = `${yNum} 年考研英语二 Part B 大作文套写 (${currentTier})`;
+          frame.title = `${yNum} 年考研英语二 ${cfg.partLabel} (${currentTier})`;
           frame.src = fileUrl(currentTier);
           bindMask();
         }
@@ -1101,8 +1158,8 @@
 
     // Special section rendering delegation (完形, 新题型, 翻译, Part A 小作文, Part B 大作文)
     if (isSpecialSection) {
-      if (textId === 'writing_b') {
-        renderWritingBWorkspace(year);
+      if (isInteractiveWritingActive(textId)) {
+        renderWritingWorkspace(textId, year);
         updateUIControls();
         saveState();
         return;
@@ -4494,22 +4551,22 @@
         }
       }
 
-      // Part B writing iframe: ArrowLeft (上一步) / ArrowRight (下一步)
-      if (AppState.textId === 'writing_b') {
+      // Interactive writing iframe (Part A 小作文 / Part B 大作文): ArrowLeft (上一步) / ArrowRight (下一步)
+      if (isInteractiveWritingActive(AppState.textId)) {
+        const cfg = WRITING_WORKSPACES[AppState.textId];
         const wbFrame = document.getElementById('writingBFrame');
-        if (wbFrame) {
+        if (wbFrame && cfg && cfg.shortcuts) {
           try {
             const doc = wbFrame.contentDocument || (wbFrame.contentWindow && wbFrame.contentWindow.document);
-            const dialog = doc && doc.getElementById('questionDialog');
-            if (dialog && dialog.open) return;
+            if (isWritingFrameModalOpen(doc, cfg.shortcuts)) return;
             if (e.key === 'ArrowRight' || e.key === 'PageDown') {
               e.preventDefault();
-              const nextBtn = doc && doc.getElementById('nextButton');
+              const nextBtn = doc && doc.getElementById(cfg.shortcuts.nextId);
               if (nextBtn && !nextBtn.disabled) nextBtn.click();
               return;
             } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
               e.preventDefault();
-              const prevBtn = doc && doc.getElementById('prevButton');
+              const prevBtn = doc && doc.getElementById(cfg.shortcuts.prevId);
               if (prevBtn && !prevBtn.disabled) prevBtn.click();
               return;
             }
@@ -4572,5 +4629,7 @@
     });
   }
 
+  window.loadCurrentText = loadCurrentText;
+  window.setupYearDropdown = setupYearDropdown;
   window.addEventListener('DOMContentLoaded', init);
 })();
