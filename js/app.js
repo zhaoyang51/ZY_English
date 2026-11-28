@@ -619,6 +619,33 @@
     return partKey === 'writing_a' || partKey === 'writing_b';
   }
 
+  function isUnifiedModeHidden() {
+    return AppState.examType !== 'en1' &&
+      AppState.mode !== 'vocab' &&
+      AppState.mode !== 'writing' &&
+      ['translation', 'writing_a', 'writing_b'].includes(String(AppState.textId));
+  }
+
+  function syncPracticeReviewModeButtons() {
+    const hideModeGroup = isUnifiedModeHidden();
+    const practiceBtn = document.getElementById('practiceModeBtn');
+    const reviewBtn = document.getElementById('reviewModeBtn');
+    const vocabBtn = document.getElementById('vocabModeBtn');
+    const writingBtn = document.getElementById('writingModeBtn');
+    const modeGroup = practiceBtn ? practiceBtn.parentElement : null;
+    if (modeGroup) modeGroup.style.display = hideModeGroup ? 'none' : '';
+    if (practiceBtn) {
+      practiceBtn.disabled = hideModeGroup;
+      practiceBtn.classList.toggle('active', !hideModeGroup && AppState.mode === 'practice');
+    }
+    if (reviewBtn) {
+      reviewBtn.disabled = hideModeGroup;
+      reviewBtn.classList.toggle('active', !hideModeGroup && AppState.mode === 'review');
+    }
+    if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
+    if (writingBtn) writingBtn.classList.toggle('active', AppState.mode === 'writing');
+  }
+
   function isWritingFrameModalOpen(doc, shortcuts) {
     if (!doc || !shortcuts || !shortcuts.modalId) return false;
     const el = doc.getElementById(shortcuts.modalId);
@@ -1095,23 +1122,7 @@
     document.body.classList.remove('has-trans-review');
 
     // Update Mode button active states
-    const isTranslationUnified = (AppState.textId === 'translation' && AppState.mode !== 'vocab' && AppState.mode !== 'writing');
-    const practiceBtn = document.getElementById('practiceModeBtn');
-    const reviewBtn = document.getElementById('reviewModeBtn');
-    const vocabBtn = document.getElementById('vocabModeBtn');
-    const writingBtn = document.getElementById('writingModeBtn');
-    const modeGroup = practiceBtn ? practiceBtn.parentElement : null;
-    if (modeGroup) modeGroup.style.display = isTranslationUnified ? 'none' : '';
-    if (practiceBtn) {
-      practiceBtn.disabled = isTranslationUnified;
-      practiceBtn.classList.toggle('active', !isTranslationUnified && AppState.mode === 'practice');
-    }
-    if (reviewBtn) {
-      reviewBtn.disabled = isTranslationUnified;
-      reviewBtn.classList.toggle('active', !isTranslationUnified && AppState.mode === 'review');
-    }
-    if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
-    if (writingBtn) writingBtn.classList.toggle('active', AppState.mode === 'writing');
+    syncPracticeReviewModeButtons();
 
     const yuqueContainer = document.getElementById('yuqueContainer');
     const reviewSubmodeGroup = document.getElementById('reviewSubmodeGroup');
@@ -1543,23 +1554,8 @@
     }
     const submodeContainer = document.getElementById('submodeContainer');
     const unavailable = !AppState.textData;
-    const isTranslationUnified = (AppState.textId === 'translation' && AppState.mode !== 'vocab' && AppState.mode !== 'writing');
     const practiceBtn = document.getElementById('practiceModeBtn');
-    const reviewBtn = document.getElementById('reviewModeBtn');
-    const vocabBtn = document.getElementById('vocabModeBtn');
-    const writingBtn = document.getElementById('writingModeBtn');
-    const modeGroup = practiceBtn ? practiceBtn.parentElement : null;
-    if (modeGroup) modeGroup.style.display = isTranslationUnified ? 'none' : '';
-    if (practiceBtn) {
-      practiceBtn.disabled = isTranslationUnified;
-      practiceBtn.classList.toggle('active', !isTranslationUnified && AppState.mode === 'practice');
-    }
-    if (reviewBtn) {
-      reviewBtn.disabled = isTranslationUnified;
-      reviewBtn.classList.toggle('active', !isTranslationUnified && AppState.mode === 'review');
-    }
-    if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
-    if (writingBtn) writingBtn.classList.toggle('active', AppState.mode === 'writing');
+    syncPracticeReviewModeButtons();
 
     const textSelect = document.getElementById('textSelect');
     const jumpSelect = document.getElementById('jumpSelect');
@@ -3953,7 +3949,7 @@
     const vocabBtn = document.getElementById('vocabModeBtn');
 
     practiceBtn.addEventListener('click', () => {
-      if (AppState.textId === 'translation' && AppState.mode !== 'vocab' && AppState.mode !== 'writing') return;
+      if (isUnifiedModeHidden()) return;
       if (AppState.mode === 'practice') return;
       AppState.lastReadingMode = 'practice';
       AppState.mode = 'practice';
@@ -3963,7 +3959,7 @@
     });
 
     reviewBtn.addEventListener('click', () => {
-      if (AppState.textId === 'translation' && AppState.mode !== 'vocab' && AppState.mode !== 'writing') return;
+      if (isUnifiedModeHidden()) return;
       if (AppState.mode === 'review') return;
       AppState.lastReadingMode = 'review';
       AppState.mode = 'review';

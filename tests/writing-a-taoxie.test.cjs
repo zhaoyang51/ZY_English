@@ -30,6 +30,8 @@ test('app.js configures both writing_a (进阶版/速通版 only) and writing_b 
   assert.ok(appSrc.includes("大作文套写/英二_${yNum}_${tierKey}.html"), 'app.js must keep 大作文套写 HTML URLs');
   assert.ok(appSrc.includes('window.loadCurrentText = loadCurrentText;'), 'app.js must export window.loadCurrentText');
   assert.ok(appSrc.includes('window.setupYearDropdown = setupYearDropdown;'), 'app.js must export window.setupYearDropdown');
+  assert.ok(appSrc.includes("['translation', 'writing_a', 'writing_b'].includes(String(AppState.textId))"), 'app.js must hide practice/review mode buttons for translation, writing_a, and writing_b');
+  assert.ok(appSrc.includes('syncPracticeReviewModeButtons();'), 'app.js must sync practice/review mode buttons');
 });
 
 test('WritingModule.loadSectionFromWriting jumps to Part A 小作文套写 in English 2', () => {
